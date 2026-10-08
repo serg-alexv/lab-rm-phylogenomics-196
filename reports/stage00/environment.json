@@ -1,0 +1,25 @@
+{
+  "host": "wd",
+  "os": "Майкрософт Windows 11 Pro",
+  "total_ram_bytes": 16906502144,
+  "free_ram_bytes": 4805017600,
+  "free_disk_bytes": 118363553792,
+  "process_count": 459,
+  "utc": "2026-10-08T11:46:56.508060+00:00",
+  "python_version": "3.14.6",
+  "datasets_version": "datasets version: 18.38.0",
+  "datasets_binary_sha256": "2e97a686a505cf854606c28ddb64c660a36f0019bbaa0058f1f70f1b627183a4",
+  "wsl_probe": "wd\nLinux wd 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux\n               total        used        free      shared  buff/cache   available\nMem:            7939        1116        5367           3        1613        6823\nSwap:           4096           0        4096\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/sdd       1007G   14G  942G   2% /\n/usr/bin/python3\n/usr/bin/curl\n",
+  "download_jobs": 1,
+  "compute_thread_limit": 2,
+  "toolchain_status": "ACQUISITION_READY; downstream tools absent from WSL PATH and require isolated installation",
+  "cpu_seconds": null,
+  "peak_ram_bytes": null,
+  "resource_measurement_limit": "Snapshot RAM/disk; command elapsed recorded. No peak monitor yet.",
+  "environment_scope": "Stage00 validates acquisition readiness, not successful installation or execution of downstream scientific tools",
+  "workflow_pid": 32748,
+  "model_cli_record": "See sanitized outer execution receipt; actual API usage unavailable",
+  "source_urls": [
+    "https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/"
+  ]
+}
