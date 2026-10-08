@@ -12,8 +12,12 @@ def audit(zp,acc,target):
         exact=[x for x in data if x['accession']==acc];assert len(exact)==1,'Exact requested assembly report missing/duplicate'
         catname=next(n for n in names if n.endswith('dataset_catalog.json'))
         cat=json.loads(z.read(catname)); assemblies=[x for x in cat['assemblies'] if x.get('accession')]
-        assert [x['accession'] for x in assemblies]==[acc],'Downloaded sequence catalog accession differs from requested'
-        roles={x['fileType'] for x in assemblies[0]['files']}
+        selected=[x for x in assemblies if x['accession']==acc]
+        assert len(selected)==1,'Exact requested catalog assembly absent/duplicate'
+        for extra in [x for x in assemblies if x['accession']!=acc]:
+            assert extra['accession'].split('.')[0]==acc.split('.')[0],'Unrelated catalog assembly'
+            assert not any('/'+extra['accession']+'/' in n for n in names),'Unapproved version has actual archive files'
+        roles={x['fileType'] for x in selected[0]['files']}
         expected={'GENOMIC_NUCLEOTIDE_FASTA','PROTEIN_FASTA','CDS_NUCLEOTIDE_FASTA','GFF3','GENBANK_FLAT_FILE','SEQUENCE_REPORT'}
         assert expected<=roles,'Missing requested file role: '+str(expected-roles)
         directories={PurePosixPath(n).parts[2] for n in names if n.startswith('ncbi_dataset/data/GCF_')}
