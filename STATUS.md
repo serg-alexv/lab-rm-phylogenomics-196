@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-08T20:53:51.514588+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T20:59:02.411963+00:00. Full approved196 production cohort; no pilot.
 
 Native Windows IQ-TREE3.1.4 analysis primary196: ACTUAL_NATIVE_WINDOWS_INFERENCE_RUNNING. Same four frozen matrices/partitions, MFP,1000 UFBoot/SH-aLRT, seed1961008, two threads. Actual process/job measurements attached; independent final validation and verified portable publication pending.
 
