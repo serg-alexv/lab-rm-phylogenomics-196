@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T11:47:28.209206+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T11:48:15.871401+00:00. Full approved196 production cohort; no pilot.
 
-Full196 exact-accession production retrieval is running, sequentially. Package audit is recorded separately from scientific sequence QC. No genomes omitted; stages3-7 have not run.
+Full196 retrieval: 10/196 packages retrieved and ZIP-audited; 0 failed; independent sequence validation not yet run. PID 32748.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
