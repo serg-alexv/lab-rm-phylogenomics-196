@@ -1,0 +1,100 @@
+{
+  "status": "PASS_ISOLATED_ORTHOLOGY_PROJECTION_CHECKS",
+  "tests": 22,
+  "cases": [
+    {
+      "name": "complete_synthetic196_projection_passes_all_prerequisite_receipt_and_scientific_gates",
+      "status": "PASS"
+    },
+    {
+      "name": "changed_manifest_source_hash_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "arbitrary_other_marker_exclusion_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "matrix_copynumber_change_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "matrix_length_evidence_change_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "matrix_omitted_genome_cell_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "marker_occupancy_fact_change_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "original_initial_recovery_rewrite_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_initial_recovery_gate_95_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "post_recovery_denominator101_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "post_recovery_minimum79_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "altered_retained_marker_sequence_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "excluded_IPT_FASTA_retained_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "reordered_marker_order_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "omitted_accepted_genome_FASTA_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "changed_pergenome_exact_sequence_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "threshold_relaxation95_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "original_scientific_numeric_blocker_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "original_executed_checker_hash_change_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "curation_receipt_uncovered_file_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "copied_runtime_altered_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "curated_function_review_stale_hash_rejected",
+      "status": "PASS"
+    }
+  ],
+  "validator_source_sha256": "13b194d3879c243d39fba9bcdcc9c4e38ae598b45c774d3fc4f16b09b422655e",
+  "test_source_sha256": "c144523b0b3ca408042e857c1a0c565445288bcf7865903608c1d71296558065",
+  "completed_at_utc": "2026-10-08T14:35:26.236290+00:00",
+  "biological_execution": "NOT_RUN",
+  "command": "python .work/review2/test_stage03_orthology_projection.py",
+  "evidence_limit": "Synthetic exact196/119 fixtures exercise parsers and scientific projection gates; actual full196 production validation remains separate."
+}
