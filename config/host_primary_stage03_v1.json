@@ -1,0 +1,39 @@
+{
+  "scope": "Approved full196 primary host analysis; no biological pilot",
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "profile_source": "GToTree 1.8.10 Firmicutes set; Zenodo record 13858489",
+  "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
+  "profile_count_independently_measured": 119,
+  "hmmer_cutoffs": "Stored profile GA thresholds",
+  "gene_key": "assembly|replicon|locus_tag; source protein accessions retained separately",
+  "multicopy_rule": "Two or more qualifying distinct loci for a marker in a genome are missing/flagged, without arbitrary best-hit selection",
+  "length_filter": "GToTree +/-20 percent of marker median protein length after multicopy exclusion, with exact source proteins and exclusions retained",
+  "genome_recovery_minimum": 0.8,
+  "genome_recovery_fixed_denominator": 119,
+  "genome_minimum_accepted_markers": 96,
+  "marker_occupancy_minimum": 0.9,
+  "marker_occupancy_fixed_denominator": 196,
+  "marker_minimum_accepted_genomes": 177,
+  "post_occupancy_genome_recovery_minimum": 0.8,
+  "failed_genome_rule": "Report scientific blocker; never prune or replace an approved assembly",
+  "primary_marker_order": "Sorted profile NAME identifiers from the pinned HMM, after frozen occupancy filtering",
+  "alignment": "Stage3 uses the actual GToTree1.8.10 serial amino-acid extraction helper with HMMER GA cutoffs and preserved full evidence; Stage4 aligns accepted markers with MAFFT --auto --thread 2 and trimAl -automated1. Concatenation is rebuilt in frozen marker order, with no synthetic spacer residues.",
+  "iqtree": {
+    "model_selection": "MFP separately across edge-proportional marker partitions without partition merging",
+    "rationale": "Partition-specific protein substitution models while bounding ModelFinder resource use",
+    "ultrafast_bootstrap_replicates": 1000,
+    "sh_alrt_replicates": 1000,
+    "seed": 1961008,
+    "threads_maximum": 2,
+    "memory_limit": "Set from measured free RAM with Windows headroom before execution",
+    "root_policy": "Explicitly unrooted unless separately retrieved and validated outgroups justify a root"
+  },
+  "sensitivity_scopes": [
+    "Preserved G0 exact162 list as a separate sensitivity",
+    "Markers accepted in at least187/196 genomes (95 percent occupancy)",
+    "Approved primary assemblies reported Complete Genome or Chromosome in the frozen metadata"
+  ],
+  "frozen_before_marker_search_and_topology": true,
+  "evidence_limit": "Predeclared methods. No marker search, alignment or topology result is claimed by this configuration.",
+  "configuration_revision": "stage03-v1 frozen before marker search; stage02 original config remains historical payload"
+}
