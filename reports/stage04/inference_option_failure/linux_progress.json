@@ -1,0 +1,25 @@
+{
+  "execution": "RUNNING",
+  "utc": "2026-10-08T15:30:27.840792+00:00",
+  "phase": "trees",
+  "invocation_id": "782d61af-890f-4286-918a-9513f0b63b25",
+  "job_pid": 908,
+  "processes": [
+    {
+      "pid": 908,
+      "ppid": 896,
+      "state": "D",
+      "user_ticks": 57,
+      "system_ticks": 69,
+      "start_ticks": 9270,
+      "vsize_bytes": 106729472,
+      "rss_bytes": 99188736,
+      "peak_rss_bytes": 99975168,
+      "peak_vsize_bytes": 107499520
+    }
+  ],
+  "sampled_tree_peak_rss_bytes": 99188736,
+  "linux_available_bytes": 7154565120,
+  "elapsed_seconds": 15.123308257000005,
+  "memory_measurement_limit": "Sum of sampled per-process RSS; shared pages may be counted more than once; sampling may miss short peaks"
+}
