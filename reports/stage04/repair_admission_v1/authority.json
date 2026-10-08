@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-08T20:22:36.100180+00:00",
+  "remote_reconciled_commit": "97e537004b5d34a6288f8e92cf6655f986327dff",
+  "execution": "REPAIR_AND_PLATFORM_ADAPTER_AUTHORIZED_INFERENCE_NOT_RUN",
+  "authority": "Direct human instruction to close, kill, reconfigure and delete what is necessary for the main goal; scoped repair preserves scientific data, accepted outputs, provenance, checkpoints, current control/remote connections and credentials.",
+  "manual_resets_only": true,
+  "recurring_automation": false,
+  "paid_compute": false,
+  "security_disabling": false,
+  "stopped_owner_receipt": {
+    "utc": "2026-10-08T20:15:28.3840587Z",
+    "status": "STALE_WAITER_AND_CLI_STOPPED_NO_SCIENTIFIC_JOB_INTERRUPTED",
+    "authorization": "Latest direct human force/close/kill/reconfigure instruction; deliver new scope to same existing external CLI session",
+    "external_session_id": "01a11b51-18d0-7a43-9fe3-3b961af9c44a",
+    "old_cli_pid": 28288,
+    "old_cli_created_utc": "2026-10-08T18:35:03.7763600Z",
+    "old_waiter_pid": 8200,
+    "old_waiter_created_utc": "2026-10-08T19:40:09.8656640Z",
+    "no_adoption_freeze_or_state": true,
+    "waiter_children_at_stop": 0,
+    "stopped": [
+      8200,
+      28288
+    ],
+    "scientific_processes_killed": 0,
+    "files_deleted": 0,
+    "historical_evidence_preserved": true,
+    "old_private_receipt": {
+      "status": "FAILED",
+      "exit_code": 4294967295,
+      "actual_child_exit_code": 4294967295,
+      "ended_utc": "2026-10-08T23:15:28.757742+03:00"
+    }
+  },
+  "resource_diagnostic_pid": 21480,
+  "scientific_process_started": false
+}
