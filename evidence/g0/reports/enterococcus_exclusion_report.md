@@ -1,0 +1,7 @@
+# Dated Enterococcus exclusion — PASS_ENTEROCOCCUS_EXCLUSION
+
+Scope:197 exact-version candidate assemblies; proposed retained196. NCBI metadata retrieval window: **2026-10-08T08:51:50.553815+00:00 through 2026-10-08T08:55:15.085599+00:00**, date2026-10-08. This is a retrieval-window snapshot, not a downloaded full taxdump release.
+
+The positive reference query `taxonomy/taxon/Enterococcus` returned ranked GENUS **Enterococcus, taxID1350**, confirmed by EFetch taxonomy control. Control receipts are `R0030` and `R0034`. Their URLs, raw files, timestamps and hashes are in `response_receipts.json` and `enterococcus_rule.json`. Equivalent/AKA IDs would be included in the rule; none was returned. All197 resolved lineages have exactly one genus, outside1350 and outside the ranked Enterococcus name. No unknown taxonomy is classified as non-Enterococcus; taxonomy unresolved count0. Verified Enterococcus exclusions0, explicit empty `exclusions.tsv`.
+
+This establishes outside-Enterococcus ancestry in retrieved NCBI Taxonomy, including canonical-ID/name checks and preserved synonyms. It does not establish sequence-level organism identity, contamination absence, biochemical function or all historical taxonomy versions. The one quality hold retains PASS_TAXONOMY and PASS_ENTEROCOCCUS_EXCLUSION; missing contamination is a separate quality uncertainty. Full lineage/receipts/date are in `taxonomy_verified_197.tsv`; tests re-read native JSON/XML rather than project name prefixes.

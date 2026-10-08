@@ -1,0 +1,4986 @@
+{
+  "status": "PASS_APPROVED_PANEL_FREEZE",
+  "recorded_at_utc": "2026-10-08T11:35:45.440782+00:00",
+  "host": "wd",
+  "assertions": 1244,
+  "checks": [
+    {
+      "check": "196_unique_versioned_ids",
+      "result": "PASS"
+    },
+    {
+      "check": "held_id_excluded",
+      "result": "PASS"
+    },
+    {
+      "check": "197_unique_g0_ledger",
+      "result": "PASS"
+    },
+    {
+      "check": "exact_approved_proposal_membership",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000009425.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000010145.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000011045.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014385.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014425.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014445.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014505.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000014545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000015385.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000016825.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000023085.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000025045.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000026405.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000092505.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000148815.2:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000155515.2:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000160835.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000203855.3:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000237995.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000241055.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269925.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000269945.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000298875.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000468955.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_000691805.2:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434365.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001434705.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001435245.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436135.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001436905.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437055.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001437425.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001438705.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001536305.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001618285.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702215.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001702235.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752505.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752515.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001752545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001761545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001767275.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001888925.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001891125.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001932615.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_001998805.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002174215.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002950695.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970915.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_002970935.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003150935.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003151025.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003173695.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003176835.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003264795.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003584685.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003641185.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003722275.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_003999355.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004354645.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_004377635.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405405.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_005405465.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954605.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_007954785.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008107645.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_008831485.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009184845.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009856565.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913655.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009913995.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914015.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_009914035.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_010092385.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011058775.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_011304355.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013113695.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_013407595.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014131735.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145555.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014145615.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014397255.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014656585.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_014789145.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127255.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016127815.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016647595.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_016919665.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017068355.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_017894345.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018394055.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_018502505.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019448175.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019469265.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019576155.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_019797825.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020510245.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020784695.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_020844005.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_021378055.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023169905.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023499275.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_023920145.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024334065.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024397795.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_024718545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025311495.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025490915.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025739325.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_025948295.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_026222675.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028607025.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028621815.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_028736235.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029025825.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029726355.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029854335.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_029866985.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030480545.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770265.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770295.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_030770335.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_032762665.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033142085.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_033570435.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_034703025.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_035985965.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246165.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246185.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036246225.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_036327715.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037290055.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037891785.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_037892375.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_038049945.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645515.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039645575.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783225.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039783785.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_039955095.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225485.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041225605.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041281755.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041509385.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514285.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041514295.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_041893975.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042847315.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_042997415.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045760565.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045801155.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_045862825.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_046109915.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_047344935.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050407965.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_050847345.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_051098045.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052569745.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052570115.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_052571685.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054073565.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054331775.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054452875.2:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054784775.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_054785075.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055180435.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055502585.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_055755075.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056269605.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_056676095.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_057786735.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_058111805.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_059089415.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060305805.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_060307215.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900016205.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900094835.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900240275.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519455.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900519475.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_900636965.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903885985.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886345.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903886475.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891025.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_903891205.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_947539375.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963243495.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_963281025.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_964063315.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965136965.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286035.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286295.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_965286585.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:exact_current",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:g0_taxonomy_status",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:ranked_genus",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:no_enterococcus_g0_lineage",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:reported_quality_only",
+      "result": "PASS"
+    },
+    {
+      "check": "GCF_982267005.1:streptococcus_species_scope",
+      "result": "PASS"
+    },
+    {
+      "check": "genus_counts",
+      "result": "PASS"
+    },
+    {
+      "check": "110_species",
+      "result": "PASS"
+    },
+    {
+      "check": "24_source_anchors",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/proposed_accessions.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/taxonomy_verified_197.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/proposed_final_panel.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/proposed_policy.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/panel_review_report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/panel_comparison.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/panel_exceptions.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/historical_replacements.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/genus_species_summary.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/sensitivity162_accessions.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/enterococcus_exclusion_report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/G0_acceptance_report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/independent_review.md",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/response_receipts.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/retrieval_versions.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/reports/sources.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0001.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0002.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0003.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0004.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0005.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0006.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0007.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0008.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0009.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0010.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0011.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0012.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0013.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0014.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0015.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0016.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0017.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0018.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0019.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0020.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0021.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0022.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0023.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0024.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0025.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0026.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0027.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0028.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0029.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0030.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0031.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0032.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0033.json",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0034.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0035.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0036.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0037.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0038.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0039.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/raw/R0040.xml",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/inputs/selected_accessions_stage1.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/inputs/frozen_accessions_150.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/inputs/anchor_replacements.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/inputs/literature_anchor_manifest.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "copy_hash:evidence/g0/inputs/taxa.tsv",
+      "result": "PASS"
+    }
+  ],
+  "sequence_analysis_performed": false,
+  "ncbi_refetch_performed": false
+}

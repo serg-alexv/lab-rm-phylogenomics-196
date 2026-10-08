@@ -1,0 +1,18 @@
+{
+  "policy_id": "G0_UNION196_INCLUSIVE_STRICT_METADATA_PROPOSAL_V2",
+  "approval_status": "PENDING_HUMAN_APPROVAL",
+  "baseline": "Strict-valid audited union197; proposal196 preserves selected177 plus19 strict-valid historical anchor additions.",
+  "include_conditions": [
+    "Exact requested version returned; current accession unchanged; assembly status current; annotated NCBI RefSeq GCF source.",
+    "Unique ranked GENUS and named SPECIES, Datasets/E-utilities genus/species agreement and no Enterococcus ancestry.",
+    "Ten intended operational groups; Streptococcus restricted to species taxID1308, not arbitrary Streptococcus species.",
+    "Complete Genome, Chromosome or Scaffold; reported contigs<=100, CheckM completeness>=95%, contamination<=5%, all three required.",
+    "Accession belongs to the audited197 union."
+  ],
+  "quality_boundary": "NCBI-reported metadata predicates only; no locally executed CheckM, sequence validation, ANI or genetic redundancy analysis.",
+  "coverage_rationale": "Preserve110 ranked named species and24 source-derived historical anchors with inclusive strain coverage. Not globally optimal and not necessary merely for species coverage;162 is a smaller sensitivity alternative.",
+  "legacy_exception": "Hold GCF_000056065.1 for missing contamination; inherited exception is not silently accepted.",
+  "historical_authority": "This is an explicitly revised proposal policy, not a rewrite of historical177/150 authority. Their originals and history remain immutable.",
+  "historical_query_limitations": "Current metadata supports annotated RefSeq and named species, but historical MAG/atypical/multi-isolate query exclusion is not independently re-executed or fully established.",
+  "human_gate": "Only subsequent explicit HUMAN approval may authorize sequence analysis. Parent-agent review is not approval."
+}
