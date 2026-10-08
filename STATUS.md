@@ -1,14 +1,14 @@
 # Current execution status
 
-Updated 2026-10-08T11:49:09.984362+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T11:49:15.770829+00:00. Full approved196 production cohort; no pilot.
 
-Full196 retrieval: 14/196 packages retrieved and ZIP-audited; 1 failed; independent sequence validation not yet run. PID 32748.
+Concrete execution failure: Exact accession retrieval failed after bounded retries: GCF_000148815.2. Outputs preserved; inspect status/workflow_failure.json. No downstream completion claimed.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
 | 0_environment | COMPLETED | PASS_ACQUISITION_PREFLIGHT | UPLOAD_VERIFIED |
 | 1_panel_freeze | COMPLETED | PASS_APPROVED_PANEL_FREEZE | UPLOAD_VERIFIED |
-| 2_sequences | RUNNING | NOT_RUN | PROGRESS_PUBLISHED |
+| 2_sequences | FAILED | NOT_PASS | FAILED_OR_INCOMPLETE |
 | 3_markers | NOT_RUN | NOT_RUN | NOT_RUN |
 | 4_phylogeny | NOT_RUN | NOT_RUN | NOT_RUN |
 | 5_rm_inventory | NOT_RUN | NOT_RUN | NOT_RUN |
