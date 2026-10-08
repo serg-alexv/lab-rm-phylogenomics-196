@@ -1,14 +1,14 @@
 # Current execution status
 
-Updated 2026-10-08T12:54:36.580560+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T12:54:42.289727+00:00. Full approved196 production cohort; no pilot.
 
-Full196 retrieval: 196/196 packages ZIP/catalog/provider-MD5 audited. 0 failed. Scientific QC pending. PID 26536.
+All196 raw packages retrieved with exact sequence catalog membership and provider MD5 checks. Independent annotation/sequence validation and stage02 Release publication still pending.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
 | 0_environment | COMPLETED | PASS_ACQUISITION_PREFLIGHT | UPLOAD_VERIFIED |
 | 1_panel_freeze | COMPLETED | PASS_APPROVED_PANEL_FREEZE | UPLOAD_VERIFIED |
-| 2_sequences | RUNNING | NOT_RUN | PROGRESS_PUBLISHED |
+| 2_sequences | RETRIEVED | NOT_RUN | PROGRESS_PUBLISHED |
 | 3_markers | NOT_RUN | NOT_RUN | NOT_RUN |
 | 4_phylogeny | NOT_RUN | NOT_RUN | NOT_RUN |
 | 5_rm_inventory | NOT_RUN | NOT_RUN | NOT_RUN |
