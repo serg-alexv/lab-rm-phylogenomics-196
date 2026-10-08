@@ -99,5 +99,33 @@
     "Google Drive streamed G: caches on C:; no independent physical capacity established.",
     "Local copied bytes do not prove remote Drive synchronization or offline durability.",
     "No accepted ML tree, R-M inventory or real circular figure is claimed."
-  ]
+  ],
+  "latest_continuation": {
+    "utc": "2026-10-08T18:37:51.591979+00:00",
+    "status": "COPY_HASH_VERIFIED_NEW_WD_CONTINUATION_ACTIVE_V5_NOT_ADOPTED",
+    "canonical_prior_commit": "354efbd37a765b52733a3cc0f3919a186991ff25",
+    "data_root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+    "historical_tools_runtime_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+    "copy_receipt_sha256": "33070451e60b04f2fb45aace5f263f2c0d62094e7afdfad606c6a3995b2809d6",
+    "copy_manifest_sha256": "e4b8ecc87f4d74cefe23e1e0585cac30771276646e201aae4c9abbd156e77440",
+    "actual_milestone_command_pid": 17460,
+    "actual_windows_snapshot": {
+      "utc": "2026-10-08T18:37:51.3114071Z",
+      "host": "WD",
+      "available_bytes": 4871892992,
+      "disk_available_bytes": 74070548480,
+      "pid": null,
+      "creation_utc": null,
+      "working_set_bytes": null,
+      "cpu_seconds": null
+    },
+    "scientific_inference_started": false,
+    "stage04": "INCOMPLETE",
+    "stage05_stage06_stage07": "NOT_RUN",
+    "remaining_migration_gate": "Actual G-to-WSL bootstrap and source/producer/checker integration before adoption",
+    "native_workflow_lock": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "private_events": "Remain at original C private runtime; not copied to Drive or GitHub",
+    "usage_resets": "MANUAL_USER_ONLY; none consumed by continuation",
+    "drive_durability": "Exact local size/hash gate only; Drive is streamed/cache-backed, remote synchronization not verified"
+  }
 }
