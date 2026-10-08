@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T12:43:01.077299+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T12:43:22.464318+00:00. Full approved196 production cohort; no pilot.
 
-Resumed exact sequence retrieval after documented version-history metadata exception. Only requested sequence catalog/directory is accepted; raw historical report records retained. All196 remain required.
+Full196 retrieval: 10/196 packages ZIP/catalog/provider-MD5 audited. 0 failed. Scientific QC pending. PID 26536.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
