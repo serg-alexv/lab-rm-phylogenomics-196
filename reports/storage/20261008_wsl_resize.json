@@ -1,0 +1,72 @@
+{
+  "status": "PASS_EXACT_20_GiB_EXTENSION_AND_FILESYSTEM_READBACK",
+  "utc": "2026-10-08T17:17:46.384474+00:00",
+  "distribution": "Ubuntu",
+  "before_device_bytes": 1099511627776,
+  "requested_increment_bytes": 21474836480,
+  "target_bytes": 1120986464256,
+  "target_cli": "1044GB",
+  "basis": "Direct human request to extend WSL disk additional20GB; interpreted GiB, retaining historical8GiB tool image separately.",
+  "commands": [
+    {
+      "argv": [
+        "wsl.exe",
+        "--terminate",
+        "Ubuntu"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.09418520000008357,
+      "stdout": "The operation completed successfully. \r\n",
+      "stderr": "",
+      "utc": "2026-10-08T17:17:46.483980+00:00"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--manage",
+        "Ubuntu",
+        "--resize",
+        "1044GB"
+      ],
+      "exit_code": 4294967295,
+      "elapsed_seconds": 0.15399589999992713,
+      "stdout": "The operation could not be completed because the VHD is currently in use. To force WSL to stop use: wsl.exe --shutdown\r\nError code: Wsl/Service/WSL_E_DISTRO_NOT_STOPPED\r\n",
+      "stderr": "",
+      "utc": "2026-10-08T17:17:46.639721+00:00"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--shutdown"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.0608422000000246,
+      "stdout": "",
+      "stderr": "",
+      "utc": "2026-10-08T17:17:57.915862+00:00"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--manage",
+        "Ubuntu",
+        "--resize",
+        "1044GB"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.051568800000041,
+      "stdout": "The operation completed successfully. \r\n",
+      "stderr": "e2fsck 1.47.0 (5-Feb-2023)\nPass 1: Checking inodes, blocks, and sizes\nresize2fs 1.47.0 (5-Feb-2023)\nInode 36445 extent tree (at level 2) could be narrower.  Optimize? yes\n\nInode 33554454 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33554477 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33554522 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33554560 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33554631 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33555309 extent tree (at level 1) could be narrower.  Optimize? yes\n\nInode 33555313 extent tree (at level 1) could be narrower.  Optimize? yes\n\nPass 1E: Optimizing extent trees\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n\n/dev/sdd: ***** FILE SYSTEM WAS MODIFIED *****\n/dev/sdd: 112136/67108864 files (0.3% non-contiguous), 8073814/268435456 blocks\nResizing the filesystem on /dev/sdd to 273678336 (4k) blocks.\nThe filesystem on /dev/sdd is now 273678336 (4k) blocks long.\nw\u0000s\u0000l\u0000:\u0000 \u0000T\u0000h\u0000e\u0000 \u0000w\u0000s\u0000l\u00002\u0000.\u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000F\u0000o\u0000r\u0000w\u0000a\u0000r\u0000d\u0000i\u0000n\u0000g\u0000 \u0000s\u0000e\u0000t\u0000t\u0000i\u0000n\u0000g\u0000 \u0000h\u0000a\u0000s\u0000 \u0000n\u0000o\u0000 \u0000e\u0000f\u0000f\u0000e\u0000c\u0000t\u0000 \u0000w\u0000h\u0000e\u0000n\u0000 \u0000u\u0000s\u0000i\u0000n\u0000g\u0000 \u0000m\u0000i\u0000r\u0000r\u0000o\u0000r\u0000e\u0000d\u0000 \u0000n\u0000e\u0000t\u0000w\u0000o\u0000r\u0000k\u0000i\u0000n\u0000g\u0000 \u0000m\u0000o\u0000d\u0000e\u0000\r\u0000\n\u0000",
+      "utc": "2026-10-08T17:18:03.969595+00:00"
+    }
+  ],
+  "retry_basis": "Installed WSL reported VHD still attached after Ubuntu terminate; only Ubuntu distribution is registered. Supported full WSL shutdown required for resize.",
+  "after": {
+    "root_device": "/dev/sdd",
+    "device_bytes": 1120986464256,
+    "filesystem_bytes": 1102239158272,
+    "available_bytes": 1031513030656
+  },
+  "actual_device_increment_bytes": 21474836480,
+  "verified_utc": "2026-10-08T17:18:22.840702+00:00"
+}

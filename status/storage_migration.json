@@ -1,0 +1,103 @@
+{
+  "status": "COPY_RUNNING_FULL_HASH_VERIFICATION_AND_V5_ADOPTION_PENDING",
+  "utc": "2026-10-08T18:04:08.526880+00:00",
+  "host": "wd",
+  "canonical_repository": "https://github.com/serg-alexv/lab-rm-phylogenomics-196",
+  "source_of_truth": "GitHub main plan/progress; reconcile WD execution evidence before new stages",
+  "base_commit": "8ec0cee563848b75022bc464ad586d19b07b1ffe",
+  "boot_utc": "2026-10-08T16:46:31.500000Z",
+  "data_root_windows": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "data_root_linux": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "historical_recovery_and_tool_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+  "wsl_extension": {
+    "status": "PASS_EXACT_20_GiB_EXTENSION_AND_FILESYSTEM_READBACK",
+    "before_device_bytes": 1099511627776,
+    "after_device_bytes": 1120986464256,
+    "actual_increment_bytes": 21474836480,
+    "filesystem_bytes": 1102239158272,
+    "available_bytes_at_readback": 1031513030656,
+    "verified_utc": "2026-10-08T17:18:22.840702+00:00",
+    "tool_image_bytes": 8589934592,
+    "independent_physical_capacity_added": false
+  },
+  "temporary_cleanup": {
+    "status": "PASS_EXACT_28_VERIFIED_DUPLICATE_ARCHIVES_REMOVED",
+    "files_deleted": 28,
+    "bytes_deleted": 2190984189,
+    "manifest_sha256": "911e9d88a3e83abfb6a0a600cb99aab43af7cc55f707c93292059e8c1f5b7ee8",
+    "recovery": "Retained byte-identical upload ZIPs and independently verified immutable GitHub Release assets"
+  },
+  "copy": {
+    "pid": 20704,
+    "started_utc": "2026-10-08T17:30:48.251861Z",
+    "status": "RUNNING_AT_OBSERVATION",
+    "full_copy_verification": "NOT_RUN",
+    "cloud_upload_durability": "NOT_VERIFIED"
+  },
+  "continuation_controller": {
+    "pid": 19404,
+    "started_utc": "2026-10-08T17:44:36.424879+00:00",
+    "status": "WAITING_FOR_IDENTIFIED_COPY_HELPER",
+    "manual_token_reset_only": true
+  },
+  "external_cli": {
+    "status": "NOT_STARTED_PENDING_COPY_HASH_GATE",
+    "installed_cli": "0.162.0-alpha.2",
+    "planned_model": "gpt-6.1-sol",
+    "strongest_installed_supported_effort": "ultra",
+    "session_to_resume": "01a11b51-18d0-7a43-9fe3-3b961af9c44a"
+  },
+  "migration_candidate": {
+    "status": "UNADOPTED_SYNTHETIC_TESTS_PASSED_ACTUAL_INTEROPERABILITY_PENDING",
+    "synthetic_counts": {
+      "producer_policy_native_cache_resource": 36,
+      "independent_checker": 63,
+      "adoption_source_guards": 7,
+      "migration_cli_roles": 10
+    },
+    "synthetic_total": 116,
+    "source_sha256": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_v5.py": "f8241ea7487ceb6e2c72638a633c0792eb511220246d431e9158db54cc8b9615",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_controller_v5.py": "e2bb43f76de86d8c295355894b623a4defb33e1916a36ea97ca1cdc14f79df0f",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_validate_v5.py": "433e5b97fa6b90fd2e33b373f06df82abd717cb1c875e121f346c42155665efe",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\resume_stage04_inference_v5.py": "611481b194b385ccc764b9e908b5c4e7d9de5ff59b4332fe712bf7b89dd92894",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_migration_support_v5.py": "767c3180cc257a3c5e20a8ddae8b472a27cf90dd7bc371515ff0091106d0079e",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_migration_wsl_v5.sh": "d0a2129a4667b70370116b83907944ab2eb4193b658bfbbc32015de1e15b3ab1",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_controller.py": "7838e84676f38603bdb3a2a12bf05fe709d9c6d4dc3cb92163ccd53cc642f66f",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_iqtree_limit_v4.py": "65ac74168046c7bf1ef5915c493a0cdf5ed8e45d6e5091c4f8f6947c220a528c",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_linux_launcher_v4.py": "154e0f5d45fe1d4ca3ba4815b0e9b1ad42917d38a889caa846899d765db18807",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\host_inference_stage04_v5.json": "509fd0b240cc6c3eb661fedeb44e188ebef95d25e3ad304c71753a827375ef1f"
+    },
+    "biological_jobs_run_by_tests": 0
+  },
+  "scientific_progress": {
+    "stage02": "COMPLETE_VALIDATED_UPLOAD_VERIFIED",
+    "stage03": "COMPLETE_VALIDATED_UPLOAD_VERIFIED",
+    "stage04a": "ALIGNMENTS_COMPLETE_VALIDATED_UPLOAD_VERIFIED",
+    "stage04_inference": "INCOMPLETE_ORIGINAL_AND_V3_FAILURES_PRESERVED_V4_PRE_NATIVE_RESOURCE_REJECTED",
+    "stage05": "NOT_RUN",
+    "stage06": "NOT_RUN",
+    "stage07": "NOT_RUN"
+  },
+  "resource_policy": {
+    "compute_threads": 2,
+    "native_AS_bytes": 3221225472,
+    "outer_AS_bytes": 3758096384,
+    "minimum_windows_available_bytes": 4831838208,
+    "minimum_linux_available_bytes": 4294967296,
+    "lowering_gate_or_stopping_unrelated_apps": false,
+    "native_memory_sufficiency": "UNPROVEN"
+  },
+  "next_steps": [
+    "Finish identified Drive copy and catchup; independently hash all included files.",
+    "Reconcile current GitHub main in Drive checkout; retain C history and tools.",
+    "Review/adopt new V5 migration sources only after actual bootstrap/source checks.",
+    "Remeasure headroom and resume full196 inference plus documented sensitivities.",
+    "Validate/publish/readback Stage04, then execute Stage05-07 full panel."
+  ],
+  "limitations": [
+    "Google Drive streamed G: caches on C:; no independent physical capacity established.",
+    "Local copied bytes do not prove remote Drive synchronization or offline durability.",
+    "No accepted ML tree, R-M inventory or real circular figure is claimed."
+  ]
+}

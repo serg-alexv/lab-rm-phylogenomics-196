@@ -1,8 +1,10 @@
 # Current execution status
 
-Updated 2026-10-08T16:08:29.206042+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T18:04:08.526880+00:00. Full approved196 production cohort; no pilot.
 
 Actual full196 partition inference failed on a2084933760-byte allocation under native1536MiB cap. Exact process/limits/error evidence published and read back. All196 marker/sequence and alignment ZIPs remain verified. Current Windows RAM is insufficient for the separately assessed larger bounded budget; dependent R-M/figure/final work remains unrun.
+
+Storage recovery: WSL +20GiB and scoped duplicate cleanup verified. Drive migration is COPYING; full hash verification, new external CLI launch and V5 adoption are pending. No new scientific result is claimed. See [storage evidence](reports/storage/20261008_postboot_storage.md).
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|

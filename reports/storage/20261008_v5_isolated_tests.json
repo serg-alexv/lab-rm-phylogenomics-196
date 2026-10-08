@@ -1,0 +1,57 @@
+{
+  "status": "PASS_ISOLATED_V5_REGRESSIONS_AND_CLI_ROLE_INTEGRATION",
+  "utc": "2026-10-08T18:00:57.925522+00:00",
+  "elapsed_seconds": 11.445355099999688,
+  "source_files_unchanged": true,
+  "production_sources_sha256": {
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_v5.py": "f8241ea7487ceb6e2c72638a633c0792eb511220246d431e9158db54cc8b9615",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_controller_v5.py": "e2bb43f76de86d8c295355894b623a4defb33e1916a36ea97ca1cdc14f79df0f",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_inference_validate_v5.py": "433e5b97fa6b90fd2e33b373f06df82abd717cb1c875e121f346c42155665efe",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\resume_stage04_inference_v5.py": "611481b194b385ccc764b9e908b5c4e7d9de5ff59b4332fe712bf7b89dd92894",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_migration_support_v5.py": "767c3180cc257a3c5e20a8ddae8b472a27cf90dd7bc371515ff0091106d0079e",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\stage04_migration_wsl_v5.sh": "d0a2129a4667b70370116b83907944ab2eb4193b658bfbbc32015de1e15b3ab1",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_controller.py": "7838e84676f38603bdb3a2a12bf05fe709d9c6d4dc3cb92163ccd53cc642f66f",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_iqtree_limit_v4.py": "65ac74168046c7bf1ef5915c493a0cdf5ed8e45d6e5091c4f8f6947c220a528c",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\stage04_linux_launcher_v4.py": "154e0f5d45fe1d4ca3ba4815b0e9b1ad42917d38a889caa846899d765db18807",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\migration_review\\host_inference_stage04_v5.json": "509fd0b240cc6c3eb661fedeb44e188ebef95d25e3ad304c71753a827375ef1f"
+  },
+  "tests": [
+    {
+      "test": "test_stage04_inference_v5.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6449045999997907,
+      "test_sha256": "7343678bead2e32f1ccc12b7ee097cf1164e2003aa1d5535472bc42951fa7715",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_stage04_inference_v5.stdout.log",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_stage04_inference_v5.stderr.log"
+    },
+    {
+      "test": "test_stage04_inference_validate_v5.py",
+      "exit_code": 0,
+      "elapsed_seconds": 7.550951000000168,
+      "test_sha256": "80bc7b63658d2607fdb5c5770b5c6b5f1fcb21f505cd6738c2b13410d1f34efe",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_stage04_inference_validate_v5.stdout.log",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_stage04_inference_validate_v5.stderr.log"
+    },
+    {
+      "test": "test_resume_stage04_inference_v5.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8741892999996708,
+      "test_sha256": "e8b95f27dea27f030001ed0d0426ac5ebca3fb912939e9a72363f7f2a7603ad5",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_resume_stage04_inference_v5.stdout.log",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\test_resume_stage04_inference_v5.stderr.log"
+    },
+    {
+      "test": "PARENT_migration_cli_roles.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.3359630000004472,
+      "test_sha256": "19774f6c3ac2ff7182f50e334d26846b76b2a386e57714c2d22e0e2881c8fa1a",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\PARENT_migration_cli_roles.stdout.log",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7\\PARENT_migration_cli_roles.stderr.log"
+    }
+  ],
+  "fixture_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\PARENT_V5_SYNTHETIC_055zd9r7",
+  "biological_jobs_run": 0,
+  "git_commands_run": 0,
+  "actual_G_native_interoperability": "NOT_RUN",
+  "adoption": "NOT_ADOPTED"
+}

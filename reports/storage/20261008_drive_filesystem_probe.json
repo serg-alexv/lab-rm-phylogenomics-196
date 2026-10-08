@@ -1,0 +1,54 @@
+{
+  "status": "BOUNDED_GOOGLE_DRIVE_FILESYSTEM_PROBE_COMPLETE_NO_MIGRATION",
+  "utc": "2026-10-08T17:19:11.418788+00:00",
+  "mount": {
+    "Windows_path": "G:\\My Drive",
+    "DriveFS_version": "132.0.0.0",
+    "process_ids_observed": [
+      14700,
+      17220
+    ],
+    "Win32_LogicalDisk_filesystem": "FAT32",
+    "volume_label": "Google Drive",
+    "virtual_capacity_bytes": 510950109184,
+    "virtual_free_bytes_observed": 101169405952,
+    "physical_GetVolume_G_entry": false,
+    "C_capacity_bytes": 510950109184,
+    "C_free_bytes_observed": 106494111744
+  },
+  "windows_probe_receipt": {
+    "path": "outputs/PARENT_GOOGLE_DRIVE_WINDOWS_PROBE_20261008_POSTBOOT.json",
+    "sha256": "50582230f90131ea585d1ad697c5b8ce4cde831b4293e1d05f962c5053df2d67"
+  },
+  "Windows_findings": {
+    "flush_fsync_replace": "PASS_TINY_FILES",
+    "interprocess_byte_lock": "PASS_BLOCKED_WHILE_HELD_SUCCEEDED_AFTER_RELEASE",
+    "open_handle_omitting_FILE_SHARE_DELETE": "REPLACEMENT_NOT_BLOCKED_SEMANTICS_DIFFER_FROM_NTFS",
+    "G_local_directory_junction": "FAILED_INCORRECT_FUNCTION"
+  },
+  "WSL_findings": {
+    "started_utc": "2026-10-08T17:17:14.997199+00:00",
+    "completed_utc": "2026-10-08T17:17:15.239228+00:00",
+    "existing_mnt_g": false,
+    "explicit_transient_drvfs_mount_exit": 0,
+    "windows_sentinel_read": true,
+    "WSL_write_fsync_replace_readback": true,
+    "WSL_written_bytes": 18,
+    "WSL_file_sha256": "bfa07956edc2f4dadecd47e58f83bd6f82a1e223d33b0b3e40c0eae5cf9cc6ae",
+    "Windows_readback_of_WSL_file": true,
+    "temporary_unmount_exit": 0,
+    "temporary_empty_mountpoint_removed": true,
+    "persistent_config_changes": false,
+    "probe_process_exit": 0
+  },
+  "operational_implications": [
+    "G is a DriveFS virtual namespace, not independently added local disk; advertised capacity matches C and cache still requires local space.",
+    "Tiny normal atomic replacement and byte locks work in this test, but open-handle delete-sharing semantics differ; cannot assume NTFS checkpoint/locking behavior.",
+    "Directory junction creation on G fails. C-to-G alias path semantics are reviewed separately; not proven safe by these tests.",
+    "WSL can access G through an explicit temporary drvfs mount, but /mnt/g was not automatically available. No persistent mount was installed.",
+    "No large/sparse file,VHDX/ext4-loop,SQLite/Git workload,crash/offline durability,cloud sync verification or sustained throughput tests performed.",
+    "No project data moved/deleted, no real scientific job launched; scratch directory intentionally remains for inspection."
+  ],
+  "mirror_discovery_result": "NO_LOCAL_MY_DRIVE_MIRROR_ESTABLISHED",
+  "full_local_receipt_sha256": "d664cbe978bedd44a8cdf542a427923f2d9ef3032e07065478d9f9896a78b907"
+}
