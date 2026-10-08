@@ -1,6 +1,6 @@
 {
-  "utc": "2026-10-08T16:01:40.684861+00:00",
-  "execution": "RUNNING_TREES",
+  "utc": "2026-10-08T16:01:56.510074+00:00",
+  "execution": "STOPPED_WITH_EXPLICIT_BLOCKER",
   "phase": "trees",
   "controller_pid": 34360,
   "windows_wsl_launcher_pid": 28636,
@@ -46,7 +46,7 @@
   ],
   "actual_linux_process_measurements": {
     "execution": "RUNNING",
-    "utc": "2026-10-08T16:01:36.224862+00:00",
+    "utc": "2026-10-08T16:01:41.248764+00:00",
     "phase": "trees",
     "invocation_id": "6d1767dc-ba74-43b4-a6e3-17bb435f7fff",
     "job_pid": 964,
@@ -54,19 +54,31 @@
       {
         "pid": 964,
         "ppid": 952,
-        "state": "R",
-        "user_ticks": 0,
-        "system_ticks": 1,
+        "state": "S",
+        "user_ticks": 25,
+        "system_ticks": 30,
         "start_ticks": 29848,
-        "vsize_bytes": 13217792,
-        "rss_bytes": 8822784,
-        "peak_rss_bytes": 8843264,
-        "peak_vsize_bytes": 13250560
+        "vsize_bytes": 25456640,
+        "rss_bytes": 20221952,
+        "peak_rss_bytes": 22073344,
+        "peak_vsize_bytes": 27557888
+      },
+      {
+        "pid": 965,
+        "ppid": 964,
+        "state": "D",
+        "user_ticks": 64,
+        "system_ticks": 9,
+        "start_ticks": 30267,
+        "vsize_bytes": 153407488,
+        "rss_bytes": 72454144,
+        "peak_rss_bytes": 73461760,
+        "peak_vsize_bytes": 169701376
       }
     ],
-    "sampled_tree_peak_rss_bytes": 8822784,
-    "linux_available_bytes": 7133503488,
-    "elapsed_seconds": 0.03769592499997998,
+    "sampled_tree_peak_rss_bytes": 92676096,
+    "linux_available_bytes": 7106334720,
+    "elapsed_seconds": 5.06155923099999,
     "memory_measurement_limit": "Sum of sampled per-process RSS; shared pages may be counted more than once; sampling may miss short peaks"
   },
   "stdout_log": ".work/stage04_inference_controller_v3/trees_6d1767dc-ba74-43b4-a6e3-17bb435f7fff.stdout.log",
@@ -167,6 +179,6 @@
   "scientific_validation": "INCOMPLETE",
   "alignment_substage": "ORIGINAL_TWO_PHASES_INDEPENDENTLY_VALIDATED_AND_STAGE04A_RELEASE_VERIFIED",
   "github_publication": "PROGRESS_COMMIT_ONLY_FULL_RELEASE_PENDING",
-  "failure": null,
+  "failure": "Actual native phase exit=1; outputs preserved",
   "outputs_preserved": true
 }
