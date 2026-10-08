@@ -1,0 +1,43 @@
+{
+  "windows": {
+    "utc": "2026-10-08T16:00:24.7078861Z",
+    "host": "WD",
+    "total_bytes": 16906502144,
+    "available_bytes": 3761741824,
+    "disk_bytes": 88960577536,
+    "threshold_bytes": 2147483648,
+    "failed_pid_still_present": false
+  },
+  "linux": {
+    "utc": "2026-10-08T16:00:38.796152+00:00",
+    "host": "wd",
+    "linux_available_bytes": 7163404288,
+    "cpu_affinity_available": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "boot_id": "e114c6d9-0aee-4357-8c3c-34b7c3cfebab"
+  },
+  "measurement_scope": "Actual follow-up snapshots, not retrospective values at original gate failure",
+  "required_available_bytes_each": 2147483648,
+  "actual_failed_controller_pid": 17688,
+  "native_ml_started": false,
+  "inference_state_created": false,
+  "original_gate_instant_numeric_measurement": "UNAVAILABLE; controller checked but did not persist rejected snapshots",
+  "original_controller_source_sha256": "f0039fba4c187e85ce5f83dd3682bf38b87e91b2d9205ea31d3736e7d937eaed",
+  "configuration_sha256": "f5a9884abe259a6aae74e946edfa18b353941fee1d9036ed9f1060cfd798d787"
+}
