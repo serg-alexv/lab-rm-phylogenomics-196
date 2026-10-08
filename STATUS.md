@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T19:15:42.946950+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T19:21:09.105384+00:00. Full approved196 production cohort; no pilot.
 
-Actual G bootstrap/full196 source and argv mapping checks passed; V5 still requires real producer resource binding and code adoption. Measured waiterPID27640 observes Windows3819454464bytes against unchanged4831838208-byte admission; no IQ-TREE process is running. Both detectors, figure and final handoff remain NOT_RUN.
+Actual G bootstrap/full196 source and argv mapping checks passed; V5 still requires real producer resource binding and code adoption. Measured waiterPID27640 observes Windows3374243840bytes against unchanged4831838208-byte admission; no IQ-TREE process is running. Both detectors, figure and final handoff remain NOT_RUN.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
