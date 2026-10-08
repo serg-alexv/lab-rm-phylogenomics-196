@@ -1,14 +1,14 @@
 # Current execution status
 
-Updated 2026-10-08T12:37:58.247390+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T12:38:24.778290+00:00. Full approved196 production cohort; no pilot.
 
-Full196 retrieval: 90/196 packages ZIP/catalog/provider-MD5 audited. 0 failed. Scientific QC pending. PID 16148.
+[WinError 5] Access is denied: 'C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress_resume.json.tmp' -> 'C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress_resume.json'. Outputs preserved; no downstream completion claimed.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
 | 0_environment | COMPLETED | PASS_ACQUISITION_PREFLIGHT | UPLOAD_VERIFIED |
 | 1_panel_freeze | COMPLETED | PASS_APPROVED_PANEL_FREEZE | UPLOAD_VERIFIED |
-| 2_sequences | RUNNING | NOT_RUN | PROGRESS_PUBLISHED |
+| 2_sequences | FAILED | NOT_PASS | INCOMPLETE |
 | 3_markers | NOT_RUN | NOT_RUN | NOT_RUN |
 | 4_phylogeny | NOT_RUN | NOT_RUN | NOT_RUN |
 | 5_rm_inventory | NOT_RUN | NOT_RUN | NOT_RUN |
