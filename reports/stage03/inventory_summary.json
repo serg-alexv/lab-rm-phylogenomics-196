@@ -1,0 +1,33 @@
+{
+  "execution": "COMPLETED_ALL196_SEARCHES",
+  "inventory": "MARKER_INVENTORY_CONSTRUCTED",
+  "scientific_validation": "NOT_RUN_INDEPENDENT_STAGE_CHECK_REQUIRED",
+  "approved_assemblies": 196,
+  "successful_searches": 196,
+  "profiles_searched": 119,
+  "marker_cells": 23324,
+  "primary_markers": 101,
+  "accepted_marker_sequences": 19551,
+  "blocker_count": 0,
+  "blockers": [],
+  "fixed_genome_recovery_denominator": 119,
+  "fixed_marker_occupancy_denominator": 196,
+  "post_occupancy_denominator": 101,
+  "length_integer_rounding": "Actual installed gtt-get-median.sh output then bc +/-0.2 median and bash printf %.0f; inclusive bounds. Raw numeric inputs/results and tool hashes retained.",
+  "host_marker_annotation_review": "REVIEW_REQUIRED_BEFORE_STAGE04_TOPOLOGY",
+  "alignment_execution": "NOT_RUN_RESERVED_STAGE04",
+  "identity": {
+    "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+    "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
+    "runner_sha256": "90d32775493167b6d7ca423c487fdabb943023760ebddd388d277be71102f2e5",
+    "wrapper_sha256": "f3d759579f9b9711aadcd51f0c38b0cf748cab0bbceae074e59d283bf640dd6f",
+    "source_construction_summary_sha256": "1bc31a4e8f623c69f33b4e3eac477fdef8bc34dd6993069a4d224bd450573f45",
+    "stage02_validation_summary_sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+    "independent_source_locus_validation_summary_sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+    "helper_sha256": "182c7ee3834f5deb7e65750c7f1a6964c4d0cfe312b26e967ccf7d5ef930fc78",
+    "hmmsearch_sha256": "9fa72a2971e284d713f0639a8b219f17ea04ff307b0325c020111382fd872ce3",
+    "rename_sha256": "60609b27bf2abf56db2785e2929834494fb7ccc1048934a37103edd6fe312e0e"
+  },
+  "evidence_limit": "Profile prediction/orthology inventory and source integrity; no phylogeny, ANI or functional evidence."
+}

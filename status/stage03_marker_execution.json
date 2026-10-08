@@ -1,0 +1,19 @@
+{
+  "execution": "ALL196_SEARCHES_COMPLETED",
+  "utc": "2026-10-08T14:14:27.426611+00:00",
+  "workflow_pid": 27116,
+  "wsl_launcher_pid": 30464,
+  "argv": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "scripts/wsl_project.sh",
+    "host",
+    "bash",
+    "scripts/run_stage03_host.sh"
+  ],
+  "exit_code": 0,
+  "scientific_validation": "INDEPENDENT_REVIEW_PENDING"
+}
