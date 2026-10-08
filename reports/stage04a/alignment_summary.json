@@ -1,0 +1,121 @@
+{
+  "execution": "ALL_PRIMARY_ALIGNMENTS_AND_FOUR_CONCATENATIONS_CONSTRUCTED",
+  "scientific_validation": "NOT_RUN",
+  "github_publication": "NOT_RUN",
+  "identity": {
+    "runner_sha256": "41cf00eb3da81a9c8bb83b51449c1e9c8a3156af7efbce223216ac46ca6d12ed",
+    "config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+    "stage03_runtime_receipt_sha256": "5b06be930c0ca5a28744498839973f431a2dd6afe62099c1bc36ab580f870da7",
+    "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "approved_metadata_sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf",
+    "marker_validation_sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "inventory_summary_sha256": "a821ea96933660648fbbaa3d10558496b4f11c69ee825e488186595e33c032ab",
+    "accepted_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+    "primary_marker_order_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "marker_qc_sha256": "47dc0e85a96cd18646d23c36f9905516936b026ebc10ef039ed0d96ee36ea010",
+    "sensitivity162_source_sha256": "047ec5b310a1c0dab2b31a7d5792322113fb73e4031c93db60b4fbde5c0b73c0",
+    "mafft_sha256": "1f83c51042ae76f09f280cd5bcd0494e74401a9697b22fd6324c01174a9bec8e",
+    "trimal_sha256": "381bdd6a9b3bb88b1252faa2279c5b3e5850ae076f23868c8784475be635df10",
+    "iqtree3_sha256": "bab131a95f0a5362dd590a2868ed37a306b2b40474676b6fc0087dcd30f658f3",
+    "iqtree_memory_mib": 1536,
+    "root_policy": "UNROOTED_NO_OUTGROUP_REFERENCE_SEQUENCES_RETRIEVED_OR_VALIDATED",
+    "resource_receipt_sha256": "a978a46e9200f23f19d5edbee2c68784dd7e59339e41402377ce993247309c2e",
+    "marker_validation_path": ".work/stage03_curated_validation/validation_summary.json",
+    "host_config_path": "config/host_primary_stage03_v1.json",
+    "orthology_curation_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1",
+    "orthology_curation_receipt_sha256": "8ec14b0d44ffa19467b8a4ed2220a17f61476949f93164084c4e26dba1a01cfc",
+    "original_marker_validation_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+    "original_marker_validation_path": ".work/stage03_marker_validation/validation_summary.json",
+    "original_markers_path": ".work/stage03_markers_v1",
+    "orthology_curation_config_path": "config/host_orthology_stage03_v2.json",
+    "orthology_policy": "One whole redundant IPT family removed; original119/196 filters preserved, additionalunique96 gate",
+    "primary_marker_count": 100,
+    "accepted_marker_sequence_count": 19359
+  },
+  "aligned_markers": 100,
+  "analyses": [
+    {
+      "name": "primary196",
+      "taxa": 196,
+      "markers": 100,
+      "columns": 17456,
+      "file_sha256": {
+        "concatenated.faa": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+        "concatenated.clw": "da4885a5d007cfe61e8beeb2391383ffbfabe6a93a614a67cdf85be99fd2f920",
+        "concatenated.phy": "f4f2e93b2e2e5add3a5289935e405fb46f6a37a2751773f8fd97c9d636449751",
+        "concatenated.nex": "13b3e92a5ee2d481ccd5be17ab6fad5459281cbc249516fe2d369f9b3a945678",
+        "partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+        "partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+        "source_block_mapping.tsv": "7785b64c3dc237ca77ee7e6411579fa8497a6e2c0b6d5c07a8de054891e99f5f",
+        "accessions.txt": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+        "marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+        "identical_alignment_groups.json": "8ace20ef0c75c14ae8f7ab70af243b435e5652561974d3f174d592a8442908ef",
+        "tip_label_map.tsv": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341"
+      }
+    },
+    {
+      "name": "sensitivity162",
+      "taxa": 162,
+      "markers": 100,
+      "columns": 17456,
+      "file_sha256": {
+        "concatenated.faa": "43f712b9916beee3d2e18388d24f3fd9b49727d1dc05bf265cc4e525fe118e82",
+        "concatenated.clw": "f383c1ce0a1d30cbcea0c5dc2f0cc0dfe3ff08254502c22ab50e27824f001e24",
+        "concatenated.phy": "79269884d8bcb7a0b4fddb7a830fac8e1748e20924516cb663a682fab05090a7",
+        "concatenated.nex": "d38cff1192c0b6b111b6637e631d860b93f82f474a63be79c9a00f249cff3b60",
+        "partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+        "partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+        "source_block_mapping.tsv": "2a5e00fd0cec6f149c26780162d0af7af08d990156562deaa4a6e41ab3918fa0",
+        "accessions.txt": "e8781ba9f2a42515f84bb13b37cb496d2f3df9e5d1bbed0bb15adff03456bd8e",
+        "marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+        "identical_alignment_groups.json": "1d6de99729e5ff443aef276f4597b896147ace65e55aeb41c74e3f343bb2ce49",
+        "tip_label_map.tsv": "1c121ab7d9ecc8840babd11f7b3cdbeaec889b05e99478d4c6e137a0d5f20a8f"
+      }
+    },
+    {
+      "name": "sensitivity187_markers",
+      "taxa": 196,
+      "markers": 88,
+      "columns": 15174,
+      "file_sha256": {
+        "concatenated.faa": "284fe5a7150bc20566985205756b566a1b207d92f26961841e70aa8fb65ed050",
+        "concatenated.clw": "db5f1783187f470e6f68f1590eb93110d207b9f4104f6f9de4dfe8f4c4f78e9d",
+        "concatenated.phy": "e9ba7d937e6d9d399b7deb3d99876c387d3812dc2ec35fb8b6d63d783db8dc22",
+        "concatenated.nex": "1c7cd187606fc44cf10670954587c390d949c655c5a6ae6e8de2b5f2b7a4f0bd",
+        "partitions.tsv": "73e652287552c5f91bd03ad84bf607dcdff360bda08c2eace765fe3bfefc04ba",
+        "partitions.nex": "4d17ecc88bfdbf39b9625cb3cfa10ce6a31077c5edda4fa52d495bdd659ac760",
+        "partitions.raxml.txt": "67a20ece82f1a3cce3d72c18644d06ba4b018ec58e63919eacde4cfb9568d6ea",
+        "source_block_mapping.tsv": "344fe894f10779654bcccead43b727d986021ebbc3d18125b2d78722233b617c",
+        "accessions.txt": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+        "marker_order.txt": "a0b5c046b006c08cb7753d10fbd3d36e5e2d4f42e46ba8102156f279449a7d27",
+        "identical_alignment_groups.json": "ef2e469824d253adf3ef356ce594c7b000579fa687d04b73edec1ef5250c36b8",
+        "tip_label_map.tsv": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341"
+      }
+    },
+    {
+      "name": "sensitivity_complete155",
+      "taxa": 155,
+      "markers": 100,
+      "columns": 17456,
+      "file_sha256": {
+        "concatenated.faa": "fffafda6f2f6d40629bc69452c68b35b732d8e562e39c9db18f5431bbe931267",
+        "concatenated.clw": "0670d03204190b633df099e22f42b90c2404a351852c46dd300ea19f10cdefe4",
+        "concatenated.phy": "6a310305ef2f42c71246e5ce4e3910a06622d8561df2932fc006e6aa0b5d97cb",
+        "concatenated.nex": "18fc836932ee230e379282ac4e383787397e00038be6b24d3483157eacc417cf",
+        "partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+        "partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+        "source_block_mapping.tsv": "52348ad7f181cc2083b89789ba99b051484a5c4c89a18493f1fd2b3defeae309",
+        "accessions.txt": "90b7a7ffb25b148eb2f04856c39a7f31c9486c211140f353bc536cc2de64aa46",
+        "marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+        "identical_alignment_groups.json": "b4ce8f331a51baf1c7c05edb7f57b01db70a7d75d9b4283c024bc7549754f36d",
+        "tip_label_map.tsv": "95837e1a9c13b6a42e4692a282398c28209ebbc084e924e255748ae0596bc586"
+      }
+    }
+  ],
+  "analysis_freeze_sha256": "0fd9308d8f813e47a66530bef4b20d33e30515b6e043c981c3224973d96f95a3",
+  "analysis_manifest_sha256": "817c5ed6b7ec3f6863a062a4758c86a31a33f60c5e37a336f375e5a73fcaaa64",
+  "tree_execution": "NOT_RUN_INDEPENDENT_ALIGNMENT_GATE_REQUIRED"
+}

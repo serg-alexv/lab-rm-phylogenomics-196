@@ -1,0 +1,786 @@
+{
+  "status": "PASS_ALIGNMENT_FORMATS_AND_PARTITIONS",
+  "utc": "2026-10-08T15:17:50.708537+00:00",
+  "analyses_verified": 4,
+  "primary_tip_ids": 196,
+  "profiles_aligned": 100,
+  "alignment_summary_sha256": "f027a745f5499da4723068111444b5b64c76119c8bfed35e67cb8c00e281d79e",
+  "analysis_freeze_sha256": "0fd9308d8f813e47a66530bef4b20d33e30515b6e043c981c3224973d96f95a3",
+  "analysis_manifest_sha256": "817c5ed6b7ec3f6863a062a4758c86a31a33f60c5e37a336f375e5a73fcaaa64",
+  "producer_identity": {
+    "runner_sha256": "41cf00eb3da81a9c8bb83b51449c1e9c8a3156af7efbce223216ac46ca6d12ed",
+    "config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+    "stage03_runtime_receipt_sha256": "5b06be930c0ca5a28744498839973f431a2dd6afe62099c1bc36ab580f870da7",
+    "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "approved_metadata_sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf",
+    "marker_validation_sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "inventory_summary_sha256": "a821ea96933660648fbbaa3d10558496b4f11c69ee825e488186595e33c032ab",
+    "accepted_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+    "primary_marker_order_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "marker_qc_sha256": "47dc0e85a96cd18646d23c36f9905516936b026ebc10ef039ed0d96ee36ea010",
+    "sensitivity162_source_sha256": "047ec5b310a1c0dab2b31a7d5792322113fb73e4031c93db60b4fbde5c0b73c0",
+    "mafft_sha256": "1f83c51042ae76f09f280cd5bcd0494e74401a9697b22fd6324c01174a9bec8e",
+    "trimal_sha256": "381bdd6a9b3bb88b1252faa2279c5b3e5850ae076f23868c8784475be635df10",
+    "iqtree3_sha256": "bab131a95f0a5362dd590a2868ed37a306b2b40474676b6fc0087dcd30f658f3",
+    "iqtree_memory_mib": 1536,
+    "root_policy": "UNROOTED_NO_OUTGROUP_REFERENCE_SEQUENCES_RETRIEVED_OR_VALIDATED",
+    "resource_receipt_sha256": "a978a46e9200f23f19d5edbee2c68784dd7e59339e41402377ce993247309c2e",
+    "marker_validation_path": ".work/stage03_curated_validation/validation_summary.json",
+    "host_config_path": "config/host_primary_stage03_v1.json",
+    "orthology_curation_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1",
+    "orthology_curation_receipt_sha256": "8ec14b0d44ffa19467b8a4ed2220a17f61476949f93164084c4e26dba1a01cfc",
+    "original_marker_validation_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+    "original_marker_validation_path": ".work/stage03_marker_validation/validation_summary.json",
+    "original_markers_path": ".work/stage03_markers_v1",
+    "orthology_curation_config_path": "config/host_orthology_stage03_v2.json",
+    "orthology_policy": "One whole redundant IPT family removed; original119/196 filters preserved, additionalunique96 gate",
+    "primary_marker_count": 100,
+    "accepted_marker_sequence_count": 19359
+  },
+  "validator_source_sha256": "f894ef292e8cdfad7a3d67473d379c9bb47abff0c1b34fd6140cc0faf47126b9",
+  "biopython_version": "1.88",
+  "upstream_marker_gate": {
+    "view": "INDEPENDENTLY_CURATED_TOPOLOGY_BLIND_ORTHOLOGY",
+    "original_scientific_status": "HOST_ORTHOLOGY_DUPLICATE_SIGNAL_REVIEW_REQUIRED",
+    "original_marker_validation_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+    "marker_validation_sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "orthology_curation_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1",
+    "retained_profiles": 100,
+    "retained_source_sequences": 19359,
+    "biological_search_reexecuted": false
+  },
+  "marker_checks": [
+    {
+      "profile": "5-FTHF_cyc-lig",
+      "raw_columns": 210,
+      "trimmed_columns": 119,
+      "taxa": 189,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ADK",
+      "raw_columns": 224,
+      "trimmed_columns": 216,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ATP-synt",
+      "raw_columns": 341,
+      "trimmed_columns": 238,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ATP-synt_A",
+      "raw_columns": 254,
+      "trimmed_columns": 194,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ATP-synt_B",
+      "raw_columns": 184,
+      "trimmed_columns": 146,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ATP-synt_DE_N",
+      "raw_columns": 171,
+      "trimmed_columns": 129,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Adenylsucc_synt",
+      "raw_columns": 444,
+      "trimmed_columns": 438,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "CTP_transf_1",
+      "raw_columns": 290,
+      "trimmed_columns": 213,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Cpn10",
+      "raw_columns": 97,
+      "trimmed_columns": 94,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Cpn60_TCP1",
+      "raw_columns": 557,
+      "trimmed_columns": 535,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Cytidylate_kin2",
+      "raw_columns": 240,
+      "trimmed_columns": 223,
+      "taxa": 190,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DHOase",
+      "raw_columns": 451,
+      "trimmed_columns": 360,
+      "taxa": 189,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DNA_pol3_delta",
+      "raw_columns": 372,
+      "trimmed_columns": 287,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DNA_processg_A",
+      "raw_columns": 330,
+      "trimmed_columns": 191,
+      "taxa": 186,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DUF1934",
+      "raw_columns": 179,
+      "trimmed_columns": 105,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DUF448",
+      "raw_columns": 115,
+      "trimmed_columns": 107,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DUF951",
+      "raw_columns": 79,
+      "trimmed_columns": 74,
+      "taxa": 177,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "DnaJ_C",
+      "raw_columns": 423,
+      "trimmed_columns": 367,
+      "taxa": 178,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "EF_TS",
+      "raw_columns": 349,
+      "trimmed_columns": 343,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Exonuc_VII_L",
+      "raw_columns": 548,
+      "trimmed_columns": 334,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Exonuc_VII_S",
+      "raw_columns": 93,
+      "trimmed_columns": 62,
+      "taxa": 177,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "FA_synthesis",
+      "raw_columns": 369,
+      "trimmed_columns": 297,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "GatB_N",
+      "raw_columns": 484,
+      "trimmed_columns": 474,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Glu-tRNAGln",
+      "raw_columns": 116,
+      "trimmed_columns": 78,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "GrpE",
+      "raw_columns": 254,
+      "trimmed_columns": 145,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "HSP33",
+      "raw_columns": 331,
+      "trimmed_columns": 242,
+      "taxa": 194,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Hpr_kinase_C",
+      "raw_columns": 333,
+      "trimmed_columns": 315,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "HrcA",
+      "raw_columns": 382,
+      "trimmed_columns": 280,
+      "taxa": 180,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "IPPT",
+      "raw_columns": 337,
+      "trimmed_columns": 222,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "IreB",
+      "raw_columns": 99,
+      "trimmed_columns": 82,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "MreC",
+      "raw_columns": 296,
+      "trimmed_columns": 253,
+      "taxa": 194,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "NusG",
+      "raw_columns": 240,
+      "trimmed_columns": 182,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "OSCP",
+      "raw_columns": 190,
+      "trimmed_columns": 144,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "PGI",
+      "raw_columns": 457,
+      "trimmed_columns": 446,
+      "taxa": 186,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "PGK",
+      "raw_columns": 420,
+      "trimmed_columns": 416,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Pept_tRNA_hydro",
+      "raw_columns": 193,
+      "trimmed_columns": 152,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Prenyltransf",
+      "raw_columns": 283,
+      "trimmed_columns": 233,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RBFA",
+      "raw_columns": 135,
+      "trimmed_columns": 117,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RNA_pol_L",
+      "raw_columns": 319,
+      "trimmed_columns": 312,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RRF",
+      "raw_columns": 188,
+      "trimmed_columns": 185,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RecO_C",
+      "raw_columns": 284,
+      "trimmed_columns": 208,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RecX",
+      "raw_columns": 298,
+      "trimmed_columns": 226,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribonuclease_P",
+      "raw_columns": 151,
+      "trimmed_columns": 93,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosom_S12_S23",
+      "raw_columns": 140,
+      "trimmed_columns": 137,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L1",
+      "raw_columns": 234,
+      "trimmed_columns": 229,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L13",
+      "raw_columns": 151,
+      "trimmed_columns": 147,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L14",
+      "raw_columns": 122,
+      "trimmed_columns": 122,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L16",
+      "raw_columns": 147,
+      "trimmed_columns": 137,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L17",
+      "raw_columns": 133,
+      "trimmed_columns": 131,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L18p",
+      "raw_columns": 123,
+      "trimmed_columns": 118,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L19",
+      "raw_columns": 129,
+      "trimmed_columns": 118,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L21p",
+      "raw_columns": 108,
+      "trimmed_columns": 102,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L22",
+      "raw_columns": 120,
+      "trimmed_columns": 115,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L23",
+      "raw_columns": 112,
+      "trimmed_columns": 97,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L27",
+      "raw_columns": 108,
+      "trimmed_columns": 103,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L27A",
+      "raw_columns": 157,
+      "trimmed_columns": 143,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L28",
+      "raw_columns": 70,
+      "trimmed_columns": 67,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L29",
+      "raw_columns": 77,
+      "trimmed_columns": 61,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L3",
+      "raw_columns": 252,
+      "trimmed_columns": 229,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L34",
+      "raw_columns": 46,
+      "trimmed_columns": 44,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L35p",
+      "raw_columns": 67,
+      "trimmed_columns": 65,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L36",
+      "raw_columns": 39,
+      "trimmed_columns": 37,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L4",
+      "raw_columns": 213,
+      "trimmed_columns": 206,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L6",
+      "raw_columns": 179,
+      "trimmed_columns": 177,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_L9_C",
+      "raw_columns": 152,
+      "trimmed_columns": 150,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S10",
+      "raw_columns": 102,
+      "trimmed_columns": 102,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S11",
+      "raw_columns": 133,
+      "trimmed_columns": 127,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S13",
+      "raw_columns": 128,
+      "trimmed_columns": 121,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S15",
+      "raw_columns": 89,
+      "trimmed_columns": 89,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S16",
+      "raw_columns": 96,
+      "trimmed_columns": 91,
+      "taxa": 177,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S17",
+      "raw_columns": 90,
+      "trimmed_columns": 87,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S19",
+      "raw_columns": 96,
+      "trimmed_columns": 92,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S2",
+      "raw_columns": 278,
+      "trimmed_columns": 251,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S20p",
+      "raw_columns": 89,
+      "trimmed_columns": 83,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S21",
+      "raw_columns": 64,
+      "trimmed_columns": 61,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S30AE",
+      "raw_columns": 208,
+      "trimmed_columns": 178,
+      "taxa": 189,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S6",
+      "raw_columns": 105,
+      "trimmed_columns": 96,
+      "taxa": 181,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S7",
+      "raw_columns": 156,
+      "trimmed_columns": 155,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S8",
+      "raw_columns": 133,
+      "trimmed_columns": 131,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Ribosomal_S9",
+      "raw_columns": 133,
+      "trimmed_columns": 130,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RsfS",
+      "raw_columns": 128,
+      "trimmed_columns": 98,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "RuvX",
+      "raw_columns": 157,
+      "trimmed_columns": 141,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SHMT",
+      "raw_columns": 464,
+      "trimmed_columns": 407,
+      "taxa": 178,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SMC_ScpA",
+      "raw_columns": 292,
+      "trimmed_columns": 163,
+      "taxa": 193,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SMC_ScpB",
+      "raw_columns": 233,
+      "trimmed_columns": 135,
+      "taxa": 193,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SecE",
+      "raw_columns": 67,
+      "trimmed_columns": 46,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SecG",
+      "raw_columns": 87,
+      "trimmed_columns": 66,
+      "taxa": 194,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "SmpB",
+      "raw_columns": 160,
+      "trimmed_columns": 158,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "TrmK",
+      "raw_columns": 259,
+      "trimmed_columns": 183,
+      "taxa": 195,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "TsaE",
+      "raw_columns": 181,
+      "trimmed_columns": 103,
+      "taxa": 186,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "Tyr_Deacylase",
+      "raw_columns": 153,
+      "trimmed_columns": 148,
+      "taxa": 192,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "UPF0052",
+      "raw_columns": 357,
+      "trimmed_columns": 321,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "UPF0054",
+      "raw_columns": 185,
+      "trimmed_columns": 138,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "VEG",
+      "raw_columns": 119,
+      "trimmed_columns": 64,
+      "taxa": 182,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "YGGT",
+      "raw_columns": 104,
+      "trimmed_columns": 75,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "YbbR",
+      "raw_columns": 428,
+      "trimmed_columns": 256,
+      "taxa": 193,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "YceD",
+      "raw_columns": 223,
+      "trimmed_columns": 130,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "eIF-1a",
+      "raw_columns": 79,
+      "trimmed_columns": 72,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "ribosomal_L24",
+      "raw_columns": 114,
+      "trimmed_columns": 101,
+      "taxa": 183,
+      "trimmed_all_residue_sequences": 0
+    },
+    {
+      "profile": "tRNA_m1G_MT",
+      "raw_columns": 273,
+      "trimmed_columns": 245,
+      "taxa": 196,
+      "trimmed_all_residue_sequences": 0
+    }
+  ],
+  "alignment_checks": [
+    {
+      "analysis": "primary196",
+      "tips": 196,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 19600
+    },
+    {
+      "analysis": "sensitivity162",
+      "tips": 162,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 16200
+    },
+    {
+      "analysis": "sensitivity187_markers",
+      "tips": 196,
+      "partitions": 88,
+      "columns": 15174,
+      "blocks_reconstructed": 17248
+    },
+    {
+      "analysis": "sensitivity_complete155",
+      "tips": 155,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 15500
+    }
+  ],
+  "tree_execution": "NOT_CHECKED_ALIGNMENT_PHASE",
+  "publication": "NOT_CHECKED"
+}
