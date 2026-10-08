@@ -3,6 +3,8 @@ import production_resume as w
 from pathlib import Path, PurePosixPath
 import json,zipfile,hashlib,time,os,sys,msvcrt
 R=w.R;w.LOG=R/'reports/stage02/commands.jsonl'
+from workflow_publication import commit as audited_commit
+w.commit=audited_commit
 
 def audit(zp,acc,target):
     with zipfile.ZipFile(zp) as z:
