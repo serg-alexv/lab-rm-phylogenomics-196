@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "unsafe_member_../escape",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "unsafe_member_/absolute",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "unsafe_member_C:/drive",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "unsafe_member_a\\b",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "unsafe_member_a/./b",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "fasta_prefix",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "empty_fasta",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "invalid_dna",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "conflicting_protein_id",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "conflicting_cds_header_attribute",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "gff_columns",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "gff_coordinate_zero",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "gff_wrong_sequence_length",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "gff_wrong_phase",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "unjustified_circular_coordinates",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "case": "circular_minus_strand_alternative_start_duplicate_wp_positive_cases",
+      "result": "PASS"
+    }
+  ],
+  "validator_source_sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+  "biopython_version": "1.88"
+}

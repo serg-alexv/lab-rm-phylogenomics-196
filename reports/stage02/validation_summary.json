@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SEQUENCE_INTEGRITY_WITH_DOCUMENTED_EXCEPTIONS",
+  "started_at_utc": "2026-10-08T12:56:39.274563+00:00",
+  "ended_at_utc": "2026-10-08T13:01:05.076842+00:00",
+  "elapsed_seconds": 265.8022826000001,
+  "approved_assemblies": 196,
+  "raw_packages_present": 196,
+  "assemblies_reported": 196,
+  "locus_map_rows_written": 411514,
+  "assemblies_with_errors": 0,
+  "error_count": 0,
+  "review_exception_count": 16155,
+  "exception_counts": {
+    "DOCUMENTED_ANNOTATION_EXCEPTION": 13586,
+    "GFF_INTERNAL_PHASE_DOCUMENTED_EXCEPTION": 609,
+    "ARCHIVAL_METADATA_CATALOG_REFERENCE": 4,
+    "ARCHIVAL_ASSEMBLY_METADATA_REPORT": 4,
+    "SOURCE_PARTIAL_OR_FUZZY_CDS": 1011,
+    "SOURCE_CDS_CODON_START_OFFSET": 535,
+    "PARTIAL_TERMINAL_UNKNOWN_OMITTED": 282,
+    "PARTIAL_TERMINAL_CODON_AMBIGUITY_VALIDATION": 115,
+    "PSEUDOGENE_GENE_WITHOUT_CDS": 9
+  },
+  "complete_exact196_accounting": true,
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "frozen_taxonomy_ledger_sha256": "b2305b0e2766b097545ca727f12a01a81fcbe16076903c188a971dfe5243bde5",
+  "validator_source_sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+  "python_version": "3.14.6",
+  "biopython_version": "1.88",
+  "parser_test_count": 16,
+  "evidence_limit": "Package/sequence/annotation integrity. Documented pseudogene, translation, partial and archive metadata exceptions remain explicit. No ANI or functional certification."
+}
