@@ -505,48 +505,6 @@ def attempt_audit(attempt, argv, identity, host_env, helper):
             'children_peak_rss_bytes_cumulative': command['children_peak_rss_bytes_cumulative']}
 
 
-def finite_tree_parse(path, format):
-    """Reject malformed/nonfinite branch tokens before Biopython can relabel them.
-
-    Quoted labels (including doubled quote escapes) and nested comments are
-    excluded from token inspection; colons inside those are not branch syntax.
-    """
-    text = Path(path).read_text()
-    visible = []
-    quote, comments, index = None, 0, 0
-    while index < len(text):
-        char = text[index]
-        if comments:
-            if char == '[': comments += 1
-            elif char == ']': comments -= 1
-            visible.append(' ')
-        elif quote:
-            visible.append(' ')
-            if char == quote:
-                if index + 1 < len(text) and text[index + 1] == quote:
-                    visible.append(' '); index += 1
-                else: quote = None
-        elif char in ("'", '"'):
-            quote = char; visible.append(' ')
-        elif char == '[':
-            comments = 1; visible.append(' ')
-        else:
-            visible.append(char)
-        index += 1
-    check(quote is None and comments == 0, 'Unclosed quoted tree label/comment')
-    syntax = ''.join(visible)
-    number = r'[+-]?(?:[0-9]+(?:\.[0-9]*)?|\.[0-9]+)(?:[eE][+-]?[0-9]+)?'
-    for colon in re.finditer(':', syntax):
-        token = re.match(r'\s*(' + number + r')(?=\s*[,();]|\s*$)', syntax[colon.end():])
-        check(token is not None, 'Malformed/nonfinite raw tree branch token')
-        value = float(token.group(1))
-        check(math.isfinite(value) and value >= 0, 'Nonfinite/negative raw tree branch length')
-    for tree in Phylo.parse(io.StringIO(text), format):
-        check(all(node.branch_length is None or (math.isfinite(node.branch_length) and node.branch_length >= 0)
-                  for node in tree.find_clades()), 'Nonfinite/negative parsed tree branch length')
-        yield tree
-
-
 def resumed_tree_audit(args, analysis, identity, completed):
     source = args.alignment_input / 'analyses' / analysis['name']
     tree_dir = args.input / 'analyses' / analysis['name'] / 'iqtree'
@@ -563,11 +521,11 @@ def resumed_tree_audit(args, analysis, identity, completed):
     verify_files(tree_dir, receipt['file_sha256'])
     ids = analysis['accessions']
     alignment = records(source / 'concatenated.faa', aligned=True)
-    trees = list(finite_tree_parse(tree_dir / 'host.treefile', 'newick'))
+    trees = list(Phylo.parse(tree_dir / 'host.treefile', 'newick'))
     check(len(trees) == 1 and trees[0].rooted is False, 'Final native tree rooted/multiple')
     tree = trees[0]
     for file, format in [('host.treefile', 'newick'), ('host.contree', 'newick'), ('unrooted.nwk', 'newick'), ('unrooted.nex', 'nexus')]:
-        parsed = list(finite_tree_parse(tree_dir / file, format))
+        parsed = list(Phylo.parse(tree_dir / file, format))
         check(len(parsed) == 1, 'Portable/native tree must contain one tree')
         labels = [n.name for n in parsed[0].get_terminals()]
         check(len(labels) == len(set(labels)) == len(ids) and set(labels) == set(ids), 'Tree exact-tip membership changed')
@@ -577,7 +535,7 @@ def resumed_tree_audit(args, analysis, identity, completed):
             check(split_sets(parsed[0], ids) == split_sets(tree, ids), 'Portable unrooted export changes native splits')
     supports, omitted = branch_support_states(tree, alignment)
     count = 0
-    for replicate in finite_tree_parse(tree_dir / 'host.ufboot', 'newick'):
+    for replicate in Phylo.parse(tree_dir / 'host.ufboot', 'newick'):
         labels = [n.name for n in replicate.get_terminals()]
         check(len(labels) == len(set(labels)) == len(ids) and set(labels) == set(ids), 'Native UFBoot replicate missing/duplicate/foreign tip')
         check(all(n.branch_length is None or (math.isfinite(n.branch_length) and n.branch_length >= 0) for n in replicate.find_clades()), 'Invalid bootstrap branch length')
@@ -627,17 +585,8 @@ def resumed_tree_audit(args, analysis, identity, completed):
     label_map = {r['tree_label']: r['assembly_accession'] for r in labels}
     check(len(label_map) == len(labels) == len(ids) and set(label_map.values()) == set(ids), 'Labeled tip map duplicates/missing')
     for name, format in [('unrooted_labeled.nwk', 'newick'), ('unrooted_labeled.nex', 'nexus')]:
-        exported = list(finite_tree_parse(tree_dir / name, format))
+        exported = list(Phylo.parse(tree_dir / name, format))
         check(len(exported) == 1, 'Labeled export contains multiple trees')
-        # Bio.Nexus can retain the Newick quote delimiters in taxon names.
-        # Decode only its quoted form that exactly matches the frozen label map.
-        if format == 'nexus':
-            for tip in exported[0].get_terminals():
-                name = tip.name
-                if name not in label_map and isinstance(name, str) and len(name) >= 2 and name[0] == name[-1] == "'":
-                    decoded = name[1:-1].replace("''", "'")
-                    check(decoded in label_map, 'Quoted NEXUS taxon is outside the exact label map')
-                    tip.name = decoded
         tips = [n.name for n in exported[0].get_terminals()]
         check(len(tips) == len(set(tips)) == len(ids) and set(tips) == set(label_map), 'Labeled exported tips differ')
         for tip in exported[0].get_terminals(): tip.name = label_map[tip.name]
