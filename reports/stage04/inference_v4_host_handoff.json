@@ -1,0 +1,94 @@
+{
+  "utc": "2026-10-08T16:22:27.263704+00:00",
+  "status": "FROZEN_REVIEWED_STAGE04_RESOURCE_REVISION_V4_HANDOFF",
+  "files": [
+    {
+      "source": ".work/host_review/stage04_inference_v4.py",
+      "target": "scripts/stage04_inference_v4.py",
+      "sha256": "660419b032a453ea1b02bf8b7bc3322cf39d0f370ad06a456604a8dea8947873",
+      "bytes": 35949
+    },
+    {
+      "source": ".work/host_review/stage04_inference_controller_v4.py",
+      "target": "scripts/stage04_inference_controller_v4.py",
+      "sha256": "933ae95c969d633bcfb7b6a053e50563a78fe39071d385870d0e2ba69d6233e8",
+      "bytes": 20356
+    },
+    {
+      "source": ".work/host_review/stage04_iqtree_limit_v4.py",
+      "target": "scripts/stage04_iqtree_limit_v4.py",
+      "sha256": "65ac74168046c7bf1ef5915c493a0cdf5ed8e45d6e5091c4f8f6947c220a528c",
+      "bytes": 3124
+    },
+    {
+      "source": ".work/host_review/stage04_linux_launcher_v4.py",
+      "target": "scripts/stage04_linux_launcher_v4.py",
+      "sha256": "154e0f5d45fe1d4ca3ba4815b0e9b1ad42917d38a889caa846899d765db18807",
+      "bytes": 11050
+    },
+    {
+      "source": ".work/host_review/test_stage04_inference_v4.py",
+      "target": "scripts/test_stage04_inference_v4.py",
+      "sha256": "dcb096db78e075bc1562bd36dccc47a94fa3a98e63f0b5c58ec1c075bb83ee21",
+      "bytes": 11821
+    },
+    {
+      "source": ".work/host_review/host_inference_stage04_v4.json",
+      "target": "config/host_inference_stage04_v4.json",
+      "sha256": "51e10aa89dc7f71ed8f5c95ad45851b9822fe0e6042b228d08ab055c635c1754",
+      "bytes": 1277
+    },
+    {
+      "source": ".work/host_review/STAGE04_INFERENCE_V4.md",
+      "target": "reports/stage04/INFERENCE_V4.md",
+      "sha256": "19b159945d146bfb5f3349fef0bb1af4d91c175c2cd58ba10f7537142c078e6e",
+      "bytes": 6397
+    },
+    {
+      "source": ".work/host_review/stage04_inference_v4_synthetic_results.json",
+      "target": "reports/stage04/inference_v4_synthetic_tests.json",
+      "sha256": "8f775951bb24e1ceee4179403d3a48998af1ba5b3e6eaf9df7d2e2b87cae4f41",
+      "bytes": 2987
+    },
+    {
+      "source": ".work/host_review/stage04_inference_v4_previous_probe.json",
+      "target": "reports/stage04/inference_v4_previous_failure_probe.json",
+      "sha256": "8dcda0f14d92028fbbfbbb2906bc23f3fd25ba614ad9e57fe30dc9b4c75c0e52",
+      "bytes": 1818
+    },
+    {
+      "source": ".work/host_review/stage04_resource_failure_assessment.json",
+      "target": "reports/stage04/resource_failure_assessment_v3.json",
+      "sha256": "42932853ba2572bad27b19336266b3b4885226a1f4f58b248c2abfd07f3e841e",
+      "bytes": 4974
+    }
+  ],
+  "mandatory_independent_checker": "Distinct .work/review2/stage04_inference_validate_v4.py plus checker fixture/retained-input evidence; root owns adoption and actual execution",
+  "checks": {
+    "current_byte_synthetic_fixtures": 36,
+    "all_five_sources_compiled": true,
+    "windows_producer_controller_limit_helper_help_exit": 0,
+    "native_wsl_observer_help_exit": 0,
+    "actual_read_only_prior_failure_provenance_gate": "PASS",
+    "prior_failure_files_bound": 14,
+    "read_only_peer_lifecycle_review": "NO_REMAINING_CONCRETE_BLOCKER_REPORTED"
+  },
+  "resource_policy": {
+    "native_soft_hard_AS_bytes": 3221225472,
+    "outer_soft_hard_AS_bytes": 3758096384,
+    "windows_minimum_available_bytes": 4831838208,
+    "linux_minimum_available_bytes": 4294967296,
+    "windows_reserve_bytes": 1073741824,
+    "compute_threads": 2,
+    "simultaneous_biological_jobs": 1,
+    "windows_gate_before_and_after_wsl_resources": true,
+    "later_memory_sufficiency": "UNPROVEN"
+  },
+  "scientific_policy": "Original validated alignments and exact196/162/196/155 scopes preserved; -p/MFP/no merge/1000UF/1000SH/seed1961008/T2/unrooted unchanged",
+  "prior_failed_checker_hash": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f",
+  "adopted_sources_changed_by_reviewer": false,
+  "biological_jobs_run_by_reviewer": 0,
+  "git_commands_run_by_reviewer": 0,
+  "production_lock_touched_by_reviewer": false,
+  "no_source_changes_after_this_handoff": true
+}

@@ -1,0 +1,85 @@
+{
+  "utc": "2026-10-08T16:08:21.738694+00:00",
+  "assessment_status": "CURRENT_WINDOWS_HEADROOM_INSUFFICIENT_FOR_PROPOSED_RESOURCE_ENVELOPE",
+  "scientific_status": "PHYLOGENY_NOT_COMPLETED_NO_TOPOLOGY_OR_SUPPORT_PASS",
+  "actual_failed_attempt": {
+    "command_project_path": ".work/stage04_inference_v3/analyses/primary196/iqtree/attempt_0001/iqtree3.command.json",
+    "command_sha256": "3a525d8b1eaa9920fddef8b553a3925e1c5b3e3eeca9afd069ef5b68899b77ee",
+    "stderr_sha256": "33dd3c3857d44458cd18e59f5ee7863d75c7bdd47f8d904ce8860e1498e861e3",
+    "limit_receipt_sha256": "aaad77c3052666c2834f0ebe5e482f81a2d7e6b280e7eb385342aea434380a50",
+    "actual_executable_receipt_sha256": "c244a2b1681900b1f620e20c8026d9d3735382c59a4835e2f6e77bab3c71d487",
+    "utc": "2026-10-08T16:01:44.362533+00:00",
+    "child_pid": 965,
+    "runner_pid": 964,
+    "exit_code": 2,
+    "elapsed_seconds": 3.988824702000045,
+    "child_cpu_seconds": 3.667675,
+    "children_peak_rss_bytes_cumulative": 192413696,
+    "failed_single_allocation_bytes": 2084933760,
+    "failed_single_allocation_GiB": 1.9417458772659302,
+    "actual_native_soft_hard_AS_bytes": [
+      1610612736,
+      1610612736
+    ],
+    "actual_outer_soft_hard_AS_bytes": [
+      2147483648,
+      2147483648
+    ],
+    "native_actual_executable_observed": true,
+    "interpretation": "One allocation exceeded the actual native hard address-space limit; low observed RSS does not show that the full inference needs little memory."
+  },
+  "latest_independent_windows_snapshot": {
+    "utc": "2026-10-08T16:06:36.6817723Z",
+    "host": "WD",
+    "windows_total_bytes": 16906502144,
+    "windows_available_bytes": 3935584256,
+    "measurement": "Win32_OperatingSystem TotalVisibleMemorySize/FreePhysicalMemory KiB converted to bytes",
+    "proposed_native_cap_bytes": 3221225472,
+    "proposed_outer_cap_bytes": 3758096384,
+    "proposed_windows_minimum_available_bytes": 4831838208,
+    "proposed_linux_minimum_available_bytes": 4294967296
+  },
+  "prior_linux_snapshot": {
+    "utc": "2026-10-08T16:01:31.220592+00:00",
+    "available_bytes": 7105454080,
+    "source_project_path": "reports/stage04/resumed_inference_resource_preflight_v3.json",
+    "source_sha256": "8e641a364b57002b943007d9cf51949287aaceea7ac397088add3933ddc6b022",
+    "limitation": "Prior executed preflight, not a current Linux measurement; a new launch must remeasure."
+  },
+  "proposed_separate_frozen_budget": {
+    "native_soft_hard_AS_bytes": 3221225472,
+    "outer_soft_hard_AS_bytes": 3758096384,
+    "windows_minimum_available_bytes": 4831838208,
+    "windows_reserve_bytes": 1073741824,
+    "linux_minimum_available_bytes": 4294967296,
+    "maximum_compute_threads": 2,
+    "simultaneous_biological_jobs": 1,
+    "current_windows_available_meets_proposed_gate": false,
+    "current_windows_deficit_bytes": 896253952,
+    "initialization_headroom_above_one_allocation_bytes": 1136291712,
+    "later_memory_sufficiency": "UNPROVEN",
+    "reason": "Plausible bounded initialization attempt after headroom recovery; additional native buffers, ModelFinder models and support search may need more memory."
+  },
+  "primary_source_evidence": {
+    "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/tree/phylosupertreeplen.cpp",
+    "local_project_path": ".work/host_review/iqtree3_v3.1.4_phylosupertreeplen.cpp",
+    "sha256": "b215176d50158c1d09f46b963c059dc3594a13236a59c6598a3335f775e1464a",
+    "inspected_source_lines": "1504-1633",
+    "finding": "Partition initialization allocates gradient, Hessian, G-matrix, pattern/rate, theta, buffer, NNI, central likelihood and scaling arrays. One failed allocation is not the total memory forecast."
+  },
+  "required_future_adapter_changes": [
+    "Freeze a new namespace/config/code/input/resource identity before resuming topology; preserve old alignment, original --mem failure and capped v3 failure byte-for-byte.",
+    "Keep all scientific argv and exact four validated alignment/partition scopes unchanged; change only separately documented resource limits.",
+    "Explicitly pass --address-space-bytes3758096384 to unchanged Linux launcher. Existing C.execute otherwise defaults to unraiseable2GiB inherited hard AS.",
+    "Verify actual native soft+hard3GiB and outer3.5GiB receipts with same PID/start/boot/pinned executable; independent checker must understand the new identity.",
+    "Fresh launch requires new Windows/Linux headroom measurements; adopt surviving actual jobs before launch checks, never duplicate them.",
+    "No unrelated process termination, restart, global cache/security change, unsupported native --mem, model/cohort/support reduction or failed-attempt overwrite."
+  ],
+  "actions_by_reviewer": {
+    "biological_jobs_run": 0,
+    "installed_tools_changed": false,
+    "adopted_sources_changed": false,
+    "git_commands_run": 0,
+    "production_lock_touched": false
+  }
+}

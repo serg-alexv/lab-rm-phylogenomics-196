@@ -1,0 +1,73 @@
+{
+  "status": "FROZEN_INDEPENDENT_V4_CHECKER_PREPARATION_AND_SOURCE_REVIEW_ONLY",
+  "files": [
+    {
+      "path": ".work/review2/stage04_inference_validate_v4.py",
+      "bytes": 65085,
+      "sha256": "3e1a8f399789d1f4dfd45579efe580313a7556bffe05961597c32cc39ec6e38b"
+    },
+    {
+      "path": ".work/review2/test_stage04_inference_validate_v4.py",
+      "bytes": 24529,
+      "sha256": "08bc6ac7217cc091b7a8519eda5486b45c167e8df5b1f7b419efbae95951d4e3"
+    },
+    {
+      "path": ".work/review2/probe_stage04_v4_source.py",
+      "bytes": 3835,
+      "sha256": "bb2bb0f8f5d583e8e3f8e7c825e8d464c480412bdf203c240bf82149700c2c0e"
+    },
+    {
+      "path": ".work/review2/stage04_inference_v4_review/synthetic_checker_tests.json",
+      "bytes": 12316,
+      "sha256": "a7aadea96580d496fe37871d835eebe50b1c9fc3d8a27eea97500168b84b1902"
+    },
+    {
+      "path": ".work/review2/stage04_inference_v4_review/retained_source_actual_probe.json",
+      "bytes": 6482,
+      "sha256": "fb5017c47afdafe53fe2f3f3f790dfbb0dcaa8ba7b055ac7819b5c60ff40fb8c"
+    },
+    {
+      "path": ".work/review2/stage04_inference_v4_review/retained_source.time.txt",
+      "bytes": 777,
+      "sha256": "7cf659c67cd1ca447ac29a6e48444d3937f12c3c527a7a9a9e836979e44af27a"
+    },
+    {
+      "path": ".work/review2/stage04_inference_v4_review/INDEPENDENT_CHECKER.md",
+      "bytes": 2373,
+      "sha256": "b73b6185dd1c6193d696833020c066bf72864391b1b912f1f56f95c1b5ff7499"
+    },
+    {
+      "path": ".work/review2/stage04_inference_review/resource_assessment_v4.json",
+      "bytes": 2354,
+      "sha256": "660ca3730058b64fa7e5d7cc43520c3c75b86ee80bd845336afb3dc9245f7edb"
+    }
+  ],
+  "validator_source_sha256": "3e1a8f399789d1f4dfd45579efe580313a7556bffe05961597c32cc39ec6e38b",
+  "synthetic_fixture_count": 63,
+  "synthetic_failures": 0,
+  "approved_assemblies": 196,
+  "retained_marker_count": 100,
+  "retained_analyses": 4,
+  "commands": [
+    {
+      "command": "wsl -d Ubuntu -- bash scripts/wsl_project.sh host python .work/review2/test_stage04_inference_validate_v4.py",
+      "exit_code": 0,
+      "check": "63 synthetic guard fixtures; no native inference",
+      "resource_measurement": null,
+      "resource_measurement_limit": "Fixture invocation did not capture /usr/bin/time statistics; helper fixes OMP/BLAS compute threads to 2."
+    },
+    {
+      "command": "wsl -d Ubuntu -- bash scripts/wsl_project.sh host /usr/bin/time -v -o .work/review2/stage04_inference_v4_review/retained_source.time.txt python .work/review2/probe_stage04_v4_source.py",
+      "exit_code": 0,
+      "observed_linux_probe_pid": 1024,
+      "observed_linux_time_pid": 1010,
+      "elapsed_seconds": 147.044161563,
+      "peak_rss_bytes": 124637184,
+      "check": "Independent retained full196 source/alignment/partition joins and actual failed-v3 current-source/release gate; no inference"
+    }
+  ],
+  "actual_previous_v3_checker_sha256": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f",
+  "biological_inference": "NOT_RUN",
+  "stage04_final_scientific_validation": "NOT_RUN",
+  "write_scope": "Isolated .work/review2 only; no adopted scripts, biological outputs, Git or release mutation."
+}

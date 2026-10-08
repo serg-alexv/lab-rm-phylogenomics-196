@@ -1,0 +1,102 @@
+{
+  "status": "PASS_RETAINED_FULL196_ALIGNMENT_AND_ACTUAL_V3_FAILURE_PROVENANCE_ONLY",
+  "validator_source_sha256": "3e1a8f399789d1f4dfd45579efe580313a7556bffe05961597c32cc39ec6e38b",
+  "probe_source_sha256": "bb2bb0f8f5d583e8e3f8e7c825e8d464c480412bdf203c240bf82149700c2c0e",
+  "elapsed_seconds": 147.044161563,
+  "approved_assemblies": 196,
+  "markers_rechecked": 100,
+  "analysis_alignment_checks": [
+    {
+      "analysis": "primary196",
+      "tips": 196,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 19600
+    },
+    {
+      "analysis": "sensitivity162",
+      "tips": 162,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 16200
+    },
+    {
+      "analysis": "sensitivity187_markers",
+      "tips": 196,
+      "partitions": 88,
+      "columns": 15174,
+      "blocks_reconstructed": 17248
+    },
+    {
+      "analysis": "sensitivity_complete155",
+      "tips": 155,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 15500
+    }
+  ],
+  "upstream_marker_gate": {
+    "view": "INDEPENDENTLY_CURATED_TOPOLOGY_BLIND_ORTHOLOGY",
+    "original_scientific_status": "HOST_ORTHOLOGY_DUPLICATE_SIGNAL_REVIEW_REQUIRED",
+    "original_marker_validation_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+    "marker_validation_sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "orthology_curation_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1",
+    "retained_profiles": 100,
+    "retained_source_sequences": 19359,
+    "biological_search_reexecuted": false
+  },
+  "alignment_validation_sha256": "2dcec67c0de7c8930046d82ac3c87d011e295844873805f17aae3a2453855b04",
+  "alignment_publication_sha256": "37a7e8d4e89ce16b42021353c393d6386361c8053131c2ec0c406dfeeaa45f8e",
+  "original_successful_phase_exit_sha256": {
+    "align": "05c45e93060e311751c2529465c5417b26f946456f656ca0bcb3bb0fe84427c9",
+    "validate_alignment": "899c84f1b7349a167db3d7edbeed0effe259709303c8b9bed8992c5a6dedb2ff"
+  },
+  "original_failed_phase_exit_sha256": "736e26d0ee7b9afe7fbcdd663f0d4326cc1f883533c9ea7f6cc65923e3024f79",
+  "failed_native_attempt_sha256": "e8daada9d807aa3b3c6e89871e7558f27f623ffc67f1d77666f2df19ac675c4b",
+  "failed_native_stderr_sha256": "39aea0a6521351174db01fa176cad4039e3e1f29f382852693e78b237f18bbf2",
+  "previous_v3_failure_gate": {
+    "previous_inference_freeze_sha256": "e311c0b05c49322eac53ca9f146ac0f146d4976c036fc55d5434a4554e2d57c8",
+    "previous_controller_state_sha256": "5819ba64944b52b5de7d98fb1dc48c7b297b439d9194b7a6ee99d005dbfb2213",
+    "previous_failed_native_attempt_sha256": "3a525d8b1eaa9920fddef8b553a3925e1c5b3e3eeca9afd069ef5b68899b77ee",
+    "previous_failed_native_stderr_sha256": "33dd3c3857d44458cd18e59f5ee7863d75c7bdd47f8d904ce8860e1498e861e3",
+    "previous_failed_phase_exit_sha256": "7e293907e5ad60262c3a095dd07e881e5d8d4d66e7e6ca5e17f5dc14b14302e4",
+    "previous_failure_evidence_validation_sha256": "0a1a39ed54ed23cc69cd04da9a0fb85ae6516ea102551042fb856979466a9c35",
+    "previous_inference_file_sha256": {
+      "commands.jsonl": "2e212cfdcbcd15382834becd1bf0929a8d6954f41bb235100e43380d2624a612",
+      "execution_failure.json": "2a72ca85c639dd82b1e797bd0289823c70fa70c9fee3728be0b7fc0099205707",
+      "inference_freeze.json": "e311c0b05c49322eac53ca9f146ac0f146d4976c036fc55d5434a4554e2d57c8",
+      "runner_launch_receipt.json": "73765fea87ce3b6264c7c425d7f276fdc397a51e927bf4982237b45f5aef534f",
+      "analyses/primary196/iqtree/host.log": "be283be20a378c59bb9f01de1fb4b765e8181a8017d3cc9f1530ed3b35b2822b",
+      "analyses/primary196/iqtree/host.model.gz": "b5de0f56ba95bd5d6fc477480f53920f410525fb1cfcf084687828448f0c3c13",
+      "analyses/primary196/iqtree/inference_identity.json": "778336d780a08460108247acb02767e9bfbd0d376134787993d1040358b890f5",
+      "analyses/primary196/iqtree/attempt_0001/identity.json": "53bc35f045ddeee663a14a93a6cdcd53c9d02a3e980d612f523928578fdae5c8",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.actual_exe.json": "c244a2b1681900b1f620e20c8026d9d3735382c59a4835e2f6e77bab3c71d487",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.command.json": "3a525d8b1eaa9920fddef8b553a3925e1c5b3e3eeca9afd069ef5b68899b77ee",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.launch.json": "012d7cd2f474fdb550fb5f07c3bc89a7e015288654844e5f150ade58ec78bb5c",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.limit.json": "aaad77c3052666c2834f0ebe5e482f81a2d7e6b280e7eb385342aea434380a50",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.stderr.txt": "33dd3c3857d44458cd18e59f5ee7863d75c7bdd47f8d904ce8860e1498e861e3",
+      "analyses/primary196/iqtree/attempt_0001/iqtree3.stdout.txt": "1a86c18b53a93bfcd70c8140ba5b160afe14283c3a927cd96b9317d7c8b1ac85"
+    },
+    "previous_source_sha256": {
+      "scripts/stage04_inference_v3.py": "5369775309c89268026d1ca17f833e07ff23dc271186f675ac96079f47a9991d",
+      "scripts/stage04_inference_controller_v3.py": "f0039fba4c187e85ce5f83dd3682bf38b87e91b2d9205ea31d3736e7d937eaed",
+      "scripts/stage04_inference_validate_v3.py": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f",
+      "scripts/stage04_iqtree_limit_v3.py": "f67650f7d5a70ff48aaabca71f05e2fecd0fde2b22c1e0646b8327fa205b0a42",
+      "scripts/stage04_linux_launcher.py": "63be954def543b563edac505696a64c7481da8d7abddea0ef5f1dc151b8c37a2",
+      "config/host_inference_stage04_v3.json": "f5a9884abe259a6aae74e946edfa18b353941fee1d9036ed9f1060cfd798d787",
+      "reports/stage04/resumed_inference_resource_preflight_v3.json": "8e641a364b57002b943007d9cf51949287aaceea7ac397088add3933ddc6b022"
+    },
+    "previous_input": ".work/stage04_inference_v3",
+    "previous_control": ".work/stage04_inference_controller_v3",
+    "previous_failed_attempt": ".work/stage04_inference_v3/analyses/primary196/iqtree/attempt_0001/iqtree3.command.json",
+    "previous_failure_release_tag": "stage04b-inference-resource-failure196-v1",
+    "previous_failure_payload_commit": "278ca398317d036708f04f39e80a99e45f200592",
+    "windows_minimum_available_bytes": 4831838208,
+    "linux_minimum_available_bytes": 4294967296,
+    "windows_reserve_bytes": 1073741824
+  },
+  "previous_v3_recorded_checker_sha256": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f",
+  "source_alignment_recomputed": false,
+  "biological_inference": "NOT_RUN",
+  "stage04_final_scientific_validation": "NOT_RUN"
+}

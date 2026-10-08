@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-08T16:21:35.567832+00:00",
+  "reviewer_pid": 35668,
+  "producer_source_sha256": "660419b032a453ea1b02bf8b7bc3322cf39d0f370ad06a456604a8dea8947873",
+  "biological_jobs_run": 0,
+  "git_commands_run": 0,
+  "production_lock_touched": false,
+  "scientific_stage04": "INCOMPLETE_RESOURCE_FAILURE_ONLY",
+  "status": "PASS_READ_ONLY_PRESERVED_NATIVE_FAILURE_AND_PUBLICATION_PROVENANCE",
+  "previous_failed_native_attempt_sha256": "3a525d8b1eaa9920fddef8b553a3925e1c5b3e3eeca9afd069ef5b68899b77ee",
+  "previous_failed_phase_exit_sha256": "7e293907e5ad60262c3a095dd07e881e5d8d4d66e7e6ca5e17f5dc14b14302e4",
+  "previous_inference_freeze_sha256": "e311c0b05c49322eac53ca9f146ac0f146d4976c036fc55d5434a4554e2d57c8",
+  "previous_failure_evidence_validation_sha256": "0a1a39ed54ed23cc69cd04da9a0fb85ae6516ea102551042fb856979466a9c35",
+  "previous_inference_files_bound": 14,
+  "previous_source_sha256": {
+    "scripts/stage04_inference_v3.py": "5369775309c89268026d1ca17f833e07ff23dc271186f675ac96079f47a9991d",
+    "scripts/stage04_inference_controller_v3.py": "f0039fba4c187e85ce5f83dd3682bf38b87e91b2d9205ea31d3736e7d937eaed",
+    "scripts/stage04_inference_validate_v3.py": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f",
+    "scripts/stage04_iqtree_limit_v3.py": "f67650f7d5a70ff48aaabca71f05e2fecd0fde2b22c1e0646b8327fa205b0a42",
+    "scripts/stage04_linux_launcher.py": "63be954def543b563edac505696a64c7481da8d7abddea0ef5f1dc151b8c37a2",
+    "config/host_inference_stage04_v3.json": "f5a9884abe259a6aae74e946edfa18b353941fee1d9036ed9f1060cfd798d787",
+    "reports/stage04/resumed_inference_resource_preflight_v3.json": "8e641a364b57002b943007d9cf51949287aaceea7ac397088add3933ddc6b022"
+  },
+  "elapsed_seconds": 0.6435277000000497,
+  "cpu_seconds": 0.109375
+}

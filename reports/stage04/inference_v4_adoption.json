@@ -1,0 +1,159 @@
+{
+  "status": "REVIEWED_RESUMED_INFERENCE_V4_ADOPTED_BEFORE_TOPOLOGY",
+  "utc": "2026-10-08T16:34:44.118593+00:00",
+  "sources": [
+    {
+      "path": "scripts/stage04_inference_v4.py",
+      "sha256": "660419b032a453ea1b02bf8b7bc3322cf39d0f370ad06a456604a8dea8947873",
+      "bytes": 35949
+    },
+    {
+      "path": "scripts/stage04_inference_controller_v4.py",
+      "sha256": "933ae95c969d633bcfb7b6a053e50563a78fe39071d385870d0e2ba69d6233e8",
+      "bytes": 20356
+    },
+    {
+      "path": "scripts/stage04_iqtree_limit_v4.py",
+      "sha256": "65ac74168046c7bf1ef5915c493a0cdf5ed8e45d6e5091c4f8f6947c220a528c",
+      "bytes": 3124
+    },
+    {
+      "path": "scripts/stage04_linux_launcher_v4.py",
+      "sha256": "154e0f5d45fe1d4ca3ba4815b0e9b1ad42917d38a889caa846899d765db18807",
+      "bytes": 11050
+    },
+    {
+      "path": "scripts/test_stage04_inference_v4.py",
+      "sha256": "dcb096db78e075bc1562bd36dccc47a94fa3a98e63f0b5c58ec1c075bb83ee21",
+      "bytes": 11821
+    },
+    {
+      "path": "config/host_inference_stage04_v4.json",
+      "sha256": "51e10aa89dc7f71ed8f5c95ad45851b9822fe0e6042b228d08ab055c635c1754",
+      "bytes": 1277
+    },
+    {
+      "path": "reports/stage04/INFERENCE_V4.md",
+      "sha256": "19b159945d146bfb5f3349fef0bb1af4d91c175c2cd58ba10f7537142c078e6e",
+      "bytes": 6397
+    },
+    {
+      "path": "reports/stage04/inference_v4_synthetic_tests.json",
+      "sha256": "8f775951bb24e1ceee4179403d3a48998af1ba5b3e6eaf9df7d2e2b87cae4f41",
+      "bytes": 2987
+    },
+    {
+      "path": "reports/stage04/inference_v4_previous_failure_probe.json",
+      "sha256": "8dcda0f14d92028fbbfbbb2906bc23f3fd25ba614ad9e57fe30dc9b4c75c0e52",
+      "bytes": 1818
+    },
+    {
+      "path": "reports/stage04/resource_failure_assessment_v3.json",
+      "sha256": "42932853ba2572bad27b19336266b3b4885226a1f4f58b248c2abfd07f3e841e",
+      "bytes": 4974
+    },
+    {
+      "path": "scripts/stage04_inference_validate_v4.py",
+      "sha256": "3e1a8f399789d1f4dfd45579efe580313a7556bffe05961597c32cc39ec6e38b",
+      "bytes": 65085
+    },
+    {
+      "path": "scripts/test_stage04_inference_validate_v4.py",
+      "sha256": "08bc6ac7217cc091b7a8519eda5486b45c167e8df5b1f7b419efbae95951d4e3",
+      "bytes": 24529
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/probe_source.py.txt",
+      "sha256": "bb2bb0f8f5d583e8e3f8e7c825e8d464c480412bdf203c240bf82149700c2c0e",
+      "bytes": 3835
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/synthetic_checker_tests.json",
+      "sha256": "a7aadea96580d496fe37871d835eebe50b1c9fc3d8a27eea97500168b84b1902",
+      "bytes": 12316
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/retained_source_actual_probe.json",
+      "sha256": "fb5017c47afdafe53fe2f3f3f790dfbb0dcaa8ba7b055ac7819b5c60ff40fb8c",
+      "bytes": 6482
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/retained_source.time.txt",
+      "sha256": "7cf659c67cd1ca447ac29a6e48444d3937f12c3c527a7a9a9e836979e44af27a",
+      "bytes": 777
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/INDEPENDENT_CHECKER.md",
+      "sha256": "b73b6185dd1c6193d696833020c066bf72864391b1b912f1f56f95c1b5ff7499",
+      "bytes": 2373
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/resource_assessment_v4.json",
+      "sha256": "660ca3730058b64fa7e5d7cc43520c3c75b86ee80bd845336afb3dc9245f7edb",
+      "bytes": 2354
+    },
+    {
+      "path": "reports/stage04/inference_v4_host_handoff.json",
+      "sha256": "b97f09b1f9c3f93d6fd389fe5a264d755d39015130b25c13451cc50327dab352",
+      "bytes": 4166
+    },
+    {
+      "path": "reports/stage04/inference_v4_review/handoff_manifest.json",
+      "sha256": "a8404e0bedb76a31d755c75fbe3e4d3192c91e1619ba0a1e097ea499a8d8bda8",
+      "bytes": 3254
+    },
+    {
+      "path": "scripts/resume_stage04_inference_v4.py",
+      "sha256": "33b1557d0a576375a05e340794ba884344a87064ea0375bb43eab4228d8bf6ed",
+      "bytes": 3167
+    },
+    {
+      "path": "scripts/test_resume_stage04_inference_v4.py",
+      "sha256": "160af2b2a82aea2a6b320c84f0dec2c53e3ebf46a0c8e964af86556d8930b37d",
+      "bytes": 3462
+    },
+    {
+      "path": "scripts/stage04_controller.py",
+      "sha256": "7838e84676f38603bdb3a2a12bf05fe709d9c6d4dc3cb92163ccd53cc642f66f",
+      "bytes": 37850
+    },
+    {
+      "path": "scripts/stage04_phylogeny.py",
+      "sha256": "41cf00eb3da81a9c8bb83b51449c1e9c8a3156af7efbce223216ac46ca6d12ed",
+      "bytes": 46258
+    },
+    {
+      "path": "scripts/stage04_validate.py",
+      "sha256": "f894ef292e8cdfad7a3d67473d379c9bb47abff0c1b34fd6140cc0faf47126b9",
+      "bytes": 35049
+    },
+    {
+      "path": "scripts/wsl_project.sh",
+      "sha256": "459c33d5edd186836ba8079ee6204221b79cfe70160f3f5ec7f9503286f28d12",
+      "bytes": 1011
+    },
+    {
+      "path": "reports/stage04/inference_v4_published_source_tests.json",
+      "sha256": "1c6515257a4c8e62851db9cef0da829b78af9cbcdcd6486bc8dbf8b7793a55e1",
+      "bytes": 530
+    }
+  ],
+  "actual_adoption_pid": 20792,
+  "producer_fixture_passed": 36,
+  "independent_checker_fixture_passed": 63,
+  "published_source_guard_fixtures": 7,
+  "actual_full196_source_recheck": "PASS_SOURCE_ALIGNMENT_AND_PREVIOUS_FAILURE_ONLY",
+  "scientific_inference": "NOT_RUN_AT_ADOPTION",
+  "full_stage04": "INCOMPLETE",
+  "alignment_reexecution": false,
+  "original_and_v3_sources_outputs_preserved": true,
+  "native_address_space_limit_bytes": 3221225472,
+  "outer_phase_address_space_limit_bytes": 3758096384,
+  "maximum_compute_threads": 2,
+  "fresh_phase_windows_available_minimum_bytes": 4831838208,
+  "fresh_phase_linux_available_minimum_bytes": 4294967296,
+  "resource_scope": "Per-process address-space bounds, serial computation; measured headroom admission before and after WSL resources for each fresh outer phase. No aggregate cgroup or guaranteed continuing Windows reserve. Native child limits enforced for every inference. Later sufficiency unproven.",
+  "resume_command": ".tools/validation_env/Scripts/python.exe -u scripts/resume_stage04_inference_v4.py --failed-attempt .work/stage04_phylogeny_v2/analyses/primary196/iqtree/attempt_0001/iqtree3.command.json",
+  "publication_protocol": "Adopted source and initial receipt hashes checked against origin/main under workflow lock before phases; changed bytes block continuation",
+  "command_evidence": "reports/stage04/inference_v4_adoption_commands.jsonl"
+}

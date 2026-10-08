@@ -1,0 +1,66 @@
+{
+  "status": "READ_ONLY_RESOURCE_ASSESSMENT_NEW_BUDGET_REQUIRES_FRESH_GATES",
+  "recorded_at_utc": "2026-10-08T16:11:55.764018+00:00",
+  "observed_windows_snapshots_kib": [
+    {
+      "FreePhysicalMemory": 5426128,
+      "TotalVisibleMemorySize": 16510256,
+      "FreeVirtualMemory": 5829820,
+      "TotalVirtualMemorySize": 29520604
+    },
+    {
+      "FreePhysicalMemory": 4508688,
+      "FreeVirtualMemory": 4765240
+    }
+  ],
+  "observed_linux_kib": {
+    "MemTotal": 8130204,
+    "MemFree": 5500448,
+    "MemAvailable": 7001016,
+    "Buffers": 60488,
+    "Cached": 1566848,
+    "SReclaimable": 33680,
+    "Shmem": 3728,
+    "SwapTotal": 4194304,
+    "SwapFree": 4194304,
+    "SwapCached": 0,
+    "Active(file)": 140348,
+    "Inactive(file)": 1483540,
+    "AnonPages": 357504,
+    "PageTables": 12272,
+    "Slab": 152592
+  },
+  "observed_linux_memory_pressure": {
+    "some_avg10": 0,
+    "some_avg60": 0,
+    "some_avg300": 0,
+    "some_total": 0,
+    "full_avg10": 0,
+    "full_avg60": 0,
+    "full_avg300": 0,
+    "full_total": 0
+  },
+  "native_failed_single_allocation_bytes": 2084933760,
+  "proposed_fresh_native_soft_hard_bytes": [
+    3221225472,
+    3221225472
+  ],
+  "proposed_outer_soft_hard_bytes": [
+    3758096384,
+    3758096384
+  ],
+  "fresh_windows_minimum_available_bytes": 4831838208,
+  "fresh_linux_minimum_available_bytes": 4294967296,
+  "windows_reserve_bytes": 1073741824,
+  "maximum_compute_threads": 2,
+  "latest_observed_windows_gate": "BLOCKED_BELOW_4_5_GIB",
+  "limitations": [
+    "Snapshots were sequential; the production controller must remeasure both immediately before launch.",
+    "Linux MemAvailable and Cached are guest accounting; they do not prove additional Windows physical capacity and must not be added together.",
+    "The native single allocation exceeds the old1.5GiB cap. A3GiB cap may pass initialization but later ModelFinder/support memory sufficiency remains unproven.",
+    "The Windows reserve1GiB is an explicitly documented new resource choice, not a scientific filter change.",
+    "No processes killed, global settings/cache changed, WD/WSL restarted, or native inference launched by this reviewer."
+  ],
+  "peak_native_rss_for_new_budget": null,
+  "peak_native_rss_reason": "New budget has not been executed by reviewer."
+}
