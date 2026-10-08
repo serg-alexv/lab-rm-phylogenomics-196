@@ -1,6 +1,6 @@
 {
-  "utc": "2026-10-08T15:30:16.806485+00:00",
-  "execution": "RUNNING_TREES",
+  "utc": "2026-10-08T15:30:37.050829+00:00",
+  "execution": "STOPPED_WITH_EXPLICIT_BLOCKER",
   "phase": "trees",
   "controller_pid": 21288,
   "windows_wsl_launcher_pid": 37360,
@@ -42,7 +42,7 @@
   ],
   "actual_linux_process_measurements": {
     "execution": "RUNNING",
-    "utc": "2026-10-08T15:30:12.777865+00:00",
+    "utc": "2026-10-08T15:30:27.840792+00:00",
     "phase": "trees",
     "invocation_id": "782d61af-890f-4286-918a-9513f0b63b25",
     "job_pid": 908,
@@ -50,19 +50,19 @@
       {
         "pid": 908,
         "ppid": 896,
-        "state": "R",
-        "user_ticks": 1,
-        "system_ticks": 1,
+        "state": "D",
+        "user_ticks": 57,
+        "system_ticks": 69,
         "start_ticks": 9270,
-        "vsize_bytes": 13488128,
-        "rss_bytes": 9166848,
-        "peak_rss_bytes": 9310208,
-        "peak_vsize_bytes": 13488128
+        "vsize_bytes": 106729472,
+        "rss_bytes": 99188736,
+        "peak_rss_bytes": 99975168,
+        "peak_vsize_bytes": 107499520
       }
     ],
-    "sampled_tree_peak_rss_bytes": 9166848,
-    "linux_available_bytes": 7143755776,
-    "elapsed_seconds": 0.06047196200000826,
+    "sampled_tree_peak_rss_bytes": 99188736,
+    "linux_available_bytes": 7154565120,
+    "elapsed_seconds": 15.123308257000005,
     "memory_measurement_limit": "Sum of sampled per-process RSS; shared pages may be counted more than once; sampling may miss short peaks"
   },
   "phase_receipt_directory": ".work/stage04_controller/phase_trees_782d61af-890f-4286-918a-9513f0b63b25",
@@ -214,7 +214,7 @@
   },
   "scientific_validation": "INCOMPLETE",
   "github_publication": "PROGRESS_COMMIT_ONLY_RELEASE_PENDING",
-  "failure": null,
+  "failure": "Actual native phase exit=1; outputs preserved",
   "outputs_preserved": true,
   "producer_progress": {
     "execution": "ALL_PRIMARY_ALIGNMENTS_AND_FOUR_CONCATENATIONS_CONSTRUCTED",
