@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T15:16:53.181981+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T15:17:08.727010+00:00. Full approved196 production cohort; no pilot.
 
-Stage4 RUNNING_ALIGN. Current phase=align. All196 primary tips required; no scientific completion or verified final Release is claimed.
+Stage4 COMPLETED_ALIGN. Current phase=None. All196 primary tips required; no scientific completion or verified final Release is claimed.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
@@ -10,7 +10,7 @@ Stage4 RUNNING_ALIGN. Current phase=align. All196 primary tips required; no scie
 | 1_panel_freeze | COMPLETED | PASS_APPROVED_PANEL_FREEZE | UPLOAD_VERIFIED |
 | 2_sequences | COMPLETED | PASS_SEQUENCE_INTEGRITY_WITH_DOCUMENTED_EXCEPTIONS | UPLOAD_VERIFIED |
 | 3_markers | COMPLETED | PASS_HOST_MARKER_INVENTORY | UPLOAD_VERIFIED |
-| 4_phylogeny | RUNNING_ALIGN | INCOMPLETE | PROGRESS_PUBLISHED_RELEASE_PENDING |
+| 4_phylogeny | COMPLETED_ALIGN | INCOMPLETE | PROGRESS_PUBLISHED_RELEASE_PENDING |
 | 5_rm_inventory | NOT_RUN | NOT_RUN | NOT_RUN |
 | 6_figure | NOT_RUN | NOT_RUN | NOT_RUN |
 | 7_final_review | NOT_RUN | NOT_RUN | NOT_RUN |
