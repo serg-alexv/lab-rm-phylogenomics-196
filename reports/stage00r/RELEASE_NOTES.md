@@ -1,0 +1,11 @@
+# Executed WD postboot preconditions, full196 retained
+
+This release preserves the actual storage-copy/source/CLI/bootstrap checks and synthetic native-detector selection review performed after reboot. It is a preparation/resource-wait artifact, not a completed phylogeny or biological R-M inventory. Stage02 all196 sequence integrity, Stage03 all196/100 markers and Stage04a all100 alignments/four concatenations were already independently validated and published; none were redownloaded or recomputed.
+
+The directional C-to-G gate independently checked52744 included files and9852158003bytes. G is streamed DriveFS using C cache, not an independent physical disk or proven cloud upload. Old history/tool prefixes and byte locks stay physical C. Exact new G native cwd and atomic readback,27 old sources,85 critical copied inputs, both actual phase argv and a full196 source/alignment recheck passed. New V5 sources are exact reviewed candidates and remain NOT_ADOPTED pending actual measured producer-resource integration. Historical receipts/argv were preserved.
+
+Production admission remains4.5GiB Windows before and after WSL and4GiB Linux; actual rejections are evidence, not successful inference. Two-thread/native3GiB/outer3.5GiB per-process limits are unchanged. Both PADLOC and DefenseFinder production, architecture/partial/source evidence review,196-tip/784-cell figure and final independent handoff remain NOT_RUN.
+
+The coordinate grouping repair passed24 Python regressions and17 evaluations of expressions parsed from the exact installed PADLOC2 R source. These synthetic cases searched no biological sequences and do not prove systems or absence. Actual first-attempt mount failure and observer lock-contention stop are preserved with tested successors. Live execution status and publication receipts are separate from this immutable snapshot.
+
+Download the standalone ZIP and its SHA256 sidecar. Open/extract with normal Windows Explorer or PowerShell; no WSL is needed to read MD/JSON/TSV/source files. Biological FASTA/alignments are in the previous Stage02/Stage03/Stage04a release ZIPs. Every ZIP member has a SHA256 entry. No tool image, raw private session logs, authentication material or unrelated files are included.

@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_RESUMED_INFERENCE_PROTOCOL_BEFORE_TOPOLOGY",
+  "approved_assemblies": 196,
+  "alignment_reexecution": false,
+  "native_memory_option": "OMITTED_UNSUPPORTED_WITH_PARTITION_MODELS",
+  "outer_address_space_limit_bytes": 3758096384,
+  "iqtree_address_space_limit_bytes": 3221225472,
+  "maximum_compute_threads": 2,
+  "partition_option": "-p",
+  "model_selection": "MFP_WITHOUT_MERGING",
+  "ultrafast_bootstrap_replicates": 1000,
+  "sh_alrt_replicates": 1000,
+  "seed": 1961008,
+  "root_policy": "EXPLICITLY_UNROOTED_NO_VALIDATED_OUTGROUP",
+  "scientific_result": "NOT_RUN_CONFIGURATION_ONLY",
+  "reason": "Actual v3 native allocation2,084,933,760B exceeded the applied1.5GiB hard AS. Preserve original/v3 failures; same scientific method/scopes. Separately frozen3GiB native/3.5GiB outer bounded attempt, Windows>=4.5GiB and Linux>=4GiB at each new launch. Later memory sufficiency remains unproven.",
+  "windows_minimum_available_bytes": 4831838208,
+  "linux_minimum_available_bytes": 4294967296,
+  "windows_reserve_bytes": 1073741824,
+  "previous_native_address_space_limit_bytes": 1610612736,
+  "previous_outer_address_space_limit_bytes": 2147483648,
+  "required_prior_failure": "ACTUAL_NATIVE_ALLOCATION2084933760_EXCEEDS1536MiB",
+  "migration_roots": {
+    "data_windows": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+    "data_linux": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+    "historical_windows": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+    "historical_linux": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196"
+  },
+  "migration_revision": "V5_EXPLICIT_DATA_AND_HISTORICAL_ROOTS",
+  "migration_scope": "Same scientific method/resources; new G native data, unchanged physical C history/tools, single shared C lock"
+}
