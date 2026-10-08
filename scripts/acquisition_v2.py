@@ -55,7 +55,7 @@ def main():
             try:context,md5count,nmembers=audit(tmp,acc,target);tmp.replace(zp);success=True
             except Exception as e:errors.append({'cache_audit':str(e)})
         if not success:
-            cmd=[str(R/'.tools/datasets.exe'),'download','genome','accession',acc,'--assembly-version','all','--include','genome,protein,cds,gff3,gbff,seq-report','--no-progressbar','--filename',str(tmp)]
+            cmd=[str(R/'.tools/datasets.exe'),'download','genome','accession',acc,'--include','genome,protein,cds,gff3,gbff,seq-report','--no-progressbar','--filename',str(tmp)]
             for attempt,delay in enumerate([0,5,15],1):
                 if delay:time.sleep(delay)
                 try:
