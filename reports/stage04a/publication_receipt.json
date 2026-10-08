@@ -1,0 +1,32 @@
+{
+  "status": "UPLOAD_VERIFIED",
+  "utc": "2026-10-08T15:28:08.661283+00:00",
+  "release_tag": "stage04a-hostalignments196-v1",
+  "url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04a-hostalignments196-v1",
+  "payload_commit": "8a5e5909bcbbcb27cb7c8e552e5bdfc92dc18168",
+  "remote_tag_commit_verified": true,
+  "assets": [
+    {
+      "asset_name": "stage04a-full196-validated-alignments.zip",
+      "bytes": 29506545,
+      "sha256": "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+      "payload_members": 2455,
+      "download_readback_verified": true,
+      "all_zip_member_hashes_verified": true,
+      "sidecar_readback_verified": true
+    },
+    {
+      "asset_name": "stage04a-methods-and-independent-evidence.zip",
+      "bytes": 160437,
+      "sha256": "6395260ce715f1385a8a5cbc0fbace34bead88605046e2580f1c109272b00707",
+      "payload_members": 48,
+      "download_readback_verified": true,
+      "all_zip_member_hashes_verified": true,
+      "sidecar_readback_verified": true
+    }
+  ],
+  "approved_assemblies": 196,
+  "scientific_validation": "PASS_ALIGNMENT_FORMATS_AND_PARTITIONS",
+  "whole_stage04_phylogeny": "NOT_COMPLETED",
+  "alignment_validation_sha256": "2dcec67c0de7c8930046d82ac3c87d011e295844873805f17aae3a2453855b04"
+}
