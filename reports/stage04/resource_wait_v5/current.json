@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-08T19:15:42.857633+00:00",
+  "execution": "WAITING_MEASURED_WINDOWS_HEADROOM_V5",
+  "actual_waiter_pid": 27640,
+  "required_windows_available_bytes": 4831838208,
+  "required_linux_available_bytes": 4294967296,
+  "actual_windows_observation": {
+    "utc": "2026-10-08T19:15:38.4121239Z",
+    "host": "WD",
+    "available_bytes": 3819454464,
+    "disk_available_bytes": 79026380800,
+    "pid": 27640,
+    "creation_utc": "2026-10-08T19:15:37.0220510Z",
+    "working_set_bytes": 22376448,
+    "cpu_seconds": 0.25
+  },
+  "failure": null,
+  "native_inference_started": false,
+  "candidate_adoption": "NOT_ADOPTED",
+  "full_stage04": "INCOMPLETE",
+  "stage05_stage06_stage07": "NOT_RUN",
+  "user_instruction": "Keep waiting for headroom; no lower gates or unrelated termination; resets manual only"
+}
