@@ -23,7 +23,7 @@ try:
     assert all((R/'data/raw_ncbi'/a/(a+'.ncbi.zip')).is_file() for a in accessions)
     w.status('2_sequences','VALIDATING','RUNNING','PROGRESS_PUBLISHED','All196 exact raw packages retrieved and provider-MD5 audited. Independent full196 FASTA/CDS/protein/GFF/GBFF/sequence-report validation is RUNNING. No marker job has started.')
     commit(['scripts/validate_sequences.py','scripts/validate_stage02_locked.py','reports/stage02/validator_review_evidence.json','reports/stage02/VALIDATOR_REVIEW.md','STATUS.md','status/stages.tsv'],'Start independent full196 sequence and annotation validation')
-    result=w.run([str(R/'.tools/validation_env/Scripts/python.exe'),'-u',str(R/'scripts/validate_sequences.py'),'--repo-root',str(R),'--output-dir',str(R/'.work/stage02_validated')],timeout=3600,check=False)
+    result=w.run([str(R/'.tools/validation_env/Scripts/python.exe'),'-u',str(R/'scripts/validate_sequences.py'),'--repo-root',str(R),'--output-dir',str(R/'.work/stage02_validated')],timeout=3600,check=True)
     print(result,flush=True)
 finally:
     lock.seek(0);msvcrt.locking(lock.fileno(),msvcrt.LK_UNLCK,1);lock.close()

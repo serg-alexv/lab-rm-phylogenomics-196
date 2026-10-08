@@ -16,8 +16,25 @@ def digest(p):
         for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
     return h.hexdigest()
 def atomic(p,b):
+    import tempfile
     p=Path(p);p.parent.mkdir(parents=True,exist_ok=True)
-    q=p.with_suffix(p.suffix+'.tmp');q.write_bytes(b);q.replace(p)
+    fd,name=tempfile.mkstemp(prefix='.'+p.name+'.',suffix='.tmp',dir=p.parent)
+    q=Path(name)
+    try:
+        with os.fdopen(fd,'wb') as f:
+            f.write(b);f.flush();os.fsync(f.fileno())
+        delays=(0,0.05,0.1,0.2,0.4,0.8,1.0,1.0,1.0)
+        for attempt,delay in enumerate(delays):
+            if delay: time.sleep(delay)
+            try:
+                os.replace(q,p)
+                return
+            except OSError as e:
+                if getattr(e,'winerror',None) not in (5,32,33) or attempt==len(delays)-1:
+                    raise
+    finally:
+        try: q.unlink()
+        except OSError: pass  # Best-effort cleanup must not mask a write/replace error.
 def js(p,x): atomic(p,(json.dumps(x,indent=2,ensure_ascii=False)+'\n').encode())
 def run(a,timeout=180,check=True):
     t=time.monotonic(); started=now()
