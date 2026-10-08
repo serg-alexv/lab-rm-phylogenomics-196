@@ -1,0 +1,99 @@
+{
+  "status": "PASS_SYNTHETIC_INDEPENDENT_LOCUS_CHECKS",
+  "tests": 15,
+  "cases": [
+    {
+      "case": "repeated_WP_distinct_loci_minus_strand_origin_and_no_protein_replicon",
+      "expected": "PASS",
+      "observed": "PASS"
+    },
+    {
+      "case": "host_sequence_mutation",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Detector/host FAA identity/order/sequence differs: GCF_000000001.1.faa target=1"
+    },
+    {
+      "case": "WP_locus_collapse",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Detector/host FAA target count differs: GCF_000000001.1.faa"
+    },
+    {
+      "case": "DF_order_changed",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Detector/host FAA identity/order/sequence differs: defensefinder.faa target=1"
+    },
+    {
+      "case": "PADLOC_coordinate_changed",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Derived GFF source geometry/ID/phase/order differs: padloc.gff target=1"
+    },
+    {
+      "case": "PADLOC_strand_changed",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Derived GFF source geometry/ID/phase/order differs: padloc.gff target=3"
+    },
+    {
+      "case": "DF_crosswalk_ID_changed",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Derived GFF source geometry/ID/phase/order differs: defensefinder.gff target=1"
+    },
+    {
+      "case": "wrong_topology",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Source replicon manifest differs: SYNTH1.1 documented_circular"
+    },
+    {
+      "case": "lost_gene_only_pseudogene",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "TSV row count differs: locus_crosswalk.tsv"
+    },
+    {
+      "case": "changed_join_part_order",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Source/crosswalk differs: locus_crosswalk.tsv row=5 field=gbff_parts_zero_based_biological_order locus=GCF_000000001.1|SYNTH1.1|WRAP"
+    },
+    {
+      "case": "primary_source_header_changed",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Original primary FAA bytes changed"
+    },
+    {
+      "case": "foreign_replicon_GFF",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Derived GFF source geometry/ID/phase/order differs: defensefinder.gff target=1"
+    },
+    {
+      "case": "wrong_locus_key",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Detector/host FAA identity/order/sequence differs: padloc.faa target=1"
+    },
+    {
+      "case": "untranslated_replicon_spurious_input",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Untranslated replicon has spurious detector input"
+    },
+    {
+      "case": "raw_checkpoint_source_hash_mismatch",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "error": "Raw source hash/version differs from Stage 2 and checkpoint"
+    }
+  ],
+  "checkpoint_hashes_refreshed_after_content_mutations": true,
+  "biological_execution": "NOT_RUN",
+  "validator_source_sha256": "bc3fda58c2701e50ea0ed5fa4a7dee05151575bd703c319138b23d3342a79a7d",
+  "builder_fixture_source_sha256": "9fc6b346b0795047b9aa7d0e872868d86d2f3299dc14261078895e12b4c802b1"
+}

@@ -15,6 +15,7 @@
   "marker_occupancy_fixed_denominator": 196,
   "marker_minimum_accepted_genomes": 177,
   "post_occupancy_genome_recovery_minimum": 0.8,
+  "post_occupancy_recovery_denominator": "Primary retained marker count; this additional gate follows, and never replaces, the initial96/119 requirement",
   "failed_genome_rule": "Report scientific blocker; never prune or replace an approved assembly",
   "primary_marker_order": "Sorted profile NAME identifiers from the pinned HMM, after frozen occupancy filtering",
   "alignment": "Stage3 uses the actual GToTree1.8.10 serial amino-acid extraction helper with HMMER GA cutoffs and preserved full evidence; Stage4 aligns accepted markers with MAFFT --auto --thread 2 and trimAl -automated1. Concatenation is rebuilt in frozen marker order, with no synthetic spacer residues.",
