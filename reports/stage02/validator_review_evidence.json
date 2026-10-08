@@ -1,0 +1,51 @@
+{
+  "review_status": "REPAIRED_CHECKER_TESTED_ON_79_CACHED_PACKAGES",
+  "updated_utc": "2026-10-08T12:51:13.077210+00:00",
+  "approved_production_panel_count": 196,
+  "cached_package_snapshot_count": 79,
+  "remaining_approved_assemblies_not_in_this_review_snapshot": 117,
+  "original_draft_source_sha256": "db951fb90ef12c1054fd88a656909be3e8ca8103279f6c425275ba76374a860c",
+  "biological_parser_tested_source_sha256": "6472ceb0055c9c549af7d3f3d10c6f20a55f62256b451c8223221508389d8122",
+  "final_streaming_candidate_source_sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+  "source_zip_hashes_retained_between_review_passes": 79,
+  "cached_package_result_counts": {
+    "PASS_SEQUENCE_INTEGRITY_WITH_DOCUMENTED_EXCEPTIONS": 79
+  },
+  "cached_package_error_count": 0,
+  "cached_parser_elapsed_seconds": 133.2042164999998,
+  "cached_review_exception_counts": {
+    "DOCUMENTED_ANNOTATION_EXCEPTION": 4069,
+    "GFF_INTERNAL_PHASE_DOCUMENTED_EXCEPTION": 220,
+    "ARCHIVAL_METADATA_CATALOG_REFERENCE": 4,
+    "ARCHIVAL_ASSEMBLY_METADATA_REPORT": 4,
+    "SOURCE_PARTIAL_OR_FUZZY_CDS": 470,
+    "SOURCE_CDS_CODON_START_OFFSET": 214,
+    "PARTIAL_TERMINAL_UNKNOWN_OMITTED": 110,
+    "PARTIAL_TERMINAL_CODON_AMBIGUITY_VALIDATION": 58,
+    "PSEUDOGENE_GENE_WITHOUT_CDS": 3
+  },
+  "parser_selftest_count": 16,
+  "synthetic_package_tests": {
+    "count": 16,
+    "expected_positive_cases": 6,
+    "expected_rejected_cases": 10,
+    "all_expectations_passed": true
+  },
+  "streaming_io_checks": {
+    "status": "PASS_IO_CONTRACT_ONLY",
+    "validator_source_sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+    "previously_validated_packages_reused": 79,
+    "packages_explicitly_missing_for_io_test": 117,
+    "locus_rows_exactly_compared_to_cached_validation_json": 161227,
+    "completed_stream_atomic_rename": true,
+    "interrupted_stream_left_tmp_without_final_or_summary": true,
+    "evidence_limit": "No new biological validation; tests full196 CLI output serialization and completion semantics using prior actual validation JSON only."
+  },
+  "measured_resource_snapshot": {
+    "review_pid": 29008,
+    "snapshot_observed_peak_working_set_bytes": 173293568,
+    "cpu_seconds_at_snapshot": 93.45,
+    "scope": "Windows process snapshot before final cached run completion; not final CPU/peak metrics."
+  },
+  "evidence_limit": "Cache-reader review and synthetic parser/output tests only. No full196 biological completion, host orthology, independent ANI/taxon certification, or functional RM claims. Final code changed only full196 TSV streaming and historical catalog rationale after the 79 biological parser tests."
+}
