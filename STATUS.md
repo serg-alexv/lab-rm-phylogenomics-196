@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T11:48:15.871401+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T11:49:09.984362+00:00. Full approved196 production cohort; no pilot.
 
-Full196 retrieval: 10/196 packages retrieved and ZIP-audited; 0 failed; independent sequence validation not yet run. PID 32748.
+Full196 retrieval: 14/196 packages retrieved and ZIP-audited; 1 failed; independent sequence validation not yet run. PID 32748.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
