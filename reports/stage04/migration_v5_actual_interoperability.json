@@ -1,0 +1,32 @@
+{
+  "status": "PASS_ACTUAL_G_SOURCE_INTEROPERABILITY_PRODUCER_RESOURCE_BINDING_PENDING",
+  "utc": "2026-10-08T18:48:27.625382+00:00",
+  "candidate_manifest_sha256": "771836af40f20c4aaff94ba8f8f44d941f2923748531b408ae49be986570506a",
+  "native_report_sha256": "a77a27a096ec24132e7d7672d5a916dfa9ff719ff90160b5859a5dd7e26ebca0",
+  "windows_report_sha256": "bb27a2975614e62239d0e9f7e03aeee58edaa1886330c362b13d6f346b9774fb",
+  "actual_native_argv": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.private_run/migration_runtime_v5/stage04_migration_wsl_v5.sh",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/reports/stage04/migration_v5_native_source.time.txt",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/host_env/bin/python",
+    "-u",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/scripts/check_stage04_migration_v5.py",
+    "--native-source-check"
+  ],
+  "actual_native_exit": 0,
+  "actual_windows_probe_pid": 28152,
+  "native_wall_cpu_rss_evidence": "reports/stage04/migration_v5_native_source.time.txt",
+  "approved_assemblies": 196,
+  "markers": 100,
+  "analyses": 4,
+  "copied_inputs": 85,
+  "native_inference_started": false,
+  "candidate_adoption": "PENDING_FULL_RESOURCE_BINDING_AND_ROOT_PUBLICATION"
+}

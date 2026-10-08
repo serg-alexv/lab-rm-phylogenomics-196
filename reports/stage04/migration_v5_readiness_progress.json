@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-08T18:55:47.543445+00:00",
+  "execution": "WAITING_MEASURED_HEADROOM_AFTER_ACTUAL_G_SOURCE_MAPPING_CHECKS",
+  "actual_windows_snapshot": {
+    "utc": "2026-10-08T18:55:47.3267616Z",
+    "host": "WD",
+    "available_bytes": 3105505280,
+    "disk_available_bytes": 79052222464,
+    "pid": null,
+    "creation_utc": null,
+    "working_set_bytes": null,
+    "cpu_seconds": null
+  },
+  "required_windows_available_bytes": 4831838208,
+  "required_linux_available_bytes": 4294967296,
+  "actual_source_audit_native_pid": 976,
+  "actual_source_audit_exit": 0,
+  "source_audit_wall_seconds": 120.44,
+  "source_audit_cpu_seconds": 10.19,
+  "source_audit_peak_rss_bytes": 129548288,
+  "resource_measurement": "Native /usr/bin/time -v; these are source-audit metrics, no IQ-TREE computation",
+  "source_inputs_identical": 85,
+  "actual_bootstrap_cwd": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "pinned_tool_prefix": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/host_env",
+  "candidate_adoption": "NOT_ADOPTED",
+  "actual_producer_resource_binding": "PENDING_REAL_PASSED_ADMISSION",
+  "native_inference_started": false,
+  "stage05_stage06_stage07": "NOT_RUN",
+  "waiting_authority": "Latest user explicitly chose waiting for headroom",
+  "no_automatic_usage_reset": true,
+  "prior_sources_and_failures_preserved": true
+}

@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""Actual two-root CLI/bootstrap/source audit; never launches inference."""
+from pathlib import Path
+from unittest.mock import patch
+import hashlib, json, os, sys, time
+
+ROOT=Path(__file__).resolve().parents[1]
+HISTORY=Path(r'C:\Users\wheel\Documents\Codex\2026-10-08\lab-rm-phylogenomics-196')
+sys.path.insert(0,str(ROOT/'scripts'))
+
+def sha(path):
+    h=hashlib.sha256()
+    with Path(path).open('rb') as f:
+        for block in iter(lambda:f.read(1048576),b''):h.update(block)
+    return h.hexdigest()
+
+def cli_roles():
+    import stage04_migration_support_v5 as M
+    import stage04_inference_v5 as R
+    import stage04_inference_controller_v5 as K
+    import stage04_inference_validate_v5 as V
+    results={}; parsed={}
+    for label,module in [('producer',R),('controller',K),('checker',V)]:
+        with patch.object(sys,'argv',['actual_read_only_cli_probe','--failed-attempt',M.HISTORY_ROLES['failed_attempt']]):
+            args=module.parse()
+        parsed[label]=args
+        results[label]={name:M.qualified(args,value) for name,value in vars(args).items()
+                        if isinstance(value,Path) and name not in ('root','historical_root')}
+        M.require(args.root==ROOT and args.historical_root!=ROOT,'Actual CLI roots differ')
+    analysis={'name':'primary196'}
+    M.require(R.iqtree_argv(parsed['producer'],analysis)==V.exact_argv(parsed['checker'],analysis),'Native producer/checker argv differ')
+    # This orchestration method is Windows-only; native children parse the
+    # actual emitted argv instead of invoking Windows drive conversion again.
+    if os.name=='nt':
+        for phase in ('trees','validate_final'):
+            argv=K.phase_command(parsed['controller'],phase)
+            M.require(argv[argv.index('--root')+1]==K.C.linux_path(ROOT),
+                      'Actual Windows phase data root differs')
+    return results,parsed
+
+def native_source_check():
+    import stage04_migration_support_v5 as M
+    import stage04_inference_v5 as R
+    import stage04_inference_validate_v5 as V
+    import stage04_controller as C
+    start=time.monotonic(); roles,parsed=cli_roles()
+    resource_exists=parsed['producer'].resource_receipt.exists()
+    producer_identity,analyses=(R.input_identity(parsed['producer'],native=True) if resource_exists else (None,None))
+    migration=V.independent_migration_identity(parsed['checker'])
+    V.check((producer_identity['migration'] if producer_identity else M.migration_identity(parsed['producer']))==migration,
+            'Distinct actual migration readers disagree')
+    original,gate,outcomes,upstream,phases,failed_exit,failed_stderr=V.alignment_gate(parsed['checker'])
+    previous=V.previous_failure_gate(parsed['checker'],original)
+    V.check(sha(parsed['producer'].host_env/'bin/iqtree3')==original['identity']['iqtree3_sha256'],'Actual pinned native tool changed')
+    windows=json.loads((ROOT/'reports/stage04/migration_v5_windows_cli_check.json').read_text(encoding='utf-8'))
+    emitted=[]
+    for phase,argv in windows['actual_windows_emitted_native_phase_argv'].items():
+        module=R if phase=='trees' else V
+        with patch.object(sys,'argv',[argv[2],*argv[3:]]):child_args=module.parse()
+        child_roles={name:M.qualified(child_args,value) for name,value in vars(child_args).items()
+                     if isinstance(value,Path) and name not in ('root','historical_root')}
+        V.check(child_roles==roles['producer' if phase=='trees' else 'checker'],'Actual emitted native phase argv/roles differ')
+        emitted.append(phase)
+    native_cwd=Path.cwd().resolve()
+    V.check(native_cwd==ROOT==parsed['producer'].root,'Actual native bootstrap cwd is not G')
+    probe=ROOT/'.work/migration_v5_checks/actual_atomic_probe.txt'
+    value='SYNTHETIC_IO_PROBE_NO_BIOLOGY\n'
+    C.atomic(probe,value)
+    V.check(probe.read_text(encoding='utf-8')==value,'Actual G atomic write/readback failed')
+    report={'status':('PASS_ACTUAL_G_BOOTSTRAP_AND_DISTINCT_FULL196_SOURCE_GATES_NO_INFERENCE' if producer_identity else
+                     'PASS_ACTUAL_G_BOOTSTRAP_SOURCE_GATES_PRODUCER_RESOURCE_BINDING_PENDING'),
+            'utc':C.now(),'actual_native_probe_pid':os.getpid(),'actual_cwd':str(native_cwd),
+            'actual_python_executable':sys.executable,'actual_host_tool_prefix':str(parsed['producer'].host_env),
+            'actual_native_iqtree_sha256':sha(parsed['producer'].host_env/'bin/iqtree3'),
+            'script_sha256':sha(__file__),'elapsed_seconds':time.monotonic()-start,
+            'cli_qualified_roles':roles,'migration_identity':migration,
+            'producer_identity':producer_identity,'original_alignment_gate_sha256':sha(parsed['checker'].alignment_validation),
+            'alignment_checks':outcomes,'upstream_marker_gate':upstream,
+            'original_successful_phase_exit_sha256':phases,'original_failed_phase_exit_sha256':failed_exit,
+            'previous_failed_namespace_files':len(previous['previous_inference_file_sha256']),
+            'previous_actual_checker_sha256':previous['previous_inference_identity']['resumed_validator_sha256'],
+            'approved_assemblies':196,'markers_rechecked':100,'analyses_rechecked':4,
+            'actual_windows_phase_argv_native_parse_checks':emitted,
+            'producer_resource_binding':'ACTUAL_MEASURED' if producer_identity else 'PENDING_HEADROOM; NO_PLACEHOLDER_RECEIPT',
+            'actual_g_atomic_readback_sha256':sha(probe),'biological_inference':'NOT_RUN','scientific_stage04':'INCOMPLETE'}
+    V.atomic_json(ROOT/'reports/stage04/migration_v5_native_source_check.json',report)
+    print(json.dumps({'status':report['status'],'native_pid':os.getpid(),'elapsed_seconds':report['elapsed_seconds'],
+                      'copied_inputs_verified':len(migration['copied_input_sha256']),'analyses':4,'markers':100}))
+
+def windows_check():
+    import stage04_controller as C
+    import production_resume as w
+    w.LOG=ROOT/'reports/stage04/migration_v5_actual_commands.jsonl'
+    with C.WorkflowLock(HISTORY/'.work/workflow.lock'):
+        C.atomic(HISTORY/'.work/workflow_owner.json',{'pid':os.getpid(),'utc':C.now(),
+            'script':'G:scripts/check_stage04_migration_v5.py','scope':'Read-only migration/source audit; no biology',
+            'data_root':str(ROOT),'historical_root':str(HISTORY)})
+        C.reconcile(ROOT)
+        source=HISTORY/'.work/migration_review'
+        manifest=json.loads((source/'candidate_manifest.json').read_text(encoding='utf-8-sig'))
+        C.check(sha(source/'candidate_manifest.json')=='771836af40f20c4aaff94ba8f8f44d941f2923748531b408ae49be986570506a','Candidate manifest changed')
+        names=['stage04_inference_v5.py','stage04_inference_controller_v5.py','stage04_inference_validate_v5.py',
+               'resume_stage04_inference_v5.py','stage04_migration_support_v5.py','stage04_migration_wsl_v5.sh',
+               'host_inference_stage04_v5.json']
+        for name in names:
+            expected=manifest['files'][name]['sha256'];target=ROOT/('config' if name.endswith('.json') else 'scripts')/name
+            C.check(sha(source/name)==expected,'Candidate source changed: '+name)
+            C.check(not target.exists() or sha(target)==expected,'Different existing candidate preserved: '+name)
+            w.atomic(target,(source/name).read_bytes())
+        runtime=HISTORY/'.private_run/migration_runtime_v5/stage04_migration_wsl_v5.sh'
+        expected=manifest['files']['stage04_migration_wsl_v5.sh']['sha256']
+        C.check(not runtime.exists() or sha(runtime)==expected,'Different runtime bootstrap preserved')
+        w.atomic(runtime,(source/'stage04_migration_wsl_v5.sh').read_bytes())
+        roles,parsed=cli_roles()
+        w.js(ROOT/'reports/stage04/migration_v5_windows_cli_check.json',
+             {'status':'PASS_ACTUAL_WINDOWS_EXACT_ROOT_CLI_ROLES_NO_INFERENCE','utc':w.now(),'actual_probe_pid':os.getpid(),
+              'cli_qualified_roles':roles,'candidate_manifest_sha256':sha(source/'candidate_manifest.json'),
+              'probe_script_sha256':sha(__file__),
+              'actual_windows_emitted_native_phase_argv':{phase:__import__('stage04_inference_controller_v5').phase_command(parsed['controller'],phase)
+                                                        for phase in ('trees','validate_final')},
+              'candidate_staging':'EXACT_BYTES_FOR_INTEROPERABILITY; NOT_YET_ADOPTED','biological_inference':'NOT_RUN'})
+        for name in names[:4]:
+            w.run([sys.executable,str(ROOT/'scripts'/name),'--help'],timeout=60)
+        import stage04_inference_controller_v5 as K
+        import stage04_inference_v5 as R
+        K.C.LIMIT=R.OUTER;K.C.wsl=K.bounded_wsl
+        source_only='--source-check-only' in sys.argv
+        if not source_only:K.resource_preflight(parsed['controller'])
+        else:
+            current=C.windows_snapshot(ROOT)
+            C.check(current['available_bytes']>=512*1024**2,'Insufficient headroom even for separately scoped125MiB source audit')
+            w.js(ROOT/'reports/stage04/migration_v5_read_only_resource_snapshot.json',
+                 {'actual_windows_snapshot':current,'scope':'Source re-read only, observed prior125MiB RSS; two env threads; no native inference',
+                  'production_gate':'UNCHANGED4.5GiB/4GiB; NOT_CHECKED_OR_WAIVED_BY_THIS_READ_ONLY_AUDIT'})
+        identity,analyses=(R.input_identity(parsed['producer'],native=False) if parsed['producer'].resource_receipt.exists() else (None,None))
+        command=['wsl','-d','Ubuntu','--','bash',C.linux_path(runtime),
+                 '/usr/bin/time','-v','-o',C.linux_path(ROOT/'reports/stage04/migration_v5_native_source.time.txt'),
+                 C.linux_path(HISTORY/'.tools/linux/host_env/bin/python'),'-u',
+                 C.linux_path(Path(__file__)),'--native-source-check']
+        w.run(command,timeout=900)
+        native=C.load(ROOT/'reports/stage04/migration_v5_native_source_check.json')
+        C.check(native['status'] in ('PASS_ACTUAL_G_BOOTSTRAP_AND_DISTINCT_FULL196_SOURCE_GATES_NO_INFERENCE',
+                                    'PASS_ACTUAL_G_BOOTSTRAP_SOURCE_GATES_PRODUCER_RESOURCE_BINDING_PENDING')
+                and native['cli_qualified_roles']==roles and native['producer_identity']==identity
+                and native['script_sha256']==sha(__file__),'Actual cross-platform identity/source audit differs')
+        for name in names:
+            target=ROOT/('config' if name.endswith('.json') else 'scripts')/name
+            C.check(sha(target)==manifest['files'][name]['sha256'],'Staged candidate drift during audit')
+        w.js(ROOT/'reports/stage04/migration_v5_actual_interoperability.json',
+             {'status':('PASS_ACTUAL_WINDOWS_TO_G_NATIVE_BOOTSTRAP_CLI_AND_INDEPENDENT_FULL196_SOURCE_READBACK' if identity else
+                        'PASS_ACTUAL_G_SOURCE_INTEROPERABILITY_PRODUCER_RESOURCE_BINDING_PENDING'),
+              'utc':w.now(),'candidate_manifest_sha256':sha(source/'candidate_manifest.json'),
+              'native_report_sha256':sha(ROOT/'reports/stage04/migration_v5_native_source_check.json'),
+              'windows_report_sha256':sha(ROOT/'reports/stage04/migration_v5_windows_cli_check.json'),
+              'actual_native_argv':command,'actual_native_exit':0,'actual_windows_probe_pid':os.getpid(),
+              'native_wall_cpu_rss_evidence':'reports/stage04/migration_v5_native_source.time.txt',
+              'approved_assemblies':196,'markers':100,'analyses':4,'copied_inputs':len(native['migration_identity']['copied_input_sha256']),
+              'native_inference_started':False,'candidate_adoption':'PENDING_FULL_RESOURCE_BINDING_AND_ROOT_PUBLICATION' if identity is None else 'PENDING_ROOT_PUBLICATION'})
+        print('ACTUAL_V5_G_SOURCE_INTEROPERABILITY_CHECK_RECORDED; READ_EXPLICIT_RESOURCE_ADOPTION_STATE',flush=True)
+
+if __name__=='__main__':
+    if '--native-source-check' in sys.argv:native_source_check()
+    else:windows_check()
