@@ -65,14 +65,14 @@ def main():
                 except Exception as e:errors.append({'attempt':attempt,'error':str(e)});print('RETRY',acc,str(e)[-350:],flush=True)
         record={'accession':acc,'index':i,'utc':w.now(),'status':'RETRIEVED_PACKAGE_AUDITED' if success else 'FAILED','scientific_validation':'NOT_RUN','zip_bytes':zp.stat().st_size if success else None,'zip_sha256':w.digest(zp) if success else None,'input_sha256':inp,'code_sha256':code,'datasets_sha256':tool,'elapsed_seconds':round(time.monotonic()-t,3),'original_retrieval_utc':prior.get('original_retrieval_utc',prior.get('utc')),'original_attempt_errors':prior.get('attempt_errors',[]),'attempt_errors':errors,'member_count':nmembers if success else None,'provider_md5_members_checked':md5count if success else None,'additional_version_metadata_preserved':context if success else None,'cpu_seconds':None,'peak_ram_bytes':None,'measurement_reason':'Command elapsed/snapshot RAM recorded; per-process peak unavailable'}
         w.js(cp,record);rows.append(record)
-        w.js(R/'reports/stage02/retrieval_progress.json',{'utc':w.now(),'approved':196,'retrieved':sum(x['status']=='RETRIEVED_PACKAGE_AUDITED' for x in rows),'failed':sum(x['status']=='FAILED' for x in rows),'remaining':196-i,'elapsed_seconds':round(time.monotonic()-start,3),'workflow_pid':os.getpid(),'input_sha256':inp,'scientific_validation':'NOT_RUN','assemblies':rows})
+        w.js(R/'reports/stage02/retrieval_progress_resume.json',{'utc':w.now(),'approved':196,'retrieved':sum(x['status']=='RETRIEVED_PACKAGE_AUDITED' for x in rows),'failed':sum(x['status']=='FAILED' for x in rows),'remaining':196-i,'elapsed_seconds':round(time.monotonic()-start,3),'workflow_pid':os.getpid(),'input_sha256':inp,'scientific_validation':'NOT_RUN','assemblies':rows})
         print(f'{i}/196 {acc} {record["status"]} bytes={record["zip_bytes"]} md5={record["provider_md5_members_checked"]} history={record["additional_version_metadata_preserved"]}',flush=True)
         if i%10==0 or i==196 or not success:
             w.status('2_sequences','RUNNING' if success else 'FAILED','NOT_RUN','PROGRESS_PUBLISHED',f'Full196 retrieval: {sum(x["status"]=="RETRIEVED_PACKAGE_AUDITED" for x in rows)}/196 packages ZIP/catalog/provider-MD5 audited. {sum(x["status"]=="FAILED" for x in rows)} failed. Scientific QC pending. PID {os.getpid()}.')
-            w.commit(['reports/stage02/retrieval_progress.json','STATUS.md','status/stages.tsv'],'Publish measured exact196 retrieval progress '+str(i)+'/196')
+            w.commit(['reports/stage02/retrieval_progress_resume.json','STATUS.md','status/stages.tsv'],'Publish measured exact196 retrieval progress '+str(i)+'/196')
         if not success:raise RuntimeError('Exact retrieval failed after bounded retries: '+acc)
     w.status('2_sequences','RETRIEVED','NOT_RUN','PROGRESS_PUBLISHED','All196 raw packages retrieved with exact sequence catalog membership and provider MD5 checks. Independent annotation/sequence validation and stage02 Release publication still pending.')
-    w.commit(['reports/stage02/retrieval_progress.json','reports/stage02/commands.jsonl','STATUS.md','status/stages.tsv'],'Record complete196 acquisition; independent scientific validation pending')
+    w.commit(['reports/stage02/retrieval_progress_resume.json','reports/stage02/commands.jsonl','STATUS.md','status/stages.tsv'],'Record complete196 acquisition; independent scientific validation pending')
 
 if __name__=='__main__':
     lock=(w.WORK/'workflow.lock').open('a+b');lock.seek(0)
