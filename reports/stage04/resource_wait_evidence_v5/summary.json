@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_MEASURED_RESOURCE_WAIT_EVIDENCE_SNAPSHOT_ONLY",
+  "utc": "2026-10-08T20:09:53.698169+00:00",
+  "actual_measurements": 19,
+  "memory_admissions_passed": 0,
+  "last_actual_admission_measurement": {
+    "utc": "2026-10-08T20:09:15.569881+00:00",
+    "windows_before_bytes": 5107064832,
+    "windows_after_bytes": 3239383040,
+    "linux_available_bytes": 5042991104,
+    "windows_required_bytes": 4831838208,
+    "linux_required_bytes": 4294967296,
+    "memory_admission_passed": false,
+    "linux_boot_id": "444f9f55-7a49-49a0-94e8-a19a34cc548a",
+    "original_data_relative_path": ".work/stage04_inference_controller_v5/resource_preflight_measurements/measurement_2026-10-08T200915.569911_0000.json",
+    "measurement_sha256": "aa4f27ef5e69fb9ad90869ae7a7138ddf24d9192919857dcd01bb57e428492fe"
+  },
+  "followup_windows_snapshot": {
+    "utc": "2026-10-08T20:09:53.5672867Z",
+    "host": "WD",
+    "available_bytes": 4804927488,
+    "disk_available_bytes": 86343782400,
+    "pid": 8200,
+    "creation_utc": "2026-10-08T19:40:09.8656640Z",
+    "working_set_bytes": 22446080,
+    "cpu_seconds": 1.90625
+  },
+  "producer_resource_ready_report_exists": false,
+  "adopted_inference_receipt_exists": false,
+  "v5_inference_freeze_exists": false,
+  "full_stage04": "INCOMPLETE",
+  "stage05_stage06_stage07": "NOT_RUN",
+  "watcher_resource_metrics_scope": "Measured observer only; not IQ-TREE or biological search CPU/RAM",
+  "source_report_sha256": "a77a27a096ec24132e7d7672d5a916dfa9ff719ff90160b5859a5dd7e26ebca0",
+  "postboot_release_receipt_sha256": "f223e364692ede738e640d7160c44d8b83e649600e068df4cfed63901dbc447b",
+  "preparation_release_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage00r-postboot-preconditions196-v1"
+}
