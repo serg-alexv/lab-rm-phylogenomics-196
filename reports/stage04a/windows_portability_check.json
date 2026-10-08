@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-08T15:39:04.3872161Z",
+  "status": "PASS_NATIVE_WINDOWS_EXTRACTION_AND_ALL_MEMBER_HASHES",
+  "asset": "stage04a-full196-validated-alignments.zip",
+  "sha256": "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+  "zip_bytes": 29506545,
+  "extracted_files": 2456,
+  "payload_members_hash_verified": 2455,
+  "readme_utf8_readable": true,
+  "method": "Windows System.IO.Compression.ZipFile.ExtractToDirectory and Get-FileHash; no WSL",
+  "actual_argv": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "scripts/validate_windows_zip.ps1",
+    "-ZipPath",
+    "release_staging/stage04a/readback/stage04a-full196-validated-alignments.zip",
+    "-ExpectedSha256",
+    "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+    "-Destination",
+    ".work/stage04a_windows_alignments_v1"
+  ],
+  "controller_pid": 33980,
+  "actual_exit_code": 0,
+  "elapsed_seconds": 7.220939600001657,
+  "publication_payload_commit": "8a5e5909bcbbcb27cb7c8e552e5bdfc92dc18168"
+}
