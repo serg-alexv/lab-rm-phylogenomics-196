@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SOURCE_LOCUS_INPUT_TRACEABILITY",
+  "completed_at_utc": "2026-10-08T13:35:46.367778+00:00",
+  "elapsed_seconds": 436.4705091000005,
+  "required_assemblies": 196,
+  "assemblies_audited": 196,
+  "assemblies_passed": 196,
+  "failed_assemblies": [],
+  "global_errors": [],
+  "complete_exact196_accounting": true,
+  "panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "builder_identity": {
+    "panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "builder_source_sha256": "9fc6b346b0795047b9aa7d0e872868d86d2f3299dc14261078895e12b4c802b1",
+    "stage02_validation_summary_sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+    "python_version": "3.14.6",
+    "biopython_version": "1.88"
+  },
+  "validator_source_sha256": "bc3fda58c2701e50ea0ed5fa4a7dee05151575bd703c319138b23d3342a79a7d",
+  "python_version": "3.14.6",
+  "biopython_version": "1.88",
+  "evidence_limit": "Source sequence, locus and replicon traceability only. No host marker search, phylogenetic inference, defense detector result or functional validation.",
+  "source_gbff_cds_loci": 411514,
+  "source_context_loci": 411523,
+  "protein_bearing_loci": 398537,
+  "gene_only_pseudogenes": 9,
+  "gbff_replicons": 2120,
+  "output_files_verified": 12812,
+  "output_bytes_verified": 1893101586,
+  "origin_spanning_loci": 86,
+  "coordinate_review_loci": 7502
+}

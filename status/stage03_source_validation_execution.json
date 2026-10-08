@@ -1,0 +1,22 @@
+{
+  "status": "PASS_SOURCE_LOCUS_INPUT_TRACEABILITY",
+  "utc": "2026-10-08T13:35:46.508598+00:00",
+  "workflow_pid": 28184,
+  "child_pid": 21456,
+  "exit_code": 0,
+  "argv": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env\\Scripts\\python.exe",
+    "-u",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\validate_locus_inputs.py",
+    "--root",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+    "--inputs",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\source_locus_inputs_v1",
+    "--stage02-dir",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage02_validated",
+    "--output-dir",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage03_source_validation",
+    "--builder-script",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\build_locus_inputs.py"
+  ]
+}
