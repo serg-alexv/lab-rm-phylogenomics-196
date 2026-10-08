@@ -1,0 +1,60 @@
+{
+  "status": "PASS_RETAINED_FULL196_ALIGNMENT_AND_FAILED_ATTEMPT_PROVENANCE_ONLY",
+  "validator_source_sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0",
+  "probe_source_sha256": "b3dbc4d284f2b75ccc2341cbb64c2bf458ec5934059ce8de9b952a1c2e39b88f",
+  "elapsed_seconds": 20.841064077000002,
+  "approved_assemblies": 196,
+  "markers_rechecked": 100,
+  "analysis_alignment_checks": [
+    {
+      "analysis": "primary196",
+      "tips": 196,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 19600
+    },
+    {
+      "analysis": "sensitivity162",
+      "tips": 162,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 16200
+    },
+    {
+      "analysis": "sensitivity187_markers",
+      "tips": 196,
+      "partitions": 88,
+      "columns": 15174,
+      "blocks_reconstructed": 17248
+    },
+    {
+      "analysis": "sensitivity_complete155",
+      "tips": 155,
+      "partitions": 100,
+      "columns": 17456,
+      "blocks_reconstructed": 15500
+    }
+  ],
+  "upstream_marker_gate": {
+    "view": "INDEPENDENTLY_CURATED_TOPOLOGY_BLIND_ORTHOLOGY",
+    "original_scientific_status": "HOST_ORTHOLOGY_DUPLICATE_SIGNAL_REVIEW_REQUIRED",
+    "original_marker_validation_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+    "marker_validation_sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "orthology_curation_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1",
+    "retained_profiles": 100,
+    "retained_source_sequences": 19359,
+    "biological_search_reexecuted": false
+  },
+  "alignment_validation_sha256": "2dcec67c0de7c8930046d82ac3c87d011e295844873805f17aae3a2453855b04",
+  "alignment_publication_sha256": "37a7e8d4e89ce16b42021353c393d6386361c8053131c2ec0c406dfeeaa45f8e",
+  "original_successful_phase_exit_sha256": {
+    "align": "05c45e93060e311751c2529465c5417b26f946456f656ca0bcb3bb0fe84427c9",
+    "validate_alignment": "899c84f1b7349a167db3d7edbeed0effe259709303c8b9bed8992c5a6dedb2ff"
+  },
+  "original_failed_phase_exit_sha256": "736e26d0ee7b9afe7fbcdd663f0d4326cc1f883533c9ea7f6cc65923e3024f79",
+  "failed_native_attempt_sha256": "e8daada9d807aa3b3c6e89871e7558f27f623ffc67f1d77666f2df19ac675c4b",
+  "failed_native_stderr_sha256": "39aea0a6521351174db01fa176cad4039e3e1f29f382852693e78b237f18bbf2",
+  "source_alignment_recomputed": false,
+  "biological_inference": "NOT_RUN",
+  "stage04_final_scientific_validation": "NOT_RUN"
+}

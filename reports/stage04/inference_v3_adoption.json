@@ -1,0 +1,86 @@
+{
+  "status": "REVIEWED_RESUMED_INFERENCE_CODE_ADOPTED_BEFORE_TOPOLOGY",
+  "utc": "2026-10-08T15:56:57.735606+00:00",
+  "sources": [
+    {
+      "path": "scripts/stage04_inference_v3.py",
+      "sha256": "5369775309c89268026d1ca17f833e07ff23dc271186f675ac96079f47a9991d",
+      "bytes": 27549
+    },
+    {
+      "path": "scripts/stage04_inference_controller_v3.py",
+      "sha256": "f0039fba4c187e85ce5f83dd3682bf38b87e91b2d9205ea31d3736e7d937eaed",
+      "bytes": 16955
+    },
+    {
+      "path": "scripts/stage04_iqtree_limit_v3.py",
+      "sha256": "f67650f7d5a70ff48aaabca71f05e2fecd0fde2b22c1e0646b8327fa205b0a42",
+      "bytes": 3122
+    },
+    {
+      "path": "scripts/test_stage04_inference_v3.py",
+      "sha256": "92f23be672073f82cec3c28ff65a2c874d0db3e59c6206f372c36b782ea72073",
+      "bytes": 7132
+    },
+    {
+      "path": "config/host_inference_stage04_v3.json",
+      "sha256": "f5a9884abe259a6aae74e946edfa18b353941fee1d9036ed9f1060cfd798d787",
+      "bytes": 886
+    },
+    {
+      "path": "scripts/stage04_inference_validate_v3.py",
+      "sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0",
+      "bytes": 52857
+    },
+    {
+      "path": "scripts/test_stage04_inference_validate_v3.py",
+      "sha256": "632de922de2e9b53aac1f513816b0c62943bd66d64b139c2bae8ac1abdc11a8a",
+      "bytes": 14633
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/probe_source.py.txt",
+      "sha256": "b3dbc4d284f2b75ccc2341cbb64c2bf458ec5934059ce8de9b952a1c2e39b88f",
+      "bytes": 2828
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/synthetic_checker_tests.json",
+      "sha256": "0a0cde53d207a1c93a718148e1d35825c7b04ad65ac404037eac3662bc0aef2d",
+      "bytes": 7865
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/INDEPENDENT_CHECKER.md",
+      "sha256": "80f642e0b951bf773f5fa43c1699a358eeeea08fd28ebbb206406efd115eec05",
+      "bytes": 3918
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/retained_source_actual_probe.json",
+      "sha256": "3c804ecf5772443dc98da65b6261eff4e41d47ddc268d0e56222d0bcd71f4172",
+      "bytes": 2510
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/retained_source.time.txt",
+      "sha256": "39e7081b53fefccbc6ef19d655ef1e1d3486c1b5f2119af2af02380599b0c5b9",
+      "bytes": 776
+    },
+    {
+      "path": "reports/stage04/inference_v3_review/handoff_manifest.json",
+      "sha256": "6c5701a738fcc3edef849bcadccf797ab3474b18ea20c7e2835d0bc259b82be5",
+      "bytes": 2088
+    },
+    {
+      "path": "reports/stage04/INFERENCE_V3.md",
+      "sha256": "04d01dc42d1b5b75320ee85bd5e865dafd118900650c4a50343ee57f42454561",
+      "bytes": 5859
+    }
+  ],
+  "synthetic_producer_fixtures": 23,
+  "independent_checker_fixtures": 41,
+  "independent_source_review": "Original preserved alignments, source-block joins, exact scopes and failed native attempt rechecked; no tree inference by reviewers",
+  "peer_runner_review": "Windows import, immutable input identity, PID adoption before new RAM gate, recursive native cache proof and non-overwriting attempt paths reviewed",
+  "biological_inference": "NOT_RUN_AT_ADOPTION",
+  "original_alignment_reexecution": false,
+  "resource_policy": "two threads/cores, outer2GiB AS, native IQ-TREE soft/hard1536MiB AS; unsupported --mem removed without scientific scope/model/support changes",
+  "actual_adoption_pid": 30256,
+  "full_stage04_scientific_validation": "PENDING_ACTUAL_FOUR_TREES_AND_DISTINCT_FINAL_CHECK",
+  "command_evidence": "reports/stage04/inference_v3_adoption_commands.jsonl"
+}

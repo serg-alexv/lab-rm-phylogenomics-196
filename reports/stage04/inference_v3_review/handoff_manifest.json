@@ -1,0 +1,53 @@
+{
+  "status": "FROZEN_CHECKER_READY_FOR_ADOPTION_SYNTHETIC_GATES_PASSED",
+  "files": [
+    {
+      "path": ".work/review2/stage04_inference_validate_v3.py",
+      "sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0",
+      "bytes": 52857
+    },
+    {
+      "path": ".work/review2/test_stage04_inference_validate_v3.py",
+      "sha256": "632de922de2e9b53aac1f513816b0c62943bd66d64b139c2bae8ac1abdc11a8a",
+      "bytes": 14633
+    },
+    {
+      "path": ".work/review2/probe_stage04_v3_source.py",
+      "sha256": "b3dbc4d284f2b75ccc2341cbb64c2bf458ec5934059ce8de9b952a1c2e39b88f",
+      "bytes": 2828
+    },
+    {
+      "path": ".work/review2/stage04_inference_review/synthetic_checker_tests.json",
+      "sha256": "0a0cde53d207a1c93a718148e1d35825c7b04ad65ac404037eac3662bc0aef2d",
+      "bytes": 7865
+    },
+    {
+      "path": ".work/review2/stage04_inference_review/INDEPENDENT_CHECKER.md",
+      "sha256": "80f642e0b951bf773f5fa43c1699a358eeeea08fd28ebbb206406efd115eec05",
+      "bytes": 3918
+    },
+    {
+      "path": ".work/review2/stage04_inference_review/retained_source_actual_probe.json",
+      "bytes": 2510,
+      "sha256": "3c804ecf5772443dc98da65b6261eff4e41d47ddc268d0e56222d0bcd71f4172"
+    },
+    {
+      "path": ".work/review2/stage04_inference_review/retained_source.time.txt",
+      "bytes": 776,
+      "sha256": "39e7081b53fefccbc6ef19d655ef1e1d3486c1b5f2119af2af02380599b0c5b9"
+    }
+  ],
+  "synthetic_fixture_passed": 41,
+  "biological_inference": "NOT_RUN_BY_REVIEWER",
+  "full_stage04_final_validation": "NOT_RUN",
+  "retained_source_frozen_byte_probe": "PASS_RETAINED_FULL196_ALIGNMENT_AND_FAILED_ATTEMPT_PROVENANCE_ONLY",
+  "production_sources_edited": false,
+  "git_mutations": false,
+  "actual_probe_resource_evidence": {
+    "elapsed_seconds": 20.841064077000002,
+    "user_cpu_seconds": 4.37,
+    "system_cpu_seconds": 1.72,
+    "peak_rss_bytes": 125280256,
+    "measurement": "Actual /usr/bin/time -v on read-only checker; includes Python/BioPython, no native inference"
+  }
+}

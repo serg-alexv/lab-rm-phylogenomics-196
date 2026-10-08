@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Read-only retained full196 source/old-failure probe; no inference."""
+from pathlib import Path
+import importlib.util, json, time
+from types import SimpleNamespace
+
+here=Path(__file__).resolve().parent;root=here.parents[1]
+spec=importlib.util.spec_from_file_location('independent_stage04_v3',here/'stage04_inference_validate_v3.py')
+V=importlib.util.module_from_spec(spec);spec.loader.exec_module(V)
+paths={'root':root,'alignment_input':root/'.work/stage04_phylogeny_v2',
+ 'alignment_validation':root/'.work/stage04_alignment_validation/validation_summary.json',
+ 'alignment_publication':root/'reports/stage04a/publication_receipt.json',
+ 'source_control':root/'.work/stage04_controller','source_controller':root/'scripts/stage04_controller.py',
+ 'source_producer':root/'scripts/stage04_phylogeny.py','source_validator':root/'scripts/stage04_validate.py',
+ 'observer_source':root/'scripts/stage04_linux_launcher.py','wsl_wrapper':root/'scripts/wsl_project.sh',
+ 'failed_attempt':root/'.work/stage04_phylogeny_v2/analyses/primary196/iqtree/attempt_0001/iqtree3.command.json',
+ 'host_config':root/'config/host_primary_stage03_v1.json','original_resource_receipt':root/'reports/stage04/resource_preflight.json',
+ 'host_env':root/'.tools/linux/host_env','markers':root/'.work/stage03_orthology_v2',
+ 'marker_validation':root/'.work/stage03_curated_validation/validation_summary.json',
+ 'orthology_config':root/'config/host_orthology_stage03_v2.json',
+ 'original_markers':root/'.work/stage03_markers_v1','original_marker_validation':root/'.work/stage03_marker_validation/validation_summary.json'}
+start=time.monotonic()
+frozen,gate,outcomes,upstream,phases,failed_exit,failed_stderr=V.alignment_gate(SimpleNamespace(**paths))
+report={'status':'PASS_RETAINED_FULL196_ALIGNMENT_AND_FAILED_ATTEMPT_PROVENANCE_ONLY',
+ 'validator_source_sha256':V.digest(here/'stage04_inference_validate_v3.py'),'probe_source_sha256':V.digest(__file__),
+ 'elapsed_seconds':time.monotonic()-start,'approved_assemblies':196,'markers_rechecked':100,
+ 'analysis_alignment_checks':outcomes,'upstream_marker_gate':upstream,
+ 'alignment_validation_sha256':V.digest(paths['alignment_validation']),
+ 'alignment_publication_sha256':V.digest(paths['alignment_publication']),
+ 'original_successful_phase_exit_sha256':phases,'original_failed_phase_exit_sha256':failed_exit,
+ 'failed_native_attempt_sha256':V.digest(paths['failed_attempt']),'failed_native_stderr_sha256':failed_stderr,
+ 'source_alignment_recomputed':False,'biological_inference':'NOT_RUN','stage04_final_scientific_validation':'NOT_RUN'}
+V.atomic_json(here/'stage04_inference_review/retained_source_actual_probe.json',report)
+print(json.dumps({'status':report['status'],'elapsed_seconds':report['elapsed_seconds'],'analyses':4,'markers':100,'biological_inference':'NOT_RUN'}))

@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SYNTHETIC_STAGE04_RESUMED_INFERENCE_POLICY_AND_NATIVE_PROOF",
+  "fixtures": [
+    "frozen_full196_unchanged_partition_model_support_and_stricter_cap",
+    "frozen_policy_change_approved_assemblies",
+    "frozen_policy_change_iqtree_address_space_limit_bytes",
+    "frozen_policy_change_maximum_compute_threads",
+    "frozen_policy_change_partition_option",
+    "frozen_policy_change_ultrafast_bootstrap_replicates",
+    "frozen_policy_change_alignment_reexecution",
+    "frozen_policy_change_native_memory_option",
+    "exact_native_argv_omits_only_unsupported_memory_flag_and_uses_distinct_output",
+    "complete_native_start_boot_pid_binary_strict_limit_proof_required",
+    "native_proof_drift_native_address_space_soft_hard_bytes",
+    "native_proof_drift_pid",
+    "native_proof_drift_start_ticks",
+    "native_proof_drift_boot_id",
+    "native_proof_drift_limit_helper_source_sha256",
+    "native_exe_sentinel_rejected",
+    "exact_recursive_completed_native_cache_proof",
+    "incomplete_cached_native_manifest_rejected",
+    "extra_native_cache_member_rejected",
+    "gapped_native_attempt_numbering_preserves_prior_directories",
+    "unrecognized_attempt_namespace_rejected",
+    "existing_current_phase_pid_adoption_precedes_ram_preflight",
+    "fresh_launch_requires_new_resource_preflight"
+  ],
+  "count": 23,
+  "biological_jobs_run": 0,
+  "git_commands_run": 0,
+  "production_lock_touched": false
+}

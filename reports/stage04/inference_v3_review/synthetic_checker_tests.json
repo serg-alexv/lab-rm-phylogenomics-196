@@ -1,0 +1,251 @@
+{
+  "status": "PASS_SYNTHETIC_RESUMED_INFERENCE_CHECKER_FIXTURES",
+  "validator_source_sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0",
+  "test_source_sha256": "632de922de2e9b53aac1f513816b0c62943bd66d64b139c2bae8ac1abdc11a8a",
+  "passed": 41,
+  "failed": 0,
+  "fixtures": [
+    {
+      "name": "synthetic_exact_argv_omits_mem_preserves_all_science_options",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "synthetic_limit_pid_start_boot_guard_accepts_consistency",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "synthetic_1000_tree_model_coordinate_export_guard",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "zero_exit_without_native_executable_proof",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual native successful attempt/limit identity missing"
+    },
+    {
+      "name": "native_nonzero_exit",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual native successful attempt/limit identity missing"
+    },
+    {
+      "name": "native_pid_reused_different_start",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Native PID/start/boot identity differs across exec"
+    },
+    {
+      "name": "native_boot_identity_changed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Native PID/start/boot identity differs across exec"
+    },
+    {
+      "name": "native_soft_hard_cap_relaxed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actually applied native hard resource/executable proof differs"
+    },
+    {
+      "name": "native_outer_cap_unbounded",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actually applied native hard resource/executable proof differs"
+    },
+    {
+      "name": "native_affinity_unbounded",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actually applied native hard resource/executable proof differs"
+    },
+    {
+      "name": "native_helper_source_changed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actually applied native hard resource/executable proof differs"
+    },
+    {
+      "name": "native_binary_changed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actually applied native hard resource/executable proof differs"
+    },
+    {
+      "name": "native_elapsed_nonfinite",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Invalid actual native resource measurement"
+    },
+    {
+      "name": "native_wrapper_identity_file_changed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual native argv/helper input differs"
+    },
+    {
+      "name": "unsupported_mem_option_reintroduced",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual native argv/helper input differs"
+    },
+    {
+      "name": "different_seed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual native argv/helper input differs"
+    },
+    {
+      "name": "actual_limit_evidence_omitted_from_manifest",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Tree immutable manifest omits/adds actual native/attempt evidence"
+    },
+    {
+      "name": "999_ufboot_trees_reject_even_zeroexit",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Native1000 UFBoot replicates not present"
+    },
+    {
+      "name": "model_partition_coordinate_drift",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual ModelFinder scheme merged/reordered/resized frozen partitions"
+    },
+    {
+      "name": "model_partition_profile_omission",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Actual ModelFinder model allocation incomplete/different"
+    },
+    {
+      "name": "portable_export_topology_drift",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Portable unrooted export changes native splits"
+    },
+    {
+      "name": "native_support_outside_0_100",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Branch support outside0..100"
+    },
+    {
+      "name": "native_contree_duplicate_tip",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Tree exact-tip membership changed"
+    },
+    {
+      "name": "negative_native_branch_length",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Nonfinite/negative tree branch length"
+    },
+    {
+      "name": "native_attempt_bytes_changed_after_freeze",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Immutable payload/source bytes changed: attempt_0001/iqtree3.command.json"
+    },
+    {
+      "name": "identical_input_reuse_binds_prior_independent_completed_receipt",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "reuse_source_not_independently_completed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Reuse lacks independently completed source inference"
+    },
+    {
+      "name": "reused_source_receipt_hash_drift",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Reused source completed inference receipt changed"
+    },
+    {
+      "name": "nonidentical_source_alignment_cannot_reuse_native_inference",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Reuse source alignment/partitions not byte-identical"
+    },
+    {
+      "name": "exact_frozen_partition_support_resource_policy",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "panel_reduction",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "model_merge_enabled",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "bootstrap_reduction",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "native_cap_relaxed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "thread_raise",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "alignment_reexecution_allowed",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Resumed policy relaxes scope/models/support/resource bounds"
+    },
+    {
+      "name": "stage04a_current_exact_release_gate",
+      "status": "PASS",
+      "kind": "VALID_SYNTHETIC_GUARD"
+    },
+    {
+      "name": "stale_alignment_publication_hash",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Stage04a current science/publication binding differs"
+    },
+    {
+      "name": "upload_started_without_remote_byte_proof",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Stage04a asset bytes were not completely verified"
+    },
+    {
+      "name": "alignment_only_receipt_counterfeits_whole_stage4",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Stage04a current science/publication binding differs"
+    },
+    {
+      "name": "unsafe_manifest_parent_escape",
+      "status": "PASS",
+      "kind": "REJECT_MALFORMED",
+      "error": "Receipt member escapes namespace"
+    }
+  ],
+  "biological_inference": "NOT_RUN",
+  "full196_final_validation": "NOT_RUN"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_RESUMED_INFERENCE_PROTOCOL_BEFORE_TOPOLOGY",
+  "approved_assemblies": 196,
+  "alignment_reexecution": false,
+  "native_memory_option": "OMITTED_UNSUPPORTED_WITH_PARTITION_MODELS",
+  "outer_address_space_limit_bytes": 2147483648,
+  "iqtree_address_space_limit_bytes": 1610612736,
+  "maximum_compute_threads": 2,
+  "partition_option": "-p",
+  "model_selection": "MFP_WITHOUT_MERGING",
+  "ultrafast_bootstrap_replicates": 1000,
+  "sh_alrt_replicates": 1000,
+  "seed": 1961008,
+  "root_policy": "EXPLICITLY_UNROOTED_NO_VALIDATED_OUTGROUP",
+  "scientific_result": "NOT_RUN_CONFIGURATION_ONLY",
+  "reason": "Actual installed IQ-TREE3.1.4 exits2 when --mem is combined with partition models. Remove only that unsupported native option, enforce stricter1536MiB native soft/hard AS outside IQ-TREE; reuse all four independently validated/published alignments unchanged."
+}
