@@ -1,0 +1,38 @@
+{
+  "status": "PASS_READ_ONLY_FULL196_ACCOUNTING_AND_EXTRACTED_BYTES",
+  "completed_at_utc": "2026-10-08T13:29:34.103353+00:00",
+  "command": "python audit_stage02_accounting.py --root . --validated .work/stage02_validated --output .work/review2/full196_independent_audit.json",
+  "audit_source_sha256": "979ab22d107b078b00053c305d5122df1e2d74bf3ae263940beb83f55eec0f36",
+  "validation_summary_sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+  "validator_source_sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+  "approved_panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "exact_approved_assembly_rows": 196,
+  "error_rows": 0,
+  "review_exception_rows": 16155,
+  "exception_counts": {
+    "DOCUMENTED_ANNOTATION_EXCEPTION": 13586,
+    "GFF_INTERNAL_PHASE_DOCUMENTED_EXCEPTION": 609,
+    "ARCHIVAL_METADATA_CATALOG_REFERENCE": 4,
+    "ARCHIVAL_ASSEMBLY_METADATA_REPORT": 4,
+    "SOURCE_PARTIAL_OR_FUZZY_CDS": 1011,
+    "SOURCE_CDS_CODON_START_OFFSET": 535,
+    "PARTIAL_TERMINAL_UNKNOWN_OMITTED": 282,
+    "PARTIAL_TERMINAL_CODON_AMBIGUITY_VALIDATION": 115,
+    "PSEUDOGENE_GENE_WITHOUT_CDS": 9
+  },
+  "replicon_rows": 2120,
+  "member_rows": 1960,
+  "verified_extracted_member_bytes": 2460621325,
+  "unexpected_extracted_files": 0,
+  "exact_unique_locus_keys": 411514,
+  "protein_bearing_loci": 398537,
+  "computed_translation_states": {
+    "MATCH": 397531,
+    "DOCUMENTED_EXCEPTION": 13586,
+    "MATCH_PARTIAL_UNKNOWN_TERMINAL_OMITTED": 282,
+    "MATCH_PARTIAL_TERMINAL_CODON": 115
+  },
+  "compact_and_extracted_member_elapsed_seconds": 41.06650829999944,
+  "locus_accounting_elapsed_seconds": 10.0628899000003,
+  "evidence_limit": "Independent accounting and extracted byte hashes after full sequence validation; no ANI, marker, defense or functional certification."
+}
