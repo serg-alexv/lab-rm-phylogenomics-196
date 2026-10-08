@@ -1,8 +1,8 @@
 # Current execution status
 
-Updated 2026-10-08T12:44:32.731812+00:00. Full approved196 production cohort; no pilot.
+Updated 2026-10-08T12:44:55.957211+00:00. Full approved196 production cohort; no pilot.
 
-Full196 retrieval: 50/196 packages ZIP/catalog/provider-MD5 audited. 0 failed. Scientific QC pending. PID 26536.
+Full196 retrieval: 60/196 packages ZIP/catalog/provider-MD5 audited. 0 failed. Scientific QC pending. PID 26536.
 
 | Stage | Execution | Validation | Publication |
 |---|---|---|---|
