@@ -1,0 +1,130 @@
+{
+  "status": "PASS_ISOLATED_STAGE03_FINALIZER_GATES",
+  "completed_at_utc": "2026-10-08T14:29:18.428811+00:00",
+  "finalizer_source_sha256": "f29f8280a6e7e8fb9ae5d87aef45bd94f726f4c71aeac13ca5d352e2bbbd2abf",
+  "test_source_sha256": "6bc822b0e8674054c5e87325d7d3e8a7f3d0e57d9e2aed2cdd7e052c94adea9e",
+  "tests": 29,
+  "cases": [
+    {
+      "name": "coherent_exact196_resolved_fixture_passes",
+      "status": "PASS"
+    },
+    {
+      "name": "numeric_blocker_pending_function_review_only_explicit_evidence_passed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_panel_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "changed_approval_to_pilot_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_config_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_profile_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_marker_validator_source_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_source_validator_source_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_builder_source_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_runner_source_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_wrapper_source_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_source_construction_summary_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_source_validation_summary_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_stage02_validation_summary_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_accepted_sequence_manifest_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_primary_marker_order_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale_host_profile_scope_review_sha256_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "pass_with_numeric_blocker_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "pass_with_duplicate_full_protein_signal_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "pass_with_pending_function_review_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "source_audit_missing_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "source_audit_duplicate_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "source_audit_reordered_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "source_audit_wrong_count_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "unchanged_frozen_blocked_release_retry_accepted",
+      "status": "PASS"
+    },
+    {
+      "name": "blocked_frozen_payload_cannot_be_relabelled_pass",
+      "status": "PASS"
+    },
+    {
+      "name": "changed_executed_report_bytes_reject_plan_reuse",
+      "status": "PASS"
+    },
+    {
+      "name": "changed_public_report_bytes_reject_plan_reuse",
+      "status": "PASS"
+    },
+    {
+      "name": "twelve_mock_batches_complete_flat_audit_methods_and_original_tmp_names",
+      "status": "PASS"
+    }
+  ],
+  "biological_execution": "NOT_RUN",
+  "git_operations": "NOT_RUN",
+  "network_publication": "NOT_RUN",
+  "fixtures": "Exact196 synthetic hash-bound records; ZIP writer mocked. Actual portable ZIP validation is separately tested.",
+  "command": "python .work/review2/test_stage03_finalizer_gates.py"
+}

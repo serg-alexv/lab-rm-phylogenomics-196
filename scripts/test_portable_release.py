@@ -1,7 +1,7 @@
 """Synthetic archive tests, including checksum coverage and deterministic bytes."""
 from pathlib import Path
 import json,tempfile,zipfile
-from portable_release import make_zip,verify_zip
+from portable_release import make_zip,verify_zip,validate_member_names
 
 def main():
     with tempfile.TemporaryDirectory() as tmp:
@@ -22,6 +22,16 @@ def main():
             try:verify_zip(bad)
             except (ValueError,KeyError):rejected.append(mode)
             else:raise AssertionError('Accepted malformed archive: '+mode)
+        path_cases={'case_alias':['README.txt','readme.txt'],
+                    'directory_case_alias':['Tables/one.txt','tables/two.txt'],
+                    'trailing_dot':['table.'],'trailing_space':['table '],
+                    'reserved_device':['data/CON.txt'],'wildcard':['data/*.txt'],
+                    'file_directory_alias':['data/file','data/file/child.txt'],
+                    'backslash':['data\\file.txt'],'normalized_slash_alias':['data//file.txt']}
+        for label,names in path_cases.items():
+            try:validate_member_names(names)
+            except ValueError:rejected.append(label)
+            else:raise AssertionError('Invalid Windows paths accepted: '+label)
     print(json.dumps({'status':'PASS_SYNTHETIC_ARCHIVE_TESTS','deterministic_after_source_mtime_change':True,'rejected':rejected},indent=2))
 
 if __name__=='__main__':main()

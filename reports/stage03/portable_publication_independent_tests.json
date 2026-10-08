@@ -1,0 +1,126 @@
+{
+  "status": "PASS_INDEPENDENT_PUBLICATION_MOCKS",
+  "completed_at_utc": "2026-10-08T14:10:34.472748+00:00",
+  "source_sha256": "d587bd9342a85837e6875f7c90c1bac3e8d751053932383fcae568550926d5ad",
+  "network_execution": "NOT_RUN",
+  "git_execution": "NOT_RUN",
+  "biological_execution": "NOT_RUN",
+  "tests": [
+    {
+      "case": "normal_ZIP_and_sidecar_independent_upload_readback",
+      "observed": "PASS"
+    },
+    {
+      "case": "lost_upload_ack_retry_reuses_existing_asset_and_original_payload_commit",
+      "observed": "PASS"
+    },
+    {
+      "case": "ZIP_verified_sidecar_pending_retry_independent",
+      "observed": "PASS",
+      "zip_download_count": 1
+    },
+    {
+      "case": "remote_wrong_size",
+      "observed": "REJECTED_WITHOUT_OVERWRITE"
+    },
+    {
+      "case": "remote_wrong_digest",
+      "observed": "REJECTED_WITHOUT_OVERWRITE"
+    },
+    {
+      "case": "remote_wrong_bytes_digest_absent",
+      "observed": "REJECTED_WITHOUT_OVERWRITE"
+    },
+    {
+      "case": "remote_wrong_sidecar",
+      "observed": "REJECTED_WITHOUT_OVERWRITE"
+    },
+    {
+      "case": "remote_same_bytes_new_id",
+      "observed": "PASS_FORCED_FRESH_READBACK"
+    },
+    {
+      "case": "remote_digest_missing_correct_bytes",
+      "observed": "PASS_FORCED_FRESH_READBACK"
+    },
+    {
+      "case": "cached_readback_corrupted",
+      "observed": "PASS_FORCED_FRESH_READBACK"
+    },
+    {
+      "case": "cached_sidecar_missing",
+      "observed": "PASS_FORCED_FRESH_READBACK"
+    },
+    {
+      "case": "stale_progress_complete_after_sidecar_replacement",
+      "observed": "PASS_CURRENT_COMPLETION_FALSE"
+    },
+    {
+      "case": "unexpected_cached_entry",
+      "observed": "PASS_CURRENT_PROGRESS_EXACT_REQUIRED_SET"
+    },
+    {
+      "case": "local_frozen_ZIP_changed",
+      "observed": "REJECTED_BEFORE_REMOTE_MUTATION"
+    },
+    {
+      "case": "immutable_manifest_bytes_changed",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "release_asset_outside_staging",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "duplicate_manifest_asset_names",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "manifest_ZIP_member_count_mismatch",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "plan_commit_interrupted_retry",
+      "observed": "PASS_PLAN_REPUBLISHED"
+    },
+    {
+      "case": "archive_case_collision",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_trailing_dot",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_trailing_space",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_reserved_device",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_windows_wildcard",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_file_directory_collision",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_semantic_dot_alias",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "archive_component_case_collision",
+      "observed": "REJECTED"
+    },
+    {
+      "case": "original_test_portable_release_under_isolated_dependency_stubs",
+      "observed": "PASS",
+      "negative_cases": 13,
+      "source_sha256": "9f4349f37a7f2dd4ab97c3456c0d3d564a91a05ca260627cb901a897b626fabd"
+    }
+  ],
+  "findings": []
+}
