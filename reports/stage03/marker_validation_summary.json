@@ -1,0 +1,52 @@
+{
+  "status": "PASS_MARKER_SOURCE_AND_FIXED_FILTERS",
+  "scientific_stage_status": "HOST_ORTHOLOGY_DUPLICATE_SIGNAL_REVIEW_REQUIRED",
+  "completed_at_utc": "2026-10-08T14:22:05.423065+00:00",
+  "elapsed_seconds": 403.0035679999992,
+  "approved_assemblies": 196,
+  "independently_verified_searches": 196,
+  "profiles_searched": 119,
+  "marker_cells": 23324,
+  "native_tblout_hits": 22984,
+  "native_domtblout_rows": 23628,
+  "primary_markers": 101,
+  "accepted_marker_sequences": 19551,
+  "input_guard_exclusions": 0,
+  "scientific_blockers": [],
+  "host_function_review": {
+    "state": "REVIEWED_CONSERVED_HOST_PROFILE_SCOPE_WITH_DOCUMENTED_LIMITS",
+    "profiles_accounted": 119,
+    "source_rm_candidates": 0,
+    "unresolved_rm_candidates": 0,
+    "review_sha256": "995403892d959d3b0f627f439110724dc4f6b242d8912eda691316f8be8153b7",
+    "function_uncharacterized_profiles": 4,
+    "limit": "Executed HMM evidence, source identities and frozen host marker filters; profile predictions are not demonstrated protein function."
+  },
+  "fixed_denominators": {
+    "genomes": 196,
+    "candidate_markers": 119,
+    "post_occupancy_markers": 101
+  },
+  "same_locus_multiple_profile_candidates": 192,
+  "producer_identity": {
+    "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+    "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
+    "runner_sha256": "90d32775493167b6d7ca423c487fdabb943023760ebddd388d277be71102f2e5",
+    "wrapper_sha256": "f3d759579f9b9711aadcd51f0c38b0cf748cab0bbceae074e59d283bf640dd6f",
+    "source_construction_summary_sha256": "1bc31a4e8f623c69f33b4e3eac477fdef8bc34dd6993069a4d224bd450573f45",
+    "stage02_validation_summary_sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+    "independent_source_locus_validation_summary_sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+    "helper_sha256": "182c7ee3834f5deb7e65750c7f1a6964c4d0cfe312b26e967ccf7d5ef930fc78",
+    "hmmsearch_sha256": "9fa72a2971e284d713f0639a8b219f17ea04ff307b0325c020111382fd872ce3",
+    "rename_sha256": "60609b27bf2abf56db2785e2929834494fb7ccc1048934a37103edd6fe312e0e"
+  },
+  "source_reader_sha256": "bc3fda58c2701e50ea0ed5fa4a7dee05151575bd703c319138b23d3342a79a7d",
+  "validator_source_sha256": "f482d3362f3b4b6bf61ef8692c10a94172316975154af5ecd1d47cbabebd68ed",
+  "inventory_summary_sha256": "a0b77988c6b873189abc9b78206fd9d502cce2ddb3c51c02c1a3ca3f791901c9",
+  "accepted_sequence_manifest_sha256": "589ac24138898dc1c7e0c690db7d867eddc8061c75f45cb41e428b541624cc5a",
+  "primary_marker_order_sha256": "e55da0cacc289a454eb76c13107388b6a989625498c24e1df2c99e266114f40a",
+  "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
+  "config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+  "evidence_limit": "Executed HMM evidence, source identities and frozen host marker filters; profile predictions are not demonstrated protein function."
+}

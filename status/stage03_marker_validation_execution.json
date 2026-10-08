@@ -1,0 +1,22 @@
+{
+  "status": "HOST_ORTHOLOGY_DUPLICATE_SIGNAL_REVIEW_REQUIRED",
+  "utc": "2026-10-08T14:15:21.806440+00:00",
+  "workflow_pid": 31696,
+  "child_pid": 12240,
+  "argv": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env\\Scripts\\python.exe",
+    "-u",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\validate_stage03_markers.py",
+    "--output-dir",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage03_marker_validation",
+    "--host-profile-review",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage03\\host_profile_scope_review.json"
+  ],
+  "stdout_log": ".work\\stage03_marker_validation_stdout.log",
+  "stderr_log": ".work\\stage03_marker_validation_stderr.log",
+  "completed_utc": "2026-10-08T14:22:11.876777+00:00",
+  "exit_code": 1,
+  "elapsed_seconds": 410.07033150000007,
+  "validator_summary_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+  "outputs_preserved": true
+}
