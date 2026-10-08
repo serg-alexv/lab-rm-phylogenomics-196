@@ -1,6 +1,6 @@
 {
-  "utc": "2026-10-08T15:18:00.303430+00:00",
-  "execution": "COMPLETED_VALIDATE_ALIGNMENT",
+  "utc": "2026-10-08T15:18:24.271809+00:00",
+  "execution": "STOPPED_WITH_EXPLICIT_BLOCKER",
   "phase": null,
   "controller_pid": 5188,
   "windows_wsl_launcher_pid": null,
@@ -158,7 +158,7 @@
   },
   "scientific_validation": "INCOMPLETE",
   "github_publication": "PROGRESS_COMMIT_ONLY_RELEASE_PENDING",
-  "failure": null,
+  "failure": "Measured current Windows/Linux headroom insufficient; no launch",
   "outputs_preserved": true,
   "producer_progress": {
     "execution": "ALL_PRIMARY_ALIGNMENTS_AND_FOUR_CONCATENATIONS_CONSTRUCTED",
