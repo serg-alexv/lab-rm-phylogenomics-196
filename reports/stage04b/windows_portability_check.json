@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-08T16:10:28.8321506Z",
+  "status": "PASS_NATIVE_WINDOWS_EXTRACTION_AND_ALL_MEMBER_HASHES",
+  "asset": "stage04b-full196-native-resource-failure.zip",
+  "sha256": "1d19c855b3c7fcea490c0484909b40c0ce47c8c5ee99ae2afbe75c5e67645d32",
+  "zip_bytes": 144148,
+  "extracted_files": 47,
+  "payload_members_hash_verified": 46,
+  "readme_utf8_readable": true,
+  "method": "Windows System.IO.Compression.ZipFile.ExtractToDirectory and Get-FileHash; no WSL",
+  "actual_argv": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "scripts/validate_windows_zip.ps1",
+    "-ZipPath",
+    "release_staging/stage04b/readback/stage04b-full196-native-resource-failure.zip",
+    "-ExpectedSha256",
+    "1d19c855b3c7fcea490c0484909b40c0ce47c8c5ee99ae2afbe75c5e67645d32",
+    "-Destination",
+    ".work/stage04b_windows_evidence_v1"
+  ],
+  "actual_exit_code": 0,
+  "publication_payload_commit": "278ca398317d036708f04f39e80a99e45f200592"
+}
