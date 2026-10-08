@@ -1,0 +1,40 @@
+{
+  "revision": "stage03-orthology-v2",
+  "frozen_before_alignment_and_topology": true,
+  "no_biological_search_rerun": true,
+  "excluded_primary_profiles": [
+    "IPT"
+  ],
+  "retained_corresponding_profile": "IPPT",
+  "original_duplicate_loci": 192,
+  "selection_basis": "All192 IPT accepted complete proteins are the same exact loci/sequences as IPPT. IPPT has196/196 accepted loci and the RNA-specific family context; retain this complete-source ortholog once. This choice precedes alignment/topology and preserves all original evidence.",
+  "primary_source_evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01715/",
+      "raw_response_sha256": "7305f71ed45364ed2ade965fb9c52ce8b9d2b0e25581d95e82905aa76a923870"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01745/",
+      "raw_response_sha256": "0705c44dbe95a611b80c1061448dd9b84546637a0e57bf15ce1850b6477ae5bf"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19158097/",
+      "PMID": "19158097",
+      "scope": "Primary structural work establishes reference E.coli MiaA tRNA recognition; no approved-strain activity claim."
+    }
+  ],
+  "unchanged_thresholds": {
+    "candidate_profiles": 119,
+    "initial_minimum": 96,
+    "assemblies": 196,
+    "occupancy_minimum": 177,
+    "post_recovery_fraction": 0.8
+  },
+  "additional_strict_gate": "After excluding redundant IPT contribution, unique initial length-accepted loci must still be>=96/119; all196 retained or blocker.",
+  "original_config_sha256": "b7627c1d1f56b99133fbd9a2c1a05bc88492f199562a3eccce406cff3331f1dd",
+  "panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
+  "original_inventory_summary_sha256": "a0b77988c6b873189abc9b78206fd9d502cce2ddb3c51c02c1a3ca3f791901c9",
+  "original_validation_summary_sha256": "8a5efae5e6ff952cc29b035eaf4b0e6d7aaed225cfb1ca383d598e7bd97b7bcf",
+  "original_accepted_sequence_manifest_sha256": "589ac24138898dc1c7e0c690db7d867eddc8061c75f45cb41e428b541624cc5a"
+}

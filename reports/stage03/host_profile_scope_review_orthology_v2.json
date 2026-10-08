@@ -1,5 +1,5 @@
 {
-  "status": "ACCEPTED_SOURCE_FAMILY_SCOPE_REVIEWED_ORIGINAL_DUPLICATE_SIGNAL_BLOCKED",
+  "status": "SOURCE_SCOPE_REVIEWED_CURATED_VIEW_PENDING_INDEPENDENT_CHECK",
   "utc": "2026-10-08T14:21:40.089555+00:00",
   "profile_sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e",
   "profile_count": 119,
@@ -2330,9 +2330,9 @@
   "unresolved_rm_candidates": 0,
   "accepted_source_hit_review": {
     "status": "REVIEWED_ALL196_ACCEPTED_SOURCE_HITS",
-    "inventory_summary_sha256": "a0b77988c6b873189abc9b78206fd9d502cce2ddb3c51c02c1a3ca3f791901c9",
-    "accepted_sequence_manifest_sha256": "589ac24138898dc1c7e0c690db7d867eddc8061c75f45cb41e428b541624cc5a",
-    "accepted_marker_sequences": 19551,
+    "inventory_summary_sha256": "a821ea96933660648fbbaa3d10558496b4f11c69ee825e488186595e33c032ab",
+    "accepted_sequence_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+    "accepted_marker_sequences": 19359,
     "profiles_accounted": 119,
     "assemblies_accounted": 196,
     "observations_sha256": "6d098484bde8a1f8997d39aa5a53634d7a178e656243029a1c21d5b46f296d89",
@@ -2341,12 +2341,15 @@
   "evidence_limit": "Predicted host orthology/function scope. Unknown function remains unknown; absence of explicit R-M words does not demonstrate function. Source-hit review must complete before Stage04 topology.",
   "source_candidate_resolutions": [],
   "original_duplicate_signal_review": {
-    "status": "BLOCKED_PENDING_INDEPENDENT_CURATED_PROJECTION",
+    "status": "EXPLICIT_CURATED_PROJECTION_INDEPENDENT_REVIEW_PENDING",
     "duplicated_loci": 192,
     "profiles": [
       "IPPT",
       "IPT"
     ],
-    "basis": "Same complete source MiaA protein would be concatenated twice; no annotation-only waiver."
+    "basis": "Same complete source MiaA protein would be concatenated twice; no annotation-only waiver.",
+    "excluded_profile": "IPT",
+    "retained_profile": "IPPT",
+    "orthology_config_sha256": "1717ee6d82e9219e0f7d561b9b47f561f19f648c7a7087ccab2750b278542bb1"
   }
 }
