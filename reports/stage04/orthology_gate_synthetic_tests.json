@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SYNTHETIC_STRICT_ORTHOLOGY_STAGE04_GATES",
+  "count": 17,
+  "fixtures": [
+    "strict_119_196_to_100_19359_projection_accepted",
+    "independent_gate_reads_curated_and_blocked_original_separately",
+    "producer_rejects_primary_markers",
+    "producer_rejects_accepted_marker_sequences",
+    "producer_rejects_minimum_unique_initial_length_markers",
+    "producer_rejects_biological_search_reexecuted",
+    "producer_rejects_orthology_curation_receipt_sha256",
+    "producer_rejects_original_validation_summary_sha256",
+    "producer_rejects_original_scientific_stage_status_preserved",
+    "blocked_original_cannot_be_rewritten_pass",
+    "independent_reader_rejects_rewritten_original",
+    "original96_119_gate_cannot_be_relaxed",
+    "additional_whole_family_removal_rejected",
+    "source_locus_row_change_rejected",
+    "independent_frozen_curation_hash_mismatch_rejected",
+    "curated_view_cannot_use_uncurated_gate_route",
+    "independent_curated_view_requires_explicit_policy"
+  ]
+}

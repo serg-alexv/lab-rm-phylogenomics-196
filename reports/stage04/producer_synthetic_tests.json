@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SYNTHETIC_STAGE04_PRODUCER_AND_INDEPENDENT_PARTITION_CHECKS",
+  "biological_execution": "NOT_RUN",
+  "fixtures": [
+    "producer_exports_independent_full_block_reconstruction",
+    "only_missing_marker_creates_explicit_gap_block",
+    "partition_coverage_gap",
+    "partition_coordinate_overlap",
+    "invented_missing_marker_residues",
+    "synthetic_concatenation_spacer",
+    "incorrect_source_locus_join",
+    "original_fixture_restored_and_reverified",
+    "producer_native_column_reconstruction",
+    "wrong_trimmed_source_column",
+    "native_fasta_bytes_preserved_during_format_exports"
+  ]
+}

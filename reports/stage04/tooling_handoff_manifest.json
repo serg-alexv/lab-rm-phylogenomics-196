@@ -1,0 +1,91 @@
+{
+  "status": "FROZEN_STAGE04_CODE_AND_VALIDATION_HANDOFF",
+  "utc": "2026-10-08T14:42:11.3312788Z",
+  "files": [
+    {
+      "file": "stage04_controller.py",
+      "bytes": 37850,
+      "sha256": "7838e84676f38603bdb3a2a12bf05fe709d9c6d4dc3cb92163ccd53cc642f66f"
+    },
+    {
+      "file": "stage04_linux_launcher.py",
+      "bytes": 10727,
+      "sha256": "63be954def543b563edac505696a64c7481da8d7abddea0ef5f1dc151b8c37a2"
+    },
+    {
+      "file": "stage04_phylogeny.py",
+      "bytes": 46258,
+      "sha256": "41cf00eb3da81a9c8bb83b51449c1e9c8a3156af7efbce223216ac46ca6d12ed"
+    },
+    {
+      "file": "stage04_validate.py",
+      "bytes": 35049,
+      "sha256": "f894ef292e8cdfad7a3d67473d379c9bb47abff0c1b34fd6140cc0faf47126b9"
+    },
+    {
+      "file": "stage04_controller_synthetic.py",
+      "bytes": 9152,
+      "sha256": "e5707c36de2b89228ee9e735c8d7522d9e7bd7d962a742a6c075077fdbc90e6d"
+    },
+    {
+      "file": "stage04_orthology_gate_synthetic.py",
+      "bytes": 9501,
+      "sha256": "36d8e6e9b42198e6669877358112a9388c7e402de4b4e703cfc30aad2f23ca64"
+    },
+    {
+      "file": "stage04_synthetic.py",
+      "bytes": 4858,
+      "sha256": "f4cbb6c8c2da1e48bee2d6fa18dcde301df9241fdaa5b11ece06f1d8591e3be0"
+    },
+    {
+      "file": "STAGE04_CONTROLLER.md",
+      "bytes": 5002,
+      "sha256": "a59e44d0a68fd31b7ca8320ed8e7bb9127e036b855c654d0982d63d4c49c0a4d"
+    },
+    {
+      "file": "STAGE04_METHOD.md",
+      "bytes": 8443,
+      "sha256": "a883cc5dcebda72ddb673a1d8bf81b2c9c4af2dce359af53f22060fae09a3a96"
+    },
+    {
+      "file": "stage04_controller_synthetic_results.json",
+      "bytes": 1278,
+      "sha256": "28c1a1f574e8c963f0add88fb2c423c18d3f182565f6c6db6d982d34f974d060"
+    },
+    {
+      "file": "stage04_orthology_gate_synthetic_results.json",
+      "bytes": 1043,
+      "sha256": "60b58fd7f368eb2a3999f3d6eaa43bdf63feb41469bd865081def3703549f94d"
+    },
+    {
+      "file": "stage04_synthetic_results.json",
+      "bytes": 638,
+      "sha256": "259fa515048fdaf540dea14166aa3a264035cf16c6b0674d2f49fb9f9c8a5359"
+    },
+    {
+      "file": "stage04_validate_selftest.json",
+      "bytes": 502,
+      "sha256": "9aaf75551a8cd5733f3ff512f21d24ba379e5583e983931d8ce06dcb851e3974"
+    },
+    {
+      "file": "stage04_controller_preflight_probe_results.json",
+      "bytes": 494,
+      "sha256": "c8041dddfb6365dea4fc62de5494c9afcc452aa42ecfe0d70d3fa12335547c56"
+    },
+    {
+      "file": "stage04_current_certificate_probe_results.json",
+      "bytes": 1590,
+      "sha256": "c6c203a151ca46a79d8861f58c1370263010e4622f1151612fdde9605ba66277"
+    }
+  ],
+  "synthetic_fixtures_passed": 58,
+  "biology_executed_by_reviewer": false,
+  "git_or_publication_executed_by_reviewer": false,
+  "production_state_edited_by_reviewer": false,
+  "current_stage03_certificate_compatibility": "PASS_READ_ONLY",
+  "peer_source_reviews": "Two independent reviewers reported no blocking bug",
+  "native_process_probe": "PASS_STDLIB_ONLY_PID_START_BOOT_EXIT_CPU_RSS_AFFINITY_2GIB",
+  "windows_process_probe": "PASS_OWN_PID_CREATION_CIM_RESOURCES_WSL_PATH",
+  "next_owner": "root",
+  "next_gate": "Actual Stage03 release remote bytes verified before root Stage04 launch"
+}

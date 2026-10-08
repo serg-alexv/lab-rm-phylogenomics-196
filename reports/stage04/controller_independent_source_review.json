@@ -1,0 +1,37 @@
+{
+  "status": "INDEPENDENT_READ_ONLY_LIFECYCLE_REVIEW_COMPLETE",
+  "utc": "2026-10-08T14:40:56.379937+00:00",
+  "source": [
+    {
+      "path": ".work/host_review/stage04_controller.py",
+      "sha256": "7838e84676f38603bdb3a2a12bf05fe709d9c6d4dc3cb92163ccd53cc642f66f",
+      "syntax": "PASS_AST_PARSE"
+    },
+    {
+      "path": ".work/host_review/stage04_linux_launcher.py",
+      "sha256": "63be954def543b563edac505696a64c7481da8d7abddea0ef5f1dc151b8c37a2",
+      "syntax": "PASS_AST_PARSE"
+    }
+  ],
+  "blocking_findings": [],
+  "reviewed_behaviors": [
+    "Kernel workflow byte lock preserves parent session lock",
+    "Exact original blocked101/19551/192 plus current curated100/19359/0 and verified Release byte-binding gates",
+    "Sequential actual alignment, independent alignment check, actual inference, independent final check",
+    "Frozen source/config/input/resource identity and exact phase exit/gate hash checks",
+    "Linux PID/start-tick/boot-ID checks; resume monitors existing job without second launch",
+    "Stale PID, lost observer or missing actual exit is an explicit blocker",
+    "Progress-publication failure waits for existing actual job exit and blocks dependent phase",
+    "Two-core affinity and2GiB per-process limit inherited before native spawn; numerical library threads2",
+    "Current Windows/Linux memory and local disk remeasurement with immutable original resource receipt",
+    "Explicit sanitized five-file Git allowlist, fast-forward reconciliation, fetched-byte readback",
+    "Final scientific PASS and final portable Release verification remain separate states"
+  ],
+  "existing_author_fixture_report": ".work/host_review/stage04_controller_synthetic_results.json",
+  "existing_author_fixture_count": 21,
+  "reviewer_biological_jobs": "NOT_RUN",
+  "reviewer_git_operations": "NOT_RUN",
+  "reviewer_runtime_tests": "NOT_RUN",
+  "evidence_limit": "Independent source review and syntax parsing. Existing author fixtures/observer probes were read; scientific Stage4 outputs do not yet exist.",
+  "command": "python .work/review2/record_stage04_readonly_review.py"
+}
