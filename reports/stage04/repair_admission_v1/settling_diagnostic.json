@@ -1,0 +1,246 @@
+{
+  "utc": "2026-10-08T20:24:02.943698+00:00",
+  "status": "MEASUREMENT_ONLY_NO_ADMISSION_OR_SCIENTIFIC_PASS",
+  "actual_pid": 21480,
+  "required_windows_bytes": 4831838208,
+  "required_linux_bytes": 4294967296,
+  "windows_before": {
+    "utc": "2026-10-08T20:22:46.5542142Z",
+    "host": "WD",
+    "available_bytes": 4517281792,
+    "disk_available_bytes": 82861338624,
+    "pid": null,
+    "creation_utc": null,
+    "working_set_bytes": null,
+    "cpu_seconds": null
+  },
+  "actual_probe_argv": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.private_run/migration_runtime_v5/stage04_migration_wsl_v5.sh",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/host_env/bin/python",
+    "-u",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/scripts/stage04_linux_launcher_v4.py",
+    "--mode",
+    "resources"
+  ],
+  "linux_probe": {
+    "utc": "2026-10-08T20:22:52.638395+00:00",
+    "host": "wd",
+    "linux_available_bytes": 5275004928,
+    "cpu_affinity_available": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "boot_id": "444f9f55-7a49-49a0-94e8-a19a34cc548a"
+  },
+  "post_probe_samples": [
+    {
+      "seconds_since_probe_exit": 5.977253099999871,
+      "windows": {
+        "utc": "2026-10-08T20:22:53.2885451Z",
+        "host": "WD",
+        "available_bytes": 3050786816,
+        "disk_available_bytes": 82860695552,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 11.70428019999963,
+      "windows": {
+        "utc": "2026-10-08T20:22:58.9067621Z",
+        "host": "WD",
+        "available_bytes": 3057627136,
+        "disk_available_bytes": 82860482560,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 17.319394600001033,
+      "windows": {
+        "utc": "2026-10-08T20:23:04.5468431Z",
+        "host": "WD",
+        "available_bytes": 3035623424,
+        "disk_available_bytes": 82860277760,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 22.962435299999925,
+      "windows": {
+        "utc": "2026-10-08T20:23:10.2194490Z",
+        "host": "WD",
+        "available_bytes": 3315978240,
+        "disk_available_bytes": 82852716544,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 28.637536199999886,
+      "windows": {
+        "utc": "2026-10-08T20:23:15.8968345Z",
+        "host": "WD",
+        "available_bytes": 4000976896,
+        "disk_available_bytes": 82852642816,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 34.31233539999994,
+      "windows": {
+        "utc": "2026-10-08T20:23:21.5597375Z",
+        "host": "WD",
+        "available_bytes": 4245479424,
+        "disk_available_bytes": 82852503552,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 39.98479950000001,
+      "windows": {
+        "utc": "2026-10-08T20:23:27.5261599Z",
+        "host": "WD",
+        "available_bytes": 3004084224,
+        "disk_available_bytes": 82851926016,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 45.959156700000676,
+      "windows": {
+        "utc": "2026-10-08T20:23:33.2529830Z",
+        "host": "WD",
+        "available_bytes": 3017351168,
+        "disk_available_bytes": 82851729408,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 51.68558160000066,
+      "windows": {
+        "utc": "2026-10-08T20:23:38.9454914Z",
+        "host": "WD",
+        "available_bytes": 3063603200,
+        "disk_available_bytes": 82851573760,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 57.36627620000036,
+      "windows": {
+        "utc": "2026-10-08T20:23:44.7102792Z",
+        "host": "WD",
+        "available_bytes": 3364290560,
+        "disk_available_bytes": 82843774976,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 63.18318200000067,
+      "windows": {
+        "utc": "2026-10-08T20:23:50.6852880Z",
+        "host": "WD",
+        "available_bytes": 3907915776,
+        "disk_available_bytes": 82834542592,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 69.16557459999967,
+      "windows": {
+        "utc": "2026-10-08T20:23:56.4195130Z",
+        "host": "WD",
+        "available_bytes": 2994520064,
+        "disk_available_bytes": 82833580032,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    },
+    {
+      "seconds_since_probe_exit": 74.84360279999964,
+      "windows": {
+        "utc": "2026-10-08T20:24:02.0672905Z",
+        "host": "WD",
+        "available_bytes": 3028762624,
+        "disk_available_bytes": 82833305600,
+        "pid": null,
+        "creation_utc": null,
+        "working_set_bytes": null,
+        "cpu_seconds": null
+      }
+    }
+  ],
+  "actual_fresh_linux_argv": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "sh",
+    "-c",
+    "cat /proc/sys/kernel/random/boot_id; cat /proc/meminfo"
+  ],
+  "fresh_linux_boot_and_meminfo": "444f9f55-7a49-49a0-94e8-a19a34cc548a\nMemTotal:        6065820 kB\nMemFree:         3990680 kB\nMemAvailable:    5206128 kB\nBuffers:           54764 kB\nCached:          1280548 kB\nSwapCached:            0 kB\nActive:           170376 kB\nInactive:        1271184 kB\nActive(anon):       3020 kB\nInactive(anon):   106804 kB\nActive(file):     167356 kB\nInactive(file):  1164380 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       4194304 kB\nSwapFree:        4194304 kB\nDirty:              4380 kB\nWriteback:             0 kB\nAnonPages:        106332 kB\nMapped:           137736 kB\nShmem:              3636 kB\nKReclaimable:      31948 kB\nSlab:             169672 kB\nSReclaimable:      31948 kB\nSUnreclaim:       137724 kB\nKernelStack:        5088 kB\nPageTables:         5444 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     7227212 kB\nCommitted_AS:     650232 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      114264 kB\nVmallocChunk:          0 kB\nPercpu:             7552 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:       76800 kB\nDirectMap2M:     4116480 kB\nDirectMap1G:    11534336 kB",
+  "windows_after_fresh_linux": {
+    "utc": "2026-10-08T20:24:02.8215320Z",
+    "host": "WD",
+    "available_bytes": 3016327168,
+    "disk_available_bytes": 82833244160,
+    "pid": null,
+    "creation_utc": null,
+    "working_set_bytes": null,
+    "cpu_seconds": null
+  },
+  "scientific_process_started": false
+}
