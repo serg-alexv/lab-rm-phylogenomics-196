@@ -1,5 +1,5 @@
 {
-  "utc": "2026-10-08T15:06:24.387956+00:00",
+  "utc": "2026-10-08T15:11:38.921906+00:00",
   "execution": "RUNNING_ALIGN",
   "phase": "align",
   "controller_pid": 5188,
@@ -42,7 +42,7 @@
   ],
   "actual_linux_process_measurements": {
     "execution": "RUNNING",
-    "utc": "2026-10-08T15:06:21.523028+00:00",
+    "utc": "2026-10-08T15:11:38.508351+00:00",
     "phase": "align",
     "invocation_id": "bcd61664-0ef1-419b-8ce2-1d1cdbe7fef5",
     "job_pid": 982,
@@ -51,42 +51,42 @@
         "pid": 982,
         "ppid": 970,
         "state": "S",
-        "user_ticks": 213,
-        "system_ticks": 135,
+        "user_ticks": 302,
+        "system_ticks": 213,
         "start_ticks": 9395,
-        "vsize_bytes": 72343552,
-        "rss_bytes": 66908160,
+        "vsize_bytes": 74440704,
+        "rss_bytes": 68349952,
         "peak_rss_bytes": 99917824,
         "peak_vsize_bytes": 106450944
       },
       {
-        "pid": 4630,
+        "pid": 8274,
         "ppid": 982,
         "state": "S",
-        "user_ticks": 1,
-        "system_ticks": 4,
-        "start_ticks": 40468,
+        "user_ticks": 0,
+        "system_ticks": 1,
+        "start_ticks": 72709,
         "vsize_bytes": 5701632,
-        "rss_bytes": 4595712,
-        "peak_rss_bytes": 4694016,
+        "rss_bytes": 4517888,
+        "peak_rss_bytes": 4751360,
         "peak_vsize_bytes": 5701632
       },
       {
-        "pid": 4741,
-        "ppid": 4630,
-        "state": "S",
-        "user_ticks": 1022,
-        "system_ticks": 2,
-        "start_ticks": 40517,
-        "vsize_bytes": 267968512,
-        "rss_bytes": 10342400,
-        "peak_rss_bytes": 10469376,
-        "peak_vsize_bytes": 335077376
+        "pid": 8385,
+        "ppid": 8274,
+        "state": "D",
+        "user_ticks": 0,
+        "system_ticks": 0,
+        "start_ticks": 72733,
+        "vsize_bytes": 116916224,
+        "rss_bytes": 2887680,
+        "peak_rss_bytes": 3006464,
+        "peak_vsize_bytes": 121622528
       }
     ],
     "sampled_tree_peak_rss_bytes": 113598464,
-    "linux_available_bytes": 7190073344,
-    "elapsed_seconds": 316.408433102,
+    "linux_available_bytes": 7194042368,
+    "elapsed_seconds": 633.393661819,
     "memory_measurement_limit": "Sum of sampled per-process RSS; shared pages may be counted more than once; sampling may miss short peaks"
   },
   "phase_receipt_directory": ".work/stage04_controller/phase_align_bcd61664-0ef1-419b-8ce2-1d1cdbe7fef5",
@@ -131,10 +131,10 @@
   "outputs_preserved": true,
   "producer_progress": {
     "execution": "RUNNING_ALIGNMENT",
-    "completed_markers": 22,
+    "completed_markers": 44,
     "required_markers": 100,
     "runner_pid": 982,
-    "last_marker": "FA_synthesis",
+    "last_marker": "Ribosom_S12_S23",
     "scientific_validation": "NOT_RUN"
   }
 }
