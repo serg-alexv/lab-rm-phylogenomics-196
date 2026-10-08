@@ -1,0 +1,112 @@
+{
+  "status": "PASS_ALL_INSTALLED_PADLOC_SELECTION_EXPRESSIONS_SYNTHETIC_ONLY",
+  "native_source_sha256": "d21ba942e80720d80027aa1740d756322560feaeb168bfa2890640d88950d4c0",
+  "native_source_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/padloc.R",
+  "selected_native_expression_count": 31,
+  "cases": [
+    {
+      "case_id": "alias_expansion/M",
+      "selected_hit_ids": "c",
+      "expected_hit_ids": "c",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "coincident_loci/M",
+      "selected_hit_ids": "a",
+      "expected_hit_ids": "a",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "opposite_strands/M",
+      "selected_hit_ids": "a",
+      "expected_hit_ids": "a",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "core_precedes_secondary/M",
+      "selected_hit_ids": "c",
+      "expected_hit_ids": "c",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "core_removes_prohibited/M",
+      "selected_hit_ids": "c",
+      "expected_hit_ids": "c",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "combined_coverage/M",
+      "selected_hit_ids": "b",
+      "expected_hit_ids": "b",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "different_coordinates/M",
+      "selected_hit_ids": ["a", "b"],
+      "expected_hit_ids": ["a", "b"],
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "different_replicons/M",
+      "selected_hit_ids": ["a", "b"],
+      "expected_hit_ids": ["a", "b"],
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "min_domain_before_filter/M",
+      "selected_hit_ids": [],
+      "expected_hit_ids": {},
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "models_separate/M1",
+      "selected_hit_ids": "a",
+      "expected_hit_ids": "a",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "models_separate/M2",
+      "selected_hit_ids": "b",
+      "expected_hit_ids": "b",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "prohibited_removes_neutral/M",
+      "selected_hit_ids": "n",
+      "expected_hit_ids": "n",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "prohibited_removes_secondary/M",
+      "selected_hit_ids": "n",
+      "expected_hit_ids": "n",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "same_profile_coincident/M",
+      "selected_hit_ids": "a",
+      "expected_hit_ids": "a",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "stable_order/M",
+      "selected_hit_ids": "a",
+      "expected_hit_ids": "a",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "top5_before_priority/M",
+      "selected_hit_ids": "0",
+      "expected_hit_ids": "0",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    },
+    {
+      "case_id": "top5_ties/M",
+      "selected_hit_ids": "5",
+      "expected_hit_ids": "5",
+      "status": "PASS_INSTALLED_NATIVE_EXPRESSION_EQUIVALENCE_SYNTHETIC_ONLY"
+    }
+  ],
+  "biological_HMM_searches": 0,
+  "production_adoption": "NOT_ADOPTED"
+}

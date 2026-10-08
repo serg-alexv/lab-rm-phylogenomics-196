@@ -1,0 +1,34 @@
+{
+  "status": "PASS_SYNTHETIC_NATIVE_SELECTION_EQUIVALENCE_PREPARATION_ONLY",
+  "utc": "2026-10-08T19:36:42.089214+00:00",
+  "python_negative_and_regression_tests": 24,
+  "installed_native_R_cases": 17,
+  "native_source_sha256": "d21ba942e80720d80027aa1740d756322560feaeb168bfa2890640d88950d4c0",
+  "biological_HMM_searches": 0,
+  "production_adoption": "NOT_ADOPTED; role-aware adapter/controller and independent full196 evidence gates remain required",
+  "sources": [
+    {
+      "path": "scripts/stage05_padloc_selection_v3.py",
+      "sha256": "036647e416d30e7eccf73b67601234cb05d020341ed377746b8ad7b794ff07cc"
+    },
+    {
+      "path": "scripts/test_stage05_padloc_selection_v3.py",
+      "sha256": "81fc330db2164d3e01bc7bd86c78684bff48013aaca238c582326c3882cb1ac4"
+    },
+    {
+      "path": "scripts/check_stage05_padloc_selection_native_v3.R",
+      "sha256": "69a26c5559c3f51f5d402c00003ebc2eff0054b0039e84b4402616fc57ac4055"
+    },
+    {
+      "path": "scripts/review_stage05_selection_v4.py",
+      "sha256": "70f534f2ca42fea106cf33cd152e9fbf60fa642132ce8b3fbfc7778062dfd1ba"
+    },
+    {
+      "path": "scripts/stage05_detector_env_v5.sh",
+      "sha256": "e4452990b07865a22a617d34038dd8f1afc3293f7e7c9c71507ceec93314416f"
+    }
+  ],
+  "fixture_sha256": "f8af836fca5966d9e8e3b6aef4863ecdcc92550c7b6c3bca59d2333912561158",
+  "native_result_sha256": "34db1d733fbcc7e51aa3e53415b00737cf432ada1f229b564eb5f05e97028723",
+  "actual_command_sha256": "fb827b0737fbb6238358d0b5ecfbe2691944d28a8adaf52be1edfb1ef64a8ba0"
+}

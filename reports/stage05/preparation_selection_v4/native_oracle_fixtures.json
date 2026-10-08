@@ -1,0 +1,1405 @@
+{
+  "status": "SYNTHETIC_ONLY_NO_BIOLOGICAL_JOBS",
+  "cases": [
+    {
+      "case_id": "alias_expansion/M",
+      "system_param": {
+        "core_genes": [
+          "CORE_ALIAS"
+        ],
+        "secondary_genes": [
+          "Q"
+        ],
+        "neutral_genes": [],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "c",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "s",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "CORE_ALIAS",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "c"
+      ]
+    },
+    {
+      "case_id": "coincident_loci/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "Q"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L2",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "a"
+      ]
+    },
+    {
+      "case_id": "opposite_strands/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "Q"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "-1",
+          "target.name": "A|R|L2",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "a"
+      ]
+    },
+    {
+      "case_id": "core_precedes_secondary/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [
+          "Q"
+        ],
+        "core_genes": [
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "c",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "s",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "c"
+      ]
+    },
+    {
+      "case_id": "core_removes_prohibited/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [
+          "Q"
+        ],
+        "core_genes": [
+          "P"
+        ],
+        "prohibited_genes": [
+          "P"
+        ],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "c",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "s",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "c"
+      ]
+    },
+    {
+      "case_id": "combined_coverage/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "Q"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.74,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.5350000000000001,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "b"
+      ]
+    },
+    {
+      "case_id": "different_coordinates/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 100,
+          "end": 200,
+          "strand": "1",
+          "target.name": "A|R|L2",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        }
+      ],
+      "expected_hit_ids": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "case_id": "different_replicons/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R2",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R2|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        }
+      ],
+      "expected_hit_ids": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "case_id": "min_domain_before_filter/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "low",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 2,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "high",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        }
+      ],
+      "expected_hit_ids": []
+    },
+    {
+      "case_id": "models_separate/M1",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "a"
+      ]
+    },
+    {
+      "case_id": "models_separate/M2",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "Q"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "b"
+      ]
+    },
+    {
+      "case_id": "prohibited_removes_neutral/M",
+      "system_param": {
+        "neutral_genes": [
+          "P",
+          "Q"
+        ],
+        "secondary_genes": [],
+        "core_genes": [],
+        "prohibited_genes": [
+          "P"
+        ],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "p",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "n",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "n"
+      ]
+    },
+    {
+      "case_id": "prohibited_removes_secondary/M",
+      "system_param": {
+        "neutral_genes": [
+          "Q"
+        ],
+        "secondary_genes": [
+          "P"
+        ],
+        "core_genes": [],
+        "prohibited_genes": [
+          "P"
+        ],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "p",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "n",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "n"
+      ]
+    },
+    {
+      "case_id": "same_profile_coincident/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "P"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L2",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-10,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        }
+      ],
+      "expected_hit_ids": [
+        "a"
+      ]
+    },
+    {
+      "case_id": "stable_order/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [],
+        "core_genes": [
+          "P",
+          "Q"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "a",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P",
+          "hmm.name": "P",
+          "hmm.accession": "P",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "b",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "Q",
+          "hmm.name": "Q",
+          "hmm.accession": "Q",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P",
+          "protein.name": "P"
+        },
+        {
+          "system.definition.shortcut": "Q",
+          "protein.name": "Q"
+        }
+      ],
+      "expected_hit_ids": [
+        "a"
+      ]
+    },
+    {
+      "case_id": "top5_before_priority/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [
+          "P0",
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "core_genes": [
+          "P5"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "0",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P0",
+          "hmm.name": "P0",
+          "hmm.accession": "P0",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "1",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P1",
+          "hmm.name": "P1",
+          "hmm.accession": "P1",
+          "domain.number": 1,
+          "domain.iE.value": 1e-19,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "2",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P2",
+          "hmm.name": "P2",
+          "hmm.accession": "P2",
+          "domain.number": 1,
+          "domain.iE.value": 1e-18,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "3",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P3",
+          "hmm.name": "P3",
+          "hmm.accession": "P3",
+          "domain.number": 1,
+          "domain.iE.value": 1e-17,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "4",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P4",
+          "hmm.name": "P4",
+          "hmm.accession": "P4",
+          "domain.number": 1,
+          "domain.iE.value": 1e-16,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "5",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P5",
+          "hmm.name": "P5",
+          "hmm.accession": "P5",
+          "domain.number": 1,
+          "domain.iE.value": 1e-15,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P0",
+          "protein.name": "P0"
+        },
+        {
+          "system.definition.shortcut": "P1",
+          "protein.name": "P1"
+        },
+        {
+          "system.definition.shortcut": "P2",
+          "protein.name": "P2"
+        },
+        {
+          "system.definition.shortcut": "P3",
+          "protein.name": "P3"
+        },
+        {
+          "system.definition.shortcut": "P4",
+          "protein.name": "P4"
+        },
+        {
+          "system.definition.shortcut": "P5",
+          "protein.name": "P5"
+        }
+      ],
+      "expected_hit_ids": [
+        "0"
+      ]
+    },
+    {
+      "case_id": "top5_ties/M",
+      "system_param": {
+        "neutral_genes": [],
+        "secondary_genes": [
+          "P0",
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "core_genes": [
+          "P5"
+        ],
+        "prohibited_genes": [],
+        "maximum_separation": 1,
+        "minimum_core": 1,
+        "minimum_total": 1
+      },
+      "native_rows": [
+        {
+          "fixture_hit_id": "0",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P0",
+          "hmm.name": "P0",
+          "hmm.accession": "P0",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "1",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P1",
+          "hmm.name": "P1",
+          "hmm.accession": "P1",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "2",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P2",
+          "hmm.name": "P2",
+          "hmm.accession": "P2",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "3",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P3",
+          "hmm.name": "P3",
+          "hmm.accession": "P3",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "4",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P4",
+          "hmm.name": "P4",
+          "hmm.accession": "P4",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        },
+        {
+          "fixture_hit_id": "5",
+          "seqid": "R",
+          "start": 1,
+          "end": 99,
+          "strand": "1",
+          "target.name": "A|R|L1",
+          "protein.name": "P5",
+          "hmm.name": "P5",
+          "hmm.accession": "P5",
+          "domain.number": 1,
+          "domain.iE.value": 1e-20,
+          "hmm.coverage": 0.79,
+          "target.coverage": 0.795,
+          "hmm.coverage.threshold": 0,
+          "target.coverage.threshold": 0,
+          "e.value.threshold": 1,
+          "combined.coverage": 1.585,
+          "target.description": "SYNTHETIC_ONLY"
+        }
+      ],
+      "hmm_meta": [
+        {
+          "system.definition.shortcut": "P0",
+          "protein.name": "P0"
+        },
+        {
+          "system.definition.shortcut": "P1",
+          "protein.name": "P1"
+        },
+        {
+          "system.definition.shortcut": "P2",
+          "protein.name": "P2"
+        },
+        {
+          "system.definition.shortcut": "P3",
+          "protein.name": "P3"
+        },
+        {
+          "system.definition.shortcut": "P4",
+          "protein.name": "P4"
+        },
+        {
+          "system.definition.shortcut": "P5",
+          "protein.name": "P5"
+        }
+      ],
+      "expected_hit_ids": [
+        "5"
+      ]
+    }
+  ]
+}

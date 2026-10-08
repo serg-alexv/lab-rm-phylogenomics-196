@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-08T19:39:23.958068+00:00",
+  "prior_actual_observer_pid": 27640,
+  "actual_session_exit_code": 1,
+  "actual_last_observation_utc": "2026-10-08T19:34:17.1631736Z",
+  "actual_error": "Actual workflow byte lock is held; no competing launch permitted",
+  "cause": "Authorized synthetic preparation writer held the same native C byte lock; fail-fast observation exited",
+  "no_lock_bypassed": true,
+  "replacement": "scripts/wait_migration_v5_headroom_v2.py",
+  "replacement_actual_serialization_test_sha256": "6be18a2d640b151d7d26587771ebaa68641023a5800fe45b9d21c61b835fb059",
+  "inference_started": false,
+  "replacement_launch": "PENDING_AFTER_THIS_PUBLICATION"
+}

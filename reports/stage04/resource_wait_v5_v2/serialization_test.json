@@ -1,0 +1,25 @@
+{
+  "status": "PASS_ACTUAL_WINDOWS_BYTE_LOCK_CONTENTION_AND_DUPLICATE_GUARD_ISOLATED_ONLY",
+  "utc": "2026-10-08T19:38:15.354153+00:00",
+  "actual_fixture_runtime": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+  "contending_child_argv": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env\\Scripts\\python.exe",
+    "-u",
+    "-c",
+    "import json,sys,time\nfrom pathlib import Path\nsys.path.insert(0,sys.argv[1])\nimport wait_migration_v5_headroom_v2 as W\nW.HISTORY=Path(sys.argv[2])\nstarted=time.monotonic()\nwith W.serialized_writer():\n    Path(sys.argv[3]).write_text(json.dumps({'actual_wait_seconds':time.monotonic()-started,'byte_lock_acquired':True,'native_jobs_started':0})+'\\n')\nprint('ACTUAL_WAIT_THEN_BYTE_LOCK_ACQUIRED',flush=True)\n",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5_v2\\actual_contention_child.json"
+  ],
+  "actual_contention_exit_code": 0,
+  "actual_contention_proof": {
+    "actual_wait_seconds": 2.0014577000001736,
+    "byte_lock_acquired": true,
+    "native_jobs_started": 0
+  },
+  "actual_duplicate_exit_code": 1,
+  "production_lock_touched": false,
+  "native_biological_jobs": 0,
+  "waiter_source_sha256": "63e24621fa14b3e6714100f25046d51ae0e62a76608e18bdec355c561571c109",
+  "test_source_sha256": "a9658beab5c5ae971590a200d990e306f676f1d3a04614f1dc13d73b4fc04907"
+}

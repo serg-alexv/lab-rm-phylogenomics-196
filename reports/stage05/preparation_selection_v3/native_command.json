@@ -1,0 +1,53 @@
+{
+  "started_utc": "2026-10-08T19:34:52.132205+00:00",
+  "finished_utc": "2026-10-08T19:34:52.324192+00:00",
+  "controller_pid": 28208,
+  "actual_argv": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/scripts/wsl_project.sh",
+    "detector",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/reports/stage05/preparation_selection_v3/native_r.time.txt",
+    "/usr/bin/prlimit",
+    "--as=1073741824",
+    "--",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/Rscript",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/scripts/check_stage05_padloc_selection_native_v3.R",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/padloc.R",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_selection_v3_review/native_oracle_fixtures.json",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/reports/stage05/preparation_selection_v3/native_oracle_results.json"
+  ],
+  "actual_windows_launch_cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+  "elapsed_seconds": 0.19197779999922204,
+  "exit_code": 125,
+  "outer_memory_budget": "One GiB address-space cap on R only; synthetic selection evaluation",
+  "windows_before_wsl": {
+    "utc": "2026-10-08T19:34:39.3903586Z",
+    "host": "WD",
+    "available_bytes": 6130548736,
+    "disk_available_bytes": 85735108608,
+    "pid": null,
+    "creation_utc": null,
+    "working_set_bytes": null,
+    "cpu_seconds": null
+  },
+  "windows_after_wsl": {
+    "utc": "2026-10-08T19:34:52.0085024Z",
+    "host": "WD",
+    "available_bytes": 2976444416,
+    "disk_available_bytes": 85697191936,
+    "pid": null,
+    "creation_utc": null,
+    "working_set_bytes": null,
+    "cpu_seconds": null
+  },
+  "linux_available_bytes": 7135723520,
+  "biological_HMM_searches": 0,
+  "production_inference_admission": "NOT_EVALUATED_NOT_WAIVED"
+}
