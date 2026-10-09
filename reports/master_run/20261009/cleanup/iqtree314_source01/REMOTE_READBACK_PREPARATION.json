@@ -1,0 +1,202 @@
+{
+  "aggregate_seconds": 1800,
+  "assets": [
+    {
+      "bytes": 41054085,
+      "name": "master_iqtree314_source_recovery01.zip",
+      "sha256": "4b4d123a2d901e03806136eb27a38bdc3a4d8da2dc5c0438afc4eb303d96a564"
+    }
+  ],
+  "cleanup_authority": "NONE",
+  "controls": 12,
+  "created_utc": "2026-10-09T21:26:09.432218+00:00",
+  "files": [
+    {
+      "bytes": 20879,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_iqtree314_source_recovery01_remote.py",
+      "sha256": "c13047a8cec8ccfa5eb9878afb53f16b2fae47f3a80f128b2e204b189c1189f1"
+    },
+    {
+      "bytes": 6009,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_verify_iqtree314_source_recovery01_remote.py",
+      "sha256": "85856e2d7d739c01e6b1343e658cde8023e4671bffff743540184cb8670876b8"
+    },
+    {
+      "bytes": 3777,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_iqtree314_source_recovery01_remote.md",
+      "sha256": "093cd121d75d70070a08034ffe1139ee396613aa600926f57bb838fceade05ee"
+    }
+  ],
+  "installed_binary_equivalence": "NOT_PROVEN_BY_SOURCE_ARCHIVAL",
+  "limitations": [
+    "Captured upstream commit/tree identities checked; signed commit object serialization is not reconstructed.",
+    "One exact 264-byte CRLF export requires the separately verified 249-byte Git supplement; exports stay unchanged.",
+    "Standalone Intel runtime notice is not asserted.",
+    "One-second resource sampling is nominal and does not reserve memory or guarantee hard kernel-I/O cancellation.",
+    "Parent owns publication and explicit authorization for one fresh readback."
+  ],
+  "local_upstream_archive_readback_by_preparation": "NOT_RUN",
+  "maximum_expanded_tar_bytes": 335544320,
+  "native_or_wsl_launched": false,
+  "original_sidecars": [
+    {
+      "bytes": 105,
+      "name": "master_iqtree314_source_recovery01.zip.sha256",
+      "newline": "\n",
+      "sha256": "ea3baff1e98b6ef358a611ba47dca303422d5f37478b484b2980ec50fd585635"
+    }
+  ],
+  "peer_source_review": "PENDING_FINAL_FROZEN_PIN_REVIEW",
+  "remote_payload_readback": "NOT_RUN",
+  "required_published_controls": [
+    {
+      "bytes": 8744,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_iqtree314_source_recovery01\\build_receipt.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/build_receipt.json",
+      "sha256": "32efdc9d2da0ec2b96ea85f5b1d4900810033020df8c238c2cbc3c4f829b48d9"
+    },
+    {
+      "bytes": 16134,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_iqtree314_source_recovery01\\original_source_manifest.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/original_source_manifest.json",
+      "sha256": "7c9cebc2b78b6f5ce6c8facb67b3b86f668a40061425dbb09d2a54409594370b"
+    },
+    {
+      "bytes": 3920,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_iqtree314_source_recovery01\\source_binding.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/source_binding.json",
+      "sha256": "80a30ce62ba5f73176ad11787c271c58a0c5791e5e059168b9fc4c58750e2243"
+    },
+    {
+      "bytes": 1468,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_iqtree314_source_recovery01\\README.txt",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/README.txt",
+      "sha256": "6aaea8937bb7c2342ad492aaeca0c2ee6dc1dd01adf2dfc7ef46751a9339741d"
+    },
+    {
+      "bytes": 3094,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_iqtree314_source_recovery01\\SHA256SUMS.txt",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/SHA256SUMS.txt",
+      "sha256": "2b4719435da60c0aeaed42a62c1e0d58e8324a0d7d16267cb77f34d946db5a41"
+    },
+    {
+      "bytes": 1433,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source01_independent_review.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/iqtree314_source01_independent_review.json",
+      "sha256": "cfdd6225f09ec2d3f3bdc839273b83a8d63cf857ef4a1664f08be9c0fb962ef3"
+    },
+    {
+      "bytes": 1689,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source02_independent_review.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/iqtree314_source02_independent_review.json",
+      "sha256": "f8c40ee9dcb8ded5099c519e286cf47b76d5322dbf53a566f9ee5ad4f10ffcec"
+    },
+    {
+      "bytes": 2652,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source_recovery_builder_source_review.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/iqtree314_source_recovery_builder_source_review.json",
+      "sha256": "64fca1164354ba603eb4d5f471a93b84c47ff060bdb3cf83d4c8d706b7a78712"
+    },
+    {
+      "bytes": 2830594,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source01_20261009T205427Z_7d051710\\receipt.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+      "sha256": "46d1ac0eaa4b72bc935b4c2bb27303f6ee121b8ea24018b97691753b6a8635d6"
+    },
+    {
+      "bytes": 730754,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source01_20261009T204525Z_40601c75\\receipt.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+      "sha256": "c8291a1a496bdff08fe5c2197896b9d781f7c166e358c8a2c37729581415035e"
+    },
+    {
+      "bytes": 577,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source01_20261009T204525Z_40601c75\\metadata_diagnosis.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/metadata_diagnosis.json",
+      "sha256": "93ba1e42932f03400561d780196d9e701a35e01c7f23f0fc97f2df86ad819dd2"
+    },
+    {
+      "bytes": 896,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree314_source01_20261009T204525Z_40601c75\\export_diagnosis.json",
+      "remote_path": "reports/master_run/20261009/cleanup/iqtree314_source01/export_diagnosis.json",
+      "sha256": "b512ef3b277cfd203b5fd5c29d62ec12d02b48d52c9a9434a77dad6c8e025ba1"
+    }
+  ],
+  "required_published_scripts": [
+    {
+      "bytes": 20111,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_master_public_components01_remote.py",
+      "remote_path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    },
+    {
+      "bytes": 2412,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_master_original_sidecars.py",
+      "remote_path": "scripts/master_run/verify_master_original_sidecars.py",
+      "sha256": "090e8068d9f2ee0a21631541681a835de5f97bd1cf695b06537aabeb4bf24841"
+    },
+    {
+      "bytes": 26310,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_public_conda_packages01_remote.py",
+      "remote_path": "scripts/master_run/verify_public_conda_packages01_remote.py",
+      "sha256": "cadeda01183522be585b0f42f240fcaab8bc7a5335937e03b209a04e5ff216ed"
+    },
+    {
+      "bytes": 21367,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_iqtree314_source_recovery01.py",
+      "remote_path": "scripts/master_run/build_iqtree314_source_recovery01.py",
+      "sha256": "236eb2cd7c949decff5336978ab5cc965f115262c59ec65fb4ff25f293332242"
+    },
+    {
+      "bytes": 2447,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_iqtree314_source_recovery.py",
+      "remote_path": "scripts/master_run/test_iqtree314_source_recovery.py",
+      "sha256": "4337684b02bd462eb3a78528d942fe1077fc579048574fd31ac4d4e1e8cd37cd"
+    },
+    {
+      "bytes": 13093,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\acquire_iqtree314_source01.py",
+      "remote_path": "scripts/master_run/acquire_iqtree314_source01.py",
+      "sha256": "de29dc79d9001cd00104a6287c4be556bcf1715967b2a5ae574c99d0c92ba662"
+    },
+    {
+      "bytes": 9517,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\acquire_iqtree314_source01_attempt01.py",
+      "remote_path": "scripts/master_run/acquire_iqtree314_source01_attempt01.py",
+      "sha256": "86d824c0ad6b8a6972ec9b6557109c4af64205875d2909a703e11c6114878568"
+    },
+    {
+      "bytes": 40596,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "remote_path": "scripts/master_run/atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "bytes": 20879,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_iqtree314_source_recovery01_remote.py",
+      "remote_path": "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+      "sha256": "c13047a8cec8ccfa5eb9878afb53f16b2fae47f3a80f128b2e204b189c1189f1"
+    }
+  ],
+  "schema": "MASTER_IQTREE314_SOURCE_REMOTE_CHECKER_PREPARATION_V1",
+  "scientific_acceptance": "NONE_SOURCE_RECOVERY_ONLY",
+  "scripts": 9,
+  "state": "PASS_SOURCE_PREPARATION_TEN_SYNTHETIC_CONTRACTS_REMOTE_NOT_RUN",
+  "tests": {
+    "command": [
+      "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_verify_iqtree314_source_recovery01_remote"
+    ],
+    "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+    "exit_code": 0,
+    "input_kind": "IN_MEMORY_SYNTHETIC_ONLY",
+    "stderr": "test_actual_expanded_stream_has_finite_bound (test_verify_iqtree314_source_recovery01_remote.Contracts.test_actual_expanded_stream_has_finite_bound) ... ok\ntest_changed_payload_with_valid_gzip_crc_rejected (test_verify_iqtree314_source_recovery01_remote.Contracts.test_changed_payload_with_valid_gzip_crc_rejected) ... ok\ntest_exact_regular_executable_and_symlink_git_payloads (test_verify_iqtree314_source_recovery01_remote.Contracts.test_exact_regular_executable_and_symlink_git_payloads) ... ok\ntest_exception_metadata_never_permits_general_line_ending_normalization (test_verify_iqtree314_source_recovery01_remote.Contracts.test_exception_metadata_never_permits_general_line_ending_normalization) ... ok\ntest_gzip_trailer_crc_is_actually_checked (test_verify_iqtree314_source_recovery01_remote.Contracts.test_gzip_trailer_crc_is_actually_checked) ... ok\ntest_hidden_nonzero_payload_after_tar_end_is_rejected (test_verify_iqtree314_source_recovery01_remote.Contracts.test_hidden_nonzero_payload_after_tar_end_is_rejected) ... ok\ntest_missing_extra_duplicate_or_traversal_member_rejected (test_verify_iqtree314_source_recovery01_remote.Contracts.test_missing_extra_duplicate_or_traversal_member_rejected) ... ok\ntest_only_exact_qualified_crlf_export_and_original_supplement_pass (test_verify_iqtree314_source_recovery01_remote.Contracts.test_only_exact_qualified_crlf_export_and_original_supplement_pass) ... ok\ntest_original_source_sidecar_lf_exact_crlf_substitution_rejected (test_verify_iqtree314_source_recovery01_remote.Contracts.test_original_source_sidecar_lf_exact_crlf_substitution_rejected) ... ok\ntest_symlink_cannot_replace_regular_source (test_verify_iqtree314_source_recovery01_remote.Contracts.test_symlink_cannot_replace_regular_source) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.016s\n\nOK\n",
+    "stdout": "",
+    "tests": 10
+  },
+  "wipe_authority": false
+}

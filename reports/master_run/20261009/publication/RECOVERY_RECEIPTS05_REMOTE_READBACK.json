@@ -1,0 +1,155 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T21:26:53.063297+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "c9e133ae2aecb34733ca9138ca91a7f3409a51f5",
+  "initial_remote_main": "c9e133ae2aecb34733ca9138ca91a7f3409a51f5",
+  "declaration_sha256": "45b186ba383d7a3994c8306dfe0cbad6c27515005de6000009d674b15d02f6aa",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 15,
+  "verified_files": 15,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 4207,
+      "sha256": "c494823d982d89a5da2b575142b51bab5e37cd3f7e786c07cb2d9722e9ac3c4e",
+      "remote_blob": "226e006d5da23afd199e6e7879fd6cf38cac9f08",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "docs/master_run/STORAGE_LEDGER.md",
+      "bytes": 5866,
+      "sha256": "2c53b4a6a8f285fc4c112d20f0970b59e6b3ebe224823dd6fa85f7b1b5f32092",
+      "remote_blob": "9c76ae996fb9c5e7500514bfbabb759d47e8a01b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+      "bytes": 139574,
+      "sha256": "02d56dc933db94af3b93a737e55ffd4463cdc88e9e96cb885c02bc6311b6ea6a",
+      "remote_blob": "13ba797fcde24e8c78f3b45a00d928e769cfedc7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/EXECUTION_CHECKPOINT.json",
+      "bytes": 10067,
+      "sha256": "b287cd8a1d18e206c212fe65709b569d10027eacfefc9000871631b99a9a5232",
+      "remote_blob": "e19169a24fb7de873c459efa0236e1c4b5b3c54a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/INDEPENDENT_LOCAL_INSPECTION.json",
+      "bytes": 2190,
+      "sha256": "650b199cc1f13a46a925eae6ace7219727ff867ad7492cd73ee310e238188964",
+      "remote_blob": "1d718e99eb5bf180e2aeb1e494576fe287ed1de3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/UPLOAD_PLAN.json",
+      "bytes": 1010,
+      "sha256": "0f6d38f95482c8112263e7f3e3a629d50b5e1b2abcccc34298f36c96471c4b82",
+      "remote_blob": "842af9d921bd60bb61b0059ac726ded8fc3bb77d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/UPLOAD_RECEIPT.json",
+      "bytes": 1269,
+      "sha256": "6ff0b008ca3735ed3c140a15fd6e39632ee85b014ac0d4369d86e705e489404f",
+      "remote_blob": "5e4ece0b31b8f3901eecf643053e6bb0c98df243",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/DIRECTORY_AUTHORITY01_GIT_OBJECTS.json",
+      "bytes": 1406,
+      "sha256": "fb9742a397d65c3022704ac52444c3d1c661e77a485f47496004c32dae8ef05e",
+      "remote_blob": "e7a7d615c42f1b430c628636829197c588959f2c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/DIRECTORY_AUTHORITY01_REMOTE_READBACK.json",
+      "bytes": 2764,
+      "sha256": "1e58f75d5c4183f7fafdce237be3c07775d023c5cc092c8b09de9dc471f6b7e3",
+      "remote_blob": "4c955b645759392218c47bcffe8ee9047a981d79",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/snapshots/recovery_receipts05/native_progress.json",
+      "bytes": 734,
+      "sha256": "d7fb55df245864ff64d71563cb250c79ef5e9d46d77dcf504e304d30e6c45e49",
+      "remote_blob": "5bda7647c9011da713b29a8e2b2d1cc05e1cf0e3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/accept_stage4_after_native_closure.py",
+      "bytes": 4293,
+      "sha256": "45c7f39832e898be84473a31802f678cd4035d99c82a8de4fb5bf53eeaac483c",
+      "remote_blob": "1e5999639d714403101d0f0eba218ae8238d4aa3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/accept_stage4_after_native_closure_pre_diagnostic_review.py",
+      "bytes": 3938,
+      "sha256": "3120d5a0a3b852b73ceb4937121112097ac6ce6c2dc9ee93068282c4521e8ca0",
+      "remote_blob": "e9de7db18c100678a9253bfd20608e1462b33a68",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/inspect_iqtree314_source_recovery_local.py",
+      "bytes": 11951,
+      "sha256": "d0944378ea204a986ed512b35838a5c554266bb88201ad20076e8d857e514df9",
+      "remote_blob": "022f087a35f20b6b87cfe72b81671705d0100035",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_recovery_receipts05.py",
+      "bytes": 7348,
+      "sha256": "90142f3932188edcc50ce0b586b02952527e5a5eef401542568868e16b67cb01",
+      "remote_blob": "5a0e83b104a07937138aa19d925119c5c2fe2b7d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 8547,
+      "sha256": "aaa51d1c6d23363eb26264e3e4ca163e0a62777def463cdf771ffb24d3e1d1bc",
+      "remote_blob": "2b5577cb5884178d43a62e98b28436e8ad983f5a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "c9e133ae2aecb34733ca9138ca91a7f3409a51f5",
+  "finished_utc": "2026-10-09T21:26:58.131576+00:00",
+  "elapsed_seconds": 5.065896600000997,
+  "verified_bytes": 205164
+}

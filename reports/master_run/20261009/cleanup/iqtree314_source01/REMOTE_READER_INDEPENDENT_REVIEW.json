@@ -1,0 +1,26 @@
+{
+  "schema": "MASTER_IQTREE314_SOURCE_REMOTE_VERIFIER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_FINAL_SOURCE_ONLY_FRESH_REMOTE_READBACK_NOT_RUN",
+  "verifier_sha256": "c13047a8cec8ccfa5eb9878afb53f16b2fae47f3a80f128b2e204b189c1189f1",
+  "tests_sha256": "85856e2d7d739c01e6b1343e658cde8023e4671bffff743540184cb8670876b8",
+  "reviewed_contracts": [
+    "Twelve exact immutable IQ reports/controls plus nine byte-pinned required runnable sources",
+    "Fresh original Release ZIP and105-byte LF sidecar; tag, selected asset ID, size and digest before and after",
+    "Exact31 outer ZIP members,27 captured originals,30 exhaustive SUMS and every actual EOF CRC/SHA",
+    "All1938 original source blobs and112557970 bytes bound to exact upstream commits/root trees/Gitlinks and independently streamed SHA1/SHA256",
+    "Exactly one fixed264-byte CRLF export with separately retained249-byte original Git blob; every other source ordinary/symlink blob strict",
+    "All three gzip streams fully drained through buffered tar tail and EOF CRC/length validation; unexpected nonzero tail rejected",
+    "Actual headers, payload, padding and tail are expansion-bounded to320MiB per tar with fresh reserve probes",
+    "Pinned independent reader provides BelowNormal, finite1800-second pass, owned-gh process polling/closure and new C-only receipts",
+    "Source/failure/review/notice bindings preserved without importing or running producer, extracting source, WSL, G write or deletion"
+  ],
+  "reported_ten_pure_tests": "PEER_EVIDENCE_NOT_RERUN_BY_REVIEWER",
+  "actual_remote_or_resource_API_invocation_of_this_verifier": "NOT_RUN_BY_REVIEWER",
+  "separate_independent_local_inspector_sha256": "d0944378ea204a986ed512b35838a5c554266bb88201ad20076e8d857e514df9",
+  "separate_actual_local_inspection_receipt_sha256": "650b199cc1f13a46a925eae6ace7219727ff867ad7492cd73ee310e238188964",
+  "local_pass_is_not_remote_readback": true,
+  "installed_binary_equivalence": "NOT_PROVEN_BY_SOURCE_ARCHIVAL",
+  "standalone_intel_notice": "NOT_ASSERTED",
+  "scientific_acceptance": "NONE_SOURCE_RECOVERY_ONLY",
+  "cleanup_or_host_wipe_authority_conferred": false
+}
