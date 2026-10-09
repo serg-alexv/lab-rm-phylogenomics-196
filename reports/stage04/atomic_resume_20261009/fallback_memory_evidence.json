@@ -1,0 +1,185 @@
+{
+  "method": "Independent translation of pinned v3.1.4 PhyloTree::getMemoryRequired; structural upper allowance, not measured peak or complete heap proof",
+  "alignment_sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+  "native_binary_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+  "checker_sha256": "97e09ea110d0a7436d5f675c6660db3b46e3aba37dbf0395dbaac1822f3cf667",
+  "taxa": 196,
+  "columns": 17456,
+  "unique_column_patterns": 14012,
+  "padded_patterns_plus_states": 14032,
+  "ufboot1000_bytes": 56064000,
+  "normal_mode": [
+    {
+      "rate_categories": 1,
+      "lh_slots": 194,
+      "source_core_estimator_bytes": 498878272,
+      "source_core_estimator_gib": 0.464616596698761,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 2245120,
+        "pattern_category_bytes": 112256,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 679906752,
+      "core_plus_major_allowances_gib": 0.6332125067710876
+    },
+    {
+      "rate_categories": 4,
+      "lh_slots": 194,
+      "source_core_estimator_bytes": 1827259648,
+      "source_core_estimator_gib": 1.701768159866333,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 8980480,
+        "pattern_category_bytes": 449024,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 2015360256,
+      "core_plus_major_allowances_gib": 1.8769505023956299
+    },
+    {
+      "rate_categories": 10,
+      "lh_slots": 194,
+      "source_core_estimator_bytes": 4484022400,
+      "source_core_estimator_gib": 4.176071286201477,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 22451200,
+        "pattern_category_bytes": 1122560,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 4686267264,
+      "core_plus_major_allowances_gib": 4.364426493644714
+    }
+  ],
+  "mem2G_mode": [
+    {
+      "rate_categories": 1,
+      "lh_slots": 194,
+      "source_core_estimator_bytes": 498878272,
+      "source_core_estimator_gib": 0.464616596698761,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 2245120,
+        "pattern_category_bytes": 112256,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 679906752,
+      "core_plus_major_allowances_gib": 0.6332125067710876
+    },
+    {
+      "rate_categories": 4,
+      "lh_slots": 194,
+      "source_core_estimator_bytes": 1827259648,
+      "source_core_estimator_gib": 1.701768159866333,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 8980480,
+        "pattern_category_bytes": 449024,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 2015360256,
+      "core_plus_major_allowances_gib": 1.8769505023956299
+    },
+    {
+      "rate_categories": 10,
+      "lh_slots": 90,
+      "source_core_estimator_bytes": 2134504320,
+      "source_core_estimator_gib": 1.9879120588302612,
+      "major_outside_estimator": {
+        "G_matrix_bytes": 43667584,
+        "theta_all_bytes": 22451200,
+        "pattern_category_bytes": 1122560,
+        "seven_pattern_arrays_bytes": 785792,
+        "traversal_packet_and_parsimony_allowance_bytes": 134217728
+      },
+      "core_plus_major_allowances_bytes": 2336749184,
+      "core_plus_major_allowances_gib": 2.1762672662734985
+    }
+  ],
+  "recommendation": {
+    "native_mem_flag": "--mem 2G",
+    "candidate_thread_mode": "--thread-site",
+    "threads": 2,
+    "hard_process_and_aggregate_job_commit_bytes": 3758096384,
+    "host_physical_and_commit_admission_reserve_bytes": 1610612736,
+    "minimum_physical_and_commit_headroom_bytes": 5368709120,
+    "reserve_above_core_memory_target_bytes": 1610612736,
+    "scope": "Single unpartitioned same-data MFP only; no candidate restriction, dataset reduction or support reduction",
+    "qualification": "A justified bounded allocation policy, not evidence of successful completion. Unknown fragmentation/runtime overhead is bounded by native job caps; allocation failure remains explicit."
+  },
+  "memcheck": {
+    "available_in_parser": true,
+    "documented_in_native_help": false,
+    "safe_no_inference_for_MFP": false,
+    "reason": "startTreeReconstruction calls runModelFinder and computeFastMLTree before runTreeReconstruction checks memCheck and exits"
+  },
+  "data_bearing_native_invocation_executed": false,
+  "sources": [
+    {
+      "relative_path": "iqtree314_source\\main__phyloanalysis.cpp",
+      "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/main/phyloanalysis.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\main__phylotesting.cpp",
+      "sha256": "cfae774d65f4cc0b402cdfd5c9b04575749f01f086637d2a186088ef054ab025",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/main/phylotesting.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\model__modelfactory.cpp",
+      "sha256": "9c416b62b1aaf489922b5425ae7a4dea50f85aca28f634dfa5138d1c82a6fed4",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/model/modelfactory.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\model__modelmarkov.cpp",
+      "sha256": "fe9ce35fead59fd8a698f81279948d2bab8b1426488a5d586172d13c59985f85",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/model/modelmarkov.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\model__modelmarkov.h",
+      "sha256": "0cfa50d7c8cf33c97a25724bd3a3b29de9a355e316089f36b13913560eb001d2",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/model/modelmarkov.h"
+    },
+    {
+      "relative_path": "iqtree314_source\\model__modelprotein.cpp",
+      "sha256": "ad2b34262275b81c8cd206e052e442ae4b9b3017cf7f6fb0abe9ff97d750cee1",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/model/modelprotein.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\tree__iqtree.cpp",
+      "sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/tree/iqtree.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\tree__iqtree.h",
+      "sha256": "098ee58aa979343b7f2f62fd4923fddf8226512195cf1e81f765f31d3ddca004",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/tree/iqtree.h"
+    },
+    {
+      "relative_path": "iqtree314_source\\tree__phylotree.cpp",
+      "sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/tree/phylotree.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\tree__phylotree.h",
+      "sha256": "46b6a6aed90f92fc8001c5be28c343b1538ae4dae8e9d911257db1719c65edfb",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/tree/phylotree.h"
+    },
+    {
+      "relative_path": "iqtree314_source\\utils__tools.cpp",
+      "sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/utils/tools.cpp"
+    },
+    {
+      "relative_path": "iqtree314_source\\utils__tools.h",
+      "sha256": "4e3fd6d26e4c55179fc721c4f74293f503feaf587601782778d2e01a1fa882b6",
+      "url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/utils/tools.h"
+    }
+  ]
+}
