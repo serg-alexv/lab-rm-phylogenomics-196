@@ -1,0 +1,84 @@
+{
+  "accepted_source_pins_sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+  "builder_sha256": "68437b5b2cb60746dd804e46bcc7c39c59ad0c4afc005497f1f7c3922aef1708",
+  "g_writes": 0,
+  "mapped_files": 47648,
+  "mapper_sha256": "2b4c59634f4bf54cbd6f02e69cf980631f61611ccc36759314e9475f8d9564db",
+  "network_calls": 0,
+  "old_payload_files_read": 0,
+  "payload_inputs": {
+    "README.txt": {
+      "bytes": 780,
+      "sha256": "9c686503d6fdc9a60e65a505510089afcdfd0e2646d59f170c045a762f96fce3"
+    },
+    "code/build_batch03_mapping_archive.py": {
+      "bytes": 12449,
+      "sha256": "68437b5b2cb60746dd804e46bcc7c39c59ad0c4afc005497f1f7c3922aef1708"
+    },
+    "code/map_yesterday_scientific_batch03.py": {
+      "bytes": 10686,
+      "sha256": "2b4c59634f4bf54cbd6f02e69cf980631f61611ccc36759314e9475f8d9564db"
+    },
+    "control/accepted_source_pins.json": {
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    "control/conservative_leaf_assessment.json": {
+      "bytes": 106714,
+      "sha256": "13d89bbfdd2b768501426493c8de0eac8a4076ed1aca789ab87ea1df759b7f1e"
+    },
+    "mapping/batch02/evidence_sha256.json": {
+      "bytes": 705,
+      "sha256": "fa3737d7bd1799dc29e069c3862fbee5e3ec1c59eaeca99b68e79f05bcc3a74d"
+    },
+    "mapping/batch02/file_allowlist.json": {
+      "bytes": 107598,
+      "sha256": "b0b5ed7da87c9c781dba2719ec6474e864ca9b1b241e4c490b35e5da07a0c351"
+    },
+    "mapping/batch02/remote_assets_after.json": {
+      "bytes": 26821,
+      "sha256": "ffbe524d9650ea0011861002050d79d57ea85144f7db36c7054497484c13d361"
+    },
+    "mapping/batch02/remote_assets_before.json": {
+      "bytes": 26821,
+      "sha256": "68a8aa3f2967b7e931ae463bb17031f561149576d40f9ed18739f6ed34762441"
+    },
+    "mapping/batch02/summary.json": {
+      "bytes": 1964,
+      "sha256": "5af4a85ef721cb5ca3f7f3c4517a2cc05c0a90bd6954ae28c01f4546a2b753be"
+    },
+    "mapping/batch02/zip_member_validation.jsonl": {
+      "bytes": 16188467,
+      "sha256": "3cad66818067e0387ef955ba4dddcd73a85510debd48a8f9ee31126c93f4f524"
+    },
+    "mapping/batch03/REVIEW.md": {
+      "bytes": 3875,
+      "sha256": "9fae911d0f63f3b13784239be92b72672aec350f04b11575a3b0d19358e38e10"
+    },
+    "mapping/batch03/evidence_sha256.json": {
+      "bytes": 563,
+      "sha256": "c990e6875e93795a831942bd70108ff037efda0e6b3c7a6d16d80e2450f443d9"
+    },
+    "mapping/batch03/file_allowlist.jsonl": {
+      "bytes": 59654779,
+      "sha256": "df770f9e49e869c64f61db5720030aceff3b3282d53ee964aae02d228d7c3f64"
+    },
+    "mapping/batch03/preserve_unmatched_or_excluded.jsonl": {
+      "bytes": 331758,
+      "sha256": "bca12c16ff092b2e2fb612608186db728518d0ebf07fad80e1b401ed43ff0593"
+    },
+    "mapping/batch03/source_proof.json": {
+      "bytes": 799,
+      "sha256": "67087f8bbed012fb8ec3741ea35fd22f1fbb4801f3d0b7d6661e7d22f279ff5d"
+    },
+    "mapping/batch03/summary.json": {
+      "bytes": 3129,
+      "sha256": "5e952c56472952f827f683d7bcebf030368ceb634ce75bbf54e2af3a3ec32288"
+    }
+  },
+  "schema": "MASTER_BATCH03_MAPPING_ARCHIVE_SOURCE_BINDING_V1",
+  "source_deletions": 0,
+  "state": "LOCAL_BUILD_ONLY_NO_PURGE",
+  "unmatched_payloads_archived": false,
+  "wsl_starts": 0
+}
