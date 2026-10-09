@@ -1,0 +1,40 @@
+{
+  "schema": "STAGE05_CLOSED_GENOME_ARCHIVE_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_CORRECTED_SOURCE_ONLY_PREPARATION",
+  "reviewer": "input_validation independent of stage5_audit author",
+  "review_scope": "Full original candidates plus narrow final closure/proof-byte delta; no execution",
+  "sources": {
+    "stage5_closed_genome_archive_linux.py": "1ecd31137703469e073d3815f834d8f1b5dc8059c2d285bbfdba2fd773d291c8",
+    "stage5_closed_genome_archive_windows.py": "8655e5646ed37b1436f0c95c0e8bedf5d07ed1175085871d464b7876fe23ef29",
+    "test_stage5_closed_genome_archive.py": "dd10b6f1a62d3f8a650f1a780c90092685a7d4613b675dda90bacf59955448a0",
+    "test_stage5_closed_genome_archive_owner.py": "a262862f583b8e9d5527d45e713ac5478060be08b70dbeade53d1a92613ee0ea"
+  },
+  "prior_blocker_receipt": {
+    "path": "stage5_closed_genome_archive_source_review_attempt01.json",
+    "sha256": "67604d1a4f426e00e5f4ef0d9a6ac56185edf0d96037000dfad60125b2a808f3",
+    "prior_linux_source_preserved": "stage5_closed_genome_archive_linux_before_closure_veto.py",
+    "prior_windows_source_preserved": "stage5_closed_genome_archive_windows_before_closure_veto.py"
+  },
+  "reviewed_corrections": [
+    "Linux finalizer preserves Supervisor.closure_unproven and records whether the entire prior launch/intent scope was entered and completed. Empty current direct children cannot erase an observed unresolved historical native scope.",
+    "Windows independently rejects observed unresolved or incomplete entered closure scans; PASS additionally requires both prior scan flags exactly true. Closed FAILED preflight remains distinguishable from successful archive creation.",
+    "Exact original closed_owner_proof.json bytes, SHA and size are included in bounded captured metadata, so independent recovery need not reconstruct original JSON key order.",
+    "Existing original lock, exact source/config/owner/lease/command/status/runtime/source-panel bindings, no-follow raw tree checks, complete.files SHA matching, failed histories, original modes and empty directory manifest remain intact.",
+    "Bounded raw recovery ZIP and all-member CRC/SHA readback provide no scientific acceptance, remote recovery or eviction authority."
+  ],
+  "concrete_source_blockers": [],
+  "test_evidence": {
+    "author_reported_linux_contract_tests_passed": 11,
+    "author_reported_windows_contract_tests_passed": 9,
+    "reviewer_read_tests": true,
+    "reviewer_reran_tests": false,
+    "test_scope": "Own C synthetic files and pure/mocked owner predicates only"
+  },
+  "limitations": [
+    "Actual Linux archive, bound storage, original lock/lease and Windows interoperability integration remain NOT_RUN.",
+    "Independent fresh remote payload recovery and restoration are separate required gates; no eviction is enabled.",
+    "Archive scope is one closed genome's native raw recovery. Executed curation records/products and final196/tree acceptance remain separate."
+  ],
+  "actual_wsl_g_native_archive_execution_by_reviewer": "NOT_RUN",
+  "operational_or_scientific_acceptance_authority": false
+}

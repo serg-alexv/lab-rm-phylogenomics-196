@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_linux_fixture.py",
+    "--harmless-child",
+    "sleep",
+    "--identity-output",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_03/lease_expiry/linux/harmless_root_identity.json"
+  ],
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "child_cpu_seconds": 0.056659999999999995,
+  "child_pid": 572,
+  "child_start_ticks": "24320",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_03/lease_expiry/linux/attempt/synthetic.closure.json",
+  "command_nonce": "48a2ddec37f54f30985adc0705eaccd7",
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_03/lease_expiry/linux",
+  "elapsed_seconds": 2.9856545949999997,
+  "execution": "PROCESS_EXITED",
+  "exit_code": -15,
+  "group_closure_sha256": "0ddeccdbaec0da7c8ede9b7fa86ff4d34ecf78bb5fe950169bc6707795c6677f",
+  "identity": {
+    "fixture": "lease_expiry",
+    "owner_nonce": "00d3b7fe992b4365bb0a664ef2323e91",
+    "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 572,
+  "runner_pid": 571,
+  "sampled_tree_peak_rss_bytes": 21024768,
+  "sid": 572,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "termination_reason": "Fatal: Owner lease stale or invalid",
+  "utc": "2026-10-09T23:38:07.346605+00:00"
+}

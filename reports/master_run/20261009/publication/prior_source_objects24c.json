@@ -1,0 +1,275 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T23:33:26.611831+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "95547b30a1f701977667b02c4dbbdfb404f1b66c",
+  "tree": "e18097a458e2f71cbb6a7b1e208f58aa44ebc9e4",
+  "commit": "464c039770e0c9a3440d2bbb8fe9fcd0287426a8",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80"
+    },
+    {
+      "target": "scripts/master_run/stage5_atomic.py",
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "target": "scripts/master_run/stage5_atomic_process.py",
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "target": "scripts/master_run/stage5_runtime_discovery.py",
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 34098,
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config.py",
+      "bytes": 13011,
+      "sha256": "84cbd8b0397fe4958d611cb7f8e6053a3b3fd30d5fc777d5071971327496baae"
+    },
+    {
+      "target": "scripts/master_run/stage5_unc_bind_probe.py",
+      "bytes": 24115,
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_pidfd_compat.py",
+      "bytes": 6141,
+      "sha256": "1e83dd9e2c094dcd72b94499a2efd450ac6b467f85cf6ee7be4831670f50f891"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_targeted_hash_cache.py",
+      "bytes": 6546,
+      "sha256": "9f869df2570e74e341d4a9f92b4908d414370f37dde18af4ad2569ab473a0d5a"
+    },
+    {
+      "target": "scripts/master_run/stage5_atomic_before_targeted_hash_cache.py",
+      "bytes": 44516,
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0"
+    },
+    {
+      "target": "scripts/master_run/stage5_atomic_process_before_pidfd_compat.py",
+      "bytes": 22244,
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34"
+    },
+    {
+      "target": "scripts/master_run/stage5_runtime_discovery_before_pidfd_compat.py",
+      "bytes": 5694,
+      "sha256": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad"
+    },
+    {
+      "target": "scripts/master_run/stage5_runtime_discovery_after_pidfd_before_runtime_sha.py",
+      "bytes": 5694,
+      "sha256": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux_before_pidfd_compat.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux_after_pidfd_before_runtime_sha.py",
+      "bytes": 15526,
+      "sha256": "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows_before_pidfd_compat.py",
+      "bytes": 34098,
+      "sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows_after_pidfd_before_runtime_sha.py",
+      "bytes": 34098,
+      "sha256": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config_before_pidfd_compat.py",
+      "bytes": 13011,
+      "sha256": "482800bf5bd15f7e87234e9448ac9c165df67f768af408305a6e7ee56f897cb1"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config_after_pidfd_before_runtime_sha.py",
+      "bytes": 13011,
+      "sha256": "c5b84a4ad45682db5b3b1fd43f0138db2a9c4bc60b2f4105db0271f348757393"
+    },
+    {
+      "target": "scripts/master_run/stage5_unc_bind_probe_before_pidfd_compat.py",
+      "bytes": 24115,
+      "sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830"
+    },
+    {
+      "target": "scripts/master_run/prepare_stage5_pidfd_compat_pins.py",
+      "bytes": 3472,
+      "sha256": "7722467eb8e7442cd9c62488f24dd6982ea5d1157a193ca7302be12ae31b362f"
+    },
+    {
+      "target": "scripts/master_run/prepare_stage5_pidfd_runtime_pins.py",
+      "bytes": 3351,
+      "sha256": "d4af9451ed11815eafa84d34d51f6bfa64db46d51457e6659dafdd1c477f582c"
+    },
+    {
+      "target": "scripts/master_run/prepare_stage5_pidfd_runtime_publication.py",
+      "bytes": 6317,
+      "sha256": "cf897e4b0d59ff994f7226c9560e9f4996f537cf8d8916e7d0687045e1376ad1"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/STAGE5_PIDFD_COMPAT_METHODS.md",
+      "bytes": 4113,
+      "sha256": "f973fcb97c3c1b5aad2e877b5f3f14f8a5310c846067ae6a2ce173f1bcd6c206"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/STAGE5_PIDFD_COMPAT_METHODS_before_primary_abi_references.md",
+      "bytes": 3551,
+      "sha256": "608f73d0b2e44c45fbc313c277b521c105737e9d55d9950ffd33ff8a7d874ae1"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_compat_pin_refresh.json",
+      "bytes": 5006,
+      "sha256": "60ea1033ce127c6875ec61d1b2e75fe577683c7dd1a2f356741920ccbc85fb55"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_runtime_pin_refresh.json",
+      "bytes": 3979,
+      "sha256": "c22b05eba62b742835acecf230f5cd7a78127a4dfa4fae763b721b17fc09dde0"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_compat_independent_review.json",
+      "bytes": 1875,
+      "sha256": "f56636e37e76c10639a5650c51f16339237943d6afe867e42341b0407b879a75"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_preparation.json",
+      "bytes": 3430,
+      "sha256": "d63bbbec76963b54d6fa3e5770e3ed11f2728c2d12505f2e016743f8d7e47b06"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_independent_review.json",
+      "bytes": 3031,
+      "sha256": "a886cb47cd7946a14ab8315b79df37735881f49b6aa4f3e5fcb40c669c465a68"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_METHODS.md",
+      "bytes": 2165,
+      "sha256": "235ad34b601a316958f77b13c80d675e5b1e449a5bd13f898c209fe91937dd4b"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_SOURCE_COMPLETION.json",
+      "bytes": 2860,
+      "sha256": "f39b717b74688fdb8bf96fdc91fc3a49519f27aa17b00e0c794f39d3b6088df8"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/authorized_shutdown.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/authorized_shutdown.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/original_interop_stop.json",
+      "bytes": 929,
+      "sha256": "bc5a55a954a1ff84734c123f6e42eeabd4a014fca73461da251062eec86c28b6"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/receipt.json",
+      "bytes": 6441,
+      "sha256": "c474c48efa544d0f7451163172054ff81b22d9ff6eb7c9186992c6331b711343"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_before.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_before.stdout.txt",
+      "bytes": 136,
+      "sha256": "038a575dfb48a9355111cec3af0c1efd6d405e25825163e6959d66076462ea75"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_stopped01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_stopped01.stdout.txt",
+      "bytes": 136,
+      "sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_stopped02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/interop_scope23/actual/registered_stopped02.stdout.txt",
+      "bytes": 136,
+      "sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_runtime_preparation.json",
+      "bytes": 19934,
+      "sha256": "cb52bf39e07d6c39e79d90ec8b19c0b4561e70553349ea448a07c7cab61a69c8"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_runtime_compat_root_review24.json",
+      "bytes": 1330,
+      "sha256": "c5277040f589a911f4cc1d29142fe1c5636c97986bcd87786967134162cd545d"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_scope_closure23_git_objects.json",
+      "bytes": 10498,
+      "sha256": "1b109890859e4b7dce14db7e61c55b31fa38601480e34f5a6a53e61c9f8a7cde"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_scope_closure23_remote_readback.json",
+      "bytes": 19063,
+      "sha256": "8336505ea68064364820643eafc503f0ae609d7480c1fa62d1b9207f3a36ffd6"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_runtime_compat24.py",
+      "bytes": 6179,
+      "sha256": "f3679098e7d2a37108b0c4ecf28aeb73f9a5173ffd37818dd5d9d3e93c4b6822"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_runtime_compat24_before_extension_fix.py",
+      "bytes": 5491,
+      "sha256": "195d2a84f3f6bf7af4c5a9f0314623abd1dd6f0aeee0a3941a2501a8642688ec"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_runtime_compat24_before_patch_extension_fix.py",
+      "bytes": 6011,
+      "sha256": "909fa510cdd559e7d1b4313ee5ac0d82dd1b2f84ab1d84a4e5894f63e1a44390"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 12553,
+      "sha256": "32682082626f77e53df09b74b9e53d9901169c3e5c6556dcff6b9b91393011fa"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 11397,
+      "sha256": "f8cf6b721e1b7c632bd52709441b430dfd1838ac2c0233f25e054a9b94edc208"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache.patch",
+      "bytes": 4341,
+      "sha256": "ebec629777288a5739138b04c4d896e93139ec57afb94b1b43e3e064ea33ca38"
+    }
+  ]
+}

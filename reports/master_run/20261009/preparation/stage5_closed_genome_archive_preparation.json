@@ -1,0 +1,213 @@
+{
+  "active_source_pin_checks": [
+    {
+      "consumer": "stage5_closed_genome_archive_linux.py",
+      "member": "stage5_atomic.py",
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_linux.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_linux.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_atomic.py",
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_setup_windows.py",
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_windows_owner.py",
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_owner_lease.py",
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    {
+      "consumer": "stage5_closed_genome_archive_windows.py",
+      "member": "stage5_closed_genome_archive_linux.py",
+      "sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef"
+    }
+  ],
+  "actual_canonical_rehydration": "NOT_RUN",
+  "actual_fresh_remote_payload_readback": "NOT_RUN",
+  "actual_genome_archive": "NOT_RUN",
+  "curation_products": "Separate qualified review/result/witness archive required; raw complete.files stays immutable",
+  "current_dependency_source_map": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_pidfd_runtime_preparation.json",
+    "sha256": "cb52bf39e07d6c39e79d90ec8b19c0b4561e70553349ea448a07c7cab61a69c8"
+  },
+  "eviction_authorized": false,
+  "files": [
+    {
+      "bytes": 20281,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_linux.py",
+      "sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_linux.py"
+    },
+    {
+      "bytes": 17861,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows.py",
+      "sha256": "9ea5b933c6714fe3fc663e5f16af8ffe01eae2bba818ae9eab5342ab39f8d5b9",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_windows.py"
+    },
+    {
+      "bytes": 16706,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_recovery.py",
+      "sha256": "6603d3d4e6dce76691dd343daa9fc933437ec51a524a2c33498be36863c44ea1",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_recovery.py"
+    },
+    {
+      "bytes": 8383,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_closed_genome_archive.py",
+      "sha256": "dd10b6f1a62d3f8a650f1a780c90092685a7d4613b675dda90bacf59955448a0",
+      "suggested_remote_path": "scripts/master_run/test_stage5_closed_genome_archive.py"
+    },
+    {
+      "bytes": 6622,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_closed_genome_archive_owner.py",
+      "sha256": "a262862f583b8e9d5527d45e713ac5478060be08b70dbeade53d1a92613ee0ea",
+      "suggested_remote_path": "scripts/master_run/test_stage5_closed_genome_archive_owner.py"
+    },
+    {
+      "bytes": 7770,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_closed_genome_recovery.py",
+      "sha256": "607250818e7d40b009540946744239ae7d2acab7d5057693c45683ee462e810f",
+      "suggested_remote_path": "scripts/master_run/test_stage5_closed_genome_recovery.py"
+    },
+    {
+      "bytes": 19469,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_linux_before_closure_veto.py",
+      "sha256": "832582596dbf3b44fe8789efa290fae19ca82f5152f63735d2f7b31d823a7fcd",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_linux_before_closure_veto.py"
+    },
+    {
+      "bytes": 17443,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows_before_closure_veto.py",
+      "sha256": "0bc030dcafd18ece1b1420728bdfd03308ff3e3aa4f82522360e7021a1385d30",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_windows_before_closure_veto.py"
+    },
+    {
+      "bytes": 17618,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows_before_pass_flags.py",
+      "sha256": "5783fdc6c040ad5d711ca5562853bf1f31e8fce9f8310b14ec28915d134401cc",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_windows_before_pass_flags.py"
+    },
+    {
+      "bytes": 20281,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_linux_before_pidfd_compat.py",
+      "sha256": "1ecd31137703469e073d3815f834d8f1b5dc8059c2d285bbfdba2fd773d291c8",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_linux_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 17861,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows_before_pidfd_compat.py",
+      "sha256": "8655e5646ed37b1436f0c95c0e8bedf5d07ed1175085871d464b7876fe23ef29",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_windows_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 20281,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_linux_after_pidfd_before_runtime_sha.py",
+      "sha256": "314bfba257089afe108d1032b7a2136b4040aee30344484b7ddaf2941592a60b",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_linux_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 17861,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows_after_pidfd_before_runtime_sha.py",
+      "sha256": "830d7c1e14ebea599c4e2b456aa11292338327482c18fe155aeba5667278974e",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_archive_windows_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 16685,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_recovery_before_drive_path_fix.py",
+      "sha256": "7d7250c5dd74e660b3d449c97f4308772f186680a66482bffe0105ae1e694f10",
+      "suggested_remote_path": "scripts/master_run/stage5_closed_genome_recovery_before_drive_path_fix.py"
+    },
+    {
+      "bytes": 7467,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_closed_genome_recovery_before_drive_path_fix.py",
+      "sha256": "2e0193cc729b4d3d5e91ee4ed07169a729ef85873aa8d557469005cab710f668",
+      "suggested_remote_path": "scripts/master_run/test_stage5_closed_genome_recovery_before_drive_path_fix.py"
+    },
+    {
+      "bytes": 4445,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage5_closed_genome_archive_publication.py",
+      "sha256": "00d07aa992b57be38abc24728fd8dc200ee8e92c73bfb5529bb56c580dbc9408",
+      "suggested_remote_path": "scripts/master_run/prepare_stage5_closed_genome_archive_publication.py"
+    },
+    {
+      "bytes": 10677,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE5_CLOSED_GENOME_OPERATIONAL_METHODS.md",
+      "sha256": "10a47c2c707b86d4fbdc2784bab9169854c18af0ca00776b2a5682fff4f4728e",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/closed_genome_archive/STAGE5_CLOSED_GENOME_OPERATIONAL_METHODS.md"
+    },
+    {
+      "bytes": 2008,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_source_review_attempt01.json",
+      "sha256": "67604d1a4f426e00e5f4ef0d9a6ac56185edf0d96037000dfad60125b2a808f3",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/closed_genome_archive/stage5_closed_genome_archive_source_review_attempt01.json"
+    },
+    {
+      "bytes": 3082,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_corrected_independent_review.json",
+      "sha256": "1ee9d804adf3d41ed1895ee536266b058b2a952a0e63cd14f49c8262d5aa701c",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/closed_genome_archive/stage5_closed_genome_archive_corrected_independent_review.json"
+    },
+    {
+      "bytes": 2102,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_recovery_independent_source_review.json",
+      "sha256": "00304137456a7f493632272ffb2bf96db2c90235fd5090e11e8c8a08fe52603a",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/closed_genome_archive/stage5_closed_genome_recovery_independent_source_review.json"
+    }
+  ],
+  "independent_reviews": {
+    "stage5_closed_genome_archive_corrected_independent_review.json": "1ee9d804adf3d41ed1895ee536266b058b2a952a0e63cd14f49c8262d5aa701c",
+    "stage5_closed_genome_archive_source_review_attempt01.json": "67604d1a4f426e00e5f4ef0d9a6ac56185edf0d96037000dfad60125b2a808f3",
+    "stage5_closed_genome_recovery_independent_source_review.json": "00304137456a7f493632272ffb2bf96db2c90235fd5090e11e8c8a08fe52603a"
+  },
+  "new_scientific_acceptance": false,
+  "producer_review_scope": "Full original functional sources1ecd/8655; later changes are exact dependency-pin substitutions byte-proved in linked combined map",
+  "raw_asset_limits": {
+    "asset_bytes": 469762048,
+    "client_seconds": 1830,
+    "files": 100000,
+    "linux_seconds": 1800,
+    "logical_bytes": 17179869184
+  },
+  "recovery_review_scope": "Independent full source6603 and exact colon/drive/ADS correction; original7d725 and tests retained",
+  "remaining_operational_work": "Actual first closed genome and footprint; raw archive owner execution; independent full fresh remote reader; real storage-gated canonical rehydration/adoption; separate curation witness preservation. Originals stay until all recovery proofs.",
+  "report_suggested_remote_path": "reports/master_run/20261009/stage5/closed_genome_archive/stage5_closed_genome_archive_preparation.json",
+  "schema": "STAGE05_CLOSED_GENOME_RAW_ARCHIVE_SOURCE_PREPARATION_V1",
+  "state": "SOURCE_PEERS_AND_PURE_TESTS_PASS_ACTUAL_ARCHIVE_NOT_RUN",
+  "tests": {
+    "passed": 26,
+    "scope": "11 raw archive +9 owner +6 recovery pure C synthetic contracts; also included in final combined125/2.143s exit0"
+  }
+}

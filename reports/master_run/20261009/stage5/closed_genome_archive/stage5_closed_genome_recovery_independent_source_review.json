@@ -1,0 +1,39 @@
+{
+  "schema": "STAGE05_CLOSED_GENOME_RECOVERY_SOURCE_REVIEW_V1",
+  "utc": "2026-10-09T23:26:36.366128+00:00",
+  "state": "PASS_SOURCE_ONLY_INACTIVE_API",
+  "source_sha256": "6603d3d4e6dce76691dd343daa9fc933437ec51a524a2c33498be36863c44ea1",
+  "test_sha256": "607250818e7d40b009540946744239ae7d2acab7d5057693c45683ee462e810f",
+  "prior_source_sha256": "7d7250c5dd74e660b3d449c97f4308772f186680a66482bffe0105ae1e694f10",
+  "review_kind": "Complete production source read plus exact final drive/ADS delta and test-source inspection; no production archive/restore/test run by reviewer",
+  "resolved_finding": "Manifest relative path validator now rejects colon on every OS; C:/absolute, D:relative, nested drive and NTFS alternate-stream names cannot redirect Windows NEW-tree restoration.",
+  "reviewed": [
+    "Externally fixed archive/complete SHA and actual full outer bytes",
+    "Exact full ZIP membership, full EOF CRC/SHA and exhaustive SUMS",
+    "Complete/scientific-identity/native-file pins and original source/panel/runtime/closed-owner/control bytes",
+    "NEW absolute nonaliased output, exclusive file creation, mode/mtime/fullSHA/path inventory restoration",
+    "No producer import in production module; no deletion/native/download/CLI or canonical adoption authority"
+  ],
+  "peer_reported_pure_tests": {
+    "count": 6,
+    "elapsed_seconds": 0.441,
+    "state": "PASS",
+    "reviewer_reran": false
+  },
+  "remaining_integration_limits": [
+    "Caller must provide actual external source/remote pins and resource/deadline callback; default callback itself is not a resource monitor",
+    "No actual archive/current owner/canonical path/native cache/curation/remote recovery or restoration accepted",
+    "Operational existing-owner and cold-restoration integration is separate; module alone grants no eviction or host-wipe authority"
+  ],
+  "actual_reviewer_actions": {
+    "production_archive_reads": 0,
+    "runtime_payload_reads": 0,
+    "restores": 0,
+    "WSL": 0,
+    "native": 0,
+    "G": 0,
+    "network": 0,
+    "deletions": 0
+  },
+  "concrete_source_blockers_remaining": []
+}

@@ -1,0 +1,23 @@
+{
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "command_nonce": "f1e811d772a24695a92f9a3239da8374",
+  "group_empty": true,
+  "root_exit_code": -15,
+  "scope_limit": "dedicated subreaper, setsid group, exact descendants and pidfds; no cgroup isolation",
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "survivors": [],
+  "termination_reason": "Fatal: Owner nonce/declared shared-lock ownership differs",
+  "tracked_descendants": [
+    {
+      "pgid": 488,
+      "pid": 488,
+      "ppid": 486,
+      "sid": 488,
+      "start_ticks": "2979",
+      "state": "D"
+    }
+  ],
+  "tracked_descendants_empty": true,
+  "unexplained_pgid_members": [],
+  "utc": "2026-10-09T23:34:51.048659+00:00"
+}

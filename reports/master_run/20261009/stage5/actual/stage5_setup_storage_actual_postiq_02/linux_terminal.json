@@ -1,0 +1,52 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "storage",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_storage_actual_postiq_02",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_storage_actual_postiq_02/owner_lease.json",
+      "--owner-nonce",
+      "bf692103770540e8b8eb531e83a35bef",
+      "--source-sha256",
+      "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_storage_actual_postiq_02/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "52a4a002a3c6036e55024adfcb3d3039be7a67c64cbcd3425648b8408ef63624",
+      "--toolchain-proof",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json",
+      "--toolchain-proof-sha256",
+      "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc",
+      "--candidate-output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_02.json"
+    ],
+    "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 587,
+      "pid": 587,
+      "ppid": 585,
+      "sid": 587,
+      "start_ticks": "27181",
+      "state": "R"
+    }
+  },
+  "error": {
+    "kind": "Fatal",
+    "message": "Windows must establish and record empty G underlay before bind"
+  },
+  "no_native_launch": true,
+  "owned_closure_proven": true,
+  "owned_command_count": 0,
+  "owner_nonce": "bf692103770540e8b8eb531e83a35bef",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "state": "FAILED",
+  "step": "storage"
+}

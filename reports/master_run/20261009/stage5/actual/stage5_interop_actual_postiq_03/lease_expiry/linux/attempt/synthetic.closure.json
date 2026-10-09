@@ -1,0 +1,23 @@
+{
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "command_nonce": "48a2ddec37f54f30985adc0705eaccd7",
+  "group_empty": true,
+  "root_exit_code": -15,
+  "scope_limit": "dedicated subreaper, setsid group, exact descendants and pidfds; no cgroup isolation",
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "survivors": [],
+  "termination_reason": "Fatal: Owner lease stale or invalid",
+  "tracked_descendants": [
+    {
+      "pgid": 572,
+      "pid": 572,
+      "ppid": 571,
+      "sid": 572,
+      "start_ticks": "24320",
+      "state": "S"
+    }
+  ],
+  "tracked_descendants_empty": true,
+  "unexplained_pgid_members": [],
+  "utc": "2026-10-09T23:38:10.285902+00:00"
+}

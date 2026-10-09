@@ -1,0 +1,119 @@
+{
+  "schema": "STAGE05_INSTALLED_RUNTIME_RECOVERY_PREPARATION_COMPLETION_V1",
+  "utc": "2026-10-09T23:32:23.859700+00:00",
+  "state": "PASS_INACTIVE_SOURCE_AND_PURE_METADATA_CONTRACT_PREPARATION_ONLY",
+  "frozen_files": {
+    "stage5_runtime_recovery_contract.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_contract.py",
+      "bytes": 10893,
+      "sha256": "daf48ea1c8cc96312519b1ab22f2d41216494773e5e345e3e5e0417139588bb6"
+    },
+    "test_stage5_runtime_recovery_contract.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_recovery_contract.py",
+      "bytes": 6882,
+      "sha256": "a6c4836cc8d53daa01b32889b89132e3ba9731e944e358768ba26af6b0d9a0b0"
+    },
+    "prepare_stage5_installed_runtime_recovery.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage5_installed_runtime_recovery.py",
+      "bytes": 12940,
+      "sha256": "a2b87eac07f12e0c3c359d30afc04cdf553a8de96d3c0bc13dcadcd566c9d91e"
+    },
+    "stage5_runtime_recovery_preparation01/PLAN.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_preparation01\\PLAN.json",
+      "bytes": 12109,
+      "sha256": "a34b38989f43688a75b3b9d9a5f10bd9711e6d5071101e81af4b818dfe2a0278"
+    },
+    "stage5_runtime_recovery_preparation01/CAPTURE_INPUTS_PENDING.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_preparation01\\CAPTURE_INPUTS_PENDING.json",
+      "bytes": 952,
+      "sha256": "daf3f70bb567faafce0775d0e4df17c07dea8b251b9667aec484d7d74cc61cde"
+    },
+    "stage5_runtime_recovery_contract_independent_review.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_contract_independent_review.json",
+      "bytes": 3564,
+      "sha256": "0dd378c9a8b7997b6ec45bc8e25fe912059a5783915e051dcb954a606e9b54dc"
+    },
+    "stage5_runtime_logical_capture.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_logical_capture.py",
+      "bytes": 24116,
+      "sha256": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220"
+    },
+    "verify_stage5_runtime_logical_payload.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_stage5_runtime_logical_payload.py",
+      "bytes": 17521,
+      "sha256": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac"
+    },
+    "verify_stage5_runtime_cold_tree.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_stage5_runtime_cold_tree.py",
+      "bytes": 10006,
+      "sha256": "cd64e0d4da3ab2509f93d4295af891e0173ed9bef9d81007620bf1f4d872fcfe"
+    },
+    "test_stage5_runtime_inventory_metadata.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_inventory_metadata.py",
+      "bytes": 3583,
+      "sha256": "0c4f7e39fe6ad9ba4e1cbe7878bddb595dde35e67456fedf13dc2f86d4c6e6a1"
+    },
+    "test_stage5_runtime_payload_metadata.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_payload_metadata.py",
+      "bytes": 2761,
+      "sha256": "aa76e594788950b61afa421bfd0d165f9aa4c9df35105ca59296414a89ee82c4"
+    },
+    "stage5_runtime_recovery_IMPLEMENTATION_LIMITS.md": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_IMPLEMENTATION_LIMITS.md",
+      "bytes": 5425,
+      "sha256": "fdf409f85b8d6b98cd3fe1710df74641d76818e0dd2ecb5816f199bd3ff13cc5"
+    },
+    "stage5_runtime_recovery_implementation_independent_review.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_implementation_independent_review.json",
+      "bytes": 2613,
+      "sha256": "e5dd14334f4becb03534be8975c0b74fb8459d68b3408fc00981c6919cafe7fb"
+    },
+    "stage5_runtime_recovery_implementation_review_pending_cold_mount.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_implementation_review_pending_cold_mount.json",
+      "bytes": 2766,
+      "sha256": "fa95c572905ca959659056e1df0b8599da28bf6a2755792f121a21f2f3d3c0a6"
+    }
+  },
+  "file_count": 14,
+  "bytes": 116131,
+  "independent_reviews": {
+    "contract": "0dd378c9a8b7997b6ec45bc8e25fe912059a5783915e051dcb954a606e9b54dc",
+    "implementation": "e5dd14334f4becb03534be8975c0b74fb8459d68b3408fc00981c6919cafe7fb"
+  },
+  "prior_cold_nested_mount_finding_preserved": true,
+  "prior_finding_resolved_in_final_source": true,
+  "preparation_test_evidence": {
+    "author_executed_pure_tests": 32,
+    "contract_tests": 17,
+    "payload_metadata_tests": 7,
+    "inventory_mount_metadata_tests": 8,
+    "exit_code": 0,
+    "reported_seconds": 0.019,
+    "rerun_for_this_mapping": false,
+    "actual_tar_archive_or_runtime_fixture": false
+  },
+  "primary_method": "Full logical original-byte POSIX capture of exact three installed roots; original Conda339 archives are complementary, not installed-build equivalence",
+  "asset_limit_bytes": 469762048,
+  "copy_chunk_bytes": 262144,
+  "capture_deadline_seconds": 1800,
+  "owner_required_physical_and_commit_reserve_bytes": 1610612736,
+  "actual_runtime_manifest": "PENDING_NOT_ADOPTED_BY_THIS_PREPARATION",
+  "actual_full_installed_inventory": "NOT_RUN",
+  "whole_file_public_notice_review": "NOT_RUN",
+  "actual_runtime_payload_or_image_reads": 0,
+  "actual_capture_archive_download_restore_or_native_runs": 0,
+  "fresh_remote_full_payload_gate": "PENDING_EXTERNAL_ADAPTER",
+  "cold_tree_gate": "PENDING_ACTUAL_NEW_EXT4_TREE",
+  "installed_build_equivalence": "NOT_ESTABLISHED",
+  "standalone_capture_cli": false,
+  "missing_operational_adapters": [
+    "Existing finite Windows owner/lease/resource/closure admission integration",
+    "Fresh owned remote index+sidecar+shard full-payload downloads and immutable source/tag/asset witnesses",
+    "Safe new-tree cold extractor",
+    "Original-prefix OS/dependency/ambient-context fingerprint and owned benign runtime equivalence tests"
+  ],
+  "source_only_extractor_preparation_owner": "remote_audit_SEPARATE_NEW_FILES",
+  "eviction_or_host_wipe_authority": false,
+  "scientific_acceptance_created": false,
+  "root_is_only_runtime_operator_and_publisher": true
+}

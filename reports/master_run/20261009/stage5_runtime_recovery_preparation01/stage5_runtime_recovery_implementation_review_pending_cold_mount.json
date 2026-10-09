@@ -1,0 +1,49 @@
+{
+  "schema": "STAGE05_RUNTIME_RECOVERY_IMPLEMENTATION_SOURCE_REVIEW_V1",
+  "utc": "2026-10-09T23:10:23.815122+00:00",
+  "state": "CAPTURE_READER_PREPARATION_SOURCE_PASS_COLD_CHECKER_CONCRETE_REVISION_PENDING",
+  "source_pins": {
+    "stage5_runtime_logical_capture.py": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220",
+    "verify_stage5_runtime_logical_payload.py": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac",
+    "verify_stage5_runtime_cold_tree.py": "2cbd14185ef3fbe3bf25064296073f966d99a589485416d602596e8622ff4e52",
+    "stage5_runtime_recovery_IMPLEMENTATION_LIMITS.md": "fdf409f85b8d6b98cd3fe1710df74641d76818e0dd2ecb5816f199bd3ff13cc5",
+    "test_stage5_runtime_inventory_metadata.py": "d2f00a1cb70ce35d7c7e642b74205f1e0878d9a83ef98911b8464498767710f1"
+  },
+  "review_kind": "READ_ONLY_SOURCE_INSPECTION_ONLY",
+  "reviewed": [
+    "Complete full no-follow inventory and reviewed-public frozen capture function",
+    "Independent single-gzip/full tar/shard SHA+CRC+membership+scientific subset reader without producer import",
+    "Inactive disposable restore tree metadata/bytes/internal-link checker",
+    "Explicit owner/remote/extractor/restore limitations"
+  ],
+  "resolved_findings": [
+    "Canonical hardlink normalization now follows final lexical manifest order and propagates privacy hold codes to all aliases",
+    "Path/symlink-target/xattr names and values now included in reason-code screening before full public review"
+  ],
+  "remaining_concrete_finding": {
+    "source": "verify_stage5_runtime_cold_tree.py",
+    "sha256": "2cbd14185ef3fbe3bf25064296073f966d99a589485416d602596e8622ff4e52",
+    "issue": "Deepest enclosing ext4 mount check does not reject nested mounts under staging; O_NOFOLLOW does not prevent crossing mounts. A bind of original runtime under staging can counterfeit an independent restored subtree.",
+    "required_delta": "Reject all mountpoints strictly below staging; bind root and walked node st_dev; recheck admitted mount topology and root identity at completion. Keep root/device identity distinct from retained source roots."
+  },
+  "not_reviewed_or_accepted": [
+    "Existing-owner invocation/admission/closure adapter",
+    "Actual full installed manifest/public-byte/license review",
+    "Production inventory/capture/archive or fresh remote download adapter",
+    "Safe cold extractor or original-prefix cold runtime test",
+    "Installed-build equivalence or host-wipe authority"
+  ],
+  "peer_reported_tests": {
+    "pure_count": 29,
+    "exit_code": 0,
+    "reviewer_reran": false
+  },
+  "actual_actions_by_reviewer": {
+    "runtime_payload_reads": 0,
+    "WSL_starts": 0,
+    "mounts": 0,
+    "archive_builds": 0,
+    "remote_reads": 0,
+    "deletions": 0
+  }
+}

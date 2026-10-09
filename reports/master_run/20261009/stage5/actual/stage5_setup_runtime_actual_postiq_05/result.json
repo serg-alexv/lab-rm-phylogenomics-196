@@ -1,0 +1,108 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "FAILED",
+  "step": "runtime",
+  "source_sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33",
+  "linux_source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "c795a914947145d884c0c9f10d9b762d",
+  "actual_windows_owner": {
+    "pid": 7696,
+    "creation_filetime": 134360624731508640,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.140625,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 37,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.01599999999962165,
+    "successful_calls": 37
+  },
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-09T23:34:50.894785+00:00",
+    "physical_available_bytes": 2943631360,
+    "commit_headroom_bytes": 1844224000,
+    "commit_total_bytes": 21072138240,
+    "commit_limit_bytes": 22916362240,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 208159088640,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_05": 219114831872
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "error": {
+    "kind": "ValueError",
+    "message": "Actual setup resource reserve insufficient"
+  },
+  "actual_wsl_exit": {
+    "pid": 26000,
+    "creation_filetime": 134360624733705145,
+    "exit_filetime": 134360624911314944,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 2
+  },
+  "wsl_exit_receipt_sha256": "dd2f35c286fca73b7984e967e7afc16eb808f17bd23159dc32bc7363c8c4b04f",
+  "native_commands": [
+    {
+      "label": "runtime_discovery",
+      "launch_sha256": "ae8957e44e2ff574210fa016da35329af4a1ce56a29c8f9ace5f59dd6773961d",
+      "closure_sha256": "5c50b7a8702e8e9f2896007f835a12a0217fe750b1454f14e0b7aef1b4617149",
+      "command_sha256": "5962525a2ad374391cc01414da5b8b51c356bb1df9ebddf8d89474d1f530a57e"
+    }
+  ],
+  "linux_terminal_sha256": "55426ea1bc830623c2bfbe90608d249560a2edbb862070e428a56c0f7a722b8c",
+  "failed_scope_closed": true,
+  "closure_basis": "RETAINED_WSL_EXIT_AND_ACTUAL_LINUX_TERMINAL",
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "utc": "2026-10-09T23:34:51.165881+00:00"
+}

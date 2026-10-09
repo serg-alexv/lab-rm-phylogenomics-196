@@ -1,0 +1,26 @@
+{
+  "schema": "STAGE05_CLOSED_GENOME_ARCHIVE_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "BLOCKED_PENDING_CLOSURE_VETO_CORRECTION",
+  "review_scope": "SOURCE_ONLY_NO_EXECUTION",
+  "sources": {
+    "stage5_closed_genome_archive_linux.py": "832582596dbf3b44fe8789efa290fae19ca82f5152f63735d2f7b31d823a7fcd",
+    "stage5_closed_genome_archive_windows.py": "0bc030dcafd18ece1b1420728bdfd03308ff3e3aa4f82522360e7021a1385d30"
+  },
+  "blocker": {
+    "path": "stage5_closed_genome_archive_linux.py",
+    "function": "main finalizer",
+    "trigger": "A retained historical launch/intent lacks valid closure or its exact native process is still alive, causing Supervisor.assert_closed/assert_intent_closed to set closure_unproven and raise.",
+    "observed_source_behavior": "Finalizer computes owned_closure_proven solely from remaining_direct_children. FAILED exit2 with empty direct children therefore passes the Windows closed_terminal closure predicate and can clear the archive-owned stop marker.",
+    "required_correction": "Preserve supervisor.closure_unproven as an operational closure veto and distinguish completion of the entire historical closure scan. No successful or closed-failure receipt may erase an observed unresolved prior native scope. Existing stage5_atomic run_genome failure handling uses prior_closure_checked and not supervisor.closure_unproven."
+  },
+  "other_source_findings": [
+    "No additional concrete raw-byte/member/complete-receipt/config/source-panel path binding blocker found within this source review.",
+    "Archive scope is raw recovery only. Curation products and their scientific acceptance remain separate.",
+    "Asset cap overflow preserves partial output and does not authorize eviction; actual runtime, storage and Windows interoperability remain NOT_RUN."
+  ],
+  "tests_rerun_by_reviewer": false,
+  "actual_archive_execution": "NOT_RUN",
+  "actual_wsl_or_g_access": "NOT_RUN",
+  "actual_scientific_or_cleanup_execution": "NOT_RUN",
+  "acceptance_authority": false
+}

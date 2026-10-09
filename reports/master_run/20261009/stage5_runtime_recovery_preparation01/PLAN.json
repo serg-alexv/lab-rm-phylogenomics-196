@@ -1,0 +1,170 @@
+{
+  "actual_runtime_manifest": null,
+  "cold_restoration_verification": [
+    "Use a new disposable ext4 restore target, never overwrite the retained runtime. Restore only freshly verified reviewed members with directory-relative no-follow creation, no tar.extractall, no link traversal, directories first and symlinks last.",
+    "Recreate internal hardlinks only to previously verified regular files, restore exact modes/mtime/uid/gid plus all reviewed xattrs/ACL/capabilities; required privileges or unsupported metadata cause an explicit stop.",
+    "Independent no-follow rescan compares exhaustive path/type/bytes/SHA/mode/uid/gid/mtime_ns/xattrs/targets/internal hardlink equivalence. Source inode/birth/ctime and original block-image SHA are provenance, not recreated identity.",
+    "Absolute symlinks, shebangs and Conda prefix substitutions require the ORIGINAL three installation prefixes. A staging-prefix scan does not prove those binaries will run. Under a separate cold lock, mount a clean derived runtime at the exact original prefix before runtime discovery/version/dependency checks.",
+    "Re-run actual scientific runtime discovery and compare every selected binary/source/model/library SHA and effective ambient configuration, then the bounded operational fixtures. No biological inference/search is needed for logical restoration acceptance.",
+    "Only then PASS_EXACT_SCOPED_LOGICAL_RUNTIME_RESTORATION; distinguish this from bit-identical8GiB image recovery, complete corresponding-source audit and biological acceptance. Until then retain the original image and required private/excluded files; host-wipe authority remains NONE."
+  ],
+  "evidence": [
+    {
+      "bytes": 10743,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_toolchain_preservation_plan.json",
+      "sha256": "8ece8ee1afea53392c6dd6b14872595f02b91f77fd639f3c81ff836830d818d5"
+    },
+    {
+      "bytes": 206293,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_public_components01\\frozen\\manifests\\detector_package_manifest.json",
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382"
+    },
+    {
+      "bytes": 116540,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_public_components01\\frozen\\manifests\\host_package_manifest.json",
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48"
+    },
+    {
+      "bytes": 8984,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_final_index.json",
+      "sha256": "f0b6f3a43909a43d5e409afb2f1edd5c04db6fc6f1eba00843534ac3ad9e503c"
+    },
+    {
+      "bytes": 139574,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_readback_20261009T212013Z_9326e9e6\\receipt.json",
+      "sha256": "02d56dc933db94af3b93a737e55ffd4463cdc88e9e96cb885c02bc6311b6ea6a"
+    },
+    {
+      "bytes": 14364,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_components01_readback_20261009T195312Z_16720f4a\\receipt.json",
+      "sha256": "8c075ca1a75e0c4af4242e3caa0e17be0797e219fbd0cc69bc0202834cc1d07f"
+    }
+  ],
+  "exact_roots": {
+    "environment_dir": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env",
+    "models_dir": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/defense_models",
+    "padloc_db": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/padloc_db"
+  },
+  "explicit_limits": {
+    "actual_inventory": "NOT_RUN",
+    "archives_created": 0,
+    "biological_acceptance": false,
+    "cold_capture": "NOT_RUN",
+    "cold_restore": "NOT_RUN",
+    "fresh_remote_runtime_payload_readback": "NOT_RUN",
+    "host_wipe_authority": false,
+    "image_payload_bytes_read": 0,
+    "installed_build_equivalence": "NOT_ESTABLISHED",
+    "installed_pip_R_localmods_enumeration": "NOT_RUN",
+    "mounts": 0,
+    "public_payload_review": "NOT_RUN",
+    "wsl_starts": 0
+  },
+  "fresh_remote_verification": [
+    "Publish exact source/tests/review/index and small controls first; root alone uploads immutable shards and original sidecars.",
+    "Use existing retained owned-gh monitor with source commit separate from Release tag commit, host reserve and deadline; fresh zero-offset downloads of EVERY shard and sidecar into a new C namespace.",
+    "Verify Git blob objects and independently pinned index, exact unique ordered asset IDs/digests/sizes before and after download, every shard SHA and ordered compressed-stream SHA.",
+    "Stream decompress/parse every tar payload to EOF: exhaustive manifest membership, all full file SHAs and logical lengths, exact POSIX metadata/link graph, no duplicate/path traversal/special members, complete control/notices and gzip CRC. No extraction/execution at readback.",
+    "Independent reader must not import the capture producer. Actual reader pins cannot be frozen until actual manifest/index/shard bytes exist; preparation has no remote payload acceptance."
+  ],
+  "independently_verified_original_packages": {
+    "assets": [
+      {
+        "bytes": 448642191,
+        "name": "master_public_conda_packages01-001.zip",
+        "remote_asset_id": 626154126,
+        "remote_digest": "sha256:18e60eea6e797fa92047beebc78ff19171eb4298ab0d21f3c997e33147e4d3a6",
+        "sha256": "18e60eea6e797fa92047beebc78ff19171eb4298ab0d21f3c997e33147e4d3a6"
+      },
+      {
+        "bytes": 214192437,
+        "name": "master_public_conda_packages01-002.zip",
+        "remote_asset_id": 626160726,
+        "remote_digest": "sha256:0f65cc94c8ed0cf89a208d22465889eaf65e63153d231a3a776be3dfe20a4cbb",
+        "sha256": "0f65cc94c8ed0cf89a208d22465889eaf65e63153d231a3a776be3dfe20a4cbb"
+      },
+      {
+        "bytes": 105,
+        "name": "master_public_conda_packages01-001.zip.sha256",
+        "remote_asset_id": 626160604,
+        "remote_digest": "sha256:edcb298e5dc1e4e191bbba6924c68211044d699a1f7ee7567276a30e11aef1fe",
+        "sha256": "edcb298e5dc1e4e191bbba6924c68211044d699a1f7ee7567276a30e11aef1fe"
+      },
+      {
+        "bytes": 105,
+        "name": "master_public_conda_packages01-002.zip.sha256",
+        "remote_asset_id": 626162132,
+        "remote_digest": "sha256:cc596d092b1105c33d055146bc2312ccb8bf57094657bc5debd2d87314a69c89",
+        "sha256": "cc596d092b1105c33d055146bc2312ccb8bf57094657bc5debd2d87314a69c89"
+      }
+    ],
+    "bytes": 660114049,
+    "count": 339,
+    "installed_build_equivalence": false,
+    "release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/master-run-storage-20261009-v1",
+    "remote_readback_receipt_sha256": "02d56dc933db94af3b93a737e55ffd4463cdc88e9e96cb885c02bc6311b6ea6a",
+    "resolution_roles": 397
+  },
+  "independently_verified_sources_models_notices": {
+    "assets": [
+      {
+        "bytes": 228162511,
+        "name": "master_public_components01.zip",
+        "remote_asset_id": 626003321,
+        "remote_digest": "sha256:4663ddfb3e204bff5d0ba6f218717eae28ddd56bf4c51d325bb2b0db240dca35",
+        "sha256": "4663ddfb3e204bff5d0ba6f218717eae28ddd56bf4c51d325bb2b0db240dca35"
+      },
+      {
+        "bytes": 97,
+        "name": "master_public_components01.zip.sha256",
+        "remote_asset_id": 626009462,
+        "remote_digest": "sha256:c1f9ed7512cbe2c32f9aa9e0e2ebe9ecbe9f533a9a224278d3bbe2af11430ef2",
+        "sha256": "c1f9ed7512cbe2c32f9aa9e0e2ebe9ecbe9f533a9a224278d3bbe2af11430ef2"
+      }
+    ],
+    "full_corresponding_source_coverage": "NOT_ESTABLISHED",
+    "remote_readback_receipt_sha256": "8c075ca1a75e0c4af4242e3caa0e17be0797e219fbd0cc69bc0202834cc1d07f"
+  },
+  "logical_archive": {
+    "failures": "Preserve partial output and failed receipt. No retry, source deletion, mutation, package installer or acceptance promotion.",
+    "first_control": "Exhaustive reviewed manifest (bounded streamed JSONL) plus original runtime candidate/public-review/attribution/cold-proof bytes",
+    "format": "SINGLE_PAX_TAR_GZIP_STREAM_SPLIT_AT_COMPRESSED_BYTE_BOUNDARIES",
+    "gzip_level": 1,
+    "gzip_mtime": 0,
+    "index": "Small Git index pins ordered shard names/size/SHA, whole compressed-stream SHA, manifest SHA/count/byte bound, every control source pin and explicit exclusions/limits",
+    "maximum_asset_bytes": 469762048,
+    "metadata": "Exact mode/uid/gid/mtime_ns/target/internal hardlink graph; xattrs/ACL/capabilities losslessly represented in reviewed manifest. No chown/chmod or link dereference during capture.",
+    "output": "New direct C-mounted chat work namespace; no G exports and no raw block-image publication",
+    "parallel_compression_workers": 1,
+    "sidecars": "Exact ASCII SHA256  two spaces  assetname LF; per-shard and ordered whole-stream digests",
+    "stream_chunk_bytes": 262144
+  },
+  "minimum_actual_capture_inputs": [
+    "Fresh successful STAGE05_PINNED_RUNTIME_V1 candidate from the retained mounted interpreter; roots must equal these exact three prefixes. Its env file map is a scientific subset, not full installed inventory.",
+    "Complete no-follow three-root inventory: every directory/regular/symlink/internal-hardlink, full regular-file SHA, original device/inode/linkcount/ctime, exact UTF8 path, mode/uid/gid/mtime_ns and all xattr/ACL/capability values. Hold special files, unknown names/metadata, dangling/external links and unresolved privilege bits.",
+    "Whole-file public review tied to the full inventory SHA: scan all payload/xattr/target bytes and reviewed package metadata; preserve entire excluded files privately without redaction. Screening alone never establishes public scope. Any excluded scientific-manifest dependency blocks complete public recovery.",
+    "Installed Conda conda-meta records and info/paths.json original package mapping; complete pip .dist-info METADATA/RECORD/direct_url.json/licenses; complete R library DESCRIPTION/COPYING/compiled libraries; all installed binaries/shared libraries/data and local changes. Missing wheel/source or notice mapping stays an explicit gap, not an equivalence claim.",
+    "Independent notice/source attribution review including original copyright/licenses/COPYRIGHT/COPYING and local modification attribution. Existing Conda/model source assets are referenced by exact digest/member; no package reinstall is claimed identical.",
+    "Root-owned cold/exclusive capture proof under the original WorkflowLock, all relevant native descendants closed, no runtime writer/writable mount alias, exact loop-image/mount/UUID/device identity and read-only runtime freeze. No new controller or lock is introduced.",
+    "Measured host physical AND commit reserve >=1536MiB, one below-normal compression reader, <=256KiB buffers, finite deadline and owned process closure through existing supervisor. Existing owner integration must be reviewed before invoking the capture function; no unmonitored standalone build is supplied."
+  ],
+  "original_prefix_required": true,
+  "primary_strategy": "FULL_REVIEWED_LOGICAL_THREE_ROOT_COPY_PLUS_ORIGINAL_PACKAGES_AND_SOURCES",
+  "recorded_image_metadata": {
+    "bytes": 8589934592,
+    "exact_remote_image_recovery": "MISSING",
+    "fresh_metadata_check": "NOT_RUN",
+    "image_payload_bytes_read_by_preparation": 0,
+    "kind": "REUSABLE_PROJECT_SCIENTIFIC_EXT4_LOOP_IMAGE_NOT_UBUNTU_ROOT_VM",
+    "mtime_ns": 1791562748495019000,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\toolchain.ext4",
+    "public_member_scope_review": "NOT_RUN",
+    "recorded_ext4_used_bytes": 6461337600,
+    "recorded_mounted_root": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux",
+    "recorded_probe_utc": "2026-10-09T16:19:05Z",
+    "sha256": null
+  },
+  "schema": "STAGE05_INSTALLED_RUNTIME_RECOVERY_PREPARATION_V1",
+  "source_sha256": "a2b87eac07f12e0c3c359d30afc04cdf553a8de96d3c0bc13dcadcd566c9d91e",
+  "state": "PENDING_ACTUAL_FULL_INVENTORY_PUBLIC_REVIEW_COLD_CAPTURE_AND_RESTORE"
+}
