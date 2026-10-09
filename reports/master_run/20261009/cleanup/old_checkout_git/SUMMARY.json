@@ -1,0 +1,72 @@
+{
+  "collapsed_unknown_directories": [
+    "docs/",
+    "reports/stage05/"
+  ],
+  "g_writes": 0,
+  "git_internal_tracked_content_reads": "NOT_INSTRUMENTED_MAY_OCCUR_DURING_STATUS",
+  "groups": {
+    "reports": {
+      "entries": 7,
+      "file_bytes": 447294
+    },
+    "scripts": {
+      "entries": 6,
+      "file_bytes": 76078
+    },
+    "stage02_progress": {
+      "entries": 176,
+      "file_bytes": 17398870
+    },
+    "status": {
+      "entries": 4,
+      "file_bytes": 3363
+    },
+    "untracked_collapsed_directories": {
+      "entries": 2,
+      "file_bytes": 0
+    }
+  },
+  "head": "8ec0cee563848b75022bc464ad586d19b07b1ffe",
+  "index_and_status_stable": true,
+  "indexed_paths": 356,
+  "local_only_commits_against_local_remote_tracking_refs": 0,
+  "metadata_report": "old_checkout_git_preservation_metadata.json",
+  "metadata_report_sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0",
+  "modified_tracked_paths": [
+    "reports/stage00/commands.jsonl",
+    "reports/stage02/retrieval_progress.json",
+    "reports/stage02/retrieval_progress_resume.json",
+    "status/continuation_execution_receipt.json"
+  ],
+  "network_calls": 0,
+  "next_step": "Preserve the old checkout and Git directory until current exact source/history bytes and collapsed-directory contents have separately reviewed public recovery bindings.",
+  "risks": [
+    "Modified tracked bytes and untracked source/history are not preserved by the old committed tree alone.",
+    "docs/ and reports/stage05/ remain collapsed; contents and recovery coverage are unknown in this metadata-only pass.",
+    "Ignored toolchain/live-lock/private/cache paths do not appear in this Git status audit and remain protected under existing authority.",
+    "Local origin/main equals local HEAD but is stale metadata; no current remote-history equality or wipe safety is claimed.",
+    "The supplemental 291-source critical_public_history_pins table has no exact-path matches for these visible changed entries. This is a narrow metadata join, not proof that all Release archives lack their contents."
+  ],
+  "schema": "MASTER_OLD_CHECKOUT_GIT_PRESERVATION_SUMMARY_V1",
+  "source": "audit_old_checkout_git_metadata.py",
+  "source_contents_dumped": 0,
+  "source_deletions": 0,
+  "source_payloads_explicitly_opened_by_python": 0,
+  "source_sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc",
+  "state": "METADATA_COMPLETE_RECOVERY_NOT_PROVEN_NO_WIPE_AUTHORITY",
+  "status_counts": {
+    " M": 4,
+    "??": 191
+  },
+  "untracked_script_paths": [
+    "scripts/PARENT_stage04_inference_validate_v3_before_finite_guard_88a.py",
+    "scripts/publish_stage04_resource_gate_v4.py",
+    "scripts/stage04_controller_synthetic_results.json",
+    "scripts/stage04_orthology_gate_synthetic_results.json",
+    "scripts/test_stage04_phylogeny.py",
+    "scripts/verify_stage04c_windows.py"
+  ],
+  "untracked_visible_files": 189,
+  "wsl_starts": 0
+}

@@ -18,9 +18,6 @@ BUILD_SHA='952ad1da9a4d623045e7f1d871ce70578569d1a276f0f5a9e3abf6eb9175e77b'
 COMPLETION_SHA='0827820b33285a6f40e9ed5fa62970202f175228035189486f2183c21edc675e'
 ASSETS=[dict(name='master_stage5_source_readiness01.zip',bytes=853741,
     sha256='b06723bf684d76084072d710a0573b34137bc097b5a21f1069077ec69dc6a447')]
-# Preserve the uploaded original Windows sidecar; its CRLF is byte-significant.
-SIDECAR=dict(name='master_stage5_source_readiness01.zip.sha256',bytes=104,
-    sha256='19803b9c45497f4d0cb1e6970608ed78d57e520f8ce88cbed9b63599ed07455f')
 CODE={'build_stage5_readiness_archive.py':'8d6561407aeb525ce7ddbe0d9085f5f803a8f288c6cb9e4f89f880bf13c5d97c',
     'stage5_source_readiness.py':'60fb6863ec593f422a42a8a23e0e6303a5f7891700adc5237aa116c8c8763071',
     'stage5_source_readiness_attempt01.py':'126c2012271a86217179384d42d1980afc531b094f9a0fdbf553bf400826a16e',helper.name:HELPER_SHA}
@@ -37,36 +34,6 @@ PIN_CONTROL=PureWindowsPath(r'C:\Users\wheel\Documents\Codex\2026-10-09\new-chat
 def lines(z,name):
     with z.open(name) as stream:
         return [json.loads(line) for line in stream]
-
-def expected_sidecar():
-    raw=(ASSETS[0]['sha256']+'  '+ASSETS[0]['name']+'\r\n').encode('ascii')
-    A.require(len(raw)==SIDECAR['bytes'] and A.sha(raw)==SIDECAR['sha256'], 'Original CRLF sidecar pin differs')
-    return raw
-
-def begin_readiness_release(args,out,result):
-    A.require(A.api('commits/'+args.tag)['sha']==args.expected_tag_commit, 'Release tag target differs')
-    release=A.api('releases/tags/'+args.tag)
-    A.require(release['tag_name']==args.tag and release['draft'] is False, 'Release identity/draft differs')
-    expected=ASSETS+[SIDECAR]; selected={}
-    for row in expected:
-        matches=[a for a in release['assets'] if a['name']==row['name']]
-        A.require(len(matches)==1, 'Missing/duplicate readiness asset: '+row['name'])
-        item=matches[0]
-        A.require(item['state']=='uploaded' and item['size']==row['bytes']
-            and item['digest']=='sha256:'+row['sha256'], 'Exact original readiness asset size/digest differs')
-        selected[row['name']]=item
-    result.update(tag=args.tag,expected_tag_commit=args.expected_tag_commit,source_commit=args.source_commit,
-        release_url=release['html_url'],release_id=release['id'])
-    A.run(['gh','release','download',args.tag,'--repo',A.REPO,'--pattern',ASSETS[0]['name'],
-        '--pattern',SIDECAR['name'],'--dir',str(out)],timeout=300)
-    A.require((out/SIDECAR['name']).read_bytes()==expected_sidecar(), 'Actual original CRLF sidecar differs')
-    result['downloaded_assets']=[dict(name=r['name'],remote_asset_id=selected[r['name']]['id'],
-        bytes=(out/r['name']).stat().st_size,sha256=A.digest(out/r['name']),
-        remote_digest=selected[r['name']]['digest']) for r in expected]
-    A.require(all(observed['bytes']==r['bytes'] and observed['sha256']==r['sha256']
-        for observed,r in zip(result['downloaded_assets'],expected)), 'Actual readiness download differs')
-    result['sidecar_original_line_endings']='CRLF_EXACT_104_BYTES_SHA_PINNED'
-    return release,selected
 
 def verify(args,out,result):
     extras={PREFIX+'completion.json':(WORK/'stage5_source_readiness_completion.json',COMPLETION_SHA)}
@@ -88,7 +55,7 @@ def verify(args,out,result):
         and completion['detector_execution']==completion['curation']==completion['runtime_discovery']=='NOT_RUN'
         and completion['new_upstream_acceptance_created'] is False, 'Actual source-checker completion scope differs')
     release=selected=None
-    if not args.local_inspect:release,selected=begin_readiness_release(args,out,result)
+    if not args.local_inspect:release,selected=A.begin_release(args,ASSETS,out,result)
     path=(WORK/'stage5_source_readiness01' if args.local_inspect else out)/ASSETS[0]['name']
     z,observed=A.verify_zip(path,ASSETS[0],A.member_table(build['members']))
     with z:

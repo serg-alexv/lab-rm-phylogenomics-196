@@ -1,0 +1,76 @@
+{
+  "authoritative_control_readback": [
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 14185,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "reports/master_run/20261009/preparation/source_readiness01/build_receipt.json",
+      "remote_blob": "2a942955a45fe7f91fdd3a8ed33d93217257a71a",
+      "sha256": "952ad1da9a4d623045e7f1d871ce70578569d1a276f0f5a9e3abf6eb9175e77b"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 6164,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "scripts/master_run/build_stage5_readiness_archive.py",
+      "remote_blob": "93141ee03828b7847c2a1628f398b88d43a4097e",
+      "sha256": "8d6561407aeb525ce7ddbe0d9085f5f803a8f288c6cb9e4f89f880bf13c5d97c"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 10079,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "scripts/master_run/stage5_source_readiness.py",
+      "remote_blob": "4124dfd61e4cb1bf6eb7dc0adc7c0196ca8988ef",
+      "sha256": "60fb6863ec593f422a42a8a23e0e6303a5f7891700adc5237aa116c8c8763071"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 9642,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "scripts/master_run/stage5_source_readiness_attempt01.py",
+      "remote_blob": "c4c34232ba47867ed55c1ef807c0364f60da237f",
+      "sha256": "126c2012271a86217179384d42d1980afc531b094f9a0fdbf553bf400826a16e"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 20111,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "remote_blob": "76c00f155003950e50766bc6701c5bd3410ece06",
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 12071,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "scripts/master_run/verify_stage5_source_readiness_remote.py",
+      "remote_blob": "6d6ea9c6e73cb3d1712a0f4c3a2ddf8ef32d2347",
+      "sha256": "332f0435202a81175b5d575405a8b040510c7800317d2941658ce5a9ee138d17"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 4218,
+      "commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+      "path": "reports/master_run/20261009/preparation/source_readiness01/completion.json",
+      "remote_blob": "b8baad86c1c0ca0c4dd536ade181d11305421c85",
+      "sha256": "0827820b33285a6f40e9ed5fa62970202f175228035189486f2183c21edc675e"
+    }
+  ],
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "error": {
+    "kind": "ValueError",
+    "message": "Fresh Release size/digest differs"
+  },
+  "finished_utc": "2026-10-09T20:31:46.383005+00:00",
+  "g_writes": 0,
+  "mode": "FRESH_REMOTE",
+  "payload_execution": 0,
+  "schema": "MASTER_STAGE5_SOURCE_READINESS01_INDEPENDENT_READBACK_V1",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T20:31:36.021824+00:00",
+  "state": "FAILED_READBACK_NO_CLEANUP_AUTHORITY",
+  "verifier_source_sha256": "332f0435202a81175b5d575405a8b040510c7800317d2941658ce5a9ee138d17",
+  "wsl_starts": 0
+}

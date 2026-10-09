@@ -1,0 +1,236 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T20:30:20.950310+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+  "initial_remote_main": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+  "declaration_sha256": "e892a34ba303077d3e6339b23c836cccfda54854f9c869044a380d78623a3605",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 24,
+  "verified_files": 24,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 3644,
+      "sha256": "f2e6c96e06a2d553d26e9bc14cf62526265d699e26cf6b541904b8a749bf33a7",
+      "remote_blob": "ba04b1112f6751e36e2ca2b0c2ae3a03bad67b23",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "docs/master_run/STORAGE_LEDGER.md",
+      "bytes": 3897,
+      "sha256": "9ede0343abba9388d56a997c0185baa423e3e305488a9aa14842ccaecfafe62b",
+      "remote_blob": "d3112774dc0a422267af24382d83ca161f2fcf28",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/REMOTE_READBACK.json",
+      "bytes": 10637,
+      "sha256": "d0a9a8b926ce4495c3127473b1c7ad4954c68d134e4894a9ececa1d22ce32d3b",
+      "remote_blob": "2c03fcce92aea56f14f6765f82706a834cf18d28",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/UPLOAD_PLAN.json",
+      "bytes": 824,
+      "sha256": "8b82ee4ce0fb22a1bef2b3d89501709b3c4f162f9595bd855d33cf72b8549dd9",
+      "remote_blob": "f4e693126a8ee6c00e5c3e27cd51eacd5a03181c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/UPLOAD_RECEIPT.json",
+      "bytes": 1269,
+      "sha256": "eeeccc65d0870aa36d05e6234cc41f44faca6ab9e6b2d81a03be4176d971162e",
+      "remote_blob": "be4db1f2b8bc05d90fcded0922a0a75e68c4fa1c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+      "bytes": 640128,
+      "sha256": "da3ad3d819c11462eac8e9e5f9c18096706148ef9f10441274fff804d6e32a81",
+      "remote_blob": "75650047e1a5a8afe6b3c93b5636f5867d4849b9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/INDEPENDENT_POSTVERIFY.json",
+      "bytes": 6171,
+      "sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082",
+      "remote_blob": "e0d57a865dc79b9b1d76fa20b27c1ce5e2f42388",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/POSTVERIFY_CHECKS.json",
+      "bytes": 2382,
+      "sha256": "0a33f170b89e1c8df0cd3c7ec15adab55a7db6c64d46814e245a8c14fed2aa41",
+      "remote_blob": "a575719cf8d4bcecdd33896a35ba49695470e784",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/PREFLIGHT_COMMAND_CORRECTION.json",
+      "bytes": 840,
+      "sha256": "7dc2cf048114f40b23082dac15fb3379cecdcc6c0f1022f8cfe28605c504bf23",
+      "remote_blob": "bb81b56473f0b24217777d7f867ebb305f5d8231",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/CURRENT196_SOURCE_RECEIPT.json",
+      "bytes": 1619,
+      "sha256": "400b37a260676f373a627bec66d2004c19fd7ec191961b7228f69b3d63984fb1",
+      "remote_blob": "b05f3ad2d021403144908b7ccae1f7198d07ef16",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/LOCAL_READBACK.json",
+      "bytes": 11394,
+      "sha256": "a447668966809fd6b58937b633c3b12e6d5d8139d449d22d480f54d1ccc92031",
+      "remote_blob": "9199b1c37a75db8874307f6cd5a8f718ca5f68b7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+      "bytes": 44189,
+      "sha256": "faa3060d08d7646ab4913108a28ac868699a0bc62fd9f337fc131c98dc9997c8",
+      "remote_blob": "c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/READBACK_PREPARATION.json",
+      "bytes": 1786,
+      "sha256": "66f0c2dda086ad3de6bf1f4718ae3fc875b4361c4aa88376f840c82da1be2d9a",
+      "remote_blob": "b12484c8c2c409b9dd8d25cbe9518610d5594f3b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/build_receipt.json",
+      "bytes": 14185,
+      "sha256": "952ad1da9a4d623045e7f1d871ce70578569d1a276f0f5a9e3abf6eb9175e77b",
+      "remote_blob": "2a942955a45fe7f91fdd3a8ed33d93217257a71a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/completion.json",
+      "bytes": 4218,
+      "sha256": "0827820b33285a6f40e9ed5fa62970202f175228035189486f2183c21edc675e",
+      "remote_blob": "b8baad86c1c0ca0c4dd536ade181d11305421c85",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/COMPLETED_CLEANUP_GIT_OBJECTS.json",
+      "bytes": 10079,
+      "sha256": "9a170022d14ade8a0fda09ba0fb0c1d690f4ab510a37f0308acec32509b2f42f",
+      "remote_blob": "f349990709ef5e811f3de5f6a2de26c164369639",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+      "bytes": 18329,
+      "sha256": "7a454d6d451d077b226800fd7afc6831f981af709291485d4a69d4fb36e4d84c",
+      "remote_blob": "22a8cf92cf5366b976b628dbce670f12ce27b87d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/snapshots/source_ready_progress01/native_progress.json",
+      "bytes": 739,
+      "sha256": "561ce8503b558e24bbf0ee8b42ec48cfea05f35abfe63148eecfb5628422b292",
+      "remote_blob": "8921bb658c7703e706e6fabcd2dc79819b37f951",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/build_stage5_readiness_archive.py",
+      "bytes": 6164,
+      "sha256": "8d6561407aeb525ce7ddbe0d9085f5f803a8f288c6cb9e4f89f880bf13c5d97c",
+      "remote_blob": "93141ee03828b7847c2a1628f398b88d43a4097e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_source_ready_progress.py",
+      "bytes": 12905,
+      "sha256": "f74604c44d0ecf3d70003e52b36d4b02268f060d31af3f2661a9e9f45ab30f69",
+      "remote_blob": "a39080d7062cb3d4e8c89cf49824e5f67c30bdea",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_master_history02_postverify.py",
+      "bytes": 3168,
+      "sha256": "8cd32e82df930cfef6a0c7a77a18f9e9c5e116dbe85dbead36f4e186032106d8",
+      "remote_blob": "ec6d5e2116a7a78e1d7216006840f18cad7c144d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/verify_master_history02_leaf_purge.py",
+      "bytes": 12343,
+      "sha256": "6f9602112962b97655f89668c385eb35bc49e478c44c41fdf155e81dd7a7670a",
+      "remote_blob": "f2a8010a34e7d5a014316ef9f6d416b60178f892",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/verify_stage5_source_readiness_remote.py",
+      "bytes": 12071,
+      "sha256": "332f0435202a81175b5d575405a8b040510c7800317d2941658ce5a9ee138d17",
+      "remote_blob": "6d6ea9c6e73cb3d1712a0f4c3a2ddf8ef32d2347",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 5192,
+      "sha256": "fe830e8b94d84f25a590f65627a43a09371faaaa42c7c0eb7221a37321e89243",
+      "remote_blob": "3e088cad661dd5cbaefc9f063fa6847d096a5512",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "62a29dc419ac85d2c45539789e8af3a455d39b15",
+  "finished_utc": "2026-10-09T20:30:28.431215+00:00",
+  "elapsed_seconds": 7.479296700003033,
+  "verified_bytes": 828173
+}
