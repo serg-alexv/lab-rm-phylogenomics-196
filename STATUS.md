@@ -26,3 +26,6 @@ Additional actual boundary condition 2026-10-09T01:33:38.489470+00:00: strict pr
 
 
 Completed lifetime update 2026-10-09T01:44:08.563739+00:00: unchanged _v10_2 checker PASSED actual original-CLI natural exit survival and ordinary empty native job/controller exit0/taskresults0; certificateSHA256ce77c4ce4882aa5c1d16bb69967d891c20b9625ba80c97924a7ecf14d1d55470. Fixture/observer are COMPLETED, no biological jobs. Tested33source bytes/preparation0002 remain unchanged. Two production-only admission repairs and a final hash-bound parent acceptance remain pending; Stage04 science FAILED/INCOMPLETE and05–07 NOT_RUN.
+
+
+Final admission1 proposal 2026-10-09T01:56:54.674883+00:00: SHA256d1bf90ca8aed09d4cc1f9bebb47395833e951a9dca17cefef74cb92fde3a3cde, 267 exact reviewed-artifact hashes; two unique manual production/observer tasks registered NEVER_STARTED. Completed tested V10 lifetime/source bytes preserved;23new admission guards and actual bounded service-role query passed. Parent hash-bound final acceptance remains REQUIRED/ABSENT; no new scientific job or production inference output exists. Stage04 science FAILED/INCOMPLETE;05–07 NOT_RUN. See reports/stage04/recovery_v10/OWNER_PRODUCTION_ADMISSION_V1_REVIEW_REQUEST.md.

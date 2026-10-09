@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-09T01:51:01.634741+00:00",
+  "status": "ACTUAL_FRESH_BRACKETED_SERVICE_ROLE_QUERY_COMPLETED_NO_SCIENCE",
+  "inventory": {
+    "utc": "2026-10-09T01:51:01.634725+00:00",
+    "matching_scientific_candidates": [],
+    "positive_platform_service_roles": [
+      {
+        "role": "POSITIVELY_IDENTIFIED_WSL_PLATFORM_SERVICE_NOT_USER_SCIENTIFIC_RUNNER",
+        "before_cim_process": {
+          "ProcessId": 5684,
+          "Name": "wslservice.exe",
+          "CommandLine": null,
+          "ExecutablePath": null,
+          "creation_filetime_microsecond_precision": 134359516024735110
+        },
+        "scm_association": {
+          "Name": "WSLService",
+          "State": "Running",
+          "StartName": "LocalSystem",
+          "PathName": "\"C:\\Program Files\\WSL\\wslservice.exe\"",
+          "ProcessId": 5684
+        },
+        "after_cim_process": {
+          "ProcessId": 5684,
+          "Name": "wslservice.exe",
+          "CommandLine": null,
+          "ExecutablePath": null,
+          "creation_filetime_microsecond_precision": 134359516024735110
+        },
+        "identity_precision": "CIM_MICROSECONDS_NOT_NATIVE_100NS",
+        "configured_binary_is_observed_image": false,
+        "native_query": {
+          "status": "ACCESS_ERROR_NOT_ABSENCE",
+          "winerror": 5,
+          "observed_native_image": "UNKNOWN",
+          "actual_100ns_creation_filetime": "UNKNOWN"
+        }
+      }
+    ],
+    "other_null_commandlines": "FAIL_CLOSED",
+    "queries": "FRESH_CIM_BEFORE_SCM_ASSOCIATION_CIM_AFTER",
+    "scientific_jobs_started": 0
+  },
+  "policy_source_sha256": "0dd40d665be33c324b76d328cde8d319f816a5577c83ac25b174a56c4580e022",
+  "script_sha256": "e9bfa13e09d120dd5e241e4965db173b8de0063b482b7bafc2911c1533889c4e",
+  "biological_jobs": 0,
+  "lifetime_fixture_repeated": false,
+  "old_suites_repeated": 0,
+  "actual_control_exit_sha256": "62e1e6e95bc622c06947ca61deb7651c6e4312b754d9e04ff778fea5750beb48",
+  "actual_control_job_usage": {
+    "wall_seconds": 2.489038799998525,
+    "cpu_seconds": 0.1875,
+    "job_cpu_seconds": 0.734375,
+    "peak_working_set_bytes": 26521600,
+    "peak_process_committed_bytes": 89112576,
+    "peak_job_committed_bytes": 107966464
+  }
+}
