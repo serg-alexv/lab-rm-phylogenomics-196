@@ -120,4 +120,4 @@ def main():
         print(json.dumps({'status':'REVIEW_PACKET_WRITTEN_NOT_ADOPTED','proposal_sha256':C.digest(freeze),'review_artifacts':len(expectation),
           'owner_request':str(S.ROOT/'.work/host_review/OWNER_RECOVERY_V10_REVIEW_REQUEST.md')}))
 
-if __name__=='__main__':main()
+if __name__=='__main__':raise ValueError('Preserved initial V10 BUILD candidate superseded by prepare_stage04_recovery_review_v10_2.py; no freeze before completed original-CLI-exit proof')

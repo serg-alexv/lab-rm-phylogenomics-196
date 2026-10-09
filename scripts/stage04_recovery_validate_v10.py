@@ -10,7 +10,7 @@ import stage04_controller as C
 import stage04_recovery_support_v10 as S
 import stage04_windows_validate_v6 as V
 import supplemental_native_v6_final_check as EXTRA
-from stage04_model_cache_evidence_v10 import check_cache_log
+from stage04_model_cache_evidence_v10 import check_cache_log,check_cache_records
 
 def source_gate():
     S.pins();C.reconcile(S.ROOT)
@@ -39,14 +39,18 @@ def source_gate():
         C.check(row['state'] in ('ABSENT_WIN32_ERROR_INVALID_PARAMETER','EXITED','PID_REUSED_DIFFERENT_CREATION',
           'PID_REUSED_CREATED_AFTER_CERTIFIED_ABSENCE_BOUNDARY'),'Original recorded process remains live/unresolved')
         reconciled.append({**row,'role':prior['role']})
-    ps="$ErrorActionPreference='Stop'; @(Get-CimInstance Win32_Process | Where-Object { $_.Name -match 'iqtree' -or ($_.CommandLine -like '*lab-rm-phylogenomics-196*' -and $_.CommandLine -match 'stage04_native|recovery_controller|stage05_detectors|continue_stage04|hmmscan|hmmsearch') } | Select-Object ProcessId,Name,CommandLine) | ConvertTo-Json -Depth 4 -Compress"
+    ps="$ErrorActionPreference='Stop'; @(Get-CimInstance Win32_Process | Where-Object { $_.Name -match 'iqtree|python|wsl|bash|Rscript|hmmscan|hmmsearch' } | Select-Object ProcessId,Name,CommandLine) | ConvertTo-Json -Depth 4 -Compress"
     candidates=json.loads(S.command(['powershell.exe','-NoProfile','-NonInteractive','-Command',ps],timeout=30).decode('utf-8-sig') or '[]')
     if isinstance(candidates,dict):candidates=[candidates]
     C.check(all(r['CommandLine'] is not None for r in candidates),'Unresolved potential project runner command line; no harmless nonmatch inferred')
+    candidates=[r for r in candidates if 'iqtree' in r['Name'].lower() or ('lab-rm-phylogenomics-196' in r['CommandLine'].lower() and
+      any(t in r['CommandLine'].lower() for t in ['stage04_native','recovery_controller','stage05_detectors','continue_stage04','hmmscan','hmmsearch']))]
     C.check(all(r['ProcessId']==owner['pid'] and 'stage04_recovery_controller_v10.py' in r['CommandLine'] for r in candidates),
       'Other matching live scientific runner found; no duplicate launch')
     C.atomic(runtime/'independent_current_boundary.json',{'utc':C.now(),'status':'PASS_EXCLUSIVE_BOUND_OWNER_OLD_INSTANCES_RECONCILED_NO_OTHER_RUNNER',
-      'controller':owner,'recorded_processes':reconciled,'old_ordinary_controller_outcome':'UNKNOWN','old_final_job_closure':'UNKNOWN',
+      'controller':owner,'actual_retained_workflow_lock_identity':owner_lock,
+      'negative_history_certificate_sha256':C.digest(S.NEGATIVE),'live_runner_inventory':candidates,
+      'recorded_processes':reconciled,'old_ordinary_controller_outcome':'UNKNOWN','old_final_job_closure':'UNKNOWN',
       'unknown_token_rule':'Only actual new creation after certified PID absence may demonstrate reuse; old creation token is never invented',
       'native_jobs_launched_by_checker':0})
     proposal=C.load(S.ROOT/'config/host_inference_stage04_recovery_v10_freeze.json')
@@ -65,8 +69,9 @@ def source_gate():
 def audit(name):
     S.pins();C.check(name in S.NAMES,'Unknown analysis')
     freeze=C.load(S.OUT/'inference_freeze.json');runtime=Path(freeze['stable_runtime'])
-    original=C.load(S.OLD/'inference_freeze.json')
-    C.check(all(freeze.get(k)==v for k,v in original.items()),'Inherited original scientific freeze fields changed')
+    original=S.original_freeze_fields(freeze)
+    import stage04_recovery_controller_v10 as P
+    P.acceptance()  # Independent current source/proposal hashes before output audit.
     C.check(runtime.is_relative_to(S.RUNTIME) and freeze['old_freeze_sha256']==S.FREEZE_SHA and
       freeze['recovery_protocol']=='V10_NEGATIVE_HISTORY_PLUS_NEW_REAL_ORDINARY_CLOSURE','Wrong new recovery identity')
     negative=C.load(S.NEGATIVE)
@@ -75,6 +80,10 @@ def audit(name):
       'Historical failure must remain negative/unknown')
     C.check(C.digest(S.NEGATIVE)==freeze['negative_history_certificate_sha256'],'Negative history changed')
     iso=C.load(runtime/'isolation.json');binding=C.load(runtime/'controller_binding.json')
+    current=C.load(runtime/'independent_current_boundary.json')
+    C.check(C.digest(runtime/'independent_current_boundary.json')==freeze['fresh_exclusive_boundary_sha256'] and
+      current['controller']==binding['controller'] and current['actual_retained_workflow_lock_identity']==binding['lock_identity']==negative['exclusive_writer_boundary'] and
+      current['negative_history_certificate_sha256']==freeze['negative_history_certificate_sha256'],'Fresh boundary/negative/held-lock binding differs')
     C.check(iso['codex_cli_ancestor'] is False and
       C.digest(runtime/'isolation.json')==freeze['scheduler_isolation_sha256'],'Scheduler isolation not established')
     parent=C.load(S.ROOT/'.work/host_review/PARENT_RECOVERY_V10_REVIEW.json');proposal=C.load(S.ROOT/'config/host_inference_stage04_recovery_v10_freeze.json')
@@ -114,8 +123,12 @@ def audit(name):
         log=(S.OUT/'analyses'/name/'iqtree/host.log').read_text()
         # Require actual IQ-TREE's own model-checkpoint reuse message, not copied-cache existence alone.
         observed=check_cache_log(log,S.OUT/'analyses'/name/'iqtree/host')
+        with (V.ALIGN/'analyses'/name/'partitions.tsv').open(encoding='utf-8',newline='') as stream:
+            partition_ids=[r['partition'] for r in csv.DictReader(stream,delimiter='\t')]
+        records=check_cache_records(S.OLD/'analyses/primary196/iqtree/host.model.gz',directory/'host.model.gz',partition_ids,S.CACHE_SHA)
         cache={'import_sha256':C.digest(runtime/'analyses'/name/'cache_import.json'),'actual_log_sha256':C.digest(S.OUT/'analyses'/name/'iqtree/host.log'),
-          'actual_tool_messages':observed,'state':'ACTUAL_NEW_PREFIX_MODEL_CACHE_LOAD_AND_FAST_ML_TREE_RESTORATION_OBSERVED'}
+          'actual_tool_messages':observed,'completed_candidate_records':records,
+          'state':'ACTUAL_NEW_PREFIX_MODEL_CACHE_LOAD_FAST_TREE_RESTORATION_AND14_INHERITED_86_NEW_DECISIONS_VERIFIED'}
     value={'utc':C.now(),'status':'PASS_V10_REAL_ORDINARY_LIFECYCLE_AND_UNCHANGED_SCIENTIFIC_OUTPUT_CHECKS',
       'checker_sha256':C.digest(__file__),'pinned_v6_scientific_checker_sha256':S.FROZEN['scripts/stage04_windows_validate_v6.py'],
       'negative_history_only':True,'cache_evidence':cache,'result':result,'portable_and_label_checks':portable,

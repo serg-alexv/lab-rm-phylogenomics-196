@@ -5,7 +5,7 @@ if($r.protocol -ne 'V10_MANUAL_UNIQUE_ONESHOT_DIRECT_CONTROLLER' -or $r.mode -ne
 if(Test-Path -LiteralPath $r.start_path){throw 'Production manual start already requested; no duplicate retry'}
 $python='C:\Users\wheel\AppData\Local\Python\pythoncore-3.14-64\python.exe'
 $gate='G:\My Drive\LAB_RM\lab-rm-phylogenomics-196\scripts\check_stage04_recovery_acceptance_v10.py'
-& $python $gate
+& $python $gate --request $Request --observer-request $ObserverRequest
 if($LASTEXITCODE -ne 0){throw 'Exact independent parent acceptance is not valid; no production start'}
 $service=New-Object -ComObject 'Schedule.Service'
 $service.Connect()

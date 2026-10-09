@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-09T01:27:14.268708+00:00",
+  "status": "PASS_NARROW_DRIFT_AND_CACHE_FIXTURES",
+  "tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "source_sha256": "cfb8ca3083cb7245ff7bae843915f109320552636d57cb118496a1ef34cdab53",
+  "checked_source_sha256": {
+    "stage04_recovery_support_v10.py": "7969c488dd07a596de643b56bdce3f4ddefa7ed119c1e1738fdc5c6ce7b56f50",
+    "stage04_recovery_controller_v10.py": "2af9dd6008ebf5be921473a71173f63926faabf02b6ce8cf496782d09fc59469",
+    "stage04_model_cache_evidence_v10.py": "3358c2e196897222b2fab8d952fa7ee19e5ee59af3cc5aa4849afc4a0eaa0df4",
+    "stage04_recovery_validate_v10.py": "e2ca2dc6f0a822f37a7f8a99177d18b77c3b1b38d0cae1031063132a0026cf59",
+    "final_check_stage04_recovery_v10.py": "a02e0cd2fae88f932deac88c6770452e78ab5609d01f6e4c706631b463747f97"
+  },
+  "retained_cache_readonly_sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+  "scientific_jobs": 0,
+  "limitations": "Final100-record fixture is SYNTHETIC, not a production checkpoint or scientific validation. Actual final cache reuse remains NOT_RUN."
+}

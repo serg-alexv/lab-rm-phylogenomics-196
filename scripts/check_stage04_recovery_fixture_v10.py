@@ -60,4 +60,4 @@ def main():
         print(json.dumps({'status':value['status'],'fixture_sha256':C.digest(S.REPORT/'scheduler_fixture.json'),'controller_actual_exit':ended['actual_exit_code']}))
     finally:J.close(h)
 
-if __name__=='__main__':main()
+if __name__=='__main__':raise ValueError('Preserved initial V10 BUILD candidate superseded by check_stage04_recovery_fixture_v10_2.py; original-CLI-exit proof required')

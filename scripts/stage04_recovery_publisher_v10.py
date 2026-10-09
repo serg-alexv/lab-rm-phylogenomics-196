@@ -32,16 +32,26 @@ def main():
         C.atomic(S.REPORT/'progress.json',{'utc':C.now(),'status':execution,'observation_as_of_utc':row['measurement']['utc'],
           'observation_sha256':a.observation_sha256,'controller':owner,'scope':a.scope,'measurement':row['measurement'],'release':'PENDING','stages05_07':'NOT_RUN'})
         C.atomic(S.ROOT/'status/stage04_execution.json',{'utc':C.now(),'execution':execution,'observation_sha256':a.observation_sha256,
+          'observation_as_of_utc':row['measurement']['utc'],'native_pid':row['measurement']['child_pid'],
+          'native_creation_filetime':row['measurement']['creation_filetime'],
           'scope':a.scope,'controller':owner,'negative_history_preserved':True,'scientific_validation':'INCOMPLETE','stages05_07':'NOT_RUN'})
-        rows=(S.ROOT/'status/stages.tsv').read_text().splitlines()
-        rows=[(r.split('\t')[0]+'\t'+execution+'\tPASS_ALIGNMENTS_PHYLOGENY_INCOMPLETE\tSTAGE04A_AND_STAGE04B_UPLOAD_VERIFIED_FULL_STAGE04_PENDING'
-          if r.startswith('4_phylogeny\t') else r) for r in rows]
+        import csv,io
+        source=list(csv.DictReader(io.StringIO((S.ROOT/'status/stages.tsv').read_text()),delimiter='\t'))
+        fields=list(source[0])+[k for k in ('observation_as_of_utc','native_pid','native_creation_filetime') if k not in source[0]]
+        for record in source:
+            if record['stage']=='4_phylogeny':record.update(execution=execution,validation='PASS_ALIGNMENTS_PHYLOGENY_INCOMPLETE',
+              publication='STAGE04A_STAGE04B_STAGE04C_FAILURE_UPLOAD_VERIFIED_FULL_STAGE04_PENDING',
+              observation_as_of_utc=row['measurement']['utc'],native_pid=str(row['measurement']['child_pid']),
+              native_creation_filetime=str(row['measurement']['creation_filetime']))
+        buffer=io.StringIO();writer=csv.DictWriter(buffer,fieldnames=fields,delimiter='\t',lineterminator='\n');writer.writeheader();writer.writerows(source)
+        rows=buffer.getvalue().splitlines()
         (S.ROOT/'status/stages.tsv').write_text('\n'.join(rows)+'\n',encoding='utf-8',newline='\n')
         table='\n'.join('| '+' | '.join(r.split('\t'))+' |' for r in rows[1:])
         (S.ROOT/'STATUS.md').write_text('# Current execution status\n\nUpdated '+C.now()+'. Full approved196; no pilot.\n\n'+execution+
-          ': '+a.scope+'. Actual Scheduler-bound controller and native JobObject measurements are in reports/stage04/recovery_v10/progress.json. '
+          ': '+a.scope+'. Observation as of '+row['measurement']['utc']+'; native PID'+str(row['measurement']['child_pid'])+
+          ', creation FILETIME'+str(row['measurement']['creation_filetime'])+'. Actual Scheduler-bound controller and native JobObject measurements are in reports/stage04/recovery_v10/progress.json. '
           'V6 exit1 and UNKNOWN old controller/job closure remain preserved. Scientific acceptance and verified full Stage04 Release remain pending.\n\n'
-          '| Stage | Execution | Validation | Publication |\n|---|---|---|---|\n'+table+'\n',encoding='utf-8',newline='\n')
+          '| '+' | '.join(fields)+' |\n|'+'|'.join('---' for _ in fields)+'|\n'+table+'\n',encoding='utf-8',newline='\n')
         paths=['reports/stage04/recovery_v10/progress.json','status/stage04_execution.json','STATUS.md','status/stages.tsv']
         receipt=S.publish(paths,'Record actual isolated V10 native process measurements; scientific validation pending')
         C.atomic(runtime/'publication_acknowledgements'/(a.observation_sha256+'.json'),{**receipt,'observation_sha256':a.observation_sha256,

@@ -211,6 +211,72 @@ def live_scheduler_binding(config_path,runtime):
     return {'utc':C.now(),'actual_process_argv':actual_argv,'actual_task_definition_sha256':request['definition_sha256'],
       'actual_sid':sid,'live_instance':matches[0],'query_real_exit_sha256':C.digest(directory/'exit.json'),'config_sha256':C.digest(config_path)}
 
+def original_freeze_fields(freeze):
+    C.check(C.digest(OLD/'inference_freeze.json')==FREEZE_SHA,'Retained original freeze bytes changed')
+    original=C.load(OLD/'inference_freeze.json')
+    C.check(all(freeze.get(k)==v for k,v in original.items()),'Inherited original scientific freeze fields changed')
+    return original
+
+def source_snapshot_binding(runtime):
+    """A pre-start fixture snapshot is evidence, never production adoption."""
+    request=C.load(Path(runtime)/'task_request.json');items=request.get('candidate_source_sha256')
+    C.check(isinstance(items,dict) and items,'Pre-start candidate source snapshot absent')
+    required=['stage04_recovery_controller_v10.py','stage04_windows_job_v10.py','stage04_recovery_support_v10.py',
+      'stage04_recovery_outbox_v10.py','stage04_recovery_publisher_v10.py','stage04_recovery_fixture_v10.py',
+      'observe_stage04_recovery_controller_v10.py']
+    C.check(all('data:scripts/'+name in items for name in required),'Incomplete pre-start executable source snapshot')
+    for key,sha in items.items():
+        role,rel=key.split(':',1);C.check(role=='data' and rel and not Path(rel).is_absolute() and '..' not in Path(rel).parts,'Invalid fixture snapshot role/path')
+        path=ROOT/rel;C.check(path.resolve().is_relative_to(ROOT.resolve()) and C.digest(path)==sha,'Pre-start source changed: '+key)
+    return {'actual_request_sha256':C.digest(Path(runtime)/'task_request.json'),'actual_source_sha256':items,'production_adoption':False}
+
+def live_observer_binding(runtime):
+    """Bind the actual independent observer action through live Scheduler COM."""
+    import stage04_windows_job_v10 as J10
+    request=C.load(Path(runtime)/'task_request.json');started=C.load(Path(runtime)/'task_start.json')
+    C.check(request['mode']=='observer' and request['runtime']==str(runtime),'Wrong actual observer runtime/request')
+    shell=c.WinDLL('shell32',use_last_error=True)
+    parse=J.bind(shell,'CommandLineToArgvW',c.POINTER(t.LPWSTR),[t.LPCWSTR,c.POINTER(c.c_int)])
+    getcmd=J.bind(K,'GetCommandLineW',t.LPWSTR,[]);free=J.bind(K,'LocalFree',t.HANDLE,[t.HANDLE])
+    argc=c.c_int();args=parse(getcmd(),c.byref(argc));J.ok(args,'Actual observer argv parse')
+    try:argv=[args[i] for i in range(argc.value)]
+    finally:free(c.cast(args,t.HANDLE))
+    C.check(argv==[request['executable'],*request['argv']] and C.digest(request['executable'])==request['executable_sha256'],'Actual observer interpreter/argv differs')
+    script="$ErrorActionPreference='Stop'; $s=New-Object -ComObject Schedule.Service; $s.Connect(); $t=$s.GetFolder('\\').GetTask('"+request['task_name']+"'); $runs=@($s.GetRunningTasks(1) | Where-Object {$_.Name -eq '"+request['task_name']+"'} | ForEach-Object {[pscustomobject]@{engine_pid=$_.EnginePID;instance_guid=$_.InstanceGuid;state=$_.State}}); [pscustomobject]@{xml=$t.Xml;runs=$runs} | ConvertTo-Json -Depth 6 -Compress"
+    directory=Path(runtime)/'live_observer_scheduler_query'
+    result=J10.run_job([r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe','-NoProfile','-NonInteractive','-Command',script],ROOT,
+      directory,cap_bytes=256*1024**2,deadline_seconds=20,role='BOUNDED_LIVE_OBSERVER_SCHEDULER_QUERY')
+    C.check(result['exit_code']==0,'Actual observer Scheduler query failed')
+    actual=json.loads((directory/'stdout.txt').read_text(encoding='utf-8-sig'))
+    C.check(hashlib.sha256(b'\xff\xfe'+actual['xml'].encode('utf-16le')).hexdigest()==request['definition_sha256'],'Actual observer full definition differs')
+    matches=[r for r in actual['runs'] if r['engine_pid']==os.getpid() and r['instance_guid']==started['instance_guid']]
+    C.check(len(matches)==1 and started['engine_pid']==os.getpid(),'Actual observer running instance differs')
+    return {'actual_process_argv':argv,'actual_task_definition_sha256':request['definition_sha256'],'actual_live_instance':matches[0],
+      'actual_request_sha256':C.digest(Path(runtime)/'task_request.json'),'query_real_exit_sha256':C.digest(directory/'exit.json')}
+
+def closed_scheduler_tasks(runtime,requests):
+    """Fresh actual full definitions and terminal results; never infer exit from absence."""
+    import stage04_windows_job_v10 as J10
+    import uuid
+    names=[r['task_name'] for r in requests]
+    C.check(all(n.startswith('LAB_RM_Stage04_V10_') and n.replace('_','').isalnum() for n in names),'Invalid bounded task names')
+    script="$ErrorActionPreference='Stop'; $s=New-Object -ComObject Schedule.Service; $s.Connect(); @("
+    script+=';'.join("$t=$s.GetFolder('\\').GetTask('"+n+"'); [pscustomobject]@{name=$t.Name;xml=$t.Xml;state=$t.State;last_task_result=$t.LastTaskResult}" for n in names)
+    script+=") | ConvertTo-Json -Depth 4 -Compress"
+    directory=Path(runtime)/'final_task_queries'/uuid.uuid4().hex
+    receipt=J10.run_job([r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe','-NoProfile','-NonInteractive','-Command',script],ROOT,
+      directory,cap_bytes=256*1024**2,deadline_seconds=20,role='BOUNDED_FINAL_SCHEDULER_RESULT_QUERY')
+    C.check(receipt['exit_code']==0,'Fresh final Scheduler task query failed')
+    actual=json.loads((directory/'stdout.txt').read_text(encoding='utf-8-sig'))
+    C.check(isinstance(actual,list) and len(actual)==len(requests),'Incomplete final task query')
+    for item,request in zip(actual,requests):
+        C.check(item['name']==request['task_name'] and item['state']==3 and item['last_task_result']==0 and
+          hashlib.sha256(b'\xff\xfe'+item['xml'].encode('utf-16le')).hexdigest()==request['definition_sha256'],
+          'Actual final task result/definition not exact successful closure')
+    return {'utc':C.now(),'query_real_exit_sha256':C.digest(directory/'exit.json'),
+      'actual_tasks':[{'task_name':r['task_name'],'definition_sha256':r['definition_sha256'],'state':a['state'],
+        'actual_task_result':a['last_task_result']} for a,r in zip(actual,requests)]}
+
 def scope_binding(name):
     C.check(name in NAMES,'Unknown production scope')
     old=C.load(OLD/'inference_freeze.json');prefix='data:.work/stage04_phylogeny_v2/analyses/'+name+'/'

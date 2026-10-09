@@ -18,17 +18,22 @@ def main():
     actor=None
     if a.observer_runtime:
         observer_runtime=Path(a.observer_runtime);C.check(observer_runtime.is_relative_to(S.RUNTIME/'observers'),'Wrong durable observer role')
+        live_scheduler=S.live_observer_binding(observer_runtime)
+        C.atomic(observer_runtime/'actual_live_scheduler_binding.json',live_scheduler)
         start=C.load(observer_runtime/'task_start.json');actor=S.process_identity(os.getpid())
         C.check(start['engine_pid']==actor['pid'] and actor['executable'].lower()==str(S.PYTHONW).lower(),
           'Actual direct Scheduler observer identity differs')
         actor={'actual_process':actor,'scheduler_instance_guid':start['instance_guid'],'definition_sha256':start['definition_sha256'],
-          'runtime':str(observer_runtime),'lifetime':'MANUAL_ZERO_TRIGGER_TASK_DIRECT_LONG_LIVED_READ_ONLY_OBSERVER'}
+          'runtime':str(observer_runtime),'actual_live_scheduler_binding':live_scheduler,
+          'lifetime':'MANUAL_ZERO_TRIGGER_TASK_DIRECT_LONG_LIVED_READ_ONLY_OBSERVER'}
     binding=C.load(runtime/'controller_binding.json');expected=binding['controller'];h=S.process_handle(expected['pid'])
     C.check(h is not None,'Actual controller already absent; independent exit observation cannot be invented')
     try:
         first=S.handle_identity(h,expected['pid'])
         C.check(first['creation_filetime']==expected['creation_filetime'] and first['state']=='RUNNING','Controller identity reused/not live')
         C.atomic(runtime/'independent_controller_observer_binding.json',{'utc':C.now(),'actual_controller':first,
+          'controller_binding_sha256':C.digest(runtime/'controller_binding.json'),
+          'controller_config_sha256':binding['config_sha256'],'controller_definition_sha256':binding['scheduler_definition_sha256'],
           'read_handle_access':1052672,'termination_rights':False,'source_sha256':C.digest(__file__),'actual_scheduler_observer':actor})
         while S.J.wait(h,1000)==258:pass
         actual=S.handle_identity(h,expected['pid'],first['executable'])

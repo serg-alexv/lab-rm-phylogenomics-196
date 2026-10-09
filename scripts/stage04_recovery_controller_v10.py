@@ -90,6 +90,9 @@ def production(config,runtime,lock,isolation,topology):
     freeze={**C.load(S.OLD/'inference_freeze.json'),'recovery_protocol':'V10_NEGATIVE_HISTORY_PLUS_NEW_REAL_ORDINARY_CLOSURE',
       'old_freeze_sha256':S.FREEZE_SHA,'recovery_proposal_sha256':C.digest(PROPOSAL),'parent_acceptance_sha256':C.digest(ACCEPTANCE),
       'negative_history_certificate_sha256':C.digest(S.NEGATIVE),
+      'fresh_exclusive_boundary_sha256':C.digest(runtime/'independent_current_boundary.json'),
+      'controller_binding_sha256':C.digest(runtime/'controller_binding.json'),
+      'actual_live_scheduler_binding_sha256':C.digest(runtime/'actual_live_scheduler_binding.json'),
       'scheduler_isolation_sha256':C.digest(runtime/'isolation.json'),'stable_runtime':str(runtime)}
     C.atomic(S.OUT/'inference_freeze.json',freeze)
     for name in S.NAMES:
@@ -103,6 +106,7 @@ def production(config,runtime,lock,isolation,topology):
               'original_general_checkpoint':'ABSENT','redo':False,'reuse_observed':'PENDING_ACTUAL_NATIVE_OUTPUT','new_prefix':str(d/'host')})
         admission(scope)
         before=S.scope_binding(name);C.atomic(scope/'input_tool_binding_before.json',before)
+        S.original_freeze_fields(freeze)
         source=S.ROOT/'.work/stage04_phylogeny_v2/analyses'/name
         argv=[freeze['executable'],'-s',str(source/'concatenated.faa'),'--seqtype','AA','-p',str(source/'partitions.nex'),
           '-m','MFP','-B','1000','--alrt','1000','--seed','1961008','-T','2','-keep-ident','--boot-trees','--prefix',str(d/'host')]
@@ -112,6 +116,7 @@ def production(config,runtime,lock,isolation,topology):
             receipt=J.run_job(argv,S.ROOT,scope/'attempt_0001',offer=outbox.offer)
         Q.terminal_publication(runtime,name,receipt,fixture=False)
         verify_artifacts(proposal['required_review_artifacts']);after=S.scope_binding(name)
+        S.original_freeze_fields(C.load(S.OUT/'inference_freeze.json'))
         C.check(before==after,'Scope input/tool drift during native execution');C.atomic(scope/'input_tool_binding_after.json',after)
         C.check(receipt['exit_code']==0,'Actual native exit'+str(receipt['exit_code'])+'; preserve outputs, no scientific PASS')
         # Copy C ordinary receipts byte-for-byte only after actual exit/empty job. G errors now cannot close native science.
@@ -137,6 +142,8 @@ def main():
     try:
         with C.WorkflowLock(S.LOCK) as lock:
             S.pins();S.held_lock_matches_negative(lock)
+            if mode=='fixture':
+                C.atomic(runtime/'actual_candidate_source_binding.json',S.source_snapshot_binding(runtime))
             scheduler=S.live_scheduler_binding(a.config,runtime)
             C.atomic(runtime/'actual_live_scheduler_binding.json',scheduler)
             iso=S.isolation(runtime);cpu=S.topology()
