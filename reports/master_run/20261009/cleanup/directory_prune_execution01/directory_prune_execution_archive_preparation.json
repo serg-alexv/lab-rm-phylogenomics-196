@@ -1,0 +1,40 @@
+{
+  "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION_ARCHIVE_PREPARATION_V1",
+  "state": "PREPARED_PENDING_EXACT_SOURCE_PEER_REVIEW_NO_BUILD",
+  "builder": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_directory_prune_execution_archive.py",
+    "sha256": "37108a35b4c0ed7df91de478e36365aff76440d3ffddfd345648217fc09c661a"
+  },
+  "tests": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_build_directory_prune_execution_archive.py",
+    "sha256": "de061b5201f061abd8b55a689199eb365dd54a7cee723867c043b64d40402973",
+    "actual_pure_tests": 7,
+    "actual_exit_code": 0,
+    "native_api_or_actual_archive_execution": false
+  },
+  "methods": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution_archive_METHODS.md",
+    "sha256": "633afb31bd6a36c8aaddab32d98cd0a068a4648a940305bac2c5027bd3f7a56c"
+  },
+  "preserved_historical_drafts": {
+    "build_directory_prune_execution_archive_draft150e.py": "150e6c4f46f2f13325cb28f163bfbfa82291c4fb65cd0e12eabf9495bc74f421",
+    "test_build_directory_prune_execution_archive_draft2fe5.py": "2fe5ec14bc870a1b8b163a94a387802fc2536d68e157976f32ae441d4b65a124",
+    "directory_prune_execution_archive_METHODS_draft_e5e6.md": "e5e6f927997a16d58ae100ad97b7e7623f76925a8939e25d59bf8b2d65e5555a"
+  },
+  "minimum_physical_and_commit_headroom_bytes": 1610612736,
+  "resource_gate_frequency": "INITIAL_AND_EVERY_STREAM_CHUNK",
+  "stream_chunk_bytes": 262144,
+  "parallel_readers": 1,
+  "deadline_seconds": 900,
+  "expected_original_count": 50,
+  "expected_member_count": 54,
+  "actual_postverify_receipt": "directory_prune_postverify_20261009T213844Z_e301284e/receipt.json",
+  "actual_postverify_sha256": "7820c5048722f517c291f7eab74ea7199197c1ed354b90f3bdfe4df5a35889dd",
+  "actual_postverify_exit_code_reported_by_root": 0,
+  "accepted_directories_absent": 5542,
+  "held_directories": 6,
+  "archive_build": "NOT_RUN",
+  "new_deletion": "NOT_AUTHORIZED_NOT_RUN",
+  "remote_upload": "NOT_RUN",
+  "fresh_remote_archive_readback": "NOT_RUN"
+}

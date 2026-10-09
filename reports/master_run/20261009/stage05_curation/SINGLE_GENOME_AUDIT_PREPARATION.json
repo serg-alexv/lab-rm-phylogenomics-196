@@ -1,0 +1,56 @@
+{
+  "actual_curation": "NOT_RUN",
+  "actual_linux_integration": "NOT_RUN",
+  "files": [
+    {
+      "bytes": 9481,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\validate_one_atomic_curation.py",
+      "sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66",
+      "suggested_repository_path": "scripts/master_run/stage05_curation/validate_one_atomic_curation.py"
+    },
+    {
+      "bytes": 6827,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\test_validate_one_atomic_curation.py",
+      "sha256": "2c8d1e02db7025f939283498d2f1f61d8d5a4c7af2c5a4f421e2faf645c0749e",
+      "suggested_repository_path": "scripts/master_run/stage05_curation/test_validate_one_atomic_curation.py"
+    },
+    {
+      "bytes": 5572,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\SINGLE_GENOME_AUDIT_METHODS.md",
+      "sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_METHODS.md"
+    },
+    {
+      "bytes": 2185,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\SINGLE_GENOME_AUDIT_INDEPENDENT_REVIEW.json",
+      "sha256": "6bed0ddb8d3cd9df06636bb5c51d3138a3413ad393bb856caf88f0348b980f3e",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_INDEPENDENT_REVIEW.json"
+    }
+  ],
+  "final196_784_validator_unchanged": true,
+  "final_figure_acceptance": false,
+  "final_matrix_acceptance": false,
+  "final_tree_join_and_renderer_unchanged": true,
+  "full_panel_complete": false,
+  "independent_full196_checker_sha256": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c",
+  "independent_review_state": "PASS_SOURCE_ONLY",
+  "limitations": [
+    "Source and pure guard tests establish preparation only. Actual closed-genome evidence, independently attributed scientific reviews, runtime byte verification and operational admission remain required.",
+    "Single-genome acceptance has a distinct schema and cannot replace final196 accounting,784cells,accepted-tree join or workflow publication acceptance."
+  ],
+  "native_provenance_precedes_atomic_one": true,
+  "outer_full196_source_runtime_dependency_producer_gates_preserved": true,
+  "producer_sha256": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0",
+  "pure_tests": {
+    "actual_count": 7,
+    "actual_exit_code": 0,
+    "biological_or_runtime_execution": false,
+    "elapsed_seconds": 0.008
+  },
+  "schema": "RM_SINGLE_GENOME_CURATION_WRAPPER_PREPARATION_V1",
+  "scientific_acceptance_created": false,
+  "selected_genome_native_closure_gate_preserved": true,
+  "state": "PREPARED_SOURCE_AND_PEER_REVIEW_PASSED_ACTUAL_CURATION_NOT_RUN",
+  "tree_independent": true,
+  "utc": "2026-10-09T22:21:21.951186+00:00"
+}

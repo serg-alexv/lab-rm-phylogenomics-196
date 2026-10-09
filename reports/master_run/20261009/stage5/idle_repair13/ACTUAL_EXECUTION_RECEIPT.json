@@ -1,0 +1,45 @@
+{
+  "schema": "MASTER_WSL_IDLE_PREEXEC_RECONCILIATION_V1",
+  "utc": "2026-10-09T22:16:29.885224+00:00",
+  "state": "PASS_PREEXEC_FAILURE_RECONCILED_AGGREGATE_STOPPED_FINITE_IDLE_CONFIG_APPLIED",
+  "source_sha256": "af9b36221e6f26cdd3688da0c3cd23d249611f37d96ea8b42708e4e7304bd02e",
+  "preexec_error_sha256": "b0fedf588c6cba9cc171d009263a53385d2468fa7476661b4e7c551c6cf806ae",
+  "failed_launch_sha256": "cbac9dbdb820255d9db87b9d9b19fd6de458130881917c09b657e7d9d47935b3",
+  "stop_sha256": "441f6f5a9250c091c28ddd45df15c8c89422858c86769dde239b9d67a3965ef1",
+  "wsl_shutdown_commands": 0,
+  "signals_sent": 0,
+  "detector_launches": 0,
+  "original_retained_windows_terminal_receipt": "NOT_RECONSTRUCTED; original wrapper lost local terminal before missing Linux receipt read",
+  "closure_basis": "Exact execvpe failure before Linux helper execution plus two actual aggregate all-distro STOPPED observations under original lock; absence of a PID alone is insufficient",
+  "idle_shutdown_diagnosis": "CONSISTENT_WITH_OLD_TOOLCHAIN_PROOF_AND_ACTUAL_STOPPED_DISTRO; reset/idle cause inferred, not directly instrumented",
+  "original_lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "stopped_before": {
+    "argv": [
+      "wsl.exe",
+      "--list",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "actual_stdout": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "actual_config_sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+  "stopped_after": {
+    "argv": [
+      "wsl.exe",
+      "--list",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "actual_stdout": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "owned_stop_removed": true,
+  "original_lock_explicitly_released": true
+}

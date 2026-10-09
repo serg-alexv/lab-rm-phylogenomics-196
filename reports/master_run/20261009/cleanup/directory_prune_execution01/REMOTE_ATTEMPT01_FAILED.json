@@ -1,0 +1,191 @@
+{
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "current_old_c_g_rescan": false,
+  "current_owner_or_lock_query": false,
+  "error": {
+    "kind": "ValueError",
+    "message": "Missing/oversized published control: scripts/master_run/build_directory_prune_execution_archive.py"
+  },
+  "finished_utc": "2026-10-09T22:19:19.704726+00:00",
+  "g_writes": 0,
+  "hard_kernel_io_cancellation_claim": false,
+  "maximum_aggregate_seconds": 1800,
+  "maximum_owned_command_cleanup_seconds": 5,
+  "mode": "FRESH_REMOTE",
+  "owned_commands": [
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/trees/5e911e4b6606e6bd3709bd9e85a195b00b558bbb?recursive=1"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:10.324990+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 19256,
+      "started_utc": "2026-10-09T22:19:09.101000+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\000.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\000.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/bb37de93132d04efbbe76a5a11dd7905d2cff923"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:11.490120+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 26700,
+      "started_utc": "2026-10-09T22:19:10.329666+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\001.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\001.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/0eb765efe2bec4e7fdbc5496e12c74585dca5150"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:12.440536+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 27212,
+      "started_utc": "2026-10-09T22:19:11.491708+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\002.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\002.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/844c8764b7bff18e67c5d31a0fa96eac2b9ce6fd"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:13.489372+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 10744,
+      "started_utc": "2026-10-09T22:19:12.442382+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\003.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\003.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/998f2062afbf099048725edec9d8d2581e21e34f"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:14.352357+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 25712,
+      "started_utc": "2026-10-09T22:19:13.494191+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\004.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\004.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/9ec499f0a6e3f6637f107a606015d8cc19e50f5c"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:15.438178+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 13900,
+      "started_utc": "2026-10-09T22:19:14.354081+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\005.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\005.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/b227c24859ce6a677302bd2b64c6316226ef1025"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:16.435912+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 24904,
+      "started_utc": "2026-10-09T22:19:15.439929+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\006.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\006.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/76c00f155003950e50766bc6701c5bd3410ece06"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:17.694763+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 20784,
+      "started_utc": "2026-10-09T22:19:16.437119+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\007.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\007.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/bf56df9f236c8f169eff4b4c64415d0f71b46b20"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:18.629792+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 25884,
+      "started_utc": "2026-10-09T22:19:17.695863+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\008.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\008.stdout.txt"
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/blobs/315650a6aae689175177ef95409ebb3adffa7cb0"
+      ],
+      "closure_proven": true,
+      "created": true,
+      "exit_code": 0,
+      "finished_utc": "2026-10-09T22:19:19.702819+00:00",
+      "ownership": "RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION",
+      "pid": 16456,
+      "started_utc": "2026-10-09T22:19:18.631063+00:00",
+      "stderr_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\009.stderr.txt",
+      "stdout_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution01_readback_20261009T221909Z_534f476f\\command_io\\009.stdout.txt"
+    }
+  ],
+  "payload_execution": 0,
+  "producer_imports": false,
+  "resource_minimum_bytes": {
+    "c_disk_free_bytes": 219345588224,
+    "commit_headroom_bytes": 2381660160,
+    "physical_available_bytes": 4275994624
+  },
+  "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION01_INDEPENDENT_READBACK_V1",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T22:19:09.097990+00:00",
+  "state": "FAILED_READBACK_NO_CLEANUP_AUTHORITY",
+  "verifier_source_sha256": "36be18fcc4296b6d4e8a2e833678e64647aaac249e22e8ea50be1cb72d0ab434",
+  "wsl_starts": 0
+}

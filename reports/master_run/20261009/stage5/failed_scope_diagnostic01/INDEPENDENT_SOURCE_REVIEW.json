@@ -1,0 +1,29 @@
+{
+  "schema": "MASTER_FAILED_STAGE5_SCOPE_DIAGNOSTIC_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "reviewer": "remote_audit",
+  "utc": "2026-10-09T22:23:05.748043+00:00",
+  "source_sha256": "c97d6008a7492642d899365d8a1a9c8678c2c07b2b6f6dba9ac08dd2375564e6",
+  "initial_unexecuted_draft_sha256": "13bb17f23d6abf534f6ba9691968d1db8bc51894a58a72ecee4b41e5fcf3b4ff",
+  "initial_review_findings_corrected": [
+    "Except now resets FAILED_PRESERVED, so a final STOP equality/read failure cannot retain a PASS state.",
+    "Initial and error terminal retained-handle queries now receive the fixed WSL executable and actual owner SessionID; final success requires actual exit0, matching birth and positive later exit FILETIME."
+  ],
+  "concrete_blockers": [],
+  "reviewed_contracts": [
+    "Default no operation; exact current C deployment and pinned A80 Windows API source required.",
+    "Original stable Windows byte lock and actual 1.5GiB physical/commit admission precede one fixed WSL system-Python read-only observation.",
+    "Linux observer reads bounded /proc process stat/UID/executable metadata, boot/mount namespaces, meminfo/mountinfo and retained interpreter existence; no argv/environment contents, installs, heavy native commands, signals, shutdown or stop mutation.",
+    "Retained WSL client waits at most20seconds; successful observation requires same nonce and source SHA, bounded stdout, actual matching Windows terminal exit0 and unchanged STOP bytes.",
+    "Any exception records FAILED_PRESERVED and retains STOP. Timeout leaves closure unproven and does not send signals.",
+    "Prior retained Windows terminal remains expressly NOT_RECONSTRUCTED; current observation creates no prior closure or scientific acceptance."
+  ],
+  "actual_execution_by_reviewer": false,
+  "WSL_starts_by_reviewer": 0,
+  "source_edits_by_reviewer": 0,
+  "limitations": [
+    "Source-only review; no fixture, Linux, Windows lock or resource API was executed by reviewer.",
+    "Process enumeration is a racing observation rather than an atomic all-process snapshot; vanished/unreadable rows and other uncertainty remain evidence and must not be promoted to a no-jobs or prior-scope closure certificate.",
+    "This verdict authorizes no later STOP removal, VM shutdown or RAM reconfiguration by itself."
+  ]
+}

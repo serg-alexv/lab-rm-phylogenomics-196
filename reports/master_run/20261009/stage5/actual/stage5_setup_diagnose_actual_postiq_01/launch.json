@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+    "--step",
+    "diagnose",
+    "--output",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_diagnose_actual_postiq_01",
+    "--owner-lease",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_diagnose_actual_postiq_01/owner_lease.json",
+    "--owner-nonce",
+    "434e62f7294a41629ce05efedae7817f",
+    "--source-sha256",
+    "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50",
+    "--owner-lock-receipt",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_diagnose_actual_postiq_01/actual_owner_lock.json",
+    "--owner-lock-sha256",
+    "1959739e69068c6bbbd78280a6c6e96f3cddb0fe60212b51625e6dcf629c3652"
+  ],
+  "native_wsl_client": {
+    "pid": 23308,
+    "creation_filetime": 134360578172650663,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owner_nonce": "434e62f7294a41629ce05efedae7817f"
+}

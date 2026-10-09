@@ -1,0 +1,26 @@
+{
+  "schema": "RM_SINGLE_GENOME_CURATION_WRAPPER_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "source_sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66",
+  "test_sha256": "2c8d1e02db7025f939283498d2f1f61d8d5a4c7af2c5a4f421e2faf645c0749e",
+  "methods_sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51",
+  "concrete_blockers": [],
+  "findings": [
+    "Only the exact SHA-pinned independent checker/core are imported; the exact curation producer is byte-checked without importing it.",
+    "The wrapper preserves the full checker outer approved196/source-validation/model-scope/dependency gates and invokes native_provenance before atomic_one, including actual runtime/model file hashes and native source identities.",
+    "One exact approved accession with a closed successful native checkpoint is required; selected exceptions are rejected. The existing independent atomic_one reopens actual source/native/domain/review witnesses and manifest-pinned native launch/closure pairs.",
+    "Exactly four independently reconstructed typed cells are required, with original prepared/review/result/complete/settings/checker bytes rechecked at the end.",
+    "The separate single-genome acceptance/source-manifest schemas explicitly reject claims of full-panel completion, final matrix acceptance or final figure acceptance. Final196/784 and accepted-tree/publication workflow gates are unchanged.",
+    "No detector search, inference, installation, mount, queue/controller change or retained checker/producer mutation is introduced. Operational closure scope is honestly limited to the selected manifest-pinned Linux native launches."
+  ],
+  "peer_tests": {
+    "reported_pure_tests": 7,
+    "reported_exit_code": 0,
+    "rerun_by_this_reviewer": false
+  },
+  "limitations": [
+    "Source-only review; actual closed-genome Linux curation integration and native/runtime rehash remain NOT_RUN by this reviewer.",
+    "A single-genome receipt cannot substitute for current host-wide operational closure, full196 curation accounting or the final accepted-tree join."
+  ],
+  "actual_biological_or_curation_execution_by_reviewer": "NOT_RUN"
+}
