@@ -217,63 +217,6 @@ def exact_preexec_failure(out,argv,birth,terminal,candidate=None):
             'scientific_adoption_authorized':False}
 
 
-def persist_wsl_exit(api,child,out,argv,birth,nonce,step,source_sha,linux_sha):
-    """Save the actual retained client terminal before reading Linux evidence."""
-    A.require(child.poll() is not None and birth is not None,'Retained setup client has not closed with a recorded birth')
-    terminal=api.identity(int(child._handle),child.pid,birth['executable'],birth['session_id'])
-    A.require(terminal['exited'] is True and terminal['pid']==birth['pid']
-              and terminal['creation_filetime']==birth['creation_filetime']
-              and terminal['exit_filetime']>terminal['creation_filetime']
-              and terminal['executable']==birth['executable'] and terminal['session_id']==birth['session_id']
-              and type(terminal['exit_code']) is int,'Actual retained setup client terminal differs')
-    value={'schema':'STAGE05_SETUP_WSL_RETAINED_EXIT_V1','owner_nonce':nonce,'step':step,
-           'source_sha256':source_sha,'linux_source_sha256':linux_sha,'argv':argv,'birth':birth,'terminal':terminal,
-           'stdout_sha256':A.sha256(out/'wsl.stdout.txt'),'stderr_sha256':A.sha256(out/'wsl.stderr.txt')}
-    path=out/'wsl_exit.json'
-    if path.exists(): A.require(A.read_json(path)==value,'Existing retained client terminal changed')
-    else: A.atomic(path,value)
-    return terminal
-
-
-def linux_closure_readback(out,argv,terminal,nonce,step,linux_sha,expected_command):
-    linux=A.read_json(out/'linux_terminal.json')
-    A.require(linux['schema']=='STAGE05_SETUP_LINUX_TERMINAL_V1' and linux['scope']==SCOPE
-              and linux['owner_nonce']==nonce and linux['step']==step and linux['source_sha256']==linux_sha
-              and linux['owned_closure_proven'] is True and linux['scientific_adoption_authorized'] is False
-              and linux['state'] in ('FAILED','PASS_NONSCIENTIFIC_SETUP_STEP'),'Actual Linux setup terminal scope/closure differs')
-    bootstrap=linux['bootstrap']
-    A.require(bootstrap['argv']==argv[8:] and bootstrap['executable']==argv[6]
-              and re.fullmatch(r'[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}',bootstrap['boot_id'])
-              and type(bootstrap['identity']['pid']) is int and bootstrap['identity']['pid']>0
-              and str(bootstrap['identity']['start_ticks']).isdigit() and int(bootstrap['identity']['start_ticks'])>0
-              and linux['remaining_direct_children']==[],'Actual Linux bootstrap argv/birth/empty-child proof differs')
-    success=linux['state']=='PASS_NONSCIENTIFIC_SETUP_STEP'; count=linux['owned_command_count']
-    A.require(terminal['exit_code']==(0 if success else 2) and linux['no_native_launch'] is (count==0),
-              'Actual failed/successful client exit or native count differs')
-    commands=command_readback(out,count,step,expected_command,success)
-    return linux,commands
-
-
-def failed_client_readback(api,child,out,argv,birth,nonce,step,source_sha,linux_sha,expected_command,candidate=None,progress=None):
-    """One finite own-client drain, actual exit persistence, then closure only."""
-    if child.poll() is None: child.wait(timeout=15)
-    terminal=persist_wsl_exit(api,child,out,argv,birth,nonce,step,source_sha,linux_sha)
-    value={'actual_wsl_exit':terminal,'wsl_exit_receipt_sha256':A.sha256(out/'wsl_exit.json')}
-    if progress is not None: progress.update(value)
-    if (out/'linux_terminal.json').exists():
-        linux,commands=linux_closure_readback(out,argv,terminal,nonce,step,linux_sha,expected_command)
-        value.update(native_commands=commands,linux_terminal_sha256=A.sha256(out/'linux_terminal.json'),
-                     failed_scope_closed=True,closure_basis='RETAINED_WSL_EXIT_AND_ACTUAL_LINUX_TERMINAL')
-    else:
-        failure=exact_preexec_failure(out,argv,birth,terminal,candidate)
-        A.require(failure is not None,'No independently checkable Linux or exact preexec closure receipt')
-        path=out/'preexec_failure.json'
-        if path.exists(): A.require(A.read_json(path)==failure,'Existing exact preexec receipt changed')
-        else: A.atomic(path,failure)
-        value['preexec_failure_sha256']=A.sha256(path)
-    return value
-
-
 def readback_worker():
     parser=argparse.ArgumentParser(description='Owned tiny Windows DriveFS readback only')
     parser.add_argument('--drivefs-readback-worker',action='store_true')
@@ -323,8 +266,7 @@ def main():
                            inputs['execution_state_restored.json'],inputs['lock_released.json'])
     A.require(inputs['exit.json']['launch_sha256']==A.sha256(ATTEMPT/'launch.json'),'Previous exit/launch bytes differ')
     args.output.mkdir(); api=A.Win(); owner=api.identity(api.current(),os.getpid()); nonce=uuid.uuid4().hex
-    child=None; birth=None; argv=None; windows_worker_started=False
-    closure=True; stop_sha=None; lease_path=args.output/'owner_lease.json'; result={**plan,'state':'FAILED','owner_nonce':nonce,
+    child=None; closure=True; stop_sha=None; lease_path=args.output/'owner_lease.json'; result={**plan,'state':'FAILED','owner_nonce':nonce,
               'actual_windows_owner':owner,'controller_receipt_sha256':args.controller_receipt_sha256,
               'prior_native_files':{name:A.sha256(ATTEMPT/name) for name in inputs}}
     with A.WorkflowLock(api) as lock:
@@ -386,8 +328,15 @@ def main():
                 while child.poll() is None:
                     A.require(time.monotonic()<deadline,'Bounded setup WSL client deadline expired')
                     lease(); time.sleep(0.5)
-                terminal=persist_wsl_exit(api,child,args.output,argv,birth,nonce,args.step,
-                                          plan['source_sha256'],args.linux_source_sha256)
+                terminal=api.identity(int(child._handle),child.pid,birth['executable'],birth['session_id'])
+                # Persist retained native exit before any fallible Linux-side
+                # receipt read. A preexec failure creates no Linux terminal.
+                exit_record={'schema':'STAGE05_SETUP_WSL_RETAINED_EXIT_V1','owner_nonce':nonce,'step':args.step,
+                             'source_sha256':plan['source_sha256'],'linux_source_sha256':args.linux_source_sha256,
+                             'argv':argv,'birth':birth,'terminal':terminal,
+                             'stdout_sha256':A.sha256(args.output/'wsl.stdout.txt'),
+                             'stderr_sha256':A.sha256(args.output/'wsl.stderr.txt')}
+                A.atomic(args.output/'wsl_exit.json',exit_record)
                 result.update(actual_wsl_exit=terminal,wsl_exit_receipt_sha256=A.sha256(args.output/'wsl_exit.json'))
                 if not (args.output/'linux_terminal.json').exists():
                     failure=exact_preexec_failure(args.output,argv,birth,terminal,
@@ -397,8 +346,14 @@ def main():
                         result['preexec_failure_sha256']=A.sha256(args.output/'preexec_failure.json')
                         closure=True
                         raise ValueError('Exact retained WSL preexec failure; intended Linux program did not start; setup failed')
-                linux,result['native_commands']=linux_closure_readback(args.output,argv,terminal,nonce,args.step,
-                     args.linux_source_sha256,expected_commands[args.step])
+                linux=A.read_json(args.output/'linux_terminal.json')
+                A.require(terminal['exited'] and terminal['creation_filetime']==birth['creation_filetime']
+                          and terminal['exit_filetime']>terminal['creation_filetime']
+                          and linux['schema']=='STAGE05_SETUP_LINUX_TERMINAL_V1' and linux['owner_nonce']==nonce
+                          and linux['step']==args.step and linux['source_sha256']==args.linux_source_sha256
+                          and linux['owned_closure_proven'] is True,'Actual setup native/client closure is unproven')
+                result['native_commands']=command_readback(args.output,linux['owned_command_count'],args.step,
+                     expected_commands[args.step],linux['state']=='PASS_NONSCIENTIFIC_SETUP_STEP')
                 closure=True; result.update(actual_wsl_exit=terminal,linux_terminal_sha256=A.sha256(args.output/'linux_terminal.json'))
                 A.require(terminal['exit_code']==0 and linux['state']=='PASS_NONSCIENTIFIC_SETUP_STEP','Actual setup step failed after closed scope')
             if args.step=='storage':
@@ -408,7 +363,7 @@ def main():
                 request=args.output/'drivefs_readback_request.json'
                 A.atomic(request,{'scope':SCOPE,'source_sha256':plan['source_sha256'],'root':str(ROOT),
                                  'stdout':str(args.output/'commands/drivefs.stdout.txt'),'owner_nonce':nonce})
-                closure=False; windows_worker_started=True
+                closure=False
                 result['windows_readback_worker']=U.windows_job(api,[sys.executable,'-B',str(Path(__file__).resolve()),
                      '--drivefs-readback-worker','--request',str(request),'--request-sha256',A.sha256(request)],owner)
                 closure=True; readback=A.read_json(args.output/'drivefs_windows_readback.json')
@@ -424,20 +379,11 @@ def main():
             if child is not None and child.poll() is None:
                 try: lease(False)
                 except BaseException: pass
+                try: child.wait(timeout=15)
+                except subprocess.TimeoutExpired: pass
         finally:
             try: lease(False)
             except BaseException as error: result['lease_finalizer_error']=str(error)
-            # A resource/lease exception may bypass the normal post-poll path.
-            # Reopen the same retained handle after the bounded own-child wait;
-            # never renew positive admission or turn this failed setup into PASS.
-            if child is not None and not closure and not windows_worker_started:
-                try:
-                    result.update(failed_client_readback(api,child,args.output,argv,birth,nonce,args.step,
-                         plan['source_sha256'],args.linux_source_sha256,expected_commands[args.step],
-                         Path(args.candidate_output) if args.candidate_output else None,progress=result))
-                    closure=True
-                except BaseException as error:
-                    result['closure_finalizer_error']={'kind':type(error).__name__,'message':str(error)}
             if closure and stop_sha and STOP.exists():
                 try:
                     A.require(A.read_json(STOP).get('owner_nonce')==nonce and A.sha256(STOP)==stop_sha,'Owned stop marker changed')

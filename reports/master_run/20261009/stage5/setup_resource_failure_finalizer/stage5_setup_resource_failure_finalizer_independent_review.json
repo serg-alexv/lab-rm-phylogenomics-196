@@ -1,0 +1,34 @@
+{
+  "schema": "STAGE05_SETUP_RESOURCE_FAILURE_FINALIZER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "reviewer": "remote_audit",
+  "utc": "2026-10-09T22:27:55.288915+00:00",
+  "source_pins": {
+    "stage5_setup_windows.py": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd",
+    "stage5_setup_linux.py": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+    "test_stage5_setup.py": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b",
+    "STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md": "3f9c45e0edfba4205746ffcbac4095ab82594fe81efa7943fd7f7199b5282cbd",
+    "stage5_setup_resource_failure_finalizer_preparation.json": "4f11c9a55da6e00b7ef6d7e2f4ffb14dd965482a6fd09d192c0f917de1d00087"
+  },
+  "concrete_blockers": [],
+  "review_scope": [
+    "Read exact Windows/Linux/test deltas against preserved7ce1/3160/5600 sources, complete new closure helpers and their integration, unchanged pinned Supervisor launch-intent/native-count semantics, methods and preparation.",
+    "Failure path deactivates the lease, waits once at most15seconds for its retained WSL client, queries exact retained birth/image/session/exit time and persists wsl_exit before fallible Linux readback. Partial progress preserves the real Windows terminal even if later proof rejects.",
+    "Linux terminal initializes count0 before child-free Supervisor construction; bootstrap argv/interpreter/boot/helper birth, no-native consistency and actual direct-child emptiness are independently reopened. Actual native intents/launches/commands/logs/closures still require exhaustive matching receipt counts and birth/group proofs.",
+    "Only complete matching closure permits own unchanged SHA/nonce stop removal. Missing fields, altered receipt, surviving child, unproven native intent or wait timeout leaves stop preserved. Windows worker uncertainty cannot be overwritten by Linux evidence.",
+    "Original failure remains FAILED after closure proof; no admission weakening, new successful setup, retroactive diagnose01 adoption or fabricated Linux/native receipt occurs."
+  ],
+  "tests_evidence": {
+    "producer_report": "14 pure synthetic tests PASS, 0.485 seconds",
+    "reviewer_read_test_source": true,
+    "reviewer_reran_tests": false
+  },
+  "actual_WSL_or_native_execution_by_reviewer": false,
+  "actual_source_or_output_mutation_by_reviewer": false,
+  "prior_diagnose01": "Original source and failed receipts remain independently pinned; missing historical retained Windows terminal is not reconstructed by this change.",
+  "limitations": [
+    "Source-only peer review does not establish real WSL/mount/runtime integration.",
+    "Future actual setup attempts and current failed-scope reconciliation remain separate root-owned operations.",
+    "Synchronous filesystem/kernel calls are not claimed to support hard cancellation."
+  ]
+}

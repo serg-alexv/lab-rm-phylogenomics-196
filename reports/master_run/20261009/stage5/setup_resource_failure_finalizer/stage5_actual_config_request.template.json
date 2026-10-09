@@ -1,0 +1,52 @@
+{
+  "schema": "STAGE05_ACTUAL_CONFIG_REQUEST_V1",
+  "purpose": "FIRST_APPROVED_GENOME_RESOURCE_MEASUREMENT",
+  "runtime_manifest": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_actual_postiq_02.json",
+    "sha256": null
+  },
+  "storage_proof": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_storage_actual_postiq_02.json",
+    "sha256": null
+  },
+  "gates": {
+    "toolchain": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    },
+    "runtime": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    },
+    "interop": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    },
+    "storage": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_storage_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    },
+    "drivefs": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    },
+    "unc": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_02\\result.json",
+      "sha256": null,
+      "unlock_sha256": null
+    }
+  },
+  "native_resource_bytes": {
+    "incremental_windows_requirement_bytes": null,
+    "commit_requirement_bytes": null,
+    "linux_job_requirement_bytes": null,
+    "process_address_space_limit_bytes": null,
+    "sampled_rss_stop_bytes": null
+  },
+  "resource_basis": null
+}

@@ -153,11 +153,7 @@ def main():
             'termination_grace_seconds':2,'drain_timeout_seconds':4}
     supervisor=None; result={'schema':'STAGE05_SETUP_LINUX_TERMINAL_V1','scope':SCOPE,'step':args.step,
                             'owner_nonce':args.owner_nonce,'source_sha256':sha(__file__),'state':'FAILED',
-                            'owned_closure_proven':False,'owned_command_count':0,'no_native_launch':True,
-                            'bootstrap':{'argv':list(sys.argv),'executable':sys.executable,
-                                         'boot_id':Path('/proc/sys/kernel/random/boot_id').read_text().strip(),
-                                         'identity':P.proc_record(os.getpid())},
-                            'scientific_adoption_authorized':False}
+                            'owned_closure_proven':True,'scientific_adoption_authorized':False}
     signal.signal(signal.SIGALRM,lambda *_: (_ for _ in ()).throw(P.Fatal('Setup Linux wall-clock deadline expired')))
     signal.alarm(930 if args.step=='runtime' else 90)
     try:
@@ -226,16 +222,7 @@ def main():
         signal.alarm(0)
         if supervisor:
             result.update(owned_closure_proven=not supervisor.closure_unproven,
-                          owned_command_count=supervisor.native_launch_count,
-                          no_native_launch=supervisor.native_launch_count==0)
-        else: result['owned_closure_proven']=True  # constructor launches no native process
-        try:
-            children=Path(f'/proc/self/task/{os.getpid()}/children').read_text().split()
-            result['remaining_direct_children']=[int(pid) for pid in children]
-            if children: result['owned_closure_proven']=False
-        except BaseException as error:
-            result.update(owned_closure_proven=False,remaining_direct_children='UNPROVEN',
-                          closure_readback_error={'kind':type(error).__name__,'message':str(error)})
+                          owned_command_count=supervisor.native_launch_count)
         write_new(out/'linux_terminal.json',result)
     return 0 if result['state']=='PASS_NONSCIENTIFIC_SETUP_STEP' and result['owned_closure_proven'] else 2
 

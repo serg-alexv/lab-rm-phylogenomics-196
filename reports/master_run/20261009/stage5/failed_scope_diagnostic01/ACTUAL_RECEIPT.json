@@ -1,0 +1,73 @@
+{
+  "schema": "MASTER_READ_ONLY_FAILED_STAGE5_SCOPE_DIAGNOSTIC_V1",
+  "utc": "2026-10-09T22:24:23.889027+00:00",
+  "state": "PASS_READ_ONLY_OBSERVATION_NO_PRIOR_CLOSURE_CLAIM",
+  "source_sha256": "c97d6008a7492642d899365d8a1a9c8678c2c07b2b6f6dba9ac08dd2375564e6",
+  "nonce": "54db283a5ed54cad93e6e7491f80eb9f",
+  "stop_markers_changed": 0,
+  "signals_sent": 0,
+  "vm_shutdowns": 0,
+  "prior_retained_windows_terminal": "NOT_RECONSTRUCTED; current population/boot observation is separate evidence",
+  "scientific_acceptance_created": false,
+  "known_prior_failure_spool": "stage5_setup_diagnose_actual_postiq_01",
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "stop_sha256_before": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+  "actual_admission": {
+    "utc": "2026-10-09T22:24:23.889953+00:00",
+    "physical_available_bytes": 5079789568,
+    "commit_headroom_bytes": 3262672896,
+    "commit_total_bytes": 19509915648,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_failed_scope_diagnostic01": 219348275200
+    }
+  },
+  "launch": {
+    "argv": [
+      "C:\\Windows\\System32\\wsl.exe",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "root",
+      "--exec",
+      "/usr/bin/python3",
+      "-B",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/diagnose_failed_stage5_scope.py",
+      "--linux-observe",
+      "--nonce",
+      "54db283a5ed54cad93e6e7491f80eb9f"
+    ],
+    "retained_wsl_client": {
+      "pid": 24672,
+      "creation_filetime": 134360582638909692,
+      "exit_filetime": 0,
+      "cpu_seconds": 0.0,
+      "executable": "C:\\Windows\\System32\\wsl.exe",
+      "session_id": 1,
+      "exited": false,
+      "exit_code": null
+    }
+  },
+  "terminal": {
+    "pid": 24672,
+    "creation_filetime": 134360582638909692,
+    "exit_filetime": 134360582641929612,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "stdout_sha256": "a39811f90050007245a057f40ae207db2d769e18cda2ed41da95c2fee431cded",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "observed_boot": "7909e4de-b7bf-4439-87a7-76ae232da92c",
+  "process_count": 31,
+  "stop_sha256_after": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+  "original_lock_explicitly_released": true
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "STAGE05_SETUP_RESOURCE_FAILURE_FINALIZER_PREPARATION_V1",
+  "state": "SOURCE_PREPARED_14_SYNTHETIC_PASS_PEER_PENDING_ACTUAL_NOT_RUN",
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows.py",
+      "bytes": 33902,
+      "sha256": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_windows.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_linux.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_setup.py",
+      "bytes": 15599,
+      "sha256": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b",
+      "suggested_remote_path": "scripts/master_run/test_stage5_setup.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_before_failure_finalizer.py",
+      "bytes": 30179,
+      "sha256": "7ce1ad78cd4956334a18d48ab345872922a0844a4e327c3a9b2a38b2f2d6847e",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_windows_before_failure_finalizer.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux_before_failure_finalizer.py",
+      "bytes": 14519,
+      "sha256": "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_linux_before_failure_finalizer.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_setup_before_failure_finalizer.py",
+      "bytes": 11180,
+      "sha256": "5600d2f88874b79ba0502e4ebc209425ac91439e1d7ee65c91efc275f1adaee4",
+      "suggested_remote_path": "scripts/master_run/test_stage5_setup_before_failure_finalizer.py"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md",
+      "bytes": 3833,
+      "sha256": "3f9c45e0edfba4205746ffcbac4095ab82594fe81efa7943fd7f7199b5282cbd",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md"
+    }
+  ],
+  "original_failed_attempt": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\launch.json",
+      "bytes": 1258,
+      "sha256": "e8a40afcf54d528a048ed0b40f60a0053f56403795214b1d395f661eeac7a4d4"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\result.json",
+      "bytes": 3405,
+      "sha256": "2aaa9d9b629efbe52a3e274a53694e2ab895a05e1916b1a8a962e81c5db615b9"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\linux_terminal.json",
+      "bytes": 461,
+      "sha256": "ad88c019a20cfc5197f28676e12153e53d438f5fad80475396cc86dcd7b3406f"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\owner_lease.json",
+      "bytes": 898,
+      "sha256": "62f20556460c0a8e4fb440c989dbf0f8f1c14130d04e9295034dfc4ce0d31532"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\lock_released.json",
+      "bytes": 116,
+      "sha256": "35e94b8e3168bc2812e3bceee66f0a8cd4a43ae610d0f0574b83c6a9e1551459"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01\\wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "tests": {
+    "command": "python -B work/test_stage5_setup.py -v",
+    "exit_code": 0,
+    "tests": 14,
+    "seconds": 0.485,
+    "scope": "PURE_TEMPORARY_FILES_SYNTHETIC_RETAINED_CHILD_NO_WSL_G_OR_RESOURCES"
+  },
+  "actual_new_setup": "NOT_RUN",
+  "old_diagnose01_reconciliation": "REQUIRED_SEPARATELY_NO_RECONSTRUCTED_TERMINAL",
+  "reserves_changed": false,
+  "archive_work": "PAUSED_UNTIL_THIS_OPERATIONAL_FIX_COMPLETE"
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "FAILED",
+  "step": "diagnose",
+  "source_sha256": "7ce1ad78cd4956334a18d48ab345872922a0844a4e327c3a9b2a38b2f2d6847e",
+  "linux_source_sha256": "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "434e62f7294a41629ce05efedae7817f",
+  "actual_windows_owner": {
+    "pid": 22892,
+    "creation_filetime": 134360578170726956,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-09T22:17:04.670272+00:00",
+    "physical_available_bytes": 4153278464,
+    "commit_headroom_bytes": 1731137536,
+    "commit_total_bytes": 21041451008,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 208391356416,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_diagnose_actual_postiq_01": 219359326208
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "error": {
+    "kind": "ValueError",
+    "message": "Actual setup resource reserve insufficient"
+  },
+  "owned_closure_proven": false,
+  "unknown_closure_stop_preserved": true,
+  "utc": "2026-10-09T22:17:04.675382+00:00"
+}

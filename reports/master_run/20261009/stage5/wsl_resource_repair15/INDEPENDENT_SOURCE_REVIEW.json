@@ -1,0 +1,89 @@
+{
+  "schema": "MASTER_SCOPED_WSL_RESOURCE_REPAIR_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_PURE_SYNTHETIC_TESTS_ONLY",
+  "reviewer": "remote_audit",
+  "utc": "2026-10-09T22:38:19.879752+00:00",
+  "source_sha256": "cbd64266963b0ae9d8f0c734912f1c72548372976625fbf08748d599b64dc38f",
+  "files": {
+    "apply_scoped_wsl_resource_repair.py": {
+      "sha256": "cbd64266963b0ae9d8f0c734912f1c72548372976625fbf08748d599b64dc38f",
+      "bytes": 8232
+    },
+    "test_scoped_wsl_resource_repair.py": {
+      "sha256": "8150dab4799055bf70809966ceae538fb1ca39c50798baa232b9a1d434e13791",
+      "bytes": 5237
+    },
+    "apply_scoped_wsl_resource_repair_review_draft83045.py": {
+      "sha256": "83045f1779c480607e991cdd3abdd64d7304a9bbc588a0e6e5907e035da43bf6",
+      "bytes": 6725
+    },
+    "wsl_resource_repair15/proposal.json": {
+      "sha256": "5af09cf56a3d64dfd9b6f25b17f315518bc3af3a3b04e87c8fba626606886fe2",
+      "bytes": 939
+    },
+    "wsl_resource_repair15/wslconfig.before.txt": {
+      "sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+      "bytes": 679
+    },
+    "wsl_resource_repair15/wslconfig.after.txt": {
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+      "bytes": 679
+    },
+    "wsl_resource_repair15/original_failed_stop.json": {
+      "sha256": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+      "bytes": 385
+    },
+    "diagnose_failed_stage5_scope.py": {
+      "sha256": "c97d6008a7492642d899365d8a1a9c8678c2c07b2b6f6dba9ac08dd2375564e6",
+      "bytes": 6055
+    },
+    "stage5_failed_scope_diagnostic01/receipt.json": {
+      "sha256": "defd0c218f6834ed268a8ade0b52fa652b5172de0ca05e69fc63f818a534405f",
+      "bytes": 2751
+    },
+    "stage5_failed_scope_diagnostic01/stdout.json": {
+      "sha256": "a39811f90050007245a057f40ae207db2d769e18cda2ed41da95c2fee431cded",
+      "bytes": 11502
+    }
+  },
+  "concrete_blockers": [],
+  "initial_draft_findings_corrected": [
+    "Globally exempt new SessionLeader/Relay processes replaced by exact observer-self/Relay(selfPID)/SessionLeader ancestry, root UID and known original /init transport base; unrelated new sessions reject.",
+    "New udev workers require root UID and exact known current/previous udev parent identity. Baseline parent identity is now compared.",
+    "Root-authorized wording removes the unsupported idle adjective; the restart explicitly closes unchanged baseline login/bash/supervisord under the user-authorized WSL reconfiguration scope."
+  ],
+  "reviewed_contracts": [
+    "Prepared679-byte before/after differ only memory=6GB to memory=4GB; CPU4/swap8GB/hour idle and other settings are byte-identical.",
+    "Original C byte lock, fixed source/control/STOP hashes and non-reparse config scope gate the operation; only exact registered Ubuntu WSL2 is accepted.",
+    "Fresh read-only observer must match current source, nonce and prior boot with zero recorded observation races; unknown executable/session/reparent/birth/UID drift vetoes the process guard.",
+    "Actual retained WSL command handle/birth/session/positive exit time/exit0 are required; waits are finite20seconds or30seconds for the single authorized shutdown.",
+    "Configuration is fsynced/atomically replaced and SHA-read back. Only after actual successful shutdown plus two actual all-Ubuntu-Stopped observations may exact unchanged backed-up STOP be removed.",
+    "Failures remain FAILED_PRESERVED with STOP intact; prior lost Windows terminal remains NOT_RECONSTRUCTED. New VM closure is separate aggregate evidence, not a fabricated historical retained exit."
+  ],
+  "actual_tests": {
+    "command": [
+      "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_scoped_wsl_resource_repair"
+    ],
+    "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+    "exit_code": 0,
+    "tests_passed": 8,
+    "reported_seconds": 0.004,
+    "scope": "PURE_SYNTHETIC_POPULATION_AND_C_PREPARED_CONFIG_CONTROLS_ONLY",
+    "rejection_variants": 14,
+    "host_resource_lock_or_WSL_calls": 0
+  },
+  "reviewer_source_change": "Only parent-authorized wording string unchanged idle baseline sessions -> unchanged baseline sessions; all other final corrected53fd bytes unchanged.",
+  "actual_WSL_or_shutdown_by_reviewer": false,
+  "actual_host_configuration_or_STOP_change_by_reviewer": false,
+  "scientific_acceptance_created": false,
+  "limitations": [
+    "Process enumeration remains racing; exact known baseline identity does not prove zero CPU work or atomic absence of all jobs. Direct user authorization covers the scoped Ubuntu restart, including unchanged baseline sessions.",
+    "A command timeout preserves STOP and failed evidence, and may leave the owned WSL client unresolved; no success or safe future launch is conferred by that failure.",
+    "Actual applied4GiB memory and new-boot toolchain/runtime/storage integration remain to be verified after root-owned execution."
+  ]
+}

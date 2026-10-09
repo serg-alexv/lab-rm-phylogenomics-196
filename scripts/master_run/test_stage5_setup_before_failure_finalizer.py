@@ -1,6 +1,6 @@
 """Nonscientific pure setup proof/readback negatives; no WSL, mounts or G I/O."""
 from pathlib import Path
-import copy, hashlib, json, tempfile, unittest, uuid, subprocess
+import copy, hashlib, json, tempfile, unittest, uuid
 import stage5_setup_windows as V
 import stage5_setup_linux as L
 
@@ -50,66 +50,7 @@ def command_fixture(root):
     return directory,argv
 
 
-def failed_scope_fixture(out,alive=False):
-    argv=[V.WSL,'-d','Ubuntu','-u','root','--exec','/usr/bin/python3','-B',V.LINUX_WORK+'/stage5_setup_linux.py',
-          '--step','diagnose','--owner-nonce','synthetic-nonce']
-    birth={'pid':123,'creation_filetime':456,'executable':V.WSL,'session_id':1}
-    terminal={**birth,'exited':True,'exit_code':2,'exit_filetime':789}
-    linux={'schema':'STAGE05_SETUP_LINUX_TERMINAL_V1','scope':V.SCOPE,'owner_nonce':'synthetic-nonce','step':'diagnose',
-           'source_sha256':'a'*64,'state':'FAILED','owned_closure_proven':True,'owned_command_count':0,
-           'no_native_launch':True,'remaining_direct_children':[],'scientific_adoption_authorized':False,
-           'bootstrap':{'argv':argv[8:],'executable':argv[6],'boot_id':'12345678-1234-5678-1234-567812345678',
-                        'identity':{'pid':42,'start_ticks':'12345'}}}
-    (out/'linux_terminal.json').write_text(json.dumps(linux));(out/'wsl.stdout.txt').write_bytes(b'')
-    (out/'wsl.stderr.txt').write_bytes(b'SYNTHETIC LEASE FAILURE')
-    class Child:
-        pid=123;_handle=99;running=alive;waits=[]
-        def poll(self):return None if self.running else 2
-        def wait(self,timeout):self.waits.append(timeout);self.running=False;return 2
-    class Api:
-        def identity(self,*args):return copy.deepcopy(terminal)
-    return argv,birth,terminal,linux,Child(),Api()
-
-
 class Contracts(unittest.TestCase):
-    def test_resource_failure_retains_actual_exit_and_failed_zero_launch_closure(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            out=Path(tmp);argv,birth,_,_,child,api=failed_scope_fixture(out,True)
-            result={'state':'FAILED','error':{'message':'Synthetic resource stop'}}
-            result.update(V.failed_client_readback(api,child,out,argv,birth,'synthetic-nonce','diagnose','b'*64,'a'*64,[],progress=result))
-            self.assertEqual(child.waits,[15]);self.assertEqual(result['state'],'FAILED')
-            self.assertTrue(result['failed_scope_closed']);self.assertEqual(result['native_commands'],[])
-            self.assertEqual(result['actual_wsl_exit']['exit_code'],2);self.assertTrue((out/'wsl_exit.json').is_file())
-            self.assertEqual(V.A.read_json(out/'linux_terminal.json')['state'],'FAILED')
-
-    def test_failed_linux_scope_rejects_receipt_tamper_but_preserves_client_exit(self):
-        for change in ('nonce','source','argv','children','missing_count','unexpected_intent','wrong_exit','wrong_boot'):
-            with self.subTest(change=change),tempfile.TemporaryDirectory() as tmp:
-                out=Path(tmp);argv,birth,terminal,linux,child,api=failed_scope_fixture(out)
-                if change=='nonce':linux['owner_nonce']='other'
-                elif change=='source':linux['source_sha256']='c'*64
-                elif change=='argv':linux['bootstrap']['argv']=['/other/program']
-                elif change=='children':linux['remaining_direct_children']=[99]
-                elif change=='missing_count':del linux['owned_command_count']
-                elif change=='unexpected_intent':
-                    (out/'commands').mkdir();(out/'commands/unexpected.launch_intent.json').write_text('{}')
-                elif change=='wrong_exit':terminal['exit_code']=0
-                elif change=='wrong_boot':linux['bootstrap']['boot_id']='-'*36
-                (out/'linux_terminal.json').write_text(json.dumps(linux));result={'state':'FAILED'}
-                with self.assertRaises((ValueError,KeyError)):
-                    V.failed_client_readback(api,child,out,argv,birth,'synthetic-nonce','diagnose','b'*64,'a'*64,[],progress=result)
-                self.assertTrue((out/'wsl_exit.json').exists());self.assertIn('actual_wsl_exit',result)
-                self.assertEqual(result['state'],'FAILED');self.assertNotIn('failed_scope_closed',result)
-
-    def test_failure_drain_deadline_cannot_claim_closed_or_write_terminal(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            out=Path(tmp);argv,birth,_,_,child,api=failed_scope_fixture(out,True)
-            def timeout(seconds=None,**kwargs):raise subprocess.TimeoutExpired('synthetic-owned-client',15)
-            child.wait=timeout
-            with self.assertRaises(subprocess.TimeoutExpired):
-                V.failed_client_readback(api,child,out,argv,birth,'synthetic-nonce','diagnose','b'*64,'a'*64,[])
-            self.assertFalse((out/'wsl_exit.json').exists())
-
     def test_exact_previous_births_and_terminal_scope(self):
         controller,launch,native,power,unlock=closure_fixture()
         V.prior_closure(controller,'a'*64,launch,native,power,unlock)

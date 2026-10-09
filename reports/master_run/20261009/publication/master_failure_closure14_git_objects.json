@@ -1,0 +1,195 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T22:24:00.617931+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "5e911e4b6606e6bd3709bd9e85a195b00b558bbb",
+  "tree": "49e5016f4e37f34a02706ebb0cc80d3216045bb5",
+  "commit": "530446825d8cd9269a1e9cd72cf34bda2757173a",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/actual_owner_lock.json",
+      "bytes": 663,
+      "sha256": "1959739e69068c6bbbd78280a6c6e96f3cddb0fe60212b51625e6dcf629c3652"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/launch.json",
+      "bytes": 1258,
+      "sha256": "e8a40afcf54d528a048ed0b40f60a0053f56403795214b1d395f661eeac7a4d4"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/linux_terminal.json",
+      "bytes": 461,
+      "sha256": "ad88c019a20cfc5197f28676e12153e53d438f5fad80475396cc86dcd7b3406f"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/lock_released.json",
+      "bytes": 116,
+      "sha256": "35e94b8e3168bc2812e3bceee66f0a8cd4a43ae610d0f0574b83c6a9e1551459"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/owner_lease.json",
+      "bytes": 898,
+      "sha256": "62f20556460c0a8e4fb440c989dbf0f8f1c14130d04e9295034dfc4ce0d31532"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/result.json",
+      "bytes": 3405,
+      "sha256": "2aaa9d9b629efbe52a3e274a53694e2ab895a05e1916b1a8a962e81c5db615b9"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "scripts/master_run/build_directory_prune_execution_archive.py",
+      "bytes": 23542,
+      "sha256": "37108a35b4c0ed7df91de478e36365aff76440d3ffddfd345648217fc09c661a"
+    },
+    {
+      "target": "scripts/master_run/test_build_directory_prune_execution_archive.py",
+      "bytes": 3951,
+      "sha256": "de061b5201f061abd8b55a689199eb365dd54a7cee723867c043b64d40402973"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS.md",
+      "bytes": 3727,
+      "sha256": "633afb31bd6a36c8aaddab32d98cd0a068a4648a940305bac2c5027bd3f7a56c"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_builder_independent_review.json",
+      "bytes": 2357,
+      "sha256": "87545d3c70fc3e7f8826adff49811cf474d16f5b4f730337db3c1c32099846d2"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_preparation.json",
+      "bytes": 2088,
+      "sha256": "87bc8a6d61cb9b9eda3f49cb84b0aeeed50dfcb951dd1cc92aa8e77ade64dc43"
+    },
+    {
+      "target": "scripts/master_run/build_directory_prune_execution_archive_draft150e.py",
+      "bytes": 23122,
+      "sha256": "150e6c4f46f2f13325cb28f163bfbfa82291c4fb65cd0e12eabf9495bc74f421"
+    },
+    {
+      "target": "scripts/master_run/test_build_directory_prune_execution_archive_draft2fe5.py",
+      "bytes": 2833,
+      "sha256": "2fe5ec14bc870a1b8b163a94a387802fc2536d68e157976f32ae441d4b65a124"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS_draft_e5e6.md",
+      "bytes": 3516,
+      "sha256": "e5e6f927997a16d58ae100ad97b7e7623f76925a8939e25d59bf8b2d65e5555a"
+    },
+    {
+      "target": "scripts/master_run/stage05_curation/validate_one_atomic_curation.py",
+      "bytes": 9481,
+      "sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66"
+    },
+    {
+      "target": "scripts/master_run/stage05_curation/test_validate_one_atomic_curation.py",
+      "bytes": 6827,
+      "sha256": "2c8d1e02db7025f939283498d2f1f61d8d5a4c7af2c5a4f421e2faf645c0749e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_METHODS.md",
+      "bytes": 5572,
+      "sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51"
+    },
+    {
+      "target": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_INDEPENDENT_REVIEW.json",
+      "bytes": 2185,
+      "sha256": "6bed0ddb8d3cd9df06636bb5c51d3138a3413ad393bb856caf88f0348b980f3e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_PREPARATION.json",
+      "bytes": 2978,
+      "sha256": "b7feacf6f1e9f03defbe1a7d2b915d532cfb46562406e9bf87dd618a968767b9"
+    },
+    {
+      "target": "reports/master_run/20261009/stage05_curation/CLOSED_GENOME_HANDOFF.md",
+      "bytes": 9531,
+      "sha256": "a41169db61697ee0fe6c09cfd3c73e01058cf64d9a5ca202d7682f9cc655e9e7"
+    },
+    {
+      "target": "scripts/master_run/diagnose_failed_stage5_scope.py",
+      "bytes": 6055,
+      "sha256": "c97d6008a7492642d899365d8a1a9c8678c2c07b2b6f6dba9ac08dd2375564e6"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 2325,
+      "sha256": "fd058309f6a5545ac41dfca68c61070c505ed6271e409b63b0512722cae069a3"
+    },
+    {
+      "target": "scripts/master_run/diagnose_directory_remote_attempt01_mapping.py",
+      "bytes": 5570,
+      "sha256": "64533e2d1134ef5d9dda2f9949934abbf832fb358ef57592adcca6a081e02eed"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_DIAGNOSIS.json",
+      "bytes": 5455,
+      "sha256": "985df53a038c88222e552ba060a8acbb33e58b644bf0116b0981ed765e3e4a2a"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_FAILED.json",
+      "bytes": 9215,
+      "sha256": "d9129edf5c9b085df12c76878ad6574d5e51aeb42be16bb3cc80d9ae93115ea8"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_PUBLIC_GIT_TREE.txt",
+      "bytes": 467011,
+      "sha256": "227ded256a74446e209883f5ee359aa33dd2741e75e6c15e5a8cdedfe636b080"
+    },
+    {
+      "target": "reports/master_run/20261009/stage04/INDEPENDENT_FRESH_REMOTE_READBACK.json",
+      "bytes": 50683,
+      "sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/idle_repair13/ACTUAL_EXECUTION_RECEIPT.json",
+      "bytes": 2214,
+      "sha256": "337462836d9ef5ea063324f1cbef77bffc1def27593a8e1e38c0a00fddea4eab"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/idle_repair13/ORIGINAL_PREEXEC_STOP_PRESERVED.json",
+      "bytes": 384,
+      "sha256": "441f6f5a9250c091c28ddd45df15c8c89422858c86769dde239b9d67a3965ef1"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_idle_readers13_git_objects.json",
+      "bytes": 9476,
+      "sha256": "b38dfd37202a4c761992c0f8006ffe87b7a64213223ac94a8222b02ca2236f93"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_idle_readers13_remote_readback.json",
+      "bytes": 17069,
+      "sha256": "6d3d3a6ecf7374b3859f6b99562892cf8fc2d40bde3c4037ae43f47ad61fe567"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_failure_closure14.py",
+      "bytes": 3115,
+      "sha256": "d70c5dd6b07a838b239d23676f8fe7969522bc1c6d745eb94272e7347aeeb346"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 10314,
+      "sha256": "586b2dff01f8371934eded95c093c868e349d761b40a858c0ff5339c2bdb7e2e"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 4227,
+      "sha256": "10af98b95c6b6727dac69d4c2856acb24a05bb3e588ea9dcefcf59ad8540a338"
+    }
+  ]
+}

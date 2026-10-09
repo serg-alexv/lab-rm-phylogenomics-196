@@ -55,16 +55,17 @@
         "preparation_guards": 6,
         "independent_review": "PASS",
         "first_failed_ancestor_rename_fixture": "PRESERVED_THEN_CORRECTED",
-        "production_execution": "EXIT0_POSTVERIFY_PENDING",
+        "production_execution": "EXIT0_INDEPENDENT_POSTVERIFY_PASS",
         "authority_created": true
       },
       "execution_checkpoint": "reports/master_run/20261009/cleanup/emptydirs_prune01/EXECUTION_CHECKPOINT.json",
-      "full_journal_remote_recovery": "LOCAL54_MEMBER_ARCHIVE_PASS_REMOTE_UPLOAD_READBACK_PENDING",
+      "full_journal_remote_recovery": "PASS_FRESH_REMOTE54_MEMBERS_5542_JOURNAL_POSTCHECK_JOIN",
       "independent_postverify": "PASS_ACTUAL_5542_ABSENT_6_HELD_12_PROTECTED_6_DIRTY_G_ORIGINAL_LOCK_AND_OWNER_IDENTITIES",
       "deletion_rerun_authorized": false,
       "failed_postverify_receipt": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_FAILED.json",
       "postverify_receipt": "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
-      "g_single_link_exclusion": "NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO; ONLY_EXACT9_PINNED_G_PATHS_QUALIFIED"
+      "g_single_link_exclusion": "NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO; ONLY_EXACT9_PINNED_G_PATHS_QUALIFIED",
+      "full_journal_remote_receipt": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READBACK.json"
     }
   },
   "historical_V10_closure": "UNKNOWN_PRESERVED",
@@ -83,10 +84,10 @@
     "controller_exit_code": 0
   },
   "schema": "LAB_RM_MASTER_RUN_STATUS_V1",
-  "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_PENDING",
+  "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T22:23:54.468520+00:00",
+  "updated_utc": "2026-10-09T22:38:35.971466+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -128,7 +129,7 @@
       "state": "PASS_LOCAL339_ORIGINALS_363_CRC_SHA_MEMBERS",
       "uploaded_assets": 4,
       "shard_bytes": 662834628,
-      "remote_reader": "CORRECTED_OWNED_DOWNLOAD_MONITOR_13_PURE_TESTS_AND_PEER_REVIEW_PASS_ACTUAL_PENDING",
+      "remote_reader": "ACTUAL_FRESH_FULL_PAYLOAD_PASS_26_OWNED_COMMANDS_EXIT0",
       "remote_receipt": "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
       "owned_download_commands": 26,
       "owned_download_command_closure": "ALL_EXIT0"
@@ -173,15 +174,18 @@
   "stage04_acceptance": "PASS_ACTUAL02_COMPLETE_VALIDATED_EXACT196_389_BRANCHES_193_PAIRED1000_UFBOOT",
   "stage04_acceptance_receipt": "reports/master_run/20261009/stage04/acceptance_actual02/independent_validation.json",
   "stage04_tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
-  "stage5_setup_preparation": "PEER_REVIEW_PASS10_SYNTHETIC_TESTS_ACTUAL_WSL_NOT_RUN",
+  "stage5_setup_preparation": "FINALIZER_AND_CURRENT_CONFIG_PINS_PEER_PASS_19_PURE_TESTS_NEW_ACTUAL_SETUP_NOT_RUN",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Independent full Stage4 GitHub readback PASS; add omitted eight recovery source files; preserve Stage5 resource failure and closure stop",
+  "stage5_operational_phase": "Publish fresh full cleanup-journal recovery PASS and reviewed Stage5 finalizer plus scoped WSL4GiB restart proposal",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
     "stage5_setup_diagnose_actual_postiq_01": "FAILED"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
-  "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49"
+  "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
+  "stage5_wsl_resource_repair15": "REVIEWED_PREPARED_NOT_APPLIED_EXACT6TO4GIB_AND_ONE_AUTHORIZED_VM_STOP",
+  "stage5_current_stop_sha256": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+  "host_wipe_ready": false
 }

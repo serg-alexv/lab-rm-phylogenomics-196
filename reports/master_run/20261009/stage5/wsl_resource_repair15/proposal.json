@@ -1,0 +1,14 @@
+{
+  "pins": {
+    "config_before": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+    "config_after": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+    "stop": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+    "diagnostic_receipt": "defd0c218f6834ed268a8ade0b52fa652b5172de0ca05e69fc63f818a534405f",
+    "diagnostic_observation": "a39811f90050007245a057f40ae207db2d769e18cda2ed41da95c2fee431cded"
+  },
+  "state": "PREPARED_NOT_APPLIED",
+  "scope": "Single Ubuntu distro restart plus6to4GiB RAM ceiling; CPU4/swap8GiB/finite1houridle unchanged",
+  "authority": "Direct user explicitly authorized reconfiguring entire WSL if needed; current failed setup and commit pressure motivate scoped repair",
+  "prior_lost_windows_exit": "NOT_RECONSTRUCTED; explicit VM stop will establish separate aggregate Linux closure",
+  "shutdowns_or_config_mutations": "NOT_RUN"
+}

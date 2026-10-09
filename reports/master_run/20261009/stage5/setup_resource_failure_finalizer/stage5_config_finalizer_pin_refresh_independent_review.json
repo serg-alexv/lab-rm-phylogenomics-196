@@ -1,0 +1,17 @@
+{
+  "schema": "STAGE05_CONFIG_FINALIZER_PIN_REFRESH_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "utc": "2026-10-09T22:28:58.243424+00:00",
+  "reviewer": "remote_audit",
+  "builder_sha256": "eac90967546fb771bf1d719ca2d25a5034ffe9b35b9c91a51cb93881b272fab0",
+  "preserved_prior_builder_sha256": "ff877de48f1bcad00a42459eacabef6047f80bf1348f187fc9e679440f509a0f",
+  "exact_two_setup_pin_replacements_only": true,
+  "prior_full_config_source_review_sha256": "2f603746bf536b0a96ab93a608cda641cc6ca23976807d7e98c299d91ca72c45",
+  "setup_finalizer_peer_review_sha256": "384d32bd5037c5f51fdbf35fa797c0bcf2f7db2e1032041e42f44cc8f05bae1b",
+  "concrete_blockers": [],
+  "tests": {
+    "producer_report": "5 pure contracts PASS after refresh, 0.202 seconds",
+    "reviewer_reran": false
+  },
+  "actual_build_or_WSL_or_native_by_reviewer": false
+}
