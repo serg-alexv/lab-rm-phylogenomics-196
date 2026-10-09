@@ -1,0 +1,23 @@
+{
+  "schema": "STAGE05_INTEROP_VM_SCOPE_RECONCILIATION_SOURCE_REVIEW_V1",
+  "utc": "2026-10-09T23:26:36.357145+00:00",
+  "state": "PASS_SOURCE_ONLY",
+  "source_sha256": "57df35951cce440896aa1b9792154249cd0924f10690cf8fb935a6e7c79b4aaf",
+  "review_kind": "Complete source inspection only; no process/WSL/native/lock/G/host action or tests by reviewer",
+  "reviewed": [
+    "Exact original WorkflowLock/API and current direct continuation authority",
+    "Fixed prior interop failure/localSTOP/unlock/terminal hashes and unchanged4GiB config",
+    "Only one registered Ubuntu WSL2; one authorized actual shutdown; two fresh actualStopped reads",
+    "Every new WSL client retained birth/image/session/exit-time/exit-code/log receipts",
+    "Original localSTOP preserved in new C evidence before shutdown and removed only after aggregate closure and unchanged controls",
+    "Timeout/nonzero/query error remains FAILED_PRESERVED with localSTOP retained; no PID signals, config edits or native launches"
+  ],
+  "scope_qualifications": [
+    "Aggregate current Ubuntu VM closure is separate from the previous missing retained Windows client terminal, which stays NOT_RECONSTRUCTED",
+    "Failed live command is neither adopted nor signalled; retained-closure false and preserved localSTOP forbid treating it as success",
+    "This is the expressly authorized whole-Ubuntu shutdown, not a proof that baseline sessions had no work",
+    "Initial reserve admission only; each of four small WSL commands has30-second bound"
+  ],
+  "concrete_source_blockers": [],
+  "actual_execution": "NOT_RUN_BY_REVIEWER"
+}

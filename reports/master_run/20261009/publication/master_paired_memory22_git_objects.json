@@ -1,0 +1,110 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T23:22:45.143976+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "80fac5c5d98aef9ce677f916bb22165139ea70e1",
+  "tree": "b616db63297bc384c9dcfa910dd86fda6a406d8e",
+  "commit": "9d098c57f32a07a1f901ae04be962d58cb8f1481",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80"
+    },
+    {
+      "target": "scripts/master_run/repair_canonical_post_ff_stat32.py",
+      "bytes": 9810,
+      "sha256": "db73f926c09ab2d9d5d8e6b81309a8776049e46401426c0e67eeaf09e38cb245"
+    },
+    {
+      "target": "reports/master_run/20261009/git_post_ff_stat32/canonical_post_ff_stat32_plan.json",
+      "bytes": 18425,
+      "sha256": "00718bae82458ae0c238ac276e4fae134799c2f77d9caffd0da1f0ad7af7fb83"
+    },
+    {
+      "target": "scripts/master_run/test_canonical_post_ff_stat32.py",
+      "bytes": 1808,
+      "sha256": "c00a5b455d0f797cc5e98545519c2724b182868e1f71a6797ab25271b6334644"
+    },
+    {
+      "target": "reports/master_run/20261009/git_post_ff_stat32/CANONICAL_POST_FF_STAT32_METHODS.md",
+      "bytes": 3159,
+      "sha256": "cbbf6b0b79b4491eac21558ee8f58a612da0edace3bcd637a3b3f9ff2454376b"
+    },
+    {
+      "target": "reports/master_run/20261009/git_post_ff_stat32/canonical_post_ff_stat32_preparation.json",
+      "bytes": 3248,
+      "sha256": "7e10334bf6b827c1f1763c272925af68340c010f6e803897b85ef111e89b1233"
+    },
+    {
+      "target": "reports/master_run/20261009/git_post_ff_stat32/PRIOR_FF_STATUS_REJECTION.json",
+      "bytes": 175198,
+      "sha256": "a147c8121b36897676f59c18cb7ad085dc75841c8e47c376dfa85902e5834ff8"
+    },
+    {
+      "target": "scripts/master_run/repair_canonical_post_ff_stat32_before_exception_state_fix.py",
+      "bytes": 9785,
+      "sha256": "f8b40188ab7ba25b6a44501008eae9472d2141c7ecc24f111618bb7d7941025d"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/launch.json",
+      "bytes": 634,
+      "sha256": "76cfcd96e67cb2e452f420389b987c780f3f3836fa97defa4de2dc1de6b1a726"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/linux.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/linux.stdout.json",
+      "bytes": 14183,
+      "sha256": "8276a8a3dc963ecb7561724ef15711f75c9c3dccfaf42eb134de28f1db57469e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/lock_released.json",
+      "bytes": 116,
+      "sha256": "57d6d9122df6a408d04133601074271a3eb83f0a1fc5b974a970b7374da36f31"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/receipt.json",
+      "bytes": 236043,
+      "sha256": "532373ea7de9317ba6c0827a5f3be70a6cf7ffc049666c7e4126ea2194712474"
+    },
+    {
+      "target": "reports/master_run/20261009/git_post_ff_stat32/PUBLICATION_FILES.json",
+      "bytes": 2681,
+      "sha256": "61d0dffb9fe986dcf66a68a058f6cbc8abbcd475cc0874bff702f3d46a5d7a03"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/paired_memory22/OBSERVATION_SOURCE_PEER.json",
+      "bytes": 1590,
+      "sha256": "37780f65f2140fed0e8fb9285c4ad0aa1e5305b26a642c106fb215921e7e50df"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_memory_stat21_git_objects.json",
+      "bytes": 5353,
+      "sha256": "891e21ef736b5269614673fdc67b9e8cf4304e8d2a315570076e4ccd3c2e5ed3"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_memory_stat21_remote_readback.json",
+      "bytes": 9665,
+      "sha256": "e925aa03ea9cdfd8f797d74e099122acc18ae061f53f065ece6d63670ceb3829"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_paired_memory22.py",
+      "bytes": 4273,
+      "sha256": "fcca8ca1afd7578c757f3540f8203b75544d32a60b1c37b0cced21bb8ba9a6c9"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 12348,
+      "sha256": "8e10b2c5b1cc8b561b14e0de2e0a0af0f4aa27555ebe287163652a5cd295fd93"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 9889,
+      "sha256": "2585600d815fc53db5c2fec105105e04a9bb210a8b5409ebb75ce126fb2eee7c"
+    }
+  ]
+}
