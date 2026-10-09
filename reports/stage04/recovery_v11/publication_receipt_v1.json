@@ -1,0 +1,992 @@
+{
+  "schema": "ACTUAL_REVIEWED_RECOVERY_GITHUB_PUBLICATION_RECEIPT_V2",
+  "utc": "2026-10-09T10:05:20.914231+00:00",
+  "publication": "UPLOAD_VERIFIED_PAYLOAD_AND_RELEASE",
+  "canonical_repo": "serg-alexv/lab-rm-phylogenomics-196",
+  "base_commit": "d790986cd19dfb798bc09735619bc81dd2e3e877",
+  "handoff_commit": "c9ba1b168e2b021a7f1cd1df61e552eedd148648",
+  "independent_review_sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+  "public_target_amendment_sha256": "0950bc106dca2d52df1ec2f26e88f3c24b03dc6d8754831997ff12ec4d2c638c",
+  "actual_repository_identity": {
+    "id": 1410212016,
+    "full_name": "serg-alexv/lab-rm-phylogenomics-196",
+    "private": false,
+    "visibility": "public",
+    "default_branch": "main",
+    "verified_utc": "2026-10-09T10:03:38.986519+00:00"
+  },
+  "failed_v1_evidence_preserved": {
+    "original_review": {
+      "bytes": 17627,
+      "sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json"
+    },
+    "identity_clarification": {
+      "bytes": 1077,
+      "sha256": "fa32809f6d7acbdf4b071282f37e45c945548cfd5df023c584033312b471cd6a",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json"
+    },
+    "failed_publisher_completion": {
+      "bytes": 5225,
+      "sha256": "6eebce21d1b9cd42609f0b81ad7ff3a0ea0848ef25ec626b232e346f2c331964",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\OWNER_GITHUB_REFRESH_COMPLETION_V1.json"
+    },
+    "failed_publisher_source": {
+      "bytes": 29438,
+      "sha256": "e04e4839d4f37146634e8a373fe690371c22c21f7a2bf7be47569614f835ad6f",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\publish_reviewed_recovery_v1.py"
+    },
+    "bounded_blocker_diagnostic": {
+      "bytes": 7438,
+      "sha256": "7e9bf74b828caa5171540a443724719656a67fa2cb763c2fb4d10dfa3ab0a5b8",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLICATION_BLOCKER_EVIDENCE_V1.json"
+    }
+  },
+  "retry_namespace": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v2",
+  "initial_payload_count": 9,
+  "release_asset_count": 8,
+  "exact_handoff_allowlist": [
+    "STATUS.md",
+    "reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+    "reports/stage04/recovery_v11/PUBLICATION_INDEX.md",
+    "reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+    "reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md",
+    "reports/stage04/recovery_v11/evidence_manifest_v1.json",
+    "reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json",
+    "status/recovery_subtasks_v11.json",
+    "status/stages.tsv"
+  ],
+  "remote_handoff_files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 2307,
+      "sha256": "ebc0427be6c82fde374f0c9f552dbc52c4acee2a8efa18db9be9aa6aa99b953c",
+      "remote_blob_sha": "c169d63a6beb3a91bd9a5a742f7dfa2a13c3a1e7",
+      "verified_utc": "2026-10-09T10:04:45.780119+00:00"
+    },
+    {
+      "path": "status/stages.tsv",
+      "bytes": 696,
+      "sha256": "e8246ab52058622ce32962230590d0c2d4a0a74071b0ea32c40ebfc738aa7199",
+      "remote_blob_sha": "7db6352ad75e6b8d1836ddda7a17ce558ae4c7cf",
+      "verified_utc": "2026-10-09T10:04:47.507112+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json",
+      "bytes": 28367,
+      "sha256": "ab2edbe3c0ff356e8dbe2eb6eb2b8b7048bcf5db1ba2c5d8792058682f4e7b8f",
+      "remote_blob_sha": "2cddedecc066c1e923ad04b0c1c3236ca910b4a3",
+      "verified_utc": "2026-10-09T10:04:49.898674+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md",
+      "bytes": 10207,
+      "sha256": "767f1376566318e4ace7e6ec3030ff4f49a44c7f3cdea6e9ccda1edc9ba37141",
+      "remote_blob_sha": "c9753a5ece60eedf01fac14d37ffc9cb7e0199d0",
+      "verified_utc": "2026-10-09T10:04:51.552554+00:00"
+    },
+    {
+      "path": "status/recovery_subtasks_v11.json",
+      "bytes": 3397,
+      "sha256": "d6dfb8b8cfbf450a7acc1bc1a960c49de9d686f548ad65cfa686d916326c440a",
+      "remote_blob_sha": "46b30fa92401f249129dd912ecf7eae9164e9616",
+      "verified_utc": "2026-10-09T10:04:53.048363+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/evidence_manifest_v1.json",
+      "bytes": 35113,
+      "sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211",
+      "remote_blob_sha": "95208a2b5047bc149ce7780ed1484b346e2bf8cb",
+      "verified_utc": "2026-10-09T10:04:54.692163+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/PUBLICATION_INDEX.md",
+      "bytes": 3042,
+      "sha256": "ee5d4463fce94d7722ac596feeba83ec74a2fcdae348b78c3dd7d3a1692fe2fc",
+      "remote_blob_sha": "2496f902e670e7170127addc52bfc56e246a7752",
+      "verified_utc": "2026-10-09T10:04:56.576177+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+      "bytes": 17627,
+      "sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+      "remote_blob_sha": "a2acc439badd3527522cf3a415ac1042baf5c861",
+      "verified_utc": "2026-10-09T10:04:58.202279+00:00"
+    },
+    {
+      "path": "reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+      "bytes": 11125,
+      "sha256": "0950bc106dca2d52df1ec2f26e88f3c24b03dc6d8754831997ff12ec4d2c638c",
+      "remote_blob_sha": "ba4c90ff87c01e7ee3105074e9dd63aa28dbb60b",
+      "verified_utc": "2026-10-09T10:05:00.788807+00:00"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/wd-recovery-20261009-v1",
+    "tag": "wd-recovery-20261009-v1",
+    "release_id": 407786601,
+    "tag_commit": "c9ba1b168e2b021a7f1cd1df61e552eedd148648",
+    "assets": [
+      {
+        "name": "LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+        "asset_id": 624584148,
+        "bytes": 1136232,
+        "sha256": "f44c8546334838e0ebfdb054677a02bb46a4e589fe08a74fe1631ab301ede619",
+        "api_digest": "sha256:f44c8546334838e0ebfdb054677a02bb46a4e589fe08a74fe1631ab301ede619",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.435920+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip"
+      },
+      {
+        "name": "evidence_manifest_v1.json",
+        "asset_id": 624584130,
+        "bytes": 35113,
+        "sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211",
+        "api_digest": "sha256:57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.436144+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/evidence_manifest_v1.json"
+      },
+      {
+        "name": "INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "asset_id": 624584145,
+        "bytes": 17627,
+        "sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+        "api_digest": "sha256:ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.436274+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json"
+      },
+      {
+        "name": "primary_partitions_source_accepted.nex",
+        "asset_id": 624584141,
+        "bytes": 2924,
+        "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "api_digest": "sha256:fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.436387+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/primary_partitions_source_accepted.nex"
+      },
+      {
+        "name": "BUNDLE_INDEPENDENT_READBACK_V1.json",
+        "asset_id": 624584131,
+        "bytes": 26177,
+        "sha256": "810a7de59955f6c503a6d6888ea6614fe18e5fd6d7d5b5b1c446b1e55cb3fbe8",
+        "api_digest": "sha256:810a7de59955f6c503a6d6888ea6614fe18e5fd6d7d5b5b1c446b1e55cb3fbe8",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.436484+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/BUNDLE_INDEPENDENT_READBACK_V1.json"
+      },
+      {
+        "name": "PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "asset_id": 624584175,
+        "bytes": 11125,
+        "sha256": "0950bc106dca2d52df1ec2f26e88f3c24b03dc6d8754831997ff12ec4d2c638c",
+        "api_digest": "sha256:0950bc106dca2d52df1ec2f26e88f3c24b03dc6d8754831997ff12ec4d2c638c",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.443040+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json"
+      },
+      {
+        "name": "PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+        "asset_id": 624584179,
+        "bytes": 1077,
+        "sha256": "fa32809f6d7acbdf4b071282f37e45c945548cfd5df023c584033312b471cd6a",
+        "api_digest": "sha256:fa32809f6d7acbdf4b071282f37e45c945548cfd5df023c584033312b471cd6a",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.443306+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json"
+      },
+      {
+        "name": "OWNER_GITHUB_REFRESH_COMPLETION_V1.json",
+        "asset_id": 624584182,
+        "bytes": 5225,
+        "sha256": "6eebce21d1b9cd42609f0b81ad7ff3a0ea0848ef25ec626b232e346f2c331964",
+        "api_digest": "sha256:6eebce21d1b9cd42609f0b81ad7ff3a0ea0848ef25ec626b232e346f2c331964",
+        "verified_by": "AUTHENTICATED_NEW_C_DOWNLOAD_BYTE_READBACK",
+        "verified_utc": "2026-10-09T10:05:16.443477+00:00",
+        "browser_download_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/wd-recovery-20261009-v1/OWNER_GITHUB_REFRESH_COMPLETION_V1.json"
+      }
+    ]
+  },
+  "lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "expected_identity": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "file_creation_replacement_or_write": false,
+    "owner_pid": 29464,
+    "owner_creation_filetime": 134360138110629990,
+    "identity_before": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "acquired_utc": "2026-10-09T10:03:31.128620+00:00",
+    "identity_while_held": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "identity_before_mutation": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "identity_after_release_verification": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "release_utc": null,
+    "release_status": "STILL_HELD_THROUGH_RECEIPT_COMMIT_AND_FINAL_REMOTE_VERIFICATION",
+    "actual_release_record": "C-only OWNER_GITHUB_REFRESH_COMPLETION_V2.json written after actual unlock/close"
+  },
+  "unrelated_dirty_files_preserved": {
+    "before": {
+      "reports/stage00/commands.jsonl": {
+        "exists": true,
+        "bytes": 94845,
+        "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb"
+      },
+      "reports/stage02/retrieval_progress.json": {
+        "exists": true,
+        "bytes": 80379,
+        "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457"
+      },
+      "reports/stage02/retrieval_progress_resume.json": {
+        "exists": true,
+        "bytes": 94067,
+        "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f"
+      },
+      "reports/stage04/resource_wait_v5/observations.jsonl": {
+        "exists": true,
+        "bytes": 6477,
+        "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e"
+      },
+      "reports/stage04/resource_wait_v5_v2/observations.jsonl": {
+        "exists": true,
+        "bytes": 13626,
+        "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15"
+      },
+      "status/continuation_execution_receipt.json": {
+        "exists": true,
+        "bytes": 877,
+        "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f"
+      }
+    },
+    "after_at_receipt": {
+      "reports/stage00/commands.jsonl": {
+        "exists": true,
+        "bytes": 94845,
+        "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb"
+      },
+      "reports/stage02/retrieval_progress.json": {
+        "exists": true,
+        "bytes": 80379,
+        "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457"
+      },
+      "reports/stage02/retrieval_progress_resume.json": {
+        "exists": true,
+        "bytes": 94067,
+        "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f"
+      },
+      "reports/stage04/resource_wait_v5/observations.jsonl": {
+        "exists": true,
+        "bytes": 6477,
+        "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e"
+      },
+      "reports/stage04/resource_wait_v5_v2/observations.jsonl": {
+        "exists": true,
+        "bytes": 13626,
+        "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15"
+      },
+      "status/continuation_execution_receipt.json": {
+        "exists": true,
+        "bytes": 877,
+        "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f"
+      }
+    },
+    "matches": true
+  },
+  "owner_execution": {
+    "external_session_id": "01a11b51-18d0-7a43-9fe3-3b961af9c44a",
+    "cli_version": "codex-cli 0.162.0-alpha.2",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "launcher_pid": 32484,
+    "codex_pid": 29632,
+    "started_utc": "2026-10-09T10:01:00.407398+00:00"
+  },
+  "owner_CLI_actual_exit_code": null,
+  "owner_CLI_exit_reason": "Current CLI still executing; parent will retain/measure actual closure",
+  "command_outcomes_through_payload_asset_verification": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "started_utc": "2026-10-09T10:03:31.138665+00:00",
+      "ended_utc": "2026-10-09T10:03:31.211998+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07333359999756794
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "started_utc": "2026-10-09T10:03:31.212025+00:00",
+      "ended_utc": "2026-10-09T10:03:31.276347+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.06433649999962654
+    },
+    {
+      "argv": [
+        "git",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "started_utc": "2026-10-09T10:03:31.276376+00:00",
+      "ended_utc": "2026-10-09T10:03:31.335362+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.05899639999552164
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "origin",
+        "main"
+      ],
+      "started_utc": "2026-10-09T10:03:31.335394+00:00",
+      "ended_utc": "2026-10-09T10:03:33.927356+00:00",
+      "exit_code": 0,
+      "wall_seconds": 2.5919756999937817
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "origin/main"
+      ],
+      "started_utc": "2026-10-09T10:03:33.927386+00:00",
+      "ended_utc": "2026-10-09T10:03:33.988754+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.06137870000384282
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "FETCH_HEAD"
+      ],
+      "started_utc": "2026-10-09T10:03:33.988781+00:00",
+      "ended_utc": "2026-10-09T10:03:34.043873+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.05510189999768045
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/ref/heads/main"
+      ],
+      "started_utc": "2026-10-09T10:03:34.043898+00:00",
+      "ended_utc": "2026-10-09T10:03:35.671937+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.6280639000033261
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "user"
+      ],
+      "started_utc": "2026-10-09T10:03:35.672018+00:00",
+      "ended_utc": "2026-10-09T10:03:37.078376+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.40637450000213
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196"
+      ],
+      "started_utc": "2026-10-09T10:03:37.078492+00:00",
+      "ended_utc": "2026-10-09T10:03:38.986346+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.907870199996978
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only",
+        "-z"
+      ],
+      "started_utc": "2026-10-09T10:03:38.986525+00:00",
+      "ended_utc": "2026-10-09T10:03:39.074390+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.08788120000099298
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "-z",
+        "--untracked-files=all"
+      ],
+      "started_utc": "2026-10-09T10:03:39.074427+00:00",
+      "ended_utc": "2026-10-09T10:03:39.424118+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.3497051000013016
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/ref/tags/wd-recovery-20261009-v1"
+      ],
+      "started_utc": "2026-10-09T10:03:47.260737+00:00",
+      "ended_utc": "2026-10-09T10:03:48.616222+00:00",
+      "exit_code": 1,
+      "wall_seconds": 1.3554782000064733
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/releases/tags/wd-recovery-20261009-v1"
+      ],
+      "started_utc": "2026-10-09T10:03:48.616446+00:00",
+      "ended_utc": "2026-10-09T10:03:50.438105+00:00",
+      "exit_code": 1,
+      "wall_seconds": 1.8216776000044774
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "-z",
+        "--untracked-files=all"
+      ],
+      "started_utc": "2026-10-09T10:03:55.256139+00:00",
+      "ended_utc": "2026-10-09T10:03:55.522727+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.2665892000004533
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only",
+        "-z"
+      ],
+      "started_utc": "2026-10-09T10:03:55.523101+00:00",
+      "ended_utc": "2026-10-09T10:03:55.599885+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.0767933000024641
+    },
+    {
+      "argv": [
+        "git",
+        "add",
+        "--",
+        "STATUS.md",
+        "reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "reports/stage04/recovery_v11/PUBLICATION_INDEX.md",
+        "reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md",
+        "reports/stage04/recovery_v11/evidence_manifest_v1.json",
+        "reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json",
+        "status/recovery_subtasks_v11.json",
+        "status/stages.tsv"
+      ],
+      "started_utc": "2026-10-09T10:03:55.599919+00:00",
+      "ended_utc": "2026-10-09T10:03:56.039548+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.439641600001778
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only",
+        "-z"
+      ],
+      "started_utc": "2026-10-09T10:03:56.039579+00:00",
+      "ended_utc": "2026-10-09T10:03:56.189661+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.15010379999876022
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":STATUS.md"
+      ],
+      "started_utc": "2026-10-09T10:03:56.189718+00:00",
+      "ended_utc": "2026-10-09T10:03:56.263637+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07393750000483124
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json"
+      ],
+      "started_utc": "2026-10-09T10:03:56.263680+00:00",
+      "ended_utc": "2026-10-09T10:03:56.334058+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07038830000237795
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/PUBLICATION_INDEX.md"
+      ],
+      "started_utc": "2026-10-09T10:03:56.334090+00:00",
+      "ended_utc": "2026-10-09T10:03:56.407097+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07303040000260808
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json"
+      ],
+      "started_utc": "2026-10-09T10:03:56.407155+00:00",
+      "ended_utc": "2026-10-09T10:03:56.488236+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.08109269999840762
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md"
+      ],
+      "started_utc": "2026-10-09T10:03:56.488271+00:00",
+      "ended_utc": "2026-10-09T10:03:56.566160+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07790150000073481
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/evidence_manifest_v1.json"
+      ],
+      "started_utc": "2026-10-09T10:03:56.566193+00:00",
+      "ended_utc": "2026-10-09T10:03:56.637592+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07140870000148425
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json"
+      ],
+      "started_utc": "2026-10-09T10:03:56.637627+00:00",
+      "ended_utc": "2026-10-09T10:03:56.706201+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.0685866000058013
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":status/recovery_subtasks_v11.json"
+      ],
+      "started_utc": "2026-10-09T10:03:56.706250+00:00",
+      "ended_utc": "2026-10-09T10:03:56.780413+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07417390000045998
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        ":status/stages.tsv"
+      ],
+      "started_utc": "2026-10-09T10:03:56.780446+00:00",
+      "ended_utc": "2026-10-09T10:03:56.853260+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.07282609999674605
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-renames",
+        "--"
+      ],
+      "started_utc": "2026-10-09T10:03:56.853290+00:00",
+      "ended_utc": "2026-10-09T10:03:57.078836+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.22556369999801973
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/ref/heads/main"
+      ],
+      "started_utc": "2026-10-09T10:04:33.242821+00:00",
+      "ended_utc": "2026-10-09T10:04:35.641771+00:00",
+      "exit_code": 0,
+      "wall_seconds": 2.398945900000399
+    },
+    {
+      "argv": [
+        "git",
+        "commit",
+        "-m",
+        "Record interrupted Stage04 and publish reviewed FULL196 recovery handoff"
+      ],
+      "started_utc": "2026-10-09T10:04:35.641841+00:00",
+      "ended_utc": "2026-10-09T10:04:36.704617+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.062792199998512
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "started_utc": "2026-10-09T10:04:36.704655+00:00",
+      "ended_utc": "2026-10-09T10:04:36.772171+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.06755189999967115
+    },
+    {
+      "argv": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "-z",
+        "c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:36.772248+00:00",
+      "ended_utc": "2026-10-09T10:04:36.911705+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.13947470000130124
+    },
+    {
+      "argv": [
+        "git",
+        "push",
+        "origin",
+        "HEAD:main"
+      ],
+      "started_utc": "2026-10-09T10:04:36.911767+00:00",
+      "ended_utc": "2026-10-09T10:04:42.289529+00:00",
+      "exit_code": 0,
+      "wall_seconds": 5.37776920000033
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/ref/heads/main"
+      ],
+      "started_utc": "2026-10-09T10:04:42.289558+00:00",
+      "ended_utc": "2026-10-09T10:04:44.034701+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.7451564999937546
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/STATUS.md?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:44.034800+00:00",
+      "ended_utc": "2026-10-09T10:04:45.779899+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.745112299999164
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/status/stages.tsv?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:45.780148+00:00",
+      "ended_utc": "2026-10-09T10:04:47.507005+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.7268689000047743
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:47.507122+00:00",
+      "ended_utc": "2026-10-09T10:04:49.898455+00:00",
+      "exit_code": 0,
+      "wall_seconds": 2.3913461999982246
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:49.898684+00:00",
+      "ended_utc": "2026-10-09T10:04:51.552354+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.6536838000029093
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/status/recovery_subtasks_v11.json?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:51.552568+00:00",
+      "ended_utc": "2026-10-09T10:04:53.048073+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.4955451999994693
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/evidence_manifest_v1.json?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:53.048386+00:00",
+      "ended_utc": "2026-10-09T10:04:54.691910+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.6435342000040691
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/PUBLICATION_INDEX.md?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:54.692174+00:00",
+      "ended_utc": "2026-10-09T10:04:56.576054+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.883892999998352
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:56.576185+00:00",
+      "ended_utc": "2026-10-09T10:04:58.202108+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.6259360999974888
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/contents/reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json?ref=c9ba1b168e2b021a7f1cd1df61e552eedd148648"
+      ],
+      "started_utc": "2026-10-09T10:04:58.202289+00:00",
+      "ended_utc": "2026-10-09T10:05:00.788579+00:00",
+      "exit_code": 0,
+      "wall_seconds": 2.586317900000722
+    },
+    {
+      "argv": [
+        "gh",
+        "release",
+        "create",
+        "wd-recovery-20261009-v1",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\evidence_manifest_v1.json",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\primary_partitions_source_accepted.nex",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\BUNDLE_INDEPENDENT_READBACK_V1.json",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\OWNER_GITHUB_REFRESH_COMPLETION_V1.json",
+        "--repo",
+        "serg-alexv/lab-rm-phylogenomics-196",
+        "--target",
+        "c9ba1b168e2b021a7f1cd1df61e552eedd148648",
+        "--title",
+        "WD FULL196 recovery evidence and corrected continuation boundaries",
+        "--notes-file",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v2\\RELEASE_NOTES_PUBLISHED_V2.md",
+        "--latest=false",
+        "--prerelease"
+      ],
+      "started_utc": "2026-10-09T10:05:00.816830+00:00",
+      "ended_utc": "2026-10-09T10:05:07.927734+00:00",
+      "exit_code": 0,
+      "wall_seconds": 7.11090300000069
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/releases/tags/wd-recovery-20261009-v1"
+      ],
+      "started_utc": "2026-10-09T10:05:07.927761+00:00",
+      "ended_utc": "2026-10-09T10:05:09.346251+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.4185244999971474
+    },
+    {
+      "argv": [
+        "gh",
+        "api",
+        "--method",
+        "GET",
+        "repos/serg-alexv/lab-rm-phylogenomics-196/git/ref/tags/wd-recovery-20261009-v1"
+      ],
+      "started_utc": "2026-10-09T10:05:09.346468+00:00",
+      "ended_utc": "2026-10-09T10:05:10.821623+00:00",
+      "exit_code": 0,
+      "wall_seconds": 1.4751641000038944
+    },
+    {
+      "argv": [
+        "gh",
+        "release",
+        "download",
+        "wd-recovery-20261009-v1",
+        "--repo",
+        "serg-alexv/lab-rm-phylogenomics-196",
+        "--dir",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v2\\remote_asset_verification_20261009T100510821708Z",
+        "--pattern",
+        "LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+        "--pattern",
+        "evidence_manifest_v1.json",
+        "--pattern",
+        "INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "--pattern",
+        "primary_partitions_source_accepted.nex",
+        "--pattern",
+        "BUNDLE_INDEPENDENT_READBACK_V1.json",
+        "--pattern",
+        "PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "--pattern",
+        "PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+        "--pattern",
+        "OWNER_GITHUB_REFRESH_COMPLETION_V1.json"
+      ],
+      "started_utc": "2026-10-09T10:05:10.822152+00:00",
+      "ended_utc": "2026-10-09T10:05:16.434435+00:00",
+      "exit_code": 0,
+      "wall_seconds": 5.6122921999995015
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "-z",
+        "--untracked-files=all"
+      ],
+      "started_utc": "2026-10-09T10:05:20.657333+00:00",
+      "ended_utc": "2026-10-09T10:05:20.907122+00:00",
+      "exit_code": 0,
+      "wall_seconds": 0.24979159999929834
+    }
+  ],
+  "subtask_transition": {
+    "id": "R1",
+    "from": "IN_PROGRESS",
+    "to": "UPLOAD_VERIFIED",
+    "state_updated_utc": "2026-10-09T10:05:20.914165+00:00",
+    "prerequisite": "All nine remote payload files and all eight authenticated Release downloads verified"
+  },
+  "scientific_status": {
+    "Stage04": "INTERRUPTED_OUTCOME_UNKNOWN_SCIENTIFICALLY_INCOMPLETE",
+    "Stages05_07": "NOT_RUN",
+    "new_science": "NOT_RUN",
+    "old_native_exit": null,
+    "old_controller_exit": null,
+    "old_anonymous_job_terminal_accounting": "UNKNOWN",
+    "old_job_closure": "UNKNOWN",
+    "numeric_or_adapter_adoption": "NOT_PERFORMED"
+  },
+  "corrected_current_context": {
+    "saved_cache_records": 50,
+    "saved_cache_bytes": 790572,
+    "saved_cache_sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42",
+    "saved50_status": "SOURCE_REVIEWED_NOT_ADOPTED_ACTUAL_V11_CONTEXT_PENDING",
+    "selector_policy": "Unchanged adopted scientific selector; generic opaque shells outside it are not a blanket blocker. Fresh scientific admission not run."
+  },
+  "supplied_resource_point_only": {
+    "path": "memory_point_20261009T094340.json",
+    "sha256": "a9ff58a5c167342eb35e54b9cad8dda72b57498a348bd69b07d4106650d5cb86",
+    "utc": "2026-10-09T09:43:40.757183+00:00",
+    "AvailableBytes": 2887262208,
+    "required": 4831838208,
+    "scientific_gate_at_point": "FAIL",
+    "resource_probe_rerun": false
+  },
+  "limits": [
+    "Evidence/proposal publication only, not full Stage04 scientific completion",
+    "Old frozen supplied limits remain historical; current handoff/saved50 context supersedes them",
+    "Receipt refers to verified payload commit, never its own hash/final commit; final receipt/subtasks verification is recorded externally",
+    "No native processes/tasks/guests/tests/adapters launched or adopted; no token reset or private transcript publication"
+  ]
+}
