@@ -1,4 +1,4 @@
-"""Fixed-role Win32 identities for the separately reviewed V9 recovery protocol."""
+"""Fixed-role Win32 identities for the separately reviewed V10 recovery protocol."""
 from pathlib import Path
 import ctypes as c
 from ctypes import wintypes as t
@@ -8,11 +8,12 @@ import stage04_windows_job_v6 as J
 
 ROOT=Path(__file__).resolve().parents[1]
 HISTORY=Path(r'C:\Users\wheel\Documents\Codex\2026-10-08\lab-rm-phylogenomics-196')
-RUNTIME=HISTORY/'.work/stage04_recovery_v9'
+RUNTIME=HISTORY/'.work/stage04_recovery_v10'
 LOCK=HISTORY/'.work/workflow.lock'
-REPORT=ROOT/'reports/stage04/recovery_v9'
+REPORT=ROOT/'reports/stage04/recovery_v10'
+NEGATIVE=ROOT/'reports/stage04/recovery_v9/failed_attempt_reconciliation_v1.json'
 OLD=ROOT/'.work/stage04_inference_windows_v6'
-OUT=ROOT/'.work/stage04_inference_windows_v9'
+OUT=ROOT/'.work/stage04_inference_windows_v10'
 PYTHON=Path(r'C:\Users\wheel\AppData\Local\Python\pythoncore-3.14-64\python.exe')
 PYTHONW=PYTHON.with_name('pythonw.exe')
 VALIDATOR=HISTORY/'.tools/validation_env/Scripts/python.exe'
@@ -103,7 +104,7 @@ def isolation(runtime):
     # provider, inside a bounded owned query job. This is an explicit alternative
     # evidence method, not an inference from access denied. Old-descendant
     # reconciliation still uses strict Win32 handles and rejects access errors.
-    import stage04_windows_job_v9 as J9
+    import stage04_windows_job_v10 as J9
     query=Path(runtime)/'ancestor_query'
     ps="$ErrorActionPreference='Stop'; @(Get-CimInstance Win32_Process | ForEach-Object { [pscustomobject]@{pid=$_.ProcessId;parent_pid=$_.ParentProcessId;basename=$_.Name;creation_filetime_microsecond_precision=if($_.CreationDate){$_.CreationDate.ToUniversalTime().ToFileTimeUtc()}else{$null}} }) | ConvertTo-Json -Depth 4 -Compress"
     result=J9.run_job(['C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe','-NoProfile','-NonInteractive','-Command',ps],
@@ -170,3 +171,53 @@ def publish(paths,message):
         raw=command(['git','show','origin/main:'+rel]);sha=hashlib.sha256(raw).hexdigest()
         C.check(sha==C.digest(ROOT/rel),'Published byte readback differs: '+rel);checks[rel]=sha
     return {'utc':C.now(),'status':'REMOTE_MAIN_BYTES_VERIFIED','commit':head,'file_sha256':checks}
+
+def held_lock_matches_negative(lock):
+    current=lock_identity(lock);expected=C.load(NEGATIVE)['exclusive_writer_boundary']
+    C.check(current==expected,'Stable-C lock file identity differs from certified boundary; no retry')
+    return current
+
+def live_scheduler_binding(config_path,runtime):
+    """Live COM definition/instance proves origin; saved start JSON is insufficient."""
+    import stage04_windows_job_v10 as J10
+    import xml.etree.ElementTree as ET
+    request=C.load(Path(runtime)/'task_request.json');started=C.load(Path(runtime)/'task_start.json')
+    config=C.load(config_path)
+    C.check(C.digest(config_path)==request['config_sha256'] and str(Path(config_path))==request['config'] and
+      config['runtime']==str(runtime)==request['runtime'] and config['task_name']==request['task_name'],
+      'Actual loaded config/runtime/request identity differs')
+    shell=c.WinDLL('shell32',use_last_error=True)
+    parse=J.bind(shell,'CommandLineToArgvW',c.POINTER(t.LPWSTR),[t.LPCWSTR,c.POINTER(c.c_int)])
+    getcmd=J.bind(K,'GetCommandLineW',t.LPWSTR,[]);free=J.bind(K,'LocalFree',t.HANDLE,[t.HANDLE])
+    argc=c.c_int();args=parse(getcmd(),c.byref(argc));J.ok(args,'Actual process command line parse')
+    try:actual_argv=[args[i] for i in range(argc.value)]
+    finally:free(c.cast(args,t.HANDLE))
+    C.check(actual_argv==[request['executable'],*request['argv']],'Actual direct action argv differs from requested Scheduler action')
+    C.check(C.digest(request['executable'])==request['executable_sha256'],'Actual controller interpreter bytes differ')
+    script="$ErrorActionPreference='Stop'; $s=New-Object -ComObject Schedule.Service; $s.Connect(); $t=$s.GetFolder('\\').GetTask('"+request['task_name']+"'); $d=$t.Definition; $runs=@($s.GetRunningTasks(1) | Where-Object {$_.Name -eq '"+request['task_name']+"'} | ForEach-Object {[pscustomobject]@{engine_pid=$_.EnginePID;instance_guid=$_.InstanceGuid;state=$_.State}}); [pscustomobject]@{xml=$t.Xml;user_id=$d.Principal.UserId;logon_type=$d.Principal.LogonType;run_level=$d.Principal.RunLevel;triggers=$d.Triggers.Count;restarts=$d.Settings.RestartCount;time_limit=$d.Settings.ExecutionTimeLimit;multiple_instances=$d.Settings.MultipleInstances;exe=$d.Actions.Item(1).Path;arguments=$d.Actions.Item(1).Arguments;cwd=$d.Actions.Item(1).WorkingDirectory;runs=$runs} | ConvertTo-Json -Depth 6 -Compress"
+    directory=Path(runtime)/'live_scheduler_query'
+    result=J10.run_job([r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe','-NoProfile','-NonInteractive','-Command',script],ROOT,
+      directory,cap_bytes=256*1024**2,deadline_seconds=20,role='BOUNDED_LIVE_SCHEDULER_IDENTITY_QUERY')
+    C.check(result['exit_code']==0,'Live Scheduler identity query failed')
+    actual=json.loads((directory/'stdout.txt').read_text(encoding='utf-8-sig'))
+    ns={'t':'http://schemas.microsoft.com/windows/2004/02/mit/task'}
+    sid=ET.fromstring(actual['xml']).find('t:Principals/t:Principal/t:UserId',ns).text
+    C.check(hashlib.sha256(b'\xff\xfe'+actual['xml'].encode('utf-16le')).hexdigest()==request['definition_sha256'] and
+      sid==request['sid'] and actual['exe']==request['executable'] and actual['arguments']==request['arguments'] and actual['cwd']==request['cwd'] and
+      actual['logon_type']==3 and actual['run_level']==0 and actual['triggers']==actual['restarts']==0 and
+      actual['time_limit']=='PT0S' and actual['multiple_instances']==2,'Actual live principal/action/settings differ')
+    matches=[r for r in actual['runs'] if r['engine_pid']==os.getpid() and r['instance_guid']==started['instance_guid']]
+    C.check(len(matches)==1 and started['engine_pid']==os.getpid(),'Actual live Scheduler instance does not own this controller')
+    return {'utc':C.now(),'actual_process_argv':actual_argv,'actual_task_definition_sha256':request['definition_sha256'],
+      'actual_sid':sid,'live_instance':matches[0],'query_real_exit_sha256':C.digest(directory/'exit.json'),'config_sha256':C.digest(config_path)}
+
+def scope_binding(name):
+    C.check(name in NAMES,'Unknown production scope')
+    old=C.load(OLD/'inference_freeze.json');prefix='data:.work/stage04_phylogeny_v2/analyses/'+name+'/'
+    expected={k:v for k,v in old['source_identity']['file_sha256'].items() if k.startswith(prefix)}
+    C.check(prefix+'concatenated.faa' in expected and prefix+'partitions.nex' in expected,'Missing original accepted scope input hashes')
+    for key,sha in expected.items():C.check(C.digest(ROOT/key.split(':',1)[1])==sha,'Accepted per-scope input changed: '+key)
+    tool=old['tool_identity'];exe=Path(old['executable']);dll=exe.parent/'libiomp5md.dll'
+    C.check(C.digest(exe)==tool['executable_sha256'] and C.digest(dll)==tool['openmp_dll_sha256'],'Original official IQTREE executable/DLL changed')
+    return {'scope':name,'original_freeze_sha256':FREEZE_SHA,'accepted_input_sha256':expected,
+      'actual_iqtree_executable_sha256':C.digest(exe),'actual_runtime_dll_sha256':C.digest(dll)}

@@ -16,3 +16,5 @@ IQ-TREE primary196 exited1 at2026-10-08T23:30:02.6498313Z, independently observe
 | 7_final_review | NOT_RUN | NOT_RUN | NOT_RUN |
 
 See reports/stage04/recovery_v9/failed_attempt_reconciliation_v1.json. Private session traces are excluded.
+
+Recovery update 2026-10-09T01:00:01.702269+00:00: V9 preserved; parent decision REPAIR_REQUIRED. New V10 candidate repairs and28 guards/actual overlapping-stdio fixture completed. Required120-second original-CLI-exit lifetime proof and final hash-bound parent acceptance remain pending. Production remains FAILED/INCOMPLETE;05–07 NOT_RUN.

@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-09T00:22:34.994458+00:00",
+  "status": "FAIL_CONTROL_QUERY_POST_EXIT_IMAGE_QUERY_NOT_AVAILABLE",
+  "biological_jobs": 0,
+  "runtime": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\fixture\\LAB_RM_Stage04_V9_fixture_520674ad9893",
+  "controller_exception": {
+    "utc": "2026-10-09T00:21:41.049227+00:00",
+    "kind": "PermissionError",
+    "message": "[WinError 31] QueryFullProcessImageNameW",
+    "controller_pid": 12376,
+    "ordinary_controller_closure": "NOT_EMITTED",
+    "mode": "fixture"
+  },
+  "query_exception": {
+    "utc": "2026-10-09T00:21:41.042619+00:00",
+    "kind": "PermissionError",
+    "message": "[WinError 31] QueryFullProcessImageNameW",
+    "role": "BOUNDED_WMI_ANCESTRY_IDENTITY_QUERY",
+    "launch_present": true,
+    "ordinary_exit_emitted": false,
+    "last_actual_job_state": {
+      "peak_process_committed_bytes": 65544192,
+      "peak_job_committed_bytes": 66691072,
+      "job_cpu_seconds": 0.40625,
+      "job_active_processes": 2,
+      "job_total_processes": 2,
+      "actual_job_process_ids": [
+        6988,
+        27908
+      ],
+      "utc": "2026-10-09T00:21:40.906224+00:00",
+      "child_pid": 6988,
+      "creation_filetime": 134359789003847240,
+      "wall_seconds": 0.5244133999985934,
+      "cpu_seconds": 0.40625,
+      "working_set_bytes": 80080896,
+      "peak_working_set_bytes": 80625664,
+      "private_committed_bytes": 65511424,
+      "process_exited": false,
+      "actual_exit_code": null,
+      "exit_filetime": 0
+    },
+    "native_disposition": "OWNED_JOB_TERMINATION_ON_CONTROL_FAILURE"
+  },
+  "support_sha256": "3e3f56aeb977e276c208bf43d7a217d2f8c85db7a4b82b253e62ca24735f0324",
+  "job_sha256": "0bc22a471861468a3025347cb4b24fc8823ee9fcab4888ee098af599a0eb3d30",
+  "ordinary_controller_closure": "ABSENT"
+}

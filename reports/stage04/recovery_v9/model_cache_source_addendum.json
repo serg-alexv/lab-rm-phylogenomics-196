@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-09T00:45:30.243234+00:00",
+  "official_github_api_url": "https://api.github.com/repos/iqtree/iqtree3/contents/main/phylotesting.cpp?ref=v3.1.4",
+  "official_git_blob_sha1": "317908081d549f3d0a2e0a040b6fc5a74789ebe3",
+  "downloaded_source_sha256": "cfae774d65f4cc0b402cdfd5c9b04575749f01f086637d2a186088ef054ab025",
+  "actual_source_references": {
+    "separate_model_load": [
+      1398,
+      1403
+    ],
+    "finished_fast_ml_restore": [
+      811,
+      815
+    ],
+    "candidate_evaluate_early_return_on_saved_model": [
+      1974,
+      1977
+    ],
+    "all_partition_checkpoint_job_pruning_returns_without_pruning": [
+      4198,
+      4203
+    ]
+  },
+  "interpretation": "The saved candidate restores before optimization and returns when present. Partition progress may still count restored candidates;14 completed best-model entries do not imply a blanket14-partition skip. Native new-prefix model-load and fast-ML restoration messages remain mandatory.",
+  "actual_native_reuse": "NOT_RUN_REQUIRES_PARENT_ADOPTION_AND_ACTUAL_TOOL_OUTPUT"
+}

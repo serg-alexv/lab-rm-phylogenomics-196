@@ -1,0 +1,177 @@
+{
+  "schema": "V9_ACTUAL_SCHEDULER_SHORT_SYNTHETIC_LIFETIME_FIXTURE",
+  "utc": "2026-10-09T00:41:19.453715+00:00",
+  "status": "PASS_SHORT_SYNTHETIC_SCHEDULER_LIFETIME_AND_EMPTY_NATIVE_JOB_OUTER_JOB_PARENT_REVIEW_REQUIRED",
+  "biological_jobs": 0,
+  "independent_observer_pid": 17388,
+  "independent_second_invocation_utc": "2026-10-09T00:40:41.033751+00:00",
+  "starter_receipt_utc": "2026-10-09T00:40:37.0690139Z",
+  "first_child_tick": {
+    "utc": "2026-10-09T00:40:40.798791+00:00",
+    "tick": 2,
+    "pid": 27584,
+    "wall_seconds": 2.008518599999661
+  },
+  "later_child_tick": {
+    "utc": "2026-10-09T00:40:42.808141+00:00",
+    "tick": 3,
+    "pid": 27584,
+    "wall_seconds": 4.017881600000692
+  },
+  "actual_controller_bound_exit": {
+    "pid": 9968,
+    "creation_filetime": 134359800370741879,
+    "exit_filetime": 134359800794098843,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+    "executable_identity_source": "RETAINED_SAME_HANDLE_LIVE_IMAGE_QUERY",
+    "state": "EXITED",
+    "actual_exit_code": 0,
+    "cpu_seconds": 0.296875
+  },
+  "actual_native_exit": {
+    "utc": "2026-10-09T00:41:19.060664+00:00",
+    "runner_pid": 9968,
+    "runner_creation_filetime": 134359800370741879,
+    "child_pid": 27584,
+    "child_creation_filetime": 134359800385045703,
+    "argv": [
+      "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_fixture_v9.py",
+      "--runtime",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\fixture\\LAB_RM_Stage04_V9_fixture_089a39adeade"
+    ],
+    "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+    "actual_executable_sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38",
+    "actual_executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "job_bound_before_resume": true,
+    "actual_child_in_owned_job": true,
+    "actual_suspended_child_affinity_mask": 5,
+    "memory_kind": "WINDOWS_COMMITTED_MEMORY_NOT_LINUX_RLIMIT_AS",
+    "process_committed_memory_cap_bytes": 134217728,
+    "aggregate_job_committed_memory_cap_bytes": 134217728,
+    "affinity_mask": 5,
+    "allowed_logical_processors": 2,
+    "job_limit_flags": 8976,
+    "kill_child_job_on_owner_handle_close": true,
+    "spool_role": "historical:C_STABLE_RUNTIME",
+    "role": "SYNTHETIC_FIXTURE",
+    "wall_deadline_seconds": 55,
+    "ordinary_receipt_protocol": "V9_ACTUAL_EXIT_AND_QUERIED_EMPTY_JOB",
+    "peak_process_committed_bytes": 14782464,
+    "peak_job_committed_bytes": 31805440,
+    "job_cpu_seconds": 0.421875,
+    "job_active_processes": 0,
+    "job_total_processes": 4,
+    "actual_job_process_ids": [],
+    "creation_filetime": 134359800385045703,
+    "wall_seconds": 40.565854799999215,
+    "cpu_seconds": 0.265625,
+    "working_set_bytes": 20480,
+    "peak_working_set_bytes": 24186880,
+    "private_committed_bytes": 61440,
+    "process_exited": true,
+    "actual_exit_code": 0,
+    "exit_filetime": 134359800790551890,
+    "exit_code": 0,
+    "observational_errors": 0,
+    "actual_launch_receipt_sha256": "475fc3f14787a345b68d71420bead5bed3c4e046bfe70d596793f34609d1c7b2",
+    "receipt_kind": "ORDINARY_ACTUAL_NATIVE_EXIT_AND_EMPTY_OWNED_JOB"
+  },
+  "scheduler_isolation": {
+    "utc": "2026-10-09T00:40:38.406900+00:00",
+    "controller": {
+      "pid": 9968,
+      "creation_filetime": 134359800370741879,
+      "exit_filetime": 0,
+      "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+      "executable_identity_source": "ACTUAL_HANDLE_IMAGE_QUERY",
+      "state": "RUNNING",
+      "actual_exit_code": null,
+      "cpu_seconds": 0.09375,
+      "recorded_creation_filetime": null
+    },
+    "is_process_in_job_null": true,
+    "ancestors": [
+      {
+        "pid": 2564,
+        "parent_pid": 1704,
+        "basename": "svchost.exe",
+        "creation_filetime_microsecond_precision": 134359516014242530
+      },
+      {
+        "pid": 1704,
+        "parent_pid": 1576,
+        "basename": "services.exe",
+        "creation_filetime_microsecond_precision": 134359516003452120
+      },
+      {
+        "pid": 1576,
+        "parent_pid": 1268,
+        "basename": "wininit.exe",
+        "creation_filetime_microsecond_precision": 134359516002235920
+      }
+    ],
+    "codex_cli_ancestor": false,
+    "silent_breakaway": false,
+    "ancestry_terminal": {
+      "pid": 1268,
+      "reason": "RECORDED_PARENT_PID_REUSED_AFTER_CHILD_CREATION",
+      "actual_creation_filetime_microsecond_precision": 134359516012138680,
+      "child_creation_filetime": 134359516002235920
+    },
+    "ancestor_identity_method": "Win32_Process permitted WMI metadata; creation precision is microseconds, not native100ns",
+    "ancestor_query_real_exit_sha256": "a0fec0151bf8c679c2d573510e992edce3abb42b7590e96442f782345997a4b9",
+    "actual_outer_job": {
+      "queried_using": "QueryInformationJobObject(NULL) in actual controller",
+      "name_or_owner_handle": "NOT_AVAILABLE_FROM_THIS_API",
+      "limit_flags": 0,
+      "process_committed_cap_bytes": 0,
+      "aggregate_job_committed_cap_bytes": 0,
+      "affinity_mask": 0,
+      "active_processes": 4,
+      "process_ids": [
+        6504,
+        4840,
+        9968,
+        1276
+      ],
+      "origin": "NOT_PROVED_BY_IsProcessInJob_ALONE",
+      "lifetime_review": "REQUIRED_HASH_BOUND_PARENT_ACCEPTANCE_BEFORE_PRODUCTION"
+    }
+  },
+  "publication_failure": {
+    "utc": "2026-10-09T00:40:39.381938+00:00",
+    "publisher_exit_code": 23,
+    "actual_empty_publisher_job": true,
+    "fixture_injected_failure": true,
+    "native_lifecycle_affected": false
+  },
+  "file_sha256": {
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/actual_task_definition.xml": "352244544e417f02feb13ad99b159749a3d514d922062efcf0109bab6d1f20a9",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/actual_task_query.json": "0c269da3e73496a291f7d738571c17f9623b2f69f443d07b284cb603f32ff2c8",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/task_start.json": "723192b6e4226c277004a79157f57e2544f87effbb983d68fec8e336a0c8c09a",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/controller_binding.json": "872fd7f2bf332628e8587af13238fc31caf4d1f7e84ba98f6669141165dc6afa",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/isolation.json": "37861e2318e2b02bc0ddbf7d50a5bf12b17d28354fe65a536976775aeb72e040",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/topology.json": "6671bce7186571782066b241f725d42a9cb86f963dd3665fdfb3b14f28b90597",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/native_attempt/launch.json": "475fc3f14787a345b68d71420bead5bed3c4e046bfe70d596793f34609d1c7b2",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/native_attempt/exit.json": "c8cc87f6bcd7400c4c8010ace13bda766f84f5f3396bb001db3afe27b1bef476",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/controller_closure.json": "44ad25ee569c5228626ca9fd2c9677dca7a3e11395cde3e11ceeaa5e47a5fde6",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/fixture_grandchild.json": "7a4c531121d634ceb07865190eaa09ad24ac84f1d37685a7e711b2f8723a3c71",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/fixture_publisher_failure.json": "8f3fab536c662d2aa724afe7b458fa5c3be1881a39e2cb1d1a1886a33a930435",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/outbox_publication_latest.json": "10b52a534946867a90025438d81c982619de874da16b4798895e62a2050a2a47",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/publishers/attempt_0001/launch.json": "fe59d711005c1e2f6cc6f0a2d27c3a242ad08cea5467bb86502a90fd39537c99",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/publishers/attempt_0001/exit.json": "bf15678c394cf878585558a4f07e2ca715b6fdf3141676f9701c01d786e94aca"
+  },
+  "source_sha256": {
+    "data:scripts/stage04_recovery_controller_v9.py": "62dbe53e11a5bf4d7304e7d726e5d7d4872521ae5e1d380f7be0f9da1b0a6815",
+    "data:scripts/stage04_windows_job_v9.py": "5816ab16a8017c2740cea499206f7176f1042f74cb97a73295f2f39e278c6643",
+    "data:scripts/stage04_recovery_support_v9.py": "1ec25f52591ad1bc9f247c933e7f3d8081695c86580202f704c6945afb6d6d79",
+    "data:scripts/stage04_recovery_fixture_v9.py": "451b8f642d8b76c4060ea8387165ff48782f1ee0d94bedf5cf9e677d6987942b",
+    "data:scripts/stage04_recovery_outbox_v9.py": "bb709b3b74503e82a4ff323d98c615bf010fe48d6c235440686b0a3775a1823c",
+    "data:scripts/stage04_recovery_publisher_v9.py": "5fea335924b3135bcf393077aa8cda3c20e107e45a20e60714570da07c19bad5",
+    "data:scripts/register_stage04_recovery_task_v9.ps1": "b8888ac67341ff0d050e8f7ebfe506d7fd0ede6c6640fd6ca9b0ff9959c7be25",
+    "data:scripts/start_stage04_recovery_task_v9.ps1": "a02d61e18b7c26b5d3f421f287a05d474de2d9b955c78418453158ca501557ef",
+    "data:scripts/check_stage04_recovery_fixture_v9.py": "96e78f6e6da838a0462743dcdb4e5665f2494d600a292cbf2f68139e41fdb827"
+  },
+  "scientific_acceptance": "NOT_ESTABLISHED_BY_SYNTHETIC_FIXTURE"
+}

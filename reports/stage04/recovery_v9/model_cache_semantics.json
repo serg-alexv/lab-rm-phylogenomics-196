@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-09T00:28:06.551710+00:00",
+  "status": "OFFICIAL_SOURCE_AND_RETAINED_CACHE_INSPECTED_NO_NATIVE_REUSE_YET",
+  "official_source_url": "https://raw.githubusercontent.com/iqtree/iqtree3/v3.1.4/main/phylotesting.cpp",
+  "official_source_sha256": "cfae774d65f4cc0b402cdfd5c9b04575749f01f086637d2a186088ef054ab025",
+  "official_source_bytes": 311823,
+  "source_line_references": {
+    "model_info.setFileName((string)params.out_prefix + \".model.gz\")": [
+      1398,
+      7061
+    ],
+    "ok_model_file = model_info.load()": [
+      1403,
+      7065
+    ],
+    "finishedFastMLTree": [
+      811,
+      872
+    ],
+    "CandidateModelSet::test": [
+      3107
+    ],
+    "restoreCheckpoint(&model_info)": [
+      2238,
+      2695
+    ]
+  },
+  "retained_cache_sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+  "retained_cache_bytes": 418807,
+  "best_model_BIC_records": 14,
+  "best_model_BIC_values": [
+    "LG+I+G4",
+    "LG+F+R5",
+    "LG+R6",
+    "Q.YEAST+F+R5",
+    "Q.PFAM+I+G4",
+    "Q.PFAM+F+I+G4",
+    "LG+F+I+R5",
+    "LG+I+R5",
+    "LG+F+R5",
+    "LG+R5",
+    "LG+F+I+G4",
+    "WAG+F+I+G4",
+    "WAG+F+R5",
+    "LG+I+R5"
+  ],
+  "finishedFastMLTree_true": true,
+  "general_checkpoint": "ABSENT",
+  "native_cache_reuse": "NOT_OBSERVED_NEW_PRODUCTION_NOT_STARTED",
+  "new_required_runtime_evidence": [
+    "Exact tool message restoring model checkpoint at the new prefix",
+    "Fast-ML checkpoint tree-restoration message",
+    "New real native exit0 and unchanged four-scope scientific audit"
+  ],
+  "interpretation": "Separate model cache loads independently of host.ckp.gz. Saved fast-ML tree state can restore the initial tree. Per-candidate model checkpoint restoration must be inspected; completed partition counts alone do not prove all per-partition work is skipped.",
+  "scientific_jobs": 0
+}

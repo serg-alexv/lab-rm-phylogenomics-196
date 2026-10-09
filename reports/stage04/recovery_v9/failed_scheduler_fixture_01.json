@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-09T00:19:22.637323+00:00",
+  "status": "FAIL_CLOSED_BEFORE_NATIVE_ANCESTRY_PID_SNAPSHOT_CYCLE",
+  "biological_jobs": 0,
+  "runtime": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\fixture\\LAB_RM_Stage04_V9_fixture_e49c96152940",
+  "controller_exception": {
+    "utc": "2026-10-09T00:18:09.452207+00:00",
+    "kind": "ValueError",
+    "message": "Cyclic ancestor snapshot",
+    "controller_pid": 23276,
+    "ordinary_controller_closure": "NOT_EMITTED",
+    "mode": "fixture"
+  },
+  "original_fixture_source_sha256": {
+    "scripts/stage04_recovery_support_v9.py": "899e646b1de8822d1f66dc7e43672468408d8ac317b6fbec839936214406853b",
+    "scripts/stage04_recovery_fixture_v9.py": "451b8f642d8b76c4060ea8387165ff48782f1ee0d94bedf5cf9e677d6987942b",
+    "scripts/register_stage04_recovery_task_v9.ps1": "b8888ac67341ff0d050e8f7ebfe506d7fd0ede6c6640fd6ca9b0ff9959c7be25",
+    "scripts/start_stage04_recovery_task_v9.ps1": "a02d61e18b7c26b5d3f421f287a05d474de2d9b955c78418453158ca501557ef",
+    "scripts/stage04_recovery_controller_v9.py": "7b019a2278a436384a49006caa7ea9048acf9def0011428dd532b4ab8f91f8cd",
+    "scripts/stage04_recovery_outbox_v9.py": "bb709b3b74503e82a4ff323d98c615bf010fe48d6c235440686b0a3775a1823c",
+    "scripts/stage04_recovery_publisher_v9.py": "d46eb227fbd537199ffbbdbbfdc9de9dc558cdc46042573c567751ff2340bb28",
+    "scripts/stage04_recovery_validate_v9.py": "b1c7903c1c6bef4662dc5f9848cc6b0ea326a9bb51fffe2c2417fccb3f057dd4",
+    "scripts/prepare_stage04_recovery_tasks_v9.py": "bebf56ab621fabac8afb664641285576480df3f8adf16cffa9dce6b6f760b450",
+    "scripts/check_stage04_recovery_fixture_v9.py": "d5a8f440b8d52859be4e1fb7634c87d4449aeb38ac23d02b14cd522143d6a153",
+    "scripts/query_stage04_recovery_task_v9.ps1": "ebd797e60b6d567d5534d1d7c1738e386022e2159257f8bf72a5c02cbabc42fa",
+    "scripts/stage04_windows_job_v9.py": "0bc22a471861468a3025347cb4b24fc8823ee9fcab4888ee098af599a0eb3d30",
+    "config/host_inference_stage04_recovery_v9_fixture.json": "6ca9ede8bbab4ec16fe5899cef514844832f8c3e8d8d84cf938e0a8d7c3c64d2"
+  },
+  "ordinary_native_exit": "ABSENT_NO_NATIVE_CREATED",
+  "ordinary_controller_closure": "ABSENT"
+}

@@ -1,0 +1,161 @@
+{
+  "utc": "2026-10-09T00:59:55.791442+00:00",
+  "status": "PASS_OVERLAPPING_PREPARATION_SERIALIZED_INHERITANCE_NO_FOREIGN_STDIO",
+  "biological_jobs": 0,
+  "runtime": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\stdio_overlap\\f485483c361448049a3ecb642a4b51db",
+  "helper_sha256": "bfff3f6e88fe871e4a692fd9f1017c77d902c97ffc0260e15b1cede629f8ee67",
+  "source_sha256": "24f3f0b4671589041c3bd07f4de61ca22d86ecf78d7a212094b760afd0c6c6a6",
+  "actual_jobs": [
+    {
+      "utc": "2026-10-09T00:59:55.760378+00:00",
+      "runner_pid": 30356,
+      "runner_creation_filetime": 134359811946984246,
+      "child_pid": 26348,
+      "child_creation_filetime": 134359811952915647,
+      "argv": [
+        "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\test_stage04_stdio_overlap_v10.py",
+        "--child",
+        "a",
+        "--directory",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\stdio_overlap\\f485483c361448049a3ecb642a4b51db"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "actual_executable_sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38",
+      "actual_executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "job_bound_before_resume": true,
+      "actual_child_in_owned_job": true,
+      "actual_suspended_child_affinity_mask": 5,
+      "memory_kind": "WINDOWS_COMMITTED_MEMORY_NOT_LINUX_RLIMIT_AS",
+      "process_committed_memory_cap_bytes": 134217728,
+      "aggregate_job_committed_memory_cap_bytes": 134217728,
+      "affinity_mask": 5,
+      "allowed_logical_processors": 2,
+      "job_limit_flags": 8976,
+      "kill_child_job_on_owner_handle_close": true,
+      "spool_role": "historical:C_STABLE_RUNTIME",
+      "role": "SYNTHETIC_STDIO_OVERLAP",
+      "wall_deadline_seconds": 20,
+      "ordinary_receipt_protocol": "V10_ACTUAL_EXIT_AND_QUERIED_EMPTY_JOB",
+      "peak_process_committed_bytes": 16568320,
+      "peak_job_committed_bytes": 17727488,
+      "job_cpu_seconds": 0.25,
+      "job_active_processes": 0,
+      "job_total_processes": 2,
+      "actual_job_process_ids": [],
+      "creation_filetime": 134359811952915647,
+      "wall_seconds": 0.48512599999958184,
+      "cpu_seconds": 0.234375,
+      "working_set_bytes": 20480,
+      "peak_working_set_bytes": 25100288,
+      "private_committed_bytes": 61440,
+      "process_exited": true,
+      "actual_exit_code": 0,
+      "exit_filetime": 134359811957555778,
+      "exit_code": 0,
+      "observational_errors": 0,
+      "actual_launch_receipt_sha256": "204004fb10310a14bc667f7309c63be552aa208ec6edc4d34bb54a9b9842026f",
+      "receipt_kind": "ORDINARY_ACTUAL_NATIVE_EXIT_AND_EMPTY_OWNED_JOB"
+    },
+    {
+      "utc": "2026-10-09T00:59:55.763832+00:00",
+      "runner_pid": 30356,
+      "runner_creation_filetime": 134359811946984246,
+      "child_pid": 29344,
+      "child_creation_filetime": 134359811953013406,
+      "argv": [
+        "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\test_stage04_stdio_overlap_v10.py",
+        "--child",
+        "b",
+        "--directory",
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\stdio_overlap\\f485483c361448049a3ecb642a4b51db"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "actual_executable_sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38",
+      "actual_executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "job_bound_before_resume": true,
+      "actual_child_in_owned_job": true,
+      "actual_suspended_child_affinity_mask": 5,
+      "memory_kind": "WINDOWS_COMMITTED_MEMORY_NOT_LINUX_RLIMIT_AS",
+      "process_committed_memory_cap_bytes": 134217728,
+      "aggregate_job_committed_memory_cap_bytes": 134217728,
+      "affinity_mask": 5,
+      "allowed_logical_processors": 2,
+      "job_limit_flags": 8976,
+      "kill_child_job_on_owner_handle_close": true,
+      "spool_role": "historical:C_STABLE_RUNTIME",
+      "role": "SYNTHETIC_STDIO_OVERLAP",
+      "wall_deadline_seconds": 20,
+      "ordinary_receipt_protocol": "V10_ACTUAL_EXIT_AND_QUERIED_EMPTY_JOB",
+      "peak_process_committed_bytes": 16449536,
+      "peak_job_committed_bytes": 17604608,
+      "job_cpu_seconds": 0.234375,
+      "job_active_processes": 0,
+      "job_total_processes": 2,
+      "actual_job_process_ids": [],
+      "creation_filetime": 134359811953013406,
+      "wall_seconds": 0.48826700000063283,
+      "cpu_seconds": 0.234375,
+      "working_set_bytes": 20480,
+      "peak_working_set_bytes": 25001984,
+      "private_committed_bytes": 61440,
+      "process_exited": true,
+      "actual_exit_code": 0,
+      "exit_filetime": 134359811957580044,
+      "exit_code": 0,
+      "observational_errors": 0,
+      "actual_launch_receipt_sha256": "ffd8bc814df6a826d768b5b0503056dd124e2d5f1614a8ac200f5ef403771e05",
+      "receipt_kind": "ORDINARY_ACTUAL_NATIVE_EXIT_AND_EMPTY_OWNED_JOB"
+    }
+  ],
+  "child_probes": {
+    "a": {
+      "utc": "2026-10-09T00:59:55.729098+00:00",
+      "status": "NO_FOREIGN_STDIO_FILE_OBJECT_INHERITED",
+      "pid": 26348,
+      "probes": [
+        {
+          "foreign_handle": 584,
+          "expected_foreign_file": {
+            "volume": 2430728143,
+            "file_index": 1688849860343194
+          },
+          "actual_child_object": null
+        },
+        {
+          "foreign_handle": 588,
+          "expected_foreign_file": {
+            "volume": 2430728143,
+            "file_index": 1688849860343196
+          },
+          "actual_child_object": null
+        }
+      ]
+    },
+    "b": {
+      "utc": "2026-10-09T00:59:55.729098+00:00",
+      "status": "NO_FOREIGN_STDIO_FILE_OBJECT_INHERITED",
+      "pid": 29344,
+      "probes": [
+        {
+          "foreign_handle": 568,
+          "expected_foreign_file": {
+            "volume": 2430728143,
+            "file_index": 1688849860343195
+          },
+          "actual_child_object": null
+        },
+        {
+          "foreign_handle": 552,
+          "expected_foreign_file": {
+            "volume": 2430728143,
+            "file_index": 3377699720607149
+          },
+          "actual_child_object": null
+        }
+      ]
+    }
+  },
+  "prepared_handle_objects_sha256": "81607c8b46501ecbbab99e9cd2c22b21e3c3de1d191837747cbc7251ef42b9db"
+}

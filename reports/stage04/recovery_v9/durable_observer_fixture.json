@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-09T00:45:30.206591+00:00",
+  "status": "PASS_DIRECT_SCHEDULER_READ_ONLY_OBSERVER_ACTUAL_BOUND_CONTROLLER_EXIT0",
+  "controller_actual_exit": {
+    "utc": "2026-10-09T00:41:19.414774+00:00",
+    "status": "ACTUAL_BOUND_CONTROLLER_EXIT_OBSERVED",
+    "process": {
+      "pid": 9968,
+      "creation_filetime": 134359800370741879,
+      "exit_filetime": 134359800794098843,
+      "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+      "executable_identity_source": "RETAINED_SAME_HANDLE_LIVE_IMAGE_QUERY",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "cpu_seconds": 0.296875
+    },
+    "binding_sha256": "af5dabab5a4b8ea2e83099029161bfe893c5a3aa280b6cf59231f634c0052dc6",
+    "scientific_validation": "NOT_PERFORMED_BY_OBSERVER",
+    "cause": "NOT_ESTABLISHED"
+  },
+  "observer_binding": {
+    "utc": "2026-10-09T00:40:38.542825+00:00",
+    "actual_controller": {
+      "pid": 9968,
+      "creation_filetime": 134359800370741879,
+      "exit_filetime": 0,
+      "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+      "executable_identity_source": "ACTUAL_HANDLE_IMAGE_QUERY",
+      "state": "RUNNING",
+      "actual_exit_code": null,
+      "cpu_seconds": 0.109375
+    },
+    "read_handle_access": 1052672,
+    "termination_rights": false,
+    "source_sha256": "54b3e34ca09c0acb93b2eb2bc523a4500a10fc5dcb14c19940b66b38db023d70",
+    "actual_scheduler_observer": {
+      "actual_process": {
+        "pid": 1276,
+        "creation_filetime": 134359800372373145,
+        "exit_filetime": 0,
+        "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "executable_identity_source": "ACTUAL_HANDLE_IMAGE_QUERY",
+        "state": "RUNNING",
+        "actual_exit_code": null,
+        "cpu_seconds": 0.09375,
+        "recorded_creation_filetime": null
+      },
+      "scheduler_instance_guid": "{A4D7260C-375F-4639-82F9-77CB95C44046}",
+      "definition_sha256": "ca4eefca14e1ad31ec0c6d87301830d7cd9aa35fb02da687215552f30a79d067",
+      "runtime": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\observers\\LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+      "lifetime": "MANUAL_ZERO_TRIGGER_TASK_DIRECT_LONG_LIVED_READ_ONLY_OBSERVER"
+    }
+  },
+  "scientific_jobs": 0,
+  "file_sha256": {
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/independent_controller_exit.json": "fe94685456d2ccf012843928b1ba324aa600667e014c567ec59713ecb891e2db",
+    "historical:.work/stage04_recovery_v9/fixture/LAB_RM_Stage04_V9_fixture_089a39adeade/independent_controller_observer_binding.json": "af5dabab5a4b8ea2e83099029161bfe893c5a3aa280b6cf59231f634c0052dc6"
+  }
+}
