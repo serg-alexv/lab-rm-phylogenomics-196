@@ -1,0 +1,90 @@
+{
+  "schema": "STAGE05_GDRIVE_VIEW_PREPARATION_V2",
+  "utc": "2026-10-09T23:52:57.550970+00:00",
+  "state": "PASS_CORRECTED_SOURCE_AND_INDEPENDENT_PURE_CONTRACTS_ACTUAL_NOT_RUN",
+  "files": {
+    "stage5_gdrive_view.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view.py",
+      "bytes": 25233,
+      "sha256": "d324e5c513138641c1e3e3398a222e4579cec05a0c7fb47c9ffb55a56592ccda"
+    },
+    "test_stage5_gdrive_view.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_gdrive_view.py",
+      "bytes": 6129,
+      "sha256": "95f285ef0cabbea5468147d33f163ff58c2b1a9c70de691db04de7f3bad5241a"
+    },
+    "stage5_gdrive_view_before_late_failure_fix.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_before_late_failure_fix.py",
+      "bytes": 24367,
+      "sha256": "5de6922457437adc12212814b7f29b2570b1125d671476eca4bcc713f11351e7"
+    },
+    "test_stage5_gdrive_view_before_late_failure_fix.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_gdrive_view_before_late_failure_fix.py",
+      "bytes": 5122,
+      "sha256": "41cc0c857d9854b8075002477fd6cea225d69d7a745be4974d5d4bde7cd988cf"
+    },
+    "stage5_gdrive_view_after_late_failure_before_prelaunch.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_after_late_failure_before_prelaunch.py",
+      "bytes": 24662,
+      "sha256": "12433b85040764cea9956fa9a6deaf8dbad51c9d552ad41f8089559b9868e675"
+    },
+    "stage5_gdrive_view_METHODS.md": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_METHODS.md",
+      "bytes": 3468,
+      "sha256": "c23d52d8aa448ba6a8494ab8bf016928b2bcdab6d73df1b302d8b6968437c080"
+    },
+    "stage5_gdrive_view_preparation.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_preparation.json",
+      "bytes": 1821,
+      "sha256": "2c82550587ec073a86734bc6b86dae581326f9af80d16aa2c44a8f00dfc98df9"
+    },
+    "stage5_gdrive_view_METHODS02.md": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_METHODS02.md",
+      "bytes": 4239,
+      "sha256": "ee44c877e07cf28f653abb8e6253d9f7f7785022c7754a523e0977b1f60a8f8d"
+    },
+    "stage5_gdrive_view_independent_review.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_independent_review.json",
+      "bytes": 2535,
+      "sha256": "c22456f12c23597d30acccf73859623ea8191fb22b43930c599e242fa5fec88f"
+    }
+  },
+  "own_tests": {
+    "count": 10,
+    "exit_code": 0,
+    "reported_seconds": 0.017
+  },
+  "independent_tests": {
+    "count": 10,
+    "exit_code": 0,
+    "reported_seconds": 0.011,
+    "review_sha256": "c22456f12c23597d30acccf73859623ea8191fb22b43930c599e242fa5fec88f"
+  },
+  "default_noop_actual_check": {
+    "state": "PREPARED_NOT_RUN",
+    "WSL_launches": 0,
+    "mounts": 0
+  },
+  "root_reported_tests": {
+    "count": 10,
+    "exit_code": 0
+  },
+  "preserved_drafts_are_unexecuted": true,
+  "concrete_findings_resolved": [
+    "Late exception resets FAILED; independent terminal gate rejects errored/unknown PASS states",
+    "Existing Supervisor prelaunch callback rechecks exact unchanged empty underlay/topology and absentGroot after admission"
+  ],
+  "actual_g_access_wsl_mount_or_native_api_action_by_author": 0,
+  "actual_integration": "NOT_RUN",
+  "root_only_publication_and_actual_execution": true,
+  "scientific_adoption_authorized": false,
+  "actual_command_after_publication": [
+    "python",
+    "-B",
+    "work/stage5_gdrive_view.py",
+    "--run",
+    "--mount"
+  ],
+  "actual_spool_pattern": "work/stage5_gdrive_view_<32hex>/result.json",
+  "proposed_repository_path": "reports/master_run/20261009/stage5_gdrive_view/PREPARATION.json"
+}

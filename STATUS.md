@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:46:22.435872+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:53:25.461588+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -85,3 +85,5 @@ Actual operational update: Record actual toolchain04 and libc pidfd interop03 PA
 Current gates: toolchain04 and interop03 PASS; runtime05 FAILED at commit1,844,224,000B below1,879,048,192B, with no runtime candidate; storage02 FAILED before native launch with Windows-empty/Linux-missing G underlay. All four scopes have retained closure and original unlock. The actual hash phase and host-cache cause are unmeasured; targeted cache hints did not prevent this failure. User authorizes nonessential host app/service cleanup; reserve gates remain unchanged.
 
 Closed-genome and installed-runtime recovery packets are inactive source preparations. No actual runtime capture, cold restoration, genome archive or eviction gate has passed. Scientific detector/curation/figure execution remains NOT_RUN and the host is not wipe-ready.
+
+Actual operational update: Publish reviewed exact G drvfs visibility repair and fresh improved host resources; retain pre-execution review corrections

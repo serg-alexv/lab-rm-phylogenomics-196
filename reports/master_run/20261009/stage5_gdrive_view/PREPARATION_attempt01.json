@@ -1,0 +1,44 @@
+{
+  "schema": "STAGE05_GDRIVE_VIEW_PREPARATION_V1",
+  "utc": "2026-10-09T23:49:40.380849+00:00",
+  "state": "SOURCE_AND_PURE_TESTS_PASS_INDEPENDENT_PEER_PENDING",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view.py",
+      "bytes": 24367,
+      "sha256": "5de6922457437adc12212814b7f29b2570b1125d671476eca4bcc713f11351e7",
+      "suggested_repository_path": "scripts/master_run/stage5_gdrive_view.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_gdrive_view.py",
+      "bytes": 5122,
+      "sha256": "41cc0c857d9854b8075002477fd6cea225d69d7a745be4974d5d4bde7cd988cf",
+      "suggested_repository_path": "scripts/master_run/test_stage5_gdrive_view.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_METHODS.md",
+      "bytes": 3468,
+      "sha256": "c23d52d8aa448ba6a8494ab8bf016928b2bcdab6d73df1b302d8b6968437c080",
+      "suggested_repository_path": "reports/master_run/20261009/stage5_gdrive_view/stage5_gdrive_view_METHODS.md"
+    }
+  ],
+  "source_changes_to_frozen_scientific_helpers": 0,
+  "own_tests": {
+    "count": 8,
+    "exit_code": 0,
+    "reported_seconds": 0.062,
+    "scope": "OWN_C_BYTES_PURE_MOCK_METADATA_NO_NATIVE_APIS_G_OR_WSL"
+  },
+  "default_noop_actual_check": {
+    "exit_code": 0,
+    "state": "PREPARED_NOT_RUN",
+    "WSL_launches": 0,
+    "mounts": 0
+  },
+  "actual_g_or_wsl_mount_action": "NOT_RUN",
+  "actual_integration": "NOT_RUN",
+  "root_only_publication_and_actual_execution": true,
+  "scientific_adoption_authorized": false,
+  "actual_spool_pattern": "work/stage5_gdrive_view_<32hex>/result.json",
+  "proposed_repository_path": "reports/master_run/20261009/stage5_gdrive_view/PREPARATION.json"
+}
