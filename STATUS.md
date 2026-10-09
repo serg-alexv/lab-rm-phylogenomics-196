@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T22:56:41.306939+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T22:58:09.001387+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -42,3 +42,6 @@ Actual repair15 PASS: configuration SHA31b59c84, one actual owned WSL shutdown a
 Actual operational update: Preserve actual closed failed toolchain02 scope; publish reviewed bounded own-lease replacement and current exact setup pins
 
 Toolchain02 stays FAILED: Windows own-lease replacement returned WinError5; the actual Linux mount exited0, retained WSL exit0/native empty scope and original unlock are recorded, and no unproven STOP remains. Sharing contention is inferred. The bounded own-lease correction is reviewed and published before any replacement setup. Scientific searches remain NOT_RUN.
+
+Actual operational update: Actual Stage5 toolchain03 PASS under reviewed bounded lease writer; runtime and model discovery next
+- `stage5_setup_toolchain_actual_postiq_03`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.

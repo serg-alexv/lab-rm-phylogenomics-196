@@ -1,0 +1,43 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "toolchain",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_03",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_03/owner_lease.json",
+      "--owner-nonce",
+      "69388a8ca13a4693997b8721ceb6b8fe",
+      "--source-sha256",
+      "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_03/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "cc188574ae7370b760bb53f94a54261169fa351213bc7db0e7ececfad230d95c"
+    ],
+    "boot_id": "c9df0829-6e61-499e-b1ae-6ee3d94c9acf",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 778,
+      "pid": 778,
+      "ppid": 774,
+      "sid": 778,
+      "start_ticks": "94143",
+      "state": "R"
+    }
+  },
+  "no_native_launch": true,
+  "owned_closure_proven": true,
+  "owned_command_count": 0,
+  "owner_nonce": "69388a8ca13a4693997b8721ceb6b8fe",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+  "state": "PASS_NONSCIENTIFIC_SETUP_STEP",
+  "step": "toolchain",
+  "toolchain_proof_sha256": "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5"
+}

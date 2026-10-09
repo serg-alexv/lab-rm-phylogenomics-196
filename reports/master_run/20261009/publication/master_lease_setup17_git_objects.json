@@ -1,0 +1,270 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T22:56:46.611601+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "f9ca5802ec550ac2fe769aeed771a071a2e57056",
+  "tree": "9577407a261e5169ac773e24388f7411fb6d9acb",
+  "commit": "9b331aacd1c8850a088392108922f786dc8dc4cd",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80"
+    },
+    {
+      "target": "scripts/master_run/stage5_owner_lease.py",
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_owner_lease.py",
+      "bytes": 3574,
+      "sha256": "569b56906fd357967acccb4fec1b0f5141299885424431e90976dbb6e82b641e"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 34098,
+      "sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6"
+    },
+    {
+      "target": "scripts/master_run/stage5_windows_owner.py",
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config.py",
+      "bytes": 13011,
+      "sha256": "482800bf5bd15f7e87234e9448ac9c165df67f768af408305a6e7ee56f897cb1"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_setup.py",
+      "bytes": 15599,
+      "sha256": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_windows_owner.py",
+      "bytes": 4471,
+      "sha256": "5cfb932da38fb072613b564559ce1277d13ebce97a99388176301e80181fa5da"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_build_actual_config.py",
+      "bytes": 4968,
+      "sha256": "26ef4693d32e30aaddc0f7fe19d20a6af7a2cc8640917756690702e7066eebe2"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows_before_lease_retry.py",
+      "bytes": 33902,
+      "sha256": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd"
+    },
+    {
+      "target": "scripts/master_run/stage5_windows_owner_before_lease_retry.py",
+      "bytes": 17966,
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config_before_lease_retry.py",
+      "bytes": 12813,
+      "sha256": "eac90967546fb771bf1d719ca2d25a5034ffe9b35b9c91a51cb93881b272fab0"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/STAGE5_OWNER_LEASE_REPLACE_METHODS.md",
+      "bytes": 3937,
+      "sha256": "b6ca6a02928dd50204e4a689752b655064c9587d7a74136b6b9a5ed9e174129e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/actual_owner_lock.json",
+      "bytes": 686,
+      "sha256": "8a4abc7d5e2e733623ddca0b2c437063f22a1a8af5a4980182d15ff9b112a53f"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/latest_admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.closure.json",
+      "bytes": 639,
+      "sha256": "6a23cef636296d3561eff0775bcc826f87aca47c445d02db811106f5c57a4efd"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.command.json",
+      "bytes": 1476,
+      "sha256": "26b91f6c233458deca6ba84ba23b8935668b94e6daa2af4307b22ceadc351108"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.launch.json",
+      "bytes": 950,
+      "sha256": "87fb975e885e10a7b53d39be409ccdac85a65c11ae9676aebee6d9567d5bb0cd"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.launch_intent.json",
+      "bytes": 463,
+      "sha256": "66aa6f7c38f0bbf303c783b6b6b530ac8beb4f8ec10f90360bda2b2e9c5139c4"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands.jsonl",
+      "bytes": 1390,
+      "sha256": "f2b01f855508cec2ff6c9ff4ed197d9b60a27c78aa00bc6f9507eec6d64fd1d6"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/latest_admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/launch.json",
+      "bytes": 1262,
+      "sha256": "bd928c7552a390e2e516f747c24bf835e8aeb9f189ecf65ab2cce00acf76b5c6"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/linux_terminal.json",
+      "bytes": 1677,
+      "sha256": "28a1b87407873e81bf2c7df0f727f4591356deda1b802c0359034b33b373c78a"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/lock_released.json",
+      "bytes": 116,
+      "sha256": "98f2d627ba2710339a4ea92aa8e0c25d729f502899c83cdd43ff96abe3bcb799"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/owner_lease.json",
+      "bytes": 905,
+      "sha256": "270d427a0b720b989734ecb0a18ba963bcb6bf1cbcbefeb76d5b8b4bc341bfad"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/result.json",
+      "bytes": 4628,
+      "sha256": "f3803999f2f741ca4c57211eac423c42459b66825a7be81fda9c9b3969c813cb"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/toolchain_proof.json",
+      "bytes": 1057,
+      "sha256": "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl_exit.json",
+      "bytes": 1942,
+      "sha256": "c624be76d8c3073fe3e755ea8fcfdc3582870e85a94a54ec5d4f14f2f94aeb2c"
+    },
+    {
+      "target": "scripts/master_run/stage5_interop_smoke_windows.py",
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    {
+      "target": "scripts/master_run/stage5_interop_smoke_windows_before_lease_retry.py",
+      "bytes": 14940,
+      "sha256": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config_before_interop_lease_retry.py",
+      "bytes": 13011,
+      "sha256": "53258df5dcf83a8351946719f1de6ee3a35268023fa82a713fd1a1e969dd43ca"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_interop_contracts.py",
+      "bytes": 5461,
+      "sha256": "ebe71fcc03de11afdaef3d4acef7cee8a60973e4058a7fb869558695e0173e99"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_interop_owned_lease.py",
+      "bytes": 3228,
+      "sha256": "c657992191193787cf155cc9ac1131a4a35547d06b0071bfd7ba222a30522dce"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/STAGE5_OWNER_LEASE_INTEROP_ADDENDUM.md",
+      "bytes": 2987,
+      "sha256": "5ca21eecd9f71db252a8b98c22831d840e07dc6fe7d3cf1945df11553ca1177a"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/INITIAL_PREPARATION.json",
+      "bytes": 14345,
+      "sha256": "908bdaff7778e6bdde6a03b2fca254131c610e46122dc33c4e748eb4bd0894d8"
+    },
+    {
+      "target": "scripts/master_run/review_stage5_owned_lease_retry.py",
+      "bytes": 2994,
+      "sha256": "ca0e1c1998eaa251277283b23878e05e37c0c8c3a9e4c699a853796ddad0fec5"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/INITIAL_INDEPENDENT_ROOT_REVIEW.json",
+      "bytes": 8146,
+      "sha256": "4e60d056f830f1f55867d6772836b1795e2901981c82b6846c56bb77d7e6dd4e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/CURRENT_PREPARATION.json",
+      "bytes": 18391,
+      "sha256": "89b3c1251ac5b6c9a237396b6a78a5447a6b1282fc9b39b64661ccb58a81a937"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/owned_lease_retry/CURRENT_INDEPENDENT_ROOT_REVIEW.json",
+      "bytes": 8973,
+      "sha256": "7b4933cbe8d3c2b54f8a13b448dab1a7066f19da31f4cbeabb77c8e62681c71e"
+    },
+    {
+      "target": "scripts/master_run/review_stage5_owned_lease_retry_interop.py",
+      "bytes": 2665,
+      "sha256": "93070c54b3aacf70dddb0846a7a9503f765accf50c5b6d42b80cee2f3915540a"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_resource_actual16_git_objects.json",
+      "bytes": 4291,
+      "sha256": "96068ba1ba8ad7c1a6975dc73e6fecaa41a29e0872ab5d7b3387a6d3aed50831"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_resource_actual16_remote_readback.json",
+      "bytes": 7770,
+      "sha256": "5f5918311b0f0472c3ba7be1f3f8a16aa1caf31177711e5f370b55c8930cc06f"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_lease_setup17.py",
+      "bytes": 3513,
+      "sha256": "4d705e328ebe9498413c3c88e8330c40077ce2630de4de52b61c8cf82a9b2bae"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 10930,
+      "sha256": "55e89514c25c69af17737e3d854be5c421e820ebc7e5208a691685098f86e870"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 5952,
+      "sha256": "4566bdd823d521537552228898902a30dcba66ba8224ead4fc707fc4fae60419"
+    }
+  ]
+}
