@@ -1,0 +1,49 @@
+{
+  "archive": "NOT_RUN",
+  "document_resolution_source_sha256": "0c88f95e233528c20518c48406099d49509801ab054706b39c1c3dffa39b98d5",
+  "expanded_privacy_recheck": "FULL_BYTES_EVERY_PUBLIC_CANDIDATE",
+  "files": {
+    "ATTRIBUTION_AND_LIMITS.txt": "a2d88884134a9e97ef21d9ae527bbd6cb62b85f725e6706662ecb16a34b1c213",
+    "excluded_files.json": "5f551aadad4f627a9a319044e84ddb358e467efd3308544e7eb0230b90139645",
+    "public_files.json": "fb80c41a18c9055a5c1c9748ad083e419b61a0919e7813a497f5ca8441aa1796"
+  },
+  "g_writes": 0,
+  "historical_unknown_closure_promoted": false,
+  "initial_candidate_bytes": 18626894,
+  "initial_candidate_files": 199,
+  "initial_screen_pins": {
+    "decisions.jsonl": "2f5fadd494c6fc61affa77182674e260d7b2a9bb14e11798dfd0389a994e8d19",
+    "inspection.json": "f786c7b849bb98333aba18b4312706a2fbc2dd7447bbd0541ae4d0211c7181df",
+    "selection.json": "c73343901656721e52291e0b0f82b14efafbf7bd5358dd05b9e3dace288a79db"
+  },
+  "inspector_sha256": "fd93629536b432b9eead9f1d1607da2540e37f562367b01d267651dddab66814",
+  "manual_document_resolution": {
+    "basis": "Full original document read: approved cohort, dated pipeline state, six scientific future-work steps and provenance; no private session content. Original filter required a literal word absent from this scientific document.",
+    "bytes": 4497,
+    "expanded_privacy_full_byte_recheck": "PASS",
+    "relative_path": "docs/approved196_summaries/approved196_future_work_pipeline.md",
+    "scientific_acceptance_created": false,
+    "sha256": "ef8cb5541ac53d4fc55c40d439decad57ebf67a77eba9f536dda1ac1b58ea586"
+  },
+  "manual_scientific_documents_reviewed": 3,
+  "native_jobs": 0,
+  "network_calls": 0,
+  "prior_scope_pins": {
+    "ATTRIBUTION_AND_LIMITS.txt": "a2d88884134a9e97ef21d9ae527bbd6cb62b85f725e6706662ecb16a34b1c213",
+    "excluded_files.json": "ea5c3dd3b9b3c5ae7ad160c4f572e40da4af48f7dba171c0a2c2df80da3e1216",
+    "public_files.json": "3738dd30ea17273164e30dc26d49a9be05031870fe00d1c38d6b4fb2fe598be7",
+    "scope_review.json": "f3689f2f7fe543eb47e282b3bf6b0abe14839811e52fccf2ab9e2395f83ef71d"
+  },
+  "private_initial_pattern_gap": "Original screen lacked explicit input/output/cached token-count keys; schema review found mixed readback, whole file excluded, expanded patterns rerun.",
+  "public_bytes": 18622099,
+  "public_files": 194,
+  "remote_publication": "NOT_RUN",
+  "schema": "MASTER_OLD_CHECKOUT_CHANGED_HISTORY_PUBLIC_SCOPE_V1",
+  "scientific_acceptance_created": false,
+  "source_deletions": 0,
+  "source_sha256": "1530f44c1d7cbf7d6d15909c806e0c56a75def13ab42809b12a47a5a7ab60239",
+  "state": "PUBLIC_SCIENTIFIC_BYTES_SCOPED_READY_FOR_LOCAL_ARCHIVE_ONLY",
+  "whole_excluded_bytes": 4795,
+  "whole_excluded_files": 5,
+  "wsl_starts": 0
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "STAGE05_UNC_BIND_PROBE_PREPARATION_CHECKS_V1",
+  "state": "PASS_SOURCE_PREPARATION_ACTUAL_ENDPOINT_NOT_RUN",
+  "files": [
+    {
+      "path": "work/stage5_unc_bind_probe.py",
+      "bytes": 24115,
+      "sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830"
+    },
+    {
+      "path": "work/test_stage5_unc_bind_probe.py",
+      "bytes": 4177,
+      "sha256": "bd6d15e0ee6230db2ecc71df5bdd2ebf927e65b8c2e11bde1154b88dc4f944a7"
+    },
+    {
+      "path": "work/stage5_unc_bind_probe.md",
+      "bytes": 5902,
+      "sha256": "7bbbcd736f973b70178367c534e31903c77a611e5ba8e8fe2056c6f53cd9fb16"
+    },
+    {
+      "path": "work/stage5_unc_bind_probe_independent_source_review.json",
+      "bytes": 2596,
+      "sha256": "73ba189031d4df36af44ba5ff827cc557c0093bd306ab7a66d04db5dae0398b1"
+    }
+  ],
+  "reviewer": "Independent input_validation source review PASS and separate seven pure tests PASS",
+  "own_tests": {
+    "exit_code": 0,
+    "scope": "PURE_REQUEST_DEFAULT_NOEXEC_AND_BOUNDED_UNDERLAY_CONTRACTS_ONLY",
+    "tests": 7,
+    "command": "python -B -m unittest -v test_stage5_unc_bind_probe",
+    "errors": 0,
+    "failures": 0,
+    "elapsed_seconds": 0.009
+  },
+  "actual_probe": "NOT_RUN",
+  "scientific_acceptance": "NONE",
+  "wsl_starts": 0,
+  "unc_io": 0,
+  "g_writes": 0,
+  "mount_operations": 0,
+  "native_detector_runs": 0,
+  "scope": "NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY_ONLY",
+  "method": [
+    "Fresh root-owned original WorkflowLock surrounds three serial owned steps: Linux prepare, bounded Windows UNC worker, Linux readback and exact temporary cleanup.",
+    "Exact current boot/mountinfo/ext4 UUID/device/inode/helper proof is independently validated before and after Linux steps.",
+    "Only random tiny sentinel files are written to the established ext4 bind; Windows G underlay must already be empty and is read only with a first-entry nofollow check.",
+    "Windows UNC read/write/fsync/readback is contained in a suspended-then-assigned single-process owned JobObject, twenty-second wait plus five-second cleanup.",
+    "Final cleanup is proven by pinned Linux exact two-leaf unlink and empty-directory rmdir, not by an unbounded extra owner UNC query.",
+    "Retained process birth/exit and current mount/source/config/receipt pins plus explicit OS byte unlock are required. Unproven owned closure leaves a durable protected stop marker."
+  ],
+  "prerequisites": [
+    "Root proves actual existing IQ-TREE, controller, JobObject descendant closure and original stable lock release.",
+    "Root establishes actual intended Ubuntu retained-toolchain and fixed ext4 bind mounts, current storage proof and required lifecycle smoke.",
+    "Root supplies reviewed source SHA and exact config SHA, then deliberately invokes --run under fresh authority/resources."
+  ],
+  "limitations": [
+    "Actual Windows JobObject, WSL client, UNC visibility/fsync, Linux mount/storage and operational closure remain NOT_RUN.",
+    "Synchronous ordinary local/source/authority/G-underlay reads do not claim a hard kernel-I/O cancellation bound.",
+    "A short identity-check-to-owned-unlink interval remains; no atomic handle deletion claim.",
+    "Success does not establish cloud durability, detector availability, scientific acceptance, full installed-runtime recovery or cross-kernel lock interoperability."
+  ],
+  "source_review_findings_closed": [
+    "Removed synchronous owner UNC absence query outside bounded worker.",
+    "Underlay emptiness fails at first entry without allocating or traversing unknown contents."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "STAGE05_UNC_BIND_PROBE_INDEPENDENT_PREPARATION_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_SEVEN_PURE_GUARDS_ACTUAL_INTEROP_NOT_RUN",
+  "source_sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+  "tests_sha256": "bd6d15e0ee6230db2ecc71df5bdd2ebf927e65b8c2e11bde1154b88dc4f944a7",
+  "documentation_sha256": "7bbbcd736f973b70178367c534e31903c77a611e5ba8e8fe2056c6f53cd9fb16",
+  "review_scope": [
+    "Exact canonical Linux target, Windows UNC endpoint, retained interpreter and source pins",
+    "Original WorkflowLock, fresh direct authority, stable storage proof and preserved G underlay",
+    "Tiny random owned sentinel, exact bidirectional bytes, fsync and Linux two-leaf/rmdir cleanup",
+    "Suspended Windows I/O worker assigned to kill-on-close active-process-limit-one JobObject; retained exact child identity, exit and empty-job proof",
+    "Bounded Linux clients; unproven active client/Windows worker closure writes durable Stage5 stop marker",
+    "No mounting, unmounting, shutdown, detector launch, recursive cleanup or scientific adoption"
+  ],
+  "resolved_source_findings": [
+    {
+      "earlier_source_sha256": "600707af8713af7c46eaae7c140dde6ea1ab765646eb7897981e813bd5a6a2aa",
+      "finding": "Final owner UNC lstat was outside the bounded I/O worker and could hang the original lock on endpoint loss.",
+      "resolution": "Removed redundant owner UNC absence query. Cleanup receipt now explicitly binds pinned Linux exact two-leaf unlink/rmdir and current storage proof; final_windows_unc_absence_query is false. Actual Windows UNC I/O remains in the owned bounded worker."
+    },
+    {
+      "finding": "Underlay emptiness used unbounded list(iterdir()) despite unknown-data preservation.",
+      "resolution": "Single-level os.scandir with first-entry-only veto; unavailable endpoint propagates failure."
+    }
+  ],
+  "independently_executed_pure_tests": 7,
+  "pure_tests_passed": 7,
+  "pure_test_child_exit_code": 0,
+  "pure_tests_elapsed_seconds": 0.009,
+  "pure_test_command": "python -B -m unittest test_stage5_unc_bind_probe -v",
+  "actual_wsl_or_unc_probe": "NOT_RUN",
+  "native_or_detector_execution": "NOT_RUN",
+  "operational_closure_of_current_scientific_job": "OUTSIDE_THIS_REVIEW_ROOT_MUST_VERIFY_BEFORE_PROBE",
+  "scientific_acceptance_created": false,
+  "g_writes": 0,
+  "wsl_starts": 0,
+  "source_edits_by_reviewer": 0,
+  "remaining_gate": "Fresh root-authorized actual held-lock mounted-runtime/storage/Windows-UNC interoperability proof after exact current native closure; source/pure tests do not establish this."
+}

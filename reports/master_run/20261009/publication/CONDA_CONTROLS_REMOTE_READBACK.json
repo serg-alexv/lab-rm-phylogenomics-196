@@ -1,0 +1,227 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T20:54:50.644011+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "c073c0008f6f4a04f5b8e6a8dcfa58c7bee84a2a",
+  "initial_remote_main": "c073c0008f6f4a04f5b8e6a8dcfa58c7bee84a2a",
+  "declaration_sha256": "f8f69f0845b5ebe601cf08a9421bb654ca9ab6a8b86afdeb433a210562785966",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 23,
+  "verified_files": 23,
+  "files": [
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/ATTRIBUTION_AND_RESTORE.txt",
+      "bytes": 846,
+      "sha256": "e49032947e47ef5d95d357691a3836c51bf785e9d0f154c743094b0c99de248c",
+      "remote_blob": "7ecc3550b94531c4d085ac53677ed542b3765fb4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/CONTINUATION_SOURCE_REVIEW.json",
+      "bytes": 2271,
+      "sha256": "9def755b2d8917b8c135df9b8498a6ef6075625ca9e4b220b9532b8a145e9c57",
+      "remote_blob": "9d66919dd631bb8b6f06a54f4b12426ab937c9fb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/acquisition_receipt.json",
+      "bytes": 2717,
+      "sha256": "6807810fad659bd47af053464af0dd899c22bbce8808288d15585aae6c6b14cf",
+      "remote_blob": "a44b173ec2e2a130a9859f22a61e82a1387cea28",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+      "bytes": 121926,
+      "sha256": "66f250b24ce4978d7a9d34f8b40577bf1485f71779803a455e8551e090941931",
+      "remote_blob": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+      "bytes": 206293,
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382",
+      "remote_blob": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+      "bytes": 257356,
+      "sha256": "07a819ee3d4871abd40cce03f969cf44ffc98884f696d7bac2f2cc80ecfc992b",
+      "remote_blob": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/final_index.json",
+      "bytes": 8984,
+      "sha256": "f0b6f3a43909a43d5e409afb2f1edd5c04db6fc6f1eba00843534ac3ad9e503c",
+      "remote_blob": "9a092502f5b9acef7caa5a10ee4d850f7e85e482",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+      "bytes": 116540,
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48",
+      "remote_blob": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/original_download_errors.jsonl",
+      "bytes": 628,
+      "sha256": "64d2db6b72df0a73152df596b21b4b9548be1b0a62297ce0662012d574c760aa",
+      "remote_blob": "cfe5123e9a7c7de3bb34c6f6364784ff04745d79",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/original_resource_stop_receipt.json",
+      "bytes": 1557,
+      "sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b",
+      "remote_blob": "6ff3110d0ffbaea6bacc8f6ae1ace4335f935543",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+      "bytes": 578292,
+      "sha256": "f016dc25c7c4fc7aa167ed22eeb4cd434f71d6d6b9cab50c0e47ff5bbb4a6233",
+      "remote_blob": "6e06d503708e9c0e4226fb4602c045262a721ffb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/progress.json",
+      "bytes": 2540,
+      "sha256": "e95de13e0366a4c948f03a6cb127b4b5f404a4cd14641b89098037d814827254",
+      "remote_blob": "eef86349573eb9360285078dde70f57ee07c6611",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+      "bytes": 74643,
+      "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862",
+      "remote_blob": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+      "bytes": 1651122,
+      "sha256": "3709922b6e145704fd33729be9ee58bb7e33b7a2ea5a1ab7506eea6951fa5e8d",
+      "remote_blob": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/REMOTE_READBACK.json",
+      "bytes": 10332,
+      "sha256": "e71b02889d5443017ef5ab8be206b1fc4e5f9f81c3de14c602eeaeef70c68063",
+      "remote_blob": "4f145d571b11d43c3cd202874bc2060a3e8cbd11",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/REMOTE_VERIFIER_SOURCE_REVIEW.json",
+      "bytes": 1825,
+      "sha256": "a6ab6e299c575a03a95609e0ce7be0f65cfb9031910fa28edfe5f336380bd815",
+      "remote_blob": "cb0f8093a055eae3cca0a65491f3ec3c51450f1a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/UPLOAD_PLAN.json",
+      "bytes": 907,
+      "sha256": "ec418472cb5095ffca3446982d97b4aaf80e7cb648c212145fe2e3ae4ea07d07",
+      "remote_blob": "3a59ba53958604aba3923f9b3de19b2dec00e788",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/UPLOAD_RECEIPT.json",
+      "bytes": 1263,
+      "sha256": "545a6bb0f4867eec38b3f9d406f7c6471eb09519266fd47ca861b5a339a3362e",
+      "remote_blob": "4b204081357092006cd6444b887411c21d5429f7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_GIT_OBJECTS.json",
+      "bytes": 11827,
+      "sha256": "c899a43d55ede688d69ed94dbb84bb1f49d846a1990d78bb6b6348460680a39a",
+      "remote_blob": "7aede2b2bf4f6be1d9ae43d08742b55e3215bacb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+      "bytes": 21061,
+      "sha256": "be564b72107c1ccc191eddd8639f6957294a4dded567651cd3e2f5565116ac51",
+      "remote_blob": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_conda_assets_plan.py",
+      "bytes": 1536,
+      "sha256": "89beda81338f40d281cdd38a0ddaed6502431dd2cbcaec577eb3e90074c427e1",
+      "remote_blob": "836854c55fc51364110eef46bf1931836b104b8d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_conda_controls_plan.py",
+      "bytes": 2664,
+      "sha256": "3b0abf89c0e7d786e8a356e2fa13291b131259fed034581f7be644d578aea3ae",
+      "remote_blob": "08790cbb9353de7768c5454ed2a6329ecf4de7b0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_emptydir_assets_plan.py",
+      "bytes": 1408,
+      "sha256": "fde864547d08b116ced79b5c153fc4b531d4e1bd4743d5680d7d33b246f3dc55",
+      "remote_blob": "9c6d55b3d9ab9363cb89e1116e341625cbcb173e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "c073c0008f6f4a04f5b8e6a8dcfa58c7bee84a2a",
+  "finished_utc": "2026-10-09T20:54:58.640259+00:00",
+  "elapsed_seconds": 7.995032099999662,
+  "verified_bytes": 3078538
+}

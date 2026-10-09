@@ -38,3 +38,11 @@ verified, no pruning. Changed old-checkout source/history coverage is being
 reviewed separately; Git status metadata alone does not preserve changed bytes.
 Conda original acquisition is incomplete/not remotely verified; the first
 resource stop and one explicit gated continuation retain distinct receipts.
+
+Current cold-recovery observations: all339 exact Conda originals/660,114,049
+bytes are locally verified and both shards/sidecars uploaded; fresh readback
+pending. Directory metadata19-member archive has fresh remote PASS, no pruning.
+Old changed history194 originals/18,622,099 bytes has local216-member PASS; five
+whole private records remain local/excluded. Full IQ-TREE and both submodule
+source snapshots have1,938 original Gitblob bindings with one explicit249B
+original-source supplement; local only, no compiled-binary equivalence claim.

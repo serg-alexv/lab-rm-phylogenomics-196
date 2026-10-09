@@ -1,0 +1,74 @@
+{
+  "schema": "MASTER_PUBLIC_CONDA_INDEPENDENT_READBACK_PREPARATION_V1",
+  "state": "PASS_FOCUSED_SYNTHETIC_TESTS_PRODUCTION_NOT_RUN",
+  "files": [
+    {
+      "path": "work/verify_public_conda_packages01_remote.py",
+      "bytes": 22971,
+      "sha256": "c436cafb8154bad608fd0ecde24964acf0339b70c1572c833429702437ec46da"
+    },
+    {
+      "path": "work/test_verify_public_conda_packages01_remote.py",
+      "bytes": 8199,
+      "sha256": "ed8e2ba70112f9c59f9111f2ff76642f04bb4d44836fff03fd7948022ce20296"
+    },
+    {
+      "path": "work/verify_public_conda_packages01_remote.md",
+      "bytes": 4091,
+      "sha256": "3260973e87badfff6f85d9c32623c8dd0c746c36e20440a86f197b3068cb4af3"
+    }
+  ],
+  "tests": {
+    "seconds": 0.008,
+    "command": "python -B -m unittest -v test_verify_public_conda_packages01_remote",
+    "exit_code": 0,
+    "failures": 0,
+    "scope": "SYNTHETIC_IN_MEMORY_MANIFEST_ROLE_LICENSE_PACKAGE_COVERAGE_STORED_ZIP_EOF_CRC_SHA_RESOURCE_STOP_AND_LF_SIDECAR_GUARDS",
+    "count": 10,
+    "errors": 0
+  },
+  "independent_source_review": "REQUESTED_FROM_REMOTE_AUDIT_PENDING_SEPARATE_RECEIPT",
+  "actual_production_zip_readback": "NOT_RUN_BY_PREPARER",
+  "actual_fresh_remote_readback": "NOT_RUN",
+  "network_calls": 0,
+  "downloads": 0,
+  "g_writes": 0,
+  "wsl_starts": 0,
+  "package_extractions": 0,
+  "package_installations": 0,
+  "payload_executions": 0,
+  "source_deletions": 0,
+  "expected_scope": {
+    "fresh_zero_offset_downloads": 244,
+    "fresh_verified_copies": 95,
+    "internal_sum_entries": 361,
+    "zip_members": 363,
+    "unique_packages": 339,
+    "original_records": 397,
+    "original_package_bytes": 660114049,
+    "zip_shards": 2
+  },
+  "required_remote_control_prefix": "reports/master_run/20261009/cleanup/conda_packages01/",
+  "required_remote_controls": 14,
+  "required_remote_source_blobs": 5,
+  "exact_index_alias": "final_index.json",
+  "exact_review_alias": "CONTINUATION_SOURCE_REVIEW.json",
+  "index_sha256": "f0b6f3a43909a43d5e409afb2f1edd5c04db6fc6f1eba00843534ac3ad9e503c",
+  "source_review_sha256": "9def755b2d8917b8c135df9b8498a6ef6075625ca9e4b220b9532b8a145e9c57",
+  "method": [
+    "Reopen actual immutable Git blob bytes with SHA1/size and fixed SHA256 pins before reading Release payloads.",
+    "Rebuild full original detector/host records and exact license/name/version/build/URL/filename/size/SHA roles directly from the two unchanged manifests; require exact package index.",
+    "Independently stream every raw package once across two shards, verify actual EOF CRC/SHA and exhaustive internal sums; no extraction or producer import.",
+    "Retain initial failed resource-stop/partial controls; bind 95 copied original source identities,244 new download ledger rows,two admission probes and resource-log minima.",
+    "Preserve independently pinned original105-byte LF sidecars; fail on substitute newline conventions.",
+    "New C namespace only; own belowNormal priority,one1MiB streaming reader,fresh RAM/commit1.5GiB and Cdisk10GiB guards,1800-second aggregate and bounded Git/Release subprocesses."
+  ],
+  "limitations": [
+    "No production local/remote readback, Windows resource API or package-asset reading executed by preparer.",
+    "Independent source review remains a separately frozen receipt before root actual execution.",
+    "Periodic resource observations do not reserve memory; blocking I/O can last until its finite command timeout or kernel completion.",
+    "Live original package cache and original partial are not rehashed by this remote verifier; archived exact acquisition evidence is checked.",
+    "Complete installed-runtime restoration and complete corresponding-source coverage remain unclaimed.",
+    "No cleanup/prune/wipe/scientific adoption authority."
+  ]
+}

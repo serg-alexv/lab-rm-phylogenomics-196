@@ -1,0 +1,1541 @@
+{
+  "archive": "master_old_checkout_changed_history01.zip",
+  "builder_sha256": "f8cd2e2567d6082b43c4c8031ad191856a73262f0e34de097b3e4aa6087a078d",
+  "bytes": 1687039,
+  "control_source_files": 19,
+  "g_writes": 0,
+  "historical_native_closure": "NOT_INFERRED",
+  "members": [
+    {
+      "bytes": 159460,
+      "crc32": "a8a65ec0",
+      "crc_verified": true,
+      "member": "ORIGINAL_MAPPING.json",
+      "sha256": "765794bdb20fbb085cbeb7b87968ac84247e2e1ea160c8ebe77520f3ad958f91"
+    },
+    {
+      "bytes": 614,
+      "crc32": "65881b40",
+      "crc_verified": true,
+      "member": "README.txt",
+      "sha256": "fa813e6b7f3242eb0deb9e109378af3e862154f73df9bd5803d15bc5c1d6b626"
+    },
+    {
+      "bytes": 29092,
+      "crc32": "df5b428e",
+      "crc_verified": true,
+      "member": "SHA256SUMS.txt",
+      "sha256": "a02348d87b610a88f468eacbf868a6ae646a42efd1a56a43462ae81598331d95"
+    },
+    {
+      "bytes": 6407,
+      "crc32": "66a39519",
+      "crc_verified": true,
+      "member": "control/audit_old_checkout_git_metadata.py",
+      "sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc"
+    },
+    {
+      "bytes": 15475,
+      "crc32": "058b1238",
+      "crc_verified": true,
+      "member": "control/build_old_checkout_changed_history_archive.py",
+      "sha256": "f8cd2e2567d6082b43c4c8031ad191856a73262f0e34de097b3e4aa6087a078d"
+    },
+    {
+      "bytes": 13262,
+      "crc32": "ffde7864",
+      "crc_verified": true,
+      "member": "control/finalize_old_checkout_changed_history.py",
+      "sha256": "1530f44c1d7cbf7d6d15909c806e0c56a75def13ab42809b12a47a5a7ab60239"
+    },
+    {
+      "bytes": 13532,
+      "crc32": "2fa7a1ed",
+      "crc_verified": true,
+      "member": "control/inspect_old_checkout_changed_history.py",
+      "sha256": "fd93629536b432b9eead9f1d1607da2540e37f562367b01d267651dddab66814"
+    },
+    {
+      "bytes": 14135,
+      "crc32": "46eb43aa",
+      "crc_verified": true,
+      "member": "control/inspect_public_history02.py",
+      "sha256": "671b20fc3f8b89c214d9fc50a3b793275caafce72bac03bee4379468793dcfc0"
+    },
+    {
+      "bytes": 244062,
+      "crc32": "444d6f5a",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_inspection01/decisions.jsonl",
+      "sha256": "2f5fadd494c6fc61affa77182674e260d7b2a9bb14e11798dfd0389a994e8d19"
+    },
+    {
+      "bytes": 1087,
+      "crc32": "45c9cad9",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_inspection01/inspection.json",
+      "sha256": "f786c7b849bb98333aba18b4312706a2fbc2dd7447bbd0541ae4d0211c7181df"
+    },
+    {
+      "bytes": 89999,
+      "crc32": "69fad1e7",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_inspection01/selection.json",
+      "sha256": "c73343901656721e52291e0b0f82b14efafbf7bd5358dd05b9e3dace288a79db"
+    },
+    {
+      "bytes": 1158,
+      "crc32": "9fd8a542",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope01/ATTRIBUTION_AND_LIMITS.txt",
+      "sha256": "a2d88884134a9e97ef21d9ae527bbd6cb62b85f725e6706662ecb16a34b1c213"
+    },
+    {
+      "bytes": 3529,
+      "crc32": "37aeba0a",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope01/excluded_files.json",
+      "sha256": "ea5c3dd3b9b3c5ae7ad160c4f572e40da4af48f7dba171c0a2c2df80da3e1216"
+    },
+    {
+      "bytes": 380143,
+      "crc32": "7da00e46",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope01/public_files.json",
+      "sha256": "3738dd30ea17273164e30dc26d49a9be05031870fe00d1c38d6b4fb2fe598be7"
+    },
+    {
+      "bytes": 1668,
+      "crc32": "6ae2a176",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope01/scope_review.json",
+      "sha256": "f3689f2f7fe543eb47e282b3bf6b0abe14839811e52fccf2ab9e2395f83ef71d"
+    },
+    {
+      "bytes": 1158,
+      "crc32": "9fd8a542",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope02/ATTRIBUTION_AND_LIMITS.txt",
+      "sha256": "a2d88884134a9e97ef21d9ae527bbd6cb62b85f725e6706662ecb16a34b1c213"
+    },
+    {
+      "bytes": 2926,
+      "crc32": "3338f1bc",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope02/excluded_files.json",
+      "sha256": "5f551aadad4f627a9a319044e84ddb358e467efd3308544e7eb0230b90139645"
+    },
+    {
+      "bytes": 381575,
+      "crc32": "5ca27252",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope02/public_files.json",
+      "sha256": "fb80c41a18c9055a5c1c9748ad083e419b61a0919e7813a497f5ca8441aa1796"
+    },
+    {
+      "bytes": 2745,
+      "crc32": "467fe743",
+      "crc_verified": true,
+      "member": "control/old_checkout_changed_history_scope02/scope_review.json",
+      "sha256": "49599fe21edce64353aad6d37e63127104f3b1d43c7f9c945958677fb94d2983"
+    },
+    {
+      "bytes": 153576,
+      "crc32": "73f90b36",
+      "crc_verified": true,
+      "member": "control/old_checkout_git_preservation_metadata.json",
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0"
+    },
+    {
+      "bytes": 2942,
+      "crc32": "f5cc9788",
+      "crc_verified": true,
+      "member": "control/old_checkout_git_preservation_summary.json",
+      "sha256": "16036be7f777536b12d7f0d512062bfd7c2a00559f557b5828ccd5fb7c09438f"
+    },
+    {
+      "bytes": 6638,
+      "crc32": "38437964",
+      "crc_verified": true,
+      "member": "control/resolve_old_checkout_history_document.py",
+      "sha256": "0c88f95e233528c20518c48406099d49509801ab054706b39c1c3dffa39b98d5"
+    },
+    {
+      "bytes": 674691,
+      "crc32": "7394589a",
+      "crc_verified": true,
+      "member": "originals/docs/approved196_summaries/approved196_LAB_genera.tsv",
+      "sha256": "e742672e50ef39e0f6bd830253d1d526f3eee56d4b5fb8562e6fe1e684b37730"
+    },
+    {
+      "bytes": 1298,
+      "crc32": "6be34648",
+      "crc_verified": true,
+      "member": "originals/docs/approved196_summaries/approved196_current_pipeline_readback.json",
+      "sha256": "02e6a435a4454366908792b468237ed002e1ae908ae214b768c66adfc09622a1"
+    },
+    {
+      "bytes": 4497,
+      "crc32": "79e8a2ae",
+      "crc_verified": true,
+      "member": "originals/docs/approved196_summaries/approved196_future_work_pipeline.md",
+      "sha256": "ef8cb5541ac53d4fc55c40d439decad57ebf67a77eba9f536dda1ac1b58ea586"
+    },
+    {
+      "bytes": 3409,
+      "crc32": "96c15237",
+      "crc_verified": true,
+      "member": "originals/docs/approved196_summaries/approved196_future_work_pipeline_current.md",
+      "sha256": "9ea9b0ecaf687746c223c3907bfe19538cc8120ee30bd5471e233c438ee159f2"
+    },
+    {
+      "bytes": 94845,
+      "crc32": "6212c80d",
+      "crc_verified": true,
+      "member": "originals/reports/stage00/commands.jsonl",
+      "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb"
+    },
+    {
+      "bytes": 1351,
+      "crc32": "c0a186de",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_001.json",
+      "sha256": "72d2d2a2a6bba8427742365ffa9d13e93f95d5ea3c9234549ecacc40154b1286"
+    },
+    {
+      "bytes": 2382,
+      "crc32": "03bee3c2",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_002.json",
+      "sha256": "9644c3f3d3ed318d0fefd2facd35445ce6ffa6df2912eda929e957b67a09bb6a"
+    },
+    {
+      "bytes": 3412,
+      "crc32": "10835d08",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_003.json",
+      "sha256": "d20e2c428553bbc9262f4d189e8e6c623324ce0f019224ad67610d822d562130"
+    },
+    {
+      "bytes": 4443,
+      "crc32": "59360e5b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_004.json",
+      "sha256": "afe4ec0a8e2d0f9259b3f2184cc97f5f6fd31f98d27b68a738da0fb5c05a606a"
+    },
+    {
+      "bytes": 5475,
+      "crc32": "1305b843",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_005.json",
+      "sha256": "993d175f80933568f0e0896ae23b28c3812343701998957c9432c147315e5a75"
+    },
+    {
+      "bytes": 6506,
+      "crc32": "7ab60914",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_006.json",
+      "sha256": "54bcddbcc6f2635feb349e8d425505feade0c65e044de37889213dc2b92cbaf2"
+    },
+    {
+      "bytes": 7537,
+      "crc32": "8e68987f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_007.json",
+      "sha256": "40c5242abcd27c597e50eb1e918cb0902d2376ae8f5b2484f234163523eb51c7"
+    },
+    {
+      "bytes": 8568,
+      "crc32": "33b6c8ad",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_008.json",
+      "sha256": "a7ef71a047c2729180c2a2e3572699ea26b581b95b16f829032b5052e478c17e"
+    },
+    {
+      "bytes": 9599,
+      "crc32": "ef9c9f58",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_009.json",
+      "sha256": "8dd487da2d7f2a51473b9d348fde86aa589904eebd7db954b4131dde653daa98"
+    },
+    {
+      "bytes": 11664,
+      "crc32": "e224f91b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_011.json",
+      "sha256": "59e870f2fb0770db8f99730e4a498eca83475b2020e6f6505ec53b09dacfadef"
+    },
+    {
+      "bytes": 12696,
+      "crc32": "3449eb4a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_012.json",
+      "sha256": "99248570c0a8b1f4906219b2da3c1632db6f5723cd33f2a14f1eeeb32a1abe16"
+    },
+    {
+      "bytes": 13727,
+      "crc32": "fe51a804",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_013.json",
+      "sha256": "5bc9508fb76e5aa20951a4cc1043735ab653bb71c52f9385ca310594281d864b"
+    },
+    {
+      "bytes": 14760,
+      "crc32": "71602d97",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_014.json",
+      "sha256": "50398f2724108e770c20e5357755c119f0217d13f762a38a512b333ef67bcab5"
+    },
+    {
+      "bytes": 15825,
+      "crc32": "424fbd3f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_015.json",
+      "sha256": "3cc14d0dac07fe5add5dc1dfecbd6ca096fcbb5bafc1563b7c9284f32a9c3788"
+    },
+    {
+      "bytes": 16860,
+      "crc32": "f8773846",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_016.json",
+      "sha256": "4e1c15a37135c90f1c57fc66c143abc674ad79816642437eef91b44b6c4ddaa4"
+    },
+    {
+      "bytes": 17862,
+      "crc32": "76e839f6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_017.json",
+      "sha256": "782278206b51ae5138176d72fed529c3ab74f456c1362742a22c70adaa36204c"
+    },
+    {
+      "bytes": 18924,
+      "crc32": "f7a57f3e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_018.json",
+      "sha256": "d6d1976a980dcab641976185a6c1711e05494e01f875b6ba53c5d8fa5a506654"
+    },
+    {
+      "bytes": 19925,
+      "crc32": "e88d8e6d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_019.json",
+      "sha256": "163b50d8554a58f8ad41634026826e72f13593fbf20f334896f5f15eedbd2a1a"
+    },
+    {
+      "bytes": 21929,
+      "crc32": "9a278363",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_021.json",
+      "sha256": "360b56c03dfe0aa434dba833bffc061bd1be6acf983c7fb5669d65c90941cd4e"
+    },
+    {
+      "bytes": 22930,
+      "crc32": "fc9c3dde",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_022.json",
+      "sha256": "0ff2351f79c1940aecc3ac73bb9dae88eefa68a7280bd1f64abe4cb0e4c024c3"
+    },
+    {
+      "bytes": 23933,
+      "crc32": "e97a86a0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_023.json",
+      "sha256": "caa5e0e921121984f84244bf68515e636a2b177f11b1016a9e7cdc25196db463"
+    },
+    {
+      "bytes": 24935,
+      "crc32": "2b5be37f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_024.json",
+      "sha256": "9093b693f84b063ff2f6b67e7eaf8a210d15ad0e0fa9f009d937ea4ec16e92d5"
+    },
+    {
+      "bytes": 25937,
+      "crc32": "419409f8",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_025.json",
+      "sha256": "40e74849590655d5656bc0bc9e325a8b534a41201c2ad7cf12a0dc69433558e0"
+    },
+    {
+      "bytes": 26939,
+      "crc32": "1913867d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_026.json",
+      "sha256": "3b9af4cdcf8ad75c600535f148cfb7960cda10521399279b1f17d41bbca47d7b"
+    },
+    {
+      "bytes": 27941,
+      "crc32": "b5cc7980",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_027.json",
+      "sha256": "d1af358e6b00ea705bbc3478579aea9ba2a83a2bfdd8807fd915cd6077ba097e"
+    },
+    {
+      "bytes": 28943,
+      "crc32": "a6252c0c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_028.json",
+      "sha256": "7dd3153a4953039a129c7be8d0a42fd440579841be39e7a8f24cf7915a6e9e47"
+    },
+    {
+      "bytes": 29945,
+      "crc32": "b0b2a449",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_029.json",
+      "sha256": "42743e8497b534db87dbf80dd7cd24bc5cf2f3633c482760cc1090304453296a"
+    },
+    {
+      "bytes": 31949,
+      "crc32": "7abc0113",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_031.json",
+      "sha256": "57b2569c495206a76107d0f68d246adc76bed8f60a44bef5400e44ab435f40cb"
+    },
+    {
+      "bytes": 32950,
+      "crc32": "94bec85f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_032.json",
+      "sha256": "71b099deebd281bade04aa9cf9131bad3fde06b840ee562ff15df87b62ac72a2"
+    },
+    {
+      "bytes": 33953,
+      "crc32": "26ce19cc",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_033.json",
+      "sha256": "e7b90485ff6dad1ff92eb34dc6331f1b56946c73757bd68be46f12a8867bb8e4"
+    },
+    {
+      "bytes": 34955,
+      "crc32": "07141da6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_034.json",
+      "sha256": "fc7d440b5f3d43df9bb98fd3a15b375bea7146aef689d5ed681bb02ac32c83c4"
+    },
+    {
+      "bytes": 35956,
+      "crc32": "8aadd6a6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_035.json",
+      "sha256": "3fc64b671951ba34850dd9d51f6dbae56ee47ac7880c9b10e5957bbdfe486420"
+    },
+    {
+      "bytes": 36958,
+      "crc32": "78ff4ca5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_036.json",
+      "sha256": "48490c49a5cdd9056514129eacb17e501b5829236162e0d0212aae7e560bbf47"
+    },
+    {
+      "bytes": 37960,
+      "crc32": "db9c000a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_037.json",
+      "sha256": "b8d6f7ffddaf619410ea34a877930f9008634946cec13b2975e9ebb0f389ae4f"
+    },
+    {
+      "bytes": 38962,
+      "crc32": "5d343003",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_038.json",
+      "sha256": "91b5cfe6a396f8f5af32f1e57038ca3d2ec066894aabb6e8f97c58e139301d0c"
+    },
+    {
+      "bytes": 39964,
+      "crc32": "13b88f54",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_039.json",
+      "sha256": "b1b561b255313b2500f3d56019e15e5ca6945de63a5a19b805d6b10cfd9f00eb"
+    },
+    {
+      "bytes": 41967,
+      "crc32": "73ce710c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_041.json",
+      "sha256": "ee67011f70b5f616b1f3ca0d719ebdbd77fc594cd6486ffc34011dfa60aa1003"
+    },
+    {
+      "bytes": 42969,
+      "crc32": "3db7dd17",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_042.json",
+      "sha256": "0c7c3047da662eda662f0bb43f14fe65ad76d67992e842b568d42b557010466d"
+    },
+    {
+      "bytes": 43971,
+      "crc32": "d029fc42",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_043.json",
+      "sha256": "bb5871ca9611e6f8d84072815da7325e1cecae8543ebe677d30d8bc6871dfe84"
+    },
+    {
+      "bytes": 44973,
+      "crc32": "2737461b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_044.json",
+      "sha256": "dbb025998621ecff53c556073b3c231fa7482169caaaaf808cc292c60ca1e3b5"
+    },
+    {
+      "bytes": 45975,
+      "crc32": "32cbe206",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_045.json",
+      "sha256": "de28e81a2fd3cf054adbe9cb18b391cf4c9d529453c3058b2e370ae6c41558b1"
+    },
+    {
+      "bytes": 46977,
+      "crc32": "895996e6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_046.json",
+      "sha256": "c7714cccee7a0c97219625ec05b4db6ff6a8236ef9edec004ba4fbd9fcbaca3a"
+    },
+    {
+      "bytes": 47979,
+      "crc32": "1b0ab1df",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_047.json",
+      "sha256": "bc81682f4a5de8db800d88550a355b0f4ff891cb52c72ef2cb52a853a5c1d953"
+    },
+    {
+      "bytes": 48981,
+      "crc32": "03524de4",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_048.json",
+      "sha256": "37d557b5c8e233fc14ca9699df15d296127e1405ac13ae3107438e3ec42266d7"
+    },
+    {
+      "bytes": 49983,
+      "crc32": "bf6dbea0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_049.json",
+      "sha256": "bc5e12f31c6e381d474dd233611c933f6e45a856a6172d94e956295c79c95f79"
+    },
+    {
+      "bytes": 51988,
+      "crc32": "2429582a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_051.json",
+      "sha256": "7c3017aeb8de0f46f22885aa0f3073b9706ae472a48904fcaaeeb0e16451c669"
+    },
+    {
+      "bytes": 52990,
+      "crc32": "14741f4e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_052.json",
+      "sha256": "4e29abe7996691da5cf4cafb266585117563d20ff6f4fac1f297feb72770617b"
+    },
+    {
+      "bytes": 53992,
+      "crc32": "dbd0e25f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_053.json",
+      "sha256": "8234a05efcdf647587f85129e9dfa034bcfa7b7f03637bb0d4581caf46652099"
+    },
+    {
+      "bytes": 54994,
+      "crc32": "f288bf0c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_054.json",
+      "sha256": "06373c84b1f7c95051b305e81b4ac14879f9fe48d16c83a9db8026c0363db2fb"
+    },
+    {
+      "bytes": 55996,
+      "crc32": "92d13aff",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_055.json",
+      "sha256": "a800e3a35c8839026c95bcd94f2e0ee3b9f3ec2fe1eb947f6e7aca3b7e736018"
+    },
+    {
+      "bytes": 56998,
+      "crc32": "d6decbc7",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_056.json",
+      "sha256": "6ba484512594ff34cf1fb231dc07671591ca8d9ea93d423e9c18d21dce2545c0"
+    },
+    {
+      "bytes": 58000,
+      "crc32": "247ca36e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_057.json",
+      "sha256": "6bde85677c67f1c7f22804390f7863bb8e26bd7f0888e7b29a9ec9c310d9a6e5"
+    },
+    {
+      "bytes": 59002,
+      "crc32": "02a8f310",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_058.json",
+      "sha256": "da1fd16683ddd9c000162d1b7c50ad1eb5765d05df9fe557c207e18f1057a71e"
+    },
+    {
+      "bytes": 60003,
+      "crc32": "afc0f8e2",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_059.json",
+      "sha256": "3214d8c48e3e1d13c6f2d4a45e927646392e765c73ca7ac74bef2fcff1730a22"
+    },
+    {
+      "bytes": 62007,
+      "crc32": "9f1c2894",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_061.json",
+      "sha256": "d6720f0d35f7cff89015ee3d24e791e568a89982aa1922c63dcee3d682e4ef98"
+    },
+    {
+      "bytes": 63009,
+      "crc32": "f52a3025",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_062.json",
+      "sha256": "accf6868bd730f763b7f59e27bfd8bfd5063fe318bc1c8c9945baa9a728a2b32"
+    },
+    {
+      "bytes": 64011,
+      "crc32": "535a4fdf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_063.json",
+      "sha256": "0b5cb4bd366825797368cde9fae25a092725c91f1810fab8a7aeed1c5039673e"
+    },
+    {
+      "bytes": 65012,
+      "crc32": "f14fb222",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_064.json",
+      "sha256": "bd82b4d1a9c43f4d2680838f48a06f2bf511017d2ca9c7b4f48bfbe466b10a57"
+    },
+    {
+      "bytes": 66015,
+      "crc32": "36fbf88e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_065.json",
+      "sha256": "b66ed07d08a51d39fdf439aebb3d08c1b8149d2fae38b69f20f319b35fd0781e"
+    },
+    {
+      "bytes": 67017,
+      "crc32": "a1159eee",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_066.json",
+      "sha256": "5e2c89fe69e37109c46fe3e5713994f07363ce48bd473523673987edc4247153"
+    },
+    {
+      "bytes": 68019,
+      "crc32": "a8dc23a1",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_067.json",
+      "sha256": "7ad4919fcc5f228feffd8c3b5b8de6e659551b2021082849040eabafccb8d114"
+    },
+    {
+      "bytes": 69021,
+      "crc32": "f66b779d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_068.json",
+      "sha256": "e2c59c6b39bb430e0dccc1983a4de8129e6ad1d50c2cc55c0ae37ae14a5dc678"
+    },
+    {
+      "bytes": 70022,
+      "crc32": "d862dd71",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_069.json",
+      "sha256": "4e1312a35faf1d6109fb65f2d9d5570e6f7a4f1d9ccce1e1fe31fdf7390893e3"
+    },
+    {
+      "bytes": 72027,
+      "crc32": "15034921",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_071.json",
+      "sha256": "4ed7d8d95c6310dfb5a2d2500a554449529f4242afaec8bf417064caa1ed8024"
+    },
+    {
+      "bytes": 73028,
+      "crc32": "469423a8",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_072.json",
+      "sha256": "bba07cbb9a8bbd6f8b9dc38cdc483aceb0580ac4e351feab68cc36435f520244"
+    },
+    {
+      "bytes": 74031,
+      "crc32": "023a4777",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_073.json",
+      "sha256": "545e0c364e34d8b54b718527cb503afc821d124ff2c02bb0aad2a67d7807c060"
+    },
+    {
+      "bytes": 75033,
+      "crc32": "47d39aad",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_074.json",
+      "sha256": "1903932d097f8de878509214cdb3a2e66ee57866014912f6fe0674c5052de3f6"
+    },
+    {
+      "bytes": 76035,
+      "crc32": "526046cd",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_075.json",
+      "sha256": "7218fb625fcc29b2ba75c4ba9dac843ea5337eebf5710237b82374ba51bab2c2"
+    },
+    {
+      "bytes": 77037,
+      "crc32": "0c682262",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_076.json",
+      "sha256": "d955e9fa8961f4ec97704ef12792156709cdcecd7e5e7f593b52fc241e15378c"
+    },
+    {
+      "bytes": 78039,
+      "crc32": "1c87f4f1",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_077.json",
+      "sha256": "a3634b5c09aa39679f4a7b3a73023a789bac5c83966dd8e9b7810cfbb22f212d"
+    },
+    {
+      "bytes": 79041,
+      "crc32": "f7f610d5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_078.json",
+      "sha256": "f23502c4198ac3d122a88372fedf6fe3157f00c1516f7b494878b95866cc4781"
+    },
+    {
+      "bytes": 80042,
+      "crc32": "379d2183",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_079.json",
+      "sha256": "c94b5a0cc7f49b52f949b38c78e527a60d0aaad8215f4ba17fc046691f9f8ecc"
+    },
+    {
+      "bytes": 82046,
+      "crc32": "af62eb93",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_081.json",
+      "sha256": "4b205b4c5ef35c719ca9aecca1b2e64a644ecef5e7eb68ee57323b853a9f85f9"
+    },
+    {
+      "bytes": 83049,
+      "crc32": "ca6d2716",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_082.json",
+      "sha256": "7d9a52f941bf507f6bb9532f3e424b19ca5ad4a80b3340361e9802f7bc20997b"
+    },
+    {
+      "bytes": 84050,
+      "crc32": "2ea10131",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_083.json",
+      "sha256": "8753713e49cdeb80ebb212e17a3bf9466d091b7c31d8116a361b14124eae82b9"
+    },
+    {
+      "bytes": 85052,
+      "crc32": "af5c5c25",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_084.json",
+      "sha256": "26dd8c5faeffa6e6e1f5d784f297c41f7ef39741f330d98e988593f26a8b90da"
+    },
+    {
+      "bytes": 86054,
+      "crc32": "d4a46a80",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_085.json",
+      "sha256": "10d00861583a3455293a5cc4d6d31f2d960933c982e95ab8577ce86f815df949"
+    },
+    {
+      "bytes": 87056,
+      "crc32": "4c6a1ed1",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_086.json",
+      "sha256": "beadbb80602188d78a1f19d3e1b94ab906bd86973c3159a3ea0fa98ba22315ba"
+    },
+    {
+      "bytes": 88058,
+      "crc32": "9fc3bb44",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_087.json",
+      "sha256": "658a26dd81607761060e6b160da933358eef7de77bf3642d60359619f0f91295"
+    },
+    {
+      "bytes": 89060,
+      "crc32": "46fc1976",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_088.json",
+      "sha256": "efebdbdf2b83e36e8928e168701dc89b01d208b68814876fe6eb0ca6cb6c44cf"
+    },
+    {
+      "bytes": 90062,
+      "crc32": "9c429f32",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_089.json",
+      "sha256": "942cb3ec6d9e0bd5ce6a03a0e276de6817b98639d31f15fa6eadd8aea3539442"
+    },
+    {
+      "bytes": 92066,
+      "crc32": "83624109",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_091.json",
+      "sha256": "64c689ef71fdecdfc36864908f76f031a2c6abf6f0637cbed076b9edbd402408"
+    },
+    {
+      "bytes": 93066,
+      "crc32": "f0e21aea",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_092.json",
+      "sha256": "ba2d9da9b9a783b24b023cfdbc33518ad86e6fd786d4d6db7ad091fa3c47fa48"
+    },
+    {
+      "bytes": 94068,
+      "crc32": "0c0a427d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_093.json",
+      "sha256": "602c697e599831e76ef585a856212c7fb9ab993faddbc7b95c2220ab59ed4a47"
+    },
+    {
+      "bytes": 95070,
+      "crc32": "15f2c196",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_094.json",
+      "sha256": "d3996f3292e087c8a2e6c830b0ee18510fbcfbfa40dd9d6414a8c2d65874bafb"
+    },
+    {
+      "bytes": 96072,
+      "crc32": "22c37ba6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_095.json",
+      "sha256": "76ea5677111ec77c4f66a244ddc949c1046b45f3a7665e6a8a3804e007af8d2b"
+    },
+    {
+      "bytes": 97074,
+      "crc32": "57ef0562",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_096.json",
+      "sha256": "c11bbc84576fe89fa3cb0fea5d772b7aa08f4b1eb3fe54db9df04f705315338d"
+    },
+    {
+      "bytes": 98075,
+      "crc32": "8e098e3e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_097.json",
+      "sha256": "27745a2eb127af449bab942da2504acaea0c931e6186c0be1fb98b8dd795e2ea"
+    },
+    {
+      "bytes": 99076,
+      "crc32": "ecbdb6b5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_098.json",
+      "sha256": "422101cfb744f1e20ab00a152405443d48b32819d32fe917e1a671a41e3f1949"
+    },
+    {
+      "bytes": 100079,
+      "crc32": "abab706b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_099.json",
+      "sha256": "57d70f99136ef89db30f803f6fff54ae6f0f5107fdf52ecb1f5be45743955a8d"
+    },
+    {
+      "bytes": 102085,
+      "crc32": "70c20112",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_101.json",
+      "sha256": "10e610f8d48908b88f6f917d4ea3b405a1d222b8d1ef49872bca82e7ea4c496d"
+    },
+    {
+      "bytes": 103088,
+      "crc32": "abacf7be",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_102.json",
+      "sha256": "132c3c81e5bbff41085f65ade39c2a35f93331e19573ca76e2d144de9e7c4fd3"
+    },
+    {
+      "bytes": 104092,
+      "crc32": "8442cbec",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_103.json",
+      "sha256": "a75eb5cc956a31b29841a3fafb8225a7d1d188c4ddbc050ff446d58ec3943f42"
+    },
+    {
+      "bytes": 105095,
+      "crc32": "be478ec0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_104.json",
+      "sha256": "4ab5780ae7a88296f131eaa321b5f6c9cb3c585f8897e2d69eb1901076ecf4bc"
+    },
+    {
+      "bytes": 106097,
+      "crc32": "c6c39ee6",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_105.json",
+      "sha256": "5b068420c8278a84fa4e121b17752b8fa7228f1d4f0e32d51cd4adf9b902e1c6"
+    },
+    {
+      "bytes": 107101,
+      "crc32": "656ef1ff",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_106.json",
+      "sha256": "09c96f25ced259f03089635557cd2d3ecaf7fe25707fe115014ce0f33b98020c"
+    },
+    {
+      "bytes": 108104,
+      "crc32": "973bd1f4",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_107.json",
+      "sha256": "e56703ef926dc18a01391513435bf4073855ddff22bd31031b37bcae311ad72b"
+    },
+    {
+      "bytes": 109106,
+      "crc32": "c6c732b3",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_108.json",
+      "sha256": "51ce8b1c429fc2c9d1eca2d6c1f15b2c1614e09481e90c5eefffaecf1b117a57"
+    },
+    {
+      "bytes": 110108,
+      "crc32": "b07c2a23",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_109.json",
+      "sha256": "a60767b2fa03cc166c879e38d8c5f2dbc53863dfbb113ef219b2f5142ee3989e"
+    },
+    {
+      "bytes": 112115,
+      "crc32": "da1300fd",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_111.json",
+      "sha256": "03719acaea0e5bb8c6ae5208770f125f1eb20dd7317f03ae1a7cff3423c19e44"
+    },
+    {
+      "bytes": 113117,
+      "crc32": "43b963bc",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_112.json",
+      "sha256": "d743f016e4151b3392e6cea8ba0d295bb0e8d5aa902f52ac567f1f12dba37692"
+    },
+    {
+      "bytes": 114120,
+      "crc32": "e050048c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_113.json",
+      "sha256": "faade9c872715b0d99ee3cd6e423b7c43ea1ae37909366e4acd531e8c8fb2aa9"
+    },
+    {
+      "bytes": 115123,
+      "crc32": "c0825206",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_114.json",
+      "sha256": "70ff68cd3745e825f082ebf0863c54caba5a04edc549797496c034d238edf695"
+    },
+    {
+      "bytes": 116126,
+      "crc32": "78551484",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_115.json",
+      "sha256": "2a47c3b262e39b4400016196d86fd48ba1344a3f7d810c017cab70dbaf26f8bf"
+    },
+    {
+      "bytes": 117129,
+      "crc32": "ba5abafe",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_116.json",
+      "sha256": "d1d4a54f2b4c3b251e21b5caae39025631a4832dfd6a058468f30f66ddff498d"
+    },
+    {
+      "bytes": 118132,
+      "crc32": "18a3a586",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_117.json",
+      "sha256": "2169f502344a3da4021db8422e857e237fc56c5cee3bb0b5a27578a127acb5a2"
+    },
+    {
+      "bytes": 119134,
+      "crc32": "545b0f3f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_118.json",
+      "sha256": "e730860b695565eee65bbbf3d5e022ee627409b25aa7efe5f36f38fbe5ccfa8b"
+    },
+    {
+      "bytes": 120137,
+      "crc32": "9379256a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_119.json",
+      "sha256": "cecbdcf0bba3a1b80e142f684c13c8ea92a684375984e25cf4fe777207298d18"
+    },
+    {
+      "bytes": 122142,
+      "crc32": "bdc43089",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_121.json",
+      "sha256": "5629499b2d1b85fa94b28b481690fd59cae7cd768d61b1ab0ad2dd5b210ab693"
+    },
+    {
+      "bytes": 123144,
+      "crc32": "b01dec73",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_122.json",
+      "sha256": "22d6645e4be33abeb72cc63ae017cc196564e189970d805bce702ed7fd432d82"
+    },
+    {
+      "bytes": 124147,
+      "crc32": "e91e362e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_123.json",
+      "sha256": "984e04931a42545387cdf873028f13c270641b8565a9f60a4325b18fe8e8c9d9"
+    },
+    {
+      "bytes": 125150,
+      "crc32": "e17ad67d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_124.json",
+      "sha256": "6e841b7abb31677f64b4a00cf0eb1cd19addfe61294c66193e7fff7bdf307733"
+    },
+    {
+      "bytes": 126153,
+      "crc32": "4ac667c4",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_125.json",
+      "sha256": "1b04fb2ecef9e892ccbb7329720510a4c1ae27e051b68528c39f7eb701f81801"
+    },
+    {
+      "bytes": 127155,
+      "crc32": "a7fcb375",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_126.json",
+      "sha256": "010d99460705e0a8c024eadf4065dac8f809941b133cd484e951a2e4729b08da"
+    },
+    {
+      "bytes": 128159,
+      "crc32": "5438681d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_127.json",
+      "sha256": "e31354295dfe307c598b09afb8c9b7b93266badfb302f1839021070ac757e73c"
+    },
+    {
+      "bytes": 129162,
+      "crc32": "d0e463da",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_128.json",
+      "sha256": "9eca1dc7ab88b521ed1c30cd9deba64858acfb5357a4c825ca02431bde92198d"
+    },
+    {
+      "bytes": 130165,
+      "crc32": "14f60e39",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_129.json",
+      "sha256": "7ee36fc543a21aea325b488a306f5e02ac8b833effd2e2e4e86eb029d8fcd579"
+    },
+    {
+      "bytes": 132171,
+      "crc32": "a3af77e0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_131.json",
+      "sha256": "2a19be871fc0eb9d691fbf8f10ebeb2277bc83620ce6e7a57d16d435addfeab1"
+    },
+    {
+      "bytes": 133174,
+      "crc32": "d8a9930d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_132.json",
+      "sha256": "11b5ba5c57c3a4b90bc6a1a66e09481d5f5253a9f830093712da0a1f429fc3a3"
+    },
+    {
+      "bytes": 134177,
+      "crc32": "040bd94f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_133.json",
+      "sha256": "41b755d480615beb2ec98e67abb0d7786b13a8a1b8bdf7501a8502c97213a4bf"
+    },
+    {
+      "bytes": 135180,
+      "crc32": "7c0a84c7",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_134.json",
+      "sha256": "3f1b2b26ff51570db4eaf4ba79aac1ced28646f5265e1bf83687aac9628432a2"
+    },
+    {
+      "bytes": 136183,
+      "crc32": "d73269bf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_135.json",
+      "sha256": "34d80a73db71acddd7c6b3ea238dd04cc1f22eba16cd6ebf3d3c128cc5dd0527"
+    },
+    {
+      "bytes": 137186,
+      "crc32": "6853dcba",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_136.json",
+      "sha256": "4f31b019ac1f68bd24dcbe3d6bbb0c1c2e5025cda4479f95e45810c812665b1e"
+    },
+    {
+      "bytes": 138189,
+      "crc32": "09ab1f2a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_137.json",
+      "sha256": "8a31cacc21980856666786726b80ec53cd8af2004a7306a60c3471b0acf78dd4"
+    },
+    {
+      "bytes": 139192,
+      "crc32": "6c7f43ad",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_138.json",
+      "sha256": "b5e4ebabbba9f0ad01ffc471fa2a8ea2b4194e1308a0b6925b284f5e6d83c177"
+    },
+    {
+      "bytes": 140195,
+      "crc32": "7cffa761",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_139.json",
+      "sha256": "3a2214a31ac51042031615873afd8dfe8d7b912a2df9f3600fe996f315f6dd10"
+    },
+    {
+      "bytes": 142201,
+      "crc32": "4619efd8",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_141.json",
+      "sha256": "35361f3a3f05936b66de8f9738d0c8261cd9bc8ea96e74b0710c7884a90a0fce"
+    },
+    {
+      "bytes": 143204,
+      "crc32": "136709f4",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_142.json",
+      "sha256": "9e3daa33e3d3d74ef020f6a87d5ba16be2a385e4067ef16773af42e40a072e41"
+    },
+    {
+      "bytes": 144207,
+      "crc32": "48dacf5d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_143.json",
+      "sha256": "39be3024cb8b19c8b183e886984bed3ae2a154e3b7ab63a09ccd4fb02f8f2f03"
+    },
+    {
+      "bytes": 145210,
+      "crc32": "a70025fc",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_144.json",
+      "sha256": "79a130634d72ba3158fb54fa5926341f6dbbc44471bbe8c612c94dbef22f3a90"
+    },
+    {
+      "bytes": 146213,
+      "crc32": "b2a99986",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_145.json",
+      "sha256": "26df09c5d69132dd4144d29639ec9e14ec5100563e04de44c656fc74be8e2825"
+    },
+    {
+      "bytes": 147215,
+      "crc32": "b765a3c5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_146.json",
+      "sha256": "b1ae2880645068705c9fdada001a335e0219f19c96830d1c3a6167459d46af58"
+    },
+    {
+      "bytes": 148218,
+      "crc32": "d467c827",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_147.json",
+      "sha256": "e4613e339012073bc69e4b1384e01361ca961f69cbfb22364be40d5a86b8824f"
+    },
+    {
+      "bytes": 149221,
+      "crc32": "65c43ee5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_148.json",
+      "sha256": "39275e7dac42a6c5454404345b7d13e5a6372c8e09bad1d39fd62f93d7d4ee88"
+    },
+    {
+      "bytes": 150224,
+      "crc32": "2aa8ca05",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_149.json",
+      "sha256": "881332bcd96e3c86c36babced4d56b0fcbe5cc9d8c66cf9bdfe479f0dc4d1a17"
+    },
+    {
+      "bytes": 152230,
+      "crc32": "88472e74",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_151.json",
+      "sha256": "0f0c22e9bd1ac0e982bb1679c11cbda9ae960d7e1b1b5b3fa4833873d0cc6193"
+    },
+    {
+      "bytes": 153232,
+      "crc32": "4ccea70e",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_152.json",
+      "sha256": "8862cf5298236141b100abb10f89f5f1d22bbe923ed8d6bcf61ffae86db7c045"
+    },
+    {
+      "bytes": 154236,
+      "crc32": "0d8fb0ec",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_153.json",
+      "sha256": "b023ad031c4b852885f16989efb629bf5057956a8d420d50eb8cb70b84722af4"
+    },
+    {
+      "bytes": 155239,
+      "crc32": "06afe703",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_154.json",
+      "sha256": "fb58df63d1a760570947b0a9292a92a8c6555aecb4c727c467f729988a6feaae"
+    },
+    {
+      "bytes": 156242,
+      "crc32": "97c13f2c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_155.json",
+      "sha256": "1e012903fe975114a9cc9567571c3deb881356d70e2c0d79c663cbb06e63fa17"
+    },
+    {
+      "bytes": 157245,
+      "crc32": "22281aeb",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_156.json",
+      "sha256": "e011d68a42fd5922ba6fc53299d7b7f6bd4b586ed56fd1ab39f685dec238e3e9"
+    },
+    {
+      "bytes": 158248,
+      "crc32": "969241ae",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_157.json",
+      "sha256": "49a7d668a800cd70b2d75d9ea853d707723855030c2751fde38b22d640e50f6b"
+    },
+    {
+      "bytes": 159251,
+      "crc32": "d658d955",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_158.json",
+      "sha256": "55faf920f1990de59e39337b90226c56d7025b2133a137889b70b84a7fad2101"
+    },
+    {
+      "bytes": 160254,
+      "crc32": "399f1016",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_159.json",
+      "sha256": "0ce0dc809cd632ba0f8f55469147f5c5a2fd50eed056b11b56220ae5a36e8964"
+    },
+    {
+      "bytes": 162259,
+      "crc32": "b4e03b32",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_161.json",
+      "sha256": "6dfbe9461c86e5af0ed8cf14e7d05571fed56ed90d0dcdbe2ec2f966499ec5ab"
+    },
+    {
+      "bytes": 163262,
+      "crc32": "bf8b046a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_162.json",
+      "sha256": "affe0606ecb08379209df4664556bd630bb22e303e11c8381389a7b89aed0566"
+    },
+    {
+      "bytes": 164265,
+      "crc32": "00219bd7",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_163.json",
+      "sha256": "b7655caa49b2044138d7722faa7ca9d67812360ef2cf73e77c1bb57c4267dcda"
+    },
+    {
+      "bytes": 165268,
+      "crc32": "266131d0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_164.json",
+      "sha256": "ab2ede74a297c981edcc667f55b62192ca632ac0813f3080ee7c7d024b49053c"
+    },
+    {
+      "bytes": 166271,
+      "crc32": "2fe6d419",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_165.json",
+      "sha256": "fd2ec34e606f92ac587c18a729607b3c21f24c9cb5c4726ac94f7e52ce611cd0"
+    },
+    {
+      "bytes": 167274,
+      "crc32": "d792f8e0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_166.json",
+      "sha256": "23da4177dd6b68c41dd153794a4688c48981fa721ff674c78051f58f1f27fe31"
+    },
+    {
+      "bytes": 168277,
+      "crc32": "17532c31",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_167.json",
+      "sha256": "d923c66cd12e2646c7176fe5f0dbb00610aacbbf917d99cbed5ec498a89edcd8"
+    },
+    {
+      "bytes": 169280,
+      "crc32": "2514ada3",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_168.json",
+      "sha256": "7e13ad47200076fd16b3225883f81bf5e3d417785171957adf36f142633e95d9"
+    },
+    {
+      "bytes": 170283,
+      "crc32": "293287bf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_169.json",
+      "sha256": "fb78db9b5a637097b9c8543c1449d1065a73df6e2ef0b41d498ee68f9fd82bb4"
+    },
+    {
+      "bytes": 172288,
+      "crc32": "495a2ccf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_171.json",
+      "sha256": "6efb73fb656371a63d603623988af0eb9cdc051371994407b244ae4574ce75dc"
+    },
+    {
+      "bytes": 173292,
+      "crc32": "df678087",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_172.json",
+      "sha256": "dc0e2aa7de1310c225984fcbb3ea6db163efb76636b9685aca88e071e88ce4a5"
+    },
+    {
+      "bytes": 174295,
+      "crc32": "ff8d6568",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_173.json",
+      "sha256": "a1afb55e2dae8cd6a5e28a9e9374bd40beda6a0642a418ecb52bb577a21fccee"
+    },
+    {
+      "bytes": 175298,
+      "crc32": "35efc2b2",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_174.json",
+      "sha256": "470cb3479b729cfb1676faba36e4b4083c39c57b40a59aedf660cd55e7a4fe93"
+    },
+    {
+      "bytes": 176301,
+      "crc32": "bbc083d5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_175.json",
+      "sha256": "1df05837e8fedfcaf27f42c36f474458503fd90207e9c9b29aeb742defb9d1bc"
+    },
+    {
+      "bytes": 177304,
+      "crc32": "4215ac4f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_176.json",
+      "sha256": "51f8eaa8b0c15eb16700e2bc707b3d87552b322193804b4fe3b7b57e6e3a546b"
+    },
+    {
+      "bytes": 178307,
+      "crc32": "e22e286b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_177.json",
+      "sha256": "44da82fb1c2ec5f82eeeb9517fbfe44c815bd6b1f270293df491dd1df2ac8a1f"
+    },
+    {
+      "bytes": 179310,
+      "crc32": "cc8d37ff",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_178.json",
+      "sha256": "c5181275a6fc9d9127ac35e1529672abbabfd1865c0aec2088c215db36bcc500"
+    },
+    {
+      "bytes": 180312,
+      "crc32": "239a52ef",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_179.json",
+      "sha256": "c824125f84213eecf73ca82bdaec5b95f552c06c166b3c31d7e75f21fee79c9d"
+    },
+    {
+      "bytes": 182319,
+      "crc32": "97a4ff2f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_181.json",
+      "sha256": "b1d960150947c0e075c1c797059fd0dd0383b2cc9aa3c9131460029abdf917c6"
+    },
+    {
+      "bytes": 183321,
+      "crc32": "06a39c90",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_182.json",
+      "sha256": "0e03fcc4479bf4db62f2bcab942e690d419af0124a77053d07721d828e8f3c41"
+    },
+    {
+      "bytes": 184323,
+      "crc32": "c58c9837",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_183.json",
+      "sha256": "cc1b3a3adf846f6909764c4d9139c50a04ca89d68a34894c46e860efe55f556e"
+    },
+    {
+      "bytes": 185327,
+      "crc32": "a58cd174",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_184.json",
+      "sha256": "5465784171cbe9201f9371704fb047262a7962d57bcf81f07e8995dd715d46ed"
+    },
+    {
+      "bytes": 186329,
+      "crc32": "070ab99a",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_185.json",
+      "sha256": "2e6a3f1df9b6030c6aef5e1f93330321266a48c930f371d5626e57c9bf3e7595"
+    },
+    {
+      "bytes": 187333,
+      "crc32": "c66831e5",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_186.json",
+      "sha256": "c680eb933e22d4ec2c8a96c4b268d78173ce1cbbc2516dfe7f8700aec6205a33"
+    },
+    {
+      "bytes": 188335,
+      "crc32": "0d1087d4",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_187.json",
+      "sha256": "631d51102c4f39863b422610d4a365bc894d4c114d5d1b128b2b473dd52a93ba"
+    },
+    {
+      "bytes": 189338,
+      "crc32": "6703b05d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_188.json",
+      "sha256": "b31bcc1a0cd62843f87663165871ff86f944639bd61c8d6beb454d849971b937"
+    },
+    {
+      "bytes": 190341,
+      "crc32": "fb3a7af3",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_189.json",
+      "sha256": "f5dccba291902d86b02e43c067425d99cd6e16694ba3eee1b5f6b04a15119eaa"
+    },
+    {
+      "bytes": 192347,
+      "crc32": "fb93bc35",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_191.json",
+      "sha256": "f7a210c0a0841f8cf1c9828b485fae299e7d5228e141bdff2b257acee0b6f8f4"
+    },
+    {
+      "bytes": 193350,
+      "crc32": "dbd8d39b",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_192.json",
+      "sha256": "c182e59e815ec4a31af5c4d7427f1650d714eeafe1ecc1f4f4d2700ce779a3b8"
+    },
+    {
+      "bytes": 194353,
+      "crc32": "e4158f1c",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_193.json",
+      "sha256": "a28b618cda3f3abfd6f24d72f44b8fe1f2c8b34064dc1670974b39de7ee2a249"
+    },
+    {
+      "bytes": 195355,
+      "crc32": "4574d7c0",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_194.json",
+      "sha256": "90a79619846b46e558a6f2adc4a1b04bc6ecd525997d5aa88b2f8a48441ea9e4"
+    },
+    {
+      "bytes": 196358,
+      "crc32": "e8c0669d",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/progress/20261008T124301_064978+0000_195.json",
+      "sha256": "b064163eed90b4424f7781aa6bac9b64ee24f9e0592b4d4368aef134be3b5252"
+    },
+    {
+      "bytes": 80379,
+      "crc32": "177d8ad2",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/retrieval_progress.json",
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457"
+    },
+    {
+      "bytes": 1351,
+      "crc32": "af96687f",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/retrieval_progress.json.tmp",
+      "sha256": "56708200831276c105615877aab9daca1b0335046f4df9eb20ea12982e1bfcf7"
+    },
+    {
+      "bytes": 80379,
+      "crc32": "177d8ad2",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/retrieval_progress.replace-probe",
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457"
+    },
+    {
+      "bytes": 94067,
+      "crc32": "d6775fcf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/retrieval_progress_resume.json",
+      "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f"
+    },
+    {
+      "bytes": 95069,
+      "crc32": "48c0ebbf",
+      "crc_verified": true,
+      "member": "originals/reports/stage02/retrieval_progress_resume.json.tmp",
+      "sha256": "a237f440661e321e81641a5b148bad3ccd78b2b4f76e639db1ab557253ff55e7"
+    },
+    {
+      "bytes": 1204,
+      "crc32": "861e499b",
+      "crc_verified": true,
+      "member": "originals/reports/stage04/resumed_inference_resource_failure_v4.json",
+      "sha256": "ea360153758f7b04b24bbb7f8dec5bd81eb022ba13ba824b222e1bdd3b5a6279"
+    },
+    {
+      "bytes": 15962,
+      "crc32": "a8fc7dfc",
+      "crc_verified": true,
+      "member": "originals/reports/stage05/independent_model_review.md",
+      "sha256": "b8897c941b833c0c23e4be579cdb998d7dfe03094d030c534f6a731efcd7bb73"
+    },
+    {
+      "bytes": 52857,
+      "crc32": "081053ea",
+      "crc_verified": true,
+      "member": "originals/scripts/PARENT_stage04_inference_validate_v3_before_finite_guard_88a.py",
+      "sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0"
+    },
+    {
+      "bytes": 13044,
+      "crc32": "1a6adc61",
+      "crc_verified": true,
+      "member": "originals/scripts/publish_stage04_resource_gate_v4.py",
+      "sha256": "a645ca1761a8c048b6b5033886879e1aefde75ed258d75ed90111050d7ff70a0"
+    },
+    {
+      "bytes": 1278,
+      "crc32": "84611c42",
+      "crc_verified": true,
+      "member": "originals/scripts/stage04_controller_synthetic_results.json",
+      "sha256": "28c1a1f574e8c963f0add88fb2c423c18d3f182565f6c6db6d982d34f974d060"
+    },
+    {
+      "bytes": 1043,
+      "crc32": "57229894",
+      "crc_verified": true,
+      "member": "originals/scripts/stage04_orthology_gate_synthetic_results.json",
+      "sha256": "60b58fd7f368eb2a3999f3d6eaa43bdf63feb41469bd865081def3703549f94d"
+    },
+    {
+      "bytes": 4858,
+      "crc32": "ce2cdb1b",
+      "crc_verified": true,
+      "member": "originals/scripts/test_stage04_phylogeny.py",
+      "sha256": "f4cbb6c8c2da1e48bee2d6fa18dcde301df9241fdaa5b11ece06f1d8591e3be0"
+    },
+    {
+      "bytes": 2998,
+      "crc32": "fbda2e58",
+      "crc_verified": true,
+      "member": "originals/scripts/verify_stage04c_windows.py",
+      "sha256": "bed0babfbfeb149bf7bfc546733e7b671b5ca0d96f63018d392512e72c11e769"
+    }
+  ],
+  "native_jobs": 0,
+  "network_calls": 0,
+  "observed_own_priority_class": 16384,
+  "original_mapping_member": "ORIGINAL_MAPPING.json",
+  "parallel_readers": 1,
+  "pruning": "NOT_RUN",
+  "public_original_bytes": 18622099,
+  "public_original_files": 194,
+  "remote_publication": "NOT_RUN",
+  "remote_readback": "NOT_RUN",
+  "schema": "MASTER_OLD_CHECKOUT_CHANGED_HISTORY_LOCAL_ARCHIVE_V1",
+  "scientific_acceptance_created": false,
+  "sha256": "0fc8e7f1e6ee8d3ba4327df49b6e2b055ef6118ca7fc4a623d23ad9a3edc8226",
+  "source_deletions": 0,
+  "state": "PASS_LOCAL_EXACT194_PUBLIC_HISTORY_CRC_SHA_NO_PURGE",
+  "stream_chunk_bytes": 262144,
+  "whole_private_excluded_bytes": 4795,
+  "whole_private_excluded_files": 5,
+  "wsl_starts": 0
+}

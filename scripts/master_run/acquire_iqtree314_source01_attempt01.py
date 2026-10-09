@@ -8,12 +8,6 @@ REPOS=[('iqtree/iqtree3',PIN),('trongnhanuit/cmaple','3d45b1ab68e2d68a2825bf17a5
        ('tothuhien/lsd2','c61110f3a4fa05325b45c97b2134792ff9d55d4c')]
 RESERVE=1610612736
 MAX_DOWNLOAD=128*1024*1024
-RETAINED_IQTAR=WORK/'iqtree314_source01_20261009T204525Z_40601c75'/('iqtree3-'+PIN+'.tar.gz')
-RETAINED_IQTAR_SHA='2bd03d26a581ee566f4c9977d6fadf08e00ea553030fc625e27f4d12051c5e20'
-EXPORT_PATH='terraphast/appveyor.yml'
-EXPORT_BLOB='4b5d6aa580496004b342d8d49cbe8f6629e835f8'
-ORIGINAL_SHA='6a22862d34ecc3e5a11e59c29726711016ad6a66f3b9283603e46cae77358797'
-EXPORTED_SHA='65991b0d98a7003ec9b0ae5ee821287b4c7e0c7294c0ed47b502e97f3b6085e4'
 
 def utc():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def require(ok,msg):
@@ -79,29 +73,15 @@ def main():
             (out/(name+'_git_commit.json')).write_bytes(raw_commit)
             url='https://codeload.github.com/'+repo+'/tar.gz/'+commit
             path=out/(name+'-'+commit+'.tar.gz.partial');count=0;started=time.monotonic()
-            if repo==REPOS[0][0]:
-                require(RETAINED_IQTAR.stat().st_size<=MAX_DOWNLOAD and digest(RETAINED_IQTAR)==RETAINED_IQTAR_SHA,
-                        'Previously retained original codeload source differs')
-                copied=hashlib.sha256()
-                with RETAINED_IQTAR.open('rb') as source,path.open('xb') as dest:
-                    while True:
-                        gate();require(time.monotonic()-started<300,'Retained source copy deadline exceeded')
-                        part=source.read(1024*1024)
-                        if not part:break
-                        count+=len(part);require(count<=MAX_DOWNLOAD,'Retained source copy bound exceeded')
-                        copied.update(part);dest.write(part)
-                    dest.flush();__import__('os').fsync(dest.fileno())
-                require(copied.hexdigest()==RETAINED_IQTAR_SHA,'Actual retained source copy differs')
-            else:
-                with opener.open(urllib.request.Request(url,headers={'User-Agent':'lab-rm-public-source-recovery/1'}),timeout=30) as response,path.open('xb') as dest:
-                    require(response.status==200 and response.geturl()==url,'Unexpected source response')
-                    while True:
-                        require(time.monotonic()-started<300,'Bounded source download timed out')
-                        gate();part=response.read(1024*1024)
-                        if not part:break
-                        count+=len(part);require(count<=MAX_DOWNLOAD,'Source download bound exceeded')
-                        dest.write(part)
-                    dest.flush();__import__('os').fsync(dest.fileno())
+            with opener.open(urllib.request.Request(url,headers={'User-Agent':'lab-rm-public-source-recovery/1'}),timeout=30) as response,path.open('xb') as dest:
+                require(response.status==200 and response.geturl()==url,'Unexpected source response')
+                while True:
+                    require(time.monotonic()-started<300,'Bounded source download timed out')
+                    gate();part=response.read(1024*1024)
+                    if not part:break
+                    count+=len(part);require(count<=MAX_DOWNLOAD,'Source download bound exceeded')
+                    dest.write(part)
+                dest.flush();__import__('os').fsync(dest.fileno())
             final=path.with_suffix('');path.rename(final)
             verify_started=time.monotonic();expanded=0
             with gzip.open(final,'rb') as compressed:
@@ -111,7 +91,7 @@ def main():
                     part=compressed.read(256*1024)
                     if not part:break
                     expanded+=len(part);require(expanded<=320*1024**2,'Decompressed source archive bound exceeded')
-            prefix=name+'-'+commit;seen={};notices=[];supplements=[]
+            prefix=name+'-'+commit;seen={};notices=[]
             with tarfile.open(final,'r:gz') as archive:
                 for item in archive:
                     gate()
@@ -123,25 +103,6 @@ def main():
                     require(rel in blobs and rel not in seen,'Unexpected/duplicate source member')
                     expected=blobs[rel];h1=hashlib.sha1();h2=hashlib.sha256()
                     h1.update(b'blob '+str(expected['size']).encode()+b'\0')
-                    if repo==REPOS[0][0] and rel==EXPORT_PATH:
-                        require(item.isfile() and item.size==264 and expected['size']==249
-                            and expected['mode']=='100644' and expected['sha']==EXPORT_BLOB,'Fixed source export exception differs')
-                        with archive.extractfile(item) as source:exported=source.read(512)
-                        original_path=RETAINED_IQTAR.parent/'original_git_blobs'/(EXPORT_BLOB+'.blob')
-                        original=original_path.read_bytes()
-                        require(len(original)==249 and hashlib.sha256(original).hexdigest()==ORIGINAL_SHA
-                            and hashlib.sha1(b'blob 249\0'+original).hexdigest()==EXPORT_BLOB
-                            and len(exported)==264 and hashlib.sha256(exported).hexdigest()==EXPORTED_SHA
-                            and exported.count(b'\r\n')==15 and original.count(b'\r\n')==0
-                            and exported.replace(b'\r\n',b'\n')==original,'Exact diagnosed export/original bytes differ')
-                        supplement=out/'original_git_blobs'/(EXPORT_BLOB+'.blob');supplement.parent.mkdir(exist_ok=True)
-                        with supplement.open('xb') as dest:dest.write(original)
-                        seen[rel]={'bytes':249,'sha256':ORIGINAL_SHA,'git_blob':EXPORT_BLOB,'mode':'100644',
-                            'archive_bytes':264,'archive_sha256':EXPORTED_SHA,
-                            'original_recovery_supplement':supplement.relative_to(out).as_posix()}
-                        supplements.append({'path':rel,'supplement':supplement.relative_to(out).as_posix(),
-                            'bytes':249,'sha256':ORIGINAL_SHA,'difference':'15 LF exported as CRLF; exact original Gitblob retained'})
-                        continue
                     if item.issym():
                         require(expected['mode']=='120000','Source symlink mode differs')
                         data=item.linkname.encode('utf-8');h1.update(data);h2.update(data);size=len(data)
@@ -163,13 +124,11 @@ def main():
             row={'repository':'https://github.com/'+repo,'commit':commit,'url':url,'archive':final.name,
                 'bytes':final.stat().st_size,'sha256':digest(final),'tree_sha':tree_sha,'blob_count':len(seen),
                 'uncompressed_blob_bytes':sum(r['bytes'] for r in seen.values()),'submodules':links,
-                'original_notice_paths':notices,'all_original_git_blob_hashes_verified':True,'gzip_crc_verified':True,
-                'source_export_supplements':supplements,'original_codeload_archive_edited':False}
+                'original_notice_paths':notices,'all_git_blob_hashes_verified':True,'gzip_crc_verified':True}
             (out/(name+'_actual_blobs.json')).write_text(json.dumps(seen,indent=2)+'\n',encoding='utf-8')
             receipt['repositories'].append(row);save()
             print(json.dumps({'repo':repo,'state':'PASS_EXACT_GIT_SOURCE_BLOBS_RETAINED','blobs':len(seen),'bytes':row['bytes']}),flush=True)
-        receipt.update(state='PASS_THREE_PUBLIC_SOURCE_ARCHIVES_PLUS_ONE_EXACT_GIT_BLOB_ALL_ORIGINALS_RECOVERABLE',finished_utc=utc(),
-            restore_note='Preserve all three original tar.gz archives; after extracting IQ-TREE replace only terraphast/appveyor.yml with the retained249B original Gitblob. No archive was edited.')
+        receipt.update(state='PASS_THREE_EXACT_PUBLIC_SOURCE_ARCHIVES_ALL_BLOBS_AND_SUBMODULE_PINS',finished_utc=utc())
         save();print(json.dumps({'state':receipt['state'],'receipt':str(out/'receipt.json')}),flush=True)
     except BaseException as e:
         receipt.update(state='FAILED_SOURCE_ACQUISITION_PARTIALS_PRESERVED_NO_RETRY',finished_utc=utc(),

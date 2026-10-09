@@ -1,0 +1,8 @@
+{
+  "state": "LOCAL_PUBLICATION_PLAN_PREPARATION_FAILED_NO_REMOTE_CHANGE",
+  "cause": "Root used a proposed test filename rather than the actual test_verify_public_conda_packages01_remote.py filename",
+  "failed_stage": "Capturing local source bytes before any plan or Git object publication",
+  "scientific_execution": "NOT_RUN_BY_THIS_HELPER",
+  "source_or_data_changed": false,
+  "correction": "Use actual test filename and a new preparation output directory; retain this failure record"
+}
