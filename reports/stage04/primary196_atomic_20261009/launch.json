@@ -1,0 +1,80 @@
+{
+  "utc": "2026-10-09T16:29:47.628911+00:00",
+  "argv": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "-s",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+    "--seqtype",
+    "AA",
+    "-p",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+    "-m",
+    "MFP",
+    "-B",
+    "1000",
+    "--alrt",
+    "1000",
+    "--seed",
+    "1961008",
+    "-T",
+    "2",
+    "-keep-ident",
+    "--boot-trees",
+    "--prefix",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_attempts\\partitioned_20261009T162904Z\\host"
+  ],
+  "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_attempts\\partitioned_20261009T162904Z",
+  "native": {
+    "pid": 4768,
+    "creation_filetime": 134360369876207076,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller": {
+    "pid": 27048,
+    "creation_filetime": 134360369803845506,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.25,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "authority": {
+    "canonical_commit": "160498a6af156b563c7680910945da13b4d245c0",
+    "run_control_sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "config_sha256": "c70b267b04f9fa9c19a2bf0671deabcfd0959545d90a48a912ea463e220be314",
+  "runner_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "executable_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+  "cap_bytes": 4831838208,
+  "reserve_bytes": 1610612736,
+  "affinity_mask": 5,
+  "job_bound_before_resume": true,
+  "job_limit_flags": 8976,
+  "inherited_controller_job": {
+    "associated": true,
+    "limit_flags": 10240,
+    "process_memory_cap_bytes": 0,
+    "job_memory_cap_bytes": 0,
+    "owner_or_lifetime": "NOT_PROVED_BY_MEMBERSHIP"
+  },
+  "transient_idle_sleep_prevention": {
+    "requested_flags": 2147483649,
+    "previous_thread_state": 2147483648,
+    "scope": "Only this controller thread; no permanent power preference change"
+  },
+  "runtime_seconds": 86400,
+  "session_limit": "Account signed in; no power/logoff survival claim"
+}

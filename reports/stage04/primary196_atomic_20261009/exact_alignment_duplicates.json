@@ -1,0 +1,86 @@
+{
+  "status": "PASS_EXACT_ACCEPTED_ALIGNMENT_DUPLICATE_QA",
+  "alignment_sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+  "taxa": 196,
+  "columns": 17456,
+  "unique_full_aligned_sequences": 182,
+  "duplicate_group_count": 8,
+  "taxa_in_duplicate_groups": 22,
+  "groups": [
+    {
+      "size": 5,
+      "accessions": [
+        "GCF_020844005.1",
+        "GCF_052569745.1",
+        "GCF_052570115.1",
+        "GCF_052571685.1",
+        "GCF_903891025.1"
+      ],
+      "aligned_sequence_sha256": "494ffc020889377f0c9f6f3d1a09873b138c98c19b976b71101b8c21e7176cd9"
+    },
+    {
+      "size": 4,
+      "accessions": [
+        "GCF_041509385.1",
+        "GCF_041514285.1",
+        "GCF_041514295.1",
+        "GCF_041893975.1"
+      ],
+      "aligned_sequence_sha256": "60c6aa02f036f2bac9b36695bf64ed937af94173b56b3444c28ea52ab29ba6ac"
+    },
+    {
+      "size": 3,
+      "accessions": [
+        "GCF_000241055.1",
+        "GCF_001752505.1",
+        "GCF_001752545.1"
+      ],
+      "aligned_sequence_sha256": "f7149dfb6f24080ffafb63e3eb0b6a2f89c80aa23af445c879994f999f8264ed"
+    },
+    {
+      "size": 2,
+      "accessions": [
+        "GCF_003641185.1",
+        "GCF_026222675.1"
+      ],
+      "aligned_sequence_sha256": "2cf89b6b96d281cffa7cecaf7b9f673097de1dc92aa99f2bb356e7c90477ee5a"
+    },
+    {
+      "size": 2,
+      "accessions": [
+        "GCF_005405405.1",
+        "GCF_965136965.1"
+      ],
+      "aligned_sequence_sha256": "15dc0b8b1d19994f13b5d04f556609dc3de1b82092f5435af2c2ec8248dc6d6b"
+    },
+    {
+      "size": 2,
+      "accessions": [
+        "GCF_009913995.1",
+        "GCF_009914035.1"
+      ],
+      "aligned_sequence_sha256": "6d752f9849d03e390666f8d8cddd620ac13c98b86bc7d5659d788e5cf7405b86"
+    },
+    {
+      "size": 2,
+      "accessions": [
+        "GCF_060305805.1",
+        "GCF_060307215.1"
+      ],
+      "aligned_sequence_sha256": "7f1fa86f7a9138e49bf96a8c2ebf6bbf3169e3f629cee925e3a6492a7e341dee"
+    },
+    {
+      "size": 2,
+      "accessions": [
+        "GCF_903885985.1",
+        "GCF_903886345.1"
+      ],
+      "aligned_sequence_sha256": "08f23ae206fe5d32ece6c43052e891bf7df08266a40bf5c1273a05b446a2e9d7"
+    }
+  ],
+  "comparison": "Exact full concatenated aligned AA strings including all gap/ambiguous characters; no case/gap normalization or site exclusion.",
+  "biological_computation": false,
+  "panel_preserved": true,
+  "tree_checker_changed": false,
+  "checker_sha256": "c91301d1e39c295e8e32bc0ed2c4c73a20a341cccc63da38bf64a040d5a6dbfc"
+}
