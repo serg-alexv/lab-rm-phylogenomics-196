@@ -1,0 +1,23 @@
+{
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "fixture": "exit0",
+  "state": "FAILED_NONSCIENTIFIC_FIXTURE",
+  "owner_nonce": "7d1821f3f83143018af5469308259699",
+  "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 3,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.01599999999962165,
+    "successful_calls": 3
+  },
+  "scientific_adoption_authorized": false,
+  "owned_closure_proven": false,
+  "error": "ValueError: Actual nonscientific terminal/exit/closure binding failed",
+  "action": "Root must reconcile exact WSL/native closure before any further scientific launch; no process-wide kill was attempted."
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "MASTER_ROOT_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_PREPARATION_ONLY_ACTUAL_ACTIONS_NOT_RUN",
+  "utc": "2026-10-09T23:19:29.681579+00:00",
+  "pins": {
+    "repair_canonical_post_ff_stat32.py": "f8b40188ab7ba25b6a44501008eae9472d2141c7ecc24f111618bb7d7941025d",
+    "canonical_post_ff_stat32_plan.json": "00718bae82458ae0c238ac276e4fae134799c2f77d9caffd0da1f0ad7af7fb83",
+    "stage5_memory_observation_owner.py": "9a49165c6809486d0bdbf6e2a9c297e943b8a738f148a54e1244a491f4d63cfd",
+    "stage5_memory_observation.py": "55ab4f7c96589c599bfe2fed25165faea8817cefdbf8d4f8676655d5d12b1161"
+  },
+  "actual_root_verification": "python -B -m unittest test_canonical_post_ff_stat32 test_stage5_memory_observation_owner:12 tests PASS0.015s",
+  "memory_checks": [
+    "separate bounded nofork Linux observation",
+    "original retained byte lock and exact prior04 closure pins",
+    "fresh1536MiB physical and commit reserve",
+    "actual retained client birth/exit plus full nonce/source-bound output",
+    "Windows snapshots before/after",
+    "unknown-client stop written before unlock",
+    "no config/cache/signal/science action"
+  ],
+  "metadata_checks": [
+    "fixed c76 HEAD/prior actual a147 FF proof",
+    "32 exact prior falseM paths joined to265 raw proofs",
+    "all indexed modes/OIDs equal HEAD before/after",
+    "six dirty raw backups preserved before sole exact32 add",
+    "effective no-conversion attribute gate",
+    "all raw bytes unchanged and finalstatus exactlysix",
+    "reviewed owned Git lifecycle reuses17010 helper",
+    "no fetch/FF/reset/restore/clean/refwrite/automatic scope expansion"
+  ],
+  "limitations": [
+    "Source review and12 pure tests are not actual WSL/G integration.",
+    "Current interop02 local stop remains preserved; failed Conda pidfd capability occurs before native fixture launch."
+  ]
+}

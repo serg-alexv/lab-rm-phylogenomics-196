@@ -1,0 +1,53 @@
+{
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "state": "FAILED_NONSCIENTIFIC_INTEROP",
+  "fixtures": [
+    "exit0",
+    "lease_expiry",
+    "escaped_descendant"
+  ],
+  "worker_sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+  "supervisor_sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+  "windows_api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+  "lease_ttl_seconds": 3,
+  "maximum_per_fixture_seconds": 60,
+  "scientific_adoption_authorized": false,
+  "actual_windows_owner": {
+    "pid": 27636,
+    "creation_filetime": 134360614252079633,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "results": [
+    {
+      "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+      "fixture": "exit0",
+      "state": "FAILED_NONSCIENTIFIC_FIXTURE",
+      "owner_nonce": "7d1821f3f83143018af5469308259699",
+      "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "lease_replace_stats": {
+        "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+        "calls": 4,
+        "retries": 0,
+        "transient_failures": 0,
+        "transient_winerrors": {},
+        "last_replace_attempts": 1,
+        "last_replace_retries": 0,
+        "last_replace_seconds": 0.0,
+        "maximum_replace_seconds": 0.01599999999962165,
+        "successful_calls": 4
+      },
+      "scientific_adoption_authorized": false,
+      "owned_closure_proven": false,
+      "error": "ValueError: Actual nonscientific terminal/exit/closure binding failed",
+      "elapsed_seconds": 0.75,
+      "wsl_stdout_sha256": "6ece29371ae8a57954e9662c281918f19de88ba3a81c3e542f780659c7a01c67",
+      "wsl_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

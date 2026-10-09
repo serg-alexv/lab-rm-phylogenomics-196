@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:14:55.644595+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:19:29.850218+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -58,3 +58,8 @@ Actual operational update: Preserve successful canonical FF with32 metadata entr
 Canonical FF to c76a461 exited0; all265 changed raw blobs and entire index objects/modes match the target. Six genuine local changes remain byte-identical. Overall repair remains FAILED_PRESERVED because32 new false-modified DriveFS entries appeared; no automatic scope expansion occurred. Private index and six raw backups remain local and excluded.
 
 Runtime03 rejected an incorrect toolchain proof subdirectory before native launch; runtime04 used the correct proof and again failed the unchanged Windows commit reserve. Retained native/client closure, STOP removal and original unlock succeeded. No runtime candidate or detector output exists. Paired guest memory evidence is the next resource action; no reserve reduction or cause attribution.
+
+Actual operational update: Publish independently reviewed paired memory observation owner and exact32 unchanged-object metadata followup; preserve actual prelaunch pidfd interop failure
+- `stage5_interop_actual_postiq_02`: FAILED_NONSCIENTIFIC_INTEROP; exact command, closure, resources and lock-release receipts are retained.
+
+Actual interop02 failed the retained Conda interpreter pidfd capability guard while constructing Supervisor, before any native fixture launch. System Python setup had this capability. The failed terminal and local INTEROP_UNPROVEN_STOP remain preserved; no actual integration pass is claimed. Minimal libc-backed kernel pidfd compatibility is in preparation, preserving handle-based signalling. The paired memory owner and exact32 metadata correction are independently source-reviewed; their actual executions are NOT_RUN.
