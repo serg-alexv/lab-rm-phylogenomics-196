@@ -83,10 +83,10 @@
     "controller_exit_code": 0
   },
   "schema": "LAB_RM_MASTER_RUN_STATUS_V1",
-  "scientific_status": "STAGE04_NATIVE_COMPLETED_INDEPENDENT_ACCEPTANCE_PENDING",
+  "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_PENDING",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T21:58:50.476040+00:00",
+  "updated_utc": "2026-10-09T22:00:40.171994+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -166,9 +166,12 @@
     "actual_endpoint_or_lifecycle_execution": "NOT_RUN"
   },
   "stage04_publication_preparation": {
-    "state": "TEXT_FORMAT_AND_SH_EXECUTION_FORMAT_CORRECTED_REVIEWED_TESTED_ACTUAL_PUBLICATION_PENDING",
+    "state": "INDEPENDENT_ACCEPTANCE_PASS_PORTABLE_RELEASE_NEXT",
     "native_runner_unchanged": true
   },
   "stage04_execution": "NATIVE_EXIT0_EXACT_JOB_CONTROLLER_UNLOCK_POWER_CLOSURE_VERIFIED",
-  "stage04_acceptance": "FIRST_CHECKER_FORMAT_FAILURE_PRESERVED_CORRECTED_SOURCE_REVIEWED41_TESTS_PASS_ACTUAL02_PENDING"
+  "stage04_acceptance": "PASS_ACTUAL02_COMPLETE_VALIDATED_EXACT196_389_BRANCHES_193_PAIRED1000_UFBOOT",
+  "stage04_acceptance_receipt": "reports/master_run/20261009/stage04/acceptance_actual02/independent_validation.json",
+  "stage04_tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
+  "stage5_setup_preparation": "PEER_REVIEW_PASS10_SYNTHETIC_TESTS_ACTUAL_WSL_NOT_RUN"
 }

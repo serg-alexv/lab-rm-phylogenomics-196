@@ -1,0 +1,87 @@
+{
+  "schema": "STAGE05_POST_IQTREE_SETUP_PREPARATION_V1",
+  "state": "PREPARED_SOURCE_SYNTHETIC_CHECKS_PASS_ACTUAL_SETUP_NOT_RUN",
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "new_sources": {
+    "stage5_setup_windows.py": "935a4853f118c52f479de414dfea0c60a7682ede83b911c1b1b995466aaeddee",
+    "stage5_setup_linux.py": "8416a45a4dcc822784e465a4ad91236082fc97fec763d330a14006fd9f5af20e",
+    "test_stage5_setup.py": "8feb33cc8ee2b3e20b6e2b438796ad1ba398feb5f513fcfe11cdc84d3e36d97e",
+    "STAGE5_POST_IQ_SETUP_HANDOFF.md": "800428405235e92a66e8c6776cb6f595192e8c03fb2abb1e2a8076941280cc14"
+  },
+  "unchanged_retained_sources": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_interop_smoke_windows.py": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac",
+    "stage5_interop_linux_fixture.py": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+    "stage5_unc_bind_probe.py": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+    "stage5_atomic.py": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+    "stage5_windows_owner.py": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3",
+    "stage5_atomic_config.template.json": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "actual_previous_operational_closure_reopened": {
+    "controller_receipt": "iqtree_controller_closure_actual01/receipt.json",
+    "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+    "controller_state": "PASS_CONTROLLER_RETAINED_HANDLE_EXIT0",
+    "controller_pid": 27048,
+    "controller_creation_filetime": "134360369803845506",
+    "native_pid": 4768,
+    "native_creation_filetime": "134360369876207076",
+    "native_exit_code": 0,
+    "owned_job_active_processes": 0,
+    "files": {
+      "iqtree_attempts/partitioned_20261009T162904Z/launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+      "iqtree_attempts/partitioned_20261009T162904Z/exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+      "iqtree_attempts/partitioned_20261009T162904Z/execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+      "iqtree_attempts/partitioned_20261009T162904Z/lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+    },
+    "scientific_tree_acceptance": "SEPARATE_INDEPENDENT_CHECKER_REQUIRED"
+  },
+  "focused_checks": {
+    "command": "python -B work/test_stage5_setup.py -v",
+    "exit_code": 0,
+    "tests": 10,
+    "elapsed_seconds": 0.132,
+    "scope": "SYNTHETIC_C_TEMPORARY_FILES_ONLY",
+    "covers": [
+      "Exact prior native/controller births, exit0, empty owned job, source, power flags and explicit unlock",
+      "Ubuntu WSL2 physical-C registration contract",
+      "Actual ext4 magic and nonzero UUID parser",
+      "Independent Windows fixture bytes and changed payload rejection",
+      "Self-consistent false fsync flag, unknown partial, traversal and oversized tiny-file rejection",
+      "Native actual argv, root birth, closure/log hashes and unexpected intent membership",
+      "Runtime cannot pass without actual helper command"
+    ],
+    "initial_test_invocation_error": "python -m unittest work/test_stage5_setup.py lacked the source directory import path; rerun the direct test entrypoint above, no production operation occurred",
+    "default_plan": "PREPARED_NOT_RUN",
+    "default_plan_created_output_directory": false
+  },
+  "actual_execution": {
+    "wsl_started": false,
+    "toolchain_mount": "NOT_RUN",
+    "runtime_discovery": "NOT_RUN",
+    "storage_bind": "NOT_RUN",
+    "interop": "NOT_RUN",
+    "drivefs_linux_windows_fixture": "NOT_RUN",
+    "exact_bind_unc_probe": "NOT_RUN",
+    "native_detector": "NOT_RUN",
+    "g_writes": 0,
+    "scientific_adoption_authorized": false
+  },
+  "go_requirements": [
+    "Root publication, exact remote source readback, peer source review and explicit actual setup authorization",
+    "Fresh original WorkflowLock, direct canonical authority, disabled legacy tasks and no unreconciled closure stop",
+    "All actual setup, interop, DriveFS and exact UNC gates with exact source/proof/owned closure/unlock records",
+    "New explicit conservative native resource policy before one full-method approved genome"
+  ],
+  "limits": [
+    "No hard kernel cancellation claim for synchronous filesystem or registry metadata calls",
+    "Retained image UUID/device/backing identity is not whole-image authenticity; actual runtime file/model hashes remain required",
+    "Sampled RSS is not a kernel aggregate memory cap; RLIMIT_AS is per process",
+    "Public package/source recovery does not prove complete installed-environment or raw-image recovery",
+    "No new parallel heavy-worker, mount framework or scientific-method change"
+  ]
+}
