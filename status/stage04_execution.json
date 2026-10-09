@@ -1,6 +1,6 @@
 {
-  "utc": "2026-10-09T01:56:54.717914+00:00",
-  "execution": "FAILED_INCOMPLETE_NATIVE_EXIT1",
+  "utc": "2026-10-09T02:09:37.037783+00:00",
+  "execution": "FAILED_PRE_NATIVE_SOURCE_GATE",
   "actual_failed_native_pid": 29132,
   "actual_failed_native_creation_filetime": 134359651870883542,
   "actual_failed_native_exit_utc": "2026-10-08T23:30:02.6498313Z",
@@ -17,6 +17,10 @@
   "scientific_jobs": 0,
   "fixture_certificate_sha256": "ce77c4ce4882aa5c1d16bb69967d891c20b9625ba80c97924a7ecf14d1d55470",
   "proposal_sha256": "d1bf90ca8aed09d4cc1f9bebb47395833e951a9dca17cefef74cb92fde3a3cde",
-  "native_production": "NOT_STARTED",
-  "parent_acceptance": "NOT_GRANTED"
+  "native_production": "NOT_LAUNCHED",
+  "parent_acceptance": "HASH_BOUND_VERIFIED_SINGLE_START_CONSUMED",
+  "running_native_job": null,
+  "actual_controller_exit_code": 1,
+  "pre_native_abort_certificate_sha256": "dbbc5ccf5f45b9ce858bbaedec315bf3d64a45ae78ac303f5d95037a75587276",
+  "later_stages": "NOT_RUN"
 }
