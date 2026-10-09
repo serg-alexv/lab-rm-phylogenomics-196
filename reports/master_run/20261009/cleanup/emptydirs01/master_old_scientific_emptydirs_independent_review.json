@@ -1,0 +1,30 @@
+{
+  "actual_filesystem_rescan": false,
+  "checks": [
+    "Unique canonical scope-bound directories",
+    "Exact fullFileId128 and FILETIME fields",
+    "Every child precedes its parent and has own planned identity",
+    "No candidate MacSy fragment ancestor",
+    "Both actual independent post-purge proof bytes pinned",
+    "No files/reparse/unknown subtree accepted as candidates",
+    "Snapshot and leafreplacement limitations explicit"
+  ],
+  "deletions": 0,
+  "derived": 5548,
+  "directories": 5542,
+  "empty_at_observation": 3736,
+  "exact_old_C_scopes": 7,
+  "execution_authorized": false,
+  "g_writes": 0,
+  "held": 6,
+  "operational_caveat": "No future deletion safety or live directory identity is certified by this metadata snapshot review",
+  "payload_reads": 0,
+  "plan_bytes": 8937244,
+  "plan_sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+  "planned_child_only_parents": 1806,
+  "scanner_sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f",
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_INDEPENDENT_METADATA_REVIEW_V1",
+  "state": "PASS_FROZEN_METADATA_PROPOSAL_NO_PRUNE_AUTHORITY",
+  "utc": "2026-10-09T20:35:03.870946+00:00",
+  "wsl_starts": 0
+}

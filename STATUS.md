@@ -1,22 +1,24 @@
 # Current execution status
 
-Updated 2026-10-09T20:30:00.360368+00:00. Direct user continuation remains active; scheduled
+Updated 2026-10-09T20:49:16.316933+00:00. Direct user continuation remains active; scheduled
 automatic continuation stays disabled. GitHub main and Release assets are the
 durable project authority.
 
 Stage4: the sole partitioned IQ-TREE3.1.4 worker remains active on all196 approved
 genomes,100 accepted marker partitions and17,456 amino-acid columns. Global
-optimization reached iteration70. No final host tree or final supports are
+optimization reached iteration80. No final host tree or final supports are
 accepted. Historical V10 closure remains UNKNOWN. The fresh observation is
-`reports/master_run/20261009/snapshots/source_ready_progress01/native_progress.json`.
+`reports/master_run/20261009/snapshots/recovery_progress02/native_progress.json`.
 
 Stage5: genome-source dependency split V2 is implemented in addf594d. Detection
 and per-genome curation need no host tree. The actual light reader finished with
 exit0: all196 source bundles,12,812 payload files/1,893,101,586 bytes, and all nine
 canonical support modules/182,212 bytes match accepted SHA/size pins. This is
 current source readiness only. The first checker scope error, correction and
-both receipts remain preserved. The26-member evidence ZIP passed independent
-local integrity/accounting checks; its remote upload/readback is pending.
+both receipts remain preserved. The26-member evidence ZIP passed independent fresh GitHub download/full-member
+CRC/SHA and exact196-ledger verification. The original104-byte CRLF sidecar is
+preserved and verified. The initial LF-assuming reader failure and correction
+remain public. Remote proof: `reports/master_run/20261009/preparation/source_readiness01/REMOTE_READBACK.json`.
 See `reports/master_run/20261009/preparation/source_readiness01/completion.json`.
 
 Actual detectors, runtime discovery, WSL lifecycle/UNC storage proofs and
@@ -56,3 +58,13 @@ See `docs/master_run/STORAGE_LEDGER.md`.
 Detailed observations: `status/master_run_20261009.json`. Historical receipts
 retain original dates and uncertainty. Raw private sessions/prompts/usage,
 credentials and unrelated files are excluded from public recovery assets.
+
+Recovery preparation: a metadata-only proposal identifies5,542 old scientific
+directories, with six holds; no pruning has run. Its19-member ZIP passes local
+independent checks; remote readback is pending. The original Conda package
+acquisition stopped at its reserve after95 verified packages; a single explicitly
+authorized continuation passed two fresh admission probes and started. No
+package recovery is yet declared remotely verified. Full IQ-TREE source archival
+identified both pinned submodules; its first strict Git-size check found one
+exported YAML size mismatch, preserved for diagnosis. No source equivalence or
+complete runtime restoration is inferred from these preparation steps.

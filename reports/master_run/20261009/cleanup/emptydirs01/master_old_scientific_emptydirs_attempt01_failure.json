@@ -1,0 +1,16 @@
+{
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_SCAN_FAILURE_V1",
+  "state": "FAILED_BEFORE_PROPOSAL_NO_DELETION",
+  "source_path": "work/prepare_old_scientific_emptydirs_attempt01.py",
+  "source_sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69",
+  "child_exit_code": 1,
+  "error": "ValueError: Enumerated directory identity changed before open",
+  "cause": "Windows cached os.DirEntry.stat returned st_ino=0. Read-only diagnosis across all seven first-child directories showed fresh Path.lstat real inode matching retained Win32 handle legacy_file_id exactly.",
+  "correction": "Use fresh child.lstat no-follow metadata before independently matching retained Win32 handle identity. Preserve the old reviewed scanner bytes; no inode comparison removed.",
+  "proposal_created": false,
+  "deletion_apis_called": 0,
+  "files_deleted": 0,
+  "g_writes": 0,
+  "wsl_starts": 0,
+  "scientific_jobs": 0
+}

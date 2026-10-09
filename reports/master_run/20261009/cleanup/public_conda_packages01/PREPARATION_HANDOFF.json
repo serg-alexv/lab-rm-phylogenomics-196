@@ -1,0 +1,142 @@
+{
+  "continuation_contract_tests": {
+    "network": "NOT_RUN",
+    "passed": 3,
+    "seconds": 0.046
+  },
+  "continuation_source_independent_review": "PASS_SOURCE_ONLY_STAGE5_AGENT",
+  "continuation_source_sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460",
+  "current_continuation": "RUNNING_ONE_EXPLICIT_AUTHORIZED_PASS_NOT_COMPLETE",
+  "current_namespace": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_continuation_20261009T204518Z_bd4c1b76",
+  "current_session_id": 14634,
+  "deletions": 0,
+  "failure_receipt_sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b",
+  "first_attempt_actual_exit_code": 1,
+  "first_attempt_source_sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc",
+  "first_attempt_state": "RESOURCE_STOP_PRESERVED_95_VERIFIED_AND_ORIGINAL_PARTIAL",
+  "g_writes": 0,
+  "installations": 0,
+  "payload_extractions": 0,
+  "raw_completed_and_partial_payloads": "PRESERVED_LOCALLY_NOT_GIT_BLOBS_NOT_REMOTE_DURABLE_YET",
+  "recovery_plan_sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862",
+  "remote_writes": 0,
+  "schema": "MASTER_PUBLIC_CONDA_PREPARATION_AND_RESOURCE_STOP_HANDOFF_V1",
+  "source_controls": [
+    {
+      "bytes": 18038,
+      "kind": "CODE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\acquire_public_conda_packages01.py",
+      "remote_path": "scripts/master_run/acquire_public_conda_packages01.py",
+      "sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc"
+    },
+    {
+      "bytes": 1583,
+      "kind": "CODE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_public_conda_acquisition.py",
+      "remote_path": "scripts/master_run/test_public_conda_acquisition.py",
+      "sha256": "24ad6cd3b8fbb72f18dc68602821b7a03253be8330f27aee68ea23fafab1efe2"
+    },
+    {
+      "bytes": 974,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_acquisition_preparation.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_acquisition_preparation.json",
+      "sha256": "54a78cfa8e5f2d18beddfa5014ff07b61372f0e39a7fa9a07e5bc21f7c3e190b"
+    },
+    {
+      "bytes": 3903,
+      "kind": "CODE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_public_conda_recovery01.py",
+      "remote_path": "scripts/master_run/prepare_public_conda_recovery01.py",
+      "sha256": "5f542802e936c5918c023aa54c7ba0bcf7903a8d8d1efeb92936120611725807"
+    },
+    {
+      "bytes": 74643,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_recovery_plan.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+      "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862"
+    },
+    {
+      "bytes": 17531,
+      "kind": "CODE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\continue_public_conda_packages01.py",
+      "remote_path": "scripts/master_run/continue_public_conda_packages01.py",
+      "sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460"
+    },
+    {
+      "bytes": 2665,
+      "kind": "CODE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_public_conda_continuation.py",
+      "remote_path": "scripts/master_run/test_public_conda_continuation.py",
+      "sha256": "11c84e450eacc427a74b7912a46b60ca37f3d8b8728df86a5d878e577f20319f"
+    },
+    {
+      "bytes": 1557,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\build_receipt.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/build_receipt.json",
+      "sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b"
+    },
+    {
+      "bytes": 59805,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\downloaded_packages.jsonl",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+      "sha256": "b81a17f47442846fd39c0333e7de8f05e0130ff39ea858bdb102fa94f27d3990"
+    },
+    {
+      "bytes": 628,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\download_errors.jsonl",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/download_errors.jsonl",
+      "sha256": "64d2db6b72df0a73152df596b21b4b9548be1b0a62297ce0662012d574c760aa"
+    },
+    {
+      "bytes": 78120,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\resources.jsonl",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+      "sha256": "023c9e267ddf6c1fb55d22f46c55a40dd0e9c81c5e27282b5e0c02e76b151919"
+    },
+    {
+      "bytes": 578198,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\package_index.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+      "sha256": "190737a1a99d6992d8fc81c1ea721e5d0eb404f8ebb3d317de6a1b7ca8435cae"
+    },
+    {
+      "bytes": 206293,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\detector_package_manifest.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382"
+    },
+    {
+      "bytes": 116540,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\host_package_manifest.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48"
+    },
+    {
+      "bytes": 846,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\ATTRIBUTION_AND_RESTORE.txt",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/ATTRIBUTION_AND_RESTORE.txt",
+      "sha256": "e49032947e47ef5d95d357691a3836c51bf785e9d0f154c743094b0c99de248c"
+    },
+    {
+      "bytes": 1351,
+      "kind": "PUBLIC_CONTROL_OR_EVIDENCE",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_conda_packages01_20261009T203038Z_f8ac9b61\\progress.json",
+      "remote_path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/progress.json",
+      "sha256": "195a92e60f97e2fb962425eec486493200b5eef2ad97d789f85d18dc8fb1bacf"
+    }
+  ],
+  "utc": "2026-10-09T20:47:58.127433+00:00",
+  "verified_first_attempt_bytes": 237225880,
+  "verified_first_attempt_packages": 95,
+  "wsl_starts": 0
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "WINDOWS_NOFOLLOW_DIRECTORY_ID_DIAGNOSTIC_V1",
+  "scope": "One immediate child directory of each of the seven fixed old-C scientific cache roots",
+  "child_exit_code": 0,
+  "g_writes": 0,
+  "wsl_starts": 0,
+  "payload_reads": 0,
+  "deletion_apis_called": 0,
+  "observations": [
+    {"relative_path": "data/raw_ncbi", "direntry_inode": "0", "path_lstat_inode": "844424932787036", "handle_legacy_inode": "844424932787036", "handle_file_id_128": "5c832800000003000000000000000000"},
+    {"relative_path": ".work/review2/detector_cache_review", "direntry_inode": "0", "path_lstat_inode": "11540474047885764", "handle_legacy_inode": "11540474047885764", "handle_file_id_128": "c4f12900000029000000000000000000"},
+    {"relative_path": ".work/stage02_validated/assemblies", "direntry_inode": "0", "path_lstat_inode": "2251799816156527", "handle_legacy_inode": "2251799816156527", "handle_file_id_128": "6fb52500000008000000000000000000"},
+    {"relative_path": ".work/source_locus_inputs_v1/assemblies", "direntry_inode": "0", "path_lstat_inode": "1125899909487990", "handle_legacy_inode": "1125899909487990", "handle_file_id_128": "765d2800000004000000000000000000"},
+    {"relative_path": ".work/stage03_markers_v1/accepted_by_genome", "direntry_inode": "0", "path_lstat_inode": "844424932879074", "handle_legacy_inode": "844424932879074", "handle_file_id_128": "e2ea2900000003000000000000000000"},
+    {"relative_path": ".work/stage04a_windows_alignments_v1/host_alignments", "direntry_inode": "0", "path_lstat_inode": "3940649675449594", "handle_legacy_inode": "3940649675449594", "handle_file_id_128": "fae4160000000e000000000000000000"},
+    {"relative_path": ".work/stage04_phylogeny_v2/analyses", "direntry_inode": "0", "path_lstat_inode": "1407374885051687", "handle_legacy_inode": "1407374885051687", "handle_file_id_128": "27dd1600000005000000000000000000"}
+  ],
+  "interpretation": "The original mismatch was cached enumeration inode zero, not observed source identity drift. Fresh no-follow path IDs independently matched retained handle legacy IDs; the corrected scanner retains this exact comparison. These seven observations do not replace the subsequent full proposal scan."
+}

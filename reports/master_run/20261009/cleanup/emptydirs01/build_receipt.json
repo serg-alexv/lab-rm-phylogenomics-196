@@ -1,0 +1,411 @@
+{
+  "archive": "master_old_scientific_emptydirs01.zip",
+  "builder_sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe",
+  "bytes": 438572,
+  "counts_holds": {
+    "derived_ancestor_count": 5548,
+    "directories_deleted": 0,
+    "directory_count": 5542,
+    "empty_now_count": 3736,
+    "execution_authorized": false,
+    "files_deleted": 0,
+    "fragment_and_all_ancestors_preserved": ".work/review2/stage05_raw_review/installed_rejected_serializer.txt",
+    "future_executor": "NOT_BUILT_NOT_TESTED_REQUIRES_SEPARATE_ROOT_AUTHORITY_AND_EXACT_HANDLE_DIRECTORY_ONLY_FIXTURE",
+    "g_writes": 0,
+    "git_durable_remote_coverage": "UNKNOWN_UNPROVEN_PRESERVE_CHECKOUT_AND_GIT",
+    "git_indexed_paths": 356,
+    "git_modified_tracked_count": 4,
+    "git_untracked_collapsed_directories": 2,
+    "git_untracked_files": 189,
+    "git_untracked_status_entries": 191,
+    "held_count": 6,
+    "held_relative_paths": [
+      ".work/review2/io_streaming_interrupted/assemblies",
+      ".work/review2/io_streaming_interrupted",
+      ".work/review2/publication_review",
+      ".work/review2/stage05_raw_review",
+      ".work/review2",
+      ".work/stage04_phylogeny_v2"
+    ],
+    "plan_bytes": 8937244,
+    "plan_sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+    "planned_children_only_count": 1806,
+    "recursive_deletes": 0,
+    "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_COMPACT_V1",
+    "scientific_jobs": 0,
+    "scope_counts": {
+      ".work/review2": 244,
+      ".work/source_locus_inputs_v1": 2514,
+      ".work/stage02_validated": 198,
+      ".work/stage03_markers_v1": 988,
+      ".work/stage04_phylogeny_v2": 308,
+      ".work/stage04a_windows_alignments_v1": 308,
+      "data": 982
+    },
+    "state": "PREPARED_REVIEWED_NO_DELETE",
+    "unknown_subtrees_preserved_without_traversal": [
+      ".work/review2/io_streaming_interrupted/assemblies/GCF_000011045.1",
+      ".work/review2/publication_review/__pycache__",
+      ".work/review2/__pycache__",
+      ".work/stage04_phylogeny_v2/temporary"
+    ],
+    "wsl_starts": 0
+  },
+  "execution_authorized": false,
+  "member_count": 19,
+  "members": [
+    {
+      "bytes": 1816,
+      "crc32": "021a67f0",
+      "crc_verified": true,
+      "member": "COUNTS_HOLDS.json",
+      "sha256": "71930cd27f3cb0ba064629329cae82e59ac3d655f9d60e2c120f9d22a611c0ea"
+    },
+    {
+      "bytes": 12401,
+      "crc32": "415ae6b4",
+      "crc_verified": true,
+      "member": "INDEX.json",
+      "sha256": "cf0e8d9a52d7bb42e3049217cba329c8cb2cad2274ab676268a944cd9d8833ec"
+    },
+    {
+      "bytes": 1987,
+      "crc32": "a9470a81",
+      "crc_verified": true,
+      "member": "SHA256SUMS.txt",
+      "sha256": "d8443c7d72cc190267844588a3f363d935f7731bcefa3948b761ba07fc96f5e3"
+    },
+    {
+      "bytes": 6407,
+      "crc32": "66a39519",
+      "crc_verified": true,
+      "member": "audit_old_checkout_git_metadata.py",
+      "sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc"
+    },
+    {
+      "bytes": 13080,
+      "crc32": "5e67d10a",
+      "crc_verified": true,
+      "member": "build_old_scientific_emptydirs_archive.py",
+      "sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe"
+    },
+    {
+      "bytes": 263064,
+      "crc32": "faf0b8df",
+      "crc_verified": true,
+      "member": "master_batch03_postverify_20261009T200023Z_f95312bd/receipt.json",
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    {
+      "bytes": 6171,
+      "crc32": "d20b3089",
+      "crc_verified": true,
+      "member": "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json",
+      "sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082"
+    },
+    {
+      "bytes": 4231,
+      "crc32": "9be6713a",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_REVIEW.md",
+      "sha256": "20d8f47a5693b1ecaa36b7e4e24775b4407b303e4d3fd4e56eb496702f9ce5b1"
+    },
+    {
+      "bytes": 2202,
+      "crc32": "54099ba5",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_attempt01_diagnostic.json",
+      "sha256": "a0a872ca6d293f87610ef5922afd1b2843dd480bc0bf845ae5cdf94c2fa8684e"
+    },
+    {
+      "bytes": 927,
+      "crc32": "8bc67ab1",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_attempt01_failure.json",
+      "sha256": "11c408830bcf2c2d5db54e9a2769c811629fb3f8c16ef9d8f106d4f56bbe2a37"
+    },
+    {
+      "bytes": 1285,
+      "crc32": "d3dbf579",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_attempt01_traceback.txt",
+      "sha256": "93a2479c662eda44ca638c119e639fc88b3be8213af6811050cb59cb3272f5e9"
+    },
+    {
+      "bytes": 1253,
+      "crc32": "310e6a93",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_independent_review.json",
+      "sha256": "3891047eb81f8cf2d61d6d9c4cefec4492af94ecaeddec3779b053cc34809c82"
+    },
+    {
+      "bytes": 8937244,
+      "crc32": "20c59fa7",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_proposed_02.json",
+      "sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5"
+    },
+    {
+      "bytes": 851,
+      "crc32": "08b45b00",
+      "crc_verified": true,
+      "member": "master_old_scientific_emptydirs_tests.json",
+      "sha256": "6eadaf218f571264cfa8acaa6bcfebcb36b46d3cdfabe05b98df1d5f1d4b7ce1"
+    },
+    {
+      "bytes": 153576,
+      "crc32": "73f90b36",
+      "crc_verified": true,
+      "member": "old_checkout_git_preservation_metadata.json",
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0"
+    },
+    {
+      "bytes": 2942,
+      "crc32": "f5cc9788",
+      "crc_verified": true,
+      "member": "old_checkout_git_preservation_summary.json",
+      "sha256": "16036be7f777536b12d7f0d512062bfd7c2a00559f557b5828ccd5fb7c09438f"
+    },
+    {
+      "bytes": 17692,
+      "crc32": "bb349236",
+      "crc_verified": true,
+      "member": "prepare_old_scientific_emptydirs.py",
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f"
+    },
+    {
+      "bytes": 17444,
+      "crc32": "93a341f0",
+      "crc_verified": true,
+      "member": "prepare_old_scientific_emptydirs_attempt01.py",
+      "sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69"
+    },
+    {
+      "bytes": 1870,
+      "crc32": "7fd3d5b6",
+      "crc_verified": true,
+      "member": "test_old_scientific_emptydirs.py",
+      "sha256": "9318add3dc29fa316c1d5a507c01bcef6f88881fc124d344e2e85009f2cf96af"
+    }
+  ],
+  "original_count": 16,
+  "originals": {
+    "audit_old_checkout_git_metadata.py": {
+      "attributes": 32,
+      "birthtime_ns": "1791577815348066300",
+      "bytes": 6407,
+      "device": "17766949232488609743",
+      "file_id": "7318349395209240",
+      "links": 1,
+      "member": "audit_old_checkout_git_metadata.py",
+      "mtime_ns": "1791577990985751700",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\audit_old_checkout_git_metadata.py",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc"
+    },
+    "build_old_scientific_emptydirs_archive.py": {
+      "attributes": 32,
+      "birthtime_ns": "1791578232985451300",
+      "bytes": 13080,
+      "device": "17766949232488609743",
+      "file_id": "5066549581564012",
+      "links": 1,
+      "member": "build_old_scientific_emptydirs_archive.py",
+      "mtime_ns": "1791578232985451300",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_old_scientific_emptydirs_archive.py",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe"
+    },
+    "master_batch03_postverify_20261009T200023Z_f95312bd/receipt.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791576049938764100",
+      "bytes": 263064,
+      "device": "17766949232488609743",
+      "file_id": "6192449488366422",
+      "links": 1,
+      "member": "master_batch03_postverify_20261009T200023Z_f95312bd/receipt.json",
+      "mtime_ns": "1791576049947380300",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_postverify_20261009T200023Z_f95312bd\\receipt.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791577161775817400",
+      "bytes": 6171,
+      "device": "17766949232488609743",
+      "file_id": "4785074604813332",
+      "links": 1,
+      "member": "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json",
+      "mtime_ns": "1791577161777834700",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_history02_postverify_20261009T201921Z_f90337c5\\receipt.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082"
+    },
+    "master_old_scientific_emptydirs_REVIEW.md": {
+      "attributes": 32,
+      "birthtime_ns": "1791578145549270100",
+      "bytes": 4231,
+      "device": "17766949232488609743",
+      "file_id": "2533274791136309",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_REVIEW.md",
+      "mtime_ns": "1791578145549270100",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_REVIEW.md",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "20d8f47a5693b1ecaa36b7e4e24775b4407b303e4d3fd4e56eb496702f9ce5b1"
+    },
+    "master_old_scientific_emptydirs_attempt01_diagnostic.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791578021515818700",
+      "bytes": 2202,
+      "device": "17766949232488609743",
+      "file_id": "12947848929373242",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_attempt01_diagnostic.json",
+      "mtime_ns": "1791578021515818700",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_attempt01_diagnostic.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "a0a872ca6d293f87610ef5922afd1b2843dd480bc0bf845ae5cdf94c2fa8684e"
+    },
+    "master_old_scientific_emptydirs_attempt01_failure.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791577882779971300",
+      "bytes": 927,
+      "device": "17766949232488609743",
+      "file_id": "5629499534948163",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_attempt01_failure.json",
+      "mtime_ns": "1791577882779971300",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_attempt01_failure.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "11c408830bcf2c2d5db54e9a2769c811629fb3f8c16ef9d8f106d4f56bbe2a37"
+    },
+    "master_old_scientific_emptydirs_attempt01_traceback.txt": {
+      "attributes": 32,
+      "birthtime_ns": "1791578021515818700",
+      "bytes": 1285,
+      "device": "17766949232488609743",
+      "file_id": "10977524092403568",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_attempt01_traceback.txt",
+      "mtime_ns": "1791578021515818700",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_attempt01_traceback.txt",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "93a2479c662eda44ca638c119e639fc88b3be8213af6811050cb59cb3272f5e9"
+    },
+    "master_old_scientific_emptydirs_independent_review.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791578103873634200",
+      "bytes": 1253,
+      "device": "17766949232488609743",
+      "file_id": "26740122788195499",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_independent_review.json",
+      "mtime_ns": "1791578103874354200",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_independent_review.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "3891047eb81f8cf2d61d6d9c4cefec4492af94ecaeddec3779b053cc34809c82"
+    },
+    "master_old_scientific_emptydirs_proposed_02.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791577932879958100",
+      "bytes": 8937244,
+      "device": "17766949232488609743",
+      "file_id": "5066549581526970",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_proposed_02.json",
+      "mtime_ns": "1791577933167968100",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_proposed_02.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5"
+    },
+    "master_old_scientific_emptydirs_tests.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791578145547230500",
+      "bytes": 851,
+      "device": "17766949232488609743",
+      "file_id": "3096224744557515",
+      "links": 1,
+      "member": "master_old_scientific_emptydirs_tests.json",
+      "mtime_ns": "1791578145547230500",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_old_scientific_emptydirs_tests.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "6eadaf218f571264cfa8acaa6bcfebcb36b46d3cdfabe05b98df1d5f1d4b7ce1"
+    },
+    "old_checkout_git_preservation_metadata.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791577821194283700",
+      "bytes": 153576,
+      "device": "17766949232488609743",
+      "file_id": "5066549581564171",
+      "links": 1,
+      "member": "old_checkout_git_preservation_metadata.json",
+      "mtime_ns": "1791577993936123700",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\old_checkout_git_preservation_metadata.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0"
+    },
+    "old_checkout_git_preservation_summary.json": {
+      "attributes": 32,
+      "birthtime_ns": "1791578022725106300",
+      "bytes": 2942,
+      "device": "17766949232488609743",
+      "file_id": "5910974511655976",
+      "links": 1,
+      "member": "old_checkout_git_preservation_summary.json",
+      "mtime_ns": "1791578022729139500",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\old_checkout_git_preservation_summary.json",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "16036be7f777536b12d7f0d512062bfd7c2a00559f557b5828ccd5fb7c09438f"
+    },
+    "prepare_old_scientific_emptydirs.py": {
+      "attributes": 32,
+      "birthtime_ns": "1791577504583347700",
+      "bytes": 17692,
+      "device": "17766949232488609743",
+      "file_id": "4222124651392054",
+      "links": 1,
+      "member": "prepare_old_scientific_emptydirs.py",
+      "mtime_ns": "1791577882778973100",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_old_scientific_emptydirs.py",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f"
+    },
+    "prepare_old_scientific_emptydirs_attempt01.py": {
+      "attributes": 32,
+      "birthtime_ns": "1791577864128528900",
+      "bytes": 17444,
+      "device": "17766949232488609743",
+      "file_id": "5348024558237464",
+      "links": 1,
+      "member": "prepare_old_scientific_emptydirs_attempt01.py",
+      "mtime_ns": "1791577601382584000",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_old_scientific_emptydirs_attempt01.py",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69"
+    },
+    "test_old_scientific_emptydirs.py": {
+      "attributes": 32,
+      "birthtime_ns": "1791577578572571600",
+      "bytes": 1870,
+      "device": "17766949232488609743",
+      "file_id": "4503599628102715",
+      "links": 1,
+      "member": "test_old_scientific_emptydirs.py",
+      "mtime_ns": "1791577578573573000",
+      "original_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_old_scientific_emptydirs.py",
+      "retained_access": "READ_DENY_WRITE_DELETE",
+      "sha256": "9318add3dc29fa316c1d5a507c01bcef6f88881fc124d344e2e85009f2cf96af"
+    }
+  },
+  "parallel_readers": 1,
+  "pruning": "NOT_RUN",
+  "remote_publication": "NOT_RUN",
+  "remote_readback": "NOT_RUN",
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_METADATA_ARCHIVE_BUILD_V1",
+  "scientific_acceptance_created": false,
+  "sha256": "656f515d069338e132a9c2ec46497e7388a55faaeb4c1e4aecca06ab37dfbd8d",
+  "state": "PASS_LOCAL_EXACT_METADATA_ARCHIVE_CRC_SHA_NO_DELETE",
+  "stream_chunk_bytes": 262144
+}

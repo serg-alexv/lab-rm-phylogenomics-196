@@ -1,0 +1,25 @@
+{
+  "actual_GitHub_commit_or_tree_API": "NOT_RUN_BY_REVIEWER",
+  "actual_resource_API": "NOT_RUN_BY_REVIEWER",
+  "actual_source_acquisition": "NOT_RUN_BY_REVIEWER",
+  "corrected_gaps": [
+    "Exact commit object is now bound separately from its root tree object SHA",
+    "Exact C-work deployment checked before output creation",
+    "Actual resource gate inside each256KiB source-blob hash read",
+    "Gzip expansion320MiB/300sec and complete blob verification600sec bounds"
+  ],
+  "earlier_unexecuted_draft_sha256": "fcc5c46dedeb22bc90f3cbb45f3dbd82d3cfba5c1d78c6f9b911e6dc2556db79",
+  "installed_binary_equivalence": "NOT_PROVEN_BY_SOURCE_ARCHIVAL",
+  "reviewed_source_sha256": "86d824c0ad6b8a6972ec9b6557109c4af64205875d2909a703e11c6114878568",
+  "schema": "IQTREE314_PUBLIC_SOURCE_ACQUISITION_INDEPENDENT_SOURCE_REVIEW_V1",
+  "standalone_Intel_license": "NOT_ASSERTED",
+  "state": "PASS_CORRECTED_SOURCE_ONLY_ACQUISITION_NOT_RUN",
+  "utc": "2026-10-09T20:45:39.825200+00:00",
+  "verified_source_contracts": [
+    "Three fixed public official codeload URLs; no redirects/proxy/auth/queries",
+    "Pinned release commit and both exact gitlinks, complete untruncated Git trees",
+    "All regular/symlink blob sizes and GitSHA1+SHA256 joins",
+    "Whole original gzip archives retained; full gzipEOF/CRC readback",
+    "No source payload extraction, installation, execution, WSL, G-write or deletion"
+  ]
+}

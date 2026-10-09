@@ -31,4 +31,10 @@ explicit; no atomic-delete claim is made. Historical failures and UNKNOWN
 closures preserve their original states. Raw private sessions, Codex events,
 prompts/usage, credentials and unrelated data are excluded from public assets.
 
-Stage5 current source readiness: all196 accepted bundles/12,812 payload files/1,893,101,586 bytes and nine support modules match accepted pins. Evidence ZIP local checks PASS; remote readback pending. No detector or scientific acceptance is implied. All source files remain canonical execution dependencies.
+Stage5 current source readiness: all196 accepted bundles/12,812 payload files/1,893,101,586 bytes and nine support modules match accepted pins. Evidence ZIP fresh GitHub download/all26 members and exact196-ledger checks PASS. No detector or scientific acceptance is implied. All source files remain canonical execution dependencies.
+
+Additional directory metadata:5,542 proposals/six holds, local19-member ZIP
+verified, no pruning. Changed old-checkout source/history coverage is being
+reviewed separately; Git status metadata alone does not preserve changed bytes.
+Conda original acquisition is incomplete/not remotely verified; the first
+resource stop and one explicit gated continuation retain distinct receipts.

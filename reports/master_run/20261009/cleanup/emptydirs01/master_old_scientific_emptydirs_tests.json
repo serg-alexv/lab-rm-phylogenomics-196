@@ -1,0 +1,19 @@
+{
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_GUARD_TESTS_V1",
+  "state": "PASS_FOUR_PURE_GUARDS_NO_SCAN_NO_DELETE",
+  "scanner_sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f",
+  "tests_sha256": "9318add3dc29fa316c1d5a507c01bcef6f88881fc124d344e2e85009f2cf96af",
+  "command": "python -B -m unittest test_old_scientific_emptydirs -v",
+  "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+  "actual_child_exit_code": 0,
+  "tests_passed": 4,
+  "test_names": [
+    "test_causal_parents_stop_at_exact_scope_root",
+    "test_identity_birth_or_mutation_change_fails_stability",
+    "test_protected_and_outside_leaves_rejected",
+    "test_unknown_files_or_reparse_children_preserve_parent"
+  ],
+  "actual_scan_is_separate": true,
+  "executor_tested": false,
+  "deletion_apis_called": 0
+}

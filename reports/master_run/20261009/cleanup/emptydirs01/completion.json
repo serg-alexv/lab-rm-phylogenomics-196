@@ -1,0 +1,120 @@
+{
+  "archive": "master_old_scientific_emptydirs01.zip",
+  "archive_bytes": 438572,
+  "archive_members": 19,
+  "archive_sha256": "656f515d069338e132a9c2ec46497e7388a55faaeb4c1e4aecca06ab37dfbd8d",
+  "builder_independent_source_review": "PASS_SOURCE_ONLY_REMOTE_AUDIT_AT_00d14448",
+  "compact_publication_controls": {
+    "audit_old_checkout_git_metadata.py": {
+      "bytes": 6407,
+      "sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc"
+    },
+    "build_old_scientific_emptydirs_archive.py": {
+      "bytes": 13080,
+      "sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe"
+    },
+    "master_old_scientific_emptydirs01/SHA256SUMS.txt": {
+      "bytes": 1987,
+      "sha256": "d8443c7d72cc190267844588a3f363d935f7731bcefa3948b761ba07fc96f5e3"
+    },
+    "master_old_scientific_emptydirs01/build_receipt.json": {
+      "bytes": 17164,
+      "sha256": "6729df70a06247d59ff844700ccaeeb997916e82e210c57026fde1c039f70381"
+    },
+    "master_old_scientific_emptydirs01/counts_holds.json": {
+      "bytes": 1816,
+      "sha256": "71930cd27f3cb0ba064629329cae82e59ac3d655f9d60e2c120f9d22a611c0ea"
+    },
+    "master_old_scientific_emptydirs01/index.json": {
+      "bytes": 12401,
+      "sha256": "cf0e8d9a52d7bb42e3049217cba329c8cb2cad2274ab676268a944cd9d8833ec"
+    },
+    "master_old_scientific_emptydirs01/master_old_scientific_emptydirs01.zip.sha256": {
+      "bytes": 105,
+      "sha256": "f2ab2b9ec783f4658797d15873dd97f52a4bec27820a8daeb4eea899b26fe467"
+    },
+    "master_old_scientific_emptydirs_REVIEW.md": {
+      "bytes": 4231,
+      "sha256": "20d8f47a5693b1ecaa36b7e4e24775b4407b303e4d3fd4e56eb496702f9ce5b1"
+    },
+    "master_old_scientific_emptydirs_attempt01_diagnostic.json": {
+      "bytes": 2202,
+      "sha256": "a0a872ca6d293f87610ef5922afd1b2843dd480bc0bf845ae5cdf94c2fa8684e"
+    },
+    "master_old_scientific_emptydirs_attempt01_failure.json": {
+      "bytes": 927,
+      "sha256": "11c408830bcf2c2d5db54e9a2769c811629fb3f8c16ef9d8f106d4f56bbe2a37"
+    },
+    "master_old_scientific_emptydirs_attempt01_traceback.txt": {
+      "bytes": 1285,
+      "sha256": "93a2479c662eda44ca638c119e639fc88b3be8213af6811050cb59cb3272f5e9"
+    },
+    "master_old_scientific_emptydirs_independent_review.json": {
+      "bytes": 1253,
+      "sha256": "3891047eb81f8cf2d61d6d9c4cefec4492af94ecaeddec3779b053cc34809c82"
+    },
+    "master_old_scientific_emptydirs_tests.json": {
+      "bytes": 851,
+      "sha256": "6eadaf218f571264cfa8acaa6bcfebcb36b46d3cdfabe05b98df1d5f1d4b7ce1"
+    },
+    "old_checkout_git_preservation_metadata.json": {
+      "bytes": 153576,
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0"
+    },
+    "old_checkout_git_preservation_summary.json": {
+      "bytes": 2942,
+      "sha256": "16036be7f777536b12d7f0d512062bfd7c2a00559f557b5828ccd5fb7c09438f"
+    },
+    "prepare_old_scientific_emptydirs.py": {
+      "bytes": 17692,
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f"
+    },
+    "prepare_old_scientific_emptydirs_attempt01.py": {
+      "bytes": 17444,
+      "sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69"
+    },
+    "test_old_scientific_emptydirs.py": {
+      "bytes": 1870,
+      "sha256": "9318add3dc29fa316c1d5a507c01bcef6f88881fc124d344e2e85009f2cf96af"
+    }
+  },
+  "directories_deleted": 0,
+  "empty_now": 3736,
+  "execution_authorized": false,
+  "executor": "NOT_BUILT_NOT_RUN",
+  "files_deleted": 0,
+  "first_attempt": {
+    "cause": "Windows cached DirEntry.stat inode was zero; fresh no-follow Path.lstat matched Win32 retained-handle ID. Original reviewed source/failure/traceback/actual seven-root diagnosis preserved.",
+    "identity_guard_removed": false,
+    "state": "FAILED_BEFORE_PROPOSAL_NO_DELETION"
+  },
+  "fresh_remote_download_all_member_SHA_witness": "REQUIRED_BEFORE_ANY_FUTURE_PRUNE",
+  "future_native_directory_handle_fixture": "REQUIRED_SEPARATE_TEST_AND_REVIEW",
+  "g_writes": 0,
+  "git_audit": {
+    "collapsed_directories": 2,
+    "durable_remote_coverage": "UNKNOWN_UNPROVEN_PRESERVE_CHECKOUT_AND_GIT",
+    "indexed_paths": 356,
+    "modified_tracked": 4,
+    "untracked_entries": 191,
+    "untracked_files": 189
+  },
+  "guard_tests_passed": 4,
+  "held_directories": 6,
+  "original_plan": {
+    "bytes": 8937244,
+    "path": "master_old_scientific_emptydirs_proposed_02.json",
+    "publication_location": "ORIGINAL_BYTES_IN_METADATA_ZIP_NOT_DIRECT_LARGE_GIT_BLOB",
+    "sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5"
+  },
+  "original_sources_and_controls": 16,
+  "plan_independent_review": "PASS",
+  "planned_children_only": 1806,
+  "proposed_directories": 5542,
+  "pruning": "NOT_RUN",
+  "remote_publication": "NOT_RUN_BY_THIS_AGENT",
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTY_DIRECTORY_PREPARATION_COMPLETION_V1",
+  "scientific_jobs": 0,
+  "state": "PASS_LOCAL_PREPARATION_REVIEWED_NO_EXECUTION",
+  "wsl_starts": 0
+}

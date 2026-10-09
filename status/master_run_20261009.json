@@ -39,10 +39,20 @@
       "excluded_original_preserved_bytes": 1025,
       "protected_hashes_unchanged": 12,
       "physical_disk_reclaimed_bytes": "NOT_MEASURED"
+    },
+    "empty_directory_proposal": {
+      "proposed": 5542,
+      "currently_empty": 3736,
+      "planned_child_parents": 1806,
+      "held": 6,
+      "pruning": "NOT_RUN",
+      "local_archive": "PASS19_MEMBERS",
+      "remote_readback": "PENDING",
+      "completion": "reports/master_run/20261009/cleanup/emptydirs01/completion.json"
     }
   },
   "historical_V10_closure": "UNKNOWN_PRESERVED",
-  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/source_ready_progress01/native_progress.json",
+  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/recovery_progress02/native_progress.json",
   "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
   "local_checkout_note": "Live G checkout stays at launch commit while the production lock is held; reconcile remote main after exact native closure.",
   "master_run": "master_20261009",
@@ -50,22 +60,22 @@
     "pid": 4768,
     "creation_filetime": 134360369876207076,
     "exit_filetime": 0,
-    "cpu_seconds": 26439.828125,
+    "cpu_seconds": 28549.0625,
     "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
     "session_id": 1,
     "exited": false,
     "exit_code": null,
     "peak_process_committed_bytes": 3647877120,
     "peak_job_committed_bytes": 3649024000,
-    "job_cpu_seconds": 26439.84375,
+    "job_cpu_seconds": 28549.078125,
     "job_active_processes": 2,
     "job_pids": [
       4768,
       7492
     ],
-    "utc": "2026-10-09T20:29:44.881160+00:00",
-    "elapsed_seconds": 14397.261668899999,
-    "working_set_bytes": 3325960192,
+    "utc": "2026-10-09T20:48:54.134792+00:00",
+    "elapsed_seconds": 15546.5154779,
+    "working_set_bytes": 3325984768,
     "peak_working_set_bytes": 3481726976,
     "private_committed_bytes": 3522920448
   },
@@ -73,7 +83,7 @@
   "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T20:30:00.360368+00:00",
+  "updated_utc": "2026-10-09T20:49:16.316933+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -101,7 +111,22 @@
     "runtime_discovery": "NOT_RUN",
     "curation": "NOT_RUN",
     "stage4_tree_consumed": false,
-    "evidence_archive_remote_readback": "PENDING",
-    "first_attempt": "CHECKER_SCOPE_ERROR_PRESERVED_CORRECTED_NO_SOURCE_CORRUPTION"
+    "evidence_archive_remote_readback": "PASS_FRESH_REMOTE26_MEMBERS_196_SOURCE_LEDGERS_NATIVE_NOT_RUN",
+    "first_attempt": "CHECKER_SCOPE_ERROR_PRESERVED_CORRECTED_NO_SOURCE_CORRUPTION",
+    "remote_receipt": "reports/master_run/20261009/preparation/source_readiness01/REMOTE_READBACK.json"
+  },
+  "recovery_preparation": {
+    "conda_originals": {
+      "expected": 339,
+      "expected_bytes": 660114049,
+      "first_attempt": "RESOURCE_STOP95_VERIFIED_PARTIAL_PRESERVED",
+      "continuation": "ONE_EXPLICIT_GATED_PASS_STARTED",
+      "remote_payload_recovery": "NOT_VERIFIED"
+    },
+    "iqtree_full_source": {
+      "state": "FIRST_ARCHIVE_VALID_GZIP_STRICT_GIT_SIZE_GATE_FAILED",
+      "difference": "One appveyor.yml export has264bytes versus249byte Gitblob; diagnosis only; no source acceptance",
+      "submodules": "Two fixed gitlinks identified; acquisition not complete"
+    }
   }
 }

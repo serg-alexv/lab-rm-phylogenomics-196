@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\prepare_old_scientific_emptydirs.py", line 321, in <module>
+    main()
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\prepare_old_scientific_emptydirs.py", line 297, in main
+    rows, held, absent, ancestors = scan(derived)
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\prepare_old_scientific_emptydirs.py", line 248, in scan
+    child_handle, child_initial = api.open(child, inode)
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\prepare_old_scientific_emptydirs.py", line 178, in open
+    require(expected_inode is None or int(row['legacy_file_id']) == expected_inode, 'Enumerated directory identity changed before open')
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\prepare_old_scientific_emptydirs.py", line 40, in require
+    raise ValueError(message)
+ValueError: Enumerated directory identity changed before open
+
+Transcribed from actual unified-exec session 96868 terminal output, exit code 1.
+Original reviewed source is retained as prepare_old_scientific_emptydirs_attempt01.py, SHA256 5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69.
+No proposal was created and no deletion was attempted.
