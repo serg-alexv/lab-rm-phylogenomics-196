@@ -1,0 +1,499 @@
+IQ-TREE version 3.1.4 for Windows 64-bit built Sep 10 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    wd (AVX2, FMA3, 15 GB RAM)
+Command: C:\Users\wheel\Documents\Codex\2026-10-08\lab-rm-phylogenomics-196\.tools\iqtree_windows_3_1_4\extracted\iqtree-3.1.4-Windows\bin\iqtree3.exe -s G:\My Drive\LAB_RM\lab-rm-phylogenomics-196\.work\stage04_phylogeny_v2\analyses\primary196\concatenated.faa --seqtype AA -p G:\My Drive\LAB_RM\lab-rm-phylogenomics-196\.work\stage04_phylogeny_v2\analyses\primary196\partitions.nex -m MFP -B 1000 --alrt 1000 --seed 1961008 -T 2 -keep-ident --boot-trees --prefix C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\iqtree_attempts\partitioned_20261009T162904Z\host
+Seed:    1961008 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 09 19:29:47 2026
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading partition model file G:\My Drive\LAB_RM\lab-rm-phylogenomics-196\.work\stage04_phylogeny_v2\analyses\primary196\partitions.nex ...
+Partition file is in NEXUS format...
+Reading alignment file G:\My Drive\LAB_RM\lab-rm-phylogenomics-196\.work\stage04_phylogeny_v2\analyses\primary196\concatenated.faa ... Fasta format detected
+Reading fasta file: done in 0.104538 secs using 14.95% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0354897 secs using 220.1% CPU
+Alignment has 196 sequences with 17456 columns, 14012 distinct patterns
+13089 parsimony-informative, 494 singleton sites, 3873 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0121753 secs using 256.7% CPU
+   1  GCF_000009425.1    2.59%    failed      0.00%
+   2  GCF_000010145.1    4.54%    failed      0.00%
+   3  GCF_000011045.1    1.17%    failed      0.00%
+   4  GCF_000014385.1    3.92%    failed      0.00%
+   5  GCF_000014425.1    1.95%    failed      0.00%
+   6  GCF_000014445.1    4.45%    failed      0.03%
+   7  GCF_000014505.1    1.43%    failed      0.00%
+   8  GCF_000014545.1    3.00%    failed      0.00%
+   9  GCF_000015385.1    7.27%    failed      0.00%
+  10  GCF_000016825.1    3.93%    failed      0.03%
+  11  GCF_000023085.1    1.10%    failed      0.00%
+  12  GCF_000025045.1    1.14%    failed      0.00%
+  13  GCF_000026405.1    3.79%    failed      0.00%
+  14  GCF_000092505.1    2.79%    failed      0.00%
+  15  GCF_000148815.2    1.10%    failed      0.00%
+  16  GCF_000155515.2    1.17%    failed      0.00%
+  17  GCF_000160835.1    2.19%    failed      0.00%
+  18  GCF_000203855.3    1.46%    failed      0.00%
+  19  GCF_000237995.1    1.40%    failed      0.00%
+  20  GCF_000241055.1    4.49%    failed      0.00%
+  21  GCF_000269925.1    2.17%    failed      0.00%
+  22  GCF_000269945.1    2.17%    failed      0.00%
+  23  GCF_000298875.1    3.78%    failed      0.00%
+  24  GCF_000468955.1    1.13%    failed      0.00%
+  25  GCF_000691805.2    1.64%    failed      0.00%
+  26  GCF_001434365.1    5.99%    failed      0.00%
+  27  GCF_001434705.1    1.22%    failed      0.00%
+  28  GCF_001435245.1    4.43%    failed      0.00%
+  29  GCF_001436135.1    1.23%    failed      0.00%
+  30  GCF_001436905.1    1.40%    failed      0.00%
+  31  GCF_001437055.1    8.84%    failed      0.00%
+  32  GCF_001437425.1    1.68%    failed      0.00%
+  33  GCF_001438705.1    7.13%    failed      0.00%
+  34  GCF_001536305.1    3.78%    failed      0.00%
+  35  GCF_001618285.1    3.91%    failed      0.00%
+  36  GCF_001702215.1    1.54%    failed      0.00%
+  37  GCF_001702235.1    1.43%    failed      0.00%
+  38  GCF_001752505.1    4.49%    failed      0.00%
+  39  GCF_001752515.1    4.49%    failed      0.00%
+  40  GCF_001752545.1    4.49%    failed      0.00%
+  41  GCF_001761545.1    4.27%    failed      0.00%
+  42  GCF_001767275.1    1.80%    passed     13.43%
+  43  GCF_001888925.1    5.56%    failed      0.00%
+  44  GCF_001891125.1    3.77%    failed      0.02%
+  45  GCF_001932615.1    1.70%    failed      0.00%
+  46  GCF_001998805.1    2.12%    failed      0.00%
+  47  GCF_002174215.1    1.80%    passed     13.89%
+  48  GCF_002950695.1    6.30%    failed      0.06%
+  49  GCF_002970915.1    1.20%    failed      0.00%
+  50  GCF_002970935.1    1.12%    failed      0.00%
+  51  GCF_003150935.1    4.13%    failed      0.00%
+  52  GCF_003151025.1    4.66%    failed      0.00%
+  53  GCF_003173695.1    4.07%    failed      0.00%
+  54  GCF_003176835.1    2.23%    failed      0.00%
+  55  GCF_003264795.1    5.29%    failed      0.00%
+  56  GCF_003584685.1    1.95%    failed      0.00%
+  57  GCF_003641185.1    1.09%    failed      0.01%
+  58  GCF_003722275.1    3.68%    failed      0.00%
+  59  GCF_003999355.1    4.34%    failed      0.00%
+  60  GCF_004354645.1    3.79%    failed      0.00%
+  61  GCF_004377635.1    3.91%    failed      0.00%
+  62  GCF_005405405.1    3.42%    failed      0.00%
+  63  GCF_005405465.1    1.70%    failed      0.00%
+  64  GCF_007954605.1    2.12%    failed      0.00%
+  65  GCF_007954785.1    4.88%    failed      0.00%
+  66  GCF_008107645.1    3.78%    failed      0.05%
+  67  GCF_008831485.1    1.74%    failed      0.00%
+  68  GCF_009184845.1    1.21%    failed      0.00%
+  69  GCF_009856565.1    1.23%    failed      0.00%
+  70  GCF_009913655.1    1.10%    failed      0.00%
+  71  GCF_009913995.1    2.51%    failed      0.00%
+  72  GCF_009914015.1    4.41%    failed      0.00%
+  73  GCF_009914035.1    2.51%    failed      0.00%
+  74  GCF_010092385.1    1.80%    passed     15.99%
+  75  GCF_011058775.1    6.04%    failed      0.00%
+  76  GCF_011304355.1   11.22%    failed      0.01%
+  77  GCF_013113695.1    3.92%    failed      0.00%
+  78  GCF_013407595.1    1.23%    failed      0.00%
+  79  GCF_014131735.1    1.10%    failed      0.00%
+  80  GCF_014145545.1    3.73%    failed      0.07%
+  81  GCF_014145555.1    1.79%    failed      0.01%
+  82  GCF_014145615.1    1.63%    failed      0.02%
+  83  GCF_014397255.1    3.56%    failed      0.00%
+  84  GCF_014656585.1    3.24%    failed      0.00%
+  85  GCF_014789145.1    1.67%    failed      0.00%
+  86  GCF_016127255.1    3.76%    failed      0.00%
+  87  GCF_016127815.1    1.80%    passed     14.88%
+  88  GCF_016647595.1    3.23%    failed      0.00%
+  89  GCF_016919665.1    1.15%    failed      0.00%
+  90  GCF_017068355.1    1.15%    failed      0.00%
+  91  GCF_017894345.1    2.57%    failed      0.00%
+  92  GCF_018394055.1    2.53%    failed      0.00%
+  93  GCF_018502505.1    2.54%    failed      0.00%
+  94  GCF_019448175.1    1.80%    passed     14.94%
+  95  GCF_019469265.1    4.12%    failed      0.00%
+  96  GCF_019576155.1    3.34%    failed      0.00%
+  97  GCF_019797825.1    6.53%    failed      0.00%
+  98  GCF_020510245.1    3.91%    failed      0.00%
+  99  GCF_020784695.1    1.63%    failed      0.03%
+ 100  GCF_020844005.1    1.23%    failed      0.00%
+ 101  GCF_021378055.1    1.43%    failed      0.00%
+ 102  GCF_023169905.1    1.70%    failed      0.00%
+ 103  GCF_023499275.1    2.17%    failed      0.00%
+ 104  GCF_023920145.1    3.91%    failed      0.00%
+ 105  GCF_024334065.1    2.64%    failed      0.00%
+ 106  GCF_024397795.1    3.25%    failed      0.00%
+ 107  GCF_024718545.1    1.70%    failed      0.00%
+ 108  GCF_025311495.1    6.22%    failed      0.00%
+ 109  GCF_025490915.1    3.80%    failed      0.00%
+ 110  GCF_025739325.1    1.23%    failed      0.00%
+ 111  GCF_025948295.1    1.23%    failed      0.00%
+ 112  GCF_026222675.1    1.09%    failed      0.01%
+ 113  GCF_028607025.1    4.82%    failed      0.00%
+ 114  GCF_028621815.1    1.80%    passed     13.57%
+ 115  GCF_028736235.1    3.33%    failed      0.00%
+ 116  GCF_029025825.1    1.10%    failed      0.00%
+ 117  GCF_029726355.1    1.16%    failed      0.00%
+ 118  GCF_029854335.1    1.10%    failed      0.00%
+ 119  GCF_029866985.1    1.21%    failed      0.00%
+ 120  GCF_030480545.1    2.27%    failed      0.00%
+ 121  GCF_030770265.1    1.16%    failed      0.00%
+ 122  GCF_030770295.1    1.16%    failed      0.00%
+ 123  GCF_030770335.1    1.16%    failed      0.00%
+ 124  GCF_032762665.1    3.91%    failed      0.00%
+ 125  GCF_033142085.1    3.92%    failed      0.00%
+ 126  GCF_033570435.1    2.72%    failed      0.04%
+ 127  GCF_034703025.1    1.88%    passed     12.95%
+ 128  GCF_035985965.1    1.15%    failed      0.00%
+ 129  GCF_036246165.1    1.09%    failed      0.03%
+ 130  GCF_036246185.1    1.09%    failed      0.03%
+ 131  GCF_036246225.1    1.17%    failed      0.00%
+ 132  GCF_036327715.1    1.69%    failed      0.03%
+ 133  GCF_037290055.1    1.10%    failed      0.00%
+ 134  GCF_037891785.1    2.17%    failed      0.00%
+ 135  GCF_037892375.1    2.17%    failed      0.00%
+ 136  GCF_038049945.1    1.23%    failed      0.00%
+ 137  GCF_039645515.1    2.17%    failed      0.00%
+ 138  GCF_039645575.1    2.17%    failed      0.00%
+ 139  GCF_039783225.1    1.23%    failed      0.00%
+ 140  GCF_039783785.1    1.23%    failed      0.00%
+ 141  GCF_039955095.1    6.48%    failed      0.01%
+ 142  GCF_041225485.1    1.16%    failed      0.00%
+ 143  GCF_041225605.1    1.16%    failed      0.00%
+ 144  GCF_041281755.1    4.27%    failed      0.00%
+ 145  GCF_041509385.1    1.23%    failed      0.00%
+ 146  GCF_041514285.1    1.23%    failed      0.00%
+ 147  GCF_041514295.1    1.23%    failed      0.00%
+ 148  GCF_041893975.1    1.23%    failed      0.00%
+ 149  GCF_042847315.1    1.25%    failed      0.00%
+ 150  GCF_042997415.1    3.73%    failed      0.00%
+ 151  GCF_045760565.1    1.16%    failed      0.00%
+ 152  GCF_045801155.1    4.44%    failed      0.00%
+ 153  GCF_045862825.1    1.10%    failed      0.00%
+ 154  GCF_046109915.1    3.24%    failed      0.00%
+ 155  GCF_047344935.1    4.45%    failed      0.03%
+ 156  GCF_050407965.1    1.24%    failed      0.01%
+ 157  GCF_050847345.1    1.10%    failed      0.00%
+ 158  GCF_051098045.1    1.10%    failed      0.00%
+ 159  GCF_052569745.1    1.23%    failed      0.00%
+ 160  GCF_052570115.1    1.23%    failed      0.00%
+ 161  GCF_052571685.1    1.23%    failed      0.00%
+ 162  GCF_054073565.1    2.73%    failed      0.00%
+ 163  GCF_054331775.1    2.01%    failed      0.00%
+ 164  GCF_054452875.2    1.24%    failed      0.00%
+ 165  GCF_054784775.1    2.38%    failed      0.00%
+ 166  GCF_054785075.1    1.25%    failed      0.00%
+ 167  GCF_055180435.1    2.23%    failed      0.00%
+ 168  GCF_055502585.1    5.57%    failed      0.00%
+ 169  GCF_055755075.1    1.43%    failed      0.00%
+ 170  GCF_056269605.1    1.21%    failed      0.00%
+ 171  GCF_056676095.1    3.93%    failed      0.02%
+ 172  GCF_057786735.1    2.64%    failed      0.00%
+ 173  GCF_058111805.1    4.24%    failed      0.01%
+ 174  GCF_059089415.1    2.89%    passed      8.80%
+ 175  GCF_060305805.1    1.15%    failed      0.00%
+ 176  GCF_060307215.1    1.15%    failed      0.00%
+ 177  GCF_900016205.1    3.78%    failed      0.00%
+ 178  GCF_900094835.1    1.72%    failed      0.00%
+ 179  GCF_900240275.1    1.70%    failed      0.00%
+ 180  GCF_900519455.1    3.92%    failed      0.00%
+ 181  GCF_900519475.1    3.92%    failed      0.00%
+ 182  GCF_900636965.1    1.17%    failed      0.00%
+ 183  GCF_903885985.1    1.23%    failed      0.00%
+ 184  GCF_903886345.1    1.23%    failed      0.00%
+ 185  GCF_903886475.1    1.23%    failed      0.00%
+ 186  GCF_903891025.1    1.23%    failed      0.00%
+ 187  GCF_903891205.1    1.23%    failed      0.00%
+ 188  GCF_947539375.1    1.95%    failed      0.00%
+ 189  GCF_963243495.1    1.09%    failed      0.01%
+ 190  GCF_963281025.1    4.82%    failed      0.01%
+ 191  GCF_964063315.1    2.78%    failed      0.00%
+ 192  GCF_965136965.1    3.42%    failed      0.00%
+ 193  GCF_965286035.1    4.44%    failed      0.00%
+ 194  GCF_965286295.1    1.10%    failed      0.00%
+ 195  GCF_965286585.1    4.54%    failed      0.00%
+ 196  GCF_982267005.1    2.70%    failed      0.00%
+****  TOTAL              2.63%  188 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: No CharPartition defined, use all CharSets
+Loading 100 partitions...
+Identifying sites to remove: done in 0.0002111 secs
+Identifying sites to remove: done in 0.0006744 secs
+Identifying sites to remove: done in 0.0002654 secs
+Identifying sites to remove: done in 0.0003236 secs
+Identifying sites to remove: done in 0.0005976 secs
+Identifying sites to remove: done in 0.0003425 secs
+Identifying sites to remove: done in 0.0001178 secs using 1.326e+004% CPU
+Identifying sites to remove: done in 0.0007002 secs
+Identifying sites to remove: done in 0.0005315 secs
+Identifying sites to remove: done in 0.0001062 secs
+Identifying sites to remove: done in 0.0004314 secs
+Identifying sites to remove: done in 0.0004729 secs
+Identifying sites to remove: done in 0.0004414 secs
+Identifying sites to remove: done in 9.48e-005 secs
+Identifying sites to remove: done in 0.0003862 secs
+Identifying sites to remove: done in 0.0006624 secs
+Identifying sites to remove: done in 0.0007023 secs
+Identifying sites to remove: done in 0.0002065 secs
+Identifying sites to remove: done in 0.0003598 secs
+Identifying sites to remove: done in 4.65e-005 secs
+Identifying sites to remove: done in 0.0001445 secs
+Identifying sites to remove: done in 0.0001512 secs
+Identifying sites to remove: done in 9.93e-005 secs
+Identifying sites to remove: done in 0.0002988 secs
+Identifying sites to remove: done in 0.0001301 secs
+Identifying sites to remove: done in 0.0005713 secs
+Identifying sites to remove: done in 0.0002651 secs
+Identifying sites to remove: done in 0.000149 secs
+Identifying sites to remove: done in 5.07e-005 secs
+Identifying sites to remove: done in 7e-005 secs
+Identifying sites to remove: done in 0.0002514 secs
+Identifying sites to remove: done in 0.0002877 secs
+Identifying sites to remove: done in 0.0001595 secs
+Identifying sites to remove: done in 0.000214 secs
+Identifying sites to remove: done in 0.0001137 secs
+Identifying sites to remove: done in 0.0004221 secs
+Identifying sites to remove: done in 0.0001401 secs
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	AA	189	119	103	13	MFP	p0001
+2	AA	196	216	156	56	MFP	p0002
+3	AA	196	238	188	44	MFP	p0003
+4	AA	196	194	168	23	MFP	p0004
+5	AA	196	146	132	11	MFP	p0005
+6	AA	196	129	110	16	MFP	p0006
+7	AA	195	438	329	101	MFP	p0007
+8	AA	195	213	162	47	MFP	p0008
+9	AA	196	94	87	6	MFP	p0009
+10	AA	196	535	295	220	MFP	p0010
+11	AA	190	223	168	50	MFP	p0011
+12	AA	189	360	298	52	MFP	p0012
+13	AA	196	287	281	4	MFP	p0013
+14	AA	186	191	161	24	MFP	p0014
+15	AA	196	105	101	2	MFP	p0015
+16	AA	196	107	90	16	MFP	p0016
+17	AA	177	74	55	17	MFP	p0017
+18	AA	178	367	289	64	MFP	p0018
+19	AA	196	343	264	72	MFP	p0019
+20	AA	195	334	282	45	MFP	p0020
+21	AA	177	62	50	10	MFP	p0021
+22	AA	196	297	239	53	MFP	p0022
+23	AA	196	474	340	119	MFP	p0023
+24	AA	196	78	67	10	MFP	p0024
+25	AA	196	145	119	20	MFP	p0025
+26	AA	194	242	219	18	MFP	p0026
+27	AA	195	315	259	47	MFP	p0027
+28	AA	180	280	254	22	MFP	p0028
+29	AA	196	222	186	35	MFP	p0029
+30	AA	195	82	56	23	MFP	p0030
+31	AA	194	253	237	16	MFP	p0031
+32	AA	196	182	145	34	MFP	p0032
+33	AA	196	144	140	4	MFP	p0033
+34	AA	186	446	308	131	MFP	p0034
+35	AA	195	416	262	142	MFP	p0035
+36	AA	196	152	116	32	MFP	p0036
+37	AA	196	233	170	58	MFP	p0037
+38	AA	196	117	100	16	MFP	p0038
+39	AA	196	312	222	84	MFP	p0039
+40	AA	196	185	146	35	MFP	p0040
+41	AA	196	208	195	9	MFP	p0041
+42	AA	196	226	220	4	MFP	p0042
+43	AA	196	93	73	19	MFP	p0043
+44	AA	196	137	45	89	MFP	p0044
+45	AA	196	229	156	70	MFP	p0045
+46	AA	196	147	102	42	MFP	p0046
+47	AA	196	122	50	69	MFP	p0047
+48	AA	196	137	71	58	MFP	p0048
+49	AA	196	131	86	39	MFP	p0049
+50	AA	196	118	64	51	MFP	p0050
+51	AA	196	118	68	44	MFP	p0051
+52	AA	195	102	70	30	MFP	p0052
+53	AA	196	115	68	41	MFP	p0053
+54	AA	196	97	74	19	MFP	p0054
+55	AA	196	103	65	35	MFP	p0055
+56	AA	196	143	105	36	MFP	p0056
+57	AA	196	67	47	18	MFP	p0057
+58	AA	196	61	39	19	MFP	p0058
+59	AA	195	229	149	76	MFP	p0059
+60	AA	196	44	22	22	MFP	p0060
+61	AA	196	65	41	24	MFP	p0061
+62	AA	195	37	13	22	MFP	p0062
+63	AA	196	206	154	49	MFP	p0063
+64	AA	196	177	116	54	MFP	p0064
+65	AA	196	150	129	17	MFP	p0065
+66	AA	196	102	43	53	MFP	p0066
+67	AA	196	127	58	64	MFP	p0067
+68	AA	196	121	75	43	MFP	p0068
+69	AA	196	89	52	33	MFP	p0069
+70	AA	177	91	58	29	MFP	p0070
+71	AA	196	87	55	30	MFP	p0071
+72	AA	195	92	40	51	MFP	p0072
+73	AA	196	251	140	103	MFP	p0073
+74	AA	195	83	69	10	MFP	p0074
+75	AA	196	61	27	34	MFP	p0075
+76	AA	189	178	140	35	MFP	p0076
+77	AA	181	96	73	17	MFP	p0077
+78	AA	196	155	85	63	MFP	p0078
+79	AA	196	131	72	53	MFP	p0079
+80	AA	196	130	65	63	MFP	p0080
+81	AA	196	98	89	7	MFP	p0081
+82	AA	196	141	106	31	MFP	p0082
+83	AA	178	407	277	43	MFP	p0083
+84	AA	193	163	146	11	MFP	p0084
+85	AA	193	135	109	23	MFP	p0085
+86	AA	195	46	44	1	MFP	p0086
+87	AA	194	66	52	12	MFP	p0087
+88	AA	195	158	118	31	MFP	p0088
+89	AA	195	183	160	19	MFP	p0089
+90	AA	186	103	84	19	MFP	p0090
+91	AA	192	148	119	29	MFP	p0091
+92	AA	196	321	254	60	MFP	p0092
+93	AA	196	138	114	20	MFP	p0093
+94	AA	182	64	55	9	MFP	p0094
+95	AA	196	75	73	1	MFP	p0095
+96	AA	193	256	250	3	MFP	p0096
+97	AA	196	130	118	11	MFP	p0097
+98	AA	196	72	35	35	MFP	p0098
+99	AA	183	101	75	22	MFP	p0099
+100	AA	196	245	183	57	MFP	p0100
+Degree of missing data: 0.013
+Info: multi-threading strategy over partitions
+
+NOTE: Restoring information from model checkpoint file C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\iqtree_attempts\partitioned_20261009T162904Z\host.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+I+G model...
+CHECKPOINT: Tree restored, LogL: -879797.621
+NOTE: ModelFinder requires 237 MB RAM!
+Selecting individual models for 100 charsets using BIC...
+ModelFinder will allocate partition-specific threads based on partition sizes
+ Finished subset 1/100     1.00  percent done     0h:0m:0s (0h:0m:21s left)      Finished subset 2/100     2.00  percent done     0h:0m:0s (0h:0m:25s left)      Finished subset 3/100     3.00  percent done     0h:0m:0s (0h:0m:19s left)      Finished subset 4/100     4.00  percent done     0h:0m:1s (0h:0m:24s left)      Finished subset 5/100     5.00  percent done     0h:0m:1s (0h:0m:21s left)      Finished subset 6/100     6.00  percent done     0h:0m:1s (0h:0m:25s left)      Finished subset 7/100     7.00  percent done     0h:0m:1s (0h:0m:24s left)      Finished subset 8/100     8.00  percent done     0h:0m:1s (0h:0m:22s left)      Finished subset 9/100     9.00  percent done     0h:0m:2s (0h:0m:20s left)      Finished subset 10/100     10.00  percent done     0h:0m:2s (0h:0m:21s left)      Finished subset 11/100     11.00  percent done     0h:0m:2s (0h:0m:19s left)      Finished subset 12/100     12.00  percent done     0h:0m:2s (0h:0m:19s left)      Finished subset 13/100     13.00  percent done     0h:0m:2s (0h:0m:19s left)      Finished subset 14/100     14.00  percent done     0h:0m:3s (0h:0m:18s left)      Finished subset 15/100     15.00  percent done     0h:0m:3s (0h:0m:21s left)      Finished subset 16/100     16.00  percent done     0h:0m:3s (0h:0m:20s left)      Finished subset 17/100     17.00  percent done     0h:0m:3s (0h:0m:19s left)      Finished subset 18/100     18.00  percent done     0h:0m:4s (0h:0m:18s left)      Finished subset 19/100     19.00  percent done     0h:0m:4s (0h:0m:18s left)      Finished subset 20/100     20.00  percent done     0h:0m:4s (0h:0m:18s left)      Finished subset 21/100     21.00  percent done     0h:0m:4s (0h:0m:18s left)      Finished subset 22/100     22.00  percent done     0h:0m:5s (0h:0m:18s left)      Finished subset 23/100     23.00  percent done     0h:0m:5s (0h:0m:18s left)      Finished subset 24/100     24.00  percent done     0h:0m:5s (0h:0m:18s left)      Finished subset 25/100     25.00  percent done     0h:0m:5s (0h:0m:17s left)      Finished subset 26/100     26.00  percent done     0h:0m:6s (0h:0m:17s left)      Finished subset 27/100     27.00  percent done     0h:0m:6s (0h:0m:17s left)      Finished subset 28/100     28.00  percent done     0h:0m:6s (0h:0m:17s left)      Finished subset 29/100     29.00  percent done     0h:0m:7s (0h:0m:17s left)      Finished subset 30/100     30.00  percent done     0h:0m:7s (0h:0m:17s left)      Finished subset 31/100     31.00  percent done     0h:0m:7s (0h:0m:16s left)      Finished subset 32/100     32.00  percent done     0h:0m:7s (0h:0m:16s left)      Finished subset 33/100     33.00  percent done     0h:0m:7s (0h:0m:16s left)      Finished subset 34/100     34.00  percent done     0h:0m:8s (0h:0m:15s left)      Finished subset 35/100     35.00  percent done     0h:0m:8s (0h:0m:16s left)      Finished subset 36/100     36.00  percent done     0h:0m:8s (0h:0m:15s left)      Finished subset 37/100     37.00  percent done     0h:0m:8s (0h:0m:15s left)      Finished subset 38/100     38.00  percent done     0h:0m:9s (0h:0m:15s left)      Finished subset 39/100     39.00  percent done     0h:0m:9s (0h:0m:15s left)      Finished subset 40/100     40.00  percent done     0h:0m:10s (0h:0m:15s left)      Finished subset 41/100     41.00  percent done     0h:0m:10s (0h:0m:14s left)      Finished subset 42/100     42.00  percent done     0h:0m:10s (0h:0m:15s left)      Finished subset 43/100     43.00  percent done     0h:0m:11s (0h:0m:14s left)      Finished subset 44/100     44.00  percent done     0h:0m:11s (0h:0m:14s left)      Finished subset 45/100     45.00  percent done     0h:0m:11s (0h:0m:13s left)      Finished subset 46/100     46.00  percent done     0h:0m:11s (0h:0m:13s left)      Finished subset 47/100     47.00  percent done     0h:0m:11s (0h:0m:13s left)      Finished subset 48/100     48.00  percent done     0h:0m:11s (0h:0m:12s left)      Finished subset 49/100     49.00  percent done     0h:0m:12s (0h:0m:12s left)      Finished subset 50/100     50.00  percent done     0h:0m:12s (0h:0m:12s left)      Finished subset 51/100     51.00  percent done     0h:2m:42s (0h:2m:36s left)      Finished subset 52/100     52.00  percent done     0h:3m:36s (0h:3m:19s left)      Finished subset 53/100     53.00  percent done     0h:4m:5s (0h:3m:38s left)      Finished subset 54/100     54.00  percent done     0h:4m:54s (0h:4m:10s left)      Finished subset 55/100     55.00  percent done     0h:6m:6s (0h:4m:59s left)      Finished subset 56/100     56.00  percent done     0h:6m:37s (0h:5m:12s left)      Finished subset 57/100     57.00  percent done     0h:8m:14s (0h:6m:13s left)      Finished subset 58/100     58.00  percent done     0h:8m:51s (0h:6m:25s left)      Finished subset 59/100     59.00  percent done     0h:10m:14s (0h:7m:7s left)      Finished subset 60/100     60.00  percent done     0h:11m:47s (0h:7m:51s left)      Finished subset 61/100     61.00  percent done     0h:12m:57s (0h:8m:17s left)      Finished subset 62/100     62.00  percent done     0h:14m:15s (0h:8m:44s left)      Finished subset 63/100     63.00  percent done     0h:15m:42s (0h:9m:13s left)      Finished subset 64/100     64.00  percent done     0h:18m:21s (0h:10m:19s left)      Finished subset 65/100     65.00  percent done     0h:20m:50s (0h:11m:13s left)      Finished subset 66/100     66.00  percent done     0h:21m:10s (0h:10m:54s left)      Finished subset 67/100     67.00  percent done     0h:22m:27s (0h:11m:3s left)      Finished subset 68/100     68.00  percent done     0h:22m:41s (0h:10m:40s left)      Finished subset 69/100     69.00  percent done     0h:23m:44s (0h:10m:39s left)      Finished subset 70/100     70.00  percent done     0h:24m:33s (0h:10m:31s left)      Finished subset 71/100     71.00  percent done     0h:25m:3s (0h:10m:14s left)      Finished subset 72/100     72.00  percent done     0h:26m:25s (0h:10m:16s left)      Finished subset 73/100     73.00  percent done     0h:26m:26s (0h:9m:46s left)      Finished subset 74/100     74.00  percent done     0h:27m:21s (0h:9m:36s left)      Finished subset 75/100     75.00  percent done     0h:28m:9s (0h:9m:23s left)      Finished subset 76/100     76.00  percent done     0h:28m:38s (0h:9m:2s left)      Finished subset 77/100     77.00  percent done     0h:29m:45s (0h:8m:53s left)      Finished subset 78/100     78.00  percent done     0h:30m:8s (0h:8m:30s left)      Finished subset 79/100     79.00  percent done     0h:31m:12s (0h:8m:17s left)      Finished subset 80/100     80.00  percent done     0h:33m:31s (0h:8m:22s left)      Finished subset 81/100     81.00  percent done     0h:33m:40s (0h:7m:53s left)      Finished subset 82/100     82.00  percent done     0h:34m:31s (0h:7m:34s left)      Finished subset 83/100     83.00  percent done     0h:34m:54s (0h:7m:8s left)      Finished subset 84/100     84.00  percent done     0h:35m:59s (0h:6m:51s left)      Finished subset 85/100     85.00  percent done     0h:37m:33s (0h:6m:37s left)      Finished subset 86/100     86.00  percent done     0h:38m:53s (0h:6m:19s left)      Finished subset 87/100     87.00  percent done     0h:39m:19s (0h:5m:52s left)      Finished subset 88/100     88.00  percent done     0h:39m:55s (0h:5m:26s left)      Finished subset 89/100     89.00  percent done     0h:41m:5s (0h:5m:4s left)      Finished subset 90/100     90.00  percent done     0h:41m:22s (0h:4m:35s left)      Finished subset 91/100     91.00  percent done     0h:42m:50s (0h:4m:14s left)      Finished subset 92/100     92.00  percent done     0h:43m:20s (0h:3m:46s left)      Finished subset 93/100     93.00  percent done     0h:43m:55s (0h:3m:18s left)      Finished subset 94/100     94.00  percent done     0h:44m:52s (0h:2m:51s left)      Finished subset 95/100     95.00  percent done     0h:45m:50s (0h:2m:24s left)      Finished subset 96/100     96.00  percent done     0h:46m:32s (0h:1m:56s left)      Finished subset 97/100     97.00  percent done     0h:46m:37s (0h:1m:26s left)      Finished subset 98/100     98.00  percent done     0h:47m:37s (0h:0m:58s left)      Finished subset 99/100     99.00  percent done     0h:47m:47s (0h:0m:28s left)      Finished subset 100/100     100.00  percent done     0h:48m:29s (0h:0m:0s left)                                                                                                         Full partition model BIC score: 1764156.659 (LnL: -875885.773  df:1268)
+Partition information was printed to C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\iqtree_attempts\partitioned_20261009T162904Z\host.best_scheme.nex
+Partition information in Raxml format was printed to C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\iqtree_attempts\partitioned_20261009T162904Z\host.best_scheme
+
+All model information printed to C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\iqtree_attempts\partitioned_20261009T162904Z\host.model.gz
+CPU time for ModelFinder: 5255.656 seconds (1h:27m:35s)
+Wall-clock time for ModelFinder: 2911.765 seconds (0h:48m:31s)
+WARNING: State(s) W rarely appear in partition 2 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 9 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 10 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 16 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 18 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 21 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 24 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 25 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 30 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 32 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 33 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 40 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 44 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 45 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 46 and may cause numerical problems
+WARNING: 1 states (see below) not observed in partition 47
+WARNING: State(s) W not present in partition 47 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 49 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 50 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 51 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 52 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 53 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 54 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 55 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 56 and may cause numerical problems
+WARNING: State(s) C, P, W rarely appear in partition 58 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 59 and may cause numerical problems
+WARNING: 3 states (see below) not observed in partition 60
+WARNING: State(s) D, C, W not present in partition 60 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 61 and may cause numerical problems
+WARNING: 3 states (see below) not observed in partition 62
+WARNING: State(s) L, F, W not present in partition 62 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 63 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 64 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 65 and may cause numerical problems
+WARNING: 1 states (see below) not observed in partition 66
+WARNING: State(s) W not present in partition 66 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 66 and may cause numerical problems
+WARNING: State(s) Y rarely appear in partition 67 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 68 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 69 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 70 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 71 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 73 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 74 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 75 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 76 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 77 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 78 and may cause numerical problems
+WARNING: 1 states (see below) not observed in partition 79
+WARNING: State(s) C not present in partition 79 and may cause numerical problems
+WARNING: 2 states (see below) not observed in partition 80
+WARNING: State(s) C, W not present in partition 80 and may cause numerical problems
+WARNING: State(s) W rarely appear in partition 85 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 88 and may cause numerical problems
+WARNING: State(s) C rarely appear in partition 90 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 94 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 98 and may cause numerical problems
+WARNING: State(s) C, W rarely appear in partition 99 and may cause numerical problems
+Generating 1000 samples for ultrafast bootstrap (seed: 1961008)...
+
+NOTE: 2264 MB RAM (2 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -876044.731
+Current log-likelihood at step 1: -875889.009
+Current log-likelihood at step 2: -875871.223
+Current log-likelihood at step 3: -875865.547
+Current log-likelihood at step 4: -875862.288
+Current log-likelihood at step 5: -875860.370
+Current log-likelihood at step 6: -875859.131
+Current log-likelihood at step 7: -875858.426
+Current log-likelihood at step 8: -875858.004
+Current log-likelihood at step 9: -875857.715
+Current log-likelihood at step 10: -875857.484
+Current log-likelihood at step 11: -875857.294
+Current log-likelihood at step 12: -875857.129
+Current log-likelihood at step 13: -875856.978
+Current log-likelihood at step 14: -875856.849
+Current log-likelihood at step 15: -875856.736
+Current log-likelihood at step 16: -875856.635
+Current log-likelihood at step 17: -875856.545
+Partition-specific rates:  2.590 0.753 0.597 0.982 1.192 1.142 0.888 0.985 0.872 0.456 1.611 1.544 2.045 2.340 2.786 1.499 1.850 0.847 0.973 1.434 1.234 1.051 0.689 1.308 1.235 1.187 0.955 1.069 1.972 0.622 1.422 0.788 2.127 0.676 0.469 1.080 1.396 0.848 0.412 0.911 1.599 2.789 1.119 0.213 0.554 0.455 0.188 0.335 0.450 0.378 0.425 0.474 0.242 0.532 0.389 0.576 0.257 0.288 0.397 0.118 0.362 0.169 0.483 0.553 1.185 0.188 0.173 0.338 0.436 0.584 0.374 0.391 0.414 0.723 0.205 0.874 0.588 0.272 0.291 0.311 1.192 0.995 0.880 1.514 1.440 1.663 0.664 0.883 2.249 1.295 1.796 1.045 1.648 0.773 3.004 2.371 1.861 0.177 0.680 0.963
+Parameters optimization took 16 rounds (364.408 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0102366 secs using 305.3% CPU
+Computing ML distances took 0.011742 sec (of wall-clock time) 0.031250 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0006475 secs
+Constructing RapidNJ tree: done in 0.0012473 secs
+Computing RapidNJ tree took 0.002833 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2206455.706
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 149.876 second
+Computing log-likelihood of 98 initial trees ... 543.208 seconds
+Current best score: -875856.545
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -875851.847
+Current log-likelihood at step 1: -875851.307
+Current log-likelihood at step 2: -875851.193
+Current log-likelihood at step 3: -875851.105
+Parameters optimization took 2 rounds (77.029 sec)
+
+BETTER TREE FOUND at iteration 1: -875851.105
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -875846.627
+Current log-likelihood at step 1: -875846.398
+Current log-likelihood at step 2: -875846.303
+Parameters optimization took 1 rounds (42.653 sec)
+
+BETTER TREE FOUND at iteration 2: -875846.303
+Iteration 10 / LogL: -875854.199 / Time: 1h:26m:11s
+Iteration 20 / LogL: -875850.672 / Time: 1h:42m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -875846.303 / CPU time: 2769.512
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------

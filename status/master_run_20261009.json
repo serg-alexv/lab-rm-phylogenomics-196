@@ -1,0 +1,39 @@
+{
+  "archive_rule": "Publish SHA256 manifests and verified full Release assets before purge; retain exact live dependencies.",
+  "authority": "https://github.com/serg-alexv/lab-rm-phylogenomics-196",
+  "automatic_resume": false,
+  "cleanup": "INVENTORY_IN_PROGRESS_NO_FILES_PURGED",
+  "historical_V10_closure": "UNKNOWN_PRESERVED",
+  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/20261009T182652Z",
+  "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
+  "local_checkout_note": "Live G checkout stays at launch commit while the production lock is held; reconcile remote main after exact native closure.",
+  "master_run": "master_20261009",
+  "native_process": {
+    "cpu_seconds": 12806.84375,
+    "creation_filetime": 134360369876207076,
+    "elapsed_seconds": 7018.289005999999,
+    "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "exit_code": null,
+    "exit_filetime": 0,
+    "exited": false,
+    "job_active_processes": 2,
+    "job_cpu_seconds": 12806.859375,
+    "job_pids": [
+      4768,
+      7492
+    ],
+    "peak_job_committed_bytes": 3546726400,
+    "peak_process_committed_bytes": 3545579520,
+    "peak_working_set_bytes": 3481726976,
+    "pid": 4768,
+    "private_committed_bytes": 3513483264,
+    "session_id": 1,
+    "utc": "2026-10-09T18:26:45.908516+00:00",
+    "working_set_bytes": 3317600256
+  },
+  "schema": "LAB_RM_MASTER_RUN_STATUS_V1",
+  "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
+  "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
+  "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
+  "updated_utc": "2026-10-09T18:26:52.287162+00:00"
+}

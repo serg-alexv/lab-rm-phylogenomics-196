@@ -1,0 +1,66 @@
+{
+  "schema": "LAB_RM_ATOMIC_IQTREE_V1",
+  "mode": "partitioned",
+  "canonical_commit": "160498a6af156b563c7680910945da13b4d245c0",
+  "repository_path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "run_control_state": "ACTIVE_DIRECT_USER_CONTINUATION",
+  "run_control": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\run_control.json",
+    "sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd"
+  },
+  "threads": 2,
+  "seed": 1961008,
+  "budget": {
+    "cap_bytes": 4831838208,
+    "reserve_bytes": 1610612736
+  },
+  "runtime_seconds": 86400,
+  "admission_seconds": 1800,
+  "expected_disabled_tasks": [
+    "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+    "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+    "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+    "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+    "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+    "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+    "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+    "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+    "LAB_RM_Stage04_V9_fixture_089a39adeade",
+    "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+    "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+    "LAB_RM_Stage04_V9_fixture_520674ad9893",
+    "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+    "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+    "LAB_RM_Stage04_V9_fixture_e49c96152940",
+    "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+    "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+    "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe"
+  ],
+  "output_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_attempts\\partitioned_20261009T162904Z",
+  "powershell": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+  "executable": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed"
+  },
+  "alignment": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+    "sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307"
+  },
+  "partitions": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+    "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5"
+  },
+  "approved_accessions": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\approved_accessions.txt",
+    "sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6"
+  },
+  "cache_import": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v10\\analyses\\primary196\\iqtree\\host.model.gz",
+    "sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42"
+  },
+  "cache_compatibility_evidence": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\atomic_resume_20261009\\model_cache_compatibility.json",
+    "sha256": "5b0ce450892dd3399023b1bc62d85f3a786359d2a55f8b58a23efec7cb8f4487"
+  },
+  "_config_sha256": "c70b267b04f9fa9c19a2bf0671deabcfd0959545d90a48a912ea463e220be314"
+}

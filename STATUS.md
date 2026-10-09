@@ -1,5 +1,25 @@
 # Current execution status
 
+## Master run — 2026-10-09T18:26:52.287162+00:00
+
+**STAGE04 RUNNING.** The one partitioned native IQ-TREE 3.1.4 job launched at
+2026-10-09T16:29:47.628911+00:00 uses all196 approved genomes and the accepted100-marker,
+17,456-column Stage4a alignment. Model selection and initial tree searches have
+finished; candidate-tree optimization is running. This observation is not final
+tree acceptance. Actual retained process/job measurements and captured command,
+admission, cache import and log prefixes are in `reports/master_run/20261009/snapshots/20261009T182652Z`.
+
+This is the master continuation. GitHub is the primary project storage and sole
+source of truth; all reproducibility artifacts must be recoverable here before
+the WD host is wiped. A local swarm is inventorying yesterday's project files.
+Nothing has been purged. Active files, accepted inputs and pinned toolchain remain
+in place until verified remote recovery permits cleanup. See
+`docs/master_run/PLAN_20261009.md` and `status/master_run_20261009.json`.
+
+Stages5–7 remain scientifically NOT_RUN. Prepared code and synthetic tests do not
+constitute detector results or an accepted figure. Historical unknown outcomes
+remain unchanged. Automatic scheduled continuation remains disabled.
+
 ## Direct user continuation — 2026-10-09T16:21:45.730229+00:00
 
 **ACTIVE_DIRECT_USER_CONTINUATION.** Bootstrap and accepted Stage4a inputs independently validated; bounded resource admission is being prepared for one new atomic native inference attempt. No new biological job has started. Stage4 remains incomplete and Stages5–7 NOT_RUN. Historical tasks remain disabled and historical unknown exits remain preserved. See `reports/stage04/atomic_resume_20261009/REPORT.md` and `status/atomic_continuation_20261009.json`.
