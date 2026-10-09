@@ -1,137 +1,61 @@
 # Current execution status
 
-## Stage 5 genome-source dependency split implemented — 2026-10-09
+Updated 2026-10-09T19:44:04.314995+00:00. GitHub is the sole project authority and durable storage.
+This master continuation is active; automatic scheduled continuation remains disabled.
 
-Prepared Stage 5 now uses accepted immutable genome sources independently of
-Stage 4 tree success/publication. Config/identityV2 and curation compatibility
-are implemented:76native/source/owner/storage/interop checks (73PASS,3actual
-Linux cases skipped),66curation tests PASS and4Stage6 negative gates PASS.
-All202canonical acceptance/build receipts match the released-byte source pins.
-Default remains the full196 queue; optional single approved checkpoint mode
-never claims full-panel completion. Actual Stage 5 searches, production
-curation and Stage 6 production rendering remain NOT_RUN. See
+Stage4 runs the one partitioned IQ-TREE3.1.4 job on all196 approved genomes,
+100 accepted marker partitions and17,456 amino-acid columns. Model selection
+and initial searches finished; global candidate-tree optimization continues.
+The latest retained native/job observation is in
+`reports/master_run/20261009/snapshots/recovery_progress01/native_progress.json`.
+No host tree or support values are accepted yet. Historical V10 closure stays
+UNKNOWN; the current controller does not change that historical conclusion.
+
+Stage5's genome-source dependency split is implemented and source-tested in
+commit `addf594d69990b4d4bc95d1e0fa38c76f59efdd6`. Detection and per-genome
+curation use the accepted accession/source bundles independently of final
+Stage4 acceptance. The current exclusive owner still must close exactly before
+another native job is admitted on WD. Actual WSL/runtime/resource/lifecycle
+checks and actual Stage5 searches remain NOT_RUN. The accession queue preserves
+pending, failed, unresolved and not-run states. Final exact196-by4 joining and
+authoritative Stage6 SVG/PDF require an independently accepted and published
+host tree plus independent curation checks. See
 `docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
 
-The sole full196 partitioned IQ-TREE job continues under its original exclusive
-native owner; candidate optimization has reached iteration40. Actual Stage 5
-execution awaits exact native closure/lock release and WSL resource/lifecycle
-proofs, rather than Stage 4 scientific acceptance. Final tree join and figure
-still require independent host-tree acceptance plus the separate workflow
-publication/readback gate.
+Cleanup already completed:224 inactive files/2,207,024,265 logical bytes and15
+exact empty directories. Batch03 is now executing the published exact47,429
+cold-file proposal. At 2026-10-09T19:44:04.3086104Z, its durable journal recorded
+18,460 removed files/6,312,475,813 logical bytes;
+this is progress, not final absence/protection verification. The219 held and
+619 unmatched files remain outside this purge. Its fresh remote mapping ZIP,
+source controls and historical Release member witnesses were verified first.
+Active native inputs, runtime, checkpoints, original lock and six dirty G
+files are protected. The live G checkout remains at launch commit160498a6
+while its native owner holds the production lock; root will reconcile it with
+remote main after exact closure.
 
-Cleanup:224inactive files/2,207,024,265bytes and15exact empty directories have
-been removed after published recovery proposals. The public history archive
-passed a fresh independent GitHub download:320members,291scientific copies,
-88,441public metadata rows and all declared historical validation records.
-Another47,648old scientific files match release members but remain local;
-619unmatched files and active runtime/tools are preserved. The host is not
-ready to wipe. Full toolchain preservation is planned separately.
+Additional public recovery controls are being published: one component archive
+(228,162,511 bytes) and three history shards (837 original files,120,674,497
+compressed bytes). Their fresh remote byte verification is still pending.
+Their scopes do not constitute complete environment recovery. One1,025-byte
+vendor fragment is excluded and retained locally; component source/notice
+coverage limitations are explicit. Raw private sessions/prompts/usage and
+credentials are excluded. The ext4 toolchain and needed local runtime remain
+protected. The host is not ready to wipe.
 
-# Current execution status
+| Stage | Current scientific state | Published acceptance |
+|---|---|---|
+|0 environment|Completed|Verified acquisition/preflight|
+|1 panel|Completed|Approved full196 panel verified|
+|2 sequences|Completed|Integrity verified with documented exceptions|
+|3 markers|Completed|Host marker inventory verified|
+|4 host tree|Running, no accepted tree|Accepted Stage4a; final Stage4 pending|
+|5 R-M inventory|Not run|Prepared V2 source and synthetic checks only|
+|6 figure|Not run|Synthetic vector/negative-gate proofs only|
+|7 final review|Not run|Pending scientific results|
 
-## Genome queue dependency split — 2026-10-09
-
-Implementing independent accession-keyed Stage 5 detection and curation. The
-approved genome sources are already available; the running tree search does not
-emit finalized leaves. Final exact196-by4 join and authoritative Stage 6 figure
-remain bound to an independently accepted/published host tree. See
-`docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
-
-Prepared code is being changed and tested. Actual Stage 5 searches and Stage 6
-production rendering remain NOT_RUN. The sole active partitioned IQ-TREE job
-and exclusive lock are unchanged. Heavy detector execution requires exact
-current native closure/lock release and actual WSL resource/lifecycle checks.
-
-Verified cleanup has removed224 inactive files/2,207,024,265bytes. Another47,648
-old C files/6,568,632,074logical bytes match published scientific Release
-members; they are only identified, not yet removed. The619 unmatched files
-remain preserved. A local5,529,652byte public history/inventory archive is
-verified; remote upload/readback is pending. The host is not ready to wipe.
-
-# Current execution status
-
-## Verified master cleanup — 2026-10-09T18:54:16.039938+00:00
-
-Removed exactly224 inactive local files/2,207,024,265bytes after verified GitHub
-recovery. The original142 cold files are in the independently downloaded
-[master storage Release](https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/master-run-storage-20261009-v1);
-82 staging copies matched existing scientific Release assets, current remote
-SHA-256 digests and all45,955 streamed ZIP members. The proposal was committed
-before deletion. All224 targets are absent and all8 protected source/preexisting
-dirty-file hashes are unchanged. No recursive deletion or G checkout mutation.
-See `reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json` and
-`docs/master_run/STORAGE_LEDGER.md`.
-
-The one partitioned full196 IQ-TREE run remains active under its original native
-and controller birth identities. Final tree acceptance is pending; Stages5–7
-remain scientifically NOT_RUN. Larger old scientific caches are being compared
-against accepted remote member hashes; unmatched evidence is preserved.
-
-## Master run — 2026-10-09T18:26:52.287162+00:00
-
-**STAGE04 RUNNING.** The one partitioned native IQ-TREE 3.1.4 job launched at
-2026-10-09T16:29:47.628911+00:00 uses all196 approved genomes and the accepted100-marker,
-17,456-column Stage4a alignment. Model selection and initial tree searches have
-finished; candidate-tree optimization is running. This observation is not final
-tree acceptance. Actual retained process/job measurements and captured command,
-admission, cache import and log prefixes are in `reports/master_run/20261009/snapshots/20261009T182652Z`.
-
-This is the master continuation. GitHub is the primary project storage and sole
-source of truth; all reproducibility artifacts must be recoverable here before
-the WD host is wiped. A local swarm is inventorying yesterday's project files.
-Nothing has been purged. Active files, accepted inputs and pinned toolchain remain
-in place until verified remote recovery permits cleanup. See
-`docs/master_run/PLAN_20261009.md` and `status/master_run_20261009.json`.
-
-Stages5–7 remain scientifically NOT_RUN. Prepared code and synthetic tests do not
-constitute detector results or an accepted figure. Historical unknown outcomes
-remain unchanged. Automatic scheduled continuation remains disabled.
-
-## Direct user continuation — 2026-10-09T16:21:45.730229+00:00
-
-
-
-**ACTIVE_DIRECT_USER_CONTINUATION.** Bootstrap and accepted Stage4a inputs independently validated; bounded resource admission is being prepared for one new atomic native inference attempt. No new biological job has started. Stage4 remains incomplete and Stages5–7 NOT_RUN. Historical tasks remain disabled and historical unknown exits remain preserved. See `reports/stage04/atomic_resume_20261009/REPORT.md` and `status/atomic_continuation_20261009.json`.
-
-
-
-## Direct user halt — 2026-10-09T10:13:27.758472+00:00
-
-
-
-**HALTED_BY_USER. Automatic continuation is disabled.** The external CLI was stopped, all18 LAB scheduled tasks disabled, and temporary leftovers cleaned. Recovery evidence publication had completed at `c49c9efeaa4566d8166e889150966e774b315d11` before the halt. Stage04 remains scientifically incomplete; Stages05–07 remain NOT_RUN. Resume requires a new direct user instruction. See `status/run_control.json` and `reports/storage/20261009_user_halt_cleanup.json`.
-
-
-
-Reconciliation proposal prepared 2026-10-09T09:17:39.098978+00:00. Evidence as of 2026-10-09T09:00:54.2368705Z. Full approved196; no pilot.
-
-
-
-INTERRUPTED_OUTCOME_UNKNOWN: V10 primary196; scientific Stage04 INCOMPLETE. Reconciliation evidence as of 2026-10-09T09:00:54.2368705Z. Original native26452/creation134359866154140144 and controller2968/creation134359865859802366 actual exits, old-job accounting and closure remain UNKNOWN. Power-off request, logoff and sleep/resume events are recorded; specific process cause and original SessionIDs are not established. Scheduler0x40010004 is not a native exit code. See reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json. No retry adopted or launched. Fresh held-lock inventory/resources, latest cache scope and hash-bound parent acceptance remain required. V6 exit1 and historical UNKNOWN closures remain preserved; Stage05-07 NOT_RUN and full Stage04 validation/verified Release pending.
-
-
-
-Historical as-of observation preserved: V10_ACTUAL_NATIVE_RUNNING_INCOMPLETE: primary196. Observation as of 2026-10-09T06:54:42.782077+00:00; native PID26452, creation FILETIME134359866154140144. Actual Scheduler-bound controller and native JobObject measurements are in reports/stage04/recovery_v10/progress.json. V6 exit1 and UNKNOWN old controller/job closure remain preserved. Scientific acceptance and verified full Stage04 Release remain pending.
-
-
-
-| stage | execution | validation | publication | observation_as_of_utc | native_pid | native_creation_filetime |
-
-|---|---|---|---|---|---|---|
-
-| 0_environment | COMPLETED | PASS_ACQUISITION_PREFLIGHT | UPLOAD_VERIFIED |  |  |  |
-
-| 1_panel_freeze | COMPLETED | PASS_APPROVED_PANEL_FREEZE | UPLOAD_VERIFIED |  |  |  |
-
-| 2_sequences | COMPLETED | PASS_SEQUENCE_INTEGRITY_WITH_DOCUMENTED_EXCEPTIONS | UPLOAD_VERIFIED |  |  |  |
-
-| 3_markers | COMPLETED | PASS_HOST_MARKER_INVENTORY | UPLOAD_VERIFIED |  |  |  |
-
-| 4_phylogeny | INTERRUPTED_OUTCOME_UNKNOWN | PASS_ALIGNMENTS_PHYLOGENY_INCOMPLETE | STAGE04A_STAGE04B_STAGE04C_FAILURE_UPLOAD_VERIFIED_FULL_STAGE04_PENDING | 2026-10-09T09:00:54.2368705Z |  |  |
-
-| 5_rm_inventory | NOT_RUN | NOT_RUN | NOT_RUN |  |  |  |
-
-| 6_figure | NOT_RUN | NOT_RUN | NOT_RUN |  |  |  |
-
-| 7_final_review | NOT_RUN | NOT_RUN | NOT_RUN |  |  |  |
-
+Use `status/master_run_20261009.json` for this current master observation;
+historical stage receipts retain their original dates and states. Recovery
+assets are in the `master-run-storage-20261009-v1` Release. Source, decisions,
+tests and public receipts are committed incrementally. No accepted upstream
+stage is being rerun.

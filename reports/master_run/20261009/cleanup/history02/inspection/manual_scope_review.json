@@ -1,0 +1,528 @@
+{
+  "execution": "EXECUTED_EXACT_SOURCE_SCHEMA_AND_FULL_BYTE_SCREEN",
+  "historical_native_closure": "NOT_INFERRED",
+  "initial_inspection_pins": {
+    "decisions.jsonl": "ac944622cdccd6b9ff67bf6676b92fcd1298d92fb7918692538e98068e16d013",
+    "inspection.json": "dc911094cae2057c264bd4e30e4c2d701d6e0a1dbf140b551cb71f89dd3a8fc5",
+    "selection.json": "49437f5106183ec0530b252c85cdaa32f9a3a6e4f7ae17a8217e86549c0f9478"
+  },
+  "inspector_sha256": "671b20fc3f8b89c214d9fc50a3b793275caafce72bac03bee4379468793dcfc0",
+  "manual_schema_resolutions": [
+    {
+      "bytes": 1936302,
+      "relative_path": ".work/review2/cached_review_summary.json",
+      "reviewed_kind": "ASSEMBLY_VALIDATION_SNAPSHOT_SUMMARY",
+      "sha256": "8e96a003862a7d88d0aa5849d23d6d79581274332bdf0a8987cd344428a7f4fe"
+    },
+    {
+      "bytes": 1124,
+      "relative_path": ".work/review2/cds_exception_summary.json",
+      "reviewed_kind": "CDS_EXCEPTION_COUNTS",
+      "sha256": "c5bc7b43d3b859f661aeb941259a95d7fdc183d5a79aa6ceb07e05414cc1eecf"
+    },
+    {
+      "bytes": 20,
+      "relative_path": ".work/review2/detector_parser_review/explicit_empty.tsv",
+      "reviewed_kind": "EXPLICIT_NO_SYSTEMS_NATIVE_PARSER_FIXTURE",
+      "sha256": "3026e567547840038ddc80c8ddb144b59c9f01b05fcf5a8a6ead62b674086c6c"
+    },
+    {
+      "bytes": 29894,
+      "relative_path": ".work/review2/omitted_partial_terminal_analysis.json",
+      "reviewed_kind": "PARTIAL_CDS_TERMINAL_TRANSLATION_ROWS",
+      "sha256": "16fb98fe13c0e2b96523b642debc72627dcebcd7a60e84d17ae69fa882638bf0"
+    },
+    {
+      "bytes": 2098173,
+      "relative_path": ".work/review2/repaired/cached_review_summary.json",
+      "reviewed_kind": "ASSEMBLY_VALIDATION_SNAPSHOT_SUMMARY",
+      "sha256": "6700a70fd55b91315110c96fcfe4d258ab26fd45e6bbec20f6ec2ef4c272aa33"
+    },
+    {
+      "bytes": 2122700,
+      "relative_path": ".work/review2/repaired_final/cached_review_summary.json",
+      "reviewed_kind": "ASSEMBLY_VALIDATION_SNAPSHOT_SUMMARY",
+      "sha256": "ae42450518b76127d8c261f9b37fe06b98b3fd65680a82f260bbbcda6a09cd54"
+    },
+    {
+      "bytes": 2721,
+      "relative_path": ".work/review2/review_evidence.json",
+      "reviewed_kind": "SCIENTIFIC_PARSER_AND_RESOURCE_REVIEW_LIMITS",
+      "sha256": "0ddb77c421cf90cfd320e0f9c2c54aa44eaa13db1e581b8db2a0954c71dfbc92"
+    },
+    {
+      "bytes": 1190,
+      "relative_path": ".work/review2/stage05_raw_review/native_posttreatment_fixture/installed_source_sha256.json",
+      "reviewed_kind": "INSTALLED_NATIVE_SOURCE_PATH_HASH_METADATA_ONLY",
+      "sha256": "2c422572a19e9a7388ec9b72b8798e27e554e894394b7aad51eb38783891a9d5"
+    },
+    {
+      "bytes": 276,
+      "relative_path": ".work/review2/stage05_raw_review/native_rejected_positive_fixture.tsv",
+      "reviewed_kind": "COMMENTED_SYNTHETIC_REJECTED_ROW_FIXTURE",
+      "sha256": "c36489c67b20ea99d0662c930dc91306dd9bc21c54170b85fcb1e2282313ab6c"
+    }
+  ],
+  "nested_fixture_metadata_screen": [
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2359,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/archival_biological_file.zip",
+      "sha256": "664a8ca990ada0d74bed0713b7ff7668415b812a3e4d282f8fb0daba8fc85eb0"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2357,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/archival_metadata_reference_only.zip",
+      "sha256": "cd82ca02e13b62476f853d60e968365865432b6673c2a1239bf3f7ab66ecb023"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2356,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/conflicting_duplicate_cds_header_tag.zip",
+      "sha256": "a025ad7f1d788550030e1b8a7480c47370d5858a56a8f38fd5839ca274213caa"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2359,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/archival_biological_file.zip",
+      "sha256": "45fdcc59710873c0ec7a4456adbf62487050f679e353b0ed59d042dda5c3d176"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2357,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/archival_metadata_reference_only.zip",
+      "sha256": "9ccfeb7aa4a03ddb55a8ba0222f181a541628763a13578f8006fa8f26ec00060"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2349,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/compatible_gbff_species_taxon.zip",
+      "sha256": "dac82791ec58005173f99fa51f0f3f3766fcc9ac4343eb0cd00fec693350ebbc"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2356,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/conflicting_duplicate_cds_header_tag.zip",
+      "sha256": "86bbb722f23adf5d5383914def4f8d5ec10534706f3a0dd2aeb3907aa87359db"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2316,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/incomplete_codon_without_three_prime_partial.zip",
+      "sha256": "9ddda943200abdc3004874ecf909e69147e13b6cc02eca7c131e8b0714ba0d00"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2316,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/partial_known_terminal_S_omitted.zip",
+      "sha256": "2520255a14a11d9e24477fe3e5cf664bf962bc88a4bebd85de144beb12928862"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2317,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/partial_terminal_TC_ambiguity.zip",
+      "sha256": "0eec18c3fd52a9d9c9169a5c088b9d181df6ce92acfc0898af38ced35b69264f"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2317,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/partial_terminal_wrong_primary_protein.zip",
+      "sha256": "ca1341a8c2fdf8238971f337e0cf9447cdaf7de6b5d31a929b83fe29f607393d"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2318,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/partial_unknown_terminal_X_included.zip",
+      "sha256": "cc1e58d0b79df5ced14cd212b64a7d64300755bf134f60cefb70429458046c9f"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2316,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/partial_unknown_terminal_X_omitted.zip",
+      "sha256": "b2ded12bbce179fef8ccb7dcfd5037c77406385ea0a9143e1e4a2c4e4c983ad5"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2348,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/synthetic_baseline.zip",
+      "sha256": "8f2ab78a6318c88b83f36d158d62efd7b5930259457cafb8d560b4f694185c19"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2360,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/unrelated_archival_metadata.zip",
+      "sha256": "2a5633a467edad7ee88d2e97ab6a04731d18bf6b7c082fe910627402dba65eac"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2358,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/wrong_cds_header_frame.zip",
+      "sha256": "3ab5bfaa41fd5c019bd593cd9fc4685e19ea27ad5b67767abae837edf28a96e6"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2350,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/wrong_gbff_source_taxon.zip",
+      "sha256": "1813eef01e81722c8fb7e6d6f7cf037cf23dce24719c96d39ce36c4e14faf99a"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2348,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/wrong_initial_gff_phase.zip",
+      "sha256": "f98e32248265c64a2fdb36f7c02e862d109cb7901197356020a6b0b0ccd36531"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2347,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/repaired_synthetic/wrong_internal_gff_phase.zip",
+      "sha256": "67d11182ede381e65ee9d42b976416bfd4f8e445cb9c0cc95ae18090a07dcb4d"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2348,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/synthetic_baseline.zip",
+      "sha256": "551e57ab61a59c15addea35fba4c8dd52e616fd514441470be728399f89a21b0"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2360,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/unrelated_archival_metadata.zip",
+      "sha256": "425c5af00a38b16220c2928d843b1a92c846147c4dc4ebe2d633599641ab5238"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2350,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/wrong_gbff_source_taxon.zip",
+      "sha256": "a717a378ba26d01e01e80abc6ac52f613ce3f860c06d339895c09f26e7d63f7e"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2348,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/wrong_initial_gff_phase.zip",
+      "sha256": "6e6c8fe67f18816cb4b2a6be660421d08146cb5266a5d119226d2582df1567c2"
+    },
+    {
+      "all_member_comments_and_extra_bytes": 0,
+      "archive_comment_bytes": 0,
+      "bytes": 2347,
+      "raw_container_signature_scan": "NO_MATCH",
+      "relative_path": ".work/review2/wrong_internal_gff_phase.zip",
+      "sha256": "eaa0ca842452d12c88a4d92629ffe39a06dd34780e9e74b6f56bf6e3a9be9a76"
+    }
+  ],
+  "private_payloads_exported": 0,
+  "project_source_scope_reviews": [
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage04_inference_validate_v3_before_finite_guard_88a.py",
+      "sha256": "88a120b338c26b2e34d42b42cfad5ba4cd92bb857230362cdb7bd04f0f9a15d0"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_architecture_policy_before_guard_08be.py",
+      "sha256": "08be757cbc8ae86eb494fe77fc07f3cf86bdb0ca3ccc77026fd541c819e7fe36"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_architecture_policy_state_guard_base_08be.py",
+      "sha256": "08be757cbc8ae86eb494fe77fc07f3cf86bdb0ca3ccc77026fd541c819e7fe36"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_architecture_policy_state_guard_candidate.py",
+      "sha256": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_curation_adapter_base_9509.py",
+      "sha256": "95093e03ca5af4e33cad6d62c42012f4cdc5e5221a55c945d6bb140bce758eeb"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_curation_adapter_base_e348.py",
+      "sha256": "e3486343574a492d908c115557a2ac3dd076b36305a132cef0bd16c82f192edb"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_curation_adapter_policy_pin_candidate.py",
+      "sha256": "3361df1110727f9ca2f6ae5732407375267ac8b1df7d05b172adf8621e87cf98"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/PARENT_stage05_curation_adapter_policy_pin_candidate_9509.py",
+      "sha256": "be83f54fb8622050714ab5e223122776fe467bc19f5a9e48623b55728af06b1f"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/analyze_cds_exceptions.py",
+      "sha256": "eb66d01c8fc1f02b6e63445784ecc7b58428722ced0910f4878c1ac47ad33bf6"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/audit_stage02_accounting.py",
+      "sha256": "979ab22d107b078b00053c305d5122df1e2d74bf3ae263940beb83f55eec0f36"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/audit_stage05_models.py",
+      "sha256": "c84dfc639eda43c84beb782ba929964aed66b19847405a2106cfa428a7acb06d"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/audit_stage05_source_context.py",
+      "sha256": "92af84f568636c47fd7398eb64b695b713b147cd606b88b015b3747e348b6b62"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/make_stage04_v4_handoff.py",
+      "sha256": "f28bd3c6932cbd717c6d55e244e375643965c6157625a093408ca6a5914f09c7"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/prepare_stage05_raw_handoff.py",
+      "sha256": "04f46d1ea1bc81e17c2b0bd7fe5e6a99a87afe21cac580b0b669e2843cc72d13"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/probe_stage04_v3_source.py",
+      "sha256": "b3dbc4d284f2b75ccc2341cbb64c2bf458ec5934059ce8de9b952a1c2e39b88f"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/probe_stage04_v4_source.py",
+      "sha256": "bb2bb0f8f5d583e8e3f8e7c825e8d464c480412bdf203c240bf82149700c2c0e"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/probe_stage05_native_posttreatment.py",
+      "sha256": "3faca954f3d0ba1ea1520d7f7fe57f7e53f1245535c6377cd2bb920d5ecdce6d"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/probe_stage05_rejected_serializer.py",
+      "sha256": "c82fa0070e087ff297a8df156c23a79431d5233653947c3536aa7c68e5c40d0b"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/publication_review/portable_release_snapshot.py",
+      "sha256": "bae0f7cc88b3766876c93d920c60d8a1b763db94ffb391d25f8bf6f10ae019a2"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/record_stage04_readonly_review.py",
+      "sha256": "a51af0fc1ec748f931f3ff5431aca502abb0236de8df535e691e29cee1305727"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/record_stage05_policy_reconciliation.py",
+      "sha256": "68606b034212b1ac198125e4cc5f77dc822deac5c8a468ea1123982a33192950"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/run_cached_review.py",
+      "sha256": "b1c460993458447f9be1e2883f5bee2e49494dc7ab524fab7d1be58ad7aafa25"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/run_repaired_review.py",
+      "sha256": "4538c0fbfcbacc0e605db181ea1b539811ed8778c46120bbc4cb3e2a6af97ee4"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/stage04_inference_validate_v3.py",
+      "sha256": "a8c436bbcb455818c54c9a77957e4259544d932d0ae52636b764dca28b882b2f"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/stage04_inference_validate_v4.py",
+      "sha256": "3e1a8f399789d1f4dfd45579efe580313a7556bffe05961597c32cc39ec6e38b"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/stage05_architecture_policy.py",
+      "sha256": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/stage05_policy_v2/frozen_policy_08be.py",
+      "sha256": "08be757cbc8ae86eb494fe77fc07f3cf86bdb0ca3ccc77026fd541c819e7fe36"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/stage05_raw_review/executed_test_source_74.py",
+      "sha256": "3f77b292b5360b0b0b00b72084a029ae1bb3920eabc1095ec56fd30f5be863b2"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/synthetic_review.py",
+      "sha256": "a3f4025ad21397b3ba8c0a1450e7f5823761f7eec42d1ecbcd20c2476e8667e8"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_publication_retry_review.py",
+      "sha256": "6d51a548032c09b53bdd6ea508a4384ee700fbe31291497a6e93a38dcc0a10c8"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage03_finalizer_gates.py",
+      "sha256": "cb93b3fc58e6869b0b9df9d8bf158d9c281367f27809ab1cc180a8bc813dedbd"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage03_orthology_projection.py",
+      "sha256": "c144523b0b3ca408042e857c1a0c565445288bcf7865903608c1d71296558065"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage04_inference_validate_v3.py",
+      "sha256": "632de922de2e9b53aac1f513816b0c62943bd66d64b139c2bae8ac1abdc11a8a"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage04_inference_validate_v4.py",
+      "sha256": "08bc6ac7217cc091b7a8519eda5486b45c167e8df5b1f7b419efbae95951d4e3"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage05_architecture_policy.py",
+      "sha256": "4fdade7865eb59a14357d9023532db1d18dc9ebd45be2ef7905f667a33d046dc"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage05_cache_identity_review.py",
+      "sha256": "73011d9fb74b4388920145de5532c73bf17ea775794d15e0e24a4c24a8be3343"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage05_native_parser_review.py",
+      "sha256": "1271a2100f9b6e0f0f410a0fd1923ecf244cd3301e980de34d4a201a856eafd3"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_stage05_policy_state_guard_v2.py",
+      "sha256": "2dc7e64780ed9c553ff11d21c675fd3eeea833a63df0c972c53a14b3ebb23da9"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_streaming_io.py",
+      "sha256": "41d736b1e42a36c0f214ddcc9adb99f485be6a014a7482e8d56a55ba25dd240a"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/test_validate_stage05_raw.py",
+      "sha256": "0d445ca656fc74189a43db35fec619445dc7621ec7a1bd1e9c652843303dd09d"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/validate_locus_inputs.py",
+      "sha256": "bc3fda58c2701e50ea0ed5fa4a7dee05151575bd703c319138b23d3342a79a7d"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/validate_stage03_markers.py",
+      "sha256": "f482d3362f3b4b6bf61ef8692c10a94172316975154af5ecd1d47cbabebd68ed"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/validate_stage03_orthology_projection.py",
+      "sha256": "13b194d3879c243d39fba9bcdcc9c4e38ae598b45c774d3fc4f16b09b422655e"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/validate_stage05_raw.py",
+      "sha256": "40578150b12950d84288e1d643340af09fb665876e9a7bc7fab67472d285f48f"
+    },
+    {
+      "basis": "Retained project scientific checker/review/test source under exact review2; original module purpose/AST reviewed; no vendor source directory or third-party copyright/license header identified",
+      "relative_path": ".work/review2/validator_repaired.py",
+      "sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64"
+    }
+  ],
+  "redaction": "NONE_WHOLE_FILES_EXCLUDED",
+  "reviewer_id": "input_validation",
+  "schema": "MASTER_PUBLIC_HISTORY02_MANUAL_SCOPE_AND_ATTRIBUTION_REVIEW_V1",
+  "third_party_notice_evidence": {
+    "copied_third_party_source_archived": false,
+    "exact_retained_package_notices_available": false,
+    "header_authors": [
+      "Sophie Abby",
+      "Bertrand Neron"
+    ],
+    "header_copyright": "2014-2024 Institut Pasteur (Paris) and CNRS",
+    "header_license": "GPL version3 or later",
+    "package_notices_required_by_original_header": [
+      "COPYRIGHT",
+      "COPYING"
+    ],
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_review\\vendor_stage05_sources\\11_macsypy_report.py",
+    "sha256": "1be94d8ec15885b891c242e91e9b1a36cdb0c071569e05df8381eeba2c39f091"
+  },
+  "third_party_source_exclusions": [
+    {
+      "decision": "PRESERVE_LOCAL_EXCLUDED_FROM_PUBLIC_ARCHIVE",
+      "private_content_match": false,
+      "reason": "COPIED_MACSYFINDER_SOURCE_FRAGMENT_PACKAGE_COPYRIGHT_AND_COPYING_NOT_AVAILABLE_IN_RETAINED_LOOSE_EVIDENCE",
+      "source": {
+        "bytes": 1025,
+        "device": 17766949232488609743,
+        "file_id": 1125899908347256,
+        "link_count": 1,
+        "mtime_ns": 1791475338370825500,
+        "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\review2\\stage05_raw_review\\installed_rejected_serializer.txt",
+        "preserve_reason": "NO_EXACT_VERIFIED_REMOTE_MEMBER_SHA256_SIZE_MATCH",
+        "relative_path": ".work/review2/stage05_raw_review/installed_rejected_serializer.txt",
+        "scope": ".work/review2",
+        "selection_origin": "UNMATCHED_619_PRESERVE",
+        "sha256": "574547f9584dafce870492810ab02be990fe022939edd5a797292c473625027b"
+      },
+      "whole_file_exclusion_no_redaction": true
+    }
+  ]
+}

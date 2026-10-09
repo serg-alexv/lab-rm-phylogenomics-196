@@ -1,0 +1,71 @@
+{
+  "excluded_bytes": 1025,
+  "excluded_whole_files": 1,
+  "limitations": [
+    "Source/control review only; not a second independent full983MB content privacy scan.",
+    "Pattern scans and inspected schema evidence do not provide a universal secret detector.",
+    "No fresh independent ZIP readback or remote publication acceptance in this review."
+  ],
+  "public_bytes": 983926424,
+  "public_files": 837,
+  "review_findings": {
+    "copy_identity_before_handle_after_and_actual_sha_bound": true,
+    "exact_original_selection_and_fixed_scope_binding": true,
+    "final_source_and_common_control_rechecks": true,
+    "headerless_macsyfinder_fragment_wholly_excluded_and_preserved": true,
+    "nine_exact_sha_schema_overrides_full_byte_privacy_rechecked": true,
+    "three_bounded_deterministic_shards_with_exact_member_crc_sha_checks": true,
+    "twenty_four_nested_zip_payload_and_container_metadata_screen_controls": true,
+    "unknown_historical_native_and_scientific_states_preserved": true
+  },
+  "reviewed_files": {
+    "build_public_history02.py": {
+      "bytes": 14634,
+      "sha256": "896b132325cc442ffb010c3e332f667a5f899a575ee69a782256127ea59e0de8"
+    },
+    "finalize_public_history02_scope.py": {
+      "bytes": 11057,
+      "sha256": "a8068ac628d8249e02af65954694dd8f3f2a19aef0441657a55f4756f388f1b4"
+    },
+    "inspect_public_history02.py": {
+      "bytes": 14135,
+      "sha256": "671b20fc3f8b89c214d9fc50a3b793275caafce72bac03bee4379468793dcfc0"
+    },
+    "master_public_history02_inspection/excluded_files.json": {
+      "bytes": 1073,
+      "sha256": "ee5e538127fac8676e1390cae79e0126072c13326ce6a6f3fdadf6e623c20fab"
+    },
+    "master_public_history02_inspection/inspection.json": {
+      "bytes": 2155,
+      "sha256": "dc911094cae2057c264bd4e30e4c2d701d6e0a1dbf140b551cb71f89dd3a8fc5"
+    },
+    "master_public_history02_inspection/manual_scope_review.json": {
+      "bytes": 30136,
+      "sha256": "f88fab6380b6c3a4dd4339b3a4d1c12af3974f86080ec1d540e424b475dd86cb"
+    },
+    "master_public_history02_inspection/public_payloads.jsonl": {
+      "bytes": 1308325,
+      "sha256": "c64837cfa910679d885c607eaf18b391fe1f65d12d8bdd8f642a1dbc23b78e46"
+    },
+    "master_public_history02_inspection/public_scope.json": {
+      "bytes": 1393,
+      "sha256": "dec1dfb957965ca293180efba04f43498105fc0a46056aff1d7e551f72686032"
+    },
+    "master_public_history02_inspection/selection.json": {
+      "bytes": 742945,
+      "sha256": "49437f5106183ec0530b252c85cdaa32f9a3a6e4f7ae17a8217e86549c0f9478"
+    }
+  },
+  "reviewed_utc": "2026-10-09T19:41:01.273758+00:00",
+  "reviewer": "stage5_audit",
+  "reviewer_side_effects": {
+    "deletions": 0,
+    "g_writes": 0,
+    "network_calls": 0,
+    "source_edits": 0,
+    "source_payload_reads": 0,
+    "wsl_starts": 0
+  },
+  "schema": "MASTER_PUBLIC_HISTORY02_INDEPENDENT_SOURCE_CONTROL_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_NO_CONCRETE_BLOCKER"
+}

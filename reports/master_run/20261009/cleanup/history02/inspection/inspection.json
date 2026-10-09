@@ -1,0 +1,46 @@
+{
+  "archive_creation": "NOT_RUN",
+  "content_kinds": {
+    "HISTORICAL_SCIENTIFIC_COMMAND_JSONL_NO_CLOSURE_INFERENCE": 1,
+    "HISTORICAL_SCIENTIFIC_NATIVE_LOG_OR_PIN_TEXT": 7,
+    "HISTORICAL_SCIENTIFIC_TABULAR_OR_INTERRUPTED_PARTIAL_TABLE": 23,
+    "HISTORICAL_SYNTHETIC_NATIVE_PROFILE_PARSER_FIXTURE": 15,
+    "PROJECT_SCIENTIFIC_REVIEW_OR_CHECKER_SOURCE": 45,
+    "PROJECT_SCIENTIFIC_TOOL_SHIM_SOURCE": 2,
+    "SCIENTIFIC_JSON_OR_REVIEW_RECEIPT": 685,
+    "SCIENTIFIC_JSON_ROW_ARRAY": 8,
+    "SCIENTIFIC_NEGATIVE_OR_SYNTHETIC_ZIP_FIXTURE_ORIGINAL_CONTAINER_ONLY": 24,
+    "SCIENTIFIC_REVIEW_DOCUMENT_OR_SOURCE_PATCH": 19
+  },
+  "counts": {
+    "excluded_bytes": 6192400,
+    "excluded_files": 9,
+    "screened_public_bytes": 977735049,
+    "screened_public_files": 829
+  },
+  "decisions_sha256": "ac944622cdccd6b9ff67bf6676b92fcd1298d92fb7918692538e98068e16d013",
+  "finished_utc": "2026-10-09T19:26:57.896244+00:00",
+  "g_writes": 0,
+  "historical_native_closure": "NOT_INFERRED",
+  "input_pins": {
+    "master_batch03_mapping01/conservative_leaf_assessment.json": "13d89bbfdd2b768501426493c8de0eac8a4076ed1aca789ab87ea1df759b7f1e",
+    "yesterday_inventory/batch03/file_allowlist.jsonl": "df770f9e49e869c64f61db5720030aceff3b3282d53ee964aae02d228d7c3f64",
+    "yesterday_inventory/batch03/preserve_unmatched_or_excluded.jsonl": "bca12c16ff092b2e2fb612608186db728518d0ebf07fad80e1b401ed43ff0593"
+  },
+  "inspector_sha256": "671b20fc3f8b89c214d9fc50a3b793275caafce72bac03bee4379468793dcfc0",
+  "license_attribution_review": "PENDING_BEFORE_ARCHIVE",
+  "maximum_block_bytes": 1048576,
+  "maximum_json_or_source_payload_buffer_bytes": 8388608,
+  "maximum_nested_zip_uncompressed_bytes": 16777216,
+  "native_launches": 0,
+  "network_calls": 0,
+  "schema": "MASTER_PUBLIC_HISTORY02_SCOPE_INSPECTION_V1",
+  "selection_bytes": 983927449,
+  "selection_files": 838,
+  "selection_sha256": "49437f5106183ec0530b252c85cdaa32f9a3a6e4f7ae17a8217e86549c0f9478",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T19:25:26.056203+00:00",
+  "state": "COMPLETE_SCOPE_SCREENING_NO_ARCHIVE_OR_PURGE",
+  "whole_file_exclusion_no_redaction": true,
+  "wsl_starts": 0
+}
