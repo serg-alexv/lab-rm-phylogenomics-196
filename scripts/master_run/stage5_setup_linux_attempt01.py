@@ -91,31 +91,6 @@ def verified_toolchain(path, expected):
     return frozen
 
 
-def diagnostic_observation():
-    """Read current boot/namespace/mount/interpreter metadata; no remediation."""
-    rows=W.mount_rows(Path('/proc/self/mountinfo').read_text())
-    def metadata(path):
-        try:
-            info=path.lstat()
-            value={'path':str(path),'present':True,'device':info.st_dev,'inode':info.st_ino,
-                   'bytes':info.st_size,'mode':info.st_mode,'symlink':path.is_symlink()}
-            if path.is_symlink():value['link_target']=os.readlink(path)
-            value['resolved_exists']=path.exists()
-            return value
-        except FileNotFoundError:return {'path':str(path),'present':False}
-    matches=[row for row in rows if row['mountpoint']==str(TOOLS)]
-    result={'schema':'STAGE05_READONLY_RUNTIME_MOUNT_DIAGNOSIS_V1','state':'OBSERVATION_ONLY_NO_RUNTIME_ACCEPTANCE',
-            'boot_id':Path('/proc/sys/kernel/random/boot_id').read_text().strip(),
-            'self_mount_namespace':os.readlink('/proc/self/ns/mnt'),'pid1_mount_namespace':os.readlink('/proc/1/ns/mnt'),
-            'pid1_identity':P.proc_record(1),'system_python_version':sys.version,'system_python_executable':sys.executable,
-            'toolchain_mounts':matches,'mountpoint':metadata(TOOLS),'retained_python':metadata(ENV/'bin/python'),
-            'image':image_identity(),'helper_sha256':sha(__file__),'mount_or_repair_performed':False}
-    if matches:
-        try:result['exact_current_toolchain_proof']=toolchain_observe()
-        except Exception as error:result['toolchain_proof_error']={'kind':type(error).__name__,'message':str(error)}
-    return result
-
-
 def mount_lock():
     import fcntl
     descriptor = os.open(MOUNT_LOCK, os.O_RDWR | os.O_CLOEXEC | os.O_NOFOLLOW)
@@ -136,7 +111,7 @@ def mount_lock():
 def main():
     import fcntl
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--step',choices=('diagnose','toolchain','runtime','storage','drivefs'),required=True)
+    parser.add_argument('--step',choices=('toolchain','runtime','storage','drivefs'),required=True)
     for name in ('output','owner-lease','owner-nonce','owner-lock-receipt','owner-lock-sha256','source-sha256',
                  'toolchain-proof','toolchain-proof-sha256','candidate-output'):
         parser.add_argument('--'+name,required=name in ('output','owner-lease','owner-nonce','source-sha256'))
@@ -162,11 +137,7 @@ def main():
         native_args=SimpleNamespace(output=out,environment=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'))
         def command(label,argv):
             return supervisor.execute(native_args,out/'commands',label,argv,WORK,{'scope':SCOPE,'step':args.step})
-        if args.step=='diagnose':
-            observation=diagnostic_observation();write_new(out/'diagnostic_observation.json',observation)
-            result['diagnostic_observation_sha256']=sha(out/'diagnostic_observation.json')
-            result['diagnostic_scope']='Read-only observation, not runtime/mount acceptance'
-        elif args.step=='toolchain':
+        if args.step=='toolchain':
             descriptor=mount_lock()
             try:
                 image_identity(); W.canonical(TOOLS)

@@ -128,29 +128,5 @@ class Contracts(unittest.TestCase):
             with self.assertRaises(ValueError): V.command_readback(Path(tmp),0,'runtime',[],True)
             self.assertEqual(V.command_readback(Path(tmp),0,'toolchain',[],True),[])
 
-    def test_exact_retained_preexec_failure_is_failed_and_no_linux_success(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            out=Path(tmp);(out/'wsl.stdout.txt').write_bytes(b'')
-            error=b'<3>WSL (369 - Relay) ERROR: CreateProcessCommon:880: execvpe(/usr/bin/python3) failed: No such file or directory\r\n'
-            (out/'wsl.stderr.txt').write_bytes(error)
-            argv=[V.WSL,'-d','Ubuntu','-u','root','--exec','/usr/bin/python3','-B',V.LINUX_WORK+'/stage5_setup_linux.py']
-            birth={'pid':123,'creation_filetime':456,'executable':V.WSL}
-            terminal={**birth,'exited':True,'exit_code':1,'exit_filetime':789}
-            value=V.exact_preexec_failure(out,argv,birth,terminal)
-            self.assertEqual(value['state'],'FAILED_PREEXEC_NO_LINUX_PROGRAM_STARTED')
-            self.assertFalse(value['linux_helper_started']);self.assertFalse((out/'linux_terminal.json').exists())
-            for change in ('exit0','wrong_birth','stdout','extra_stderr','linux_artifact','wrong_program'):
-                changed=copy.deepcopy(terminal);args=list(argv)
-                if change=='exit0':changed['exit_code']=0
-                elif change=='wrong_birth':changed['creation_filetime']=457
-                elif change=='stdout':(out/'wsl.stdout.txt').write_bytes(b'Possible Linux output')
-                elif change=='extra_stderr':(out/'wsl.stderr.txt').write_bytes(error+b'Unexpected second line\n')
-                elif change=='linux_artifact':(out/'linux_terminal.json').write_bytes(b'{}')
-                elif change=='wrong_program':args[6]='/OTHER/python'
-                with self.subTest(change=change):self.assertIsNone(V.exact_preexec_failure(out,args,birth,changed))
-                if change=='stdout':(out/'wsl.stdout.txt').write_bytes(b'')
-                if change=='extra_stderr':(out/'wsl.stderr.txt').write_bytes(error)
-                if change=='linux_artifact':(out/'linux_terminal.json').unlink()
-
 
 if __name__=='__main__': unittest.main()

@@ -1,0 +1,34 @@
+{
+  "schema": "MASTER_STAGE5_SETUP_PREEXEC_DELTA_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "utc": "2026-10-09T22:13:27.284289+00:00",
+  "reviewer": "remote_audit",
+  "source_sha256": {
+    "stage5_setup_windows.py": "7ce1ad78cd4956334a18d48ab345872922a0844a4e327c3a9b2a38b2f2d6847e",
+    "stage5_setup_linux.py": "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50",
+    "test_stage5_setup.py": "5600d2f88874b79ba0502e4ebc209425ac91439e1d7ee65c91efc275f1adaee4"
+  },
+  "review_scope": "Complete current Windows and Linux setup sources, exact Windows attempt01 diff, focused tests source and pinned supervisor owner/launch semantics.",
+  "findings": [],
+  "verified_source_contracts": [
+    "All setup steps bootstrap the Linux helper with /usr/bin/python3; retained environment commands remain supervised and require fresh exact toolchain proof.",
+    "Actual retained Windows client birth/terminal/log hashes are durably written to wsl_exit.json before fallible Linux receipt reads.",
+    "Future missing-system-Python preexec classification requires exact argv/program, retained matching birth and nonzero exited terminal, one strict Relay ENOENT line, empty stdout, no Linux artifacts and no candidate output. It stays FAILED, creates no Linux terminal and grants no scientific adoption.",
+    "Unknown exception/timeout scopes retain the durable stop; known closed preexec failure may remove only its exact nonce/SHA-owned stop.",
+    "Diagnostic step observes current boot, self/PID1 namespaces, mounts, interpreter metadata and 120-byte image UUID only; it performs no repair, mount or runtime acceptance.",
+    "Successful runtime/DriveFS still require actual supervised native commands and independently reopened birth/group/log/closure receipts; previous exact native/controller exit, empty job, power restoration and original lock gates remain."
+  ],
+  "prior_review_sha256": "2d1c1042a708b722974c523c54940f2c896dfdb419368718d397365918cf748d",
+  "tests_evidence": {
+    "producer_report": "11 pure synthetic contracts PASS, 0.129 seconds",
+    "reviewer_reran_tests": false,
+    "reviewer_read_test_source": true
+  },
+  "original_failed_environment_preexec": "Not adopted or repaired by these sources; original runtime attempt remains separate UNKNOWN/STOP evidence pending root reconciliation.",
+  "actual_wsl_or_native_execution_by_reviewer": false,
+  "actual_old_toolchain_proof_adoption": false,
+  "limitations": [
+    "Source-only review does not establish actual WSL/kernel/mount interoperability.",
+    "Toolchain proof must be refreshed with changed Linux helper source and current boot before downstream setup steps."
+  ]
+}

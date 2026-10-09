@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T22:04:55.182806+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T22:15:57.466107+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -24,3 +24,6 @@ Evidence: `status/master_run_20261009.json` and `docs/master_run/STORAGE_LEDGER.
 
 Actual operational update: Publish verified Stage4 Release and actual exact WSL toolchain mount closure; runtime discovery next
 - `stage5_setup_toolchain_actual_postiq_01`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Preserve Stage5 pre-exec failure and closure stop; publish reviewed finite WSL idle repair and independent tree/journal readers
+- `stage5_setup_runtime_actual_postiq_01`: FAILED; exact command, closure, resources and lock-release receipts are retained.

@@ -1,0 +1,33 @@
+{
+  "schema": "STAGE04_PRIMARY196_REMOTE_READER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "reader_sha256": "a848d692451abee49421a51f547b9fe411ed30bbd40e11db6daa8c779e7ae1ae",
+  "test_source_sha256": "990aad2ee66cc4d3bacaf80e81eff516061dcb211e642784ccf8b82fd83a8927",
+  "expected_manifest_sha256": "0c9d0dc5ceee4e7e200d5f910c1656f356e7106467ceabdc1b0af737bba62a25",
+  "reviewer": "input_validation",
+  "concrete_blockers": [],
+  "review_scope": [
+    "Read the complete frozen reader and focused synthetic test source; independently reopened their current SHA256 and the fixed expected-manifest schema/pins.",
+    "Default is no operation; explicit remote mode requires immutable reader source commit, separately preserved original publication commit80331d535d622517adf7921be42fc9931cdc23ee and release tag target1eba79e2aa282a9b67659ba7416e625258cc91cc.",
+    "Only separately SHA-pinned independent resource/owned-gh/ZIP helpers are loaded; no producer import, inference, extraction, source mutation, WSL or Git write path is present.",
+    "Fresh Git control bytes and Release asset/sidecar identity/digest/size are checked, followed by whole ZIP and exhaustive56 member/55SUMS actual EOF CRC/SHA validation.",
+    "Downloaded accepted science is parsed separately: exact196 unique versioned tips,389 edges,193 paired-support internal edges, native tree byte equality, NEXUS unrooted topology/length/support roundtrip,1000 bootstrap trees, fixed accepted alignment/partitions and independently recomputed8 duplicate groups/22 taxa/182 unique sequences.",
+    "Native exit0 and empty job, exact PID birth, accepted launch binding, native support-completion lines, power restoration and explicit lock release are reopened from the preserved accepted bytes.",
+    "Original acceptance certificate48a0920bdb6f7439377749396a35a807fd3240a28d8f1e6106d427fc6ca7d50c, distribution manifest and native treef886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19 are independently pinned rather than inferred from newly downloaded data."
+  ],
+  "limitations": [
+    "Source-only review: reviewer did not run the reader, synthetic fixtures, real scientific payload parsing or any network command.",
+    "Five synthetic contract tests were reported PASS by the producing agent, not rerun in this review.",
+    "Pinned whole-archive identity is essential; this review does not create a new scientific inference or independently establish biochemical R-M results.",
+    "Local-inspect mode explicitly reads the retained G release archive and remains weaker than fresh remote verification; reviewer did not invoke it.",
+    "Owned-gh monitoring does not claim synchronous kernel-I/O cancellation or generic descendant job containment; the existing finite-resource/retained-child closure contract remains unchanged."
+  ],
+  "network_calls_by_reviewer": 0,
+  "g_reads_by_reviewer": 0,
+  "g_writes_by_reviewer": 0,
+  "wsl_starts_by_reviewer": 0,
+  "biological_runs_by_reviewer": 0,
+  "source_edits_by_reviewer": 0,
+  "fresh_remote_execution": "NOT_RUN_BY_REVIEWER",
+  "scientific_acceptance_created": false
+}

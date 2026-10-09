@@ -1,0 +1,12 @@
+{
+  "scope": "FINITE_IDLE_TIMEOUT_REPAIR_AFTER_PROVEN_NO_EXEC",
+  "actual_list_before": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "list_exit": 0,
+  "before_sha256": "fa7e395a9e14e9ed7233032a92a4eeb6b5d2f2a02f3717745c5072b475fb89a8",
+  "after_sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+  "proposal": "Increase both distro and VM idle timeouts to3600000ms; RAM6GiB/CPU4/swap8GiB unchanged",
+  "official_documentation": "https://learn.microsoft.com/en-us/windows/wsl/wsl-config",
+  "actual_config_change": "NOT_RUN",
+  "stop_reconciliation": "NOT_RUN",
+  "inference_rerun": false
+}

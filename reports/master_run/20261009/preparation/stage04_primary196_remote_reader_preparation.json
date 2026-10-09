@@ -1,0 +1,49 @@
+{
+  "G_writes": 0,
+  "WSL_starts": 0,
+  "accepted_validation_sha256": "48a0920bdb6f7439377749396a35a807fd3240a28d8f1e6106d427fc6ca7d50c",
+  "actual_local_scientific_reader": "NOT_RUN",
+  "actual_remote_reader": "NOT_RUN",
+  "actual_tests": {
+    "command": [
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_verify_stage04_primary196_remote"
+    ],
+    "exit_code": 0,
+    "reported_terminal": "Ran5tests;OK",
+    "scope": "SMALL_SYNTHETIC_NO_G_NETWORK_WSL_OR_ACTUAL_SCIENCE",
+    "seconds": 0.126,
+    "tests_passed": 5,
+    "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work"
+  },
+  "expected_manifest_captured_from_completed_publication": true,
+  "inference_runs": 0,
+  "publication_commit": "80331d535d622517adf7921be42fc9931cdc23ee",
+  "schema": "STAGE04_PRIMARY196_INDEPENDENT_REMOTE_READER_PREPARATION_V1",
+  "scientific_results_changed": false,
+  "sources": {
+    "stage04_remote_expected.json": {
+      "bytes": 14460,
+      "sha256": "0c9d0dc5ceee4e7e200d5f910c1656f356e7106467ceabdc1b0af737bba62a25"
+    },
+    "test_verify_stage04_primary196_remote.py": {
+      "bytes": 4341,
+      "sha256": "990aad2ee66cc4d3bacaf80e81eff516061dcb211e642784ccf8b82fd83a8927"
+    },
+    "verify_stage04_primary196_remote.py": {
+      "bytes": 20405,
+      "sha256": "a848d692451abee49421a51f547b9fe411ed30bbd40e11db6daa8c779e7ae1ae"
+    },
+    "verify_stage04_primary196_remote_METHODS.md": {
+      "bytes": 4479,
+      "sha256": "3a0f4282ecaa41cb9f746e641e0140be281c986cee62909835e0a30e4bf62426"
+    }
+  },
+  "state": "PREPARED_PEER_REVIEW_PENDING_ACTUAL_REMOTE_NOT_RUN",
+  "tag_commit": "1eba79e2aa282a9b67659ba7416e625258cc91cc",
+  "utc": "2026-10-09T22:10:03.501932+00:00"
+}

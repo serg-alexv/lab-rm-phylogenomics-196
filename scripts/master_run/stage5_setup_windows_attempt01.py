@@ -169,7 +169,7 @@ def command_readback(out,count,step,expected_argv,success):
     for suffix in ('launch_intent','closure','command'):
         A.require(len(list(directory.glob('*.'+suffix+'.json')))==count,'Setup command closure receipt membership differs')
     if count==0:
-        A.require(not success or step in ('diagnose','toolchain','storage'),'Successful step lacks actual native helper execution')
+        A.require(not success or step in ('toolchain','storage'),'Successful step lacks actual native helper execution')
         return []
     launch=paths[0]; label=launch.name.removesuffix('.launch.json')
     native=A.read_json(launch); intent=A.read_json(directory/(label+'.launch_intent.json'))
@@ -191,30 +191,6 @@ def command_readback(out,count,step,expected_argv,success):
     if success: A.require(command['exit_code']==0 and close['termination_reason'] is None,'Successful setup command did not exit normally')
     return [{'label':label,'launch_sha256':A.sha256(launch),'closure_sha256':command['group_closure_sha256'],
              'command_sha256':A.sha256(directory/(label+'.command.json'))}]
-
-
-def exact_preexec_failure(out,argv,birth,terminal,candidate=None):
-    """A future retained-client failure boundary, never invented Linux success."""
-    if not (argv[:6]==[WSL,'-d','Ubuntu','-u','root','--exec'] and argv[6]=='/usr/bin/python3'
-            and argv[7:9]==['-B',LINUX_WORK+'/stage5_setup_linux.py']
-            and terminal.get('creation_filetime')==birth.get('creation_filetime')
-            and terminal.get('exited') is True and type(terminal.get('exit_code')) is int
-            and terminal['exit_code']!=0 and terminal['exit_filetime']>terminal['creation_filetime']
-            and terminal.get('pid')==birth.get('pid') and terminal.get('executable')==birth.get('executable')==WSL):
-        return None
-    allowed={'owner_lease.json','actual_owner_lock.json','launch.json','wsl.stdout.txt','wsl.stderr.txt','wsl_exit.json'}
-    if any(p.name not in allowed for p in out.iterdir()) or (candidate is not None and candidate.exists()):return None
-    stdout=out/'wsl.stdout.txt';stderr=out/'wsl.stderr.txt'
-    if stdout.stat().st_size!=0 or not 0<stderr.stat().st_size<=4096:return None
-    raw=stderr.read_bytes()
-    pattern=(r'<3>WSL \([0-9]+ - Relay\) ERROR: CreateProcessCommon:[0-9]+: execvpe\('
-             +re.escape(argv[6])+r'\) failed: No such file or directory\r?\n')
-    if not re.fullmatch(pattern,raw.decode('utf-8',errors='strict')):return None
-    return {'schema':'STAGE05_EXACT_WSL_PREEXEC_FAILURE_V1','state':'FAILED_PREEXEC_NO_LINUX_PROGRAM_STARTED',
-            'actual_retained_wsl_client_exit':terminal,'argv':argv,'stdout_sha256':A.sha256(stdout),
-            'stderr_sha256':A.sha256(stderr),'stderr_bytes':len(raw),'linux_helper_started':False,
-            'native_helper_launches':0,'closure_basis':'Exact WSL Relay execvpe failure and retained client exit; no Linux receipt synthesized',
-            'scientific_adoption_authorized':False}
 
 
 def readback_worker():
@@ -239,7 +215,7 @@ def main():
     import sys
     if '--drivefs-readback-worker' in sys.argv: return readback_worker()
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--step',choices=('diagnose','toolchain','runtime','storage','drivefs'),required=True)
+    parser.add_argument('--step',choices=('toolchain','runtime','storage','drivefs'),required=True)
     parser.add_argument('--output',required=True,type=Path)
     for name in ('controller-receipt','controller-receipt-sha256','controller-observer-sha256',
                  'toolchain-proof','toolchain-proof-sha256','candidate-output','linux-source-sha256'):
@@ -291,14 +267,12 @@ def main():
             lease(); result['workflow_lock']=lock.identity
             if args.step=='storage': result['g_underlay_before']=underlay(create=True)
             held=args.output/'actual_owner_lock.json'; A.atomic(held,{'scope':SCOPE,'owner':owner,'workflow_lock':lock.identity,'owner_nonce':nonce})
-            # Bootstrap always runs the system interpreter. It observes the
-            # current mount before launching retained runtime helpers.
-            interpreter='/usr/bin/python3'
+            interpreter='/usr/bin/python3' if args.step=='toolchain' else LINUX_ENV+'/bin/python'
             argv=[WSL,'-d','Ubuntu','-u','root','--exec',interpreter,'-B',linux_path(linux_source),
                   '--step',args.step,'--output',linux_path(args.output),'--owner-lease',linux_path(lease_path),
                   '--owner-nonce',nonce,'--source-sha256',args.linux_source_sha256,
                   '--owner-lock-receipt',linux_path(held),'--owner-lock-sha256',A.sha256(held)]
-            if args.step not in ('diagnose','toolchain'):
+            if args.step!='toolchain':
                 proof=Path(args.toolchain_proof or '')
                 A.require(proof.is_file() and A.sha256(proof)==args.toolchain_proof_sha256,'Pinned toolchain proof required')
                 argv+=['--toolchain-proof',linux_path(proof),'--toolchain-proof-sha256',args.toolchain_proof_sha256]
@@ -307,7 +281,6 @@ def main():
                 A.require(candidate.is_absolute() and candidate.parent==WORK and not candidate.exists(),'Fresh direct C candidate output required')
                 argv+=['--candidate-output',linux_path(candidate)]
             expected_commands={
-                'diagnose':[],
                 'toolchain':['/usr/bin/mount','-o','loop','/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/toolchain.ext4',
                              '/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux'],
                 'runtime':[LINUX_ENV+'/bin/python','-B',LINUX_WORK+'/stage5_runtime_discovery.py','--discover','--output',
@@ -329,23 +302,6 @@ def main():
                     A.require(time.monotonic()<deadline,'Bounded setup WSL client deadline expired')
                     lease(); time.sleep(0.5)
                 terminal=api.identity(int(child._handle),child.pid,birth['executable'],birth['session_id'])
-                # Persist retained native exit before any fallible Linux-side
-                # receipt read. A preexec failure creates no Linux terminal.
-                exit_record={'schema':'STAGE05_SETUP_WSL_RETAINED_EXIT_V1','owner_nonce':nonce,'step':args.step,
-                             'source_sha256':plan['source_sha256'],'linux_source_sha256':args.linux_source_sha256,
-                             'argv':argv,'birth':birth,'terminal':terminal,
-                             'stdout_sha256':A.sha256(args.output/'wsl.stdout.txt'),
-                             'stderr_sha256':A.sha256(args.output/'wsl.stderr.txt')}
-                A.atomic(args.output/'wsl_exit.json',exit_record)
-                result.update(actual_wsl_exit=terminal,wsl_exit_receipt_sha256=A.sha256(args.output/'wsl_exit.json'))
-                if not (args.output/'linux_terminal.json').exists():
-                    failure=exact_preexec_failure(args.output,argv,birth,terminal,
-                              Path(args.candidate_output) if args.candidate_output else None)
-                    if failure is not None:
-                        A.atomic(args.output/'preexec_failure.json',failure)
-                        result['preexec_failure_sha256']=A.sha256(args.output/'preexec_failure.json')
-                        closure=True
-                        raise ValueError('Exact retained WSL preexec failure; intended Linux program did not start; setup failed')
                 linux=A.read_json(args.output/'linux_terminal.json')
                 A.require(terminal['exited'] and terminal['creation_filetime']==birth['creation_filetime']
                           and terminal['exit_filetime']>terminal['creation_filetime']
