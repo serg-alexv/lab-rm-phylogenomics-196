@@ -1,0 +1,60 @@
+{
+  "schema": "STAGE05_MULTIPART_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_AND_SYNTHETIC_REGRESSION_ONLY",
+  "dataset_kind": "PREPARATION_NOT_SCIENTIFIC_OUTPUT",
+  "biological_jobs": 0,
+  "WSL_starts": 0,
+  "canonical_repository_mutations": 0,
+  "actual_panel_architecture_curation": "NOT_RUN",
+  "production_certificates_written": 0,
+  "primary_sources": [
+    {
+      "doi": "10.1371/journal.pone.0018819",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018819",
+      "evidence": "Results/Fig5: comparative-genomic TypeIIG architecture can include fused RM and a separate S. Predicted architecture does not establish biochemical activity."
+    },
+    {
+      "doi": "10.3389/fmicb.2022.888435",
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.888435/full",
+      "evidence": "Primary BsaXI experiment explicitly classifies TypeIIB and reconstitutes activity using separate RM fusion and S. Do not call it IIG from fusion alone."
+    },
+    {
+      "doi": "10.1093/nar/gkg274",
+      "url": "https://doi.org/10.1093/nar/gkg274",
+      "evidence": "Original nomenclature allows overlapping TypeII designations; fusion alone does not establish IIG."
+    }
+  ],
+  "model_scope_sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+  "model_limit": "No exact retained BcgI/BsaXI assignment or demonstrated separate-S family mapping for numbered IIG/FAM profiles. Native labels are candidate proposals.",
+  "concrete_rejection_reproduced": "Original retained independent architecture rejects complete two-gene synthetic IIG solely through obsolete one-gene condition.",
+  "fix": "Producer and independently authored wrapper require separately executed exact family/source/AA/native-domain review for fused RM plus cognate separate S. Wrapper retains core source/domain/role/context checks and native/reviewed subtype provenance.",
+  "tests_run": 58,
+  "failures": 0,
+  "errors": 0,
+  "python_sources_parsed": 13,
+  "retained_bytes_unchanged": {
+    "retained/stage05_curation_adapter.py": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177",
+    "retained/stage05_evidence.py": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e",
+    "retained/independent_curated_v2.py": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612",
+    "retained/stage05_architecture_policy_original.py": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de"
+  },
+  "tree_freeze_review": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_tree_check.py",
+    "sha256": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+    "state": "PASS_READ_ONLY_COPY_INTEGRITY_SOURCE_REVIEW",
+    "tests_by_this_review": 0,
+    "findings": [
+      "Parsed captured tree bytes equal prevalidation native pin",
+      "Authoritative NWK equals captured parsed hash; NEXUS built from same bytes and signatures compared",
+      "Every native freeze copy equals captured native pin; native membership checked",
+      "Accepted input/config/panel/partition/cache copies equal previously captured expected hashes"
+    ]
+  },
+  "drivefs_smoke_review": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_drivefs_filesystem_smoke.py",
+    "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "state": "PASS_READ_ONLY_SCOPE_AND_INTEGRITY_SOURCE_REVIEW",
+    "actual_Linux_interoperability": "NOT_RUN",
+    "limit": "Byte-pinned Windows caller lock receipt does not independently prove live Windows lease ownership; caller owns the actual lock."
+  }
+}

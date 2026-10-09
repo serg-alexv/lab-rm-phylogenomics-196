@@ -1,0 +1,155 @@
+{
+  "schema": "RM_ATOMIC_CURATION_PREPARATION_V1",
+  "status": "PASS_PREPARATION_COMPONENT_TESTS_ONLY",
+  "dataset_kind": "PREPARATION_NOT_SCIENTIFIC_OUTPUT",
+  "biological_jobs": 0,
+  "WSL_starts_by_this_component": 0,
+  "canonical_repository_mutations": 0,
+  "production_curation_certificates_written": 0,
+  "actual_architecture_curation": "NOT_RUN",
+  "full196_native_checkpoint_integration": "NOT_RUN",
+  "tests_run": 58,
+  "failures": 0,
+  "errors": 0,
+  "python_sources_parsed": 13,
+  "accepted_panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "accepted_source_validation_sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+  "independence": "Scientific checker imports only separately authored pinned retained independent core; no curation producer, serializer, architecture reducer or runner imports.",
+  "capabilities": [
+    "Actual per-genome source/native/domain review queue and apply",
+    "Exact native PADLOC selected CSV/domain witness instead of unfinished Python ranking",
+    "Attributed independent functional-role evidence and full I/II incl IIG/III/IV architecture predicates",
+    "Exact196 accession by four-type serialization and independent join",
+    "Separate full196 independent source/native/domain/architecture/coverage audit",
+    "Bounded failed/deferred/notrun exceptions, retained accepted positives, explicit operational closure veto",
+    "Independently family-supported fused-RM plus separate-S TypeII path with explicit subtype basis; original native singlechain path preserved"
+  ],
+  "initial_source_evidence": {
+    "retained_model_scope_entries": 39,
+    "native_PADLOC_DB_profiles": 5027,
+    "native_DF_families": [
+      "DefenseFinder",
+      "RM",
+      "Cas"
+    ],
+    "root_actual_toolchain_probe": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap\\wsl_toolchain_probe_final.txt",
+    "root_actual_toolchain_probe_sha256": "3b774b536057121c1498233dee5b84cb029d5b1dcc678d8f107f0ddb8665a60d",
+    "probe_utc": "2026-10-09T16:19:05Z",
+    "probe_verified_versions": {
+      "Python": "3.11.17",
+      "PADLOC": "2.0.0",
+      "R": "4.3.1",
+      "HMMER": "3.4",
+      "DefenseFinder": "3.0.0",
+      "MacSyFinder": "2.1.4",
+      "pyhmmer": "0.12.3",
+      "pyrodigal": "3.7.1"
+    }
+  },
+  "runtime_dependency_assessment": "NO_MISSING_INSTALLED_DEPENDENCY_ESTABLISHED. Empty Windows .tools/linux is an expected unmounted ext4 mountpoint; actual root Linux probe verified retained mounted executables/packages. No install or new database is proposed.",
+  "next_actual_gates": [
+    "Root Stage4 acceptance/publication and exclusive resource authority",
+    "Fresh mounted runtime manifest, effective configuration/library/pidfd/DriveFS lifecycle validation",
+    "Actual full196 raw native jobs, preserving valid per-genome successes and bounded exceptions",
+    "Execute actual independent functional-domain/architecture/context/coverage reviews",
+    "Real per-genome prepare/apply + full196 independent scientific audit before figure"
+  ],
+  "conditional_limits": [
+    "No complete validated circular cached-classifier witness is adopted here",
+    "Rounded PADLOC selected-domain collisions remain precise unresolved candidates",
+    "New accepted positive from an unfinished raw-only attempt requires separate independent positive-only packet audit; present exception positive route independently reopens a completed curated checkpoint",
+    "Hashes/typed records audit an attributed scientific interpretation; they do not establish biochemical activity"
+  ],
+  "artifacts": {
+    "audit_settings.template.json": {
+      "bytes": 1896,
+      "sha256": "5264396176bd6fa8969add5c89bffb6d38a1155939a33df1a567088bcd98852c"
+    },
+    "build_audit_contract.py": {
+      "bytes": 3469,
+      "sha256": "72aedecb9549763622d5811e9179f91c0085bd8723f461a2ed4c9c2f79b6a1c6"
+    },
+    "CLASSIFICATION_CONTRACT.md": {
+      "bytes": 25565,
+      "sha256": "baba88595d914a666a414d4e7d3250b2b214d1bfa5b188bd7fb32ad33dfa9629"
+    },
+    "FOLLOW_ON_METHODS.md": {
+      "bytes": 8440,
+      "sha256": "49e47d6aeae9e2aca768e73dce65a6f69ec8e82c4ba77212eec5daf91fa56646"
+    },
+    "independent_synthetic_validation.json": {
+      "bytes": 593,
+      "sha256": "173d346bb1249463dcc302fe2de2aa5c6764b5c977f2a3eacc4407ca9f4da9f3"
+    },
+    "multipart_synthetic_validation.json": {
+      "bytes": 612,
+      "sha256": "e11920a5d36f536853de23024db1e03a7b7b2b8e83ea72cd488c27ac38c7c1be"
+    },
+    "pinned_model_candidate_scope.json": {
+      "bytes": 382623,
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be"
+    },
+    "pinned_model_candidate_scope.tsv": {
+      "bytes": 10638,
+      "sha256": "1ab72ac675bb42849956f27aadef8ab3b912779421e618ade53ae70eb399e918"
+    },
+    "retained/independent_curated_v2.py": {
+      "bytes": 81418,
+      "sha256": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612"
+    },
+    "retained/stage05_architecture_policy_original.py": {
+      "bytes": 18872,
+      "sha256": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de"
+    },
+    "retained/stage05_curation_adapter.py": {
+      "bytes": 75098,
+      "sha256": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177"
+    },
+    "retained/stage05_evidence.py": {
+      "bytes": 17617,
+      "sha256": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e"
+    },
+    "rm_matrix.py": {
+      "bytes": 10977,
+      "sha256": "7716f722f25b582af990469d4e5120d4de22828b87c89cf334d2d9f9723c7db9"
+    },
+    "stage05_architecture_policy.py": {
+      "bytes": 21136,
+      "sha256": "942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4"
+    },
+    "stage05_curation_atomic.py": {
+      "bytes": 26000,
+      "sha256": "22710908578fe68a6697c44ca12140b800d2dd0be4402c9c7623297124a53db0"
+    },
+    "synthetic_validation.json": {
+      "bytes": 1194,
+      "sha256": "5be52627cda4c86e9d72a60f4379ee55b835ed1960b77254f0078e13c05b319d"
+    },
+    "test_independent_curation.py": {
+      "bytes": 18847,
+      "sha256": "fb98e971f677e7fddcdb4b5e333b706760a08b754eb28a52caab54fff7ba3315"
+    },
+    "test_multipart_type_ii.py": {
+      "bytes": 10416,
+      "sha256": "a60630ba31687a3561cf9658d354e6ef46e74f01d5bf9c4bc917932c1aa43899"
+    },
+    "test_stage05_curation.py": {
+      "bytes": 15225,
+      "sha256": "5039c18b99251e85aa68483bc5c8770251d7c88373875a00a3cf41008e3bd5ad"
+    },
+    "validate_atomic_curation.py": {
+      "bytes": 49050,
+      "sha256": "72cca1c82b89571635a2f279218193905331c5abcedc79c465e1ee61cf148581"
+    },
+    "validate_rm_join.py": {
+      "bytes": 7192,
+      "sha256": "9020fc2b66dc8964e42959b58df8e6889adeaec52b47d80044ec5da0728ced64"
+    }
+  },
+  "multipart_source_review": {
+    "path": "../stage05_curation_review/source_review.json",
+    "sha256": "2de0c4087e87f7b212da5e2701c19be5759b62612f7a5d620149842a5e113ded",
+    "actual_family_assignments": "NOT_RUN",
+    "additional_synthetic_tests": 12
+  }
+}

@@ -1,0 +1,1582 @@
+{
+  "schema": "LAB_RM_MASTER_SOURCE_PUBLICATION_PLAN_V1",
+  "utc": "2026-10-09T18:31:49.673336+00:00",
+  "expected_remote_head": "83059864f424fc6db7beebaa898f1f0019bc4d51",
+  "state": "C_ONLY_PREPARED_NOT_PUBLISHED",
+  "actual_stage04_acceptance": "NOT_RUN",
+  "actual_stage05_native_interoperability": "NOT_RUN",
+  "actual_stage05_biological_searches": "NOT_RUN",
+  "actual_stage05_architecture_curation": "NOT_RUN",
+  "actual_stage06_scientific_figure": "NOT_RUN",
+  "git_blob_limit_bytes_exclusive": 5242880,
+  "files": [
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "target": "scripts/master_run/atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+      "bytes": 40596,
+      "git_blob_sha1": "ed49e514afc050ee926ccfc04feec4fdacb997d6",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_atomic_iqtree_windows.py",
+      "target": "scripts/master_run/test_atomic_iqtree_windows.py",
+      "sha256": "b9bd46f442d80da045e341bc6aa3aa0a64836eec6f7e176f9f9e3e602221cf2e",
+      "bytes": 4298,
+      "git_blob_sha1": "cfea7095d9deb246d15bf4970c591b91de29c06e",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\smoke_atomic_iqtree_windows.py",
+      "target": "scripts/master_run/smoke_atomic_iqtree_windows.py",
+      "sha256": "02a408a48c44324240208f57ddcc4fda1bec12399856603e56125d777aee676b",
+      "bytes": 3477,
+      "git_blob_sha1": "68437a05d1acf6b67a7d93c2ded4e39bf61f3222",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_atomic_attempt.py",
+      "target": "scripts/master_run/prepare_atomic_attempt.py",
+      "sha256": "a6f15c11562ea7e09c10e07a71deea9f60bbb2e7a5f92ddb97065cc5e849765a",
+      "bytes": 6026,
+      "git_blob_sha1": "8552e3ead9d8b9865af8bcc73d1cdc9b8ede6c1e",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\resource_maintenance.py",
+      "target": "scripts/master_run/resource_maintenance.py",
+      "sha256": "1d670337db11275df301a8d39659adb1eefc6a95438541954b04e3efdf4773bd",
+      "bytes": 8095,
+      "git_blob_sha1": "1960286d0955442aeaaa950546aed327512ef231",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\publish_bootstrap.py",
+      "target": "scripts/master_run/publish_bootstrap.py",
+      "sha256": "ec0b9846214fdc299287b980b82d819610143214d48c63f9fc8409bc5bb760d4",
+      "bytes": 13781,
+      "git_blob_sha1": "6e8fa01a00e818c7314a2b74e8bf39a22c7687e7",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\finalize_bootstrap.py",
+      "target": "scripts/master_run/finalize_bootstrap.py",
+      "sha256": "ee49fb78eeea19610e91e79863f85c11b842d1a5e37cfcf2a90f5aa1a4ea56fc",
+      "bytes": 2626,
+      "git_blob_sha1": "5a910b4a6abb809fd1fb571ab2408325a98e6076",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_tree_check.py",
+      "target": "scripts/master_run/independent_tree_check.py",
+      "sha256": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+      "bytes": 19406,
+      "git_blob_sha1": "25f0fb99d20d5f612915b91da48041fa017fcb61",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_independent_tree_check.py",
+      "target": "scripts/master_run/test_independent_tree_check.py",
+      "sha256": "49f412af852332eb7dfd54db0e3efb710e00c2497c30ee97704ee994dc24a329",
+      "bytes": 11293,
+      "git_blob_sha1": "128ea13e663f71905ccb6723e3b42b369ac5ae0a",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage4_freeze_copy_integration.py",
+      "target": "scripts/master_run/test_stage4_freeze_copy_integration.py",
+      "sha256": "23f96c058679b2a8db1dd1d1e84d03a2073aae46ff8f93e4f9568c07f586be74",
+      "bytes": 9459,
+      "git_blob_sha1": "adcb2a69d36b948b895ff15522ef43af62c763c5",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage4_publication.py",
+      "target": "scripts/master_run/prepare_stage4_publication.py",
+      "sha256": "a6102619927a221505fb120d9a900d3c783a0eb683f5f2e72bfede8e86e46c37",
+      "bytes": 14712,
+      "git_blob_sha1": "949bf8c4d97e5c77aaa929133666f630033c1e7e",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\publish_stage4_primary.py",
+      "target": "scripts/master_run/publish_stage4_primary.py",
+      "sha256": "4c3a2b164b89f9ceba9e444ffbe01a9c753610bd7d465817506c27cf4aef2493",
+      "bytes": 13726,
+      "git_blob_sha1": "62028e1533cdc832d871f4d8d0b593c4ca9e9180",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage4_publish_science.py",
+      "target": "scripts/master_run/test_stage4_publish_science.py",
+      "sha256": "903a42c10882b0f4c0574f0e64238b20e09516b47efd3c231e4ef503ce34a9b3",
+      "bytes": 8457,
+      "git_blob_sha1": "46fc70a92a6a4f20a8586c6afec36cbd02fe2f21",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process.py",
+      "target": "scripts/master_run/stage5_atomic_process.py",
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+      "bytes": 22244,
+      "git_blob_sha1": "7f18a2d7e138246843833f602644c60bfb589379",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic.py",
+      "target": "scripts/master_run/stage5_atomic.py",
+      "sha256": "d0a769b109074c747b5957786ca2914d3c2975e8fcc5c33a7bedb9f5d39fbbcb",
+      "bytes": 40491,
+      "git_blob_sha1": "589379eaef1ac8c84d344bc711d7fadd0d8964bc",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_windows_owner.py",
+      "target": "scripts/master_run/stage5_windows_owner.py",
+      "sha256": "221645b9573537ce340b9181ee0559a6f6888408df2c6e90c7c93efbfd519f57",
+      "bytes": 16841,
+      "git_blob_sha1": "660896d80cbb4664c796778dfd6821f32efa7ca0",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_work_storage.py",
+      "target": "scripts/master_run/stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+      "bytes": 6917,
+      "git_blob_sha1": "ea4f75bf7f8d187f14b687b140b7e97b827fbd3f",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_atomic.py",
+      "target": "scripts/master_run/test_stage5_atomic.py",
+      "sha256": "3afb43b782283d8a865fe4f852c7b531c9ff75cefe18f8aa5edc272b0251369d",
+      "bytes": 20726,
+      "git_blob_sha1": "f1f31e8337916b4f0c68323f80b24e26eab829dd",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_atomic_live_linux.py",
+      "target": "scripts/master_run/test_stage5_atomic_live_linux.py",
+      "sha256": "281aff683fe3a14b2a250ae8afa0c27b17d0bfcb3c3d02578a61891ed6537637",
+      "bytes": 3863,
+      "git_blob_sha1": "549d620b9022b5e4681c83cc32c7fd909ec83f23",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_windows_owner.py",
+      "target": "scripts/master_run/test_stage5_windows_owner.py",
+      "sha256": "4b58b84b1f9bb54f55dcf5c586a5ff5b127352bad853c0a094709ab13f4b968d",
+      "bytes": 3675,
+      "git_blob_sha1": "c8b40c0fd929d6299952754d5e6463eb7c54c680",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_work_storage.py",
+      "target": "scripts/master_run/test_stage5_work_storage.py",
+      "sha256": "ea4d59773adf01749719f13a1e79b608a82eb9725ce88fb07e5bdec31af456e3",
+      "bytes": 7929,
+      "git_blob_sha1": "1cc19ff891f810fb43f8be726004dd0412ec0ccf",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_drivefs_filesystem_smoke.py",
+      "target": "scripts/master_run/stage5_drivefs_filesystem_smoke.py",
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+      "bytes": 5779,
+      "git_blob_sha1": "bda3e9bcddd2660f8230c6873f36664ffca0599f",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_linux_fixture.py",
+      "target": "scripts/master_run/stage5_interop_linux_fixture.py",
+      "sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+      "bytes": 9426,
+      "git_blob_sha1": "5b5697c3f0980a25b73ec9ccbaee372b437ce482",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_smoke_windows.py",
+      "target": "scripts/master_run/stage5_interop_smoke_windows.py",
+      "sha256": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac",
+      "bytes": 14940,
+      "git_blob_sha1": "5c6772dc260cdf2096e57089aa41a3bd707526e1",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_interop_contracts.py",
+      "target": "scripts/master_run/test_stage5_interop_contracts.py",
+      "sha256": "ebe71fcc03de11afdaef3d4acef7cee8a60973e4058a7fb869558695e0173e99",
+      "bytes": 5461,
+      "git_blob_sha1": "6f83f30bc7c007da8484dfece768b506e17e5318",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_render.py",
+      "target": "scripts/master_run/stage06_render.py",
+      "sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+      "bytes": 36946,
+      "git_blob_sha1": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\check_stage06_outputs.py",
+      "target": "scripts/master_run/check_stage06_outputs.py",
+      "sha256": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+      "bytes": 20900,
+      "git_blob_sha1": "b55de057acc16fa7b14793dd5985d3aa99c739da",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage06_render.py",
+      "target": "scripts/master_run/test_stage06_render.py",
+      "sha256": "d34dba97d5935fee4330ec1ce9fb5fded24f24c32ca0462de9a5ab062b59bd49",
+      "bytes": 14217,
+      "git_blob_sha1": "1fe8dbe8282857237d4fddb79a4d454af5f65699",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\make_stage06_density_fixture.py",
+      "target": "scripts/master_run/make_stage06_density_fixture.py",
+      "sha256": "9170fc085e3d309439b7f14c1d7197b66dee6777e9fb36ca33b26b784119a1f0",
+      "bytes": 4803,
+      "git_blob_sha1": "615a9b824ad44aa7d88d3edc3e7c429c7a8a0271",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_master_remote_update.py",
+      "target": "scripts/master_run/prepare_master_remote_update.py",
+      "sha256": "fda886bc3d48e166a837001afe4d052c3c5e7319d69f3d16af13effdf01b9273",
+      "bytes": 10333,
+      "git_blob_sha1": "e853a60740473fe634b9ff0fa89d5a5485a76bd1",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\audit_remote_progress_readonly.py",
+      "target": "scripts/master_run/audit_remote_progress_readonly.py",
+      "sha256": "2717897e60292019abb7bf5778ba854e7ae59fad3d3e00bb0b37f7bc34239047",
+      "bytes": 2493,
+      "git_blob_sha1": "ac157472acac7bd0a6e98bf9ad1cc07f5b50f9ba",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_master_source_plan.py",
+      "target": "scripts/master_run/prepare_master_source_plan.py",
+      "sha256": "cee6f5dfc04d84d74bdcad149fc71b5f15b661ccdc734ebda4d4dc8ecfedcdc1",
+      "bytes": 7521,
+      "git_blob_sha1": "90cb40430824abf6c73207b3297f5045321e2635",
+      "transport_encoding": "utf-8",
+      "kind": "PROJECT_SOURCE_OR_SYNTHETIC_TEST",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_finalization_preparation_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage04_finalization_preparation_checks.json",
+      "sha256": "7803846750ebd806579ecaa4d826d98412cdfb42571e0a23dc866d2e7295cad5",
+      "bytes": 1992,
+      "git_blob_sha1": "75623dd33c3ab29a2406761dc240bcc299cbe432",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage4_freeze_copy_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage4_freeze_copy_checks.json",
+      "sha256": "acdf60416b2418195b36c523ef8cce45b5f0ebd2ee6598752a6ec4904e4d6b7d",
+      "bytes": 1606,
+      "git_blob_sha1": "1251a1e93bab9c89f263cb22a25fd61a3a7ab7ef",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_build_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage5_atomic_build_checks.json",
+      "sha256": "fb1932eaabe7e134088756d36f74b9cebd9c95c891504d09209872741d3795f8",
+      "bytes": 3406,
+      "git_blob_sha1": "0ce6836b7d78d528a1bbfe0ffadf55aabc006ee5",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_config.template.json",
+      "target": "reports/master_run/20261009/preparation/stage5_atomic_config.template.json",
+      "sha256": "aba5fce8d038bbdab5cf25770e1c1cc9899daf20aebb4f4ae047f60a19c6d45e",
+      "bytes": 2761,
+      "git_blob_sha1": "b70deccb7150eb51ba98f08d652be04cd87f35f6",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_IMPLEMENTATION.md",
+      "target": "reports/master_run/20261009/preparation/stage5_atomic_IMPLEMENTATION.md",
+      "sha256": "5e4061dbd97bc1786c086af88c86f0ce3e3e4ec26c578dae29c2d6f42b7a05e4",
+      "bytes": 13123,
+      "git_blob_sha1": "79ae69d7de1cd35654b6cb7c882f1026637e393c",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_audit.md",
+      "target": "reports/master_run/20261009/preparation/stage5_audit.md",
+      "sha256": "737e8a74b9a61613a8028fde9865bc12ddd51e6782364f4b65062ef61faa7136",
+      "bytes": 11105,
+      "git_blob_sha1": "1631a0b2adff453280116b49da7db31cc70497ab",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_drivefs_filesystem_smoke.md",
+      "target": "reports/master_run/20261009/preparation/stage5_drivefs_filesystem_smoke.md",
+      "sha256": "7a4a9a2e2ced836b81cb36fffd42c085d79de759be12e2386e8ba3657c75be7b",
+      "bytes": 4923,
+      "git_blob_sha1": "7cb6646468b4b8e15ddd451e25bbfe2d1d9dbf2e",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_drivefs_preparation_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage5_drivefs_preparation_checks.json",
+      "sha256": "b5eef5236b4ba8a202f92cf5cd1abd23a4563ed4e622cc29ed407299fc27b76e",
+      "bytes": 2458,
+      "git_blob_sha1": "f6ec7dc3e9cc551b5411c4700c6a5054f3998a17",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_preparation_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage5_interop_preparation_checks.json",
+      "sha256": "de72da4712a11d1fa671eb204d7e51ea3ec157c03c2cdf3aac3b5a3eaa800cdd",
+      "bytes": 3073,
+      "git_blob_sha1": "86f13c1924244e75c844eb482d7b5451c2107212",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_smoke.md",
+      "target": "reports/master_run/20261009/preparation/stage5_interop_smoke.md",
+      "sha256": "995c0fdf02464e459f295a3ec5e5f1da93b4899b09dce760963b49fef5582876",
+      "bytes": 4445,
+      "git_blob_sha1": "4e17a65c3a7806ed3542633359a4b9cdb02f4e01",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_io_scope_review.md",
+      "target": "reports/master_run/20261009/preparation/stage5_io_scope_review.md",
+      "sha256": "91fcb54804dcc94d01693a0bc1a192b8829ec8a57e590857c86a91254b1af169",
+      "bytes": 7370,
+      "git_blob_sha1": "7bfff0e803551ee45000a27bb1400ebf3995d051",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_readonly_assessment.md",
+      "target": "reports/master_run/20261009/preparation/stage5_runtime_readonly_assessment.md",
+      "sha256": "127913025a0bca514ccc3d2d11f329088a788ea2cec58a44254e9c1f38562643",
+      "bytes": 6257,
+      "git_blob_sha1": "3a07d512d5fcfbeafb1b55476992e6a94eb31aef",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_preparation_checks.json",
+      "target": "reports/master_run/20261009/preparation/stage06_preparation_checks.json",
+      "sha256": "b2cabb5d0e6e22ed140aecb506c3e412909760c7e5361efb04268e0ed0058d04",
+      "bytes": 3395,
+      "git_blob_sha1": "26e6012fe983f56138ccc7ff8a55b0c411355f40",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_preparation.md",
+      "target": "reports/master_run/20261009/preparation/stage06_preparation.md",
+      "sha256": "8c80166deed4055f263b5600bcfa5e64fffb4523ab4d133e8b67076ee59922c8",
+      "bytes": 10444,
+      "git_blob_sha1": "da81c5413d7fdfd445aff37fb807986d08bc32ce",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_identical_support_source_review.md",
+      "target": "reports/master_run/20261009/preparation/iqtree_identical_support_source_review.md",
+      "sha256": "7f7baa36626c82817ff153cc684c07089d78f506d9e281b5e537023454af9876",
+      "bytes": 5975,
+      "git_blob_sha1": "d72b301b6f9f86b02074ff1a0ab3586dbd387b99",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\rm_curation_methodological_review.md",
+      "target": "reports/master_run/20261009/preparation/rm_curation_methodological_review.md",
+      "sha256": "7020090caf820695d3fa8deb3b83aceadda4bfcf5cc721ab1261c484497d4bab",
+      "bytes": 10338,
+      "git_blob_sha1": "4f82beb40e9d7cc87ac7136f3f9da10f757bc72d",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_raw_export_review.md",
+      "target": "reports/master_run/20261009/preparation/stage05_raw_export_review.md",
+      "sha256": "415c10ba5b18f1d0d9f281158211a4ec2f768f472d1bc6b8c624313736543b35",
+      "bytes": 8648,
+      "git_blob_sha1": "019b37274b50975cb0faff840be43f327171d8d9",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_EVIDENCE_NO_SCIENTIFIC_RESULT",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\atomic_runner_review.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/atomic_runner_review.json",
+      "sha256": "17daaae59aed1d2c4e39dd75977f714d304b18cf2fa505ab61412069865fc6a7",
+      "bytes": 3674,
+      "git_blob_sha1": "7b34e6c335c98ecd3019f2f496b81f4e66d29755",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\check_model_cache_compatibility.py",
+      "target": "scripts/master_run/independent_inputs/check_model_cache_compatibility.py",
+      "sha256": "bf4e1d267c0db7c06d3dfd8388281ff3788b58c62c3f7bef811969a32d3158ef",
+      "bytes": 7698,
+      "git_blob_sha1": "233f7a8a706a25d5056820859c85820586611b1c",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\exact_alignment_duplicates.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/exact_alignment_duplicates.json",
+      "sha256": "f53e8af8d55a30b41b521e9c51a86bb8d2d37ddeb59b91586a6a27c89b8ad309",
+      "bytes": 2598,
+      "git_blob_sha1": "9c11eb76b41825336ad6424b557422979fa8cb04",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\exact_alignment_duplicates.py",
+      "target": "scripts/master_run/independent_inputs/exact_alignment_duplicates.py",
+      "sha256": "c91301d1e39c295e8e32bc0ed2c4c73a20a341cccc63da38bf64a040d5a6dbfc",
+      "bytes": 2085,
+      "git_blob_sha1": "b68f16be263dbda82c8cd7e75e9608d4be75e672",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\fallback_memory_estimate.py",
+      "target": "scripts/master_run/independent_inputs/fallback_memory_estimate.py",
+      "sha256": "97e09ea110d0a7436d5f675c6660db3b46e3aba37dbf0395dbaac1822f3cf667",
+      "bytes": 4093,
+      "git_blob_sha1": "418ef51b2998e6265bcad2183ac6a3bf95dac30e",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\fallback_memory_evidence.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/fallback_memory_evidence.json",
+      "sha256": "7ca52479ceca001a5c77236f4818a90af4c392a64577786f41ee07e5c9e56338",
+      "bytes": 8179,
+      "git_blob_sha1": "c1aeb5e789ba59fc028030f64c4c3d5bd48eaf73",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\fallback_memory_recommendation.md",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/fallback_memory_recommendation.md",
+      "sha256": "cac232b4a9938d405f4dcf450ad3c20ce2b8f1395d36bfaada3d9652e447c105",
+      "bytes": 2310,
+      "git_blob_sha1": "9c334ff378468f5ec4413b4c90de053fd2d4602d",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\independent_input_validation.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/independent_input_validation.json",
+      "sha256": "d8dfd274d83591326ff7f76a3b14c715fa5b23fd7a837d46dc4a9c800c38f6a9",
+      "bytes": 9928,
+      "git_blob_sha1": "4b9df9651836ae2abcc4a724034e2f377fb6966f",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\independent_stage04a_check.py",
+      "target": "scripts/master_run/independent_inputs/independent_stage04a_check.py",
+      "sha256": "f305755424062e70d8c11cd31bc976e3feb390392b3c8262b46e69e78e47212b",
+      "bytes": 13253,
+      "git_blob_sha1": "92eb8b65fb0e97a41fc9479a468778b350094e84",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\input_sha256.tsv",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/input_sha256.tsv",
+      "sha256": "2a825d0d69937dcc8f58e621da802d9d4dab5ba6766ebe660c499c7e69951e8d",
+      "bytes": 2724,
+      "git_blob_sha1": "62220b325611907bc4027adba1c47e8562f7cebc",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_full_help.txt",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/iqtree314_full_help.txt",
+      "sha256": "b24c26b0fc083393a2be38159603e134a79759b43579b975925a095dfb026b5f",
+      "bytes": 22615,
+      "git_blob_sha1": "da86319ea7e75229675e4b1294ff79c39ed01e91",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\model_cache_compatibility.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/model_cache_compatibility.json",
+      "sha256": "5b0ce450892dd3399023b1bc62d85f3a786359d2a55f8b58a23efec7cb8f4487",
+      "bytes": 6363,
+      "git_blob_sha1": "adc11a8714755caffa9756eef619158cafb8b99e",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\resource_maintenance_review.md",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/resource_maintenance_review.md",
+      "sha256": "cfe8f77ad4993f96824c5f28aabba71256299d722b91348a91ead3c51ab178e9",
+      "bytes": 1864,
+      "git_blob_sha1": "9d2d72565503190522762fb23db54ff4de0a957b",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\tree_inventory.json",
+      "target": "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+      "sha256": "22e7409a325dd19197ec9d0efcb48c553e1d50d1998a995b37bbc11504097384",
+      "bytes": 17857,
+      "git_blob_sha1": "6573a1cb20bccb0917906df0107c10665aca7818",
+      "transport_encoding": "utf-8",
+      "kind": "ACCEPTED_INPUT_QA_OR_SOURCE_RESOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\audit_settings.template.json",
+      "target": "scripts/master_run/stage05_curation/audit_settings.template.json",
+      "sha256": "5264396176bd6fa8969add5c89bffb6d38a1155939a33df1a567088bcd98852c",
+      "bytes": 1896,
+      "git_blob_sha1": "fba2b86b87f98c819c559fb3d34b2e81463c8bd1",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\audit_settings.template.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/audit_settings.template.json",
+      "sha256": "5264396176bd6fa8969add5c89bffb6d38a1155939a33df1a567088bcd98852c",
+      "bytes": 1896,
+      "git_blob_sha1": "fba2b86b87f98c819c559fb3d34b2e81463c8bd1",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\build_audit_contract.py",
+      "target": "scripts/master_run/stage05_curation/build_audit_contract.py",
+      "sha256": "72aedecb9549763622d5811e9179f91c0085bd8723f461a2ed4c9c2f79b6a1c6",
+      "bytes": 3469,
+      "git_blob_sha1": "3865f111503c44aff07ad569bcefb8874fe931f8",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\CLASSIFICATION_CONTRACT.md",
+      "target": "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+      "sha256": "baba88595d914a666a414d4e7d3250b2b214d1bfa5b188bd7fb32ad33dfa9629",
+      "bytes": 25565,
+      "git_blob_sha1": "261b725cb8d1971894c15bf10941ba9b0a1f2e50",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\CLASSIFICATION_CONTRACT.md",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+      "sha256": "baba88595d914a666a414d4e7d3250b2b214d1bfa5b188bd7fb32ad33dfa9629",
+      "bytes": 25565,
+      "git_blob_sha1": "261b725cb8d1971894c15bf10941ba9b0a1f2e50",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\FOLLOW_ON_METHODS.md",
+      "target": "scripts/master_run/stage05_curation/FOLLOW_ON_METHODS.md",
+      "sha256": "49e47d6aeae9e2aca768e73dce65a6f69ec8e82c4ba77212eec5daf91fa56646",
+      "bytes": 8440,
+      "git_blob_sha1": "fb4a1d10b2c9560b2254357b7fa3dcf7ed6f4b7f",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\FOLLOW_ON_METHODS.md",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/FOLLOW_ON_METHODS.md",
+      "sha256": "49e47d6aeae9e2aca768e73dce65a6f69ec8e82c4ba77212eec5daf91fa56646",
+      "bytes": 8440,
+      "git_blob_sha1": "fb4a1d10b2c9560b2254357b7fa3dcf7ed6f4b7f",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\independent_synthetic_validation.json",
+      "target": "scripts/master_run/stage05_curation/independent_synthetic_validation.json",
+      "sha256": "173d346bb1249463dcc302fe2de2aa5c6764b5c977f2a3eacc4407ca9f4da9f3",
+      "bytes": 593,
+      "git_blob_sha1": "340283c6b2979e66e7bd7e4f6c859aa18a9045e6",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\independent_synthetic_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/independent_synthetic_validation.json",
+      "sha256": "173d346bb1249463dcc302fe2de2aa5c6764b5c977f2a3eacc4407ca9f4da9f3",
+      "bytes": 593,
+      "git_blob_sha1": "340283c6b2979e66e7bd7e4f6c859aa18a9045e6",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\multipart_synthetic_validation.json",
+      "target": "scripts/master_run/stage05_curation/multipart_synthetic_validation.json",
+      "sha256": "e11920a5d36f536853de23024db1e03a7b7b2b8e83ea72cd488c27ac38c7c1be",
+      "bytes": 612,
+      "git_blob_sha1": "d127288e10ba1cbb5819d045372c47b0c7505e49",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\multipart_synthetic_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/multipart_synthetic_validation.json",
+      "sha256": "e11920a5d36f536853de23024db1e03a7b7b2b8e83ea72cd488c27ac38c7c1be",
+      "bytes": 612,
+      "git_blob_sha1": "d127288e10ba1cbb5819d045372c47b0c7505e49",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\pinned_model_candidate_scope.json",
+      "target": "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+      "bytes": 382623,
+      "git_blob_sha1": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\pinned_model_candidate_scope.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+      "bytes": 382623,
+      "git_blob_sha1": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\pinned_model_candidate_scope.tsv",
+      "target": "scripts/master_run/stage05_curation/pinned_model_candidate_scope.tsv",
+      "sha256": "1ab72ac675bb42849956f27aadef8ab3b912779421e618ade53ae70eb399e918",
+      "bytes": 10638,
+      "git_blob_sha1": "5b26f3f876d0e4f138d469022c6d96f77042d8e2",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\pinned_model_candidate_scope.tsv",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.tsv",
+      "sha256": "1ab72ac675bb42849956f27aadef8ab3b912779421e618ade53ae70eb399e918",
+      "bytes": 10638,
+      "git_blob_sha1": "5b26f3f876d0e4f138d469022c6d96f77042d8e2",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\preparation_report.json",
+      "target": "scripts/master_run/stage05_curation/preparation_report.json",
+      "sha256": "a62283ee5f5503300f1416c2d8ca5f2892532b8a8e85202d7804f70fa0a82ccb",
+      "bytes": 7034,
+      "git_blob_sha1": "5ca7e1bada4da7103995de41522f8339361a4148",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\preparation_report.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/preparation_report.json",
+      "sha256": "a62283ee5f5503300f1416c2d8ca5f2892532b8a8e85202d7804f70fa0a82ccb",
+      "bytes": 7034,
+      "git_blob_sha1": "5ca7e1bada4da7103995de41522f8339361a4148",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\retained\\independent_curated_v2.py",
+      "target": "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+      "sha256": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612",
+      "bytes": 81418,
+      "git_blob_sha1": "4ff06a74d1fb361e17a102542551eb4a5cba33f8",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\retained\\stage05_architecture_policy_original.py",
+      "target": "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+      "sha256": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de",
+      "bytes": 18872,
+      "git_blob_sha1": "af55ec22f0ed453cab326b87183e01275a53ac85",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\retained\\stage05_curation_adapter.py",
+      "target": "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+      "sha256": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177",
+      "bytes": 75098,
+      "git_blob_sha1": "4563d50ae49572c69e61b4210b6209341552ae47",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\retained\\stage05_evidence.py",
+      "target": "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+      "sha256": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e",
+      "bytes": 17617,
+      "git_blob_sha1": "8d139b2fa6adda6776e36820aea4633768cf8025",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\rm_matrix.py",
+      "target": "scripts/master_run/stage05_curation/rm_matrix.py",
+      "sha256": "7716f722f25b582af990469d4e5120d4de22828b87c89cf334d2d9f9723c7db9",
+      "bytes": 10977,
+      "git_blob_sha1": "0d6daf6d8ab299e088e0785b6d55fe556d01b180",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\SHA256SUMS",
+      "target": "scripts/master_run/stage05_curation/SHA256SUMS",
+      "sha256": "ed22985ca1a4133dcb69d1524f3ee86bb6a821e61af51674ef21978cf02a39cb",
+      "bytes": 2093,
+      "git_blob_sha1": "da1bb2cbeb5f1e1c06e43e8b154113a185280df4",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\SHA256SUMS",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/SHA256SUMS",
+      "sha256": "ed22985ca1a4133dcb69d1524f3ee86bb6a821e61af51674ef21978cf02a39cb",
+      "bytes": 2093,
+      "git_blob_sha1": "da1bb2cbeb5f1e1c06e43e8b154113a185280df4",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\stage05_architecture_policy.py",
+      "target": "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+      "sha256": "942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4",
+      "bytes": 21136,
+      "git_blob_sha1": "6c4d865eb032d4d7e0591e565425739ec8dcecf0",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\stage05_curation_atomic.py",
+      "target": "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+      "sha256": "22710908578fe68a6697c44ca12140b800d2dd0be4402c9c7623297124a53db0",
+      "bytes": 26000,
+      "git_blob_sha1": "1cc1c97ba285b42797eee29ae0c784094eb7a213",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\synthetic_validation.json",
+      "target": "scripts/master_run/stage05_curation/synthetic_validation.json",
+      "sha256": "5be52627cda4c86e9d72a60f4379ee55b835ed1960b77254f0078e13c05b319d",
+      "bytes": 1194,
+      "git_blob_sha1": "b5a72b00c53d99071f0d38267c8753884297b582",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\synthetic_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation/synthetic_validation.json",
+      "sha256": "5be52627cda4c86e9d72a60f4379ee55b835ed1960b77254f0078e13c05b319d",
+      "bytes": 1194,
+      "git_blob_sha1": "b5a72b00c53d99071f0d38267c8753884297b582",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\test_independent_curation.py",
+      "target": "scripts/master_run/stage05_curation/test_independent_curation.py",
+      "sha256": "fb98e971f677e7fddcdb4b5e333b706760a08b754eb28a52caab54fff7ba3315",
+      "bytes": 18847,
+      "git_blob_sha1": "615cdf4b8037f055cd0887d39a5fdd9306e1e1e0",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\test_multipart_type_ii.py",
+      "target": "scripts/master_run/stage05_curation/test_multipart_type_ii.py",
+      "sha256": "a60630ba31687a3561cf9658d354e6ef46e74f01d5bf9c4bc917932c1aa43899",
+      "bytes": 10416,
+      "git_blob_sha1": "4461d316c090b46e8c9eb725a718928d4fcff8a7",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\test_stage05_curation.py",
+      "target": "scripts/master_run/stage05_curation/test_stage05_curation.py",
+      "sha256": "5039c18b99251e85aa68483bc5c8770251d7c88373875a00a3cf41008e3bd5ad",
+      "bytes": 15225,
+      "git_blob_sha1": "c188238fdc3db169b9a27beb6907b6a204482933",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\validate_atomic_curation.py",
+      "target": "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+      "sha256": "72cca1c82b89571635a2f279218193905331c5abcedc79c465e1ee61cf148581",
+      "bytes": 49050,
+      "git_blob_sha1": "b4e4b0537bb45bf99d29483030daa749cb4148bc",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation\\validate_rm_join.py",
+      "target": "scripts/master_run/stage05_curation/validate_rm_join.py",
+      "sha256": "9020fc2b66dc8964e42959b58df8e6889adeaec52b47d80044ec5da0728ced64",
+      "bytes": 7192,
+      "git_blob_sha1": "0a7b9c56566d7ad84b1b42a14c154c10b8370ab2",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation_review\\execution_location_review.md",
+      "target": "reports/master_run/20261009/preparation/stage05_curation_review/execution_location_review.md",
+      "sha256": "07b3538ed3cda0fb8a0f7b3a0501955c821eb97509c3b302271099e7db0fb42e",
+      "bytes": 5201,
+      "git_blob_sha1": "0b92cfe229364fef83fc910d9b39696823718f91",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation_review\\finalize_review.py",
+      "target": "scripts/master_run/stage05_curation_review/finalize_review.py",
+      "sha256": "ad19cc0c76d3e8b154fb1a687ec36132611ecbe28fb7f72655519741f9caef6b",
+      "bytes": 6460,
+      "git_blob_sha1": "cf2c0f771f2fd31315e0d49ea5e4cec378ff2692",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation_review\\source_review.json",
+      "target": "reports/master_run/20261009/preparation/stage05_curation_review/source_review.json",
+      "sha256": "2de0c4087e87f7b212da5e2701c19be5759b62612f7a5d620149842a5e113ded",
+      "bytes": 3688,
+      "git_blob_sha1": "78446586ef1816d978fd5fcae68fe1891ae56269",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_review\\independent_typography_review.py",
+      "target": "scripts/master_run/stage06_review/independent_typography_review.py",
+      "sha256": "5888fea4f483d01c4206943c560b946b0ed86a75346158a8eeeecfebb491c0e9",
+      "bytes": 4650,
+      "git_blob_sha1": "17328dc36306a277cdf93a87100b06c22bc00fa2",
+      "transport_encoding": "utf-8",
+      "kind": "CURATION_OR_REVIEW_SOURCE_PACKAGE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_review\\source_proof_review.json",
+      "target": "reports/master_run/20261009/preparation/stage06_review/source_proof_review.json",
+      "sha256": "fb1cd25e3e7e7ae580b0da74029124782c9c8e04040c60183265a60b1c9c204c",
+      "bytes": 2063,
+      "git_blob_sha1": "a736f6dbe70d09b885580a737b6810c8692d287f",
+      "transport_encoding": "utf-8",
+      "kind": "PREPARATION_REVIEW_OR_SYNTHETIC_CHECK",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\source_pin.json",
+      "target": "reports/master_run/20261009/preparation/iqtree_3_1_4_source_review/source_pin.json",
+      "sha256": "4aa14af2a09fb0bf79629dd38dff1218c913f2d8ebd91120200d743cf03d73d4",
+      "bytes": 2020,
+      "git_blob_sha1": "45808c930d1666f2f87c992585c9e7f997dcb1d9",
+      "transport_encoding": "utf-8",
+      "kind": "PINNED_PRIMARY_SOURCE_REVIEW",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\outputs\\WD_resource_configuration.md",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/WD_resource_configuration.md",
+      "sha256": "71f7aed2f85301566092904f86c30a1c80fa2dccb198111908a572dacf5c46fe",
+      "bytes": 2551,
+      "git_blob_sha1": "fb0734285784b8cbc81ba8444c25b78386c59ce0",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_RESOURCE_CONFIGURATION_NOT_BIOLOGICAL_COMPLETION",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\outputs\\wslconfig.before.txt",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/wslconfig.before.txt",
+      "sha256": "cd4ece709346e258d2506f47057d3de22189598651cc863dab27014905640b73",
+      "bytes": 554,
+      "git_blob_sha1": "ab466cc492f60555a3e133a110112a367f0f4a74",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_RESOURCE_CONFIGURATION_NOT_BIOLOGICAL_COMPLETION",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\outputs\\wslconfig.applied.txt",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/wslconfig.applied.txt",
+      "sha256": "fa7e395a9e14e9ed7233032a92a4eeb6b5d2f2a02f3717745c5072b475fb89a8",
+      "bytes": 552,
+      "git_blob_sha1": "e3a5e15587f637ac79398d1a085ca5d4e7181158",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_RESOURCE_CONFIGURATION_NOT_BIOLOGICAL_COMPLETION",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap\\wsl_toolchain_probe_final.txt",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/wsl_toolchain_probe_final.txt",
+      "sha256": "3b774b536057121c1498233dee5b84cb029d5b1dcc678d8f107f0ddb8665a60d",
+      "bytes": 3647,
+      "git_blob_sha1": "14860b6849f406f8e4684cba57314e99e065f124",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_SCOPED_OPERATIONAL_EVIDENCE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap\\probe_wsl.sh",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/probe_wsl.sh",
+      "sha256": "2ae7a1e89654ed2aefd0c4a7be63855bafe93d000567ee5ec1a6133a6b55587d",
+      "bytes": 1976,
+      "git_blob_sha1": "54d4ffc33fd5ac371ffb2ee6c765d5882edfbea1",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_SCOPED_OPERATIONAL_EVIDENCE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap\\resource_cleanup_20261009T161511Z.json",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/resource_cleanup_20261009T161511Z.json",
+      "sha256": "45be34181e97ab6daca37f5b0c7e7c901f60a027441eb1223b4a18e93c9d5b51",
+      "bytes": 6113,
+      "git_blob_sha1": "395c7634208d8aeea7ccb138f42244804b825d1d",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_SCOPED_OPERATIONAL_EVIDENCE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap\\scheduled_tasks.json",
+      "target": "reports/master_run/20261009/preparation/resource_configuration/scheduled_tasks.json",
+      "sha256": "700ed3a2fe96f9809cb02de7ca475e2b8c643abb54e58183dbaf498c62145212",
+      "bytes": 12846,
+      "git_blob_sha1": "55aa3cccc0d5c296e008a85d85edc6ebb8f1eba8",
+      "transport_encoding": "utf-8",
+      "kind": "EXECUTED_SCOPED_OPERATIONAL_EVIDENCE",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\approved.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/approved.txt",
+      "sha256": "3e59fe858bb7fd2bdd1e8572ec9c6f008b9d50d8f09f48679d030907e3ec9b93",
+      "bytes": 3332,
+      "git_blob_sha1": "137813a782d28462ce78b89a53d5a4d2466a7c19",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\artifact_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/artifact_validation.json",
+      "sha256": "ee2767b5217348667f35f144b1a457a3e2d20301b62a1ca78a541dc30f333305",
+      "bytes": 634,
+      "git_blob_sha1": "b1e1cb238a49a9cc55bbb007084e02716e3fed36",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\artifact_validation_typography.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/artifact_validation_typography.json",
+      "sha256": "7464b228248a2315a27262af575f910dc8cfbabcacbd3135f5042a372e8a2431",
+      "bytes": 973,
+      "git_blob_sha1": "f8407e213c615a0635ae966f40c396a5debb9496",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\curation_source_manifest.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/curation_source_manifest.json",
+      "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+      "bytes": 109,
+      "git_blob_sha1": "da7aa713cc6e92cd32433d5c5ec415d4a44f6a38",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\curation_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/curation_validation.json",
+      "sha256": "5916ea00a36822d2db8a7add659032e159cf024ed19c9adb266dba90afb201ee",
+      "bytes": 593,
+      "git_blob_sha1": "307fec9b7e0731044deb37f096d4e3b68fff51d2",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\join.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/join.json",
+      "sha256": "733be416a9d66e8db575cadebb22579cfa70e376e707d1b31aab7832e6eef17c",
+      "bytes": 519,
+      "git_blob_sha1": "6b4c172fa550159ba7190a26a82e7bad9b60ad65",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\matrix.tsv",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/matrix.tsv",
+      "sha256": "cfd7c93377771062c2e821c1f35cba9e8a9ab39ce45b77e646174a8cb27a99dc",
+      "bytes": 5007,
+      "git_blob_sha1": "51e93dc585b7773da3c2bd8e5b63dd2ac2d716be",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\print_proof_180mm.pdf",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+      "sha256": "e0d8f360e886fc8bc456617785cb9afb1f53ebae008fc8bf24de4b59487376b7",
+      "bytes": 229642,
+      "git_blob_sha1": "889c2f2412594653fd2c1edb1323b09ed3faf4b2",
+      "transport_encoding": "base64",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\print_proof_180mm_300dpi.png",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+      "sha256": "d3d7bbe318e707c5f625fa528d5011e94d837ad7395d1f8f411031628806c9ac",
+      "bytes": 1981752,
+      "git_blob_sha1": "559e43b8415fe25d67f0986cd85ff08e95b0785e",
+      "transport_encoding": "base64",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\print_typography_assessment.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_typography_assessment.json",
+      "sha256": "28e921afdaaaaba38aec2889c1966d7ea5a8d2948effbc9ce49d9aeb711768d1",
+      "bytes": 2192,
+      "git_blob_sha1": "2a43d5d5c76a945245de4f61c9ed01af4711ec09",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\approved_accessions.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/approved_accessions.txt",
+      "sha256": "3e59fe858bb7fd2bdd1e8572ec9c6f008b9d50d8f09f48679d030907e3ec9b93",
+      "bytes": 3332,
+      "git_blob_sha1": "137813a782d28462ce78b89a53d5a4d2466a7c19",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\branch_mapping.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+      "sha256": "bc9b41e8d0042abd813a311b8465272088a559e38efc963543c376462159444a",
+      "bytes": 133705,
+      "git_blob_sha1": "bc539b3969e098966defa07e3321a1b1f2fb2088",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\cell_mapping.tsv",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+      "sha256": "0aaa9ba93d48d95bc369e54dc8272a671ca1e73052838a45459626b78daf6369",
+      "bytes": 100095,
+      "git_blob_sha1": "7a4202588016bc672b63e57aaee765ee7c6b8fbc",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\circular_rm.pdf",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+      "sha256": "11ab4116c8e868c8a4b61f52bf6cb74a69621ba4cdf9add7bf611ea8af7947fd",
+      "bytes": 66818,
+      "git_blob_sha1": "b5b846a5124218f0affc11feb27215e4a7a97719",
+      "transport_encoding": "base64",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\circular_rm.svg",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+      "sha256": "c4c0821790b7bb1f555cd063172288a88046c88b33b8b356eb7de4b0dafeb6b2",
+      "bytes": 409642,
+      "git_blob_sha1": "b72c8e9865656f807d2c2c1e7340993ab89f19a0",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\curation_source_manifest.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/curation_source_manifest.json",
+      "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+      "bytes": 109,
+      "git_blob_sha1": "da7aa713cc6e92cd32433d5c5ec415d4a44f6a38",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\curation_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/curation_validation.json",
+      "sha256": "5916ea00a36822d2db8a7add659032e159cf024ed19c9adb266dba90afb201ee",
+      "bytes": 593,
+      "git_blob_sha1": "307fec9b7e0731044deb37f096d4e3b68fff51d2",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\host_tree.nwk",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/host_tree.nwk",
+      "sha256": "3f3e1d5344582fc5921da37e8e89bd2d2c7f59749c51820284a4b797728acdf6",
+      "bytes": 6847,
+      "git_blob_sha1": "4067dbb0e88b70ce141befeae27ed31cafb6af73",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\host_tree_unrooted.nex",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/host_tree_unrooted.nex",
+      "sha256": "6e9da47f7ffe56084c6ff93aecf5032350dbe9098f560a4949fe8fdb0867a2e1",
+      "bytes": 6888,
+      "git_blob_sha1": "27bf997722b1fcb6ccdc6ed247948605081a96cc",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\itol_01_Type_I_full_state.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/itol_01_Type_I_full_state.txt",
+      "sha256": "ac1675390d994b52ec1f81cecea21f31f9dc6563f0b831d84fde1f7779d3357f",
+      "bytes": 7517,
+      "git_blob_sha1": "eef80629750a601f4bd53b53d41d70106657585c",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\itol_02_Type_II_full_state.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/itol_02_Type_II_full_state.txt",
+      "sha256": "80874ceb3545eefb8f63d2a81a7f787a9e70f443ab4267eea6ecceead6626c6c",
+      "bytes": 7565,
+      "git_blob_sha1": "4dba575a8f2142158e0535f1680589c485b30797",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\itol_03_Type_III_full_state.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/itol_03_Type_III_full_state.txt",
+      "sha256": "ca86e5f93639929e6dafe9ad842dd22e0c1b8b6c33aee618761f1a45d7f279e1",
+      "bytes": 7521,
+      "git_blob_sha1": "4a4d9fb8cffffdde2be1a289ba232ec663844fbe",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\itol_04_Type_IV_full_state.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/itol_04_Type_IV_full_state.txt",
+      "sha256": "332feff08d1c9dbbc77ed87587c0dee1776924a8b3cdbffefcaac39da5d30a46",
+      "bytes": 7519,
+      "git_blob_sha1": "903c6cf341a570cbb7ca3e083c9d94a80e6c1724",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\itol_binary_convenience.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/itol_binary_convenience.txt",
+      "sha256": "316367c3718e300b6a99088d4638aac00cbbb50f261ffb51c700b559aa6e5df5",
+      "bytes": 5170,
+      "git_blob_sha1": "d02242980eba697ced17f6ee0010dde173b7fa63",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\join_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/join_validation.json",
+      "sha256": "733be416a9d66e8db575cadebb22579cfa70e376e707d1b31aab7832e6eef17c",
+      "bytes": 519,
+      "git_blob_sha1": "6b4c172fa550159ba7190a26a82e7bad9b60ad65",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\provenance.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/provenance.json",
+      "sha256": "d6be274e1b25dfee18b33bd2a146ef0357ec6c03f72a4477ee11f9f593b5308e",
+      "bytes": 3254,
+      "git_blob_sha1": "1b8590e10910dbffb5a5f3b4f20bee5ce0cb9e84",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\README.txt",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/README.txt",
+      "sha256": "19f8199e0d7124a9f7cddae7015dbb40cfc6514effbff5474495dd5f36941f9f",
+      "bytes": 1757,
+      "git_blob_sha1": "f578878b419de56ac0192f4989a11fdb5a85de49",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\rm_type_presence_absence.tsv",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_presence_absence.tsv",
+      "sha256": "cfd7c93377771062c2e821c1f35cba9e8a9ab39ce45b77e646174a8cb27a99dc",
+      "bytes": 5007,
+      "git_blob_sha1": "51e93dc585b7773da3c2bd8e5b63dd2ac2d716be",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\rm_type_state.tsv",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+      "sha256": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+      "bytes": 62575,
+      "git_blob_sha1": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\scene.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+      "sha256": "c545de7a9bd968b44adc35ef5467ab9058fd2505bd000869c4bdc06687c31beb",
+      "bytes": 891749,
+      "git_blob_sha1": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\render\\tree_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/tree_validation.json",
+      "sha256": "21e0cee5297bd21c7dcc0731bf094bf1c18c504a4254a8f81732b1d5052e02d4",
+      "bytes": 237,
+      "git_blob_sha1": "f7f399a98eeb7a7b744071f5fb27b6b7a49150c4",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\state.tsv",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+      "sha256": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+      "bytes": 62575,
+      "git_blob_sha1": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\tree.nwk",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/tree.nwk",
+      "sha256": "3f3e1d5344582fc5921da37e8e89bd2d2c7f59749c51820284a4b797728acdf6",
+      "bytes": 6847,
+      "git_blob_sha1": "4067dbb0e88b70ce141befeae27ed31cafb6af73",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4\\tree_validation.json",
+      "target": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/tree_validation.json",
+      "sha256": "21e0cee5297bd21c7dcc0731bf094bf1c18c504a4254a8f81732b1d5052e02d4",
+      "bytes": 237,
+      "git_blob_sha1": "f7f399a98eeb7a7b744071f5fb27b6b7a49150c4",
+      "transport_encoding": "utf-8",
+      "kind": "EXPLICIT_NONBIOLOGICAL_SYNTHETIC_PROOF_ONLY",
+      "biological_acceptance": "NOT_ESTABLISHED_BY_SOURCE_PUBLICATION"
+    }
+  ],
+  "total_files": 143,
+  "total_bytes": 5929862,
+  "binary_blobs": [
+    "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+    "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+    "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf"
+  ],
+  "refresh_rule": "Rehash every source immediately before constructing Git objects; stop on any changed bytes. Checks may be refreshed only with corresponding executed evidence.",
+  "execution_layout": "Source snapshots retain bytes and sibling imports. Curation subtree includes exact relative data. Entry points assuming original chat/work layout must be materialized in that layout or receive a separately reviewed runtime adaptation before execution elsewhere.",
+  "exclusions": [
+    "live iqtree_attempts/",
+    "stage04_partitioned_config.json original launch config",
+    "raw Codex/session/private events",
+    "unrelated user files",
+    "unknown or unreviewed directories"
+  ],
+  "deferred_release_inputs": [
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\main__phyloanalysis.cpp",
+      "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+      "bytes": 277803,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\main__phylotesting.cpp",
+      "sha256": "cfae774d65f4cc0b402cdfd5c9b04575749f01f086637d2a186088ef054ab025",
+      "bytes": 311823,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\model__modelfactory.cpp",
+      "sha256": "9c416b62b1aaf489922b5425ae7a4dea50f85aca28f634dfa5138d1c82a6fed4",
+      "bytes": 81913,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\model__modelmarkov.cpp",
+      "sha256": "fe9ce35fead59fd8a698f81279948d2bab8b1426488a5d586172d13c59985f85",
+      "bytes": 75879,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\model__modelmarkov.h",
+      "sha256": "0cfa50d7c8cf33c97a25724bd3a3b29de9a355e316089f36b13913560eb001d2",
+      "bytes": 18135,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\model__modelprotein.cpp",
+      "sha256": "ad2b34262275b81c8cd206e052e442ae4b9b3017cf7f6fb0abe9ff97d750cee1",
+      "bytes": 124380,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__iqtree.cpp",
+      "sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c",
+      "bytes": 180963,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__iqtree.h",
+      "sha256": "098ee58aa979343b7f2f62fd4923fddf8226512195cf1e81f765f31d3ddca004",
+      "bytes": 32706,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__phylotree.cpp",
+      "sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551",
+      "bytes": 228968,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__phylotree.h",
+      "sha256": "46b6a6aed90f92fc8001c5be28c343b1538ae4dae8e9d911257db1719c65edfb",
+      "bytes": 96994,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__checkpoint.cpp",
+      "sha256": "81d9aebff6666d9a1729a0fc07f4c226dc47cf5cc8aba2ce60946d7632c8036f",
+      "bytes": 12081,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__checkpoint.h",
+      "sha256": "45d79f4e943b3b5a7085730984be97a10e66cce628bab29da78fe10310a587c8",
+      "bytes": 13712,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__tools.cpp",
+      "sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979",
+      "bytes": 668454,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__tools.h",
+      "sha256": "4e3fd6d26e4c55179fc721c4f74293f503feaf587601782778d2e01a1fa882b6",
+      "bytes": 107257,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\alignment__alignment.cpp",
+      "sha256": "5c66741f0d8600b889ff9a1af8f6c4e450e9a4f1e294f1e174e551ca00620303",
+      "bytes": 233429,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\main__phyloanalysis.cpp",
+      "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+      "bytes": 277803,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__iqtree.cpp",
+      "sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c",
+      "bytes": 180963,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__mtree.cpp",
+      "sha256": "02fefcdce41327ce7908c3f35f7a6e960334882e6dd54aedc56b657251774cfb",
+      "bytes": 97368,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__phylotree.cpp",
+      "sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551",
+      "bytes": 228968,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\utils__tools.cpp",
+      "sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979",
+      "bytes": 668454,
+      "disposition": "SOURCE_REVIEW_SNAPSHOT_FOR_LATER_HASHED_RELEASE_WITH_ORIGINAL_NOTICES"
+    }
+  ]
+}

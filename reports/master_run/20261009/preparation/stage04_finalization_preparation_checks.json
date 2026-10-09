@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-09T18:31:28.141464+00:00",
+  "state": "PASS_PREPARATION_COMPONENT_TESTS_ONLY",
+  "native_inference": "STILL_RUNNING_NOT_ACCEPTED",
+  "tree_acceptance_and_publication_tests": 42,
+  "owner_terminal_contract_tests": 10,
+  "failures": 0,
+  "actual_stage04_acceptance": "NOT_RUN",
+  "actual_stage04_release": "NOT_RUN",
+  "actual_stage05_native_integration": "NOT_RUN",
+  "files": {
+    "independent_tree_check.py": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+    "test_independent_tree_check.py": "49f412af852332eb7dfd54db0e3efb710e00c2497c30ee97704ee994dc24a329",
+    "test_stage4_freeze_copy_integration.py": "23f96c058679b2a8db1dd1d1e84d03a2073aae46ff8f93e4f9568c07f586be74",
+    "test_stage4_publish_science.py": "903a42c10882b0f4c0574f0e64238b20e09516b47efd3c231e4ef503ce34a9b3",
+    "prepare_stage4_publication.py": "a6102619927a221505fb120d9a900d3c783a0eb683f5f2e72bfede8e86e46c37",
+    "publish_stage4_primary.py": "4c3a2b164b89f9ceba9e444ffbe01a9c753610bd7d465817506c27cf4aef2493",
+    "stage5_windows_owner.py": "221645b9573537ce340b9181ee0559a6f6888408df2c6e90c7c93efbfd519f57",
+    "test_stage5_windows_owner.py": "4b58b84b1f9bb54f55dcf5c586a5ff5b127352bad853c0a094709ab13f4b968d"
+  },
+  "reviewed_retained_publication_source_sha256": {
+    "scripts/portable_release.py": "d587bd9342a85837e6875f7c90c1bac3e8d751053932383fcae568550926d5ad",
+    "scripts/workflow_publication.py": "821f0a8c7e8b89b083d0aaf3a3a4d88f107184b459feae6947611cff26f44354",
+    "scripts/production_resume.py": "daf4e33c502ed0de7f592eeeb513eedd18bc8d5d265435792ef5f5fa2f325d82"
+  },
+  "latest_executed_scope": {
+    "stage4_copy_and_publisher": {
+      "passed": 19,
+      "seconds": 11.472
+    },
+    "tree_command_contracts": {
+      "passed": 23,
+      "state": "PRIOR_PASS_SOURCES_UNCHANGED"
+    },
+    "stage5": {
+      "total": 61,
+      "passed": 58,
+      "skipped_actual_linux": 3,
+      "seconds": 1.156
+    }
+  }
+}

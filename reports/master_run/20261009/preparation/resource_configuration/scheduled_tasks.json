@@ -1,0 +1,236 @@
+[
+  {
+    "Name": "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T04:35:07+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v10.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v10_fixture.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+    "State": "Disabled",
+    "LastResult": 1,
+    "LastRun": "2026-10-09T05:05:40+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v10_admission_v1.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v10_production.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+    "State": "Disabled",
+    "LastResult": 267011,
+    "LastRun": "1999-11-30T00:00:00+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v10_admission_v2.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v10_production_admission_v2.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+    "State": "Disabled",
+    "LastResult": 1073807364,
+    "LastRun": "2026-10-09T05:29:45+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v10_admission_v3.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v10_production_admission_v3.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T05:05:40+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v10.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\production\\LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6 --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\observers\\LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+    "State": "Disabled",
+    "LastResult": 267011,
+    "LastRun": "1999-11-30T00:00:00+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v10.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\production\\LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7 --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\observers\\LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T04:35:07+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v10.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\fixture\\LAB_RM_Stage04_V10_fixture_3f24a4052611 --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\observers\\LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+    "State": "Disabled",
+    "LastResult": 1073807364,
+    "LastRun": "2026-10-09T05:29:46+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v10.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\production\\LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\observers\\LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_089a39adeade",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T03:40:37+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_07.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+    "State": "Disabled",
+    "LastResult": 1,
+    "LastRun": "2026-10-09T03:19:53+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_02.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T03:31:41+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_06.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_520674ad9893",
+    "State": "Disabled",
+    "LastResult": 1,
+    "LastRun": "2026-10-09T03:21:39+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_03.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T03:25:05+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_05.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+    "State": "Disabled",
+    "LastResult": 1,
+    "LastRun": "2026-10-09T03:22:50+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture_04.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_fixture_e49c96152940",
+    "State": "Disabled",
+    "LastResult": 1,
+    "LastRun": "2026-10-09T03:18:07+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_fixture.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+    "State": "Disabled",
+    "LastResult": 267011,
+    "LastRun": "1999-11-30T00:00:00+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\stage04_recovery_controller_v9.py\" --config \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\host_inference_stage04_recovery_v9_production.json\"",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+    "State": "Disabled",
+    "LastResult": 267011,
+    "LastRun": "1999-11-30T00:00:00+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v9.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\production\\LAB_RM_Stage04_V9_production_5ae384f4a81e --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\observers\\LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  {
+    "Name": "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+    "State": "Disabled",
+    "LastResult": 0,
+    "LastRun": "2026-10-09T03:40:37+03:00",
+    "Actions": [
+      {
+        "Execute": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "Arguments": "-u \"G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\observe_stage04_recovery_controller_v9.py\" --runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\fixture\\LAB_RM_Stage04_V9_fixture_089a39adeade --observer-runtime C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\observers\\LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+        "WorkingDirectory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196"
+      }
+    ]
+  }
+]

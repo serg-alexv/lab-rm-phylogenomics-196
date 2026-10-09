@@ -1,0 +1,20 @@
+# Scientific-computing profile, 2026-10-09.
+# Laptop: 16 logical CPUs, approximately 16 GiB physical RAM.
+[wsl2]
+processors=16
+memory=12GB
+swap=4GB
+# WSL must not stop an active job; idle shutdown only applies after exit.
+vmIdleTimeout=60000
+networkingMode=mirrored
+dnsTunneling=true
+autoProxy=true
+firewall=true
+# Retain nested KVM/virtualization and graphics for the existing GNS3 setup.
+nestedVirtualization=true
+guiApplications=true
+
+[experimental]
+# Release unused page cache gradually when compute is idle.
+autoMemoryReclaim=gradual
+sparseVhd=true

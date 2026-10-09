@@ -1,0 +1,66 @@
+{
+  "schema": "STAGE05_BUILD_REVIEW_CHECKS_V1",
+  "utc": "2026-10-09T18:31:28.142693+00:00",
+  "biological_execution": "NOT_RUN",
+  "wsl_start": "NOT_RUN",
+  "canonical_mutations": "NONE",
+  "tree_synthetic_tests": {
+    "seconds": 0.658,
+    "passed": 23,
+    "failed": 0
+  },
+  "stage5_contract_tests": {
+    "passed": 30,
+    "failed": 0,
+    "validation_command": "python -B -m unittest discover -s work -p test_stage5*.py -v",
+    "combined_result": "61 total,58 passed,3 actual Linux cases skipped",
+    "combined_elapsed_seconds": 1.156
+  },
+  "stage5_live_linux_tests": {
+    "state": "NOT_RUN",
+    "skipped": 3
+  },
+  "files": {
+    "stage5_atomic.py": "d0a769b109074c747b5957786ca2914d3c2975e8fcc5c33a7bedb9f5d39fbbcb",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+    "stage5_atomic_config.template.json": "aba5fce8d038bbdab5cf25770e1c1cc9899daf20aebb4f4ae047f60a19c6d45e",
+    "test_stage5_atomic.py": "3afb43b782283d8a865fe4f852c7b531c9ff75cefe18f8aa5edc272b0251369d",
+    "test_stage5_atomic_live_linux.py": "281aff683fe3a14b2a250ae8afa0c27b17d0bfcb3c3d02578a61891ed6537637",
+    "stage5_atomic_IMPLEMENTATION.md": "5e4061dbd97bc1786c086af88c86f0ce3e3e4ec26c578dae29c2d6f42b7a05e4",
+    "stage5_audit.md": "737e8a74b9a61613a8028fde9865bc12ddd51e6782364f4b65062ef61faa7136",
+    "independent_tree_check.py": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+    "test_independent_tree_check.py": "49f412af852332eb7dfd54db0e3efb710e00c2497c30ee97704ee994dc24a329",
+    "stage5_runtime_readonly_assessment.md": "127913025a0bca514ccc3d2d11f329088a788ea2cec58a44254e9c1f38562643",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "test_stage5_work_storage.py": "ea4d59773adf01749719f13a1e79b608a82eb9725ce88fb07e5bdec31af456e3",
+    "stage5_io_scope_review.md": "91fcb54804dcc94d01693a0bc1a192b8829ec8a57e590857c86a91254b1af169",
+    "stage5_windows_owner.py": "221645b9573537ce340b9181ee0559a6f6888408df2c6e90c7c93efbfd519f57",
+    "test_stage5_windows_owner.py": "4b58b84b1f9bb54f55dcf5c586a5ff5b127352bad853c0a094709ab13f4b968d"
+  },
+  "runtime_ambient_and_binary_pin_discovery": "NOT_RUN_ACTUAL_LINUX_REQUIRED",
+  "physical_windows_disk_admission_review": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "lease": "Nonempty actual Windows volume to nonnegative integer bytes",
+    "actual_linux_skipped": 3,
+    "actual_wsl_execution": "NOT_RUN",
+    "stage5_contract_passed": 30,
+    "interop_contract_passed": 9,
+    "admission": "Every supplied actual Windows volume and Linux output filesystem must meet minimum_disk_free_bytes",
+    "biological_jobs": 0,
+    "windows_owner_contract_passed": 10
+  },
+  "ext4_bind_storage_preparation": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "utc": "2026-10-09T18:25:32.8925671Z",
+    "storage_contract_passed": 9,
+    "actual_wsl_execution": "NOT_RUN",
+    "actual_mount": "NOT_RUN",
+    "biological_jobs": 0,
+    "description": "Proof-only exact fixed ext4 bind, actual boot/mount/device/inode/UUID/helper; current proof before cache and each native launch"
+  },
+  "native_unc_evidence_preparation": {
+    "state": "SYNTHETIC_CONTRACTS_ONLY",
+    "windows_owner_contracts": 10,
+    "actual_wsl_mount_readback": "NOT_RUN"
+  }
+}

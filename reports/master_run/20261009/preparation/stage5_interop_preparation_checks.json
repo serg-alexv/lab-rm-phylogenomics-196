@@ -1,0 +1,61 @@
+{
+  "schema": "STAGE05_INTEROP_PREPARATION_V1",
+  "utc": "2026-10-09T20:28:43.530422+03:00",
+  "state": "PREPARED_NOT_RUN",
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "actual_wsl_invocation": "NOT_RUN",
+  "actual_windows_lock_fixture": "NOT_RUN",
+  "actual_linux_fixture": "NOT_RUN",
+  "scientific_adoption_authorized": false,
+  "actual_mounted_linux_python": "TO_BE_SUPPLIED_BY_ROOT_AFTER_STAGE4_CLOSURE",
+  "focused_negative_contract_tests": {
+    "run": 9,
+    "passed": 9,
+    "scope": "No process or WSL launch; temporary fake receipts only"
+  },
+  "help_checks": {
+    "windows_help_exit": 0,
+    "linux_worker_help_exit": 0
+  },
+  "files": {
+    "stage5_interop_smoke_windows.py": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac",
+    "stage5_interop_linux_fixture.py": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+    "test_stage5_interop_contracts.py": "ebe71fcc03de11afdaef3d4acef7cee8a60973e4058a7fb869558695e0173e99",
+    "stage5_interop_smoke.md": "995c0fdf02464e459f295a3ec5e5f1da93b4899b09dce760963b49fef5582876",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+  },
+  "lease_ttl_seconds": 3,
+  "windows_execution_deadline_seconds": 45,
+  "failure_cleanup_wait_seconds": 12,
+  "maximum_per_fixture_seconds": 60,
+  "review": "Independent source review confirmed both findings fixed; no further source blocker. Actual interop remains NOT_RUN.",
+  "independent_source_review": {
+    "reviewer": "stage5_audit subagent",
+    "status": "NO_FURTHER_SOURCE_BLOCKER",
+    "scope": "Source inspection only; actual Windows-to-WSL lifecycle NOT_RUN",
+    "windows_harness_sha256": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac",
+    "linux_worker_sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+    "findings": "Exact escaped-root exit predicate and independent birth/exit/log/closure semantic bindings confirmed"
+  },
+  "physical_windows_disk_admission_review": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "lease": "Nonempty actual Windows volume to nonnegative integer bytes",
+    "actual_linux_skipped": 3,
+    "actual_wsl_execution": "NOT_RUN",
+    "stage5_contract_passed": 30,
+    "interop_contract_passed": 9,
+    "admission": "Every supplied actual Windows volume and Linux output filesystem must meet minimum_disk_free_bytes",
+    "biological_jobs": 0,
+    "windows_owner_contract_passed": 6
+  },
+  "ext4_bind_storage_preparation": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "utc": "2026-10-09T18:25:32.9546026Z",
+    "storage_contract_passed": 9,
+    "actual_wsl_execution": "NOT_RUN",
+    "actual_mount": "NOT_RUN",
+    "biological_jobs": 0,
+    "description": "Proof-only exact fixed ext4 bind, actual boot/mount/device/inode/UUID/helper; current proof before cache and each native launch"
+  }
+}

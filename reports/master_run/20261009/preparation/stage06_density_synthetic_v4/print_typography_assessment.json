@@ -1,0 +1,57 @@
+{
+  "scope": "SYNTHETIC TYPOGRAPHY AND PRINT PROOF ONLY",
+  "actual_scientific_figure": "NOT_RUN",
+  "figure_width_mm": 180,
+  "proof_page_points": [
+    510.23622047244095,
+    547.3443092340731
+  ],
+  "source_pdf_sha256": "11ab4116c8e868c8a4b61f52bf6cb74a69621ba4cdf9add7bf611ea8af7947fd",
+  "proof_pdf_sha256": "e0d8f360e886fc8bc456617785cb9afb1f53ebae008fc8bf24de4b59487376b7",
+  "source_svg_pdf_page_points": [
+    1100,
+    1180
+  ],
+  "proof_is_vector": true,
+  "same_branches_leaders_connectors_and_all_784_ring_geometries_colors_as_v3": true,
+  "representative_helvetica_width_at_12pt": {
+    "TEST_00000001.1": 100.72800000000001,
+    "GCF_000000001.1": 102.06,
+    "SYNTHETIC_TIP_001": 120.036
+  },
+  "typography": {
+    "all_text_inside_page": true,
+    "conservative_text_bounds": "Helvetica advance width and font ascent/descent; rotated rectangles",
+    "header_to_tip_clearance_points": 11.99499999999999,
+    "intended_print_width_mm": 180.0,
+    "legend_swatch_text_overlap_count": 0,
+    "note_font_print_points": 5.102362204724409,
+    "note_font_source_points": 11.0,
+    "print_scale": 0.4638511095204009,
+    "text_overlap_count": 0,
+    "tip_font_print_points": 5.566213314244811,
+    "tip_font_source_points": 12.0,
+    "tip_north_y": 50.27199999999999,
+    "tip_south_y": 1049.728,
+    "tip_to_footer_clearance_points": 12.374000000000024
+  },
+  "raster": {
+    "width_pixels": 2126,
+    "height_pixels": 2281,
+    "dpi": 300,
+    "sha256": "d3d7bbe318e707c5f625fa528d5011e94d837ad7395d1f8f411031628806c9ac",
+    "visual_review": "All196 realistic-width synthetic labels and legends readable; no overlap/clipping or missing glyphs."
+  },
+  "focused_tests": {
+    "existing_gate_parser_contracts_passed": 17,
+    "typography_negative_contracts_passed": 3,
+    "cases": [
+      "Actual label clipping rejected",
+      "Actual SVG font drift rejected despite hash rebinding",
+      "Actual PDF font drift rejected"
+    ]
+  },
+  "utc": "2026-10-09T18:12:58.095699+00:00",
+  "minimum_adjacent_tip_metric_rectangle_gap_points": 1.6916482504991477,
+  "minimum_adjacent_tip_gap_at_180mm_points": 0.7846729179122747
+}

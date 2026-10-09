@@ -1,0 +1,48 @@
+{
+  "schema": "stage06-export-v1",
+  "dataset_kind": "SYNTHETIC",
+  "scene_sha256": "fc0967d2fcc5ba762b2e5bbbb7901d2ebaf22685d7a040dc208c644d984d7967",
+  "renderer_sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+  "provenance": {
+    "dataset_kind": "SYNTHETIC",
+    "tree_sha256": "3f3e1d5344582fc5921da37e8e89bd2d2c7f59749c51820284a4b797728acdf6",
+    "matrix_sha256": "cfd7c93377771062c2e821c1f35cba9e8a9ab39ce45b77e646174a8cb27a99dc",
+    "state_sha256": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+    "approved_sha256": "3e59fe858bb7fd2bdd1e8572ec9c6f008b9d50d8f09f48679d030907e3ec9b93",
+    "curation_status": "PASS_SYNTHETIC_CURATION_CONTRACT",
+    "documented_exception_count": 0,
+    "join_validation_sha256": "733be416a9d66e8db575cadebb22579cfa70e376e707d1b31aab7832e6eef17c",
+    "tree_validation_sha256": "21e0cee5297bd21c7dcc0731bf094bf1c18c504a4254a8f81732b1d5052e02d4",
+    "curation_validation_sha256": "5916ea00a36822d2db8a7add659032e159cf024ed19c9adb266dba90afb201ee",
+    "curation_source_manifest_sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b"
+  },
+  "tip_count": 196,
+  "cell_count": 784,
+  "runtime": {
+    "python": "3.12.14",
+    "reportlab": "4.4.9"
+  },
+  "branch_count": 390,
+  "outputs": {
+    "approved_accessions.txt": "3e59fe858bb7fd2bdd1e8572ec9c6f008b9d50d8f09f48679d030907e3ec9b93",
+    "branch_mapping.json": "bc9b41e8d0042abd813a311b8465272088a559e38efc963543c376462159444a",
+    "cell_mapping.tsv": "0aaa9ba93d48d95bc369e54dc8272a671ca1e73052838a45459626b78daf6369",
+    "circular_rm.pdf": "11ab4116c8e868c8a4b61f52bf6cb74a69621ba4cdf9add7bf611ea8af7947fd",
+    "circular_rm.svg": "c4c0821790b7bb1f555cd063172288a88046c88b33b8b356eb7de4b0dafeb6b2",
+    "curation_source_manifest.json": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+    "curation_validation.json": "5916ea00a36822d2db8a7add659032e159cf024ed19c9adb266dba90afb201ee",
+    "host_tree.nwk": "3f3e1d5344582fc5921da37e8e89bd2d2c7f59749c51820284a4b797728acdf6",
+    "host_tree_unrooted.nex": "6e9da47f7ffe56084c6ff93aecf5032350dbe9098f560a4949fe8fdb0867a2e1",
+    "itol_01_Type_I_full_state.txt": "ac1675390d994b52ec1f81cecea21f31f9dc6563f0b831d84fde1f7779d3357f",
+    "itol_02_Type_II_full_state.txt": "80874ceb3545eefb8f63d2a81a7f787a9e70f443ab4267eea6ecceead6626c6c",
+    "itol_03_Type_III_full_state.txt": "ca86e5f93639929e6dafe9ad842dd22e0c1b8b6c33aee618761f1a45d7f279e1",
+    "itol_04_Type_IV_full_state.txt": "332feff08d1c9dbbc77ed87587c0dee1776924a8b3cdbffefcaac39da5d30a46",
+    "itol_binary_convenience.txt": "316367c3718e300b6a99088d4638aac00cbbb50f261ffb51c700b559aa6e5df5",
+    "join_validation.json": "733be416a9d66e8db575cadebb22579cfa70e376e707d1b31aab7832e6eef17c",
+    "README.txt": "19f8199e0d7124a9f7cddae7015dbb40cfc6514effbff5474495dd5f36941f9f",
+    "rm_type_presence_absence.tsv": "cfd7c93377771062c2e821c1f35cba9e8a9ab39ce45b77e646174a8cb27a99dc",
+    "rm_type_state.tsv": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+    "scene.json": "c545de7a9bd968b44adc35ef5467ab9058fd2505bd000869c4bdc06687c31beb",
+    "tree_validation.json": "21e0cee5297bd21c7dcc0731bf094bf1c18c504a4254a8f81732b1d5052e02d4"
+  }
+}

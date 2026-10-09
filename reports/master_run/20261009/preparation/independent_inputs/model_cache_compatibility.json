@@ -1,0 +1,143 @@
+{
+  "status": "PASS_COMPATIBLE_MODEL_CACHE_INPUTS",
+  "utc": "2026-10-09T16:27:12.201868+00:00",
+  "scope": "Input, tool, command semantics and partial model-cache integrity compatibility only; not model ranking or scientific acceptance",
+  "cache_sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42",
+  "alignment_sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+  "partitions_sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+  "executable_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+  "seed": 1961008,
+  "model_selection": "MFP_WITHOUT_MERGING",
+  "partition_option": "-p",
+  "sequence_type": "AA",
+  "threads": 2,
+  "ultrafast_bootstrap_requested": 1000,
+  "sh_alrt_requested": 1000,
+  "keep_ident": true,
+  "boot_trees": true,
+  "native_general_checkpoint_imported": false,
+  "cache_path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v10\\analyses\\primary196\\iqtree\\host.model.gz",
+  "preserved_snapshot_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\original_v10_reconciliation_20261009T090020\\host.model.gz",
+  "compressed_bytes": 790572,
+  "uncompressed_bytes": 2209793,
+  "crc32_hex": "2d97b26f",
+  "gzip_complete_eof_crc_size_pass": true,
+  "strict_mapping_keys": 11228,
+  "partition_sections": 100,
+  "reopened_serialized_sections": {},
+  "selected_bic_records": 50,
+  "selected_bic_partition_labels": [
+    "p0002",
+    "p0003",
+    "p0004",
+    "p0005",
+    "p0007",
+    "p0008",
+    "p0010",
+    "p0011",
+    "p0012",
+    "p0013",
+    "p0014",
+    "p0018",
+    "p0019",
+    "p0020",
+    "p0022",
+    "p0023",
+    "p0025",
+    "p0026",
+    "p0027",
+    "p0028",
+    "p0029",
+    "p0031",
+    "p0032",
+    "p0033",
+    "p0034",
+    "p0035",
+    "p0036",
+    "p0037",
+    "p0039",
+    "p0040",
+    "p0041",
+    "p0042",
+    "p0045",
+    "p0059",
+    "p0063",
+    "p0064",
+    "p0065",
+    "p0073",
+    "p0076",
+    "p0083",
+    "p0084",
+    "p0085",
+    "p0088",
+    "p0089",
+    "p0091",
+    "p0092",
+    "p0093",
+    "p0096",
+    "p0097",
+    "p0100"
+  ],
+  "initial_tree_tip_mapping": "numeric0..195 tied to identical original alignment bytes/order",
+  "prefix_relocation": {
+    "supported_by_pinned_source": true,
+    "evidence": "runModelFinder sets model_info filename to current out_prefix+.model.gz, loads it, and checks partition_type. Checkpoint::load validates header then stores serialized keys without binding old prefix/path. Cache has no absolute path strings.",
+    "allowed_changes": [
+      "output namespace",
+      "external native memory limits and host admission"
+    ],
+    "required_actual_confirmation": "New native log must report restoration from new-prefix host.model.gz. Missing restoration is not cache reuse. Final full support and tree validation remain required."
+  },
+  "no_absolute_path_strings_in_cache": true,
+  "general_checkpoint_claim": "Only partial .model.gz imported; no .ckp.gz, old process lifetime or successful final inference adopted",
+  "evidence_files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\production\\LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a\\analyses\\primary196\\attempt_0001\\launch.json",
+      "sha256": "afb1386c896042787232da5ea37653e61856951901db47412ab1edc6a8dd4a48"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\original_v10_reconciliation_20261009T090020\\v10_inference_freeze.json",
+      "sha256": "94c6a2d20720f1c1d41f32f7e6c59b3104ab1efb3feb10383b10117df50afd68"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\original_v10_reconciliation_20261009T090020\\host.model.gz",
+      "sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42"
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+      "sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307"
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+      "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+      "sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\main__phylotesting.cpp",
+      "sha256": "cfae774d65f4cc0b402cdfd5c9b04575749f01f086637d2a186088ef054ab025"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__checkpoint.cpp",
+      "sha256": "81d9aebff6666d9a1729a0fc07f4c226dc47cf5cc8aba2ce60946d7632c8036f"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__checkpoint.h",
+      "sha256": "45d79f4e943b3b5a7085730984be97a10e66cce628bab29da78fe10310a587c8"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\main__phyloanalysis.cpp",
+      "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b"
+    }
+  ],
+  "checker_sha256": "bf4e1d267c0db7c06d3dfd8388281ff3788b58c62c3f7bef811969a32d3158ef",
+  "biological_inference_executed": false,
+  "official_source_urls": [
+    "https://github.com/iqtree/iqtree3/blob/v3.1.4/main/phylotesting.cpp",
+    "https://github.com/iqtree/iqtree3/blob/v3.1.4/utils/checkpoint.cpp",
+    "https://github.com/iqtree/iqtree3/blob/v3.1.4/utils/checkpoint.h",
+    "https://github.com/iqtree/iqtree3/blob/v3.1.4/main/phyloanalysis.cpp"
+  ]
+}

@@ -1,0 +1,1157 @@
+{
+  "schema": "MASTER_LOCAL_ARCHIVE_PURGE_PREPARATION_V1",
+  "utc": "2026-10-09T18:30:10.7704599Z",
+  "state": "READ_ONLY_INVENTORY_NO_ARCHIVE_NO_PURGE",
+  "scope_roots": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196"
+  ],
+  "biological_jobs": 0,
+  "wsl_starts": 0,
+  "canonical_mutations": 0,
+  "network_publications": 0,
+  "remote_coverage": "NOT_CHECKED_BY_THIS_COMPONENT",
+  "candidate_groups": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Historical synthetic figure fixture; current reviewed figure fixture is v4",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\artifact_validation.json",
+          "bytes": 629,
+          "sha256": "8b3b609bf7f82d6e83d717c9b8424a3f66298ccdddfec0550f908bbfc2291692",
+          "last_write_utc": "2026-10-09T16:56:13.227267Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\preview.png",
+          "bytes": 138696,
+          "sha256": "333b969351e53e4bdf7676bc7643ea2e0d75e5bbe284f48bb4e62cdc4cd028e7",
+          "last_write_utc": "2026-10-09T16:56:21.4505448Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\approved.txt",
+          "bytes": 68,
+          "sha256": "cbfb958f122dee5be5ac1eddebad8e858d4cbd7f08cfa8d444438edaebd7416f",
+          "last_write_utc": "2026-10-09T16:56:08.6592243Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\join.json",
+          "bytes": 514,
+          "sha256": "8a6cd33f85dad9817ee17ade6417301b8ab3c271d15f8d6d5913feb2305cb01d",
+          "last_write_utc": "2026-10-09T16:56:08.6843635Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\matrix.tsv",
+          "bytes": 143,
+          "sha256": "5d1f71a0431efc2dab31c44370a5f98ccadd83fb8568bea78e836df19388a15b",
+          "last_write_utc": "2026-10-09T16:56:08.6598092Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\state.tsv",
+          "bytes": 1435,
+          "sha256": "30f9ada679dc03dc15174a0e2bbcee0c5f24ab1df0b980d411c7655bb50e16e1",
+          "last_write_utc": "2026-10-09T16:56:08.660345Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "ddcf66527fa64b1b96962a80a3f99d3f972821fd2eb054139e6da68dda134887",
+          "last_write_utc": "2026-10-09T16:56:08.6883597Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\tree.nwk",
+          "bytes": 99,
+          "sha256": "493f1282d74d41ad0c2ed02651a28c27517fc5967d93aed833342ca859ba59bf",
+          "last_write_utc": "2026-10-09T16:56:08.6586206Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\approved_accessions.txt",
+          "bytes": 68,
+          "sha256": "cbfb958f122dee5be5ac1eddebad8e858d4cbd7f08cfa8d444438edaebd7416f",
+          "last_write_utc": "2026-10-09T16:56:08.7213355Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\branch_mapping.json",
+          "bytes": 1247,
+          "sha256": "d882b5f1af8d8d5df1d7d951a8f200e90f1520e8439154b3c932e7e233f5dd57",
+          "last_write_utc": "2026-10-09T16:56:08.7273386Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\cell_mapping.tsv",
+          "bytes": 1979,
+          "sha256": "8c982aaa80fe504a2d08289322fd481428ba41e3a488aa0a7d47f04d8c272b39",
+          "last_write_utc": "2026-10-09T16:56:08.7263374Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\circular_rm.pdf",
+          "bytes": 15572,
+          "sha256": "5938024bbe58221492275a6692653122587bb9efe8810d583d42538092048ffa",
+          "last_write_utc": "2026-10-09T16:56:10.2469998Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\circular_rm.svg",
+          "bytes": 41375,
+          "sha256": "bd1c787302f26321116ef8a9d91c67a3c9ad04ae8124fff8e6fa60a4b5250d50",
+          "last_write_utc": "2026-10-09T16:56:08.730128Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\host_tree_unrooted.nex",
+          "bytes": 140,
+          "sha256": "a0cd5c1fa7837411215085b09b33018e650d84d3e7b8dbf9ad71ff8bf989ffbf",
+          "last_write_utc": "2026-10-09T16:56:08.7243388Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\host_tree.nwk",
+          "bytes": 99,
+          "sha256": "493f1282d74d41ad0c2ed02651a28c27517fc5967d93aed833342ca859ba59bf",
+          "last_write_utc": "2026-10-09T16:56:08.7163388Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_01_Type_I_full_state.txt",
+          "bytes": 491,
+          "sha256": "fccd24800e822645b14c059fa706c400b868fc26f5b9629b0d464ae0a7b0d125",
+          "last_write_utc": "2026-10-09T16:56:10.2491955Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_02_Type_II_full_state.txt",
+          "bytes": 525,
+          "sha256": "45652daff80a982d05b0ffbcdaad221ce1118add21ba0de63c17b62b237e1309",
+          "last_write_utc": "2026-10-09T16:56:10.2497312Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_03_Type_III_full_state.txt",
+          "bytes": 481,
+          "sha256": "4845f962f09c293d66f893bb330c5523d61e6377f396698e77efa0a225225e5a",
+          "last_write_utc": "2026-10-09T16:56:10.250353Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_04_Type_IV_full_state.txt",
+          "bytes": 479,
+          "sha256": "9e2ce4ab5443bba8e409b3c616b99feb9aab7e4c269f16f675e160dc9ac1cf41",
+          "last_write_utc": "2026-10-09T16:56:10.2509107Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_binary_convenience.txt",
+          "bytes": 306,
+          "sha256": "73ae0bef428aef21e06dbdd3bf0e816429ca0af04cdd6422df1d4fce1ff88de5",
+          "last_write_utc": "2026-10-09T16:56:10.2480994Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\join_validation.json",
+          "bytes": 514,
+          "sha256": "8a6cd33f85dad9817ee17ade6417301b8ab3c271d15f8d6d5913feb2305cb01d",
+          "last_write_utc": "2026-10-09T16:56:08.7223381Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\provenance.json",
+          "bytes": 2669,
+          "sha256": "d9fb00116e08c0fb335d338ca10f35df1d7781f7092bd2aa86ddc4df6342daf0",
+          "last_write_utc": "2026-10-09T16:56:10.4955024Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\README.txt",
+          "bytes": 1427,
+          "sha256": "c1753d1ae68303640da2d2593cbb76f7525c4fdcf2114d388ee640908694fd02",
+          "last_write_utc": "2026-10-09T16:56:10.2509107Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\rm_type_presence_absence.tsv",
+          "bytes": 143,
+          "sha256": "5d1f71a0431efc2dab31c44370a5f98ccadd83fb8568bea78e836df19388a15b",
+          "last_write_utc": "2026-10-09T16:56:08.7173391Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\rm_type_state.tsv",
+          "bytes": 1435,
+          "sha256": "30f9ada679dc03dc15174a0e2bbcee0c5f24ab1df0b980d411c7655bb50e16e1",
+          "last_write_utc": "2026-10-09T16:56:08.7193398Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\scene.json",
+          "bytes": 68701,
+          "sha256": "1100a8508865b3621b113d62cfa34ac82414839fa195ec1461bf61f186322c30",
+          "last_write_utc": "2026-10-09T16:56:08.7143393Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "ddcf66527fa64b1b96962a80a3f99d3f972821fd2eb054139e6da68dda134887",
+          "last_write_utc": "2026-10-09T16:56:08.7233383Z"
+        }
+      ],
+      "file_count": 27,
+      "bytes": 279709.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Superseded synthetic density fixture; preserve historical bytes in archive",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\approved.txt",
+          "bytes": 3724,
+          "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+          "last_write_utc": "2026-10-09T17:00:35.183938Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\artifact_validation.json",
+          "bytes": 621,
+          "sha256": "b88815e387546c316ebb4a28ddbbeab0d7cb4233ef154002db613d3f50c17821",
+          "last_write_utc": "2026-10-09T17:01:51.4868057Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\join.json",
+          "bytes": 519,
+          "sha256": "dadb8387431824e9fd42a7875af692180ebb56da6a3faafca59b7cb3e72a0542",
+          "last_write_utc": "2026-10-09T17:00:35.25269Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\matrix.tsv",
+          "bytes": 5399,
+          "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+          "last_write_utc": "2026-10-09T17:00:35.183938Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\preview.png",
+          "bytes": 1395962,
+          "sha256": "ea8764220ae994fd904c856c6d398a09dbfc19b84d02ed83cbd232300505d2cf",
+          "last_write_utc": "2026-10-09T17:02:01.3138605Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\state.tsv",
+          "bytes": 66495,
+          "sha256": "27ea6b480656ffa59ac08ea9ae124c2a84f78e281a39a41b60705fb1eb111258",
+          "last_write_utc": "2026-10-09T17:00:35.1879599Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+          "last_write_utc": "2026-10-09T17:00:35.25269Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\tree.nwk",
+          "bytes": 7239,
+          "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+          "last_write_utc": "2026-10-09T17:00:35.181927Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\approved_accessions.txt",
+          "bytes": 3724,
+          "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+          "last_write_utc": "2026-10-09T17:00:35.3565919Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\branch_mapping.json",
+          "bytes": 137113,
+          "sha256": "80572ba0ad8dccea70ff84f9f5a05c28d7f24c6659cf85aff52eedb2c06cad8d",
+          "last_write_utc": "2026-10-09T17:00:35.3724094Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\cell_mapping.tsv",
+          "bytes": 100095,
+          "sha256": "999efc0fe0c0bfc159d1eb4e2c2a6fea654243d7b43cdc8b86dbe6e7610372e0",
+          "last_write_utc": "2026-10-09T17:00:35.3658891Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\circular_rm.pdf",
+          "bytes": 66439,
+          "sha256": "ca1f2749ec714d8a556ced8cf283ff40231f08987cdd20c94283371e31f0e898",
+          "last_write_utc": "2026-10-09T17:00:35.6689042Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\circular_rm.svg",
+          "bytes": 411813,
+          "sha256": "ed7e3accb607b28f3155a8040c52b42aab504a339e7c2fb49073ffc01bd66530",
+          "last_write_utc": "2026-10-09T17:00:35.3854067Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\host_tree_unrooted.nex",
+          "bytes": 7280,
+          "sha256": "d8dfd8a953473877df1852da19623acf2c07a941998ddfe48875f1bcb6f4700e",
+          "last_write_utc": "2026-10-09T17:00:35.3586021Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\host_tree.nwk",
+          "bytes": 7239,
+          "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+          "last_write_utc": "2026-10-09T17:00:35.3533872Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_01_Type_I_full_state.txt",
+          "bytes": 7909,
+          "sha256": "bd8f291cfd3385483e621961ea5e493cc75f3206f91cb41fb57a68eea37b0f71",
+          "last_write_utc": "2026-10-09T17:00:35.6704123Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_02_Type_II_full_state.txt",
+          "bytes": 7957,
+          "sha256": "49225dd170374be45379d90b9de295ef97723a3c59dbcba8e0efcd6c01d1f90a",
+          "last_write_utc": "2026-10-09T17:00:35.6724285Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_03_Type_III_full_state.txt",
+          "bytes": 7913,
+          "sha256": "1290e95007d270e9b3510fd845a0e3a7a439bf5099105e4a9fb53cceba4e1ff6",
+          "last_write_utc": "2026-10-09T17:00:35.6724285Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_04_Type_IV_full_state.txt",
+          "bytes": 7911,
+          "sha256": "2fe110ed7c0ae2ac3ee704858ad70fd229ba32bdf4e0096141ace2d5bcf91744",
+          "last_write_utc": "2026-10-09T17:00:35.6746031Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_binary_convenience.txt",
+          "bytes": 5562,
+          "sha256": "7f05fea65f9fda67e8bbc68eeedb7fc6fbf884a8f76a96db0d62efcbc39bb288",
+          "last_write_utc": "2026-10-09T17:00:35.6704123Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\join_validation.json",
+          "bytes": 519,
+          "sha256": "dadb8387431824e9fd42a7875af692180ebb56da6a3faafca59b7cb3e72a0542",
+          "last_write_utc": "2026-10-09T17:00:35.3565919Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\provenance.json",
+          "bytes": 2744,
+          "sha256": "16df38263565a2048303b14d2a634d4bfc7a5cdeb491087dedc5382ae1042257",
+          "last_write_utc": "2026-10-09T17:00:35.9383257Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\README.txt",
+          "bytes": 1427,
+          "sha256": "c1753d1ae68303640da2d2593cbb76f7525c4fdcf2114d388ee640908694fd02",
+          "last_write_utc": "2026-10-09T17:00:35.6746031Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\rm_type_presence_absence.tsv",
+          "bytes": 5399,
+          "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+          "last_write_utc": "2026-10-09T17:00:35.3545694Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\rm_type_state.tsv",
+          "bytes": 66495,
+          "sha256": "27ea6b480656ffa59ac08ea9ae124c2a84f78e281a39a41b60705fb1eb111258",
+          "last_write_utc": "2026-10-09T17:00:35.3545694Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\scene.json",
+          "bytes": 886677,
+          "sha256": "d5ab229868c8086348d9cccdb2151bdb087ed8e9eb6a03c1964d5cd4512a24bc",
+          "last_write_utc": "2026-10-09T17:00:35.3511744Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+          "last_write_utc": "2026-10-09T17:00:35.3586021Z"
+        }
+      ],
+      "file_count": 27,
+      "bytes": 3214649.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Superseded synthetic figure iteration; current reviewed fixture is v4",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\approved.txt",
+          "bytes": 3724,
+          "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+          "last_write_utc": "2026-10-09T17:07:48.4495004Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\artifact_validation_final.json",
+          "bytes": 621,
+          "sha256": "ada92238b05be2b129e945b4b35a54cae41e03ab000053ab6f19f45e6ad6f1f4",
+          "last_write_utc": "2026-10-09T17:10:33.0783284Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\artifact_validation.json",
+          "bytes": 634,
+          "sha256": "1a2c9f6acd4ff0f35ac8b3189b69d01959ea0a0303fe81a9f39b53881f975bac",
+          "last_write_utc": "2026-10-09T17:07:51.0674685Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\curation_source_manifest.json",
+          "bytes": 109,
+          "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+          "last_write_utc": "2026-10-09T17:07:48.4918648Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\curation_validation.json",
+          "bytes": 593,
+          "sha256": "a699e4bf9745b4784bab27e0f3c05eb2bcd33b5f269a52df1064262a2ee894ed",
+          "last_write_utc": "2026-10-09T17:07:48.5120066Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\join.json",
+          "bytes": 519,
+          "sha256": "923e6e7ea4d3cfc1254fba83e65f10c2a19d4f4d6a24011a74cbb142d3c7bfdc",
+          "last_write_utc": "2026-10-09T17:07:48.4894666Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\matrix.tsv",
+          "bytes": 5399,
+          "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+          "last_write_utc": "2026-10-09T17:07:48.4515345Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\preview.png",
+          "bytes": 1000140,
+          "sha256": "c73a156fe9b9312b646e5274299d8fcf551393437a4d64736a5d288f1dbf6c3c",
+          "last_write_utc": "2026-10-09T17:08:02.2326331Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\state.tsv",
+          "bytes": 64143,
+          "sha256": "dab3af9c380f3adf7c1bab5b883e8350c5f153dd15df3e40729fe305ba1c7786",
+          "last_write_utc": "2026-10-09T17:07:48.4556189Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+          "last_write_utc": "2026-10-09T17:07:48.4908054Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\tree.nwk",
+          "bytes": 7239,
+          "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+          "last_write_utc": "2026-10-09T17:07:48.4495004Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\approved_accessions.txt",
+          "bytes": 3724,
+          "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+          "last_write_utc": "2026-10-09T17:07:48.7042396Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\branch_mapping.json",
+          "bytes": 137113,
+          "sha256": "80572ba0ad8dccea70ff84f9f5a05c28d7f24c6659cf85aff52eedb2c06cad8d",
+          "last_write_utc": "2026-10-09T17:07:48.7863182Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\cell_mapping.tsv",
+          "bytes": 101663,
+          "sha256": "3f34602197e566b566806d7995e6a5d6f1c993615d6530e07afb6d5ef5db6be8",
+          "last_write_utc": "2026-10-09T17:07:48.736511Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\circular_rm.pdf",
+          "bytes": 66636,
+          "sha256": "855ae6d046b318a0bf8e06cf7cb0ac9ab731366023d4f7e488ab114ac5ad26ef",
+          "last_write_utc": "2026-10-09T17:07:49.4547702Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\circular_rm.svg",
+          "bytes": 412050,
+          "sha256": "fac90018dde891bfa86e0530ff34b0c8d26881180ffcd9c5ee5e8ab52988f02d",
+          "last_write_utc": "2026-10-09T17:07:48.8057466Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\curation_source_manifest.json",
+          "bytes": 109,
+          "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+          "last_write_utc": "2026-10-09T17:07:48.7227362Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\curation_validation.json",
+          "bytes": 593,
+          "sha256": "a699e4bf9745b4784bab27e0f3c05eb2bcd33b5f269a52df1064262a2ee894ed",
+          "last_write_utc": "2026-10-09T17:07:48.7206995Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\host_tree_unrooted.nex",
+          "bytes": 7280,
+          "sha256": "d8dfd8a953473877df1852da19623acf2c07a941998ddfe48875f1bcb6f4700e",
+          "last_write_utc": "2026-10-09T17:07:48.7247708Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\host_tree.nwk",
+          "bytes": 7239,
+          "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+          "last_write_utc": "2026-10-09T17:07:48.6936744Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_01_Type_I_full_state.txt",
+          "bytes": 7909,
+          "sha256": "bd8f291cfd3385483e621961ea5e493cc75f3206f91cb41fb57a68eea37b0f71",
+          "last_write_utc": "2026-10-09T17:07:49.4642253Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_02_Type_II_full_state.txt",
+          "bytes": 7957,
+          "sha256": "49225dd170374be45379d90b9de295ef97723a3c59dbcba8e0efcd6c01d1f90a",
+          "last_write_utc": "2026-10-09T17:07:49.4689249Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_03_Type_III_full_state.txt",
+          "bytes": 7913,
+          "sha256": "1290e95007d270e9b3510fd845a0e3a7a439bf5099105e4a9fb53cceba4e1ff6",
+          "last_write_utc": "2026-10-09T17:07:49.470651Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_04_Type_IV_full_state.txt",
+          "bytes": 7911,
+          "sha256": "2fe110ed7c0ae2ac3ee704858ad70fd229ba32bdf4e0096141ace2d5bcf91744",
+          "last_write_utc": "2026-10-09T17:07:49.4735443Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_binary_convenience.txt",
+          "bytes": 5562,
+          "sha256": "7f05fea65f9fda67e8bbc68eeedb7fc6fbf884a8f76a96db0d62efcbc39bb288",
+          "last_write_utc": "2026-10-09T17:07:49.4588418Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\join_validation.json",
+          "bytes": 519,
+          "sha256": "923e6e7ea4d3cfc1254fba83e65f10c2a19d4f4d6a24011a74cbb142d3c7bfdc",
+          "last_write_utc": "2026-10-09T17:07:48.7122693Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\provenance.json",
+          "bytes": 3158,
+          "sha256": "dafaf3bbbc2f5413ec07427974bacdfbe0210f3a0a0ea2dbb0579f38f05b2a88",
+          "last_write_utc": "2026-10-09T17:07:49.6431462Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\README.txt",
+          "bytes": 1600,
+          "sha256": "001148077659002b88d4a1a2acc9c57c897e0215e1f13ec9f19e48029e88a850",
+          "last_write_utc": "2026-10-09T17:07:49.4758835Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\rm_type_presence_absence.tsv",
+          "bytes": 5399,
+          "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+          "last_write_utc": "2026-10-09T17:07:48.6966861Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\rm_type_state.tsv",
+          "bytes": 64143,
+          "sha256": "dab3af9c380f3adf7c1bab5b883e8350c5f153dd15df3e40729fe305ba1c7786",
+          "last_write_utc": "2026-10-09T17:07:48.6992378Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\scene.json",
+          "bytes": 888442,
+          "sha256": "03da40c75ae0ed14b113371693e92490f2640c2571b8b71b509d43d858084ede",
+          "last_write_utc": "2026-10-09T17:07:48.6916763Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\tree_validation.json",
+          "bytes": 237,
+          "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+          "last_write_utc": "2026-10-09T17:07:48.7186595Z"
+        }
+      ],
+      "file_count": 32,
+      "bytes": 2820515.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Generated Python bytecode; preserve source/tests and optionally archive bytecode",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\atomic_iqtree_windows.cpython-312.pyc",
+          "bytes": 67323,
+          "sha256": "c066f29f3a09667b14c177c922392ba2d0ffca9f11a0d5a27784737051d9cb76",
+          "last_write_utc": "2026-10-09T17:24:25.0209019Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\atomic_iqtree_windows.cpython-314.pyc",
+          "bytes": 72073,
+          "sha256": "5b9a12a59055f03bf802adcf1b432f23edfb728442253562c672b175096691e4",
+          "last_write_utc": "2026-10-09T16:26:20.4319086Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\check_stage06_outputs.cpython-312.pyc",
+          "bytes": 28960,
+          "sha256": "7fa7c74799fab16ae825701860cca6d86208254678a043fb90d9a42a2a2d868b",
+          "last_write_utc": "2026-10-09T17:15:22.2027307Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\independent_tree_check.cpython-314.pyc",
+          "bytes": 29896,
+          "sha256": "7dd898e780054900b79b231fd8dcdbde94a9e999fba1e40391e6e1f190698152",
+          "last_write_utc": "2026-10-09T16:57:18.7691047Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\publish_bootstrap.cpython-314.pyc",
+          "bytes": 18084,
+          "sha256": "d44da17c9d9300735565a025395dc91adc9ab2d85454a09bf7693f411580a84a",
+          "last_write_utc": "2026-10-09T16:21:45.4748594Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\publish_stage4_primary.cpython-314.pyc",
+          "bytes": 22385,
+          "sha256": "e3c0996f36c01217da50dfc07a6ab3129bd6535a6bb92fed30029dbaab04bccf",
+          "last_write_utc": "2026-10-09T18:28:35.0003848Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\resource_maintenance.cpython-314.pyc",
+          "bytes": 18220,
+          "sha256": "f14ff5c8139cf4b533cdc79c2cd68347d512b794c1d0b70a4aaa4a646611fcc7",
+          "last_write_utc": "2026-10-09T16:14:45.2592595Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage06_render.cpython-312.pyc",
+          "bytes": 52451,
+          "sha256": "431cc624b3154623f6838cb641503ee7430901a4722700aa04b27b0f7f8226ac",
+          "last_write_utc": "2026-10-09T17:30:02.6429902Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic_process.cpython-312.pyc",
+          "bytes": 32491,
+          "sha256": "c5fbcb96096162b1d95c6a350dc5165adcaa48ce6b9856cf4e649a37f0d08c3c",
+          "last_write_utc": "2026-10-09T17:24:25.0778939Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic_process.cpython-314.pyc",
+          "bytes": 35108,
+          "sha256": "a1a3a156c7defe3fd59385469e526448e6b7151b450093a6e89792e37d9b2840",
+          "last_write_utc": "2026-10-09T17:05:54.8175443Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic.cpython-314.pyc",
+          "bytes": 48479,
+          "sha256": "3fb805dde50cfff33464ac8ad32e380a4d96707e39256b004234acfb360f0b5e",
+          "last_write_utc": "2026-10-09T17:05:54.7702301Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_interop_smoke_windows.cpython-312.pyc",
+          "bytes": 22425,
+          "sha256": "4471e1c703bdbca659818a9091fe324032b9c6857b389d0f4b86f2bced0775a4",
+          "last_write_utc": "2026-10-09T17:27:48.3044254Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_windows_owner.cpython-314.pyc",
+          "bytes": 21601,
+          "sha256": "b5fd5af6c6974ca892c414897f8a4cd38c6b9b6818431235ed209438109afb00",
+          "last_write_utc": "2026-10-09T17:05:54.6549637Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_atomic_iqtree_windows.cpython-314.pyc",
+          "bytes": 10788,
+          "sha256": "b8df1058eabb52b1d889df73e2a2acca0addc1f3336b99ec1d3bfe316e713292",
+          "last_write_utc": "2026-10-09T16:26:20.4106474Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_stage06_render.cpython-312.pyc",
+          "bytes": 22090,
+          "sha256": "8619625cd6378c2dff41c03b4658cbb68c88afafaf7e9b470f183b6645e2860a",
+          "last_write_utc": "2026-10-09T17:30:02.609785Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_stage5_interop_contracts.cpython-312.pyc",
+          "bytes": 9716,
+          "sha256": "ed57ed7d7751e890aeb4771f8359d771a840e2d8e07e8c1d4fe64b75969b1166",
+          "last_write_utc": "2026-10-09T17:27:48.2771652Z"
+        }
+      ],
+      "file_count": 16,
+      "bytes": 512090.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Historical nested lock serialization fixture; not original stable workflow.lock",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600\\.work\\v5_resource_wait.lock",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "last_write_utc": "2026-10-08T19:38:14.9550444Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600\\.work\\workflow.lock",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "last_write_utc": "2026-10-08T19:38:12.4540801Z"
+        }
+      ],
+      "file_count": 2,
+      "bytes": 0.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "Historical ZIP extraction/readback copy; compare every member to verified Stage02 release before purge",
+      "required_gate": "EXACT_RELEASE_MEMBER_COVERAGE_REQUIRED",
+      "duplicate_of": null,
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\AGENTS.md",
+          "bytes": 2031,
+          "sha256": "2cde0013b33b0a870e9f2a0236f5ac0df042d7b5af92aab9273c231740c894cb",
+          "last_write_utc": "2026-10-08T11:37:18Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\README.txt",
+          "bytes": 962,
+          "sha256": "a26029004f943aedee0f09dc9034c2b5531450100cef03cd4de4ce68bdcd85d7",
+          "last_write_utc": "2026-10-08T13:07:50Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\SHA256SUMS.txt",
+          "bytes": 2774,
+          "sha256": "c83f7dd31388ff4edcab9df8dbfc1da927f8c3f7b8dda852690380eb2a3b5385",
+          "last_write_utc": "2026-10-08T13:07:50Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\WORK_ORDER.md",
+          "bytes": 17223,
+          "sha256": "b55f50961ab3a7529610a24c27e1e07546497192798e33660c0e974fd8fa616a",
+          "last_write_utc": "2026-10-08T11:31:32Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approval.json",
+          "bytes": 917,
+          "sha256": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+          "last_write_utc": "2026-10-08T11:35:46Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approved_accessions.txt",
+          "bytes": 3332,
+          "sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+          "last_write_utc": "2026-10-08T11:35:46Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approved_panel.tsv",
+          "bytes": 1089055,
+          "sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf",
+          "last_write_utc": "2026-10-08T11:35:46Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\host_primary.json",
+          "bytes": 2505,
+          "sha256": "5788ca61cd097e2278dc5f6e6708661ef6dfb51fec699d6a6e2c6f2ab1b95c31",
+          "last_write_utc": "2026-10-08T12:40:26Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\assembly_qc.csv",
+          "bytes": 47307,
+          "sha256": "7cbae551ca7e84575dee993439555ade0836545264b6b5f2694c994da4eadcab",
+          "last_write_utc": "2026-10-08T13:04:14Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\assembly_qc.tsv",
+          "bytes": 47110,
+          "sha256": "aaf510067a229f8c4f4444345506dc1c65169dcce7a77f6d574840b301d4b99e",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\errors.tsv",
+          "bytes": 41,
+          "sha256": "3f6962bd8c745e44f91a8d1a6b1524779a327bce2426cd5f4c2a80fdfb927df2",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\member_sha256.tsv",
+          "bytes": 255509,
+          "sha256": "b1dca123e6d0e04a54ff7567e1a14804ace21faacb4fa52a78e9a827697a8b9f",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\negative_parser_tests.json",
+          "bytes": 1601,
+          "sha256": "b36e585f75cacd6b783ce2645bb8186c9371cfdda412a88b947e0d098f430539",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\replicon_qc.tsv",
+          "bytes": 385608,
+          "sha256": "e46d7ea029f792239578f15a43861b2a558b3df91f493bfb2f0da94aa1d1af3d",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\REPORT.md",
+          "bytes": 2909,
+          "sha256": "4c48400227aeae96b6dabf3e870d69c23e131bcc9b838695bf9081816f027a19",
+          "last_write_utc": "2026-10-08T13:04:14Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\restart_cache_audit.json",
+          "bytes": 33894,
+          "sha256": "7673b338cd6f8f1abb6fbc0f77334bf0b7684e9dadc902dae2cb5dd3c9bc735d",
+          "last_write_utc": "2026-10-08T12:30:16Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\review_exceptions.tsv",
+          "bytes": 3830127,
+          "sha256": "bfaaf33d1af5ce87ffae96360ad707f4b75814fdf2eedd0536fe29e5b12fc6b4",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\validation_summary.json",
+          "bytes": 1521,
+          "sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+          "last_write_utc": "2026-10-08T13:04:02Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\validator_review_evidence.json",
+          "bytes": 2721,
+          "sha256": "0ddb77c421cf90cfd320e0f9c2c54aa44eaa13db1e581b8db2a0954c71dfbc92",
+          "last_write_utc": "2026-10-08T12:51:12Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\VALIDATOR_REVIEW.md",
+          "bytes": 5474,
+          "sha256": "a6dde51a8d39ad426a722ab261449f68554933f9e6dbef4b7d4c7da1ce9fdf88",
+          "last_write_utc": "2026-10-08T12:52:36Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\acquisition_v2.py",
+          "bytes": 8744,
+          "sha256": "831e9b2c9066496dcfabcb22fcd0860486abf9edd7a02cee9df84911554fb98b",
+          "last_write_utc": "2026-10-08T12:42:54Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\finalize_stage02.py",
+          "bytes": 16201,
+          "sha256": "700a2601ddce90c2d8d45c49462f7ad5b97a0812f490f7b7854fb284883c9342",
+          "last_write_utc": "2026-10-08T13:03:56Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\install_offline_tools.sh",
+          "bytes": 1702,
+          "sha256": "58581cc0cc39ed4d82e03a484dfb59fb2d06b8f55be318a0398c0de2b35b6e20",
+          "last_write_utc": "2026-10-08T12:47:40Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\production_resume.py",
+          "bytes": 17870,
+          "sha256": "daf4e33c502ed0de7f592eeeb513eedd18bc8d5d265435792ef5f5fa2f325d82",
+          "last_write_utc": "2026-10-08T12:37:12Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\recover_restart.py",
+          "bytes": 5054,
+          "sha256": "6399b0c700849da52edd1ffb55a56481e1ca31d09d37aed0e8adfb05422b5f79",
+          "last_write_utc": "2026-10-08T12:29:30Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\stage_tool_packages.py",
+          "bytes": 1553,
+          "sha256": "252442685fb3e36ee74fdc11d19634375f356cbf228b39356b2de9b864a8612c",
+          "last_write_utc": "2026-10-08T11:59:40Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\validate_sequences.py",
+          "bytes": 48368,
+          "sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+          "last_write_utc": "2026-10-08T12:48:38Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\validate_stage02_locked.py",
+          "bytes": 1846,
+          "sha256": "f90e6778982f1161231205f16b7f7615143cc6ecd07809fb9c55de47da6e5c11",
+          "last_write_utc": "2026-10-08T13:02:38Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\workflow_publication.py",
+          "bytes": 2135,
+          "sha256": "821f0a8c7e8b89b083d0aaf3a3a4d88f107184b459feae6947611cff26f44354",
+          "last_write_utc": "2026-10-08T12:29:30Z"
+        },
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\wsl_project.sh",
+          "bytes": 679,
+          "sha256": "8f738f47af1bc7000bfda0c32d74cc7be174faac0dd97f335aea67923c720182",
+          "last_write_utc": "2026-10-08T12:54:54Z"
+        }
+      ],
+      "file_count": 30,
+      "bytes": 5836773.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\main__phyloanalysis.cpp",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical copy in independent_inputs/iqtree314_source",
+      "required_gate": "SOURCE_REVIEW_FINISHED_AND_ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\main__phyloanalysis.cpp",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\main__phyloanalysis.cpp",
+          "bytes": 277803,
+          "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+          "last_write_utc": "2026-10-09T17:35:04.3261836Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 277803.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__iqtree.cpp",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical copy in independent_inputs/iqtree314_source",
+      "required_gate": "SOURCE_REVIEW_FINISHED_AND_ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__iqtree.cpp",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__iqtree.cpp",
+          "bytes": 180963,
+          "sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c",
+          "last_write_utc": "2026-10-09T17:35:03.157778Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 180963.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__phylotree.cpp",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical copy in independent_inputs/iqtree314_source",
+      "required_gate": "SOURCE_REVIEW_FINISHED_AND_ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\tree__phylotree.cpp",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__phylotree.cpp",
+          "bytes": 228968,
+          "sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551",
+          "last_write_utc": "2026-10-09T17:35:02.5449402Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 228968.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\utils__tools.cpp",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical copy in independent_inputs/iqtree314_source",
+      "required_gate": "SOURCE_REVIEW_FINISHED_AND_ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs\\iqtree314_source\\utils__tools.cpp",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\utils__tools.cpp",
+          "bytes": 668454,
+          "sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979",
+          "last_write_utc": "2026-10-09T17:35:05.966859Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 668454.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardam8oubgc13",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical historical mamba package index temporary shard",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\eb045dd1.msgpack.zst",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardam8oubgc13",
+          "bytes": 977472,
+          "sha256": "2b1a76afe7cec90dbdd9a46d750292bc47bb56fed134a1a6a1d0bc8a7a952d1a",
+          "last_write_utc": "2026-10-08T11:52:46.8653467Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 977472.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "2b1a76afe7cec90dbdd9a46d750292bc47bb56fed134a1a6a1d0bc8a7a952d1a"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardcp7js6sx23",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical historical mamba package index temporary shard",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\2cba1db7.msgpack.zst",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardcp7js6sx23",
+          "bytes": 348721,
+          "sha256": "2e51782fdc2b073da2e21f098d2a0aa37f6aa495a04ef8bbc3140cf252e029e8",
+          "last_write_utc": "2026-10-08T11:53:15.0437139Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 348721.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "2e51782fdc2b073da2e21f098d2a0aa37f6aa495a04ef8bbc3140cf252e029e8"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardolg4k3mvvn",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical historical mamba package index temporary shard",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\88ec62ec.msgpack.zst",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardolg4k3mvvn",
+          "bytes": 572412,
+          "sha256": "0cedb67b517aa5c9d3a0c1568ac33339412414d4e00203851eb1699713537cad",
+          "last_write_utc": "2026-10-08T11:52:45.2320032Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 572412.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "0cedb67b517aa5c9d3a0c1568ac33339412414d4e00203851eb1699713537cad"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardu9nekrnbyj",
+      "classification": "ARCHIVE_THEN_PURGE_CANDIDATE_NOT_EXECUTED",
+      "reason": "SHA256-identical historical mamba package index temporary shard",
+      "required_gate": "ARCHIVE_REMOTE_VERIFIED",
+      "duplicate_of": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\004b720f.msgpack.zst",
+      "files": [
+        {
+          "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardu9nekrnbyj",
+          "bytes": 276088,
+          "sha256": "c7881af6b1ef3ee4f4cf24240e3612406fde43b77a3bceb333f699411f86126c",
+          "last_write_utc": "2026-10-08T11:53:13.4528895Z"
+        }
+      ],
+      "file_count": 1,
+      "bytes": 276088.0,
+      "remote_coverage_verified": false,
+      "deletion_authorized_now": false,
+      "duplicate_sha256": "c7881af6b1ef3ee4f4cf24240e3612406fde43b77a3bceb333f699411f86126c"
+    }
+  ],
+  "protected_scopes": [
+    {
+      "reason": "Actual currently active native scientific attempt; mutable output hashes deliberately not inventoried",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_attempts\\partitioned_20261009T162904Z"
+    },
+    {
+      "reason": "Exact running launch config source",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_partitioned_config.json"
+    },
+    {
+      "reason": "Live controller and shared Win32 workflow/resource API",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py"
+    },
+    {
+      "reason": "Original stable byte lock; never replace/move/delete while any owner can use it",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock"
+    },
+    {
+      "reason": "Actual pinned native IQTREE executable and runtime DLLs",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4"
+    },
+    {
+      "reason": "Retained active future Stage5 Linux environment/models/DB; 8589934592 bytes",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\toolchain.ext4"
+    },
+    {
+      "reason": "Live Linux toolchain mountpoint, empty in Windows view is expected",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\linux"
+    },
+    {
+      "reason": "Retained pinned primary models/DB reconstruction archives; 216188778 bytes",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\source_archives"
+    },
+    {
+      "reason": "Expanded package cache931843505 bytes/28605 files; native prefix hardlink/source independence not established",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba\\pkgs"
+    },
+    {
+      "reason": "Retained installed Linux prefix, byte equivalence to mounted image and future dependencies not established",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\host_env"
+    },
+    {
+      "reason": "Retained Python validation environment; no proof of all validation dependency obsolescence",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env"
+    },
+    {
+      "reason": "Old clone metadata may hold unpushed/dirty history; remote reachability not audited by this task",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.git"
+    },
+    {
+      "reason": "Real prior accepted inputs/cache/checkpoints/closure/UNKNOWN/failure evidence; only explicit nested candidates above eligible for later review",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work"
+    },
+    {
+      "reason": "Prior owner/task/closure evidence; private data needs separate remote archival review before purge",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.private_run"
+    },
+    {
+      "reason": "Actual publication/resource/mount evidence plus six dirty tracked snapshots; complete remote coverage not established",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap"
+    },
+    {
+      "reason": "Actual executed synthetic Win32 lifecycle proof used by current run; preserve all launch/exit/lock receipts",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\native_smoke_01"
+    },
+    {
+      "reason": "Current accepted-input/cache/fallback/duplicate-alignment audit and retained source references",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\independent_inputs"
+    },
+    {
+      "reason": "Geometry comparator supporting the current v4 independent review; keep until archived together",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v3"
+    },
+    {
+      "reason": "Current reviewed synthetic visual/layout proof; not a scientific figure",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_v4"
+    },
+    {
+      "reason": "Current reviewed Stage5 scientific follow-on implementation and pinned retained policy/core",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_curation"
+    },
+    {
+      "reason": "Current proof helper, future live mount gate",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_work_storage.py"
+    },
+    {
+      "reason": "Pinned historical remote snapshot, not current remote main; preserve as historical evidence",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\remote_audit"
+    }
+  ],
+  "candidate_file_count": 142.0,
+  "candidate_bytes": 16194617.0,
+  "notes": [
+    "Candidate hashes are small bounded reads; no active mutable checkpoint or8GiB image hashing.",
+    "All candidates require exact hash recheck and new independent GitHub readback/member coverage before any delete.",
+    "No deletion command is provided or executed.",
+    "Unknown/failed/partial real evidence stays preserved; absence of a current process is not closure proof.",
+    "Project-specific scope only; no WSL virtual disk, swap file, system package cache or unrelated chat cleanup."
+  ]
+}

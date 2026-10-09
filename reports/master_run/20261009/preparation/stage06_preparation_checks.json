@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-09T18:15:45.359965+00:00",
+  "scope": "SYNTHETIC ONLY: no real tree/matrix, WSL boot, biology or repository writes",
+  "focused_tests_run": 20,
+  "focused_tests_pass": true,
+  "test_output": "17 gate/parser contracts PASS;3 affected typography negative contracts PASS.",
+  "files": {
+    "stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "check_stage06_outputs.py": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+    "test_stage06_render.py": "d34dba97d5935fee4330ec1ce9fb5fded24f24c32ca0462de9a5ab062b59bd49",
+    "make_stage06_density_fixture.py": "9170fc085e3d309439b7f14c1d7197b66dee6777e9fb36ca33b26b784119a1f0",
+    "stage06_preparation.md": "8c80166deed4055f263b5600bcfa5e64fffb4523ab4d133e8b67076ee59922c8"
+  },
+  "artifact_validation_final_sha256": "7464b228248a2315a27262af575f910dc8cfbabcacbd3135f5042a372e8a2431",
+  "preview_sha256": "d3d7bbe318e707c5f625fa528d5011e94d837ad7395d1f8f411031628806c9ac",
+  "visual_review": "All 196 realistic-width synthetic labels and legends readable at 180 mm / 300 dpi; no overlap, clipping or missing glyphs.",
+  "native_R_plotting_readiness": "NOT_ESTABLISHED: retained Rscript is Linux; no WSL boot or installs",
+  "production_scientific_render": "NOT_RUN: requires actual accepted tree, independent scientific curation (ordinary or qualified documented exceptions), and exact join",
+  "itol_server_import": "NOT_RUN",
+  "artifact_directory": "work\\stage06_density_synthetic_v4",
+  "independent_source_review": {
+    "reviewer": "input_validation subagent",
+    "status": "PASS_TYPOGRAPHY_SOURCE_VECTOR_AND_VISUAL_REVIEW",
+    "scope": "Actual source+synthetic vector proof+300dpi inspection; no real scientific figure or WSL/G execution.",
+    "renderer_sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "checker_sha256": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+    "review_file": "work/stage06_review/source_proof_review.json",
+    "review_sha256": "fb1cd25e3e7e7ae580b0da74029124782c9c8e04040c60183265a60b1c9c204c",
+    "findings": "Actual Helvetica text baselines metric-centered; printproof uniform180mm vector scaling only; all206text objects and196tip labels; no overlap/clipping; all prior branch/leader/ring points andcolors unchanged."
+  },
+  "production_gate": "Both production curation statuses require operational_closure_verified is True; unproven closure accounting cannot authorize a figure.",
+  "synthetic_producer_source_sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+  "typography": {
+    "all_text_inside_page": true,
+    "conservative_text_bounds": "Helvetica advance width and font ascent/descent; rotated rectangles",
+    "header_to_tip_clearance_points": 11.99499999999999,
+    "intended_print_width_mm": 180.0,
+    "legend_swatch_text_overlap_count": 0,
+    "note_font_print_points": 5.102362204724409,
+    "note_font_source_points": 11.0,
+    "print_scale": 0.4638511095204009,
+    "text_overlap_count": 0,
+    "tip_font_print_points": 5.566213314244811,
+    "tip_font_source_points": 12.0,
+    "tip_north_y": 50.27199999999999,
+    "tip_south_y": 1049.728,
+    "tip_to_footer_clearance_points": 12.374000000000024
+  },
+  "minimum_adjacent_tip_metric_rectangle_gap_points": 1.6916482504991477
+}

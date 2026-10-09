@@ -1,0 +1,28 @@
+{
+  "schema": "STAGE06_INDEPENDENT_TYPOGRAPHY_SOURCE_PROOF_REVIEW_V1",
+  "status": "PASS_SYNTHETIC_SOURCE_VECTOR_AND_VISUAL_REVIEW",
+  "dataset_kind": "SYNTHETIC",
+  "actual_scientific_figure": "NOT_RUN",
+  "biological_jobs": 0,
+  "WSL_starts": 0,
+  "canonical_repository_mutations": 0,
+  "actual_PDF_text_objects": 206,
+  "actual_tip_labels": 196,
+  "source_vector_operator_identity_after_uniform_print_scaling": true,
+  "v3_v4_branches_connectors_leaders_and_ring_geometry_colors_identical": true,
+  "actual_metric_centered_tip_baselines": true,
+  "print_width_mm": 180,
+  "actual_tip_font_print_points": 5.566213314244811,
+  "actual_note_font_print_points": 5.102362204724409,
+  "visual_review": "Inspected existing 300dpi proof at 2126x2281: all tip labels distinct, no visible collisions/clipping, rings and legend clear. Small 180mm physical text size is explicitly reported.",
+  "source_review": "Helvetica metric rectangle transforms and separating-axis overlap tests are coherent; independent checker binds actual SVG attributes and actual PDF Helvetica transforms/fonts before bounds/overlap checks.",
+  "operational_limitations": "Synthetic visual/layout review only. iTOL server/UI import and actual accepted biological render remain NOT_RUN.",
+  "files": {
+    "work\\stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "work\\check_stage06_outputs.py": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+    "work\\stage06_density_synthetic_v4\\render\\circular_rm.pdf": "11ab4116c8e868c8a4b61f52bf6cb74a69621ba4cdf9add7bf611ea8af7947fd",
+    "work\\stage06_density_synthetic_v4\\print_proof_180mm.pdf": "e0d8f360e886fc8bc456617785cb9afb1f53ebae008fc8bf24de4b59487376b7",
+    "work\\stage06_density_synthetic_v4\\print_proof_180mm_300dpi.png": "d3d7bbe318e707c5f625fa528d5011e94d837ad7395d1f8f411031628806c9ac",
+    "work\\stage06_density_synthetic_v4\\artifact_validation_typography.json": "7464b228248a2315a27262af575f910dc8cfbabcacbd3135f5042a372e8a2431"
+  }
+}

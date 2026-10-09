@@ -1,0 +1,298 @@
+{
+  "utc": "2026-10-09T16:13:24.910892+00:00",
+  "checker_sha256": "f305755424062e70d8c11cd31bc976e3feb390392b3c8262b46e69e78e47212b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "mutation_scope": "chat work/independent_inputs only",
+  "scientific_recomputation": false,
+  "checks": [
+    {
+      "check": "malformed_inputs_rejected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "approved_panel_hash_matches_stage04a",
+      "pass": true,
+      "details": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6"
+    },
+    {
+      "check": "196_unique_versioned_approved_accessions",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all_12_primary_input_hashes_match_repository_summary",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "fasta_196_exact_approved_taxa",
+      "pass": true,
+      "details": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "fasta_17456_equal_columns",
+      "pass": true,
+      "details": {
+        "17456": 196
+      }
+    },
+    {
+      "check": "protein_alignment_alphabet",
+      "pass": true,
+      "details": {
+        "-": 90041,
+        "A": 291478,
+        "C": 8371,
+        "D": 202285,
+        "E": 219933,
+        "F": 109925,
+        "G": 244306,
+        "H": 61112,
+        "I": 226931,
+        "K": 263522,
+        "L": 296938,
+        "M": 82356,
+        "N": 142468,
+        "P": 110312,
+        "Q": 132042,
+        "R": 183101,
+        "S": 172565,
+        "T": 193032,
+        "V": 279697,
+        "W": 15489,
+        "Y": 95472
+      }
+    },
+    {
+      "check": "no_all_gap_taxa",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "primary_accessions_membership",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "phylip_equivalence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "clustal_equivalence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "nexus_equivalence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "100_partitions_exhaustive_nonoverlapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "nexus_partition_equivalence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "marker_order_equivalence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "100_source_trimmed_alignment_hashes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "19600_source_blocks_exact",
+      "pass": true,
+      "details": {
+        "blocks": 19600,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "both_existing_release_assets_hash_match",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "release_primary_fasta_matches_local",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "failures": [],
+  "negative_tests": [
+    {
+      "case": "duplicate FASTA",
+      "rejected": true
+    },
+    {
+      "case": "sequence before header",
+      "rejected": true
+    },
+    {
+      "case": "partition gap",
+      "rejected": true
+    },
+    {
+      "case": "negative branch",
+      "rejected": true
+    },
+    {
+      "case": "duplicate tree tips",
+      "rejected": true
+    },
+    {
+      "case": "truncated Newick",
+      "rejected": true
+    }
+  ],
+  "input_files": [
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+      "bytes": 3424904,
+      "sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+      "expected_sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.clw",
+      "bytes": 4448354,
+      "sha256": "da4885a5d007cfe61e8beeb2391383ffbfabe6a93a614a67cdf85be99fd2f920",
+      "expected_sha256": "da4885a5d007cfe61e8beeb2391383ffbfabe6a93a614a67cdf85be99fd2f920",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.phy",
+      "bytes": 3424914,
+      "sha256": "f4f2e93b2e2e5add3a5289935e405fb46f6a37a2751773f8fd97c9d636449751",
+      "expected_sha256": "f4f2e93b2e2e5add3a5289935e405fb46f6a37a2751773f8fd97c9d636449751",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.nex",
+      "bytes": 3425407,
+      "sha256": "13b3e92a5ee2d481ccd5be17ab6fad5459281cbc249516fe2d369f9b3a945678",
+      "expected_sha256": "13b3e92a5ee2d481ccd5be17ab6fad5459281cbc249516fe2d369f9b3a945678",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.tsv",
+      "bytes": 9714,
+      "sha256": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+      "expected_sha256": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+      "bytes": 2924,
+      "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+      "expected_sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.raxml.txt",
+      "bytes": 2300,
+      "sha256": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+      "expected_sha256": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\source_block_mapping.tsv",
+      "bytes": 4941942,
+      "sha256": "7785b64c3dc237ca77ee7e6411579fa8497a6e2c0b6d5c07a8de054891e99f5f",
+      "expected_sha256": "7785b64c3dc237ca77ee7e6411579fa8497a6e2c0b6d5c07a8de054891e99f5f",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\accessions.txt",
+      "bytes": 3136,
+      "sha256": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+      "expected_sha256": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\marker_order.txt",
+      "bytes": 1052,
+      "sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+      "expected_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\identical_alignment_groups.json",
+      "bytes": 819,
+      "sha256": "8ace20ef0c75c14ae8f7ab70af243b435e5652561974d3f174d592a8442908ef",
+      "expected_sha256": "8ace20ef0c75c14ae8f7ab70af243b435e5652561974d3f174d592a8442908ef",
+      "pass": true
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\tip_label_map.tsv",
+      "bytes": 23568,
+      "sha256": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341",
+      "expected_sha256": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341",
+      "pass": true
+    }
+  ],
+  "release_assets": [
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-full196-validated-alignments.zip",
+      "bytes": 29506545,
+      "sha256": "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+      "expected_sha256": "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+      "pass": true,
+      "primary_fasta_member_sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307"
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-methods-and-independent-evidence.zip",
+      "bytes": 160437,
+      "sha256": "6395260ce715f1385a8a5cbc0fbace34bead88605046e2580f1c109272b00707",
+      "expected_sha256": "6395260ce715f1385a8a5cbc0fbace34bead88605046e2580f1c109272b00707",
+      "pass": true,
+      "primary_fasta_member_sha256": null
+    }
+  ],
+  "tree_search": {
+    "scopes": [
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an"
+    ],
+    "excluded_directories": [
+      ".git",
+      ".tools",
+      ".private_run"
+    ],
+    "patterns": [
+      "*.treefile",
+      "*.contree",
+      "*.nwk",
+      "*.newick",
+      "*tree*.nex",
+      "*.iqtree",
+      "host.log",
+      "*.model.gz",
+      "*.ckp.gz",
+      "*.ufboot",
+      "*.boottrees",
+      "*.raxml.bestTree"
+    ],
+    "scan_errors": [],
+    "inventory_count": 21,
+    "exact_196_tree_candidates": [],
+    "complete_final_tree_found": false,
+    "conclusion": "NO_COMPLETE_VALID_FINAL_TREE_FOUND"
+  },
+  "status": "PASS_ACCEPTED_STAGE04A_INPUTS"
+}

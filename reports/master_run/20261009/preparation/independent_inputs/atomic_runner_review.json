@@ -1,0 +1,49 @@
+{
+  "status": "PASS_REVIEWED_ATOMIC_NATIVE_POLICY",
+  "review_scope": "Independent source review and readback of existing root-executed short native lifecycle evidence; no biological launch or repeated fixture",
+  "runner_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+  "runner_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "reviewed_controls": {
+    "explicit_run_required": true,
+    "authority": "ACTIVE_DIRECT_USER_CONTINUATION and automatic_resume:false, pinned committed run_control and current canonical HEAD",
+    "stable_workflow_byte_lock": "Original exact file identity retained; byte0 actual OS lock held until new owned execution ends",
+    "preferred": "Same196 AA, -p, MFP, B1000, SH-aLRT1000, seed1961008, T2, keep-ident, boot-trees; no unsupported partition --mem",
+    "preferred_job_cap_bytes": 4831838208,
+    "minimum_host_reserve_bytes": 1610612736,
+    "fresh_physical_and_commit_required_bytes": 6442450944,
+    "actual_limits": "Queried 0x2310 owned-job affinity/process+aggregate committed caps; suspended native assigned and membership/affinity checked before exactly one resume",
+    "process_identity": "Creation FILETIME, executable, native exit and CPU via retained OS handle; SessionID retained from live child for post-exit receipts",
+    "bounded_execution": "At most30min resource admission and24h native runtime; owned-job-only timeout cleanup; no duplicate relaunch",
+    "closure": "Exact child signaled with nonzero exit FILETIME and matching retained creation PLUS queried empty new owned job required; unproven new closure fatal",
+    "nonzero_exit": "FAILED_RETRYABLE only after new child/job closure; exit0 means VALIDATION_REQUIRED",
+    "historical_closure": "No old process lifetime or exit inferred or required for this separate fresh-exclusive job",
+    "power": "Temporary controller-thread idle-sleep prevention; explicit release receipt; no power/logoff survival claim"
+  },
+  "repaired_findings": [
+    "Manual continuation authority matches current published run_control semantics",
+    "Native wait result no longer ignored in exceptional closure",
+    "Empty job alone cannot certify a failed-assignment child outside job",
+    "Closure query failures become FAILED_FATAL; OwnedClosureFailure propagates fatal status into main failure record",
+    "Post-exit SessionID uses retained launch value",
+    "Lower single-model mode requires reviewed3.5GiB cap, --mem2G and --thread-site plus pinned resource estimate"
+  ],
+  "existing_native_smoke": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\native_smoke_01\\synthetic_validation.json",
+    "status": "PASS_SHORT_SYNTHETIC_NATIVE_LIFECYCLE",
+    "scientific_jobs": 0,
+    "actual_native_exit_code": 0,
+    "actual_native_exit_filetime": 134360368044606703,
+    "actual_job_active_processes": 0,
+    "actual_job_pids": [],
+    "lock_released": true,
+    "power_request_restored": true,
+    "scope_limit": "Short successful lifecycle only; no claim that failure, power loss or24h biological completion has been experimentally demonstrated"
+  },
+  "blocking_findings_for_preferred_manual_launch": [],
+  "remaining_runtime_acceptance": [
+    "Root must obtain fresh owner/authority/resources through runner immediately before launch",
+    "New native log must explicitly restore copied new-prefix model cache before reuse is claimed",
+    "Final196-tip tree, provenance and both support computations need a distinct independent scientific checker",
+    "Unknown allocator/runtime behavior can still produce an explicit failure under native job cap"
+  ]
+}

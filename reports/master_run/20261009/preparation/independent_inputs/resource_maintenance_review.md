@@ -1,0 +1,9 @@
+# Independent read-only resource maintenance review
+
+Reviewed `work/resource_maintenance.py` on 2026-10-09. The current human authorization covers resource cleanup. No code was executed or changed by this reviewer.
+
+The termination target is the retained native process handle, not a reopened PID. Native creation FILETIME and executable image are checked against the CIM snapshot, then creation/CPU/exit state are reread through the retained handle. PID reuse cannot redirect termination to the replacement process. Both fresh and final `current is None` cases short-circuit safely. Null argv/image values become empty strings in classification. Known scientific executables, WSLService and Codex do not match the optional-service categories.
+
+The observed allowlist is narrowly scoped to exact Python executable paths plus three named MCP modules, the exact Node executable plus the Xcode MCP launcher, or a Codex CUA Node directory plus named parent launchers. Suffix/string matching is broader than a fully parsed exact argv template; use the actual receipt inventory to substantiate the 20 service identities. Native exit code and exit FILETIME are recorded after the retained handle signals.
+
+Boundaries: an exception from `times()` or `image()` immediately after OpenProcess can leave that new handle unclosed until reviewer-process exit because it has not yet entered `handles`; wrap each new handle in try/finally before registration in any future revision. Activity and child checks are snapshots, with an unavoidable interval before TerminateProcess; do not claim continuous inactivity or atomic child exclusion. The finally block writes partial receipts on KeyboardInterrupt, but no custom SIGTERM handler promises a receipt on forced reviewer-process termination. These limits do not redirect termination to an unrelated PID or broaden the allowlist.

@@ -1,0 +1,47 @@
+{
+  "schema": "STAGE05_DRIVEFS_PREFLIGHT_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN",
+  "scope": "NONSCIENTIFIC_DRIVEFS_FILESYSTEM_ONLY",
+  "script_lines": 93,
+  "actual_wsl_execution": "NOT_RUN",
+  "actual_g_access_or_write": "NOT_RUN",
+  "native_or_scientific_children": "NONE",
+  "scientific_adoption_authorized": false,
+  "source_checks": {
+    "windows_help_exit": 0,
+    "windows_default_plan_exit": 0,
+    "windows_run_guard": "REJECTED_ACTUAL_LINUX_REQUIRED_BEFORE_FILESYSTEM_ACCESS"
+  },
+  "independent_source_review": {
+    "reviewer": "input_validation subagent",
+    "status": "NO_CONCRETE_SCOPE_OR_INTEGRITY_BLOCKER",
+    "scope": "Read-only source review; no actual Linux, mount or filesystem fixture execution",
+    "caller_lock_boundary": "Caller receipt is byte-pinned input; Windows caller proves actual live stable C writer-lock ownership"
+  },
+  "files": {
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_drivefs_filesystem_smoke.md": "7a4a9a2e2ced836b81cb36fffd42c085d79de759be12e2386e8ba3657c75be7b",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34"
+  },
+  "limitations": "Immediate same-mount visibility and same-kernel Linux flock only; no cloud synchronization, crash durability, directory fsync, cross-kernel locks, native runtime readiness or scientific acceptance. Python alarm may not interrupt a stalled filesystem system call.",
+  "physical_windows_disk_admission_review": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "lease": "Nonempty actual Windows volume to nonnegative integer bytes",
+    "actual_linux_skipped": 3,
+    "actual_wsl_execution": "NOT_RUN",
+    "stage5_contract_passed": 30,
+    "interop_contract_passed": 9,
+    "admission": "Every supplied actual Windows volume and Linux output filesystem must meet minimum_disk_free_bytes",
+    "biological_jobs": 0,
+    "windows_owner_contract_passed": 6
+  },
+  "ext4_bind_storage_preparation": {
+    "state": "SYNTHETIC_SOURCE_AND_CONTRACT_VERIFIED",
+    "utc": "2026-10-09T18:25:32.9631460Z",
+    "storage_contract_passed": 9,
+    "actual_wsl_execution": "NOT_RUN",
+    "actual_mount": "NOT_RUN",
+    "biological_jobs": 0,
+    "description": "Proof-only exact fixed ext4 bind, actual boot/mount/device/inode/UUID/helper; current proof before cache and each native launch"
+  }
+}

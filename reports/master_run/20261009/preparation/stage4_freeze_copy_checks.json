@@ -1,0 +1,30 @@
+{
+  "schema": "STAGE04_SYNTHETIC_FREEZE_COPY_CHECKS_V1",
+  "scope": "NONSCIENTIFIC_TEMPORARY_FILES_ONLY",
+  "native_inference": "NOT_RUN",
+  "wsl_invocation": "NOT_RUN",
+  "production_files_opened_by_tests": false,
+  "production_code_edited_by_reviewer": false,
+  "tests": 9,
+  "passed": 9,
+  "elapsed_seconds": 11.261,
+  "fixture_method": "Synthetic196 tree with real Newick/NEXUS, input command binding, receipt, copy and digest code; unrelated bootstrap parser stream replaced by1000 references to one parsed synthetic tree",
+  "cases": [
+    "clean synthetic freeze control",
+    "corrupted copied native report rejected",
+    "corrupted copied native tree rejected",
+    "corrupted authoritative Newick copy rejected",
+    "corrupted accepted alignment copy rejected",
+    "corrupted original config copy rejected",
+    "corrupted approved panel copy rejected",
+    "corrupted partitions copy rejected",
+    "corrupted original model cache copy rejected"
+  ],
+  "source_review": "Requested publication, checker freeze-copy and Windows owner deltas close identified gaps; no further source blocker in those deltas. Actual Windows-to-WSL behavior remains NOT_RUN.",
+  "files": {
+    "prepare_stage4_publication.py": "65f9d8cd9ff850dfa16160200ad23561826711b78115a01bc2ea6230f2066417",
+    "independent_tree_check.py": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+    "stage5_windows_owner.py": "5cafd2cb92756f1eae98cdcc555fcccb29e72e3c176da1dae5cf77fda7fd70e8",
+    "test_stage4_freeze_copy_integration.py": "23f96c058679b2a8db1dd1d1e84d03a2073aae46ff8f93e4f9568c07f586be74"
+  }
+}
