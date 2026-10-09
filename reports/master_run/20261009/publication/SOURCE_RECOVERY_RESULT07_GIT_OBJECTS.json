@@ -1,0 +1,65 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T21:31:43.046570+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "09d0092aa19431234db6b7a55a449b7d887ccb2d",
+  "tree": "fa98850989f7284a2172b1f662d89434ff21814a",
+  "commit": "f5027656958d495bf810192b541e9554d1a98b66",
+  "files": [
+    {
+      "target": "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+      "bytes": 40965,
+      "sha256": "016bda9871a4b30e6808d03dad4f9ea60670b3191f167edc15ac5da94d55949e"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_FAILED.json",
+      "bytes": 7192,
+      "sha256": "9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_PREPARATION_ATTEMPT01.json",
+      "bytes": 2258,
+      "sha256": "9aee97a33bc9aaecf6dc53846105d6b7044e87d5d3d0079dc31510d17534dbc4"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_METHODS_ATTEMPT01.md",
+      "bytes": 6546,
+      "sha256": "3a03f5449f38c28b964987f5321b9785656a3da8dbc37be8aad093971440c648"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/VALIDATION_READERS06_GIT_OBJECTS.json",
+      "bytes": 3375,
+      "sha256": "41f821f08637b08bd60705e703376274b3507dbc71ecb37f898178520ccd3565"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/VALIDATION_READERS06_REMOTE_READBACK.json",
+      "bytes": 6211,
+      "sha256": "82f9e440afe3a0530fc2361ce7f612bcada55dc4e4dfe684a8ecf016318dd35f"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_source_recovery_result07.py",
+      "bytes": 5152,
+      "sha256": "59e192cf16db0ebdec137c09fe51b33f4a8fb2a564cae76a7369c591607d3bec"
+    },
+    {
+      "target": "reports/master_run/20261009/snapshots/source_recovery_result07/native_progress.json",
+      "bytes": 731,
+      "sha256": "e921afc3de5851e2de8542bad5deacc8b3efe3974bd09762117b06d4d7b6f25e"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 9047,
+      "sha256": "ce1282a0219a852de9de4dba84b54a5f5d52b48855cbc6a6569ae33bb017bb8a"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 4487,
+      "sha256": "ba5df6793d39e1f161e13858d67f5d8f3462ee694035d3eb67a1fbc846f64038"
+    },
+    {
+      "target": "docs/master_run/STORAGE_LEDGER.md",
+      "bytes": 6316,
+      "sha256": "e1887cf7ac33b9af7d3d29c269f665991a47d2e05ffcb14bfd147b017e38175c"
+    }
+  ]
+}

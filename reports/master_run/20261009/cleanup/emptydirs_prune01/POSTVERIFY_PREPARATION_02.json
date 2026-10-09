@@ -1,0 +1,31 @@
+{
+  "schema": "MASTER_DIRECTORY_HANDLE_POST_VERIFY_PROVIDER_CORRECTION_PREPARATION_V1",
+  "state": "PASS_SOURCE_REVIEW_25_PURE_TESTS_ROOT_PRODUCTION_RETEST_NOT_RUN_BY_PREPARATION",
+  "production_retest_by_preparation": "NOT_RUN",
+  "production_prune_rerun": "NOT_AUTHORIZED_NOT_RUN",
+  "focused_tests": {"exit_code": 0, "tests": 25, "reported_runtime_seconds": 0.024},
+  "actual_metadata_diagnostic": {"files": 12, "g_zero_link_files": 9, "c_single_link_files": 3, "payload_bytes_read": 0, "owner_or_lock_queries": 0},
+  "g_single_link_exclusion": "NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO",
+  "zero_link_qualification": "ONLY_EXACT_NINE_DIAGNOSTIC_PINNED_G_PATHS_FULL128_NATIVE_AND_LSTAT_WITNESSES_AND_FRESH_ACCEPTED_PAYLOAD_SHA256",
+  "c_guards": "UNCHANGED_LINK_ONE_FULL128_PLAIN_TYPE_NONREPARSE_IDENTITY_BIRTH_SIZE_TIMES_HASH",
+  "unknown_zero_or_links_greater_than_one": "REJECTED",
+  "first_failed_sources_and_receipt": "PRESERVED",
+  "source_pins": {
+    "verify_directory_handle_prune.py": "00db7e85b734743f6bf0cf7c107d271878425ec9b7494df5688a93319cc559f2",
+    "test_verify_directory_handle_prune.py": "1b78956bc935cce8de952f6f855f1f31af9471bcaf41e5d58ea6898898b41f4a",
+    "directory_handle_postverify_METHODS_02.md": "81592902eb00cca198e7db48b428cfd6fd4a68ea1352eb7e61c9fb269b760abf",
+    "directory_handle_postverifier_provider_corrected_independent_review.json": "66b047a1ad3b86cc609e4bdb094e4cfb32e8c0164c130808012099950e068840",
+    "diagnose_directory_postverify_provider.py": "a6267a18461fbe06e9d7732cdc3e4d8166a860e10b16645b6333cb62a6940f3d",
+    "directory_postverify_provider_diagnostic01.json": "202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a",
+    "verify_directory_handle_prune_attempt01.py": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+    "test_verify_directory_handle_prune_attempt01.py": "46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42",
+    "directory_prune_postverify_20261009T212934Z_35de2767/receipt.json": "9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea",
+    "directory_prune_postverify_20261009T212934Z_35de2767/started.json": "1179c3a3eb84767b3a087c4e5f2fa94b301a74055fed6f394229e84966259ec5"
+  },
+  "source_and_diagnostic_mutations": 0,
+  "g_writes": 0,
+  "source_deletions": 0,
+  "wsl_starts": 0,
+  "new_native_scientific_launches": 0,
+  "root_next_step": "PUBLISH_AND_FRESHLY_READ_BACK_FINAL_SOURCE_THEN_ONE_EXPLICIT_CORRECTED_POST_VERIFY_WITH_STRICT_CURRENT_OWNER_LIVENESS"
+}

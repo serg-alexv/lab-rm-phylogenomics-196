@@ -29,7 +29,6 @@ SOURCE_SHA = '9b64d17bb2612ce35051b87d77863709d875c1f910865fd6a4db2f6ddd265381'
 PLAN_NAME = 'master_old_scientific_emptydirs_proposed_02.json'
 REMOTE_NAME = 'old_scientific_emptydirs01_readback_20261009T205057Z_9c38bcce/receipt.json'
 PROTECTION_NAME = 'master_history02_postverify_20261009T201921Z_f90337c5/receipt.json'
-DIAGNOSTIC_NAME = 'directory_postverify_provider_diagnostic01.json'
 PINS = {
     PLAN_NAME: 'be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5',
     REMOTE_NAME: 'e71b02889d5443017ef5ab8be206b1fc4e5f9f81c3de14c602eeaeef70c68063',
@@ -39,12 +38,6 @@ PINS = {
     'prune_old_scientific_directories_attempt01.py': '2f608bd1f11b3aac9223c7c751b9a9d8f5cb5c02568861bd6cfeadfff9304604',
     'test_directory_handle_prune_fixture_attempt01.py': '72e3a86e28f08e845cb37a9ef62f6ea056d220902e7074b4fdc63dbcb8e4d0c7',
     'directory_handle_pruner_corrected_independent_review.json': 'c0bc38628a140885211a397af9e23bbe10f9f432b2c682c13d44c03cd1d1b20b',
-    DIAGNOSTIC_NAME: '202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a',
-    'diagnose_directory_postverify_provider.py': 'a6267a18461fbe06e9d7732cdc3e4d8166a860e10b16645b6333cb62a6940f3d',
-    'verify_directory_handle_prune_attempt01.py': '130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c',
-    'test_verify_directory_handle_prune_attempt01.py': '46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42',
-    'directory_prune_postverify_20261009T212934Z_35de2767/receipt.json': '9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea',
-    'directory_prune_postverify_20261009T212934Z_35de2767/started.json': '1179c3a3eb84767b3a087c4e5f2fa94b301a74055fed6f394229e84966259ec5',
 }
 OWNERS = ((4768, 134360369876207076), (27048, 134360369803845506))
 DIRTY_SIX = tuple(G / name for name in ('reports/stage00/commands.jsonl', 'reports/stage02/retrieval_progress.json',
@@ -69,32 +62,6 @@ def digest(path):
 
 def same_identity(left, right):
     return all(left[key] == right[key] for key in ID_KEYS)
-
-
-def qualify_links(path, directory, native, witnesses, path_metadata=None):
-    if directory:
-        return 'DIRECTORY_LINK_COUNT_NOT_USED'
-    if native['native_link_count'] == 1:
-        return 'NATIVE_LINK_COUNT_ONE'
-    require(native['native_link_count'] == 0 and path in witnesses and path.drive.casefold() == 'g:',
-            'Wrong type/reparse/hardlinked or unqualified-zero-link regular file: ' + str(path))
-    witness = witnesses[path]
-    expected_native = {
-        'volume_serial': witness['native_id128']['volume'], 'file_id_128': witness['native_id128']['file_id_128'],
-        'creation_filetime': witness['native_basic']['birth'], 'attributes': witness['native_basic']['attributes'],
-        'legacy_volume_serial': witness['native_legacy']['volume'], 'legacy_file_id': int(witness['native_legacy']['file_id']),
-        'bytes': witness['native_legacy']['bytes'], 'last_write_filetime': witness['native_basic']['write'],
-        'change_filetime': witness['native_basic']['change'], 'file_id_128_supported': True,
-    }
-    require(all(native[key] == expected for key, expected in expected_native.items()), 'Exact G-provider native metadata drift: ' + str(path))
-    require(path_metadata == witness['lstat'], 'Exact G-provider lstat metadata drift: ' + str(path))
-    return 'SINGLE_LINK_EXCLUSION_NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO'
-
-
-def lstat_record(value):
-    return {'regular': stat.S_ISREG(value.st_mode), 'links': value.st_nlink, 'attributes': value.st_file_attributes,
-            'device': str(value.st_dev), 'inode': str(value.st_ino), 'bytes': value.st_size,
-            'mtime_ns': str(value.st_mtime_ns), 'birthtime_ns': str(value.st_birthtime_ns)}
 
 
 def validate_plan(plan):
@@ -233,7 +200,7 @@ class WindowsReads:
         self.k.GetProcessTimes.argtypes = [W.HANDLE, *([ctypes.POINTER(W.FILETIME)] * 4)]
         self.k.WaitForSingleObject.argtypes = [W.HANDLE, W.DWORD]
         self.k.WaitForSingleObject.restype = W.DWORD
-        self.handles, self.parents, self.owners, self.zero_link_witnesses = [], {}, [], {}
+        self.handles, self.parents, self.owners = [], {}, []
         self.started = time.monotonic()
 
     def close(self):
@@ -255,22 +222,20 @@ class WindowsReads:
         require(self.k.GetFileInformationByHandleEx(handle, 0, ctypes.byref(basic), ctypes.sizeof(basic))
                 and self.k.GetFileInformationByHandle(handle, ctypes.byref(legacy)), 'Native metadata query failed')
         id128 = bool(self.k.GetFileInformationByHandleEx(handle, 18, ctypes.byref(ident), ctypes.sizeof(ident)))
-        require(id128, 'Full128 ID unavailable for required C/G identity: ' + str(path))
-        require(bool(basic.attributes & 0x10) is directory and not basic.attributes & 0x400,
-                'Wrong type/reparse regular file/directory: ' + str(path))
+        require(id128 or (not directory and path.drive.casefold() == G.drive.casefold()),
+                'Full128 ID unavailable for required C-directory/control identity')
+        require(bool(basic.attributes & 0x10) is directory and not basic.attributes & 0x400
+                and (directory or legacy.links == 1), 'Wrong type/reparse/hardlinked regular file')
         buffer = ctypes.create_unicode_buffer(32768)
         length = self.k.GetFinalPathNameByHandleW(handle, buffer, len(buffer), 0)
         require(0 < length < len(buffer) and buffer.value.startswith('\\\\?\\')
                 and buffer.value[4:].casefold() == str(path).casefold(), 'Native handle literal path/alias differs')
-        result = {'path': str(path), 'volume_serial': str(ident.volume),
-                'file_id_128': bytes(ident.identifier).hex(), 'file_id_128_supported': id128,
+        return {'path': str(path), 'volume_serial': str(ident.volume if id128 else legacy.volume),
+                'file_id_128': bytes(ident.identifier).hex() if id128 else None, 'file_id_128_supported': id128,
                 'creation_filetime': str(basic.birth), 'attributes': basic.attributes,
                 'legacy_volume_serial': legacy.volume, 'legacy_file_id': (legacy.index_hi << 32) | legacy.index_lo,
                 'bytes': (legacy.size_hi << 32) | legacy.size_lo,
-                'last_write_filetime': str(basic.write), 'change_filetime': str(basic.change), 'native_link_count': legacy.links}
-        result['link_count_qualification'] = qualify_links(path, directory, result, self.zero_link_witnesses,
-                                                         lstat_record(path.lstat()) if not directory and legacy.links == 0 else None)
-        return result
+                'last_write_filetime': str(basic.write), 'change_filetime': str(basic.change)}
 
     def guard(self):
         require(time.monotonic() - self.started < 900, 'Verifier deadline exceeded')
@@ -392,23 +357,6 @@ def verify(args, result):
         protections = json.loads(controls[PROTECTION_NAME])['protected_files']
         require(len(protections) == 12 and {str(path) for path in DIRTY_SIX}.issubset(row['path'] for row in protections),
                 'Exact protected12/six dirty G files differ')
-        diagnostic = json.loads(controls[DIAGNOSTIC_NAME])
-        require(diagnostic['state'] == 'ACTUAL_READ_ONLY_METADATA_DIAGNOSTIC_NOT_ACCEPTANCE'
-                and len(diagnostic['rows']) == 12 and diagnostic['payload_bytes_read'] == 0,
-                'Actual exact12 metadata diagnostic differs')
-        protected_by_path = {Path(row['path']): row for row in protections}
-        for witness in diagnostic['rows']:
-            path = Path(witness['path'])
-            require(path in protected_by_path and witness['expected_sha256'] == protected_by_path[path]['sha256']
-                    and witness['expected_bytes'] == protected_by_path[path]['bytes'] and witness['path_metadata_unchanged'],
-                    'Provider diagnostic exact protected source/SHA witness differs')
-            if path.drive.casefold() == 'g:':
-                require(witness['native_basic']['success'] and witness['native_legacy']['success']
-                        and witness['native_id128']['success'] and witness['native_legacy']['links'] == witness['lstat']['links'] == 0
-                        and witness['lstat']['regular'] and not witness['native_basic']['attributes'] & (0x10 | 0x400),
-                        'Unproven G zero-link metadata qualification')
-                api.zero_link_witnesses[path] = witness
-        require(len(api.zero_link_witnesses) == 9, 'Exact nine G-provider source witnesses required')
         authority, authority_sha, _ = api.data(args.authorization, 64 * 1024)
         require(authority_sha == args.authorization_sha256, 'Actual root authority SHA differs')
         require(json.loads(authority) == {'schema': 'MASTER_DIRECTORY_HANDLE_PRUNE_ROOT_AUTHORITY_V1',
@@ -473,8 +421,6 @@ def verify(args, result):
                       retained_planned_directories=len(retained), unproven_absences=unproven, directory_states=states,
                       held_directories_preserved=6, excluded_fragment_sha256=fragment_sha,
                       protected_files=checked, six_dirty_g_files_unchanged=[row for row in checked if Path(row['path']) in DIRTY_SIX],
-                      g_provider_single_link_exclusion='NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO_FOR_EXACT_NINE_PINNED_FILES',
-                      g_provider_metadata_diagnostic_sha256=PINS[DIAGNOSTIC_NAME],
                       workflow_lock_identity_before=lock_before, workflow_lock_identity_after=lock_after,
                       workflow_lock_metadata_only=True, lock_contents_read=False, lock_acquired=False,
                       owners_after=api.owner_check(), preserved_first_fixture_failure=True,

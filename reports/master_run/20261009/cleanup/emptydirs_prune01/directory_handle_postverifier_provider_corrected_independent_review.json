@@ -1,0 +1,45 @@
+{
+  "concrete_blockers": [],
+  "diagnostic_sha256": "202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a",
+  "diagnostic_source_sha256": "a6267a18461fbe06e9d7732cdc3e4d8166a860e10b16645b6333cb62a6940f3d",
+  "execution_scope": {
+    "G_payload_reads": false,
+    "G_writes": 0,
+    "WSL_starts": 0,
+    "corrected_production_postverify": "NOT_RUN_BY_REVIEWER",
+    "deletions": 0,
+    "native_owner_or_lock_queries": false,
+    "new_execution_authorized": false,
+    "old_C_payload_reads": false,
+    "old_C_rescan": false
+  },
+  "findings": [
+    "No concrete blocker found in corrected source.",
+    "Nine zero-link G witnesses are derived only from exact SHA-pinned diagnostic and protected12 source control after controls load; each qualified native zero requires exact path, full128 ID/volume, birth, size, attributes, legacy ID, write/change times and exact current lstat metadata.",
+    "C regular-file link-count-one guard remains; unknown zero, non-G zero, link count greater than one, full128 unavailability, metadata drift, type/reparse/path alias failure remain rejection paths.",
+    "Actual protected12 SHA and size readback remains mandatory with retained deny-write/delete data handles and equal before/after metadata.",
+    "Existing exact5542 journal/postorder/current-absence, retained owner birth/liveness, six held directories, excluded fragment, protected12/six dirty G files and original workflow.lock metadata-only checks remain.",
+    "G single-link exclusion is explicitly NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO, not an assertion that hardlinks do not exist.",
+    "Original130e source/tests and actual failure are pinned, preserved and not promoted to acceptance."
+  ],
+  "preserved_failed_receipt_sha256": "9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea",
+  "preserved_first_tests_sha256": "46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42",
+  "preserved_first_verifier_sha256": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+  "preserved_started_sha256": "1179c3a3eb84767b3a087c4e5f2fa94b301a74055fed6f394229e84966259ec5",
+  "primary_reference": {
+    "relevance": "Underlying provider may return partial metadata; documentation does not establish that DriveFS zero links implies absence of hardlinks.",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getfileinformationbyhandle"
+  },
+  "reviewed_utc": "2026-10-09T21:36:12.036398+00:00",
+  "schema": "MASTER_DIRECTORY_POSTVERIFY_PROVIDER_CORRECTION_INDEPENDENT_SOURCE_REVIEW_V1",
+  "scope": "Source/full-diff/test-source inspection and independent rehash of fixed C controls; no production verification or repeat prune.",
+  "state": "PASS_SOURCE_REVIEW_EXACT_NINE_G_ZERO_LINK_QUALIFICATION",
+  "tests": {
+    "peer_reported_pure_tests_passed": 25,
+    "peer_reported_seconds": 0.024,
+    "test_source_inspected": true,
+    "tests_rerun_by_reviewer": false
+  },
+  "tests_sha256": "1b78956bc935cce8de952f6f855f1f31af9471bcaf41e5d58ea6898898b41f4a",
+  "verifier_sha256": "00db7e85b734743f6bf0cf7c107d271878425ec9b7494df5688a93319cc559f2"
+}
