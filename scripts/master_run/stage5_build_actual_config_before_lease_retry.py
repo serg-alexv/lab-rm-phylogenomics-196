@@ -14,12 +14,10 @@ FIELDS=('incremental_windows_requirement_bytes','commit_requirement_bytes','linu
         'process_address_space_limit_bytes','sampled_rss_stop_bytes')
 PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827',
       'stage5_atomic.py':'2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0',
-      'stage5_windows_owner.py':'8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d',
-      'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_atomic_config.template.json':'94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf',
-      'stage5_setup_windows.py':'cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2',
+      'stage5_setup_windows.py':'b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd',
       'stage5_setup_linux.py':'7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6',
-      'stage5_interop_smoke_windows.py':'35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898',
+      'stage5_interop_smoke_windows.py':'4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac',
       'stage5_unc_bind_probe.py':'70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830'}
 
 

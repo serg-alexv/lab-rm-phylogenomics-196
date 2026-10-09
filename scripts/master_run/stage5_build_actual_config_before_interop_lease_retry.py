@@ -19,7 +19,7 @@ PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc
       'stage5_atomic_config.template.json':'94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf',
       'stage5_setup_windows.py':'cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2',
       'stage5_setup_linux.py':'7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6',
-      'stage5_interop_smoke_windows.py':'35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898',
+      'stage5_interop_smoke_windows.py':'4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac',
       'stage5_unc_bind_probe.py':'70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830'}
 
 

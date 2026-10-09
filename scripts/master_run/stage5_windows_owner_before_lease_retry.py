@@ -14,12 +14,10 @@ import uuid
 import atomic_iqtree_windows as A
 import stage5_atomic as S
 import stage5_work_storage as W
-import stage5_owner_lease as L
 
 ROOT = Path(r'G:\My Drive\LAB_RM\lab-rm-phylogenomics-196')
 WSL = r'C:\Windows\System32\wsl.exe'
 LOCAL_CLOSURE_STOP = A.ORIGINAL_LOCK.with_name('stage05_owned_closure_unproven.json')
-LEASE_HELPER_SHA256 = 'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8'
 EXIT_STATES = {'COMPLETE_VALIDATED': 0, 'FAILED_RETRYABLE': 1,
                'FAILED_FATAL': 2, 'DEFERRED_RESOURCE': 75}
 
@@ -86,8 +84,6 @@ def main():
     parser.add_argument('--accession', help='Own one approved genome checkpoint; default owns the full196 queue')
     parser.add_argument('--run', action='store_true')
     args = parser.parse_args()
-    A.require(A.sha256(Path(__file__).with_name('stage5_owner_lease.py')) == LEASE_HELPER_SHA256,
-              'Reviewed bounded C lease writer differs')
     cfg = S.load_config(args.config)
     A.require(cfg.get('schema') == 'STAGE05_ATOMIC_CONFIG_V2', 'Unknown Linux job config')
     A.require(cfg.get('root') == linux_path(ROOT), 'Canonical Linux scientific root differs')
@@ -141,8 +137,7 @@ def main():
              'linux_supervisor_sha256': supervisor_hash,
              'storage_helper_sha256': storage_helper_hash,
              'native_evidence_view': str(native_output_root),
-             'approved_accessions_sha256': A.EXPECTED_PANEL, 'genome_results': results,
-             'lease_helper_sha256': LEASE_HELPER_SHA256, 'lease_replace_stats': {}}
+             'approved_accessions_sha256': A.EXPECTED_PANEL, 'genome_results': results}
     with A.WorkflowLock(api) as lock:
         fresh_authority()
         A.require(native_output_root.is_dir(), 'Native WSL UNC output view unavailable')
@@ -154,13 +149,13 @@ def main():
             resources = last_resources or {'physical_available_bytes': 0, 'commit_headroom_bytes': 0,
                                            'disk_available_bytes': {}}
             now = time.time()
-            L.atomic_owner_lease(lease_path, {'schema': 'STAGE05_WINDOWS_OWNER_LEASE_V1', 'nonce': nonce,
+            A.atomic(lease_path, {'schema': 'STAGE05_WINDOWS_OWNER_LEASE_V1', 'nonce': nonce,
                 'workflow_lock_held': active, 'workflow_lock': lock.identity,
                 'owner_pid': owner['pid'], 'owner_creation_filetime': str(owner['creation_filetime']),
                 'measured_unix': now, 'expires_unix': now + ttl if active else now,
                 'windows_available_bytes': resources['physical_available_bytes'],
                 'windows_commit_headroom_bytes': resources['commit_headroom_bytes'],
-                'disk_available_bytes': resources['disk_available_bytes'], 'utc': A.utc()}, batch['lease_replace_stats'])
+                'disk_available_bytes': resources['disk_available_bytes'], 'utc': A.utc()})
         try:
             idle_previous = api.execution_state(0x80000001)
             A.require(idle_previous, 'Transient idle-sleep prevention failed')
@@ -168,8 +163,6 @@ def main():
             A.atomic(args.output / 'owner.json', {**batch, 'workflow_lock': lock.identity,
                 'linux_closure_scope': 'Native pidfd/subreaper closure is required by each Linux job; WSL client exit alone is insufficient'})
             for index, accession in enumerate(selected, 1):
-                A.require(A.sha256(Path(__file__).with_name('stage5_owner_lease.py')) == LEASE_HELPER_SHA256,
-                          'Running owner bounded C lease writer changed')
                 A.require(A.sha256(args.config) == cfg_hash and A.sha256(args.linux_script) == script_hash,
                           'Running batch code/config drift; preserve prior completed genomes')
                 A.require(A.sha256(supervisor) == supervisor_hash, 'Running Linux supervisor bytes changed')

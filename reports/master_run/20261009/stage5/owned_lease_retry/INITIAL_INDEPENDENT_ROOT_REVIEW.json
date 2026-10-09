@@ -1,0 +1,225 @@
+{
+  "schema": "STAGE05_OWNED_LEASE_RETRY_INDEPENDENT_ROOT_REVIEW_V1",
+  "utc": "2026-10-09T22:49:55.139076+00:00",
+  "state": "PASS_SOURCE_DELTA_AND_EXACT_BYTES_PLUS_ROOT5_TESTS",
+  "reviewer": "root, independent of stage5_audit author",
+  "preparation_sha256": "908bdaff7778e6bdde6a03b2fca254131c610e46122dc33c4e748eb4bd0894d8",
+  "review_source_sha256": "ca0e1c1998eaa251277283b23878e05e37c0c8c3a9e4c699a853796ddad0fec5",
+  "verified_files": [
+    {
+      "path": "stage5_owner_lease.py",
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    {
+      "path": "test_stage5_owner_lease.py",
+      "bytes": 3574,
+      "sha256": "569b56906fd357967acccb4fec1b0f5141299885424431e90976dbb6e82b641e"
+    },
+    {
+      "path": "stage5_setup_windows.py",
+      "bytes": 34098,
+      "sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2"
+    },
+    {
+      "path": "stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6"
+    },
+    {
+      "path": "stage5_windows_owner.py",
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    {
+      "path": "stage5_build_actual_config.py",
+      "bytes": 13011,
+      "sha256": "53258df5dcf83a8351946719f1de6ee3a35268023fa82a713fd1a1e969dd43ca"
+    },
+    {
+      "path": "test_stage5_setup.py",
+      "bytes": 15599,
+      "sha256": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b"
+    },
+    {
+      "path": "test_stage5_windows_owner.py",
+      "bytes": 4471,
+      "sha256": "5cfb932da38fb072613b564559ce1277d13ebce97a99388176301e80181fa5da"
+    },
+    {
+      "path": "test_stage5_build_actual_config.py",
+      "bytes": 4968,
+      "sha256": "26ef4693d32e30aaddc0f7fe19d20a6af7a2cc8640917756690702e7066eebe2"
+    },
+    {
+      "path": "stage5_setup_windows_before_lease_retry.py",
+      "bytes": 33902,
+      "sha256": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd"
+    },
+    {
+      "path": "stage5_windows_owner_before_lease_retry.py",
+      "bytes": 17966,
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3"
+    },
+    {
+      "path": "stage5_build_actual_config_before_lease_retry.py",
+      "bytes": 12813,
+      "sha256": "eac90967546fb771bf1d719ca2d25a5034ffe9b35b9c91a51cb93881b272fab0"
+    },
+    {
+      "path": "STAGE5_OWNER_LEASE_REPLACE_METHODS.md",
+      "bytes": 3937,
+      "sha256": "b6ca6a02928dd50204e4a689752b655064c9587d7a74136b6b9a5ed9e174129e"
+    },
+    {
+      "path": "actual_owner_lock.json",
+      "bytes": 686,
+      "sha256": "8a4abc7d5e2e733623ddca0b2c437063f22a1a8af5a4980182d15ff9b112a53f"
+    },
+    {
+      "path": "admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662"
+    },
+    {
+      "path": "admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314"
+    },
+    {
+      "path": "latest_admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314"
+    },
+    {
+      "path": "mount_toolchain.closure.json",
+      "bytes": 639,
+      "sha256": "6a23cef636296d3561eff0775bcc826f87aca47c445d02db811106f5c57a4efd"
+    },
+    {
+      "path": "mount_toolchain.command.json",
+      "bytes": 1476,
+      "sha256": "26b91f6c233458deca6ba84ba23b8935668b94e6daa2af4307b22ceadc351108"
+    },
+    {
+      "path": "mount_toolchain.launch.json",
+      "bytes": 950,
+      "sha256": "87fb975e885e10a7b53d39be409ccdac85a65c11ae9676aebee6d9567d5bb0cd"
+    },
+    {
+      "path": "mount_toolchain.launch_intent.json",
+      "bytes": 463,
+      "sha256": "66aa6f7c38f0bbf303c783b6b6b530ac8beb4f8ec10f90360bda2b2e9c5139c4"
+    },
+    {
+      "path": "mount_toolchain.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mount_toolchain.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commands.jsonl",
+      "bytes": 1390,
+      "sha256": "f2b01f855508cec2ff6c9ff4ed197d9b60a27c78aa00bc6f9507eec6d64fd1d6"
+    },
+    {
+      "path": "latest_admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 1262,
+      "sha256": "bd928c7552a390e2e516f747c24bf835e8aeb9f189ecf65ab2cce00acf76b5c6"
+    },
+    {
+      "path": "linux_terminal.json",
+      "bytes": 1677,
+      "sha256": "28a1b87407873e81bf2c7df0f727f4591356deda1b802c0359034b33b373c78a"
+    },
+    {
+      "path": "lock_released.json",
+      "bytes": 116,
+      "sha256": "98f2d627ba2710339a4ea92aa8e0c25d729f502899c83cdd43ff96abe3bcb799"
+    },
+    {
+      "path": "owner_lease.json",
+      "bytes": 905,
+      "sha256": "270d427a0b720b989734ecb0a18ba963bcb6bf1cbcbefeb76d5b8b4bc341bfad"
+    },
+    {
+      "path": "result.json",
+      "bytes": 4628,
+      "sha256": "f3803999f2f741ca4c57211eac423c42459b66825a7be81fda9c9b3969c813cb"
+    },
+    {
+      "path": "toolchain_proof.json",
+      "bytes": 1057,
+      "sha256": "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5"
+    },
+    {
+      "path": "wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wsl_exit.json",
+      "bytes": 1942,
+      "sha256": "c624be76d8c3073fe3e755ea8fcfdc3582870e85a94a54ec5d4f14f2f94aeb2c"
+    }
+  ],
+  "root_actual_test_observation": {
+    "command": "python -B work/test_stage5_owner_lease.py -v",
+    "exit_code": 0,
+    "tests": 5,
+    "seconds": 0.03,
+    "scope": "Pure synthetic syscall failures plus own temporary C files; no WSL/G/resource/native call"
+  },
+  "author_test_report": [
+    {
+      "command": "python -B work/test_stage5_owner_lease.py -v",
+      "tests": 5,
+      "exit_code": 0,
+      "seconds": 0.029
+    },
+    {
+      "command": "python -B work/test_stage5_setup.py -v",
+      "tests": 14,
+      "exit_code": 0,
+      "seconds": 0.482
+    },
+    {
+      "command": "python -B work/test_stage5_windows_owner.py -v",
+      "tests": 13,
+      "exit_code": 0,
+      "seconds": 0.025
+    },
+    {
+      "command": "python -B work/test_stage5_build_actual_config.py -v",
+      "tests": 5,
+      "exit_code": 0,
+      "seconds": 0.296
+    }
+  ],
+  "reviewed_contracts": [
+    "Only same exclusive-created C temporary to current own owner_lease.json os.replace retries Windows errors5/32/33.",
+    "Monotonic250ms budget/backoff stops before another attempt at the deadline; fatal errors preserve failure without retry.",
+    "Exact C path/schema, regular non-reparse target/ancestors and only owned temporary cleanup; no retry of create/write/fsync/validation/other files.",
+    "Mutable retry/failure counters survive into both setup and native owner receipts; prior failed toolchain02 bytes remain unchanged.",
+    "Setup and native Windows owner deltas are limited to helper import/pin, own lease calls and counters; current config builder pins those exact sources.",
+    "A80 native producer, Linux science/Supervisor/storage, scientific V2 identity and resource reserves remain byte-identical.",
+    "Windows sharing contention remains inferred; actual toolchain02 stays FAILED despite independently proven closed Linux scope.",
+    "250ms bounds retry scheduling, not synchronous OS call/fsync/cleanup cancellation. No real contention resolution or scientific execution is claimed."
+  ],
+  "concrete_blockers": [],
+  "actual_new_setup_or_biology": "NOT_RUN"
+}

@@ -13,7 +13,6 @@ import time
 import uuid
 
 import atomic_iqtree_windows as A
-import stage5_owner_lease as L
 
 SCOPE = "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION"
 FIXTURES = ("exit0", "lease_expiry", "escaped_descendant")
@@ -21,7 +20,6 @@ WORK = Path(__file__).resolve().parent
 WORKER = WORK / "stage5_interop_linux_fixture.py"
 SUPERVISOR = WORK / "stage5_atomic_process.py"
 WSL = r"C:\Windows\System32\wsl.exe"
-LEASE_HELPER_SHA256 = "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
 
 
 def linux_path(path):
@@ -100,9 +98,7 @@ def fixture(args, api, lock, owner, name, worker_hash, supervisor_hash):
     child = None
     birth = None
     closed = False
-    lease_stats = {}
     result = {"scope": SCOPE, "fixture": name, "state": "FAILED_NONSCIENTIFIC_FIXTURE", "owner_nonce": nonce,
-              "lease_helper_sha256": LEASE_HELPER_SHA256, "lease_replace_stats": lease_stats,
               "scientific_adoption_authorized": False, "owned_closure_proven": False}
     started = time.monotonic()
     def lease(active=True):
@@ -116,7 +112,7 @@ def fixture(args, api, lock, owner, name, worker_hash, supervisor_hash):
                  "measured_unix": now, "expires_unix": now + 3 if active else now,
                  "windows_available_bytes": r["physical_available_bytes"], "windows_commit_headroom_bytes": r["commit_headroom_bytes"],
                  "disk_available_bytes": r["disk_available_bytes"], "scope": SCOPE, "utc": A.utc()}
-        L.atomic_owner_lease(lease_path, value, lease_stats)
+        A.atomic(lease_path, value)
         return value
     try:
         lease()
@@ -197,11 +193,8 @@ def main():
     args.output = args.output.resolve()
     A.require(WORK in args.output.parents and not args.output.exists(), "New output spool beneath this chat work directory required")
     worker_hash, supervisor_hash, windows_hash = A.sha256(WORKER), A.sha256(SUPERVISOR), A.sha256(Path(A.__file__))
-    A.require(Path(L.__file__).resolve() == WORK / "stage5_owner_lease.py" and
-              A.sha256(Path(L.__file__)) == LEASE_HELPER_SHA256, "Reviewed owned lease helper differs")
     plan = {"scope": SCOPE, "state": "PREPARED_NOT_RUN", "fixtures": FIXTURES, "worker_sha256": worker_hash,
-            "supervisor_sha256": supervisor_hash, "windows_api_sha256": windows_hash,
-            "lease_helper_sha256": LEASE_HELPER_SHA256, "lease_ttl_seconds": 3,
+            "supervisor_sha256": supervisor_hash, "windows_api_sha256": windows_hash, "lease_ttl_seconds": 3,
             "maximum_per_fixture_seconds": 60, "scientific_adoption_authorized": False}
     if not args.run:
         print(json.dumps(plan, indent=2))
@@ -219,8 +212,7 @@ def main():
                    "instruction": "No detector/model/sequence/genome task is permitted by this fixture."})
         for name in FIXTURES:
             A.require(A.sha256(SUPERVISOR) == supervisor_hash and A.sha256(Path(A.__file__)) == windows_hash and
-                      A.sha256(WORKER) == worker_hash and A.sha256(Path(L.__file__)) == LEASE_HELPER_SHA256,
-                      "Reviewed fixture/supervisor/API/lease helper bytes changed")
+                      A.sha256(WORKER) == worker_hash, "Reviewed fixture/supervisor/API bytes changed")
             result = fixture(args, api, lock, owner, name, worker_hash, supervisor_hash)
             results.append(result)
             if result["state"] != "PASS_NONSCIENTIFIC_INTEROP_FIXTURE":

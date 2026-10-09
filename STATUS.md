@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T22:41:07.989584+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T22:56:41.306939+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -38,3 +38,7 @@ Scoped WSL repair15 is reviewed and PREPARED_NOT_APPLIED: exact6-to4GiB RAM ceil
 Actual operational update: Actual scoped WSL4GiB repair and aggregate VM closure PASS; preserve failed canonical fast-forward for read-only diagnosis
 
 Actual repair15 PASS: configuration SHA31b59c84, one actual owned WSL shutdown and two actual Ubuntu-Stopped readbacks, exact backed-up STOP removed, original byte lock released. Prior lost Windows terminal remains NOT_RECONSTRUCTED. New runtime/setup/science remains NOT_RUN. Canonical G fast-forward failed; its receipt is preserved and read-only diagnosis is pending. No reset/clean/force was used.
+
+Actual operational update: Preserve actual closed failed toolchain02 scope; publish reviewed bounded own-lease replacement and current exact setup pins
+
+Toolchain02 stays FAILED: Windows own-lease replacement returned WinError5; the actual Linux mount exited0, retained WSL exit0/native empty scope and original unlock are recorded, and no unproven STOP remains. Sharing contention is inferred. The bounded own-lease correction is reviewed and published before any replacement setup. Scientific searches remain NOT_RUN.

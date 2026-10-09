@@ -5,7 +5,6 @@ Owns the original Windows byte lock. Never wraps the other self-locking owners.
 from pathlib import Path, PurePosixPath
 import argparse, ctypes, hashlib, json, os, re, stat, subprocess, time, uuid
 import atomic_iqtree_windows as A
-import stage5_owner_lease as L
 
 WORK=Path(__file__).resolve().parent
 EXACT_WORK=Path(r'C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work')
@@ -23,7 +22,6 @@ CLOSURE_PINS={'launch.json':'4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15
               'execution_state_restored.json':'49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851',
               'lock_released.json':'9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3'}
 PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827',
-      'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_atomic_process.py':'fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34',
       'stage5_work_storage.py':'7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
       'stage5_runtime_discovery.py':'32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad',
@@ -327,7 +325,7 @@ def main():
     args.output.mkdir(); api=A.Win(); owner=api.identity(api.current(),os.getpid()); nonce=uuid.uuid4().hex
     child=None; birth=None; argv=None; windows_worker_started=False
     closure=True; stop_sha=None; lease_path=args.output/'owner_lease.json'; result={**plan,'state':'FAILED','owner_nonce':nonce,
-              'actual_windows_owner':owner,'controller_receipt_sha256':args.controller_receipt_sha256,'lease_replace_stats':{},
+              'actual_windows_owner':owner,'controller_receipt_sha256':args.controller_receipt_sha256,
               'prior_native_files':{name:A.sha256(ATTEMPT/name) for name in inputs}}
     with A.WorkflowLock(api) as lock:
         def authority():
@@ -338,11 +336,11 @@ def main():
             if active:
                 A.require(resources['physical_available_bytes']>=1879048192 and resources['commit_headroom_bytes']>=1879048192
                           and all(v>=10737418240 for v in resources['disk_available_bytes'].values()),'Actual setup resource reserve insufficient')
-            L.atomic_owner_lease(lease_path,{'schema':'STAGE05_WINDOWS_OWNER_LEASE_V1','nonce':nonce,'workflow_lock_held':active,
+            A.atomic(lease_path,{'schema':'STAGE05_WINDOWS_OWNER_LEASE_V1','nonce':nonce,'workflow_lock_held':active,
                      'workflow_lock':lock.identity,'owner_pid':owner['pid'],'owner_creation_filetime':str(owner['creation_filetime']),
                      'measured_unix':now,'expires_unix':now+3 if active else now,'utc':A.utc(),
                      'windows_available_bytes':resources['physical_available_bytes'],'windows_commit_headroom_bytes':resources['commit_headroom_bytes'],
-                     'disk_available_bytes':resources['disk_available_bytes']},result['lease_replace_stats'])
+                     'disk_available_bytes':resources['disk_available_bytes']})
             result['latest_actual_resources']=resources
         try:
             A.require(not STOP.exists(),'Existing unproven-closure stop requires reconciliation')
