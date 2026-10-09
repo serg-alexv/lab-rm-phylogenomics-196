@@ -1,12 +1,16 @@
 """Independently read every published Git blob and verify actual decoded bytes."""
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import base64,datetime,hashlib,json,subprocess,time
+import argparse,base64,datetime,hashlib,json,subprocess,time
 
 WORK=Path(__file__).resolve().parent
 REPO='serg-alexv/lab-rm-phylogenomics-196'
-EXPECTED='3ac8527fb70df6c4010a277d8f23609fcddb69f2'
-OUTPUT=WORK/'master_source_remote_readback.json'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--declaration',type=Path,required=True)
+parser.add_argument('--output',type=Path,required=True)
+args=parser.parse_args()
+OUTPUT=args.output
+assert not OUTPUT.exists(), 'Preserve previous remote verification receipts'
 
 def utc():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def api(endpoint):
@@ -16,17 +20,17 @@ def api(endpoint):
 def save(value):
     OUTPUT.write_text(json.dumps(value,indent=2)+'\n',encoding='utf-8',newline='\n')
 
-declaration=json.loads((WORK/'master_source_git_objects.json').read_text())
-assert declaration['commit']==EXPECTED
+declaration=json.loads(args.declaration.read_text())
+EXPECTED=declaration['commit']
 initial=api('commits/main')['sha']
 assert initial==EXPECTED, 'Reconcile unexpected current main before verification'
 tree=api('git/trees/'+EXPECTED+'?recursive=1')
 assert tree['truncated'] is False
 members={item['path']:item for item in tree['tree'] if item['type']=='blob'}
-assert len(declaration['files'])==len({i['target'] for i in declaration['files']})==147
+assert len(declaration['files'])==len({i['target'] for i in declaration['files']})>0
 result={'schema':'MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1','started_utc':utc(),
         'state':'READBACK_IN_PROGRESS','expected_commit':EXPECTED,'initial_remote_main':initial,
-        'declaration_sha256':hashlib.sha256((WORK/'master_source_git_objects.json').read_bytes()).hexdigest(),
+        'declaration_sha256':hashlib.sha256(args.declaration.read_bytes()).hexdigest(),
         'method':'GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed',
         'maximum_parallel_gh_requests':4,'required_files':len(declaration['files']),
         'verified_files':0,'files':[],'failures':[],'biological_acceptance':'NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY'}
@@ -57,10 +61,10 @@ result['final_remote_main']=api('commits/main')['sha']
 result.update(finished_utc=utc(),elapsed_seconds=time.monotonic()-start,
               verified_bytes=sum(i['bytes'] for i in result['files']))
 if not result['failures'] and result['verified_files']==result['required_files'] and result['final_remote_main']==EXPECTED:
-    result['state']='PASS_ALL147_REMOTE_BYTES_SHA256_VERIFIED'
+    result['state']='PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED'
 elif not result['failures'] and result['verified_files']==result['required_files']:
-    result['state']='ALL147_IMMUTABLE_COMMIT_BYTES_VERIFIED_CURRENT_HEAD_CHANGED_RECONCILE'
+    result['state']='ALL_IMMUTABLE_COMMIT_BYTES_VERIFIED_CURRENT_HEAD_CHANGED_RECONCILE'
 else:result['state']='FAILED_REMOTE_BYTE_READBACK'
 save(result)
 print(json.dumps({key:result[key] for key in ('state','expected_commit','final_remote_main','verified_files','verified_bytes','elapsed_seconds','failures')},indent=2))
-if result['state']!='PASS_ALL147_REMOTE_BYTES_SHA256_VERIFIED':raise SystemExit(1)
+if result['state']!='PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED':raise SystemExit(1)

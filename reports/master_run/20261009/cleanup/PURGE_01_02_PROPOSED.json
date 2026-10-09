@@ -1,0 +1,2694 @@
+{
+  "schema": "MASTER_VERIFIED_EXACT_FILE_PURGE_V1",
+  "utc": "2026-10-09T18:47:51.056843+00:00",
+  "state": "PROPOSED_PRESERVED_REMOTELY_NOT_EXECUTED",
+  "remote_plan_path": "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+  "allowed_roots": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196"
+  ],
+  "protected_paths": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_attempts",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_partitioned_config.json",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\bootstrap",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\toolchain.ext4",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\linux",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\scripts\\wsl_project.sh"
+  ],
+  "recovery_receipts": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_cleanup_batch01_remote_readback.json",
+      "bytes": 50579,
+      "sha256": "759a2cc88b49d9f2cf6cd87145b6db7baf375845ed08c9ba876433d342e0640e"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_cleanup_batch01_manifest.json",
+      "bytes": 78436,
+      "sha256": "85955929650bbf5563e99461a8e70e6b35d6c6abd5db5b41524ea48f25158452"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\cleanup_inventory_plan.json",
+      "bytes": 64654,
+      "sha256": "0836bf9540e86126d8ac3aaa10187ca7e74e3e0bff483e721f5f31fd6acab382"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\yesterday_inventory\\batch02\\summary.json",
+      "bytes": 1964,
+      "sha256": "5af4a85ef721cb5ca3f7f3c4517a2cc05c0a90bd6954ae28c01f4546a2b753be"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\yesterday_inventory\\batch02\\file_allowlist.json",
+      "bytes": 107598,
+      "sha256": "b0b5ed7da87c9c781dba2719ec6474e864ca9b1b241e4c490b35e5da07a0c351"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\yesterday_inventory\\batch02\\zip_member_validation.jsonl",
+      "bytes": 16188467,
+      "sha256": "3cad66818067e0387ef955ba4dddcd73a85510debd48a8f9ee31126c93f4f524"
+    }
+  ],
+  "assets": [
+    {
+      "release_tag": "master-run-storage-20261009-v1",
+      "id": 625836545,
+      "name": "master_cleanup_batch01.zip",
+      "bytes": 6373127,
+      "digest": "sha256:0e7d888f9464acac4500a1f54516c9e9ee7094279a48fbaaec00be24fa85cf19"
+    },
+    {
+      "release_tag": "master-run-storage-20261009-v1",
+      "id": 625836543,
+      "name": "master_cleanup_batch01.zip.sha256",
+      "bytes": 93,
+      "digest": "sha256:28c8d8b9489eddaec0dd65fbc42001829dd614061967fe8061dcda7187e6c77f"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621884975,
+      "name": "stage02-full196-derived-tables.zip.sha256",
+      "bytes": 101,
+      "digest": "sha256:636070b04e8bc219ab39bb8abf54190acc28b6ccd904db3e455f032dda5a380d"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621886001,
+      "name": "stage02-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "digest": "sha256:72d694e70940e50edb8977caf11b7f26e5e6c0e19bc36c57f198f31fc7cbe045"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621868136,
+      "name": "stage02-raw-001-020.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:e5fe24d5597da9abf3cb618562a12ef46215776740ec5683965fff2fc8b07b92"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621869558,
+      "name": "stage02-raw-021-040.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:1d044855537f5b8662598bb76d3a50e802bb52326a5c6b0012cce55409dceb33"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621870965,
+      "name": "stage02-raw-041-060.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:5b03c1357cb6f672031cbad412a837804a66c1d24aa0b0472c7c21ceb4083aa1"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621872406,
+      "name": "stage02-raw-061-080.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:2d98d86cb4c3b31a9c7d8048354fb8cb5ddd6442ee22026a1ae4400eb56ae77e"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621874086,
+      "name": "stage02-raw-081-100.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:e18a661ce8844a6c53143b13506cf5fb68f7af9ab519aafc0038e491542eb543"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621875588,
+      "name": "stage02-raw-101-120.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:379350544775cc2dc7cbb67af186cc5b2c989170fa1a8755d72317199e115c9d"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621877857,
+      "name": "stage02-raw-121-140.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:81dc6b767536a5293988856f699056ce5c94ce4d788bf185c3bfd8e5156fef97"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621879780,
+      "name": "stage02-raw-141-160.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:a1f18eedc5bf993ff136926480b89d9f6403fc33a83950ce97466347fdb66e7e"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621881447,
+      "name": "stage02-raw-161-180.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:f6053ce376f7ee05dbc04c6fe15e01997d2ff90478fac82f8fbd7878cc77ca24"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621883327,
+      "name": "stage02-raw-181-196.zip.sha256",
+      "bytes": 90,
+      "digest": "sha256:07ac0e6b20d2fba30417dac94fff1541013cbef3bdc972814d0590d2b9999241"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621884973,
+      "name": "stage02-full196-derived-tables.zip",
+      "bytes": 51044271,
+      "digest": "sha256:bb8095c0d8fa51f09b68c484eaaf578bbda047d9df29b92626065684e59f0423"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621886000,
+      "name": "stage02-methods-and-reports.zip",
+      "bytes": 440905,
+      "digest": "sha256:61d52851fb7ccb21c310200774dad06c4c1121ba73c7eca53ca3187be03c9981"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621868133,
+      "name": "stage02-raw-001-020.zip",
+      "bytes": 156618351,
+      "digest": "sha256:73a8abe1683fff12098530dfb4ac356ccbb1f136886e0b6ffee6084e1626ac35"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621869557,
+      "name": "stage02-raw-021-040.zip",
+      "bytes": 134932566,
+      "digest": "sha256:a3a5f75d2332508b8df577b58583f2f2d38c77a1ff318144b4d7cbe9c8f1f828"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621870967,
+      "name": "stage02-raw-041-060.zip",
+      "bytes": 137758632,
+      "digest": "sha256:d72f20c034e74a2df3f0fd3c37e17ef39394e57e06de21aacf90922ddd0b8736"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621872405,
+      "name": "stage02-raw-061-080.zip",
+      "bytes": 142236742,
+      "digest": "sha256:8b30ff368ca11ac8eee764cb768b137cfe798caad7518d373681c628aa262d0a"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621874085,
+      "name": "stage02-raw-081-100.zip",
+      "bytes": 133281830,
+      "digest": "sha256:85cffd5005059eb80fa2782f4a36ef979ea67f6cce1a0a85096e6f70f6f22f13"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621875585,
+      "name": "stage02-raw-101-120.zip",
+      "bytes": 156402383,
+      "digest": "sha256:00fa8793cdb6c1dee9221054c87583a73bfec2e256a13c8649f7563281a5c914"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621877859,
+      "name": "stage02-raw-121-140.zip",
+      "bytes": 157220094,
+      "digest": "sha256:9c3627ecd54bba30109fbc59bd45a1025ca56cadea2327e19f995d9447951eed"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621879779,
+      "name": "stage02-raw-141-160.zip",
+      "bytes": 155379441,
+      "digest": "sha256:15a462627327ca256674fe0029f76e31e2c7ee6bc2b32f6ff448af465e844c5d"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621881444,
+      "name": "stage02-raw-161-180.zip",
+      "bytes": 146172764,
+      "digest": "sha256:f06ad515376a06edc6688d7189e9b5bcaefffedc6b576955a959b60b42a3d175"
+    },
+    {
+      "release_tag": "stage02-sequences196-v1",
+      "id": 621883330,
+      "name": "stage02-raw-181-196.zip",
+      "bytes": 114007230,
+      "digest": "sha256:2ba6d12f9b99cf8a00d2c3757d386578e632c4aa0b030c360accfefb6f5b7010"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622137752,
+      "name": "stage03-full196-original-and-curated-markers.zip.sha256",
+      "bytes": 115,
+      "digest": "sha256:752b294a9a488702f0c09839f188dafb66fc93790e6a3dc426c3aa71699f1705"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622138665,
+      "name": "stage03-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "digest": "sha256:1d8bbf2047d641138b493b1e5155f16828da33c39f7dcd1e20e54ba997af29c2"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622116885,
+      "name": "stage03-source-and-search-001-020.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:a27d2d30b5cde194ec376d2a86ddfe3391a6aed7cc964487803f235dc0d6f7be"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622119561,
+      "name": "stage03-source-and-search-021-040.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:8cecc3906509502bd3fd51ec12f0868a6de8b286544ad621ac47919450294c9c"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622120910,
+      "name": "stage03-source-and-search-041-060.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:a98fc915081c0f8ec826b5b726bfc2e3b3f1c06f34657283addc6641f0b92b6e"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622123777,
+      "name": "stage03-source-and-search-061-080.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:010530b9274abf343bda32fa33efdcf7f08aff07a44a13400997735537681fd9"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622126481,
+      "name": "stage03-source-and-search-081-100.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:45ca6f695facfa7f947023968e6d574426bf1a20bad0984f75916256712e469a"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622128344,
+      "name": "stage03-source-and-search-101-120.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:2a30b5210a0ac633ba704676066a9bd719bc08e33f1d66a76e4768548e12e09a"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622131138,
+      "name": "stage03-source-and-search-121-140.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:663f48be1d95adfe467bdfee71482d4348bc6fdd4b32459c5ed95fa3a5bbf3a4"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622132920,
+      "name": "stage03-source-and-search-141-160.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:e642c3b29838147c05e21a3d44bce424d7779ca712f18a699e916215acd7c23f"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622134920,
+      "name": "stage03-source-and-search-161-180.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:0ae399e549dea4c3532c7bdd93f7b6038cdb797fd70715990c71f6c2cbda2336"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622136786,
+      "name": "stage03-source-and-search-181-196.zip.sha256",
+      "bytes": 104,
+      "digest": "sha256:87769dba17414f3e4a99f0ce66fabae59058fd4de96a3802da60c942dd2a05c9"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622137169,
+      "name": "stage03-full196-original-and-curated-markers.zip",
+      "bytes": 19678446,
+      "digest": "sha256:ea162611e8ed4e49451ecddd683b869729b2e9a1a19f00ad831b1d24a7e6244c"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622138113,
+      "name": "stage03-methods-and-reports.zip",
+      "bytes": 764657,
+      "digest": "sha256:b049d3c6cd9152f4557d9b33d31cb7d141de81f21ef8b700865ca022ab510b30"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622115850,
+      "name": "stage03-source-and-search-001-020.zip",
+      "bytes": 71373388,
+      "digest": "sha256:a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622117284,
+      "name": "stage03-source-and-search-021-040.zip",
+      "bytes": 60831575,
+      "digest": "sha256:5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622119886,
+      "name": "stage03-source-and-search-041-060.zip",
+      "bytes": 63398469,
+      "digest": "sha256:91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622121235,
+      "name": "stage03-source-and-search-061-080.zip",
+      "bytes": 65709395,
+      "digest": "sha256:71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622124178,
+      "name": "stage03-source-and-search-081-100.zip",
+      "bytes": 61656135,
+      "digest": "sha256:6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622126832,
+      "name": "stage03-source-and-search-101-120.zip",
+      "bytes": 70679056,
+      "digest": "sha256:7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622128666,
+      "name": "stage03-source-and-search-121-140.zip",
+      "bytes": 71921743,
+      "digest": "sha256:ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622131422,
+      "name": "stage03-source-and-search-141-160.zip",
+      "bytes": 70254486,
+      "digest": "sha256:a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622133236,
+      "name": "stage03-source-and-search-161-180.zip",
+      "bytes": 67289794,
+      "digest": "sha256:3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7"
+    },
+    {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "id": 622135265,
+      "name": "stage03-source-and-search-181-196.zip",
+      "bytes": 51816651,
+      "digest": "sha256:fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b"
+    },
+    {
+      "release_tag": "stage04a-hostalignments196-v1",
+      "id": 622207682,
+      "name": "stage04a-full196-validated-alignments.zip.sha256",
+      "bytes": 108,
+      "digest": "sha256:992ba0bbaa00f9594f57e1bf08e5b399a91a2d4f94c32c9948668085b7012695"
+    },
+    {
+      "release_tag": "stage04a-hostalignments196-v1",
+      "id": 622208541,
+      "name": "stage04a-methods-and-independent-evidence.zip.sha256",
+      "bytes": 112,
+      "digest": "sha256:32a54e8a4891c9a4ab8044aade3caac0337723497ca910b942633e4d0e013a57"
+    },
+    {
+      "release_tag": "stage04a-hostalignments196-v1",
+      "id": 622206906,
+      "name": "stage04a-full196-validated-alignments.zip",
+      "bytes": 29506545,
+      "digest": "sha256:ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739"
+    },
+    {
+      "release_tag": "stage04a-hostalignments196-v1",
+      "id": 622208064,
+      "name": "stage04a-methods-and-independent-evidence.zip",
+      "bytes": 160437,
+      "digest": "sha256:6395260ce715f1385a8a5cbc0fbace34bead88605046e2580f1c109272b00707"
+    },
+    {
+      "release_tag": "stage04b-inference-resource-failure196-v1",
+      "id": 622320163,
+      "name": "stage04b-full196-native-resource-failure.zip",
+      "bytes": 144148,
+      "digest": "sha256:1d19c855b3c7fcea490c0484909b40c0ce47c8c5ee99ae2afbe75c5e67645d32"
+    },
+    {
+      "release_tag": "stage04b-inference-resource-failure196-v1",
+      "id": 622320528,
+      "name": "stage04b-full196-native-resource-failure.zip.sha256",
+      "bytes": 111,
+      "digest": "sha256:1cb53631d74d7616ba8a5324c55c513d8137f681d58bf2455575b54455733785"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\atomic_iqtree_windows.cpython-312.pyc",
+      "bytes": 67323,
+      "sha256": "c066f29f3a09667b14c177c922392ba2d0ffca9f11a0d5a27784737051d9cb76",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/atomic_iqtree_windows.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\atomic_iqtree_windows.cpython-314.pyc",
+      "bytes": 72073,
+      "sha256": "5b9a12a59055f03bf802adcf1b432f23edfb728442253562c672b175096691e4",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/atomic_iqtree_windows.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\check_stage06_outputs.cpython-312.pyc",
+      "bytes": 28960,
+      "sha256": "7fa7c74799fab16ae825701860cca6d86208254678a043fb90d9a42a2a2d868b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/check_stage06_outputs.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\independent_tree_check.cpython-314.pyc",
+      "bytes": 29896,
+      "sha256": "7dd898e780054900b79b231fd8dcdbde94a9e999fba1e40391e6e1f190698152",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/independent_tree_check.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\publish_bootstrap.cpython-314.pyc",
+      "bytes": 18084,
+      "sha256": "d44da17c9d9300735565a025395dc91adc9ab2d85454a09bf7693f411580a84a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/publish_bootstrap.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\publish_stage4_primary.cpython-314.pyc",
+      "bytes": 22385,
+      "sha256": "e3c0996f36c01217da50dfc07a6ab3129bd6535a6bb92fed30029dbaab04bccf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/publish_stage4_primary.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\resource_maintenance.cpython-314.pyc",
+      "bytes": 18220,
+      "sha256": "f14ff5c8139cf4b533cdc79c2cd68347d512b794c1d0b70a4aaa4a646611fcc7",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/resource_maintenance.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage06_render.cpython-312.pyc",
+      "bytes": 52451,
+      "sha256": "431cc624b3154623f6838cb641503ee7430901a4722700aa04b27b0f7f8226ac",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage06_render.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic.cpython-314.pyc",
+      "bytes": 48479,
+      "sha256": "3fb805dde50cfff33464ac8ad32e380a4d96707e39256b004234acfb360f0b5e",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage5_atomic.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic_process.cpython-312.pyc",
+      "bytes": 32491,
+      "sha256": "c5fbcb96096162b1d95c6a350dc5165adcaa48ce6b9856cf4e649a37f0d08c3c",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage5_atomic_process.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_atomic_process.cpython-314.pyc",
+      "bytes": 35108,
+      "sha256": "a1a3a156c7defe3fd59385469e526448e6b7151b450093a6e89792e37d9b2840",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage5_atomic_process.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_interop_smoke_windows.cpython-312.pyc",
+      "bytes": 22425,
+      "sha256": "4471e1c703bdbca659818a9091fe324032b9c6857b389d0f4b86f2bced0775a4",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage5_interop_smoke_windows.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\stage5_windows_owner.cpython-314.pyc",
+      "bytes": 21601,
+      "sha256": "b5fd5af6c6974ca892c414897f8a4cd38c6b9b6818431235ed209438109afb00",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/stage5_windows_owner.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_atomic_iqtree_windows.cpython-314.pyc",
+      "bytes": 10788,
+      "sha256": "b8df1058eabb52b1d889df73e2a2acca0addc1f3336b99ec1d3bfe316e713292",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/test_atomic_iqtree_windows.cpython-314.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_stage06_render.cpython-312.pyc",
+      "bytes": 22090,
+      "sha256": "8619625cd6378c2dff41c03b4658cbb68c88afafaf7e9b470f183b6645e2860a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/test_stage06_render.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__\\test_stage5_interop_contracts.cpython-312.pyc",
+      "bytes": 9716,
+      "sha256": "ed57ed7d7751e890aeb4771f8359d771a840e2d8e07e8c1d4fe64b75969b1166",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/__pycache__/test_stage5_interop_contracts.cpython-312.pyc"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\main__phyloanalysis.cpp",
+      "bytes": 277803,
+      "sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/iqtree_3_1_4_source_review/main__phyloanalysis.cpp"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__iqtree.cpp",
+      "bytes": 180963,
+      "sha256": "7cb158592e69ae63a6e74dafe0f631178b0f36ace4f8c5031ed34d1fdfb34b8c",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/iqtree_3_1_4_source_review/tree__iqtree.cpp"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\tree__phylotree.cpp",
+      "bytes": 228968,
+      "sha256": "db4c2f7e5aa15beef3550a56035d38e08961f7e12af1bfac5d0bf9a6b94e1551",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/iqtree_3_1_4_source_review/tree__phylotree.cpp"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_3_1_4_source_review\\utils__tools.cpp",
+      "bytes": 668454,
+      "sha256": "a4c164f42c5f8e6c7b8a5f76949453c41db00f724b22037d683133313383b979",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/iqtree_3_1_4_source_review/utils__tools.cpp"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\approved.txt",
+      "bytes": 3724,
+      "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/approved.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\artifact_validation.json",
+      "bytes": 621,
+      "sha256": "b88815e387546c316ebb4a28ddbbeab0d7cb4233ef154002db613d3f50c17821",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/artifact_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\join.json",
+      "bytes": 519,
+      "sha256": "dadb8387431824e9fd42a7875af692180ebb56da6a3faafca59b7cb3e72a0542",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/join.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\matrix.tsv",
+      "bytes": 5399,
+      "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/matrix.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\preview.png",
+      "bytes": 1395962,
+      "sha256": "ea8764220ae994fd904c856c6d398a09dbfc19b84d02ed83cbd232300505d2cf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/preview.png"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\README.txt",
+      "bytes": 1427,
+      "sha256": "c1753d1ae68303640da2d2593cbb76f7525c4fdcf2114d388ee640908694fd02",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/README.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\approved_accessions.txt",
+      "bytes": 3724,
+      "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/approved_accessions.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\branch_mapping.json",
+      "bytes": 137113,
+      "sha256": "80572ba0ad8dccea70ff84f9f5a05c28d7f24c6659cf85aff52eedb2c06cad8d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/branch_mapping.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\cell_mapping.tsv",
+      "bytes": 100095,
+      "sha256": "999efc0fe0c0bfc159d1eb4e2c2a6fea654243d7b43cdc8b86dbe6e7610372e0",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/cell_mapping.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\circular_rm.pdf",
+      "bytes": 66439,
+      "sha256": "ca1f2749ec714d8a556ced8cf283ff40231f08987cdd20c94283371e31f0e898",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/circular_rm.pdf"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\circular_rm.svg",
+      "bytes": 411813,
+      "sha256": "ed7e3accb607b28f3155a8040c52b42aab504a339e7c2fb49073ffc01bd66530",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/circular_rm.svg"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\host_tree.nwk",
+      "bytes": 7239,
+      "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/host_tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\host_tree_unrooted.nex",
+      "bytes": 7280,
+      "sha256": "d8dfd8a953473877df1852da19623acf2c07a941998ddfe48875f1bcb6f4700e",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/host_tree_unrooted.nex"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_01_Type_I_full_state.txt",
+      "bytes": 7909,
+      "sha256": "bd8f291cfd3385483e621961ea5e493cc75f3206f91cb41fb57a68eea37b0f71",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/itol_01_Type_I_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_02_Type_II_full_state.txt",
+      "bytes": 7957,
+      "sha256": "49225dd170374be45379d90b9de295ef97723a3c59dbcba8e0efcd6c01d1f90a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/itol_02_Type_II_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_03_Type_III_full_state.txt",
+      "bytes": 7913,
+      "sha256": "1290e95007d270e9b3510fd845a0e3a7a439bf5099105e4a9fb53cceba4e1ff6",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/itol_03_Type_III_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_04_Type_IV_full_state.txt",
+      "bytes": 7911,
+      "sha256": "2fe110ed7c0ae2ac3ee704858ad70fd229ba32bdf4e0096141ace2d5bcf91744",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/itol_04_Type_IV_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\itol_binary_convenience.txt",
+      "bytes": 5562,
+      "sha256": "7f05fea65f9fda67e8bbc68eeedb7fc6fbf884a8f76a96db0d62efcbc39bb288",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/itol_binary_convenience.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\join_validation.json",
+      "bytes": 519,
+      "sha256": "dadb8387431824e9fd42a7875af692180ebb56da6a3faafca59b7cb3e72a0542",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/join_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\provenance.json",
+      "bytes": 2744,
+      "sha256": "16df38263565a2048303b14d2a634d4bfc7a5cdeb491087dedc5382ae1042257",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/provenance.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\rm_type_presence_absence.tsv",
+      "bytes": 5399,
+      "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/rm_type_presence_absence.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\rm_type_state.tsv",
+      "bytes": 66495,
+      "sha256": "27ea6b480656ffa59ac08ea9ae124c2a84f78e281a39a41b60705fb1eb111258",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/rm_type_state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\scene.json",
+      "bytes": 886677,
+      "sha256": "d5ab229868c8086348d9cccdb2151bdb087ed8e9eb6a03c1964d5cd4512a24bc",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/scene.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/render/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\state.tsv",
+      "bytes": 66495,
+      "sha256": "27ea6b480656ffa59ac08ea9ae124c2a84f78e281a39a41b60705fb1eb111258",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\tree.nwk",
+      "bytes": 7239,
+      "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\approved.txt",
+      "bytes": 3724,
+      "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/approved.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\artifact_validation.json",
+      "bytes": 634,
+      "sha256": "1a2c9f6acd4ff0f35ac8b3189b69d01959ea0a0303fe81a9f39b53881f975bac",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/artifact_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\artifact_validation_final.json",
+      "bytes": 621,
+      "sha256": "ada92238b05be2b129e945b4b35a54cae41e03ab000053ab6f19f45e6ad6f1f4",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/artifact_validation_final.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\curation_source_manifest.json",
+      "bytes": 109,
+      "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/curation_source_manifest.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\curation_validation.json",
+      "bytes": 593,
+      "sha256": "a699e4bf9745b4784bab27e0f3c05eb2bcd33b5f269a52df1064262a2ee894ed",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/curation_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\join.json",
+      "bytes": 519,
+      "sha256": "923e6e7ea4d3cfc1254fba83e65f10c2a19d4f4d6a24011a74cbb142d3c7bfdc",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/join.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\matrix.tsv",
+      "bytes": 5399,
+      "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/matrix.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\preview.png",
+      "bytes": 1000140,
+      "sha256": "c73a156fe9b9312b646e5274299d8fcf551393437a4d64736a5d288f1dbf6c3c",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/preview.png"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\README.txt",
+      "bytes": 1600,
+      "sha256": "001148077659002b88d4a1a2acc9c57c897e0215e1f13ec9f19e48029e88a850",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/README.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\approved_accessions.txt",
+      "bytes": 3724,
+      "sha256": "20b8159c4af7fa23d89bd7fdf8df6ef6923cd19febfd72ba6db91eedd7f4f08a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/approved_accessions.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\branch_mapping.json",
+      "bytes": 137113,
+      "sha256": "80572ba0ad8dccea70ff84f9f5a05c28d7f24c6659cf85aff52eedb2c06cad8d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/branch_mapping.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\cell_mapping.tsv",
+      "bytes": 101663,
+      "sha256": "3f34602197e566b566806d7995e6a5d6f1c993615d6530e07afb6d5ef5db6be8",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/cell_mapping.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\circular_rm.pdf",
+      "bytes": 66636,
+      "sha256": "855ae6d046b318a0bf8e06cf7cb0ac9ab731366023d4f7e488ab114ac5ad26ef",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/circular_rm.pdf"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\circular_rm.svg",
+      "bytes": 412050,
+      "sha256": "fac90018dde891bfa86e0530ff34b0c8d26881180ffcd9c5ee5e8ab52988f02d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/circular_rm.svg"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\curation_source_manifest.json",
+      "bytes": 109,
+      "sha256": "b26829b1c28a5da849a7a9596cbff35be32f14bfd8de47c69d4745d77bb8e03b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/curation_source_manifest.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\curation_validation.json",
+      "bytes": 593,
+      "sha256": "a699e4bf9745b4784bab27e0f3c05eb2bcd33b5f269a52df1064262a2ee894ed",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/curation_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\host_tree.nwk",
+      "bytes": 7239,
+      "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/host_tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\host_tree_unrooted.nex",
+      "bytes": 7280,
+      "sha256": "d8dfd8a953473877df1852da19623acf2c07a941998ddfe48875f1bcb6f4700e",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/host_tree_unrooted.nex"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_01_Type_I_full_state.txt",
+      "bytes": 7909,
+      "sha256": "bd8f291cfd3385483e621961ea5e493cc75f3206f91cb41fb57a68eea37b0f71",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/itol_01_Type_I_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_02_Type_II_full_state.txt",
+      "bytes": 7957,
+      "sha256": "49225dd170374be45379d90b9de295ef97723a3c59dbcba8e0efcd6c01d1f90a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/itol_02_Type_II_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_03_Type_III_full_state.txt",
+      "bytes": 7913,
+      "sha256": "1290e95007d270e9b3510fd845a0e3a7a439bf5099105e4a9fb53cceba4e1ff6",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/itol_03_Type_III_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_04_Type_IV_full_state.txt",
+      "bytes": 7911,
+      "sha256": "2fe110ed7c0ae2ac3ee704858ad70fd229ba32bdf4e0096141ace2d5bcf91744",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/itol_04_Type_IV_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\itol_binary_convenience.txt",
+      "bytes": 5562,
+      "sha256": "7f05fea65f9fda67e8bbc68eeedb7fc6fbf884a8f76a96db0d62efcbc39bb288",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/itol_binary_convenience.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\join_validation.json",
+      "bytes": 519,
+      "sha256": "923e6e7ea4d3cfc1254fba83e65f10c2a19d4f4d6a24011a74cbb142d3c7bfdc",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/join_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\provenance.json",
+      "bytes": 3158,
+      "sha256": "dafaf3bbbc2f5413ec07427974bacdfbe0210f3a0a0ea2dbb0579f38f05b2a88",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/provenance.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\rm_type_presence_absence.tsv",
+      "bytes": 5399,
+      "sha256": "0489b67f189bc8df8a700970a9e1c02f3c23aad534915600e7ab374f319e5c57",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/rm_type_presence_absence.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\rm_type_state.tsv",
+      "bytes": 64143,
+      "sha256": "dab3af9c380f3adf7c1bab5b883e8350c5f153dd15df3e40729fe305ba1c7786",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/rm_type_state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\scene.json",
+      "bytes": 888442,
+      "sha256": "03da40c75ae0ed14b113371693e92490f2640c2571b8b71b509d43d858084ede",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/scene.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/render/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\state.tsv",
+      "bytes": 64143,
+      "sha256": "dab3af9c380f3adf7c1bab5b883e8350c5f153dd15df3e40729fe305ba1c7786",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\tree.nwk",
+      "bytes": 7239,
+      "sha256": "479f4f339621186a9cb1b8b5f06d99e0a1ff708177ba990b04150a743c9c3012",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "db755863077a4c0c986edc527d85f544ef929fe86ddd1cd32691d136927c74f9",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_density_synthetic_final/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\artifact_validation.json",
+      "bytes": 629,
+      "sha256": "8b3b609bf7f82d6e83d717c9b8424a3f66298ccdddfec0550f908bbfc2291692",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/artifact_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\approved.txt",
+      "bytes": 68,
+      "sha256": "cbfb958f122dee5be5ac1eddebad8e858d4cbd7f08cfa8d444438edaebd7416f",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/approved.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\join.json",
+      "bytes": 514,
+      "sha256": "8a6cd33f85dad9817ee17ade6417301b8ab3c271d15f8d6d5913feb2305cb01d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/join.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\matrix.tsv",
+      "bytes": 143,
+      "sha256": "5d1f71a0431efc2dab31c44370a5f98ccadd83fb8568bea78e836df19388a15b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/matrix.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\state.tsv",
+      "bytes": 1435,
+      "sha256": "30f9ada679dc03dc15174a0e2bbcee0c5f24ab1df0b980d411c7655bb50e16e1",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\tree.nwk",
+      "bytes": 99,
+      "sha256": "493f1282d74d41ad0c2ed02651a28c27517fc5967d93aed833342ca859ba59bf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "ddcf66527fa64b1b96962a80a3f99d3f972821fd2eb054139e6da68dda134887",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/input/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\preview.png",
+      "bytes": 138696,
+      "sha256": "333b969351e53e4bdf7676bc7643ea2e0d75e5bbe284f48bb4e62cdc4cd028e7",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/preview.png"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\README.txt",
+      "bytes": 1427,
+      "sha256": "c1753d1ae68303640da2d2593cbb76f7525c4fdcf2114d388ee640908694fd02",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/README.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\approved_accessions.txt",
+      "bytes": 68,
+      "sha256": "cbfb958f122dee5be5ac1eddebad8e858d4cbd7f08cfa8d444438edaebd7416f",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/approved_accessions.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\branch_mapping.json",
+      "bytes": 1247,
+      "sha256": "d882b5f1af8d8d5df1d7d951a8f200e90f1520e8439154b3c932e7e233f5dd57",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/branch_mapping.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\cell_mapping.tsv",
+      "bytes": 1979,
+      "sha256": "8c982aaa80fe504a2d08289322fd481428ba41e3a488aa0a7d47f04d8c272b39",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/cell_mapping.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\circular_rm.pdf",
+      "bytes": 15572,
+      "sha256": "5938024bbe58221492275a6692653122587bb9efe8810d583d42538092048ffa",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/circular_rm.pdf"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\circular_rm.svg",
+      "bytes": 41375,
+      "sha256": "bd1c787302f26321116ef8a9d91c67a3c9ad04ae8124fff8e6fa60a4b5250d50",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/circular_rm.svg"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\host_tree.nwk",
+      "bytes": 99,
+      "sha256": "493f1282d74d41ad0c2ed02651a28c27517fc5967d93aed833342ca859ba59bf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/host_tree.nwk"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\host_tree_unrooted.nex",
+      "bytes": 140,
+      "sha256": "a0cd5c1fa7837411215085b09b33018e650d84d3e7b8dbf9ad71ff8bf989ffbf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/host_tree_unrooted.nex"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_01_Type_I_full_state.txt",
+      "bytes": 491,
+      "sha256": "fccd24800e822645b14c059fa706c400b868fc26f5b9629b0d464ae0a7b0d125",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/itol_01_Type_I_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_02_Type_II_full_state.txt",
+      "bytes": 525,
+      "sha256": "45652daff80a982d05b0ffbcdaad221ce1118add21ba0de63c17b62b237e1309",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/itol_02_Type_II_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_03_Type_III_full_state.txt",
+      "bytes": 481,
+      "sha256": "4845f962f09c293d66f893bb330c5523d61e6377f396698e77efa0a225225e5a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/itol_03_Type_III_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_04_Type_IV_full_state.txt",
+      "bytes": 479,
+      "sha256": "9e2ce4ab5443bba8e409b3c616b99feb9aab7e4c269f16f675e160dc9ac1cf41",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/itol_04_Type_IV_full_state.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\itol_binary_convenience.txt",
+      "bytes": 306,
+      "sha256": "73ae0bef428aef21e06dbdd3bf0e816429ca0af04cdd6422df1d4fce1ff88de5",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/itol_binary_convenience.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\join_validation.json",
+      "bytes": 514,
+      "sha256": "8a6cd33f85dad9817ee17ade6417301b8ab3c271d15f8d6d5913feb2305cb01d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/join_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\provenance.json",
+      "bytes": 2669,
+      "sha256": "d9fb00116e08c0fb335d338ca10f35df1d7781f7092bd2aa86ddc4df6342daf0",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/provenance.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\rm_type_presence_absence.tsv",
+      "bytes": 143,
+      "sha256": "5d1f71a0431efc2dab31c44370a5f98ccadd83fb8568bea78e836df19388a15b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/rm_type_presence_absence.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\rm_type_state.tsv",
+      "bytes": 1435,
+      "sha256": "30f9ada679dc03dc15174a0e2bbcee0c5f24ab1df0b980d411c7655bb50e16e1",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/rm_type_state.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\scene.json",
+      "bytes": 68701,
+      "sha256": "1100a8508865b3621b113d62cfa34ac82414839fa195ec1461bf61f186322c30",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/scene.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render\\tree_validation.json",
+      "bytes": 237,
+      "sha256": "ddcf66527fa64b1b96962a80a3f99d3f972821fd2eb054139e6da68dda134887",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/current_chat_work/stage06_synthetic/render/tree_validation.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardam8oubgc13",
+      "bytes": 977472,
+      "sha256": "2b1a76afe7cec90dbdd9a46d750292bc47bb56fed134a1a6a1d0bc8a7a952d1a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.tools/mamba_win/pkgs/cache/mambashardam8oubgc13"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardcp7js6sx23",
+      "bytes": 348721,
+      "sha256": "2e51782fdc2b073da2e21f098d2a0aa37f6aa495a04ef8bbc3140cf252e029e8",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.tools/mamba_win/pkgs/cache/mambashardcp7js6sx23"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardolg4k3mvvn",
+      "bytes": 572412,
+      "sha256": "0cedb67b517aa5c9d3a0c1568ac33339412414d4e00203851eb1699713537cad",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.tools/mamba_win/pkgs/cache/mambashardolg4k3mvvn"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\mamba_win\\pkgs\\cache\\mambashardu9nekrnbyj",
+      "bytes": 276088,
+      "sha256": "c7881af6b1ef3ee4f4cf24240e3612406fde43b77a3bceb333f699411f86126c",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.tools/mamba_win/pkgs/cache/mambashardu9nekrnbyj"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600\\.work\\v5_resource_wait.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/waiter_serialization_fixture_1791488292423128600/.work/v5_resource_wait.lock"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600\\.work\\workflow.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/waiter_serialization_fixture_1791488292423128600/.work/workflow.lock"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\AGENTS.md",
+      "bytes": 2031,
+      "sha256": "2cde0013b33b0a870e9f2a0236f5ac0df042d7b5af92aab9273c231740c894cb",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/AGENTS.md"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\README.txt",
+      "bytes": 962,
+      "sha256": "a26029004f943aedee0f09dc9034c2b5531450100cef03cd4de4ce68bdcd85d7",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/README.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\SHA256SUMS.txt",
+      "bytes": 2774,
+      "sha256": "c83f7dd31388ff4edcab9df8dbfc1da927f8c3f7b8dda852690380eb2a3b5385",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/SHA256SUMS.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\WORK_ORDER.md",
+      "bytes": 17223,
+      "sha256": "b55f50961ab3a7529610a24c27e1e07546497192798e33660c0e974fd8fa616a",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/WORK_ORDER.md"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approval.json",
+      "bytes": 917,
+      "sha256": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/config/approval.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approved_accessions.txt",
+      "bytes": 3332,
+      "sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/config/approved_accessions.txt"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\approved_panel.tsv",
+      "bytes": 1089055,
+      "sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/config/approved_panel.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config\\host_primary.json",
+      "bytes": 2505,
+      "sha256": "5788ca61cd097e2278dc5f6e6708661ef6dfb51fec699d6a6e2c6f2ab1b95c31",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/config/host_primary.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\REPORT.md",
+      "bytes": 2909,
+      "sha256": "4c48400227aeae96b6dabf3e870d69c23e131bcc9b838695bf9081816f027a19",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/REPORT.md"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\VALIDATOR_REVIEW.md",
+      "bytes": 5474,
+      "sha256": "a6dde51a8d39ad426a722ab261449f68554933f9e6dbef4b7d4c7da1ce9fdf88",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/VALIDATOR_REVIEW.md"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\assembly_qc.csv",
+      "bytes": 47307,
+      "sha256": "7cbae551ca7e84575dee993439555ade0836545264b6b5f2694c994da4eadcab",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/assembly_qc.csv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\assembly_qc.tsv",
+      "bytes": 47110,
+      "sha256": "aaf510067a229f8c4f4444345506dc1c65169dcce7a77f6d574840b301d4b99e",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/assembly_qc.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\errors.tsv",
+      "bytes": 41,
+      "sha256": "3f6962bd8c745e44f91a8d1a6b1524779a327bce2426cd5f4c2a80fdfb927df2",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/errors.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\member_sha256.tsv",
+      "bytes": 255509,
+      "sha256": "b1dca123e6d0e04a54ff7567e1a14804ace21faacb4fa52a78e9a827697a8b9f",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/member_sha256.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\negative_parser_tests.json",
+      "bytes": 1601,
+      "sha256": "b36e585f75cacd6b783ce2645bb8186c9371cfdda412a88b947e0d098f430539",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/negative_parser_tests.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\replicon_qc.tsv",
+      "bytes": 385608,
+      "sha256": "e46d7ea029f792239578f15a43861b2a558b3df91f493bfb2f0da94aa1d1af3d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/replicon_qc.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\restart_cache_audit.json",
+      "bytes": 33894,
+      "sha256": "7673b338cd6f8f1abb6fbc0f77334bf0b7684e9dadc902dae2cb5dd3c9bc735d",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/restart_cache_audit.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\review_exceptions.tsv",
+      "bytes": 3830127,
+      "sha256": "bfaaf33d1af5ce87ffae96360ad707f4b75814fdf2eedd0536fe29e5b12fc6b4",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/review_exceptions.tsv"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\validation_summary.json",
+      "bytes": 1521,
+      "sha256": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/validation_summary.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02\\validator_review_evidence.json",
+      "bytes": 2721,
+      "sha256": "0ddb77c421cf90cfd320e0f9c2c54aa44eaa13db1e581b8db2a0954c71dfbc92",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/reports/stage02/validator_review_evidence.json"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\acquisition_v2.py",
+      "bytes": 8744,
+      "sha256": "831e9b2c9066496dcfabcb22fcd0860486abf9edd7a02cee9df84911554fb98b",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/acquisition_v2.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\finalize_stage02.py",
+      "bytes": 16201,
+      "sha256": "700a2601ddce90c2d8d45c49462f7ad5b97a0812f490f7b7854fb284883c9342",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/finalize_stage02.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\install_offline_tools.sh",
+      "bytes": 1702,
+      "sha256": "58581cc0cc39ed4d82e03a484dfb59fb2d06b8f55be318a0398c0de2b35b6e20",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/install_offline_tools.sh"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\production_resume.py",
+      "bytes": 17870,
+      "sha256": "daf4e33c502ed0de7f592eeeb513eedd18bc8d5d265435792ef5f5fa2f325d82",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/production_resume.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\recover_restart.py",
+      "bytes": 5054,
+      "sha256": "6399b0c700849da52edd1ffb55a56481e1ca31d09d37aed0e8adfb05422b5f79",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/recover_restart.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\stage_tool_packages.py",
+      "bytes": 1553,
+      "sha256": "252442685fb3e36ee74fdc11d19634375f356cbf228b39356b2de9b864a8612c",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/stage_tool_packages.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\validate_sequences.py",
+      "bytes": 48368,
+      "sha256": "345bcea7a0decf8a34b485eeb2260e1298c3ebf4ef508e8e654b239c45fc4e64",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/validate_sequences.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\validate_stage02_locked.py",
+      "bytes": 1846,
+      "sha256": "f90e6778982f1161231205f16b7f7615143cc6ecd07809fb9c55de47da6e5c11",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/validate_stage02_locked.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\workflow_publication.py",
+      "bytes": 2135,
+      "sha256": "821f0a8c7e8b89b083d0aaf3a3a4d88f107184b459feae6947611cff26f44354",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/workflow_publication.py"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts\\wsl_project.sh",
+      "bytes": 679,
+      "sha256": "8f738f47af1bc7000bfda0c32d74cc7be174faac0dd97f335aea67923c720182",
+      "batch": 1,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/master-run-storage-20261009-v1/master_cleanup_batch01.zip",
+        "member": "payload/retained_20261008/.work/windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201/scripts/wsl_project.sh"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-full196-derived-tables.zip.sha256",
+      "bytes": 101,
+      "sha256": "636070b04e8bc219ab39bb8abf54190acc28b6ccd904db3e455f032dda5a380d",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-full196-derived-tables.zip.sha256",
+        "remote_asset_id": 621884975
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "sha256": "72d694e70940e50edb8977caf11b7f26e5e6c0e19bc36c57f198f31fc7cbe045",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-methods-and-reports.zip.sha256",
+        "remote_asset_id": 621886001
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-001-020.zip.sha256",
+      "bytes": 90,
+      "sha256": "e5fe24d5597da9abf3cb618562a12ef46215776740ec5683965fff2fc8b07b92",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-001-020.zip.sha256",
+        "remote_asset_id": 621868136
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-021-040.zip.sha256",
+      "bytes": 90,
+      "sha256": "1d044855537f5b8662598bb76d3a50e802bb52326a5c6b0012cce55409dceb33",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-021-040.zip.sha256",
+        "remote_asset_id": 621869558
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-041-060.zip.sha256",
+      "bytes": 90,
+      "sha256": "5b03c1357cb6f672031cbad412a837804a66c1d24aa0b0472c7c21ceb4083aa1",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-041-060.zip.sha256",
+        "remote_asset_id": 621870965
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-061-080.zip.sha256",
+      "bytes": 90,
+      "sha256": "2d98d86cb4c3b31a9c7d8048354fb8cb5ddd6442ee22026a1ae4400eb56ae77e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-061-080.zip.sha256",
+        "remote_asset_id": 621872406
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-081-100.zip.sha256",
+      "bytes": 90,
+      "sha256": "e18a661ce8844a6c53143b13506cf5fb68f7af9ab519aafc0038e491542eb543",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-081-100.zip.sha256",
+        "remote_asset_id": 621874086
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-101-120.zip.sha256",
+      "bytes": 90,
+      "sha256": "379350544775cc2dc7cbb67af186cc5b2c989170fa1a8755d72317199e115c9d",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-101-120.zip.sha256",
+        "remote_asset_id": 621875588
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-121-140.zip.sha256",
+      "bytes": 90,
+      "sha256": "81dc6b767536a5293988856f699056ce5c94ce4d788bf185c3bfd8e5156fef97",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-121-140.zip.sha256",
+        "remote_asset_id": 621877857
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-141-160.zip.sha256",
+      "bytes": 90,
+      "sha256": "a1f18eedc5bf993ff136926480b89d9f6403fc33a83950ce97466347fdb66e7e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-141-160.zip.sha256",
+        "remote_asset_id": 621879780
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-161-180.zip.sha256",
+      "bytes": 90,
+      "sha256": "f6053ce376f7ee05dbc04c6fe15e01997d2ff90478fac82f8fbd7878cc77ca24",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-161-180.zip.sha256",
+        "remote_asset_id": 621881447
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\readback\\stage02-raw-181-196.zip.sha256",
+      "bytes": 90,
+      "sha256": "07ac0e6b20d2fba30417dac94fff1541013cbef3bdc972814d0590d2b9999241",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-181-196.zip.sha256",
+        "remote_asset_id": 621883327
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-full196-derived-tables.zip",
+      "bytes": 51044271,
+      "sha256": "bb8095c0d8fa51f09b68c484eaaf578bbda047d9df29b92626065684e59f0423",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-full196-derived-tables.zip",
+        "remote_asset_id": 621884973
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-full196-derived-tables.zip.sha256",
+      "bytes": 101,
+      "sha256": "636070b04e8bc219ab39bb8abf54190acc28b6ccd904db3e455f032dda5a380d",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-full196-derived-tables.zip.sha256",
+        "remote_asset_id": 621884975
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-methods-and-reports.zip",
+      "bytes": 440905,
+      "sha256": "61d52851fb7ccb21c310200774dad06c4c1121ba73c7eca53ca3187be03c9981",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-methods-and-reports.zip",
+        "remote_asset_id": 621886000
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "sha256": "72d694e70940e50edb8977caf11b7f26e5e6c0e19bc36c57f198f31fc7cbe045",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-methods-and-reports.zip.sha256",
+        "remote_asset_id": 621886001
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-001-020.zip",
+      "bytes": 156618351,
+      "sha256": "73a8abe1683fff12098530dfb4ac356ccbb1f136886e0b6ffee6084e1626ac35",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-001-020.zip",
+        "remote_asset_id": 621868133
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-001-020.zip.sha256",
+      "bytes": 90,
+      "sha256": "e5fe24d5597da9abf3cb618562a12ef46215776740ec5683965fff2fc8b07b92",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-001-020.zip.sha256",
+        "remote_asset_id": 621868136
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-021-040.zip",
+      "bytes": 134932566,
+      "sha256": "a3a5f75d2332508b8df577b58583f2f2d38c77a1ff318144b4d7cbe9c8f1f828",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-021-040.zip",
+        "remote_asset_id": 621869557
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-021-040.zip.sha256",
+      "bytes": 90,
+      "sha256": "1d044855537f5b8662598bb76d3a50e802bb52326a5c6b0012cce55409dceb33",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-021-040.zip.sha256",
+        "remote_asset_id": 621869558
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-041-060.zip",
+      "bytes": 137758632,
+      "sha256": "d72f20c034e74a2df3f0fd3c37e17ef39394e57e06de21aacf90922ddd0b8736",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-041-060.zip",
+        "remote_asset_id": 621870967
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-041-060.zip.sha256",
+      "bytes": 90,
+      "sha256": "5b03c1357cb6f672031cbad412a837804a66c1d24aa0b0472c7c21ceb4083aa1",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-041-060.zip.sha256",
+        "remote_asset_id": 621870965
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-061-080.zip",
+      "bytes": 142236742,
+      "sha256": "8b30ff368ca11ac8eee764cb768b137cfe798caad7518d373681c628aa262d0a",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-061-080.zip",
+        "remote_asset_id": 621872405
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-061-080.zip.sha256",
+      "bytes": 90,
+      "sha256": "2d98d86cb4c3b31a9c7d8048354fb8cb5ddd6442ee22026a1ae4400eb56ae77e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-061-080.zip.sha256",
+        "remote_asset_id": 621872406
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-081-100.zip",
+      "bytes": 133281830,
+      "sha256": "85cffd5005059eb80fa2782f4a36ef979ea67f6cce1a0a85096e6f70f6f22f13",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-081-100.zip",
+        "remote_asset_id": 621874085
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-081-100.zip.sha256",
+      "bytes": 90,
+      "sha256": "e18a661ce8844a6c53143b13506cf5fb68f7af9ab519aafc0038e491542eb543",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-081-100.zip.sha256",
+        "remote_asset_id": 621874086
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-101-120.zip",
+      "bytes": 156402383,
+      "sha256": "00fa8793cdb6c1dee9221054c87583a73bfec2e256a13c8649f7563281a5c914",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-101-120.zip",
+        "remote_asset_id": 621875585
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-101-120.zip.sha256",
+      "bytes": 90,
+      "sha256": "379350544775cc2dc7cbb67af186cc5b2c989170fa1a8755d72317199e115c9d",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-101-120.zip.sha256",
+        "remote_asset_id": 621875588
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-121-140.zip",
+      "bytes": 157220094,
+      "sha256": "9c3627ecd54bba30109fbc59bd45a1025ca56cadea2327e19f995d9447951eed",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-121-140.zip",
+        "remote_asset_id": 621877859
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-121-140.zip.sha256",
+      "bytes": 90,
+      "sha256": "81dc6b767536a5293988856f699056ce5c94ce4d788bf185c3bfd8e5156fef97",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-121-140.zip.sha256",
+        "remote_asset_id": 621877857
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-141-160.zip",
+      "bytes": 155379441,
+      "sha256": "15a462627327ca256674fe0029f76e31e2c7ee6bc2b32f6ff448af465e844c5d",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-141-160.zip",
+        "remote_asset_id": 621879779
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-141-160.zip.sha256",
+      "bytes": 90,
+      "sha256": "a1f18eedc5bf993ff136926480b89d9f6403fc33a83950ce97466347fdb66e7e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-141-160.zip.sha256",
+        "remote_asset_id": 621879780
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-161-180.zip",
+      "bytes": 146172764,
+      "sha256": "f06ad515376a06edc6688d7189e9b5bcaefffedc6b576955a959b60b42a3d175",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-161-180.zip",
+        "remote_asset_id": 621881444
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-161-180.zip.sha256",
+      "bytes": 90,
+      "sha256": "f6053ce376f7ee05dbc04c6fe15e01997d2ff90478fac82f8fbd7878cc77ca24",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-161-180.zip.sha256",
+        "remote_asset_id": 621881447
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-181-196.zip",
+      "bytes": 114007230,
+      "sha256": "2ba6d12f9b99cf8a00d2c3757d386578e632c4aa0b030c360accfefb6f5b7010",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-181-196.zip",
+        "remote_asset_id": 621883330
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage02\\stage02-raw-181-196.zip.sha256",
+      "bytes": 90,
+      "sha256": "07ac0e6b20d2fba30417dac94fff1541013cbef3bdc972814d0590d2b9999241",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage02-sequences196-v1/stage02-raw-181-196.zip.sha256",
+        "remote_asset_id": 621883327
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-full196-original-and-curated-markers.zip.sha256",
+      "bytes": 115,
+      "sha256": "752b294a9a488702f0c09839f188dafb66fc93790e6a3dc426c3aa71699f1705",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-full196-original-and-curated-markers.zip.sha256",
+        "remote_asset_id": 622137752
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "sha256": "1d8bbf2047d641138b493b1e5155f16828da33c39f7dcd1e20e54ba997af29c2",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-methods-and-reports.zip.sha256",
+        "remote_asset_id": 622138665
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-001-020.zip.sha256",
+      "bytes": 104,
+      "sha256": "a27d2d30b5cde194ec376d2a86ddfe3391a6aed7cc964487803f235dc0d6f7be",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip.sha256",
+        "remote_asset_id": 622116885
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-021-040.zip.sha256",
+      "bytes": 104,
+      "sha256": "8cecc3906509502bd3fd51ec12f0868a6de8b286544ad621ac47919450294c9c",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip.sha256",
+        "remote_asset_id": 622119561
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-041-060.zip.sha256",
+      "bytes": 104,
+      "sha256": "a98fc915081c0f8ec826b5b726bfc2e3b3f1c06f34657283addc6641f0b92b6e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip.sha256",
+        "remote_asset_id": 622120910
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-061-080.zip.sha256",
+      "bytes": 104,
+      "sha256": "010530b9274abf343bda32fa33efdcf7f08aff07a44a13400997735537681fd9",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip.sha256",
+        "remote_asset_id": 622123777
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-081-100.zip.sha256",
+      "bytes": 104,
+      "sha256": "45ca6f695facfa7f947023968e6d574426bf1a20bad0984f75916256712e469a",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip.sha256",
+        "remote_asset_id": 622126481
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-101-120.zip.sha256",
+      "bytes": 104,
+      "sha256": "2a30b5210a0ac633ba704676066a9bd719bc08e33f1d66a76e4768548e12e09a",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip.sha256",
+        "remote_asset_id": 622128344
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-121-140.zip.sha256",
+      "bytes": 104,
+      "sha256": "663f48be1d95adfe467bdfee71482d4348bc6fdd4b32459c5ed95fa3a5bbf3a4",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip.sha256",
+        "remote_asset_id": 622131138
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-141-160.zip.sha256",
+      "bytes": 104,
+      "sha256": "e642c3b29838147c05e21a3d44bce424d7779ca712f18a699e916215acd7c23f",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip.sha256",
+        "remote_asset_id": 622132920
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-161-180.zip.sha256",
+      "bytes": 104,
+      "sha256": "0ae399e549dea4c3532c7bdd93f7b6038cdb797fd70715990c71f6c2cbda2336",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip.sha256",
+        "remote_asset_id": 622134920
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\readback\\stage03-source-and-search-181-196.zip.sha256",
+      "bytes": 104,
+      "sha256": "87769dba17414f3e4a99f0ce66fabae59058fd4de96a3802da60c942dd2a05c9",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip.sha256",
+        "remote_asset_id": 622136786
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-full196-original-and-curated-markers.zip",
+      "bytes": 19678446,
+      "sha256": "ea162611e8ed4e49451ecddd683b869729b2e9a1a19f00ad831b1d24a7e6244c",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-full196-original-and-curated-markers.zip",
+        "remote_asset_id": 622137169
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-full196-original-and-curated-markers.zip.sha256",
+      "bytes": 115,
+      "sha256": "752b294a9a488702f0c09839f188dafb66fc93790e6a3dc426c3aa71699f1705",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-full196-original-and-curated-markers.zip.sha256",
+        "remote_asset_id": 622137752
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-methods-and-reports.zip",
+      "bytes": 764657,
+      "sha256": "b049d3c6cd9152f4557d9b33d31cb7d141de81f21ef8b700865ca022ab510b30",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-methods-and-reports.zip",
+        "remote_asset_id": 622138113
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-methods-and-reports.zip.sha256",
+      "bytes": 98,
+      "sha256": "1d8bbf2047d641138b493b1e5155f16828da33c39f7dcd1e20e54ba997af29c2",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-methods-and-reports.zip.sha256",
+        "remote_asset_id": 622138665
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-001-020.zip",
+      "bytes": 71373388,
+      "sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+        "remote_asset_id": 622115850
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-001-020.zip.sha256",
+      "bytes": 104,
+      "sha256": "a27d2d30b5cde194ec376d2a86ddfe3391a6aed7cc964487803f235dc0d6f7be",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip.sha256",
+        "remote_asset_id": 622116885
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-021-040.zip",
+      "bytes": 60831575,
+      "sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+        "remote_asset_id": 622117284
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-021-040.zip.sha256",
+      "bytes": 104,
+      "sha256": "8cecc3906509502bd3fd51ec12f0868a6de8b286544ad621ac47919450294c9c",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip.sha256",
+        "remote_asset_id": 622119561
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-041-060.zip",
+      "bytes": 63398469,
+      "sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+        "remote_asset_id": 622119886
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-041-060.zip.sha256",
+      "bytes": 104,
+      "sha256": "a98fc915081c0f8ec826b5b726bfc2e3b3f1c06f34657283addc6641f0b92b6e",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip.sha256",
+        "remote_asset_id": 622120910
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-061-080.zip",
+      "bytes": 65709395,
+      "sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+        "remote_asset_id": 622121235
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-061-080.zip.sha256",
+      "bytes": 104,
+      "sha256": "010530b9274abf343bda32fa33efdcf7f08aff07a44a13400997735537681fd9",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip.sha256",
+        "remote_asset_id": 622123777
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-081-100.zip",
+      "bytes": 61656135,
+      "sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+        "remote_asset_id": 622124178
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-081-100.zip.sha256",
+      "bytes": 104,
+      "sha256": "45ca6f695facfa7f947023968e6d574426bf1a20bad0984f75916256712e469a",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip.sha256",
+        "remote_asset_id": 622126481
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-101-120.zip",
+      "bytes": 70679056,
+      "sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+        "remote_asset_id": 622126832
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-101-120.zip.sha256",
+      "bytes": 104,
+      "sha256": "2a30b5210a0ac633ba704676066a9bd719bc08e33f1d66a76e4768548e12e09a",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip.sha256",
+        "remote_asset_id": 622128344
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-121-140.zip",
+      "bytes": 71921743,
+      "sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+        "remote_asset_id": 622128666
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-121-140.zip.sha256",
+      "bytes": 104,
+      "sha256": "663f48be1d95adfe467bdfee71482d4348bc6fdd4b32459c5ed95fa3a5bbf3a4",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip.sha256",
+        "remote_asset_id": 622131138
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-141-160.zip",
+      "bytes": 70254486,
+      "sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+        "remote_asset_id": 622131422
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-141-160.zip.sha256",
+      "bytes": 104,
+      "sha256": "e642c3b29838147c05e21a3d44bce424d7779ca712f18a699e916215acd7c23f",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip.sha256",
+        "remote_asset_id": 622132920
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-161-180.zip",
+      "bytes": 67289794,
+      "sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+        "remote_asset_id": 622133236
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-161-180.zip.sha256",
+      "bytes": 104,
+      "sha256": "0ae399e549dea4c3532c7bdd93f7b6038cdb797fd70715990c71f6c2cbda2336",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip.sha256",
+        "remote_asset_id": 622134920
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-181-196.zip",
+      "bytes": 51816651,
+      "sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+        "remote_asset_id": 622135265
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage03\\stage03-source-and-search-181-196.zip.sha256",
+      "bytes": 104,
+      "sha256": "87769dba17414f3e4a99f0ce66fabae59058fd4de96a3802da60c942dd2a05c9",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip.sha256",
+        "remote_asset_id": 622136786
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\readback\\stage04a-full196-validated-alignments.zip.sha256",
+      "bytes": 108,
+      "sha256": "992ba0bbaa00f9594f57e1bf08e5b399a91a2d4f94c32c9948668085b7012695",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-full196-validated-alignments.zip.sha256",
+        "remote_asset_id": 622207682
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\readback\\stage04a-methods-and-independent-evidence.zip.sha256",
+      "bytes": 112,
+      "sha256": "32a54e8a4891c9a4ab8044aade3caac0337723497ca910b942633e4d0e013a57",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-methods-and-independent-evidence.zip.sha256",
+        "remote_asset_id": 622208541
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-full196-validated-alignments.zip",
+      "bytes": 29506545,
+      "sha256": "ec6c09ffe596869497f13d69389eb3345266f4b89b1edaa6ce7608e35cbe6739",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-full196-validated-alignments.zip",
+        "remote_asset_id": 622206906
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-full196-validated-alignments.zip.sha256",
+      "bytes": 108,
+      "sha256": "992ba0bbaa00f9594f57e1bf08e5b399a91a2d4f94c32c9948668085b7012695",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-full196-validated-alignments.zip.sha256",
+        "remote_asset_id": 622207682
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-methods-and-independent-evidence.zip",
+      "bytes": 160437,
+      "sha256": "6395260ce715f1385a8a5cbc0fbace34bead88605046e2580f1c109272b00707",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-methods-and-independent-evidence.zip",
+        "remote_asset_id": 622208064
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04a\\stage04a-methods-and-independent-evidence.zip.sha256",
+      "bytes": 112,
+      "sha256": "32a54e8a4891c9a4ab8044aade3caac0337723497ca910b942633e4d0e013a57",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04a-hostalignments196-v1/stage04a-methods-and-independent-evidence.zip.sha256",
+        "remote_asset_id": 622208541
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04b\\readback\\stage04b-full196-native-resource-failure.zip",
+      "bytes": 144148,
+      "sha256": "1d19c855b3c7fcea490c0484909b40c0ce47c8c5ee99ae2afbe75c5e67645d32",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04b-inference-resource-failure196-v1/stage04b-full196-native-resource-failure.zip",
+        "remote_asset_id": 622320163
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04b\\readback\\stage04b-full196-native-resource-failure.zip.sha256",
+      "bytes": 111,
+      "sha256": "1cb53631d74d7616ba8a5324c55c513d8137f681d58bf2455575b54455733785",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04b-inference-resource-failure196-v1/stage04b-full196-native-resource-failure.zip.sha256",
+        "remote_asset_id": 622320528
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04b\\stage04b-full196-native-resource-failure.zip",
+      "bytes": 144148,
+      "sha256": "1d19c855b3c7fcea490c0484909b40c0ce47c8c5ee99ae2afbe75c5e67645d32",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04b-inference-resource-failure196-v1/stage04b-full196-native-resource-failure.zip",
+        "remote_asset_id": 622320163
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\release_staging\\stage04b\\stage04b-full196-native-resource-failure.zip.sha256",
+      "bytes": 111,
+      "sha256": "1cb53631d74d7616ba8a5324c55c513d8137f681d58bf2455575b54455733785",
+      "batch": 2,
+      "recovery": {
+        "asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage04b-inference-resource-failure196-v1/stage04b-full196-native-resource-failure.zip.sha256",
+        "remote_asset_id": 622320528
+      }
+    }
+  ],
+  "bytes": 2207024265,
+  "recursive_delete": false,
+  "archive_recovery_verified": true,
+  "process_identity_rule": "Retained full-resolution native/controller handles refreshed before each deletion; exclusive candidate file access and exact SHA256 before removal"
+}

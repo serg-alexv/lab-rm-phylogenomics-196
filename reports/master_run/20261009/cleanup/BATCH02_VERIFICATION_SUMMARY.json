@@ -1,0 +1,42 @@
+{
+  "actual_archive_rebuild": "NOT_RUN",
+  "actual_cleanup": "NOT_RUN",
+  "asset_downloads": 0,
+  "bytes": 2190829648,
+  "completed_utc": "2026-10-09T18:39:53.151123+00:00",
+  "distinct_zip_assets": 27,
+  "files": 82,
+  "large_ext4_image_read": false,
+  "remote_asset_identity_unchanged_before_after": true,
+  "schema": "LAB_RM_RELEASE_STAGING_DUPLICATE_VERIFICATION_V1",
+  "scientific_status_changes": false,
+  "script_sha256": "656b63638ea12784356b47a79a4a1eb69e802eef263998255e255a348725e6de",
+  "sidecar_copies": 54,
+  "source_receipts": {
+    "stage02": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage02\\publication_receipt.json",
+      "sha256": "23e8a6f2bb6ebea58b74b07f74f4011658e4387253544b1937d1e8803b227438",
+      "tag": "stage02-sequences196-v1"
+    },
+    "stage03": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage03\\publication_receipt.json",
+      "sha256": "1f7c7b7739a61508ace397c28f9d2022b0dd5b67543dd1cb12ceda64506514d1",
+      "tag": "stage03-hostmarkers196-v1"
+    },
+    "stage04a": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage04a\\publication_receipt.json",
+      "sha256": "37a7e8d4e89ce16b42021353c393d6386361c8053131c2ec0c406dfeeaa45f8e",
+      "tag": "stage04a-hostalignments196-v1"
+    },
+    "stage04b": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\reports\\stage04b\\publication_receipt.json",
+      "sha256": "e87c7ba15e82eaa169652e050e0e8cd11dd7032a32127fc88b70fe7a91e6caf5",
+      "tag": "stage04b-inference-resource-failure196-v1"
+    }
+  },
+  "started_utc": "2026-10-09T18:38:56.973759+00:00",
+  "status": "PASS_CURRENT_REMOTE_SHA256_AND_ALL_LOCAL_ZIP_MEMBERS",
+  "uncompressed_bytes_streamed": 6512011781,
+  "zip_copies": 28,
+  "zip_members_streamed": 45955
+}
