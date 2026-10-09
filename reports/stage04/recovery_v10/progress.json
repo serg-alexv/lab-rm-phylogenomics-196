@@ -1,8 +1,8 @@
 {
-  "utc": "2026-10-09T05:32:09.570569+00:00",
+  "utc": "2026-10-09T05:37:40.037698+00:00",
   "status": "V10_ACTUAL_NATIVE_RUNNING_INCOMPLETE",
-  "observation_as_of_utc": "2026-10-09T05:32:04.007945+00:00",
-  "observation_sha256": "96bc5834c85dfffc7e3b5799be275f9e898fa8743f7fad3b6f85e5a8f06689f7",
+  "observation_as_of_utc": "2026-10-09T05:37:34.660794+00:00",
+  "observation_sha256": "841fa8994ec225e3322a26f99c863b7172ae503143399a2116b77ee956956dd3",
   "controller": {
     "pid": 2968,
     "creation_filetime": 134359865859802366,
@@ -18,21 +18,21 @@
   "measurement": {
     "peak_process_committed_bytes": 3132694528,
     "peak_job_committed_bytes": 3133820928,
-    "job_cpu_seconds": 19874.328125,
+    "job_cpu_seconds": 20463.625,
     "job_active_processes": 2,
     "job_total_processes": 2,
     "actual_job_process_ids": [
       26452,
       27208
     ],
-    "utc": "2026-10-09T05:32:04.007945+00:00",
+    "utc": "2026-10-09T05:37:34.660794+00:00",
     "child_pid": 26452,
     "creation_filetime": 134359866154140144,
-    "wall_seconds": 10907.750738399998,
-    "cpu_seconds": 19874.328125,
-    "working_set_bytes": 117563392,
+    "wall_seconds": 11238.396575499995,
+    "cpu_seconds": 20463.625,
+    "working_set_bytes": 105062400,
     "peak_working_set_bytes": 2932658176,
-    "private_committed_bytes": 214982656,
+    "private_committed_bytes": 205647872,
     "process_exited": false,
     "actual_exit_code": null,
     "exit_filetime": 0
