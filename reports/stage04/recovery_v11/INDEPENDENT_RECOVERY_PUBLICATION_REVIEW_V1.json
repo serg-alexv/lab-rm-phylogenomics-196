@@ -1,0 +1,231 @@
+{
+  "schema": "INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1",
+  "reviewed_utc": "2026-10-09T09:44:43.3328404Z",
+  "decision": "PASS_EXPLICIT_RECOVERY_PUBLICATION_ONLY",
+  "canonical_repo": "serg-alexv/lab-rm-phylogenomics-196",
+  "authority": "Direct human instruction to save gathered valuable project evidence to canonical GitHub and refresh corrected boundaries/subtasks, relayed by root; original external owner executes publication.",
+  "scientific_retry_acceptance": "NOT_GRANTED",
+  "scientific_validation": "NOT_PERFORMED",
+  "numeric_validator_adoption": "NOT_GRANTED",
+  "current_remote_publication_status": "NOT_PERFORMED_OR_VERIFIED_BY_THIS_REVIEWER",
+  "retains_prior_status_acceptance": {
+    "review_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_lost_owner_boundary_review_20261009_v1\\INDEPENDENT_STATUS_AND_EXTENDED_DOC_PUBLICATION_REVIEW_V2.json",
+    "review_sha256": "d7a5114b4a980d4457e28b5a666abe756362913001e1eb3109473336f5ad5660",
+    "status_plan_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\STATUS_EDIT_PLAN_V2.json",
+    "status_plan_sha256": "92fd0c9071540460b7cdb7d2ac742b711fc8c3870e05a3a8a80a804c3abfaaaf",
+    "scope": "Exact STATUS.md and status/stages.tsv V2 before/after bytes and unchanged negative proposal retained. This review supersedes only prior root handoff/subtasks hashes and extends the publication allowlist.",
+    "earlier_sealed_reviews_rewritten": false
+  },
+  "final_local_byte_joins": {
+    "archive": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+      "bytes": 1136232,
+      "sha256": "f44c8546334838e0ebfdb054677a02bb46a4e589fe08a74fe1631ab301ede619"
+    },
+    "manifest": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\evidence_manifest_v1.json",
+      "bytes": 35113,
+      "sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211"
+    },
+    "handoff": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\RESTART_HANDOFF_20261009.md",
+      "bytes": 10207,
+      "sha256": "767f1376566318e4ace7e6ec3030ff4f49a44c7f3cdea6e9ccda1edc9ba37141"
+    },
+    "subtasks": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\recovery_subtasks_v11.json",
+      "bytes": 3397,
+      "sha256": "d6dfb8b8cfbf450a7acc1bc1a960c49de9d686f548ad65cfa686d916326c440a"
+    },
+    "index": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLICATION_INDEX.md",
+      "bytes": 3042,
+      "sha256": "ee5d4463fce94d7722ac596feeba83ec74a2fcdae348b78c3dd7d3a1692fe2fc"
+    },
+    "partitions": {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\primary_partitions_source_accepted.nex",
+      "bytes": 2924,
+      "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5"
+    }
+  },
+  "independent_archive_readback": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\BUNDLE_INDEPENDENT_READBACK_V1.json",
+    "bytes": 26177,
+    "sha256": "810a7de59955f6c503a6d6888ea6614fe18e5fd6d7d5b5b1c446b1e55cb3fbe8",
+    "result": "PASS: 86 ZIP members; 85 unique safe relative manifest data members; every source/member size and SHA256; ZIP CRCs; exact embedded manifest; 25 safe nested fixed14 ZIP members and CRCs.",
+    "no_member_executed": true,
+    "no_extraction": true,
+    "verification_is_data_only": true
+  },
+  "supplemental_accepted_partition_source": {
+    "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\snapshot_0003\\data\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+    "asset_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\primary_partitions_source_accepted.nex",
+    "bytes": 2924,
+    "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+    "exact_source_and_asset_hash_join": "PASS",
+    "purpose": "Portable accepted partition-to-N source evidence; not a new biological QC or validator adoption.",
+    "sealed_archive_and_manifest_unchanged": true
+  },
+  "canonical_target_allowlist": [
+    {
+      "target_relative": "STATUS.md",
+      "before_sha256": "234c13b366427d147a99ab0b961320056d0d7dec8df9c922e9c9a282ca57a3a7",
+      "after_sha256": "ebc0427be6c82fde374f0c9f552dbc52c4acee2a8efa18db9be9aa6aa99b953c",
+      "after_bytes": 2307,
+      "current_target_before_hash_matches": true,
+      "LF_only": true
+    },
+    {
+      "target_relative": "status/stages.tsv",
+      "before_sha256": "bab3d066a77826572ad94c9e85207be0d6ac489114a1445cfb05bb3bcdf56e63",
+      "after_sha256": "e8246ab52058622ce32962230590d0c2d4a0a74071b0ea32c40ebfc738aa7199",
+      "after_bytes": 696,
+      "current_target_before_hash_matches": true,
+      "LF_only": true
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\NEGATIVE_RECONCILIATION_PROPOSAL_V1.json",
+      "target_relative": "reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json",
+      "sha256": "ab2edbe3c0ff356e8dbe2eb6eb2b8b7048bcf5db1ba2c5d8792058682f4e7b8f",
+      "bytes": 28367
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\RESTART_HANDOFF_20261009.md",
+      "target_relative": "reports/stage04/recovery_v11/RESTART_HANDOFF_20261009.md",
+      "sha256": "767f1376566318e4ace7e6ec3030ff4f49a44c7f3cdea6e9ccda1edc9ba37141",
+      "bytes": 10207
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\recovery_subtasks_v11.json",
+      "target_relative": "status/recovery_subtasks_v11.json",
+      "initial_sha256": "d6dfb8b8cfbf450a7acc1bc1a960c49de9d686f548ad65cfa686d916326c440a",
+      "initial_bytes": 3397,
+      "subsequent_transition": "Only explicitly permitted measured R1 transition below"
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\evidence_manifest_v1.json",
+      "target_relative": "reports/stage04/recovery_v11/evidence_manifest_v1.json",
+      "sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211",
+      "bytes": 35113
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLICATION_INDEX.md",
+      "target_relative": "reports/stage04/recovery_v11/PUBLICATION_INDEX.md",
+      "sha256": "ee5d4463fce94d7722ac596feeba83ec74a2fcdae348b78c3dd7d3a1692fe2fc",
+      "bytes": 3042
+    },
+    {
+      "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+      "target_relative": "reports/stage04/recovery_v11/INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+      "authentication": "Actual finalized review SHA256 supplied separately to original owner; no recursive selfhash"
+    },
+    {
+      "target_relative": "reports/stage04/recovery_v11/publication_receipt_v1.json",
+      "scope": "New bounded actual publication receipt only; fields and truth conditions below"
+    }
+  ],
+  "release": {
+    "tag": "wd-recovery-20261009-v1",
+    "allowed_assets": [
+      {
+        "name": "LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\LAB_RM_WD_RECOVERY_EVIDENCE_20261009_V1.zip",
+        "bytes": 1136232,
+        "sha256": "f44c8546334838e0ebfdb054677a02bb46a4e589fe08a74fe1631ab301ede619"
+      },
+      {
+        "name": "evidence_manifest_v1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\evidence_manifest_v1.json",
+        "bytes": 35113,
+        "sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211"
+      },
+      {
+        "name": "INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+        "authentication": "Final review SHA256 authenticated by original-owner input pointer and actual upload verification"
+      },
+      {
+        "name": "primary_partitions_source_accepted.nex",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\primary_partitions_source_accepted.nex",
+        "bytes": 2924,
+        "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "source_provenance": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\snapshot_0003\\data\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex"
+      },
+      {
+        "name": "BUNDLE_INDEPENDENT_READBACK_V1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\BUNDLE_INDEPENDENT_READBACK_V1.json",
+        "bytes": 26177,
+        "sha256": "810a7de59955f6c503a6d6888ea6614fe18e5fd6d7d5b5b1c446b1e55cb3fbe8"
+      }
+    ],
+    "immutability": "Check tag/release/asset existence before mutation. Existing matching byte-verified artifacts may be reused; mismatches block and require a separately versioned amendment. No clobber, replacement, deletion or force update.",
+    "metadata": "Concise recovery evidence description only, accurately interrupted/incomplete and proposals NOT_ADOPTED.",
+    "independent_readback_asset_is_standalone": true,
+    "review_asset_is_self_describing_not_self_hashing": true
+  },
+  "measured_subtask_transition": {
+    "target_relative": "status/recovery_subtasks_v11.json",
+    "initial_source_sha256": "d6dfb8b8cfbf450a7acc1bc1a960c49de9d686f548ad65cfa686d916326c440a",
+    "prerequisite": "Only after actual remote verification of initial payload commit/file hashes and all five Release assets; local construction or upload initiation is insufficient.",
+    "permitted_changes": [
+      "Exactly subtasks[id=R1].state: IN_PROGRESS -> UPLOAD_VERIFIED",
+      "Add top-level publication_receipt = reports/stage04/recovery_v11/publication_receipt_v1.json",
+      "Add top-level state_updated_utc = actual transition UTC"
+    ],
+    "all_other_json_values_unchanged": true,
+    "no_other_subtask_or_method_or_scope_change": true,
+    "receipt_second_explicit_commit_permitted": true,
+    "remote_verify_final_updated_subtasks_bytes_required": true,
+    "frozen_bundle_initial_subtasks_remain_historical": true
+  },
+  "bounded_dynamic_publication_receipt": {
+    "allowed_facts": [
+      "Schema and actual UTC timestamps",
+      "Original workflow lock identity, actual acquire/release results and ownership evidence",
+      "Reconciled origin/main base SHA, payload commit SHA, actual explicit changed/staged path allowlist",
+      "Actual local committed and remotely retrieved file/asset byte counts and SHA256, release URL/tag/asset IDs",
+      "Actual push and verification outcomes, bounded errors or pending status",
+      "Sanitized owner external session, CLI version, model/effort, actual publication child exit receipt when measured",
+      "Explicit no scientific launch, no adoption, unknown original exits/old-job closure preserved"
+    ],
+    "excluded": [
+      "Private Codex transcripts/reasoning and raw private receipt bytes",
+      "Credentials, authentication headers or cookies",
+      "Broad unrelated machine inventories, raw unrelated logs or opaque shell dumps",
+      "Unattributed token-usage or reset-consumption claims",
+      "Successful scientific stage or old process exit/job closure inferred from publication"
+    ],
+    "no_self_commit_or_self_hash_fabrication": "Receipt may reference verified payload commit. Its own final commit/hash is verified externally after receipt commit; absent values remain pending/unknown.",
+    "failure_rule": "Publish only real partial/failure facts; do not set UPLOAD_VERIFIED until prerequisite satisfied."
+  },
+  "privacy_and_portability_review": {
+    "decision": "PASS_BOUNDED_EXPLICIT_PROJECT_EVIDENCE_ALLOWLIST",
+    "scope": "Reviewed manifest source paths, all member names/bytes, nested public fixed14 packet, selected bounded provenance/context and sanitized owner completion. Relevant WD absolute paths, username/SID in narrow power-event provenance and session identity are intentional project provenance.",
+    "excluded": "Raw private Codex records, credentials/key files/cookies, raw broad host/event/memory inventories and unrelated work.",
+    "scan": "No high-confidence credential/private-key/raw-Codex-record pattern found in bounded byte inspection; this is not a universal secret detector.",
+    "absolute_paths": "Historical WD source paths are provenance only; extract safe relative members to a new directory. Final index links resolve from canonical recovery_v11 location.",
+    "historical_context": "Stale historical RUNNING, original supply limits and generic null-shell diagnostic statements remain evidence; current handoff and selector addendum explicitly correct their interpretation."
+  },
+  "preserved_boundaries": [
+    "Old V10 native/controller actual exits and old anonymous owned-job terminal accounting/closure remain UNKNOWN. Original job cannot be queried after original owning handle was lost; new inventory or PID absence cannot backfill closure.",
+    "Power-off/logoff events are evidenced; original native/controller SessionID1 and exact per-process termination cause/exit are unestablished.",
+    "Preserved 790572-byte cache has 50 selected records = original14 plus36; incomplete ModelFinder/Stage04, no completed tree. Source and18 new tests reviewed, NOT_ADOPTED; actual new V11 context requires separate frozen review.",
+    "Unchanged production role selector and positive selected-null-service association remain authoritative; generic opaque cmd/powershell shells outside selector do not add a blanket gate.",
+    "Accepted prior stages reused, exact approved196 panel/no Enterococcus unchanged; full four-scope Stage04 science and Stages05-07 remain unfinished.",
+    "Documentation publication does not require scientific RAM admission. Scientific retry separately requires fresh retained lock/resource admission and actual new exits, queried-empty owned jobs, controller closure and scientific checks."
+  ],
+  "writer_conditions": [
+    "Original external owner must acquire and retain the original exclusive byte0 workflow lock, verify original file identity and record actual ownership. Earlier availability probe is not present ownership.",
+    "Freshly reconcile origin/main, exact target baselines and dirty states under retained lock. Exact before-hash drift blocks original status plan. Preserve unrelated dirty files and all frozen source/cache/receipts.",
+    "Copy only exact reviewed payload bytes, then only permitted measured R1 transition and bounded receipt. Explicitly stage only the nine allowlisted canonical paths; no blanket staging or force push.",
+    "Verify each actual remote committed payload SHA and all five release asset byte digests after upload. Verify subsequent receipt/subtasks commit independently; no claimed verification from URLs or local hashes alone.",
+    "Do not edit/adopt scientific source, run inference/tests/science, alter task/process/WSL configuration or relax resource/lifetime gates in this publication-only turn."
+  ],
+  "reviewer_activity": {
+    "canonical_mutations": 0,
+    "git_operations": 0,
+    "scientific_launches": 0,
+    "project_helpers_or_tests_executed": 0,
+    "new_activity": "C-only bounded artifact byte inspection and immutable publication review generation/readback; no repeated old tests or biological audits."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "REFRESHED_FULL196_RECOVERY_SUBTASKS_V11_V1",
+  "utc": "2026-10-09T09:23:37.2593049Z",
+  "canonical_repo": "serg-alexv/lab-rm-phylogenomics-196",
+  "objective": "Finish the existing seven-stage evidenced host phylogeny/R-M/circular scientific figure using accepted prior results",
+  "stage04": "INTERRUPTED_OUTCOME_UNKNOWN_SCIENTIFICALLY_INCOMPLETE",
+  "old_native_exit": null,
+  "old_controller_exit": null,
+  "old_owned_job_terminal_state": "UNKNOWN",
+  "saved_cache_records": 50,
+  "original14_numeric_proposal": "SOURCE_ONLY_NOT_ADOPTED",
+  "saved50_numeric_contract": "SOURCE_AND_18_NEW_TESTS_INDEPENDENTLY_REVIEWED_NOT_ADOPTED",
+  "new_science_launch_authorized_by_this_file": false,
+  "no_reprocessing_completed_stages": true,
+  "subtasks": [
+    {
+      "id": "R1",
+      "title": "Publish interruption history, checkpoint and refreshed work order",
+      "state": "IN_PROGRESS",
+      "depends_on": [],
+      "acceptance": "Remote commit/file hashes and portable Release asset digest verified"
+    },
+    {
+      "id": "R2",
+      "title": "Implement and independently review explicit saved50 numeric contract",
+      "state": "SOURCE_REVIEW_PASSED_ACTUAL_V11_CONTEXT_AND_ADOPTION_PENDING",
+      "depends_on": [],
+      "acceptance": "Preserve independently reviewed source/carrier/tests; separately version, review and adopt actual V11 invocation context before scientific retry"
+    },
+    {
+      "id": "R3",
+      "title": "Prepare minimal separately versioned V11 retry adapters and freeze",
+      "state": "PENDING",
+      "depends_on": [
+        "R2"
+      ],
+      "acceptance": "Preserved V10 unknown exits; exact new negative/import/config/controller/checker hashes; unchanged science/lifetime controls"
+    },
+    {
+      "id": "R4",
+      "title": "Independent acceptance and fresh original-lock admission",
+      "state": "BLOCKED_BY_PENDING_REVIEW_AND_RESOURCE_ADMISSION",
+      "depends_on": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "acceptance": "Hash-bound independent acceptance; retained exact stable lock; unchanged scientific role predicate; current available RAM at least4831838208B"
+    },
+    {
+      "id": "R5",
+      "title": "Complete four Stage04 inference scopes and publish",
+      "state": "NOT_RUN_FOR_NEW_ATTEMPT",
+      "depends_on": [
+        "R4"
+      ],
+      "acceptance": "Real new exits and queried-empty owned jobs, controller closure, all scientific checks and verified publication"
+    },
+    {
+      "id": "R6",
+      "title": "Run PADLOC and DefenseFinder and review R-M I\u2013IV",
+      "state": "NOT_RUN",
+      "depends_on": [
+        "R5"
+      ],
+      "acceptance": "All196 assemblies, exact locus/replicon joins, crosschecks, explicit784 states and reviewed evidence"
+    },
+    {
+      "id": "R7",
+      "title": "Render circular tree and complete final independent handoff",
+      "state": "NOT_RUN",
+      "depends_on": [
+        "R6"
+      ],
+      "acceptance": "196-tip784-cell consistent SVG/PDF/PNG plus portable formats, final source joins and remote hashes"
+    }
+  ],
+  "operating_requirement": "Keep WD powered on and Windows account signed in; InteractiveToken does not imply survival through logoff/power-off.",
+  "saved50_review_sha256": "8eb3eb989c3ab0b1325c6c0f8558529aecc2b1b73433f9d44feac7b78e927e26"
+}

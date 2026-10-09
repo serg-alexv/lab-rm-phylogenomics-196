@@ -1,0 +1,150 @@
+{
+  "schema": "INDEPENDENT_PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1",
+  "reviewed_utc": "2026-10-09T10:00:33.8811688Z",
+  "decision": "PASS_NARROW_EXISTING_PUBLIC_TARGET_PUBLICATION_RETRY_ONLY",
+  "amends_review_sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973",
+  "amends_review_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+  "authority": "Latest direct human instruction to publish gathered valuable project evidence to the same named canonical GitHub repository, relayed by root. Existing public visibility is verified evidence, not a requested visibility change.",
+  "canonical_repo": "serg-alexv/lab-rm-phylogenomics-196",
+  "source_evidence": {
+    "original_review": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\INDEPENDENT_RECOVERY_PUBLICATION_REVIEW_V1.json",
+      "bytes": 17627,
+      "sha256": "ff1f7795dc6f7554adc7de12af74280b9f9773500c2ef5870b18df121cf3f973"
+    },
+    "identity_clarification": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+      "bytes": 1077,
+      "sha256": "fa32809f6d7acbdf4b071282f37e45c945548cfd5df023c584033312b471cd6a"
+    },
+    "failed_publisher_completion": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\OWNER_GITHUB_REFRESH_COMPLETION_V1.json",
+      "bytes": 5225,
+      "sha256": "6eebce21d1b9cd42609f0b81ad7ff3a0ea0848ef25ec626b232e346f2c331964"
+    },
+    "failed_publisher_source": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\publish_reviewed_recovery_v1.py",
+      "bytes": 29438,
+      "sha256": "e04e4839d4f37146634e8a373fe690371c22c21f7a2bf7be47569614f835ad6f"
+    },
+    "bounded_blocker_diagnostic": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLICATION_BLOCKER_EVIDENCE_V1.json",
+      "bytes": 7438,
+      "sha256": "7e9bf74b828caa5171540a443724719656a67fa2cb763c2fb4d10dfa3ab0a5b8",
+      "publication_scope": "Hash/provenance reference only; not an added raw asset"
+    }
+  },
+  "observed_identity": {
+    "repository_id": 1410212016,
+    "full_name": "serg-alexv/lab-rm-phylogenomics-196",
+    "private": false,
+    "visibility": "public",
+    "default_branch": "main",
+    "clarification_query_utc": "2026-10-09T12:58:25.985045+03:00",
+    "clarification_exit_code": 0,
+    "repository_id_source": "Bounded authenticated repository diagnostic at 2026-10-09T09:58:06.831138+00:00",
+    "reviewer_new_network_query": false,
+    "interpretation": "V1 private=True expectation was stale. These observations justify correcting only the exact existing target visibility guard."
+  },
+  "unchanged_acceptance": {
+    "original_nine_canonical_targets_retained": true,
+    "original_five_release_assets_retained": true,
+    "all_original_frozen_payload_hashes_unchanged": true,
+    "sealed_zip_sha256": "f44c8546334838e0ebfdb054677a02bb46a4e589fe08a74fe1631ab301ede619",
+    "sealed_manifest_sha256": "57e011e5ac0baccdd6b7a1bb85bf3fdcb11505976215497e750b6bd124c84211",
+    "original_v2_status_plan_sha256": "92fd0c9071540460b7cdb7d2ac742b711fc8c3870e05a3a8a80a804c3abfaaaf",
+    "original_base_commit": "d790986cd19dfb798bc09735619bc81dd2e3e877",
+    "scientific_retry_acceptance": "NOT_GRANTED",
+    "numeric_or_adapter_adoption": "NOT_GRANTED",
+    "scientific_validation": "NOT_PERFORMED"
+  },
+  "failed_v1_history": {
+    "publisher_pid": 25944,
+    "publisher_creation_filetime": 134360133826773035,
+    "started_utc": "2026-10-09T12:56:22.773761+03:00",
+    "ended_utc": "2026-10-09T12:56:30.152187+03:00",
+    "failure_reason": "Repository privacy/identity differs",
+    "status": "PUBLICATION_INCOMPLETE_PRECISE_FAILURE_PRESERVED",
+    "lock_acquired_utc": "2026-10-09T12:56:22.774064+03:00",
+    "lock_explicit_released_utc": "2026-10-09T12:56:30.152121+03:00",
+    "lock_handle_closed_utc": "2026-10-09T12:56:30.152182+03:00",
+    "close_handle_succeeded": true,
+    "canonical_mutation": "No canonical target_write reached before failed privacy guard; later bounded diagnostic confirms original status hashes and all new targets absent.",
+    "commit_push_or_release": "Not reached in failed V1 execution",
+    "old_publisher_source_completion_progress_and_blocker_records": "Preserve exact V1 bytes; do not overwrite, relabel success or reuse output namespaces.",
+    "external_owner_CLI_terminal": "Not inferred from publisher failure; root reports original CLI still active."
+  },
+  "permitted_retry_implementation_changes": [
+    "Create separately named V2 publisher and attempt/output namespace; preserve V1 publisher/source/completion/progress/staged previews/notes and private owner receipts.",
+    "Pin and verify this amendment finalized SHA alongside the original final review SHA before canonical mutation.",
+    "Replace only stale private=True target condition with exact repository ID1410212016, full_name, private=False, visibility=public and default_branch=main checks. Keep authenticated account/origin/main/base identity guards.",
+    "Append only the one canonical amendment and three additional Release assets specified below; retain all original source hashes and targets. Update recorded initial file/asset counts to nine/eight.",
+    "Record actual amended visibility/provenance, failed-V1 preservation, amendment SHA and fresh retry namespace in the bounded publication receipt; no unrelated content.",
+    "Use fresh actual retained original lock ownership and repeat necessary publication preflight/remote verification; no repeat biological/bundle/test audit required."
+  ],
+  "visibility_mutations_authorized": false,
+  "prohibited": [
+    "Repository creation, rename, transfer or visibility change",
+    "Retargeting publication to another repository",
+    "Replacing/clobbering an existing Release/tag/asset",
+    "Overwriting preserved failed V1 source or receipts",
+    "Changing any scientific method, cache/context/source adoption, approved panel, stage completion claims or resource/lifetime gates"
+  ],
+  "exact_allowlist_extensions": {
+    "canonical": [
+      {
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "target_relative": "reports/stage04/recovery_v11/PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "authentication": "Final immutable amendment SHA supplied separately to owner; no recursive selfhash"
+      }
+    ],
+    "release_assets": [
+      {
+        "name": "PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_recovery_publication_independent_review_20261009_v1\\PUBLIC_TARGET_VISIBILITY_AMENDMENT_V1.json",
+        "authentication": "Final amendment SHA supplied separately and verified after actual remote download"
+      },
+      {
+        "name": "PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\PUBLIC_REPOSITORY_IDENTITY_CLARIFICATION_V1.json",
+        "bytes": 1077,
+        "sha256": "fa32809f6d7acbdf4b071282f37e45c945548cfd5df023c584033312b471cd6a"
+      },
+      {
+        "name": "OWNER_GITHUB_REFRESH_COMPLETION_V1.json",
+        "source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\github_recovery_handoff_20261009_v1\\OWNER_GITHUB_REFRESH_COMPLETION_V1.json",
+        "bytes": 5225,
+        "sha256": "6eebce21d1b9cd42609f0b81ad7ff3a0ea0848ef25ec626b232e346f2c331964"
+      }
+    ],
+    "total_canonical_targets": 10,
+    "initial_payload_files": 9,
+    "later_receipt_target_count": 1,
+    "total_release_assets": 8,
+    "scope": "One concise public amendment record plus bounded identity/failure provenance. Original ZIP, manifest, payload and five assets remain unchanged."
+  },
+  "updated_measured_r1_prerequisite": "Only after actual remote verification of all nine initial canonical payload files and all eight exact immutable Release assets. Then only prior allowed R1 -> UPLOAD_VERIFIED, publication_receipt and actual state_updated_utc additions; all other JSON values unchanged. Verify final receipt/subtasks bytes remotely after second explicit commit.",
+  "retained_writer_conditions": [
+    "Acquire and retain original exclusive byte0 lock with volume2430728143/file_index844424932784519/creation134359335921635133 through mutation, explicit commits, push and verification; record actual release/close.",
+    "Freshly reconcile exact main/origin/base, target before bytes and unrelated dirty state under lock; no force push or blanket staging. Only ten canonical targets permitted.",
+    "Existing conflicting tag/release/assets block retry; matching existing artifacts need explicit verified reconciliation rather than clobber.",
+    "Remote byte verification remains required for every actual committed file and all eight asset downloads; local data or links alone cannot satisfy R1.",
+    "Publisher failure and external CLI closure are distinct. Old native/controller exits and old anonymous-job terminal accounting remain UNKNOWN; no successful old outputs adopted."
+  ],
+  "privacy_review": {
+    "additional_identity_asset": "1077-byte concise live repository metadata and direct-publication authority, no token or response headers.",
+    "additional_failure_asset": "5225-byte bounded failed publisher receipt: command argv/outcomes, own PID/lock identity/times and precise fail-closed result; no stdout/stderr secrets, private transcript or raw unrelated inventory.",
+    "original_sanitized_scope_retained": true,
+    "broad_diagnostic_or_private_transcripts_newly_allowed": false
+  },
+  "reviewer_activity": {
+    "canonical_mutations": 0,
+    "git_operations": 0,
+    "network_queries": 0,
+    "science_launches": 0,
+    "tests_run": 0,
+    "old_bundle_checks_repeated": 0,
+    "scope": "Read exact new identity/failure records and V1 source behavior; hash joins and C-only immutable amendment/readback."
+  },
+  "current_publication_status": "Retry permitted subject to exact fresh preflight; no upload success claimed by this amendment."
+}

@@ -1,0 +1,590 @@
+{
+  "schema": "OWNER_LOST_V10_NEGATIVE_RECONCILIATION_PROPOSAL_V1",
+  "utc": "2026-10-09T09:17:39.098978+00:00",
+  "status": "PROPOSAL_ONLY_NOT_ADOPTED_NO_LAUNCH",
+  "host": "WD",
+  "owner_execution": {
+    "external_session_id": "01a11b51-18d0-7a43-9fe3-3b961af9c44a",
+    "cli_version": "codex-cli 0.162.0-alpha.2",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "launcher_pid": 488,
+    "codex_pid": 30916,
+    "started_utc": "2026-10-09T09:02:56.422084+00:00",
+    "basis": "Allowlisted sanitized launcher receipt fields only, no raw session logs",
+    "strongest_installed_supported_effort": "ultra per supervisor/launcher, no repeated capability audit",
+    "current_CLI_actual_exit_code": null,
+    "current_CLI_exit_reason": "Supervisor records actual closure after this turn",
+    "attempt_token_usage": null,
+    "token_usage_reason": "Attempt-only usage not established",
+    "automatic_reset": false
+  },
+  "authority": {
+    "prompt_origin": "Supervisor bounded task within standing human finish/fix authority; not new direct biological launch approval",
+    "new_routine_human_approval_requested": false,
+    "independent_technical_review_required": true,
+    "self_acceptance": false
+  },
+  "canonical_source": {
+    "repo": "serg-alexv/lab-rm-phylogenomics-196",
+    "root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+    "main_and_local_HEAD_reported_by_supervisor": "d790986cd19dfb798bc09735619bc81dd2e3e877",
+    "fresh_remote_query_by_this_task": false,
+    "must_reconcile_origin_before_future_write": true,
+    "read_only_contract_status_hashes": [
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\AGENTS.md",
+        "bytes": 2031,
+        "sha256": "2cde0013b33b0a870e9f2a0236f5ac0df042d7b5af92aab9273c231740c894cb"
+      },
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\WORK_ORDER.md",
+        "bytes": 23047,
+        "sha256": "46a0c8b82a70430461e228b8ac41438d086998f8e9b8361b966c72a5de4953c9"
+      },
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\STATUS.md",
+        "bytes": 1419,
+        "sha256": "234c13b366427d147a99ab0b961320056d0d7dec8df9c922e9c9a282ca57a3a7"
+      },
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\stages.tsv",
+        "bytes": 732,
+        "sha256": "bab3d066a77826572ad94c9e85207be0d6ac489114a1445cfb05bb3bcdf56e63"
+      },
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\config\\approval.json",
+        "bytes": 917,
+        "sha256": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+      },
+      {
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\recovery_v10\\progress.json",
+        "bytes": 1389,
+        "sha256": "0228a599467bfa0ef63cc612993baaaeb4f327684c82123ae141668d8ec7cb8f"
+      }
+    ],
+    "dirty_logs": "Preserve unrelated dirty tracked logs; no Git writes or blanket staging"
+  },
+  "C_evidence": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\system_terminal_events_v3.json",
+      "bytes": 3807,
+      "sha256": "57515021ba5e1345c95e0c48af0320fe1873c6273d5d07e3a8ed1534371bc536"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\shell_cli_inventory.json",
+      "bytes": 21953,
+      "sha256": "5b8b73783cf02db8f03806174c1779ea9bbb0eaedb06ed11bc675b5e469295bd"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\raw_utc_gap_events_v2.json",
+      "bytes": 368775,
+      "sha256": "0c55f10e6398cd9f4cfb15d79473be09a5ae234cae9f00a11091c1c7aff10a5c"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\event_log_availability.json",
+      "bytes": 968,
+      "sha256": "5b3bda9e42ec86ce93276904457da2a134c61ea89e057da6e76b8023a33da9c7"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\current_task_definition.xml",
+      "bytes": 1599,
+      "sha256": "2fb0d3efabb2d3e0ddb265c3bef1b84d7412d4de59aab02011211f36346e4331"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\current_inventory_memory_task.json",
+      "bytes": 13881,
+      "sha256": "db4b19d6b268f7710aa27ba04d5fc556f745aa858cf9b76f55516baa8d67898b"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_interruption_reconciliation_20261009\\actual_lock_acquire_release.json",
+      "bytes": 1286,
+      "sha256": "30a4785b6e8cd35fc21dc155b5e1c88b2d7794b69dce5202c4c5c218a803d3f2"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\wd_atomic_continuation_observation_20261009T0817\\OBSERVATION.md",
+      "bytes": 4231,
+      "sha256": "37cfa610fe5d832ea148247770ac6bc87de443d7fc3d3526e6c01f796e447edb"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\wd_atomic_continuation_observation_20261009T0817\\OBSERVATION.json",
+      "bytes": 12295,
+      "sha256": "5b680135366930c2f6131e1e1d72bf0694db56bd4e12884abbf3f81b0340d3a7"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\wd_atomic_continuation_observation_20261009T0817\\lock_and_related_processes.json",
+      "bytes": 1713,
+      "sha256": "003c2dc27a40f05554f89511aa49911de1236e32f62db5720b68447f312f7fd1"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\wd_atomic_continuation_observation_20261009T0817\\scheduler.json",
+      "bytes": 264,
+      "sha256": "481c46200fedd67fa4b524313a00a5b69da607193f4b2c98afe8542f94251872"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\process_point_atomic20261009T0820.json",
+      "bytes": 1766,
+      "sha256": "b577c9b2cdc478005f5883d130317e0d048cd654c7fbe9be5573af7495dca0cb"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_lost_owner_boundary_review_20261009_v1\\REVIEW.md",
+      "bytes": 15893,
+      "sha256": "a91821368d4820400ff5018430e6a667e2bb2cd90c8f961c3d1ae1e52ff8be58"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_lost_owner_boundary_review_20261009_v1\\EVIDENCE.json",
+      "bytes": 6112,
+      "sha256": "fd0fe437ee8d6c4123d67436f3b0f8a05b352d6ec6d054ab2054673723565bc1"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\PARENT_CACHE_VALIDATION_PROPOSAL_V1_REVIEW.json",
+      "bytes": 8036,
+      "sha256": "4eabfadba8c43fc364c8dc1878a94236ecbda8e0342359151f583d8a7348d3f6"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_cache_validation_proposal_v1\\FROZEN_MANIFEST.json",
+      "bytes": 1200,
+      "sha256": "b95c8568e669b46c16aa57567ae28e123fde377b6bb6d6e02f76d7d9bc9a5efb"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_cache_validation_proposal_v1\\OWNER_COMPLETION.json",
+      "bytes": 46171,
+      "sha256": "4dbd48f51ae5938224156a408695d6db58edd5a3e0ea5525d5396ccb33348745"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\snapshot_0003\\data\\config\\host_inference_stage04_recovery_v10_admission_v3_freeze.json",
+      "bytes": 104479,
+      "sha256": "959758feb17347cf654f6b9acd793b6cdfab87a4ae325fcea45a96fdb2fd2614"
+    }
+  ],
+  "demonstrated_power_session_events": [
+    {
+      "evidence_file": "system_terminal_events_v3.json",
+      "provider": "User32",
+      "event_id": 1074,
+      "record_id": 530111,
+      "raw_system_utc": "2026-10-09T06:59:44.0270089Z",
+      "demonstrated_context": "StartMenuExperienceHost initiated power-off request for WD/wheel; completion unproved"
+    },
+    {
+      "evidence_file": "raw_utc_gap_events_v2.json",
+      "provider": "Microsoft-Windows-TerminalServices-LocalSessionManager",
+      "event_id": 23,
+      "record_id": 35405,
+      "raw_system_utc": "2026-10-09T06:59:50.4267971Z",
+      "observed_user": "WD\\wheel",
+      "observed_session_id": 1,
+      "demonstrated_context": "Session logoff succeeded"
+    },
+    {
+      "evidence_file": "system_terminal_events_v3.json",
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "event_id": 42,
+      "record_id": 530221,
+      "raw_system_utc": "2026-10-09T06:59:51.9838200Z",
+      "demonstrated_context": "System entering sleep, Application API per provider message"
+    },
+    {
+      "evidence_file": "system_terminal_events_v3.json",
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "event_id": 107,
+      "record_id": 530235,
+      "raw_system_utc": "2026-10-09T06:59:54.5841451Z",
+      "demonstrated_context": "System resumed from sleep"
+    },
+    {
+      "evidence_file": "raw_utc_gap_events_v2.json",
+      "provider": "Microsoft-Windows-TerminalServices-LocalSessionManager",
+      "event_id": 21,
+      "record_id": 35415,
+      "raw_system_utc": "2026-10-09T07:00:56.6597627Z",
+      "observed_user": "WD\\wheel",
+      "observed_session_id": 2,
+      "demonstrated_context": "Session logon succeeded"
+    }
+  ],
+  "old_attempt_identity": {
+    "controller_pid": 2968,
+    "controller_creation_filetime": 134359865859802366,
+    "native_pid": 26452,
+    "native_creation_filetime": 134359866154140144,
+    "task_name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+    "current_task_definition_sha256": "2fb0d3efabb2d3e0ddb265c3bef1b84d7412d4de59aab02011211f36346e4331",
+    "old_immutable_freeze_sha256": "959758feb17347cf654f6b9acd793b6cdfab87a4ae325fcea45a96fdb2fd2614",
+    "original_parent_admission_v3_acceptance_sha256_reference": "eefcc9be4a78b1d9e4ac60602077295ba6dbfa02d398b15540b6b0b1c951a662",
+    "original_controller_SessionID": null,
+    "original_native_SessionID": null,
+    "old_task_instance_guid": null,
+    "identity_limits": "Actual original SessionIDs/logon identity/instance GUID not supplied here; do not infer session1 membership from SID/InteractiveToken",
+    "recorded_actor_points": [
+      {
+        "pid": 2968,
+        "expected_creation_filetime": 134359865859802366,
+        "state": "QUERY_FAILED_UNKNOWN",
+        "winerror": 87
+      },
+      {
+        "pid": 26452,
+        "expected_creation_filetime": 134359866154140144,
+        "state": "QUERY_FAILED_UNKNOWN",
+        "winerror": 87
+      },
+      {
+        "pid": 25804,
+        "expected_creation_filetime": 134359865860962931,
+        "state": "QUERY_FAILED_UNKNOWN",
+        "winerror": 87
+      },
+      {
+        "pid": 27208,
+        "expected_creation_filetime": null,
+        "actual_creation_filetime": 134360028978279803,
+        "exact_creation_match": null,
+        "image": "C:\\Program Files\\WindowsApps\\Microsoft.SurfaceWirelessDisplayAdapter_4.232.137.0_x64__8wekyb3d8bbwe\\Desktop\\WDADesktopService.exe",
+        "exit_filetime": 0,
+        "cpu_seconds": 19.359375,
+        "wait_result": 258,
+        "state": "RUNNING_OBSERVED_IDENTITY"
+      },
+      {
+        "pid": 27536,
+        "expected_creation_filetime": null,
+        "state": "QUERY_FAILED_UNKNOWN",
+        "winerror": 87,
+        "exact_creation_match": null
+      }
+    ],
+    "observer25804_creation_filetime": 134359865860962931,
+    "observer27536_original_creation_filetime": null,
+    "watchdog27208_original_creation_filetime": null,
+    "reused_watchdog_observed_creation_filetime": 134360028978279803,
+    "reused_watchdog_image": "WDADesktopService.exe",
+    "missing_original_token_policy": "Only authentic existing records may fill gaps; no touches to reused PID"
+  },
+  "old_attempt_outcomes": {
+    "native_actual_exit_code": null,
+    "native_actual_exit_time": null,
+    "controller_actual_exit_code": null,
+    "controller_actual_exit_time": null,
+    "owned_job_terminal_accounting": "UNKNOWN",
+    "owned_job_closure": "UNKNOWN",
+    "ordinary_success_receipt": false,
+    "termination_cause": "NOT_ESTABLISHED",
+    "OS_shutdown_completion": "NOT_ESTABLISHED",
+    "OOM_cause": "NOT_ESTABLISHED",
+    "scientific_status": "INCOMPLETE",
+    "known_runtime_scopes": [
+      "primary196"
+    ],
+    "native_exit_receipt": "NOT_FOUND_IN_SUPPLIED_BOUNDED_OBSERVATIONS",
+    "controller_closure_receipt": "NOT_FOUND_IN_SUPPLIED_BOUNDED_OBSERVATIONS",
+    "anonymous_job_limit": "No valid old owned handle established; PID absence/outer job cannot reconstruct old terminal accounting"
+  },
+  "historical_observations": {
+    "canonical_RUNNING_as_of_utc": "2026-10-09T06:54:42.782077+00:00",
+    "last_retained_native_sample": {
+      "last_retained_handle_observation_utc": "2026-10-09T06:59:26.076207+00:00",
+      "cpu_seconds": 29378.5,
+      "comparison_observation_utc": "2026-10-09T06:35:18.564886+00:00",
+      "comparison_cpu_seconds": 26758.65625,
+      "historical_delta_seconds": 2619.84375,
+      "freshness": "STALE; not current progress or exit evidence"
+    },
+    "last_stable_C_progress": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v10\\production\\LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a\\analyses\\primary196\\attempt_0001\\progress.json",
+      "sha256": "0cac98daa8f27069009e48f7b3064e1eadedd5dd25245bbcc90079583e5c6288",
+      "record": {
+        "peak_process_committed_bytes": 3132694528,
+        "peak_job_committed_bytes": 3133820928,
+        "job_cpu_seconds": 29409.75,
+        "job_active_processes": 2,
+        "job_total_processes": 2,
+        "actual_job_process_ids": [
+          26452,
+          27208
+        ],
+        "utc": "2026-10-09T06:59:43.181215+00:00",
+        "child_pid": 26452,
+        "creation_filetime": 134359866154140144,
+        "wall_seconds": 16166.839141199998,
+        "cpu_seconds": 29409.75,
+        "working_set_bytes": 79519744,
+        "peak_working_set_bytes": 2932658176,
+        "private_committed_bytes": 172003328,
+        "process_exited": false,
+        "actual_exit_code": null,
+        "exit_filetime": 0
+      }
+    },
+    "final_CPU_wall_peak_metrics": null,
+    "metrics_reason": "Only historical samples available, no authentic terminal accounting",
+    "scheduler_ready_result": {
+      "decimal": 1073807364,
+      "hex": "0x40010004",
+      "next_run": null,
+      "meaning": "Scheduler result, not native exit/cause"
+    }
+  },
+  "lock_probe": {
+    "evidence_sha256": "30a4785b6e8cd35fc21dc155b5e1c88b2d7794b69dce5202c4c5c218a803d3f2",
+    "identity": {
+      "volume_serial": 2430728143,
+      "file_index": 844424932784519,
+      "creation_filetime": 134359335921635133
+    },
+    "acquired_utc": "2026-10-09T08:57:25.823298+00:00",
+    "released_utc": "2026-10-09T08:57:25.823337+00:00",
+    "unchanged_identity": true,
+    "proves": "Actual exclusive acquire/release at recorded instant only",
+    "old_job_or_exit_proof": false,
+    "owner_lock_acquired_this_turn": false
+  },
+  "event_history_limits": {
+    "TaskScheduler_Operational_enabled": false,
+    "Security_query": "ACCESS_DENIED_NO_ELEVATION",
+    "general_System_record_cap": 400,
+    "general_System_returned": 400,
+    "general_System_negative_claim_allowed": false,
+    "terminal_query": "Separate raw UTC XPath21 records, cap200; use positive events only",
+    "invalid_FilterHashtable_history": [
+      {
+        "name": "gap_events.json",
+        "sha256": "1abb92854f8d0e408ef8296791537582e50a892fedfab927a0937260a6e1109b",
+        "use": "QUERY_HISTORY_ONLY_NO_GAP_NEGATIVE_INFERENCE"
+      },
+      {
+        "name": "expanded_gap_events.json",
+        "sha256": "85cbe7ff540573a3591a990a6b9277da6bf7971aa04abfd2956fc81104e6b0b6",
+        "use": "QUERY_HISTORY_ONLY_NO_GAP_NEGATIVE_INFERENCE"
+      }
+    ],
+    "security_auditing_changes": false
+  },
+  "captured_boundary_NOT_admission": {
+    "utc_start": "2026-10-09T09:00:47.7145073Z",
+    "utc_end": "2026-10-09T09:00:54.2368705Z",
+    "available_windows_bytes": 3826544640,
+    "required_bytes": 4831838208,
+    "memory_admission": false,
+    "inventory_limit": "No IQTREE/R/project Python found in supplied targeted inventory; protected/null service/shell roles UNKNOWN, not full boundary PASS",
+    "unresolved_null_roles": [
+      {
+        "pid": 5684,
+        "name": "wslservice.exe",
+        "creation_datetime": "2026-10-08T19:46:42.473511+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 6124,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-08T19:47:45.56735+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 17664,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-08T19:48:30.666313+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 21620,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-09T10:01:26.795362+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 26720,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-09T10:16:47.982492+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 16160,
+        "name": "powershell.exe",
+        "creation_datetime": "2026-10-09T10:28:39.516786+03:00",
+        "session_id": 2,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 28704,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-09T10:29:52.431832+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 27972,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-09T10:30:11.311425+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      },
+      {
+        "pid": 21880,
+        "name": "cmd.exe",
+        "creation_datetime": "2026-10-09T10:30:32.200875+03:00",
+        "session_id": 0,
+        "state": "NULL_COMMANDLINE_ROLE_UNKNOWN"
+      }
+    ],
+    "fresh_inventory_or_resource_measurement_by_this_owner": false
+  },
+  "latest_partial_cache_preservation": {
+    "status": "NOT_SUPPLIED_NOT_LOCATED_IN_ONE_NARROW_NAMED_DIRECTORY_QUERY",
+    "report_path": null,
+    "report_sha256": null,
+    "latest_cache_sha256": null,
+    "latest_imported_selected_count": null,
+    "duplicate_cache_audit": false,
+    "required_input": "Exact root checkpoint_resume_review C preservation report/hash and per-file/imported-decision manifest",
+    "older_cache_fallback_authorized": false
+  },
+  "numeric_scope": {
+    "fixed14_status": "REVIEWED_SOURCE_ONLY_NOT_ADOPTED",
+    "manifest_sha256": "b95c8568e669b46c16aa57567ae28e123fde377b6bb6d6e02f76d7d9bc9a5efb",
+    "owner_completion_sha256": "4dbd48f51ae5938224156a408695d6db58edd5a3e0ea5525d5396ccb33348745",
+    "parent_source_review_sha256": "4eabfadba8c43fc364c8dc1878a94236ecbda8e0342359151f583d8a7348d3f6",
+    "fixed14_scope_expanded": false,
+    "old_completed_result_eligibility_reused": false,
+    "new_eligibility": "Explicit separately reviewed recovery of preserved INCOMPLETE inputs, not completed V10 result acceptance",
+    "required_new_scope": "Closed import table distinguishing original14/additional V10 selections/fresh optimized rows; separately reviewed source-derived disposition for additional inheritance",
+    "full_precision": "Unavailable where shortened tuples stored; compatibility is existential, not reconstruction",
+    "fresh_scores": "Do not apply restored-likelihood reproduction to freshly optimized scores; no blanket epsilon or omitted ranking/provenance"
+  },
+  "retry_contract": {
+    "protocol": "V11_LOST_V10_NEGATIVE_HISTORY_PARTIAL_INPUT_RECOVERY_AND_NEW_ACTUAL_CLOSURE",
+    "independent_hash_bound_parent_acceptance_required": true,
+    "proposal_is_launch_approval": false,
+    "old_success_gate_reused": false,
+    "new_exclusive_boundary": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+      "identity": {
+        "volume_serial": 2430728143,
+        "file_index": 844424932784519,
+        "creation_filetime": 134359335921635133
+      },
+      "open_existing_without_creation_truncation_or_replacement": true,
+      "nonblocking_exclusive_byte0": true,
+      "retain_lock_through_inventory_canonical_updates_admission_serial_workflow_and_real_release": true,
+      "fresh_inventory_after_acquire_required": true,
+      "access_errors_or_unresolved_relevant_null_roles_block": true,
+      "role_exception": "Positive exact SCM/platform or readonly identity evidence, stable PID/creation/image/config/task joins; no basename exceptions",
+      "guest_rule": "Query running state without boot; unresolved science in running relevant guests blocks; leave stopped guests stopped"
+    },
+    "old_actor_reconciliation": "Every original actor/descendant by PID AND creation; missing original tokens remain missing. Reused27208 untouched. Query errors stay UNKNOWN, not exit or job closure.",
+    "new_freeze_requirements": [
+      "Every new runner/checker/support/config/request hash plus old immutable freeze/acceptance references",
+      "Exact accepted four matrix/partition/assembly/tool/DLL/environment identities, no biological reruns",
+      "Root C stable preservation manifest/cache hash/imported identity-model-candidate-BIC table and gzip/identity provenance consumed, not duplicated",
+      "Preserved old task/launch/progress/observer/output evidence and explicitly missing receipts, no overwrites",
+      "Actual new one-shot XML/query/action/cwd/SID/SessionID/logon identity/task instance/controller creation and readonly observer",
+      "Fresh held-lock process/guest/physical-resource admission and complete reviewed cache arithmetic/new-closure policy"
+    ],
+    "resource_contract": {
+      "windows_available_minimum_bytes": 4831838208,
+      "physical_free_disk_minimum_exclusive_bytes": 5368709120,
+      "streamed_G_is_not_independent_physical_reserve": true,
+      "process_committed_cap_bytes": 3221225472,
+      "aggregate_job_committed_cap_bytes": 3221225472,
+      "threads": 2,
+      "affinity_mask": 5,
+      "affinity_rule": "Two distinct verified P cores; query child affinity before resume, no hot changes",
+      "fresh_admission_measurement_required": true,
+      "gate_relaxation": false
+    },
+    "scientific_contract": {
+      "cohort_count": 196,
+      "Enterococcus_count": 0,
+      "scopes": [
+        [
+          "primary196",
+          196,
+          100
+        ],
+        [
+          "sensitivity162",
+          162,
+          100
+        ],
+        [
+          "sensitivity187_markers",
+          196,
+          88
+        ],
+        [
+          "sensitivity_complete155",
+          155,
+          100
+        ]
+      ],
+      "tool": "Official Windows IQ-TREE3.1.4",
+      "tool_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+      "model_option": "MFP",
+      "UFBoot": 1000,
+      "SH_aLRT": 1000,
+      "seed": 1961008,
+      "threads": 2,
+      "keep_ident": true,
+      "boot_trees": true,
+      "root": "EXPLICITLY_UNROOTED_NO_VALIDATED_OUTGROUP",
+      "input_policy": "Exact accepted matrices/partitions/options, new prefix an explicit versioned change only",
+      "redo": false,
+      "unsupported_mem_option": false,
+      "silent_old_cache_fallback_or_cache_deletion": false
+    },
+    "lifetime_contract": {
+      "task": "Unique manual Scheduler direct long-lived controller, zero triggers/restarts/recurrence, IgnoreNew/unlimited time",
+      "principal": "Same logged-in SID/InteractiveToken, limited privilege; no implicit credential/security/principal changes",
+      "new_actual_session_and_logon_identity_required": true,
+      "retained_CLI_fixture_scope": "Natural original CLI exit only, not logoff/shutdown survival; reuse frozen proof, no rerun",
+      "outer_job": "Actual new membership; TRUE needs independently reviewed lifetime identity reasoning and static-control compatibility. No anonymous ownership inference.",
+      "native_job": "Create suspended, assign/query process+aggregate3GiB and affinity before resume; retain real new owned handle through actual exit and queried empty job",
+      "stable_C": "Mandatory native/controller/error receipts; publication/G errors cannot propagate into native wait or close its job; bounded contained outbox publisher and one Git writer",
+      "power_session_limit": "Interactive-token task can be interrupted by logoff/power transitions. Record real SessionID/logon identity; host awake/account signed in remains a runtime condition. No claimed shutdown survival."
+    },
+    "new_ordinary_acceptance": [
+      "Actual bound native integer exit0/time/creation/argv/tool/freeze for each scope",
+      "Actual NEW owned-job handle query: active0 and exact empty PID list, authentic accounting, no old-job substitution",
+      "Independent actual controller terminal result and task closure, not Scheduler-result substitution",
+      "Real original workflow lock explicit unlock/close with unchanged identity",
+      "Unchanged model-selection/provenance/tips/branch/support/sensitivity and portable-output scientific validators",
+      "All four scopes complete, reports/releases and exact remote byte verification"
+    ],
+    "publication_order": "Later reviewed held-lock writer phase: reconcile origin/main/dirty targets, publish interruption first. Final retry acceptance remains separate.",
+    "required_final_parent_record": "New PARENT_LOST_V10_RETRY_V11_REVIEW.json naming all final adopted artifacts and negative-history/cache/session/lifetime eligibility; protocol-only review never grants launch"
+  },
+  "unresolved_gates": [
+    "Exact root-supplied latest stable V10 C preservation report/hash and per-file/imported-decision manifest pending; no duplicate cache audit",
+    "Fresh original-actor PID/creation reconciliation and relevant runner/null-role classification while retaining original byte0 lock",
+    "Fresh >=4.5GiB Windows available and >5GiB physical free disk; captured3826544640B Windows available FAILS",
+    "Explicit independently reviewed arithmetic disposition of all additionally inherited V10 selections; fixed14 remains closed",
+    "Separately versioned new controller/checker/config/freeze/output sources with actual task/session/import/lifetime bindings",
+    "Independent hash-bound parent acceptance of every final source/freeze/artifact BEFORE single one-shot retry",
+    "Actual new native exits/queried empty NEW jobs/controller closure, unchanged four-scope science and verified publication"
+  ],
+  "scientific_pipeline": {
+    "Stage0_3_04a": "Previously accepted/published; no reruns",
+    "Stage04": "INCOMPLETE",
+    "Stage05": "NOT_RUN",
+    "Stage06": "NOT_RUN",
+    "Stage07": "NOT_RUN",
+    "both_RM_detectors_required": true
+  },
+  "actions_this_turn": {
+    "C_proposal_writes_only": true,
+    "canonical_mutations": 0,
+    "Git_operations": 0,
+    "lock_operations": 0,
+    "science_or_CLI_relaunches": 0,
+    "process_or_scheduler_actions": 0,
+    "guest_starts": 0,
+    "old_test_or_fixture_replays": 0,
+    "automatic_reset": false,
+    "raw_private_session_logs_read_or_published": false
+  }
+}
