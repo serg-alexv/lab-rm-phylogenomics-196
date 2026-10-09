@@ -1,0 +1,95 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T19:03:53.552624+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "114a7249b10008430f03a27cee16d2356013b624",
+  "tree": "d8e28786b83dfc0ba96c2dea59e7b9171127988f",
+  "commit": "f861056f31979a725e4f16b05398ab06eb6bcbe5",
+  "files": [
+    {
+      "target": "docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md",
+      "bytes": 6062,
+      "sha256": "9f6289e8587f3088a87a6e466e03cd6a9886efca0af1f01717466ce52ca908e4"
+    },
+    {
+      "target": "reports/master_run/20261009/preparation/stage5_decoupling_scope_audit.md",
+      "bytes": 14696,
+      "sha256": "8385660848b40a9c7ca319df9390725170516862882e46fec26edee30a0ef0f3"
+    },
+    {
+      "target": "scripts/master_run/build_master_public_history_inventory01.py",
+      "bytes": 20291,
+      "sha256": "a8c9283e33939247143471a8dafc07f9b1c596510ed7776651cdb6ab778c113d"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_emptydir_plan.py",
+      "bytes": 4357,
+      "sha256": "afc25755182c02fcd25c12e2f2fdb067b2acb656aa91db7020b86ce5f319fb42"
+    },
+    {
+      "target": "scripts/master_run/Invoke-MasterEmptyDirectoryPrune.ps1",
+      "bytes": 4512,
+      "sha256": "96c60439b1280cfe67879090eb842387380c0e8c70ffc008d3df20b185e9459d"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_dependency_history_plan.py",
+      "bytes": 4220,
+      "sha256": "4731bc5de348aac3aded97b26b52cb831d215d8201ab16908e4f1e8548fca00f"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+      "bytes": 166503,
+      "sha256": "661989add3916e83bb7682e43efa1a1cfcac2a4af9a816f1dbbe8dc9587166fa"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/master_public_history_inventory01_build_receipt.json",
+      "bytes": 1192,
+      "sha256": "39c7be3ff046ecab97b3ea455553f5b06db0984d7761d85af71a566c667931c3"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/master_emptydir_prune_proposed.json",
+      "bytes": 10835,
+      "sha256": "1078c73ed4b496291c9d6b55e32b5f3c0191bf90b076a79b09c02aea9983922d"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/yesterday_inventory/summary.json",
+      "bytes": 3205,
+      "sha256": "0d18c17581e300003475db4feb4dbd4c1e04d170b2ccff51088364b317ac9548"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/yesterday_inventory/REVIEW.md",
+      "bytes": 13905,
+      "sha256": "a679db91dca0a9d129127f4c8a95b71b676de4445540e22711b1dc24eb0a2684"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/yesterday_inventory/PUBLIC_EVIDENCE_SHA256.json",
+      "bytes": 1299,
+      "sha256": "4b279eebe6b842fc79cb9be6dd71a151a0a7890b525de32b1634ea99d8bc89da"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03/summary.json",
+      "bytes": 3129,
+      "sha256": "5e952c56472952f827f683d7bcebf030368ceb634ce75bbf54e2af3a3ec32288"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03/REVIEW.md",
+      "bytes": 3875,
+      "sha256": "9fae911d0f63f3b13784239be92b72672aec350f04b11575a3b0d19358e38e10"
+    },
+    {
+      "target": "scripts/master_run/map_yesterday_scientific_batch03.py",
+      "bytes": 10686,
+      "sha256": "2b4c59634f4bf54cbd6f02e69cf980631f61611ccc36759314e9475f8d9564db"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 2635,
+      "sha256": "9e722c8dbcf5799f69c2dd874715781effb631668fa70eb414455a4e22794e89"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 6969,
+      "sha256": "fa3c065d0ea355b467f93d82e69c6dc5dac108669b197de4af2296f443e0cbf5"
+    }
+  ]
+}
