@@ -1,0 +1,165 @@
+{
+  "utc": "2026-10-09T02:13:42.148279+00:00",
+  "status": "UNADOPTED_MINIMAL_OBSERVER_ROLE_DELTA",
+  "previous_adopted_proposal_sha256": "d1bf90ca8aed09d4cc1f9bebb47395833e951a9dca17cefef74cb92fde3a3cde",
+  "previous_parent_acceptance_sha256": "51a0937a38003834a772a265b4d07edf816b08b4fbaa9137582d63c07cdd3762",
+  "prior_pre_native_abort_sha256": "dbbc5ccf5f45b9ce858bbaedec315bf3d64a45ae78ac303f5d95037a75587276",
+  "preserved_source_sha256": {
+    "stage04_production_admission_policy_v1.py": "0dd40d665be33c324b76d328cde8d319f816a5577c83ac25b174a56c4580e022",
+    "build_stage04_production_admission_v1.py": "0a1784128026d5a4de5e5658098cdd489772acdb66e95c613c316614c8aba327",
+    "test_stage04_production_admission_v1.py": "e9bfa13e09d120dd5e241e4965db173b8de0063b482b7bafc2911c1533889c4e",
+    "prepare_stage04_production_tasks_admission_v1.py": "85e27fccf61463e9977cc4b7d246f983f06b51e8e945cd57cb551d5165a71445",
+    "prepare_stage04_production_freeze_admission_v1.py": "f80d84ce46c68a6b9bc7e5c8f350218421d1a616e30cdfe8082ca8056dc6dc12",
+    "stage04_recovery_controller_v10_admission_v1.py": "d047924a974fbfbe21aed19230798a8b9989ad95a5a00554a205907b4e634976",
+    "stage04_recovery_validate_v10_admission_v1.py": "63033b3a1c9327c6163ad2b75e453cc65fd2068a47925f91d43ad82866e4151e",
+    "final_check_stage04_recovery_v10_admission_v1.py": "475ade546aa1b4b9484a323cb31c79a3687d75d56bb123d5167d6cabe923f30c",
+    "check_stage04_recovery_acceptance_v10_admission_v1.py": "b8cd43e0884a9103e044009d971fe972a0da0a003266a3ac0cdd5215d236179d",
+    "activate_stage04_recovery_production_v10_admission_v1.ps1": "05690e812d844889c4e59bc2031bc8eec9bf347684968a5be3bbd061394cc102"
+  },
+  "generated_source_sha256": {
+    "stage04_recovery_controller_v10_admission_v2.py": "4d9484caa1ff7af600d30647a0887bc9ad6abe8e83f35da69f840d50666f221d",
+    "stage04_recovery_validate_v10_admission_v2.py": "7eadb101a8958a8205267bc609b9bffe3ec684fcf8ddaf207d7617f4a9f48a44",
+    "final_check_stage04_recovery_v10_admission_v2.py": "18d82e1425369ecf12a4468d5e6ab7198d24543c3852b9c0da5418915b1fb7ae",
+    "check_stage04_recovery_acceptance_v10_admission_v2.py": "e55b4b0b38ae573261e5bb72507104e30c341a616cdd38b144c1a4e2e3fc90a8",
+    "activate_stage04_recovery_production_v10_admission_v2.ps1": "83cc085795b8ddfb0c5dae3616aa3d3eb7092ac4f84723042d28e5df0b174267"
+  },
+  "exact_text_changes": [
+    {
+      "source": "stage04_recovery_controller_v10_admission_v1.py",
+      "destination": "stage04_recovery_controller_v10_admission_v2.py",
+      "old_fragment": "_v10_admission_v1",
+      "new_fragment": "_v10_admission_v2",
+      "occurrences": 4
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v1.py",
+      "destination": "stage04_recovery_controller_v10_admission_v2.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V1",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "occurrences": 2
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v1.py",
+      "destination": "stage04_recovery_controller_v10_admission_v2.py",
+      "old_fragment": "PARENT_RECOVERY_V10_REVIEW.json",
+      "new_fragment": "PARENT_RECOVERY_V10_ADMISSION_V2_REVIEW.json",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v1.py",
+      "destination": "stage04_recovery_controller_v10_admission_v2.py",
+      "old_fragment": "Production-only admission revision1;",
+      "new_fragment": "Production-only admission revision2: exact accepted read-only observer role;",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v1.py",
+      "destination": "stage04_recovery_controller_v10_admission_v2.py",
+      "old_fragment": "return proposal,value",
+      "new_fragment": "abort=C.load(S.REPORT/'production_admission_v1_pre_native_abort.json')\n    C.check(C.digest(S.REPORT/'production_admission_v1_pre_native_abort.json')==proposal['prior_pre_native_abort_sha256'] and\n      abort['ordinary_scientific_success'] is False and abort['scientific_jobs_launched']==0 and\n      abort['actual_controller_exit']['actual_exit_code']==1 and abort['actual_source_gate_exit']['exit_code']==1 and\n      abort['actual_source_gate_exit']['job_active_processes']==0 and abort['actual_source_gate_exit']['actual_job_process_ids']==[],\n      'Prior admission1 failure is negative pre-native history only')\n    return proposal,value",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "_v10_admission_v1",
+      "new_fragment": "_v10_admission_v2",
+      "occurrences": 4
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V1",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "PARENT_RECOVERY_V10_REVIEW.json",
+      "new_fragment": "PARENT_RECOVERY_V10_ADMISSION_V2_REVIEW.json",
+      "occurrences": 2
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "host_inference_stage04_recovery_v10_production.json",
+      "new_fragment": "host_inference_stage04_recovery_v10_production_admission_v2.json",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "import stage04_production_admission_policy_v1 as A",
+      "new_fragment": "import stage04_production_admission_policy_v1 as A\nimport stage04_readonly_observer_role_v1 as R",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "inventory=A.fresh_runner_inventory()",
+      "new_fragment": "proposal=C.load(S.ROOT/'config/host_inference_stage04_recovery_v10_admission_v2_freeze.json')\n    abort=C.load(S.REPORT/'production_admission_v1_pre_native_abort.json')\n    prior_runtime=Path(proposal['prior_admission_v1_runtime'])\n    prior_binding=C.load(prior_runtime/'independent_controller_observer_binding.json')\n    prior_instances=[]\n    for actor in [abort['actual_controller_exit'],prior_binding['actual_scheduler_observer']['actual_process'],\n      {'pid':abort['actual_source_gate_exit']['child_pid'],'creation_filetime':abort['actual_source_gate_exit']['child_creation_filetime']}]:\n        actual=S.process_identity(actor['pid'],actor['creation_filetime'])\n        C.check(actual['state'] in ('ABSENT_WIN32_ERROR_INVALID_PARAMETER','EXITED','PID_REUSED_DIFFERENT_CREATION'),\n          'Prior admission1 recorded instance remains live/unresolved')\n        prior_instances.append(actual)\n    inventory=R.source_inventory(proposal,runtime,owner)",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "'fresh_positive_platform_service_roles':inventory['positive_platform_service_roles'],",
+      "new_fragment": "'fresh_positive_platform_service_roles':inventory['positive_platform_service_roles'],\n      'fresh_positive_readonly_observer_roles':inventory['fresh_positive_readonly_observer_roles'],\n      'runner_inventory_sha256':inventory['runner_inventory_sha256'],'prior_admission1_instances':prior_instances,",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v1.py",
+      "destination": "stage04_recovery_validate_v10_admission_v2.py",
+      "old_fragment": "'Fresh boundary/negative/held-lock binding differs')",
+      "new_fragment": "'Fresh boundary/negative/held-lock binding differs')\n    R.verify_stored_role(current,P.acceptance()[0],runtime)",
+      "occurrences": 1
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v1.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v2.py",
+      "old_fragment": "_v10_admission_v1",
+      "new_fragment": "_v10_admission_v2",
+      "occurrences": 2
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v1.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v2.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V1",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "occurrences": 2
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v1.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v2.py",
+      "old_fragment": "import stage04_production_admission_policy_v1 as A",
+      "new_fragment": "import stage04_production_admission_policy_v1 as A\nimport stage04_readonly_observer_role_v1 as R",
+      "occurrences": 1
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v1.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v2.py",
+      "old_fragment": "'Final fresh exclusive boundary changed')",
+      "new_fragment": "'Final fresh exclusive boundary changed')\n        R.verify_stored_role(current,proposal,runtime)",
+      "occurrences": 1
+    },
+    {
+      "source": "check_stage04_recovery_acceptance_v10_admission_v1.py",
+      "destination": "check_stage04_recovery_acceptance_v10_admission_v2.py",
+      "old_fragment": "_v10_admission_v1",
+      "new_fragment": "_v10_admission_v2",
+      "occurrences": 1
+    },
+    {
+      "source": "activate_stage04_recovery_production_v10_admission_v1.ps1",
+      "destination": "activate_stage04_recovery_production_v10_admission_v2.ps1",
+      "old_fragment": "_v10_admission_v1",
+      "new_fragment": "_v10_admission_v2",
+      "occurrences": 1
+    }
+  ],
+  "new_role_source_sha256": "014eac53fbc24d8cb0eddc36ad8afc2479e7bbf85140e680da84dd955b7b24a4",
+  "scientific_changes": 0,
+  "biological_jobs": 0,
+  "old_suite_or_lifetime_fixture_repeated": false
+}
