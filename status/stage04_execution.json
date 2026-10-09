@@ -1,20 +1,15 @@
 {
-  "active_inference_found": true,
-  "actual_native_pid": 4768,
-  "final_acceptance_required": [
-    "actual native exit0",
-    "owned job empty",
-    "explicit OS unlock",
-    "independent full196 support/bootstrap/tree validation",
-    "verified standalone Release readback"
-  ],
-  "input_gate": "PASS_ACCEPTED_STAGE04A_INPUTS",
-  "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
-  "live_evidence": "reports/master_run/20261009/snapshots/20261009T182652Z",
-  "native_creation_filetime": 134360369876207076,
-  "new_biological_inference_launched": true,
+  "utc": "2026-10-09T22:03:12.127881+00:00",
+  "state": "COMPLETE_VALIDATED",
+  "scientific_status": "ACCEPTED_PRIMARY196_HOST_TREE",
+  "active_inference_found": false,
+  "actual_native_exit": 0,
+  "accepted_output_directory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_primary196_atomic_20261009",
+  "validation_report": ".work/stage04_primary196_atomic_20261009/independent_validation.json",
+  "compact_validation_copy": "reports/stage04/primary196_atomic_20261009/independent_validation.json",
+  "publication_receipt": "reports/stage04/primary196_atomic_20261009/publication_receipt.json",
+  "native_tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
   "previous_V10_outcome": "UNKNOWN_PRESERVED",
-  "scientific_status": "INCOMPLETE_NO_ACCEPTED_TREE",
-  "state": "RUNNING_PARTITIONED_NATIVE_PRIMARY196",
-  "utc": "2026-10-09T18:26:45.908516+00:00"
+  "historical_evidence": "reports/stage04/atomic_resume_20261009/previous_stage04_execution.json",
+  "optional_sensitivities": "SEPARATE_NOT_COMPLETION_GATES"
 }

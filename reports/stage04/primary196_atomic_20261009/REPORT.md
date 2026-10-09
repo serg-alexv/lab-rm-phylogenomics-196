@@ -29,4 +29,6 @@ iqtree3 -s accepted/accepted_primary196_concatenated.faa --seqtype AA -p accepte
 To reproduce the recorded cache recovery, copy accepted/original_input_model_cache.gz
 unchanged to rerun/host.model.gz before launch; confirm its recorded SHA-256.
 
-Scientific validation: COMPLETE_VALIDATED. Publication: prepared; upload/readback pending.
+Scientific validation: COMPLETE_VALIDATED. Publication: UPLOAD_VERIFIED; see publication_receipt.json for downloaded ZIP/member hash verification.
+
+Verified release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1
