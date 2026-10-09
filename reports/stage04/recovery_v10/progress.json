@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-09T02:30:21.405049+00:00",
+  "status": "V10_ACTUAL_NATIVE_RUNNING_INCOMPLETE",
+  "observation_as_of_utc": "2026-10-09T02:30:15.956673+00:00",
+  "observation_sha256": "5f823047f313d05f80fb7d185a8c17ce831ae60457bb977cb9d0e0c995bcc19e",
+  "controller": {
+    "pid": 2968,
+    "creation_filetime": 134359865859802366,
+    "exit_filetime": 0,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+    "executable_identity_source": "ACTUAL_HANDLE_IMAGE_QUERY",
+    "state": "RUNNING",
+    "actual_exit_code": null,
+    "cpu_seconds": 0.171875,
+    "recorded_creation_filetime": null
+  },
+  "scope": "primary196",
+  "measurement": {
+    "peak_process_committed_bytes": 66670592,
+    "peak_job_committed_bytes": 67796992,
+    "job_cpu_seconds": 0.5625,
+    "job_active_processes": 2,
+    "job_total_processes": 2,
+    "actual_job_process_ids": [
+      26452,
+      27208
+    ],
+    "utc": "2026-10-09T02:30:15.956673+00:00",
+    "child_pid": 26452,
+    "creation_filetime": 134359866154140144,
+    "wall_seconds": 0.5471007000014652,
+    "cpu_seconds": 0.5625,
+    "working_set_bytes": 48316416,
+    "peak_working_set_bytes": 70500352,
+    "private_committed_bytes": 44318720,
+    "process_exited": false,
+    "actual_exit_code": null,
+    "exit_filetime": 0
+  },
+  "release": "PENDING",
+  "stages05_07": "NOT_RUN"
+}
