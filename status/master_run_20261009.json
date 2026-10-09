@@ -86,7 +86,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_PENDING",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T22:00:40.171994+00:00",
+  "updated_utc": "2026-10-09T22:04:55.182806+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -166,12 +166,18 @@
     "actual_endpoint_or_lifecycle_execution": "NOT_RUN"
   },
   "stage04_publication_preparation": {
-    "state": "INDEPENDENT_ACCEPTANCE_PASS_PORTABLE_RELEASE_NEXT",
+    "state": "UPLOAD_VERIFIED",
     "native_runner_unchanged": true
   },
   "stage04_execution": "NATIVE_EXIT0_EXACT_JOB_CONTROLLER_UNLOCK_POWER_CLOSURE_VERIFIED",
   "stage04_acceptance": "PASS_ACTUAL02_COMPLETE_VALIDATED_EXACT196_389_BRANCHES_193_PAIRED1000_UFBOOT",
   "stage04_acceptance_receipt": "reports/master_run/20261009/stage04/acceptance_actual02/independent_validation.json",
   "stage04_tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
-  "stage5_setup_preparation": "PEER_REVIEW_PASS10_SYNTHETIC_TESTS_ACTUAL_WSL_NOT_RUN"
+  "stage5_setup_preparation": "PEER_REVIEW_PASS10_SYNTHETIC_TESTS_ACTUAL_WSL_NOT_RUN",
+  "stage04_publication": "UPLOAD_VERIFIED_FULL_PRODUCER_READBACK_INDEPENDENT_REMOTE_REVIEW_PENDING",
+  "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
+  "stage5_operational_phase": "Publish verified Stage4 Release and actual exact WSL toolchain mount closure; runtime discovery next",
+  "stage5_actual_setup": {
+    "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
+  }
 }

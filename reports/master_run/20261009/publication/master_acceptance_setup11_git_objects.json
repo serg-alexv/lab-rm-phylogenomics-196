@@ -1,0 +1,95 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T22:00:45.456493+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "854a13ccc1050307c6cd0daffe07c9f43d262885",
+  "tree": "a4b2e0a8d1fc40359c7b6a2344176601d9234c92",
+  "commit": "8743944f099a23c980be7cf2ac4a2dc3d5737e34",
+  "files": [
+    {
+      "target": "reports/master_run/20261009/stage04/acceptance_actual02/independent_validation.json",
+      "bytes": 9613,
+      "sha256": "48a0920bdb6f7439377749396a35a807fd3240a28d8f1e6106d427fc6ca7d50c"
+    },
+    {
+      "target": "reports/master_run/20261009/stage04/acceptance_actual02/driver_receipt.json",
+      "bytes": 1921,
+      "sha256": "e4cad2c95e58d8a3ba8c26de5a4e3797074fd252f0101a6b100bfcd12b646094"
+    },
+    {
+      "target": "reports/master_run/20261009/stage04/acceptance_actual02/stdout.txt",
+      "bytes": 9060,
+      "sha256": "81789cf218f7be1b8f376f3d3e9fea94609ef7fee4a11a2d31b790346c9c9f63"
+    },
+    {
+      "target": "reports/master_run/20261009/stage04/acceptance_actual02/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 26673,
+      "sha256": "935a4853f118c52f479de414dfea0c60a7682ede83b911c1b1b995466aaeddee"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux.py",
+      "bytes": 12580,
+      "sha256": "8416a45a4dcc822784e465a4ad91236082fc97fec763d330a14006fd9f5af20e"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_setup.py",
+      "bytes": 9207,
+      "sha256": "8feb33cc8ee2b3e20b6e2b438796ad1ba398feb5f513fcfe11cdc84d3e36d97e"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/post_iq_setup/STAGE5_POST_IQ_SETUP_HANDOFF.md",
+      "bytes": 12831,
+      "sha256": "800428405235e92a66e8c6776cb6f595192e8c03fb2abb1e2a8076941280cc14"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/post_iq_setup/stage5_post_iq_setup_preparation.json",
+      "bytes": 5464,
+      "sha256": "2363152b7d2be8860c915264449d11bfe72b0a3b801a81bbcbe3453c68f72dec"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/post_iq_setup/stage5_setup_independent_source_review.json",
+      "bytes": 3034,
+      "sha256": "2d1c1042a708b722974c523c54940f2c896dfdb419368718d397365918cf748d"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/post_iq_setup/PUBLICATION_FILES.json",
+      "bytes": 2388,
+      "sha256": "cfdb5dc4997f6e3f23d44836a1e8690a9258deb93c342e2a24092dc1d2742c5c"
+    },
+    {
+      "target": "scripts/master_run/reconcile_canonical_after_native.py",
+      "bytes": 3289,
+      "sha256": "deae4e11780fcdb6413f92606bed09403d162691e19e146a9b949984181804d9"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_acceptance_setup11.py",
+      "bytes": 3989,
+      "sha256": "6fab434aff58b877d48ea74f669bd51717a8ed69b4fdc25996968c067dd8f767"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_native_closure10_git_objects.json",
+      "bytes": 9596,
+      "sha256": "ab1d84abc39e14d928ac39aaa0477ac47047a8fdfb0cf5a27ee39882dc503d2c"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+      "bytes": 17188,
+      "sha256": "dec371cc22008601adecb4cb730d888ce794888af5d3489411d5a1677786fa7a"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 9519,
+      "sha256": "042ee5a5727661a6a79a4c47e3dcb1891286e0c4595e00baac98a16cdfbe5a94"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 3010,
+      "sha256": "9babf72015abbf874230958d4e912a8139da04542a32cadc97d478de355fc7d3"
+    }
+  ]
+}
