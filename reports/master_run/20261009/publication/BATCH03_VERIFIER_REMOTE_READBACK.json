@@ -1,0 +1,74 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T19:22:16.215081+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "5c078bdb19a034e95d6edbfd2e67542569f29a8c",
+  "initial_remote_main": "5c078bdb19a034e95d6edbfd2e67542569f29a8c",
+  "declaration_sha256": "e14cf966e7449db412e2bdd0ef12810638b553781237b0b8310086e8976daf14",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 6,
+  "verified_files": 6,
+  "files": [
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/evidence_sha256.json",
+      "bytes": 563,
+      "sha256": "c990e6875e93795a831942bd70108ff037efda0e6b3c7a6d16d80e2450f443d9",
+      "remote_blob": "069dec74506b34ceea9f50f568d9d8308410e4a4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/source_proof.json",
+      "bytes": 799,
+      "sha256": "67087f8bbed012fb8ec3741ea35fd22f1fbb4801f3d0b7d6661e7d22f279ff5d",
+      "remote_blob": "c6d45b75a484bff4ea07ecbc0007a04c7c979e13",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/BATCH03_MAPPING_GIT_OBJECTS.json",
+      "bytes": 2230,
+      "sha256": "19fe284e2c5cb01c928e4d4e2cd3dc47a94d08d7b41713ac4c4e40f1e9652ece",
+      "remote_blob": "3f28558d11c7ce1a8c67d4f0a4a1228e3722b21d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/BATCH03_MAPPING_REMOTE_READBACK.json",
+      "bytes": 4244,
+      "sha256": "222889e77ec488211360efb4055b648318bfa465e89ba141bdc19427f8a6371b",
+      "remote_blob": "c4383401cec365505cd68dfbe8d500ba14ccbc78",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_batch03_verifier_plan.py",
+      "bytes": 1460,
+      "sha256": "b32cefa27d648e34de07059da004932b8356196e369a3f004e5f92b15af79627",
+      "remote_blob": "05c075e956c60f2effe7dd414d62f52f6d3744c3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+      "bytes": 26216,
+      "sha256": "0ba8a2440ec2dfaa979dd79bfa4929817fe8a75cb0eae439a9c2aa42d919b6c8",
+      "remote_blob": "503e87d2fe06d8e0bec35e347d64f72815dacc58",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "5c078bdb19a034e95d6edbfd2e67542569f29a8c",
+  "finished_utc": "2026-10-09T19:22:19.249604+00:00",
+  "elapsed_seconds": 3.033071400001063,
+  "verified_bytes": 35512
+}

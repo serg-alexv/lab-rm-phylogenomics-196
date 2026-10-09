@@ -1,0 +1,79 @@
+{
+  "actual_candidate_payload_hashes": "NOT_RUN",
+  "actual_purge": "NOT_RUN",
+  "actual_streamed_mapping_check": {
+    "bytes": 6568632074,
+    "deletions": 0,
+    "rows": 47648,
+    "source_payload_reads": 0,
+    "state": "PASS_ACTUAL_STREAMED_MAPPING_METADATA_ONLY"
+  },
+  "candidate_bytes": 6565902818,
+  "candidate_files": 47429,
+  "component_tests": {
+    "command": "python -B -m unittest test_master_batch03_leaf_purge",
+    "failed": 0,
+    "passed": 6,
+    "tests": 6
+  },
+  "created_utc": "2026-10-09T19:31:12.995402+00:00",
+  "explicit_holds": 219,
+  "files": {
+    "Invoke-MasterBatch03LeafPurge.ps1": {
+      "bytes": 17891,
+      "sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c"
+    },
+    "Test-MasterBatch03LeafPurge.ps1": {
+      "bytes": 2356,
+      "sha256": "69c3971a3220e3d72297756fc149a6cb2d831d813a225e895ba60758ca864915"
+    },
+    "batch03_mapping01_remote_readback_20261009T192220Z_3e6cf7d8/receipt.json": {
+      "bytes": 17392,
+      "sha256": "edb749c997c3d68b061af0441807cd7eb9a8b3df453474d69c740c6640e182d1"
+    },
+    "master_batch03_leaf_purge_PREPARATION.md": {
+      "bytes": 6558,
+      "sha256": "2d9bd848bdabdd7748faaad7cf5e8f3ca2cdd57d69dd7da3923250164bd13b55"
+    },
+    "master_batch03_leaf_purge_proposed.json": {
+      "bytes": 14983,
+      "sha256": "3f291dc20bb7051a9586aaefc75b7c57c463fba03e87d5ea8c9cdd2dc2ffd952"
+    },
+    "master_batch03_stream_parser_check.json": {
+      "bytes": 125,
+      "sha256": "7dc02ca7f57069713ffb045f9f7da86d313c027461847b37250cf3823b8c297c"
+    },
+    "prepare_master_batch03_leaf_purge.py": {
+      "bytes": 7748,
+      "sha256": "b26e130c3f5e857ccd1491a5489577ef78f10abbf589ec000b2652a86555e1f2"
+    },
+    "test_master_batch03_leaf_purge.py": {
+      "bytes": 3693,
+      "sha256": "5ca75eb48204d89576fb42125140cbc4fd3e561e32b3b7ab93091641917ca57f"
+    }
+  },
+  "g_writes": 0,
+  "independent_source_review": {
+    "builder_sha256": "b26e130c3f5e857ccd1491a5489577ef78f10abbf589ec000b2652a86555e1f2",
+    "helper_sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c",
+    "proposal_sha256": "3f291dc20bb7051a9586aaefc75b7c57c463fba03e87d5ea8c9cdd2dc2ffd952",
+    "reviewer": "remote_audit",
+    "state": "PASS_SOURCE_ONLY"
+  },
+  "known_limit": "Exclusive leaf verification handle must close before literal PowerShell Remove-Item; short leaf replacement interval documented and explicitly accepted by root. Ancestor handles retained; no atomic-delete claim.",
+  "network_calls_by_preparer": 0,
+  "production_remote_preflight": "NOT_RUN",
+  "publication": "ROOT_MUST_PUBLISH_AND_INDEPENDENTLY_VERIFY_EXACT_PROPOSAL_SOURCE_RECOVERY_RECEIPT_BEFORE_RUN",
+  "schema": "MASTER_BATCH03_STREAMING_LEAF_PURGE_PREPARATION_V1",
+  "source_deletions": 0,
+  "state": "PASS_SOURCE_FIXTURE_AND_STREAMED_METADATA_NO_PURGE",
+  "unmatched_preserved": 619,
+  "windows_native_benign_fixture": {
+    "actual_python_to_native_file_identity_confirmed": true,
+    "checks": 18,
+    "fixture_deleted": false,
+    "state": "PASS_NONDESTRUCTIVE_WINDOWS_FIXTURE",
+    "wrong_owner_birth_test": "RETAINED_SELF_PROCESS_FIXTURE_ONLY"
+  },
+  "wsl_starts": 0
+}
