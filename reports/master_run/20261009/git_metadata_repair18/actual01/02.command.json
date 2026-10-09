@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-09T23:03:57.598230+00:00",
+  "args": [
+    "remote",
+    "get-url",
+    "origin"
+  ],
+  "timeout_seconds": 180,
+  "state": "EXIT0_OWNED_JOB_EMPTY",
+  "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+  "argv": [
+    "C:\\Program Files\\Git\\cmd\\git.exe",
+    "--no-optional-locks",
+    "-c",
+    "core.fsmonitor=false",
+    "-c",
+    "core.filemode=false",
+    "-c",
+    "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "remote",
+    "get-url",
+    "origin"
+  ],
+  "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "launch": {
+    "pid": 3328,
+    "creation_filetime": 134360606376061361,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "terminal": {
+    "pid": 3328,
+    "creation_filetime": 134360606376061361,
+    "exit_filetime": 134360606376795456,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "owned_job": {
+    "peak_process_committed_bytes": 35606528,
+    "peak_job_committed_bytes": 38309888,
+    "job_cpu_seconds": 0.03125,
+    "job_active_processes": 0,
+    "job_pids": []
+  },
+  "owned_closure_proven": true,
+  "stdout": {
+    "path": "02.stdout.bin",
+    "bytes": 59,
+    "sha256": "99da64ad5fe5ec49a76a12901078feef43a7535f3b4503de6b92126d626f355b"
+  },
+  "stderr": {
+    "path": "02.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "elapsed_seconds": 0.1569999999992433
+}

@@ -1,0 +1,110 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "FAILED",
+  "step": "runtime",
+  "source_sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2",
+  "linux_source_sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "c9e849e8325c49dda66d26e211df8eb6",
+  "actual_windows_owner": {
+    "pid": 16296,
+    "creation_filetime": 134360611509160490,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.140625,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 59,
+    "retries": 3,
+    "transient_failures": 3,
+    "transient_winerrors": {
+      "5": 3
+    },
+    "last_replace_attempts": 4,
+    "last_replace_retries": 3,
+    "last_replace_seconds": 0.046999999998661224,
+    "maximum_replace_seconds": 0.046999999998661224,
+    "successful_calls": 59
+  },
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-09T23:13:00.075897+00:00",
+    "physical_available_bytes": 3036790784,
+    "commit_headroom_bytes": 1874755584,
+    "commit_total_bytes": 20897832960,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 208335724544,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_04": 219300765696
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "error": {
+    "kind": "ValueError",
+    "message": "Actual setup resource reserve insufficient"
+  },
+  "actual_wsl_exit": {
+    "pid": 21196,
+    "creation_filetime": 134360611511383317,
+    "exit_filetime": 134360611803001788,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 2
+  },
+  "wsl_exit_receipt_sha256": "68f67c3cd3f062f1e1b2670e237e8adb0b09efc46ad568c1d81bd71f728a65ce",
+  "native_commands": [
+    {
+      "label": "runtime_discovery",
+      "launch_sha256": "75727a0e4ff041c607fa6d3572927cc71db9f4f368a56753ea2c48cfa84d19cd",
+      "closure_sha256": "48408319b828f8b71ed0bf0559992dd67c79890ba0db08b8592c09663d4fb8ac",
+      "command_sha256": "c4d02e2dc3c0323517c39de4de78966f299403c7b28f397b57f2f7d01cd144de"
+    }
+  ],
+  "linux_terminal_sha256": "3e820a15e62d69ca37360adcc3bb6a7f5b080ed4f223c07422d44334f33cb48b",
+  "failed_scope_closed": true,
+  "closure_basis": "RETAINED_WSL_EXIT_AND_ACTUAL_LINUX_TERMINAL",
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "utc": "2026-10-09T23:13:00.351054+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "runtime",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_04",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_04/owner_lease.json",
+      "--owner-nonce",
+      "c9e849e8325c49dda66d26e211df8eb6",
+      "--source-sha256",
+      "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_04/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "4ba448a3c90d394f2053232be46597c1e25c84004d46a7d9429a73c0e15252ff",
+      "--toolchain-proof",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_03/toolchain_proof.json",
+      "--toolchain-proof-sha256",
+      "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5",
+      "--candidate-output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_04.json"
+    ],
+    "boot_id": "c9df0829-6e61-499e-b1ae-6ee3d94c9acf",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 1034,
+      "pid": 1034,
+      "ppid": 1030,
+      "sid": 1034,
+      "start_ticks": "182722",
+      "state": "R"
+    }
+  },
+  "error": {
+    "kind": "Fatal",
+    "message": "Owner nonce/declared shared-lock ownership differs"
+  },
+  "no_native_launch": false,
+  "owned_closure_proven": true,
+  "owned_command_count": 1,
+  "owner_nonce": "c9e849e8325c49dda66d26e211df8eb6",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+  "state": "FAILED",
+  "step": "runtime"
+}

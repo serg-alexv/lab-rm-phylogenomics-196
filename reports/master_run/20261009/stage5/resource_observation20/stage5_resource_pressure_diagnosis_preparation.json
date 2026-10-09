@@ -1,0 +1,106 @@
+{
+  "schema": "STAGE05_RESOURCE_PRESSURE_DIAGNOSIS_PREPARATION_V1",
+  "state": "WINDOWS_OBSERVED_LINUX_PAIRED_OBSERVATION_PENDING",
+  "utc": "2026-10-09T23:09:07.475657+00:00",
+  "source_sha256": "55ab4f7c96589c599bfe2fed25165faea8817cefdbf8d4f8676655d5d12b1161",
+  "actual_windows_snapshot": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_windows_memory_observation_20261009T231114Z_1fa6f889.json",
+    "sha256": "4c08a29ece0456a2dff5ffc98fbda6e0dcdec442c765ef65fa7dfca41b04fee7"
+  },
+  "runtime02_inputs": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\result.json",
+      "sha256": "22ab6fbdd24598396563ca3d576eac2eb8a2dc2723604f6026f9a6f965a05831"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\admission.json",
+      "sha256": "93c904d64b8f8e0056f11f5f02a1f8ad627080adcf5dfe528ffa2faa9725aa64"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\commands\\runtime_discovery.command.json",
+      "sha256": "f2279c71d6b228525d539de7cc0f18009ae7df412e5119abe0d366528df0978c"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\commands\\runtime_discovery.closure.json",
+      "sha256": "dee1c0fa32bf958cad2567202cd22598dd43034aa5003d85798a450490905366"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\linux_terminal.json",
+      "sha256": "f4fcc946c7340fe2313d607732038a5b1bb517acaa24edb56a0c8c6de7fae6f7"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\wsl_exit.json",
+      "sha256": "d8c4df4c9750dfcb6e4132f0a21526db848cf128f4ab698fba7a9f5ae736c7dd"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_02\\lock_released.json",
+      "sha256": "e4eb4d407c45320430d01b66af806498f74257da1578b0f03287f2bbf4306bfa"
+    }
+  ],
+  "runtime02_counter_change": {
+    "commit_headroom_before_bytes": 2957594624,
+    "commit_headroom_after_bytes": 1852510208,
+    "commit_drop_bytes": 1105084416,
+    "physical_drop_bytes": 1104195584,
+    "sampled_native_tree_peak_rss_bytes": 60133376,
+    "same_interval_Linux_cache_and_Windows_process_private_counters": "NOT_CAPTURED",
+    "cause": "NOT_ESTABLISHED",
+    "native_scope_closed": true,
+    "WSL_exit_code": 2
+  },
+  "actual_current_Windows": {
+    "utc": "2026-10-09T23:11:14.821518+00:00",
+    "physical_available_bytes": 4510445568,
+    "commit_headroom_bytes": 3399127040,
+    "commit_total_bytes": 19373461504,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 219303993344
+    }
+  },
+  "future_linux_invocation": [
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_memory_observation.py",
+    "--linux-readonly",
+    "--nonce",
+    "<current owner32hex>"
+  ],
+  "future_execution_gate": "Root must publish/verify source, hold original WorkflowLock, bind actual runtime02 closure and retained Windows client exit; invoke only through a reviewed existing owner. The module does not create an owner or launch WSL. Linux observation has its own10s alarm and no children.",
+  "next_readonly_observation": "Capture Windows global and process counters immediately before and after the one Linux observation; guest Cached/Buffers/SReclaimable/Dirty/Writeback/Shmem, root-cgroup memory and per-process RSS/anonymous/file counters. Treat races/unreadable processes explicitly.",
+  "least_intrusive_reclamation_proposal": {
+    "state": "CONDITIONAL_NOT_IMPLEMENTED_NOT_RUN",
+    "primary": "If actual same-boot counters establish substantial clean file-cache pressure, use POSIX_FADV_DONTNEED on exact opened immutable runtime files after SHA/identity validation and actual owned-native closure under original lock. No unlink/truncate/chmod/mount/reinstall or application signals.",
+    "scope": "Only the three pinned scientific runtime roots and already-read/hash-validated regular descriptors; no blind whole-Ubuntu export or unrelated files.",
+    "later_streaming_option": "Apply the advisory only after each large immutable file fullSHA is established during a reviewed discovery adapter, preserving original scientific file-map identity.",
+    "evidence_required": "Same-boot Linux before/after cache counters, Windows global commit/physical+VM/process private before/after; no claim of immediate host commit return from guest cache drop alone.",
+    "fallback": "If targeted advice cannot establish enough headroom, preserve state and root reviews a separate bounded guest clean-pagecache action under broad explicit WSL authority. No automatic retry or reserve weakening."
+  },
+  "actual_mutations": {
+    "G": 0,
+    "WSL_starts": 0,
+    "signals": 0,
+    "cache_reclamation": 0
+  },
+  "small_source_checks": {
+    "AST": "PASS",
+    "memory_byte_parser": "PASS"
+  },
+  "limits": "Single snapshots cannot attribute historic1.10GB growth. VM counters may be unreadable without elevated rights; unknown is not zero. No elevated query or app cleanup attempted.",
+  "observation_history": [
+    {
+      "source": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_memory_observation_attempt01.py",
+      "sha256": "e1a5b00a7f7dbcca2a11e4ffc19b0d9dc1221bab4617439dba7257322321384e",
+      "note": "Preserved earlier observation source; memory counters were valid, process wait flags lacked SYNCHRONIZE and confer no lifecycle proof."
+    },
+    {
+      "source": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_memory_observation_attempt02.py",
+      "sha256": "56767102c0178da95b2bcf06b2d02dafe11431a6a26485c6765b1d214e44105b",
+      "note": "Preserved earlier observation source; memory counters were valid, process wait flags lacked SYNCHRONIZE and confer no lifecycle proof."
+    }
+  ],
+  "actual_retained_wait_counts": {
+    "258": 264
+  },
+  "interpretation_guard": "None of these memory snapshots authorizes adopting or terminating any process; lifecycle/closure gates remain separate."
+}

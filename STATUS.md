@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:02:53.746290+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:14:55.644595+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -50,3 +50,11 @@ Actual operational update: Preserve closed runtime02 Windows commit-reserve fail
 - `stage5_setup_runtime_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.
 
 Runtime02 FAILED at Windows commit headroom1,852,510,208B below the unchanged1,879,048,192B setup gate. Actual discovery process peak sampled RSS60,133,376B; it was terminated through retained native scope after lease invalidation. Retained WSL exit2, empty native scope, STOP removal and original unlock are recorded; no runtime candidate or biological result exists. Host/cache causes require fresh evidence. Canonical Git repair is source-reviewed and prepared, not executed.
+
+Actual operational update: Preserve successful canonical FF with32 metadata entries pending and closed runtime04 reserve failure; collect paired guest memory evidence
+- `stage5_setup_runtime_actual_postiq_03`: FAILED; exact command, closure, resources and lock-release receipts are retained.
+- `stage5_setup_runtime_actual_postiq_04`: FAILED; exact command, closure, resources and lock-release receipts are retained.
+
+Canonical FF to c76a461 exited0; all265 changed raw blobs and entire index objects/modes match the target. Six genuine local changes remain byte-identical. Overall repair remains FAILED_PRESERVED because32 new false-modified DriveFS entries appeared; no automatic scope expansion occurred. Private index and six raw backups remain local and excluded.
+
+Runtime03 rejected an incorrect toolchain proof subdirectory before native launch; runtime04 used the correct proof and again failed the unchanged Windows commit reserve. Retained native/client closure, STOP removal and original unlock succeeded. No runtime candidate or detector output exists. Paired guest memory evidence is the next resource action; no reserve reduction or cause attribution.

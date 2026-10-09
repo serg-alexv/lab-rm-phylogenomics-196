@@ -1,0 +1,3821 @@
+{
+  "schema": "STAGE05_READ_ONLY_WINDOWS_MEMORY_OBSERVATION_V1",
+  "state": "OBSERVATION_ONLY_NO_RECLAMATION",
+  "utc": "2026-10-09T23:11:14.822521+00:00",
+  "source_sha256": "55ab4f7c96589c599bfe2fed25165faea8817cefdbf8d4f8676655d5d12b1161",
+  "before": {
+    "utc": "2026-10-09T23:11:14.793970+00:00",
+    "physical_available_bytes": 4522450944,
+    "commit_headroom_bytes": 3402338304,
+    "commit_total_bytes": 19370250240,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 219303993344
+    }
+  },
+  "after": {
+    "utc": "2026-10-09T23:11:14.821518+00:00",
+    "physical_available_bytes": 4510445568,
+    "commit_headroom_bytes": 3399127040,
+    "commit_total_bytes": 19373461504,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 219303993344
+    }
+  },
+  "processes": [
+    {
+      "pid": 14020,
+      "creation_filetime": 134360335298410724,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1219907584,
+      "private_commit_bytes": 1440428032,
+      "pagefile_usage_bytes": 1440428032,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17268,
+      "creation_filetime": 134360335299643454,
+      "image_basename": "codex.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1113231360,
+      "private_commit_bytes": 1225142272,
+      "pagefile_usage_bytes": 1225142272,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19296,
+      "creation_filetime": 134360335369486362,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 383176704,
+      "private_commit_bytes": 477061120,
+      "pagefile_usage_bytes": 477061120,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 3724,
+      "creation_filetime": 134360335199859475,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 329674752,
+      "private_commit_bytes": 398880768,
+      "pagefile_usage_bytes": 398880768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25800,
+      "creation_filetime": 134360485239794801,
+      "image_basename": "Microsoft.Media.Player.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 439615488,
+      "private_commit_bytes": 394641408,
+      "pagefile_usage_bytes": 394641408,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16212,
+      "creation_filetime": 134360335209753455,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 141778944,
+      "private_commit_bytes": 286285824,
+      "pagefile_usage_bytes": 286285824,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20928,
+      "creation_filetime": 134360432785675898,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 175394816,
+      "private_commit_bytes": 255467520,
+      "pagefile_usage_bytes": 255467520,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21288,
+      "creation_filetime": 134360412211297558,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 248270848,
+      "private_commit_bytes": 246820864,
+      "pagefile_usage_bytes": 246820864,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5748,
+      "creation_filetime": 134360335398455706,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 203083776,
+      "private_commit_bytes": 245420032,
+      "pagefile_usage_bytes": 245420032,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13812,
+      "creation_filetime": 134360335739258395,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 188309504,
+      "private_commit_bytes": 228360192,
+      "pagefile_usage_bytes": 228360192,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11808,
+      "creation_filetime": 134360332813005270,
+      "image_basename": "explorer.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 144142336,
+      "private_commit_bytes": 178618368,
+      "pagefile_usage_bytes": 178618368,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19260,
+      "creation_filetime": 134360333211674787,
+      "image_basename": "IntelGraphicsSoftware.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 28381184,
+      "private_commit_bytes": 161357824,
+      "pagefile_usage_bytes": 161357824,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17464,
+      "creation_filetime": 134360333068472982,
+      "image_basename": "GoogleDriveFS.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 135340032,
+      "private_commit_bytes": 135258112,
+      "pagefile_usage_bytes": 135258112,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19564,
+      "creation_filetime": 134360333300297744,
+      "image_basename": "iCloudDrive.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 28786688,
+      "private_commit_bytes": 132001792,
+      "pagefile_usage_bytes": 132001792,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15908,
+      "creation_filetime": 134360332948571640,
+      "image_basename": "TextInputHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 30867456,
+      "private_commit_bytes": 124583936,
+      "pagefile_usage_bytes": 124583936,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19580,
+      "creation_filetime": 134360334248204565,
+      "image_basename": "SystemSettings.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4038656,
+      "private_commit_bytes": 124215296,
+      "pagefile_usage_bytes": 124215296,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25932,
+      "creation_filetime": 134360374200955205,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 31694848,
+      "private_commit_bytes": 121708544,
+      "pagefile_usage_bytes": 121708544,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4680,
+      "creation_filetime": 134360413424771422,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 55894016,
+      "private_commit_bytes": 120598528,
+      "pagefile_usage_bytes": 120598528,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26004,
+      "creation_filetime": 134360392490545716,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 46166016,
+      "private_commit_bytes": 120270848,
+      "pagefile_usage_bytes": 120270848,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27616,
+      "creation_filetime": 134360374101882852,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43081728,
+      "private_commit_bytes": 120025088,
+      "pagefile_usage_bytes": 120025088,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20536,
+      "creation_filetime": 134360411476450772,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 49790976,
+      "private_commit_bytes": 119894016,
+      "pagefile_usage_bytes": 119894016,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20992,
+      "creation_filetime": 134360412331101650,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 46309376,
+      "private_commit_bytes": 119832576,
+      "pagefile_usage_bytes": 119832576,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9076,
+      "creation_filetime": 134360410198122658,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 48025600,
+      "private_commit_bytes": 119246848,
+      "pagefile_usage_bytes": 119246848,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17612,
+      "creation_filetime": 134360392172179959,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 49405952,
+      "private_commit_bytes": 118882304,
+      "pagefile_usage_bytes": 118882304,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6632,
+      "creation_filetime": 134360410198264043,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 41832448,
+      "private_commit_bytes": 116453376,
+      "pagefile_usage_bytes": 116453376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16244,
+      "creation_filetime": 134360335298430720,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 73412608,
+      "private_commit_bytes": 116441088,
+      "pagefile_usage_bytes": 116441088,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14764,
+      "creation_filetime": 134360432757214611,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 171978752,
+      "private_commit_bytes": 115552256,
+      "pagefile_usage_bytes": 115552256,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7936,
+      "creation_filetime": 134360412356578755,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43601920,
+      "private_commit_bytes": 114839552,
+      "pagefile_usage_bytes": 114839552,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21724,
+      "creation_filetime": 134360392172490263,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 42307584,
+      "private_commit_bytes": 114556928,
+      "pagefile_usage_bytes": 114556928,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27132,
+      "creation_filetime": 134360374102169905,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 26300416,
+      "private_commit_bytes": 113819648,
+      "pagefile_usage_bytes": 113819648,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8248,
+      "creation_filetime": 134360332850526965,
+      "image_basename": "StartMenuExperienceHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 102313984,
+      "private_commit_bytes": 113401856,
+      "pagefile_usage_bytes": 113401856,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19300,
+      "creation_filetime": 134360333271180827,
+      "image_basename": "iCloudHome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 62025728,
+      "private_commit_bytes": 104546304,
+      "pagefile_usage_bytes": 104546304,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7152,
+      "creation_filetime": 134360432762159727,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 74174464,
+      "private_commit_bytes": 96362496,
+      "pagefile_usage_bytes": 96362496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 3076,
+      "creation_filetime": 134360593298740676,
+      "image_basename": "msrdc.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 50073600,
+      "private_commit_bytes": 91922432,
+      "pagefile_usage_bytes": 91922432,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23548,
+      "creation_filetime": 134360374109250234,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 26099712,
+      "private_commit_bytes": 86085632,
+      "pagefile_usage_bytes": 86085632,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21508,
+      "creation_filetime": 134360411449597903,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 40910848,
+      "private_commit_bytes": 85733376,
+      "pagefile_usage_bytes": 85733376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25840,
+      "creation_filetime": 134360413364320010,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 48652288,
+      "private_commit_bytes": 85397504,
+      "pagefile_usage_bytes": 85397504,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24432,
+      "creation_filetime": 134360392450162352,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 47837184,
+      "private_commit_bytes": 85159936,
+      "pagefile_usage_bytes": 85159936,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18084,
+      "creation_filetime": 134360333024838166,
+      "image_basename": "PhoneExperienceHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 76091392,
+      "private_commit_bytes": 81674240,
+      "pagefile_usage_bytes": 81674240,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17188,
+      "creation_filetime": 134360374102747108,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12451840,
+      "private_commit_bytes": 81424384,
+      "pagefile_usage_bytes": 81424384,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 1544,
+      "creation_filetime": 134360392446435645,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 26583040,
+      "private_commit_bytes": 81002496,
+      "pagefile_usage_bytes": 81002496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23808,
+      "creation_filetime": 134360410559980058,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 25485312,
+      "private_commit_bytes": 80891904,
+      "pagefile_usage_bytes": 80891904,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4356,
+      "creation_filetime": 134360412346342031,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 25571328,
+      "private_commit_bytes": 80658432,
+      "pagefile_usage_bytes": 80658432,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 3084,
+      "creation_filetime": 134360333074632647,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 46415872,
+      "private_commit_bytes": 79065088,
+      "pagefile_usage_bytes": 79065088,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5032,
+      "creation_filetime": 134360335143543138,
+      "image_basename": "tun2socks.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 76218368,
+      "private_commit_bytes": 76087296,
+      "pagefile_usage_bytes": 76087296,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13284,
+      "creation_filetime": 134360332850483191,
+      "image_basename": "SearchHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 83415040,
+      "private_commit_bytes": 74399744,
+      "pagefile_usage_bytes": 74399744,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15192,
+      "creation_filetime": 134360334967792835,
+      "image_basename": "Bebra.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 10125312,
+      "private_commit_bytes": 70803456,
+      "pagefile_usage_bytes": 70803456,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27280,
+      "creation_filetime": 134360412327723078,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 34578432,
+      "private_commit_bytes": 70234112,
+      "pagefile_usage_bytes": 70234112,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23392,
+      "creation_filetime": 134360412331232245,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 36241408,
+      "private_commit_bytes": 69832704,
+      "pagefile_usage_bytes": 69832704,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22492,
+      "creation_filetime": 134360412332225514,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 34607104,
+      "private_commit_bytes": 69808128,
+      "pagefile_usage_bytes": 69808128,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24540,
+      "creation_filetime": 134360412333104121,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 37437440,
+      "private_commit_bytes": 69648384,
+      "pagefile_usage_bytes": 69648384,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15320,
+      "creation_filetime": 134360332879232598,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 30199808,
+      "private_commit_bytes": 69459968,
+      "pagefile_usage_bytes": 69459968,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18032,
+      "creation_filetime": 134360334248192615,
+      "image_basename": "ApplicationFrameHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 33890304,
+      "private_commit_bytes": 66707456,
+      "pagefile_usage_bytes": 66707456,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15488,
+      "creation_filetime": 134360332881563870,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 72269824,
+      "private_commit_bytes": 66613248,
+      "pagefile_usage_bytes": 66613248,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7616,
+      "creation_filetime": 134360335402025845,
+      "image_basename": "codex-computer-use-swift.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9973760,
+      "private_commit_bytes": 64184320,
+      "pagefile_usage_bytes": 64184320,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4452,
+      "creation_filetime": 134360333077022776,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 73207808,
+      "private_commit_bytes": 61243392,
+      "pagefile_usage_bytes": 61243392,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16256,
+      "creation_filetime": 134360334970355024,
+      "image_basename": "Bebra.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 41975808,
+      "private_commit_bytes": 58642432,
+      "pagefile_usage_bytes": 58642432,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11660,
+      "creation_filetime": 134360337128644286,
+      "image_basename": "codex-code-mode-host.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 55877632,
+      "private_commit_bytes": 55091200,
+      "pagefile_usage_bytes": 55091200,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8216,
+      "creation_filetime": 134360334959794365,
+      "image_basename": "Bebra.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 22220800,
+      "private_commit_bytes": 54108160,
+      "pagefile_usage_bytes": 54108160,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 3532,
+      "creation_filetime": 134360412336332689,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 21303296,
+      "private_commit_bytes": 52432896,
+      "pagefile_usage_bytes": 52432896,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2460,
+      "creation_filetime": 134360410559980129,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20688896,
+      "private_commit_bytes": 52068352,
+      "pagefile_usage_bytes": 52068352,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24864,
+      "creation_filetime": 134360374102927969,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 11423744,
+      "private_commit_bytes": 51679232,
+      "pagefile_usage_bytes": 51679232,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19268,
+      "creation_filetime": 134360392172995501,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 22208512,
+      "private_commit_bytes": 51605504,
+      "pagefile_usage_bytes": 51605504,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25272,
+      "creation_filetime": 134360412346729054,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20738048,
+      "private_commit_bytes": 50257920,
+      "pagefile_usage_bytes": 50257920,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18464,
+      "creation_filetime": 134360412329455551,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20611072,
+      "private_commit_bytes": 50245632,
+      "pagefile_usage_bytes": 50245632,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26232,
+      "creation_filetime": 134360412344339246,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20779008,
+      "private_commit_bytes": 50139136,
+      "pagefile_usage_bytes": 50139136,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7716,
+      "creation_filetime": 134360412345218392,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20807680,
+      "private_commit_bytes": 50085888,
+      "pagefile_usage_bytes": 50085888,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11092,
+      "creation_filetime": 134360332805386737,
+      "image_basename": "MultiKeysFunction.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 11538432,
+      "private_commit_bytes": 47624192,
+      "pagefile_usage_bytes": 47624192,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21056,
+      "creation_filetime": 134360534442643713,
+      "image_basename": "ShellExperienceHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 74489856,
+      "private_commit_bytes": 46256128,
+      "pagefile_usage_bytes": 46256128,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15976,
+      "creation_filetime": 134360335209912919,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 42385408,
+      "private_commit_bytes": 46202880,
+      "pagefile_usage_bytes": 46202880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26248,
+      "creation_filetime": 134360432780452463,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 70189056,
+      "private_commit_bytes": 45412352,
+      "pagefile_usage_bytes": 45412352,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10456,
+      "creation_filetime": 134360332816421600,
+      "image_basename": "CrossDeviceResume.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6078464,
+      "private_commit_bytes": 41365504,
+      "pagefile_usage_bytes": 41365504,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22260,
+      "creation_filetime": 134360412122196059,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 48513024,
+      "private_commit_bytes": 40550400,
+      "pagefile_usage_bytes": 40550400,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9620,
+      "creation_filetime": 134360333072817726,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 32051200,
+      "private_commit_bytes": 40349696,
+      "pagefile_usage_bytes": 40349696,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12068,
+      "creation_filetime": 134360332814475889,
+      "image_basename": "ShellHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 14327808,
+      "private_commit_bytes": 39292928,
+      "pagefile_usage_bytes": 39292928,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14512,
+      "creation_filetime": 134360332870634650,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 49459200,
+      "private_commit_bytes": 37744640,
+      "pagefile_usage_bytes": 37744640,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9524,
+      "creation_filetime": 134360332825769967,
+      "image_basename": "CrossDeviceService.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 80093184,
+      "private_commit_bytes": 33615872,
+      "pagefile_usage_bytes": 33615872,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17376,
+      "creation_filetime": 134360358223881695,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4927488,
+      "private_commit_bytes": 30699520,
+      "pagefile_usage_bytes": 30699520,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2428,
+      "creation_filetime": 134360355827656644,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 11255808,
+      "private_commit_bytes": 30687232,
+      "pagefile_usage_bytes": 30687232,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23528,
+      "creation_filetime": 134360380550146828,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 19369984,
+      "private_commit_bytes": 29376512,
+      "pagefile_usage_bytes": 29376512,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7988,
+      "creation_filetime": 134360376477647974,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 40390656,
+      "private_commit_bytes": 29306880,
+      "pagefile_usage_bytes": 29306880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16320,
+      "creation_filetime": 134360339872752293,
+      "image_basename": "backgroundTaskHost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 27922432,
+      "private_commit_bytes": 27447296,
+      "pagefile_usage_bytes": 27447296,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 844,
+      "creation_filetime": 134360412232476691,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43663360,
+      "private_commit_bytes": 26394624,
+      "pagefile_usage_bytes": 26394624,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17384,
+      "creation_filetime": 134360335956904452,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8437760,
+      "private_commit_bytes": 25591808,
+      "pagefile_usage_bytes": 25591808,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21544,
+      "creation_filetime": 134360412550812566,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43311104,
+      "private_commit_bytes": 25591808,
+      "pagefile_usage_bytes": 25591808,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17624,
+      "creation_filetime": 134360335670781649,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7049216,
+      "private_commit_bytes": 25481216,
+      "pagefile_usage_bytes": 25481216,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27636,
+      "creation_filetime": 134360610743191254,
+      "image_basename": "pwsh.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 76541952,
+      "private_commit_bytes": 23384064,
+      "pagefile_usage_bytes": 23384064,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25852,
+      "creation_filetime": 134360485248231668,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 54243328,
+      "private_commit_bytes": 23318528,
+      "pagefile_usage_bytes": 23318528,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5548,
+      "creation_filetime": 134360374100724362,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 34205696,
+      "private_commit_bytes": 21700608,
+      "pagefile_usage_bytes": 21700608,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4372,
+      "creation_filetime": 134360355823700809,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4673536,
+      "private_commit_bytes": 21544960,
+      "pagefile_usage_bytes": 21544960,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 1956,
+      "creation_filetime": 134360410197428629,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 32964608,
+      "private_commit_bytes": 21536768,
+      "pagefile_usage_bytes": 21536768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25404,
+      "creation_filetime": 134360392171168338,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43098112,
+      "private_commit_bytes": 21397504,
+      "pagefile_usage_bytes": 21397504,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19416,
+      "creation_filetime": 134360410197634225,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 31657984,
+      "private_commit_bytes": 20574208,
+      "pagefile_usage_bytes": 20574208,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11512,
+      "creation_filetime": 134360374101035124,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 29954048,
+      "private_commit_bytes": 20340736,
+      "pagefile_usage_bytes": 20340736,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16220,
+      "creation_filetime": 134360392171514754,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 38752256,
+      "private_commit_bytes": 20234240,
+      "pagefile_usage_bytes": 20234240,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12276,
+      "creation_filetime": 134360355824129342,
+      "image_basename": "node.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5054464,
+      "private_commit_bytes": 20164608,
+      "pagefile_usage_bytes": 20164608,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5760,
+      "creation_filetime": 134360432762249401,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 44638208,
+      "private_commit_bytes": 17694720,
+      "pagefile_usage_bytes": 17694720,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2320,
+      "creation_filetime": 134360432801300575,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 26357760,
+      "private_commit_bytes": 15273984,
+      "pagefile_usage_bytes": 15273984,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18504,
+      "creation_filetime": 134360333285455826,
+      "image_basename": "iCloudCKKS.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 28573696,
+      "private_commit_bytes": 14622720,
+      "pagefile_usage_bytes": 14622720,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9680,
+      "creation_filetime": 134360610746547535,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 21954560,
+      "private_commit_bytes": 13815808,
+      "pagefile_usage_bytes": 13815808,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13396,
+      "creation_filetime": 134360332855907646,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 38141952,
+      "private_commit_bytes": 13676544,
+      "pagefile_usage_bytes": 13676544,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15296,
+      "creation_filetime": 134360332879215441,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20504576,
+      "private_commit_bytes": 13111296,
+      "pagefile_usage_bytes": 13111296,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16584,
+      "creation_filetime": 134360333074673599,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 10727424,
+      "private_commit_bytes": 11423744,
+      "pagefile_usage_bytes": 11423744,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12736,
+      "creation_filetime": 134360335210760940,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9486336,
+      "private_commit_bytes": 11149312,
+      "pagefile_usage_bytes": 11149312,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10376,
+      "creation_filetime": 134360332852312976,
+      "image_basename": "Widgets.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 43266048,
+      "private_commit_bytes": 10489856,
+      "pagefile_usage_bytes": 10489856,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18348,
+      "creation_filetime": 134360333066716657,
+      "image_basename": "GoogleDriveFS.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 10383360,
+      "private_commit_bytes": 9768960,
+      "pagefile_usage_bytes": 9768960,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15588,
+      "creation_filetime": 134360334969386080,
+      "image_basename": "Bebra.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 13070336,
+      "private_commit_bytes": 9703424,
+      "pagefile_usage_bytes": 9703424,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15504,
+      "creation_filetime": 134360333288922416,
+      "image_basename": "ApplePhotoStreams.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5398528,
+      "private_commit_bytes": 9207808,
+      "pagefile_usage_bytes": 9207808,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16596,
+      "creation_filetime": 134360340484304845,
+      "image_basename": "dllhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7991296,
+      "private_commit_bytes": 8847360,
+      "pagefile_usage_bytes": 8847360,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10780,
+      "creation_filetime": 134360332804454714,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 20033536,
+      "private_commit_bytes": 8757248,
+      "pagefile_usage_bytes": 8757248,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24244,
+      "creation_filetime": 134360533586067676,
+      "image_basename": "codex.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 74661888,
+      "private_commit_bytes": 8572928,
+      "pagefile_usage_bytes": 8572928,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10728,
+      "creation_filetime": 134360332804065222,
+      "image_basename": "sihost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 23588864,
+      "private_commit_bytes": 8364032,
+      "pagefile_usage_bytes": 8364032,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13040,
+      "creation_filetime": 134360432762641748,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 17518592,
+      "private_commit_bytes": 8257536,
+      "pagefile_usage_bytes": 8257536,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14600,
+      "creation_filetime": 134360332880119001,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6262784,
+      "private_commit_bytes": 8097792,
+      "pagefile_usage_bytes": 8097792,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10968,
+      "creation_filetime": 134360332805001231,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 26738688,
+      "private_commit_bytes": 7806976,
+      "pagefile_usage_bytes": 7806976,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 1968,
+      "creation_filetime": 134360333075093162,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6926336,
+      "private_commit_bytes": 7495680,
+      "pagefile_usage_bytes": 7495680,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12472,
+      "creation_filetime": 134360333068914601,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8753152,
+      "private_commit_bytes": 7458816,
+      "pagefile_usage_bytes": 7458816,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24768,
+      "creation_filetime": 134360411675725325,
+      "image_basename": "taskhostw.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 25829376,
+      "private_commit_bytes": 6950912,
+      "pagefile_usage_bytes": 6950912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17692,
+      "creation_filetime": 134360333290220237,
+      "image_basename": "mmgaserver.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6176768,
+      "private_commit_bytes": 6807552,
+      "pagefile_usage_bytes": 6807552,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14744,
+      "creation_filetime": 134360332872481780,
+      "image_basename": "ctfmon.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 14721024,
+      "private_commit_bytes": 6782976,
+      "pagefile_usage_bytes": 6782976,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11124,
+      "creation_filetime": 134360332805425563,
+      "image_basename": "taskhostw.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8101888,
+      "private_commit_bytes": 6205440,
+      "pagefile_usage_bytes": 6205440,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16716,
+      "creation_filetime": 134360333286628845,
+      "image_basename": "secd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12894208,
+      "private_commit_bytes": 6135808,
+      "pagefile_usage_bytes": 6135808,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13324,
+      "creation_filetime": 134360332854991081,
+      "image_basename": "WidgetService.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6066176,
+      "private_commit_bytes": 5263360,
+      "pagefile_usage_bytes": 5263360,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19224,
+      "creation_filetime": 134360333289569326,
+      "image_basename": "APSDaemon.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9936896,
+      "private_commit_bytes": 5259264,
+      "pagefile_usage_bytes": 5259264,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21584,
+      "creation_filetime": 134360534428199194,
+      "image_basename": "jucheck.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 22794240,
+      "private_commit_bytes": 5185536,
+      "pagefile_usage_bytes": 5185536,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11392,
+      "creation_filetime": 134360333819973544,
+      "image_basename": "jusched.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 23683072,
+      "private_commit_bytes": 4976640,
+      "pagefile_usage_bytes": 4976640,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11448,
+      "creation_filetime": 134360339895590896,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9080832,
+      "private_commit_bytes": 4468736,
+      "pagefile_usage_bytes": 4468736,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13456,
+      "creation_filetime": 134360332856476143,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 14499840,
+      "private_commit_bytes": 4186112,
+      "pagefile_usage_bytes": 4186112,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7416,
+      "creation_filetime": 134360332825381362,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8888320,
+      "private_commit_bytes": 4014080,
+      "pagefile_usage_bytes": 4014080,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17672,
+      "creation_filetime": 134360374100629189,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5337088,
+      "private_commit_bytes": 3878912,
+      "pagefile_usage_bytes": 3878912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24280,
+      "creation_filetime": 134360410197495147,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5234688,
+      "private_commit_bytes": 3878912,
+      "pagefile_usage_bytes": 3878912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15880,
+      "creation_filetime": 134360332885194020,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12951552,
+      "private_commit_bytes": 3629056,
+      "pagefile_usage_bytes": 3629056,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25424,
+      "creation_filetime": 134360374101103812,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5005312,
+      "private_commit_bytes": 3616768,
+      "pagefile_usage_bytes": 3616768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27332,
+      "creation_filetime": 134360392444489985,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6033408,
+      "private_commit_bytes": 3616768,
+      "pagefile_usage_bytes": 3616768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13872,
+      "creation_filetime": 134360410558968327,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5193728,
+      "private_commit_bytes": 3616768,
+      "pagefile_usage_bytes": 3616768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25336,
+      "creation_filetime": 134360412328666475,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5365760,
+      "private_commit_bytes": 3616768,
+      "pagefile_usage_bytes": 3616768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23872,
+      "creation_filetime": 134360413360823570,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6213632,
+      "private_commit_bytes": 3616768,
+      "pagefile_usage_bytes": 3616768,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20728,
+      "creation_filetime": 134360392171308302,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5533696,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25596,
+      "creation_filetime": 134360392444362672,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6045696,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23080,
+      "creation_filetime": 134360412325738821,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5378048,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15156,
+      "creation_filetime": 134360412328445405,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5255168,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27244,
+      "creation_filetime": 134360412328517092,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5365760,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11052,
+      "creation_filetime": 134360412329018392,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5320704,
+      "private_commit_bytes": 3612672,
+      "pagefile_usage_bytes": 3612672,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19016,
+      "creation_filetime": 134360333200131084,
+      "image_basename": "AppleMobileDeviceProcess.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5201920,
+      "private_commit_bytes": 3555328,
+      "pagefile_usage_bytes": 3555328,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8640,
+      "creation_filetime": 134360392171425468,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5980160,
+      "private_commit_bytes": 3551232,
+      "pagefile_usage_bytes": 3551232,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18396,
+      "creation_filetime": 134360333288891622,
+      "image_basename": "iCloudOutlookConfig64.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6545408,
+      "private_commit_bytes": 3547136,
+      "pagefile_usage_bytes": 3547136,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25628,
+      "creation_filetime": 134360410197556844,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5799936,
+      "private_commit_bytes": 3547136,
+      "pagefile_usage_bytes": 3547136,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2272,
+      "creation_filetime": 134360412328369687,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5394432,
+      "private_commit_bytes": 3395584,
+      "pagefile_usage_bytes": 3395584,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19264,
+      "creation_filetime": 134360411447243148,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5128192,
+      "private_commit_bytes": 3379200,
+      "pagefile_usage_bytes": 3379200,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20496,
+      "creation_filetime": 134360374100810378,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5468160,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17732,
+      "creation_filetime": 134360374100882086,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4997120,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8816,
+      "creation_filetime": 134360374199130906,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6279168,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26208,
+      "creation_filetime": 134360392489675858,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6295552,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23384,
+      "creation_filetime": 134360410558895699,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5931008,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5280,
+      "creation_filetime": 134360411475875533,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5439488,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17348,
+      "creation_filetime": 134360413423504993,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6295552,
+      "private_commit_bytes": 3371008,
+      "pagefile_usage_bytes": 3371008,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20640,
+      "creation_filetime": 134360392171366698,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6037504,
+      "private_commit_bytes": 3366912,
+      "pagefile_usage_bytes": 3366912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22160,
+      "creation_filetime": 134360412325923967,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5271552,
+      "private_commit_bytes": 3366912,
+      "pagefile_usage_bytes": 3366912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 508,
+      "creation_filetime": 134360412328299085,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5144576,
+      "private_commit_bytes": 3366912,
+      "pagefile_usage_bytes": 3366912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13636,
+      "creation_filetime": 134360412328955369,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5054464,
+      "private_commit_bytes": 3366912,
+      "pagefile_usage_bytes": 3366912,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22740,
+      "creation_filetime": 134360412328744374,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5263360,
+      "private_commit_bytes": 3362816,
+      "pagefile_usage_bytes": 3362816,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26456,
+      "creation_filetime": 134360412328813764,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5234688,
+      "private_commit_bytes": 3362816,
+      "pagefile_usage_bytes": 3362816,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12792,
+      "creation_filetime": 134360358221827071,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1224704,
+      "private_commit_bytes": 3305472,
+      "pagefile_usage_bytes": 3305472,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 16708,
+      "creation_filetime": 134360355824241843,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 2822144,
+      "private_commit_bytes": 3301376,
+      "pagefile_usage_bytes": 3301376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2108,
+      "creation_filetime": 134360374100945274,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4886528,
+      "private_commit_bytes": 3301376,
+      "pagefile_usage_bytes": 3301376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 7048,
+      "creation_filetime": 134360376477074191,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6135808,
+      "private_commit_bytes": 3301376,
+      "pagefile_usage_bytes": 3301376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23280,
+      "creation_filetime": 134360380549102805,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6168576,
+      "private_commit_bytes": 3301376,
+      "pagefile_usage_bytes": 3301376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26284,
+      "creation_filetime": 134360412328591569,
+      "image_basename": "cmd.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5120000,
+      "private_commit_bytes": 3297280,
+      "pagefile_usage_bytes": 3297280,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20824,
+      "creation_filetime": 134360534447380875,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 25370624,
+      "private_commit_bytes": 3260416,
+      "pagefile_usage_bytes": 3260416,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8496,
+      "creation_filetime": 134360334561396674,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5771264,
+      "private_commit_bytes": 3211264,
+      "pagefile_usage_bytes": 3211264,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15164,
+      "creation_filetime": 134360392171235926,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9506816,
+      "private_commit_bytes": 3047424,
+      "pagefile_usage_bytes": 3047424,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17036,
+      "creation_filetime": 134360332914722634,
+      "image_basename": "dllhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3289088,
+      "private_commit_bytes": 3006464,
+      "pagefile_usage_bytes": 3006464,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23984,
+      "creation_filetime": 134360374100546268,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9019392,
+      "private_commit_bytes": 2949120,
+      "pagefile_usage_bytes": 2949120,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6512,
+      "creation_filetime": 134360410197337416,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9052160,
+      "private_commit_bytes": 2863104,
+      "pagefile_usage_bytes": 2863104,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14652,
+      "creation_filetime": 134360332871835823,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 2600960,
+      "private_commit_bytes": 2826240,
+      "pagefile_usage_bytes": 2826240,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10872,
+      "creation_filetime": 134360333073243550,
+      "image_basename": "msedgewebview2.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 2842624,
+      "private_commit_bytes": 2772992,
+      "pagefile_usage_bytes": 2772992,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27072,
+      "creation_filetime": 134360374103473215,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9711616,
+      "private_commit_bytes": 2727936,
+      "pagefile_usage_bytes": 2727936,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 5676,
+      "creation_filetime": 134360392173394356,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9170944,
+      "private_commit_bytes": 2707456,
+      "pagefile_usage_bytes": 2707456,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18900,
+      "creation_filetime": 134360410199195605,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8773632,
+      "private_commit_bytes": 2682880,
+      "pagefile_usage_bytes": 2682880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14900,
+      "creation_filetime": 134360355823761645,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1286144,
+      "private_commit_bytes": 2654208,
+      "pagefile_usage_bytes": 2654208,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17368,
+      "creation_filetime": 134360355827157852,
+      "image_basename": "node_repl.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1826816,
+      "private_commit_bytes": 2596864,
+      "pagefile_usage_bytes": 2596864,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8648,
+      "creation_filetime": 134360593263844531,
+      "image_basename": "wslhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12832768,
+      "private_commit_bytes": 2564096,
+      "pagefile_usage_bytes": 2564096,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 19780,
+      "creation_filetime": 134360333322577661,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3842048,
+      "private_commit_bytes": 2453504,
+      "pagefile_usage_bytes": 2453504,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10760,
+      "creation_filetime": 134360332804404942,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4075520,
+      "private_commit_bytes": 2387968,
+      "pagefile_usage_bytes": 2387968,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13492,
+      "creation_filetime": 134360332856583500,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4612096,
+      "private_commit_bytes": 2383872,
+      "pagefile_usage_bytes": 2383872,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24252,
+      "creation_filetime": 134360432759098346,
+      "image_basename": "chrome.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8773632,
+      "private_commit_bytes": 2371584,
+      "pagefile_usage_bytes": 2371584,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23640,
+      "creation_filetime": 134360593243498069,
+      "image_basename": "dllhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 11177984,
+      "private_commit_bytes": 2334720,
+      "pagefile_usage_bytes": 2334720,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9340,
+      "creation_filetime": 134360332784392926,
+      "image_basename": "ipf_helper.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6733824,
+      "private_commit_bytes": 2297856,
+      "pagefile_usage_bytes": 2297856,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12844,
+      "creation_filetime": 134360610568833263,
+      "image_basename": "ssh.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9957376,
+      "private_commit_bytes": 2285568,
+      "pagefile_usage_bytes": 2285568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18984,
+      "creation_filetime": 134360333197545792,
+      "image_basename": "AppleMobileDeviceLauncher.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9371648,
+      "private_commit_bytes": 2281472,
+      "pagefile_usage_bytes": 2281472,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10620,
+      "creation_filetime": 134360333804844146,
+      "image_basename": "WSLTux.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8962048,
+      "private_commit_bytes": 2220032,
+      "pagefile_usage_bytes": 2220032,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10888,
+      "creation_filetime": 134360332804732713,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 2588672,
+      "private_commit_bytes": 2199552,
+      "pagefile_usage_bytes": 2199552,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 3912,
+      "creation_filetime": 134360335201404921,
+      "image_basename": "ChatGPT.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8433664,
+      "private_commit_bytes": 2179072,
+      "pagefile_usage_bytes": 2179072,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6108,
+      "creation_filetime": 134360593265310549,
+      "image_basename": "wslhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12668928,
+      "private_commit_bytes": 2166784,
+      "pagefile_usage_bytes": 2166784,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2028,
+      "creation_filetime": 134360333229266988,
+      "image_basename": "RuntimeBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 10973184,
+      "private_commit_bytes": 2056192,
+      "pagefile_usage_bytes": 2056192,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 1508,
+      "creation_filetime": 134360334263072933,
+      "image_basename": "svchost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7544832,
+      "private_commit_bytes": 1892352,
+      "pagefile_usage_bytes": 1892352,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11352,
+      "creation_filetime": 134360345842786972,
+      "image_basename": "UserOOBEBroker.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5611520,
+      "private_commit_bytes": 1847296,
+      "pagefile_usage_bytes": 1847296,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4036,
+      "creation_filetime": 134360593265547583,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9793536,
+      "private_commit_bytes": 1646592,
+      "pagefile_usage_bytes": 1646592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22400,
+      "creation_filetime": 134360593264037885,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 9818112,
+      "private_commit_bytes": 1536000,
+      "pagefile_usage_bytes": 1536000,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17436,
+      "creation_filetime": 134360333068014307,
+      "image_basename": "crashpad_handler.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1880064,
+      "private_commit_bytes": 1515520,
+      "pagefile_usage_bytes": 1515520,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17404,
+      "creation_filetime": 134360610743270481,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7331840,
+      "private_commit_bytes": 1245184,
+      "pagefile_usage_bytes": 1245184,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 22244,
+      "creation_filetime": 134360412328898893,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5730304,
+      "private_commit_bytes": 1150976,
+      "pagefile_usage_bytes": 1150976,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14360,
+      "creation_filetime": 134360335299766119,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6078464,
+      "private_commit_bytes": 1146880,
+      "pagefile_usage_bytes": 1146880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14220,
+      "creation_filetime": 134360337128751980,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5988352,
+      "private_commit_bytes": 1146880,
+      "pagefile_usage_bytes": 1146880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25456,
+      "creation_filetime": 134360533586277597,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7065600,
+      "private_commit_bytes": 1146880,
+      "pagefile_usage_bytes": 1146880,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8424,
+      "creation_filetime": 134360335402160222,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6078464,
+      "private_commit_bytes": 1142784,
+      "pagefile_usage_bytes": 1142784,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25372,
+      "creation_filetime": 134360392171317143,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6168576,
+      "private_commit_bytes": 1142784,
+      "pagefile_usage_bytes": 1142784,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2444,
+      "creation_filetime": 134360410197565060,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5951488,
+      "private_commit_bytes": 1142784,
+      "pagefile_usage_bytes": 1142784,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18400,
+      "creation_filetime": 134360335143651262,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5910528,
+      "private_commit_bytes": 1138688,
+      "pagefile_usage_bytes": 1138688,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2196,
+      "creation_filetime": 134360355823829921,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1769472,
+      "private_commit_bytes": 1138688,
+      "pagefile_usage_bytes": 1138688,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18068,
+      "creation_filetime": 134360374100905388,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5505024,
+      "private_commit_bytes": 1138688,
+      "pagefile_usage_bytes": 1138688,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 14076,
+      "creation_filetime": 134360374100970320,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5820416,
+      "private_commit_bytes": 1138688,
+      "pagefile_usage_bytes": 1138688,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24144,
+      "creation_filetime": 134360410197612117,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6557696,
+      "private_commit_bytes": 1138688,
+      "pagefile_usage_bytes": 1138688,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21956,
+      "creation_filetime": 134360355823876442,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 880640,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2668,
+      "creation_filetime": 134360355824336563,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 876544,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18772,
+      "creation_filetime": 134360355824448442,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 1134592,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18284,
+      "creation_filetime": 134360358222074894,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 978944,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 11596,
+      "creation_filetime": 134360374101035935,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5627904,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6712,
+      "creation_filetime": 134360374101218988,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6057984,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9112,
+      "creation_filetime": 134360374101223997,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6340608,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23088,
+      "creation_filetime": 134360380549286328,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6774784,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 4032,
+      "creation_filetime": 134360392171453049,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6238208,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6348,
+      "creation_filetime": 134360392444568452,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6778880,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24852,
+      "creation_filetime": 134360412326113310,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5812224,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15940,
+      "creation_filetime": 134360412328939419,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5705728,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13964,
+      "creation_filetime": 134360412328976466,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5709824,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20152,
+      "creation_filetime": 134360412328995083,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5767168,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2360,
+      "creation_filetime": 134360412329294195,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5767168,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12812,
+      "creation_filetime": 134360412329493070,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5689344,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9132,
+      "creation_filetime": 134360412329643918,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5758976,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6240,
+      "creation_filetime": 134360412329879664,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5791744,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12708,
+      "creation_filetime": 134360413360912044,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6774784,
+      "private_commit_bytes": 1134592,
+      "pagefile_usage_bytes": 1134592,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2276,
+      "creation_filetime": 134360374100707933,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5652480,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8484,
+      "creation_filetime": 134360374100913640,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6307840,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6352,
+      "creation_filetime": 134360374100967698,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5865472,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18744,
+      "creation_filetime": 134360376477175444,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6279168,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12428,
+      "creation_filetime": 134360392171382272,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6643712,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 27180,
+      "creation_filetime": 134360392171513908,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6688768,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25948,
+      "creation_filetime": 134360392171579854,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6123520,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6504,
+      "creation_filetime": 134360392171677580,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6250496,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 18768,
+      "creation_filetime": 134360392444443555,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6733824,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24172,
+      "creation_filetime": 134360410197775271,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6037504,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17316,
+      "creation_filetime": 134360410559025105,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5849088,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12496,
+      "creation_filetime": 134360410559065579,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6639616,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15928,
+      "creation_filetime": 134360411447345346,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5918720,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10936,
+      "creation_filetime": 134360412326258909,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5877760,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 17296,
+      "creation_filetime": 134360412328849189,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5709824,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25756,
+      "creation_filetime": 134360412328860068,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 5722112,
+      "private_commit_bytes": 1130496,
+      "pagefile_usage_bytes": 1130496,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 8112,
+      "creation_filetime": 134360410197504949,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6410240,
+      "private_commit_bytes": 1126400,
+      "pagefile_usage_bytes": 1126400,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24816,
+      "creation_filetime": 134360410197639885,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 6541312,
+      "private_commit_bytes": 1126400,
+      "pagefile_usage_bytes": 1126400,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26544,
+      "creation_filetime": 134360610568901169,
+      "image_basename": "conhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 7024640,
+      "private_commit_bytes": 1126400,
+      "pagefile_usage_bytes": 1126400,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 9368,
+      "creation_filetime": 134360332784489522,
+      "image_basename": "DefenderSessionHelper.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 2068480,
+      "private_commit_bytes": 1048576,
+      "pagefile_usage_bytes": 1048576,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 15684,
+      "creation_filetime": 134360392172707508,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3461120,
+      "private_commit_bytes": 819200,
+      "pagefile_usage_bytes": 819200,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 26716,
+      "creation_filetime": 134360410559729286,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3973120,
+      "private_commit_bytes": 819200,
+      "pagefile_usage_bytes": 819200,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 12788,
+      "creation_filetime": 134360374102304780,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4034560,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 13644,
+      "creation_filetime": 134360392445938627,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 4030464,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23728,
+      "creation_filetime": 134360410559695205,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3985408,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 20596,
+      "creation_filetime": 134360412328818987,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3276800,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 25592,
+      "creation_filetime": 134360412333810942,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3309568,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23484,
+      "creation_filetime": 134360412337609624,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3309568,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 21520,
+      "creation_filetime": 134360412339383262,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3268608,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 24068,
+      "creation_filetime": 134360412342090580,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3211264,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 2068,
+      "creation_filetime": 134360412344129472,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3227648,
+      "private_commit_bytes": 749568,
+      "pagefile_usage_bytes": 749568,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 23472,
+      "creation_filetime": 134360374102475984,
+      "image_basename": "python.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 3674112,
+      "private_commit_bytes": 741376,
+      "pagefile_usage_bytes": 741376,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    }
+  ],
+  "unreadable_processes": [
+    {
+      "pid": 4,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 236,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 280,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 892,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1412,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1500,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1520,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1568,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1648,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1668,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1676,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1836,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1856,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1888,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1896,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2004,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1100,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1736,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2076,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2084,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2100,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2140,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2168,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2180,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2404,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2412,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2508,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2516,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2524,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2536,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2560,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2792,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2892,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2968,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2952,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3224,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3308,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3336,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3512,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3536,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3600,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3624,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3632,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3648,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3776,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3820,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3828,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3944,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3952,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3964,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3744,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3596,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4132,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4220,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4364,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4412,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4516,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4524,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4548,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4560,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4568,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4932,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5000,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5060,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4828,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4804,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5172,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5184,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5200,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5192,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5208,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5216,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5236,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5300,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5348,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5376,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5384,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5416,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5436,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5496,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5524,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5556,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5580,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5596,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5604,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5632,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5648,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5692,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5776,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5980,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6000,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6008,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6024,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6096,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6120,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6176,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6232,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6380,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6484,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6696,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6656,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5568,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8224,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8400,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8804,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8872,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8988,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9384,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9096,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9584,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9580,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4212,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9116,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 8456,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10320,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10588,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10612,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10656,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 11224,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 11676,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4700,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10832,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 11396,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 11684,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 11636,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2816,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 12332,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 12696,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 15748,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16028,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16032,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16192,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16312,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 15832,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16500,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16860,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 7648,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 17996,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 6248,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 20188,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 13516,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 14556,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 17656,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 9772,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 1404,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3916,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10108,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10084,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4264,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 19860,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 10328,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 3524,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2676,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5324,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 7140,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 16108,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 4712,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 25504,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 7672,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 5056,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 22852,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 21600,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 23916,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 2788,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 19368,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 21628,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 22220,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 13292,
+      "stage": "OPEN",
+      "winerror": 5
+    },
+    {
+      "pid": 24444,
+      "stage": "OPEN",
+      "winerror": 5
+    }
+  ],
+  "known_process_private_commit_sum_bytes": 11800195072,
+  "known_process_working_set_sum_bytes": 9472294912,
+  "vm_named_processes": [
+    {
+      "pid": 8648,
+      "creation_filetime": 134360593263844531,
+      "image_basename": "wslhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12832768,
+      "private_commit_bytes": 2564096,
+      "pagefile_usage_bytes": 2564096,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 10620,
+      "creation_filetime": 134360333804844146,
+      "image_basename": "WSLTux.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 8962048,
+      "private_commit_bytes": 2220032,
+      "pagefile_usage_bytes": 2220032,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    },
+    {
+      "pid": 6108,
+      "creation_filetime": 134360593265310549,
+      "image_basename": "wslhost.exe",
+      "retained_wait_result": 258,
+      "exited_at_observation": false,
+      "working_set_bytes": 12668928,
+      "private_commit_bytes": 2166784,
+      "pagefile_usage_bytes": 2166784,
+      "memory_query_state": "ACTUAL_COUNTERS"
+    }
+  ],
+  "interpretation": "Per-process private commit is incomplete when processes are unreadable and is not equal to global commit; working sets may share pages. This single snapshot cannot attribute prior changes.",
+  "G_accesses": 0,
+  "WSL_launches": 0,
+  "signals": 0,
+  "cache_reclamation_calls": 0
+}

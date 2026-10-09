@@ -1,0 +1,70 @@
+{
+  "utc": "2026-10-09T23:04:17.489171+00:00",
+  "args": [
+    "merge-base",
+    "--is-ancestor",
+    "80331d535d622517adf7921be42fc9931cdc23ee",
+    "c76a46163af8b26057a113599f0524dfa0b0e94e"
+  ],
+  "timeout_seconds": 180,
+  "state": "EXIT0_OWNED_JOB_EMPTY",
+  "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+  "argv": [
+    "C:\\Program Files\\Git\\cmd\\git.exe",
+    "--no-optional-locks",
+    "-c",
+    "core.fsmonitor=false",
+    "-c",
+    "core.filemode=false",
+    "-c",
+    "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "merge-base",
+    "--is-ancestor",
+    "80331d535d622517adf7921be42fc9931cdc23ee",
+    "c76a46163af8b26057a113599f0524dfa0b0e94e"
+  ],
+  "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "launch": {
+    "pid": 6264,
+    "creation_filetime": 134360606574934913,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "terminal": {
+    "pid": 6264,
+    "creation_filetime": 134360606574934913,
+    "exit_filetime": 134360606576155807,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "owned_job": {
+    "peak_process_committed_bytes": 35647488,
+    "peak_job_committed_bytes": 38359040,
+    "job_cpu_seconds": 0.046875,
+    "job_active_processes": 0,
+    "job_pids": []
+  },
+  "owned_closure_proven": true,
+  "stdout": {
+    "path": "14.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "14.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "elapsed_seconds": 0.18699999999807915
+}

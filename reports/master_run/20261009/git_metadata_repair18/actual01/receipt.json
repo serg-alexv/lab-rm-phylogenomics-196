@@ -1,0 +1,3820 @@
+{
+  "schema": "MASTER_CANONICAL_PRESERVE_FIRST_METADATA_REPAIR_V1",
+  "utc": "2026-10-09T23:03:57.234733+00:00",
+  "state": "FAILED_PRESERVED",
+  "source_sha256": "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5",
+  "plan_sha256": "6c74b71affd58971c4d2693b84aaa029f86d5a4afc4e7bf97a581346695c59d9",
+  "expected_main": "c76a46163af8b26057a113599f0524dfa0b0e94e",
+  "original_merge_stderr": "NOT_RECORDED",
+  "backup_scope": "C-only index and original six dirty files; never auto-restore",
+  "automatic_retry": false,
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "admission": {
+    "utc": "2026-10-09T23:03:57.254542+00:00",
+    "physical_available_bytes": 4445564928,
+    "commit_headroom_bytes": 2897854464,
+    "commit_total_bytes": 19874734080,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 208362635264,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d": 219329093632
+    }
+  },
+  "preserved": [
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.git\\index",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original.index.bin",
+      "bytes": 187421,
+      "sha256": "8cc1fbd9651748cd3e57fdb20f87240d9da42a647ab0b54f55e42c3ff5a259fe",
+      "blob_oid": "b856af2a93784ee21eca1792b76522ec2c6a609c"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage00\\commands.jsonl",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\00.bin",
+      "bytes": 94845,
+      "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb",
+      "blob_oid": "9b5ef5c6b15dad86542c966b95224804977a6f17"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress.json",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\01.bin",
+      "bytes": 80379,
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457",
+      "blob_oid": "63b4a7c12a56b398d552e86a674983a1961b361e"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress_resume.json",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\02.bin",
+      "bytes": 94067,
+      "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f",
+      "blob_oid": "5799f8d731e4fcba88a4876de293d409d36d3d62"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5\\observations.jsonl",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\03.bin",
+      "bytes": 6477,
+      "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e",
+      "blob_oid": "0f103073128c4995f010c83be4a40efd733bc37d"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5_v2\\observations.jsonl",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\04.bin",
+      "bytes": 13626,
+      "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15",
+      "blob_oid": "727afc1e941d78385abf1b13e865e911b735cd7e"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\continuation_execution_receipt.json",
+      "backup": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\original_six_dirty\\05.bin",
+      "bytes": 877,
+      "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f",
+      "blob_oid": "8e71834736038e254b14f94b2499eba440632c73"
+    }
+  ],
+  "attributes": {
+    "paths": 122,
+    "required": {
+      "text": "unset",
+      "filter": "unspecified",
+      "working-tree-encoding": "unspecified",
+      "ident": "unspecified"
+    },
+    "all_match": true
+  },
+  "scoped_refresh_complete": true,
+  "target_change_count": 265,
+  "fast_forward_command_exit0": true,
+  "target_changed_files_actual_raw_bytes": [
+    {
+      "path": "STATUS.md",
+      "bytes": 7020,
+      "sha256": "60e00518ed7835790816725be9f618a90a87fe765b9a6144a08150101d98faa7",
+      "blob_oid": "1d333a3579b0dc849b647bcdda3dd9d515cc9425"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/ASSETS_PLAN.json",
+      "bytes": 1009,
+      "sha256": "461517f619b873caa8813dd5e83eba32751f009dfb676979fe08f06cbfd8d42e",
+      "blob_oid": "adad7c06901c029afe29fd4442fd51d0d1d7a008"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/INDEPENDENT_LOCAL_READBACK.json",
+      "bytes": 21001,
+      "sha256": "67d941a0cd2ea62ad2e4074478bc9ae5b2768c8064a15224008b9d49a4e1a9c6",
+      "blob_oid": "073ba50e2ad9abaa5a4d75a434efba0ebc05fa6a"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_DIAGNOSIS.json",
+      "bytes": 5455,
+      "sha256": "985df53a038c88222e552ba060a8acbb33e58b644bf0116b0981ed765e3e4a2a",
+      "blob_oid": "baacca7aed8526de76e14cc37dd1965b7fe1b598"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_FAILED.json",
+      "bytes": 9215,
+      "sha256": "d9129edf5c9b085df12c76878ad6574d5e51aeb42be16bb3cc80d9ae93115ea8",
+      "blob_oid": "192af17aa3eb498ebdda0d153601a961ae904080"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_PUBLIC_GIT_TREE.txt",
+      "bytes": 467011,
+      "sha256": "227ded256a74446e209883f5ee359aa33dd2741e75e6c15e5a8cdedfe636b080",
+      "blob_oid": "aeea0461ffc07634ba568c2f42cc14cfa7cf6153"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READBACK.json",
+      "bytes": 43872,
+      "sha256": "83fa1e6181274976cab5e245885af3c1ec3a2e8f25f5e48b159682b4af790389",
+      "blob_oid": "d645b86dde2cbeea601b4515ebcf9721103c49fe"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 1875,
+      "sha256": "66343876ba374064afa68deb93a4b0be0d7d850cd542469370895c89a4f0b5b3",
+      "blob_oid": "a9de6fb2aca1abe259f983df40757ce676a8d30e"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_METHODS.md",
+      "bytes": 4002,
+      "sha256": "658d0814017543a104ac848bd4a52b83f39a44ca53e8b28be3b3cdf308b2aac8",
+      "blob_oid": "b8d2a38b4f2bd5a14602cd13e0e8ec09c5fcf173"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_PREPARATION.json",
+      "bytes": 2335,
+      "sha256": "9c9240e19328e4e79e0e2dbc652aa080802e5cfe822e8756ef5d16a3ee9b9b49",
+      "blob_oid": "36b1111a65befe4af5cd22fdc7abf54f52bfcca2"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/UPLOAD.json",
+      "bytes": 1268,
+      "sha256": "8da342961d29e1d154c8fad2be02251392f12a5a4250d3dce1afd9425859791e",
+      "blob_oid": "2bcc291a6a2738de0b5397b5e5bac63532c4cf96"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS.md",
+      "bytes": 3727,
+      "sha256": "633afb31bd6a36c8aaddab32d98cd0a068a4648a940305bac2c5027bd3f7a56c",
+      "blob_oid": "d2642c1d2663d9f3b904cde5cebb88ff48584876"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS_draft_e5e6.md",
+      "bytes": 3516,
+      "sha256": "e5e6f927997a16d58ae100ad97b7e7623f76925a8939e25d59bf8b2d65e5555a",
+      "blob_oid": "9b81d65ea808179458e50ae6b480ed7970f0344f"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_builder_independent_review.json",
+      "bytes": 2357,
+      "sha256": "87545d3c70fc3e7f8826adff49811cf474d16f5b4f730337db3c1c32099846d2",
+      "blob_oid": "9c391f1cf67d81beaacb3b7a0cb210a9af377b18"
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_preparation.json",
+      "bytes": 2088,
+      "sha256": "87bc8a6d61cb9b9eda3f49cb84b0aeeed50dfcb951dd1cc92aa8e77ade64dc43",
+      "blob_oid": "ddc4718632cc4567f1547e35a4ea417011ce87b1"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/CANONICAL_GIT_METADATA_REPAIR_METHODS.md",
+      "bytes": 3797,
+      "sha256": "ed91f33d00aadcbdd82c14fe670f3d793c2fce3d1a49f545853a0860e3edfed2",
+      "blob_oid": "53fcf4eedccc6c3feeb624f8275365ef1ebc10d7"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/PUBLICATION_FILES.json",
+      "bytes": 9643,
+      "sha256": "ec7150252a13507361864ff7d6e415a61bb33a929b1ccd94af56b0fea80abf1b",
+      "blob_oid": "a2ee9655aa8d7e4c75c98b23ef1a7f9c056fe540"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit01/receipt.json",
+      "bytes": 50961,
+      "sha256": "803b488c1c49c58a6b94ac62e70f37b13bae7b53b4ba92442bb20c9dd5c6eb65",
+      "blob_oid": "227f765e464da308fb8a4f9570cac0d9a1e97a36"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/index_debug_all.txt",
+      "bytes": 249457,
+      "sha256": "b6619111860b1871775b64c27dd70bcae5437eebe1ce1ecf803e7aa1d989aa79",
+      "blob_oid": "e70f6875826cc5ef5ddb89f536f9180d8cabcc3b"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/index_stat_cache_proof.json",
+      "bytes": 35986,
+      "sha256": "3c6fa4f720c7dc6b367ea443b99624106e58b28ef24335e93f433299b439d977",
+      "blob_oid": "ea0783cd13973ef3a254d6ad6cda2322af24aec5"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/metadata_followup.json",
+      "bytes": 2581,
+      "sha256": "0ea0bb5e7071fcab1861bf2ebf2280bb0b5f295528562b91f580467298169fad",
+      "blob_oid": "70f767a0c5021c3c459b7d17c848dba6d8f02120"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/receipt.json",
+      "bytes": 179182,
+      "sha256": "fa3eee3f0209114042c651679cd9b2095594acd8ec71be1345a8282eeea2127a",
+      "blob_oid": "9f33c62f028fbe3276e980ddf88cec2470d42397"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_git_failed_ff_diagnosis.json",
+      "bytes": 2949,
+      "sha256": "27d786a9112073a011c79da2671fe13e6f8fdb5dae6fba74350aac370e570b74",
+      "blob_oid": "6cfc719b470cfc0d7ca70bd8c576068023e85fa4"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_independent_review.json",
+      "bytes": 3247,
+      "sha256": "ca8472f7a3854941d2781313d6cd55a83478d7fe6699a2922a658cdf0aa61b39",
+      "blob_oid": "374491150d6b283d403a8692cf119d4c1dc72ca3"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_plan.json",
+      "bytes": 65969,
+      "sha256": "6c74b71affd58971c4d2693b84aaa029f86d5a4afc4e7bf97a581346695c59d9",
+      "blob_oid": "8a38d05e79bfb46262deb0e051f0eef7b5c3ece7"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_plan_before_scoped_readd.json",
+      "bytes": 65538,
+      "sha256": "7f3a3f9e09fc1fdfdaa19d81589ce362a20a079e3bf40c2c7cdac68e4c6def03",
+      "blob_oid": "cfd6fd3a2db3d9f469faf944a61a959ba465039a"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_preparation.json",
+      "bytes": 1968,
+      "sha256": "24b7c6e68b9864ce86e6d9f82c71b3cb591cbfebc611e6d802efd6f4d1b7be30",
+      "blob_oid": "d0aeaeee5a848b333fb1ccdc7fb6c728518cb345"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89/explicit_optional_probe/00.command.json",
+      "bytes": 2014,
+      "sha256": "91639fba3207a2080ab1c0841e41cb838183a38d15037f71726b3b2b600bca12",
+      "blob_oid": "5acff3af784f9140ab968399c55fcc09109805a0"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89/explicit_optional_probe/00.stderr.bin",
+      "bytes": 394,
+      "sha256": "44aed6e76785c8881490eb01b2910634f2c6f666f250dca2fec211884d878642",
+      "blob_oid": "dfc911cb95ebf88513d3e2ec6b1e8393f47f1e2e"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89/receipt.json",
+      "bytes": 18784,
+      "sha256": "19cea9d99c9b28e57cbe32bb7894dfc9d87183c708dcd18540dcaa5569c0b263",
+      "blob_oid": "34f0f5fcd2e45749416e1673171b3ef87ef69609"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3/exact_readd_probe/receipt.json",
+      "bytes": 7381,
+      "sha256": "f7e8da2f426bd0456d7ad76ba622476ef66dc7ffaf4913bc8692c863ed5d3edd",
+      "blob_oid": "b7327abec1865abbd61610594a0f68f0a33847c6"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3/receipt.json",
+      "bytes": 19113,
+      "sha256": "ec408bdebb566976c93975d2cfeabfdf10b420435800c98720c36ce207afbbb5",
+      "blob_oid": "b62cf8a28f7072ed96dbfbc3e1e5ac0cc566a7a4"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225829Z_2100a02e/receipt.json",
+      "bytes": 26227,
+      "sha256": "772fee25235e7de98dcd071ef69a9e05192a74791fa0a6f316bd3e7739e9abe9",
+      "blob_oid": "d69d11ecfc006a835f81969572abb0667d3f8000"
+    },
+    {
+      "path": "reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225913Z_55c244b5/receipt.json",
+      "bytes": 26777,
+      "sha256": "f352f3cc2810124c625b417ea33708dec1052d66787c5c79398aa44dcdd7f506",
+      "blob_oid": "62aef5bc81de5b504413edb202d324b553450c75"
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage04_primary196_remote_reader_preparation.json",
+      "bytes": 1853,
+      "sha256": "5b69c9a18dec653cf74537a284671f192d8e515bed7d5bfdc9e42d8771fc09d2",
+      "blob_oid": "a612aedcdf1e6fee410866e4709f62c16135de54"
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage04_remote_expected.json",
+      "bytes": 14460,
+      "sha256": "0c9d0dc5ceee4e7e200d5f910c1656f356e7106467ceabdc1b0af737bba62a25",
+      "blob_oid": "4e21ea89d69b84126759f8ff52375d06e4538049"
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage04_remote_reader_independent_source_review.json",
+      "bytes": 3123,
+      "sha256": "e1ccf443a782d20ae586c709b879130aa157ca78714316f99ffadab7235ae9bf",
+      "blob_oid": "0bdde9be839ea348a3527298418d6ed118a7f148"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/CANONICAL_FAST_FORWARD_ATTEMPT15_FAILED.json",
+      "bytes": 899,
+      "sha256": "283e6e055dbe465cd249060222ee59f81120f5539462d0124b47232559ed6710",
+      "blob_oid": "88ef895dd8110c56b266cd46071cd7aa06e85ff6"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/CANONICAL_POST_NATIVE_FAST_FORWARD01.json",
+      "bytes": 104578,
+      "sha256": "2d7b50b19304c63dae89f3301fc5040fe1574f9848666b956290146921f461d2",
+      "blob_oid": "95165a34c5eb6442754fe691338416526dbae845"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_acceptance_setup11_git_objects.json",
+      "bytes": 3803,
+      "sha256": "1fe06dd0e914b29a689f87fa5be193630a2f9c4d925c1103a581eb20c1a67861",
+      "blob_oid": "0b06e53b34107bdba25c11a809a3322d78480c6d"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_acceptance_setup11_remote_readback.json",
+      "bytes": 7131,
+      "sha256": "d1af5b6414b4b2b7b843df26a78ba9f01418d82e093e5e3c53929fc3334c73f0",
+      "blob_oid": "ee547b67a6955b9391f93e3c631c3e0ff1c7229b"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_failure_closure14_git_objects.json",
+      "bytes": 8593,
+      "sha256": "88c97a23689af698b7e979eb10ee1fddd7c7c468b43cf333ff4a35899923cd69",
+      "blob_oid": "bcecbbb5dab4bd06f345043accf6729697089c23"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_failure_closure14_remote_readback.json",
+      "bytes": 15202,
+      "sha256": "0e12aa8d511405497f095fba77fc9f9a9b43786e0dba10591624b4e66c59403c",
+      "blob_oid": "089cc4cf379a9931fc4bcfdf10600a9971bad7eb"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_idle_readers13_git_objects.json",
+      "bytes": 9476,
+      "sha256": "b38dfd37202a4c761992c0f8006ffe87b7a64213223ac94a8222b02ca2236f93",
+      "blob_oid": "300410067c0ae58cad52c9ac32eeeeba5c933a88"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_idle_readers13_remote_readback.json",
+      "bytes": 17069,
+      "sha256": "6d3d3a6ecf7374b3859f6b99562892cf8fc2d40bde3c4037ae43f47ad61fe567",
+      "blob_oid": "2f2498ba8aff526010d48a5bb8e54e91bd4d3c3b"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_lease_setup17_git_objects.json",
+      "bytes": 11594,
+      "sha256": "00df432d016bf0e4917055eafe444be5cb18ff0d17a0965a53923565b80d1dfa",
+      "blob_oid": "5d7e7d3031594ccc9e07d00ac923932f9053df6f"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_lease_setup17_remote_readback.json",
+      "bytes": 20663,
+      "sha256": "a701dac6ccbe94f941cdceaa6447ccc363b661e7f1e3f758e12620b05a012ebc",
+      "blob_oid": "afbfe9368a59f00370f783b467f7c5f8710ac703"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_resource_actual16_git_objects.json",
+      "bytes": 4291,
+      "sha256": "96068ba1ba8ad7c1a6975dc73e6fecaa41a29e0872ab5d7b3387a6d3aed50831",
+      "blob_oid": "67c89b3fe563759d64e2bda517df78fbce533333"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_resource_actual16_remote_readback.json",
+      "bytes": 7770,
+      "sha256": "5f5918311b0f0472c3ba7be1f3f8a16aa1caf31177711e5f370b55c8930cc06f",
+      "blob_oid": "0e27b09c1466717a4b8fb846c000a1b4e6202437"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_resource_setup15_git_objects.json",
+      "bytes": 9892,
+      "sha256": "1cef70033366d23a6b616066d276df609b25f6eac135db990b8006e6daf25d37",
+      "blob_oid": "23d5a40c3fa3e5cc6e979ab7d1825e1d280a86d3"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_resource_setup15_remote_readback.json",
+      "bytes": 17484,
+      "sha256": "a35758d74e5f15dfde6dbc63c758c373c2d1bb3cc41ab13a6c537567c35e872e",
+      "blob_oid": "86881714f65f5a77fd7b7c30fc15f920e0e9a4be"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain12_git_objects.json",
+      "bytes": 7717,
+      "sha256": "0944fa1e8ac325b6d85035e6e9b124e651dbaafd01e6a3508363a7a1d43614b1",
+      "blob_oid": "667cc6f945f74fcb1a10c96d1faa0c9182c16266"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain12_git_objects_final.json",
+      "bytes": 8171,
+      "sha256": "509ae7dae403f199e5dcbb83d3d35bdaf81eb6b6391f689d09b5edfae6644690",
+      "blob_oid": "8a281e4bd641c8849f8bdfe9cbd5ce99240d3c55"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain12_git_plan_before_status_wording.json",
+      "bytes": 12471,
+      "sha256": "d3d13228352d4d4ce3f38d4e2941c6f439179cc9768882de2969725b2029918e",
+      "blob_oid": "211e259aca4da8ad9e5e25d151a94ef98210ca9c"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain12_remote_readback.json",
+      "bytes": 14284,
+      "sha256": "b0f1a396fd720392a3340ea6153bda25eba3b8942731e53d33c67d5959fb9c3f",
+      "blob_oid": "2ea5e0751cc17931c17bfa230e2d2554bd52b192"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain_actual18_git_objects.json",
+      "bytes": 4173,
+      "sha256": "53b021c1f7cbb0b92891d7d36d87b80b6e8f77d63d04683e1967dc094feabf6e",
+      "blob_oid": "c46503cc0ae228669fe05db908293d6e08eb34a7"
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_toolchain_actual18_remote_readback.json",
+      "bytes": 7500,
+      "sha256": "2004e4a54b913f30d401911906b2e550de2758c8cea6f47b61ce423a5f96022f",
+      "blob_oid": "0c77098ac7fe19d07af81e14645a356cf167c118"
+    },
+    {
+      "path": "reports/master_run/20261009/stage04/INDEPENDENT_FRESH_REMOTE_READBACK.json",
+      "bytes": 50683,
+      "sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
+      "blob_oid": "5d5debd614089a4a6904d27a970f987b3072d147"
+    },
+    {
+      "path": "reports/master_run/20261009/stage04/PUBLICATION_FINAL.json",
+      "bytes": 481,
+      "sha256": "d88aa02b764c538cfaed4d70046484951db9c4ec67c1eb119c6f33c1556de1d1",
+      "blob_oid": "6d431484fb411c05a9037809a6802ffc231c9777"
+    },
+    {
+      "path": "reports/master_run/20261009/stage04/PUBLICATION_PREPARATION.json",
+      "bytes": 1264,
+      "sha256": "9e68b90ec7844dafba73231e8a9c7bcd07739c6bbb03d321ed33f79782c3ecc8",
+      "blob_oid": "4011c876fac746eac1fd02b94c6af6bd29767cbb"
+    },
+    {
+      "path": "reports/master_run/20261009/stage04/RELEASE_NOTES.md",
+      "bytes": 459,
+      "sha256": "7fac5c5dda8b1516661570a837eaab8c17a66db128b27476582d0aea9663d192",
+      "blob_oid": "641d59a38d4b2a208be4fad299c9e3af1ae4118e"
+    },
+    {
+      "path": "reports/master_run/20261009/stage05_curation/CLOSED_GENOME_HANDOFF.md",
+      "bytes": 9531,
+      "sha256": "a41169db61697ee0fe6c09cfd3c73e01058cf64d9a5ca202d7682f9cc655e9e7",
+      "blob_oid": "3533ed847ae9c7285451968d3aea10b92e9558c5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_INDEPENDENT_REVIEW.json",
+      "bytes": 2185,
+      "sha256": "6bed0ddb8d3cd9df06636bb5c51d3138a3413ad393bb856caf88f0348b980f3e",
+      "blob_oid": "3c6bcaf6f7f6239a545bb6a47a666071664522cd"
+    },
+    {
+      "path": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_METHODS.md",
+      "bytes": 5572,
+      "sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51",
+      "blob_oid": "f87348242256a16ddefee01b85e1021d83c39f68"
+    },
+    {
+      "path": "reports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_PREPARATION.json",
+      "bytes": 2978,
+      "sha256": "b7feacf6f1e9f03defbe1a7d2b915d532cfb46562406e9bf87dd618a968767b9",
+      "blob_oid": "fb796a1e21664568f337af319b685478ee839cd5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/LEGACY_TASKS_ALL18_DISABLED.json",
+      "bytes": 2030,
+      "sha256": "e80ae16f6b413dcf6995d323471b68b69acce6d59556691259c105d324aaf8b6",
+      "blob_oid": "1ac3bf1d676b8a83c53c8c5ef5d0a3a7e6b90a54"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/actual_owner_lock.json",
+      "bytes": 663,
+      "sha256": "1959739e69068c6bbbd78280a6c6e96f3cddb0fe60212b51625e6dcf629c3652",
+      "blob_oid": "c6610e3964f77c84f1db20e0af96223c7b1ddfb5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/launch.json",
+      "bytes": 1258,
+      "sha256": "e8a40afcf54d528a048ed0b40f60a0053f56403795214b1d395f661eeac7a4d4",
+      "blob_oid": "0b8e7c710381bd6ec7523d11e2a12b67b2a8d783"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/linux_terminal.json",
+      "bytes": 461,
+      "sha256": "ad88c019a20cfc5197f28676e12153e53d438f5fad80475396cc86dcd7b3406f",
+      "blob_oid": "a8ae7e1d986180a49a426839c32d23b0aafee16f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/lock_released.json",
+      "bytes": 116,
+      "sha256": "35e94b8e3168bc2812e3bceee66f0a8cd4a43ae610d0f0574b83c6a9e1551459",
+      "blob_oid": "2ad1ab229cde5dbf014c859f2032afb95d0c4940"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/owner_lease.json",
+      "bytes": 898,
+      "sha256": "62f20556460c0a8e4fb440c989dbf0f8f1c14130d04e9295034dfc4ce0d31532",
+      "blob_oid": "82f3e53a85c5abb2083426995523ee7febe1c75d"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/result.json",
+      "bytes": 3405,
+      "sha256": "2aaa9d9b629efbe52a3e274a53694e2ab895a05e1916b1a8a962e81c5db615b9",
+      "blob_oid": "1cc60bb97941ddb97c97afded1e7a4902dd4b982"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/actual_owner_lock.json",
+      "bytes": 664,
+      "sha256": "b65bc3c854f0772512dca4ae0aa2a837c9554ec7595f5a097cb451cc08e6326f",
+      "blob_oid": "3b98d0376d86255b0b284dd44cd785ce9f8d7d96"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/launch.json",
+      "bytes": 1732,
+      "sha256": "cbac9dbdb820255d9db87b9d9b19fd6de458130881917c09b657e7d9d47935b3",
+      "blob_oid": "97caa377c2fbbc657f847e6c8af56dc2e268a536"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/lock_released.json",
+      "bytes": 116,
+      "sha256": "ef660fdb38491800bd20cfa0280032d26053b6d4acfc8c0150092d4735f22d6f",
+      "blob_oid": "2f16850ff505c11abfb4793ee7eb87b017e0293d"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/owner_lease.json",
+      "bytes": 903,
+      "sha256": "208c9cf0b8d6f92f6909c9c4cd0eb83356c091fbf76f3b05ee450f9a04578d57",
+      "blob_oid": "a9ebbb807c536ebff165ee714ad9e2799984b83e"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/result.json",
+      "bytes": 3548,
+      "sha256": "dc754ad11b01f9a3893fb272035c1e1128b35ea917e84be926e21903bc51fe4d",
+      "blob_oid": "d674938c77136a0116af94763154a4170402264b"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/wsl.stderr.txt",
+      "bytes": 204,
+      "sha256": "b0fedf588c6cba9cc171d009263a53385d2468fa7476661b4e7c551c6cf806ae",
+      "blob_oid": "3d9b965cf64f35f001cb33005968466ce5fa67d2"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/actual_owner_lock.json",
+      "bytes": 689,
+      "sha256": "3905f60c819f1d701a7579cc012b3dd8eff55a1c1971de9ab0b6b98ccaf5e1cd",
+      "blob_oid": "7cca8b202838bf6c36dc4b27356d733f1a259a49"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/admission.json",
+      "bytes": 1783,
+      "sha256": "93c904d64b8f8e0056f11f5f02a1f8ad627080adcf5dfe528ffa2faa9725aa64",
+      "blob_oid": "257902ff5c33685f67f4e23529d8f069ca07d0e8"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands.jsonl",
+      "bytes": 1567,
+      "sha256": "7822f539026e452b883c97851a7ef11851e4e3ff7611f509de488d90dca480bc",
+      "blob_oid": "081b3c4bc3844408f86857cdcf7cca39a1765036"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/admission.json",
+      "bytes": 1783,
+      "sha256": "98d858eb4f2db28f5a405c7888687799423981eb0adaf0d203da80d8445a4d33",
+      "blob_oid": "19d1346e19624c82a1b1cddd2414d22225047675"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/latest_admission.json",
+      "bytes": 1783,
+      "sha256": "98d858eb4f2db28f5a405c7888687799423981eb0adaf0d203da80d8445a4d33",
+      "blob_oid": "19d1346e19624c82a1b1cddd2414d22225047675"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.closure.json",
+      "bytes": 699,
+      "sha256": "dee1c0fa32bf958cad2567202cd22598dd43034aa5003d85798a450490905366",
+      "blob_oid": "7615925ad891408d209aac0fe4a1548a757e6c73"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.command.json",
+      "bytes": 1657,
+      "sha256": "f2279c71d6b228525d539de7cc0f18009ae7df412e5119abe0d366528df0978c",
+      "blob_oid": "e2c50f02046655ead22b69513ea3158ea95b2e23"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.launch.json",
+      "bytes": 1074,
+      "sha256": "23ab4e8e3ee7e3363318601ac0c23594341b89ee78e2042cb41c783d23b8e252",
+      "blob_oid": "6cd34f3f3987a07c93c97582dc7f00093b669fc0"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.launch_intent.json",
+      "bytes": 586,
+      "sha256": "eb11cabaed9411161f14a10a65cf77e379db757e842a16ea512da62a69f467c0",
+      "blob_oid": "4cf669ad0590da1b354fbef31fbc55e548a814bb"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/commands/runtime_discovery.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/latest_admission.json",
+      "bytes": 1783,
+      "sha256": "93c904d64b8f8e0056f11f5f02a1f8ad627080adcf5dfe528ffa2faa9725aa64",
+      "blob_oid": "257902ff5c33685f67f4e23529d8f069ca07d0e8"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/launch.json",
+      "bytes": 1641,
+      "sha256": "10684c3a87a0ae56973d260f3337ff22f0f4fbf9ad4b436a9b673e66c3b59f6b",
+      "blob_oid": "da328400d8c49a3a379324e779ff642e1b5421e8"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/linux_terminal.json",
+      "bytes": 2057,
+      "sha256": "f4fcc946c7340fe2313d607732038a5b1bb517acaa24edb56a0c8c6de7fae6f7",
+      "blob_oid": "3227c5b887f34e493559a8a59ced8d0cfab3c9d5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/lock_released.json",
+      "bytes": 116,
+      "sha256": "e4eb4d407c45320430d01b66af806498f74257da1578b0f03287f2bbf4306bfa",
+      "blob_oid": "9384450cfd4789482a71471c2a47a77a95d75e66"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/owner_lease.json",
+      "bytes": 903,
+      "sha256": "a82cad9e1de61e09d226f7db274bdb5b5f9c37e6bce5eba53649c073a53d7d75",
+      "blob_oid": "a61134b2c1decfe42ec90911d65e475f471f275b"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/result.json",
+      "bytes": 4795,
+      "sha256": "22ab6fbdd24598396563ca3d576eac2eb8a2dc2723604f6026f9a6f965a05831",
+      "blob_oid": "4f9f4659bbdb019e12f75a379e50318ae9f4c486"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_02/wsl_exit.json",
+      "bytes": 2319,
+      "sha256": "d8c4df4c9750dfcb6e4132f0a21526db848cf128f4ab698fba7a9f5ae736c7dd",
+      "blob_oid": "9a6c5cfa999f7e7a0d6c236a7e4efe2a74b32085"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/actual_owner_lock.json",
+      "bytes": 663,
+      "sha256": "55f12ed64a22c7b9fb7b3a9240ea4ed907bd1696fb6ce7d5d5db414d52c95ed7",
+      "blob_oid": "401398f79709d7f1b403c427e9e0e31bc047e586"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/admission.json",
+      "bytes": 1783,
+      "sha256": "1014db3ae0dc416236ad9273eed4f180edac96cccfb33cc8999e4875c69e7624",
+      "blob_oid": "3590d27fc01228052725d62b2fbf66ea43fdb89b"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands.jsonl",
+      "bytes": 1402,
+      "sha256": "50730925d538474b4ce3c3d9d54c57877e5b70268b358b85fc5a6b20dcaa37b9",
+      "blob_oid": "8e44ec4f2509029446076cf47eaafd4c6e174be1"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/admission.json",
+      "bytes": 1783,
+      "sha256": "d5a1a092bb8ebcf18545909d248275c8b276aec98f7ad774b10716ab9314c0df",
+      "blob_oid": "161eff678b85360b10764431224d9c5393e35f45"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/latest_admission.json",
+      "bytes": 1783,
+      "sha256": "d5a1a092bb8ebcf18545909d248275c8b276aec98f7ad774b10716ab9314c0df",
+      "blob_oid": "161eff678b85360b10764431224d9c5393e35f45"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.closure.json",
+      "bytes": 639,
+      "sha256": "897a618e5479b97755c2ba75e5db675f3b906480b073e0701c629020858758cc",
+      "blob_oid": "d5c200671a8eca629267ff590a595e5736f4e5b1"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.command.json",
+      "bytes": 1488,
+      "sha256": "221dde17958b0991174f24c535d40a93072d4c1c85a82f1759a2b2fdae5ebd7b",
+      "blob_oid": "2b0e978816583a5f8475db9ccab57026445d4f65"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.launch.json",
+      "bytes": 950,
+      "sha256": "0fccb6947f1612c2a3754944a0af219190bf3459c6fb0a66a3f04998863ad5b2",
+      "blob_oid": "b76a2041d6cb5fb9536a826f7a5742f26a895ca6"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.launch_intent.json",
+      "bytes": 463,
+      "sha256": "35e39149ebca89ef90f22ff14d5612a97c8eeb36895d7e1b13a96e818803dc4b",
+      "blob_oid": "4907a45a3537f0e31e2e10abd44da009834a6c4a"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/latest_admission.json",
+      "bytes": 1783,
+      "sha256": "1014db3ae0dc416236ad9273eed4f180edac96cccfb33cc8999e4875c69e7624",
+      "blob_oid": "3590d27fc01228052725d62b2fbf66ea43fdb89b"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/launch.json",
+      "bytes": 1262,
+      "sha256": "31613e0242f88589602747497826e13cd37002452607612c21ce737adfc8c793",
+      "blob_oid": "477167de45defb4506055829d47136b4c2f300eb"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/linux_terminal.json",
+      "bytes": 502,
+      "sha256": "d1ccb73fbc2de22149852aca76489e1494b13aaff36be783542044b2d5eb5b90",
+      "blob_oid": "2f5ba936233202ee73d3e4ef323409485d464ca9"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/lock_released.json",
+      "bytes": 116,
+      "sha256": "d56f9426cc57c004fecca6cbd33d141f7e50fc0421ccd72924b4ef991e8e01a1",
+      "blob_oid": "e4caf3eb1f2a017c46b2752a484bbcf0cc659270"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/owner_lease.json",
+      "bytes": 904,
+      "sha256": "dce7a0d992eeb6c82fdcf6be4745eb49d2f3b2478f0b3108da66aa26103b34b4",
+      "blob_oid": "9ffaed9def5fadcf11e65914d61a00bd49ac8904"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/result.json",
+      "bytes": 4058,
+      "sha256": "597ceaa6e060a8f196d32f3609e3dbd2e50db4dfd403148810a82fe2e4772c8d",
+      "blob_oid": "66c8788b58980811eaf439af3209f7190b68d586"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/toolchain_proof.json",
+      "bytes": 1057,
+      "sha256": "bb84c34882e09704b992a731c619af28cbfdd3fa2374a49be353fe07e554aa87",
+      "blob_oid": "6da7f0cf0aec2646884b00c5854d826e3edf1bb4"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/actual_owner_lock.json",
+      "bytes": 688,
+      "sha256": "cc188574ae7370b760bb53f94a54261169fa351213bc7db0e7ececfad230d95c",
+      "blob_oid": "f9bf8b51a8a9e75a17eab866f350982818bea475"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/admission.json",
+      "bytes": 1781,
+      "sha256": "26bf42580819337911e28c929095c5d3a47354b4d20ad535bbedc51f07fddbf6",
+      "blob_oid": "308c2c5790c0d96e314e12e21413b294ae35a07f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/latest_admission.json",
+      "bytes": 1781,
+      "sha256": "26bf42580819337911e28c929095c5d3a47354b4d20ad535bbedc51f07fddbf6",
+      "blob_oid": "308c2c5790c0d96e314e12e21413b294ae35a07f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/launch.json",
+      "bytes": 1262,
+      "sha256": "b3c07f64d79f026397c0fc95854082fb3b51bcfc2896a4f92b40ed8e4f99cece",
+      "blob_oid": "100718dbe93a43648924a4cae666a1b323bbc4af"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/linux_terminal.json",
+      "bytes": 1678,
+      "sha256": "b94e1efcb28894e66149fe439364e9ef499010e319c7851dbd50d8a845f4cc5f",
+      "blob_oid": "e856b2b0ba7b6caad03dd52deb5118fa46097c3d"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/lock_released.json",
+      "bytes": 116,
+      "sha256": "4bbc9528a3db360d29c46c4f45c1343c57ba13f904d4ba9c4ba645d55408ce95",
+      "blob_oid": "22db5bedca54e1d81faae2b84da4898ca5ff04c6"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/owner_lease.json",
+      "bytes": 904,
+      "sha256": "a768e673f19872b04d3f160d3aa39f6ed878d99639711269d2ab759661aec057",
+      "blob_oid": "5ae3ec04ee250e89034cc270f2c6b702a0a5fe72"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/result.json",
+      "bytes": 4291,
+      "sha256": "de3df46ceaab0d4ad7d9e487fd8b1fd471dc1c8c08e7add6daf55899b4bcd541",
+      "blob_oid": "5a394e28af29af3cecef6e34feebf55469caac8f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/toolchain_proof.json",
+      "bytes": 1057,
+      "sha256": "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5",
+      "blob_oid": "ee12c463b9f8d6131ebd14b10653556c9affe9c7"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_03/wsl_exit.json",
+      "bytes": 1942,
+      "sha256": "4e36b965a425245bf7830a7138527c5567be82e962b6f5dfe047f729469dee2a",
+      "blob_oid": "d438134ca56029189f6aaab350a5c5fc2acab5c4"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_LINUX_OBSERVATION.json",
+      "bytes": 11502,
+      "sha256": "a39811f90050007245a057f40ae207db2d769e18cda2ed41da95c2fee431cded",
+      "blob_oid": "2ee44548da72ad3d35db667eb570b89fcd13b8f2"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_RECEIPT.json",
+      "bytes": 2751,
+      "sha256": "defd0c218f6834ed268a8ade0b52fa652b5172de0ca05e69fc63f818a534405f",
+      "blob_oid": "4e6ae0213fb05d960883b2995359eec52608c14a"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 2325,
+      "sha256": "fd058309f6a5545ac41dfca68c61070c505ed6271e409b63b0512722cae069a3",
+      "blob_oid": "73b609fffe55153e5d00059f0fcff3eae5fa1c17"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/ACTUAL_EXECUTION_RECEIPT.json",
+      "bytes": 2214,
+      "sha256": "337462836d9ef5ea063324f1cbef77bffc1def27593a8e1e38c0a00fddea4eab",
+      "blob_oid": "329debdd310cd26f16e60c9b5744ac56d42d96b5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 2365,
+      "sha256": "706ad4436382323f332dd4df677bdafa3f7834810a1dfa452e853b4157495aa9",
+      "blob_oid": "833a6b32e67d66223b1f358cd9aa871429001ed5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/ORIGINAL_PREEXEC_STOP_PRESERVED.json",
+      "bytes": 384,
+      "sha256": "441f6f5a9250c091c28ddd45df15c8c89422858c86769dde239b9d67a3965ef1",
+      "blob_oid": "18214769a0b7f205eaf92825070d80cdf13abb70"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/failed_stop_observation.json",
+      "bytes": 384,
+      "sha256": "441f6f5a9250c091c28ddd45df15c8c89422858c86769dde239b9d67a3965ef1",
+      "blob_oid": "18214769a0b7f205eaf92825070d80cdf13abb70"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/preparation.json",
+      "bytes": 661,
+      "sha256": "b561d6e8e9f7d0d7211ae7fdf2313e9fab0e9162088248e4456228f32b356e21",
+      "blob_oid": "3e432ff7353738284a52301ccb142204be8541d8"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/wsl_version_observation.json",
+      "bytes": 385,
+      "sha256": "16e47f71cd3094fdbe91ff28f10f24079e6ba56deafe30db73d19e5c48779746",
+      "blob_oid": "68d4ea1c9ed24e0fb2fc4bf7ae39a80f6ce18e72"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/wslconfig.after.txt",
+      "bytes": 679,
+      "sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+      "blob_oid": "7db684e0141b8e6be8aa884aca2b4c4e0fe3bfe4"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/idle_repair13/wslconfig.before.txt",
+      "bytes": 552,
+      "sha256": "fa7e395a9e14e9ed7233032a92a4eeb6b5d2f2a02f3717745c5072b475fb89a8",
+      "blob_oid": "e3a5e15587f637ac79398d1a085ca5d4e7181158"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/CURRENT_INDEPENDENT_ROOT_REVIEW.json",
+      "bytes": 8973,
+      "sha256": "7b4933cbe8d3c2b54f8a13b448dab1a7066f19da31f4cbeabb77c8e62681c71e",
+      "blob_oid": "7865b5ec91bfdcd7afd1f7ff3a4fbf157b838a39"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/CURRENT_PREPARATION.json",
+      "bytes": 18391,
+      "sha256": "89b3c1251ac5b6c9a237396b6a78a5447a6b1282fc9b39b64661ccb58a81a937",
+      "blob_oid": "3f15bce3c586f33bc09c75efa0956dc05e009b0f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/INITIAL_INDEPENDENT_ROOT_REVIEW.json",
+      "bytes": 8146,
+      "sha256": "4e60d056f830f1f55867d6772836b1795e2901981c82b6846c56bb77d7e6dd4e",
+      "blob_oid": "d9aad2d55ee295e6d0ecd35e395826dbbd5d9945"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/INITIAL_PREPARATION.json",
+      "bytes": 14345,
+      "sha256": "908bdaff7778e6bdde6a03b2fca254131c610e46122dc33c4e748eb4bd0894d8",
+      "blob_oid": "f6347698bbde94be5945c13d1fb4c8a26b2c4d94"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/STAGE5_OWNER_LEASE_INTEROP_ADDENDUM.md",
+      "bytes": 2987,
+      "sha256": "5ca21eecd9f71db252a8b98c22831d840e07dc6fe7d3cf1945df11553ca1177a",
+      "blob_oid": "b6c6a021568408d2a988950cbcf0531f659fc911"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/STAGE5_OWNER_LEASE_REPLACE_METHODS.md",
+      "bytes": 3937,
+      "sha256": "b6ca6a02928dd50204e4a689752b655064c9587d7a74136b6b9a5ed9e174129e",
+      "blob_oid": "de746369ec384e3fc1717df3364b57af3522e8b8"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/actual_owner_lock.json",
+      "bytes": 686,
+      "sha256": "8a4abc7d5e2e733623ddca0b2c437063f22a1a8af5a4980182d15ff9b112a53f",
+      "blob_oid": "139a4cd842391d9301156b3b3de7bd66834b7d76"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662",
+      "blob_oid": "3108da8cfbf5e1553d53bc83f71a12fcc1502882"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands.jsonl",
+      "bytes": 1390,
+      "sha256": "f2b01f855508cec2ff6c9ff4ed197d9b60a27c78aa00bc6f9507eec6d64fd1d6",
+      "blob_oid": "81dc3ffff054af13ab1e0b45596700c614734c8b"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314",
+      "blob_oid": "0739af2dc33d0cec3382891f327f4072ea1e9e05"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/latest_admission.json",
+      "bytes": 1782,
+      "sha256": "cf69e9f6a3fa87194df54f880a68d58e389580a72d8fd98b461c437260f9a314",
+      "blob_oid": "0739af2dc33d0cec3382891f327f4072ea1e9e05"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.closure.json",
+      "bytes": 639,
+      "sha256": "6a23cef636296d3561eff0775bcc826f87aca47c445d02db811106f5c57a4efd",
+      "blob_oid": "0898271ec73015f3f76c321abf7d2f2ee0741183"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.command.json",
+      "bytes": 1476,
+      "sha256": "26b91f6c233458deca6ba84ba23b8935668b94e6daa2af4307b22ceadc351108",
+      "blob_oid": "309a30de7ace9b6b81bff2b5415200b45b290344"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.launch.json",
+      "bytes": 950,
+      "sha256": "87fb975e885e10a7b53d39be409ccdac85a65c11ae9676aebee6d9567d5bb0cd",
+      "blob_oid": "2d8b0639fd75c271b7ce98feaa38d902c4c6d3b6"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.launch_intent.json",
+      "bytes": 463,
+      "sha256": "66aa6f7c38f0bbf303c783b6b6b530ac8beb4f8ec10f90360bda2b2e9c5139c4",
+      "blob_oid": "42f3041b438d4b26266f06b1258f2f5f5f723941"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/commands/mount_toolchain.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/latest_admission.json",
+      "bytes": 1782,
+      "sha256": "76e3d293af1c361369eeffebeec15ebc90ec514dfbdcd234e2d9ad657ad2a662",
+      "blob_oid": "3108da8cfbf5e1553d53bc83f71a12fcc1502882"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/launch.json",
+      "bytes": 1262,
+      "sha256": "bd928c7552a390e2e516f747c24bf835e8aeb9f189ecf65ab2cce00acf76b5c6",
+      "blob_oid": "a026d1587d2f2847831eb55701aba7f458d7b3cc"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/linux_terminal.json",
+      "bytes": 1677,
+      "sha256": "28a1b87407873e81bf2c7df0f727f4591356deda1b802c0359034b33b373c78a",
+      "blob_oid": "44a3f9d8a3402b9721c499d1e78cbe86e8cc3cc2"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/lock_released.json",
+      "bytes": 116,
+      "sha256": "98f2d627ba2710339a4ea92aa8e0c25d729f502899c83cdd43ff96abe3bcb799",
+      "blob_oid": "356db157a5fc0a483e0a4db61169ab518e6b2212"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/owner_lease.json",
+      "bytes": 905,
+      "sha256": "270d427a0b720b989734ecb0a18ba963bcb6bf1cbcbefeb76d5b8b4bc341bfad",
+      "blob_oid": "3fe8b946ebc63dc96f5f0f5d6ae87d35c53015ce"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/result.json",
+      "bytes": 4628,
+      "sha256": "f3803999f2f741ca4c57211eac423c42459b66825a7be81fda9c9b3969c813cb",
+      "blob_oid": "6db3ae8182f89a1ebeef79da080db88648583d52"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/toolchain_proof.json",
+      "bytes": 1057,
+      "sha256": "26f23682b86cf21976f448445b01e889f09e5d23aaf9a9291a23ac68b6aeb7f5",
+      "blob_oid": "ee12c463b9f8d6131ebd14b10653556c9affe9c7"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/owned_lease_retry/preserved_toolchain02/wsl_exit.json",
+      "bytes": 1942,
+      "sha256": "c624be76d8c3073fe3e755ea8fcfdc3582870e85a94a54ec5d4f14f2f94aeb2c",
+      "blob_oid": "9851dec9fcfdf8929fecd0d5424a9c38faecd317"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/post_iq_setup/PREEXEC_DELTA_INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 2679,
+      "sha256": "fa6dd91cbe2bdd5f499f9f7e1bfb283dcba94bdf5b4498b14a5f00c62cc1b024",
+      "blob_oid": "e8396c109cba607e6f32fc5fe655b46e10c09eeb"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_failure01/METHODS.md",
+      "bytes": 5267,
+      "sha256": "f2dbdebe873709726dda9c12ee1156cd8db1bb1392e41a20dd409709f05bed0d",
+      "blob_oid": "b6ee8cdab0c8a4a30744c231656c58a5dd6d37a5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_failure01/PREPARATION.json",
+      "bytes": 5331,
+      "sha256": "0590cc7336507bc364d8ba41dace70ece33f9828650cfce27d9bed686f834228",
+      "blob_oid": "7873a1c1322c871788a3aa937979c82a9beafc9f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_failure01/PUBLICATION_FILES.json",
+      "bytes": 6716,
+      "sha256": "71f06742f4cde2b12e5ef45c64c01475ed9a5d50975b50429c91dad6e2713637",
+      "blob_oid": "2b4d4c104ba3a18c6f35579e83e1c188551f6a4c"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/PUBLICATION_FILES.json",
+      "bytes": 9626,
+      "sha256": "5f35d106d676be8942f9435ae37f1ac2766d2218be48ab1c9006e9e3df307009",
+      "blob_oid": "da9c33efba65b6d69fe1848969b3e2a13fc6399a"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_ACTUAL_CONFIG_AND_CHECKPOINT_METHODS.md",
+      "bytes": 8220,
+      "sha256": "343722964444c88665925224946e941d0a0b151031a5c7ce0fddcaaf9fc0639f",
+      "blob_oid": "3d96b8be00885de40bdfbda8c882f1c183e23f22"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_CONFIG_FINALIZER_PIN_REFRESH.md",
+      "bytes": 1722,
+      "sha256": "f5a4b14ee2fae4687c05a361c4913b010696bb8d6d8c4506c6943b51e663d9fd",
+      "blob_oid": "6189f8dded131eaf5f7190dcc6cb1d49d07df38f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md",
+      "bytes": 3833,
+      "sha256": "3f9c45e0edfba4205746ffcbac4095ab82594fe81efa7943fd7f7199b5282cbd",
+      "blob_oid": "ffec0c998f682821e5a1a3f3ee3cd579d69134f2"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/actual_owner_lock.json",
+      "bytes": 663,
+      "sha256": "1959739e69068c6bbbd78280a6c6e96f3cddb0fe60212b51625e6dcf629c3652",
+      "blob_oid": "c6610e3964f77c84f1db20e0af96223c7b1ddfb5"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/launch.json",
+      "bytes": 1258,
+      "sha256": "e8a40afcf54d528a048ed0b40f60a0053f56403795214b1d395f661eeac7a4d4",
+      "blob_oid": "0b8e7c710381bd6ec7523d11e2a12b67b2a8d783"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/linux_terminal.json",
+      "bytes": 461,
+      "sha256": "ad88c019a20cfc5197f28676e12153e53d438f5fad80475396cc86dcd7b3406f",
+      "blob_oid": "a8ae7e1d986180a49a426839c32d23b0aafee16f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/lock_released.json",
+      "bytes": 116,
+      "sha256": "35e94b8e3168bc2812e3bceee66f0a8cd4a43ae610d0f0574b83c6a9e1551459",
+      "blob_oid": "2ad1ab229cde5dbf014c859f2032afb95d0c4940"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/owner_lease.json",
+      "bytes": 898,
+      "sha256": "62f20556460c0a8e4fb440c989dbf0f8f1c14130d04e9295034dfc4ce0d31532",
+      "blob_oid": "82f3e53a85c5abb2083426995523ee7febe1c75d"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/result.json",
+      "bytes": 3405,
+      "sha256": "2aaa9d9b629efbe52a3e274a53694e2ab895a05e1916b1a8a962e81c5db615b9",
+      "blob_oid": "1cc60bb97941ddb97c97afded1e7a4902dd4b982"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_actual_config_request.template.json",
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136",
+      "blob_oid": "d4ab11b03ae7840e9f404c16be89681db96b1f88"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_config_finalizer_pin_refresh_independent_review.json",
+      "bytes": 848,
+      "sha256": "2377915c82e9ecfae40697019ae9aee8fa9fe1e3b48363e80474b6ae509e8421",
+      "blob_oid": "5006ed0d9b2ca89395d7a79f2cd23bc13f49f455"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_independent_review.json",
+      "bytes": 2888,
+      "sha256": "384d32bd5037c5f51fdbf35fa797c0bcf2f7db2e1032041e42f44cc8f05bae1b",
+      "blob_oid": "db09fb816afe2a95183d15197ec6739484da7d4f"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_preparation.json",
+      "bytes": 4770,
+      "sha256": "4f11c9a55da6e00b7ef6d7e2f4ffb14dd965482a6fd09d192c0f917de1d00087",
+      "blob_oid": "012e316782ea726828c3071160843b686129a958"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/ACTUAL_EXECUTION_RECEIPT.json",
+      "bytes": 6313,
+      "sha256": "3700f32bbd7a72e666b95abdae3355523e14df2c1b3a1c20f4527d2105092ad5",
+      "blob_oid": "d3925156a8931c0e4829544cbc7c8e898f89fbbe"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 5093,
+      "sha256": "add158bd2455893ccf9cd6758fc7b6f9aec32c649e965f2feb4875b03ef4655a",
+      "blob_oid": "7118eb60c4ecad82df9c91b28b433afcae79aeeb"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/authorized_shutdown.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/authorized_shutdown.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/fresh_observation.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/fresh_observation.stdout.txt",
+      "bytes": 11342,
+      "sha256": "4193e1e8183cd9e3aaab690159bfc1e9083615e2f89b60dd23c2b692ba27df41",
+      "blob_oid": "ce0ffc6144f822f2f0ddd3ff6fec727b5e5df5c0"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_before.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_before.stdout.txt",
+      "bytes": 136,
+      "sha256": "038a575dfb48a9355111cec3af0c1efd6d405e25825163e6959d66076462ea75",
+      "blob_oid": "05802ddf42658b8f4aa9220533eb476c43e83189"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_stopped01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_stopped01.stdout.txt",
+      "bytes": 136,
+      "sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa",
+      "blob_oid": "844e6d3b570b053950d6beff692447970553d852"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_stopped02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/actual/registered_stopped02.stdout.txt",
+      "bytes": 136,
+      "sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa",
+      "blob_oid": "844e6d3b570b053950d6beff692447970553d852"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/original_failed_stop.json",
+      "bytes": 385,
+      "sha256": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
+      "blob_oid": "f9ba7db2f7926e6ea2d3fda8b67f4419b920d1ad"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/proposal.json",
+      "bytes": 939,
+      "sha256": "5af09cf56a3d64dfd9b6f25b17f315518bc3af3a3b04e87c8fba626606886fe2",
+      "blob_oid": "3ca0df052b394d16a8a47659697535d88f593844"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.after.txt",
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+      "blob_oid": "002bb5796f0682155d00e18fe301bc48dbad2174"
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.before.txt",
+      "bytes": 679,
+      "sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022",
+      "blob_oid": "7db684e0141b8e6be8aa884aca2b4c4e0fe3bfe4"
+    },
+    {
+      "path": "scripts/master_run/apply_scoped_wsl_resource_repair.py",
+      "bytes": 8232,
+      "sha256": "cbd64266963b0ae9d8f0c734912f1c72548372976625fbf08748d599b64dc38f",
+      "blob_oid": "51350f54665620860411c40259f15f59198c90b2"
+    },
+    {
+      "path": "scripts/master_run/apply_scoped_wsl_resource_repair_review_draft83045.py",
+      "bytes": 6725,
+      "sha256": "83045f1779c480607e991cdd3abdd64d7304a9bbc588a0e6e5907e035da43bf6",
+      "blob_oid": "8f8cbd7bf1dded089fb7b72768059769fccb6b8f"
+    },
+    {
+      "path": "scripts/master_run/audit_canonical_failed_fast_forward.py",
+      "bytes": 7325,
+      "sha256": "5e86fb7fd234cb8b8340f21b32aa3616e741589f559535cc792b043e7409b840",
+      "blob_oid": "ecd62d18a4df1c0561a60ba3f8b55667e10662da"
+    },
+    {
+      "path": "scripts/master_run/build_directory_prune_execution_archive.py",
+      "bytes": 23542,
+      "sha256": "37108a35b4c0ed7df91de478e36365aff76440d3ffddfd345648217fc09c661a",
+      "blob_oid": "770e05abf4fad3d487233d24a1a8592dc3c9dbe7"
+    },
+    {
+      "path": "scripts/master_run/build_directory_prune_execution_archive_draft150e.py",
+      "bytes": 23122,
+      "sha256": "150e6c4f46f2f13325cb28f163bfbfa82291c4fb65cd0e12eabf9495bc74f421",
+      "blob_oid": "e092fc28920f1e440d20e71490373a9ca39fdc11"
+    },
+    {
+      "path": "scripts/master_run/diagnose_directory_remote_attempt01_mapping.py",
+      "bytes": 5570,
+      "sha256": "64533e2d1134ef5d9dda2f9949934abbf832fb358ef57592adcca6a081e02eed",
+      "blob_oid": "c98a7a6518285e1f8ed8b2ea3413eaee144fcecb"
+    },
+    {
+      "path": "scripts/master_run/diagnose_failed_stage5_scope.py",
+      "bytes": 6055,
+      "sha256": "c97d6008a7492642d899365d8a1a9c8678c2c07b2b6f6dba9ac08dd2375564e6",
+      "blob_oid": "e8361e3b22acfe922d8064e662e562b0ac29852b"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_failure_closure14.py",
+      "bytes": 3115,
+      "sha256": "d70c5dd6b07a838b239d23676f8fe7969522bc1c6d745eb94272e7347aeeb346",
+      "blob_oid": "6a847d52b891d129ebd044aa12003a95f67b79bf"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_git_repair19.py",
+      "bytes": 3673,
+      "sha256": "1ef4a1483f8947703a0cb495b6d0d9195504c0e17755203ea87775a4980099a7",
+      "blob_oid": "6c7f83b3b83bb49ca5bba5062d69a75a1da72694"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_idle_readers13.py",
+      "bytes": 3511,
+      "sha256": "2d1c539b2604160ee11d4e3bd2b3eeb7d4ea9598588376355664d9b0abf0da0e",
+      "blob_oid": "4af21822c6331081dd1849d0136dc53eeef1ba17"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_lease_setup17.py",
+      "bytes": 3513,
+      "sha256": "4d705e328ebe9498413c3c88e8330c40077ce2630de4de52b61c8cf82a9b2bae",
+      "blob_oid": "20f93256eadf319fd0a7ac217b8c41207544f564"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80",
+      "blob_oid": "2021b89a4ebf0aa90b2f31061de82f56a7b6b8bc"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_resource_actual16.py",
+      "bytes": 3510,
+      "sha256": "2290d77d32d5f05172ac846cc3593818a9722013e5af8d719ba93a127e41a09a",
+      "blob_oid": "d4e5bfeec09534af0783e7b3a5d4fffaa8034c75"
+    },
+    {
+      "path": "scripts/master_run/prepare_master_resource_setup15.py",
+      "bytes": 5734,
+      "sha256": "1cfc6b8b1623a5c17babfaba7665c657ac9f08a86badca00f90ff03d79f3c591",
+      "blob_oid": "3870524d5830e987b35238ecf65daa5b76f07fe1"
+    },
+    {
+      "path": "scripts/master_run/probe_scoped_git_readd_synthetic.py",
+      "bytes": 1916,
+      "sha256": "7ec60e0c21ba66be791bf8aaf254b3b999e7717f38eea181f34e399a7d6554ae",
+      "blob_oid": "7b3ee071a5ccb620800f4c5fd35532d290af8d30"
+    },
+    {
+      "path": "scripts/master_run/repair_canonical_git_metadata.py",
+      "bytes": 22755,
+      "sha256": "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5",
+      "blob_oid": "bbbecc7fd581f0a749f094eb297f96a7fe90ff6f"
+    },
+    {
+      "path": "scripts/master_run/repair_canonical_git_metadata_before_optional_locks_fix.py",
+      "bytes": 21199,
+      "sha256": "065d03cf2ff388f2742b1b7befabef90e74339553045e4be80903344d9532e98",
+      "blob_oid": "080fb33b87f79d5a30e886e5605ef23238a9c266"
+    },
+    {
+      "path": "scripts/master_run/repair_canonical_git_metadata_before_scoped_readd.py",
+      "bytes": 21702,
+      "sha256": "ea25b2e4c31767a0e7ee22dcbb5a4bfbaf74f658fedb38696411df0e2388391f",
+      "blob_oid": "0ceb9e53cc4ca0153ce2d86cf59ad47a87152ec6"
+    },
+    {
+      "path": "scripts/master_run/repair_wsl_idle_after_preexec_failure.py",
+      "bytes": 5878,
+      "sha256": "af9b36221e6f26cdd3688da0c3cd23d249611f37d96ea8b42708e4e7304bd02e",
+      "blob_oid": "0f70f520463dd3b7d07a0f686958ff5500f03884"
+    },
+    {
+      "path": "scripts/master_run/repair_wsl_idle_after_preexec_failure_draft839.py",
+      "bytes": 4798,
+      "sha256": "83900fd5dec51da6ea62227d063404db6f4783068f22e02552c0bb20ad65c38b",
+      "blob_oid": "ee957a15a577f01778304ed1ef07213a3ae70de6"
+    },
+    {
+      "path": "scripts/master_run/review_stage5_owned_lease_retry.py",
+      "bytes": 2994,
+      "sha256": "ca0e1c1998eaa251277283b23878e05e37c0c8c3a9e4c699a853796ddad0fec5",
+      "blob_oid": "e07559450b539df2fc78bfe2eced7af6ad9f9106"
+    },
+    {
+      "path": "scripts/master_run/review_stage5_owned_lease_retry_interop.py",
+      "bytes": 2665,
+      "sha256": "93070c54b3aacf70dddb0846a7a9503f765accf50c5b6d42b80cee2f3915540a",
+      "blob_oid": "8449acab3b721890dfdfff82b3f8eec479dfc715"
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/test_validate_one_atomic_curation.py",
+      "bytes": 6827,
+      "sha256": "2c8d1e02db7025f939283498d2f1f61d8d5a4c7af2c5a4f421e2faf645c0749e",
+      "blob_oid": "6377b4115d213f5338d78e068ed26c3fcab311ff"
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/validate_one_atomic_curation.py",
+      "bytes": 9481,
+      "sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66",
+      "blob_oid": "9fbb21b3e7fe0418c337929800e3cd69b7850fef"
+    },
+    {
+      "path": "scripts/master_run/stage5_build_actual_config.py",
+      "bytes": 13011,
+      "sha256": "482800bf5bd15f7e87234e9448ac9c165df67f768af408305a6e7ee56f897cb1",
+      "blob_oid": "d715d757a3a699e2bff3d5e3fc3cd63ee831d378"
+    },
+    {
+      "path": "scripts/master_run/stage5_build_actual_config_before_finalizer.py",
+      "bytes": 12813,
+      "sha256": "ff877de48f1bcad00a42459eacabef6047f80bf1348f187fc9e679440f509a0f",
+      "blob_oid": "4544d3334a7f4257bcc2ce216a82dcb56e3ae41d"
+    },
+    {
+      "path": "scripts/master_run/stage5_build_actual_config_before_interop_lease_retry.py",
+      "bytes": 13011,
+      "sha256": "53258df5dcf83a8351946719f1de6ee3a35268023fa82a713fd1a1e969dd43ca",
+      "blob_oid": "e196f0feb062c11e7ffd0442c6a1bea06fa626f9"
+    },
+    {
+      "path": "scripts/master_run/stage5_build_actual_config_before_lease_retry.py",
+      "bytes": 12813,
+      "sha256": "eac90967546fb771bf1d719ca2d25a5034ffe9b35b9c91a51cb93881b272fab0",
+      "blob_oid": "3c81e15c889600d50c16b9c22503b092f860770f"
+    },
+    {
+      "path": "scripts/master_run/stage5_interop_smoke_windows.py",
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+      "blob_oid": "cfa28a882dc536217064c1da8cd11cf6de2d8cd1"
+    },
+    {
+      "path": "scripts/master_run/stage5_interop_smoke_windows_before_lease_retry.py",
+      "bytes": 14940,
+      "sha256": "4684abe0326fe0b1198704f6309200bef40f4bda009a8dedd2120d096c61d7ac",
+      "blob_oid": "5c6772dc260cdf2096e57089aa41a3bd707526e1"
+    },
+    {
+      "path": "scripts/master_run/stage5_owner_lease.py",
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "blob_oid": "a050bcb357b1e09992f0394f20591da1555bafe6"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "blob_oid": "cd98dd696a306f8470ed1533fbb88dda3fcc52b8"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_linux_attempt01.py",
+      "bytes": 12580,
+      "sha256": "8416a45a4dcc822784e465a4ad91236082fc97fec763d330a14006fd9f5af20e",
+      "blob_oid": "b0db0121083078b343d6a6bb9c1175490094973c"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_linux_before_failure_finalizer.py",
+      "bytes": 14519,
+      "sha256": "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50",
+      "blob_oid": "102fc7a8b9002315018322e2579e99d12941d4d5"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 34098,
+      "sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2",
+      "blob_oid": "f6b11c03ab833341687db1eed25ba003b29fb281"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_windows_attempt01.py",
+      "bytes": 26673,
+      "sha256": "935a4853f118c52f479de414dfea0c60a7682ede83b911c1b1b995466aaeddee",
+      "blob_oid": "83fe1686e68758ba838e57a1008f112aa931bbf1"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_windows_before_failure_finalizer.py",
+      "bytes": 30179,
+      "sha256": "7ce1ad78cd4956334a18d48ab345872922a0844a4e327c3a9b2a38b2f2d6847e",
+      "blob_oid": "6db8bfed0242044a28e68ba29a0ad0e99f02edd4"
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_windows_before_lease_retry.py",
+      "bytes": 33902,
+      "sha256": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd",
+      "blob_oid": "f387a4cd127eb49129ae7cba5d7fce8856b65680"
+    },
+    {
+      "path": "scripts/master_run/stage5_windows_owner.py",
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d",
+      "blob_oid": "ae9eef35d4b98ed070eb2cc1dc829ca88da786bd"
+    },
+    {
+      "path": "scripts/master_run/stage5_windows_owner_before_lease_retry.py",
+      "bytes": 17966,
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3",
+      "blob_oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a"
+    },
+    {
+      "path": "scripts/master_run/test_build_directory_prune_execution_archive.py",
+      "bytes": 3951,
+      "sha256": "de061b5201f061abd8b55a689199eb365dd54a7cee723867c043b64d40402973",
+      "blob_oid": "c0c80bc5c556f1f824c01abf17de0199a9464c7f"
+    },
+    {
+      "path": "scripts/master_run/test_build_directory_prune_execution_archive_draft2fe5.py",
+      "bytes": 2833,
+      "sha256": "2fe5ec14bc870a1b8b163a94a387802fc2536d68e157976f32ae441d4b65a124",
+      "blob_oid": "80fc1f5c856511c2a58048646be65cc6f11d41d8"
+    },
+    {
+      "path": "scripts/master_run/test_canonical_git_metadata_repair.py",
+      "bytes": 7599,
+      "sha256": "134f8f7d826d84a869426e3fe6a74c6f462e12fec27516f09cc223b2a3bed11e",
+      "blob_oid": "67df408ed3ac8a5f578ccb8b61187c0dd1bfa216"
+    },
+    {
+      "path": "scripts/master_run/test_canonical_git_metadata_repair_before_optional_locks_fix.py",
+      "bytes": 6850,
+      "sha256": "e8ed7186abff2bfbde88137f6c5be7ca4e483f9e94c94c15c989611476e0f873",
+      "blob_oid": "e88682cb177a83baaa58200b4ebdb24ba1bd2213"
+    },
+    {
+      "path": "scripts/master_run/test_scoped_wsl_resource_repair.py",
+      "bytes": 5237,
+      "sha256": "8150dab4799055bf70809966ceae538fb1ca39c50798baa232b9a1d434e13791",
+      "blob_oid": "e203478af1be0a2e9d04667d63c48ce3a0ac93b9"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_build_actual_config.py",
+      "bytes": 4968,
+      "sha256": "26ef4693d32e30aaddc0f7fe19d20a6af7a2cc8640917756690702e7066eebe2",
+      "blob_oid": "75c038db9f1921e32f69f85819b76d2ebf23a75b"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_interop_owned_lease.py",
+      "bytes": 3228,
+      "sha256": "c657992191193787cf155cc9ac1131a4a35547d06b0071bfd7ba222a30522dce",
+      "blob_oid": "db550f7cec9602aa71171c19f82cbb0a5caa78a1"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_owner_lease.py",
+      "bytes": 3574,
+      "sha256": "569b56906fd357967acccb4fec1b0f5141299885424431e90976dbb6e82b641e",
+      "blob_oid": "9bf1b6c0bdf818684a842f2f24083e8838f01f6d"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_setup.py",
+      "bytes": 15599,
+      "sha256": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b",
+      "blob_oid": "9177e71a7dbcab7c360894c5432783cab3a413e5"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_setup_attempt01.py",
+      "bytes": 9207,
+      "sha256": "8feb33cc8ee2b3e20b6e2b438796ad1ba398feb5f513fcfe11cdc84d3e36d97e",
+      "blob_oid": "11858408a353bca93f6c762bf9b5e67ffd942ed7"
+    },
+    {
+      "path": "scripts/master_run/test_stage5_setup_before_failure_finalizer.py",
+      "bytes": 11180,
+      "sha256": "5600d2f88874b79ba0502e4ebc209425ac91439e1d7ee65c91efc275f1adaee4",
+      "blob_oid": "289dfd15d73c7c9db2a3c840a49730b330ab9865"
+    },
+    {
+      "path": "scripts/master_run/test_verify_directory_prune_execution_remote.py",
+      "bytes": 5022,
+      "sha256": "c973a3c0c7fca0dcb2d5d2ea87fbdf328b4a196f2d3a213b0df7d33cd574b548",
+      "blob_oid": "6b96a3aa8b60faef52f979428e2a66199d259133"
+    },
+    {
+      "path": "scripts/master_run/test_verify_stage04_primary196_remote.py",
+      "bytes": 4341,
+      "sha256": "990aad2ee66cc4d3bacaf80e81eff516061dcb211e642784ccf8b82fd83a8927",
+      "blob_oid": "7848bf5d28ce72b003d904e5c14dad388d1af211"
+    },
+    {
+      "path": "scripts/master_run/verify_directory_prune_execution_remote.py",
+      "bytes": 27966,
+      "sha256": "36be18fcc4296b6d4e8a2e833678e64647aaac249e22e8ea50be1cb72d0ab434",
+      "blob_oid": "b806e79f9dc77e9c136eb60a1fa7bdb0cd3dc069"
+    },
+    {
+      "path": "scripts/master_run/verify_stage04_primary196_remote.py",
+      "bytes": 20405,
+      "sha256": "a848d692451abee49421a51f547b9fe411ed30bbd40e11db6daa8c779e7ae1ae",
+      "blob_oid": "e93328eb820567b397f9f35396bc1b89c08551b3"
+    },
+    {
+      "path": "scripts/master_run/verify_stage04_primary196_remote_METHODS.md",
+      "bytes": 4479,
+      "sha256": "3a0f4282ecaa41cb9f746e641e0140be281c986cee62909835e0a30e4bf62426",
+      "blob_oid": "17c51be8e4c5de83a94e9f38d387eda478de41c8"
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 11319,
+      "sha256": "d96b9f3432d1d60199d09b8c2828c5feb8f1d5872d47fda8886c82a2d91fec4e",
+      "blob_oid": "dfc8893be6e48f01cd2cabb82aa1cff0edcf6c06"
+    }
+  ],
+  "six_dirty_files_unchanged": [
+    {
+      "path": "reports/stage00/commands.jsonl",
+      "bytes": 94845,
+      "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb",
+      "blob_oid": "9b5ef5c6b15dad86542c966b95224804977a6f17"
+    },
+    {
+      "path": "reports/stage02/retrieval_progress.json",
+      "bytes": 80379,
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457",
+      "blob_oid": "63b4a7c12a56b398d552e86a674983a1961b361e"
+    },
+    {
+      "path": "reports/stage02/retrieval_progress_resume.json",
+      "bytes": 94067,
+      "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f",
+      "blob_oid": "5799f8d731e4fcba88a4876de293d409d36d3d62"
+    },
+    {
+      "path": "reports/stage04/resource_wait_v5/observations.jsonl",
+      "bytes": 6477,
+      "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e",
+      "blob_oid": "0f103073128c4995f010c83be4a40efd733bc37d"
+    },
+    {
+      "path": "reports/stage04/resource_wait_v5_v2/observations.jsonl",
+      "bytes": 13626,
+      "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15",
+      "blob_oid": "727afc1e941d78385abf1b13e865e911b735cd7e"
+    },
+    {
+      "path": "status/continuation_execution_receipt.json",
+      "bytes": 877,
+      "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f",
+      "blob_oid": "8e71834736038e254b14f94b2499eba440632c73"
+    }
+  ],
+  "final_status_utf8": " M reports/master_run/20261009/cleanup/directory_prune_execution01/INDEPENDENT_LOCAL_READBACK.json\u0000 M reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_PUBLIC_GIT_TREE.txt\u0000 M reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READBACK.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit01/receipt.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/index_debug_all.txt\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/index_stat_cache_proof.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_failed_ff_readonly_audit02/receipt.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_plan.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_git_metadata_repair_plan_before_scoped_readd.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89/receipt.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3/receipt.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225829Z_2100a02e/receipt.json\u0000 M reports/master_run/20261009/git_metadata_repair18/canonical_stat_refresh_synthetic_20261009T225913Z_55c244b5/receipt.json\u0000 M reports/master_run/20261009/publication/CANONICAL_POST_NATIVE_FAST_FORWARD01.json\u0000 M reports/master_run/20261009/publication/master_idle_readers13_remote_readback.json\u0000 M reports/master_run/20261009/publication/master_lease_setup17_remote_readback.json\u0000 M reports/master_run/20261009/publication/master_resource_setup15_remote_readback.json\u0000 M reports/master_run/20261009/stage04/INDEPENDENT_FRESH_REMOTE_READBACK.json\u0000 M reports/master_run/20261009/stage5/owned_lease_retry/CURRENT_PREPARATION.json\u0000 M reports/stage00/commands.jsonl\u0000 M reports/stage02/retrieval_progress.json\u0000 M reports/stage02/retrieval_progress_resume.json\u0000 M reports/stage04/resource_wait_v5/observations.jsonl\u0000 M reports/stage04/resource_wait_v5_v2/observations.jsonl\u0000 M scripts/master_run/build_directory_prune_execution_archive.py\u0000 M scripts/master_run/build_directory_prune_execution_archive_draft150e.py\u0000 M scripts/master_run/repair_canonical_git_metadata.py\u0000 M scripts/master_run/repair_canonical_git_metadata_before_optional_locks_fix.py\u0000 M scripts/master_run/repair_canonical_git_metadata_before_scoped_readd.py\u0000 M scripts/master_run/stage5_setup_windows.py\u0000 M scripts/master_run/stage5_setup_windows_attempt01.py\u0000 M scripts/master_run/stage5_setup_windows_before_failure_finalizer.py\u0000 M scripts/master_run/stage5_setup_windows_before_lease_retry.py\u0000 M scripts/master_run/stage5_windows_owner.py\u0000 M scripts/master_run/stage5_windows_owner_before_lease_retry.py\u0000 M scripts/master_run/verify_directory_prune_execution_remote.py\u0000 M scripts/master_run/verify_stage04_primary196_remote.py\u0000 M status/continuation_execution_receipt.json\u0000",
+  "error_kind": "ValueError",
+  "error_message": "Additional status paths after FF; preserved, no automatic scope expansion",
+  "original_lock_explicitly_released": true,
+  "commands": [
+    {
+      "utc": "2026-10-09T23:03:57.277224+00:00",
+      "args": [
+        "rev-parse",
+        "HEAD"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 27612,
+        "creation_filetime": 134360606372798350,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 27612,
+        "creation_filetime": 134360606372798350,
+        "exit_filetime": 134360606373780908,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35594240,
+        "peak_job_committed_bytes": 38305792,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "00.stdout.bin",
+        "bytes": 41,
+        "sha256": "0d5cedd5ef06de139fc15eaf8eb258ba3c602987a82ef94358ef0ef4267d6e08"
+      },
+      "stderr": {
+        "path": "00.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.15600000000267755
+    },
+    {
+      "utc": "2026-10-09T23:03:57.438461+00:00",
+      "args": [
+        "branch",
+        "--show-current"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "branch",
+        "--show-current"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 22768,
+        "creation_filetime": 134360606374405940,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 22768,
+        "creation_filetime": 134360606374405940,
+        "exit_filetime": 134360606375260532,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35594240,
+        "peak_job_committed_bytes": 38301696,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "01.stdout.bin",
+        "bytes": 5,
+        "sha256": "6403203dd5a0867eb14d104ee8a73730bd72dd9ad92e78d996a6dba0a5dcfc01"
+      },
+      "stderr": {
+        "path": "01.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.15599999999903957
+    },
+    {
+      "utc": "2026-10-09T23:03:57.598230+00:00",
+      "args": [
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 3328,
+        "creation_filetime": 134360606376061361,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 3328,
+        "creation_filetime": 134360606376061361,
+        "exit_filetime": 134360606376795456,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35606528,
+        "peak_job_committed_bytes": 38309888,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "02.stdout.bin",
+        "bytes": 59,
+        "sha256": "99da64ad5fe5ec49a76a12901078feef43a7535f3b4503de6b92126d626f355b"
+      },
+      "stderr": {
+        "path": "02.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.1569999999992433
+    },
+    {
+      "utc": "2026-10-09T23:03:57.751705+00:00",
+      "args": [
+        "ls-tree",
+        "-r",
+        "-z",
+        "80331d535d622517adf7921be42fc9931cdc23ee"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-tree",
+        "-r",
+        "-z",
+        "80331d535d622517adf7921be42fc9931cdc23ee"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 23320,
+        "creation_filetime": 134360606377549394,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 23320,
+        "creation_filetime": 134360606377549394,
+        "exit_filetime": 134360606380999596,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35651584,
+        "peak_job_committed_bytes": 38367232,
+        "job_cpu_seconds": 0.078125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "03.stdout.bin",
+        "bytes": 163473,
+        "sha256": "724545f53c75d95d3cb242690ca59ba6d60182e701539fd3e23065f4d5779333"
+      },
+      "stderr": {
+        "path": "03.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.4059999999990396
+    },
+    {
+      "utc": "2026-10-09T23:03:58.178087+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 20552,
+        "creation_filetime": 134360606381828054,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 20552,
+        "creation_filetime": 134360606381828054,
+        "exit_filetime": 134360606382605712,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35602432,
+        "peak_job_committed_bytes": 38305792,
+        "job_cpu_seconds": 0.046875,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "04.stdout.bin",
+        "bytes": 159240,
+        "sha256": "16bdd23a5bf5649dd31fcf3aea64ed8da8d418224b05877ce5001e08d806e6aa"
+      },
+      "stderr": {
+        "path": "04.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.15700000000288128
+    },
+    {
+      "utc": "2026-10-09T23:03:58.349543+00:00",
+      "args": [
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 23924,
+        "creation_filetime": 134360606383530316,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 23924,
+        "creation_filetime": 134360606383530316,
+        "exit_filetime": 134360606384472910,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35655680,
+        "peak_job_committed_bytes": 38367232,
+        "job_cpu_seconds": 0.015625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "05.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "05.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.1569999999992433
+    },
+    {
+      "utc": "2026-10-09T23:03:58.503254+00:00",
+      "args": [
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 25104,
+        "creation_filetime": 134360606385063056,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 25104,
+        "creation_filetime": 134360606385063056,
+        "exit_filetime": 134360606401509023,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 40857600,
+        "peak_job_committed_bytes": 43573248,
+        "job_cpu_seconds": 0.203125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "06.stdout.bin",
+        "bytes": 268,
+        "sha256": "11163914a454f3b880a3ea773880a36733fc680c79d6d25597e8cff73b899be8"
+      },
+      "stderr": {
+        "path": "06.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 1.7180000000007567
+    },
+    {
+      "utc": "2026-10-09T23:04:08.419314+00:00",
+      "args": [
+        "check-attr",
+        "-z",
+        "text",
+        "filter",
+        "working-tree-encoding",
+        "ident",
+        "--",
+        "docs/master_run/WORK_REQUEST_20261009.md",
+        "reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json",
+        "reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json",
+        "reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+        "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt",
+        "reports/master_run/20261009/cleanup/changed_history01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json",
+        "reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/changed_history01/original_mapping.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+        "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/history02/build_receipt.json",
+        "reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json",
+        "reports/master_run/20261009/cleanup/history02/original_member_mapping.json",
+        "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+        "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+        "reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+        "reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json",
+        "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+        "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+        "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+        "reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json",
+        "reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+        "reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt",
+        "reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json",
+        "reports/master_run/20261009/verification/source_readback.json",
+        "scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1",
+        "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+        "scripts/master_run/acquire_public_conda_packages01.py",
+        "scripts/master_run/atomic_iqtree_windows.py",
+        "scripts/master_run/build_iqtree314_source_recovery01.py",
+        "scripts/master_run/build_master_public_components01.py",
+        "scripts/master_run/build_master_public_history_inventory01.py",
+        "scripts/master_run/check_stage06_outputs.py",
+        "scripts/master_run/continue_public_conda_packages01.py",
+        "scripts/master_run/independent_tree_check.py",
+        "scripts/master_run/independent_tree_check_attempt01.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py",
+        "scripts/master_run/prune_old_scientific_directories.py",
+        "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "scripts/master_run/stage05_curation/accepted_source_pins.json",
+        "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+        "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+        "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+        "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+        "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+        "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+        "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+        "scripts/master_run/stage05_curation/test_independent_curation.py",
+        "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+        "scripts/master_run/stage06_render.py",
+        "scripts/master_run/stage5_accepted_source_pins.json",
+        "scripts/master_run/stage5_atomic.py",
+        "scripts/master_run/stage5_atomic_process.py",
+        "scripts/master_run/stage5_setup_windows.py",
+        "scripts/master_run/stage5_unc_bind_probe.py",
+        "scripts/master_run/stage5_windows_owner.py",
+        "scripts/master_run/test_stage5_atomic.py",
+        "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+        "scripts/master_run/verify_directory_handle_prune.py",
+        "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+        "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+        "scripts/master_run/verify_master_batch03_leaf_purge.py",
+        "scripts/master_run/verify_master_public_components01_remote.py",
+        "scripts/master_run/verify_master_public_history02_remote.py",
+        "scripts/master_run/verify_master_public_history_inventory01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "check-attr",
+        "-z",
+        "text",
+        "filter",
+        "working-tree-encoding",
+        "ident",
+        "--",
+        "docs/master_run/WORK_REQUEST_20261009.md",
+        "reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json",
+        "reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json",
+        "reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+        "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt",
+        "reports/master_run/20261009/cleanup/changed_history01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json",
+        "reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/changed_history01/original_mapping.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+        "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/history02/build_receipt.json",
+        "reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json",
+        "reports/master_run/20261009/cleanup/history02/original_member_mapping.json",
+        "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+        "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+        "reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+        "reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json",
+        "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+        "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+        "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+        "reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json",
+        "reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+        "reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt",
+        "reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json",
+        "reports/master_run/20261009/verification/source_readback.json",
+        "scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1",
+        "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+        "scripts/master_run/acquire_public_conda_packages01.py",
+        "scripts/master_run/atomic_iqtree_windows.py",
+        "scripts/master_run/build_iqtree314_source_recovery01.py",
+        "scripts/master_run/build_master_public_components01.py",
+        "scripts/master_run/build_master_public_history_inventory01.py",
+        "scripts/master_run/check_stage06_outputs.py",
+        "scripts/master_run/continue_public_conda_packages01.py",
+        "scripts/master_run/independent_tree_check.py",
+        "scripts/master_run/independent_tree_check_attempt01.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py",
+        "scripts/master_run/prune_old_scientific_directories.py",
+        "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "scripts/master_run/stage05_curation/accepted_source_pins.json",
+        "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+        "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+        "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+        "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+        "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+        "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+        "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+        "scripts/master_run/stage05_curation/test_independent_curation.py",
+        "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+        "scripts/master_run/stage06_render.py",
+        "scripts/master_run/stage5_accepted_source_pins.json",
+        "scripts/master_run/stage5_atomic.py",
+        "scripts/master_run/stage5_atomic_process.py",
+        "scripts/master_run/stage5_setup_windows.py",
+        "scripts/master_run/stage5_unc_bind_probe.py",
+        "scripts/master_run/stage5_windows_owner.py",
+        "scripts/master_run/test_stage5_atomic.py",
+        "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+        "scripts/master_run/verify_directory_handle_prune.py",
+        "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+        "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+        "scripts/master_run/verify_master_batch03_leaf_purge.py",
+        "scripts/master_run/verify_master_public_components01_remote.py",
+        "scripts/master_run/verify_master_public_history02_remote.py",
+        "scripts/master_run/verify_master_public_history_inventory01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 21888,
+        "creation_filetime": 134360606484251111,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 21888,
+        "creation_filetime": 134360606484251111,
+        "exit_filetime": 134360606485331849,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35684352,
+        "peak_job_committed_bytes": 38473728,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "07.stdout.bin",
+        "bytes": 45160,
+        "sha256": "b3bac12a7e328088795dccfed900b40f30f4a6b10828768ab2ae0d2361531c43"
+      },
+      "stderr": {
+        "path": "07.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.18800000000192085
+    },
+    {
+      "utc": "2026-10-09T23:04:08.615003+00:00",
+      "args": [
+        "add",
+        "--",
+        "docs/master_run/WORK_REQUEST_20261009.md",
+        "reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json",
+        "reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json",
+        "reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+        "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt",
+        "reports/master_run/20261009/cleanup/changed_history01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json",
+        "reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/changed_history01/original_mapping.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+        "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/history02/build_receipt.json",
+        "reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json",
+        "reports/master_run/20261009/cleanup/history02/original_member_mapping.json",
+        "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+        "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+        "reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+        "reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json",
+        "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+        "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+        "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+        "reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json",
+        "reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+        "reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt",
+        "reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json",
+        "reports/master_run/20261009/verification/source_readback.json",
+        "scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1",
+        "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+        "scripts/master_run/acquire_public_conda_packages01.py",
+        "scripts/master_run/atomic_iqtree_windows.py",
+        "scripts/master_run/build_iqtree314_source_recovery01.py",
+        "scripts/master_run/build_master_public_components01.py",
+        "scripts/master_run/build_master_public_history_inventory01.py",
+        "scripts/master_run/check_stage06_outputs.py",
+        "scripts/master_run/continue_public_conda_packages01.py",
+        "scripts/master_run/independent_tree_check.py",
+        "scripts/master_run/independent_tree_check_attempt01.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py",
+        "scripts/master_run/prune_old_scientific_directories.py",
+        "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "scripts/master_run/stage05_curation/accepted_source_pins.json",
+        "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+        "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+        "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+        "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+        "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+        "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+        "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+        "scripts/master_run/stage05_curation/test_independent_curation.py",
+        "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+        "scripts/master_run/stage06_render.py",
+        "scripts/master_run/stage5_accepted_source_pins.json",
+        "scripts/master_run/stage5_atomic.py",
+        "scripts/master_run/stage5_atomic_process.py",
+        "scripts/master_run/stage5_setup_windows.py",
+        "scripts/master_run/stage5_unc_bind_probe.py",
+        "scripts/master_run/stage5_windows_owner.py",
+        "scripts/master_run/test_stage5_atomic.py",
+        "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+        "scripts/master_run/verify_directory_handle_prune.py",
+        "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+        "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+        "scripts/master_run/verify_master_batch03_leaf_purge.py",
+        "scripts/master_run/verify_master_public_components01_remote.py",
+        "scripts/master_run/verify_master_public_history02_remote.py",
+        "scripts/master_run/verify_master_public_history_inventory01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "add",
+        "--",
+        "docs/master_run/WORK_REQUEST_20261009.md",
+        "reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json",
+        "reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json",
+        "reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json",
+        "reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+        "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt",
+        "reports/master_run/20261009/cleanup/changed_history01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl",
+        "reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json",
+        "reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/changed_history01/original_mapping.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json",
+        "reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+        "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+        "reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
+        "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+        "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/history02/build_receipt.json",
+        "reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json",
+        "reports/master_run/20261009/cleanup/history02/original_member_mapping.json",
+        "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+        "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+        "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+        "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+        "reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+        "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+        "reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json",
+        "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+        "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+        "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+        "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+        "reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json",
+        "reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+        "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+        "reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt",
+        "reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json",
+        "reports/master_run/20261009/verification/source_readback.json",
+        "scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1",
+        "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+        "scripts/master_run/acquire_public_conda_packages01.py",
+        "scripts/master_run/atomic_iqtree_windows.py",
+        "scripts/master_run/build_iqtree314_source_recovery01.py",
+        "scripts/master_run/build_master_public_components01.py",
+        "scripts/master_run/build_master_public_history_inventory01.py",
+        "scripts/master_run/check_stage06_outputs.py",
+        "scripts/master_run/continue_public_conda_packages01.py",
+        "scripts/master_run/independent_tree_check.py",
+        "scripts/master_run/independent_tree_check_attempt01.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs.py",
+        "scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py",
+        "scripts/master_run/prune_old_scientific_directories.py",
+        "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+        "scripts/master_run/stage05_curation/accepted_source_pins.json",
+        "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+        "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+        "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+        "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+        "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+        "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+        "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+        "scripts/master_run/stage05_curation/test_independent_curation.py",
+        "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+        "scripts/master_run/stage06_render.py",
+        "scripts/master_run/stage5_accepted_source_pins.json",
+        "scripts/master_run/stage5_atomic.py",
+        "scripts/master_run/stage5_atomic_process.py",
+        "scripts/master_run/stage5_setup_windows.py",
+        "scripts/master_run/stage5_unc_bind_probe.py",
+        "scripts/master_run/stage5_windows_owner.py",
+        "scripts/master_run/test_stage5_atomic.py",
+        "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+        "scripts/master_run/verify_directory_handle_prune.py",
+        "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+        "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+        "scripts/master_run/verify_master_batch03_leaf_purge.py",
+        "scripts/master_run/verify_master_public_components01_remote.py",
+        "scripts/master_run/verify_master_public_history02_remote.py",
+        "scripts/master_run/verify_master_public_history_inventory01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote.py",
+        "scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 9316,
+        "creation_filetime": 134360606486190136,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 9316,
+        "creation_filetime": 134360606486190136,
+        "exit_filetime": 134360606495724693,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 42901504,
+        "peak_job_committed_bytes": 45707264,
+        "job_cpu_seconds": 0.078125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "08.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "08.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 1.0159999999996217
+    },
+    {
+      "utc": "2026-10-09T23:04:09.632252+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 8176,
+        "creation_filetime": 134360606496352387,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 8176,
+        "creation_filetime": 134360606496352387,
+        "exit_filetime": 134360606497066597,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35598336,
+        "peak_job_committed_bytes": 38301696,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "09.stdout.bin",
+        "bytes": 159240,
+        "sha256": "16bdd23a5bf5649dd31fcf3aea64ed8da8d418224b05877ce5001e08d806e6aa"
+      },
+      "stderr": {
+        "path": "09.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.15599999999903957
+    },
+    {
+      "utc": "2026-10-09T23:04:13.900445+00:00",
+      "args": [
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 25492,
+        "creation_filetime": 134360606539110985,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 25492,
+        "creation_filetime": 134360606539110985,
+        "exit_filetime": 134360606540471657,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35651584,
+        "peak_job_committed_bytes": 38367232,
+        "job_cpu_seconds": 0.078125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "10.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "10.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.18700000000171713
+    },
+    {
+      "utc": "2026-10-09T23:04:14.106462+00:00",
+      "args": [
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 11872,
+        "creation_filetime": 134360606541100819,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 11872,
+        "creation_filetime": 134360606541100819,
+        "exit_filetime": 134360606544163820,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 40869888,
+        "peak_job_committed_bytes": 43589632,
+        "job_cpu_seconds": 0.0625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "11.stdout.bin",
+        "bytes": 268,
+        "sha256": "11163914a454f3b880a3ea773880a36733fc680c79d6d25597e8cff73b899be8"
+      },
+      "stderr": {
+        "path": "11.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.35900000000037835
+    },
+    {
+      "utc": "2026-10-09T23:04:14.471164+00:00",
+      "args": [
+        "fetch",
+        "--no-tags",
+        "origin",
+        "main"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "fetch",
+        "--no-tags",
+        "origin",
+        "main"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 27196,
+        "creation_filetime": 134360606544815712,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 27196,
+        "creation_filetime": 134360606544815712,
+        "exit_filetime": 134360606572650556,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 38051840,
+        "peak_job_committed_bytes": 147939328,
+        "job_cpu_seconds": 0.515625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "12.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "12.stderr.bin",
+        "bytes": 153,
+        "sha256": "9cbd34e3aaf2d4d748f73964bef75a87d8eb48c004cf9ee137ab7a2d45f36009"
+      },
+      "elapsed_seconds": 2.860000000000582
+    },
+    {
+      "utc": "2026-10-09T23:04:17.337575+00:00",
+      "args": [
+        "rev-parse",
+        "origin/main"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "rev-parse",
+        "origin/main"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 8536,
+        "creation_filetime": 134360606573417763,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 8536,
+        "creation_filetime": 134360606573417763,
+        "exit_filetime": 134360606574207561,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35602432,
+        "peak_job_committed_bytes": 38313984,
+        "job_cpu_seconds": 0.078125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "13.stdout.bin",
+        "bytes": 41,
+        "sha256": "5568efdb1a39961ba81892138a03a56a18a9c6f02e28776155f940732c5af044"
+      },
+      "stderr": {
+        "path": "13.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.14099999999962165
+    },
+    {
+      "utc": "2026-10-09T23:04:17.489171+00:00",
+      "args": [
+        "merge-base",
+        "--is-ancestor",
+        "80331d535d622517adf7921be42fc9931cdc23ee",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "merge-base",
+        "--is-ancestor",
+        "80331d535d622517adf7921be42fc9931cdc23ee",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 6264,
+        "creation_filetime": 134360606574934913,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 6264,
+        "creation_filetime": 134360606574934913,
+        "exit_filetime": 134360606576155807,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35647488,
+        "peak_job_committed_bytes": 38359040,
+        "job_cpu_seconds": 0.046875,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "14.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "14.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.18699999999807915
+    },
+    {
+      "utc": "2026-10-09T23:04:17.674899+00:00",
+      "args": [
+        "ls-tree",
+        "-r",
+        "-z",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-tree",
+        "-r",
+        "-z",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 12904,
+        "creation_filetime": 134360606576806281,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 12904,
+        "creation_filetime": 134360606576806281,
+        "exit_filetime": 134360606578974051,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35655680,
+        "peak_job_committed_bytes": 38371328,
+        "job_cpu_seconds": 0.078125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "15.stdout.bin",
+        "bytes": 200227,
+        "sha256": "63da88550e940a743777058171766fea3914bb2ebd017e86779418f3249ef454"
+      },
+      "stderr": {
+        "path": "15.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.2820000000028813
+    },
+    {
+      "utc": "2026-10-09T23:04:21.717135+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 27100,
+        "creation_filetime": 134360606617221423,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 27100,
+        "creation_filetime": 134360606617221423,
+        "exit_filetime": 134360606618025444,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35602432,
+        "peak_job_committed_bytes": 38313984,
+        "job_cpu_seconds": 0.0625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "16.stdout.bin",
+        "bytes": 159240,
+        "sha256": "16bdd23a5bf5649dd31fcf3aea64ed8da8d418224b05877ce5001e08d806e6aa"
+      },
+      "stderr": {
+        "path": "16.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.1569999999992433
+    },
+    {
+      "utc": "2026-10-09T23:04:21.896682+00:00",
+      "args": [
+        "merge",
+        "--ff-only",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "merge",
+        "--ff-only",
+        "c76a46163af8b26057a113599f0524dfa0b0e94e"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 26400,
+        "creation_filetime": 134360606619030285,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 26400,
+        "creation_filetime": 134360606619030285,
+        "exit_filetime": 134360606702721743,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 41054208,
+        "peak_job_committed_bytes": 43757568,
+        "job_cpu_seconds": 0.484375,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "17.stdout.bin",
+        "bytes": 44543,
+        "sha256": "7cf5cba431cedacb3f82b038fc17c460e64f688ff20318917758b562e8428f2e"
+      },
+      "stderr": {
+        "path": "17.stderr.bin",
+        "bytes": 2802,
+        "sha256": "0feec3553208de4a119a7a0f4f676841e6395161f1089200416a70675437a5f1"
+      },
+      "elapsed_seconds": 8.46900000000096
+    },
+    {
+      "utc": "2026-10-09T23:04:30.360409+00:00",
+      "args": [
+        "rev-parse",
+        "HEAD"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 25100,
+        "creation_filetime": 134360606703636553,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 25100,
+        "creation_filetime": 134360606703636553,
+        "exit_filetime": 134360606704525102,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35602432,
+        "peak_job_committed_bytes": 38309888,
+        "job_cpu_seconds": 0.015625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "18.stdout.bin",
+        "bytes": 41,
+        "sha256": "5568efdb1a39961ba81892138a03a56a18a9c6f02e28776155f940732c5af044"
+      },
+      "stderr": {
+        "path": "18.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.14099999999962165
+    },
+    {
+      "utc": "2026-10-09T23:04:30.511467+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 8564,
+        "creation_filetime": 134360606705182004,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 8564,
+        "creation_filetime": 134360606705182004,
+        "exit_filetime": 134360606706039515,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35598336,
+        "peak_job_committed_bytes": 38309888,
+        "job_cpu_seconds": 0.046875,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "19.stdout.bin",
+        "bytes": 195220,
+        "sha256": "375edac8eef6e42b7d94637cccd3f0de5b41099d334f1845df5c8dbc45b42705"
+      },
+      "stderr": {
+        "path": "19.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.15599999999903957
+    },
+    {
+      "utc": "2026-10-09T23:04:46.308073+00:00",
+      "args": [
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 25268,
+        "creation_filetime": 134360606863108277,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 25268,
+        "creation_filetime": 134360606863108277,
+        "exit_filetime": 134360606865870714,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35614720,
+        "peak_job_committed_bytes": 38330368,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "20.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "20.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.3279999999977008
+    },
+    {
+      "utc": "2026-10-09T23:04:46.645812+00:00",
+      "args": [
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-only",
+        "-z"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 26312,
+        "creation_filetime": 134360606866498410,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 26312,
+        "creation_filetime": 134360606866498410,
+        "exit_filetime": 134360606877103150,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 43270144,
+        "peak_job_committed_bytes": 46010368,
+        "job_cpu_seconds": 0.234375,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "21.stdout.bin",
+        "bytes": 268,
+        "sha256": "11163914a454f3b880a3ea773880a36733fc680c79d6d25597e8cff73b899be8"
+      },
+      "stderr": {
+        "path": "21.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 1.125
+    },
+    {
+      "utc": "2026-10-09T23:04:47.775183+00:00",
+      "args": [
+        "status",
+        "--porcelain=v1",
+        "-z",
+        "--untracked-files=no"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.filemode=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_20261009T230357Z_7bd50c6d\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "status",
+        "--porcelain=v1",
+        "-z",
+        "--untracked-files=no"
+      ],
+      "cwd": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+      "launch": {
+        "pid": 20796,
+        "creation_filetime": 134360606877791308,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 20796,
+        "creation_filetime": 134360606877791308,
+        "exit_filetime": 134360606881533689,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 43421696,
+        "peak_job_committed_bytes": 46149632,
+        "job_cpu_seconds": 0.140625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "22.stdout.bin",
+        "bytes": 3043,
+        "sha256": "2ecda238908092f954ab6b2e1295f1a210163d9cb2088f2ef86cf2f2f12dde81"
+      },
+      "stderr": {
+        "path": "22.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.4530000000013388
+    }
+  ],
+  "all_created_git_scopes_closed": true
+}
