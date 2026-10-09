@@ -1,0 +1,82 @@
+UTC 2026-10-09T16:19:05Z
+Linux wd 6.18.40.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026 x86_64 GNU/Linux
+
+ROOT FILESYSTEM
+Filesystem     Type     1B-blocks        Used     Available Use% Mounted on
+/dev/sdd       ext4 1102239158272 14086881280 1032086183936   2% /
+
+MEMORY
+               total        used        free      shared  buff/cache   available
+Mem:      6217281536   700919808  4835905536     4296704   831406080  5516361728
+Swap:     8589934592           0  8589934592
+
+CPUS
+4
+
+PREEXISTING SCIENTIFIC PROCESSES
+    PID    PPID                  STARTED COMMAND
+TARGET                                                                              SOURCE     FSTYPE OPTIONS
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux /dev/loop0 ext4   rw,relatime
+
+TOOLCHAIN FILESYSTEM
+Filesystem     Type  1B-blocks       Used  Available Use% Mounted on
+/dev/loop0     ext4 8350298112 6461337600 1442689024  82% /mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux
+
+EXECUTABLE PATHS
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/Rscript
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/hmmsearch
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/hmmscan
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/padloc
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/defense-finder
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/macsyfinder
+
+PYTHON PACKAGE VERSIONS
+3.11.17 (main, Oct  7 2026, 00:02:24) [GCC 15.3.0]
+{"mdmparis-defense-finder": "3.0.0", "pyhmmer": "0.12.3", "pyrodigal": "3.7.1", "MacSyFinder": "2.1.4"}
+
+R VERSION
+Rscript (R) version 4.3.1 (2023-06-16)
+
+HMMER VERSION
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Usage: hmmsearch [options] <hmmfile> <seqdb>
+
+Basic options:
+
+PADLOC VERSION
+padloc v2.0.0
+
+DEFENSEFINDER CLI (version established by installed distribution metadata above)
+Usage: defense-finder [OPTIONS] COMMAND [ARGS]...
+
+  Systematic search of all known anti-phage systems by MDM Labs, Paris.
+
+  Prior to using defense-finder:
+
+  - install hmmsearch: http://hmmer.org/documentation.html
+
+  - get the models (run this every so often to stay up to date):
+
+      $ defense-finder update
+
+  Tool repository: https://github.com/mdmparis/defense-finder.
+
+Options:
+  -h, --help  Show this message and exit.
+
+MODEL/DB PATHS
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/padloc_db
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/defense_models
+/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/defense_models/defense-finder-models
+
+FINAL MEMORY
+               total        used        free      shared  buff/cache   available
+Mem:      6217281536   735789056  4696420352     4296704   938602496  5481492480
+Swap:     8589934592           0  8589934592
+
+DONE 2026-10-09T16:19:08Z

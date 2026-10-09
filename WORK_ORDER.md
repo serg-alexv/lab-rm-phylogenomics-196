@@ -96,3 +96,8 @@ The unchanged tested V10 lifetime mechanism survived original CLI15584 natural e
 ## Latest direct user halt, 2026-10-09T10:13:27.758472+00:00
 
 The user explicitly halted processing and related tasks, requested Git state update and temporary disk cleanup. All automatic scientific continuation is suspended. Follow `status/run_control.json`; resume only after a new direct human instruction. Preserve accepted stages, source data, checkpoints, frozen evidence and all historical UNKNOWN outcomes.
+
+
+## Current direct human atomic continuation, 2026-10-09
+
+The latest direct human instruction resumes the full scientific study after the halt. Reuse accepted Stages0–4a. Primary196 tree acceptance is sufficient to advance Stage5; optional sensitivities must not delay it. Prefer one simple partition-aware native IQ-TREE job with fresh resource margins and bounded admission; then same-data single-model IQ-TREE fallback, and only one alternative ML implementation if genuinely required. Do not blindly reuse1.5/3GiB caps or obsolete controller hierarchies. Stage5 must be resumable per genome. The same user explicitly authorizes necessary scoped additional-resource cleanup and WSL reconfiguration; preserve source data/checkpoints and backup configuration. Current user instructions supersede incompatible old controller/mandatory-sensitivity gates; historical evidence and unknown outcomes remain preserved. No routine approval pause or recurring automation is introduced.

@@ -1,5 +1,9 @@
 # Current execution status
 
+## Direct user continuation — 2026-10-09T16:21:45.730229+00:00
+
+**ACTIVE_DIRECT_USER_CONTINUATION.** Bootstrap and accepted Stage4a inputs independently validated; bounded resource admission is being prepared for one new atomic native inference attempt. No new biological job has started. Stage4 remains incomplete and Stages5–7 NOT_RUN. Historical tasks remain disabled and historical unknown exits remain preserved. See `reports/stage04/atomic_resume_20261009/REPORT.md` and `status/atomic_continuation_20261009.json`.
+
 ## Direct user halt — 2026-10-09T10:13:27.758472+00:00
 
 **HALTED_BY_USER. Automatic continuation is disabled.** The external CLI was stopped, all18 LAB scheduled tasks disabled, and temporary leftovers cleaned. Recovery evidence publication had completed at `c49c9efeaa4566d8166e889150966e774b315d11` before the halt. Stage04 remains scientifically incomplete; Stages05–07 remain NOT_RUN. Resume requires a new direct user instruction. See `status/run_control.json` and `reports/storage/20261009_user_halt_cleanup.json`.

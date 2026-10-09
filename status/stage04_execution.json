@@ -1,23 +1,11 @@
 {
-  "utc": "2026-10-09T06:54:50.946913+00:00",
-  "execution": "V10_ACTUAL_NATIVE_RUNNING_INCOMPLETE",
-  "observation_sha256": "9b683a4bcc240853fa65afa760de429a83c620f4307881591e8dc0358f743015",
-  "observation_as_of_utc": "2026-10-09T06:54:42.782077+00:00",
-  "native_pid": 26452,
-  "native_creation_filetime": 134359866154140144,
-  "scope": "primary196",
-  "controller": {
-    "pid": 2968,
-    "creation_filetime": 134359865859802366,
-    "exit_filetime": 0,
-    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
-    "executable_identity_source": "ACTUAL_HANDLE_IMAGE_QUERY",
-    "state": "RUNNING",
-    "actual_exit_code": null,
-    "cpu_seconds": 0.171875,
-    "recorded_creation_filetime": null
-  },
-  "negative_history_preserved": true,
-  "scientific_validation": "INCOMPLETE",
-  "stages05_07": "NOT_RUN"
+  "utc": "2026-10-09T16:21:45.730229+00:00",
+  "state": "BOUNDED_RESOURCE_ADMISSION_PREPARATION",
+  "scientific_status": "INCOMPLETE_NO_ACCEPTED_TREE",
+  "actual_native_pid": null,
+  "active_inference_found": false,
+  "previous_V10_outcome": "UNKNOWN_PRESERVED",
+  "previous_execution_record": "reports/stage04/atomic_resume_20261009/previous_stage04_execution.json",
+  "input_gate": "PASS_ACCEPTED_STAGE04A_INPUTS",
+  "new_biological_inference_launched": false
 }

@@ -1,0 +1,274 @@
+[
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v10\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 18059,
+    "sha256": "9c7701c7a9dd153c049aedb0483e4786a497719fa31eabd415f3bd63bac039f2",
+    "last_lines": [
+      "100\tAA\t196\t245\t183\t57\tMFP\tp0100",
+      "Degree of missing data: 0.013",
+      "Info: multi-threading strategy over partitions",
+      "",
+      "NOTE: Restoring information from model checkpoint file G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v10\\analyses\\primary196\\iqtree\\host.model.gz",
+      "",
+      "CHECKPOINT: Initial tree restored",
+      "Perform fast likelihood tree search using LG+I+G model...",
+      "CHECKPOINT: Tree restored, LogL: -879797.621",
+      "NOTE: ModelFinder requires 237 MB RAM!",
+      "Selecting individual models for 100 charsets using BIC...",
+      "ModelFinder will allocate partition-specific threads based on partition sizes"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v10\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 790572,
+    "sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42",
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v6\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 418807,
+    "sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v6\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 19274,
+    "sha256": "cb1469781a18152484270cb3bf494d8a68617559d4ecfd440b4a32f6ccca032d",
+    "last_lines": [
+      "Estimate model parameters (epsilon = 1.000)",
+      "Initial log-likelihood: -879803.921",
+      "Current log-likelihood at step 1: -879798.221",
+      "Current log-likelihood at step 2: -879797.621",
+      "Partition-specific rates:  2.401 0.793 0.685 0.821 1.076 1.062 0.826 1.190 0.822 0.549 1.504 1.721 1.876 2.986 3.497 1.234 1.552 0.808 0.888 1.550 1.014 1.207 0.830 1.618 1.148 1.403 0.954 1.069 2.102 0.535 1.185 0.733 1.815 0.639 0.496 1.005 1.502 0.774 0.382 1.005 1.699 2.416 0.949 0.165 0.505 0.418 0.186 0.333 0.423 0.356 0.387 0.423 0.217 0.494 0.367 0.536 0.243 0.281 0.364 0.111 0.351 0.210 0.524 0.570 1.088 0.175 0.159 0.309 0.402 0.460 0.348 0.360 0.436 0.581 0.180 1.120 0.557 0.248 0.268 0.300 1.136 0.925 1.128 1.760 1.308 1.569 0.613 0.995 2.174 1.210 1.780 1.111 1.531 0.982 2.127 1.721 1.653 0.227 0.596 1.273",
+      "Parameters optimization took 1 rounds (42.842 sec)",
+      "",
+      "Time for fast ML tree search: 328.005 seconds",
+      "",
+      "NOTE: ModelFinder requires 237 MB RAM!",
+      "Selecting individual models for 100 charsets using BIC...",
+      "ModelFinder will allocate partition-specific threads based on partition sizes"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_v3\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 3280,
+    "sha256": "b5de0f56ba95bd5d6fc477480f53920f410525fb1cfcf084687828448f0c3c13",
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_v3\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 19778,
+    "sha256": "be283be20a378c59bb9f01de1fb4b765e8181a8017d3cc9f1530ed3b35b2822b",
+    "last_lines": [
+      "ERROR: 2   PhyloSuperTreePlen::initializeAllPartialLh()",
+      "ERROR: 3   IQTree::initializeModel(Params&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, ModelsBlock*)",
+      "ERROR: 4   computeFastMLTree(Params&, Alignment*, ModelCheckpoint&, ModelsBlock*, int&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",
+      "ERROR: 5   runModelFinder(Params&, IQTree&, ModelCheckpoint&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >, bool)",
+      "ERROR: 6   startTreeReconstruction(Params&, IQTree*&, ModelCheckpoint&)",
+      "ERROR: 7   runPhyloAnalysis(Params&, Checkpoint*, IQTree*&, Alignment*&, bool, ModelCheckpoint*)",
+      "ERROR: 8   runPhyloAnalysis(Params&, Checkpoint*)",
+      "ERROR: 9   main()",
+      "ERROR: 10   ()",
+      "ERROR: 11   __libc_start_main()",
+      "ERROR: 12   ()",
+      "ERROR: Not enough memory, allocation of 2084933760 bytes failed (bad_alloc)"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04b_windows_evidence_v1\\failed_inference\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 3280,
+    "sha256": "b5de0f56ba95bd5d6fc477480f53920f410525fb1cfcf084687828448f0c3c13",
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04b_windows_evidence_v1\\failed_inference\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 19778,
+    "sha256": "be283be20a378c59bb9f01de1fb4b765e8181a8017d3cc9f1530ed3b35b2822b",
+    "last_lines": [
+      "ERROR: 2   PhyloSuperTreePlen::initializeAllPartialLh()",
+      "ERROR: 3   IQTree::initializeModel(Params&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, ModelsBlock*)",
+      "ERROR: 4   computeFastMLTree(Params&, Alignment*, ModelCheckpoint&, ModelsBlock*, int&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",
+      "ERROR: 5   runModelFinder(Params&, IQTree&, ModelCheckpoint&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >, bool)",
+      "ERROR: 6   startTreeReconstruction(Params&, IQTree*&, ModelCheckpoint&)",
+      "ERROR: 7   runPhyloAnalysis(Params&, Checkpoint*, IQTree*&, Alignment*&, bool, ModelCheckpoint*)",
+      "ERROR: 8   runPhyloAnalysis(Params&, Checkpoint*)",
+      "ERROR: 9   main()",
+      "ERROR: 10   ()",
+      "ERROR: 11   __libc_start_main()",
+      "ERROR: 12   ()",
+      "ERROR: Not enough memory, allocation of 2084933760 bytes failed (bad_alloc)"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v4_identity\\source_tree.nwk",
+    "bytes": 206,
+    "sha256": "4f83fcee8104c9a22efc1031112b3fa9aaf64b71d93dfd0215f9bae60be8a828",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 13,
+      "support_labels": 1,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v2\\source_tree.nwk",
+    "bytes": 206,
+    "sha256": "4f83fcee8104c9a22efc1031112b3fa9aaf64b71d93dfd0215f9bae60be8a828",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 13,
+      "support_labels": 1,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v1\\source_tree.nwk",
+    "bytes": 164,
+    "sha256": "ba38d080fedf831afd6ed752402848be27a9e26eded4205a1ef03a99c6640955",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 8,
+      "support_labels": 0,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_inference_v3\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 3280,
+    "sha256": "b5de0f56ba95bd5d6fc477480f53920f410525fb1cfcf084687828448f0c3c13",
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_inference_v3\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 19778,
+    "sha256": "be283be20a378c59bb9f01de1fb4b765e8181a8017d3cc9f1530ed3b35b2822b",
+    "last_lines": [
+      "ERROR: 2   PhyloSuperTreePlen::initializeAllPartialLh()",
+      "ERROR: 3   IQTree::initializeModel(Params&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, ModelsBlock*)",
+      "ERROR: 4   computeFastMLTree(Params&, Alignment*, ModelCheckpoint&, ModelsBlock*, int&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",
+      "ERROR: 5   runModelFinder(Params&, IQTree&, ModelCheckpoint&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >, bool)",
+      "ERROR: 6   startTreeReconstruction(Params&, IQTree*&, ModelCheckpoint&)",
+      "ERROR: 7   runPhyloAnalysis(Params&, Checkpoint*, IQTree*&, Alignment*&, bool, ModelCheckpoint*)",
+      "ERROR: 8   runPhyloAnalysis(Params&, Checkpoint*)",
+      "ERROR: 9   main()",
+      "ERROR: 10   ()",
+      "ERROR: 11   __libc_start_main()",
+      "ERROR: 12   ()",
+      "ERROR: Not enough memory, allocation of 2084933760 bytes failed (bad_alloc)"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04b_windows_evidence_v1\\failed_inference\\analyses\\primary196\\iqtree\\host.model.gz",
+    "bytes": 3280,
+    "sha256": "b5de0f56ba95bd5d6fc477480f53920f410525fb1cfcf084687828448f0c3c13",
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04b_windows_evidence_v1\\failed_inference\\analyses\\primary196\\iqtree\\host.log",
+    "bytes": 19778,
+    "sha256": "be283be20a378c59bb9f01de1fb4b765e8181a8017d3cc9f1530ed3b35b2822b",
+    "last_lines": [
+      "ERROR: 2   PhyloSuperTreePlen::initializeAllPartialLh()",
+      "ERROR: 3   IQTree::initializeModel(Params&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, ModelsBlock*)",
+      "ERROR: 4   computeFastMLTree(Params&, Alignment*, ModelCheckpoint&, ModelsBlock*, int&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",
+      "ERROR: 5   runModelFinder(Params&, IQTree&, ModelCheckpoint&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >, bool)",
+      "ERROR: 6   startTreeReconstruction(Params&, IQTree*&, ModelCheckpoint&)",
+      "ERROR: 7   runPhyloAnalysis(Params&, Checkpoint*, IQTree*&, Alignment*&, bool, ModelCheckpoint*)",
+      "ERROR: 8   runPhyloAnalysis(Params&, Checkpoint*)",
+      "ERROR: 9   main()",
+      "ERROR: 10   ()",
+      "ERROR: 11   __libc_start_main()",
+      "ERROR: 12   ()",
+      "ERROR: Not enough memory, allocation of 2084933760 bytes failed (bad_alloc)"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\negative_history_v1\\original_primary196\\host.model.gz",
+    "bytes": 418807,
+    "sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\negative_history_v1\\original_primary196\\host.log",
+    "bytes": 19274,
+    "sha256": "cb1469781a18152484270cb3bf494d8a68617559d4ecfd440b4a32f6ccca032d",
+    "last_lines": [
+      "Estimate model parameters (epsilon = 1.000)",
+      "Initial log-likelihood: -879803.921",
+      "Current log-likelihood at step 1: -879798.221",
+      "Current log-likelihood at step 2: -879797.621",
+      "Partition-specific rates:  2.401 0.793 0.685 0.821 1.076 1.062 0.826 1.190 0.822 0.549 1.504 1.721 1.876 2.986 3.497 1.234 1.552 0.808 0.888 1.550 1.014 1.207 0.830 1.618 1.148 1.403 0.954 1.069 2.102 0.535 1.185 0.733 1.815 0.639 0.496 1.005 1.502 0.774 0.382 1.005 1.699 2.416 0.949 0.165 0.505 0.418 0.186 0.333 0.423 0.356 0.387 0.423 0.217 0.494 0.367 0.536 0.243 0.281 0.364 0.111 0.351 0.210 0.524 0.570 1.088 0.175 0.159 0.309 0.402 0.460 0.348 0.360 0.436 0.581 0.180 1.120 0.557 0.248 0.268 0.300 1.136 0.925 1.128 1.760 1.308 1.569 0.613 0.995 2.174 1.210 1.780 1.111 1.531 0.982 2.127 1.721 1.653 0.227 0.596 1.273",
+      "Parameters optimization took 1 rounds (42.842 sec)",
+      "",
+      "Time for fast ML tree search: 328.005 seconds",
+      "",
+      "NOTE: ModelFinder requires 237 MB RAM!",
+      "Selecting individual models for 100 charsets using BIC...",
+      "ModelFinder will allocate partition-specific threads based on partition sizes"
+    ],
+    "synthetic_path": false
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v4_identity\\source_tree.nwk",
+    "bytes": 206,
+    "sha256": "4f83fcee8104c9a22efc1031112b3fa9aaf64b71d93dfd0215f9bae60be8a828",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 13,
+      "support_labels": 1,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v2\\source_tree.nwk",
+    "bytes": 206,
+    "sha256": "4f83fcee8104c9a22efc1031112b3fa9aaf64b71d93dfd0215f9bae60be8a828",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 13,
+      "support_labels": 1,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\figure_review\\PARENT_synthetic_v1\\source_tree.nwk",
+    "bytes": 164,
+    "sha256": "ba38d080fedf831afd6ed752402848be27a9e26eded4205a1ef03a99c6640955",
+    "newick": {
+      "tip_count": 8,
+      "branch_lengths": 8,
+      "support_labels": 0,
+      "exact_approved196": false,
+      "missing_approved": 196,
+      "extra_tips": 8
+    },
+    "synthetic_path": true
+  },
+  {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an\\outputs\\stage04_v10_review\\original_v10_reconciliation_20261009T090020\\host.model.gz",
+    "bytes": 790572,
+    "sha256": "d20ef88dd11a7a2c7f5e9b99baef0108f05a21ec4a6b74226e547ce93afe8b42",
+    "synthetic_path": false
+  }
+]

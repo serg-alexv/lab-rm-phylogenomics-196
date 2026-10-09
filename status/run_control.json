@@ -1,28 +1,12 @@
 {
-  "schema": "DIRECT_HUMAN_RUN_CONTROL_V1",
-  "utc": "2026-10-09T10:13:27.758472+00:00",
-  "state": "HALTED_BY_USER",
+  "schema": "DIRECT_HUMAN_RUN_CONTROL_V2",
+  "utc": "2026-10-09T16:21:45.730229+00:00",
+  "state": "ACTIVE_DIRECT_USER_CONTINUATION",
   "automatic_resume": false,
-  "resume_requires_new_direct_user_instruction": true,
-  "directive": "halt processing and related tasks now; update git state; clean disk leftovers",
-  "original_external_cli_session": "01a11b51-18d0-7a43-9fe3-3b961af9c44a",
-  "external_cli_stop": [
-    {
-      "pid": 29464,
-      "state": "NOT_IN_CURRENT_INVENTORY"
-    },
-    {
-      "pid": 29632,
-      "image": "codex.exe",
-      "creation_filetime": 134360136604149419,
-      "user_requested_stop": true,
-      "terminate_succeeded": true,
-      "wait_result": 0,
-      "actual_exit_kind": "FORCED_STOP_BY_DIRECT_USER_REQUEST"
-    }
-  ],
-  "related_scheduled_tasks_disabled": 18,
-  "scientific_inference_started_by_this_request": false,
+  "authority": "Current direct human full-study continuation request and scoped resource/WSL repair authorization",
+  "scope": "Primary196 Stage4 inference, per-genome Stage5, four-ring figure and independent validation/publication",
+  "previous_control_sha256": "efb8b254506dd13277aaf0c95815420457fd66b9d9f827928b43a249edc295fe",
   "old_V10_exit_and_job_closure": "UNKNOWN_PRESERVED",
-  "recovery_publication_before_halt": "c49c9efeaa4566d8166e889150966e774b315d11"
+  "historical_scheduled_tasks": "REMAIN_DISABLED",
+  "recurring_automation": "NOT_AUTHORIZED_OR_CREATED"
 }

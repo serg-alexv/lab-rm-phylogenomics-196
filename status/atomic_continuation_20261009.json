@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-09T16:21:45.730229+00:00",
+  "bootstrap": "PASS_ACCEPTED_STAGE04A_INPUTS",
+  "scientific_stage4": "INCOMPLETE_NO_ACCEPTED_TREE",
+  "execution_stage4": "BOUNDED_RESOURCE_ADMISSION_PREPARATION",
+  "scientific_stage5": "NOT_RUN",
+  "scientific_stage6": "NOT_RUN",
+  "scientific_stage7": "NOT_RUN",
+  "biology_launched": false,
+  "canonical_commit_before_bootstrap": "2a7552bc5556d5ff82cc44602bc366e51e25ff47",
+  "dirty_previous_work": "PRESERVED_NOT_BLANKET_STAGED",
+  "admission_policy": {
+    "preferred_job_commit_gib": 4.5,
+    "host_reserve_gib": 1.5,
+    "fresh_minimum_physical_available_gib": 6,
+    "fresh_minimum_system_commit_headroom_gib": 6,
+    "preferred_wait_minutes": 30,
+    "threads": 2,
+    "basis": "Historical nearly3GiB aggregate peak plus50percent margin and1.5GiB host reserve; sufficiency not guaranteed"
+  },
+  "wsl_configuration": {
+    "memory_gib": 6,
+    "processors": 4,
+    "swap_gib": 8,
+    "backup_sha256": "cd4ece709346e258d2506f47057d3de22189598651cc863dab27014905640b73",
+    "new_sha256": "fa7e395a9e14e9ed7233032a92a4eeb6b5d2f2a02f3717745c5072b475fb89a8",
+    "live_probe": "PASS_INSTALLED_LINUX_TOOLS",
+    "state_after_probe": "STOPPED"
+  }
+}
