@@ -1,0 +1,47 @@
+{
+  "schema": "MASTER_CANONICAL_GIT_METADATA_REPAIR_PREPARATION_V1",
+  "state": "SOURCE_AND_C_SYNTHETIC_PROOF_READY_CANONICAL_NOT_RUN",
+  "source_sha256": "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5",
+  "plan_sha256": "6c74b71affd58971c4d2693b84aaa029f86d5a4afc4e7bf97a581346695c59d9",
+  "test_sha256": "134f8f7d826d84a869426e3fe6a74c6f462e12fec27516f09cc223b2a3bed11e",
+  "pure_tests": {
+    "count": 7,
+    "exit_code": 0,
+    "seconds": 0.007
+  },
+  "actual_final_C_fixture": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225913Z_55c244b5\\receipt.json",
+    "sha256": "f352f3cc2810124c625b417ea33708dec1052d66787c5c79398aa44dcdd7f506",
+    "state": "PASS_SCOPED_IDENTICAL_OBJECT_READD_EXACT_OUT_OF_SCOPE_PRESERVATION",
+    "exit_code": 0,
+    "G_accesses": 0,
+    "original_lock_accesses": 0
+  },
+  "default_no_run": {
+    "exit_code": 0,
+    "state": "PREPARED_NOT_RUN"
+  },
+  "installed_official_doc": {
+    "path": "C:\\Program Files\\Git\\mingw64\\share\\doc\\git-doc\\git-add.html",
+    "sha256": "179ef99e099e119f153e7fa2c0d7beb54ee15cc1922ff31b3f8825db4126e580",
+    "lines": "634-637"
+  },
+  "actual_G_repair": "NOT_RUN",
+  "root_publication_and_review": "REQUIRED",
+  "expected_main": "EXPLICIT_RUNTIME_PIN_AFTER_SOURCE_PUBLICATION",
+  "canonical_source_command": [
+    "python",
+    "-B",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\repair_canonical_git_metadata.py",
+    "--run",
+    "--expected-main",
+    "<root-published immutable commit>",
+    "--expected-source-sha256",
+    "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5"
+  ],
+  "peer_source_review": {
+    "state": "PASS_SOURCE_ONLY",
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_independent_review.json",
+    "sha256": "ca8472f7a3854941d2781313d6cd55a83478d7fe6699a2922a658cdf0aa61b39"
+  }
+}

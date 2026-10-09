@@ -1,0 +1,4231 @@
+{
+  "schema": "MASTER_CANONICAL_FAILED_FF_READONLY_AUDIT_V1",
+  "state": "OBSERVATIONS_ONLY_NO_REPAIR",
+  "utc": "2026-10-09T22:43:41.101674+00:00",
+  "root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "source_sha256": "5e86fb7fd234cb8b8340f21b32aa3616e741589f559535cc792b043e7409b840",
+  "HEAD": "80331d535d622517adf7921be42fc9931cdc23ee",
+  "origin_main": "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb",
+  "requested_target": "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb",
+  "branch": "main",
+  "status": "1 .M N... 100644 100644 100644 4369bf29cc82cb0088f76d9d33b996746c746eb5 4369bf29cc82cb0088f76d9d33b996746c746eb5 docs/master_run/WORK_REQUEST_20261009.md\n1 .M N... 100644 100644 100644 2691ae8f41483e25b9dcc0bd82f253d7c5659c2b 2691ae8f41483e25b9dcc0bd82f253d7c5659c2b reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json\n1 .M N... 100644 100644 100644 1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc 1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json\n1 .M N... 100644 100644 100644 3edb8902d9a905688d48d166d3b12d231af2393c 3edb8902d9a905688d48d166d3b12d231af2393c reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json\n1 .M N... 100644 100644 100644 c64936af60db32e824918b8a0b09ba402c085210 c64936af60db32e824918b8a0b09ba402c085210 reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json\n1 .M N... 100644 100644 100644 fcd1db1fd882fc16516de3930d4d1f259926cf04 fcd1db1fd882fc16516de3930d4d1f259926cf04 reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 bee134463b9e7a757231fb712e6a9ffa86fa8e7e bee134463b9e7a757231fb712e6a9ffa86fa8e7e reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json\n1 .M N... 100644 100644 100644 96bae4d063a18ad604275d4d8b707f421f7fbad8 96bae4d063a18ad604275d4d8b707f421f7fbad8 reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json\n1 .M N... 100644 100644 100644 56e745af6df35e3a8d506003d35eaae7ef1fc738 56e745af6df35e3a8d506003d35eaae7ef1fc738 reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json\n1 .M N... 100644 100644 100644 292e11ab88eecdf6ce6d9e1929b2866d25441ec6 292e11ab88eecdf6ce6d9e1929b2866d25441ec6 reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 36e430fe8ae8aa0a82ceab24c478f2b51a900260 36e430fe8ae8aa0a82ceab24c478f2b51a900260 reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json\n1 .M N... 100644 100644 100644 d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8 d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8 reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json\n1 .M N... 100644 100644 100644 9c47444bf0d51d40aa70643f3a88a9890614802c 9c47444bf0d51d40aa70643f3a88a9890614802c reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json\n1 .M N... 100644 100644 100644 0aa671845abe2c84e9be1bd05541ba070f1bf874 0aa671845abe2c84e9be1bd05541ba070f1bf874 reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json\n1 .M N... 100644 100644 100644 23719866414765ec47efe3dc147f0c3180ddb5c7 23719866414765ec47efe3dc147f0c3180ddb5c7 reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 67a8c8b57762752999606c8db24995f8e0add5ae 67a8c8b57762752999606c8db24995f8e0add5ae reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt\n1 .M N... 100644 100644 100644 a931888241d9a419d7551e96bfcc10064561990a a931888241d9a419d7551e96bfcc10064561990a reports/master_run/20261009/cleanup/changed_history01/build_receipt.json\n1 .M N... 100644 100644 100644 6bee466770f89c1a7fb3feead4a107a7d09012ee 6bee466770f89c1a7fb3feead4a107a7d09012ee reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl\n1 .M N... 100644 100644 100644 f7b0569c46aab3fbe57a139c5a10b73e789c1680 f7b0569c46aab3fbe57a139c5a10b73e789c1680 reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json\n1 .M N... 100644 100644 100644 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json\n1 .M N... 100644 100644 100644 a273a55748976abd79a7e3c6d3f83dcd3f4cef42 a273a55748976abd79a7e3c6d3f83dcd3f4cef42 reports/master_run/20261009/cleanup/changed_history01/original_mapping.json\n1 .M N... 100644 100644 100644 9fdda6404e6a3361400b651dc1905b8224248bce 9fdda6404e6a3361400b651dc1905b8224248bce reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json\n1 .M N... 100644 100644 100644 31d58c7e18363a304d00c8e85e3e6a73e5acf39d 31d58c7e18363a304d00c8e85e3e6a73e5acf39d reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json\n1 .M N... 100644 100644 100644 13ba797fcde24e8c78f3b45a00d928e769cfedc7 13ba797fcde24e8c78f3b45a00d928e769cfedc7 reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json\n1 .M N... 100644 100644 100644 1c926dabae6d809a7816bafe81d216a3a27d0a9b 1c926dabae6d809a7816bafe81d216a3a27d0a9b reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json\n1 .M N... 100644 100644 100644 23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768 23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768 reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl\n1 .M N... 100644 100644 100644 5a19d9502ae7ef4a821f9281d2141d3390747c80 5a19d9502ae7ef4a821f9281d2141d3390747c80 reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json\n1 .M N... 100644 100644 100644 6e06d503708e9c0e4226fb4602c045262a721ffb 6e06d503708e9c0e4226fb4602c045262a721ffb reports/master_run/20261009/cleanup/conda_packages01/package_index.json\n1 .M N... 100644 100644 100644 197e82e2648a561ddf903deb3c4b4b6909307de0 197e82e2648a561ddf903deb3c4b4b6909307de0 reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json\n1 .M N... 100644 100644 100644 d263a650b8f19d3138ce07c77fb1ff99c2f8b210 d263a650b8f19d3138ce07c77fb1ff99c2f8b210 reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl\n1 .M N... 100644 100644 100644 bb37de93132d04efbbe76a5a11dd7905d2cff923 bb37de93132d04efbbe76a5a11dd7905d2cff923 reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json\n1 .M N... 100644 100644 100644 0eb765efe2bec4e7fdbc5496e12c74585dca5150 0eb765efe2bec4e7fdbc5496e12c74585dca5150 reports/master_run/20261009/cleanup/directory_prune_execution01/index.json\n1 .M N... 100644 100644 100644 fb45638d7dd194e06c53c3c0072ef5ff24a557a8 fb45638d7dd194e06c53c3c0072ef5ff24a557a8 reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json\n1 .M N... 100644 100644 100644 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json\n1 .M N... 100644 100644 100644 bac73fe1f2528d41602fc3684b7895c5f63c1505 bac73fe1f2528d41602fc3684b7895c5f63c1505 reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json\n1 .M N... 100644 100644 100644 bc2f6e6578b0e868146eaedc8e62dc5ef8108082 bc2f6e6578b0e868146eaedc8e62dc5ef8108082 reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json\n1 .M N... 100644 100644 100644 f5e229764babd559c75cb628b24be3fe854e996f f5e229764babd559c75cb628b24be3fe854e996f reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 5136847279f7acf02144da6ae6c173d9d228768d 5136847279f7acf02144da6ae6c173d9d228768d reports/master_run/20261009/cleanup/history02/build_receipt.json\n1 .M N... 100644 100644 100644 dfe217084b88e4064b9d59579b01e262094df87d dfe217084b88e4064b9d59579b01e262094df87d reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json\n1 .M N... 100644 100644 100644 820e6d5b8baf3233f7edaf76b39d406cf1e02cc2 820e6d5b8baf3233f7edaf76b39d406cf1e02cc2 reports/master_run/20261009/cleanup/history02/original_member_mapping.json\n1 .M N... 100644 100644 100644 75650047e1a5a8afe6b3c93b5636f5867d4849b9 75650047e1a5a8afe6b3c93b5636f5867d4849b9 reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl\n1 .M N... 100644 100644 100644 0806defc183298739638264213d6b77bed3e342f 0806defc183298739638264213d6b77bed3e342f reports/master_run/20261009/cleanup/history02_purge01/proposed.json\n1 .M N... 100644 100644 100644 79ef09fbc65588ad4ba84e658c67c18ac34ac08b 79ef09fbc65588ad4ba84e658c67c18ac34ac08b reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json\n1 .M N... 100644 100644 100644 193bf156279714b36883c262cc3b671059d1427e 193bf156279714b36883c262cc3b671059d1427e reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json\n1 .M N... 100644 100644 100644 79ef09fbc65588ad4ba84e658c67c18ac34ac08b 79ef09fbc65588ad4ba84e658c67c18ac34ac08b reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json\n1 .M N... 100644 100644 100644 193bf156279714b36883c262cc3b671059d1427e 193bf156279714b36883c262cc3b671059d1427e reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json\n1 .M N... 100644 100644 100644 7e32501fa525288e5669072952fe8ac4453fc180 7e32501fa525288e5669072952fe8ac4453fc180 reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 96b590c4d321e42be562adce968e6092f41fce9d 96b590c4d321e42be562adce968e6092f41fce9d reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json\n1 .M N... 100644 100644 100644 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 70d8252df5f9e5160f0de45f3b5b6926fc5fb239 reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json\n1 .M N... 100644 100644 100644 1c926dabae6d809a7816bafe81d216a3a27d0a9b 1c926dabae6d809a7816bafe81d216a3a27d0a9b reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json\n1 .M N... 100644 100644 100644 b40f3088a68e2718e6c6eea632e6f7be8be8565b b40f3088a68e2718e6c6eea632e6f7be8be8565b reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl\n1 .M N... 100644 100644 100644 5a19d9502ae7ef4a821f9281d2141d3390747c80 5a19d9502ae7ef4a821f9281d2141d3390747c80 reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json\n1 .M N... 100644 100644 100644 a6e4696f0ae035faa004e3bba7376e4b7f9c67d3 a6e4696f0ae035faa004e3bba7376e4b7f9c67d3 reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json\n1 .M N... 100644 100644 100644 f828d6582f5d67c6f7ecc03c316dfbaf3850f058 f828d6582f5d67c6f7ecc03c316dfbaf3850f058 reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl\n1 .M N... 100644 100644 100644 197e82e2648a561ddf903deb3c4b4b6909307de0 197e82e2648a561ddf903deb3c4b4b6909307de0 reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json\n1 .M N... 100644 100644 100644 9042e00b3c4d0a188b19dfe4261d335e26f4de0c 9042e00b3c4d0a188b19dfe4261d335e26f4de0c reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json\n1 .M N... 100644 100644 100644 6573a1cb20bccb0917906df0107c10665aca7818 6573a1cb20bccb0917906df0107c10665aca7818 reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json\n1 .M N... 100644 100644 100644 c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606 c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606 reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl\n1 .M N... 100644 100644 100644 261b725cb8d1971894c15bf10941ba9b0a1f2e50 261b725cb8d1971894c15bf10941ba9b0a1f2e50 reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md\n1 .M N... 100644 100644 100644 1ea68ba3b02a7e0874b5847199acef41a3099f2c 1ea68ba3b02a7e0874b5847199acef41a3099f2c reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json\n1 .M N... 100644 100644 100644 889c2f2412594653fd2c1edb1323b09ed3faf4b2 889c2f2412594653fd2c1edb1323b09ed3faf4b2 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf\n1 .M N... 100644 100644 100644 559e43b8415fe25d67f0986cd85ff08e95b0785e 559e43b8415fe25d67f0986cd85ff08e95b0785e reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png\n1 .M N... 100644 100644 100644 bc539b3969e098966defa07e3321a1b1f2fb2088 bc539b3969e098966defa07e3321a1b1f2fb2088 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json\n1 .M N... 100644 100644 100644 7a4202588016bc672b63e57aaee765ee7c6b8fbc 7a4202588016bc672b63e57aaee765ee7c6b8fbc reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv\n1 .M N... 100644 100644 100644 b5b846a5124218f0affc11feb27215e4a7a97719 b5b846a5124218f0affc11feb27215e4a7a97719 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf\n1 .M N... 100644 100644 100644 b72c8e9865656f807d2c2c1e7340993ab89f19a0 b72c8e9865656f807d2c2c1e7340993ab89f19a0 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg\n1 .M N... 100644 100644 100644 b3fa5165e9fa074f6c2d88738d036a714e250134 b3fa5165e9fa074f6c2d88738d036a714e250134 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv\n1 .M N... 100644 100644 100644 c75a1dd6d1249179dcdefed212c3b4a3e530bcca c75a1dd6d1249179dcdefed212c3b4a3e530bcca reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json\n1 .M N... 100644 100644 100644 b3fa5165e9fa074f6c2d88738d036a714e250134 b3fa5165e9fa074f6c2d88738d036a714e250134 reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv\n1 .M N... 100644 100644 100644 50e802b392804ed21db0545732284915bf5965ff 50e802b392804ed21db0545732284915bf5965ff reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json\n1 .M N... 100644 100644 100644 1722dae26d4afeec0a31de4af0ff6771209c994f 1722dae26d4afeec0a31de4af0ff6771209c994f reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 22a8cf92cf5366b976b628dbce670f12ce27b87d 22a8cf92cf5366b976b628dbce670f12ce27b87d reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 2fd1be0108557c95a85884dd1bebdcd8aba2ec26 2fd1be0108557c95a85884dd1bebdcd8aba2ec26 reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 815a7ed733655922ed382c9885b440540e778479 815a7ed733655922ed382c9885b440540e778479 reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json\n1 .M N... 100644 100644 100644 81e6c5ac753425ce408e827d7716d4b2ef6efd9a 81e6c5ac753425ce408e827d7716d4b2ef6efd9a reports/master_run/20261009/publication/master_native_closure10_remote_readback.json\n1 .M N... 100644 100644 100644 d2801ca5aa50a7447d937695412880aae45b5db9 d2801ca5aa50a7447d937695412880aae45b5db9 reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt\n1 .M N... 100644 100644 100644 e352828d36513d422444b14d6d6330492247e5ea e352828d36513d422444b14d6d6330492247e5ea reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json\n1 .M N... 100644 100644 100644 6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5 6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5 reports/master_run/20261009/verification/source_readback.json\n1 .M N... 100644 100644 100644 5b030218556c9e8e4cc070b37b53533d2331fab7 5b030218556c9e8e4cc070b37b53533d2331fab7 reports/stage00/commands.jsonl\n1 .M N... 100644 100644 100644 c7c98bd0683dbe19a4f039095df9cc6f6b332254 c7c98bd0683dbe19a4f039095df9cc6f6b332254 reports/stage02/retrieval_progress.json\n1 .M N... 100644 100644 100644 13ca770ae8f0da1b178fd74cad479506d421b921 13ca770ae8f0da1b178fd74cad479506d421b921 reports/stage02/retrieval_progress_resume.json\n1 .M N... 100644 100644 100644 37c66e4a72bae0d4aa24315b8cdd9fee9a63997c 37c66e4a72bae0d4aa24315b8cdd9fee9a63997c reports/stage04/resource_wait_v5/observations.jsonl\n1 .M N... 100644 100644 100644 c8ac770891495eb0b930ad1af86ebab0b106a96c c8ac770891495eb0b930ad1af86ebab0b106a96c reports/stage04/resource_wait_v5_v2/observations.jsonl\n1 .M N... 100644 100644 100644 4bcd842f3c6d77409d7b03889b59e37f963510be 4bcd842f3c6d77409d7b03889b59e37f963510be scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1\n1 .M N... 100644 100644 100644 e877e12f86af8dbaa4a388b41d7d8a36e7f1862a e877e12f86af8dbaa4a388b41d7d8a36e7f1862a scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1\n1 .M N... 100644 100644 100644 b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da scripts/master_run/acquire_public_conda_packages01.py\n1 .M N... 100644 100644 100644 ed49e514afc050ee926ccfc04feec4fdacb997d6 ed49e514afc050ee926ccfc04feec4fdacb997d6 scripts/master_run/atomic_iqtree_windows.py\n1 .M N... 100644 100644 100644 43e86804237aefec9f2530374d9dec2b339e8b90 43e86804237aefec9f2530374d9dec2b339e8b90 scripts/master_run/build_iqtree314_source_recovery01.py\n1 .M N... 100644 100644 100644 a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5 a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5 scripts/master_run/build_master_public_components01.py\n1 .M N... 100644 100644 100644 14a96426e2d46f73277e24fb28969594819005a3 14a96426e2d46f73277e24fb28969594819005a3 scripts/master_run/build_master_public_history_inventory01.py\n1 .M N... 100644 100644 100644 b55de057acc16fa7b14793dd5985d3aa99c739da b55de057acc16fa7b14793dd5985d3aa99c739da scripts/master_run/check_stage06_outputs.py\n1 .M N... 100644 100644 100644 40d06e6f6282ba4adda70abaf135b85c87423ac0 40d06e6f6282ba4adda70abaf135b85c87423ac0 scripts/master_run/continue_public_conda_packages01.py\n1 .M N... 100644 100644 100644 11f1d12a8143a937b345bc497cac0e4467a92d84 11f1d12a8143a937b345bc497cac0e4467a92d84 scripts/master_run/independent_tree_check.py\n1 .M N... 100644 100644 100644 25f0fb99d20d5f612915b91da48041fa017fcb61 25f0fb99d20d5f612915b91da48041fa017fcb61 scripts/master_run/independent_tree_check_attempt01.py\n1 .M N... 100644 100644 100644 cea0794f94692e240dc7cf1d1df77029eff1fe7a cea0794f94692e240dc7cf1d1df77029eff1fe7a scripts/master_run/prepare_old_scientific_emptydirs.py\n1 .M N... 100644 100644 100644 40dd33ad1f088f693d99670bcfd5acc7dd77f18e 40dd33ad1f088f693d99670bcfd5acc7dd77f18e scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py\n1 .M N... 100644 100644 100644 2b0e66dbb44bececf59c47c3fa69f098378a0f78 2b0e66dbb44bececf59c47c3fa69f098378a0f78 scripts/master_run/prune_old_scientific_directories.py\n1 .M N... 100644 100644 100644 71546f8a7908cdbd0c26bace444ed864059f9ab5 71546f8a7908cdbd0c26bace444ed864059f9ab5 scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md\n1 .M N... 100644 100644 100644 91ff3a6c4c28853b252a040660d5748b0b3cb869 91ff3a6c4c28853b252a040660d5748b0b3cb869 scripts/master_run/stage05_curation/accepted_source_pins.json\n1 .M N... 100644 100644 100644 1ea68ba3b02a7e0874b5847199acef41a3099f2c 1ea68ba3b02a7e0874b5847199acef41a3099f2c scripts/master_run/stage05_curation/pinned_model_candidate_scope.json\n1 .M N... 100644 100644 100644 4ff06a74d1fb361e17a102542551eb4a5cba33f8 4ff06a74d1fb361e17a102542551eb4a5cba33f8 scripts/master_run/stage05_curation/retained/independent_curated_v2.py\n1 .M N... 100644 100644 100644 af55ec22f0ed453cab326b87183e01275a53ac85 af55ec22f0ed453cab326b87183e01275a53ac85 scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py\n1 .M N... 100644 100644 100644 4563d50ae49572c69e61b4210b6209341552ae47 4563d50ae49572c69e61b4210b6209341552ae47 scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py\n1 .M N... 100644 100644 100644 8d139b2fa6adda6776e36820aea4633768cf8025 8d139b2fa6adda6776e36820aea4633768cf8025 scripts/master_run/stage05_curation/retained/stage05_evidence.py\n1 .M N... 100644 100644 100644 6c4d865eb032d4d7e0591e565425739ec8dcecf0 6c4d865eb032d4d7e0591e565425739ec8dcecf0 scripts/master_run/stage05_curation/stage05_architecture_policy.py\n1 .M N... 100644 100644 100644 52dfc96794d2e0b8d962b626466df9d2ccedffc4 52dfc96794d2e0b8d962b626466df9d2ccedffc4 scripts/master_run/stage05_curation/stage05_curation_atomic.py\n1 .M N... 100644 100644 100644 8849ae53b5b37acf08182b1e3037764ef8b06c2b 8849ae53b5b37acf08182b1e3037764ef8b06c2b scripts/master_run/stage05_curation/test_independent_curation.py\n1 .M N... 100644 100644 100644 d42511e922a09eaa4b3669abbc1945f54b9544e9 d42511e922a09eaa4b3669abbc1945f54b9544e9 scripts/master_run/stage05_curation/validate_atomic_curation.py\n1 .M N... 100644 100644 100644 e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a scripts/master_run/stage06_render.py\n1 .M N... 100644 100644 100644 91ff3a6c4c28853b252a040660d5748b0b3cb869 91ff3a6c4c28853b252a040660d5748b0b3cb869 scripts/master_run/stage5_accepted_source_pins.json\n1 .M N... 100644 100644 100644 f502382447ac5c98c82d14914af2c375204ce166 f502382447ac5c98c82d14914af2c375204ce166 scripts/master_run/stage5_atomic.py\n1 .M N... 100644 100644 100644 7f18a2d7e138246843833f602644c60bfb589379 7f18a2d7e138246843833f602644c60bfb589379 scripts/master_run/stage5_atomic_process.py\n1 .M N... 100644 100644 100644 83fe1686e68758ba838e57a1008f112aa931bbf1 83fe1686e68758ba838e57a1008f112aa931bbf1 scripts/master_run/stage5_setup_windows.py\n1 .M N... 100644 100644 100644 9d422744ed16c89d311c98efc3f3a02b2870cec1 9d422744ed16c89d311c98efc3f3a02b2870cec1 scripts/master_run/stage5_unc_bind_probe.py\n1 .M N... 100644 100644 100644 60b4f0cfc83d646cb57b9cc0843341024967a00a 60b4f0cfc83d646cb57b9cc0843341024967a00a scripts/master_run/stage5_windows_owner.py\n1 .M N... 100644 100644 100644 f1f31e8337916b4f0c68323f80b24e26eab829dd f1f31e8337916b4f0c68323f80b24e26eab829dd scripts/master_run/test_stage5_atomic.py\n1 .M N... 100644 100644 100644 503e87d2fe06d8e0bec35e347d64f72815dacc58 503e87d2fe06d8e0bec35e347d64f72815dacc58 scripts/master_run/verify_batch03_mapping_archive_remote.py\n1 .M N... 100644 100644 100644 164ca2d92a74c22dee18b05e0e2388061cdcd8ff 164ca2d92a74c22dee18b05e0e2388061cdcd8ff scripts/master_run/verify_directory_handle_prune.py\n1 .M N... 100644 100644 100644 83f9e19dc5154a5a74dc91b0ac3c781de3288c3f 83f9e19dc5154a5a74dc91b0ac3c781de3288c3f scripts/master_run/verify_directory_handle_prune_attempt01.py\n1 .M N... 100644 100644 100644 5b9ea3d399361313e125cf89caf819b7954bd887 5b9ea3d399361313e125cf89caf819b7954bd887 scripts/master_run/verify_iqtree314_source_recovery01_remote.py\n1 .M N... 100644 100644 100644 5b7372322bb5a88a42351e5f21ebf1a3c99c42b6 5b7372322bb5a88a42351e5f21ebf1a3c99c42b6 scripts/master_run/verify_master_batch03_leaf_purge.py\n1 .M N... 100644 100644 100644 76c00f155003950e50766bc6701c5bd3410ece06 76c00f155003950e50766bc6701c5bd3410ece06 scripts/master_run/verify_master_public_components01_remote.py\n1 .M N... 100644 100644 100644 7c43d8b79235970cca376f4461f9b25d236e40eb 7c43d8b79235970cca376f4461f9b25d236e40eb scripts/master_run/verify_master_public_history02_remote.py\n1 .M N... 100644 100644 100644 f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed scripts/master_run/verify_master_public_history_inventory01_remote.py\n1 .M N... 100644 100644 100644 315650a6aae689175177ef95409ebb3adffa7cb0 315650a6aae689175177ef95409ebb3adffa7cb0 scripts/master_run/verify_public_conda_packages01_remote.py\n1 .M N... 100644 100644 100644 619a174b664ec1882b7403d4b944fc98be6c4bc9 619a174b664ec1882b7403d4b944fc98be6c4bc9 scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py\n1 .M N... 100644 100644 100644 07d8e5ddd1035dc369dce60f256b87b3a42e66c3 07d8e5ddd1035dc369dce60f256b87b3a42e66c3 status/continuation_execution_receipt.json\n",
+  "unstaged": "M\treports/stage00/commands.jsonl\nM\treports/stage02/retrieval_progress.json\nM\treports/stage02/retrieval_progress_resume.json\nM\treports/stage04/resource_wait_v5/observations.jsonl\nM\treports/stage04/resource_wait_v5_v2/observations.jsonl\nM\tstatus/continuation_execution_receipt.json\n",
+  "staged": "",
+  "numstat": "36\t0\treports/stage00/commands.jsonl\n202\t4\treports/stage02/retrieval_progress.json\n70\t4\treports/stage02/retrieval_progress_resume.json\n3\t0\treports/stage04/resource_wait_v5/observations.jsonl\n3\t0\treports/stage04/resource_wait_v5_v2/observations.jsonl\n2\t2\tstatus/continuation_execution_receipt.json\n",
+  "planned_commit_changes": "M\tSTATUS.md\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/ASSETS_PLAN.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/INDEPENDENT_LOCAL_READBACK.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_DIAGNOSIS.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_FAILED.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_ATTEMPT01_PUBLIC_GIT_TREE.txt\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READBACK.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_INDEPENDENT_SOURCE_REVIEW.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_METHODS.md\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READER_PREPARATION.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/UPLOAD.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS.md\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS_draft_e5e6.md\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_builder_independent_review.json\nA\treports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_preparation.json\nA\treports/master_run/20261009/preparation/stage04_primary196_remote_reader_preparation.json\nA\treports/master_run/20261009/preparation/stage04_remote_expected.json\nA\treports/master_run/20261009/preparation/stage04_remote_reader_independent_source_review.json\nA\treports/master_run/20261009/publication/CANONICAL_POST_NATIVE_FAST_FORWARD01.json\nA\treports/master_run/20261009/publication/master_acceptance_setup11_git_objects.json\nA\treports/master_run/20261009/publication/master_acceptance_setup11_remote_readback.json\nA\treports/master_run/20261009/publication/master_failure_closure14_git_objects.json\nA\treports/master_run/20261009/publication/master_failure_closure14_remote_readback.json\nA\treports/master_run/20261009/publication/master_idle_readers13_git_objects.json\nA\treports/master_run/20261009/publication/master_idle_readers13_remote_readback.json\nA\treports/master_run/20261009/publication/master_toolchain12_git_objects.json\nA\treports/master_run/20261009/publication/master_toolchain12_git_objects_final.json\nA\treports/master_run/20261009/publication/master_toolchain12_git_plan_before_status_wording.json\nA\treports/master_run/20261009/publication/master_toolchain12_remote_readback.json\nA\treports/master_run/20261009/stage04/INDEPENDENT_FRESH_REMOTE_READBACK.json\nA\treports/master_run/20261009/stage04/PUBLICATION_FINAL.json\nA\treports/master_run/20261009/stage04/PUBLICATION_PREPARATION.json\nA\treports/master_run/20261009/stage04/RELEASE_NOTES.md\nA\treports/master_run/20261009/stage05_curation/CLOSED_GENOME_HANDOFF.md\nA\treports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_INDEPENDENT_REVIEW.json\nA\treports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_METHODS.md\nA\treports/master_run/20261009/stage05_curation/SINGLE_GENOME_AUDIT_PREPARATION.json\nA\treports/master_run/20261009/stage5/actual/LEGACY_TASKS_ALL18_DISABLED.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/actual_owner_lock.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/launch.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/linux_terminal.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/lock_released.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/owner_lease.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/result.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stderr.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_diagnose_actual_postiq_01/wsl.stdout.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/actual_owner_lock.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/launch.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/lock_released.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/owner_lease.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/result.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/wsl.stderr.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_runtime_actual_postiq_01/wsl.stdout.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/actual_owner_lock.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/admission.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands.jsonl\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/admission.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/latest_admission.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.closure.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.command.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.launch.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.launch_intent.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.stderr.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/commands/mount_toolchain.stdout.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/latest_admission.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/launch.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/linux_terminal.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/lock_released.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/owner_lease.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/result.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/toolchain_proof.json\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/wsl.stderr.txt\nA\treports/master_run/20261009/stage5/actual/stage5_setup_toolchain_actual_postiq_01/wsl.stdout.txt\nA\treports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_LINUX_OBSERVATION.json\nA\treports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_RECEIPT.json\nA\treports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_STDERR.txt\nA\treports/master_run/20261009/stage5/failed_scope_diagnostic01/INDEPENDENT_SOURCE_REVIEW.json\nA\treports/master_run/20261009/stage5/idle_repair13/ACTUAL_EXECUTION_RECEIPT.json\nA\treports/master_run/20261009/stage5/idle_repair13/INDEPENDENT_SOURCE_REVIEW.json\nA\treports/master_run/20261009/stage5/idle_repair13/ORIGINAL_PREEXEC_STOP_PRESERVED.json\nA\treports/master_run/20261009/stage5/idle_repair13/failed_stop_observation.json\nA\treports/master_run/20261009/stage5/idle_repair13/preparation.json\nA\treports/master_run/20261009/stage5/idle_repair13/wsl_version_observation.json\nA\treports/master_run/20261009/stage5/idle_repair13/wslconfig.after.txt\nA\treports/master_run/20261009/stage5/idle_repair13/wslconfig.before.txt\nA\treports/master_run/20261009/stage5/post_iq_setup/PREEXEC_DELTA_INDEPENDENT_SOURCE_REVIEW.json\nA\treports/master_run/20261009/stage5/setup_failure01/METHODS.md\nA\treports/master_run/20261009/stage5/setup_failure01/PREPARATION.json\nA\treports/master_run/20261009/stage5/setup_failure01/PUBLICATION_FILES.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/PUBLICATION_FILES.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_ACTUAL_CONFIG_AND_CHECKPOINT_METHODS.md\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_CONFIG_FINALIZER_PIN_REFRESH.md\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/actual_owner_lock.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/launch.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/linux_terminal.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/lock_released.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/owner_lease.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/result.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stderr.txt\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stdout.txt\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_actual_config_request.template.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_config_finalizer_pin_refresh_independent_review.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_independent_review.json\nA\treports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_preparation.json\nA\treports/master_run/20261009/stage5/wsl_resource_repair15/INDEPENDENT_SOURCE_REVIEW.json\nA\treports/master_run/20261009/stage5/wsl_resource_repair15/original_failed_stop.json\nA\treports/master_run/20261009/stage5/wsl_resource_repair15/proposal.json\nA\treports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.after.txt\nA\treports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.before.txt\nA\tscripts/master_run/apply_scoped_wsl_resource_repair.py\nA\tscripts/master_run/apply_scoped_wsl_resource_repair_review_draft83045.py\nA\tscripts/master_run/build_directory_prune_execution_archive.py\nA\tscripts/master_run/build_directory_prune_execution_archive_draft150e.py\nA\tscripts/master_run/diagnose_directory_remote_attempt01_mapping.py\nA\tscripts/master_run/diagnose_failed_stage5_scope.py\nA\tscripts/master_run/prepare_master_failure_closure14.py\nA\tscripts/master_run/prepare_master_idle_readers13.py\nA\tscripts/master_run/prepare_master_operational_update.py\nA\tscripts/master_run/prepare_master_resource_setup15.py\nA\tscripts/master_run/repair_wsl_idle_after_preexec_failure.py\nA\tscripts/master_run/repair_wsl_idle_after_preexec_failure_draft839.py\nA\tscripts/master_run/stage05_curation/test_validate_one_atomic_curation.py\nA\tscripts/master_run/stage05_curation/validate_one_atomic_curation.py\nA\tscripts/master_run/stage5_build_actual_config.py\nA\tscripts/master_run/stage5_build_actual_config_before_finalizer.py\nM\tscripts/master_run/stage5_setup_linux.py\nA\tscripts/master_run/stage5_setup_linux_attempt01.py\nA\tscripts/master_run/stage5_setup_linux_before_failure_finalizer.py\nM\tscripts/master_run/stage5_setup_windows.py\nA\tscripts/master_run/stage5_setup_windows_attempt01.py\nA\tscripts/master_run/stage5_setup_windows_before_failure_finalizer.py\nA\tscripts/master_run/test_build_directory_prune_execution_archive.py\nA\tscripts/master_run/test_build_directory_prune_execution_archive_draft2fe5.py\nA\tscripts/master_run/test_scoped_wsl_resource_repair.py\nA\tscripts/master_run/test_stage5_build_actual_config.py\nM\tscripts/master_run/test_stage5_setup.py\nA\tscripts/master_run/test_stage5_setup_attempt01.py\nA\tscripts/master_run/test_stage5_setup_before_failure_finalizer.py\nA\tscripts/master_run/test_verify_directory_prune_execution_remote.py\nA\tscripts/master_run/test_verify_stage04_primary196_remote.py\nA\tscripts/master_run/verify_directory_prune_execution_remote.py\nA\tscripts/master_run/verify_stage04_primary196_remote.py\nA\tscripts/master_run/verify_stage04_primary196_remote_METHODS.md\nM\tstatus/master_run_20261009.json\n",
+  "configuration": "file:C:/Program Files/Git/etc/gitconfig\tcore.autocrlf true\nfile:C:/Program Files/Git/etc/gitconfig\tcore.symlinks true\nfile:.git/config\tcore.filemode false\nfile:.git/config\tcore.ignorecase true\n",
+  "before": {
+    "index_sha256": "8cc1fbd9651748cd3e57fdb20f87240d9da42a647ab0b54f55e42c3ff5a259fe",
+    "index_bytes": 187421,
+    "head_bytes": "ref: refs/heads/main\n"
+  },
+  "after": {
+    "index_sha256": "8cc1fbd9651748cd3e57fdb20f87240d9da42a647ab0b54f55e42c3ff5a259fe",
+    "index_bytes": 187421,
+    "head_bytes": "ref: refs/heads/main\n"
+  },
+  "index_and_HEAD_bytes_unchanged_by_audit": true,
+  "git_markers": {
+    "ORIG_HEAD": {
+      "exists": true,
+      "bytes": 41,
+      "sha256": "0d5cedd5ef06de139fc15eaf8eb258ba3c602987a82ef94358ef0ef4267d6e08",
+      "text": "80331d535d622517adf7921be42fc9931cdc23ee\n"
+    },
+    "MERGE_HEAD": {
+      "exists": false
+    },
+    "MERGE_MSG": {
+      "exists": false
+    },
+    "AUTO_MERGE": {
+      "exists": false
+    },
+    "index.lock": {
+      "exists": false
+    }
+  },
+  "changed_tracked_count": 6,
+  "status_modified_count": 128,
+  "rows": [
+    {
+      "path": "docs/master_run/WORK_REQUEST_20261009.md",
+      "bytes": 26229,
+      "sha256": "bbdc31d5eaaffa73e1fede1a10fe13cce6a2c4cde83adb33f3ec6448bd86094f",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "4369bf29cc82cb0088f76d9d33b996746c746eb5",
+      "crlf_to_lf_blob_oid": "4fdaad2baea97c59cf91250832c7e14277e0e7fe",
+      "crlf_pairs": 798,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4369bf29cc82cb0088f76d9d33b996746c746eb5"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "4369bf29cc82cb0088f76d9d33b996746c746eb5",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4369bf29cc82cb0088f76d9d33b996746c746eb5"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/BATCH01_ARCHIVE_MANIFEST.json",
+      "bytes": 78436,
+      "sha256": "85955929650bbf5563e99461a8e70e6b35d6c6abd5db5b41524ea48f25158452",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "2691ae8f41483e25b9dcc0bd82f253d7c5659c2b",
+      "crlf_to_lf_blob_oid": "2691ae8f41483e25b9dcc0bd82f253d7c5659c2b",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2691ae8f41483e25b9dcc0bd82f253d7c5659c2b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "2691ae8f41483e25b9dcc0bd82f253d7c5659c2b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2691ae8f41483e25b9dcc0bd82f253d7c5659c2b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/BATCH02_REMOTE_ASSET_PINS.json",
+      "bytes": 26821,
+      "sha256": "ffbe524d9650ea0011861002050d79d57ea85144f7db36c7054497484c13d361",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc",
+      "crlf_to_lf_blob_oid": "b4afbd50e6cb85a63d0bfd3a35bb8c36d52c44fe",
+      "crlf_pairs": 465,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1d53bd7ebf9268b9f36cda56699d0b43dd7d9dbc"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/BATCH02_VERIFIED_ALLOWLIST.json",
+      "bytes": 107598,
+      "sha256": "b0b5ed7da87c9c781dba2719ec6474e864ca9b1b241e4c490b35e5da07a0c351",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "3edb8902d9a905688d48d166d3b12d231af2393c",
+      "crlf_to_lf_blob_oid": "fd6df6b8b4aab176c48ba15d16cfee224523c22e",
+      "crlf_pairs": 1652,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "3edb8902d9a905688d48d166d3b12d231af2393c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "3edb8902d9a905688d48d166d3b12d231af2393c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "3edb8902d9a905688d48d166d3b12d231af2393c"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/HISTORY01_BUILD_SOURCE_PINS.json",
+      "bytes": 69026,
+      "sha256": "3891641cd58bb4fa535001c62511f4b5fb93fd393b7ae3c30d02be93248f046e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "c64936af60db32e824918b8a0b09ba402c085210",
+      "crlf_to_lf_blob_oid": "c64936af60db32e824918b8a0b09ba402c085210",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c64936af60db32e824918b8a0b09ba402c085210"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "c64936af60db32e824918b8a0b09ba402c085210",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c64936af60db32e824918b8a0b09ba402c085210"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/HISTORY01_REMOTE_READBACK.json",
+      "bytes": 103840,
+      "sha256": "05bfd17af5fc5b855b595b2690af33f28d2763b00e46d3acf2bba52370c2ee32",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "fcd1db1fd882fc16516de3930d4d1f259926cf04",
+      "crlf_to_lf_blob_oid": "fcd1db1fd882fc16516de3930d4d1f259926cf04",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "fcd1db1fd882fc16516de3930d4d1f259926cf04"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "fcd1db1fd882fc16516de3930d4d1f259926cf04",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "fcd1db1fd882fc16516de3930d4d1f259926cf04"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/INITIAL_INVENTORY.json",
+      "bytes": 64654,
+      "sha256": "0836bf9540e86126d8ac3aaa10187ca7e74e3e0bff483e721f5f31fd6acab382",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "bee134463b9e7a757231fb712e6a9ffa86fa8e7e",
+      "crlf_to_lf_blob_oid": "36941758844baf47580cab484ed4434b0092f701",
+      "crlf_pairs": 1157,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bee134463b9e7a757231fb712e6a9ffa86fa8e7e"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "bee134463b9e7a757231fb712e6a9ffa86fa8e7e",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bee134463b9e7a757231fb712e6a9ffa86fa8e7e"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+      "bytes": 121763,
+      "sha256": "97acdb4da7b82f35550b1cdb646ae8b742ffa4a129134dfba2085dbe45a356f9",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "96bae4d063a18ad604275d4d8b707f421f7fbad8",
+      "crlf_to_lf_blob_oid": "d504d3650de4e4df9dd12de7f47eab9f83f88067",
+      "crlf_pairs": 2029,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "96bae4d063a18ad604275d4d8b707f421f7fbad8"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "96bae4d063a18ad604275d4d8b707f421f7fbad8",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "96bae4d063a18ad604275d4d8b707f421f7fbad8"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/PURGE_01_02_PROPOSED.json",
+      "bytes": 143312,
+      "sha256": "d1011520a531fc8f334c920ad6f206a0b3a0672b167c4e224059e0d9eda127f2",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "56e745af6df35e3a8d506003d35eaae7ef1fc738",
+      "crlf_to_lf_blob_oid": "267c2b57bbe2e66462dd1575bb4ab6aeb57fa2bb",
+      "crlf_pairs": 2694,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "56e745af6df35e3a8d506003d35eaae7ef1fc738"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "56e745af6df35e3a8d506003d35eaae7ef1fc738",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "56e745af6df35e3a8d506003d35eaae7ef1fc738"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/REMOTE_READBACK.json",
+      "bytes": 17392,
+      "sha256": "edb749c997c3d68b061af0441807cd7eb9a8b3df453474d69c740c6640e182d1",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "292e11ab88eecdf6ce6d9e1929b2866d25441ec6",
+      "crlf_to_lf_blob_oid": "292e11ab88eecdf6ce6d9e1929b2866d25441ec6",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "292e11ab88eecdf6ce6d9e1929b2866d25441ec6"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "292e11ab88eecdf6ce6d9e1929b2866d25441ec6",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "292e11ab88eecdf6ce6d9e1929b2866d25441ec6"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+      "bytes": 106714,
+      "sha256": "13d89bbfdd2b768501426493c8de0eac8a4076ed1aca789ab87ea1df759b7f1e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "36e430fe8ae8aa0a82ceab24c478f2b51a900260",
+      "crlf_to_lf_blob_oid": "36e430fe8ae8aa0a82ceab24c478f2b51a900260",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "36e430fe8ae8aa0a82ceab24c478f2b51a900260"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "36e430fe8ae8aa0a82ceab24c478f2b51a900260",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "36e430fe8ae8aa0a82ceab24c478f2b51a900260"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+      "bytes": 263064,
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8",
+      "crlf_to_lf_blob_oid": "d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d4dfbb010f3f35e2e07eb73feb95573b7c4e8ce8"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/INDEPENDENT_LOCAL_READBACK.json",
+      "bytes": 53065,
+      "sha256": "a2b7768d8322f8ecf6ff8252dda8b7de4a5c0f7f87df192a916c13859b183fbe",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "9c47444bf0d51d40aa70643f3a88a9890614802c",
+      "crlf_to_lf_blob_oid": "5585cfef50539cadd23bf3879ae1b0eed0465276",
+      "crlf_pairs": 1324,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9c47444bf0d51d40aa70643f3a88a9890614802c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "9c47444bf0d51d40aa70643f3a88a9890614802c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9c47444bf0d51d40aa70643f3a88a9890614802c"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/LOCAL_READBACK.json",
+      "bytes": 70532,
+      "sha256": "a4e66b639323f33eb9134aace96d385e731186005481f456636e971e63766012",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "0aa671845abe2c84e9be1bd05541ba070f1bf874",
+      "crlf_to_lf_blob_oid": "0aa671845abe2c84e9be1bd05541ba070f1bf874",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0aa671845abe2c84e9be1bd05541ba070f1bf874"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "0aa671845abe2c84e9be1bd05541ba070f1bf874",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0aa671845abe2c84e9be1bd05541ba070f1bf874"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/REMOTE_READBACK.json",
+      "bytes": 72246,
+      "sha256": "115f0e5008698a6d6fa93e1724a5acdf6b43b4445976f9dfb290c1e127b7fe6b",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "23719866414765ec47efe3dc147f0c3180ddb5c7",
+      "crlf_to_lf_blob_oid": "23719866414765ec47efe3dc147f0c3180ddb5c7",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "23719866414765ec47efe3dc147f0c3180ddb5c7"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "23719866414765ec47efe3dc147f0c3180ddb5c7",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "23719866414765ec47efe3dc147f0c3180ddb5c7"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/SHA256SUMS.txt",
+      "bytes": 29092,
+      "sha256": "a02348d87b610a88f468eacbf868a6ae646a42efd1a56a43462ae81598331d95",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "67a8c8b57762752999606c8db24995f8e0add5ae",
+      "crlf_to_lf_blob_oid": "67a8c8b57762752999606c8db24995f8e0add5ae",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "67a8c8b57762752999606c8db24995f8e0add5ae"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "67a8c8b57762752999606c8db24995f8e0add5ae",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "67a8c8b57762752999606c8db24995f8e0add5ae"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/build_receipt.json",
+      "bytes": 57464,
+      "sha256": "799ba81f16bf0bd523a450a065d94ced878d5faf1b96decc8212675f2ebd8ee9",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "a931888241d9a419d7551e96bfcc10064561990a",
+      "crlf_to_lf_blob_oid": "a931888241d9a419d7551e96bfcc10064561990a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a931888241d9a419d7551e96bfcc10064561990a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "a931888241d9a419d7551e96bfcc10064561990a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a931888241d9a419d7551e96bfcc10064561990a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/inspection01/decisions.jsonl",
+      "bytes": 244062,
+      "sha256": "2f5fadd494c6fc61affa77182674e260d7b2a9bb14e11798dfd0389a994e8d19",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "6bee466770f89c1a7fb3feead4a107a7d09012ee",
+      "crlf_to_lf_blob_oid": "6bee466770f89c1a7fb3feead4a107a7d09012ee",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6bee466770f89c1a7fb3feead4a107a7d09012ee"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "6bee466770f89c1a7fb3feead4a107a7d09012ee",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6bee466770f89c1a7fb3feead4a107a7d09012ee"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/inspection01/selection.json",
+      "bytes": 89999,
+      "sha256": "c73343901656721e52291e0b0f82b14efafbf7bd5358dd05b9e3dace288a79db",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f7b0569c46aab3fbe57a139c5a10b73e789c1680",
+      "crlf_to_lf_blob_oid": "f7b0569c46aab3fbe57a139c5a10b73e789c1680",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f7b0569c46aab3fbe57a139c5a10b73e789c1680"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f7b0569c46aab3fbe57a139c5a10b73e789c1680",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f7b0569c46aab3fbe57a139c5a10b73e789c1680"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/old_checkout_git_preservation_metadata.json",
+      "bytes": 153576,
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_to_lf_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/original_mapping.json",
+      "bytes": 159460,
+      "sha256": "765794bdb20fbb085cbeb7b87968ac84247e2e1ea160c8ebe77520f3ad958f91",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "a273a55748976abd79a7e3c6d3f83dcd3f4cef42",
+      "crlf_to_lf_blob_oid": "a273a55748976abd79a7e3c6d3f83dcd3f4cef42",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a273a55748976abd79a7e3c6d3f83dcd3f4cef42"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "a273a55748976abd79a7e3c6d3f83dcd3f4cef42",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a273a55748976abd79a7e3c6d3f83dcd3f4cef42"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/scope01/public_files.json",
+      "bytes": 380143,
+      "sha256": "3738dd30ea17273164e30dc26d49a9be05031870fe00d1c38d6b4fb2fe598be7",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "9fdda6404e6a3361400b651dc1905b8224248bce",
+      "crlf_to_lf_blob_oid": "9fdda6404e6a3361400b651dc1905b8224248bce",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9fdda6404e6a3361400b651dc1905b8224248bce"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "9fdda6404e6a3361400b651dc1905b8224248bce",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9fdda6404e6a3361400b651dc1905b8224248bce"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/changed_history01/scope02/public_files.json",
+      "bytes": 381575,
+      "sha256": "fb80c41a18c9055a5c1c9748ad083e419b61a0919e7813a497f5ca8441aa1796",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "31d58c7e18363a304d00c8e85e3e6a73e5acf39d",
+      "crlf_to_lf_blob_oid": "31d58c7e18363a304d00c8e85e3e6a73e5acf39d",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "31d58c7e18363a304d00c8e85e3e6a73e5acf39d"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "31d58c7e18363a304d00c8e85e3e6a73e5acf39d",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "31d58c7e18363a304d00c8e85e3e6a73e5acf39d"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+      "bytes": 139574,
+      "sha256": "02d56dc933db94af3b93a737e55ffd4463cdc88e9e96cb885c02bc6311b6ea6a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "13ba797fcde24e8c78f3b45a00d928e769cfedc7",
+      "crlf_to_lf_blob_oid": "13ba797fcde24e8c78f3b45a00d928e769cfedc7",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "13ba797fcde24e8c78f3b45a00d928e769cfedc7"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "13ba797fcde24e8c78f3b45a00d928e769cfedc7",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "13ba797fcde24e8c78f3b45a00d928e769cfedc7"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/build_receipt.json",
+      "bytes": 121926,
+      "sha256": "66f250b24ce4978d7a9d34f8b40577bf1485f71779803a455e8551e090941931",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a",
+      "crlf_to_lf_blob_oid": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e07aa7ea95f7e073f903c4d5bc4bf3cfd8cef82a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/detector_package_manifest.json",
+      "bytes": 206293,
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+      "crlf_to_lf_blob_oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/downloaded_packages.jsonl",
+      "bytes": 257356,
+      "sha256": "07a819ee3d4871abd40cce03f969cf44ffc98884f696d7bac2f2cc80ecfc992b",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768",
+      "crlf_to_lf_blob_oid": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "23c8b7c435ceb9d4f6620f5ab3db8fcbd6210768"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/host_package_manifest.json",
+      "bytes": 116540,
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+      "crlf_to_lf_blob_oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/package_index.json",
+      "bytes": 578292,
+      "sha256": "f016dc25c7c4fc7aa167ed22eeb4cd434f71d6d6b9cab50c0e47ff5bbb4a6233",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "6e06d503708e9c0e4226fb4602c045262a721ffb",
+      "crlf_to_lf_blob_oid": "6e06d503708e9c0e4226fb4602c045262a721ffb",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6e06d503708e9c0e4226fb4602c045262a721ffb"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "6e06d503708e9c0e4226fb4602c045262a721ffb",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6e06d503708e9c0e4226fb4602c045262a721ffb"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/recovery_plan.json",
+      "bytes": 74643,
+      "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+      "crlf_to_lf_blob_oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/conda_packages01/resources.jsonl",
+      "bytes": 1651122,
+      "sha256": "3709922b6e145704fd33729be9ee58bb7e33b7a2ea5a1ab7506eea6951fa5e8d",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210",
+      "crlf_to_lf_blob_oid": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d263a650b8f19d3138ce07c77fb1ff99c2f8b210"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json",
+      "bytes": 52780,
+      "sha256": "2deb1c11d4b0e8170fe5f098e8567a8feb13d2a6aee71e76fcc28a67cf5a3a30",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "bb37de93132d04efbbe76a5a11dd7905d2cff923",
+      "crlf_to_lf_blob_oid": "bb37de93132d04efbbe76a5a11dd7905d2cff923",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bb37de93132d04efbbe76a5a11dd7905d2cff923"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "bb37de93132d04efbbe76a5a11dd7905d2cff923",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bb37de93132d04efbbe76a5a11dd7905d2cff923"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json",
+      "bytes": 38595,
+      "sha256": "00ce955aa08315ec53510375c0b323000126a01e9ffd9837b0a6e037fe93d780",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "0eb765efe2bec4e7fdbc5496e12c74585dca5150",
+      "crlf_to_lf_blob_oid": "0eb765efe2bec4e7fdbc5496e12c74585dca5150",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0eb765efe2bec4e7fdbc5496e12c74585dca5150"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "0eb765efe2bec4e7fdbc5496e12c74585dca5150",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0eb765efe2bec4e7fdbc5496e12c74585dca5150"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+      "bytes": 17164,
+      "sha256": "6729df70a06247d59ff844700ccaeeb997916e82e210c57026fde1c039f70381",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8",
+      "crlf_to_lf_blob_oid": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/old_checkout_git_preservation_metadata.json",
+      "bytes": 153576,
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_to_lf_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/INDEPENDENT_POSTVERIFY.json",
+      "bytes": 2421914,
+      "sha256": "7820c5048722f517c291f7eab74ea7199197c1ed354b90f3bdfe4df5a35889dd",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "bac73fe1f2528d41602fc3684b7895c5f63c1505",
+      "crlf_to_lf_blob_oid": "bac73fe1f2528d41602fc3684b7895c5f63c1505",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bac73fe1f2528d41602fc3684b7895c5f63c1505"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "bac73fe1f2528d41602fc3684b7895c5f63c1505",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bac73fe1f2528d41602fc3684b7895c5f63c1505"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+      "bytes": 16861,
+      "sha256": "202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082",
+      "crlf_to_lf_blob_oid": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+      "bytes": 315914,
+      "sha256": "d83aaff2695920d475742ace6c710255a326642222a5db771b95ec2d809b0ecb",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f5e229764babd559c75cb628b24be3fe854e996f",
+      "crlf_to_lf_blob_oid": "f5e229764babd559c75cb628b24be3fe854e996f",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f5e229764babd559c75cb628b24be3fe854e996f"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f5e229764babd559c75cb628b24be3fe854e996f",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f5e229764babd559c75cb628b24be3fe854e996f"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02/build_receipt.json",
+      "bytes": 261761,
+      "sha256": "6c24aca7edaf790b740bc55626c08d8e2f7e42c9695378b9e571053f2a24d64a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "5136847279f7acf02144da6ae6c173d9d228768d",
+      "crlf_to_lf_blob_oid": "5136847279f7acf02144da6ae6c173d9d228768d",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5136847279f7acf02144da6ae6c173d9d228768d"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5136847279f7acf02144da6ae6c173d9d228768d",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5136847279f7acf02144da6ae6c173d9d228768d"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02/inspection/manual_scope_review.json",
+      "bytes": 30136,
+      "sha256": "f88fab6380b6c3a4dd4339b3a4d1c12af3974f86080ec1d540e424b475dd86cb",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "dfe217084b88e4064b9d59579b01e262094df87d",
+      "crlf_to_lf_blob_oid": "dfe217084b88e4064b9d59579b01e262094df87d",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "dfe217084b88e4064b9d59579b01e262094df87d"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "dfe217084b88e4064b9d59579b01e262094df87d",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "dfe217084b88e4064b9d59579b01e262094df87d"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02/original_member_mapping.json",
+      "bytes": 642363,
+      "sha256": "014a540f8bfb11a31c9ea5d709562ea3669894b70fa2d300999b0a3df450c6cf",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "820e6d5b8baf3233f7edaf76b39d406cf1e02cc2",
+      "crlf_to_lf_blob_oid": "820e6d5b8baf3233f7edaf76b39d406cf1e02cc2",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "820e6d5b8baf3233f7edaf76b39d406cf1e02cc2"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "820e6d5b8baf3233f7edaf76b39d406cf1e02cc2",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "820e6d5b8baf3233f7edaf76b39d406cf1e02cc2"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/EXECUTION_JOURNAL.jsonl",
+      "bytes": 640128,
+      "sha256": "da3ad3d819c11462eac8e9e5f9c18096706148ef9f10441274fff804d6e32a81",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "75650047e1a5a8afe6b3c93b5636f5867d4849b9",
+      "crlf_to_lf_blob_oid": "75f2200951f03b1d9ad6b5ef39d251b80784252a",
+      "crlf_pairs": 1676,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "75650047e1a5a8afe6b3c93b5636f5867d4849b9"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "75650047e1a5a8afe6b3c93b5636f5867d4849b9",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "75650047e1a5a8afe6b3c93b5636f5867d4849b9"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+      "bytes": 595858,
+      "sha256": "6377f16835472951ccbe1bee5e15a25fb2d675d2a7edf24d656d34f008770b22",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "0806defc183298739638264213d6b77bed3e342f",
+      "crlf_to_lf_blob_oid": "0806defc183298739638264213d6b77bed3e342f",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0806defc183298739638264213d6b77bed3e342f"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "0806defc183298739638264213d6b77bed3e342f",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "0806defc183298739638264213d6b77bed3e342f"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/ACQUISITION_RECEIPT.json",
+      "bytes": 2830594,
+      "sha256": "46d1ac0eaa4b72bc935b4c2bb27303f6ee121b8ea24018b97691753b6a8635d6",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b",
+      "crlf_to_lf_blob_oid": "7926c1ca56a6010cd36c14e3afa5b24d76f3e8a1",
+      "crlf_pairs": 68043,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT01_FAILURE.json",
+      "bytes": 730754,
+      "sha256": "c8291a1a496bdff08fe5c2197896b9d781f7c166e358c8a2c37729581415035e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "193bf156279714b36883c262cc3b671059d1427e",
+      "crlf_to_lf_blob_oid": "0f429a977516c7d99103ff00ae4e19300e975cd0",
+      "crlf_pairs": 17570,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/ATTEMPT02_ACQUISITION_RECEIPT.json",
+      "bytes": 2830594,
+      "sha256": "46d1ac0eaa4b72bc935b4c2bb27303f6ee121b8ea24018b97691753b6a8635d6",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b",
+      "crlf_to_lf_blob_oid": "7926c1ca56a6010cd36c14e3afa5b24d76f3e8a1",
+      "crlf_pairs": 68043,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "79ef09fbc65588ad4ba84e658c67c18ac34ac08b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/FIRST_FAILURE_RECEIPT.json",
+      "bytes": 730754,
+      "sha256": "c8291a1a496bdff08fe5c2197896b9d781f7c166e358c8a2c37729581415035e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "193bf156279714b36883c262cc3b671059d1427e",
+      "crlf_to_lf_blob_oid": "0f429a977516c7d99103ff00ae4e19300e975cd0",
+      "crlf_pairs": 17570,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "193bf156279714b36883c262cc3b671059d1427e"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/iqtree314_source01/REMOTE_READBACK.json",
+      "bytes": 40965,
+      "sha256": "016bda9871a4b30e6808d03dad4f9ea60670b3191f167edc15ac5da94d55949e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "7e32501fa525288e5669072952fe8ac4453fc180",
+      "crlf_to_lf_blob_oid": "7e32501fa525288e5669072952fe8ac4453fc180",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7e32501fa525288e5669072952fe8ac4453fc180"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "7e32501fa525288e5669072952fe8ac4453fc180",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7e32501fa525288e5669072952fe8ac4453fc180"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/master_public_history_inventory01_manifest.json",
+      "bytes": 166503,
+      "sha256": "661989add3916e83bb7682e43efa1a1cfcac2a4af9a816f1dbbe8dc9587166fa",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "96b590c4d321e42be562adce968e6092f41fce9d",
+      "crlf_to_lf_blob_oid": "96b590c4d321e42be562adce968e6092f41fce9d",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "96b590c4d321e42be562adce968e6092f41fce9d"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "96b590c4d321e42be562adce968e6092f41fce9d",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "96b590c4d321e42be562adce968e6092f41fce9d"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/old_checkout_git/METADATA.json",
+      "bytes": 153576,
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_to_lf_blob_oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "70d8252df5f9e5160f0de45f3b5b6926fc5fb239"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/detector_package_manifest.json",
+      "bytes": 206293,
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+      "crlf_to_lf_blob_oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1c926dabae6d809a7816bafe81d216a3a27d0a9b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/downloaded_packages.jsonl",
+      "bytes": 59805,
+      "sha256": "b81a17f47442846fd39c0333e7de8f05e0130ff39ea858bdb102fa94f27d3990",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b40f3088a68e2718e6c6eea632e6f7be8be8565b",
+      "crlf_to_lf_blob_oid": "b40f3088a68e2718e6c6eea632e6f7be8be8565b",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b40f3088a68e2718e6c6eea632e6f7be8be8565b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b40f3088a68e2718e6c6eea632e6f7be8be8565b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b40f3088a68e2718e6c6eea632e6f7be8be8565b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/host_package_manifest.json",
+      "bytes": 116540,
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+      "crlf_to_lf_blob_oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5a19d9502ae7ef4a821f9281d2141d3390747c80"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/package_index.json",
+      "bytes": 578198,
+      "sha256": "190737a1a99d6992d8fc81c1ea721e5d0eb404f8ebb3d317de6a1b7ca8435cae",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "a6e4696f0ae035faa004e3bba7376e4b7f9c67d3",
+      "crlf_to_lf_blob_oid": "a6e4696f0ae035faa004e3bba7376e4b7f9c67d3",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a6e4696f0ae035faa004e3bba7376e4b7f9c67d3"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "a6e4696f0ae035faa004e3bba7376e4b7f9c67d3",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a6e4696f0ae035faa004e3bba7376e4b7f9c67d3"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/first_resource_stop/resources.jsonl",
+      "bytes": 78120,
+      "sha256": "023c9e267ddf6c1fb55d22f46c55a40dd0e9c81c5e27282b5e0c02e76b151919",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f828d6582f5d67c6f7ecc03c316dfbaf3850f058",
+      "crlf_to_lf_blob_oid": "f828d6582f5d67c6f7ecc03c316dfbaf3850f058",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f828d6582f5d67c6f7ecc03c316dfbaf3850f058"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f828d6582f5d67c6f7ecc03c316dfbaf3850f058",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f828d6582f5d67c6f7ecc03c316dfbaf3850f058"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/public_conda_packages01/public_conda_packages01_recovery_plan.json",
+      "bytes": 74643,
+      "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+      "crlf_to_lf_blob_oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "197e82e2648a561ddf903deb3c4b4b6909307de0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/SOURCE_PUBLICATION_PLAN.json",
+      "bytes": 91904,
+      "sha256": "e52e54bf7fc7931b74f2fe1eccb12178e3d6d4319bb9d4855b955fa4e08ebff9",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "9042e00b3c4d0a188b19dfe4261d335e26f4de0c",
+      "crlf_to_lf_blob_oid": "9042e00b3c4d0a188b19dfe4261d335e26f4de0c",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9042e00b3c4d0a188b19dfe4261d335e26f4de0c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "9042e00b3c4d0a188b19dfe4261d335e26f4de0c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9042e00b3c4d0a188b19dfe4261d335e26f4de0c"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/independent_inputs/tree_inventory.json",
+      "bytes": 17857,
+      "sha256": "22e7409a325dd19197ec9d0efcb48c553e1d50d1998a995b37bbc11504097384",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "6573a1cb20bccb0917906df0107c10665aca7818",
+      "crlf_to_lf_blob_oid": "dc7a4a37912975ccb9e70fa75048e90e5d05a519",
+      "crlf_pairs": 274,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6573a1cb20bccb0917906df0107c10665aca7818"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "6573a1cb20bccb0917906df0107c10665aca7818",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6573a1cb20bccb0917906df0107c10665aca7818"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/source_readiness01/PER_ACCESSION.jsonl",
+      "bytes": 44189,
+      "sha256": "faa3060d08d7646ab4913108a28ac868699a0bc62fd9f337fc131c98dc9997c8",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606",
+      "crlf_to_lf_blob_oid": "0743c0e87839e2a92f56543a85888b6d5ed5585e",
+      "crlf_pairs": 196,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c1cb6fbc673ee0c9d4d9617e64cf4b3f7c8a3606"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage05_curation/CLASSIFICATION_CONTRACT.md",
+      "bytes": 25565,
+      "sha256": "baba88595d914a666a414d4e7d3250b2b214d1bfa5b188bd7fb32ad33dfa9629",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "261b725cb8d1971894c15bf10941ba9b0a1f2e50",
+      "crlf_to_lf_blob_oid": "261b725cb8d1971894c15bf10941ba9b0a1f2e50",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "261b725cb8d1971894c15bf10941ba9b0a1f2e50"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "261b725cb8d1971894c15bf10941ba9b0a1f2e50",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "261b725cb8d1971894c15bf10941ba9b0a1f2e50"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage05_curation/pinned_model_candidate_scope.json",
+      "bytes": 382623,
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+      "crlf_to_lf_blob_oid": "3257065e7f92eb4820c8402ba0f4adb3ca37c085",
+      "crlf_pairs": 10311,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm.pdf",
+      "bytes": 229642,
+      "sha256": "e0d8f360e886fc8bc456617785cb9afb1f53ebae008fc8bf24de4b59487376b7",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "889c2f2412594653fd2c1edb1323b09ed3faf4b2",
+      "crlf_to_lf_blob_oid": "889c2f2412594653fd2c1edb1323b09ed3faf4b2",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "889c2f2412594653fd2c1edb1323b09ed3faf4b2"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "889c2f2412594653fd2c1edb1323b09ed3faf4b2",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "889c2f2412594653fd2c1edb1323b09ed3faf4b2"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/print_proof_180mm_300dpi.png",
+      "bytes": 1981752,
+      "sha256": "d3d7bbe318e707c5f625fa528d5011e94d837ad7395d1f8f411031628806c9ac",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "559e43b8415fe25d67f0986cd85ff08e95b0785e",
+      "crlf_to_lf_blob_oid": "917585c5219b5686e87694b71f2ee2ec9be0fd84",
+      "crlf_pairs": 61,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "559e43b8415fe25d67f0986cd85ff08e95b0785e"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "559e43b8415fe25d67f0986cd85ff08e95b0785e",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "559e43b8415fe25d67f0986cd85ff08e95b0785e"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/branch_mapping.json",
+      "bytes": 133705,
+      "sha256": "bc9b41e8d0042abd813a311b8465272088a559e38efc963543c376462159444a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "bc539b3969e098966defa07e3321a1b1f2fb2088",
+      "crlf_to_lf_blob_oid": "bc539b3969e098966defa07e3321a1b1f2fb2088",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bc539b3969e098966defa07e3321a1b1f2fb2088"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "bc539b3969e098966defa07e3321a1b1f2fb2088",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "bc539b3969e098966defa07e3321a1b1f2fb2088"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/cell_mapping.tsv",
+      "bytes": 100095,
+      "sha256": "0aaa9ba93d48d95bc369e54dc8272a671ca1e73052838a45459626b78daf6369",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "7a4202588016bc672b63e57aaee765ee7c6b8fbc",
+      "crlf_to_lf_blob_oid": "7a4202588016bc672b63e57aaee765ee7c6b8fbc",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7a4202588016bc672b63e57aaee765ee7c6b8fbc"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "7a4202588016bc672b63e57aaee765ee7c6b8fbc",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7a4202588016bc672b63e57aaee765ee7c6b8fbc"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.pdf",
+      "bytes": 66818,
+      "sha256": "11ab4116c8e868c8a4b61f52bf6cb74a69621ba4cdf9add7bf611ea8af7947fd",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b5b846a5124218f0affc11feb27215e4a7a97719",
+      "crlf_to_lf_blob_oid": "b5b846a5124218f0affc11feb27215e4a7a97719",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b5b846a5124218f0affc11feb27215e4a7a97719"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b5b846a5124218f0affc11feb27215e4a7a97719",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b5b846a5124218f0affc11feb27215e4a7a97719"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/circular_rm.svg",
+      "bytes": 409642,
+      "sha256": "c4c0821790b7bb1f555cd063172288a88046c88b33b8b356eb7de4b0dafeb6b2",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b72c8e9865656f807d2c2c1e7340993ab89f19a0",
+      "crlf_to_lf_blob_oid": "b72c8e9865656f807d2c2c1e7340993ab89f19a0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b72c8e9865656f807d2c2c1e7340993ab89f19a0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b72c8e9865656f807d2c2c1e7340993ab89f19a0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b72c8e9865656f807d2c2c1e7340993ab89f19a0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/rm_type_state.tsv",
+      "bytes": 62575,
+      "sha256": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "crlf_to_lf_blob_oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/render/scene.json",
+      "bytes": 891749,
+      "sha256": "c545de7a9bd968b44adc35ef5467ab9058fd2505bd000869c4bdc06687c31beb",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca",
+      "crlf_to_lf_blob_oid": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c75a1dd6d1249179dcdefed212c3b4a3e530bcca"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage06_density_synthetic_v4/state.tsv",
+      "bytes": 62575,
+      "sha256": "21f22fc4a1fc8da9ed8e92a05b0cab6a8575519efeec8c3a32203b9965611e9a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "crlf_to_lf_blob_oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b3fa5165e9fa074f6c2d88738d036a714e250134"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/preparation/stage5_canonical_source_pins_readback.json",
+      "bytes": 50250,
+      "sha256": "ed503534255e9d7eced3783ad603e05c826f343723f51f834367262f681c7ee1",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "50e802b392804ed21db0545732284915bf5965ff",
+      "crlf_to_lf_blob_oid": "a8e01f9b452abbf91a33ee64edc10070ac068126",
+      "crlf_pairs": 1226,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "50e802b392804ed21db0545732284915bf5965ff"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "50e802b392804ed21db0545732284915bf5965ff",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "50e802b392804ed21db0545732284915bf5965ff"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/publication/COLD_RECOVERY03_REMOTE_READBACK.json",
+      "bytes": 20477,
+      "sha256": "a1a47b816f7278f7e7afe678c91c84430b0c56dcbe00260c4d1af936b3cd8650",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1722dae26d4afeec0a31de4af0ff6771209c994f",
+      "crlf_to_lf_blob_oid": "1722dae26d4afeec0a31de4af0ff6771209c994f",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1722dae26d4afeec0a31de4af0ff6771209c994f"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1722dae26d4afeec0a31de4af0ff6771209c994f",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1722dae26d4afeec0a31de4af0ff6771209c994f"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/COMPLETED_CLEANUP_REMOTE_READBACK.json",
+      "bytes": 18329,
+      "sha256": "7a454d6d451d077b226800fd7afc6831f981af709291485d4a69d4fb36e4d84c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "22a8cf92cf5366b976b628dbce670f12ce27b87d",
+      "crlf_to_lf_blob_oid": "22a8cf92cf5366b976b628dbce670f12ce27b87d",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "22a8cf92cf5366b976b628dbce670f12ce27b87d"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "22a8cf92cf5366b976b628dbce670f12ce27b87d",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "22a8cf92cf5366b976b628dbce670f12ce27b87d"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_PROGRESS02_REMOTE_READBACK.json",
+      "bytes": 21061,
+      "sha256": "be564b72107c1ccc191eddd8639f6957294a4dded567651cd3e2f5565116ac51",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26",
+      "crlf_to_lf_blob_oid": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2fd1be0108557c95a85884dd1bebdcd8aba2ec26"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+      "bytes": 22358,
+      "sha256": "393abb637ce96ced1155c66001184004dfcc09dd578ed083d19769366b6279f6",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "815a7ed733655922ed382c9885b440540e778479",
+      "crlf_to_lf_blob_oid": "815a7ed733655922ed382c9885b440540e778479",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "815a7ed733655922ed382c9885b440540e778479"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "815a7ed733655922ed382c9885b440540e778479",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "815a7ed733655922ed382c9885b440540e778479"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_native_closure10_remote_readback.json",
+      "bytes": 17188,
+      "sha256": "dec371cc22008601adecb4cb730d888ce794888af5d3489411d5a1677786fa7a",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "81e6c5ac753425ce408e827d7716d4b2ef6efd9a",
+      "crlf_to_lf_blob_oid": "81e6c5ac753425ce408e827d7716d4b2ef6efd9a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "81e6c5ac753425ce408e827d7716d4b2ef6efd9a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "81e6c5ac753425ce408e827d7716d4b2ef6efd9a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "81e6c5ac753425ce408e827d7716d4b2ef6efd9a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/snapshots/20261009T182652Z/stdout.txt",
+      "bytes": 35757,
+      "sha256": "260dc45bdf11586224abc9c1b1c42ec656aa354edf50e0b8a3eb78e5e169d39c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "d2801ca5aa50a7447d937695412880aae45b5db9",
+      "crlf_to_lf_blob_oid": "67f01a19b5b5a24c10d3c50e6a3ad2bfd23f92f7",
+      "crlf_pairs": 499,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d2801ca5aa50a7447d937695412880aae45b5db9"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "d2801ca5aa50a7447d937695412880aae45b5db9",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d2801ca5aa50a7447d937695412880aae45b5db9"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "reports/master_run/20261009/verification/cleanup_batch01_fresh_readback.json",
+      "bytes": 50579,
+      "sha256": "759a2cc88b49d9f2cf6cd87145b6db7baf375845ed08c9ba876433d342e0640e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "e352828d36513d422444b14d6d6330492247e5ea",
+      "crlf_to_lf_blob_oid": "e352828d36513d422444b14d6d6330492247e5ea",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e352828d36513d422444b14d6d6330492247e5ea"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "e352828d36513d422444b14d6d6330492247e5ea",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e352828d36513d422444b14d6d6330492247e5ea"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/master_run/20261009/verification/source_readback.json",
+      "bytes": 56532,
+      "sha256": "43c412081291228423931a81fb7392126cf96eddd37b01ec4ac6bf8c6aa00a22",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5",
+      "crlf_to_lf_blob_oid": "6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6cb8e2fcd0f555850734ece0bbc0f306ddc7dde5"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "reports/stage00/commands.jsonl",
+      "bytes": 94845,
+      "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "9b5ef5c6b15dad86542c966b95224804977a6f17",
+      "crlf_to_lf_blob_oid": "2382053ff0f622d6a512cbabca0bbc26731544e4",
+      "crlf_pairs": 44,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b030218556c9e8e4cc070b37b53533d2331fab7"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5b030218556c9e8e4cc070b37b53533d2331fab7",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b030218556c9e8e4cc070b37b53533d2331fab7"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 94845,
+        "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb"
+      },
+      "preexisting_dirty_unchanged": true
+    },
+    {
+      "path": "reports/stage02/retrieval_progress.json",
+      "bytes": 80379,
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "63b4a7c12a56b398d552e86a674983a1961b361e",
+      "crlf_to_lf_blob_oid": "63b4a7c12a56b398d552e86a674983a1961b361e",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c7c98bd0683dbe19a4f039095df9cc6f6b332254"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "c7c98bd0683dbe19a4f039095df9cc6f6b332254",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c7c98bd0683dbe19a4f039095df9cc6f6b332254"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 80379,
+        "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457"
+      },
+      "preexisting_dirty_unchanged": true
+    },
+    {
+      "path": "reports/stage02/retrieval_progress_resume.json",
+      "bytes": 94067,
+      "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "5799f8d731e4fcba88a4876de293d409d36d3d62",
+      "crlf_to_lf_blob_oid": "5799f8d731e4fcba88a4876de293d409d36d3d62",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "13ca770ae8f0da1b178fd74cad479506d421b921"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "13ca770ae8f0da1b178fd74cad479506d421b921",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "13ca770ae8f0da1b178fd74cad479506d421b921"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 94067,
+        "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f"
+      },
+      "preexisting_dirty_unchanged": true
+    },
+    {
+      "path": "reports/stage04/resource_wait_v5/observations.jsonl",
+      "bytes": 6477,
+      "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "0f103073128c4995f010c83be4a40efd733bc37d",
+      "crlf_to_lf_blob_oid": "758d227aa8a809f6844ea3cd13e9141f44dc0788",
+      "crlf_pairs": 27,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "37c66e4a72bae0d4aa24315b8cdd9fee9a63997c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "37c66e4a72bae0d4aa24315b8cdd9fee9a63997c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "37c66e4a72bae0d4aa24315b8cdd9fee9a63997c"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 6477,
+        "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e"
+      },
+      "preexisting_dirty_unchanged": true
+    },
+    {
+      "path": "reports/stage04/resource_wait_v5_v2/observations.jsonl",
+      "bytes": 13626,
+      "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "727afc1e941d78385abf1b13e865e911b735cd7e",
+      "crlf_to_lf_blob_oid": "c56a88cacc109d9420ff4bc91c207b98923b91a1",
+      "crlf_pairs": 57,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c8ac770891495eb0b930ad1af86ebab0b106a96c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "c8ac770891495eb0b930ad1af86ebab0b106a96c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "c8ac770891495eb0b930ad1af86ebab0b106a96c"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 13626,
+        "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15"
+      },
+      "preexisting_dirty_unchanged": true
+    },
+    {
+      "path": "scripts/master_run/Invoke-MasterBatch03LeafPurge.ps1",
+      "bytes": 17891,
+      "sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "4bcd842f3c6d77409d7b03889b59e37f963510be",
+      "crlf_to_lf_blob_oid": "4bcd842f3c6d77409d7b03889b59e37f963510be",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4bcd842f3c6d77409d7b03889b59e37f963510be"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "4bcd842f3c6d77409d7b03889b59e37f963510be",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4bcd842f3c6d77409d7b03889b59e37f963510be"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+      "bytes": 23655,
+      "sha256": "7d0c7aeefb86187b8d753b4a83deb62b82272591ae7ebb442dc96c428ea86efb",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "e877e12f86af8dbaa4a388b41d7d8a36e7f1862a",
+      "crlf_to_lf_blob_oid": "e877e12f86af8dbaa4a388b41d7d8a36e7f1862a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e877e12f86af8dbaa4a388b41d7d8a36e7f1862a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "e877e12f86af8dbaa4a388b41d7d8a36e7f1862a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e877e12f86af8dbaa4a388b41d7d8a36e7f1862a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/acquire_public_conda_packages01.py",
+      "bytes": 18038,
+      "sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da",
+      "crlf_to_lf_blob_oid": "b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b9f2d2dfd0ca23dc147d01b2cc37392c42bba2da"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/atomic_iqtree_windows.py",
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "ed49e514afc050ee926ccfc04feec4fdacb997d6",
+      "crlf_to_lf_blob_oid": "ed49e514afc050ee926ccfc04feec4fdacb997d6",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "ed49e514afc050ee926ccfc04feec4fdacb997d6"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "ed49e514afc050ee926ccfc04feec4fdacb997d6",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "ed49e514afc050ee926ccfc04feec4fdacb997d6"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/build_iqtree314_source_recovery01.py",
+      "bytes": 21367,
+      "sha256": "236eb2cd7c949decff5336978ab5cc965f115262c59ec65fb4ff25f293332242",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "43e86804237aefec9f2530374d9dec2b339e8b90",
+      "crlf_to_lf_blob_oid": "43e86804237aefec9f2530374d9dec2b339e8b90",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "43e86804237aefec9f2530374d9dec2b339e8b90"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "43e86804237aefec9f2530374d9dec2b339e8b90",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "43e86804237aefec9f2530374d9dec2b339e8b90"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/build_master_public_components01.py",
+      "bytes": 18398,
+      "sha256": "352f8fd6e7b1419a923d89b162b7bdad11b8e161f45f0ec83c0a7b285a5fc4a6",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5",
+      "crlf_to_lf_blob_oid": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/build_master_public_history_inventory01.py",
+      "bytes": 20291,
+      "sha256": "a8c9283e33939247143471a8dafc07f9b1c596510ed7776651cdb6ab778c113d",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "14a96426e2d46f73277e24fb28969594819005a3",
+      "crlf_to_lf_blob_oid": "14a96426e2d46f73277e24fb28969594819005a3",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "14a96426e2d46f73277e24fb28969594819005a3"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "14a96426e2d46f73277e24fb28969594819005a3",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "14a96426e2d46f73277e24fb28969594819005a3"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/check_stage06_outputs.py",
+      "bytes": 20900,
+      "sha256": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "b55de057acc16fa7b14793dd5985d3aa99c739da",
+      "crlf_to_lf_blob_oid": "b55de057acc16fa7b14793dd5985d3aa99c739da",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b55de057acc16fa7b14793dd5985d3aa99c739da"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "b55de057acc16fa7b14793dd5985d3aa99c739da",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "b55de057acc16fa7b14793dd5985d3aa99c739da"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/continue_public_conda_packages01.py",
+      "bytes": 17531,
+      "sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "40d06e6f6282ba4adda70abaf135b85c87423ac0",
+      "crlf_to_lf_blob_oid": "40d06e6f6282ba4adda70abaf135b85c87423ac0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "40d06e6f6282ba4adda70abaf135b85c87423ac0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "40d06e6f6282ba4adda70abaf135b85c87423ac0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "40d06e6f6282ba4adda70abaf135b85c87423ac0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/independent_tree_check.py",
+      "bytes": 20636,
+      "sha256": "3f35b36eefc022cecb74fd0c4dd49436916acc056b45dde9cfd149edca98a107",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "11f1d12a8143a937b345bc497cac0e4467a92d84",
+      "crlf_to_lf_blob_oid": "11f1d12a8143a937b345bc497cac0e4467a92d84",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "11f1d12a8143a937b345bc497cac0e4467a92d84"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "11f1d12a8143a937b345bc497cac0e4467a92d84",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "11f1d12a8143a937b345bc497cac0e4467a92d84"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/independent_tree_check_attempt01.py",
+      "bytes": 19406,
+      "sha256": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "25f0fb99d20d5f612915b91da48041fa017fcb61",
+      "crlf_to_lf_blob_oid": "25f0fb99d20d5f612915b91da48041fa017fcb61",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "25f0fb99d20d5f612915b91da48041fa017fcb61"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "25f0fb99d20d5f612915b91da48041fa017fcb61",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "25f0fb99d20d5f612915b91da48041fa017fcb61"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/prepare_old_scientific_emptydirs.py",
+      "bytes": 17692,
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "cea0794f94692e240dc7cf1d1df77029eff1fe7a",
+      "crlf_to_lf_blob_oid": "cea0794f94692e240dc7cf1d1df77029eff1fe7a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "cea0794f94692e240dc7cf1d1df77029eff1fe7a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "cea0794f94692e240dc7cf1d1df77029eff1fe7a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "cea0794f94692e240dc7cf1d1df77029eff1fe7a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/prepare_old_scientific_emptydirs_attempt01.py",
+      "bytes": 17444,
+      "sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "40dd33ad1f088f693d99670bcfd5acc7dd77f18e",
+      "crlf_to_lf_blob_oid": "40dd33ad1f088f693d99670bcfd5acc7dd77f18e",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "40dd33ad1f088f693d99670bcfd5acc7dd77f18e"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "40dd33ad1f088f693d99670bcfd5acc7dd77f18e",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "40dd33ad1f088f693d99670bcfd5acc7dd77f18e"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/prune_old_scientific_directories.py",
+      "bytes": 16820,
+      "sha256": "9b64d17bb2612ce35051b87d77863709d875c1f910865fd6a4db2f6ddd265381",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "2b0e66dbb44bececf59c47c3fa69f098378a0f78",
+      "crlf_to_lf_blob_oid": "2b0e66dbb44bececf59c47c3fa69f098378a0f78",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2b0e66dbb44bececf59c47c3fa69f098378a0f78"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "2b0e66dbb44bececf59c47c3fa69f098378a0f78",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "2b0e66dbb44bececf59c47c3fa69f098378a0f78"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/CLASSIFICATION_CONTRACT.md",
+      "bytes": 26909,
+      "sha256": "28a5b85588a63ea6de0e16715a29366ad039995637c0602a38919cf520ce36ae",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "71546f8a7908cdbd0c26bace444ed864059f9ab5",
+      "crlf_to_lf_blob_oid": "71546f8a7908cdbd0c26bace444ed864059f9ab5",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "71546f8a7908cdbd0c26bace444ed864059f9ab5"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "71546f8a7908cdbd0c26bace444ed864059f9ab5",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "71546f8a7908cdbd0c26bace444ed864059f9ab5"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/accepted_source_pins.json",
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+      "crlf_to_lf_blob_oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/pinned_model_candidate_scope.json",
+      "bytes": 382623,
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+      "crlf_to_lf_blob_oid": "3257065e7f92eb4820c8402ba0f4adb3ca37c085",
+      "crlf_pairs": 10311,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "1ea68ba3b02a7e0874b5847199acef41a3099f2c"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": false
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/retained/independent_curated_v2.py",
+      "bytes": 81418,
+      "sha256": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "4ff06a74d1fb361e17a102542551eb4a5cba33f8",
+      "crlf_to_lf_blob_oid": "4ff06a74d1fb361e17a102542551eb4a5cba33f8",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4ff06a74d1fb361e17a102542551eb4a5cba33f8"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "4ff06a74d1fb361e17a102542551eb4a5cba33f8",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4ff06a74d1fb361e17a102542551eb4a5cba33f8"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/retained/stage05_architecture_policy_original.py",
+      "bytes": 18872,
+      "sha256": "20fb827e8593424194a7defa3a1ac04fc4c1fcef71be26231d369e32146f68de",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "af55ec22f0ed453cab326b87183e01275a53ac85",
+      "crlf_to_lf_blob_oid": "af55ec22f0ed453cab326b87183e01275a53ac85",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "af55ec22f0ed453cab326b87183e01275a53ac85"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "af55ec22f0ed453cab326b87183e01275a53ac85",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "af55ec22f0ed453cab326b87183e01275a53ac85"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/retained/stage05_curation_adapter.py",
+      "bytes": 75098,
+      "sha256": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "4563d50ae49572c69e61b4210b6209341552ae47",
+      "crlf_to_lf_blob_oid": "4563d50ae49572c69e61b4210b6209341552ae47",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4563d50ae49572c69e61b4210b6209341552ae47"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "4563d50ae49572c69e61b4210b6209341552ae47",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "4563d50ae49572c69e61b4210b6209341552ae47"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/retained/stage05_evidence.py",
+      "bytes": 17617,
+      "sha256": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "8d139b2fa6adda6776e36820aea4633768cf8025",
+      "crlf_to_lf_blob_oid": "8d139b2fa6adda6776e36820aea4633768cf8025",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "8d139b2fa6adda6776e36820aea4633768cf8025"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "8d139b2fa6adda6776e36820aea4633768cf8025",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "8d139b2fa6adda6776e36820aea4633768cf8025"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/stage05_architecture_policy.py",
+      "bytes": 21136,
+      "sha256": "942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "6c4d865eb032d4d7e0591e565425739ec8dcecf0",
+      "crlf_to_lf_blob_oid": "6c4d865eb032d4d7e0591e565425739ec8dcecf0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6c4d865eb032d4d7e0591e565425739ec8dcecf0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "6c4d865eb032d4d7e0591e565425739ec8dcecf0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "6c4d865eb032d4d7e0591e565425739ec8dcecf0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/stage05_curation_atomic.py",
+      "bytes": 27453,
+      "sha256": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "52dfc96794d2e0b8d962b626466df9d2ccedffc4",
+      "crlf_to_lf_blob_oid": "52dfc96794d2e0b8d962b626466df9d2ccedffc4",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "52dfc96794d2e0b8d962b626466df9d2ccedffc4"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "52dfc96794d2e0b8d962b626466df9d2ccedffc4",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "52dfc96794d2e0b8d962b626466df9d2ccedffc4"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/test_independent_curation.py",
+      "bytes": 19144,
+      "sha256": "7d580d7add9588f9a8f5dae5626f7b851331e52e46910fd37e0a9e8d450f7280",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "8849ae53b5b37acf08182b1e3037764ef8b06c2b",
+      "crlf_to_lf_blob_oid": "8849ae53b5b37acf08182b1e3037764ef8b06c2b",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "8849ae53b5b37acf08182b1e3037764ef8b06c2b"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "8849ae53b5b37acf08182b1e3037764ef8b06c2b",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "8849ae53b5b37acf08182b1e3037764ef8b06c2b"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage05_curation/validate_atomic_curation.py",
+      "bytes": 51003,
+      "sha256": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "d42511e922a09eaa4b3669abbc1945f54b9544e9",
+      "crlf_to_lf_blob_oid": "d42511e922a09eaa4b3669abbc1945f54b9544e9",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d42511e922a09eaa4b3669abbc1945f54b9544e9"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "d42511e922a09eaa4b3669abbc1945f54b9544e9",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "d42511e922a09eaa4b3669abbc1945f54b9544e9"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage06_render.py",
+      "bytes": 36946,
+      "sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a",
+      "crlf_to_lf_blob_oid": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "e5e4250e7d331d2a284feb5f7b2e2c3a03b2031a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_accepted_source_pins.json",
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+      "crlf_to_lf_blob_oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "91ff3a6c4c28853b252a040660d5748b0b3cb869"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_atomic.py",
+      "bytes": 44516,
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f502382447ac5c98c82d14914af2c375204ce166",
+      "crlf_to_lf_blob_oid": "f502382447ac5c98c82d14914af2c375204ce166",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f502382447ac5c98c82d14914af2c375204ce166"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f502382447ac5c98c82d14914af2c375204ce166",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f502382447ac5c98c82d14914af2c375204ce166"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_atomic_process.py",
+      "bytes": 22244,
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "7f18a2d7e138246843833f602644c60bfb589379",
+      "crlf_to_lf_blob_oid": "7f18a2d7e138246843833f602644c60bfb589379",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7f18a2d7e138246843833f602644c60bfb589379"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "7f18a2d7e138246843833f602644c60bfb589379",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7f18a2d7e138246843833f602644c60bfb589379"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 26673,
+      "sha256": "935a4853f118c52f479de414dfea0c60a7682ede83b911c1b1b995466aaeddee",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "83fe1686e68758ba838e57a1008f112aa931bbf1",
+      "crlf_to_lf_blob_oid": "83fe1686e68758ba838e57a1008f112aa931bbf1",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "83fe1686e68758ba838e57a1008f112aa931bbf1"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "83fe1686e68758ba838e57a1008f112aa931bbf1",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f387a4cd127eb49129ae7cba5d7fce8856b65680"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_unc_bind_probe.py",
+      "bytes": 24115,
+      "sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "9d422744ed16c89d311c98efc3f3a02b2870cec1",
+      "crlf_to_lf_blob_oid": "9d422744ed16c89d311c98efc3f3a02b2870cec1",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9d422744ed16c89d311c98efc3f3a02b2870cec1"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "9d422744ed16c89d311c98efc3f3a02b2870cec1",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "9d422744ed16c89d311c98efc3f3a02b2870cec1"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/stage5_windows_owner.py",
+      "bytes": 17966,
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a",
+      "crlf_to_lf_blob_oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "60b4f0cfc83d646cb57b9cc0843341024967a00a"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/test_stage5_atomic.py",
+      "bytes": 20726,
+      "sha256": "3afb43b782283d8a865fe4f852c7b531c9ff75cefe18f8aa5edc272b0251369d",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f1f31e8337916b4f0c68323f80b24e26eab829dd",
+      "crlf_to_lf_blob_oid": "f1f31e8337916b4f0c68323f80b24e26eab829dd",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f1f31e8337916b4f0c68323f80b24e26eab829dd"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f1f31e8337916b4f0c68323f80b24e26eab829dd",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f1f31e8337916b4f0c68323f80b24e26eab829dd"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_batch03_mapping_archive_remote.py",
+      "bytes": 26216,
+      "sha256": "0ba8a2440ec2dfaa979dd79bfa4929817fe8a75cb0eae439a9c2aa42d919b6c8",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "503e87d2fe06d8e0bec35e347d64f72815dacc58",
+      "crlf_to_lf_blob_oid": "503e87d2fe06d8e0bec35e347d64f72815dacc58",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "503e87d2fe06d8e0bec35e347d64f72815dacc58"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "503e87d2fe06d8e0bec35e347d64f72815dacc58",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "503e87d2fe06d8e0bec35e347d64f72815dacc58"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_directory_handle_prune.py",
+      "bytes": 33328,
+      "sha256": "00db7e85b734743f6bf0cf7c107d271878425ec9b7494df5688a93319cc559f2",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff",
+      "crlf_to_lf_blob_oid": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+      "bytes": 29034,
+      "sha256": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f",
+      "crlf_to_lf_blob_oid": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_iqtree314_source_recovery01_remote.py",
+      "bytes": 20879,
+      "sha256": "c13047a8cec8ccfa5eb9878afb53f16b2fae47f3a80f128b2e204b189c1189f1",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "5b9ea3d399361313e125cf89caf819b7954bd887",
+      "crlf_to_lf_blob_oid": "5b9ea3d399361313e125cf89caf819b7954bd887",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b9ea3d399361313e125cf89caf819b7954bd887"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5b9ea3d399361313e125cf89caf819b7954bd887",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b9ea3d399361313e125cf89caf819b7954bd887"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_master_batch03_leaf_purge.py",
+      "bytes": 17279,
+      "sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "5b7372322bb5a88a42351e5f21ebf1a3c99c42b6",
+      "crlf_to_lf_blob_oid": "5b7372322bb5a88a42351e5f21ebf1a3c99c42b6",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b7372322bb5a88a42351e5f21ebf1a3c99c42b6"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "5b7372322bb5a88a42351e5f21ebf1a3c99c42b6",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "5b7372322bb5a88a42351e5f21ebf1a3c99c42b6"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "bytes": 20111,
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "76c00f155003950e50766bc6701c5bd3410ece06",
+      "crlf_to_lf_blob_oid": "76c00f155003950e50766bc6701c5bd3410ece06",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "76c00f155003950e50766bc6701c5bd3410ece06"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "76c00f155003950e50766bc6701c5bd3410ece06",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "76c00f155003950e50766bc6701c5bd3410ece06"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_master_public_history02_remote.py",
+      "bytes": 17217,
+      "sha256": "205cccefc5511fbbcfcd3eae9e1a26f4e4039939db2fcf6de64516fa4f68f4f4",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "7c43d8b79235970cca376f4461f9b25d236e40eb",
+      "crlf_to_lf_blob_oid": "7c43d8b79235970cca376f4461f9b25d236e40eb",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7c43d8b79235970cca376f4461f9b25d236e40eb"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "7c43d8b79235970cca376f4461f9b25d236e40eb",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "7c43d8b79235970cca376f4461f9b25d236e40eb"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_master_public_history_inventory01_remote.py",
+      "bytes": 27023,
+      "sha256": "5fde368e3c5d2142552f603780ba815740f538cc2ac11d06bbd594a9f58a10ce",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed",
+      "crlf_to_lf_blob_oid": "f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "f8fa0b3a2d958cfb4668ac74dc9d2eae6e0e18ed"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_public_conda_packages01_remote.py",
+      "bytes": 26310,
+      "sha256": "cadeda01183522be585b0f42f240fcaab8bc7a5335937e03b209a04e5ff216ed",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "315650a6aae689175177ef95409ebb3adffa7cb0",
+      "crlf_to_lf_blob_oid": "315650a6aae689175177ef95409ebb3adffa7cb0",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "315650a6aae689175177ef95409ebb3adffa7cb0"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "315650a6aae689175177ef95409ebb3adffa7cb0",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "315650a6aae689175177ef95409ebb3adffa7cb0"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "scripts/master_run/verify_public_conda_packages01_remote_before_owned_monitor.py",
+      "bytes": 22971,
+      "sha256": "c436cafb8154bad608fd0ecde24964acf0339b70c1572c833429702437ec46da",
+      "status_modified": true,
+      "content_diff_modified": false,
+      "actual_blob_oid": "619a174b664ec1882b7403d4b944fc98be6c4bc9",
+      "crlf_to_lf_blob_oid": "619a174b664ec1882b7403d4b944fc98be6c4bc9",
+      "crlf_pairs": 0,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "619a174b664ec1882b7403d4b944fc98be6c4bc9"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "619a174b664ec1882b7403d4b944fc98be6c4bc9",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "619a174b664ec1882b7403d4b944fc98be6c4bc9"
+      },
+      "exact_head_blob": true,
+      "crlf_to_lf_head_blob": true,
+      "exact_target_blob": true,
+      "crlf_to_lf_target_blob": true,
+      "exact_index_blob": true,
+      "crlf_to_lf_index_blob": true
+    },
+    {
+      "path": "status/continuation_execution_receipt.json",
+      "bytes": 877,
+      "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f",
+      "status_modified": true,
+      "content_diff_modified": true,
+      "actual_blob_oid": "8e71834736038e254b14f94b2499eba440632c73",
+      "crlf_to_lf_blob_oid": "46593facf922941203149f4c14e9d0bff7e72457",
+      "crlf_pairs": 20,
+      "head": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "07d8e5ddd1035dc369dce60f256b87b3a42e66c3"
+      },
+      "index": {
+        "mode": "100644",
+        "oid": "07d8e5ddd1035dc369dce60f256b87b3a42e66c3",
+        "stage": 0
+      },
+      "target": {
+        "mode": "100644",
+        "kind": "blob",
+        "oid": "07d8e5ddd1035dc369dce60f256b87b3a42e66c3"
+      },
+      "exact_head_blob": false,
+      "crlf_to_lf_head_blob": false,
+      "exact_target_blob": false,
+      "crlf_to_lf_target_blob": false,
+      "exact_index_blob": false,
+      "crlf_to_lf_index_blob": false,
+      "preexisting_dirty_pin": {
+        "bytes": 877,
+        "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f"
+      },
+      "preexisting_dirty_unchanged": true
+    }
+  ],
+  "six_preexisting_dirty_files_unchanged": true,
+  "tracked_index_diff_from_HEAD": [],
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "0d5cedd5ef06de139fc15eaf8eb258ba3c602987a82ef94358ef0ef4267d6e08",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "rev-parse",
+        "origin/main"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "09829df51096f919a01ba4484557a9388781d39fffa38407940900144cd54197",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "branch",
+        "--show-current"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "6403203dd5a0867eb14d104ee8a73730bd72dd9ad92e78d996a6dba0a5dcfc01",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "status",
+        "--porcelain=v2",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "b1f6b847cb969aac1cc54ac4ab9ac7d9c582dc89679f3732bf523f57ec3de39f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-status"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "82e4e41b42544a7443f4286beb063d7dbeda4abfcdc776122f06334a1e75a5df",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "diff",
+        "--cached",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-status"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--numstat"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "480d0eb49060c2486c257c87c5f9cc8e55e357cb2acb1fff56d6e7292b719e31",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "diff",
+        "--no-ext-diff",
+        "--no-textconv",
+        "--name-status",
+        "80331d535d622517adf7921be42fc9931cdc23ee",
+        "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "db060cd876a885342c87e2dd8691173015dc702e16c0283192d1c48eb5d1c2fb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "config",
+        "--show-origin",
+        "--get-regexp",
+        "^(core\\.(autocrlf|eol|safecrlf|filemode|ignorecase|longpaths|fsmonitor|symlinks|sparsecheckout)|index\\.version|merge\\.ff)$"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "a1a4961ca4c83018feb59955c99a27abf2bbdefb022f11c025e7c6a1828db000",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "ls-tree",
+        "-r",
+        "-z",
+        "80331d535d622517adf7921be42fc9931cdc23ee"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "724545f53c75d95d3cb242690ca59ba6d60182e701539fd3e23065f4d5779333",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "ls-tree",
+        "-r",
+        "-z",
+        "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "94ef7c0e1ce4d774da8494503d6dfb4666979566efa2d951b36a47b44e315114",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "git",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "16bdd23a5bf5649dd31fcf3aea64ed8da8d418224b05877ce5001e08d806e6aa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "G_writes": 0,
+  "Git_mutations": 0,
+  "WSL_starts": 0,
+  "network_calls": 0
+}

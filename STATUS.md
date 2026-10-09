@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T22:58:09.001387+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:02:53.746290+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -45,3 +45,8 @@ Toolchain02 stays FAILED: Windows own-lease replacement returned WinError5; the 
 
 Actual operational update: Actual Stage5 toolchain03 PASS under reviewed bounded lease writer; runtime and model discovery next
 - `stage5_setup_toolchain_actual_postiq_03`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Preserve closed runtime02 Windows commit-reserve failure; publish reviewed exact unchanged Git index re-add and fast-forward repair
+- `stage5_setup_runtime_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.
+
+Runtime02 FAILED at Windows commit headroom1,852,510,208B below the unchanged1,879,048,192B setup gate. Actual discovery process peak sampled RSS60,133,376B; it was terminated through retained native scope after lease invalidation. Retained WSL exit2, empty native scope, STOP removal and original unlock are recorded; no runtime candidate or biological result exists. Host/cache causes require fresh evidence. Canonical Git repair is source-reviewed and prepared, not executed.

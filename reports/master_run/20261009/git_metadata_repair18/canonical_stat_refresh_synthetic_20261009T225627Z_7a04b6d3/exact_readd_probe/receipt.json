@@ -1,0 +1,225 @@
+{
+  "schema": "MASTER_SCOPED_UNCHANGED_READD_SYNTHETIC_PROBE_V1",
+  "state": "PASS_EXACT_UNCHANGED_READD_FIXED_STAT_PRESERVED_ALL_INDEX_OIDS",
+  "dataset_kind": "SYNTHETIC_NONBIOLOGICAL",
+  "source_sha256": "7ec60e0c21ba66be791bf8aaf254b3b999e7717f38eea181f34e399a7d6554ae",
+  "subject_sha256": "ea25b2e4c31767a0e7ee22dcbb5a4bfbaf74f658fedb38696411df0e2388391f",
+  "before_sizes": {
+    "dirty.txt": 5000,
+    "scoped.txt": 1,
+    "untouched.txt": 1
+  },
+  "after_sizes": {
+    "dirty.txt": 5000,
+    "scoped.txt": 5500,
+    "untouched.txt": 1
+  },
+  "all_index_oids_modes_unchanged": true,
+  "out_of_scope_entry_bytes_unchanged": true,
+  "dirty_bytes_unchanged": true,
+  "commands": [
+    {
+      "utc": "2026-10-09T22:57:15.947787+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "optional_index_refresh_enabled": false,
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\exact_readd_probe\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\synthetic_repo",
+      "launch": {
+        "pid": 26792,
+        "creation_filetime": 134360602359536000,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 26792,
+        "creation_filetime": 134360602359536000,
+        "exit_filetime": 134360602360049301,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35606528,
+        "peak_job_committed_bytes": 38326272,
+        "job_cpu_seconds": 0.015625,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "00.stdout.bin",
+        "bytes": 185,
+        "sha256": "95a85e043048d2bf082151d9162c3c05a53472c4705700d5341d48dcee93ccc9"
+      },
+      "stderr": {
+        "path": "00.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.125
+    },
+    {
+      "utc": "2026-10-09T22:57:16.066420+00:00",
+      "args": [
+        "add",
+        "--",
+        "scoped.txt"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "optional_index_refresh_enabled": false,
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\exact_readd_probe\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "add",
+        "--",
+        "scoped.txt"
+      ],
+      "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\synthetic_repo",
+      "launch": {
+        "pid": 12348,
+        "creation_filetime": 134360602360683716,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 12348,
+        "creation_filetime": 134360602360683716,
+        "exit_filetime": 134360602361161490,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35659776,
+        "peak_job_committed_bytes": 38359040,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "01.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "01.stderr.bin",
+        "bytes": 103,
+        "sha256": "d18309ce2927a0b509b15d70decf24b12ce3139001dedf7bd78da8a3230faf44"
+      },
+      "elapsed_seconds": 0.10900000000037835
+    },
+    {
+      "utc": "2026-10-09T22:57:16.200144+00:00",
+      "args": [
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "timeout_seconds": 180,
+      "state": "EXIT0_OWNED_JOB_EMPTY",
+      "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+      "optional_index_refresh_enabled": false,
+      "argv": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "--no-optional-locks",
+        "-c",
+        "core.fsmonitor=false",
+        "-c",
+        "core.hooksPath=C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\exact_readd_probe\\empty_hooks",
+        "-c",
+        "gc.auto=0",
+        "-c",
+        "maintenance.auto=false",
+        "ls-files",
+        "--stage",
+        "-z"
+      ],
+      "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225627Z_7a04b6d3\\synthetic_repo",
+      "launch": {
+        "pid": 22980,
+        "creation_filetime": 134360602362035117,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "terminal": {
+        "pid": 22980,
+        "creation_filetime": 134360602362035117,
+        "exit_filetime": 134360602362439229,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "owned_job": {
+        "peak_process_committed_bytes": 35610624,
+        "peak_job_committed_bytes": 38322176,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      },
+      "owned_closure_proven": true,
+      "stdout": {
+        "path": "02.stdout.bin",
+        "bytes": 185,
+        "sha256": "95a85e043048d2bf082151d9162c3c05a53472c4705700d5341d48dcee93ccc9"
+      },
+      "stderr": {
+        "path": "02.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "elapsed_seconds": 0.09400000000096043
+    }
+  ],
+  "all_owned_jobs_closed": true,
+  "G_accesses": 0
+}

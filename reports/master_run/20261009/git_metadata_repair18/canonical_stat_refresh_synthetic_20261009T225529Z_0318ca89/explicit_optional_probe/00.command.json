@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-09T22:55:57.202209+00:00",
+  "args": [
+    "--optional-locks",
+    "add",
+    "--refresh",
+    "--",
+    "scoped.txt"
+  ],
+  "timeout_seconds": 180,
+  "state": "FAILED_PRESERVED",
+  "git_exe_sha256": "4ab2b391de7fb5eb3afb34b5bd19ee7f71d0450bf7e4c207b201a0392e3825ae",
+  "argv": [
+    "C:\\Program Files\\Git\\cmd\\git.exe",
+    "--no-optional-locks",
+    "-c",
+    "core.fsmonitor=false",
+    "-c",
+    "core.hooksPath=work\\canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89\\explicit_optional_probe\\empty_hooks",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--optional-locks",
+    "add",
+    "--refresh",
+    "--",
+    "scoped.txt"
+  ],
+  "cwd": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_stat_refresh_synthetic_20261009T225529Z_0318ca89\\synthetic_repo",
+  "launch": {
+    "pid": 25308,
+    "creation_filetime": 134360601572132531,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "terminal": {
+    "pid": 25308,
+    "creation_filetime": 134360601572132531,
+    "exit_filetime": 134360601572628091,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 129
+  },
+  "owned_job": {
+    "peak_process_committed_bytes": 35586048,
+    "peak_job_committed_bytes": 38289408,
+    "job_cpu_seconds": 0.03125,
+    "job_active_processes": 0,
+    "job_pids": []
+  },
+  "owned_closure_proven": true,
+  "error_kind": "ValueError",
+  "error_message": "Git command nonzero; inspect retained stderr",
+  "stdout": {
+    "path": "00.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "00.stderr.bin",
+    "bytes": 394,
+    "sha256": "44aed6e76785c8881490eb01b2910634f2c6f666f250dca2fec211884d878642"
+  },
+  "elapsed_seconds": 0.125
+}

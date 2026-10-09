@@ -1,0 +1,60 @@
+{
+  "schema": "MASTER_CANONICAL_FAILED_FF_BYTE_DIAGNOSIS_V1",
+  "state": "READ_ONLY_BYTE_DIAGNOSIS_COMPLETE_REPAIR_NOT_RUN",
+  "utc": "2026-10-09T23:00:18.905319+00:00",
+  "canonical_root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "head": "80331d535d622517adf7921be42fc9931cdc23ee",
+  "fetched_origin_main": "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb",
+  "original_merge_stderr": "NOT_RECORDED",
+  "status_modified_count": 128,
+  "genuine_content_diff_count": 6,
+  "false_status_paths": 122,
+  "false_status_actual_bytes": 26237726,
+  "all_122_raw_blobs_equal_HEAD_and_index": true,
+  "all_122_cached_sizes_undersized": true,
+  "cached_size16384_count": 109,
+  "six_original_dirty_bytes_unchanged": true,
+  "all_index_modes_and_oids_equal_HEAD": true,
+  "staged_content_changes": 0,
+  "index_sha256_before_after": "8cc1fbd9651748cd3e57fdb20f87240d9da42a647ab0b54f55e42c3ff5a259fe",
+  "root_gitattributes": "* -text",
+  "specific_provider_cause": "NOT_ESTABLISHED",
+  "conclusion": "The 122 additional status entries reflect stale undersized index stat metadata, not changed raw file bytes. Exact original merge error branch remains unknown. No repair was performed by this audit.",
+  "original_140_target_added_paths_absent_at_diagnosis": true,
+  "original_target_six_dirty_committed_blobs_unchanged": true,
+  "git_optional_locks_for_all_audit_commands": false,
+  "G_writes": 0,
+  "WSL_starts": 0,
+  "evidence": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\audit_canonical_failed_fast_forward.py",
+      "bytes": 7325,
+      "sha256": "5e86fb7fd234cb8b8340f21b32aa3616e741589f559535cc792b043e7409b840"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_failed_ff_readonly_audit02\\receipt.json",
+      "bytes": 179182,
+      "sha256": "fa3eee3f0209114042c651679cd9b2095594acd8ec71be1345a8282eeea2127a"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_failed_ff_readonly_audit02\\index_stat_cache_proof.json",
+      "bytes": 35986,
+      "sha256": "3c6fa4f720c7dc6b367ea443b99624106e58b28ef24335e93f433299b439d977"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_failed_ff_readonly_audit02\\metadata_followup.json",
+      "bytes": 2581,
+      "sha256": "0ea0bb5e7071fcab1861bf2ebf2280bb0b5f295528562b91f580467298169fad"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_failed_ff_readonly_audit02\\index_debug_all.txt",
+      "bytes": 249457,
+      "sha256": "b6619111860b1871775b64c27dd70bcae5437eebe1ce1ecf803e7aa1d989aa79"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_failed_ff_readonly_audit01\\receipt.json",
+      "bytes": 50961,
+      "sha256": "803b488c1c49c58a6b94ac62e70f37b13bae7b53b4ba92442bb20c9dd5c6eb65"
+    }
+  ]
+}

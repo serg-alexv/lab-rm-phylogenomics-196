@@ -1,0 +1,43 @@
+{
+  "schema": "MASTER_CANONICAL_GIT_METADATA_REPAIR_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_EXACT_SCOPED_UNCHANGED_READD_AND_FAST_FORWARD",
+  "reviewer": "stage5_audit independent of remote_audit author",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\repair_canonical_git_metadata.py",
+      "bytes": 22755,
+      "sha256": "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_git_metadata_repair_plan.json",
+      "bytes": 65969,
+      "sha256": "6c74b71affd58971c4d2693b84aaa029f86d5a4afc4e7bf97a581346695c59d9"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_canonical_git_metadata_repair.py",
+      "bytes": 7599,
+      "sha256": "134f8f7d826d84a869426e3fe6a74c6f462e12fec27516f09cc223b2a3bed11e"
+    }
+  ],
+  "concrete_blockers": [],
+  "reviewed_contracts": [
+    "Exact122 published rawSHA/size and HEAD/index object+mode identity before scoped unchanged re-add; disjoint six genuinely dirty original files preserved along with original index in C.",
+    "All four perpath conversion attributes checked before add: text unset and filter/working-tree-encoding/ident unspecified; core.filemode=false; whole-index object+mode equality required immediately afterward.",
+    "Original main/index/origin/workflowlock and explicit fetched immutable target gates; target cannot alter any of the six dirty committed blobs; changed old paths must match old rawblob and added paths must be absent.",
+    "Only exact add scope and one ff-only merge, no reset/restore/clean/force/automatic retry. Final target/index/changed rawblob/unchanged false122/dirty original bytes/status checks and explicit lock release receipt.",
+    "Owned Git starts suspended, assigned before resume, retained process birth+exit and empty job checks; finite timeout/log limits and only own job/process termination on failure.",
+    "Preserved failed refresh fixture history is not presented as operational success; final exact add route is independently byte-gated and supported by author-reported actual own-C synthetic fixture."
+  ],
+  "test_evidence": {
+    "test_source_read": true,
+    "reviewer_reran": false,
+    "author_actual_fixture_report": "Exact scoped add fixes cached size1 to5500; all indexed OID/modes, out-of-scope entry bytes and genuinely dirty bytes unchanged; author rerunning after final command-config delta.",
+    "reviewer_G_or_git_commands": 0
+  },
+  "limitations": [
+    "Actual G repair and fast-forward NOT_RUN by reviewer; an initial1.5GiB physical+commit gate is used for these bounded lightweight Git commands, not continuous per-command memory admission.",
+    "A failed add/merge/verification may leave preserved index/ref/worktree changes. No rollback is promised or attempted; root must inspect actual failure evidence before any further mutation.",
+    "Root authorizes the exact run and expected-main pin after publication and fixture evidence. This source review does not authorize a wider scope, source cleanup or host wipe."
+  ],
+  "actual_WSL_native_science_G_mutation": "NOT_RUN_BY_REVIEWER"
+}
