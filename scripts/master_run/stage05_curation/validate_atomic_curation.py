@@ -19,6 +19,7 @@ PADLOC_R_SHA='d21ba942e80720d80027aa1740d756322560feaeb168bfa2890640d88950d4c0'
 PADLOC_HMM_SHA='a03df990d47ef40d2573a04d9a0f513e70999c3b9104216e3f6656a9bef8d5da'
 PANEL_SHA='85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6'
 SOURCE_VALIDATION_SHA='260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb'
+SOURCE_PINS_SHA='a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84'
 ALIASES=('source','bundle','execution','inventory','policy','models','padloc_db','environment','reviews')
 TYPES=('I','II','III','IV')
 EXCEPTION_STATES={'FAILED_FATAL','FAILED_RETRYABLE','DEFERRED_RESOURCE','NOT_RUN'}
@@ -46,6 +47,30 @@ def objsha(value):return hashlib.sha256(packed(value).encode()).hexdigest()
 def safe(root,name):
     pp=PurePosixPath(name);must(name and pp.as_posix()==name and not pp.is_absolute() and '..' not in pp.parts and '\\' not in name,'Unsafe native/manifest member')
     p=Path(root).joinpath(*pp.parts).resolve();must(Path(root).resolve() in p.parents,'Member escaped root');return p
+
+def verify_released_source(accession,root,source_receipt):
+    """Independently reopen fixed published source pins; no producer import."""
+    pinfile=HERE/'accepted_source_pins.json'
+    must(sha(pinfile)==SOURCE_PINS_SHA,'Independent accepted-source pin bytes differ')
+    published=read(pinfile)
+    must(published.get('schema')=='STAGE05_ACCEPTED_SOURCE_PINS_V1'
+         and published.get('approved_accessions_sha256')==PANEL_SHA
+         and len(published['source_receipts'])==196 and accession in published['source_receipts'],
+         'Independent released full196 source selection differs')
+    witness=published['source_receipts'][accession]
+    for relative,expected in published['accepted_files'].items():
+        must(sha(safe(root,relative))==expected,'Independent canonical accepted source control mismatch: '+relative)
+    must(Path(source_receipt).stat().st_size==witness['bytes']
+         and sha(source_receipt)==witness['sha256'],'Independent source receipt differs from released member')
+    return published,witness
+
+def verify_source_acceptance(identity,accession,root,source_receipt):
+    published,witness=verify_released_source(accession,root,source_receipt)
+    must(identity.get('schema')=='STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2'
+         and identity.get('source_receipt_sha256')==witness['sha256']
+         and identity.get('source_acceptance')=={'source_pins_sha256':SOURCE_PINS_SHA,
+             'accepted_files':published['accepted_files'],'released_source_member':witness},
+         'Independent V2 released-source acceptance mismatch')
 
 def core():
     path=HERE/'retained/independent_curated_v2.py';must(sha(path)==CORE_SHA,'Retained independent checker changed')
@@ -276,12 +301,14 @@ def atomic_one(entry,contract,C):
              and closure.get('tracked_descendants_empty') is True and not closure.get('survivors')
              and not closure.get('unexplained_pgid_members'),'Accepted scientific native checkpoint has unproven owned closure')
     identity=complete['scientific_identity'];must(complete['scientific_identity_sha256']==objsha(identity)
+         and identity.get('schema')=='STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2'
          and identity['accession']==accession and identity['panel_sha256']==PANEL_SHA
          and identity.get('source_validation_sha256')==SOURCE_VALIDATION_SHA
          and identity.get('runtime_manifest_sha256')==contract['runtime_manifest_sha256']
          and identity.get('runner_sha256')==contract['atomic_runner_sha256']
          and identity.get('supervisor_sha256')==contract['supervisor_sha256']
          and identity.get('methods')=='FULL_PADLOC5027_DF3_THREE_NATIVE_FAMILIES_RAW_INTEGRITY_ONLY','Atomic scientific identity differs')
+    verify_source_acceptance(identity,accession,root,Path(contract['source'])/'assemblies'/accession/'build_receipt.json')
     inv=safe(genome,complete['inventory_directory']);raw_path=safe(genome,complete['raw_validation_file'])
     must(raw_path.relative_to(genome).as_posix() in files and all((inv/name).relative_to(genome).as_posix() in files for name in
         ('all_native_profile_domains.tsv','all_native_filtered_profile_hits.tsv','all_native_system_candidate_rows.tsv','all_native_query_completion.tsv',
@@ -349,6 +376,7 @@ def source_exception_binding(accession,document,contract):
     """Reopen exact source inputs even when there is no detector checkpoint."""
     source=Path(contract['source']).resolve()/'assemblies'/accession
     receipt_path=source/'build_receipt.json';receipt=read(receipt_path)
+    verify_released_source(accession,Path(contract['root']).resolve(),receipt_path)
     must(receipt.get('assembly_accession')==accession and receipt.get('identity',{}).get('panel_sha256')==PANEL_SHA,
          'Exception original source accession/panel differs')
     if 'source_validation' in contract:

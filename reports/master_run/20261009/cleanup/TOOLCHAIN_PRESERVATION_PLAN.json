@@ -1,0 +1,179 @@
+{
+  "schema": "MASTER_TOOLCHAIN_PRESERVATION_READONLY_PLAN_V1",
+  "state": "PLAN_ONLY_NO_PAYLOAD_ARCHIVE_OR_WIPE_AUTHORITY",
+  "observed_utc": "2026-10-09T19:15:07.729341+00:00",
+  "read_limits": {
+    "image_payload_bytes_read": 0,
+    "native_exe_payload_bytes_read": 0,
+    "wsl_starts": 0,
+    "mounts": 0,
+    "archives_created": 0,
+    "uploads": 0,
+    "deletions": 0,
+    "g_mutations": 0
+  },
+  "image": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\toolchain.ext4",
+    "bytes": 8589934592,
+    "mtime_ns": 1791562748495019000,
+    "sha256": null,
+    "kind": "REUSABLE_PROJECT_SCIENTIFIC_EXT4_LOOP_IMAGE_NOT_UBUNTU_ROOT_VM",
+    "recorded_mounted_root": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux",
+    "recorded_ext4_used_bytes": 6461337600,
+    "recorded_probe_utc": "2026-10-09T16:19:05Z",
+    "public_member_scope_review": "NOT_RUN",
+    "exact_remote_image_recovery": "MISSING"
+  },
+  "native_iqtree": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "bytes": 12332544,
+    "previously_pinned_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+    "fresh_hash": "NOT_RUN_PROTECTED_LIVE_EXECUTABLE",
+    "distribution_files": 7,
+    "distribution_bytes": 28192809,
+    "remote_exact_binary_coverage": "NOT_ESTABLISHED",
+    "source_commit": "63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de",
+    "source_tag": "v3.1.4",
+    "original_license_sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad",
+    "license_existing_recovery": "master_cleanup_batch01.zip notices/IQTREE-3.1.4-LICENSE.txt (fresh independent remote readback PASS)"
+  },
+  "recorded_runtime": {
+    "environment": "image:detector_env",
+    "defense_models": "image:defense_models/defense-finder-models",
+    "padloc_db": "image:padloc_db",
+    "versions": {
+      "Python": "3.11.17",
+      "R": "4.3.1",
+      "PADLOC": "2.0.0",
+      "DefenseFinder": "3.0.0",
+      "HMMER": "3.4",
+      "MacSyFinder": "2.1.4",
+      "pyhmmer": "0.12.3",
+      "pyrodigal": "3.7.1"
+    },
+    "fresh_runtime_file_model_manifest": "NOT_RUN",
+    "windows_padloc_db_copy": "Historical .tools/padloc_db contains only .git at direct root; do not substitute for runtime image DB"
+  },
+  "package_manifests": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_package_manifest.json",
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382",
+      "packages": 255,
+      "compressed_package_bytes": 520737501,
+      "all_packages_have_license": true,
+      "scope": "RECORDED_ORIGINAL_PACKAGE_RESOLUTION_NOT_FRESH_INSTALLED_ENV_ACCEPTANCE"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\host_package_manifest.json",
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48",
+      "packages": 142,
+      "compressed_package_bytes": 240200082,
+      "all_packages_have_license": true,
+      "scope": "RECORDED_ORIGINAL_PACKAGE_RESOLUTION_NOT_FRESH_INSTALLED_ENV_ACCEPTANCE"
+    }
+  ],
+  "deduplicated_original_packages": {
+    "count": 339,
+    "compressed_bytes": 660114049,
+    "largest_package_bytes": 86085260,
+    "retained_conda_or_tar_bz2_artifacts_in_public_inventory": 0,
+    "external_public_source": "Official SHA-pinned conda.anaconda.org URLs; future fresh downloads require exact SHA/size verification"
+  },
+  "retained_source_archives": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\source_archives\\CasFinder-3.1.0.tar.gz",
+      "bytes": 14908642,
+      "sha256": null,
+      "remote_exact_payload_coverage": "NOT_ESTABLISHED"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\source_archives\\defense-finder-models-3.0.0.tar.gz",
+      "bytes": 55000078,
+      "sha256": null,
+      "remote_exact_payload_coverage": "NOT_ESTABLISHED"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\source_archives\\padloc-db-2.0.0.tar.gz",
+      "bytes": 146280058,
+      "sha256": null,
+      "remote_exact_payload_coverage": "NOT_ESTABLISHED"
+    }
+  ],
+  "existing_recovery": {
+    "observed_remote_tree_commit": "66d939a1bcfb399fa7fd5163c860d03c1aaf5c41",
+    "existing_27_zip_member_evidence_sha256": "3cad66818067e0387ef955ba4dddcd73a85510debd48a8f9ee31126c93f4f524",
+    "existing_members_examined": 45955,
+    "accepted_marker_profile": {
+      "release_tag": "stage03-hostmarkers196-v1",
+      "asset": "stage03-full196-original-and-curated-markers.zip",
+      "member": "profiles/Firmicutes.hmm",
+      "bytes": 8887407,
+      "sha256": "4b30686588b997fcc8478578bed61deb2e3593a977a8b6bada7864ac79c4740e"
+    },
+    "toolchain_environment_modeldb_native_binary_members_found": 0,
+    "scope_caveat": "Examination covers verified27 ZIP assets plus current Release asset metadata and published source tree. Recorded versions/probes/source/licensing are not installed-runtime payload recovery."
+  },
+  "primary_strategy": {
+    "name": "PUBLIC_PINNED_PACKAGES_SOURCES_AND_SCOPED_RUNTIME_DELTA",
+    "timing": "After exact native closure/empty owned job/original writer-lock release, and at final toolchain freeze after scientific work before host wipe",
+    "steps": [
+      "Publish exact two original package manifest bytes and a public provenance/index manifest; retain339 distinct original package SHAs/URLs/licenses.",
+      "After cold authority and public-scope review, preserve exact original source/model archives, native distribution, used pip/R/non-conda artifacts and actual installed-binary/model per-file SHA manifest. Retain all original copyright/license/source notices and explicit local modification/source bindings.",
+      "For package artifacts absent locally, fetch only the pinned official URLs into a new namespace and verify original SHA/size. Package restoration alone does not prove identical installed-tree bytes.",
+      "Hash and archive scoped used project caches/runtime deltas not already byte-covered remotely; deduplicate immutable package/content identity, preserve POSIX modes/symlink targets/hardlinks and exact required install prefix. Do not archive outside reviewed project scopes.",
+      "Stream a deterministic public archive with bounded buffers, one compression worker and fixed448MiB compressed chunks (469762048B, strictly below500MiB); each chunk has SHA/size, ordered whole-stream SHA, exhaustive entry SHA/metadata manifest and sidecar. No8GiB in-memory materialization.",
+      "Publish source/restore code/index/licenses before immutable Release assets; independently freshly download every chunk, verify GitHub ID/digest, whole stream and every entry. Restore to fresh disposable reviewed prefix and verify actual executable/model/runtime identities before declaring exact environment recovery."
+    ],
+    "limits": "Complete installed-runtime/pip/R/model/cache scope is deferred; no claim that package versions alone recover exact modified/runtime bytes."
+  },
+  "conditional_image_strategy": {
+    "needed_for_bit_identical_original_block_image": true,
+    "needed_for_file_identical_environment_if_complete_logical_restore_verified": false,
+    "status": "DEFERRED_UNTIL_SAFE_SCOPED_LINUX_INSPECTION",
+    "guards": [
+      "No blind Ubuntu root export; the scope is only the exact project toolchain loop image.",
+      "After cold ownership proof, mount the image read-only without journal replay and enumerate/review every included file, symlink, package record and cache; exclude credentials/private/unrelated data from public logical archives.",
+      "Filesystem member review alone does not prove deleted/free-block bytes contain no private remnants. Do not publicly upload raw original image unless public byte scope is independently established. Prefer a fresh clean derived image populated only with the reviewed public logical tree when a mountable environment artifact is required.",
+      "A clean derived image preserves reviewed environment file hashes/metadata, not the original image block SHA. Record that distinction.",
+      "If original image byte preservation is justified and public, freeze/unmount it first, retain exact birth/size/whole-image SHA and stream deterministic compression into448MiB chunks with independent remote download/concatenation/whole-image SHA/restore verification."
+    ]
+  },
+  "protected_exclusions": [
+    "original stable workflow.lock (never archive as a reusable lock)",
+    "live IQTREE executable/inputs/controllers/config/attempt namespace until proven cold",
+    "private credentials/raw Codex sessions/user data",
+    "unrelated Ubuntu filesystem"
+  ],
+  "evidence_sources": [
+    {
+      "path": "work\\bootstrap\\wsl_toolchain_probe_final.txt",
+      "sha256": "3b774b536057121c1498233dee5b84cb029d5b1dcc678d8f107f0ddb8665a60d"
+    },
+    {
+      "path": "work\\yesterday_inventory\\PUBLIC_EVIDENCE_SHA256.json",
+      "sha256": "4b279eebe6b842fc79cb9be6dd71a151a0a7890b525de32b1634ea99d8bc89da"
+    },
+    {
+      "path": "work\\iqtree_3_1_4_source_review\\source_pin.json",
+      "sha256": "4aa14af2a09fb0bf79629dd38dff1218c913f2d8ebd91120200d743cf03d73d4"
+    }
+  ],
+  "selected_accession_owner_review": {
+    "source_sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3",
+    "mode_specific_blockers": [],
+    "observations": [
+      "Exact196 frozen panel and authority/resource/lock/lease/source/storage/closure guards remain common to both modes.",
+      "--accession accepts only a member of approved panel; loop and progress cover only selected list.",
+      "ONE_APPROVED_GENOME scope has full_panel_complete false; only exact panel196 complete outcomes can set it true."
+    ],
+    "actual_wsl_execution": "NOT_RUN"
+  },
+  "windows_validation_runtime": {
+    "venv": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env",
+    "retained_venv_bytes": 63598556,
+    "base_python": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "version": "3.14.6",
+    "pyvenv_cfg_sha256": "38a3978ccc98d088d5c741fbedcd60b8059d9708934f08aa2ace58bcc0782779",
+    "recovery_gap": "Venv alone does not include base interpreter/runtime; preserve exact public Python distribution + wheel/source/license manifests and verify checkpoint validators at restored prefix. Base interpreter payload not read or inventoried in this bounded old-tools task."
+  }
+}

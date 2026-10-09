@@ -16,6 +16,7 @@ import stage05_architecture_policy as P
 
 HERE=Path(__file__).resolve().parent
 PINNED_PANEL='85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6'
+SOURCE_PINS_SHA='a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84'
 PINS={'stage05_architecture_policy.py':'942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4',
       'retained/stage05_curation_adapter.py':'cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177',
       'retained/stage05_evidence.py':'7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e',
@@ -54,6 +55,27 @@ def load_retained():
     adapter=importlib.util.module_from_spec(spec);spec.loader.exec_module(adapter)
     return adapter
 
+def accepted_source_gate(root,identity,accession,source_receipt):
+    """Bind native V2 inputs to previously released source bytes, without a tree."""
+    pins_path=HERE/'accepted_source_pins.json'
+    require(sha(pins_path)==SOURCE_PINS_SHA,'Standalone accepted source pins changed')
+    pins=load(pins_path)
+    require(pins.get('schema')=='STAGE05_ACCEPTED_SOURCE_PINS_V1'
+            and pins.get('approved_accessions_sha256')==PINNED_PANEL
+            and len(pins['source_receipts'])==196 and accession in pins['source_receipts'],
+            'Exact released full196 source selection differs')
+    selected=pins['source_receipts'][accession]
+    expected={'source_pins_sha256':SOURCE_PINS_SHA,'accepted_files':pins['accepted_files'],
+              'released_source_member':selected}
+    require(identity.get('schema')=='STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2'
+            and identity.get('source_acceptance')==expected,
+            'Native V2 released source acceptance differs')
+    for name,digest in pins['accepted_files'].items():
+        require(sha(member(root,name))==digest,'Accepted canonical source control changed: '+name)
+    require(identity.get('source_receipt_sha256')==selected['sha256']
+            and Path(source_receipt).stat().st_size==selected['bytes']
+            and sha(source_receipt)==selected['sha256'],'Source receipt differs from exact released member')
+
 def atomic_gate(root,genome,accession,approved,source_root):
     panel=Path(approved).read_text(encoding='ascii').split()
     require(sha(approved)==PINNED_PANEL and len(panel)==len(set(panel))==196 and accession in panel,'Exact approved196 panel changed')
@@ -64,10 +86,10 @@ def atomic_gate(root,genome,accession,approved,source_root):
             and complete.get('curation')=='NOT_RUN' and complete.get('biological_absence_claim')=='NONE','Atomic native/source completion missing')
     identity=complete['scientific_identity']
     require(complete.get('scientific_identity_sha256')==object_sha(identity),'Atomic scientific identity digest differs')
-    require(identity.get('schema')=='STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V1'
+    require(identity.get('schema')=='STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2'
             and identity.get('accession')==accession and identity.get('panel_sha256')==PINNED_PANEL
             and identity.get('methods')=='FULL_PADLOC5027_DF3_THREE_NATIVE_FAMILIES_RAW_INTEGRITY_ONLY','Atomic scientific identity differs')
-    require(identity['source_receipt_sha256']==sha(source_root/'assemblies'/accession/'build_receipt.json'),'Source receipt changed')
+    accepted_source_gate(root,identity,accession,source_root/'assemblies'/accession/'build_receipt.json')
     files=complete['files'];require(isinstance(files,dict) and files,'Empty atomic native payload manifest')
     for name,digest in files.items():
         require(re.fullmatch('[a-f0-9]{64}',digest),'Unfilled atomic payload pin')

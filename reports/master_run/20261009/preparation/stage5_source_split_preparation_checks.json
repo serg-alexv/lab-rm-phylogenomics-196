@@ -1,0 +1,176 @@
+{
+  "schema": "STAGE05_SOURCE_DEPENDENCY_SPLIT_PREPARATION_V1",
+  "utc": "2026-10-09T19:15:27.081648+00:00",
+  "state": "PREPARED_SOURCE_AND_SYNTHETIC_CONTRACTS_VERIFIED",
+  "biological_execution": "NOT_RUN",
+  "actual_wsl_execution": "NOT_RUN",
+  "g_mutations_by_this_component": 0,
+  "native_launches": 0,
+  "native_config_schema": "STAGE05_ATOMIC_CONFIG_V2",
+  "native_identity_schema": "STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2",
+  "native_complete_schema": "STAGE05_ATOMIC_GENOME_COMPLETE_V1",
+  "accepted_source_manifest_sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+  "released_source_receipts": 196,
+  "actual_small_C_source_receipt_bytes_read_during_derivation": 2414907,
+  "root_independent_canonical_G_readback": {
+    "state": "PASS",
+    "checked_files": 202,
+    "actual_bytes_read": 2436818,
+    "receipt": "stage5_canonical_source_pins_readback.json"
+  },
+  "native_dependencies": [
+    "approved196 immutable panel/approval",
+    "accepted Stage2 validation/publication",
+    "accepted Stage3 publication/source traceability",
+    "exact released pergenome source receipt and all output SHA256/size",
+    "pinned actual retained runtime/models/effective configuration/native libraries",
+    "pinned detector/source/orchestration implementation"
+  ],
+  "excluded_from_native_identity": [
+    "host tree and Stage4 publication",
+    "mutable operational resource policy/reserves/deadlines",
+    "current owner nonce/PID/resources",
+    "ephemeral mount proof/boot"
+  ],
+  "unchanged_guards": [
+    "original stable Windows WorkflowLock",
+    "Linux single native worker and genome guards",
+    "prior launch/intent closure veto",
+    "pidfd/subreaper descendant ownership",
+    "actual physical Windows C/G and Linux admission",
+    "exact storage/configuration guards"
+  ],
+  "tests": {
+    "native_source_owner_storage_interop_contracts": {
+      "run": 76,
+      "passed": 73,
+      "skipped_actual_linux": 3,
+      "failures": 0,
+      "command": "python -B -m unittest test_stage5_source_gate test_stage5_atomic test_stage5_work_storage test_stage5_windows_owner test_stage5_interop_contracts test_stage5_atomic_live_linux"
+    },
+    "source_gate_focused": {
+      "run": 12,
+      "passed": 12
+    },
+    "stage6_final_tree_join_negative_gates": {
+      "run": 4,
+      "passed": 4,
+      "runtime": "bundled Python26.1007.11041",
+      "default_Python_missing_dependency": "reportlab; resolved by existing bundled runtime, no install"
+    },
+    "curation_V2_component_tests": {
+      "run": 66,
+      "passed": 66,
+      "executed_by": "input_validation agent",
+      "independent_narrow_source_review": "NO_CONCRETE_BLOCKER"
+    }
+  },
+  "copilot_review": {
+    "state": "TIMEOUT_NO_ACCEPTANCE",
+    "tools_available": [],
+    "builtin_mcp_servers": false,
+    "timeout_seconds": 90,
+    "credit_cap": 30,
+    "initial_cap1_rejected_by_CLI_minimum30": true,
+    "public_source_only": true,
+    "raw_private_logs_not_publication_inputs": true
+  },
+  "stage6_boundary": {
+    "renderer_reads_accepted_tree_curation_join": true,
+    "renderer_reads_release_receipt": false,
+    "preserved_final_verifier": "stage5_atomic.validate_upstream",
+    "required_actual_finalization": "Root must invoke strict acceptedGtree+publication/readback verifier before productionjoin/render, then bind its receipt tofinal provenance"
+  },
+  "current_native_worker_policy": "One approved genome or full196 serial owner; no shared owner/concurrent heavy worker change",
+  "remaining_actual_gates": [
+    "proven current owned Stage4 closure/lock availability",
+    "fresh Linux runtime/configuration/storage proof/UNC readback",
+    "actual WSL lease/pidfd/subreaper/storage lifecycle fixtures",
+    "explicit measured conservative resource envelope",
+    "first bounded approved genome counts toward196",
+    "actual pergenome native/curation and full196 independent scientific audit",
+    "final accepted/published host tree for actual join/figure"
+  ],
+  "files": {
+    "stage5_atomic.py": {
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+      "bytes": 44516
+    },
+    "stage5_atomic_config.template.json": {
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+      "bytes": 2613
+    },
+    "stage5_atomic_IMPLEMENTATION.md": {
+      "sha256": "bdaee1cc71ed4ae78b51854c28394cd25c5b9b5227675c4bf921cde47fbc2abc",
+      "bytes": 15038
+    },
+    "build_stage5_accepted_source_pins.py": {
+      "sha256": "35634146eb92438be6bbf2763f33eefa1ed988c8d924c3a3745cca4e1fe4e6b4",
+      "bytes": 5877
+    },
+    "stage5_accepted_source_pins.json": {
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+      "bytes": 124407
+    },
+    "test_stage5_source_gate.py": {
+      "sha256": "5d143e357a202aa4d112b5f80b21c7f5eda655dcd0dbb19d9b172f1baf050203",
+      "bytes": 9008
+    },
+    "stage5_windows_owner.py": {
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3",
+      "bytes": 17966
+    },
+    "test_stage5_windows_owner.py": {
+      "sha256": "5cfb932da38fb072613b564559ce1277d13ebce97a99388176301e80181fa5da",
+      "bytes": 4471
+    },
+    "verify_stage5_accepted_source_pins_windows.py": {
+      "sha256": "9ce719fddf74d9ec90ed73fcc59218cfeba48836a65ac2d0273003993afbcd4b",
+      "bytes": 2216
+    },
+    "stage5_canonical_source_pins_readback.json": {
+      "sha256": "ed503534255e9d7eced3783ad603e05c826f343723f51f834367262f681c7ee1",
+      "bytes": 50250
+    },
+    "stage05_curation/stage05_curation_atomic.py": {
+      "sha256": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0",
+      "bytes": 27453
+    },
+    "stage05_curation/validate_atomic_curation.py": {
+      "sha256": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c",
+      "bytes": 51003
+    },
+    "stage05_curation/test_identity_v2.py": {
+      "sha256": "a411356c65e7d861b8c2a3c0ee58f831c1d80b166b427e60da0b737546a3028f",
+      "bytes": 7745
+    },
+    "stage05_curation/accepted_source_pins.json": {
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+      "bytes": 124407
+    },
+    "stage05_curation/preparation_report.json": {
+      "sha256": "a62283ee5f5503300f1416c2d8ca5f2892532b8a8e85202d7804f70fa0a82ccb",
+      "bytes": 7034
+    },
+    "stage05_curation/FOLLOW_ON_METHODS.md": {
+      "sha256": "383e85be903de4486d63ec8a57786c7ce5463f831474a03b6855385b09a36caf",
+      "bytes": 8944
+    },
+    "stage5_atomic_process.py": {
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+      "bytes": 22244
+    },
+    "stage5_work_storage.py": {
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+      "bytes": 6917
+    },
+    "stage06_render.py": {
+      "sha256": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+      "bytes": 36946
+    },
+    "check_stage06_outputs.py": {
+      "sha256": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+      "bytes": 20900
+    }
+  }
+}

@@ -35,6 +35,14 @@ def terminal_binding(status, accession, nonce, code):
               'Linux terminal state differs from actual retained WSL client exit')
 
 
+def selected_accessions(panel, accession=None):
+    """One approved checkpoint or the complete queue; never a new panel."""
+    if accession is None:
+        return list(panel)
+    A.require(accession in panel, 'Requested genome is not in the approved panel')
+    return [accession]
+
+
 def evidence_view(config, helper_hash):
     """Read the native bind through WSL, never the covered Windows G directory."""
     value = config.get('work_storage', {})
@@ -73,10 +81,11 @@ def main():
     parser.add_argument('--config', type=Path, required=True)
     parser.add_argument('--linux-script', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--accession', help='Own one approved genome checkpoint; default owns the full196 queue')
     parser.add_argument('--run', action='store_true')
     args = parser.parse_args()
     cfg = S.load_config(args.config)
-    A.require(cfg.get('schema') == 'STAGE05_ATOMIC_CONFIG_V1', 'Unknown Linux job config')
+    A.require(cfg.get('schema') == 'STAGE05_ATOMIC_CONFIG_V2', 'Unknown Linux job config')
     A.require(cfg.get('root') == linux_path(ROOT), 'Canonical Linux scientific root differs')
     prefix = linux_path(ROOT) + '/.work/stage05_atomic_v1'
     A.require(cfg.get('output_root') == prefix or cfg.get('output_root', '').startswith(prefix + '/'),
@@ -90,6 +99,7 @@ def main():
     panel = panel_path.read_text().split()
     A.require(A.sha256(panel_path) == A.EXPECTED_PANEL and len(panel) == len(set(panel)) == 196,
               'Exact frozen approved196 panel required')
+    selected = selected_accessions(panel, args.accession)
     control = fresh_authority()
     A.require(args.config.is_file() and args.linux_script.is_file(), 'Prepared Linux code/config required')
     A.require(args.linux_script.resolve() == Path(__file__).with_name('stage5_atomic.py').resolve(),
@@ -99,7 +109,8 @@ def main():
     storage_helper = args.linux_script.with_name('stage5_work_storage.py')
     A.require(storage_helper.is_file(), 'Reviewed native storage verifier missing')
     if not args.run:
-        print(json.dumps({'state': 'PREPARED_NOT_RUN', 'genomes': len(panel),
+        print(json.dumps({'state': 'PREPARED_NOT_RUN', 'approved_genomes': len(panel),
+                          'selected_accessions': selected, 'selected_genomes': len(selected),
                           'config_sha256': A.sha256(args.config), 'linux_script_sha256': A.sha256(args.linux_script)}))
         return 0
     A.require(not args.output.exists(), 'Use a new owner spool; preserve prior receipts')
@@ -119,6 +130,9 @@ def main():
     results, active_child, idle_previous, last_resources = [], None, None, None
     native_scope_closed = True
     batch = {'state': 'FAILED_FATAL', 'utc': A.utc(), 'owner': owner,
+             'scope': 'FULL196' if args.accession is None else 'ONE_APPROVED_GENOME',
+             'approved_genomes': len(panel), 'selected_accessions': selected,
+             'full_panel_complete': False,
              'config_sha256': cfg_hash, 'linux_script_sha256': script_hash,
              'linux_supervisor_sha256': supervisor_hash,
              'storage_helper_sha256': storage_helper_hash,
@@ -148,7 +162,7 @@ def main():
             lease()
             A.atomic(args.output / 'owner.json', {**batch, 'workflow_lock': lock.identity,
                 'linux_closure_scope': 'Native pidfd/subreaper closure is required by each Linux job; WSL client exit alone is insufficient'})
-            for index, accession in enumerate(panel, 1):
+            for index, accession in enumerate(selected, 1):
                 A.require(A.sha256(args.config) == cfg_hash and A.sha256(args.linux_script) == script_hash,
                           'Running batch code/config drift; preserve prior completed genomes')
                 A.require(A.sha256(supervisor) == supervisor_hash, 'Running Linux supervisor bytes changed')
@@ -202,15 +216,19 @@ def main():
                           'stderr_sha256': A.sha256(args.output/(accession+'.stderr.txt'))}
                 results.append(result)
                 A.atomic(args.output / (accession + '.exit.json'), result)
-                A.atomic(args.output / 'progress.json', {'utc': A.utc(), 'finished': len(results), 'total': 196,
+                A.atomic(args.output / 'progress.json', {'utc': A.utc(), 'finished': len(results), 'total': len(selected),
+                                                       'approved_genomes': len(panel),
                                                        'latest': result, 'genome_results': results})
-                print(json.dumps({'accession': accession, 'state': status['state'], 'finished': len(results), 'total': 196}), flush=True)
+                print(json.dumps({'accession': accession, 'state': status['state'], 'finished': len(results),
+                                  'total': len(selected), 'approved_genomes': len(panel)}), flush=True)
                 active_child = None
                 if status['state'] in ('FAILED_FATAL', 'DEFERRED_RESOURCE'):
                     batch['state'] = status['state']
                     break
             else:
                 batch['state'] = 'COMPLETE_VALIDATED' if all(r['state'] == 'COMPLETE_VALIDATED' for r in results) else 'FAILED_RETRYABLE'
+                batch['full_panel_complete'] = (selected == panel and len(results) == 196
+                                                and batch['state'] == 'COMPLETE_VALIDATED')
         except BaseException as error:
             batch.update(state='FAILED_FATAL', error={'kind': type(error).__name__, 'message': str(error)})
             try:

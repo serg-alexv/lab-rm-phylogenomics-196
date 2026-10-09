@@ -17,6 +17,7 @@ from stage5_work_storage import validate_storage
 PINNED_PANEL = '85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6'
 PINNED_ALIGNMENT = '442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307'
 PINNED_PARTITIONS = 'fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5'
+PINNED_SOURCE_ACCEPTANCE = 'a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84'
 PINNED_PADLOC_R = 'd21ba942e80720d80027aa1740d756322560feaeb168bfa2890640d88950d4c0'
 PINNED_PADLOC_HMM = 'a03df990d47ef40d2573a04d9a0f513e70999c3b9104216e3f6656a9bef8d5da'
 VERSIONS = {'mdmparis-defense-finder': '3.0.0', 'MacSyFinder': '2.1.4',
@@ -80,7 +81,7 @@ def payload_manifest(genome, directories):
 
 def load_config(path):
     value = read_json(path)
-    require(value.get('schema') == 'STAGE05_ATOMIC_CONFIG_V1', 'Unknown config schema')
+    require(value.get('schema') == 'STAGE05_ATOMIC_CONFIG_V2', 'Unknown config schema; use source-gated native V2')
     require(value.get('support_source_sha256') == SOURCE_FILES, 'Required preserved source identities differ')
     policy = value['resource_policy']
     for field in ['windows_reserve_bytes', 'incremental_windows_requirement_bytes', 'commit_requirement_bytes',
@@ -115,6 +116,7 @@ def approved_accession(root, accession):
 
 
 def validate_upstream(config, root):
+    """Strict final host-tree/publication gate for join/render, not native search."""
     stage = config['stage4_primary']
     validation_path = Path(stage['validation_path'])
     publication_path = Path(stage['publication_path'])
@@ -161,6 +163,86 @@ def validate_upstream(config, root):
         require(validation.get('mode') == 'single_model', 'Unknown accepted primary analysis mode')
     return {'validation_sha256': sha(validation_path), 'publication_sha256': sha(publication_path),
             'accepted_scientific_files': members}
+
+
+def accepted_source_pins():
+    path = Path(__file__).with_name('stage5_accepted_source_pins.json')
+    require(path.is_file() and not path.is_symlink() and sha(path) == PINNED_SOURCE_ACCEPTANCE,
+            'Exact released source acceptance pins missing/changed')
+    pins = read_json(path)
+    require(pins.get('schema') == 'STAGE05_ACCEPTED_SOURCE_PINS_V1'
+            and pins.get('approved_accessions_sha256') == PINNED_PANEL
+            and len(pins.get('source_receipts', {})) == 196,
+            'Exact approved196 source acceptance manifest required')
+    return pins
+
+
+def validate_genome_inputs(config, root, accession):
+    """Reopen existing published panel/source acceptance and this genome's bytes.
+
+    No host alignment, tree, Stage4 terminal state or Stage4 publication is read.
+    Global acceptance is pinned; a self-consistently edited source receipt is
+    rejected against its exact previously verified released ZIP member.
+    """
+    panel = approved_accession(root, accession)
+    pins = accepted_source_pins()
+    require(set(pins['source_receipts']) == set(panel), 'Released source panel differs')
+    check_manifest(root, pins['accepted_files'])
+    source_root, validation = Path(config['source']).resolve(), Path(config['source_validation']).resolve()
+    require(source_root == root / '.work/source_locus_inputs_v1'
+            and validation == root / '.work/stage03_source_validation/validation_summary.json',
+            'Use retained accepted source roles')
+    stage2 = read_json(root/'reports/stage02/validation_summary.json')
+    require(stage2.get('status') == 'PASS_SEQUENCE_INTEGRITY_WITH_DOCUMENTED_EXCEPTIONS'
+            and stage2.get('approved_assemblies') == stage2.get('raw_packages_present') == stage2.get('assemblies_reported') == 196
+            and stage2.get('complete_exact196_accounting') is True and stage2.get('error_count') == 0
+            and stage2.get('assemblies_with_errors') == 0 and stage2.get('approved_accessions_sha256') == PINNED_PANEL,
+            'Accepted Stage2 sequence/package integrity differs')
+    for stage, tag in [('stage02','stage02-sequences196-v1'),('stage03','stage03-hostmarkers196-v1')]:
+        publication = read_json(root/'reports'/stage/'publication_receipt.json')
+        require(publication.get('status') == 'UPLOAD_VERIFIED' and publication.get('release_tag') == tag
+                and publication.get('approved_assemblies') == 196 and publication.get('remote_tag_commit_verified') is True
+                and publication.get('assets') and all(item.get('download_readback_verified') is True
+                    and item.get('all_zip_member_hashes_verified') is True for item in publication['assets']),
+                'Existing accepted source release/readback differs: '+stage)
+    gate = read_json(validation)
+    require(gate.get('status') == 'PASS_SOURCE_LOCUS_INPUT_TRACEABILITY'
+            and gate.get('assemblies_passed') == gate.get('assemblies_audited') == gate.get('required_assemblies') == 196
+            and gate.get('complete_exact196_accounting') is True and gate.get('panel_sha256') == PINNED_PANEL
+            and gate.get('failed_assemblies') == [] and gate.get('global_errors') == []
+            and gate['builder_identity']['stage02_validation_summary_sha256']
+                == pins['accepted_files']['reports/stage02/validation_summary.json'],
+            'Accepted source traceability/Stage2 lineage differs')
+    source = source_root/'assemblies'/accession
+    witness = pins['source_receipts'][accession]
+    receipt_path = safe_member(root, '.work/source_locus_inputs_v1/assemblies/'+accession+'/build_receipt.json')
+    require(receipt_path.is_file() and receipt_path.stat().st_size == witness['bytes']
+            and sha(receipt_path) == witness['sha256'], 'Genome source receipt differs from actual released member')
+    receipt = read_json(receipt_path)
+    require(receipt.get('status') == 'SOURCE_LOCUS_INPUTS_CONSTRUCTED'
+            and receipt.get('assembly_accession') == accession and receipt.get('identity') == gate['builder_identity'],
+            'Genome source receipt/accepted source identity differs')
+    members = receipt['output_files']
+    require(len({item['path'] for item in members}) == len(members), 'Duplicate source manifest member')
+    check_manifest(source, {item['path']:item['sha256'] for item in members})
+    require(all(type(item['bytes']) is int and safe_member(source,item['path']).stat().st_size == item['bytes'] for item in members),
+            'Genome source file sizes differ from accepted receipt')
+    acceptance = {'source_pins_sha256':PINNED_SOURCE_ACCEPTANCE, 'accepted_files':pins['accepted_files'],
+                  'released_source_member':witness}
+    return source, gate, receipt, acceptance
+
+
+def genome_scientific_identity(config, accession, receipt_sha256, acceptance):
+    # Operational reserves/deadlines/owner/mount proofs remain attempt receipts.
+    # Changing or publishing an unrelated host tree cannot invalidate detectors.
+    return {'schema':'STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2', 'accession':accession,
+            'panel_sha256':PINNED_PANEL, 'source_receipt_sha256':receipt_sha256,
+            'source_validation_sha256':acceptance['accepted_files']['.work/stage03_source_validation/validation_summary.json'],
+            'source_acceptance':acceptance, 'runtime_manifest_sha256':config['runtime']['manifest_sha256'],
+            'support_source_sha256':SOURCE_FILES, 'runner_sha256':sha(__file__),
+            'supervisor_sha256':sha(Path(__file__).with_name('stage5_atomic_process.py')),
+            'storage_helper_sha256':sha(Path(__file__).with_name('stage5_work_storage.py')), 'threads':2,
+            'methods':'FULL_PADLOC5027_DF3_THREE_NATIVE_FAMILIES_RAW_INTEGRITY_ONLY'}
 
 
 def import_file(name, path):
@@ -411,32 +493,11 @@ def run_genome(config, accession, lease_path, owner_nonce):
                 supervisor.assert_closed(read_json(prior))
             prior_closure_checked = True
             supervisor.admission(transaction)
-            upstream = validate_upstream(config, root)
-            gate = read_json(source_validation)
-            require(gate['status'] == 'PASS_SOURCE_LOCUS_INPUT_TRACEABILITY'
-                    and gate['assemblies_passed'] == 196 and gate['complete_exact196_accounting'] is True
-                    and gate['panel_sha256'] == PINNED_PANEL and not gate['failed_assemblies'] and not gate['global_errors'],
-                    'Accepted source validation differs')
-            source = source_root / 'assemblies' / accession
-            source_receipt = read_json(source / 'build_receipt.json')
-            require(source_receipt['assembly_accession'] == accession and source_receipt['identity'] == gate['builder_identity'],
-                    'Genome source receipt/accepted source identity differs')
-            source_members = source_receipt['output_files']
-            require(len({item['path'] for item in source_members}) == len(source_members), 'Duplicate source manifest member')
-            check_manifest(source, {item['path']: item['sha256'] for item in source_members})
-            require(all(safe_member(source, item['path']).stat().st_size == item['bytes'] for item in source_members),
-                    'Genome source file sizes differ from accepted receipt')
+            source, gate, source_receipt, acceptance = validate_genome_inputs(config, root, accession)
             roots, runtime = validate_runtime(config)
             modules = load_modules(root)
             supervisor.check_owner()
-            stable_identity = {'schema': 'STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V1', 'accession': accession,
-                               'panel_sha256': PINNED_PANEL, 'source_receipt_sha256': sha(source / 'build_receipt.json'),
-                               'source_validation_sha256': sha(source_validation), 'upstream': upstream,
-                               'runtime_manifest_sha256': config['runtime']['manifest_sha256'],
-                               'support_source_sha256': SOURCE_FILES, 'runner_sha256': sha(__file__),
-                               'supervisor_sha256': sha(Path(__file__).with_name('stage5_atomic_process.py')),
-                               'storage_helper_sha256': sha(Path(__file__).with_name('stage5_work_storage.py')),
-                               'resource_policy': config['resource_policy'], 'methods': 'FULL_PADLOC5027_DF3_THREE_NATIVE_FAMILIES_RAW_INTEGRITY_ONLY'}
+            stable_identity = genome_scientific_identity(config, accession, sha(source/'build_receipt.json'), acceptance)
             identity_sha = fingerprint(stable_identity)
             complete_path = genome / 'complete.json'
             if complete_path.exists():

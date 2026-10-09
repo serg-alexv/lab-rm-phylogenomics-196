@@ -58,4 +58,4 @@ try{
  }
  $r.state='COMPLETED_EXACT_EMPTY_DIRECTORIES_ONLY';$r.completed_utc=[DateTime]::UtcNow.ToString('o')
 }finally{Save-Receipt}
-$r|Select-Object state,files_deleted,recursive_deletes,@{n='removed_directories';e={$_.removed.Count}},@{n='skipped_directories';e={$_.skipped.Count}}|ConvertTo-Json -Compress
+[pscustomobject]$r|Select-Object state,files_deleted,recursive_deletes,@{n='removed_directories';e={$_.removed.Count}},@{n='skipped_directories';e={$_.skipped.Count}}|ConvertTo-Json -Compress

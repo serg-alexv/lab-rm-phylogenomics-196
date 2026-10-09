@@ -5,6 +5,23 @@ import stage5_windows_owner as O
 from stage5_windows_owner import terminal_binding
 
 
+class ApprovedQueueSelection(unittest.TestCase):
+    def setUp(self):
+        self.panel = ['GCF_'+str(index)+'.1' for index in range(196)]
+
+    def test_default_preserves_entire_panel_and_order(self):
+        self.assertEqual(O.selected_accessions(self.panel), self.panel)
+        self.assertIsNot(O.selected_accessions(self.panel), self.panel)
+
+    def test_one_checkpoint_keeps_approved_accession_identity(self):
+        self.assertEqual(O.selected_accessions(self.panel, self.panel[19]), [self.panel[19]])
+
+    def test_nonpanel_or_combined_accessions_rejected(self):
+        for value in ('GCF_unknown.1', self.panel[0]+','+self.panel[1], '', '../escape'):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                O.selected_accessions(self.panel, value)
+
+
 class InvocationBinding(unittest.TestCase):
     def test_correct_current_complete(self):
         terminal_binding({'accession':'GCF_1.1','owner_nonce':'new','state':'COMPLETE_VALIDATED'},

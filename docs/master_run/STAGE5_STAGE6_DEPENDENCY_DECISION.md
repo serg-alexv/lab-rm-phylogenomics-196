@@ -107,3 +107,24 @@ that is outside this minimal change.
 At this decision: actual Stage 5 searches and Stage 6 production rendering are
 NOT_RUN. Prepared code, synthetic fixtures and this decision are not scientific
 results. The active native IQ-TREE owner, inputs and configuration are unchanged.
+
+## Implemented and checked — 2026-10-09
+
+Prepared native configuration and scientific identity are now V2. The new gate
+binds accepted released source receipts and actual source bytes. The optional
+single-approved-accession owner mode enables one real checkpoint followed by
+curation; the default queue remains full196. It cannot claim full-panel
+completion after one genome. The separate curation producer and independent
+checker now require the V2 identity and the same released source pins.
+
+Native/source/owner/storage/interop checks:76 tests,73PASS,3actual Linux cases
+skipped. Curation:66 synthetic tests PASS. Four Stage6 negative acceptance/join
+gates PASS. Canonical G readback:202small acceptance/build receipts matched
+their released-byte pins. No actual detector, WSL integration or production
+curation was executed. See the exact source and test receipt in
+`reports/master_run/20261009/preparation/stage5_source_split_preparation_checks.json`.
+
+The renderer reads accepted tree, curation and join receipts. The root-owned
+finalization workflow must separately invoke retained `validate_upstream`
+before production join/render to require accepted Stage4 publication/readback.
+This split changes no tree acceptance rule and creates no new native owner.

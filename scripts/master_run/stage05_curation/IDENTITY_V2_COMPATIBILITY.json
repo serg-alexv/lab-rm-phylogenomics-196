@@ -1,0 +1,60 @@
+{
+  "accepted_curation": false,
+  "actual_linux_checkpoint_integration": "NOT_RUN",
+  "biological_jobs": 0,
+  "dataset_kind": "SYNTHETIC_TESTS_AND_STATIC_SOURCE_REVIEW",
+  "g_writes": 0,
+  "independent_source_review": {
+    "reviewer": "stage5_audit",
+    "scope": "Explicit V2, exact standalone pin and witness, six canonical controls, released receipt SHA256 and size, exception source binding; no retained scientific core changes or producer imports",
+    "status": "NO_CONCRETE_BLOCKER"
+  },
+  "old_c_scientific_source_runtime_dependency": false,
+  "operational_admission": "Original writer lock, fresh resource lease, ext4 storage and actual owned native closure are still required. Scientific independence does not admit concurrent work while the current lock is held.",
+  "package_files": {
+    "CLASSIFICATION_CONTRACT.md": "28a5b85588a63ea6de0e16715a29366ad039995637c0602a38919cf520ce36ae",
+    "FOLLOW_ON_METHODS.md": "383e85be903de4486d63ec8a57786c7ce5463f831474a03b6855385b09a36caf",
+    "accepted_source_pins.json": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+    "stage05_curation_atomic.py": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0",
+    "test_identity_v2.py": "a411356c65e7d861b8c2a3c0ee58f831c1d80b166b427e60da0b737546a3028f",
+    "test_independent_curation.py": "7d580d7add9588f9a8f5dae5626f7b851331e52e46910fd37e0a9e8d450f7280",
+    "validate_atomic_curation.py": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c"
+  },
+  "production_biological_execution": "NOT_RUN",
+  "reviewed_native_sources": {
+    "stage5_accepted_source_pins.json": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+    "stage5_atomic.py": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+    "stage5_windows_owner.py": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3"
+  },
+  "schema": "RM_SOURCE_IDENTITY_V2_COMPATIBILITY_REVIEW_V1",
+  "source_mutations": 0,
+  "state": "PASS_SOURCE_REVIEW_AND_SYNTHETIC_GUARDS_ONLY",
+  "tests": [
+    {
+      "command": "python -B -m unittest test_identity_v2 test_stage05_curation test_independent_curation test_multipart_type_ii",
+      "cwd": "work/stage05_curation",
+      "elapsed_reported_seconds": 1.85,
+      "exit_code": 0,
+      "pass": 66,
+      "tests": 66
+    },
+    {
+      "command": "python -B -m unittest test_stage5_source_gate test_stage5_windows_owner",
+      "cwd": "work",
+      "elapsed_reported_seconds": 1.185,
+      "exit_code": 0,
+      "pass": 25,
+      "tests": 25
+    }
+  ],
+  "tree_dependency": {
+    "final_join": "EXACT_ACCEPTED_TREE_TIPS_AND784_CELLS",
+    "independent_final_curation": "NONE_FULL196_784_ACCOUNTING_REQUIRED",
+    "native_detection": "NONE_SOURCE_GATED_V2",
+    "per_genome_prepare_apply": "NONE_CLOSED_RAW_CHECKPOINT_REQUIRED",
+    "production_renderer": "INDEPENDENT_TREE_ACCEPTANCE_PLUS_CURATED_MATRIX_AND_EXACT_JOIN",
+    "workflow_publication": "SEPARATE_ROOT_OWNED_RELEASE_READBACK_GATE"
+  },
+  "utc": "2026-10-09T19:16:18.438809+00:00",
+  "wsl_starts": 0
+}

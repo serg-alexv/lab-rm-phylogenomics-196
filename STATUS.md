@@ -1,5 +1,34 @@
 # Current execution status
 
+## Stage 5 genome-source dependency split implemented — 2026-10-09
+
+Prepared Stage 5 now uses accepted immutable genome sources independently of
+Stage 4 tree success/publication. Config/identityV2 and curation compatibility
+are implemented:76native/source/owner/storage/interop checks (73PASS,3actual
+Linux cases skipped),66curation tests PASS and4Stage6 negative gates PASS.
+All202canonical acceptance/build receipts match the released-byte source pins.
+Default remains the full196 queue; optional single approved checkpoint mode
+never claims full-panel completion. Actual Stage 5 searches, production
+curation and Stage 6 production rendering remain NOT_RUN. See
+`docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
+
+The sole full196 partitioned IQ-TREE job continues under its original exclusive
+native owner; candidate optimization has reached iteration40. Actual Stage 5
+execution awaits exact native closure/lock release and WSL resource/lifecycle
+proofs, rather than Stage 4 scientific acceptance. Final tree join and figure
+still require independent host-tree acceptance plus the separate workflow
+publication/readback gate.
+
+Cleanup:224inactive files/2,207,024,265bytes and15exact empty directories have
+been removed after published recovery proposals. The public history archive
+passed a fresh independent GitHub download:320members,291scientific copies,
+88,441public metadata rows and all declared historical validation records.
+Another47,648old scientific files match release members but remain local;
+619unmatched files and active runtime/tools are preserved. The host is not
+ready to wipe. Full toolchain preservation is planned separately.
+
+# Current execution status
+
 ## Genome queue dependency split — 2026-10-09
 
 Implementing independent accession-keyed Stage 5 detection and curation. The

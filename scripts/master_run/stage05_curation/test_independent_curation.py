@@ -5,6 +5,7 @@ import csv,json,tempfile,unittest
 from copy import deepcopy
 from pathlib import Path
 from types import SimpleNamespace
+from unittest.mock import patch
 import validate_atomic_curation as V
 import rm_matrix as M
 
@@ -144,9 +145,12 @@ class ExceptionAccounting(unittest.TestCase):
                 path=source/name;path.write_text('SYNTHETIC_ONLY\n',encoding='utf-8');outputs.append({'path':name,'bytes':path.stat().st_size,'sha256':V.sha(path)})
             write(source/'build_receipt.json',{'assembly_accession':accession,'identity':{'panel_sha256':V.PANEL_SHA},'output_files':outputs})
             doc={'source_receipt_sha256':V.sha(source/'build_receipt.json'),'source_input_files':{i['path']:i['sha256'] for i in outputs}}
-            V.source_exception_binding(accession,doc,{'source':str(root)})
-            (source/'locus_crosswalk.tsv').write_text('MUTATED\n',encoding='utf-8')
-            with self.assertRaises(ValueError):V.source_exception_binding(accession,doc,{'source':str(root)})
+            # This component fixture isolates source-output integrity. The actual
+            # released-source receipt gate is covered separately by V2 tests.
+            with patch.object(V,'verify_released_source'):
+                V.source_exception_binding(accession,doc,{'source':str(root),'root':str(root)})
+                (source/'locus_crosswalk.tsv').write_text('MUTATED\n',encoding='utf-8')
+                with self.assertRaises(ValueError):V.source_exception_binding(accession,doc,{'source':str(root),'root':str(root)})
     def test_NOT_RUN_does_not_hide_current_terminal_or_launch(self):
         with tempfile.TemporaryDirectory(dir=HERE) as d:
             root=Path(d);doc={'execution_state':'NOT_RUN','process_closure_state':'NO_ATTEMPT','current_terminal_receipt':None}

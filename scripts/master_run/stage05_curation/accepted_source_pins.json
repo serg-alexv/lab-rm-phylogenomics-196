@@ -1,0 +1,1995 @@
+{
+  "accepted_files": {
+    ".work/stage03_source_validation/validation_summary.json": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+    "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "reports/stage02/publication_receipt.json": "23e8a6f2bb6ebea58b74b07f74f4011658e4387253544b1937d1e8803b227438",
+    "reports/stage02/validation_summary.json": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+    "reports/stage03/publication_receipt.json": "1f7c7b7739a61508ace397c28f9d2022b0dd5b67543dd1cb12ceda64506514d1"
+  },
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "derivation": {
+    "acceptance_created": false,
+    "actual_released_byte_proof_sha256": {
+      "file_allowlist.json": "b0b5ed7da87c9c781dba2719ec6474e864ca9b1b241e4c490b35e5da07a0c351",
+      "summary.json": "5af4a85ef721cb5ca3f7f3c4517a2cc05c0a90bd6954ae28c01f4546a2b753be",
+      "zip_member_validation.jsonl": "3cad66818067e0387ef955ba4dddcd73a85510debd48a8f9ee31126c93f4f524"
+    },
+    "builder_sha256": "35634146eb92438be6bbf2763f33eefa1ed988c8d924c3a3745cca4e1fe4e6b4",
+    "network_access": false,
+    "source_rebuild": false
+  },
+  "schema": "STAGE05_ACCEPTED_SOURCE_PINS_V1",
+  "source_receipts": {
+    "GCF_000009425.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_000009425.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413"
+    },
+    "GCF_000010145.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_000010145.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "b530c5e71a74f4bc0cd39336dbe286c244934dd82585f1441c28cf6b8560b583"
+    },
+    "GCF_000011045.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_000011045.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "04f0ae0a1d8ff534b12a45ebd77ef1e72cdc88568f44d4551d3afdf83626811c"
+    },
+    "GCF_000014385.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000014385.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "32877a73d5a2e0942cda297732b2c2fcbeb6f19f7844ed79a4199b1dd96f967b"
+    },
+    "GCF_000014425.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000014425.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "2989b6d9180ba77c52811809f88858c489731d5126cde5649cbfffe81d74b9e6"
+    },
+    "GCF_000014445.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 4235,
+      "member": "source_locus_inputs/assemblies/GCF_000014445.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "555d49306d38be25573f444604c5528264225cf34b56714cc3c120408c404e68"
+    },
+    "GCF_000014505.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000014505.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "de5a0399afb00a23a0ff65ce9ffd4552cce459417d740ce02904ce57408a5176"
+    },
+    "GCF_000014545.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 8337,
+      "member": "source_locus_inputs/assemblies/GCF_000014545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "914400249abcfa273e04855727623e404854276d85bc8348e1dcf30e8cde6237"
+    },
+    "GCF_000015385.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_000015385.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "0d9f7f8f49c6a783a6711ba30558d041e29a7faca9b8083f4b45c2cb527eabfb"
+    },
+    "GCF_000016825.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000016825.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "7280e2954c35f7c3a72347f1f00796c7921c03caecda71dc0facb52a3edd8538"
+    },
+    "GCF_000023085.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 3211,
+      "member": "source_locus_inputs/assemblies/GCF_000023085.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "9f38a21655495d46f9c1bc1cc9c8cf469a79c114ad8fbf234d202393414df4e4"
+    },
+    "GCF_000025045.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_000025045.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "fc699c7308ff34aea014b3a1b432a9c7c735b972bc516da09b0245ae6f993a84"
+    },
+    "GCF_000026405.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 7308,
+      "member": "source_locus_inputs/assemblies/GCF_000026405.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "cce08343a3061c5e1aef004f8b190ff5e3692c6942935535f9cb39b79e4aa90c"
+    },
+    "GCF_000092505.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 8325,
+      "member": "source_locus_inputs/assemblies/GCF_000092505.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "80a95f1f65fce69b945aafadb42c412cd5bcb549a77868e8a9a421e75601f12b"
+    },
+    "GCF_000148815.2": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 4239,
+      "member": "source_locus_inputs/assemblies/GCF_000148815.2/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "cf7458c5cb8fc0f730ef7994337b4a10253ae5e957df786924165905abc625bd"
+    },
+    "GCF_000155515.2": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 5261,
+      "member": "source_locus_inputs/assemblies/GCF_000155515.2/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "e4951817f89bf8af03049f4ef695b76adcf2e4e18b747139edaf1a701376b3ac"
+    },
+    "GCF_000160835.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 21954,
+      "member": "source_locus_inputs/assemblies/GCF_000160835.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "fa1085aec4b24e32fc6188bf6c8269c32091e3926514ac470cbe6e865cfd8196"
+    },
+    "GCF_000203855.3": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 6278,
+      "member": "source_locus_inputs/assemblies/GCF_000203855.3/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "ac805d77d8149ab52831f8651f018876d2d37120a934e72788c2ef9080f201cc"
+    },
+    "GCF_000237995.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 11391,
+      "member": "source_locus_inputs/assemblies/GCF_000237995.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "402bbdca83dc6d021b95fbe72cbbedc157118c93883cc18e99fe7e2547e75d8e"
+    },
+    "GCF_000241055.1": {
+      "asset_name": "stage03-source-and-search-001-020.zip",
+      "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_000241055.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622115850,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+      "sha256": "d7269cfaa99cba188063943739ec0512bc160c5074bba0998afb69715cde1e04"
+    },
+    "GCF_000269925.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000269925.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "08cb971192b6a973af67a809e174fd305dacc2afeea07537eae8f98c74112adb"
+    },
+    "GCF_000269945.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000269945.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "acdae15851223cd7c3d41179b6eb47ea3a9fa358a888d4492f5baced2fe914a0"
+    },
+    "GCF_000298875.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000298875.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "9a82df760e02ee01c7ac460c27c896bbca1a8ab12a0b56a81b9ac17151df6051"
+    },
+    "GCF_000468955.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_000468955.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "474dc99c16ceb50da308ee19b8929118feb12941aa5bbb3bd60b38b760be1996"
+    },
+    "GCF_000691805.2": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 64930,
+      "member": "source_locus_inputs/assemblies/GCF_000691805.2/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "0800145dc4527442cfb2d88611a7b27f9d97d905c95cd97cff1a347b45cbefd6"
+    },
+    "GCF_001434365.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 63628,
+      "member": "source_locus_inputs/assemblies/GCF_001434365.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "61d3e49384eb133f589d94e4a9a7af5b4fa6e44358659a9082f4a281d7e23f14"
+    },
+    "GCF_001434705.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 29199,
+      "member": "source_locus_inputs/assemblies/GCF_001434705.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "ea43e233b592b1f2dc8c124b152d513617a7a24f23bc514b96dde0597c460a72"
+    },
+    "GCF_001435245.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 60202,
+      "member": "source_locus_inputs/assemblies/GCF_001435245.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "60a9e45c223d0b94a38232b34e45829b986c192d02786560579c4c8a62b3bc2f"
+    },
+    "GCF_001436135.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 21688,
+      "member": "source_locus_inputs/assemblies/GCF_001436135.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "f5951c4a3c75d2b7fcb12fc6d03d5212f5adc2b4b8713bd96665f0ef73059490"
+    },
+    "GCF_001436905.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 40405,
+      "member": "source_locus_inputs/assemblies/GCF_001436905.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "9267498a2aa90a7cdbb17215702ed5119920b65973447998cf057f27985bda7c"
+    },
+    "GCF_001437055.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 10752,
+      "member": "source_locus_inputs/assemblies/GCF_001437055.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "634baa9a84bcdf06e6cc243ce54495c3d78df7343557987d06e2ac97929caab8"
+    },
+    "GCF_001437425.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 29154,
+      "member": "source_locus_inputs/assemblies/GCF_001437425.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "21a28c557ed972a25a9f45fb87c475d76370a0bfd29b2e991a81d8899d154c4a"
+    },
+    "GCF_001438705.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 19619,
+      "member": "source_locus_inputs/assemblies/GCF_001438705.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "6c5f613356b2fdf55d50c7578db77ae74256f4298e11ac2c7eaba3bb5d3ca3a9"
+    },
+    "GCF_001536305.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 6283,
+      "member": "source_locus_inputs/assemblies/GCF_001536305.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "a91340297eac4c595f2890d84b12e5c543e5f5e5601909bc7a4e068b127cc972"
+    },
+    "GCF_001618285.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 13412,
+      "member": "source_locus_inputs/assemblies/GCF_001618285.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "7fc0efef50bea59ce4f503dc510d8a06680d38f22882d3122b36564be9020ead"
+    },
+    "GCF_001702215.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 5260,
+      "member": "source_locus_inputs/assemblies/GCF_001702215.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "69e2e90648e35c7cfeb162b5b8a396bd60e9891df28c28c82b0b2deee4e7d0ea"
+    },
+    "GCF_001702235.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 6285,
+      "member": "source_locus_inputs/assemblies/GCF_001702235.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "12f8b2d601b7abfd7093050fdde4f87ca277c1cc340bfa4c304e236e3af51356"
+    },
+    "GCF_001752505.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 17237,
+      "member": "source_locus_inputs/assemblies/GCF_001752505.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "7bacd52b05f25dee558b15d2b24cbe1de9428ff060e9a5332392de35b3fc6e70"
+    },
+    "GCF_001752515.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 17917,
+      "member": "source_locus_inputs/assemblies/GCF_001752515.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "ec9526380e7ab71911d467faef0505e26fa95dd79ac3cdf8daeed1b10c4e93ab"
+    },
+    "GCF_001752545.1": {
+      "asset_name": "stage03-source-and-search-021-040.zip",
+      "asset_sha256": "5fb70e1036630f94e3e9beb3e08ccb624ad7e2a09206bc4015128c41d97fa445",
+      "bytes": 26446,
+      "member": "source_locus_inputs/assemblies/GCF_001752545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622117284,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-021-040.zip",
+      "sha256": "0ca0b52e26649d96d320121232e0605641e905f61d1599f20e5b0698b70e7f69"
+    },
+    "GCF_001761545.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_001761545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "597a3aacd9e3bafa0c466242557392dac0eca2caf06202971de018e67d7d5cf6"
+    },
+    "GCF_001767275.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_001767275.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "c6c2fbf52af7447936863e460441dc7ba513deb344c09d5759191843d657846f"
+    },
+    "GCF_001888925.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_001888925.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "a3444d50ca78e86ef224c4497719fad4069c3169a0236ed8fd563ed66f15498d"
+    },
+    "GCF_001891125.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_001891125.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "aad6e2b6e58862952a3ab0ae2e108faccdbc854c646cdb863f76ec0ce28112fa"
+    },
+    "GCF_001932615.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_001932615.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "8a1c292b6a46eb9bac5a4a22dd0bfe63c263bc7928bdaf394bdb3f4ae23036f8"
+    },
+    "GCF_001998805.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 5257,
+      "member": "source_locus_inputs/assemblies/GCF_001998805.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "2f74d3b54e0dad6cac515a61124f01cd92be01e5fe859d1715338ee16b7ef87f"
+    },
+    "GCF_002174215.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 5259,
+      "member": "source_locus_inputs/assemblies/GCF_002174215.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "bd6bffc127504612f395fb196ce43d1935611f297811995b6112bedeab825047"
+    },
+    "GCF_002950695.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 5256,
+      "member": "source_locus_inputs/assemblies/GCF_002950695.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "f3a7ff8fcd75895c32fa7ff7432c7f650fa11bd773b2bd873cfdea920c642850"
+    },
+    "GCF_002970915.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 6281,
+      "member": "source_locus_inputs/assemblies/GCF_002970915.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "8b8764835818addea75b2d30b752d3df121d99d8a8701c087949f06bf269458e"
+    },
+    "GCF_002970935.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 6286,
+      "member": "source_locus_inputs/assemblies/GCF_002970935.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "8dc8cd937f926332a6f397c22a3df21f9ca0c927c5b81c346c4d01d2eeebb552"
+    },
+    "GCF_003150935.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_003150935.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "5874874169da6c0726af8dc8b8f0fe7fb46f4c812fb12a40a909974425c27220"
+    },
+    "GCF_003151025.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_003151025.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "237cedc5ed8e7986d6a0da682162bd17b55441a09d46d6e53900e00183ef1ed9"
+    },
+    "GCF_003173695.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4230,
+      "member": "source_locus_inputs/assemblies/GCF_003173695.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "7596136c86c451c2092d13abcaecd3c2b41cbca2837251dbd77f06b9990d9e54"
+    },
+    "GCF_003176835.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_003176835.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "8895d916a742a17c5121765700f8660605457070913ae4a2772a0ff0f95f514a"
+    },
+    "GCF_003264795.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_003264795.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "4f47464b077588099ab8f9055670942d86a7dc48ea4558fd0a5dc4e63b14ac45"
+    },
+    "GCF_003584685.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_003584685.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "c18144037d6d59be1da3fc92efb7f6322188f3f780feef7fa73639cfd9b3adcd"
+    },
+    "GCF_003641185.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4240,
+      "member": "source_locus_inputs/assemblies/GCF_003641185.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "89bba75cbcec8dd189755a9d48a570b02721dc0635ea2a58ac22d3c9c8ee3acc"
+    },
+    "GCF_003722275.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_003722275.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "c90cb3378c682c5fe26f14ff623d53a40cf4b77cc555077deaf72988f8117335"
+    },
+    "GCF_003999355.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 4238,
+      "member": "source_locus_inputs/assemblies/GCF_003999355.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "7c90bdf4c13b694527c24494af481651e45f86455df770d5273707c86bf5b0db"
+    },
+    "GCF_004354645.1": {
+      "asset_name": "stage03-source-and-search-041-060.zip",
+      "asset_sha256": "91e9164dd67d858e00ca8495a70e7d5044c8f20ab7e88b97346b2ab5c5e514e2",
+      "bytes": 17215,
+      "member": "source_locus_inputs/assemblies/GCF_004354645.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622119886,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-041-060.zip",
+      "sha256": "2a5a3c5e5ee526c0b0791aeb148223e9d66137b442ef1341cdd4572f44fa434d"
+    },
+    "GCF_004377635.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 37679,
+      "member": "source_locus_inputs/assemblies/GCF_004377635.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "073b3aa8b20c19c6ac468bd7745af51c958f8004975172dc0071b2377686ae78"
+    },
+    "GCF_005405405.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 75593,
+      "member": "source_locus_inputs/assemblies/GCF_005405405.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "a0e7cd3835fd3271709f8dbd2804b81f0de0c05341b5a3b705cf1ade01c61bfc"
+    },
+    "GCF_005405465.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 45546,
+      "member": "source_locus_inputs/assemblies/GCF_005405465.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "ce3e98afbffe80df94bca11484fb093d2e9fd1a176d95ffe8b1e0b31332837bf"
+    },
+    "GCF_007954605.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_007954605.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "0f14ef35dc601c98b9e4eb3063492d758a19d592f63b2d3ca560291975563039"
+    },
+    "GCF_007954785.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_007954785.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "2ae85f181e51f64d2a5224fa25271146b777127d240ea6e4ecad5fb400ffd2a1"
+    },
+    "GCF_008107645.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 14147,
+      "member": "source_locus_inputs/assemblies/GCF_008107645.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "72a99c0bbb8ff2d91880fd70b65b874cd68a254981e500884ec70a69f731369a"
+    },
+    "GCF_008831485.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_008831485.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "4ad66992d11279813427106aff56924ecd799ffb44e9a8d8eededc399d646881"
+    },
+    "GCF_009184845.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4240,
+      "member": "source_locus_inputs/assemblies/GCF_009184845.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "0f5a9164c690d98d97cdd9471bf96395cb1a47d979327b84c8f6a6f2bde9f89c"
+    },
+    "GCF_009856565.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_009856565.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "ddbe760be17822b552084dc510bdac87a87af413b025de1970652bf96dc624d1"
+    },
+    "GCF_009913655.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3211,
+      "member": "source_locus_inputs/assemblies/GCF_009913655.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "cb17b776111dec841fe0ce9bd19d19a36347227525dc60e8fe54a74ec2cfdb24"
+    },
+    "GCF_009913995.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_009913995.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "d3ba26a5da8f8ad05dee130aefd966707be59930a75670a3c9ed74bbfe49f6b4"
+    },
+    "GCF_009914015.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 5260,
+      "member": "source_locus_inputs/assemblies/GCF_009914015.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "2e09d7067e72ba0760fad2f7f260552598d66afac1c887ce78bb351b57ca5e9d"
+    },
+    "GCF_009914035.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_009914035.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "523f446873c3e8b5675a8c1ba81af815c3635fe559cf6511ac21e298b04027d2"
+    },
+    "GCF_010092385.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_010092385.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "b58506f4def541307514a8179431d7723455d7a0d719b599461f773679f49a19"
+    },
+    "GCF_011058775.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_011058775.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "98554f6d2b559c4254645ba3c56d3419e9f530100b27e23a263d4b57c54301c7"
+    },
+    "GCF_011304355.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_011304355.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "13315d5e3ac784987e99d1ccd70444b417ef0276e9f545535fcfb199bff158d1"
+    },
+    "GCF_013113695.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_013113695.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "1d74bcafec5f55e8ac147f1ea84e80dad80610a197a2a2efaad29da057286b1f"
+    },
+    "GCF_013407595.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 12117,
+      "member": "source_locus_inputs/assemblies/GCF_013407595.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "f18a91203952fb14546310f38fb62e9b591eee88f687ac8e9a4f96bb12fd5257"
+    },
+    "GCF_014131735.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 4233,
+      "member": "source_locus_inputs/assemblies/GCF_014131735.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "066f5ec78cdc5bb5d54af2589bfb2fe642a4a101a83df1fd6d7850c7f7f067cb"
+    },
+    "GCF_014145545.1": {
+      "asset_name": "stage03-source-and-search-061-080.zip",
+      "asset_sha256": "71b6d173c54d3456cc92dfdc939ed93012aa0da9ce037f60f76067174b4722c8",
+      "bytes": 53131,
+      "member": "source_locus_inputs/assemblies/GCF_014145545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622121235,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-061-080.zip",
+      "sha256": "28a0a4b21dac5037e4b672bb06af483f9d6526cdfdf9ef9f30cfe566c9b0f997"
+    },
+    "GCF_014145555.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 57705,
+      "member": "source_locus_inputs/assemblies/GCF_014145555.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "a574685c99066f73b617e80012bd40b07cd4795aa62f4a83e9ab0fdb69c960f1"
+    },
+    "GCF_014145615.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 61602,
+      "member": "source_locus_inputs/assemblies/GCF_014145615.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "cf65f6407c1b15e2287596d3d8a0676707db7cbb734b444e6485022ab5e318c7"
+    },
+    "GCF_014397255.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_014397255.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "98858ef630a989a1d89d098f3d2836bfdd847110f87e0061e1ebea20fd303b32"
+    },
+    "GCF_014656585.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 5256,
+      "member": "source_locus_inputs/assemblies/GCF_014656585.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "896693a7dee8736af8a9245b1dfde2324b79a4663a35accaf090496d5eff7fd4"
+    },
+    "GCF_014789145.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_014789145.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "9c4f775fc53c59abf1c23c128986794f490167ab16f71aa8617cc6f492ffdb51"
+    },
+    "GCF_016127255.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_016127255.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "d0f01f4272398e4ac664d627e18b538eeb10daa5cff6a430294159ff1df78c6e"
+    },
+    "GCF_016127815.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_016127815.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "e0a8b644e79f98f2bb231cdbfb9343c86e9a40a9559e8a0562d0b79252d7a532"
+    },
+    "GCF_016647595.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 4235,
+      "member": "source_locus_inputs/assemblies/GCF_016647595.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "448ddc36ea2117f2e31b986fbcb4093087a3a6a53f7ecd7fd23014f2adbaff5e"
+    },
+    "GCF_016919665.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_016919665.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "9992f5935100778374a58b79815ffcf514aa454ff531e8209142691752df9849"
+    },
+    "GCF_017068355.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_017068355.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "cd99959342c3f1ab349ab1e2db7adaa1032952d33024e03dbd3f4c7fe38cd610"
+    },
+    "GCF_017894345.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 5261,
+      "member": "source_locus_inputs/assemblies/GCF_017894345.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "25723947856678ee95bedfae1a5a19455724c3d9cfdae874ba7ebeeb72f70e66"
+    },
+    "GCF_018394055.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_018394055.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "97683c88b409c4cafbf7a10c0bbcdef26ef31b79fd8180ea0686b844d0ef65ab"
+    },
+    "GCF_018502505.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_018502505.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "de797ef7c4ab5c3612be91f4f76a85f5974b1e265eaa20362e6ce595ab5a8867"
+    },
+    "GCF_019448175.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_019448175.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "e193c7e9973a4656eaa86155e528609946b27cfd3751ae8377f5db0b0b54af6c"
+    },
+    "GCF_019469265.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_019469265.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "59d38707a77d199a0b6ad12b7c40c15ed73a0395532f2fd1a86a9dc493d61ac7"
+    },
+    "GCF_019576155.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_019576155.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "14d4b1c8e802847b7f76128c2568ad7eca233636111e15e54b095990bc07f887"
+    },
+    "GCF_019797825.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 5259,
+      "member": "source_locus_inputs/assemblies/GCF_019797825.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "e21e9d1211c7e53bc898cdfe9d7759849868fda53073997c06dd649140d21cc2"
+    },
+    "GCF_020510245.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_020510245.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "04631592104c9c1fb35fda71fdbb30344ec94ac0f215232e108124bce52c4ce1"
+    },
+    "GCF_020784695.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 42497,
+      "member": "source_locus_inputs/assemblies/GCF_020784695.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "5e55e957a304b0cf3443a737cb1aba808f098ab9339eeb8a2a08a7d721d835f8"
+    },
+    "GCF_020844005.1": {
+      "asset_name": "stage03-source-and-search-081-100.zip",
+      "asset_sha256": "6faf1a5f333bac349a8d725adc318f25474170b99caafcd78069ca8bb8476d1f",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_020844005.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622124178,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-081-100.zip",
+      "sha256": "45def7e41ad2be7d7ea3dd5bde73a896ab3bdcd4586cda8bc0546ce50070dd88"
+    },
+    "GCF_021378055.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 17914,
+      "member": "source_locus_inputs/assemblies/GCF_021378055.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "154690fcc5c989cbd7aef23d23368c26ca3da43321a0ccba35418ef254408391"
+    },
+    "GCF_023169905.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 5259,
+      "member": "source_locus_inputs/assemblies/GCF_023169905.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "8b5306e358fabf8a2fdef8bbee50c1b8ca22a87ce5ce41c9415e759df5edd9cd"
+    },
+    "GCF_023499275.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_023499275.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "ff6a6efb304e8f3a8a6dda9de00395b27230f8e447b98d6e1fee689d40b18317"
+    },
+    "GCF_023920145.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_023920145.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "23436c04b31ce8cdbed78995a71a4a6cdf6439eea5008d93fca85af380550158"
+    },
+    "GCF_024334065.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_024334065.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "349dd30312a1ab361aa4638ea58c1692785d6c06757fc453c09c441cda76b5a7"
+    },
+    "GCF_024397795.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 5260,
+      "member": "source_locus_inputs/assemblies/GCF_024397795.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "a0be12e9541d0b0d0a90734abd2ca4413d3b3b0921c0641ab578a84774e94839"
+    },
+    "GCF_024718545.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 80289,
+      "member": "source_locus_inputs/assemblies/GCF_024718545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "6736f69626cec30176bdb8c4b8550ec2f48d5536b0a7a35ee65bf212e5afe3c4"
+    },
+    "GCF_025311495.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_025311495.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "918d5b2fae559b462be2a58e12b9aeaecd8ba4bde5ad6ababa63d381a2f0a3f3"
+    },
+    "GCF_025490915.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 33632,
+      "member": "source_locus_inputs/assemblies/GCF_025490915.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "fe1d0032eb46ed9f259fcde70967cfaec7948e3ecec35286ce7941a1ab7889aa"
+    },
+    "GCF_025739325.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_025739325.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "30f1550278d72b5e8f5547db675a789faa616f284e6f4cdd2fc4c0f994271c47"
+    },
+    "GCF_025948295.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_025948295.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "6d953f36660eb476792e8ebad730f9836232fefcac8be65ecc58008db686686e"
+    },
+    "GCF_026222675.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3212,
+      "member": "source_locus_inputs/assemblies/GCF_026222675.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "dc400d9ac1bd6d2ee684b50a1d4790183169b8e703cbb51cc4cd9c64d4d6e38b"
+    },
+    "GCF_028607025.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_028607025.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "3b05fbbe2a1663e6598c9954c9a6459c547ff86d8c0ba410f42b6affdd7b239a"
+    },
+    "GCF_028621815.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 5260,
+      "member": "source_locus_inputs/assemblies/GCF_028621815.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "a5bec8bf3c1aeb025a7625e4d47ca6a41433f7bd5383a64c93b9f5f345a55ef2"
+    },
+    "GCF_028736235.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 4233,
+      "member": "source_locus_inputs/assemblies/GCF_028736235.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "c878ce85cae9a0708ab31482fc2e2b0832d7204f4e4fcbccd9af2ddb7ac7f8f5"
+    },
+    "GCF_029025825.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 4234,
+      "member": "source_locus_inputs/assemblies/GCF_029025825.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "84f2a03ff73836d56d06ed760bc82c91a91e419e0a2a27cd522754a7fc1ad2a1"
+    },
+    "GCF_029726355.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_029726355.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "a440c47cd16d8f37201ff641d4160b0c8d563feb52a3bf30c6513aa144589423"
+    },
+    "GCF_029854335.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 10391,
+      "member": "source_locus_inputs/assemblies/GCF_029854335.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "5a6a2ea522f30f291872e10903e628b2c9d0d59b3d80cf1754671ab32b837d3f"
+    },
+    "GCF_029866985.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_029866985.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "5de7e7f18e768bc2cf355ed85050d2b072c152fe018961876520f8d48e50ebd7"
+    },
+    "GCF_030480545.1": {
+      "asset_name": "stage03-source-and-search-101-120.zip",
+      "asset_sha256": "7554e648583f28fc23891553357a35537ab4d0ed3b2fb606a8301da81ed138c8",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_030480545.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622126832,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-101-120.zip",
+      "sha256": "4613c4e18725483f2fcaf993801fced95889d9c128086530520a29290eb7a56d"
+    },
+    "GCF_030770265.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_030770265.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "3f342f386602003ab8d8e2c0f745e7a6543bf4a8912ae5ab4f5765bc718f8762"
+    },
+    "GCF_030770295.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3211,
+      "member": "source_locus_inputs/assemblies/GCF_030770295.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "b7e1143fb293fa6ceb56f440f9a90433ac68364b79b48fa0f6dae54a6bf9ffed"
+    },
+    "GCF_030770335.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_030770335.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "7715fc8df097f47844d26e107b805cbf18bc63f1b363901d842d531699459278"
+    },
+    "GCF_032762665.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_032762665.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "b5f79d82828d66f8a305d0e177e2da475a2c675d2fdc66992264523f5ceb9294"
+    },
+    "GCF_033142085.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 20975,
+      "member": "source_locus_inputs/assemblies/GCF_033142085.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "9f356f9d57e4347856262136e06290398f7d6c8b1ef039169372981f5397851c"
+    },
+    "GCF_033570435.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_033570435.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "843cfb2e783dcfe377a731dcc8656ee4008ce7af9f88acbd281732622d5c7f35"
+    },
+    "GCF_034703025.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 6279,
+      "member": "source_locus_inputs/assemblies/GCF_034703025.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "b821c39d10c6451855434534e6236a8ba80349cc399b21f7a813748a8e32ff7c"
+    },
+    "GCF_035985965.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_035985965.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "002d38b470c6ed834fa88f391b67b7ed19c2c87313ce2ab15274eaab7390c02d"
+    },
+    "GCF_036246165.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 57511,
+      "member": "source_locus_inputs/assemblies/GCF_036246165.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "64727d7196775bcfcfd24f0489f798cb6172f16ad590b2b32ab1da09ab016099"
+    },
+    "GCF_036246185.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 62989,
+      "member": "source_locus_inputs/assemblies/GCF_036246185.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "7305c297aefbbf63611526209cdab2b9d201ee0d3776a1ade0e04967a35ae94f"
+    },
+    "GCF_036246225.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 46911,
+      "member": "source_locus_inputs/assemblies/GCF_036246225.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "bb52fed42b41ec63bf558c996f9738af99992b33b6ae42ae426304919845d057"
+    },
+    "GCF_036327715.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_036327715.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "3d8ba8dee05792f0b8e3605aaefa96164bd10965db2e7db7be63e873a695b64e"
+    },
+    "GCF_037290055.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_037290055.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "6732353b87a7bb21bfb4ef22594f8df273f1b0ba09de2ab39bd26ca2e91c974d"
+    },
+    "GCF_037891785.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_037891785.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "ec13536c5d85b29b37fedda088779f77e4890055534ea21d73c78373a895b641"
+    },
+    "GCF_037892375.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 4235,
+      "member": "source_locus_inputs/assemblies/GCF_037892375.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "e5f998336456f7e61ff90e22ba3fbced03b933ebca13aa33bac94c3ec7ecbe28"
+    },
+    "GCF_038049945.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_038049945.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "ac1ef48826c3ef31cc8d01b9005d2e8add8065ba7cbaff74a8e48fba2b37a027"
+    },
+    "GCF_039645515.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_039645515.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "a767b99957cf0d3befb1f6a2a23b0a61170932d7c3c25e46a1a678c1e5556fab"
+    },
+    "GCF_039645575.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_039645575.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "2e6d672464d06b644d7c69e107276f23426ae15f4118365414343a24cd7a0dc9"
+    },
+    "GCF_039783225.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_039783225.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "aa389219d4089828601f520f31b1175fdf4a14dac1e8855a8f0a9c64675db341"
+    },
+    "GCF_039783785.1": {
+      "asset_name": "stage03-source-and-search-121-140.zip",
+      "asset_sha256": "ddd1f4d9db864eb252ce831d4d48cd65979a20645272e02c375af71fc0a532f7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_039783785.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622128666,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-121-140.zip",
+      "sha256": "03c588d26fe4797d9500786b5c3f49277c15a0e41f9ee6ac4a3b0904237bf103"
+    },
+    "GCF_039955095.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_039955095.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "e05d6baf016a1c7d96940a019a14120e554ef0d9de58fb8dc4104787fa99b625"
+    },
+    "GCF_041225485.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 42528,
+      "member": "source_locus_inputs/assemblies/GCF_041225485.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "29ee8a1ad8d2f42ca05e66b7956d73507369c4d5e73b6d76458a9b6514e47b4e"
+    },
+    "GCF_041225605.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 75885,
+      "member": "source_locus_inputs/assemblies/GCF_041225605.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "a87cc717fd5eec6ff70d2d4d788201cf5eadd71e565ab8bd57fc999cc7473492"
+    },
+    "GCF_041281755.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 4235,
+      "member": "source_locus_inputs/assemblies/GCF_041281755.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "05376c9da04c7264e181ff5e921150773d427ca8b97d96d83b74f3c342db1048"
+    },
+    "GCF_041509385.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_041509385.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "1653211b266ee5cb9c6b429bc0e9f8d1791e69cc5bc226752d595aa28edd0768"
+    },
+    "GCF_041514285.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_041514285.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "ab67f819f6cfa99ba1dfb70c5906c733b0b25a8bda10751192e7c3ed8f44dc08"
+    },
+    "GCF_041514295.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_041514295.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "c7be164793517ef5819a387828245e103442f063eb748096b4f4af1d072c1f52"
+    },
+    "GCF_041893975.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_041893975.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "b3bd461d75714581a8aa523711d9260e8b5b532cef177a5682b7f7fdad2c5615"
+    },
+    "GCF_042847315.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 97336,
+      "member": "source_locus_inputs/assemblies/GCF_042847315.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "768fc87c89831cb2cc504fa22ccd29f4e680a4d8e0ba91ab531f8901a618fa4b"
+    },
+    "GCF_042997415.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_042997415.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "c1ed419e60d523c51eb9d4c45255090ddb0f3296c7488837a0b4c7901d421df6"
+    },
+    "GCF_045760565.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 81038,
+      "member": "source_locus_inputs/assemblies/GCF_045760565.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "25a6e53445945ad2a532aca0131e91e12d97ddde64f7175fd23541aec4a44f1c"
+    },
+    "GCF_045801155.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_045801155.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "da437fdc513bad007689dbc39d89482de7eb0abd67e0062a8dee7cc4f44b4467"
+    },
+    "GCF_045862825.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 5263,
+      "member": "source_locus_inputs/assemblies/GCF_045862825.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "02ff98440a070ff57c374ed4aa187d1ec2eb3ab7876c7b93f9cc2a4bc753b8a6"
+    },
+    "GCF_046109915.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_046109915.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "a44ccc5c3f748588297ab96205ab3db00cb5ec444234c409f06d17be8f870c52"
+    },
+    "GCF_047344935.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 7310,
+      "member": "source_locus_inputs/assemblies/GCF_047344935.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "e053a16f311a1a7b0af4e2fcf566fbf362adb2e8ec7e5751e4fd913f276f05e5"
+    },
+    "GCF_050407965.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 8341,
+      "member": "source_locus_inputs/assemblies/GCF_050407965.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "ed2c38f6879bea21a9c219b13a0d27ec69c800770d76e6eda2adf82c0d1258ea"
+    },
+    "GCF_050847345.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 4237,
+      "member": "source_locus_inputs/assemblies/GCF_050847345.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "b35377419b70a98cb1cc0fe122c3831dd9c7173a3e28c70f7840c21318d90d12"
+    },
+    "GCF_051098045.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3211,
+      "member": "source_locus_inputs/assemblies/GCF_051098045.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "50ba3f76ac95ca2aef62ab01eff91ca2e70208b77612bd706317c3a8c2c027ca"
+    },
+    "GCF_052569745.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_052569745.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "60bdcd23917824d7cca55f84fc6536cfcd07fbbd153b9bce0761cc2f86bd3a59"
+    },
+    "GCF_052570115.1": {
+      "asset_name": "stage03-source-and-search-141-160.zip",
+      "asset_sha256": "a58398116a9d91bde36ff83f845063e31e9af85e3c844d43cc962a0ec6fd52e6",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_052570115.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622131422,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-141-160.zip",
+      "sha256": "091d799a9f64da44b3468eb0d72588583c0f079dad3243db875943417f8ee32a"
+    },
+    "GCF_052571685.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_052571685.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "db4738ff570ef91ecd319db520b11ca3177d115ab4c1e1602cb5758f942b6ed0"
+    },
+    "GCF_054073565.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 6277,
+      "member": "source_locus_inputs/assemblies/GCF_054073565.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "c94307fb0e978f673a6ea220af17c466b07fde1d1cbbd9f26088fb0fc8e2b27b"
+    },
+    "GCF_054331775.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 4231,
+      "member": "source_locus_inputs/assemblies/GCF_054331775.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "2f36d279a57c794e65962826505b6e4087b122e6b93715754b36ff5c4fa033c0"
+    },
+    "GCF_054452875.2": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 7302,
+      "member": "source_locus_inputs/assemblies/GCF_054452875.2/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "58870e8d3d0d61d8b0f31b1fb093e20dc29905439c8c35b873a0778fdcfc10b8"
+    },
+    "GCF_054784775.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 87502,
+      "member": "source_locus_inputs/assemblies/GCF_054784775.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "3e6928b673513cd8701dddf5ea75f2565e6a40c580c51435995a0c917d774e64"
+    },
+    "GCF_054785075.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 38059,
+      "member": "source_locus_inputs/assemblies/GCF_054785075.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "11fd38004b569360130166359d600978e2588398e82f00047a43b8bd6c706797"
+    },
+    "GCF_055180435.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 11410,
+      "member": "source_locus_inputs/assemblies/GCF_055180435.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "9641499cb8c8e023d574358a73dafefa7ca2c74563da55b04066ef5d3cd128d2"
+    },
+    "GCF_055502585.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 4232,
+      "member": "source_locus_inputs/assemblies/GCF_055502585.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "3a3bbfbc92afc2c7fd771a22291c671766980c5c8a125ba0fcbe569da1385c9e"
+    },
+    "GCF_055755075.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 7302,
+      "member": "source_locus_inputs/assemblies/GCF_055755075.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "8b179e6a8a9a76c1f48197e79d92d5ad229a05e4526171449e9f37096947d652"
+    },
+    "GCF_056269605.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_056269605.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "681752ab49a70d49a776ae03da1d939d1acfa581f425c297a1388684da5e5d17"
+    },
+    "GCF_056676095.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 4236,
+      "member": "source_locus_inputs/assemblies/GCF_056676095.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "3d8459ba95a1e18fb2f2c3b289673dd9e24c6c398d40580ab3315880a0dc1763"
+    },
+    "GCF_057786735.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_057786735.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "329251d2336e1323b1228d80c4a9f89443af210851293b88537aa0ee1218fef1"
+    },
+    "GCF_058111805.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 5260,
+      "member": "source_locus_inputs/assemblies/GCF_058111805.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "41f0064217a5544c3478c95dc0123cf65da489ce57dc690bb37320d4562f56ab"
+    },
+    "GCF_059089415.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 10776,
+      "member": "source_locus_inputs/assemblies/GCF_059089415.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "dab0c272f8bbaa2a017fc5978b224395cc49064a7e8f9505a6d944e14c684006"
+    },
+    "GCF_060305805.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 4237,
+      "member": "source_locus_inputs/assemblies/GCF_060305805.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "87289e3ec26146d1d8fe323942072f82195c2eb6def352077b926041f2f90ff1"
+    },
+    "GCF_060307215.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 4237,
+      "member": "source_locus_inputs/assemblies/GCF_060307215.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "501e26d498fd86de4219726445ce59ee8d33c7ebab4ba4bc9f307e306158fa7c"
+    },
+    "GCF_900016205.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 31916,
+      "member": "source_locus_inputs/assemblies/GCF_900016205.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "7086ddbe5fd9a9756afe22ae417bde66e5da01793be9a70478412bd0f9e3283d"
+    },
+    "GCF_900094835.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 31895,
+      "member": "source_locus_inputs/assemblies/GCF_900094835.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "34e6822f5bfb26b8add622c85e58f60eebbb599cdc2b78e2e673ff47238d6276"
+    },
+    "GCF_900240275.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 17841,
+      "member": "source_locus_inputs/assemblies/GCF_900240275.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "4b9c2dc7de24d733ec4c4d54ee9e7db6a3da21279bb3ce501469579b2797e141"
+    },
+    "GCF_900519455.1": {
+      "asset_name": "stage03-source-and-search-161-180.zip",
+      "asset_sha256": "3ad4c9dea41d4be6294d9ba9eac872fa2bc082c25d23178eac05323794f457d7",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_900519455.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622133236,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-161-180.zip",
+      "sha256": "9aecd3c85f60a5aad4f6173c7397bfd06c27bcad419bfb6070e1b6653482c64a"
+    },
+    "GCF_900519475.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_900519475.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "6b6f6b432ccd6ebf3f594ebc48ba6ccb5c61650b55b5a229740acd96826767e5"
+    },
+    "GCF_900636965.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_900636965.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "18488415d0b44dca3ad9049012da9d463b48acdd333afbf590c7f335aab7895f"
+    },
+    "GCF_903885985.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_903885985.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "97e48670c28d44904c5ed5d72ecd12b0be97f3bff3b50553497f8bfd11bab893"
+    },
+    "GCF_903886345.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_903886345.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "e75c093324417833ac85195bfab6023a4b09a47f6ed8867e1f9b88821b1f1b61"
+    },
+    "GCF_903886475.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 4230,
+      "member": "source_locus_inputs/assemblies/GCF_903886475.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "5acb4b4559f2ca90d01d94edcb43f775058c4185a8525743cef2b6a8e349d408"
+    },
+    "GCF_903891025.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_903891025.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "17ad5d75ecef741c3d79aecc0250ad461ec4924aaa69b864b4f6acc60e63b56a"
+    },
+    "GCF_903891205.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3209,
+      "member": "source_locus_inputs/assemblies/GCF_903891205.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "bfd01837abce448b66bdf7f15abdc27b698677f8c8564cf2ac7dc127126b9049"
+    },
+    "GCF_947539375.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3208,
+      "member": "source_locus_inputs/assemblies/GCF_947539375.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "d05633d6f74e9a9fba4d5e48e0799bb46f8b1482d96f4985c0418f633e63afaf"
+    },
+    "GCF_963243495.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 5258,
+      "member": "source_locus_inputs/assemblies/GCF_963243495.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "ef01b8feaa782ba347ee4ddebb2057a8dce19eeaee51783854d64937a803b30b"
+    },
+    "GCF_963281025.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 3207,
+      "member": "source_locus_inputs/assemblies/GCF_963281025.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "6b3d90b1c33e8420a0061be3a700178b08a5036fe44fd562fc4b10aea0f41572"
+    },
+    "GCF_964063315.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 7311,
+      "member": "source_locus_inputs/assemblies/GCF_964063315.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "7a8ce7345a7687ec8fe3ce07d228958d3d6ef38a581ee6e7a46aaa906c9eeb6a"
+    },
+    "GCF_965136965.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 81354,
+      "member": "source_locus_inputs/assemblies/GCF_965136965.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "b19bf6aed253a075acc33228e4569711f703ef49478acfb5a71f2b3a5ab7ca7e"
+    },
+    "GCF_965286035.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 4228,
+      "member": "source_locus_inputs/assemblies/GCF_965286035.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "691fc0b0d35708851ec991c23627d780a6a732b1d4ef83b850fbd34fd3fc6f84"
+    },
+    "GCF_965286295.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 4229,
+      "member": "source_locus_inputs/assemblies/GCF_965286295.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "77d75a46876e06547e851e097dc3673d3737d8b203a8d2e3806c5d85aceb922e"
+    },
+    "GCF_965286585.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 5253,
+      "member": "source_locus_inputs/assemblies/GCF_965286585.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "16fe10faf272c9ef097a83bac4692eea4921a6ee1a07f8c243fdae0f9c4c5fd1"
+    },
+    "GCF_982267005.1": {
+      "asset_name": "stage03-source-and-search-181-196.zip",
+      "asset_sha256": "fc51ce0ca445ae98fcd21804d31f2d9090a891ba3d3417fdc63ff352cc366e1b",
+      "bytes": 4233,
+      "member": "source_locus_inputs/assemblies/GCF_982267005.1/build_receipt.json",
+      "release_tag": "stage03-hostmarkers196-v1",
+      "remote_asset_id": 622135265,
+      "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-181-196.zip",
+      "sha256": "607489003f5995260d2a5cb463b2d7d7ca7a63b698cc668e9b4d179889fb4f7e"
+    }
+  },
+  "source_validation_release_member": {
+    "asset_name": "stage03-full196-original-and-curated-markers.zip",
+    "asset_sha256": "ea162611e8ed4e49451ecddd683b869729b2e9a1a19f00ad831b1d24a7e6244c",
+    "bytes": 1462,
+    "member": "independent_source_validation/validation_summary.json",
+    "release_tag": "stage03-hostmarkers196-v1",
+    "remote_asset_id": 622137169,
+    "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-full196-original-and-curated-markers.zip",
+    "sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb"
+  }
+}
