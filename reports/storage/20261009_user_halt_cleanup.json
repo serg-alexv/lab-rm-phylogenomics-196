@@ -1,0 +1,164 @@
+{
+  "schema": "EXECUTED_USER_HALT_AND_SCOPED_CLEANUP_V1",
+  "utc": "2026-10-09T10:13:27.758472+00:00",
+  "execution_control": {
+    "schema": "DIRECT_HUMAN_RUN_CONTROL_V1",
+    "utc": "2026-10-09T10:13:27.758472+00:00",
+    "state": "HALTED_BY_USER",
+    "automatic_resume": false,
+    "resume_requires_new_direct_user_instruction": true,
+    "directive": "halt processing and related tasks now; update git state; clean disk leftovers",
+    "original_external_cli_session": "01a11b51-18d0-7a43-9fe3-3b961af9c44a",
+    "external_cli_stop": [
+      {
+        "pid": 29464,
+        "state": "NOT_IN_CURRENT_INVENTORY"
+      },
+      {
+        "pid": 29632,
+        "image": "codex.exe",
+        "creation_filetime": 134360136604149419,
+        "user_requested_stop": true,
+        "terminate_succeeded": true,
+        "wait_result": 0,
+        "actual_exit_kind": "FORCED_STOP_BY_DIRECT_USER_REQUEST"
+      }
+    ],
+    "related_scheduled_tasks_disabled": 18,
+    "scientific_inference_started_by_this_request": false,
+    "old_V10_exit_and_job_closure": "UNKNOWN_PRESERVED",
+    "recovery_publication_before_halt": "c49c9efeaa4566d8166e889150966e774b315d11"
+  },
+  "cleanup": {
+    "removed_targets": 495,
+    "removed_logical_bytes": 892002901,
+    "skipped_targets": 0,
+    "C_free_before_bytes": 83497054208,
+    "C_free_after_bytes": 84393660416,
+    "preserved": "Source data, accepted results, original caches/checkpoints, frozen evidence, private logs, installed tools/environments, WSL filesystem, unrelated Git changes"
+  },
+  "cleanup_categories": {
+    "Downloaded package cache archive": {
+      "targets": 339,
+      "logical_bytes": 660114049
+    },
+    "Redundant installed-tool download archive": {
+      "targets": 3,
+      "logical_bytes": 22284148
+    },
+    "Old pip installer scratch": {
+      "targets": 111,
+      "logical_bytes": 56298528
+    },
+    "Old temporary file": {
+      "targets": 38,
+      "logical_bytes": 150113259
+    },
+    "Regenerable project Python bytecode": {
+      "targets": 4,
+      "logical_bytes": 3192917
+    }
+  },
+  "scheduled_tasks": [
+    {
+      "name": "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_089a39adeade",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_520674ad9893",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_fixture_e49c96152940",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+      "before": "Ready",
+      "after": "Disabled"
+    },
+    {
+      "name": "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+      "before": "Ready",
+      "after": "Disabled"
+    }
+  ],
+  "local_receipt_sha256": {
+    "halt_receipt.json": "96fa82a2ffd9a699832c7d3afe2e756f09adb9a720214110f3aebb73903561bf",
+    "cleanup_receipt_local.json": "7fd3a23f3d24303c208b84f94a72ef9a2b2d5e571d738ea5a5c84f906ef49de1",
+    "disabled_tasks.json": "5290af9695a2080b6ec0044d554bd15e5a677d72c066c82246aafdacc9fe4524"
+  },
+  "limitations": [
+    "Deleted byte total is logical file size; observed free-space change includes unrelated Windows activity.",
+    "Private raw CLI logs and unrelated temporary filenames stay local.",
+    "No biological stages or old tests rerun; all earlier scientific UNKNOWN outcomes retained."
+  ]
+}

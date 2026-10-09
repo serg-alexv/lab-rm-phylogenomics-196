@@ -1,5 +1,9 @@
 # Current execution status
 
+## Direct user halt — 2026-10-09T10:13:27.758472+00:00
+
+**HALTED_BY_USER. Automatic continuation is disabled.** The external CLI was stopped, all18 LAB scheduled tasks disabled, and temporary leftovers cleaned. Recovery evidence publication had completed at `c49c9efeaa4566d8166e889150966e774b315d11` before the halt. Stage04 remains scientifically incomplete; Stages05–07 remain NOT_RUN. Resume requires a new direct user instruction. See `status/run_control.json` and `reports/storage/20261009_user_halt_cleanup.json`.
+
 Reconciliation proposal prepared 2026-10-09T09:17:39.098978+00:00. Evidence as of 2026-10-09T09:00:54.2368705Z. Full approved196; no pilot.
 
 INTERRUPTED_OUTCOME_UNKNOWN: V10 primary196; scientific Stage04 INCOMPLETE. Reconciliation evidence as of 2026-10-09T09:00:54.2368705Z. Original native26452/creation134359866154140144 and controller2968/creation134359865859802366 actual exits, old-job accounting and closure remain UNKNOWN. Power-off request, logoff and sleep/resume events are recorded; specific process cause and original SessionIDs are not established. Scheduler0x40010004 is not a native exit code. See reports/stage04/recovery_v11/negative_reconciliation_proposal_v1.json. No retry adopted or launched. Fresh held-lock inventory/resources, latest cache scope and hash-bound parent acceptance remain required. V6 exit1 and historical UNKNOWN closures remain preserved; Stage05-07 NOT_RUN and full Stage04 validation/verified Release pending.
