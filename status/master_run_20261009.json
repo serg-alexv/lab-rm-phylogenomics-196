@@ -59,7 +59,7 @@
         "authority_created": true
       },
       "execution_checkpoint": "reports/master_run/20261009/cleanup/emptydirs_prune01/EXECUTION_CHECKPOINT.json",
-      "full_journal_remote_recovery": "PENDING_BOUNDED_EXECUTION_ARCHIVE",
+      "full_journal_remote_recovery": "LOCAL54_MEMBER_ARCHIVE_PASS_REMOTE_UPLOAD_READBACK_PENDING",
       "independent_postverify": "PASS_ACTUAL_5542_ABSENT_6_HELD_12_PROTECTED_6_DIRTY_G_ORIGINAL_LOCK_AND_OWNER_IDENTITIES",
       "deletion_rerun_authorized": false,
       "failed_postverify_receipt": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_FAILED.json",
@@ -70,36 +70,23 @@
   "historical_V10_closure": "UNKNOWN_PRESERVED",
   "latest_progress_snapshot": "reports/master_run/20261009/snapshots/verified_directory_publication09/native_progress.json",
   "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
-  "local_checkout_note": "Live G checkout stays at launch commit while the production lock is held; reconcile remote main after exact native closure.",
+  "local_checkout_note": "Exact current native/controller/job/unlock/power closure established; reconcile G under original lock while preserving six dirty tracked hashes.",
   "master_run": "master_20261009",
   "native_process": {
+    "state": "CLOSED",
     "pid": 4768,
     "creation_filetime": 134360369876207076,
-    "exit_filetime": 0,
-    "cpu_seconds": 34656.609375,
-    "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
-    "session_id": 1,
-    "exited": false,
-    "exit_code": null,
-    "peak_process_committed_bytes": 3649810432,
-    "peak_job_committed_bytes": 3650957312,
-    "job_cpu_seconds": 34656.625,
-    "job_active_processes": 2,
-    "job_pids": [
-      4768,
-      7492
-    ],
-    "utc": "2026-10-09T21:42:20.488222+00:00",
-    "elapsed_seconds": 18752.4999572,
-    "working_set_bytes": 3337740288,
-    "peak_working_set_bytes": 3481726976,
-    "private_committed_bytes": 3544838144
+    "exit_code": 0,
+    "job_active_processes": 0,
+    "controller_pid": 27048,
+    "controller_creation_filetime": 134360369803845506,
+    "controller_exit_code": 0
   },
   "schema": "LAB_RM_MASTER_RUN_STATUS_V1",
-  "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
+  "scientific_status": "STAGE04_NATIVE_COMPLETED_INDEPENDENT_ACCEPTANCE_PENDING",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T21:42:27.726396+00:00",
+  "updated_utc": "2026-10-09T21:58:50.476040+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -179,8 +166,9 @@
     "actual_endpoint_or_lifecycle_execution": "NOT_RUN"
   },
   "stage04_publication_preparation": {
-    "state": "CORRECTED_TEXT_JSON_BOUNDARY_13_SYNTHETIC_TESTS_AND_PEER_REVIEW_PASS_ACTUAL_NOT_RUN",
-    "native_runner_unchanged": true,
-    "native_stage": "FINAL_PARAMETER_OPTIMIZATION_NO_ACCEPTED_TREE"
-  }
+    "state": "TEXT_FORMAT_AND_SH_EXECUTION_FORMAT_CORRECTED_REVIEWED_TESTED_ACTUAL_PUBLICATION_PENDING",
+    "native_runner_unchanged": true
+  },
+  "stage04_execution": "NATIVE_EXIT0_EXACT_JOB_CONTROLLER_UNLOCK_POWER_CLOSURE_VERIFIED",
+  "stage04_acceptance": "FIRST_CHECKER_FORMAT_FAILURE_PRESERVED_CORRECTED_SOURCE_REVIEWED41_TESTS_PASS_ACTUAL02_PENDING"
 }

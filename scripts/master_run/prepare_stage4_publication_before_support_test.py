@@ -100,7 +100,7 @@ def main():
                 'smoke_atomic_iqtree_windows.py', 'independent_tree_check.py',
                 'test_independent_tree_check.py', 'test_stage4_freeze_copy_integration.py',
                 'prepare_stage4_publication.py', 'publish_stage4_primary.py',
-                'test_stage4_publish_science.py', 'test_stage4_publication_text.py', 'test_stage4_support_execution.py']
+                'test_stage4_publish_science.py', 'test_stage4_publication_text.py']
         if sha(CHAT/'work/independent_tree_check.py') != validation.get('checker_sha256'):
             raise ValueError('Packaged checker differs from actual independent acceptance code')
         launch = json.loads((accepted/'launch.json').read_text(encoding='utf-8-sig'))

@@ -93,12 +93,10 @@ class SyntheticFreezeCopyIntegration(unittest.TestCase):
         self.write(self.attempt / 'result.json', {'state': 'VALIDATION_REQUIRED'})
         self.write(self.attempt / 'lock_released.json', {'state': 'EXPLICIT_OS_BYTE_UNLOCK_COMPLETED'})
         self.write(self.attempt / 'cache_import.json', {'source': str(self.cache), 'sha256': checker.digest(self.cache)})
-        (self.attempt / 'host.iqtree').write_text('IQ-TREE version 3.1.4\nSeed: 1961008\nNumbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)\n',
+        (self.attempt / 'host.iqtree').write_text('IQ-TREE version 3.1.4\nSeed: 1961008\nSH-aLRT 1000 replicates\n',
                                                 encoding='utf-8')
-        execution = ('Testing tree branches by SH-like aLRT with 1000 replicates...\n'
-                     '0.25 sec.\nCreating bootstrap support values...\n')
-        (self.attempt / 'host.log').write_text('Restoring information from model checkpoint file\n'+execution, encoding='utf-8')
-        (self.attempt / 'stdout.txt').write_text('SYNTHETIC RECEIPTS; NO NATIVE EXECUTION\n'+execution, encoding='utf-8')
+        (self.attempt / 'host.log').write_text('Restoring information from model checkpoint file\n', encoding='utf-8')
+        (self.attempt / 'stdout.txt').write_text('SYNTHETIC RECEIPTS; NO NATIVE EXECUTION\n', encoding='utf-8')
         (self.attempt / 'host.treefile').write_text(TREE, encoding='utf-8', newline='\n')
         (self.attempt / 'host.ufboot').write_bytes(b'SYNTHETIC PARSER STREAM REPLACED IN TEST ONLY\n')
         self.native_before = {p.name: checker.digest(p) for p in self.attempt.iterdir() if p.is_file()}

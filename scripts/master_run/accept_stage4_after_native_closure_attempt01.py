@@ -7,7 +7,7 @@ ATTEMPT=WORK/'iqtree_attempts/partitioned_20261009T162904Z'
 ROOT=Path(r'G:\My Drive\LAB_RM\lab-rm-phylogenomics-196')
 HISTORY=Path(r'C:\Users\wheel\Documents\Codex\2026-10-08\lab-rm-phylogenomics-196')
 PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827',
-      'independent_tree_check.py':'3f35b36eefc022cecb74fd0c4dd49436916acc056b45dde9cfd149edca98a107',
+      'independent_tree_check.py':'eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c',
       'stage04_partitioned_config.json':'c70b267b04f9fa9c19a2bf0671deabcfd0959545d90a48a912ea463e220be314'}
 def sha(path):
     with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
@@ -28,7 +28,7 @@ def main():
     assert closed['job_active_processes']==0 and closed['job_pids']==[]
     assert unlock['state']=='EXPLICIT_OS_BYTE_UNLOCK_COMPLETED'
     assert power['actual_api_success'] is True and power['requested_flags']==0x80000000
-    out=WORK/'stage04_acceptance_actual02';out.mkdir(exist_ok=False)
+    out=WORK/'stage04_acceptance_actual01';out.mkdir(exist_ok=False)
     cfg=load(WORK/'stage04_partitioned_config.json')
     argv=[str(HISTORY/'.tools/validation_env/Scripts/python.exe'),'-B',str(WORK/'independent_tree_check.py'),
           '--attempt',str(ATTEMPT),'--approved',cfg['approved_accessions']['path'],

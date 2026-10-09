@@ -1,64 +1,23 @@
 # Current execution status
 
-Updated 2026-10-09T21:42:27.726396+00:00. Direct user continuation remains active. GitHub main
-and verified Release assets are the durable project authority. Automatic
-continuation remains disabled.
+Updated 2026-10-09T21:58:50.476040+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
-Stage4: the sole partitioned IQ-TREE 3.1.4 worker is advancing at iteration 100
-on all 196 approved genomes, 100 accepted partitions and 17,456 AA columns.
-The final tree and support are not yet accepted; historical V10 closure is
-UNKNOWN. The fresh native snapshot is
-`reports/master_run/20261009/snapshots/verified_directory_publication09/native_progress.json`.
+Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
-Stage5 dependency split V2 is implemented in addf594d. Detection and per-genome
-curation can queue fixed approved accessions independently of the host tree,
-preserving complete genomic context. All 196 source bundles match accepted
-pins (12,812 payload files / 1,893,101,586 bytes); nine support modules also
-match. The evidence archive passes fresh GitHub readback of all 26 members and
-the full 196-accession ledger. This proves source readiness only. Actual
-detectors, runtime discovery, WSL lifecycle/storage/UNC proofs and production
-curation remain NOT_RUN. WD retains one native owner, so detector execution
-awaits exact current process/job/descendant closure and original-lock release.
-Final Stage6 requires the accepted, separately published full host tree and
-independent 196-by-4 curation. Failed/unresolved/not-run cells never mean absence.
-See `docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
+Independent acceptance is pending. The first checker rejected the native phrase “SH-like aLRT” because its pattern expected “SH-aLRT”; that exact failure and original source are preserved. The corrected parser requires the completed native test in both streams, matching finite durations and the paired-support interpretation. It passes 41 regression checks and independent review. Actual acceptance attempt02 and full tree Release readback are next. Native warnings, including composition tests and near-zero branches, remain unchanged.
 
-Completed cleanup remains 48,490 exact files / 9,756,853,507 logical bytes plus
-5,557 exact empty directories, with recovery and independent protected-hash and
-absence checks. Physical reclaimed bytes are NOT_MEASURED. The additional
-5,542-directory metadata proposal has fresh remote readback PASS. Its corrected
-handle-based pruner passes nine actual Windows fixtures, six preparation guards
-and independent review. The first ancestor-rename failure and exact sources
-are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. The corrected independent filesystem checker PASS: all 5,542 planned directories absent, six holds and the vendor fragment preserved, protected12/six dirty G hashes and exact owner/original-lock identities unchanged. Nine exact G files qualify for observed provider zero-link metadata with full identity and SHA checks; single-link exclusion is explicitly NOT_ESTABLISHED. The first failed checker/source/receipt and actual diagnosis are preserved. No deletion was repeated. Full journal remote recovery remains pending.
+Stage5 dependency split V2 is implemented in addf594d: queue complete approved genomes and per-genome curation independently of host-tree acceptance. All 196 source bundles are verified. WD retains one native owner. Actual WSL/runtime/storage/interop/UNC setup and detectors remain NOT_RUN. Sources for those bounded gates are being reviewed now that Stage4 operational closure is established. Final Stage6 requires the accepted separately published full tree and independently curated 196-by-4 cells; failed, unresolved and not-run never mean absence. See `docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
 
-Recovery: the 194 public changed-history originals (18,622,099 bytes) now pass
-fresh GitHub download and all 216 ZIP-member checks. Five whole private files
-remain excluded and local; no changed-history originals have been purged.
-All 339 exact original Conda packages (660,114,049 bytes) pass local checks;
-both shards and sidecars are uploaded. The independent reader's owned-download
-resource monitor correction passes 13 pure tests and peer review. Its actual fresh remote payload check now PASS: all 339 originals / 397 role joins / 363 archive members / 361 SUMS; all 26 owned downloader commands exited 0 and closed. The superseded reader was never
-executed against remote payloads and is preserved as source history.
+Cleanup: 48,490 exact files / 9,756,853,507 logical bytes and 5,557 exact directories removed with protected hashes and recovery evidence. Physical reclaimed bytes NOT_MEASURED. The full 5,542-directory execution journal now has a locally verified 54-member recovery ZIP; remote upload and fresh readback remain pending. The qualified DriveFS zero-link metadata limitation remains explicit.
 
-Full IQ-TREE and both pinned submodule source snapshots have 1,938 exact
-original Gitblob bindings in a locally verified 31-member recovery ZIP. Three
-upstream archives remain unchanged; one separate 249-byte LF Gitblob restores
-a diagnosed 264-byte CRLF export. No binary-build equivalence is inferred.
-An independent local inspector also streamed all 1,938 original Gitblob joins and gzip EOF checks successfully. Fresh GitHub readback now PASS for all 31 archive members / 30 SUMS and all 1,938 original Gitblob bindings; all 27 owned downloader commands closed exit 0. Installed-binary equivalence remains unproved.
-
-Active tools, original lock, live inputs/checkpoints, six dirty G files and
-installed toolchain remain protected. G stays at launch 160498a6 until exact
-native closure permits reconciliation. The host is not ready to wipe.
+Recovery: all 339 original Conda packages, 1,938 IQ-TREE/submodule Gitblob bindings, 194 public changed-history originals, and prior cleanup recovery assets pass fresh GitHub payload readback. Installed-runtime/local-modification recovery and actual cold restoration remain pending. Private data is excluded. Active tools, stable original lock, accepted inputs, six dirty G files and installed toolchain remain protected. G can now be reconciled under the original lock while preserving those hashes. The host is not ready to wipe.
 
 | Stage | Scientific state |
 |---|---|
 |0–3|Accepted upstream results preserved|
-|4|Running; Stage4a accepted; final host tree pending|
-|5|Source readiness PASS; actual detectors and curation NOT_RUN|
+|4|Native completed; independent acceptance and Release pending|
+|5|Source readiness PASS; actual detectors/curation NOT_RUN|
 |6|Production figure NOT_RUN; synthetic proofs only|
 |7|Final scientific review NOT_RUN|
 
-Evidence: `status/master_run_20261009.json` and
-`docs/master_run/STORAGE_LEDGER.md`. Private sessions/prompts/usage, credentials
-and unrelated data are excluded from public recovery assets.
-
-Publication preflight corrected three text outputs passed to the JSON writer. The new exact-byte writer and actual local status-format regression pass 13 tests and independent source review. Native producer/checker scientific gates remain unchanged. Actual Stage4 closure, independent tree acceptance and publication remain pending.
+Evidence: `status/master_run_20261009.json` and `docs/master_run/STORAGE_LEDGER.md`.

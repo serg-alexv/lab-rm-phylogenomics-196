@@ -1,0 +1,25 @@
+{
+  "G_writes": 0,
+  "actual_output_line": 562,
+  "actual_phrase": "Testing tree branches by SH-like aLRT with 1000 replicates...",
+  "commit": "63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de",
+  "diagnosis": "The strict checker pattern SH.aLRT does not match native SH-like aLRT. Actual argv pins --alrt1000; nativeexit0,193pairedsupports and1000ufboot source checks remain independent requirements.",
+  "emission_line": 2452,
+  "inference_runs": 0,
+  "official_repository": "iqtree/iqtree3",
+  "original_tar_modified": false,
+  "other_emission_lines": [
+    3975,
+    3976
+  ],
+  "schema": "STAGE04_SH_ALRT_OFFICIAL_EMISSION_EVIDENCE_V1",
+  "scientific_acceptance": false,
+  "source_bytes": 277803,
+  "source_git_blob_sha1": "8b6cce92b12a962fa1007b380dbab974c0c0f633",
+  "source_path": "main/phyloanalysis.cpp",
+  "source_sha256": "42856882c846efb3cd62b0c8c221f3a0735e86414c93d1c1d0559e934b582f4b",
+  "source_statement": "cout << \"Testing tree branches by SH-like aLRT with \" << params.aLRT_replicates << \" replicates...\" << endl;",
+  "state": "PASS_READ_ONLY_SOURCE_AND_ACTUAL_OUTPUT_MATCH_NOT_ACCEPTANCE",
+  "tree": "4605e2cff872f408e5174efecb4715122f9582d9",
+  "utc": "2026-10-09T21:53:04.878436+00:00"
+}

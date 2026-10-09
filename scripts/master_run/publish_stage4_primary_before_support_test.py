@@ -202,7 +202,7 @@ def main():
             'atomic_iqtree_windows.py','test_atomic_iqtree_windows.py','smoke_atomic_iqtree_windows.py',
             'independent_tree_check.py','test_independent_tree_check.py',
             'test_stage4_freeze_copy_integration.py','prepare_stage4_publication.py',
-            'publish_stage4_primary.py','test_stage4_publish_science.py','test_stage4_publication_text.py', 'test_stage4_support_execution.py']]
+            'publish_stage4_primary.py','test_stage4_publish_science.py','test_stage4_publication_text.py']]
         payload_paths = [report.relative_to(ROOT).as_posix(), *code]
         receipt = portable_release.publish_frozen('stage04/'+args.report_name,args.tag,staging,
             manifest_path,payload_paths,'Stage4: accepted primary196 host phylogeny',notes)

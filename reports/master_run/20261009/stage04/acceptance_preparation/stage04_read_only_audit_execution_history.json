@@ -1,0 +1,53 @@
+{
+  "G_writes": 0,
+  "WSL_starts": 0,
+  "entries": [
+    {
+      "actual_command": [
+        "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\validation_env\\Scripts\\python.exe",
+        "-B",
+        "-"
+      ],
+      "actual_exit_code": 0,
+      "actual_input_transport": "PowerShell literal here-string piped to Python stdin",
+      "audit": "native_formats",
+      "executed_stdin_materialized_after_execution": true,
+      "materialized_source_bytes": 4018,
+      "materialized_source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\audit_stage04_actual_native_formats_executed_stdin.py",
+      "materialized_source_sha256": "a36ff6b7573f2bd511245e87b77061b3c02e3adc62b8d1fd3719d6e6226c41e9",
+      "receipt_bytes": 2383,
+      "receipt_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_actual_native_format_audit.json",
+      "receipt_sha256": "a732ade8e9121167b5bb393809ae5199b50ecdc22c0cb6e79c5c1ab7ede12bc7",
+      "source_file_itself_executed": false,
+      "tool_reported_wall_seconds_approximately": 2.0,
+      "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat"
+    },
+    {
+      "actual_command": [
+        "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-"
+      ],
+      "actual_exit_code": 0,
+      "actual_input_transport": "PowerShell literal here-string piped to Python stdin",
+      "audit": "official_emission",
+      "executed_stdin_materialized_after_execution": true,
+      "materialized_source_bytes": 1878,
+      "materialized_source_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\audit_stage04_official_emission_executed_stdin.py",
+      "materialized_source_sha256": "b69fa0954df6ac4f6ae9c62e99f881334e8cfe72a182a827b42e89b3d6b7dd4e",
+      "receipt_bytes": 1208,
+      "receipt_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_sh_alrt_official_emission_evidence.json",
+      "receipt_sha256": "ef19eb9326c3089b15f6754cd0d1734f77b7b61533f28f44cff78346ffb4d402",
+      "source_file_itself_executed": false,
+      "tool_reported_wall_seconds_approximately": 3.0,
+      "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat"
+    }
+  ],
+  "native_reruns": 0,
+  "qualification": "Sources are materialized after execution from the exact executed stdin body; no claim that these file hashes were recorded before launch. Receipts are the original actual outputs and were not rerun or rewritten. These source snapshots preserve fixed original receipt-writing paths and must not be executed against retained receipt locations.",
+  "raw_Codex_or_chat_events_included": false,
+  "schema": "STAGE04_READ_ONLY_AUDIT_EXECUTION_HISTORY_V1",
+  "scientific_acceptance_claim": false,
+  "state": "ACTUAL_EXIT0_STDIN_AUDITS_PRESERVED_AS_PUBLIC_PROJECT_CODE",
+  "utc": "2026-10-09T21:58:23.457342+00:00"
+}

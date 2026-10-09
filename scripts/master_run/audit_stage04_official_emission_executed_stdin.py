@@ -1,0 +1,9 @@
+from pathlib import Path
+import tarfile,hashlib,json,datetime
+w=Path('work');d=w/'iqtree314_source01_20261009T205427Z_7d051710';tj=json.loads((d/'iqtree3_git_tree.json').read_text());rows=tj['tree'];row=next(r for r in rows if r['path']=='main/phyloanalysis.cpp')
+with tarfile.open(d/'iqtree3-63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de.tar.gz','r:gz') as t:
+ m=t.getmember('iqtree3-63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de/main/phyloanalysis.cpp');b=t.extractfile(m).read()
+git=hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest();assert git==row['sha']
+s=b.decode().splitlines();line=s[2451];assert 'Testing tree branches by SH-like aLRT with ' in line
+r={'schema':'STAGE04_SH_ALRT_OFFICIAL_EMISSION_EVIDENCE_V1','state':'PASS_READ_ONLY_SOURCE_AND_ACTUAL_OUTPUT_MATCH_NOT_ACCEPTANCE','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'official_repository':'iqtree/iqtree3','commit':'63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de','tree':'4605e2cff872f408e5174efecb4715122f9582d9','source_path':'main/phyloanalysis.cpp','source_git_blob_sha1':git,'source_sha256':hashlib.sha256(b).hexdigest(),'source_bytes':len(b),'emission_line':2452,'source_statement':line.strip(),'other_emission_lines':[3975,3976],'actual_output_line':562,'actual_phrase':'Testing tree branches by SH-like aLRT with 1000 replicates...','diagnosis':'The strict checker pattern SH.aLRT does not match native SH-like aLRT. Actual argv pins --alrt1000; nativeexit0,193pairedsupports and1000ufboot source checks remain independent requirements.','original_tar_modified':False,'scientific_acceptance':False,'G_writes':0,'inference_runs':0}
+p=w/'stage04_sh_alrt_official_emission_evidence.json';p.write_text(json.dumps(r,indent=2,sort_keys=True)+'\n',encoding='utf-8',newline='\n');print(json.dumps({'path':str(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'source_git_blob_sha1':git}))

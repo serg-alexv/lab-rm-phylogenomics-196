@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\independent_tree_check.py", line 277, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\independent_tree_check.py", line 170, in main
+    require(re.search(r'(?:SH.aLRT[^\n]{0,150}1000|1000[^\n]{0,150}SH.aLRT)',combined,re.I), 'Executed1000SH-aLRT support record missing')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\independent_tree_check.py", line 22, in require
+    raise ValueError(message)
+ValueError: Executed1000SH-aLRT support record missing

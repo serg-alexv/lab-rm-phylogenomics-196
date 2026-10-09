@@ -1,0 +1,157 @@
+{
+  "actual_builder_tool_exit_code": 0,
+  "all_members_actual_crc_sha_verified": true,
+  "all_originals_final_retained_sha_verified": true,
+  "archive": {
+    "bytes": 1296741,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\master_directory_prune_execution01.zip",
+    "sha256": "2154a6bfdc2ea74dc6a18312032e4ff45812c5cabdb7ffb29b1cb5c323da7815"
+  },
+  "deadline_seconds": 900,
+  "first_actual_postverify_failure_preserved": true,
+  "first_fixture_failure_preserved": true,
+  "fresh_remote_archive_readback": "NOT_RUN",
+  "g_writes": 0,
+  "independent_local_archive_readback": "PENDING",
+  "limitations": [
+    "The accepted root postcheck is preserved, not rerun by this archive build.",
+    "G-provider zero-link metadata remains explicitly qualified; single-link exclusion is not established.",
+    "This local archive is recovery preparation; root must publish and obtain fresh remote readback.",
+    "Historical pending and failed receipts retain their original states."
+  ],
+  "member_count": 54,
+  "minimum_physical_and_commit_headroom_bytes": 1610612736,
+  "native_scientific_launches": 0,
+  "new_deletion_by_this_build": 0,
+  "original_count": 50,
+  "parallel_readers": 1,
+  "public_control_mapping": [
+    {
+      "bytes": 52780,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\build_receipt.json",
+      "sha256": "2deb1c11d4b0e8170fe5f098e8567a8feb13d2a6aee71e76fcc28a67cf5a3a30",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/build_receipt.json"
+    },
+    {
+      "bytes": 38595,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\index.json",
+      "sha256": "00ce955aa08315ec53510375c0b323000126a01e9ffd9837b0a6e037fe93d780",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/index.json"
+    },
+    {
+      "bytes": 1143,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\execution_summary.json",
+      "sha256": "a9d07e7deb974f5ad0da406b0966fd1f1c84722660de1c49a9dbec8070a3c365",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/execution_summary.json"
+    },
+    {
+      "bytes": 6582,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\SHA256SUMS.txt",
+      "sha256": "9869a9e397fe48bd279a033ffae679f7585ae3caf262562944f3600642654179",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/SHA256SUMS.txt"
+    },
+    {
+      "bytes": 105,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\master_directory_prune_execution01.zip.sha256",
+      "sha256": "959995eeae411432db1269e35a2e98ed48d3289b92853da441a2f9374e630b88",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/master_directory_prune_execution01.zip.sha256"
+    },
+    {
+      "bytes": 3533,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\completion.json",
+      "sha256": "5c7ba15b4aac144ae4ef54372daee95e20d617544c9cc057021ca1bcaa68b62b",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/completion.json"
+    }
+  ],
+  "public_source_and_review_mapping": [
+    {
+      "bytes": 23542,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_directory_prune_execution_archive.py",
+      "sha256": "37108a35b4c0ed7df91de478e36365aff76440d3ffddfd345648217fc09c661a",
+      "suggested_repository_path": "scripts/master_run/build_directory_prune_execution_archive.py"
+    },
+    {
+      "bytes": 3951,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_build_directory_prune_execution_archive.py",
+      "sha256": "de061b5201f061abd8b55a689199eb365dd54a7cee723867c043b64d40402973",
+      "suggested_repository_path": "scripts/master_run/test_build_directory_prune_execution_archive.py"
+    },
+    {
+      "bytes": 3727,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution_archive_METHODS.md",
+      "sha256": "633afb31bd6a36c8aaddab32d98cd0a068a4648a940305bac2c5027bd3f7a56c",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS.md"
+    },
+    {
+      "bytes": 2357,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution_archive_builder_independent_review.json",
+      "sha256": "87545d3c70fc3e7f8826adff49811cf474d16f5b4f730337db3c1c32099846d2",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_builder_independent_review.json"
+    },
+    {
+      "bytes": 2088,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution_archive_preparation.json",
+      "sha256": "87bc8a6d61cb9b9eda3f49cb84b0aeeed50dfcb951dd1cc92aa8e77ade64dc43",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_preparation.json"
+    },
+    {
+      "bytes": 23122,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_directory_prune_execution_archive_draft150e.py",
+      "sha256": "150e6c4f46f2f13325cb28f163bfbfa82291c4fb65cd0e12eabf9495bc74f421",
+      "suggested_repository_path": "scripts/master_run/build_directory_prune_execution_archive_draft150e.py"
+    },
+    {
+      "bytes": 2833,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_build_directory_prune_execution_archive_draft2fe5.py",
+      "sha256": "2fe5ec14bc870a1b8b163a94a387802fc2536d68e157976f32ae441d4b65a124",
+      "suggested_repository_path": "scripts/master_run/test_build_directory_prune_execution_archive_draft2fe5.py"
+    },
+    {
+      "bytes": 3516,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_prune_execution_archive_METHODS_draft_e5e6.md",
+      "sha256": "e5e6f927997a16d58ae100ad97b7e7623f76925a8939e25d59bf8b2d65e5555a",
+      "suggested_repository_path": "reports/master_run/20261009/cleanup/directory_prune_execution01/directory_prune_execution_archive_METHODS_draft_e5e6.md"
+    }
+  ],
+  "remote_upload": "NOT_RUN",
+  "reserve_draft_preserved": true,
+  "resource_after": {
+    "commit_available_bytes": 4598865920,
+    "own_priority_class": 16384,
+    "physical_available_bytes": 6354108416
+  },
+  "resource_before": {
+    "commit_available_bytes": 4598255616,
+    "own_priority_class": 16384,
+    "physical_available_bytes": 6358286336
+  },
+  "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION_ARCHIVE_HANDOFF_V1",
+  "state": "PASS_LOCAL_EXECUTION_RECOVERY_ARCHIVE_ALL_CRC_SHA_NO_NEW_DELETE",
+  "stream_chunk_bytes": 262144,
+  "sum_records": 53,
+  "summary": {
+    "directories_deleted_by_builder": 0,
+    "directories_removed_verified": 5542,
+    "dirty_g_files": 6,
+    "files_deleted_by_builder": 0,
+    "first_postverify_provider_failure_preserved": true,
+    "first_pruner_fixture_failure_preserved": true,
+    "g_single_link_exclusion": "NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO_FOR_EXACT_NINE_PINNED_FILES",
+    "held_directories": 6,
+    "independent_postverify_exit_code": 0,
+    "journal_records": 16628,
+    "journal_sha256": "5ff92323b29af9a6620a251825ea6531e95bbf14ef2ff6c3d36279beb891f4a5",
+    "new_deletion_or_host_wipe_authority": false,
+    "original_execution_checkpoint_state_preserved": "EXECUTION_EXIT0_INDEPENDENT_POSTVERIFY_PENDING",
+    "postverify_receipt": "directory_prune_postverify_20261009T213844Z_e301284e/receipt.json",
+    "postverify_sha256": "7820c5048722f517c291f7eab74ea7199197c1ed354b90f3bdfe4df5a35889dd",
+    "protected_files": 12,
+    "pruner_exit_code": 0,
+    "remote_publication": "NOT_RUN",
+    "remote_readback": "NOT_RUN",
+    "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION_RECOVERY_SUMMARY_V1",
+    "scientific_acceptance_created": false,
+    "scope": "EXACT_PUBLISHED_SEVEN_OLD_C_CACHE_SCOPES_ONLY"
+  },
+  "wsl_starts": 0
+}

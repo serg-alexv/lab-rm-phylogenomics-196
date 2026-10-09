@@ -1,0 +1,71 @@
+{
+  "archive": {
+    "bytes": 1296741,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\master_directory_prune_execution01.zip",
+    "sha256": "2154a6bfdc2ea74dc6a18312032e4ff45812c5cabdb7ffb29b1cb5c323da7815"
+  },
+  "compact_public_controls": [
+    {
+      "bytes": 52780,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\build_receipt.json",
+      "sha256": "2deb1c11d4b0e8170fe5f098e8567a8feb13d2a6aee71e76fcc28a67cf5a3a30",
+      "suggested_public_name": "build_receipt.json"
+    },
+    {
+      "bytes": 38595,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\index.json",
+      "sha256": "00ce955aa08315ec53510375c0b323000126a01e9ffd9837b0a6e037fe93d780",
+      "suggested_public_name": "index.json"
+    },
+    {
+      "bytes": 1143,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\execution_summary.json",
+      "sha256": "a9d07e7deb974f5ad0da406b0966fd1f1c84722660de1c49a9dbec8070a3c365",
+      "suggested_public_name": "execution_summary.json"
+    },
+    {
+      "bytes": 6582,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\SHA256SUMS.txt",
+      "sha256": "9869a9e397fe48bd279a033ffae679f7585ae3caf262562944f3600642654179",
+      "suggested_public_name": "SHA256SUMS.txt"
+    },
+    {
+      "bytes": 105,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune_execution01\\master_directory_prune_execution01.zip.sha256",
+      "sha256": "959995eeae411432db1269e35a2e98ed48d3289b92853da441a2f9374e630b88",
+      "suggested_public_name": "master_directory_prune_execution01.zip.sha256"
+    }
+  ],
+  "member_count": 54,
+  "original_count": 50,
+  "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION_ARCHIVE_COMPLETION_V1",
+  "source": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_directory_prune_execution_archive.py",
+    "sha256": "37108a35b4c0ed7df91de478e36365aff76440d3ffddfd345648217fc09c661a"
+  },
+  "state": "PASS_LOCAL_EXECUTION_RECOVERY_ARCHIVE_ALL_CRC_SHA_NO_NEW_DELETE",
+  "summary": {
+    "directories_deleted_by_builder": 0,
+    "directories_removed_verified": 5542,
+    "dirty_g_files": 6,
+    "files_deleted_by_builder": 0,
+    "first_postverify_provider_failure_preserved": true,
+    "first_pruner_fixture_failure_preserved": true,
+    "g_single_link_exclusion": "NOT_ESTABLISHED_PROVIDER_REPORTED_ZERO_FOR_EXACT_NINE_PINNED_FILES",
+    "held_directories": 6,
+    "independent_postverify_exit_code": 0,
+    "journal_records": 16628,
+    "journal_sha256": "5ff92323b29af9a6620a251825ea6531e95bbf14ef2ff6c3d36279beb891f4a5",
+    "new_deletion_or_host_wipe_authority": false,
+    "original_execution_checkpoint_state_preserved": "EXECUTION_EXIT0_INDEPENDENT_POSTVERIFY_PENDING",
+    "postverify_receipt": "directory_prune_postverify_20261009T213844Z_e301284e/receipt.json",
+    "postverify_sha256": "7820c5048722f517c291f7eab74ea7199197c1ed354b90f3bdfe4df5a35889dd",
+    "protected_files": 12,
+    "pruner_exit_code": 0,
+    "remote_publication": "NOT_RUN",
+    "remote_readback": "NOT_RUN",
+    "schema": "MASTER_DIRECTORY_PRUNE_EXECUTION_RECOVERY_SUMMARY_V1",
+    "scientific_acceptance_created": false,
+    "scope": "EXACT_PUBLISHED_SEVEN_OLD_C_CACHE_SCOPES_ONLY"
+  }
+}

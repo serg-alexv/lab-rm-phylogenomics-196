@@ -1,0 +1,41 @@
+{
+  "actual_native_format_audit_sha256": "a732ade8e9121167b5bb393809ae5199b50ecdc22c0cb6e79c5c1ab7ede12bc7",
+  "checker_sha256": "3f35b36eefc022cecb74fd0c4dd49436916acc056b45dde9cfd149edca98a107",
+  "concrete_blockers": [],
+  "execution_scope": {
+    "G_writes": 0,
+    "WSL_starts": 0,
+    "actual_native_C_outputs_read": true,
+    "approved_G_panel_read_only": true,
+    "freeze_created": false,
+    "native_rerun": false,
+    "original_outputs_modified": false,
+    "scientific_acceptance_claim": false,
+    "source_producer_main_invoked": false
+  },
+  "findings": [
+    "The first failure is a concrete strict-output-format mismatch: SH.aLRT does not match actual and official-source SH-like aLRT.",
+    "Corrected function requires one exact1000-replicate executed phrase followed by finite seconds and support-creation stage in each actual native log and stdout, equal duration in both, and the native report paired-support interpretation.",
+    "Actual preserved native output matches79.923seconds; recovered original official main/phyloanalysis.cpp Gitblob8b6cce92b12a962fa1007b380dbab974c0c0f633 independently confirms exact emission.",
+    "All remaining exact command/input/nativeexit0/emptyjob/lockrelease/version/seed/cache/paired-support/1000actualbootstrap/freeze-copy/manifest gates remain unchanged.",
+    "Independent read-only actual output parse found196exactapproved tips,389finite nonnegative edges,193pairedsupported internal edges and1000bootstraptrees each196unique approved tips; consensus exactpanel and in-memoryNEXUS topology/length/support/unrooted roundtrip passed.",
+    "Wrapper binds corrected checker and uses newactual02 namespace while preservingactual01; no automatic inference retry.",
+    "Native188composition-chi2 failures and10near-zero internal branches remain native scientific warnings; this correction does not reinterpret or suppress them."
+  ],
+  "new_execution_authorized": false,
+  "official_source_emission_evidence_sha256": "ef19eb9326c3089b15f6754cd0d1734f77b7b61533f28f44cff78346ffb4d402",
+  "peer_tests": {
+    "actual_count": 41,
+    "actual_exit_code": 0,
+    "scope": "SYNTHETIC_ONLY_NO_NATIVE_RERUN_NO_G_WRITE",
+    "tests_rerun_by_reviewer": false
+  },
+  "preserved_first_checker_sha256": "eda8d80824fb5be11e7f7366dfd8af90e7cdbd99bf9508e384c194ed95acaa3c",
+  "preserved_first_failed_acceptance": "work/stage04_acceptance_actual01",
+  "regression_receipt_sha256": "64ebd0ecac9e50f64046c64805bfa4339a84ed5603272dfb14173c3d6c1b99b8",
+  "schema": "STAGE04_SH_ALRT_FORMAT_CORRECTION_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_READ_ONLY_ACTUAL_NATIVE_FORMAT_REVIEW_NOT_ACCEPTANCE",
+  "test_sha256": "d9413d9ef0273171d0830029a0f526738320ee28bd9feb6552838b414230c282",
+  "utc": "2026-10-09T21:55:25.305443+00:00",
+  "wrapper_sha256": "075c6da1308eb14d99bf4c59d2766b2dd4506102d12489feb0bad45f6872b75b"
+}
