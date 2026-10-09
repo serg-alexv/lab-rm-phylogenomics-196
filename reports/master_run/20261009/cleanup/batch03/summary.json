@@ -1,0 +1,90 @@
+{
+  "actual_cleanup": "NOT_RUN",
+  "allowlist_sha256": "df770f9e49e869c64f61db5720030aceff3b3282d53ee964aae02d228d7c3f64",
+  "archive_or_download": "NOT_RUN",
+  "completed_utc": "2026-10-09T18:59:39.673403+00:00",
+  "counts": {
+    "candidate_files": 48267,
+    "hashed_files": 48267,
+    "matched_bytes": 6568632074,
+    "matched_files": 47648,
+    "unmatched_bytes": 981198193,
+    "unmatched_files": 619
+  },
+  "delete_semantics": "Only exact literal allowlisted leaf paths after root publishes pinned evidence and confirms unchanged bytes and no active handles; never recursive-delete scope directories.",
+  "ext4_image_read": false,
+  "groups": {
+    ".work/review2": {
+      "bytes": 981279520,
+      "files": 633,
+      "matched_bytes": 314349,
+      "matched_files": 23,
+      "unmatched_bytes": 980965171,
+      "unmatched_files": 610
+    },
+    ".work/source_locus_inputs_v1": {
+      "bytes": 1897944451,
+      "files": 13013,
+      "matched_bytes": 1897944451,
+      "matched_files": 13013
+    },
+    ".work/stage02_validated": {
+      "bytes": 795097955,
+      "files": 204,
+      "matched_bytes": 795097955,
+      "matched_files": 204
+    },
+    ".work/stage03_markers_v1": {
+      "bytes": 466718255,
+      "files": 26952,
+      "matched_bytes": 466717792,
+      "matched_files": 26950,
+      "unmatched_bytes": 463,
+      "unmatched_files": 2
+    },
+    ".work/stage04_phylogeny_v2": {
+      "bytes": 122114701,
+      "files": 2460,
+      "matched_bytes": 121882142,
+      "matched_files": 2453,
+      "unmatched_bytes": 232559,
+      "unmatched_files": 7
+    },
+    ".work/stage04a_windows_alignments_v1": {
+      "bytes": 122404535,
+      "files": 2456,
+      "matched_bytes": 122404535,
+      "matched_files": 2456
+    },
+    "data": {
+      "bytes": 3164270850,
+      "files": 2549,
+      "matched_bytes": 3164270850,
+      "matched_files": 2549
+    }
+  },
+  "maximum_scope_bytes": 8589934592,
+  "payload_bytes_read_one_pass": 7549830267,
+  "preserve_manifest_sha256": "bca12c16ff092b2e2fb612608186db728518d0ebf07fad80e1b401ed43ff0593",
+  "protected": "G counterpart source/accepted inputs; old C toolchain, original controllers/source guards/lock/private history.",
+  "root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+  "schema": "LAB_RM_OLD_SCIENTIFIC_CACHE_RELEASE_MEMBER_MAPPING_V1",
+  "scientific_status_changes": false,
+  "scopes": [
+    "data",
+    ".work/review2",
+    ".work/stage02_validated",
+    ".work/source_locus_inputs_v1",
+    ".work/stage03_markers_v1",
+    ".work/stage04a_windows_alignments_v1",
+    ".work/stage04_phylogeny_v2"
+  ],
+  "script_sha256": "2b4c59634f4bf54cbd6f02e69cf980631f61611ccc36759314e9475f8d9564db",
+  "source_file_payload_passes": 1,
+  "source_logical_bytes": 7549830267,
+  "source_proof_sha256": "67087f8bbed012fb8ec3741ea35fd22f1fbb4801f3d0b7d6661e7d22f279ff5d",
+  "started_utc": "2026-10-09T18:45:26.379870+00:00",
+  "status": "PASS_EXACT_MATCHES_ONLY_UNMATCHED_PRESERVED",
+  "stream_chunk_bytes": 1048576,
+  "wsl_or_g_writes": "NOT_RUN"
+}

@@ -7,7 +7,9 @@
     "removed_files": 224,
     "removed_bytes": 2207024265,
     "proposal_commit": "03f3d70eb9909041c625f18ddaa22c50096f3e99",
-    "receipt": "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json"
+    "receipt": "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
+    "public_history_archive": "LOCAL_VERIFIED_UPLOAD_AND_REMOTE_READBACK_PENDING",
+    "batch03": "47648_RELEASE_MATCHED_FILES_IDENTIFIED_NO_PURGE"
   },
   "historical_V10_closure": "UNKNOWN_PRESERVED",
   "latest_progress_snapshot": "reports/master_run/20261009/snapshots/20261009T182652Z",
@@ -18,22 +20,22 @@
     "pid": 4768,
     "creation_filetime": 134360369876207076,
     "exit_filetime": 0,
-    "cpu_seconds": 15789.328125,
+    "cpu_seconds": 16845.5625,
     "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
     "session_id": 1,
     "exited": false,
     "exit_code": null,
     "peak_process_committed_bytes": 3545579520,
     "peak_job_committed_bytes": 3546726400,
-    "job_cpu_seconds": 15789.34375,
+    "job_cpu_seconds": 16845.578125,
     "job_active_processes": 2,
     "job_pids": [
       4768,
       7492
     ],
-    "utc": "2026-10-09T18:53:58.920465+00:00",
-    "elapsed_seconds": 8651.3011945,
-    "working_set_bytes": 3316301824,
+    "utc": "2026-10-09T19:03:33.587205+00:00",
+    "elapsed_seconds": 9225.9679817,
+    "working_set_bytes": 3316084736,
     "peak_working_set_bytes": 3481726976,
     "private_committed_bytes": 3513483264
   },
@@ -41,11 +43,17 @@
   "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T18:54:16.039938+00:00",
+  "updated_utc": "2026-10-09T19:03:41.305482+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
     "bytes": 6094272,
     "readback": "ALL_REMOTE_BYTES_VERIFIED"
+  },
+  "stage5_dependency_decision": {
+    "state": "IMPLEMENT_GENOME_SOURCE_GATE_SPLIT_PREPARED_CODE_IN_PROGRESS",
+    "decision": "docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md",
+    "native_concurrency": "ONE_NATIVE_OWNER_UNCHANGED",
+    "actual_stage5_searches": "NOT_RUN"
   }
 }

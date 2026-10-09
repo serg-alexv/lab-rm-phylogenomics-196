@@ -1,0 +1,239 @@
+{
+  "schema": "MASTER_EXACT_EMPTY_DIRECTORY_PRUNE_V1",
+  "utc": "2026-10-09T18:57:36.505189+00:00",
+  "state": "PREPARED_NO_DIRECTORY_DELETION",
+  "remote_plan_path": "reports/master_run/20261009/cleanup/EMPTY_DIRECTORIES_PROPOSED.json",
+  "initial_inventory_sha256": "0836bf9540e86126d8ac3aaa10187ca7e74e3e0bff483e721f5f31fd6acab382",
+  "completed_file_purge_receipt_sha256": "97acdb4da7b82f35550b1cdb646ae8b742ffa4a129134dfba2085dbe45a356f9",
+  "completed_file_purge_commit": "114a7249b10008430f03a27cee16d2356013b624",
+  "scope_roots": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201"
+  ],
+  "directories": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports\\stage02",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "initial_group_index": 5,
+      "depth": 11,
+      "creation_filetime": 134359394765867393,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600\\.work",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+      "initial_group_index": 4,
+      "depth": 10,
+      "creation_filetime": 134359618924236016,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\config",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "initial_group_index": 5,
+      "depth": 10,
+      "creation_filetime": 134359394765714494,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\reports",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "initial_group_index": 5,
+      "depth": 10,
+      "creation_filetime": 134359394765840449,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": "stage02",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201\\scripts",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "initial_group_index": 5,
+      "depth": 10,
+      "creation_filetime": 134359394766439474,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic\\render",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic",
+      "initial_group_index": 1,
+      "depth": 10,
+      "creation_filetime": 134360388353316679,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final\\render",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final",
+      "initial_group_index": 2,
+      "depth": 10,
+      "creation_filetime": 134360392686651099,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\input",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+      "initial_group_index": 0,
+      "depth": 10,
+      "creation_filetime": 134360385686580163,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic\\render",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+      "initial_group_index": 0,
+      "depth": 10,
+      "creation_filetime": 134360385687099346,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\waiter_serialization_fixture_1791488292423128600",
+      "initial_group_index": 4,
+      "depth": 9,
+      "creation_filetime": 134359618924226172,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": ".work",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\windows_zip_open_a594b80f28eb4a6f9dbd3e0f80eab201",
+      "initial_group_index": 5,
+      "depth": 9,
+      "creation_filetime": 134359394765576163,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": "config",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        },
+        {
+          "name": "reports",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        },
+        {
+          "name": "scripts",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\__pycache__",
+      "initial_group_index": 3,
+      "depth": 9,
+      "creation_filetime": 134360360852592595,
+      "empty_at_inventory": true,
+      "observed_children": [],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic",
+      "initial_group_index": 1,
+      "depth": 9,
+      "creation_filetime": 134360388351812837,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": "render",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_density_synthetic_final",
+      "initial_group_index": 2,
+      "depth": 9,
+      "creation_filetime": 134360392684474625,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": "render",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+      "group_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_synthetic",
+      "initial_group_index": 0,
+      "depth": 9,
+      "creation_filetime": 134360385686574590,
+      "empty_at_inventory": false,
+      "observed_children": [
+        {
+          "name": "input",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        },
+        {
+          "name": "render",
+          "directory": true,
+          "reparse": false,
+          "listed_derived_ancestor": true
+        }
+      ],
+      "deletion_rule": "SKIP_UNLESS_SAME_PLAIN_DIRECTORY_AND_ACTUALLY_EMPTY_AT_REMOVAL"
+    }
+  ],
+  "excluded": [],
+  "directory_count": 15,
+  "empty_now_count": 9,
+  "parent_only_contains_derived_child_directories_count": 6,
+  "candidate_derivation": "Only ancestors of the142 deleted initial candidates, bounded by original groups0..5; single-level observations only.",
+  "recursive_delete": false,
+  "files_to_delete": 0,
+  "biological_jobs": 0,
+  "g_mutations": 0,
+  "wsl_starts": 0
+}

@@ -1,0 +1,72 @@
+{
+  "actual_archive_export": "NOT_RUN",
+  "actual_cleanup": "NOT_RUN",
+  "bytes": 20044247396,
+  "classifications": {
+    "HISTORICAL_CHAT_ARCHIVE_BEFORE_PURGE": 2730,
+    "HISTORICAL_PROJECT_RECORD_REMOTE_PROOF_REQUIRED": 454,
+    "HISTORICAL_WORK_ARCHIVE_BEFORE_PURGE": 2681,
+    "PROTECTED_HISTORICAL_GIT_STORE": 1118,
+    "PROTECTED_ORIGINAL_ACTIVE_LOCK": 1,
+    "PROTECTED_ORIGINAL_CONTROLLER_AND_UNKNOWN_HISTORY": 786,
+    "PROTECTED_ORIGINAL_PRIVATE_CONTROL_HISTORY": 84,
+    "PROTECTED_ORIGINAL_SOURCE_GUARDS_AND_CONTROL": 97,
+    "PROTECTED_TOOLCHAIN_AND_RUNTIME": 32943,
+    "SCIENTIFIC_CHECKPOINT_OR_FAILURE_HISTORY_PRESERVE": 2474,
+    "SCIENTIFIC_INPUT_OR_ACCEPTED_DERIVATIVE_REMOTE_MEMBER_PROOF_REQUIRED": 43203,
+    "SCIENTIFIC_INPUT_OR_RELEASE_BYTES_REMOTE_MEMBER_PROOF_REQUIRED": 2638,
+    "SYNTHETIC_FIXTURE_ARCHIVE_BEFORE_PURGE": 32
+  },
+  "dirty_entries": 199,
+  "excluded_other_yesterday_chats": "12 look-through-my-chats-library-files folders: no bounded LABRM textual hits; task/task-3 empty; task-2 firmware unrelated",
+  "execution": "READ_ONLY_SOURCE_AND_METADATA_ONLY",
+  "files": 89241,
+  "hash_limit": 268435456,
+  "hash_states": {
+    "ACTIVE_OR_RETAINED_LOCK_NOT_OPENED": 18,
+    "BOUNDED_HASH_BUDGET_EXHAUSTED": 10894,
+    "LARGE_FILE_METADATA_ONLY_LOW_IO": 1554,
+    "REPARSE_FILE_NOT_READ": 2037,
+    "RUNTIME_OR_DATA_PAYLOAD_METADATA_ONLY": 67327,
+    "SHA256_CAPTURED": 7411
+  },
+  "hashed_files": 7411,
+  "hashed_unique_pass_bytes": 268435444,
+  "historical_head": "8ec0cee563848b75022bc464ad586d19b07b1ffe",
+  "limitations": [
+    "Large runtime/data/ZIP/ext4 bytes not hashed or streamed; sizes are metadata only.",
+    "GitHub releases observation is metadata/digest only, not a new asset download/member verification.",
+    "Local duplicate SHA groups do not prove remote recovery; no path is deletion-authorized by this report.",
+    "Toolchain backing prefix, original source/control guards and active lock remain explicitly protected."
+  ],
+  "move_delete_push_or_biology": false,
+  "remote": {
+    "commit": "83059864f424fc6db7beebaa898f1f0019bc4d51",
+    "historical_head_ancestry": {
+      "ahead_by": 124,
+      "behind_by": 0,
+      "merge_base_sha": "8ec0cee563848b75022bc464ad586d19b07b1ffe",
+      "status": "ahead"
+    },
+    "release_count": 9,
+    "repository": "serg-alexv/lab-rm-phylogenomics-196",
+    "status": "PASS_CURRENT_API_TREE_AND_RELEASE_METADATA_ONLY",
+    "tree": "2bf09cd1d111ea99886c8e7c7eaa7722c3485bb0",
+    "utc": "2026-10-09T18:32:13.202937+00:00",
+    "writes": false
+  },
+  "remote_blob_matches": {
+    "ACTUAL_BYTES_MATCH_CURRENT_REMOTE_MAIN_BLOB": 281,
+    "ACTUAL_BYTES_MATCH_HISTORICAL_COMMIT_PROVEN_ANCESTOR_OF_REMOTE_MAIN": 2,
+    "NOT_CHECKED": 88954,
+    "NO_VERIFIED_REMOTE_BLOB_MATCH": 4
+  },
+  "schema": "LAB_RM_BOUNDED_C_HISTORY_INVENTORY_V1",
+  "scope_roots": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an"
+  ],
+  "skipped_paths": 6,
+  "small_file_limit": 2097152,
+  "utc": "2026-10-09T18:32:13.202937+00:00"
+}
