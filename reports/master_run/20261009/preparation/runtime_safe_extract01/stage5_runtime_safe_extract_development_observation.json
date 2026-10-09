@@ -1,0 +1,17 @@
+{
+  "schema": "STAGE05_SAFE_EXTRACT_SYNTHETIC_DEVELOPMENT_OBSERVATION_V1",
+  "state": "TWO_TEST_FIXTURE_DEFECTS_PRESERVED",
+  "test_count": 14,
+  "passed": 12,
+  "failed": 1,
+  "errors": 1,
+  "actual_restore": "NOT_RUN",
+  "observations": [
+    "Windows fstat/lstat ctime differs; Linux-only immutable-control test requires explicit consistent Linux metadata adapter",
+    "Negative symlink-mode test modified final sorted root row instead of symlink row"
+  ],
+  "pins": {
+    "stage5_runtime_safe_extract.py": "beec0d3007da552d956f0d42434bd0ef1fa4ddac080834b0ed66f8aa581fac96",
+    "test_stage5_runtime_safe_extract.py": "3d7e1922a573d0ea2e5848ae6e486e2be6298626ef0489b4b6bc06a1f2aee92f"
+  }
+}

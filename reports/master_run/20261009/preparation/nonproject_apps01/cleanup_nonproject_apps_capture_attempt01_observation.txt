@@ -1,0 +1,32 @@
+Actual read-only invocation (no --run):
+python -B work/cleanup_nonproject_apps_windows.py --capture-plan C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\cleanup_nonproject_apps_plan.json
+
+Actual exec exit_code: 1. stdout: empty.
+The following traceback is preserved from the tool's combined output; stderr
+was not separately redirected to disk at launch. No claim of a raw stderr file.
+
+Traceback (most recent call last):
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\cleanup_nonproject_apps_windows.py", line 209, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ~~~~^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\cleanup_nonproject_apps_windows.py", line 193, in main
+    path=local(args.capture_plan,True);value=capture(Native(),source_sha);write(path,value,True)
+                                             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\cleanup_nonproject_apps_windows.py", line 136, in capture
+    row={'pid':pid,'executable':exe};h=native.process(pid);handles.append(h)
+                                       ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\cleanup_nonproject_apps_windows.py", line 96, in process
+    self.api.ok(handle,'OpenProcess exact target');return handle
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\atomic_iqtree_windows.py", line 202, in ok
+    raise c.WinError(c.get_last_error(), operation)
+OSError: [WinError 87] OpenProcess exact target
+
+Subsequent actual CIM query:
+Get-CimInstance Win32_Process -Filter "Name='Microsoft.Media.Player.exe' OR Name='chrome.exe'" | Select-Object ProcessId,ParentProcessId,Name,ExecutablePath,CreationDate | ConvertTo-Json -Depth 3
+Actual exit_code: 0. Output empty (no matching rows).
+
+No captured plan was written. Helper stopped before capturing any target handle.
+No termination calls were made. Root independently reported no app action and
+confirmed the later no-match inventory. Original-target disappearance cause is
+unobserved; process closure identity/exit codes are not reconstructed.

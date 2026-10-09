@@ -1,0 +1,29 @@
+{
+  "schema": "STAGE05_GDRIVE_VIEW_REQUEST_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "owner_nonce": "679cd6baa84440eeba5495d23e63f309",
+  "source_sha256": "d324e5c513138641c1e3e3398a222e4579cec05a0c7fb47c9ffb55a56592ccda",
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "linux_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "allow_mount": true,
+  "mount_argv": [
+    "/usr/bin/mount",
+    "-t",
+    "drvfs",
+    "G:",
+    "/mnt/g"
+  ],
+  "control_sha256": {
+    "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "owner_lock_sha256": "deb511adc8b54553753fdb10af85aa2c9f697aaf71c1efc7e2fdb4e1bfce2beb"
+}

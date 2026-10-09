@@ -1,0 +1,48 @@
+{
+  "schema": "MASTER_EXACT_NONPROJECT_APP_CLEANUP_INDEPENDENT_REVIEW_V1",
+  "state": "QUALIFIED_SOURCE_REVIEW_OBSOLETE_SELECTION_ONLY",
+  "recorded_at_utc": "2026-10-09T23:54:06.128885+00:00",
+  "source_sha256": "b2d3db7ee9f0bbb91eadebaef6fa21cd3251be5a030c09401415304de3f1cc4c",
+  "file_sha256": {
+    "cleanup_nonproject_apps_windows.py": "b2d3db7ee9f0bbb91eadebaef6fa21cd3251be5a030c09401415304de3f1cc4c",
+    "test_cleanup_nonproject_apps_windows.py": "610ed712e603df85939cbe75a3b9f7151c11671f243023f643d179969935cdf7",
+    "cleanup_nonproject_apps_METHODS.md": "aee07046bb72a09d3a6594b05b864a07d70a26bbeedd0402b2d3887bb3b2f78b",
+    "cleanup_nonproject_apps_preparation.json": "31daa3d9e307a0d0a90b6f9c5e19dba9c1540119c7954cd57b519493eb182daf",
+    "cleanup_nonproject_apps_capture_attempt01_observation.txt": "bccb19cd36d26850e5ca7e0b928c0c146b04b60529b4a562c97bd81d2daa86ca"
+  },
+  "independent_pure_tests": {
+    "command": "python -B work/test_cleanup_nonproject_apps_windows.py -v",
+    "exit_code": 0,
+    "passed": 9,
+    "elapsed_seconds": 0.001,
+    "all_process_and_resource_apis_mocked": true
+  },
+  "reviewed_guards": [
+    "Exact nine fixed PID+CIM birth+two executable paths; exact retained Windows FILETIME/image/session equality; no replacement or descendant adoption",
+    "All target and original executable-byte handles proved before any action; wrong or absent original birth aborts; default dry-run",
+    "Only TerminateProcess on exact retained handles; real wait/signaled retained terminal required; remaining target actions stop on error",
+    "Fresh C plan/receipt scope only; no WSL/G/project/controller/service mutation; resource deltas explicitly concurrent rather than exclusively attributable"
+  ],
+  "producer_reported_current_state": {
+    "capture_aborted_at_first_original_PID14764": "OpenProcess WinError87",
+    "no_plan_written": true,
+    "actual_termination_calls": 0,
+    "subsequent_CIM_matches": 0,
+    "original_disappearance_cause": "NOT_OBSERVED"
+  },
+  "qualification": "Reviewer did not query any live process, capture any plan, issue any termination or independently establish disappearance cause. The original fixed-nine selection is obsolete; this review confers no actual execution authority.",
+  "future_reactivation_blocker": {
+    "location": "execute finally",
+    "finding": "native.resources() runs before handle closure and final receipt persistence. If it throws, remaining finalizer steps are skipped. Repair and review exception-isolated finalization before any future usable executor; do not recapture or expand targets under this historical review."
+  },
+  "actual_app_actions_by_reviewer": 0,
+  "actual_live_process_queries_by_reviewer": 0,
+  "actual_WSL_commands": 0,
+  "actual_G_operations": 0,
+  "execution_authorized": false,
+  "historical_observation_limitations": [
+    "Combined tool-output traceback reconstructed into text evidence; raw stderr was not separately redirected at launch",
+    "Original process identities/exit codes were not captured; missing PID or later no-match inventory does not establish retained terminal closure",
+    "Root and helper both report zero app action; original disappearance remains unattributed"
+  ]
+}

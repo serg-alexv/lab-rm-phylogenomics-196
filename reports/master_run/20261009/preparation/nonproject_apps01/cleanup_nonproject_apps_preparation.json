@@ -1,0 +1,96 @@
+{
+  "schema": "MASTER_NONPROJECT_APP_CLEANUP_PREPARATION_V1",
+  "state": "PREPARED_ORIGINAL_TARGETS_DISAPPEARED_NO_ACTION",
+  "files": {
+    "cleanup_nonproject_apps_windows.py": {
+      "sha256": "b2d3db7ee9f0bbb91eadebaef6fa21cd3251be5a030c09401415304de3f1cc4c",
+      "bytes": 13483
+    },
+    "test_cleanup_nonproject_apps_windows.py": {
+      "sha256": "610ed712e603df85939cbe75a3b9f7151c11671f243023f643d179969935cdf7",
+      "bytes": 3791
+    },
+    "cleanup_nonproject_apps_METHODS.md": {
+      "sha256": "aee07046bb72a09d3a6594b05b864a07d70a26bbeedd0402b2d3887bb3b2f78b",
+      "bytes": 2494
+    }
+  },
+  "observed_original_CIM_targets": [
+    {
+      "pid": 14764,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:35.721461+03:00"
+    },
+    {
+      "pid": 24252,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:35.909834+03:00"
+    },
+    {
+      "pid": 7152,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:36.215972+03:00"
+    },
+    {
+      "pid": 5760,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:36.224940+03:00"
+    },
+    {
+      "pid": 13040,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:36.264174+03:00"
+    },
+    {
+      "pid": 26248,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:38.045246+03:00"
+    },
+    {
+      "pid": 20928,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:38.567589+03:00"
+    },
+    {
+      "pid": 2320,
+      "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "creation_date": "2026-10-09T21:14:40.130057+03:00"
+    },
+    {
+      "pid": 25800,
+      "executable": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2607.16.0_x64__8wekyb3d8bbwe\\Microsoft.Media.Player.exe",
+      "creation_date": "2026-10-09T22:42:03.979480+03:00"
+    }
+  ],
+  "capture_attempt": {
+    "state": "ABORTED_BEFORE_ANY_TARGET_ACTION",
+    "error": "OpenProcess exact target PID14764 WinError87",
+    "captured_plan_written": false,
+    "termination_calls": 0
+  },
+  "fresh_CIM_observation": {
+    "state": "NO_MATCHING_PROCESSES",
+    "query": "Name='Microsoft.Media.Player.exe' OR Name='chrome.exe'",
+    "targets": []
+  },
+  "resources_after_disappearance": {
+    "utc": "2026-10-09T23:52:20.120790+00:00",
+    "physical_available_bytes": 4890046464,
+    "commit_headroom_bytes": 4287299584,
+    "commit_total_bytes": 18629062656,
+    "commit_limit_bytes": 22916362240,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 243755806720
+    }
+  },
+  "tests": {
+    "state": "PASS_PURE_MOCKED_ONLY",
+    "count": 9,
+    "seconds": 0.002,
+    "actual_process_termination_tests": false
+  },
+  "original_target_disappearance_cause": "NOT_OBSERVED_BY_THIS_HELPER",
+  "no_actual_cleanup": true,
+  "project_or_WSL_mutation": false,
+  "execution_plan_available": false
+}

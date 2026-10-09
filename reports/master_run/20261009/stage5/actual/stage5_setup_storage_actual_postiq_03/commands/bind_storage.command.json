@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "/usr/bin/mount",
+    "--bind",
+    "/var/tmp/lab_rm_stage05_atomic_v1",
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1"
+  ],
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "child_cpu_seconds": 0.0018859999999999999,
+  "child_pid": 1148,
+  "child_start_ticks": "120864",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_storage_actual_postiq_03/commands/bind_storage.closure.json",
+  "command_nonce": "5ea3e33be5ad42309d357cff54a9ebdf",
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work",
+  "elapsed_seconds": 0.29674103299998933,
+  "execution": "PROCESS_EXITED",
+  "exit_code": 0,
+  "group_closure_sha256": "4264baaf83ab85774d7b516c6d324a376f4a42a5e34c2564c5a99417f4b0bfa8",
+  "identity": {
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "step": "storage"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 1148,
+  "runner_pid": 1147,
+  "sampled_tree_peak_rss_bytes": 2879488,
+  "sid": 1148,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "termination_reason": null,
+  "utc": "2026-10-09T23:54:12.792822+00:00"
+}

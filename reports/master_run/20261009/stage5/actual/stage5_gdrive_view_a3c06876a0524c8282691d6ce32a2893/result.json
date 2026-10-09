@@ -1,0 +1,154 @@
+{
+  "schema": "STAGE05_GDRIVE_WINDOWS_OWNER_RESULT_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "state": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
+  "source_sha256": "d324e5c513138641c1e3e3398a222e4579cec05a0c7fb47c9ffb55a56592ccda",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_setup_windows.py": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+  },
+  "prior_pins": {
+    "stage5_setup_storage_actual_postiq_02/result.json": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3",
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1",
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74",
+    "stage5_setup_toolchain_actual_postiq_04/result.json": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4",
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2",
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+  },
+  "owner_nonce": "679cd6baa84440eeba5495d23e63f309",
+  "actual_owner": {
+    "pid": 26652,
+    "creation_filetime": 134360636310798865,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.125,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "allow_mount": true,
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "scientific_adoption_authorized": false,
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 3,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 3
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "windows_before": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "93434",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-09T23:53:52.067861+00:00",
+    "physical_available_bytes": 5010993152,
+    "commit_headroom_bytes": 4353187840,
+    "commit_total_bytes": 18563174400,
+    "commit_limit_bytes": 22916362240,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 231938727936,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_a3c06876a0524c8282691d6ce32a2893": 244146032640
+    }
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_a3c06876a0524c8282691d6ce32a2893/request.json",
+    "--request-sha256",
+    "1e915f1b60cea394d6549013c96dad545a259ed2614d1f980875c06c817e736b"
+  ],
+  "command_receipts": [
+    {
+      "label": "gdrive",
+      "launch_sha256": "ffb6cdb6a0554ae7f5183f047448980fb27052093b1365b6a4bdd6104a03747a",
+      "closure_sha256": "5f374905c1d77ca83c4265a902e838fa9e74d66788d5677b351e8d38e1df4a86",
+      "command_sha256": "e83f3029affeaa73730717271a8b7fbb87f2b7932e25d57aedcb48bfc87311db"
+    }
+  ],
+  "linux_terminal_sha256": "03f4f5863573c2f4c55fcf6e9bcffc4a6a1eeba8519733ae9ffd5abeeba79eaa",
+  "linux_state": "PASS_EXACT_WINDOWS_LINUX_G_CONTROL_BYTES_AND_EMPTY_UNDERLAY",
+  "windows_after": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "93434",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "owned_closure_proven": true,
+  "retained_client_terminal": {
+    "pid": 11296,
+    "creation_filetime": 134360636314272623,
+    "exit_filetime": 134360636324497764,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "original_lock_explicitly_released": true,
+  "unknown_closure_stop_preserved": false,
+  "log_hash_scope": "CLOSED_FULL_LOGS",
+  "elapsed_seconds": 1.4220000000022992,
+  "utc": "2026-10-09T23:53:52.630546+00:00",
+  "wsl.stdout.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "wsl.stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

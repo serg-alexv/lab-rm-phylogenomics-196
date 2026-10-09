@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:53:25.461588+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:56:29.945211+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -87,3 +87,8 @@ Current gates: toolchain04 and interop03 PASS; runtime05 FAILED at commit1,844,2
 Closed-genome and installed-runtime recovery packets are inactive source preparations. No actual runtime capture, cold restoration, genome archive or eviction gate has passed. Scientific detector/curation/figure execution remains NOT_RUN and the host is not wipe-ready.
 
 Actual operational update: Publish reviewed exact G drvfs visibility repair and fresh improved host resources; retain pre-execution review corrections
+
+Actual operational update: Record actual G mount and canonical ext4 storage PASS; preserve Windows DriveFS worker closure stop; publish inactive qualified recovery sources
+- `stage5_gdrive_view_a3c06876a0524c8282691d6ce32a2893`: PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER; exact command, closure, resources and lock-release receipts are retained.
+- `stage5_setup_storage_actual_postiq_03`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+- `stage5_setup_drivefs_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.

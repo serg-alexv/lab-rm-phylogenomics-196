@@ -1,0 +1,39 @@
+{
+  "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+  "command_nonce": "55de78647b5840f7947273c9e79ec371",
+  "group_empty": true,
+  "root_exit_code": 0,
+  "scope_limit": "dedicated subreaper, setsid group, exact descendants and pidfds; no cgroup isolation",
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "survivors": [],
+  "termination_reason": null,
+  "tracked_descendants": [
+    {
+      "pgid": 1122,
+      "pid": 1122,
+      "ppid": 1121,
+      "sid": 1122,
+      "start_ticks": "118769",
+      "state": "S"
+    },
+    {
+      "pgid": 1122,
+      "pid": 1123,
+      "ppid": 1122,
+      "sid": 1122,
+      "start_ticks": "118770",
+      "state": "S"
+    },
+    {
+      "pgid": 1122,
+      "pid": 1124,
+      "ppid": 1123,
+      "sid": 1122,
+      "start_ticks": "118770",
+      "state": "R"
+    }
+  ],
+  "tracked_descendants_empty": true,
+  "unexplained_pgid_members": [],
+  "utc": "2026-10-09T23:53:52.110460+00:00"
+}

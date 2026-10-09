@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T23:53:25.461588+00:00",
+  "updated_utc": "2026-10-09T23:56:29.945211+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PEER_REVIEWED_PINS_ACTUAL_TOOLCHAIN04_AND_INTEROP03_PASS",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Publish reviewed exact G drvfs visibility repair and fresh improved host resources; retain pre-execution review corrections",
+  "stage5_operational_phase": "Record actual G mount and canonical ext4 storage PASS; preserve Windows DriveFS worker closure stop; publish inactive qualified recovery sources",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -191,25 +191,31 @@
     "stage5_setup_toolchain_actual_postiq_04": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_05": "FAILED",
     "stage5_interop_actual_postiq_03": "PASS_NONSCIENTIFIC_INTEROP_ONLY",
-    "stage5_setup_storage_actual_postiq_02": "FAILED"
+    "stage5_setup_storage_actual_postiq_02": "FAILED",
+    "stage5_gdrive_view_a3c06876a0524c8282691d6ce32a2893": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
+    "stage5_setup_storage_actual_postiq_03": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+    "stage5_setup_drivefs_actual_postiq_02": "FAILED"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
   "stage5_wsl_resource_repair15": "PASS_AUTHORIZED_VM_STOP_4GIB_CONFIG_AGGREGATE_SCOPE_CLOSED",
-  "stage5_current_stop_sha256": "NO_UNPROVEN_STANDARD_OR_INTEROP_STOP_AFTER_CLOSED_ACTUAL04_05_03_02",
+  "stage5_current_stop_sha256": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a",
   "host_wipe_ready": false,
   "stage5_wsl_resource_repair15_receipt_sha256": "3700f32bbd7a72e666b95abdae3355523e14df2c1b3a1c20f4527d2105092ad5",
-  "stage5_runtime_discovery": "ACTUAL05_FAILED_WINDOWS_COMMIT_RESERVE_FULLY_CLOSED_NO_CANDIDATE; targeted hash hints did not prevent failure; phase/cause unmeasured",
-  "stage5_resource_pressure": "Fresh read-only snapshot235220_fdb4: physical4877553664B and commit4278624256B. Prior Chrome/Media targets no longer present; root and agents performed no termination, external closure cause/terminal not attributed. Next actual setup retains unchanged1879048192B gate.",
+  "stage5_runtime_discovery": "ACTUAL05_FAILED_FULLY_CLOSED_NO_CANDIDATE; improved fresh host headroom permits future bounded attempt only after Windows worker STOP reconciled",
+  "stage5_resource_pressure": "After external Chrome/Media disappearance, fresh physical4.5GiB/commit4.0GiB; no agent apptermination. Native launch reserves unchanged. Current blocker is separate Windows worker closure evidence.",
   "stage5_interop": "ACTUAL03_PASS_ALL_THREE_REAL_RETAINED_CONDA_PIDFD_FIXTURES_WINDOWS_LEASE_EXPIRY_AND_ESCAPED_DESCENDANT_CLOSURE",
   "stage5_pidfd_compatibility": "ACTUAL_RETAINED_CONDA_INTEROP03_PASS_e5be8997",
   "stage5_paired_memory": "PASS_READ_ONLY_RETAINED_CLIENT_EXIT0_ORIGINAL_UNLOCK; guest_current260825088_peak1743339520_Cached117792768_noOOM_noSwap; Windows_commit_after3459862528",
   "stage5_interop_scope_reconciliation": "ACTUAL_PASS_c474c48_AUTHORIZED_VM_SHUTDOWN_TWO_STOPPED_CONFIG31b_UNCHANGED_ALL_CLIENTS_CLOSED_ORIGINAL_UNLOCK_EXACT_LOCALSTOP_BACKED_AND_REMOVED",
-  "stage5_storage": "ACTUAL02_FAILED_BEFORE_NATIVE_LAUNCH_G_UNDERLAY_NOT_VISIBLE_FROM_LINUX; Windows empty underlay recorded; G mount cause pending actual diagnosis; fully closed",
+  "stage5_storage": "ACTUAL03_PASS_c0300217_EXT4_CANONICAL_BIND_CURRENT_BOOT_STORAGE_PROOF6d6d23f3; original Windows empty underlay preserved",
   "host_resource_authority": "Direct user authorizes nonessential host app/service cleanup and WSL reconfiguration. Current control session and remote-unverified scientific artifacts remain protected. Original nine Chrome/Media targets have exited externally; no termination action adopted.",
   "stage5_inactive_recovery_preparations": {
     "closed_genome_archive": "SOURCE_AND_SYNTHETIC_PEER_PASS_ONLY; actual capture/readback/canonical rehydration NOT_RUN; eviction not enabled",
     "installed_runtime": "SOURCE_AND_SYNTHETIC_PEER_PASS_ONLY; actual inventory/public audit/capture/remote/cold restore NOT_RUN; base OS/bootstrap equivalence pending"
   },
-  "stage5_gdrive_visibility": "Reviewed d324e5c5 source and independent10pure checks PASS; exact optional G drvfs mount NOT_RUN; old late-PASS bug corrected before actual execution with original bytes preserved"
+  "stage5_gdrive_visibility": "ACTUAL_PASS_43136f99_EXACT_G_DRVFS_MOUNT_WINDOWS_LINUX_THREE_CONTROL_HASHES_SAME_EMPTY_UNDERLAY_NATIVE_AND_WSL_CLOSURE_ORIGINAL_UNLOCK",
+  "stage5_drivefs": "ACTUAL02_FAILED_WINDOWS_WORKER_CLOSURE_UNPROVEN; Linux filesystem native PASS and WSL exit0, actual independent Windows exact byte readback PASSfile, but worker birth/terminal/jobclosure were not persisted; no operational PASS or launch until exact reconciliation",
+  "stage5_app_cleanup": "OBSOLETE_ORIGINAL_NINE_TARGETS_READ_ONLY_CAPTURE_FAILED_NO_PLAN_NO_TERMINATION; historical helper has known finalizer weakness and cannot be reactivated without fresh reviewed correction/selection",
+  "stage5_runtime_safe_extract": "INACTIVE_SOURCE_INDEPENDENT14_PURE_CHECKS_PASS_ONLY; actual Linux ABI fixtures, owned remote adapter, installed payload capture and original-prefix cold recovery remain NOT_RUN"
 }

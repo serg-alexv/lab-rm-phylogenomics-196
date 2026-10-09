@@ -1,0 +1,47 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "drivefs",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_02",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_02/owner_lease.json",
+      "--owner-nonce",
+      "1950f8bce9414103b0688078b7ce9e99",
+      "--source-sha256",
+      "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_02/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "96854f6133abeb1279306e3e13b96d3fb834399241f07de434551961e9dea31f",
+      "--toolchain-proof",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json",
+      "--toolchain-proof-sha256",
+      "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    ],
+    "boot_id": "64d6e318-170c-4bef-9538-90fd218881af",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 1159,
+      "pid": 1159,
+      "ppid": 1155,
+      "sid": 1159,
+      "start_ticks": "121915",
+      "state": "R"
+    }
+  },
+  "drivefs_stdout_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_02/commands/drivefs.stdout.txt",
+  "no_native_launch": false,
+  "owned_closure_proven": true,
+  "owned_command_count": 1,
+  "owner_nonce": "1950f8bce9414103b0688078b7ce9e99",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "state": "PASS_NONSCIENTIFIC_SETUP_STEP",
+  "step": "drivefs"
+}

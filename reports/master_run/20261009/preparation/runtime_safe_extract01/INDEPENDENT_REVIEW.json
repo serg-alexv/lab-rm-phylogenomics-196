@@ -1,0 +1,67 @@
+{
+  "schema": "STAGE05_RUNTIME_SAFE_EXTRACT_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_INACTIVE_API",
+  "reviewed_at_utc": "2026-10-09T23:54:39.755579+00:00",
+  "files": {
+    "stage5_runtime_safe_extract.py": {
+      "bytes": 32131,
+      "sha256": "beec0d3007da552d956f0d42434bd0ef1fa4ddac080834b0ed66f8aa581fac96"
+    },
+    "test_stage5_runtime_safe_extract.py": {
+      "bytes": 12246,
+      "sha256": "312bafbcb026071836fc16344a9616514f26873e7f3f96df16325c9e5b85eb28"
+    },
+    "STAGE5_RUNTIME_SAFE_EXTRACT_METHODS.md": {
+      "bytes": 6446,
+      "sha256": "38a012173b1cef6f57bdc67a2a7737b7d5074733cf73b0b0ca6aad29401f1e35"
+    },
+    "stage5_runtime_safe_extract_preparation.json": {
+      "bytes": 2364,
+      "sha256": "0c8b32cd34b0311f0a5a149ac6ce4b683b05cce9a3d39e8a5388e77d975817a8"
+    },
+    "stage5_runtime_safe_extract_public_mapping.json": {
+      "bytes": 1989,
+      "sha256": "05c6e9cfb12e444795d875cf1bcee37c1ed3193a3858c7afb56f883fe1298a84"
+    },
+    "stage5_runtime_recovery_contract.py": {
+      "bytes": 10893,
+      "sha256": "daf48ea1c8cc96312519b1ab22f2d41216494773e5e345e3e5e0417139588bb6"
+    },
+    "verify_stage5_runtime_logical_payload.py": {
+      "bytes": 17521,
+      "sha256": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac"
+    },
+    "verify_stage5_runtime_cold_tree.py": {
+      "bytes": 10006,
+      "sha256": "cd64e0d4da3ab2509f93d4295af891e0173ed9bef9d81007620bf1f4d872fcfe"
+    }
+  },
+  "review_scope": [
+    "Full extractor source, synthetic tests, methods and fixed public/preparation mappings",
+    "Independent helper source contracts, cold-tree mount/device/link comparison and actual matching helper SHA pins",
+    "Source-bound pending remote receipt contract; strict JSON/path/member/order/type/metadata/hash gates",
+    "Linux nofollow descriptor-based creation, openat2 flags/ABI serialization, exact-inode linkat, symlink text preservation and partial-tree nonadoption",
+    "Exhaustive compressed stream/control/member readback and pending independent full cold-tree verification"
+  ],
+  "concrete_source_blockers": [],
+  "actual_independent_tests": {
+    "command": "python -B work/test_stage5_runtime_safe_extract.py -v",
+    "exit_code": 0,
+    "tests": 14,
+    "passed": 14,
+    "seconds": 0.338,
+    "linux_abi": "MOCKED",
+    "temporary_C_synthetic_files_only": true
+  },
+  "limitations": [
+    "Inactive API has no owner/download/restore execution CLI; source-only review is not operational acceptance",
+    "Future independent remote wrapper and externally SHA-pinned actual production receipts are required; contract fields do not mint fresh remote evidence",
+    "Live owner must enforce admission, finite lease, memory policy and owned closure; cooperative callbacks do not cancel blocked syscalls",
+    "Actual Linux openat2/linkat/xattr/ext4 fixture and exhaustive independent cold-tree byte/metadata/link validation remain NOT_RUN",
+    "Absolute original-prefix symlink text remains preserved and never followed here; role-layout tree does not prove executable-prefix or OS/ABI equivalence",
+    "No installed-runtime inventory/capture/readback/restore, original payload reads, WSL/native/G mutation, extraction or network performed by reviewer"
+  ],
+  "host_wipe_authority": false,
+  "cleanup_authority": false,
+  "installed_build_equivalence": "NOT_ESTABLISHED"
+}
