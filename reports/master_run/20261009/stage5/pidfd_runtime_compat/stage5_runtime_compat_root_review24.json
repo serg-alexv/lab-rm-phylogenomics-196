@@ -1,0 +1,21 @@
+{
+  "schema": "MASTER_RUNTIME_COMPAT_ROOT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_PURE_TESTS_ACTUAL_LINUX_REQUIRED",
+  "utc": "2026-10-09T23:32:10.721023+00:00",
+  "source_map_sha256": "cb52bf39e07d6c39e79d90ec8b19c0b4561e70553349ea448a07c7cab61a69c8",
+  "root_actual_tests": "17 new pidfd/hash pure contracts PASS0.247s",
+  "checks": [
+    "Full new pidfd wrapper/probe and targeted sha function read",
+    "Typed exact libc symbols only when individual Python API absent; existing Python errors not bypassed",
+    "Actual kernel fd birth/probe/closure semantics remain; no PID-only signal/syscall-number alternative",
+    "Large plain canonical files within exact3 retained runtime roots only; readonly fd, bounded1MiB bytes, identical SHA",
+    "Full identity/size/mtime/ctime checks, completed-page8MiB hints, final page retained, errors reject",
+    "29 operative dependency hashes independently reread and present in consumer source",
+    "Both independent reviews PASS; historical originals/receipts preserved"
+  ],
+  "limitations": [
+    "No actual libc export/fadvise behavior or resource benefit accepted by this source review",
+    "All new current actual operational gates must be rerun before first genome",
+    "Detector argv/model bytes/coverage/curation/scientific accounting unchanged"
+  ]
+}

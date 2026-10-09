@@ -1,0 +1,85 @@
+{
+  "actual_execution": "NOT_RUN",
+  "changes": [
+    {
+      "after_sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+      "before_sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+      "original": "stage5_unc_bind_probe_before_pidfd_compat.py",
+      "path": "stage5_unc_bind_probe.py",
+      "replacements": {
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a",
+      "before_sha256": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad",
+      "original": "stage5_runtime_discovery_before_pidfd_compat.py",
+      "path": "stage5_runtime_discovery.py",
+      "replacements": {
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f",
+      "before_sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "original": "stage5_setup_linux_before_pidfd_compat.py",
+      "path": "stage5_setup_linux.py",
+      "replacements": {
+        "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a",
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0",
+      "before_sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2",
+      "original": "stage5_setup_windows_before_pidfd_compat.py",
+      "path": "stage5_setup_windows.py",
+      "replacements": {
+        "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a",
+        "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "314bfba257089afe108d1032b7a2136b4040aee30344484b7ddaf2941592a60b",
+      "before_sha256": "1ecd31137703469e073d3815f834d8f1b5dc8059c2d285bbfdba2fd773d291c8",
+      "original": "stage5_closed_genome_archive_linux_before_pidfd_compat.py",
+      "path": "stage5_closed_genome_archive_linux.py",
+      "replacements": {
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "830d7c1e14ebea599c4e2b456aa11292338327482c18fe155aeba5667278974e",
+      "before_sha256": "8655e5646ed37b1436f0c95c0e8bedf5d07ed1175085871d464b7876fe23ef29",
+      "original": "stage5_closed_genome_archive_windows_before_pidfd_compat.py",
+      "path": "stage5_closed_genome_archive_windows.py",
+      "replacements": {
+        "1ecd31137703469e073d3815f834d8f1b5dc8059c2d285bbfdba2fd773d291c8": "314bfba257089afe108d1032b7a2136b4040aee30344484b7ddaf2941592a60b",
+        "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0",
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    },
+    {
+      "after_sha256": "c5b84a4ad45682db5b3b1fd43f0138db2a9c4bc60b2f4105db0271f348757393",
+      "before_sha256": "482800bf5bd15f7e87234e9448ac9c165df67f768af408305a6e7ee56f897cb1",
+      "original": "stage5_build_actual_config_before_pidfd_compat.py",
+      "path": "stage5_build_actual_config.py",
+      "replacements": {
+        "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+        "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6": "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f",
+        "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0",
+        "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+      }
+    }
+  ],
+  "historical_receipts_modified": false,
+  "schema": "STAGE05_PIDFD_COMPAT_ACTIVE_PIN_REFRESH_V1",
+  "unchanged_dynamic_consumers": [
+    "stage5_atomic.py",
+    "stage5_windows_owner.py",
+    "stage5_interop_smoke_windows.py",
+    "stage5_interop_linux_fixture.py",
+    "stage5_closed_genome_recovery.py"
+  ]
+}

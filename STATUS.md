@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:27:11.313466+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:33:19.345123+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -71,3 +71,7 @@ Actual paired memory observation PASS: retained WSL client exit0, nonce/source-b
 Actual operational update: Publish exact32 byte-identical metadata correction PASS and reviewed shutdown-only reconciliation of failed interop scope
 
 Exact32 metadata correction actualPASS7795: fixed GHEADc76, whole indexed modes/OIDs unchanged, all32 byte-identical raw files, finalstatus exactly the original six genuine dirty files with unchanged hashes, all retained Git jobs closed and original byte lock released. No fetch/merge/ref mutation. Private index/six originals excluded from public logs. Shutdown-only failedinterop scope reconciliation57df/peer3e5d is reviewed and published before actual execution; no WSLconfig edit is proposed.
+
+Actual operational update: Publish peer-reviewed libc pidfd compatibility and bounded exact runtime hash cache hints; actual authorized WSL scope closure PASS config unchanged
+
+Authorized shutdown-only reconciliation actualPASSc474c48: exact local interop stop backed up, one retained WSLshutdown exit0, two fresh UbuntuStopped observations, all retained clients closed, unchanged4GiB config31b and original unlock. Only its exact local STOP was removed; prior failed receipts and lost-old-terminal qualification persist. Current pidfd e5be and bounded targeted hash500dc source/deltas/125 pure contracts/independent peers/current29 pins are published and reviewed; root independently ran17 new tests. Actual Linux compatibility/cache benefit and newboot toolchain/runtime/interop/storage/DriveFS/UNC gates remain required. No biological result yet.

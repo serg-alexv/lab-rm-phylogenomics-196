@@ -1,0 +1,175 @@
+{
+  "schema": "STAGE05_AUTHORIZED_INTEROP_VM_SCOPE_CLOSURE_V1",
+  "state": "PASS_AUTHORIZED_VM_SHUTDOWN_INTEROP_SCOPE_CLOSED_CONFIG_UNCHANGED",
+  "utc": "2026-10-09T23:28:51.605656+00:00",
+  "source_sha256": "57df35951cce440896aa1b9792154249cd0924f10690cf8fb935a6e7c79b4aaf",
+  "prior_pins": {
+    "INTEROP_UNPROVEN_STOP.json": "bc5a55a954a1ff84734c123f6e42eeabd4a014fca73461da251062eec86c28b6",
+    "result.json": "9b39819272890796054dd12dfde2985b8510b1978b99d1143a3683a260a42ef3",
+    "lock_released.json": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e",
+    "exit0/linux/terminal.json": "25ca0a7f7c5162895e10e3a9504ae59c037172273a7858656eb66972a962b29e"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 28652,
+        "creation_filetime": 134360621316477140,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 28652,
+        "creation_filetime": 134360621316477140,
+        "exit_filetime": 134360621317403909,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "retained_closure_proven": true,
+      "stdout_sha256": "038a575dfb48a9355111cec3af0c1efd6d405e25825163e6959d66076462ea75",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--shutdown"
+      ],
+      "retained_birth": {
+        "pid": 15036,
+        "creation_filetime": 134360621317617303,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 15036,
+        "creation_filetime": 134360621317617303,
+        "exit_filetime": 134360621426129879,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "retained_closure_proven": true,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 16760,
+        "creation_filetime": 134360621426192863,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 16760,
+        "creation_filetime": 134360621426192863,
+        "exit_filetime": 134360621426902474,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "retained_closure_proven": true,
+      "stdout_sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 27872,
+        "creation_filetime": 134360621427111615,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 27872,
+        "creation_filetime": 134360621427111615,
+        "exit_filetime": 134360621427778181,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "retained_closure_proven": true,
+      "stdout_sha256": "071e6b286a54d9ca86d2e21b060270924477ada89fe559d72026edbc5e3100fa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "config_edits": 0,
+  "payload_deletions": 0,
+  "host_reboots": 0,
+  "scientific_launches": 0,
+  "old_retained_client_terminal": "NOT_RECONSTRUCTED",
+  "authority": "Direct user authorized entire WSL reconfiguration if needed; exact shutdown closes this failed prelaunch interop scope.",
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "admission": {
+    "utc": "2026-10-09T23:28:51.624088+00:00",
+    "physical_available_bytes": 4476329984,
+    "commit_headroom_bytes": 4365430784,
+    "commit_total_bytes": 19489181696,
+    "commit_limit_bytes": 23854612480,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_vm_scope_41cf1297c98748aeb0e02351814eb83c": 215505784832
+    }
+  },
+  "registered_before": "  NAME      STATE           VERSION\r\n* Ubuntu    Running         2\r\n",
+  "actual_shutdowns": 1,
+  "registered_stopped01": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "registered_stopped02": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "windows_after": {
+    "utc": "2026-10-09T23:29:02.787350+00:00",
+    "physical_available_bytes": 5692276736,
+    "commit_headroom_bytes": 4782325760,
+    "commit_total_bytes": 18377629696,
+    "commit_limit_bytes": 23159955456,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_vm_scope_41cf1297c98748aeb0e02351814eb83c": 218919243776
+    }
+  },
+  "aggregate_ubuntu_scope_closed": true,
+  "owned_local_stop_removed": true,
+  "config_sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+  "original_lock_explicitly_released": true,
+  "all_created_retained_clients_closed": true
+}

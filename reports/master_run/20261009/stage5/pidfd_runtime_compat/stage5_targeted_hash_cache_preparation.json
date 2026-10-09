@@ -1,0 +1,84 @@
+{
+  "schema": "STAGE05_TARGETED_RUNTIME_HASH_CACHE_PREPARATION_V1",
+  "utc": "2026-10-09T23:29:33.163820+00:00",
+  "state": "PASS_OWN_C_SYNTHETIC_CONTRACTS_PENDING_INDEPENDENT_REVIEW_AND_PUBLICATION",
+  "source": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic.py",
+    "bytes": 47884,
+    "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+  },
+  "preserved_original": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_before_targeted_hash_cache.py",
+    "bytes": 44516,
+    "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0"
+  },
+  "tests": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_targeted_hash_cache.py",
+    "bytes": 6546,
+    "sha256": "9f869df2570e74e341d4a9f92b4908d414370f37dde18af4ad2569ab473a0d5a"
+  },
+  "patch": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache.patch",
+    "bytes": 4341,
+    "sha256": "ebec629777288a5739138b04c4d896e93139ec57afb94b1b43e3e064ea33ca38"
+  },
+  "change_scope_ast_check": "PASS_ONLY_SHA_CONSTANTS_AND_STAT_IMPORT_CHANGED",
+  "own_test_execution": [
+    {
+      "command": "python -B -m unittest test_stage5_targeted_hash_cache -v",
+      "exit_code": 0,
+      "tests": 9,
+      "reported_seconds": 0.244
+    },
+    {
+      "command": "python -B -m unittest test_stage5_atomic test_stage5_source_gate",
+      "exit_code": 0,
+      "tests": 42,
+      "reported_seconds": 1.254
+    }
+  ],
+  "synthetic_qualification": "Own C readonly file descriptors and actual bytes; mocked POSIX hints and Linux-consistent inode metadata. Windows fstat/pathstat ctime differs; production Linux metadata guards were not weakened.",
+  "eligibility": {
+    "platform": "posix",
+    "roots": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/defense_models",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/padloc_db"
+    ],
+    "minimum_regular_file_bytes": 16777216,
+    "canonical_plain_path_required": true
+  },
+  "method": {
+    "readonly_stream_block_bytes": 1048576,
+    "maximum_advice_interval_bytes": 8388608,
+    "advice": "POSIX_FADV_DONTNEED",
+    "completed_full_pages_only": true,
+    "final_page_excluded_even_if_aligned_eof": true,
+    "before_after_fd_and_final_path_identity": [
+      "device",
+      "inode",
+      "size",
+      "mtime_ns",
+      "ctime_ns",
+      "mode",
+      "nlink"
+    ],
+    "unsupported_or_error": "FAIL_CLOSED",
+    "noneligible_hash_behavior": "UNCHANGED_HASHLIB_FILE_DIGEST"
+  },
+  "coverage": [
+    "pin_runtime/discovery calls sha",
+    "check_manifest/validate_runtime before each genome calls sha"
+  ],
+  "limitations": [
+    "No data writes or global cache operation",
+    "Advisory kernel hint; loop-image block cache may remain",
+    "No guarantee of host physical/commit reclamation or resource admission",
+    "Scientific manifests and exact digest semantics unchanged"
+  ],
+  "actual_runtime_hash_or_fadvise": "NOT_RUN",
+  "actual_wsl_native_biology": "NOT_RUN",
+  "consumer_pin_owner": "stage5_audit",
+  "independent_source_peer": "remote_audit_PENDING",
+  "root_publication_required_before_actual_use": true
+}

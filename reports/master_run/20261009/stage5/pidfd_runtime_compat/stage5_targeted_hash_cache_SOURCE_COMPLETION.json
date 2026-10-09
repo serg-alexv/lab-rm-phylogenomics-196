@@ -1,0 +1,63 @@
+{
+  "schema": "STAGE05_TARGETED_RUNTIME_HASH_CACHE_SOURCE_COMPLETION_V1",
+  "utc": "2026-10-09T23:30:17.440491+00:00",
+  "state": "PASS_SOURCE_AND_PURE_SYNTHETIC_TESTS",
+  "files": {
+    "stage5_atomic.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic.py",
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_before_targeted_hash_cache.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_before_targeted_hash_cache.py",
+      "bytes": 44516,
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0"
+    },
+    "test_stage5_targeted_hash_cache.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_targeted_hash_cache.py",
+      "bytes": 6546,
+      "sha256": "9f869df2570e74e341d4a9f92b4908d414370f37dde18af4ad2569ab473a0d5a"
+    },
+    "stage5_targeted_hash_cache.patch": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache.patch",
+      "bytes": 4341,
+      "sha256": "ebec629777288a5739138b04c4d896e93139ec57afb94b1b43e3e064ea33ca38"
+    },
+    "stage5_targeted_hash_cache_preparation.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_preparation.json",
+      "bytes": 3430,
+      "sha256": "d63bbbec76963b54d6fa3e5770e3ed11f2728c2d12505f2e016743f8d7e47b06"
+    },
+    "stage5_targeted_hash_cache_independent_review.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_independent_review.json",
+      "bytes": 3031,
+      "sha256": "a886cb47cd7946a14ab8315b79df37735881f49b6aa4f3e5fcb40c669c465a68"
+    },
+    "stage5_targeted_hash_cache_METHODS.md": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_METHODS.md",
+      "bytes": 2165,
+      "sha256": "235ad34b601a316958f77b13c80d675e5b1e449a5bd13f898c209fe91937dd4b"
+    },
+    "stage5_pidfd_compat_independent_review.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_pidfd_compat_independent_review.json",
+      "bytes": 1875,
+      "sha256": "f56636e37e76c10639a5650c51f16339237943d6afe867e42341b0407b879a75"
+    }
+  },
+  "author_tests": {
+    "new_hash": 9,
+    "existing_atomic_source": 42,
+    "pidfd_mock": 8,
+    "all_exit_code": 0
+  },
+  "independent_peer_tests": {
+    "hash": 9,
+    "exit_code": 0
+  },
+  "actual_linux_runtime_hash_or_advice": "NOT_RUN",
+  "actual_wsl_native_biology": "NOT_RUN",
+  "operational_authority_created": false,
+  "resource_benefit_guaranteed": false,
+  "consumer_pin_propagation_owner": "stage5_audit",
+  "publication_owner": "root"
+}

@@ -1,0 +1,387 @@
+{
+  "active_source_pin_checks": [
+    {
+      "consumer": "stage5_runtime_discovery.py",
+      "member": "stage5_atomic.py",
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "consumer": "stage5_runtime_discovery.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_runtime_discovery.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    {
+      "consumer": "stage5_runtime_discovery.py",
+      "member": "stage5_accepted_source_pins.json",
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    {
+      "consumer": "stage5_runtime_discovery.py",
+      "member": "stage5_atomic_config.template.json",
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    {
+      "consumer": "stage5_setup_linux.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_setup_linux.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    {
+      "consumer": "stage5_setup_linux.py",
+      "member": "stage5_runtime_discovery.py",
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    {
+      "consumer": "stage5_setup_linux.py",
+      "member": "stage5_drivefs_filesystem_smoke.py",
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_owner_lease.py",
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_runtime_discovery.py",
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_drivefs_filesystem_smoke.py",
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "stage5_unc_bind_probe.py",
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7"
+    },
+    {
+      "consumer": "stage5_setup_windows.py",
+      "member": "observe_iqtree_controller_exit.py",
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_atomic.py",
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_windows_owner.py",
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_owner_lease.py",
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_atomic_config.template.json",
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_setup_windows.py",
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_setup_linux.py",
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_interop_smoke_windows.py",
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    {
+      "consumer": "stage5_build_actual_config.py",
+      "member": "stage5_unc_bind_probe.py",
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7"
+    },
+    {
+      "consumer": "stage5_unc_bind_probe.py",
+      "member": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "consumer": "stage5_unc_bind_probe.py",
+      "member": "stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "consumer": "stage5_unc_bind_probe.py",
+      "member": "stage5_work_storage.py",
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    }
+  ],
+  "actual_failed_interop_preserved": {
+    "stage5_interop_actual_postiq_02/exit0/linux/terminal.json": "25ca0a7f7c5162895e10e3a9504ae59c037172273a7858656eb66972a962b29e",
+    "stage5_interop_actual_postiq_02/result.json": "9b39819272890796054dd12dfde2985b8510b1978b99d1143a3683a260a42ef3"
+  },
+  "actual_genome_execution": "NOT_RUN",
+  "actual_integration_by_this_preparation": "NOT_RUN",
+  "closure_stop_modified_by_this_preparation": false,
+  "files": [
+    {
+      "bytes": 47884,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic.py",
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+      "suggested_remote_path": "scripts/master_run/stage5_atomic.py"
+    },
+    {
+      "bytes": 23533,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process.py",
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+      "suggested_remote_path": "scripts/master_run/stage5_atomic_process.py"
+    },
+    {
+      "bytes": 5694,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_discovery.py",
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+      "suggested_remote_path": "scripts/master_run/stage5_runtime_discovery.py"
+    },
+    {
+      "bytes": 15526,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux.py",
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_linux.py"
+    },
+    {
+      "bytes": 34098,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows.py",
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_windows.py"
+    },
+    {
+      "bytes": 13011,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_build_actual_config.py",
+      "sha256": "84cbd8b0397fe4958d611cb7f8e6053a3b3fd30d5fc777d5071971327496baae",
+      "suggested_remote_path": "scripts/master_run/stage5_build_actual_config.py"
+    },
+    {
+      "bytes": 24115,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe.py",
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+      "suggested_remote_path": "scripts/master_run/stage5_unc_bind_probe.py"
+    },
+    {
+      "bytes": 6141,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_pidfd_compat.py",
+      "sha256": "1e83dd9e2c094dcd72b94499a2efd450ac6b467f85cf6ee7be4831670f50f891",
+      "suggested_remote_path": "scripts/master_run/test_stage5_pidfd_compat.py"
+    },
+    {
+      "bytes": 6546,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_targeted_hash_cache.py",
+      "sha256": "9f869df2570e74e341d4a9f92b4908d414370f37dde18af4ad2569ab473a0d5a",
+      "suggested_remote_path": "scripts/master_run/test_stage5_targeted_hash_cache.py"
+    },
+    {
+      "bytes": 44516,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_before_targeted_hash_cache.py",
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+      "suggested_remote_path": "scripts/master_run/stage5_atomic_before_targeted_hash_cache.py"
+    },
+    {
+      "bytes": 22244,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process_before_pidfd_compat.py",
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34",
+      "suggested_remote_path": "scripts/master_run/stage5_atomic_process_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 5694,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_discovery_before_pidfd_compat.py",
+      "sha256": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad",
+      "suggested_remote_path": "scripts/master_run/stage5_runtime_discovery_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 5694,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_discovery_after_pidfd_before_runtime_sha.py",
+      "sha256": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a",
+      "suggested_remote_path": "scripts/master_run/stage5_runtime_discovery_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 15526,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux_before_pidfd_compat.py",
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_linux_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 15526,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux_after_pidfd_before_runtime_sha.py",
+      "sha256": "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_linux_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 34098,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_before_pidfd_compat.py",
+      "sha256": "cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_windows_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 34098,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_after_pidfd_before_runtime_sha.py",
+      "sha256": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0",
+      "suggested_remote_path": "scripts/master_run/stage5_setup_windows_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 13011,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_build_actual_config_before_pidfd_compat.py",
+      "sha256": "482800bf5bd15f7e87234e9448ac9c165df67f768af408305a6e7ee56f897cb1",
+      "suggested_remote_path": "scripts/master_run/stage5_build_actual_config_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 13011,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_build_actual_config_after_pidfd_before_runtime_sha.py",
+      "sha256": "c5b84a4ad45682db5b3b1fd43f0138db2a9c4bc60b2f4105db0271f348757393",
+      "suggested_remote_path": "scripts/master_run/stage5_build_actual_config_after_pidfd_before_runtime_sha.py"
+    },
+    {
+      "bytes": 24115,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe_before_pidfd_compat.py",
+      "sha256": "70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830",
+      "suggested_remote_path": "scripts/master_run/stage5_unc_bind_probe_before_pidfd_compat.py"
+    },
+    {
+      "bytes": 3472,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage5_pidfd_compat_pins.py",
+      "sha256": "7722467eb8e7442cd9c62488f24dd6982ea5d1157a193ca7302be12ae31b362f",
+      "suggested_remote_path": "scripts/master_run/prepare_stage5_pidfd_compat_pins.py"
+    },
+    {
+      "bytes": 3351,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage5_pidfd_runtime_pins.py",
+      "sha256": "d4af9451ed11815eafa84d34d51f6bfa64db46d51457e6659dafdd1c477f582c",
+      "suggested_remote_path": "scripts/master_run/prepare_stage5_pidfd_runtime_pins.py"
+    },
+    {
+      "bytes": 6317,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_stage5_pidfd_runtime_publication.py",
+      "sha256": "cf897e4b0d59ff994f7226c9560e9f4996f537cf8d8916e7d0687045e1376ad1",
+      "suggested_remote_path": "scripts/master_run/prepare_stage5_pidfd_runtime_publication.py"
+    },
+    {
+      "bytes": 4113,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE5_PIDFD_COMPAT_METHODS.md",
+      "sha256": "f973fcb97c3c1b5aad2e877b5f3f14f8a5310c846067ae6a2ce173f1bcd6c206",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/STAGE5_PIDFD_COMPAT_METHODS.md"
+    },
+    {
+      "bytes": 3551,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE5_PIDFD_COMPAT_METHODS_before_primary_abi_references.md",
+      "sha256": "608f73d0b2e44c45fbc313c277b521c105737e9d55d9950ffd33ff8a7d874ae1",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/STAGE5_PIDFD_COMPAT_METHODS_before_primary_abi_references.md"
+    },
+    {
+      "bytes": 5006,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_pidfd_compat_pin_refresh.json",
+      "sha256": "60ea1033ce127c6875ec61d1b2e75fe577683c7dd1a2f356741920ccbc85fb55",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_compat_pin_refresh.json"
+    },
+    {
+      "bytes": 3979,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_pidfd_runtime_pin_refresh.json",
+      "sha256": "c22b05eba62b742835acecf230f5cd7a78127a4dfa4fae763b721b17fc09dde0",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_runtime_pin_refresh.json"
+    },
+    {
+      "bytes": 1875,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_pidfd_compat_independent_review.json",
+      "sha256": "f56636e37e76c10639a5650c51f16339237943d6afe867e42341b0407b879a75",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_compat_independent_review.json"
+    },
+    {
+      "bytes": 3430,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_preparation.json",
+      "sha256": "d63bbbec76963b54d6fa3e5770e3ed11f2728c2d12505f2e016743f8d7e47b06",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_preparation.json"
+    },
+    {
+      "bytes": 4341,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache.patch",
+      "sha256": "ebec629777288a5739138b04c4d896e93139ec57afb94b1b43e3e064ea33ca38",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache.patch"
+    },
+    {
+      "bytes": 3031,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_independent_review.json",
+      "sha256": "a886cb47cd7946a14ab8315b79df37735881f49b6aa4f3e5fcb40c669c465a68",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_independent_review.json"
+    },
+    {
+      "bytes": 2165,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_METHODS.md",
+      "sha256": "235ad34b601a316958f77b13c80d675e5b1e449a5bd13f898c209fe91937dd4b",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_METHODS.md"
+    },
+    {
+      "bytes": 2860,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_targeted_hash_cache_SOURCE_COMPLETION.json",
+      "sha256": "f39b717b74688fdb8bf96fdc91fc3a49519f27aa17b00e0c794f39d3b6088df8",
+      "suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_targeted_hash_cache_SOURCE_COMPLETION.json"
+    }
+  ],
+  "historical_receipts_modified": false,
+  "inactive_archive_source_map": "Separate preparation; raw archive source pins were refreshed but grant no archive execution/eviction authority",
+  "independent_reviews": {
+    "pidfd": {
+      "path": "stage5_pidfd_compat_independent_review.json",
+      "sha256": "f56636e37e76c10639a5650c51f16339237943d6afe867e42341b0407b879a75"
+    },
+    "targeted_hash": {
+      "path": "stage5_targeted_hash_cache_independent_review.json",
+      "sha256": "a886cb47cd7946a14ab8315b79df37735881f49b6aa4f3e5fcb40c669c465a68"
+    }
+  },
+  "pin_only_consumer_deltas_verified": true,
+  "report_suggested_remote_path": "reports/master_run/20261009/stage5/pidfd_runtime_compat/stage5_pidfd_runtime_preparation.json",
+  "required_next_actual_gates": "Root-published/read-back current bytes; fresh same-boot toolchain/runtime/system+retained Python interop/storage/DriveFS/UNC; explicit first-genome budget",
+  "resource_reduction_effect": "UNMEASURED",
+  "schema": "STAGE05_PIDFD_RUNTIME_SOURCE_PREPARATION_V1",
+  "scientific_methods_changed": false,
+  "state": "PASS_SOURCE_PEERS_PURE_TESTS_AND_ACTIVE_PINS_ACTUAL_LINUX_REQUIRED",
+  "tests": {
+    "command": "python -B -m unittest test_stage5_pidfd_compat test_stage5_atomic test_stage5_setup test_stage5_build_actual_config test_stage5_runtime_discovery test_stage5_unc_bind_probe test_stage5_windows_owner test_stage5_interop_contracts test_stage5_closed_genome_archive test_stage5_closed_genome_archive_owner test_stage5_closed_genome_recovery test_stage5_targeted_hash_cache",
+    "exit_code": 0,
+    "passed": 125,
+    "scope": "Pure C synthetic/mocked tests; no real Win API, WSL, pidfd, G or detector",
+    "seconds": 2.143
+  },
+  "unchanged_dynamic_consumers": {
+    "stage5_interop_linux_fixture.py": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+    "stage5_interop_smoke_windows.py": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+    "stage5_windows_owner.py": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+  }
+}

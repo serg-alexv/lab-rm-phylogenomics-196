@@ -1,0 +1,38 @@
+{
+  "schema": "STAGE05_PIDFD_COMPAT_INDEPENDENT_SOURCE_REVIEW_V1",
+  "utc": "2026-10-09T23:29:33.163820+00:00",
+  "state": "PASS_SOURCE_AND_PURE_MOCK_CONTRACTS_ONLY",
+  "source": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process.py",
+    "bytes": 23533,
+    "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+  },
+  "preserved_original": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process_before_pidfd_compat.py",
+    "bytes": 22244,
+    "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34"
+  },
+  "tests": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_pidfd_compat.py",
+    "bytes": 6141,
+    "sha256": "1e83dd9e2c094dcd72b94499a2efd450ac6b467f85cf6ee7be4831670f50f891"
+  },
+  "independent_test_execution": {
+    "command": "python -B -m unittest test_stage5_pidfd_compat -v",
+    "exit_code": 0,
+    "tests": 8,
+    "reported_seconds": 0.012,
+    "scope": "C_ONLY_PURE_MOCKS_NO_ACTUAL_PIDFD_KERNEL_CALL"
+  },
+  "reviewed": [
+    "Fallback only when the individual stdlib pidfd API is not callable; existing stdlib errors propagate without bypass",
+    "Only exact libc exported pidfd_open/pidfd_send_signal symbols; typed c_int/c_uint/c_void_p ABI, use_errno and errno reset/propagation",
+    "Retained own-pidfd signal-zero probe and close; existing birth checks, exact handle signalling and lifecycle paths remain",
+    "No numeric-PID kill/killpg fallback or invented syscall-number fallback; missing libc/export/kernel support fails closed"
+  ],
+  "actual_linux_pidfd": "NOT_RUN",
+  "actual_wsl_or_native": "NOT_RUN",
+  "production_runtime_compatibility": "PENDING_FRESH_ACTUAL_INTEROP",
+  "scientific_acceptance_created": false,
+  "operational_authority_created": false
+}

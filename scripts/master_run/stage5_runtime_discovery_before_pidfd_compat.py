@@ -18,8 +18,8 @@ WORK = Path('/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work')
 ROOT = '/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196'
 TOOLS = '/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux'
 PINS = {
-    'stage5_atomic.py': '500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04',
-    'stage5_atomic_process.py': 'e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e',
+    'stage5_atomic.py': '2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0',
+    'stage5_atomic_process.py': 'fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34',
     'stage5_work_storage.py': '7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
     'stage5_accepted_source_pins.json': 'a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84',
     'stage5_atomic_config.template.json': '94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf',

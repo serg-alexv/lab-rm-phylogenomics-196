@@ -9,7 +9,7 @@ from __future__ import annotations
 from collections import defaultdict
 from pathlib import Path, PurePosixPath
 from types import SimpleNamespace
-import argparse, hashlib, importlib.metadata, importlib.util, json, math, os, re, shutil, signal, stat, sys, time
+import argparse, hashlib, importlib.metadata, importlib.util, json, math, os, re, shutil, signal, sys, time
 from stage5_atomic_process import (Deferred, Fatal, Retryable, Supervisor, atomic_json,
                                    check_lease, read_json, require, utc)
 from stage5_work_storage import validate_storage
@@ -38,64 +38,9 @@ SOURCE_FILES = {
 }
 
 
-HASH_CACHE_ROOTS = tuple(Path('/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux') / name
-                         for name in ('detector_env', 'defense_models', 'padloc_db'))
-HASH_CACHE_MINIMUM = 16 * 1024**2
-HASH_CACHE_BLOCK = 1024**2
-HASH_CACHE_INTERVAL = 8 * 1024**2
-
-
 def sha(path):
-    """Exact SHA; only large plain retained-runtime files get scoped read hints.
-
-    Completed full pages are advised after reading. The last file page is always
-    retained, including an aligned EOF. No dirty-page flush, global cache action,
-    source write or host-memory/loop-image-cache reclamation guarantee is implied.
-    Discovery and subsequent check_manifest calls share this same function.
-    """
-    path = Path(path)
-    eligible = os.name == 'posix' and any(root in path.parents for root in HASH_CACHE_ROOTS)
-    original = path.lstat() if eligible else None
-    eligible = (eligible and stat.S_ISREG(original.st_mode) and original.st_size >= HASH_CACHE_MINIMUM
-                and path.resolve(strict=True) == path)
-    if not eligible:
-        with path.open('rb') as stream:
-            return hashlib.file_digest(stream, 'sha256').hexdigest()
-    require(callable(getattr(os, 'posix_fadvise', None)) and hasattr(os, 'POSIX_FADV_DONTNEED'),
-            'Targeted runtime hash requires supported posix_fadvise')
-    page = os.sysconf('SC_PAGE_SIZE')
-    require(type(page) is int and page > 0 and HASH_CACHE_INTERVAL % page == 0,
-            'Targeted runtime hash requires an aligned actual page size')
-    def identity(info):
-        return (info.st_dev, info.st_ino, info.st_size, info.st_mtime_ns, info.st_ctime_ns,
-                info.st_mode, info.st_nlink)
-    descriptor = os.open(path, os.O_RDONLY | os.O_NOFOLLOW | getattr(os, 'O_BINARY', 0))
-    try:
-        before = os.fstat(descriptor)
-        require(identity(before) == identity(original) and stat.S_ISREG(before.st_mode),
-                'Targeted runtime hash opened identity differs')
-        digest = hashlib.sha256(); count = 0; advised = 0
-        # Exclude the final page, including a full final page, from every hint.
-        final_page = ((before.st_size - 1) // page) * page
-        with os.fdopen(descriptor, 'rb', closefd=False) as stream:
-            while block := stream.read(HASH_CACHE_BLOCK):
-                digest.update(block); count += len(block)
-                require(count <= before.st_size, 'Targeted runtime hash source grew during read')
-                completed = min((count // page) * page, final_page)
-                if completed - advised >= HASH_CACHE_INTERVAL:
-                    require(os.posix_fadvise(descriptor, advised, completed - advised, os.POSIX_FADV_DONTNEED) is None,
-                            'Targeted runtime hash cache advice failed')
-                    advised = completed
-        require(count == before.st_size and identity(os.fstat(descriptor)) == identity(before),
-                'Targeted runtime hash source size/metadata changed')
-        if final_page > advised:
-            require(os.posix_fadvise(descriptor, advised, final_page - advised, os.POSIX_FADV_DONTNEED) is None,
-                    'Targeted runtime hash final cache advice failed')
-        require(identity(os.fstat(descriptor)) == identity(before)
-                and identity(path.lstat()) == identity(before), 'Targeted runtime hash final source identity changed')
-        return digest.hexdigest()
-    finally:
-        os.close(descriptor)
+    with Path(path).open('rb') as stream:
+        return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
 def fingerprint(value):

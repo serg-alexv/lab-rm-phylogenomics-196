@@ -1,0 +1,59 @@
+{
+  "schema": "STAGE05_TARGETED_HASH_CACHE_INDEPENDENT_REVIEW_V1",
+  "utc": "2026-10-09T23:29:29.182757+00:00",
+  "state": "PASS_SOURCE_AND_INDEPENDENT_PURE_TESTS",
+  "source_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+  "source_bytes": 47884,
+  "prior_executed_source_sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0",
+  "test_sha256": "9f869df2570e74e341d4a9f92b4908d414370f37dde18af4ad2569ab473a0d5a",
+  "review_kind": "Complete targeted function/test source inspection, AST proof of unchanged other code, independently executed pure C synthetic tests",
+  "semantic_diff_scope": [
+    "stat import",
+    "four HASH_CACHE_ constants",
+    "sha() implementation only"
+  ],
+  "remaining_module_ast_identical": true,
+  "scope_gates": [
+    "Only canonical plain files at least16MiB under exactly detector_env/defense_models/padloc_db retained roots",
+    "Others retain prior file_digest SHA behavior without hints",
+    "Read-only no-follow descriptor; opened/path dev,inode,size,mtime,ctime,mode,nlink before/after equality",
+    "1MiB byte reads preserve complete SHA256; count must equal originalsize",
+    "Contiguous aligned completed-page DONTNEED ranges at most8MiB; final page retained even alignedEOF",
+    "Unsupported/failed/non-None advice and metadata/size drift reject; descriptor closes in finally"
+  ],
+  "independent_actual_checks": {
+    "command": [
+      "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "work/test_stage5_targeted_hash_cache.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "tests": 9,
+    "elapsed_seconds": 0.183,
+    "source_and_test_hashes_before_after_equal": true,
+    "cases": [
+      "AlignedEOF retains full lastpage",
+      "Completed contiguous wholepages only",
+      "Exactlarge SHA/read-only/openID/FDclosure",
+      "Non-None advice rejection",
+      "Opened identityswap rejection",
+      "Other-scope legacy exactdigest",
+      "Postread metadata drift rejection",
+      "Smallfile legacy exactdigest",
+      "Unsupported and OSError advice rejection"
+    ],
+    "actual_scope": "New C synthetic files only; Linux metadata and advice mocked; original runtime and actual Linux cache untouched"
+  },
+  "actual_linux_posix_fadvise": "NOT_RUN",
+  "actual_runtime_or_source_payload_reads": 0,
+  "actual_WSL_or_native_inference": 0,
+  "actual_G_or_host_config_mutations": 0,
+  "limits": [
+    "Advice is a kernel hint with no guest eviction or host commit-return guarantee; loop-image cache is not established reclaimed",
+    "Existing outer owner/resource/lease/closure policy remains required; this hash function does not weaken or replace it",
+    "Consumer source-pin cascade is separately owned by Stage5 agent and not accepted merely by this function review",
+    "Protocol, detector argv, runtime payload bytes and scientific-output semantics outside sha remain unchanged; no biology acceptance is conferred"
+  ],
+  "concrete_source_blockers": []
+}

@@ -31,7 +31,7 @@ WSL = r'C:\Windows\System32\wsl.exe'
 SCOPE = 'NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY_ONLY'
 PINS = {
     'atomic_iqtree_windows.py': '80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827',
-    'stage5_atomic_process.py': 'e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e',
+    'stage5_atomic_process.py': 'fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34',
     'stage5_work_storage.py': '7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
 }
 

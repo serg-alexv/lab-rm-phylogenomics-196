@@ -13,14 +13,14 @@ LINUX_ROOT='/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196'
 FIELDS=('incremental_windows_requirement_bytes','commit_requirement_bytes','linux_job_requirement_bytes',
         'process_address_space_limit_bytes','sampled_rss_stop_bytes')
 PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827',
-      'stage5_atomic.py':'500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04',
+      'stage5_atomic.py':'2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0',
       'stage5_windows_owner.py':'8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d',
       'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_atomic_config.template.json':'94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf',
-      'stage5_setup_windows.py':'b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33',
-      'stage5_setup_linux.py':'24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27',
+      'stage5_setup_windows.py':'cc49de69a7c0c0701eb484d80fe048479b42a11086ab39a475d61de499eafda2',
+      'stage5_setup_linux.py':'7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6',
       'stage5_interop_smoke_windows.py':'35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898',
-      'stage5_unc_bind_probe.py':'17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7'}
+      'stage5_unc_bind_probe.py':'70bbd9b0ae04ad90f3b1595d49d844ba899b93aefad6d2edf37ec675a99c9830'}
 
 
 def require(ok,message):
@@ -99,7 +99,7 @@ def checked_gate(name,spec):
     elif name=='interop':
         require(value['state']=='PASS_NONSCIENTIFIC_INTEROP_ONLY'
                 and value['worker_sha256']=='38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c'
-                and value['supervisor_sha256']=='e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e'
+                and value['supervisor_sha256']=='fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34'
                 and [r['fixture'] for r in value['results']]==['exit0','lease_expiry','escaped_descendant']
                 and all(r['state']=='PASS_NONSCIENTIFIC_INTEROP_FIXTURE' and r['owned_closure_proven'] is True
                         for r in value['results']),'Actual three-fixture interop gate differs')

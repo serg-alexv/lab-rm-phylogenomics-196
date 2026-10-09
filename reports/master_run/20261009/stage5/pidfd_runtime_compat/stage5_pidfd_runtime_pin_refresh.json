@@ -1,0 +1,67 @@
+{
+  "actual_execution": "NOT_RUN",
+  "changes": [
+    {
+      "after_sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+      "before_sha256": "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a",
+      "original": "stage5_runtime_discovery_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_runtime_discovery.py",
+      "replacements": {
+        "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+      }
+    },
+    {
+      "after_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "before_sha256": "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f",
+      "original": "stage5_setup_linux_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_setup_linux.py",
+      "replacements": {
+        "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+      }
+    },
+    {
+      "after_sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33",
+      "before_sha256": "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0",
+      "original": "stage5_setup_windows_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_setup_windows.py",
+      "replacements": {
+        "bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+      }
+    },
+    {
+      "after_sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef",
+      "before_sha256": "314bfba257089afe108d1032b7a2136b4040aee30344484b7ddaf2941592a60b",
+      "original": "stage5_closed_genome_archive_linux_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_closed_genome_archive_linux.py",
+      "replacements": {
+        "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+      }
+    },
+    {
+      "after_sha256": "9ea5b933c6714fe3fc663e5f16af8ffe01eae2bba818ae9eab5342ab39f8d5b9",
+      "before_sha256": "830d7c1e14ebea599c4e2b456aa11292338327482c18fe155aeba5667278974e",
+      "original": "stage5_closed_genome_archive_windows_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_closed_genome_archive_windows.py",
+      "replacements": {
+        "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+        "314bfba257089afe108d1032b7a2136b4040aee30344484b7ddaf2941592a60b": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef",
+        "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+      }
+    },
+    {
+      "after_sha256": "84cbd8b0397fe4958d611cb7f8e6053a3b3fd30d5fc777d5071971327496baae",
+      "before_sha256": "c5b84a4ad45682db5b3b1fd43f0138db2a9c4bc60b2f4105db0271f348757393",
+      "original": "stage5_build_actual_config_after_pidfd_before_runtime_sha.py",
+      "path": "stage5_build_actual_config.py",
+      "replacements": {
+        "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+        "746202253f486f8cc7f1a4a164368e677223087d2cddf1c98a21350a64efb94f": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+        "f0522a1e8197139e0116d1b9f84aef1f525a8f1e0e8c50e90902ab6e82341cc0": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+      }
+    }
+  ],
+  "historical_receipts_modified": false,
+  "previous_pidfd_ledger_sha256": "60ea1033ce127c6875ec61d1b2e75fe577683c7dd1a2f356741920ccbc85fb55",
+  "runner_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+  "schema": "STAGE05_PIDFD_RUNTIME_ACTIVE_PIN_REFRESH_V1"
+}

@@ -1,7 +1,7 @@
 """Small Linux process-group supervisor; no scientific methods or searches."""
 from __future__ import annotations
 from pathlib import Path
-import ctypes, datetime, errno, functools, json, os, signal, subprocess, sys, time, uuid
+import ctypes, datetime, json, os, signal, subprocess, time, uuid
 
 
 class Fatal(RuntimeError):
@@ -62,52 +62,13 @@ def group_members(pgid, table=None):
     return [record for record in table.values() if record['pgid'] == pgid]
 
 
-@functools.lru_cache(maxsize=2)
-def _libc_pidfd(name):
-    """Resolve only the exported Linux pidfd ABI; never a numeric PID fallback."""
-    require(sys.platform.startswith('linux'), 'Linux kernel-backed pidfds are required')
-    require(name in ('pidfd_open', 'pidfd_send_signal'), 'Unexpected pidfd ABI requested')
-    try:
-        function = getattr(ctypes.CDLL(None, use_errno=True), name)
-    except (OSError, AttributeError) as error:
-        raise Fatal('Required exported libc pidfd API unavailable: ' + name) from error
-    function.argtypes = ([ctypes.c_int, ctypes.c_uint] if name == 'pidfd_open'
-                         else [ctypes.c_int, ctypes.c_int, ctypes.c_void_p, ctypes.c_uint])
-    function.restype = ctypes.c_int
-    return function
-
-
-def _libc_pidfd_call(name, *arguments):
-    function = _libc_pidfd(name)
-    ctypes.set_errno(0)
-    result = function(*arguments)
-    if result < 0:
-        error = ctypes.get_errno() or errno.EIO
-        raise OSError(error, name + ': ' + os.strerror(error))
-    return result
-
-
-def open_pidfd(pid, flags=0):
-    native = getattr(os, 'pidfd_open', None)
-    if callable(native):
-        return native(pid, flags)
-    return _libc_pidfd_call('pidfd_open', pid, flags)
-
-
-def send_pidfd_signal(fd, signum):
-    native = getattr(signal, 'pidfd_send_signal', None)
-    if callable(native):
-        return native(fd, signum, None, 0)
-    return _libc_pidfd_call('pidfd_send_signal', fd, signum, None, 0)
-
-
 def verified_pidfd(record):
     """Retain a kernel process handle only across matching observed births."""
     before = proc_record(record['pid'])
     if not before or before['start_ticks'] != record['start_ticks']:
         return None
     try:
-        fd = open_pidfd(record['pid'], 0)
+        fd = os.pidfd_open(record['pid'], 0)
     except ProcessLookupError:
         return None
     after = proc_record(record['pid'])
@@ -163,9 +124,11 @@ class Supervisor:
         self.runner_pid = os.getpid()
         libc = ctypes.CDLL(None, use_errno=True)
         require(libc.prctl(36, 1, 0, 0, 0) == 0, 'Linux child-subreaper activation failed')
-        probe = open_pidfd(self.runner_pid, 0)
+        require(hasattr(os, 'pidfd_open') and hasattr(signal, 'pidfd_send_signal'),
+                'Kernel-backed pidfd process signalling is required')
+        probe = os.pidfd_open(self.runner_pid, 0)
         try:
-            send_pidfd_signal(probe, 0)
+            signal.pidfd_send_signal(probe, 0, None, 0)
         finally:
             os.close(probe)
 
@@ -328,7 +291,7 @@ class Supervisor:
         def signal_retained(signum):
             for fd in set(pidfds.values()) | ({root_pidfd} if root_pidfd is not None else set()):
                 try:
-                    send_pidfd_signal(fd, signum)
+                    signal.pidfd_send_signal(fd, signum, None, 0)
                 except ProcessLookupError:
                     pass
 
@@ -351,7 +314,7 @@ class Supervisor:
                 self.native_launch_count += 1
                 # Do this before polling/reaping or any /proc/filesystem read.
                 # Popen's unreaped child cannot have its PID reused here.
-                root_pidfd = open_pidfd(child.pid, 0)
+                root_pidfd = os.pidfd_open(child.pid, 0)
                 record = proc_record(child.pid)
                 require(record and record['pgid'] == child.pid and record['sid'] == child.pid,
                         'Actual child session/group identity missing')

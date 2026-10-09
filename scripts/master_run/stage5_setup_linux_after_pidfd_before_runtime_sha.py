@@ -17,7 +17,7 @@ MOUNT_LOCK = OLD/'.work/tool_mount.lock'
 SCOPE = 'NONSCIENTIFIC_STAGE5_SETUP_ONLY'
 PINS = {'stage5_atomic_process.py':'e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e',
         'stage5_work_storage.py':'7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
-        'stage5_runtime_discovery.py':'11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb',
+        'stage5_runtime_discovery.py':'bddfe32251f095c9be3e091287a574f248a51b19861a74c3ce1cf0b508a9269a',
         'stage5_drivefs_filesystem_smoke.py':'d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a'}
 
 
