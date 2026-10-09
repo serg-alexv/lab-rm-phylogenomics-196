@@ -1,0 +1,2638 @@
+{
+  "admission_commit_headroom_bytes": 3758096384,
+  "admission_physical_bytes": 2684354560,
+  "admission_probe_separation_seconds": 15.014999999999418,
+  "admission_probes": [
+    {
+      "c_disk_free_bytes": 216035713024,
+      "commit_headroom_bytes": 4405997568,
+      "commit_limit_bytes": 25800232960,
+      "commit_total_bytes": 21394235392,
+      "own_priority_class": "BELOW_NORMAL_PRIORITY_CLASS",
+      "physical_available_bytes": 3270574080,
+      "utc": "2026-10-09T20:45:03.574635+00:00"
+    },
+    {
+      "c_disk_free_bytes": 216035618816,
+      "commit_headroom_bytes": 4386103296,
+      "commit_limit_bytes": 25800232960,
+      "commit_total_bytes": 21414129664,
+      "own_priority_class": "BELOW_NORMAL_PRIORITY_CLASS",
+      "physical_available_bytes": 3241832448,
+      "utc": "2026-10-09T20:45:18.576482+00:00"
+    }
+  ],
+  "automatic_admission_wait": false,
+  "automatic_retries": 0,
+  "base_source_sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc",
+  "block_bytes": 1048576,
+  "expected_package_bytes": 660114049,
+  "expected_package_count": 339,
+  "finished_utc": "2026-10-09T20:50:04.745234+00:00",
+  "fresh_downloaded_packages": 244,
+  "full_corresponding_source_coverage_audited": false,
+  "g_writes": 0,
+  "http_range_requests": 0,
+  "initial_resources": {
+    "c_disk_free_bytes": 216035618816,
+    "commit_headroom_bytes": 4386103296,
+    "commit_limit_bytes": 25800232960,
+    "commit_total_bytes": 21414129664,
+    "own_priority_class": "BELOW_NORMAL_PRIORITY_CLASS",
+    "physical_available_bytes": 3241832448,
+    "utc": "2026-10-09T20:45:18.576482+00:00"
+  },
+  "installations": 0,
+  "installed_runtime_complete": false,
+  "original_failure_sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b",
+  "original_partial": "PRESERVED_UNCHANGED_NOT_ADOPTED;PINNED_PACKAGE_REDOWLOADED_FROM_ZERO",
+  "original_records": 397,
+  "package_executions": 0,
+  "package_extractions": 0,
+  "per_buffer_resource_check": true,
+  "recovery_plan_sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862",
+  "remote_publication": "NOT_RUN",
+  "required_C_disk_free_bytes": 10737418240,
+  "required_physical_and_commit_reserve_bytes": 1610612736,
+  "resources_sha256": "3709922b6e145704fd33729be9ee58bb7e33b7a2ea5a1ab7506eea6951fa5e8d",
+  "reused_packages": 95,
+  "schema": "MASTER_PUBLIC_CONDA_RESOURCE_STOP_CONTINUATION_BUILD_V1",
+  "scientific_jobs": 0,
+  "shards": [
+    {
+      "bytes": 448642191,
+      "members": [
+        {
+          "bytes": 36931,
+          "crc32": "d76992a5",
+          "crc_verified": true,
+          "member": "SHA256SUMS.txt",
+          "sha256": "9d11ed808fd564da2e543ee5666df9a71186e095fce78ca0cf02c9d42589a806"
+        },
+        {
+          "bytes": 846,
+          "crc32": "f47bd9cd",
+          "crc_verified": true,
+          "member": "control/ATTRIBUTION_AND_RESTORE.txt",
+          "sha256": "e49032947e47ef5d95d357691a3836c51bf785e9d0f154c743094b0c99de248c"
+        },
+        {
+          "bytes": 18038,
+          "crc32": "2686ff0d",
+          "crc_verified": true,
+          "member": "control/acquire_public_conda_packages01.py",
+          "sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc"
+        },
+        {
+          "bytes": 2717,
+          "crc32": "4a5a7165",
+          "crc_verified": true,
+          "member": "control/acquisition_receipt.json",
+          "sha256": "6807810fad659bd47af053464af0dd899c22bbce8808288d15585aae6c6b14cf"
+        },
+        {
+          "bytes": 17531,
+          "crc32": "ec40e168",
+          "crc_verified": true,
+          "member": "control/continue_public_conda_packages01.py",
+          "sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460"
+        },
+        {
+          "bytes": 206293,
+          "crc32": "3158987a",
+          "crc_verified": true,
+          "member": "control/detector_package_manifest.json",
+          "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382"
+        },
+        {
+          "bytes": 257356,
+          "crc32": "eb1e0c6a",
+          "crc_verified": true,
+          "member": "control/downloaded_packages.jsonl",
+          "sha256": "07a819ee3d4871abd40cce03f969cf44ffc98884f696d7bac2f2cc80ecfc992b"
+        },
+        {
+          "bytes": 116540,
+          "crc32": "6808565b",
+          "crc_verified": true,
+          "member": "control/host_package_manifest.json",
+          "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48"
+        },
+        {
+          "bytes": 628,
+          "crc32": "c1ca4bfa",
+          "crc_verified": true,
+          "member": "control/original_download_errors.jsonl",
+          "sha256": "64d2db6b72df0a73152df596b21b4b9548be1b0a62297ce0662012d574c760aa"
+        },
+        {
+          "bytes": 1557,
+          "crc32": "b8662f0e",
+          "crc_verified": true,
+          "member": "control/original_resource_stop_receipt.json",
+          "sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b"
+        },
+        {
+          "bytes": 578292,
+          "crc32": "7edbd17b",
+          "crc_verified": true,
+          "member": "control/package_index.json",
+          "sha256": "f016dc25c7c4fc7aa167ed22eeb4cd434f71d6d6b9cab50c0e47ff5bbb4a6233"
+        },
+        {
+          "bytes": 74643,
+          "crc32": "fc1e2c9e",
+          "crc_verified": true,
+          "member": "control/recovery_plan.json",
+          "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862"
+        },
+        {
+          "bytes": 700814,
+          "crc32": "e7805024",
+          "crc_verified": true,
+          "member": "packages/00925c8c055a2275614b4d983e1df637245e19058d79fc7dd1a93b8d9fb4b139/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2",
+          "sha256": "00925c8c055a2275614b4d983e1df637245e19058d79fc7dd1a93b8d9fb4b139"
+        },
+        {
+          "bytes": 3380356,
+          "crc32": "8bf87b59",
+          "crc_verified": true,
+          "member": "packages/010f26e52ee21364497f392f0af0f2c9eecd1ba9ee2a6e40e1a3a5bc702b17d4/pyhmmer-0.12.3-py311hc303176_0.conda",
+          "sha256": "010f26e52ee21364497f392f0af0f2c9eecd1ba9ee2a6e40e1a3a5bc702b17d4"
+        },
+        {
+          "bytes": 348899,
+          "crc32": "1522c27a",
+          "crc_verified": true,
+          "member": "packages/01b3fe073a66e321970d09e04b388708f8cbdca5cdfbfcb7c9eeb470ad10383d/readline-8.3-hd6e31c0_1.conda",
+          "sha256": "01b3fe073a66e321970d09e04b388708f8cbdca5cdfbfcb7c9eeb470ad10383d"
+        },
+        {
+          "bytes": 224933,
+          "crc32": "3ab27076",
+          "crc_verified": true,
+          "member": "packages/0252f072e2f493f8348575938c69b48b2799f29f0489c4ad2c5a919ab7e3d02e/aws-c-mqtt-0.16.0-h21f4ec5_2.conda",
+          "sha256": "0252f072e2f493f8348575938c69b48b2799f29f0489c4ad2c5a919ab7e3d02e"
+        },
+        {
+          "bytes": 810573,
+          "crc32": "1752e15b",
+          "crc_verified": true,
+          "member": "packages/03437ce50129f9ca82a0400b7722cd2dd3ee3bfa50dcb557657f55a7de76ab6f/libgoogle-cloud-storage-3.8.0-hdbdcf42_0.conda",
+          "sha256": "03437ce50129f9ca82a0400b7722cd2dd3ee3bfa50dcb557657f55a7de76ab6f"
+        },
+        {
+          "bytes": 28616,
+          "crc32": "a7e006ad",
+          "crc_verified": true,
+          "member": "packages/03b54d7008de080a17cc2174b0e4acd6d06e1c981b2eb19846f46d8f59966034/libgcc-ng-16.2.0-h69a702a_7.conda",
+          "sha256": "03b54d7008de080a17cc2174b0e4acd6d06e1c981b2eb19846f46d8f59966034"
+        },
+        {
+          "bytes": 1303517,
+          "crc32": "5e59309e",
+          "crc_verified": true,
+          "member": "packages/03ee114f1194bd5ca6f2bfeb9aac61f170ffc6ec23920371bd3cd26e8d6cb9b2/r-viridislite-0.4.2-r43hc72bb7e_2.conda",
+          "sha256": "03ee114f1194bd5ca6f2bfeb9aac61f170ffc6ec23920371bd3cd26e8d6cb9b2"
+        },
+        {
+          "bytes": 163770,
+          "crc32": "0f429050",
+          "crc_verified": true,
+          "member": "packages/04433234d65be055db859ccbabdcb3b011ce353b8f805f905b0cdb57effd15d1/trimal-1.5.1-h9948957_0.conda",
+          "sha256": "04433234d65be055db859ccbabdcb3b011ce353b8f805f905b0cdb57effd15d1"
+        },
+        {
+          "bytes": 589716,
+          "crc32": "3ba384aa",
+          "crc_verified": true,
+          "member": "packages/04bb27dbf1d426b4447b28c3dc92ec01c807fa784eea86ffa1f8c2bd9b9e8076/azure-storage-blobs-cpp-12.18.0-h74b55db_1.conda",
+          "sha256": "04bb27dbf1d426b4447b28c3dc92ec01c807fa784eea86ffa1f8c2bd9b9e8076"
+        },
+        {
+          "bytes": 2528180,
+          "crc32": "d634cd38",
+          "crc_verified": true,
+          "member": "packages/04dbab12c925b92977bb835dd2f5eda413607afa79f95a554e5a04b07a380322/libgfortran5-16.2.0-h6b99dfc_7.conda",
+          "sha256": "04dbab12c925b92977bb835dd2f5eda413607afa79f95a554e5a04b07a380322"
+        },
+        {
+          "bytes": 47077,
+          "crc32": "9a8c4773",
+          "crc_verified": true,
+          "member": "packages/053d85821ce5e36b7ce03faea5930382f6af695df9e2cd68e5d8d273072d1551/libxml2-2.15.4-h7df9aa5_0.conda",
+          "sha256": "053d85821ce5e36b7ce03faea5930382f6af695df9e2cd68e5d8d273072d1551"
+        },
+        {
+          "bytes": 40779381,
+          "crc32": "d766732a",
+          "crc_verified": true,
+          "member": "packages/08c50c314b331730eeb8f87c39a45e5426a5463e078392ab283e2552d753443e/sysroot_linux-64-2.34-h087de78_3.conda",
+          "sha256": "08c50c314b331730eeb8f87c39a45e5426a5463e078392ab283e2552d753443e"
+        },
+        {
+          "bytes": 64831,
+          "crc32": "6847874f",
+          "crc_verified": true,
+          "member": "packages/0940ce93e0883816b99c6114acab90fec0ee525d42148498703cf49d5ecd80ed/r-mime-0.13-r43h2b5f3a1_0.conda",
+          "sha256": "0940ce93e0883816b99c6114acab90fec0ee525d42148498703cf49d5ecd80ed"
+        },
+        {
+          "bytes": 72519,
+          "crc32": "158e3894",
+          "crc_verified": true,
+          "member": "packages/09e8effdc89bc5d021349318d32b85594f5b8d8e3ab8f90a85b81f8fe695a566/libpsl-0.23.1-hd9e3e90_1.conda",
+          "sha256": "09e8effdc89bc5d021349318d32b85594f5b8d8e3ab8f90a85b81f8fe695a566"
+        },
+        {
+          "bytes": 688474,
+          "crc32": "7f3e8219",
+          "crc_verified": true,
+          "member": "packages/0a04c7fb1b16520dd9833e0edff340672e3499fde3a45bdff2f0e51961afdb7c/r-openssl-2.3.3-r43he8289e2_0.conda",
+          "sha256": "0a04c7fb1b16520dd9833e0edff340672e3499fde3a45bdff2f0e51961afdb7c"
+        },
+        {
+          "bytes": 131780,
+          "crc32": "037cb076",
+          "crc_verified": true,
+          "member": "packages/0a0544cf95f64394fe4959286f5c71f5444ad58feb0602e53becb27448d24da6/ca-certificates-2026.7.22-hbd8a1cb_0.conda",
+          "sha256": "0a0544cf95f64394fe4959286f5c71f5444ad58feb0602e53becb27448d24da6"
+        },
+        {
+          "bytes": 2295716,
+          "crc32": "e97f6c5b",
+          "crc_verified": true,
+          "member": "packages/0a561a42c3a7cfad79a34d91085c7c45194fa109c767ba7b3c28119919d4f6c8/r-sass-0.4.10-r43h93ab643_0.conda",
+          "sha256": "0a561a42c3a7cfad79a34d91085c7c45194fa109c767ba7b3c28119919d4f6c8"
+        },
+        {
+          "bytes": 1522511,
+          "crc32": "b4891deb",
+          "crc_verified": true,
+          "member": "packages/0ae20399bc13d1097237cf29653c1f2dd68e37f08b47a9b3cab76f97556a6bfa/gawk-5.4.1-h0a3468a_0.conda",
+          "sha256": "0ae20399bc13d1097237cf29653c1f2dd68e37f08b47a9b3cab76f97556a6bfa"
+        },
+        {
+          "bytes": 730409,
+          "crc32": "1476b87f",
+          "crc_verified": true,
+          "member": "packages/0be79ef2ee536e0c5d3ddb4a52bbae9f26d08560623299f33db2f4c4a17c525a/mpfr-4.2.2-ha2cb11d_1.conda",
+          "sha256": "0be79ef2ee536e0c5d3ddb4a52bbae9f26d08560623299f33db2f4c4a17c525a"
+        },
+        {
+          "bytes": 3394321,
+          "crc32": "ae81b94a",
+          "crc_verified": true,
+          "member": "packages/0c15c036c3b71471eecc58bbe08a68c66fd6a051b548dca7675c7c924ed3972b/aws-sdk-cpp-1.11.833-hc7390e0_9.conda",
+          "sha256": "0c15c036c3b71471eecc58bbe08a68c66fd6a051b548dca7675c7c924ed3972b"
+        },
+        {
+          "bytes": 969522,
+          "crc32": "fafd2751",
+          "crc_verified": true,
+          "member": "packages/0f6e60634de2b55da15772fe65485965fd9b61afcce0d749c1446f625babba30/libsqlite-3.53.4-h0737f62_102.conda",
+          "sha256": "0f6e60634de2b55da15772fe65485965fd9b61afcce0d749c1446f625babba30"
+        },
+        {
+          "bytes": 538190,
+          "crc32": "99a7fb53",
+          "crc_verified": true,
+          "member": "packages/10185fd77275eff5df238a716288dd5a6ad6712af4b15894bef8e8f9a350b008/r-purrr-1.1.0-r43h54b55ab_0.conda",
+          "sha256": "10185fd77275eff5df238a716288dd5a6ad6712af4b15894bef8e8f9a350b008"
+        },
+        {
+          "bytes": 459753,
+          "crc32": "50ba1f12",
+          "crc_verified": true,
+          "member": "packages/10e125da82ca93e09191e66e5a94d566b2cf8d4024e2a0db3a9114297447e0d9/libtiff-4.7.2-hcc2c06a_1.conda",
+          "sha256": "10e125da82ca93e09191e66e5a94d566b2cf8d4024e2a0db3a9114297447e0d9"
+        },
+        {
+          "bytes": 127272,
+          "crc32": "ed511952",
+          "crc_verified": true,
+          "member": "packages/119140f3e7b9eccf76377299f6c83a1d2636d3bd160fe99084b24c2c08996938/r-ids-1.0.1-r43hc72bb7e_4.conda",
+          "sha256": "119140f3e7b9eccf76377299f6c83a1d2636d3bd160fe99084b24c2c08996938"
+        },
+        {
+          "bytes": 649974,
+          "crc32": "8f4bd36e",
+          "crc_verified": true,
+          "member": "packages/11a2f54a6f391e25738bce0023e6ef499600147bbcf21c1fa69d2e251b03cc6a/libnghttp2-1.68.1-h74cf4be_1.conda",
+          "sha256": "11a2f54a6f391e25738bce0023e6ef499600147bbcf21c1fa69d2e251b03cc6a"
+        },
+        {
+          "bytes": 705701,
+          "crc32": "2b53ff8f",
+          "crc_verified": true,
+          "member": "packages/11a346aed187405a7d3710a79b815fd66ff80fec3b9b7f840a24531324742acf/libxml2-2.12.7-h4c95cb1_3.conda",
+          "sha256": "11a346aed187405a7d3710a79b815fd66ff80fec3b9b7f840a24531324742acf"
+        },
+        {
+          "bytes": 307826,
+          "crc32": "cf604fc0",
+          "crc_verified": true,
+          "member": "packages/120c2a7b0550f4b55fd965cdef731669d35a47f71393cc42abe614ff5f3441fd/muscle-5.1-h4ac6f70_3.tar.bz2",
+          "sha256": "120c2a7b0550f4b55fd965cdef731669d35a47f71393cc42abe614ff5f3441fd"
+        },
+        {
+          "bytes": 601984,
+          "crc32": "4c118dd6",
+          "crc_verified": true,
+          "member": "packages/1211d9f01128f141154cb4616aa5b15890afc26699767886f6655cabfd67ec06/prodigal-2.6.3-h577a1d6_11.tar.bz2",
+          "sha256": "1211d9f01128f141154cb4616aa5b15890afc26699767886f6655cabfd67ec06"
+        },
+        {
+          "bytes": 1208876,
+          "crc32": "75351eae",
+          "crc_verified": true,
+          "member": "packages/124c7d784a728fa989c11dbcea30bcbee826d54411bc695d93b05f9a203dbd31/r-dbplyr-2.5.1-r43hc72bb7e_0.conda",
+          "sha256": "124c7d784a728fa989c11dbcea30bcbee826d54411bc695d93b05f9a203dbd31"
+        },
+        {
+          "bytes": 609233,
+          "crc32": "66bb4b15",
+          "crc_verified": true,
+          "member": "packages/12d391e4a3a83df0a01d0c3c4e1b7f68d7333c4236b9ffdddd8383857b343896/r-bit-4.6.0-r43h2b5f3a1_0.conda",
+          "sha256": "12d391e4a3a83df0a01d0c3c4e1b7f68d7333c4236b9ffdddd8383857b343896"
+        },
+        {
+          "bytes": 3376423,
+          "crc32": "132a7f81",
+          "crc_verified": true,
+          "member": "packages/132a918b676dd1f533d7c6f95e567abf7081a6ea3251c3280de35ef600e0da87/gsl-2.7-he838d99_0.tar.bz2",
+          "sha256": "132a918b676dd1f533d7c6f95e567abf7081a6ea3251c3280de35ef600e0da87"
+        },
+        {
+          "bytes": 308699,
+          "crc32": "f60e0496",
+          "crc_verified": true,
+          "member": "packages/13e2e6eb942f65bf81e9089bf6b5926534d9245c781288c5270beb3a25c9156b/azure-storage-files-datalake-cpp-12.16.0-h1f05bef_1.conda",
+          "sha256": "13e2e6eb942f65bf81e9089bf6b5926534d9245c781288c5270beb3a25c9156b"
+        },
+        {
+          "bytes": 982351,
+          "crc32": "b76b3f16",
+          "crc_verified": true,
+          "member": "packages/142e2639a5bc0e99c44d76f4cc8dce9c6a2d87330c4beeabb128832cd871a86e/cairo-1.18.0-h3faef2a_0.conda",
+          "sha256": "142e2639a5bc0e99c44d76f4cc8dce9c6a2d87330c4beeabb128832cd871a86e"
+        },
+        {
+          "bytes": 86085260,
+          "crc32": "8a6667b5",
+          "crc_verified": true,
+          "member": "packages/14acaa661e4c4ef6c65606612b8b08f8f079c6a9e6da3ffcb77056685c675651/gcc_impl_linux-64-16.2.0-h9891192_7.conda",
+          "sha256": "14acaa661e4c4ef6c65606612b8b08f8f079c6a9e6da3ffcb77056685c675651"
+        },
+        {
+          "bytes": 96132,
+          "crc32": "857d1ed6",
+          "crc_verified": true,
+          "member": "packages/16080a1c7724f7d25727cdc23c7658e0cec2db52448c1dc0c33467ee2c6e1c62/zlib-1.3.2-h25fd6f3_3.conda",
+          "sha256": "16080a1c7724f7d25727cdc23c7658e0cec2db52448c1dc0c33467ee2c6e1c62"
+        },
+        {
+          "bytes": 4126576,
+          "crc32": "47e08d95",
+          "crc_verified": true,
+          "member": "packages/164bd59917902450fcc5e4ca6f12f190e08e0c39c31f20c8330b0dba865ddc5a/coreutils-9.1-h166bdaf_0.tar.bz2",
+          "sha256": "164bd59917902450fcc5e4ca6f12f190e08e0c39c31f20c8330b0dba865ddc5a"
+        },
+        {
+          "bytes": 26365,
+          "crc32": "350173f7",
+          "crc_verified": true,
+          "member": "packages/165008a79554f27704737d56b89b3c7298adaf56d5c70d4004dd95ae99c64b20/r-pkgconfig-2.0.3-r43hc72bb7e_4.conda",
+          "sha256": "165008a79554f27704737d56b89b3c7298adaf56d5c70d4004dd95ae99c64b20"
+        },
+        {
+          "bytes": 361682,
+          "crc32": "9025847c",
+          "crc_verified": true,
+          "member": "packages/16d0639cd5bf7c67484dc5e6433cb2cd76cecbc49e3d83da9a756c165c871bef/r-htmltools-0.5.8.1-r43ha18555a_1.conda",
+          "sha256": "16d0639cd5bf7c67484dc5e6433cb2cd76cecbc49e3d83da9a756c165c871bef"
+        },
+        {
+          "bytes": 407412,
+          "crc32": "6e4e4d4f",
+          "crc_verified": true,
+          "member": "packages/18e5cd982f6ff914da7bbfddd556ef98cc14950a5cfe73518b2f72f05062f5bf/r-dtplyr-1.3.2-r43hc72bb7e_0.conda",
+          "sha256": "18e5cd982f6ff914da7bbfddd556ef98cc14950a5cfe73518b2f72f05062f5bf"
+        },
+        {
+          "bytes": 128578,
+          "crc32": "747a5a2e",
+          "crc_verified": true,
+          "member": "packages/1956bb988860b03d6b8d8a103a001af8b3e09f22c2f8417b5f23ee0f78891e15/r-backports-1.5.0-r43hb1dbf0f_1.conda",
+          "sha256": "1956bb988860b03d6b8d8a103a001af8b3e09f22c2f8417b5f23ee0f78891e15"
+        },
+        {
+          "bytes": 257808,
+          "crc32": "d80bdb58",
+          "crc_verified": true,
+          "member": "packages/1a0d382c515ebf55f8ee1f38c8b81bc95af5c2acc42ad53b66bc5df932032f96/bzip2-1.0.8-hda65f42_10.conda",
+          "sha256": "1a0d382c515ebf55f8ee1f38c8b81bc95af5c2acc42ad53b66bc5df932032f96"
+        },
+        {
+          "bytes": 196563,
+          "crc32": "d38f996a",
+          "crc_verified": true,
+          "member": "packages/1a35faf4bf079c4438c52c9795b95d6c97c1b60e0bb51802cf48e2b7352b57e5/curl-8.22.0-ha042cf0_0.conda",
+          "sha256": "1a35faf4bf079c4438c52c9795b95d6c97c1b60e0bb51802cf48e2b7352b57e5"
+        },
+        {
+          "bytes": 18227,
+          "crc32": "ede4d3f5",
+          "crc_verified": true,
+          "member": "packages/1ad3f43c9319ef398a8ef45989f4903a06e3965b51e77fc669a4c894168a8411/liblapack-3.11.0-11_h47877c9_openblas.conda",
+          "sha256": "1ad3f43c9319ef398a8ef45989f4903a06e3965b51e77fc669a4c894168a8411"
+        },
+        {
+          "bytes": 2781707,
+          "crc32": "3a5ab3a1",
+          "crc_verified": true,
+          "member": "packages/1c386f7dfe104830d58a12e6ee2e05248af3abaca4ffbb0845c6844c48c83dec/pyrodigal-3.7.1-py311h26ae33e_1.conda",
+          "sha256": "1c386f7dfe104830d58a12e6ee2e05248af3abaca4ffbb0845c6844c48c83dec"
+        },
+        {
+          "bytes": 4449711,
+          "crc32": "664da8b4",
+          "crc_verified": true,
+          "member": "packages/1d0d70adf65482bb40145e963d31a2838861e993fa8d9e1d70f5efb150ceced7/iqtree-3.1.4-h8471819_0.conda",
+          "sha256": "1d0d70adf65482bb40145e963d31a2838861e993fa8d9e1d70f5efb150ceced7"
+        },
+        {
+          "bytes": 5076313,
+          "crc32": "5036bb1a",
+          "crc_verified": true,
+          "member": "packages/1d25f5eac7611a60e97dc087cde171b73b95398e14ad83abc7a88f6dba9b54cb/r-bslib-0.9.0-r43hc72bb7e_0.conda",
+          "sha256": "1d25f5eac7611a60e97dc087cde171b73b95398e14ad83abc7a88f6dba9b54cb"
+        },
+        {
+          "bytes": 847688,
+          "crc32": "722a22fa",
+          "crc_verified": true,
+          "member": "packages/1d57582451ba07ab7b21973bcbb3cfc35526374c3eec6237085cc5f37ae717b8/r-dbi-1.2.3-r43hc72bb7e_1.conda",
+          "sha256": "1d57582451ba07ab7b21973bcbb3cfc35526374c3eec6237085cc5f37ae717b8"
+        },
+        {
+          "bytes": 28948,
+          "crc32": "7172d7da",
+          "crc_verified": true,
+          "member": "packages/1dd3fffd892081df9726d7eb7e0dea6198962ba775bd88842135a4ddb4deb3c9/_openmp_mutex-4.5-20_gnu.conda",
+          "sha256": "1dd3fffd892081df9726d7eb7e0dea6198962ba775bd88842135a4ddb4deb3c9"
+        },
+        {
+          "bytes": 108137,
+          "crc32": "d135cf12",
+          "crc_verified": true,
+          "member": "packages/1fb05dddb87c864ccacffb89857ec3779fdd3c16209d4a36b18ae179815788ad/r-cellranger-1.1.0-r43hc72bb7e_1007.conda",
+          "sha256": "1fb05dddb87c864ccacffb89857ec3779fdd3c16209d4a36b18ae179815788ad"
+        },
+        {
+          "bytes": 333563,
+          "crc32": "048655f9",
+          "crc_verified": true,
+          "member": "packages/20a44d786af02a6131e0c854b4b643fb9a22f5040277709be41ac5542d8ee7af/r-processx-3.8.6-r43h2b5f3a1_0.conda",
+          "sha256": "20a44d786af02a6131e0c854b4b643fb9a22f5040277709be41ac5542d8ee7af"
+        },
+        {
+          "bytes": 305657,
+          "crc32": "0b927e3e",
+          "crc_verified": true,
+          "member": "packages/211048ca7af1f61e6f286c1b9df059a6782a986c32a9ef27b37a72b125e5cf56/r-jquerylib-0.1.4-r43hc72bb7e_3.conda",
+          "sha256": "211048ca7af1f61e6f286c1b9df059a6782a986c32a9ef27b37a72b125e5cf56"
+        },
+        {
+          "bytes": 317076,
+          "crc32": "4056ded6",
+          "crc_verified": true,
+          "member": "packages/21ad2a8e582dc1a11acf078c042f753cbbdc52b07510dd8a3f9d49e673f88902/r-fansi-1.0.6-r43hb1dbf0f_1.conda",
+          "sha256": "21ad2a8e582dc1a11acf078c042f753cbbdc52b07510dd8a3f9d49e673f88902"
+        },
+        {
+          "bytes": 162688,
+          "crc32": "d77d72c5",
+          "crc_verified": true,
+          "member": "packages/24ba3435344c08325190abe3e515364639634639f6772e9aa3c82adba0768bdc/r-prettyunits-1.2.0-r43hc72bb7e_1.conda",
+          "sha256": "24ba3435344c08325190abe3e515364639634639f6772e9aa3c82adba0768bdc"
+        },
+        {
+          "bytes": 21139940,
+          "crc32": "c82b8b80",
+          "crc_verified": true,
+          "member": "packages/263277d04b6d7cc8cb02f73977ff6ae77bbb0b14f8b355667bc337f3fa454ef3/gfortran_impl_linux-64-16.2.0-hf930d89_7.conda",
+          "sha256": "263277d04b6d7cc8cb02f73977ff6ae77bbb0b14f8b355667bc337f3fa454ef3"
+        },
+        {
+          "bytes": 37770,
+          "crc32": "09ce64ca",
+          "crc_verified": true,
+          "member": "packages/26da4d1911473c965c32ce2b4ff7572349719eaacb88a066db8d968a4132c3f7/xorg-libxrender-0.9.11-hd590300_0.conda",
+          "sha256": "26da4d1911473c965c32ce2b4ff7572349719eaacb88a066db8d968a4132c3f7"
+        },
+        {
+          "bytes": 2299765,
+          "crc32": "53e7fcb1",
+          "crc_verified": true,
+          "member": "packages/27d60f6272d44b7d8f6f6fd708f4a0922a304adee21467abb16f8d98db6b72d2/r-nlme-3.1_168-r43hb67ce94_0.conda",
+          "sha256": "27d60f6272d44b7d8f6f6fd708f4a0922a304adee21467abb16f8d98db6b72d2"
+        },
+        {
+          "bytes": 745303,
+          "crc32": "6c812212",
+          "crc_verified": true,
+          "member": "packages/27d83f1188cd19bcb7754a078b3fa7f4cfb8527f8eb2fde54dd01fc529d1adec/ld_impl_linux-64-2.46.1-default_hbd61a6d_102.conda",
+          "sha256": "27d83f1188cd19bcb7754a078b3fa7f4cfb8527f8eb2fde54dd01fc529d1adec"
+        },
+        {
+          "bytes": 1620504,
+          "crc32": "cc9a6d1e",
+          "crc_verified": true,
+          "member": "packages/2821ec1dc454bd8b9a31d0ed22a7ce22422c0aef163c59f49dfdf915d0f0ca14/font-ttf-ubuntu-0.83-h77eed37_3.conda",
+          "sha256": "2821ec1dc454bd8b9a31d0ed22a7ce22422c0aef163c59f49dfdf915d0f0ca14"
+        },
+        {
+          "bytes": 52228,
+          "crc32": "d954ea31",
+          "crc_verified": true,
+          "member": "packages/28dcc1e6debd50f398c10783c7ead3917a2105c848d48f0c7a9df4b670eb759a/r-rappdirs-0.3.3-r43hb1dbf0f_3.conda",
+          "sha256": "28dcc1e6debd50f398c10783c7ead3917a2105c848d48f0c7a9df4b670eb759a"
+        },
+        {
+          "bytes": 468656,
+          "crc32": "53d551bf",
+          "crc_verified": true,
+          "member": "packages/292fa4314e0ad1ed67b791c5b8bb2f66b13c17afe4b24a2fcb1b0f3315c48f4c/r-httr-1.4.7-r43hc72bb7e_1.conda",
+          "sha256": "292fa4314e0ad1ed67b791c5b8bb2f66b13c17afe4b24a2fcb1b0f3315c48f4c"
+        },
+        {
+          "bytes": 246278,
+          "crc32": "db0a0b67",
+          "crc_verified": true,
+          "member": "packages/29c4e7b63e8b76041f2156fecd245eb8b18a961d724e881e1a90497b3d152285/r-munsell-0.5.1-r43hc72bb7e_1.conda",
+          "sha256": "29c4e7b63e8b76041f2156fecd245eb8b18a961d724e881e1a90497b3d152285"
+        },
+        {
+          "bytes": 1394333,
+          "crc32": "be1bdec5",
+          "crc_verified": true,
+          "member": "packages/2a5c38c85e63df84c4e69ee71439841ce570d259ae3060627bb9a49a938d66f4/krb5-1.22.2-hbc21106_2.conda",
+          "sha256": "2a5c38c85e63df84c4e69ee71439841ce570d259ae3060627bb9a49a938d66f4"
+        },
+        {
+          "bytes": 18216,
+          "crc32": "0d332fd1",
+          "crc_verified": true,
+          "member": "packages/2a64c3fe877bb14aa9e5b6c409c5c119947aa15d5cdcec2211c80e1ee51789b6/colorlog-6.12.0-pyhfa0c392_0.conda",
+          "sha256": "2a64c3fe877bb14aa9e5b6c409c5c119947aa15d5cdcec2211c80e1ee51789b6"
+        },
+        {
+          "bytes": 52631,
+          "crc32": "09672c7c",
+          "crc_verified": true,
+          "member": "packages/2d888f90af0686044882c74193ec80a90ec1943145d94a7b1b048958acda1848/typing_extensions-4.16.0-pyhcf101f3_0.conda",
+          "sha256": "2d888f90af0686044882c74193ec80a90ec1943145d94a7b1b048958acda1848"
+        },
+        {
+          "bytes": 424291,
+          "crc32": "c5ef5ad4",
+          "crc_verified": true,
+          "member": "packages/2e10922976e336c683cc726eef3566785932d4495f050fa9cccd62f7125daef6/r-callr-3.7.6-r43hc72bb7e_1.conda",
+          "sha256": "2e10922976e336c683cc726eef3566785932d4495f050fa9cccd62f7125daef6"
+        },
+        {
+          "bytes": 3859321,
+          "crc32": "b7fb2380",
+          "crc_verified": true,
+          "member": "packages/30e9ba14e337b2685deb4e90abc2b4a9e752b0ea68bc9c23feb5c9e345696cac/taxonkit-0.20.0-h9ee0642_1.conda",
+          "sha256": "30e9ba14e337b2685deb4e90abc2b4a9e752b0ea68bc9c23feb5c9e345696cac"
+        },
+        {
+          "bytes": 394726,
+          "crc32": "6ded2563",
+          "crc_verified": true,
+          "member": "packages/31349543e3c59c64f17e24494939a22b0e1d611bdb19d98d115775dba423cbf7/libopentelemetry-cpp-headers-1.27.0-ha770c72_1.conda",
+          "sha256": "31349543e3c59c64f17e24494939a22b0e1d611bdb19d98d115775dba423cbf7"
+        },
+        {
+          "bytes": 760490,
+          "crc32": "b43538a3",
+          "crc_verified": true,
+          "member": "packages/327f489acea0a1057de4f8f9869283f960136006a6c59fe92e7594d5f5647a2d/r-scales-1.4.0-r43hc72bb7e_0.conda",
+          "sha256": "327f489acea0a1057de4f8f9869283f960136006a6c59fe92e7594d5f5647a2d"
+        },
+        {
+          "bytes": 28665,
+          "crc32": "70ab65f2",
+          "crc_verified": true,
+          "member": "packages/337f481db36cc357884f05f404ccd1b3a7e0fc1ee48ec5c884e4281d213bc863/libstdcxx-ng-16.2.0-hdf11a46_7.conda",
+          "sha256": "337f481db36cc357884f05f404ccd1b3a7e0fc1ee48ec5c884e4281d213bc863"
+        },
+        {
+          "bytes": 38440,
+          "crc32": "2d10a086",
+          "crc_verified": true,
+          "member": "packages/33f62b42aae11d94fda9bc1c65e8d272488ddf58e997766736e71e5973a4700e/libgettextpo-devel-0.25.1-h0e23cf9_2.conda",
+          "sha256": "33f62b42aae11d94fda9bc1c65e8d272488ddf58e997766736e71e5973a4700e"
+        },
+        {
+          "bytes": 69288,
+          "crc32": "220ecfd8",
+          "crc_verified": true,
+          "member": "packages/375cd8623a919481fa208a6277dac2e509b97ee72bf1b56e1decbf52bbe559b1/r-clipr-0.8.0-r43hc72bb7e_3.conda",
+          "sha256": "375cd8623a919481fa208a6277dac2e509b97ee72bf1b56e1decbf52bbe559b1"
+        },
+        {
+          "bytes": 3808338,
+          "crc32": "c9f9fcb3",
+          "crc_verified": true,
+          "member": "packages/37c51fbc936a6bb8bf5f67c8f056edacaaa41e8603738bc8a4dee186292bb114/libprotobuf-7.35.1-h622638d_3.conda",
+          "sha256": "37c51fbc936a6bb8bf5f67c8f056edacaaa41e8603738bc8a4dee186292bb114"
+        },
+        {
+          "bytes": 162436,
+          "crc32": "2aa8bdcc",
+          "crc_verified": true,
+          "member": "packages/386032769e36683b23c360815e2c29048ea71d5a074b3d5f46f8bc6806492073/r-glue-1.8.0-r43h2b5f3a1_0.conda",
+          "sha256": "386032769e36683b23c360815e2c29048ea71d5a074b3d5f46f8bc6806492073"
+        },
+        {
+          "bytes": 339659,
+          "crc32": "2aae1620",
+          "crc_verified": true,
+          "member": "packages/393f5b451271d59ab9a5e9561b8ea3e196142ed7315fc935a80546f9742bce74/r-systemfonts-1.2.3-r43h74f4acd_0.conda",
+          "sha256": "393f5b451271d59ab9a5e9561b8ea3e196142ed7315fc935a80546f9742bce74"
+        },
+        {
+          "bytes": 64102,
+          "crc32": "8a26b458",
+          "crc_verified": true,
+          "member": "packages/3ba79ebfbd14ca5db4affaf10ee8001064e907de5baabc2dbe5bcd9aec856c9f/fribidi-1.0.17-h7cc23a3_0.conda",
+          "sha256": "3ba79ebfbd14ca5db4affaf10ee8001064e907de5baabc2dbe5bcd9aec856c9f"
+        },
+        {
+          "bytes": 71213,
+          "crc32": "37facce5",
+          "crc_verified": true,
+          "member": "packages/3d223a5f549174bce4085faa75d68550e6cadef8d34691340b7fe59a76a7d1ac/r-assertthat-0.2.1-r43hc72bb7e_5.conda",
+          "sha256": "3d223a5f549174bce4085faa75d68550e6cadef8d34691340b7fe59a76a7d1ac"
+        },
+        {
+          "bytes": 828060,
+          "crc32": "a2375971",
+          "crc_verified": true,
+          "member": "packages/3e53ba247f1ad68353f18aceba5bf8ce87e3dea930de85d36946844a7658c9fb/xorg-libx11-1.8.9-h8ee46fc_0.conda",
+          "sha256": "3e53ba247f1ad68353f18aceba5bf8ce87e3dea930de85d36946844a7658c9fb"
+        },
+        {
+          "bytes": 18793,
+          "crc32": "5f92e6be",
+          "crc_verified": true,
+          "member": "packages/3ec065b94554dc48a4ca582a960a5484bc166b26e83ce0954653e08d17e8bd53/xorg-libxau-1.0.12-h7cc23a3_2.conda",
+          "sha256": "3ec065b94554dc48a4ca582a960a5484bc166b26e83ce0954653e08d17e8bd53"
+        },
+        {
+          "bytes": 121795,
+          "crc32": "c3ee3dd3",
+          "crc_verified": true,
+          "member": "packages/3fa1744d7bbce2f10dfb956f51bf92b11cde4d27b6f94b52d1e77e5e75a1f937/r-lifecycle-1.0.4-r43hc72bb7e_1.conda",
+          "sha256": "3fa1744d7bbce2f10dfb956f51bf92b11cde4d27b6f94b52d1e77e5e75a1f937"
+        },
+        {
+          "bytes": 210598,
+          "crc32": "a65f8b79",
+          "crc_verified": true,
+          "member": "packages/43132eb45a569b1f63199b0e7d5874d94227e9be950b327a323e7dcc1f8cd58c/libre2-11-2025.11.05-h60473fc_2.conda",
+          "sha256": "43132eb45a569b1f63199b0e7d5874d94227e9be950b327a323e7dcc1f8cd58c"
+        },
+        {
+          "bytes": 11438995,
+          "crc32": "da442533",
+          "crc_verified": true,
+          "member": "packages/43afad1c27c24ccc40d98461ab7e1648ccac876421a8783167861ae19c4edc83/perl-5.44.0-1_h7cc23a3_perl5.conda",
+          "sha256": "43afad1c27c24ccc40d98461ab7e1648ccac876421a8783167861ae19c4edc83"
+        },
+        {
+          "bytes": 2688566,
+          "crc32": "a1e13a7b",
+          "crc_verified": true,
+          "member": "packages/44c5f58593b074886436db7d13fdfcba2fe3731867ea52237f049b8400341a2b/libglib-2.78.1-hebfc3b9_0.conda",
+          "sha256": "44c5f58593b074886436db7d13fdfcba2fe3731867ea52237f049b8400341a2b"
+        },
+        {
+          "bytes": 382114,
+          "crc32": "dd80f211",
+          "crc_verified": true,
+          "member": "packages/450e9c2313ee61ab48b6076e93c7d6991f751f3557b5252a20230f3a803e1621/r-haven-2.5.5-r43h6d565e7_0.conda",
+          "sha256": "450e9c2313ee61ab48b6076e93c7d6991f751f3557b5252a20230f3a803e1621"
+        },
+        {
+          "bytes": 135877,
+          "crc32": "3c663578",
+          "crc_verified": true,
+          "member": "packages/45301f14f4eb66da57cfaf2d265f3eeee73f8b07e99614ee3afc5b26eea91126/libedit-3.1.20260512-pl5321h373387f_0.conda",
+          "sha256": "45301f14f4eb66da57cfaf2d265f3eeee73f8b07e99614ee3afc5b26eea91126"
+        },
+        {
+          "bytes": 18455,
+          "crc32": "83940f40",
+          "crc_verified": true,
+          "member": "packages/458227f759d5e3fcec5d9b7acce54e10c9e1f4f4b7ec978f3bfd54ce4ee9853d/six-1.17.0-pyhe01879c_1.conda",
+          "sha256": "458227f759d5e3fcec5d9b7acce54e10c9e1f4f4b7ec978f3bfd54ce4ee9853d"
+        },
+        {
+          "bytes": 2663465,
+          "crc32": "f00e903d",
+          "crc_verified": true,
+          "member": "packages/46126b858d173d6808262e39e3a8aa39946d39aebb5ffb720984dc44f74feafe/libgoogle-cloud-3.8.0-hbc29df5_0.conda",
+          "sha256": "46126b858d173d6808262e39e3a8aa39946d39aebb5ffb720984dc44f74feafe"
+        },
+        {
+          "bytes": 37030,
+          "crc32": "e5820aa1",
+          "crc_verified": true,
+          "member": "packages/478dd9aa480a0fdf39c354884fb85c37013726730f6bf69ed470efa2e27de0e4/file-5.48-hd479b6e_1.conda",
+          "sha256": "478dd9aa480a0fdf39c354884fb85c37013726730f6bf69ed470efa2e27de0e4"
+        },
+        {
+          "bytes": 215877,
+          "crc32": "05009675",
+          "crc_verified": true,
+          "member": "packages/47d2aa15d4dd24630c1d22612717043392b6d7d71f62debdb4b5daada7074761/r-tidyselect-1.2.1-r43hc72bb7e_1.conda",
+          "sha256": "47d2aa15d4dd24630c1d22612717043392b6d7d71f62debdb4b5daada7074761"
+        },
+        {
+          "bytes": 601301,
+          "crc32": "e9332af4",
+          "crc_verified": true,
+          "member": "packages/47d682b9f6d6ec9eb1a6e6c3e75ea6273e899e78fb7fc59f81d39745009fbc60/zstd-1.5.7-hb78ec9c_7.conda",
+          "sha256": "47d682b9f6d6ec9eb1a6e6c3e75ea6273e899e78fb7fc59f81d39745009fbc60"
+        },
+        {
+          "bytes": 499651,
+          "crc32": "362984b0",
+          "crc_verified": true,
+          "member": "packages/483b7eb97f56fbb3a9cb7190d33012dfa0a5aaed99ede61465563cd97dd82504/libcurl-8.22.0-ha042cf0_0.conda",
+          "sha256": "483b7eb97f56fbb3a9cb7190d33012dfa0a5aaed99ede61465563cd97dd82504"
+        },
+        {
+          "bytes": 301743,
+          "crc32": "378031cf",
+          "crc_verified": true,
+          "member": "packages/483cf5914f829b9fd583b64d16b4510d7a0a1d27cd4343437fd1ac3fade1e42d/r-rvest-1.0.5-r43hc72bb7e_0.conda",
+          "sha256": "483cf5914f829b9fd583b64d16b4510d7a0a1d27cd4343437fd1ac3fade1e42d"
+        },
+        {
+          "bytes": 62517,
+          "crc32": "f7869dea",
+          "crc_verified": true,
+          "member": "packages/49b532d1df875c6749d9078b56a76f3f5db49a5abe0ca620b593ed474ef0ebf1/xorg-libice-1.1.2-h280c20c_0.conda",
+          "sha256": "49b532d1df875c6749d9078b56a76f3f5db49a5abe0ca620b593ed474ef0ebf1"
+        },
+        {
+          "bytes": 9630,
+          "crc32": "96ccd2d7",
+          "crc_verified": true,
+          "member": "packages/4a44fd00ea73b79ca2c89b0727b9ccf61c506ead71e67a9abfa4c590042b5a4a/pthread-stubs-0.4-h7cc23a3_1004.conda",
+          "sha256": "4a44fd00ea73b79ca2c89b0727b9ccf61c506ead71e67a9abfa4c590042b5a4a"
+        },
+        {
+          "bytes": 2072106,
+          "crc32": "fd239983",
+          "crc_verified": true,
+          "member": "packages/4ab2f607c0caf708957115afc8b476472efdd723f8a36f24399190b45cb01896/r-rmarkdown-2.29-r43hc72bb7e_0.conda",
+          "sha256": "4ab2f607c0caf708957115afc8b476472efdd723f8a36f24399190b45cb01896"
+        },
+        {
+          "bytes": 54426,
+          "crc32": "52fc7c0e",
+          "crc_verified": true,
+          "member": "packages/4b24bef521586c98dee5058735d8ba7ce3772efc4713f12f1fa99aea7cc4eb87/r-rematch2-2.1.2-r43hc72bb7e_4.conda",
+          "sha256": "4b24bef521586c98dee5058735d8ba7ce3772efc4713f12f1fa99aea7cc4eb87"
+        },
+        {
+          "bytes": 1547473,
+          "crc32": "cc937083",
+          "crc_verified": true,
+          "member": "packages/4b55aea03b18a4084b750eee531ad978d4a3690f63019132c26c6ad26bbe3aed/harfbuzz-8.3.0-h3d44ed6_0.conda",
+          "sha256": "4b55aea03b18a4084b750eee531ad978d4a3690f63019132c26c6ad26bbe3aed"
+        },
+        {
+          "bytes": 231294,
+          "crc32": "c283659f",
+          "crc_verified": true,
+          "member": "packages/4b939b4a76a11c9ec50c891ae9bf232da8dcaf8797701df1e79ae51c988be2d4/aws-c-http-0.11.0-h38ae05a_4.conda",
+          "sha256": "4b939b4a76a11c9ec50c891ae9bf232da8dcaf8797701df1e79ae51c988be2d4"
+        },
+        {
+          "bytes": 1813029,
+          "crc32": "0f45d9d0",
+          "crc_verified": true,
+          "member": "packages/4c0508c27872b3ed19a5a518acca7b5671489ac20e516d744b5b5d9a40ae01b9/r-broom-1.0.9-r43hc72bb7e_0.conda",
+          "sha256": "4c0508c27872b3ed19a5a518acca7b5671489ac20e516d744b5b5d9a40ae01b9"
+        },
+        {
+          "bytes": 510695,
+          "crc32": "76685f0e",
+          "crc_verified": true,
+          "member": "packages/4c65d2769847778a6d84db6984ac81bcec6f8958d349f1fe57ae040ccc56a801/make-4.4.1-hb03c661_3.conda",
+          "sha256": "4c65d2769847778a6d84db6984ac81bcec6f8958d349f1fe57ae040ccc56a801"
+        },
+        {
+          "bytes": 93899,
+          "crc32": "bc9863e4",
+          "crc_verified": true,
+          "member": "packages/4d106ab46647ac469ca879fb1b26bf5e50ed50a40e0aeced67014c7c8a865c21/r-progress-1.2.3-r43hc72bb7e_1.conda",
+          "sha256": "4d106ab46647ac469ca879fb1b26bf5e50ed50a40e0aeced67014c7c8a865c21"
+        },
+        {
+          "bytes": 506486,
+          "crc32": "6103d81f",
+          "crc_verified": true,
+          "member": "packages/4e747ef0059084a39baa5220e87ac9843027f062e568630ee2fae2b396821cd1/r-fs-1.6.6-r43h93ab643_0.conda",
+          "sha256": "4e747ef0059084a39baa5220e87ac9843027f062e568630ee2fae2b396821cd1"
+        },
+        {
+          "bytes": 1291737,
+          "crc32": "6c9683e4",
+          "crc_verified": true,
+          "member": "packages/50161a9f3a7c24d27c949329ab7090b4e2e0da2925880371b32500057c1bcd52/r-cli-3.6.5-r43h93ab643_0.conda",
+          "sha256": "50161a9f3a7c24d27c949329ab7090b4e2e0da2925880371b32500057c1bcd52"
+        },
+        {
+          "bytes": 107595,
+          "crc32": "70ec36c5",
+          "crc_verified": true,
+          "member": "packages/5226a1f005948a7cc2426183d06f03a55e51abdc78e7574db7d43f9824bdc761/r-hms-1.1.3-r43hc72bb7e_2.conda",
+          "sha256": "5226a1f005948a7cc2426183d06f03a55e51abdc78e7574db7d43f9824bdc761"
+        },
+        {
+          "bytes": 23360932,
+          "crc32": "dd595f0a",
+          "crc_verified": true,
+          "member": "packages/524df25896667b5f7e391c2115495cac5e0077b97967981091af8afcc98fd312/python-3.11.17-h5f976f7_1_cpython.conda",
+          "sha256": "524df25896667b5f7e391c2115495cac5e0077b97967981091af8afcc98fd312"
+        },
+        {
+          "bytes": 134624,
+          "crc32": "a0904d50",
+          "crc_verified": true,
+          "member": "packages/5451e5d9abe192438f9efe8c0737c6ac0ddd6cfb932cb88e2ef2f88e97fc3c3a/bwidget-1.10.1-hfc2019e_3.conda",
+          "sha256": "5451e5d9abe192438f9efe8c0737c6ac0ddd6cfb932cb88e2ef2f88e97fc3c3a"
+        },
+        {
+          "bytes": 23610,
+          "crc32": "80eef587",
+          "crc_verified": true,
+          "member": "packages/547b2392d8f7b76efd4a0970946f6da2a1136ad5fe3dc936af81e02eb7181076/xz-5.8.3-ha02ee65_1.conda",
+          "sha256": "547b2392d8f7b76efd4a0970946f6da2a1136ad5fe3dc936af81e02eb7181076"
+        },
+        {
+          "bytes": 787949,
+          "crc32": "fd714ef2",
+          "crc_verified": true,
+          "member": "packages/547f68732ea283b802c484ed8b9e2ee4d3945ea7341ced3181c73da878672934/r-readr-2.1.5-r43h0d4f4ea_1.conda",
+          "sha256": "547f68732ea283b802c484ed8b9e2ee4d3945ea7341ced3181c73da878672934"
+        },
+        {
+          "bytes": 4204,
+          "crc32": "02d56421",
+          "crc_verified": true,
+          "member": "packages/54cf44ee2c122bce206f834a825af06e3b14fc4fd58c968ae9329715cc281d1e/mpi-1.0-openmpi.tar.bz2",
+          "sha256": "54cf44ee2c122bce206f834a825af06e3b14fc4fd58c968ae9329715cc281d1e"
+        },
+        {
+          "bytes": 11867,
+          "crc32": "3e0be0be",
+          "crc_verified": true,
+          "member": "packages/54dd934b0e1c942e54759eb13672fd59b7e523fabea6e69a32d5bf483e45b329/xorg-renderproto-0.11.1-hb9d3cd8_1003.conda",
+          "sha256": "54dd934b0e1c942e54759eb13672fd59b7e523fabea6e69a32d5bf483e45b329"
+        },
+        {
+          "bytes": 4059,
+          "crc32": "88c7895c",
+          "crc_verified": true,
+          "member": "packages/54eea8469786bc2291cc40bca5f46438d3e062a399e8f53f013b6a9f50e98333/fonts-conda-forge-1-hc364b38_1.conda",
+          "sha256": "54eea8469786bc2291cc40bca5f46438d3e062a399e8f53f013b6a9f50e98333"
+        },
+        {
+          "bytes": 202211,
+          "crc32": "50494194",
+          "crc_verified": true,
+          "member": "packages/553084a7bbaad42224dc70376d3acfcc57165751f08e54951b1bd21b605e3510/pytz-2026.5-pyh5ded981_0.conda",
+          "sha256": "553084a7bbaad42224dc70376d3acfcc57165751f08e54951b1bd21b605e3510"
+        },
+        {
+          "bytes": 1218937,
+          "crc32": "8dfb9cbf",
+          "crc_verified": true,
+          "member": "packages/560207b7b0d098b91a0cff66184e12ddda79a4db485a3d15e84507d5d344e7de/r-googledrive-2.1.2-r43hc72bb7e_0.conda",
+          "sha256": "560207b7b0d098b91a0cff66184e12ddda79a4db485a3d15e84507d5d344e7de"
+        },
+        {
+          "bytes": 2009710,
+          "crc32": "7463abba",
+          "crc_verified": true,
+          "member": "packages/5709a5f86eb1c1b7f0578275894860890a58b6c6753e13943cd1f877282e00df/parallel-20260922-hd8ed1ab_0.conda",
+          "sha256": "5709a5f86eb1c1b7f0578275894860890a58b6c6753e13943cd1f877282e00df"
+        },
+        {
+          "bytes": 231845,
+          "crc32": "e31ebcc5",
+          "crc_verified": true,
+          "member": "packages/5733fbcaf4f5575051342b872de15e8589bb922c6b037d2d9425e86638ed2f1f/psutil-7.2.2-py311h194be0f_3.conda",
+          "sha256": "5733fbcaf4f5575051342b872de15e8589bb922c6b037d2d9425e86638ed2f1f"
+        },
+        {
+          "bytes": 186971,
+          "crc32": "298dcdd7",
+          "crc_verified": true,
+          "member": "packages/58bbdb3ee8ab85fff94435bcf4a335fd5e7b61d4d84f15d9afc8b4207d522ea3/libgettextpo-0.25.1-h0e23cf9_2.conda",
+          "sha256": "58bbdb3ee8ab85fff94435bcf4a335fd5e7b61d4d84f15d9afc8b4207d522ea3"
+        },
+        {
+          "bytes": 397370,
+          "crc32": "08fc59eb",
+          "crc_verified": true,
+          "member": "packages/58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2",
+          "sha256": "58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b"
+        },
+        {
+          "bytes": 296288,
+          "crc32": "2e5f5161",
+          "crc_verified": true,
+          "member": "packages/5a3eb10b18a97223ab06b3a7f0d7f56658db2f2800e2f2af95836fe3bf55ba63/fontconfig-2.18.3-h4db4eae_1.conda",
+          "sha256": "5a3eb10b18a97223ab06b3a7f0d7f56658db2f2800e2f2af95836fe3bf55ba63"
+        },
+        {
+          "bytes": 911196,
+          "crc32": "2a357987",
+          "crc_verified": true,
+          "member": "packages/5d46557214ed184381dafe835b7c94a474a1c3b307a08a250b1ea4779b44ffb3/ncurses-6.6-hdb14827_1.conda",
+          "sha256": "5d46557214ed184381dafe835b7c94a474a1c3b307a08a250b1ea4779b44ffb3"
+        },
+        {
+          "bytes": 1343888,
+          "crc32": "a5f691eb",
+          "crc_verified": true,
+          "member": "packages/5d922e28df16fd410f535737fa0b329eac477ce81c617f7e38e683807c460ae6/r-fontawesome-0.5.3-r43hc72bb7e_0.conda",
+          "sha256": "5d922e28df16fd410f535737fa0b329eac477ce81c617f7e38e683807c460ae6"
+        },
+        {
+          "bytes": 1026937,
+          "crc32": "b204a955",
+          "crc_verified": true,
+          "member": "packages/5f0dfc59b9a1af78f0b4b5095e0bab94d6201ff2600151cb5ff5a85868ec9e64/r-knitr-1.50-r43hc72bb7e_0.conda",
+          "sha256": "5f0dfc59b9a1af78f0b4b5095e0bab94d6201ff2600151cb5ff5a85868ec9e64"
+        },
+        {
+          "bytes": 16111403,
+          "crc32": "8169a357",
+          "crc_verified": true,
+          "member": "packages/611734d6067084d12a4f5e2a3376ff1a47737d7e563d53677e7ee7d9e6472640/entrez-direct-26.0-h1079eea_0.conda",
+          "sha256": "611734d6067084d12a4f5e2a3376ff1a47737d7e563d53677e7ee7d9e6472640"
+        },
+        {
+          "bytes": 175239,
+          "crc32": "d0220b05",
+          "crc_verified": true,
+          "member": "packages/612a8e0c1a6ecae23da54d81ef395f6ebb5c8e4468ec2611593ebce75876a4e0/freetype-2.14.3-ha770c72_2.conda",
+          "sha256": "612a8e0c1a6ecae23da54d81ef395f6ebb5c8e4468ec2611593ebce75876a4e0"
+        },
+        {
+          "bytes": 626555,
+          "crc32": "898d861f",
+          "crc_verified": true,
+          "member": "packages/612d2104e30e466439993ee3bf4a3068f5ca81cb3fefa209cd8842ae7820a8ef/r-pillar-1.11.0-r43hc72bb7e_0.conda",
+          "sha256": "612d2104e30e466439993ee3bf4a3068f5ca81cb3fefa209cd8842ae7820a8ef"
+        },
+        {
+          "bytes": 553881,
+          "crc32": "b268bc70",
+          "crc_verified": true,
+          "member": "packages/6392381fbf8c8d412f2d6567a16ab48413321b9038326113202bfe5a2ae52004/r-tzdb-0.5.0-r43h3697838_1.conda",
+          "sha256": "6392381fbf8c8d412f2d6567a16ab48413321b9038326113202bfe5a2ae52004"
+        },
+        {
+          "bytes": 101319,
+          "crc32": "0860c81e",
+          "crc_verified": true,
+          "member": "packages/65f75bb0f1d5b6c6c06351acb27fe33db332c19c40105f6f053f067f039a32f6/gtotree-1.8.10-h9ee0642_0.tar.bz2",
+          "sha256": "65f75bb0f1d5b6c6c06351acb27fe33db332c19c40105f6f053f067f039a32f6"
+        },
+        {
+          "bytes": 746336,
+          "crc32": "b917a1dd",
+          "crc_verified": true,
+          "member": "packages/66a5a05e0e44fd7a57e24d77665d5d6672646a7b316575b2f679108966d9124e/wget-1.25.0-h653f8fd_1.conda",
+          "sha256": "66a5a05e0e44fd7a57e24d77665d5d6672646a7b316575b2f679108966d9124e"
+        },
+        {
+          "bytes": 591131,
+          "crc32": "a7412365",
+          "crc_verified": true,
+          "member": "packages/6715d36e6aaf00986876e67e97ae8e9b60afb2a7f52ab79b89543c37cd914e28/libarrow-dataset-25.0.0-h635bf11_4_cpu.conda",
+          "sha256": "6715d36e6aaf00986876e67e97ae8e9b60afb2a7f52ab79b89543c37cd914e28"
+        },
+        {
+          "bytes": 66022,
+          "crc32": "cbced864",
+          "crc_verified": true,
+          "member": "packages/6725335b326bd7a8cc1742927463410135e265a05502dd6250c37354cc1e3a7f/r-blob-1.2.4-r43hc72bb7e_2.conda",
+          "sha256": "6725335b326bd7a8cc1742927463410135e265a05502dd6250c37354cc1e3a7f"
+        },
+        {
+          "bytes": 31491,
+          "crc32": "bee72578",
+          "crc_verified": true,
+          "member": "packages/69010e28bc96b2cb30473e35c0950b1c035583340e8dfe5243e9f5e42915a741/r-askpass-1.2.1-r43h2b5f3a1_0.conda",
+          "sha256": "69010e28bc96b2cb30473e35c0950b1c035583340e8dfe5243e9f5e42915a741"
+        },
+        {
+          "bytes": 6845411,
+          "crc32": "e17cfc3c",
+          "crc_verified": true,
+          "member": "packages/69a722751e14eab2eb3bfdcb9acb1187afbd962b0c49b48d829341e0f6787f60/libopenblas-0.3.34-pthreads_hf13c14d_2.conda",
+          "sha256": "69a722751e14eab2eb3bfdcb9acb1187afbd962b0c49b48d829341e0f6787f60"
+        },
+        {
+          "bytes": 56251,
+          "crc32": "21cd50cb",
+          "crc_verified": true,
+          "member": "packages/69adb690db9d150672c3575b1d3f0e2bbd6bd1991116ae0fbbd46d6f98a341a5/r-memoise-2.0.1-r43hc72bb7e_3.conda",
+          "sha256": "69adb690db9d150672c3575b1d3f0e2bbd6bd1991116ae0fbbd46d6f98a341a5"
+        },
+        {
+          "bytes": 101904,
+          "crc32": "c548adb0",
+          "crc_verified": true,
+          "member": "packages/6cc8617854a43040291dea791fe111ba408e7a5bbd9ee9e5a99375da7a16846b/aws-checksums-0.2.10-h720e601_4.conda",
+          "sha256": "6cc8617854a43040291dea791fe111ba408e7a5bbd9ee9e5a99375da7a16846b"
+        },
+        {
+          "bytes": 72565,
+          "crc32": "c3fd9920",
+          "crc_verified": true,
+          "member": "packages/6cff350b30e8846ada6b85e814f688e8c281849316457b6f266f12d999ae87d8/r-fastmap-1.2.0-r43ha18555a_1.conda",
+          "sha256": "6cff350b30e8846ada6b85e814f688e8c281849316457b6f266f12d999ae87d8"
+        },
+        {
+          "bytes": 77893,
+          "crc32": "22c0e42e",
+          "crc_verified": true,
+          "member": "packages/6de73033a7c5f712c9c5a54124e4581e025691029835e5bceaf10a333a7e7bc0/libexpat-2.8.5-hd2095e1_0.conda",
+          "sha256": "6de73033a7c5f712c9c5a54124e4581e025691029835e5bceaf10a333a7e7bc0"
+        },
+        {
+          "bytes": 477681,
+          "crc32": "b094c922",
+          "crc_verified": true,
+          "member": "packages/6e279339818644c55654557c99cb4e8546fcce254b1a21a80a40eb848ec1399a/r-curl-7.0.0-r43h10955f1_0.conda",
+          "sha256": "6e279339818644c55654557c99cb4e8546fcce254b1a21a80a40eb848ec1399a"
+        },
+        {
+          "bytes": 443648,
+          "crc32": "2769f877",
+          "crc_verified": true,
+          "member": "packages/6ecce306b7ac4acf1184eb5b045e57e613e19e99c27d57f33eb255f8a9120a93/pango-1.50.14-ha41ecd1_2.conda",
+          "sha256": "6ecce306b7ac4acf1184eb5b045e57e613e19e99c27d57f33eb255f8a9120a93"
+        },
+        {
+          "bytes": 9744309,
+          "crc32": "c70a1266",
+          "crc_verified": true,
+          "member": "packages/6f6b3d60da46f53f1e1708a63d6ce5f119e6aba0f5243326b7ecaf3b0cdbc6d4/git-2.42.0-pl5321h86e50cf_0.conda",
+          "sha256": "6f6b3d60da46f53f1e1708a63d6ce5f119e6aba0f5243326b7ecaf3b0cdbc6d4"
+        },
+        {
+          "bytes": 246263,
+          "crc32": "ceb9d607",
+          "crc_verified": true,
+          "member": "packages/701398f1c9978c41e93cb0947869a66b7f8004e9d6e548d63d11aedae83cfb02/aws-c-common-0.14.2-hb03c661_0.conda",
+          "sha256": "701398f1c9978c41e93cb0947869a66b7f8004e9d6e548d63d11aedae83cfb02"
+        },
+        {
+          "bytes": 15732716,
+          "crc32": "614b99a0",
+          "crc_verified": true,
+          "member": "packages/71a886c5be261b9add22461fa14407cb6d54a180837b49af89cb1e9c13dd78f4/macsyfinder-2.1.4-pyhdfd78af_1.tar.bz2",
+          "sha256": "71a886c5be261b9add22461fa14407cb6d54a180837b49af89cb1e9c13dd78f4"
+        },
+        {
+          "bytes": 74990,
+          "crc32": "4ea32c55",
+          "crc_verified": true,
+          "member": "packages/720569a848f78fc52a37fba69848a41f2f202a4859f559f30d37bcf3a4be1f66/r-cachem-1.1.0-r43hb1dbf0f_1.conda",
+          "sha256": "720569a848f78fc52a37fba69848a41f2f202a4859f559f30d37bcf3a4be1f66"
+        },
+        {
+          "bytes": 27397,
+          "crc32": "43397c1a",
+          "crc_verified": true,
+          "member": "packages/7279908454f0c87b84ebc4aec6924f02f41a105d88420fb35dfaf5ecd976e0f5/re2-2025.11.05-h94463f1_2.conda",
+          "sha256": "7279908454f0c87b84ebc4aec6924f02f41a105d88420fb35dfaf5ecd976e0f5"
+        },
+        {
+          "bytes": 392607,
+          "crc32": "b72fa3dd",
+          "crc_verified": true,
+          "member": "packages/7369ac21f3561e2203f5b1600ef0671270057380783ca4b9e15f679ba25db575/s2n-1.7.5-h7e3ee7f_1.conda",
+          "sha256": "7369ac21f3561e2203f5b1600ef0671270057380783ca4b9e15f679ba25db575"
+        },
+        {
+          "bytes": 50143,
+          "crc32": "4b3ea17c",
+          "crc_verified": true,
+          "member": "packages/73e5cfbdff41ef8a844441f884412aa5a585a0f0632ec901da035a03e1fe1249/xorg-libxext-1.3.4-h0b41bf4_2.conda",
+          "sha256": "73e5cfbdff41ef8a844441f884412aa5a585a0f0632ec901da035a03e1fe1249"
+        },
+        {
+          "bytes": 513780,
+          "crc32": "55d88595",
+          "crc_verified": true,
+          "member": "packages/73f054b8e05122b2820d9b9fe269d3f1525ca49a155bee7719cfe7da508fbf07/r-googlesheets4-1.1.2-r43h785f33e_0.conda",
+          "sha256": "73f054b8e05122b2820d9b9fe269d3f1525ca49a155bee7719cfe7da508fbf07"
+        },
+        {
+          "bytes": 500255,
+          "crc32": "74d8454a",
+          "crc_verified": true,
+          "member": "packages/7478e785ad4b7aee72e685921d849b3fb11b0c477dfea76d9e861ee5056b35a6/libarrow-substrait-25.0.0-h66fbfdd_4_cpu.conda",
+          "sha256": "7478e785ad4b7aee72e685921d849b3fb11b0c477dfea76d9e861ee5056b35a6"
+        },
+        {
+          "bytes": 86435,
+          "crc32": "110361c0",
+          "crc_verified": true,
+          "member": "packages/74a0d1924f1c697ee32ba5f4c0f71fd79cca378bd00155168db745d4d50304a2/r-generics-0.1.4-r43hc72bb7e_0.conda",
+          "sha256": "74a0d1924f1c697ee32ba5f4c0f71fd79cca378bd00155168db745d4d50304a2"
+        },
+        {
+          "bytes": 166200,
+          "crc32": "3d20b5bf",
+          "crc_verified": true,
+          "member": "packages/77764ea98025668e324e334e1095fa7454f6157c0fbb80987749110931f88ad3/r-crayon-1.5.3-r43hc72bb7e_1.conda",
+          "sha256": "77764ea98025668e324e334e1095fa7454f6157c0fbb80987749110931f88ad3"
+        },
+        {
+          "bytes": 209001,
+          "crc32": "7888cee1",
+          "crc_verified": true,
+          "member": "packages/7812c24da1b48c408bcfac9c7b0ea76fec952e8948b4fc28c4579822e8712b60/r-magrittr-2.0.3-r43hb1dbf0f_3.conda",
+          "sha256": "7812c24da1b48c408bcfac9c7b0ea76fec952e8948b4fc28c4579822e8712b60"
+        },
+        {
+          "bytes": 1357576,
+          "crc32": "eedb624c",
+          "crc_verified": true,
+          "member": "packages/79cd66c7cd01ac6862ae977595707c87419e80473c55348a2a5f2b8348f90aea/r-lattice-0.22_7-r43h2b5f3a1_0.conda",
+          "sha256": "79cd66c7cd01ac6862ae977595707c87419e80473c55348a2a5f2b8348f90aea"
+        },
+        {
+          "bytes": 2412495,
+          "crc32": "3f706682",
+          "crc_verified": true,
+          "member": "packages/7a29ec847556eed4faa1646010baae371ced69059a4ade43851367a076d6108a/pcre2-10.40-hc3806b6_0.tar.bz2",
+          "sha256": "7a29ec847556eed4faa1646010baae371ced69059a4ade43851367a076d6108a"
+        },
+        {
+          "bytes": 1404906,
+          "crc32": "dc0b728a",
+          "crc_verified": true,
+          "member": "packages/7b0d0477b5d35f1a0fa552d82566ede4e2a0256685b6f8fb8b1ed6bce1365452/r-dplyr-1.1.4-r43h0d4f4ea_1.conda",
+          "sha256": "7b0d0477b5d35f1a0fa552d82566ede4e2a0256685b6f8fb8b1ed6bce1365452"
+        },
+        {
+          "bytes": 1436888,
+          "crc32": "db4c1479",
+          "crc_verified": true,
+          "member": "packages/7bb3d495411b7059e85225aae500d84e7846a4bb02ebd77e4450200b20c180f0/libabseil-20260526.0-cxx17_h0dc7533_2.conda",
+          "sha256": "7bb3d495411b7059e85225aae500d84e7846a4bb02ebd77e4450200b20c180f0"
+        },
+        {
+          "bytes": 478914,
+          "crc32": "c2c6906c",
+          "crc_verified": true,
+          "member": "packages/7d243f45a48f62cb8e3b871dd336137fe0fb90094a191756fb553508837f6338/libcurl-8.21.0-hcf29cc6_1.conda",
+          "sha256": "7d243f45a48f62cb8e3b871dd336137fe0fb90094a191756fb553508837f6338"
+        },
+        {
+          "bytes": 94053,
+          "crc32": "386fcf45",
+          "crc_verified": true,
+          "member": "packages/7da19f2c4302ab73d947604c90c6578d97bb8da769b28d2a493a3900c8cadd9c/r-r6-2.6.1-r43hc72bb7e_0.conda",
+          "sha256": "7da19f2c4302ab73d947604c90c6578d97bb8da769b28d2a493a3900c8cadd9c"
+        },
+        {
+          "bytes": 306045,
+          "crc32": "651dcae2",
+          "crc_verified": true,
+          "member": "packages/7e463000fa1cba3f3a6597b776f6ab301d425a96e3bc20d0d9d76a3b9f237aa3/libssh2-1.11.1-h6154650_1.conda",
+          "sha256": "7e463000fa1cba3f3a6597b776f6ab301d425a96e3bc20d0d9d76a3b9f237aa3"
+        },
+        {
+          "bytes": 124254,
+          "crc32": "2b122fcf",
+          "crc_verified": true,
+          "member": "packages/7f0a85e34c384216448b468ac3af2b3b02b609b488f2ba079ca8443db83c2b22/gzip-1.14-hb9d3cd8_0.conda",
+          "sha256": "7f0a85e34c384216448b468ac3af2b3b02b609b488f2ba079ca8443db83c2b22"
+        },
+        {
+          "bytes": 102835,
+          "crc32": "7884e1c5",
+          "crc_verified": true,
+          "member": "packages/7fa3b6a9c081fa3e545573152a788d061a0a0ba57df7251cc0f4f75225fc93e7/graphite2-1.3.15-h54a6638_1.conda",
+          "sha256": "7fa3b6a9c081fa3e545573152a788d061a0a0ba57df7251cc0f4f75225fc93e7"
+        },
+        {
+          "bytes": 25054,
+          "crc32": "8e03313e",
+          "crc_verified": true,
+          "member": "packages/80a8d0bfa6da5e97b68665cf20faa3f8a60da5a1aa2d499e34d4982a89c303ad/r-rematch-2.0.0-r43hc72bb7e_1.conda",
+          "sha256": "80a8d0bfa6da5e97b68665cf20faa3f8a60da5a1aa2d499e34d4982a89c303ad"
+        },
+        {
+          "bytes": 376704,
+          "crc32": "0092a1ac",
+          "crc_verified": true,
+          "member": "packages/829d8288764282de5a9f7b9169acb75cc7dc0b6c3fe2535cfe87dea3436bbc5d/pixman-0.46.4-h54a6638_3.conda",
+          "sha256": "829d8288764282de5a9f7b9169acb75cc7dc0b6c3fe2535cfe87dea3436bbc5d"
+        },
+        {
+          "bytes": 73710,
+          "crc32": "ad056fd0",
+          "crc_verified": true,
+          "member": "packages/82e134c8a08b1eed9a2ed8ab578b89aa1730dcde3dea8dd87645ed0637878e54/libdeflate-1.25-hd45a770_1.conda",
+          "sha256": "82e134c8a08b1eed9a2ed8ab578b89aa1730dcde3dea8dd87645ed0637878e54"
+        },
+        {
+          "bytes": 1425534,
+          "crc32": "0f776d6b",
+          "crc_verified": true,
+          "member": "packages/82e8f627e1b0d86f91f04b6b60611fb864128a4ff81903d38810e49512372f1f/r-farver-2.1.2-r43ha18555a_1.conda",
+          "sha256": "82e8f627e1b0d86f91f04b6b60611fb864128a4ff81903d38810e49512372f1f"
+        },
+        {
+          "bytes": 68464,
+          "crc32": "819e0ae1",
+          "crc_verified": true,
+          "member": "packages/830a208355b612b1e548ff0be5df46b1ad2b41c9303cafb9bb99047b4727b0fd/r-rcolorbrewer-1.1_3-r43h785f33e_3.conda",
+          "sha256": "830a208355b612b1e548ff0be5df46b1ad2b41c9303cafb9bb99047b4727b0fd"
+        },
+        {
+          "bytes": 428430,
+          "crc32": "4b7eb513",
+          "crc_verified": true,
+          "member": "packages/8415001414f488c85b72b9d8cc2071dfb3981a47bc3c8eb56ef91a57d12eae7f/libwebp-base-1.6.0-hd42ef1d_1.conda",
+          "sha256": "8415001414f488c85b72b9d8cc2071dfb3981a47bc3c8eb56ef91a57d12eae7f"
+        },
+        {
+          "bytes": 135073,
+          "crc32": "073b3034",
+          "crc_verified": true,
+          "member": "packages/845fe32ee750d4a4d3efdb1d95a8c29c3388e3ea9787b77341ec4abe4e198b11/aws-c-auth-0.10.4-hb7a77c6_1.conda",
+          "sha256": "845fe32ee750d4a4d3efdb1d95a8c29c3388e3ea9787b77341ec4abe4e198b11"
+        },
+        {
+          "bytes": 30242,
+          "crc32": "e468f8ec",
+          "crc_verified": true,
+          "member": "packages/849555ddf7fee334a5a6be9f159d2931c9d076ffb310a9e75b9124f789049d3e/xorg-kbproto-1.0.7-hb9d3cd8_1003.conda",
+          "sha256": "849555ddf7fee334a5a6be9f159d2931c9d076ffb310a9e75b9124f789049d3e"
+        },
+        {
+          "bytes": 15318970,
+          "crc32": "75109786",
+          "crc_verified": true,
+          "member": "packages/85459025d8f749316df29ab837729155d8c54c48af2953ff6226107a7e4c1c9f/pandas-3.0.6-np2py311h1e9b377_0.conda",
+          "sha256": "85459025d8f749316df29ab837729155d8c54c48af2953ff6226107a7e4c1c9f"
+        },
+        {
+          "bytes": 45695,
+          "crc32": "578f8903",
+          "crc_verified": true,
+          "member": "packages/8635d10c7f127808b09c0c8e77b21a255829e0934e49326548c949f7e0551f09/snappy-1.2.2-h34e00bb_2.conda",
+          "sha256": "8635d10c7f127808b09c0c8e77b21a255829e0934e49326548c949f7e0551f09"
+        },
+        {
+          "bytes": 3416525,
+          "crc32": "c8b0450b",
+          "crc_verified": true,
+          "member": "packages/86ac34cfeacf42b889fa09af828d04725fe0e11365af28e05a463506851d8c11/r-mgcv-1.9_3-r43h2ae2be5_0.conda",
+          "sha256": "86ac34cfeacf42b889fa09af828d04725fe0e11365af28e05a463506851d8c11"
+        },
+        {
+          "bytes": 105091,
+          "crc32": "63e24411",
+          "crc_verified": true,
+          "member": "packages/86b3798a86f77d60681caf7508dba04264380a98d483cf020e64ead91c843f1f/r-textshaping-0.3.7-r43hd87b9d6_0.conda",
+          "sha256": "86b3798a86f77d60681caf7508dba04264380a98d483cf020e64ead91c843f1f"
+        },
+        {
+          "bytes": 424675,
+          "crc32": "c4c366c6",
+          "crc_verified": true,
+          "member": "packages/87016b8e13fffe389e06f31ee33d3eacdd3b0865bf71daad7472843e2e20b0c2/r-selectr-0.4_2-r43hc72bb7e_4.conda",
+          "sha256": "87016b8e13fffe389e06f31ee33d3eacdd3b0865bf71daad7472843e2e20b0c2"
+        },
+        {
+          "bytes": 346428,
+          "crc32": "ac84fa20",
+          "crc_verified": true,
+          "member": "packages/87d885d36d2c28e91ed80c6e6319d3c129a66449b6dad923b12a82d31a0f8043/r-xml2-1.3.6-r43h8194278_2.conda",
+          "sha256": "87d885d36d2c28e91ed80c6e6319d3c129a66449b6dad923b12a82d31a0f8043"
+        },
+        {
+          "bytes": 590543,
+          "crc32": "975caead",
+          "crc_verified": true,
+          "member": "packages/886631b6e32f62e04cc314462c0fbbf9d461cfb6625d2384ae0f36b5a8a72890/libarrow-acero-25.0.0-h635bf11_4_cpu.conda",
+          "sha256": "886631b6e32f62e04cc314462c0fbbf9d461cfb6625d2384ae0f36b5a8a72890"
+        },
+        {
+          "bytes": 290697,
+          "crc32": "9c57ff8b",
+          "crc_verified": true,
+          "member": "packages/89f4dddad884155d8e163df0682ae750308f1cee75df4f900d4478c68cfbc61a/grep-3.11-h3cbd922_0.conda",
+          "sha256": "89f4dddad884155d8e163df0682ae750308f1cee75df4f900d4478c68cfbc61a"
+        },
+        {
+          "bytes": 22606,
+          "crc32": "0c49c402",
+          "crc_verified": true,
+          "member": "packages/8a095df9bc1d2e50f2504ce8858a047ae29ea634aad6cc0b43298c63361da6d9/xorg-libxdmcp-1.1.5-h7cc23a3_2.conda",
+          "sha256": "8a095df9bc1d2e50f2504ce8858a047ae29ea634aad6cc0b43298c63361da6d9"
+        },
+        {
+          "bytes": 159394,
+          "crc32": "34416888",
+          "crc_verified": true,
+          "member": "packages/8a806f9852d280926d7613df548889b49e2a1c5d836385bcb2cedb24e7b08c64/azure-storage-common-cpp-12.14.0-hf596fc9_1.conda",
+          "sha256": "8a806f9852d280926d7613df548889b49e2a1c5d836385bcb2cedb24e7b08c64"
+        },
+        {
+          "bytes": 590109,
+          "crc32": "c7aa911d",
+          "crc_verified": true,
+          "member": "packages/8b6ff20ba73479b0406b25ecc2a741075c616abf8bcdfbee58ff19503d441ccd/r-ragg-1.5.0-r43h9f1dc4d_0.conda",
+          "sha256": "8b6ff20ba73479b0406b25ecc2a741075c616abf8bcdfbee58ff19503d441ccd"
+        },
+        {
+          "bytes": 194790,
+          "crc32": "eed17c4c",
+          "crc_verified": true,
+          "member": "packages/8b9606dc896bd9262d09ab2ef1cb55c4ee43f352473209b58b37a9289dd7b00c/gdbm-1.18-h0a1914f_2.tar.bz2",
+          "sha256": "8b9606dc896bd9262d09ab2ef1cb55c4ee43f352473209b58b37a9289dd7b00c"
+        },
+        {
+          "bytes": 397497,
+          "crc32": "f57c3c4a",
+          "crc_verified": true,
+          "member": "packages/8c5704e907d45becfc39b1b2db30d405f337a43bb5de835e2945bbfb968fc3a2/r-ps-1.9.1-r43h2b5f3a1_0.conda",
+          "sha256": "8c5704e907d45becfc39b1b2db30d405f337a43bb5de835e2945bbfb968fc3a2"
+        },
+        {
+          "bytes": 26056,
+          "crc32": "8f39d20e",
+          "crc_verified": true,
+          "member": "packages/8ddc6e100fa786a9da5905ceb7cf4c685117e482881f1d84a25598b7d94cc2f6/pyarrow-25.0.0-py311h38be061_0.conda",
+          "sha256": "8ddc6e100fa786a9da5905ceb7cf4c685117e482881f1d84a25598b7d94cc2f6"
+        },
+        {
+          "bytes": 22301,
+          "crc32": "fd6eb2ea",
+          "crc_verified": true,
+          "member": "packages/8e0a5513cfc42df8bd16adbd8e83a37d3ca89b8e04cb20eb04eb177bbbfea365/aws-c-compression-0.3.2-h720e601_4.conda",
+          "sha256": "8e0a5513cfc42df8bd16adbd8e83a37d3ca89b8e04cb20eb04eb177bbbfea365"
+        },
+        {
+          "bytes": 9389525,
+          "crc32": "ff931954",
+          "crc_verified": true,
+          "member": "packages/8e8fb64c1a51282e8940d57d116aec54a4d66da59594973ae9c0b35d419b9a81/numpy-2.4.6-py311h2e04523_0.conda",
+          "sha256": "8e8fb64c1a51282e8940d57d116aec54a4d66da59594973ae9c0b35d419b9a81"
+        },
+        {
+          "bytes": 7301660,
+          "crc32": "fe5b8f31",
+          "crc_verified": true,
+          "member": "packages/8ea3a9f54bc27f95a11bb41bc0fbd94b3e000befa90780b51fbd2834f83ed185/libgrpc-1.82.1-h284dbb2_1.conda",
+          "sha256": "8ea3a9f54bc27f95a11bb41bc0fbd94b3e000befa90780b51fbd2834f83ed185"
+        },
+        {
+          "bytes": 194657,
+          "crc32": "b42ff11b",
+          "crc_verified": true,
+          "member": "packages/8eb4ebeae7230110569da734e2420aee84f6977850bae4af94dc7f0b382f9d89/curl-8.21.0-hcf29cc6_1.conda",
+          "sha256": "8eb4ebeae7230110569da734e2420aee84f6977850bae4af94dc7f0b382f9d89"
+        },
+        {
+          "bytes": 136372,
+          "crc32": "4503e585",
+          "crc_verified": true,
+          "member": "packages/8f8b554c74b032b3e63a8828fb0ecc7ae4f5c5a6bd0afcf75423d5ff79290cb0/nlohmann_json-3.12.0-h54a6638_2.conda",
+          "sha256": "8f8b554c74b032b3e63a8828fb0ecc7ae4f5c5a6bd0afcf75423d5ff79290cb0"
+        },
+        {
+          "bytes": 948783,
+          "crc32": "6211f74d",
+          "crc_verified": true,
+          "member": "packages/8f9281133322e9eb0bd4a5b11330db1c14f3b40c409639dd3805251151ca52e2/libopentelemetry-cpp-1.27.0-h3133023_1.conda",
+          "sha256": "8f9281133322e9eb0bd4a5b11330db1c14f3b40c409639dd3805251151ca52e2"
+        },
+        {
+          "bytes": 5481877,
+          "crc32": "1f9ec253",
+          "crc_verified": true,
+          "member": "packages/902247e1d1f74de9af4420f044c404a8acdbd98809688123d76926e94878db9a/pyarrow-core-25.0.0-py311h66caee6_0_cpu.conda",
+          "sha256": "902247e1d1f74de9af4420f044c404a8acdbd98809688123d76926e94878db9a"
+        },
+        {
+          "bytes": 2281954,
+          "crc32": "0da2e0c2",
+          "crc_verified": true,
+          "member": "packages/9270473f8eade0f2936cff56ef1967dde673074171d9c17715246eee679499a3/r-data.table-1.17.8-r43h1c8cec4_0.conda",
+          "sha256": "9270473f8eade0f2936cff56ef1967dde673074171d9c17715246eee679499a3"
+        },
+        {
+          "bytes": 33731,
+          "crc32": "6b745ff9",
+          "crc_verified": true,
+          "member": "packages/927fe72b054277cde6cb82597d0fcf6baf127dcbce2e0a9d8925a68f1265eef5/libnsl-2.0.1-hb9d3cd8_1.conda",
+          "sha256": "927fe72b054277cde6cb82597d0fcf6baf127dcbce2e0a9d8925a68f1265eef5"
+        },
+        {
+          "bytes": 640566,
+          "crc32": "47cbda06",
+          "crc_verified": true,
+          "member": "packages/92a0bb350c7be6a4eedcb4e111c60aefd176018e6b1c009a6e025dbe9bbcd758/libgomp-16.2.0-he0feb66_7.conda",
+          "sha256": "92a0bb350c7be6a4eedcb4e111c60aefd176018e6b1c009a6e025dbe9bbcd758"
+        },
+        {
+          "bytes": 183100,
+          "crc32": "563e8c8b",
+          "crc_verified": true,
+          "member": "packages/94c32ca672ce290e250aea1cfb92582cca4658bdc3ec7cb1ceef254f34451595/aws-c-io-0.27.3-h6f4d18d_1.conda",
+          "sha256": "94c32ca672ce290e250aea1cfb92582cca4658bdc3ec7cb1ceef254f34451595"
+        },
+        {
+          "bytes": 226514,
+          "crc32": "44c9ed41",
+          "crc_verified": true,
+          "member": "packages/954abe7ea7ac7b07d9c3dec4bba49eb05af2edbba189734f6c17b41cd963286f/r-gtable-0.3.6-r43hc72bb7e_0.conda",
+          "sha256": "954abe7ea7ac7b07d9c3dec4bba49eb05af2edbba189734f6c17b41cd963286f"
+        },
+        {
+          "bytes": 28571,
+          "crc32": "320069cc",
+          "crc_verified": true,
+          "member": "packages/9682ae4dd11487e10b904b3cb3ab6379cad25233d45fdfdf90d54349df244494/libgfortran-16.2.0-h69a702a_7.conda",
+          "sha256": "9682ae4dd11487e10b904b3cb3ab6379cad25233d45fdfdf90d54349df244494"
+        },
+        {
+          "bytes": 112995,
+          "crc32": "05bacfde",
+          "crc_verified": true,
+          "member": "packages/9787df8c22a59c9a70d3e5a10db9ad663485e75e9ccc3f09bd092cb7b95e0dab/liblzma-5.8.3-hb03c661_1.conda",
+          "sha256": "9787df8c22a59c9a70d3e5a10db9ad663485e75e9ccc3f09bd092cb7b95e0dab"
+        },
+        {
+          "bytes": 15689443,
+          "crc32": "cb4687f4",
+          "crc_verified": true,
+          "member": "packages/98cd49bfc4b803d950f9dbc4799793903aec1eaacd388c244a0b46d644159831/pandas-2.2.3-py311h7db5c69_3.conda",
+          "sha256": "98cd49bfc4b803d950f9dbc4799793903aec1eaacd388c244a0b46d644159831"
+        },
+        {
+          "bytes": 569196,
+          "crc32": "4b3429ba",
+          "crc_verified": true,
+          "member": "packages/9a1685c8d8b8488cd7882a9cd6e673e687211ca763ebbcd1e91b6f594eeadc45/libxml2-16-2.15.4-hf3af7cc_0.conda",
+          "sha256": "9a1685c8d8b8488cd7882a9cd6e673e687211ca763ebbcd1e91b6f594eeadc45"
+        },
+        {
+          "bytes": 112341,
+          "crc32": "c84ad6a6",
+          "crc_verified": true,
+          "member": "packages/9afb0c2c089330321a219c7ee5a25313bd574d4024be606cbb33e7a5735df662/click-8.5.0-pyh5ded981_0.conda",
+          "sha256": "9afb0c2c089330321a219c7ee5a25313bd574d4024be606cbb33e7a5735df662"
+        },
+        {
+          "bytes": 3195299,
+          "crc32": "82f06f46",
+          "crc_verified": true,
+          "member": "packages/9c1533f1cf784f0e250919c0c9762d0b0e6bc727a79290ffb7cea1ceca1d038c/openssl-3.6.5-h781a0a9_0.conda",
+          "sha256": "9c1533f1cf784f0e250919c0c9762d0b0e6bc727a79290ffb7cea1ceca1d038c"
+        },
+        {
+          "bytes": 228700,
+          "crc32": "40d863d1",
+          "crc_verified": true,
+          "member": "packages/9c37cc233238adf366ea75b0e845662a5be07ceadf62e458183516369340274b/c-ares-1.34.8-hebe6cf0_2.conda",
+          "sha256": "9c37cc233238adf366ea75b0e845662a5be07ceadf62e458183516369340274b"
+        },
+        {
+          "bytes": 12984044,
+          "crc32": "d8d6632c",
+          "crc_verified": true,
+          "member": "packages/9c40914caa97e850931706913e5e1d40e7ef19ec37250cf3fc97c8e79a5f3d03/ruby-3.4.2-he7af4c9_0.conda",
+          "sha256": "9c40914caa97e850931706913e5e1d40e7ef19ec37250cf3fc97c8e79a5f3d03"
+        },
+        {
+          "bytes": 109828,
+          "crc32": "aa207264",
+          "crc_verified": true,
+          "member": "packages/9c5529b99b49343febf00a51c02b38bb18e64d5049f9b59aa6e94e85588cef58/r-evaluate-1.0.5-r43hc72bb7e_0.conda",
+          "sha256": "9c5529b99b49343febf00a51c02b38bb18e64d5049f9b59aa6e94e85588cef58"
+        },
+        {
+          "bytes": 151824,
+          "crc32": "ec128cc5",
+          "crc_verified": true,
+          "member": "packages/9d1061d8aeffac7bcb4f8a0b927daf7fe0df9f7239b062f6ee0db06973b55593/r-tinytex-0.57-r43hc72bb7e_0.conda",
+          "sha256": "9d1061d8aeffac7bcb4f8a0b927daf7fe0df9f7239b062f6ee0db06973b55593"
+        },
+        {
+          "bytes": 524488,
+          "crc32": "628fddc3",
+          "crc_verified": true,
+          "member": "packages/9e200ee5f9ff19a4d94e4b51c4856d53dec849f91032f345cf0c6bc3d51a7183/setuptools-84.0.0-pyh332efcf_0.conda",
+          "sha256": "9e200ee5f9ff19a4d94e4b51c4856d53dec849f91032f345cf0c6bc3d51a7183"
+        },
+        {
+          "bytes": 1218833,
+          "crc32": "7d506f87",
+          "crc_verified": true,
+          "member": "packages/9ebb10a4eb3be51ae67d85c679f5a7a50cb040ed25c783e6331a225ea09991d4/pcre2-10.47-h8b3dc9c_1.conda",
+          "sha256": "9ebb10a4eb3be51ae67d85c679f5a7a50cb040ed25c783e6331a225ea09991d4"
+        },
+        {
+          "bytes": 22984634,
+          "crc32": "8a1f5ffb",
+          "crc_verified": true,
+          "member": "packages/9ec6bb8e28618be34febca56bc54e55957eb094bb7f0ec4fb57dbac42b1526f0/pandoc-3.12-ha770c72_0.conda",
+          "sha256": "9ec6bb8e28618be34febca56bc54e55957eb094bb7f0ec4fb57dbac42b1526f0"
+        }
+      ],
+      "name": "master_public_conda_packages01-001.zip",
+      "package_bytes": 447265001,
+      "package_files": 204,
+      "sha256": "18e60eea6e797fa92047beebc78ff19171eb4298ab0d21f3c997e33147e4d3a6",
+      "sidecar_bytes": 105,
+      "sidecar_line_ending": "LF",
+      "sidecar_name": "master_public_conda_packages01-001.zip.sha256",
+      "sidecar_sha256": "edcb298e5dc1e4e191bbba6924c68211044d699a1f7ee7567276a30e11aef1fe"
+    },
+    {
+      "bytes": 214192437,
+      "members": [
+        {
+          "bytes": 24790,
+          "crc32": "e6973a76",
+          "crc_verified": true,
+          "member": "SHA256SUMS.txt",
+          "sha256": "efdaf748f9ca5c61daefb20bdc57fe83c35fd6213da09777a9af022b038240fb"
+        },
+        {
+          "bytes": 846,
+          "crc32": "f47bd9cd",
+          "crc_verified": true,
+          "member": "control/ATTRIBUTION_AND_RESTORE.txt",
+          "sha256": "e49032947e47ef5d95d357691a3836c51bf785e9d0f154c743094b0c99de248c"
+        },
+        {
+          "bytes": 18038,
+          "crc32": "2686ff0d",
+          "crc_verified": true,
+          "member": "control/acquire_public_conda_packages01.py",
+          "sha256": "e94e2d59e6d4b91353916db7bdf8485ecff0eba181f644e534a7e742e1e5bffc"
+        },
+        {
+          "bytes": 2717,
+          "crc32": "4a5a7165",
+          "crc_verified": true,
+          "member": "control/acquisition_receipt.json",
+          "sha256": "6807810fad659bd47af053464af0dd899c22bbce8808288d15585aae6c6b14cf"
+        },
+        {
+          "bytes": 17531,
+          "crc32": "ec40e168",
+          "crc_verified": true,
+          "member": "control/continue_public_conda_packages01.py",
+          "sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460"
+        },
+        {
+          "bytes": 206293,
+          "crc32": "3158987a",
+          "crc_verified": true,
+          "member": "control/detector_package_manifest.json",
+          "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382"
+        },
+        {
+          "bytes": 257356,
+          "crc32": "eb1e0c6a",
+          "crc_verified": true,
+          "member": "control/downloaded_packages.jsonl",
+          "sha256": "07a819ee3d4871abd40cce03f969cf44ffc98884f696d7bac2f2cc80ecfc992b"
+        },
+        {
+          "bytes": 116540,
+          "crc32": "6808565b",
+          "crc_verified": true,
+          "member": "control/host_package_manifest.json",
+          "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48"
+        },
+        {
+          "bytes": 628,
+          "crc32": "c1ca4bfa",
+          "crc_verified": true,
+          "member": "control/original_download_errors.jsonl",
+          "sha256": "64d2db6b72df0a73152df596b21b4b9548be1b0a62297ce0662012d574c760aa"
+        },
+        {
+          "bytes": 1557,
+          "crc32": "b8662f0e",
+          "crc_verified": true,
+          "member": "control/original_resource_stop_receipt.json",
+          "sha256": "001442792f652547bf79a85f8dee7ab0b5e3fddefdcbf5de47882b2b97b85c4b"
+        },
+        {
+          "bytes": 578292,
+          "crc32": "7edbd17b",
+          "crc_verified": true,
+          "member": "control/package_index.json",
+          "sha256": "f016dc25c7c4fc7aa167ed22eeb4cd434f71d6d6b9cab50c0e47ff5bbb4a6233"
+        },
+        {
+          "bytes": 74643,
+          "crc32": "fc1e2c9e",
+          "crc_verified": true,
+          "member": "control/recovery_plan.json",
+          "sha256": "ab4f2d6cb9a39815397e7281c636527139ce4fd1bc43c2adccd16835420b1862"
+        },
+        {
+          "bytes": 14459115,
+          "crc32": "bd23ce7b",
+          "crc_verified": true,
+          "member": "packages/9f07834f0c546ab14d885ce0366285f61f44e326c0edd1fc63b8294e113ae432/icu-78.3-py310h44b86e0_2.conda",
+          "sha256": "9f07834f0c546ab14d885ce0366285f61f44e326c0edd1fc63b8294e113ae432"
+        },
+        {
+          "bytes": 3566806,
+          "crc32": "4a55748c",
+          "crc_verified": true,
+          "member": "packages/a1a241d172c1ccab067ba245206dd048bc3c2d1b84504b53c9468e99adfc16a1/tk-8.6.13-noxft_h1df4ec4_4.conda",
+          "sha256": "a1a241d172c1ccab067ba245206dd048bc3c2d1b84504b53c9468e99adfc16a1"
+        },
+        {
+          "bytes": 231178,
+          "crc32": "616eb835",
+          "crc_verified": true,
+          "member": "packages/a23c7736286776328ba71f2922c533c59e09b8f11516aed13d1b6b282f14f57a/r-withr-3.0.2-r43hc72bb7e_0.conda",
+          "sha256": "a23c7736286776328ba71f2922c533c59e09b8f11516aed13d1b6b282f14f57a"
+        },
+        {
+          "bytes": 3922222,
+          "crc32": "26828291",
+          "crc_verified": true,
+          "member": "packages/a3d9fc01743db20f98a85c026652dc54bb5086819f0fd0801cf3a13345026b2d/r-matrix-1.6_5-r43he966344_1.conda",
+          "sha256": "a3d9fc01743db20f98a85c026652dc54bb5086819f0fd0801cf3a13345026b2d"
+        },
+        {
+          "bytes": 156174,
+          "crc32": "f6977726",
+          "crc_verified": true,
+          "member": "packages/a423bffbb0e6cacb5e2a0861b918ba3180e5132509afb1faf225ee9f0ec8f981/aws-c-s3-0.12.8-h46fcd08_1.conda",
+          "sha256": "a423bffbb0e6cacb5e2a0861b918ba3180e5132509afb1faf225ee9f0ec8f981"
+        },
+        {
+          "bytes": 115982,
+          "crc32": "c520adb4",
+          "crc_verified": true,
+          "member": "packages/a5a61ffedaaf69da7eee9e2f618f410c69b49fadb2fa98c5d216dc485de2f7b2/r-yaml-2.3.7-r43h57805ef_1.conda",
+          "sha256": "a5a61ffedaaf69da7eee9e2f618f410c69b49fadb2fa98c5d216dc485de2f7b2"
+        },
+        {
+          "bytes": 384238,
+          "crc32": "78f3889e",
+          "crc_verified": true,
+          "member": "packages/a670902f0a3173a466c058d2ac22ca1dd0df0453d3a80e0212815c20a16b0485/libxcb-1.15-h0b41bf4_0.conda",
+          "sha256": "a670902f0a3173a466c058d2ac22ca1dd0df0453d3a80e0212815c20a16b0485"
+        },
+        {
+          "bytes": 56752,
+          "crc32": "b7889894",
+          "crc_verified": true,
+          "member": "packages/a67c944be1728f576c02fe8f28b0cbb78b5353415075db3da4ef71bc9dd8c00c/aws-c-cal-0.9.14-h2aa3ae6_4.conda",
+          "sha256": "a67c944be1728f576c02fe8f28b0cbb78b5353415075db3da4ef71bc9dd8c00c"
+        },
+        {
+          "bytes": 425309,
+          "crc32": "9bbf3d45",
+          "crc_verified": true,
+          "member": "packages/a7511102a3c77b93f76dba2835fc667650b47f87787a3b55d02cf2614c94563f/r-tidyverse-2.0.0-r43h785f33e_2.conda",
+          "sha256": "a7511102a3c77b93f76dba2835fc667650b47f87787a3b55d02cf2614c94563f"
+        },
+        {
+          "bytes": 195623,
+          "crc32": "4d637389",
+          "crc_verified": true,
+          "member": "packages/a8114acfa58fe3c3f7d7c5cc5212db82d013aa1037ecf6fd28a76ed51d0e5841/prometheus-cpp-1.3.0-h26ae035_1.conda",
+          "sha256": "a8114acfa58fe3c3f7d7c5cc5212db82d013aa1037ecf6fd28a76ed51d0e5841"
+        },
+        {
+          "bytes": 3285204,
+          "crc32": "698e9d71",
+          "crc_verified": true,
+          "member": "packages/a84ff687119e6d8752346d1d408d5cf360dee0badd487a472aa8ddedfdc219e1/tk-8.6.13-noxft_hd72426e_102.conda",
+          "sha256": "a84ff687119e6d8752346d1d408d5cf360dee0badd487a472aa8ddedfdc219e1"
+        },
+        {
+          "bytes": 3667,
+          "crc32": "6373b562",
+          "crc_verified": true,
+          "member": "packages/a997f2f1921bb9c9d76e6fa2f6b408b7fa549edd349a77639c9fe7a23ea93e61/fonts-conda-ecosystem-1-0.tar.bz2",
+          "sha256": "a997f2f1921bb9c9d76e6fa2f6b408b7fa549edd349a77639c9fe7a23ea93e61"
+        },
+        {
+          "bytes": 27011,
+          "crc32": "2690bfea",
+          "crc_verified": true,
+          "member": "packages/ab29d57dc70786c1269633ba3dff20288b81664d3ff8d21af995742e2bb03287/colorama-0.4.6-pyhd8ed1ab_1.conda",
+          "sha256": "ab29d57dc70786c1269633ba3dff20288b81664d3ff8d21af995742e2bb03287"
+        },
+        {
+          "bytes": 1525219,
+          "crc32": "fc25e3b6",
+          "crc_verified": true,
+          "member": "packages/abffd4a1a86b16a3ef3fa56f9eb8a94502f353092e91332fe533a7e14eafbc19/r-rlang-1.1.6-r43h93ab643_0.conda",
+          "sha256": "abffd4a1a86b16a3ef3fa56f9eb8a94502f353092e91332fe533a7e14eafbc19"
+        },
+        {
+          "bytes": 2974934,
+          "crc32": "61368f3c",
+          "crc_verified": true,
+          "member": "packages/ad642502977edceeb4ca385e42f085fb4391c409d8d098866bc4a5e3fda7a04a/libarrow-compute-25.0.0-h53684a4_4_cpu.conda",
+          "sha256": "ad642502977edceeb4ca385e42f085fb4391c409d8d098866bc4a5e3fda7a04a"
+        },
+        {
+          "bytes": 491970,
+          "crc32": "787208c8",
+          "crc_verified": true,
+          "member": "packages/adef6e8b60afb684110b06b5310977c6836e1c923ce3ec199f45c0f000b42f20/liblzma-devel-5.8.3-hb03c661_1.conda",
+          "sha256": "adef6e8b60afb684110b06b5310977c6836e1c923ce3ec199f45c0f000b42f20"
+        },
+        {
+          "bytes": 1458252,
+          "crc32": "b19bc9d1",
+          "crc_verified": true,
+          "member": "packages/ae96bc0895a2279f2ea296879e0475333e838cc88754b0c1a4903dd92a7e1b21/orc-2.3.1-h443056b_0.conda",
+          "sha256": "ae96bc0895a2279f2ea296879e0475333e838cc88754b0c1a4903dd92a7e1b21"
+        },
+        {
+          "bytes": 3332797,
+          "crc32": "a74ff525",
+          "crc_verified": true,
+          "member": "packages/ae9bc82d5e3731fd7fcc380c475b1c909de2d702a71c67dfbee3fe3d37d14689/biopython-1.88-py311h0d48ccd_1.conda",
+          "sha256": "ae9bc82d5e3731fd7fcc380c475b1c909de2d702a71c67dfbee3fe3d37d14689"
+        },
+        {
+          "bytes": 423861,
+          "crc32": "c5998bd0",
+          "crc_verified": true,
+          "member": "packages/af6025aa4a4fc3f4e71334000d2739d927e2f678607b109ec630cc17d716918a/libthrift-0.22.0-h7d032f7_2.conda",
+          "sha256": "af6025aa4a4fc3f4e71334000d2739d927e2f678607b109ec630cc17d716918a"
+        },
+        {
+          "bytes": 268482,
+          "crc32": "60f3a1fa",
+          "crc_verified": true,
+          "member": "packages/b013d2085ce4ac01daec7b30472e9f3b6c2d69eb3a3a85a6cee3e01a3cb4f61a/sed-4.10-h19d0853_0.conda",
+          "sha256": "b013d2085ce4ac01daec7b30472e9f3b6c2d69eb3a3a85a6cee3e01a3cb4f61a"
+        },
+        {
+          "bytes": 8590281,
+          "crc32": "9947794f",
+          "crc_verified": true,
+          "member": "packages/b0ea2115beb20bbd3fe63dd8e41bfc29eab42a0c3982f91f0e018840567f37b6/hmmer-3.4-h7d74f8d_5.conda",
+          "sha256": "b0ea2115beb20bbd3fe63dd8e41bfc29eab42a0c3982f91f0e018840567f37b6"
+        },
+        {
+          "bytes": 59633,
+          "crc32": "903ee47a",
+          "crc_verified": true,
+          "member": "packages/b1f35f7b7a5e745e2d56cf93212770bb56f5207fa9f0e38f98b0c05a1b898a90/aws-c-event-stream-0.7.1-h6ffeea8_4.conda",
+          "sha256": "b1f35f7b7a5e745e2d56cf93212770bb56f5207fa9f0e38f98b0c05a1b898a90"
+        },
+        {
+          "bytes": 183846,
+          "crc32": "5a69f628",
+          "crc_verified": true,
+          "member": "packages/b28899d98ac49da80396bee4640455a9719caf0cd0c5ddda46dc0e3cf9e6f6a0/gitpython-3.2.0-pyh5ded981_0.conda",
+          "sha256": "b28899d98ac49da80396bee4640455a9719caf0cd0c5ddda46dc0e3cf9e6f6a0"
+        },
+        {
+          "bytes": 6598422,
+          "crc32": "9c7a0173",
+          "crc_verified": true,
+          "member": "packages/b3b92d94fa20d1d195de702c4b61cd0c3438d26672cbaf6ebbf021114a840a77/libarrow-25.0.0-hcc2f0d9_4_cpu.conda",
+          "sha256": "b3b92d94fa20d1d195de702c4b61cd0c3438d26672cbaf6ebbf021114a840a77"
+        },
+        {
+          "bytes": 141379,
+          "crc32": "af0dc549",
+          "crc_verified": true,
+          "member": "packages/b66b783be882069a9f6c00bc44ee561fc3dfba21fe4bab6de31599caf3c63154/python-tzdata-2026.5-pyh5ded981_0.conda",
+          "sha256": "b66b783be882069a9f6c00bc44ee561fc3dfba21fe4bab6de31599caf3c63154"
+        },
+        {
+          "bytes": 494373,
+          "crc32": "5559675b",
+          "crc_verified": true,
+          "member": "packages/b77f046b4d9edd060518d695befaa2cca02a891eb021ba7d3bb7a36e3fbbef8e/r-bit64-4.6.0_1-r43h2b5f3a1_0.conda",
+          "sha256": "b77f046b4d9edd060518d695befaa2cca02a891eb021ba7d3bb7a36e3fbbef8e"
+        },
+        {
+          "bytes": 181812,
+          "crc32": "14912a5f",
+          "crc_verified": true,
+          "member": "packages/b8c0e930183e6b7f83cd35ace102f2b8c2f0faae41dc05255dc72f247dfc556a/lz4-c-1.10.0-hee9eb32_2.conda",
+          "sha256": "b8c0e930183e6b7f83cd35ace102f2b8c2f0faae41dc05255dc72f247dfc556a"
+        },
+        {
+          "bytes": 984722,
+          "crc32": "4fe4daf4",
+          "crc_verified": true,
+          "member": "packages/b8ca00db70eb183106f36fea6908a102ad993243488aa96fc5700b3b2fe92f05/r-lubridate-1.9.4-r43h2b5f3a1_0.conda",
+          "sha256": "b8ca00db70eb183106f36fea6908a102ad993243488aa96fc5700b3b2fe92f05"
+        },
+        {
+          "bytes": 118849,
+          "crc32": "d5e6a220",
+          "crc_verified": true,
+          "member": "packages/b928c30ddcb0e3f544c6eade8352737e6e610e263276b90232db6a578ef899d8/tzdata-2026c-h151e31d_0.conda",
+          "sha256": "b928c30ddcb0e3f544c6eade8352737e6e610e263276b90232db6a578ef899d8"
+        },
+        {
+          "bytes": 25720044,
+          "crc32": "de5ecfcd",
+          "crc_verified": true,
+          "member": "packages/b9c6347bdd0060f2ede394e58a8d2a927e504847e2ed7e0297f280de0edb8ae9/r-base-4.3.1-h93585b2_6.conda",
+          "sha256": "b9c6347bdd0060f2ede394e58a8d2a927e504847e2ed7e0297f280de0edb8ae9"
+        },
+        {
+          "bytes": 298134,
+          "crc32": "9d9a6216",
+          "crc_verified": true,
+          "member": "packages/b9f3cb510337655485c2e79ce5f7dd468991b19ad29723ffa1175a0aed1b69ae/libbrotlienc-1.2.0-h018ffa1_4.conda",
+          "sha256": "b9f3cb510337655485c2e79ce5f7dd468991b19ad29723ffa1175a0aed1b69ae"
+        },
+        {
+          "bytes": 34528,
+          "crc32": "65e39a11",
+          "crc_verified": true,
+          "member": "packages/ba64b29b6d418024cb565081a1799262cb2780d2534ff4c14f76aa858c4286cd/wheel-0.48.0-pyhd8ed1ab_0.conda",
+          "sha256": "ba64b29b6d418024cb565081a1799262cb2780d2534ff4c14f76aa858c4286cd"
+        },
+        {
+          "bytes": 7826338,
+          "crc32": "13201876",
+          "crc_verified": true,
+          "member": "packages/bad3de581c5b9f193a3b43d634a47df3e90e6fb89ff712b5f6903920640e4a07/libpython-3.11.17-h0c77377_1_cpython.conda",
+          "sha256": "bad3de581c5b9f193a3b43d634a47df3e90e6fb89ff712b5f6903920640e4a07"
+        },
+        {
+          "bytes": 63433,
+          "crc32": "9c7eae6a",
+          "crc_verified": true,
+          "member": "packages/bb2f6f3969a97cc9930f9e341687d2d952704a77ec2ba2b07739378116403f54/r-conflicted-1.2.0-r43h785f33e_2.conda",
+          "sha256": "bb2f6f3969a97cc9930f9e341687d2d952704a77ec2ba2b07739378116403f54"
+        },
+        {
+          "bytes": 35676,
+          "crc32": "56e5f9a3",
+          "crc_verified": true,
+          "member": "packages/bb39b2e6c77cd794089161eb41a89f9af5e7b200fa4ffa6eea7bb48203959736/libasprintf-devel-0.25.1-h0e23cf9_2.conda",
+          "sha256": "bb39b2e6c77cd794089161eb41a89f9af5e7b200fa4ffa6eea7bb48203959736"
+        },
+        {
+          "bytes": 650434,
+          "crc32": "f44b0d3f",
+          "crc_verified": true,
+          "member": "packages/bba8538e6538ed58a8479b332337b96986561f975d06cfa2039a016c2d246ee4/libjpeg-turbo-3.2.0-hb03c661_1.conda",
+          "sha256": "bba8538e6538ed58a8479b332337b96986561f975d06cfa2039a016c2d246ee4"
+        },
+        {
+          "bytes": 297553,
+          "crc32": "b85c1c66",
+          "crc_verified": true,
+          "member": "packages/bc37452f8aa402d40edb58e4974660e6ed37e305eab44b6c52da5776abff199e/r-stringr-1.5.2-r43h785f33e_0.conda",
+          "sha256": "bc37452f8aa402d40edb58e4974660e6ed37e305eab44b6c52da5776abff199e"
+        },
+        {
+          "bytes": 27262,
+          "crc32": "e100aace",
+          "crc_verified": true,
+          "member": "packages/bc86861086db65c9b56dd6a1605755f41a9875b94fc3b69e137f686700d91aa1/smmap-5.0.3-pyhcf101f3_1.conda",
+          "sha256": "bc86861086db65c9b56dd6a1605755f41a9875b94fc3b69e137f686700d91aa1"
+        },
+        {
+          "bytes": 6770,
+          "crc32": "4810647b",
+          "crc_verified": true,
+          "member": "packages/bcfbad269758f4617035314fe379ee655bc2d9db5282e7a00d61450b7cefa3cf/python_abi-3.11-9_cp311.conda",
+          "sha256": "bcfbad269758f4617035314fe379ee655bc2d9db5282e7a00d61450b7cefa3cf"
+        },
+        {
+          "bytes": 867373,
+          "crc32": "c31f778d",
+          "crc_verified": true,
+          "member": "packages/be61c3b6167d4a459fdc03ad0656a39a01413bb288a93dc17e09dfacdda04f7d/r-vroom-1.6.5-r43h0d4f4ea_1.conda",
+          "sha256": "be61c3b6167d4a459fdc03ad0656a39a01413bb288a93dc17e09dfacdda04f7d"
+        },
+        {
+          "bytes": 271158,
+          "crc32": "a1767174",
+          "crc_verified": true,
+          "member": "packages/bf9fdebf55d8bc99d83531cdffda00703f4dc5f93a1a956768c147362c72feda/lerc-4.2.0-hdb68285_0.conda",
+          "sha256": "bf9fdebf55d8bc99d83531cdffda00703f4dc5f93a1a956768c147362c72feda"
+        },
+        {
+          "bytes": 74147,
+          "crc32": "39d7bab0",
+          "crc_verified": true,
+          "member": "packages/c13a1e3c7dec4e3451ab128516a0b65f0351e15ecfd046a665038cbd57cb5ba7/defense-finder-3.0.0-pyhdfd78af_0.conda",
+          "sha256": "c13a1e3c7dec4e3451ab128516a0b65f0351e15ecfd046a665038cbd57cb5ba7"
+        },
+        {
+          "bytes": 898677,
+          "crc32": "ab2a53d6",
+          "crc_verified": true,
+          "member": "packages/c1cdddb157899e826142468dd7ea75d8e83d22afb62ddc59b357cd5c59b2488e/r-stringi-1.8.4-r43ha8ce623_2.conda",
+          "sha256": "c1cdddb157899e826142468dd7ea75d8e83d22afb62ddc59b357cd5c59b2488e"
+        },
+        {
+          "bytes": 2526219,
+          "crc32": "e70f5d05",
+          "crc_verified": true,
+          "member": "packages/c1efd34c7e63f21f6cf615ecae5a2c07b8bd19006aae2904922fa3a0870178d7/r-colorspace-2.1_1-r43hdb488b9_0.conda",
+          "sha256": "c1efd34c7e63f21f6cf615ecae5a2c07b8bd19006aae2904922fa3a0870178d7"
+        },
+        {
+          "bytes": 1199593,
+          "crc32": "2259d0fa",
+          "crc_verified": true,
+          "member": "packages/c205bae42eb11b364fe3663a817cbcbc20a8ef544c6b2ff6f391013487117259/pip-26.2.1-pyh8b19718_0.conda",
+          "sha256": "c205bae42eb11b364fe3663a817cbcbc20a8ef544c6b2ff6f391013487117259"
+        },
+        {
+          "bytes": 55426,
+          "crc32": "809ee930",
+          "crc_verified": true,
+          "member": "packages/c26257dd49c70178319ba27bde1a2cd1cad709485304913d29b4db0b52ec2f44/r-uuid-1.2_1-r43hdb488b9_0.conda",
+          "sha256": "c26257dd49c70178319ba27bde1a2cd1cad709485304913d29b4db0b52ec2f44"
+        },
+        {
+          "bytes": 473875,
+          "crc32": "9cc98621",
+          "crc_verified": true,
+          "member": "packages/c27c09fe89e88000259ad3a83c18cb52804d06a8e25ee51b9bedbcf3584b64ba/libmagic-5.48-h421ea60_1.conda",
+          "sha256": "c27c09fe89e88000259ad3a83c18cb52804d06a8e25ee51b9bedbcf3584b64ba"
+        },
+        {
+          "bytes": 116363,
+          "crc32": "57399ca7",
+          "crc_verified": true,
+          "member": "packages/c432626b16768b8dab228bfb706f7060c2d462a21c516d240f68f2f902b5a044/packaging-26.3-pyhc364b38_0.conda",
+          "sha256": "c432626b16768b8dab228bfb706f7060c2d462a21c516d240f68f2f902b5a044"
+        },
+        {
+          "bytes": 1410267,
+          "crc32": "66a3f870",
+          "crc_verified": true,
+          "member": "packages/c4d973dd80ab10028b3e4c58c1c6d8f437bfeaf6069dafb1130dabc550e9caf4/kernel-headers_linux-64-5.14.0-he073ed8_3.conda",
+          "sha256": "c4d973dd80ab10028b3e4c58c1c6d8f437bfeaf6069dafb1130dabc550e9caf4"
+        },
+        {
+          "bytes": 80561,
+          "crc32": "eaa7eac2",
+          "crc_verified": true,
+          "member": "packages/c4e9854c585f3ee1785f651287ecdf8c28f30a2ea1b159a513005f8a0f6453a3/libbrotlicommon-1.2.0-h39a168f_4.conda",
+          "sha256": "c4e9854c585f3ee1785f651287ecdf8c28f30a2ea1b159a513005f8a0f6453a3"
+        },
+        {
+          "bytes": 96530,
+          "crc32": "bbac1c4d",
+          "crc_verified": true,
+          "member": "packages/c52a29fdac682c20d252facc50f01e7c2e7ceac52aa9817aaf0bb83f7559ec5c/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2",
+          "sha256": "c52a29fdac682c20d252facc50f01e7c2e7ceac52aa9817aaf0bb83f7559ec5c"
+        },
+        {
+          "bytes": 102702,
+          "crc32": "cb528d05",
+          "crc_verified": true,
+          "member": "packages/c5e04d9408a0047bd87156b1853a4ac31cb3a5ccdc52374d89c72cbdabe95002/bc-1.07.1-h7f98852_0.tar.bz2",
+          "sha256": "c5e04d9408a0047bd87156b1853a4ac31cb3a5ccdc52374d89c72cbdabe95002"
+        },
+        {
+          "bytes": 566362,
+          "crc32": "a5ba2d42",
+          "crc_verified": true,
+          "member": "packages/c67e805b46741ad6b37652d0728ab009544cfbae6acabf18c318bde458e4c696/r-gargle-1.6.0-r43h785f33e_0.conda",
+          "sha256": "c67e805b46741ad6b37652d0728ab009544cfbae6acabf18c318bde458e4c696"
+        },
+        {
+          "bytes": 569966,
+          "crc32": "fc27d076",
+          "crc_verified": true,
+          "member": "packages/c6a3f33b3ad2d10b6f7bd355910986e9218cf02b16ef34f48c4aed68b316190d/r-xfun-0.53-r43h3697838_0.conda",
+          "sha256": "c6a3f33b3ad2d10b6f7bd355910986e9218cf02b16ef34f48c4aed68b316190d"
+        },
+        {
+          "bytes": 316872,
+          "crc32": "8f84a8dd",
+          "crc_verified": true,
+          "member": "packages/c7381be8ef713501f6cd2f5ad473e401f2edeaec3c46788296b8dbf0de165e15/libpng-1.6.59-h922cc85_0.conda",
+          "sha256": "c7381be8ef713501f6cd2f5ad473e401f2edeaec3c46788296b8dbf0de165e15"
+        },
+        {
+          "bytes": 96459,
+          "crc32": "18829179",
+          "crc_verified": true,
+          "member": "packages/c74fa3eddd3ea648456517948f85068d8a07acad7752fd83c7e95b6cebb7114a/xz-tools-5.8.3-hb03c661_1.conda",
+          "sha256": "c74fa3eddd3ea648456517948f85068d8a07acad7752fd83c7e95b6cebb7114a"
+        },
+        {
+          "bytes": 191005,
+          "crc32": "a01d43f5",
+          "crc_verified": true,
+          "member": "packages/c7e6b5f2f394b589825e2fa7ef42b54db45efcd32f51278b7d0f271c1cfc4fc9/r-timechange-0.3.0-r43ha18555a_1.conda",
+          "sha256": "c7e6b5f2f394b589825e2fa7ef42b54db45efcd32f51278b7d0f271c1cfc4fc9"
+        },
+        {
+          "bytes": 68004,
+          "crc32": "cb06b749",
+          "crc_verified": true,
+          "member": "packages/c8c7583ef063bc3c430f1d48298e5ad24f796a35c22ed5b14183325825a61106/libffi-3.7.0-h81df57d_1.conda",
+          "sha256": "c8c7583ef063bc3c430f1d48298e5ad24f796a35c22ed5b14183325825a61106"
+        },
+        {
+          "bytes": 499700,
+          "crc32": "8c8eefa3",
+          "crc_verified": true,
+          "member": "packages/c8d138182c65dac589654d193da90a41391251711ec4eb6619b928b2a22c0f7b/r-reprex-2.1.1-r43hc72bb7e_1.conda",
+          "sha256": "c8d138182c65dac589654d193da90a41391251711ec4eb6619b928b2a22c0f7b"
+        },
+        {
+          "bytes": 206190,
+          "crc32": "b0315cad",
+          "crc_verified": true,
+          "member": "packages/c9a6cd2c290d7c3d2b30ea34a0ccda30f770e8ddb2937871f2c404faf60d0050/pyyaml-6.0.3-py311h3778330_1.conda",
+          "sha256": "c9a6cd2c290d7c3d2b30ea34a0ccda30f770e8ddb2937871f2c404faf60d0050"
+        },
+        {
+          "bytes": 3761547,
+          "crc32": "8b7b9c40",
+          "crc_verified": true,
+          "member": "packages/c9e1c26e0d5f0cdcf11f2a02f87b4f833ae0b57a0ea7827d09b67ef1fbc5776e/gettext-tools-0.25.1-h0e23cf9_2.conda",
+          "sha256": "c9e1c26e0d5f0cdcf11f2a02f87b4f833ae0b57a0ea7827d09b67ef1fbc5776e"
+        },
+        {
+          "bytes": 2717093,
+          "crc32": "25e28e44",
+          "crc_verified": true,
+          "member": "packages/cc0c1f7453e58a3485104fd0336c24730f036b3e36af33bd73fcb45fd1b94d9d/padloc-2.0.0-hdfd78af_1.conda",
+          "sha256": "cc0c1f7453e58a3485104fd0336c24730f036b3e36af33bd73fcb45fd1b94d9d"
+        },
+        {
+          "bytes": 139036,
+          "crc32": "86b3e86a",
+          "crc_verified": true,
+          "member": "packages/cc38c900b9a20fe75e61cbb594e749c57a06d96510722f5ddfa309682062b065/libidn2-2.3.8-hfac485b_1.conda",
+          "sha256": "cc38c900b9a20fe75e61cbb594e749c57a06d96510722f5ddfa309682062b065"
+        },
+        {
+          "bytes": 53449,
+          "crc32": "b09ada80",
+          "crc_verified": true,
+          "member": "packages/cd1acde49a1915b7a62a9678bdf42557f083d63f08d4ccc5cd9834553be96eb1/libasprintf-0.25.1-h0e23cf9_2.conda",
+          "sha256": "cd1acde49a1915b7a62a9678bdf42557f083d63f08d4ccc5cd9834553be96eb1"
+        },
+        {
+          "bytes": 47873,
+          "crc32": "e7a07709",
+          "crc_verified": true,
+          "member": "packages/d08de9bf067f10133daeac6807f9ed8cc62e69353b714633d1ea56823e84d2b3/r-getopt-1.20.3-r43ha770c72_4.conda",
+          "sha256": "d08de9bf067f10133daeac6807f9ed8cc62e69353b714633d1ea56823e84d2b3"
+        },
+        {
+          "bytes": 84936,
+          "crc32": "d42fc9be",
+          "crc_verified": true,
+          "member": "packages/d164dfa75ecd538f6fd68765defcc06aa875bc697b9b215362d79a2a73125dd0/yaml-0.2.5-hebe6cf0_3.conda",
+          "sha256": "d164dfa75ecd538f6fd68765defcc06aa875bc697b9b215362d79a2a73125dd0"
+        },
+        {
+          "bytes": 552919,
+          "crc32": "2f3c0f0d",
+          "crc_verified": true,
+          "member": "packages/d1e6ef6759c207e3d7c65162033c803a5ae48cf6c8b9929c6d7e504d5cd2123f/gettext-0.25.1-h0e23cf9_2.conda",
+          "sha256": "d1e6ef6759c207e3d7c65162033c803a5ae48cf6c8b9929c6d7e504d5cd2123f"
+        },
+        {
+          "bytes": 28630,
+          "crc32": "c40e352a",
+          "crc_verified": true,
+          "member": "packages/d5c80029e15b2e4c404a9a7189b607be566c7ea6142d43291c81648958ffe1f0/libgfortran-ng-16.2.0-h69a702a_7.conda",
+          "sha256": "d5c80029e15b2e4c404a9a7189b607be566c7ea6142d43291c81648958ffe1f0"
+        },
+        {
+          "bytes": 34739,
+          "crc32": "06c207b6",
+          "crc_verified": true,
+          "member": "packages/d5ed24da3e583a92227fe77280978b7933f07a39a2b60156c5ad95e5c76733fa/libbrotlidec-1.2.0-ha411449_4.conda",
+          "sha256": "d5ed24da3e583a92227fe77280978b7933f07a39a2b60156c5ad95e5c76733fa"
+        },
+        {
+          "bytes": 233310,
+          "crc32": "6577d77e",
+          "crc_verified": true,
+          "member": "packages/d6a17ece93bbd5139e02d2bd7dbfa80bee1a4261dced63f65f679121686bf664/python-dateutil-2.9.0.post0-pyhe01879c_2.conda",
+          "sha256": "d6a17ece93bbd5139e02d2bd7dbfa80bee1a4261dced63f65f679121686bf664"
+        },
+        {
+          "bytes": 636408,
+          "crc32": "c87c2a74",
+          "crc_verified": true,
+          "member": "packages/d6a729f06714e859be5486200c961230c91330fd71e869e525e291da6bdacb5c/r-jsonlite-2.0.0-r43h2b5f3a1_0.conda",
+          "sha256": "d6a729f06714e859be5486200c961230c91330fd71e869e525e291da6bdacb5c"
+        },
+        {
+          "bytes": 361242,
+          "crc32": "1111a68f",
+          "crc_verified": true,
+          "member": "packages/d9289541357e098f6c9fb4b5093c3b968285ef3ca33db7594a42e1b1e078c61e/dos2unix-7.5.5-ha4b6fd6_1.conda",
+          "sha256": "d9289541357e098f6c9fb4b5093c3b968285ef3ca33db7594a42e1b1e078c61e"
+        },
+        {
+          "bytes": 18246,
+          "crc32": "e1bff349",
+          "crc_verified": true,
+          "member": "packages/d942e0c820d60a613a6f786d074f0820fb6343e3f1ccfb110b1d98b44fb75968/libblas-3.11.0-11_h4a7cf45_openblas.conda",
+          "sha256": "d942e0c820d60a613a6f786d074f0820fb6343e3f1ccfb110b1d98b44fb75968"
+        },
+        {
+          "bytes": 197973,
+          "crc32": "1f6d150b",
+          "crc_verified": true,
+          "member": "packages/d9a6d06fab5f22e5d6a0dfcaf2d51fa07fd9b080f12794ab53e60b1ea1d3ac97/fasttree-2.2.0-h7b50bb2_1.conda",
+          "sha256": "d9a6d06fab5f22e5d6a0dfcaf2d51fa07fd9b080f12794ab53e60b1ea1d3ac97"
+        },
+        {
+          "bytes": 1412634,
+          "crc32": "e54154dc",
+          "crc_verified": true,
+          "member": "packages/dba948e05d62de3833caa065c1b7de960f921bb0a8a7687b8593df95d2d925a9/libparquet-25.0.0-h7376487_4_cpu.conda",
+          "sha256": "dba948e05d62de3833caa065c1b7de960f921bb0a8a7687b8593df95d2d925a9"
+        },
+        {
+          "bytes": 53136,
+          "crc32": "92cae6e8",
+          "crc_verified": true,
+          "member": "packages/dbbec21a369872c8ebe23cb9a3b9d63638479ee30face165aa0fccc96e93eec3/gitdb-4.0.12-pyhd8ed1ab_0.conda",
+          "sha256": "dbbec21a369872c8ebe23cb9a3b9d63638479ee30face165aa0fccc96e93eec3"
+        },
+        {
+          "bytes": 1626400,
+          "crc32": "975a5cec",
+          "crc_verified": true,
+          "member": "packages/dc617b350611976a580ece3be3e28807d0eee1fbb5964a61c8f99c8e70512ac9/r-isoband-0.2.7-r43ha18555a_3.conda",
+          "sha256": "dc617b350611976a580ece3be3e28807d0eee1fbb5964a61c8f99c8e70512ac9"
+        },
+        {
+          "bytes": 135295,
+          "crc32": "f796da8b",
+          "crc_verified": true,
+          "member": "packages/dd053c96dcb0dcfd59422aefea9d2fe937a190167f34fba7893ec1e10a7e8963/keyutils-1.6.3-h7cc23a3_1.conda",
+          "sha256": "dd053c96dcb0dcfd59422aefea9d2fe937a190167f34fba7893ec1e10a7e8963"
+        },
+        {
+          "bytes": 92307,
+          "crc32": "e2e5ced2",
+          "crc_verified": true,
+          "member": "packages/dd5d8aa7f434acbe4ef5a54f5f2c221650f6c25a4c5ad62c46b36267e1b8fb9b/tktable-2.10-h8d826fa_7.conda",
+          "sha256": "dd5d8aa7f434acbe4ef5a54f5f2c221650f6c25a4c5ad62c46b36267e1b8fb9b"
+        },
+        {
+          "bytes": 59940,
+          "crc32": "e0072d33",
+          "crc_verified": true,
+          "member": "packages/de2753aa37f1328171be054c93668f6efc14a0b32d3321139a92e09e23292a98/archspec-0.2.6-pyhd8ed1ab_0.conda",
+          "sha256": "de2753aa37f1328171be054c93668f6efc14a0b32d3321139a92e09e23292a98"
+        },
+        {
+          "bytes": 234214,
+          "crc32": "07245201",
+          "crc_verified": true,
+          "member": "packages/df0f798533937a024c560406275d718adf1b063b7ac748449417099d0aec96cb/r-cpp11-0.5.2-r43h785f33e_1.conda",
+          "sha256": "df0f798533937a024c560406275d718adf1b063b7ac748449417099d0aec96cb"
+        },
+        {
+          "bytes": 220288,
+          "crc32": "78dcc555",
+          "crc_verified": true,
+          "member": "packages/df667af19826269d49ea7208770758a77fb18d7a5466506041d20a6d5f9c84e1/r-modelr-0.1.11-r43hc72bb7e_2.conda",
+          "sha256": "df667af19826269d49ea7208770758a77fb18d7a5466506041d20a6d5f9c84e1"
+        },
+        {
+          "bytes": 1058444,
+          "crc32": "1c96224e",
+          "crc_verified": true,
+          "member": "packages/e031634c3a928f9594eba868bc46ef5230d6571a364a0c63215b06c4563bfcea/libgcc-16.2.0-ha9f2e26_7.conda",
+          "sha256": "e031634c3a928f9594eba868bc46ef5230d6571a364a0c63215b06c4563bfcea"
+        },
+        {
+          "bytes": 416399,
+          "crc32": "c57478bb",
+          "crc_verified": true,
+          "member": "packages/e0c3a119c7035a00e0da325187ee723e07e0e6337e50362349d178ab40961f97/aws-crt-cpp-0.40.1-h102d43b_3.conda",
+          "sha256": "e0c3a119c7035a00e0da325187ee723e07e0e6337e50362349d178ab40961f97"
+        },
+        {
+          "bytes": 12089150,
+          "crc32": "2a132afa",
+          "crc_verified": true,
+          "member": "packages/e12fd90ef6601da2875ebc432452590bc82a893041473bc1c13ef29001a73ea8/icu-73.2-h59595ed_0.conda",
+          "sha256": "e12fd90ef6601da2875ebc432452590bc82a893041473bc1c13ef29001a73ea8"
+        },
+        {
+          "bytes": 56215,
+          "crc32": "7b0723fc",
+          "crc_verified": true,
+          "member": "packages/e1b645bb39892c2a77196ec6faf03579a9ab566009b313b0982855538680a7d2/r-highr-0.11-r43hc72bb7e_1.conda",
+          "sha256": "e1b645bb39892c2a77196ec6faf03579a9ab566009b313b0982855538680a7d2"
+        },
+        {
+          "bytes": 2610460,
+          "crc32": "c37a12cd",
+          "crc_verified": true,
+          "member": "packages/e307b4d817c5f1d1173896d8d54b1b11761b0fc7889bf618ff59dd6407b11d36/mafft-7.526-h4bc722e_0.conda",
+          "sha256": "e307b4d817c5f1d1173896d8d54b1b11761b0fc7889bf618ff59dd6407b11d36"
+        },
+        {
+          "bytes": 8115383,
+          "crc32": "3dcc3ec2",
+          "crc_verified": true,
+          "member": "packages/e383569c331239308a8663facb76208fc0e141131ff3d17c1c2e50f34716a5a9/libsanitizer-16.2.0-h3048135_7.conda",
+          "sha256": "e383569c331239308a8663facb76208fc0e141131ff3d17c1c2e50f34716a5a9"
+        },
+        {
+          "bytes": 68515,
+          "crc32": "65739f4c",
+          "crc_verified": true,
+          "member": "packages/e419e179e04021fc680d98af23fac4b4c2369cea61171087e57a734e968dd9bd/aws-c-sdkutils-0.2.7-h720e601_2.conda",
+          "sha256": "e419e179e04021fc680d98af23fac4b4c2369cea61171087e57a734e968dd9bd"
+        },
+        {
+          "bytes": 43220,
+          "crc32": "bbfbfcad",
+          "crc_verified": true,
+          "member": "packages/e4418f68d01a6307c4431b585c71b584f40189877364e542ee87deb777f5e85b/libev-4.33-h280c20c_3.conda",
+          "sha256": "e4418f68d01a6307c4431b585c71b584f40189877364e542ee87deb777f5e85b"
+        },
+        {
+          "bytes": 3566,
+          "crc32": "ff435ac6",
+          "crc_verified": true,
+          "member": "packages/e58f9eeb416b92b550e824bcb1b9fb1958dee69abfe3089dfd1a9173e3a0528a/_r-mutex-1.0.1-anacondar_1.tar.bz2",
+          "sha256": "e58f9eeb416b92b550e824bcb1b9fb1958dee69abfe3089dfd1a9173e3a0528a"
+        },
+        {
+          "bytes": 364896,
+          "crc32": "9eb1fa3b",
+          "crc_verified": true,
+          "member": "packages/e6b256fb3ebc069f47b77f5ad8c09f64fbf21e7d1fb85ae63a885305886bf663/r-readxl-1.4.5-r43h328fee5_0.conda",
+          "sha256": "e6b256fb3ebc069f47b77f5ad8c09f64fbf21e7d1fb85ae63a885305886bf663"
+        },
+        {
+          "bytes": 379256,
+          "crc32": "f986918c",
+          "crc_verified": true,
+          "member": "packages/e7648d1efe2e858c4bc63ccf4a637c841dc971b37ded85a01be97a5e240fecfa/xorg-libxt-1.3.0-hd590300_1.conda",
+          "sha256": "e7648d1efe2e858c4bc63ccf4a637c841dc971b37ded85a01be97a5e240fecfa"
+        },
+        {
+          "bytes": 307477,
+          "crc32": "952833d6",
+          "crc_verified": true,
+          "member": "packages/e822121141312733e7d08f9fe879e4981b05a4db675eaabce400d18f728c3135/r-rstudioapi-0.17.1-r43hc72bb7e_0.conda",
+          "sha256": "e822121141312733e7d08f9fe879e4981b05a4db675eaabce400d18f728c3135"
+        },
+        {
+          "bytes": 1433436,
+          "crc32": "fc327b13",
+          "crc_verified": true,
+          "member": "packages/e88c45505921db29c08df3439ddb7f771bbff35f95e7d3103bf365d5d6ce2a6d/libunistring-0.9.10-h7f98852_0.tar.bz2",
+          "sha256": "e88c45505921db29c08df3439ddb7f771bbff35f95e7d3103bf365d5d6ce2a6d"
+        },
+        {
+          "bytes": 73315,
+          "crc32": "c4dab975",
+          "crc_verified": true,
+          "member": "packages/ea02425c898d6694167952794e9a865e02e14e9c844efb067374f90b9ce8ce33/xorg-xproto-7.0.31-hb9d3cd8_1008.conda",
+          "sha256": "ea02425c898d6694167952794e9a865e02e14e9c844efb067374f90b9ce8ce33"
+        },
+        {
+          "bytes": 63713,
+          "crc32": "c4584b7d",
+          "crc_verified": true,
+          "member": "packages/eb8a0db0aa570124f7d2a93d7c7f596e3390df5e047818d873baad32985fc736/libzlib-1.3.2-h25fd6f3_3.conda",
+          "sha256": "eb8a0db0aa570124f7d2a93d7c7f596e3390df5e047818d873baad32985fc736"
+        },
+        {
+          "bytes": 23329491,
+          "crc32": "34e67efb",
+          "crc_verified": true,
+          "member": "packages/ebbad84bdebd8a9964020d74dcce0f211f1431878c66326f6115dcb59e4c3469/libstdcxx-devel_linux-64-16.2.0-h86e191b_107.conda",
+          "sha256": "ebbad84bdebd8a9964020d74dcce0f211f1431878c66326f6115dcb59e4c3469"
+        },
+        {
+          "bytes": 250737,
+          "crc32": "e6e3fc06",
+          "crc_verified": true,
+          "member": "packages/ebca774f1ebaa24c150730603b418b33fc7862811a16d097716b1a29f34798c5/azure-identity-cpp-1.13.3-h71f81a8_2.conda",
+          "sha256": "ebca774f1ebaa24c150730603b418b33fc7862811a16d097716b1a29f34798c5"
+        },
+        {
+          "bytes": 49103,
+          "crc32": "83e419e5",
+          "crc_verified": true,
+          "member": "packages/ebd762d2512bd6ca2da8452eb73d83e1f3913bfd8931a088adb25c4f2932b423/r-sys-3.4.3-r43h2b5f3a1_0.conda",
+          "sha256": "ebd762d2512bd6ca2da8452eb73d83e1f3913bfd8931a088adb25c4f2932b423"
+        },
+        {
+          "bytes": 387671,
+          "crc32": "75ee98de",
+          "crc_verified": true,
+          "member": "packages/ec607dd5445dd17ff6bf8b7fe6832e5504c226dd91d3aaea7ba83569808b0ce4/libfreetype6-2.14.3-h5e6c136_2.conda",
+          "sha256": "ec607dd5445dd17ff6bf8b7fe6832e5504c226dd91d3aaea7ba83569808b0ce4"
+        },
+        {
+          "bytes": 85969,
+          "crc32": "c9a0528a",
+          "crc_verified": true,
+          "member": "packages/ecbf4b7520296ed580498dc66a72508b8a79da5126e1d6dc650a7087171288f9/libutf8proc-2.11.3-hfe17d71_0.conda",
+          "sha256": "ecbf4b7520296ed580498dc66a72508b8a79da5126e1d6dc650a7087171288f9"
+        },
+        {
+          "bytes": 1127111,
+          "crc32": "0f0c2bda",
+          "crc_verified": true,
+          "member": "packages/ed3441377e331540aeb2790c741770d2396672751117f665edaa75745b12cae8/r-tidyr-1.3.1-r43h0d4f4ea_1.conda",
+          "sha256": "ed3441377e331540aeb2790c741770d2396672751117f665edaa75745b12cae8"
+        },
+        {
+          "bytes": 40118,
+          "crc32": "381e7871",
+          "crc_verified": true,
+          "member": "packages/ed6dbec5e4f0f71e7ac629b90dc4c9fba38d194cc88eab891c29e461b408977a/xz-gpl-tools-5.8.3-ha02ee65_1.conda",
+          "sha256": "ed6dbec5e4f0f71e7ac629b90dc4c9fba38d194cc88eab891c29e461b408977a"
+        },
+        {
+          "bytes": 30739,
+          "crc32": "697ba9e5",
+          "crc_verified": true,
+          "member": "packages/ef907caee0665cf3b0f775602cc50e388e3bade8ce22ecade0873ff26604b2fd/xorg-libsm-1.2.6-h0d788c3_1.conda",
+          "sha256": "ef907caee0665cf3b0f775602cc50e388e3bade8ce22ecade0873ff26604b2fd"
+        },
+        {
+          "bytes": 4069632,
+          "crc32": "7a63aa62",
+          "crc_verified": true,
+          "member": "packages/f0769dd891e1735be4606ec8643951e5cbca199f774e58c7d933f70a70134ce4/openmpi-4.1.6-hc5af2df_101.conda",
+          "sha256": "f0769dd891e1735be4606ec8643951e5cbca199f774e58c7d933f70a70134ce4"
+        },
+        {
+          "bytes": 1238483,
+          "crc32": "9248aa89",
+          "crc_verified": true,
+          "member": "packages/f0d086f275bbd590678e3bc43b7a8ac7e4402a15727efdff0308b16efcbeac03/r-vctrs-0.6.5-r43h0d4f4ea_1.conda",
+          "sha256": "f0d086f275bbd590678e3bc43b7a8ac7e4402a15727efdff0308b16efcbeac03"
+        },
+        {
+          "bytes": 68870,
+          "crc32": "93a95530",
+          "crc_verified": true,
+          "member": "packages/f0ec797acb95738cb39a9544de112f08198b6370eaea7a30beba3d93939ca6d8/r-labeling-0.4.3-r43hc72bb7e_1.conda",
+          "sha256": "f0ec797acb95738cb39a9544de112f08198b6370eaea7a30beba3d93939ca6d8"
+        },
+        {
+          "bytes": 422420,
+          "crc32": "86f06452",
+          "crc_verified": true,
+          "member": "packages/f1a7392d1e9b4f9e270d8e161348aea733b3172ddbcc42b9d9c0229412b44cb0/r-forcats-1.0.0-r43hc72bb7e_2.conda",
+          "sha256": "f1a7392d1e9b4f9e270d8e161348aea733b3172ddbcc42b9d9c0229412b44cb0"
+        },
+        {
+          "bytes": 3099665,
+          "crc32": "fb5ea6e5",
+          "crc_verified": true,
+          "member": "packages/f1e7465f6b53f89b325e441c30ad7b19407b051eca556b6d0386ec05513b8e76/libgcc-devel_linux-64-16.2.0-he3ce08f_107.conda",
+          "sha256": "f1e7465f6b53f89b325e441c30ad7b19407b051eca556b6d0386ec05513b8e76"
+        },
+        {
+          "bytes": 149031,
+          "crc32": "f0c544ca",
+          "crc_verified": true,
+          "member": "packages/f24feeda3aeec3a2cbb9fe2e0fabc4785372e70b6cc838c96023e08e17f4bfa0/glog-0.7.1-hb7133d2_1.conda",
+          "sha256": "f24feeda3aeec3a2cbb9fe2e0fabc4785372e70b6cc838c96023e08e17f4bfa0"
+        },
+        {
+          "bytes": 30549,
+          "crc32": "b38b43c6",
+          "crc_verified": true,
+          "member": "packages/f302a3f6284ee9ad3b39e45251d7ed15167896564dc33e006077a896fd3458a6/xorg-xextproto-7.3.0-hb9d3cd8_1004.conda",
+          "sha256": "f302a3f6284ee9ad3b39e45251d7ed15167896564dc33e006077a896fd3458a6"
+        },
+        {
+          "bytes": 34442,
+          "crc32": "d4ac39f1",
+          "crc_verified": true,
+          "member": "packages/f34b8d1de9a2bf62476d8608057d9b8a918d97444236dc53a47128f2fae79041/libuuid-2.42.4-hcfc3c73_0.conda",
+          "sha256": "f34b8d1de9a2bf62476d8608057d9b8a918d97444236dc53a47128f2fae79041"
+        },
+        {
+          "bytes": 493498,
+          "crc32": "3284566a",
+          "crc_verified": true,
+          "member": "packages/f36c336efc874f346a53a9011f67e997f9faac505562cc18c13b6d399cfe61c7/gmp-6.3.0-hfd2156b_3.conda",
+          "sha256": "f36c336efc874f346a53a9011f67e997f9faac505562cc18c13b6d399cfe61c7"
+        },
+        {
+          "bytes": 1587439,
+          "crc32": "9702b2cf",
+          "crc_verified": true,
+          "member": "packages/f6a82172afc50e54741f6f84527ef10424326611503c64e359e25a19a8e4c1c6/networkx-3.6.1-pyhcf101f3_0.conda",
+          "sha256": "f6a82172afc50e54741f6f84527ef10424326611503c64e359e25a19a8e4c1c6"
+        },
+        {
+          "bytes": 130991,
+          "crc32": "b245000e",
+          "crc_verified": true,
+          "member": "packages/f7026323ac769ef432c747a6c22abd39c583d0d4f6985a7100fb371e2167f214/gflags-2.3.1-h54a6638_0.conda",
+          "sha256": "f7026323ac769ef432c747a6c22abd39c583d0d4f6985a7100fb371e2167f214"
+        },
+        {
+          "bytes": 18196,
+          "crc32": "87baa34e",
+          "crc_verified": true,
+          "member": "packages/f7d1bbdea61cf94ba219d17b2cb571a29830f8025385af799bff5a7ad1ef45e6/libcblas-3.11.0-11_h0358290_openblas.conda",
+          "sha256": "f7d1bbdea61cf94ba219d17b2cb571a29830f8025385af799bff5a7ad1ef45e6"
+        },
+        {
+          "bytes": 101957,
+          "crc32": "46360112",
+          "crc_verified": true,
+          "member": "packages/f7e9292dd219a6435bbb1223da9586c3e70d66d169c5a92f08db3f2127df04e9/libxcrypt-4.4.38-h280c20c_0.conda",
+          "sha256": "f7e9292dd219a6435bbb1223da9586c3e70d66d169c5a92f08db3f2127df04e9"
+        },
+        {
+          "bytes": 16987505,
+          "crc32": "1552d13e",
+          "crc_verified": true,
+          "member": "packages/f873532a86ce9073a7255dec909472c2a271a57db938f383b630a3caa0b47709/gxx_impl_linux-64-16.2.0-h0d273dc_7.conda",
+          "sha256": "f873532a86ce9073a7255dec909472c2a271a57db938f383b630a3caa0b47709"
+        },
+        {
+          "bytes": 431007,
+          "crc32": "9b1824df",
+          "crc_verified": true,
+          "member": "packages/f874779772878f3b509c607de9089c282f71232fde4cac876fc660d29670f28d/libevent-2.1.12-h5348a74_2.conda",
+          "sha256": "f874779772878f3b509c607de9089c282f71232fde4cac876fc660d29670f28d"
+        },
+        {
+          "bytes": 45139,
+          "crc32": "d2214e72",
+          "crc_verified": true,
+          "member": "packages/f89ea9e343d5c442452d2da1aef578bc5a9cebbf0772ecb156b3aa27c4cd67a0/r-base64enc-0.1_3-r43hb1dbf0f_1007.conda",
+          "sha256": "f89ea9e343d5c442452d2da1aef578bc5a9cebbf0772ecb156b3aa27c4cd67a0"
+        },
+        {
+          "bytes": 789471,
+          "crc32": "a8212f96",
+          "crc_verified": true,
+          "member": "packages/f943117edb9cd4d9c61cc972eee5a34291dc55ea7a6e9e38da104995841cbcb6/libiconv-1.18-h0cb94f2_3.conda",
+          "sha256": "f943117edb9cd4d9c61cc972eee5a34291dc55ea7a6e9e38da104995841cbcb6"
+        },
+        {
+          "bytes": 42831,
+          "crc32": "935579b5",
+          "crc_verified": true,
+          "member": "packages/f9c29817821721080e1995b9db966b6618372f9c5167e33742289ae97ace35a7/r-ellipsis-0.3.2-r43hb1dbf0f_3.conda",
+          "sha256": "f9c29817821721080e1995b9db966b6618372f9c5167e33742289ae97ace35a7"
+        },
+        {
+          "bytes": 4738502,
+          "crc32": "29ba38ef",
+          "crc_verified": true,
+          "member": "packages/fa102880aaa7c52bdd528f49b0340bc147d3a2aeb3fe2a323bed93e36b63ea07/r-ggplot2-3.5.2-r43hc72bb7e_0.conda",
+          "sha256": "fa102880aaa7c52bdd528f49b0340bc147d3a2aeb3fe2a323bed93e36b63ea07"
+        },
+        {
+          "bytes": 215185,
+          "crc32": "4e258c59",
+          "crc_verified": true,
+          "member": "packages/fa6b14abad4345d72adecf5b7e80948ead2d85a511bf6962014c758614f74868/r-digest-0.6.37-r43h0d4f4ea_0.conda",
+          "sha256": "fa6b14abad4345d72adecf5b7e80948ead2d85a511bf6962014c758614f74868"
+        },
+        {
+          "bytes": 6615436,
+          "crc32": "29e9a57d",
+          "crc_verified": true,
+          "member": "packages/fa7018298629fc429971fffd6ecba3d27a7b02e4e890d6a93ea01ffebe8cb745/libstdcxx-16.2.0-h934c35e_7.conda",
+          "sha256": "fa7018298629fc429971fffd6ecba3d27a7b02e4e890d6a93ea01ffebe8cb745"
+        },
+        {
+          "bytes": 1141780,
+          "crc32": "938ade66",
+          "crc_verified": true,
+          "member": "packages/fada325f851e7b6c96d0ccadc5e99010e7286fda9e72fb0faad825520b1b7894/r-mass-7.3_60.0.1-r43hb1dbf0f_1.conda",
+          "sha256": "fada325f851e7b6c96d0ccadc5e99010e7286fda9e72fb0faad825520b1b7894"
+        },
+        {
+          "bytes": 8407,
+          "crc32": "a4f4fbcc",
+          "crc_verified": true,
+          "member": "packages/fb12ecb46c30d18d928c0e8fc346ab13b5f6fc8a9cacae4f2f4bb188782586f5/libfreetype-2.14.3-ha770c72_2.conda",
+          "sha256": "fb12ecb46c30d18d928c0e8fc346ab13b5f6fc8a9cacae4f2f4bb188782586f5"
+        },
+        {
+          "bytes": 137015,
+          "crc32": "6be450b7",
+          "crc_verified": true,
+          "member": "packages/fb167de4388e64e52aa3907ed099afab944c1fa6e5f74b281a312dae1bcf7f3b/certifi-2026.7.22-pyhd8ed1ab_0.conda",
+          "sha256": "fb167de4388e64e52aa3907ed099afab944c1fa6e5f74b281a312dae1bcf7f3b"
+        },
+        {
+          "bytes": 3713752,
+          "crc32": "f1df648b",
+          "crc_verified": true,
+          "member": "packages/fb7bf36984a37ce7e4714d1d1da0bd0e3bfc679520f5cdc184afc676fd4b5da2/binutils_impl_linux-64-2.46.1-default_hfdba357_102.conda",
+          "sha256": "fb7bf36984a37ce7e4714d1d1da0bd0e3bfc679520f5cdc184afc676fd4b5da2"
+        },
+        {
+          "bytes": 16060,
+          "crc32": "89ff55ad",
+          "crc_verified": true,
+          "member": "packages/fc9e97911c3454f3b2f3e6ceedda08341cdee54e0e48c94ccc9ba4f263f16a71/kofamscan-1.3.0-hdfd78af_2.tar.bz2",
+          "sha256": "fc9e97911c3454f3b2f3e6ceedda08341cdee54e0e48c94ccc9ba4f263f16a71"
+        },
+        {
+          "bytes": 20440,
+          "crc32": "970d79c8",
+          "crc_verified": true,
+          "member": "packages/fd1d153962764433fe6233f34a72cdeed5dcf8a883a85769e8295ce940b5b0c5/libcrc32c-1.1.2-h9c3ff4c_0.tar.bz2",
+          "sha256": "fd1d153962764433fe6233f34a72cdeed5dcf8a883a85769e8295ce940b5b0c5"
+        },
+        {
+          "bytes": 145920,
+          "crc32": "b7209716",
+          "crc_verified": true,
+          "member": "packages/fd2677c1425d34fdc02b0b8a1a1559749018ec56a73d7656ad519771367cf8f0/r-utf8-1.2.6-r43h2b5f3a1_0.conda",
+          "sha256": "fd2677c1425d34fdc02b0b8a1a1559749018ec56a73d7656ad519771367cf8f0"
+        },
+        {
+          "bytes": 614545,
+          "crc32": "3799c60a",
+          "crc_verified": true,
+          "member": "packages/fff2641f31b314a5d1c5f71e2ec36eb2b8e808e0376d5fc3c4db836230ef717e/r-tibble-3.3.0-r43h2b5f3a1_0.conda",
+          "sha256": "fff2641f31b314a5d1c5f71e2ec36eb2b8e808e0376d5fc3c4db836230ef717e"
+        },
+        {
+          "bytes": 349147,
+          "crc32": "408f57ab",
+          "crc_verified": true,
+          "member": "packages/fffc66e9be8806a92b314e27129c42b1298ea7065028c9e5d175dacb07829261/azure-core-cpp-1.16.3-h206d751_0.conda",
+          "sha256": "fffc66e9be8806a92b314e27129c42b1298ea7065028c9e5d175dacb07829261"
+        }
+      ],
+      "name": "master_public_conda_packages01-002.zip",
+      "package_bytes": 212849048,
+      "package_files": 135,
+      "sha256": "0f65cc94c8ed0cf89a208d22465889eaf65e63153d231a3a776be3dfe20a4cbb",
+      "sidecar_bytes": 105,
+      "sidecar_line_ending": "LF",
+      "sidecar_name": "master_public_conda_packages01-002.zip.sha256",
+      "sidecar_sha256": "cc596d092b1105c33d055146bc2312ccb8bf57094657bc5debd2d87314a69c89"
+    }
+  ],
+  "source_deletions": 0,
+  "source_sha256": "a743347ee1d79afa438b9d95494db1736d7012536cca3ee4d1ff82c56ef11460",
+  "started_utc": "2026-10-09T20:45:18.580496+00:00",
+  "state": "PASS_LOCAL_ALL339_ORIGINALS_AND_ALL_SHARD_MEMBERS_CRC_SHA_VERIFIED",
+  "streaming_readers": 1,
+  "verified_package_bytes": 660114049,
+  "verified_packages": 339,
+  "wsl_starts": 0
+}

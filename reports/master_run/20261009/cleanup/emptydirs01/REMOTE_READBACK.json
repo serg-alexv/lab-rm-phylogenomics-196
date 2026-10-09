@@ -1,0 +1,268 @@
+{
+  "authoritative_control_readback": [
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 17164,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/build_receipt.json",
+      "remote_blob": "fb45638d7dd194e06c53c3c0072ef5ff24a557a8",
+      "sha256": "6729df70a06247d59ff844700ccaeeb997916e82e210c57026fde1c039f70381"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 4961,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/completion.json",
+      "remote_blob": "67290b2eb29b2dc5c3b574f1cc03a6cae0ec48e2",
+      "sha256": "08a83e6761aca488f1f631df4d87400e01074bb809bdcd9a0562107739f8d66d"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 1816,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "reports/master_run/20261009/cleanup/emptydirs01/counts_holds.json",
+      "remote_blob": "eaadb2c25954bc235d8c9c7d54a4cb9e6dcbde3e",
+      "sha256": "71930cd27f3cb0ba064629329cae82e59ac3d655f9d60e2c120f9d22a611c0ea"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 20111,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "remote_blob": "76c00f155003950e50766bc6701c5bd3410ece06",
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 2412,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "scripts/master_run/verify_master_original_sidecars.py",
+      "remote_blob": "bf56df9f236c8f169eff4b4c64415d0f71b46b20",
+      "sha256": "090e8068d9f2ee0a21631541681a835de5f97bd1cf695b06537aabeb4bf24841"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 13080,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "scripts/master_run/build_old_scientific_emptydirs_archive.py",
+      "remote_blob": "7726a75873043f1f4016b07e54e62d036de299ab",
+      "sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 17692,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "scripts/master_run/prepare_old_scientific_emptydirs.py",
+      "remote_blob": "cea0794f94692e240dc7cf1d1df77029eff1fe7a",
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 5366,
+      "commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+      "path": "scripts/master_run/verify_master_emptydir_metadata_remote.py",
+      "remote_blob": "dfa835265d69f13cdb003908eda3668c8e0cc49e",
+      "sha256": "c8ae233a4f2eb961d909cb84a13691f3a5f243a6a71decd0a213400a0667c261"
+    }
+  ],
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "directories_deleted": 0,
+  "downloaded_assets": [
+    {
+      "bytes": 438572,
+      "name": "master_old_scientific_emptydirs01.zip",
+      "remote_asset_id": 626144834,
+      "remote_digest": "sha256:656f515d069338e132a9c2ec46497e7388a55faaeb4c1e4aecca06ab37dfbd8d",
+      "sha256": "656f515d069338e132a9c2ec46497e7388a55faaeb4c1e4aecca06ab37dfbd8d"
+    },
+    {
+      "bytes": 105,
+      "name": "master_old_scientific_emptydirs01.zip.sha256",
+      "remote_asset_id": 626144967,
+      "remote_digest": "sha256:f2ab2b9ec783f4658797d15873dd97f52a4bec27820a8daeb4eea899b26fe467",
+      "sha256": "f2ab2b9ec783f4658797d15873dd97f52a4bec27820a8daeb4eea899b26fe467"
+    }
+  ],
+  "empty_at_observation": 3736,
+  "execution_authorized": false,
+  "expected_tag_commit": "46c7089f906cce59afabaa4449b05df36ee124de",
+  "finished_utc": "2026-10-09T20:51:13.220571+00:00",
+  "g_writes": 0,
+  "held_directories": 6,
+  "independent_semantic_plan_review": "SEPARATE_PRESERVED_REVIEW3891047E",
+  "internal_sum_entries": 18,
+  "live_directory_rescan": false,
+  "members": [
+    {
+      "bytes": 1816,
+      "crc32": "021a67f0",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "COUNTS_HOLDS.json",
+      "sha256": "71930cd27f3cb0ba064629329cae82e59ac3d655f9d60e2c120f9d22a611c0ea"
+    },
+    {
+      "bytes": 12401,
+      "crc32": "415ae6b4",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "INDEX.json",
+      "sha256": "cf0e8d9a52d7bb42e3049217cba329c8cb2cad2274ab676268a944cd9d8833ec"
+    },
+    {
+      "bytes": 1987,
+      "crc32": "a9470a81",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": false,
+      "member": "SHA256SUMS.txt",
+      "sha256": "d8443c7d72cc190267844588a3f363d935f7731bcefa3948b761ba07fc96f5e3"
+    },
+    {
+      "bytes": 6407,
+      "crc32": "66a39519",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "audit_old_checkout_git_metadata.py",
+      "sha256": "54aca001150a97f6219f08ce148434682e45d94dcb93dd25509494fc6370b5cc"
+    },
+    {
+      "bytes": 13080,
+      "crc32": "5e67d10a",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "build_old_scientific_emptydirs_archive.py",
+      "sha256": "00d144480ad83967b3f6dba270fbbfca5d5cad48fea33c6b17974d91f1ab97fe"
+    },
+    {
+      "bytes": 263064,
+      "crc32": "faf0b8df",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_batch03_postverify_20261009T200023Z_f95312bd/receipt.json",
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    {
+      "bytes": 6171,
+      "crc32": "d20b3089",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json",
+      "sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082"
+    },
+    {
+      "bytes": 4231,
+      "crc32": "9be6713a",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_REVIEW.md",
+      "sha256": "20d8f47a5693b1ecaa36b7e4e24775b4407b303e4d3fd4e56eb496702f9ce5b1"
+    },
+    {
+      "bytes": 2202,
+      "crc32": "54099ba5",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_attempt01_diagnostic.json",
+      "sha256": "a0a872ca6d293f87610ef5922afd1b2843dd480bc0bf845ae5cdf94c2fa8684e"
+    },
+    {
+      "bytes": 927,
+      "crc32": "8bc67ab1",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_attempt01_failure.json",
+      "sha256": "11c408830bcf2c2d5db54e9a2769c811629fb3f8c16ef9d8f106d4f56bbe2a37"
+    },
+    {
+      "bytes": 1285,
+      "crc32": "d3dbf579",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_attempt01_traceback.txt",
+      "sha256": "93a2479c662eda44ca638c119e639fc88b3be8213af6811050cb59cb3272f5e9"
+    },
+    {
+      "bytes": 1253,
+      "crc32": "310e6a93",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_independent_review.json",
+      "sha256": "3891047eb81f8cf2d61d6d9c4cefec4492af94ecaeddec3779b053cc34809c82"
+    },
+    {
+      "bytes": 8937244,
+      "crc32": "20c59fa7",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_proposed_02.json",
+      "sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5"
+    },
+    {
+      "bytes": 851,
+      "crc32": "08b45b00",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "master_old_scientific_emptydirs_tests.json",
+      "sha256": "6eadaf218f571264cfa8acaa6bcfebcb36b46d3cdfabe05b98df1d5f1d4b7ce1"
+    },
+    {
+      "bytes": 153576,
+      "crc32": "73f90b36",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "old_checkout_git_preservation_metadata.json",
+      "sha256": "2d7698c6a9b26a39c2e2bd511ff39b8816b9e142b93d8c16457573b507d8e8b0"
+    },
+    {
+      "bytes": 2942,
+      "crc32": "f5cc9788",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "old_checkout_git_preservation_summary.json",
+      "sha256": "16036be7f777536b12d7f0d512062bfd7c2a00559f557b5828ccd5fb7c09438f"
+    },
+    {
+      "bytes": 17692,
+      "crc32": "bb349236",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "prepare_old_scientific_emptydirs.py",
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f"
+    },
+    {
+      "bytes": 17444,
+      "crc32": "93a341f0",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "prepare_old_scientific_emptydirs_attempt01.py",
+      "sha256": "5e5f88302b175e68cdcfbd1cb3913200296667b56448f8c0726b3b5e89398b69"
+    },
+    {
+      "bytes": 1870,
+      "crc32": "7fd3d5b6",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "test_old_scientific_emptydirs.py",
+      "sha256": "9318add3dc29fa316c1d5a507c01bcef6f88881fc124d344e2e85009f2cf96af"
+    }
+  ],
+  "mode": "FRESH_REMOTE",
+  "original_controls": 16,
+  "payload_execution": 0,
+  "planned_child_parents": 1806,
+  "proposed_directories": 5542,
+  "pruning": "NOT_RUN",
+  "release_id": 408227056,
+  "release_tag_and_assets_unchanged_before_after": true,
+  "release_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/master-run-storage-20261009-v1",
+  "schema": "MASTER_OLD_SCIENTIFIC_EMPTYDIRS01_INDEPENDENT_READBACK_V1",
+  "source_commit": "25792aca769466123d7a5a3186e9c86bd97cd0f7",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T20:50:57.381578+00:00",
+  "state": "PASS_FRESH_REMOTE_METADATA19_MEMBERS_5542_PROPOSED_NO_PRUNE",
+  "tag": "master-run-storage-20261009-v1",
+  "verifier_source_sha256": "c8ae233a4f2eb961d909cb84a13691f3a5f243a6a71decd0a213400a0667c261",
+  "wsl_starts": 0,
+  "zip_members": 19
+}
