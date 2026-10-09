@@ -1,0 +1,42 @@
+{
+  "actual_source_ledger": {
+    "accessions": 196,
+    "active_C_pin_control_records": 196,
+    "additional_control_hash_records": 1764,
+    "canonical_support_bytes": 182212,
+    "canonical_support_sources": 9,
+    "payload_bytes": 1893101586,
+    "payload_files": 12812,
+    "source_checker_actual_exit_code": 0,
+    "total_hash_records": 14576
+  },
+  "curation": "NOT_RUN",
+  "detector_execution": "NOT_RUN",
+  "g_writes": 0,
+  "independent_source_reviewer": "input_validation",
+  "local_receipt": {
+    "bytes": 11394,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_source_readiness01_readback_20261009T201744Z_a03de7af\\receipt.json",
+    "sha256": "a447668966809fd6b58937b633c3b12e6d5d8139d449d22d480f54d1ccc92031",
+    "state": "PASS_LOCAL_READINESS26_MEMBERS_196_SOURCE_LEDGERS_REMOTE_NOT_RUN"
+  },
+  "network_calls": 0,
+  "original_payload_reread": false,
+  "remote_controls": {
+    "build_receipt.json": "952ad1da9a4d623045e7f1d871ce70578569d1a276f0f5a9e3abf6eb9175e77b",
+    "completion.json": "0827820b33285a6f40e9ed5fa62970202f175228035189486f2183c21edc675e"
+  },
+  "remote_controls_prefix": "reports/master_run/20261009/preparation/source_readiness01/",
+  "runtime_discovery": "NOT_RUN",
+  "schema": "STAGE05_SOURCE_READINESS_READBACK_PREPARATION_V1",
+  "scientific_acceptance_created": false,
+  "source_deletions": 0,
+  "source_review": "PASS_NO_CONCRETE_BLOCKER_SOURCE_ONLY",
+  "state": "LOCAL26_MEMBER_BYTE_READBACK_AND_INDEPENDENT_SOURCE_REVIEW_PASS_REMOTE_NOT_RUN",
+  "verifier": {
+    "bytes": 12071,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_stage5_source_readiness_remote.py",
+    "sha256": "332f0435202a81175b5d575405a8b040510c7800317d2941658ce5a9ee138d17"
+  },
+  "wsl_starts": 0
+}

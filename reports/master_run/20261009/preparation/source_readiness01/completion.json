@@ -1,0 +1,94 @@
+{
+  "archive_scope": "26 unchanged C evidence members including both checker attempts; original canonical1.89GB payloads are not copied",
+  "canonical_support_bytes": 182212,
+  "canonical_support_modules": 9,
+  "curation": "NOT_RUN",
+  "detector_execution": "NOT_RUN",
+  "elapsed_seconds": 975.7810000000009,
+  "failed_attempt_cause": "Reader wrapper omitted exact active C accepted-source-pin control; no source corruption and no genome payload hash on attempt01; production source gate unchanged",
+  "files": {
+    "build_stage5_readiness_archive.py": {
+      "bytes": 6164,
+      "sha256": "8d6561407aeb525ce7ddbe0d9085f5f803a8f288c6cb9e4f89f880bf13c5d97c"
+    },
+    "stage5_deployment_readiness.json": {
+      "bytes": 3931,
+      "sha256": "b3f2329fb315fd594a6aa379623a1f9dd5e99c8104840bb57c00e59da37e446e"
+    },
+    "stage5_deployment_readiness.md": {
+      "bytes": 12477,
+      "sha256": "1cad9dd8c2f669a5e7acc8fb06172918b504a1a2b1c08da5b10a9e14550da114"
+    },
+    "stage5_preparation_checks.json": {
+      "bytes": 2979,
+      "sha256": "bf8e7f5dc68626fa667ce395df9a85f83130fcfa75e58db6aee7a303ba9952fd"
+    },
+    "stage5_source_readiness.py": {
+      "bytes": 10079,
+      "sha256": "60fb6863ec593f422a42a8a23e0e6303a5f7891700adc5237aa116c8c8763071"
+    },
+    "stage5_source_readiness01/build_receipt.json": {
+      "bytes": 14185,
+      "sha256": "952ad1da9a4d623045e7f1d871ce70578569d1a276f0f5a9e3abf6eb9175e77b"
+    },
+    "stage5_source_readiness01/master_stage5_source_readiness01.zip": {
+      "bytes": 853741,
+      "sha256": "b06723bf684d76084072d710a0573b34137bc097b5a21f1069077ec69dc6a447"
+    },
+    "stage5_source_readiness_actual_01/receipt.json": {
+      "bytes": 1595,
+      "sha256": "10cb41419f60c4c19ecfddfa74b437fd619f2f2d9e21da159d1cee9e4ee7b90f"
+    },
+    "stage5_source_readiness_actual_02/receipt.json": {
+      "bytes": 1619,
+      "sha256": "400b37a260676f373a627bec66d2004c19fd7ec191961b7228f69b3d63984fb1"
+    },
+    "stage5_source_readiness_attempt01.py": {
+      "bytes": 9642,
+      "sha256": "126c2012271a86217179384d42d1980afc531b094f9a0fdbf553bf400826a16e"
+    },
+    "stage5_support_code_readback_01.json": {
+      "bytes": 4821,
+      "sha256": "b69abf3b05547af575b0b6badd97d870cc077b73a3a3697444ce14efe49db28c"
+    }
+  },
+  "first_approved_accession": "GCF_000009425.1",
+  "native_resource_measurement": "NOT_PERFORMED_OR_INVENTED",
+  "new_upstream_acceptance_created": false,
+  "old_c_scientific_caches_required_by_current_native_input_gate": false,
+  "protected_old_c_dependencies": [
+    "original stable workflow.lock",
+    ".tools/toolchain.ext4 and original mounted toolchain prefix"
+  ],
+  "remaining_actual_gates": [
+    "root exact prior-native closure and original writer lock availability",
+    "fresh retained Linux toolchain/mount/import/effective-configuration verification",
+    "runtime hash manifest candidate and exact config SHA pin",
+    "actual Windows/WSL owned lifecycle and closure smoke",
+    "ext4 bind storage proof current boot/device/inode/UUID",
+    "held-lock Windows UNC to ext4 target exact-byte/hash readback",
+    "held-lock DriveFS primitive and Windows readback fixtures",
+    "measured explicit finite native resource policy and fresh actual admission",
+    "fresh direct-user run authority and unchanged source/code/config pins",
+    "first approved single-genome native execution followed by independent raw validation"
+  ],
+  "remote_archive_readback": "NOT_RUN",
+  "runtime_discovery": "NOT_RUN",
+  "schema": "STAGE05_SOURCE_READINESS_COMPLETION_V1",
+  "source_accessions": 196,
+  "source_bytes": 1893101586,
+  "source_failures": 0,
+  "source_files": 12812,
+  "source_reader_count": 1,
+  "source_reader_execution": {
+    "actual_terminal_exit_code": 0,
+    "child_processes_spawned": 0,
+    "scope": "READ_ONLY_SOURCE_CHECKER_PROCESS_ONLY_NOT_NATIVE_SCIENTIFIC_CLOSURE",
+    "stderr_bytes": 0,
+    "stdout_bytes": 42460,
+    "unified_exec_session_id": 83442
+  },
+  "source_reader_priority": "BELOW_NORMAL_PRIORITY_CLASS",
+  "state": "PASS_CURRENT_SOURCE_BYTES_AND_SUPPORT_CODE_ONLY",
+  "utc": "2026-10-09T20:14:30.930621+00:00"
+}

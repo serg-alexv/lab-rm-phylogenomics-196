@@ -1,0 +1,15 @@
+{
+  "schema": "MASTER_HISTORY02_PREFLIGHT_COMMAND_CORRECTION_V1",
+  "recorded_utc": "2026-10-09T20:30:00.360368+00:00",
+  "state": "CORRECTED_ARGUMENT_ONLY_NO_DATA_MUTATION",
+  "attempt_timestamp": "NOT_RECORDED_IN_SEPARATE_FILE",
+  "mode": "NoRun",
+  "initial_argument": "Relative RecoveryReceipt path",
+  "guard_message": "Actual independent remote recovery drift",
+  "actual_cause": "Literal argument did not equal the absolute receipt path bound in the published proposal",
+  "payload_hashing_or_deletion_started": false,
+  "correction": "Used the exact absolute RecoveryReceipt path and unchanged pinned SHA; NoRun passed, then authorized Run completed",
+  "source_or_plan_change": false,
+  "recovery_data_drift": false,
+  "execution_journal_sha256": "da3ad3d819c11462eac8e9e5f9c18096706148ef9f10441274fff804d6e32a81"
+}

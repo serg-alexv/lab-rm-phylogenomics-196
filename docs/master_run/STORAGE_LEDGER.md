@@ -10,15 +10,15 @@ the scientific goal and a final complete remote recovery audit pass.
 |Cold batch01,142 files|master_cleanup_batch01.zip; fresh download/all153 members verified|142 exact files removed|
 |Previous Release staging,82 files|27 distinct assets across nine scientific Releases; remote digest/local SHA/all45,955 ZIP members verified|82 exact staging copies removed|
 |Public history/inventory01|master_public_history_inventory01.zip; fresh all320 members,291 scientific copies,88,441 public metadata rows and historical validation records verified|Recovery available; metadata alone grants no deletion authority|
-|Cold scientific batch03,47,429 files|Fresh mapping ZIP/all witness joins verified before purge; actual postverify84cb29eb confirmed every absence and838 retained originals/12 protected hashes|47,429 exact files removed;6,565,902,818 logical bytes; full execution ZIP remote verification pending|
-|Historical remainder02,837 files|Three fresh downloaded shards/all882 members/837 originals and controls verified at2ad42f8|Still local; separate proposal only; one1,025-byte vendor fragment excluded and retained|
+|Cold scientific batch03,47,429 files|Fresh mapping ZIP/all witness joins verified before purge; actual postverify84cb29eb confirmed every absence and838 retained originals/12 protected hashes|47,429 exact files removed;6,565,902,818 logical bytes; full execution ZIP fresh GitHub download/all23 members and94,860 ordered records verified|
+|Historical remainder02,837 files|Three fresh downloaded shards/all882 members/837 originals and controls verified at2ad42f8|837 exact leaves removed under separately published plan; independent absence/protected-hash proof PASS; one1,025-byte vendor fragment retained|
 |Public component recovery01|Fresh downloaded ZIP/all29 members/17 originals, source notices and397 package records/339 distinct package pins verified|Live tools and source archives retained; installed image/package payload/base-runtime recovery not covered|
 |Original component notice/source limits|Retained original archives/notices unchanged; standalone Intel runtime notice and full IQ-TREE corresponding-source gaps explicit|No complete runtime/source recovery claim|
 |Exact empty directories|Published identity/emptiness plan and execution receipt|15 removed; no recursive directory purge claimed|
 |Active inference and source inputs|Timestamped public source/config/command/admission/progress; accepted scientific Releases|Native scope, checkpoints, exact lock, six dirty G files and pinned toolchain protected|
 |Retained toolchain/base Python|Public preservation plan; original8GiB image remains unmounted/protected|Actual file-level runtime/cache/model inventory, portable restoration and remote verification pending|
 
-Completed file cleanup totals47,653 files/8,772,927,083 logical bytes. Physical
+Completed file cleanup totals48,490 files/9,756,853,507 logical bytes. Physical
 reclaimed space is NOT_MEASURED; downloads, new archives, filesystem allocation
 and caches prevent attributing free-space deltas to these logical byte counts.
 
@@ -30,3 +30,5 @@ between closing its exclusive hash handle and literal PowerShell removal is
 explicit; no atomic-delete claim is made. Historical failures and UNKNOWN
 closures preserve their original states. Raw private sessions, Codex events,
 prompts/usage, credentials and unrelated data are excluded from public assets.
+
+Stage5 current source readiness: all196 accepted bundles/12,812 payload files/1,893,101,586 bytes and nine support modules match accepted pins. Evidence ZIP local checks PASS; remote readback pending. No detector or scientific acceptance is implied. All source files remain canonical execution dependencies.

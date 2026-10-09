@@ -1,67 +1,58 @@
 # Current execution status
 
-Updated 2026-10-09T20:08:37.346593+00:00. This master continuation is active. GitHub main and
-Release assets are the sole durable project authority; automatic scheduled
-continuation remains disabled.
+Updated 2026-10-09T20:30:00.360368+00:00. Direct user continuation remains active; scheduled
+automatic continuation stays disabled. GitHub main and Release assets are the
+durable project authority.
 
-Stage4: one partitioned IQ-TREE3.1.4 job remains active on all196 approved
+Stage4: the sole partitioned IQ-TREE3.1.4 worker remains active on all196 approved
 genomes,100 accepted marker partitions and17,456 amino-acid columns. Global
-candidate optimization has reached iteration60. Model selection and initial
-searches finished; no final host tree or support is accepted. Current native
-observation: `reports/master_run/20261009/snapshots/cleanup_completed_progress01/native_progress.json`.
-Historical V10 closure remains UNKNOWN.
+optimization reached iteration70. No final host tree or final supports are
+accepted. Historical V10 closure remains UNKNOWN. The fresh observation is
+`reports/master_run/20261009/snapshots/source_ready_progress01/native_progress.json`.
 
-Stage5's accepted-genome-source dependency split is implemented in commit
-`addf594d69990b4d4bc95d1e0fa38c76f59efdd6`. Detection and per-genome curation
-do not need host-tree acceptance. One serial below-normal-priority source
-reader is running now alongside Stage4; this snapshot observed
-138/196 exact source-bundle checks PASS and zero failures in the
-corrected attempt. The first checker attempt stopped at a C-manifest scope
-guard before payload hashing; its original source/receipts are preserved.
-All nine retained canonical support modules match their source pins. Actual
-detectors, runtime discovery, WSL lifecycle/storage/UNC proofs and production
-curation remain NOT_RUN. The next heavy worker awaits exact current native
-closure/unlock and fresh operational admission. See
-`docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md` and
-`reports/master_run/20261009/preparation/stage5_deployment_readiness.md`.
+Stage5: genome-source dependency split V2 is implemented in addf594d. Detection
+and per-genome curation need no host tree. The actual light reader finished with
+exit0: all196 source bundles,12,812 payload files/1,893,101,586 bytes, and all nine
+canonical support modules/182,212 bytes match accepted SHA/size pins. This is
+current source readiness only. The first checker scope error, correction and
+both receipts remain preserved. The26-member evidence ZIP passed independent
+local integrity/accounting checks; its remote upload/readback is pending.
+See `reports/master_run/20261009/preparation/source_readiness01/completion.json`.
 
-Stage6 final joining and authoritative SVG/PDF still require an independently
-accepted and published full host tree, independent curation and exact196-by4
-coverage. Candidate trees, synthetic figures, failed and not-run cells are not
-accepted biological results or absence.
+Actual detectors, runtime discovery, WSL lifecycle/UNC storage proofs and
+production curation remain NOT_RUN. The next native worker awaits exact IQ-TREE
+closure/unlock, fresh runtime/storage/resource admission and measurement on one
+real approved genome. The queue uses fixed approved accessions; live tree leaves
+are not independently finalized work units. Final Stage6 joins/SVG/PDF still
+require independently accepted and separately published host tree, independent
+curation and exact196-by4 coverage. Failed, unresolved and not-run states cannot
+be biological absence. See `docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
 
-Cleanup completed:47,653 inactive files/8,772,927,083 logical bytes across
-batches01–03, plus15 exact empty directories. Batch03 independently confirmed
-all47,429 targets absent, all838 retained originals unchanged by full SHA and
-identity, and all12 protected files unchanged. Native/controller exact
-identities remained alive at postcheck. Its compact public proof is
-`reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json`.
-The full execution-journal archive has23 verified local members; its upload
-and independent remote readback are pending. These counts are logical bytes;
-physical reclaimed disk space is not measured.
+Cleanup now totals48,490 exact inactive files/9,756,853,507 logical bytes and15
+exact empty directories. After the47,429-file batch03, a separate published
+837-file historical proposal ran and passed independent postverification. All837
+are absent; the excluded1,025-byte vendor fragment and12 protected hashes remain
+unchanged. Exact native/controller handles remained alive. Full batch03 journal
+recovery has now passed fresh GitHub download/all23 ZIP members and94,860 ordered
+journal records. Physical reclaimed bytes are NOT_MEASURED.
 
-The component archive and three historical-data shards have each passed fresh
-GitHub download/full-member verification. The latter preserve837 original
-files; one1,025-byte vendor fragment remains excluded and local. The remaining
-837 files are only proposed for a separate exact-path purge. Active tools,
-original lock, live checkpoints/inputs, six dirty G files and toolchain remain
-protected. The live G checkout stays at launch commit160498a6 until exact
-native closure allows reconciliation. Toolchain/image/base-runtime recovery
-is incomplete. The host is not ready to wipe. See
-`docs/master_run/STORAGE_LEDGER.md`.
+Active tools, original lock, live checkpoints/inputs, six dirty G files and
+toolchain remain protected. G remains at launch160498a6 until exact native
+closure permits reconciliation. Original installed runtime/image, package and
+base-interpreter recovery remain incomplete. The host is not ready to wipe.
+See `docs/master_run/STORAGE_LEDGER.md`.
 
 | Stage | Current scientific state | Published acceptance |
 |---|---|---|
 |0 environment|Completed|Acquisition/preflight verified|
-|1 panel|Completed|Approved full196 panel verified|
+|1 panel|Completed|Approved full196 verified|
 |2 sequences|Completed|Integrity verified with documented exceptions|
-|3 markers|Completed|Host marker inventory verified|
-|4 host tree|Running, no accepted tree|Accepted Stage4a; final Stage4 pending|
-|5 R-M inventory|Not run|Prepared V2 source; light source check running|
+|3 markers|Completed|Marker inventory verified|
+|4 host tree|Running; no accepted tree|Stage4a accepted; final Stage4 pending|
+|5 R-M inventory|Not run; source readiness PASS|V2 source and synthetic checks only|
 |6 figure|Not run|Synthetic vector and negative-gate proofs only|
 |7 final review|Not run|Pending scientific results|
 
-Current master observations are in `status/master_run_20261009.json`.
-Historical receipts keep their original dates and uncertainty. No accepted
-upstream biological stage is being rerun. Raw private sessions/prompts/usage,
-credentials and unrelated files are excluded from public preservation.
+Detailed observations: `status/master_run_20261009.json`. Historical receipts
+retain original dates and uncertainty. Raw private sessions/prompts/usage,
+credentials and unrelated files are excluded from public recovery assets.

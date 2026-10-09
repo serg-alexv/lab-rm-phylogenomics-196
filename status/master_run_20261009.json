@@ -3,9 +3,9 @@
   "authority": "https://github.com/serg-alexv/lab-rm-phylogenomics-196",
   "automatic_resume": false,
   "cleanup": {
-    "state": "BATCH01_02_AND03_REMOVED_RECOVERY_VERIFIED",
-    "removed_files": 47653,
-    "removed_bytes": 8772927083,
+    "state": "BATCH01_02_03_AND_HISTORY02_EXACT_FILES_REMOVED",
+    "removed_files": 48490,
+    "removed_bytes": 9756853507,
     "proposal_commit": "03f3d70eb9909041c625f18ddaa22c50096f3e99",
     "receipt": "reports/master_run/20261009/cleanup/PURGE_01_02_EXECUTION_RECEIPT.json",
     "public_history_archive": "FRESH_REMOTE_DOWNLOAD_ALL320_MEMBERS_AND291_SCIENTIFIC_COPIES_VERIFIED",
@@ -19,8 +19,9 @@
       "held_files_unchanged": 219,
       "unmatched_files_unchanged": 619,
       "protected_files_unchanged": 12,
-      "execution_archive": "LOCAL_ALL23_MEMBERS_VERIFIED_REMOTE_PENDING",
-      "physical_disk_reclaimed_bytes": "NOT_MEASURED"
+      "execution_archive": "FRESH_REMOTE_ALL23_MEMBERS_94860_JOURNAL_RECORDS_VERIFIED",
+      "physical_disk_reclaimed_bytes": "NOT_MEASURED",
+      "execution_remote_receipt": "reports/master_run/20261009/cleanup/batch03_execution01/REMOTE_READBACK.json"
     },
     "empty_directories_removed": 15,
     "empty_directory_receipt": "reports/master_run/20261009/cleanup/EMPTY_DIRECTORIES_EXECUTION_RECEIPT.json",
@@ -28,10 +29,20 @@
       "components01": "FRESH_REMOTE_ALL29_MEMBERS_17_ORIGINALS_VERIFIED",
       "history02": "FRESH_REMOTE_3_SHARDS_882_MEMBERS_837_ORIGINALS_VERIFIED",
       "excluded_vendor_fragment": "ONE_1025_BYTE_ORIGINAL_PRESERVED_LOCALLY"
+    },
+    "history02": {
+      "removed_files": 837,
+      "removed_logical_bytes": 983926424,
+      "state": "PASS_EXACT837_REMOVED_EXCLUDED1025B_AND12_PROTECTED_UNCHANGED",
+      "postverify_sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082",
+      "receipt": "reports/master_run/20261009/cleanup/history02_purge01/INDEPENDENT_POSTVERIFY.json",
+      "excluded_original_preserved_bytes": 1025,
+      "protected_hashes_unchanged": 12,
+      "physical_disk_reclaimed_bytes": "NOT_MEASURED"
     }
   },
   "historical_V10_closure": "UNKNOWN_PRESERVED",
-  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/cleanup_completed_progress01/native_progress.json",
+  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/source_ready_progress01/native_progress.json",
   "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
   "local_checkout_note": "Live G checkout stays at launch commit while the production lock is held; reconcile remote main after exact native closure.",
   "master_run": "master_20261009",
@@ -39,22 +50,22 @@
     "pid": 4768,
     "creation_filetime": 134360369876207076,
     "exit_filetime": 0,
-    "cpu_seconds": 23985.21875,
+    "cpu_seconds": 26439.828125,
     "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
     "session_id": 1,
     "exited": false,
     "exit_code": null,
     "peak_process_committed_bytes": 3647877120,
     "peak_job_committed_bytes": 3649024000,
-    "job_cpu_seconds": 23985.234375,
+    "job_cpu_seconds": 26439.84375,
     "job_active_processes": 2,
     "job_pids": [
       4768,
       7492
     ],
-    "utc": "2026-10-09T20:08:34.856248+00:00",
-    "elapsed_seconds": 13127.236723499998,
-    "working_set_bytes": 3325919232,
+    "utc": "2026-10-09T20:29:44.881160+00:00",
+    "elapsed_seconds": 14397.261668899999,
+    "working_set_bytes": 3325960192,
     "peak_working_set_bytes": 3481726976,
     "private_committed_bytes": 3522920448
   },
@@ -62,7 +73,7 @@
   "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T20:08:37.346593+00:00",
+  "updated_utc": "2026-10-09T20:30:00.360368+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -77,21 +88,20 @@
     "owner_scope": "Optional one approved checkpoint; default full196; exact exclusive lock unchanged"
   },
   "stage5_light_queue": {
-    "state": "CURRENT_SOURCE_BYTES_CHECK_RUNNING",
-    "snapshot": {
-      "accession": "GCF_039645575.1",
-      "status": "PASS_CURRENT_ACCEPTED_SOURCE_BYTES_ONLY",
-      "accessions_checked": 138,
-      "passed": 138,
-      "failed": 0,
-      "declared_source_files": 8518,
-      "declared_source_bytes": 1330069272
-    },
-    "observed_utc": "2026-10-09T20:08:37.346593+00:00",
+    "state": "PASS_CURRENT196_SOURCE_BYTES_ONLY",
+    "passed": 196,
+    "failed": 0,
+    "source_payload_files": 12812,
+    "source_payload_bytes": 1893101586,
+    "canonical_support_modules": 9,
+    "canonical_support_bytes": 182212,
+    "completion": "reports/master_run/20261009/preparation/source_readiness01/completion.json",
+    "source_checker_exit_code": 0,
     "native_searches": "NOT_RUN",
-    "first_attempt": "CHECKER_SCOPE_ERROR_BEFORE_PAYLOAD_HASHING_PRESERVED_AND_CORRECTED",
-    "support_modules": "ALL9_CANONICAL_SOURCE_HASHES_VERIFIED",
-    "readers": 1,
-    "priority": "BELOW_NORMAL"
+    "runtime_discovery": "NOT_RUN",
+    "curation": "NOT_RUN",
+    "stage4_tree_consumed": false,
+    "evidence_archive_remote_readback": "PENDING",
+    "first_attempt": "CHECKER_SCOPE_ERROR_PRESERVED_CORRECTED_NO_SOURCE_CORRUPTION"
   }
 }

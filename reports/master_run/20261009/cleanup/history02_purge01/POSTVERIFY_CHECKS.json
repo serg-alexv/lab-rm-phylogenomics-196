@@ -1,0 +1,51 @@
+{
+  "schema": "MASTER_HISTORY02_POSTVERIFY_SOURCE_TEST_AND_EXECUTION_CHECKS_V1",
+  "state": "PASS_FOCUSED_TESTS_INDEPENDENT_SOURCE_REVIEW_AND_ACTUAL_READ_ONLY_POSTVERIFY",
+  "source": {
+    "verify_master_history02_leaf_purge.py": "6f9602112962b97655f89668c385eb35bc49e478c44c41fdf155e81dd7a7670a",
+    "verify_master_batch03_leaf_purge.py": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f",
+    "test_master_history02_postverify.py": "8cd32e82df930cfef6a0c7a77a18f9e9c5e116dbe85dbead36f4e186032106d8"
+  },
+  "tests": {
+    "command": "python -B -m unittest -v test_master_history02_postverify.py",
+    "passed": 5,
+    "failed": 0,
+    "seconds": 0.001,
+    "scope": "SYNTHETIC_ORDERED_PAIR_IDENTITY_PAYLOAD_COUNTER_TERMINAL_AND_STOP_CONTRACTS"
+  },
+  "independent_source_review": {
+    "reviewer": "remote_audit",
+    "state": "PASS_NO_CONCRETE_SOURCE_BLOCKER",
+    "reviewed_source_sha256": "6f9602112962b97655f89668c385eb35bc49e478c44c41fdf155e81dd7a7670a",
+    "actual_verification_executed_by_reviewer": false
+  },
+  "actual_postverify": {
+    "command": "python -B work/verify_master_history02_leaf_purge.py",
+    "exit_code": 0,
+    "state": "PASS_EXACT837_REMOVED_EXCLUDED1025B_AND12_PROTECTED_UNCHANGED",
+    "receipt": "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json",
+    "receipt_bytes": 6171,
+    "receipt_sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082",
+    "journal": "master_history02_leaf_purge_20261009_receipt.jsonl",
+    "journal_bytes": 640128,
+    "journal_sha256": "da3ad3d819c11462eac8e9e5f9c18096706148ef9f10441274fff804d6e32a81",
+    "journal_records": 1676,
+    "actual_candidate_absences": 837,
+    "logical_removed_bytes": 983926424,
+    "excluded_original_full_sha_and_identity_verified_bytes": 1025,
+    "protected_hashes_unchanged": 12,
+    "exact_native_and_controller_handles_alive_before_and_after": true
+  },
+  "limitations": [
+    "Verification is dated read-only evidence, not a new cleanup authorization or biological acceptance.",
+    "Logical removed bytes are not measured physical disk reclamation.",
+    "The original accepted close-to-literal-Remove leaf replacement interval remains disclosed in the actual receipt."
+  ],
+  "operations": {
+    "source_deletions": 0,
+    "network_calls": 0,
+    "g_writes": 0,
+    "wsl_starts": 0,
+    "native_scientific_jobs": 0
+  }
+}

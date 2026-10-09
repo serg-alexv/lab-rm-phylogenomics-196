@@ -1,0 +1,245 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T20:11:43.117445+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+  "tree": "3a0aa0dab6135ef22c885897c176d43f21f179ac",
+  "commit": "9559e1cf32daf6a38bbbf74e87f8330bf800a925",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_cleanup_completed_progress.py",
+      "bytes": 10874,
+      "sha256": "3d68e7195e2bc2f6c2ec30cbaa5c7cd6bdbf53d4e26cf5ededdbe063f838eab3"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_completed_cleanup_git_plan.py",
+      "bytes": 5255,
+      "sha256": "0bc450f124533c1db641277116992654326a4beaeeb7db1ced65ed3070698b4b"
+    },
+    {
+      "target": "scripts/master_run/verify_master_batch03_leaf_purge.py",
+      "bytes": 17279,
+      "sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f"
+    },
+    {
+      "target": "scripts/master_run/test_master_batch03_postverify.py",
+      "bytes": 3056,
+      "sha256": "167a768a5ce607880e540e96d107b5f90c1bf430f3d42f50727cfa4616f6b557"
+    },
+    {
+      "target": "scripts/master_run/build_master_batch03_execution_archive.py",
+      "bytes": 16076,
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    {
+      "target": "scripts/master_run/test_master_batch03_execution_archive.py",
+      "bytes": 2737,
+      "sha256": "33e3b9cdea2dd5bff20ee0d9fe1709a5e3c12a2b4e3a95d4247f939d3168cbeb"
+    },
+    {
+      "target": "scripts/master_run/verify_master_batch03_execution_remote.py",
+      "bytes": 7052,
+      "sha256": "b3c95e65e689cc90e54feca3c34f5aa50be1282dabe66fb984b5bc3d832a81c9"
+    },
+    {
+      "target": "scripts/master_run/verify_master_batch03_execution_remote_attempt01.py",
+      "bytes": 7045,
+      "sha256": "ca290fc408f3e6179b007de187883629f56cb6b29021272f6fbb2d49aedee2b2"
+    },
+    {
+      "target": "scripts/master_run/test_master_batch03_execution_remote.py",
+      "bytes": 5817,
+      "sha256": "9d4dcf7bbf9e470283de63690a027ad8c382df7ad79888ad31c3da4179452dab"
+    },
+    {
+      "target": "scripts/master_run/Invoke-MasterHistory02LeafPurge.ps1",
+      "bytes": 23655,
+      "sha256": "7d0c7aeefb86187b8d753b4a83deb62b82272591ae7ebb442dc96c428ea86efb"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_history02_leaf_purge.py",
+      "bytes": 10672,
+      "sha256": "052181c8a8ce25b3192411d4ddbde0e84b1b67d75b4524b4c8bb7ddb6ac54308"
+    },
+    {
+      "target": "scripts/master_run/test_master_history02_leaf_purge.py",
+      "bytes": 2708,
+      "sha256": "91c449b8e871deafd7aea98376da0770ee93ef7ae2bb0ad5d476c7f42eb2909f"
+    },
+    {
+      "target": "scripts/master_run/test_public_archive_readback.py",
+      "bytes": 2514,
+      "sha256": "33479ba70e9aca75f099de3fb93f3a87bb2ebb70443d8a60b41f89bc1ca7cc43"
+    },
+    {
+      "target": "scripts/master_run/stage5_runtime_discovery.py",
+      "bytes": 5694,
+      "sha256": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_runtime_discovery.py",
+      "bytes": 2194,
+      "sha256": "ae3696db2d75096c21ff171563dcfeac07aba62094b7a5ddfc50f4773a07480c"
+    },
+    {
+      "target": "scripts/master_run/stage5_source_readiness.py",
+      "bytes": 10079,
+      "sha256": "60fb6863ec593f422a42a8a23e0e6303a5f7891700adc5237aa116c8c8763071"
+    },
+    {
+      "target": "scripts/master_run/stage5_source_readiness_attempt01.py",
+      "bytes": 9642,
+      "sha256": "126c2012271a86217179384d42d1980afc531b094f9a0fdbf553bf400826a16e"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_source_readiness.py",
+      "bytes": 2345,
+      "sha256": "9a98bbb6b0cf804eb88b987d8b50c0852aea55c5d99343da988e7a2337fea0a8"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/manifest.json",
+      "bytes": 5820,
+      "sha256": "50819c81868069f0176dbc6134ff029620beb32de1b03ef9b667929ea1bb45a4"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/source_bindings.json",
+      "bytes": 10010,
+      "sha256": "d76781caae16bcca791484768eb14c816301e5edda3c109fcedc5466eb34f477"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/build_receipt.json",
+      "bytes": 1320,
+      "sha256": "27045ae12fd0761f9c0f44d463390931dc15d163cd5638bb194331263f48d3eb"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_purge01/INDEPENDENT_POSTVERIFY.json",
+      "bytes": 263064,
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/POSTVERIFY_PREPARATION.md",
+      "bytes": 3261,
+      "sha256": "8ee96c5ad094f089b580377c75a7d6e0c8ce651cec825e2af9a281604dda48c8"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/POSTVERIFY_PREPARATION_CHECKS.json",
+      "bytes": 2067,
+      "sha256": "03bdc0758900f49ca0509f5ea6c8685b74ef3e0d46c3c1ccaece6751abfa3eb6"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/ARCHIVE_PREPARATION.md",
+      "bytes": 3150,
+      "sha256": "b9fe986d47a441cd4218a123f0c66756a9255a1a9e31b040312c979e703d54fe"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/ARCHIVE_PREPARATION_CHECKS.json",
+      "bytes": 1452,
+      "sha256": "1c5a770b9491317141b7635edb6a8f9ef0d79a04a702547161b2c9c1dba3618b"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/LOCAL_READBACK.json",
+      "bytes": 9215,
+      "sha256": "0f25e87eff48617d4fd34885aa14e3f2493e0835b3455b3e6c7565af66cd0dad"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/LOCAL_DRAFT_FAILURE.json",
+      "bytes": 2219,
+      "sha256": "51e7bd0d66ea951cd33fb1a3c6fea7bdabea7bb57639f6317e3367beddd5bece"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_execution01/REMOTE_VERIFIER_SOURCE_REVIEW.json",
+      "bytes": 3296,
+      "sha256": "db4708cbd6796f2762c345e01f0ce1839f5181f0e501a077d146768016d55fc2"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/history02/REMOTE_READBACK.json",
+      "bytes": 315914,
+      "sha256": "d83aaff2695920d475742ace6c710255a326642222a5db771b95ec2d809b0ecb"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/components01/REMOTE_READBACK.json",
+      "bytes": 14364,
+      "sha256": "8c075ca1a75e0c4af4242e3caa0e17be0797e219fbd0cc69bc0202834cc1d07f"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/PUBLIC_ARCHIVE_READBACK_PREPARATION_CHECKS.json",
+      "bytes": 3498,
+      "sha256": "6ddc9105fb4128525021edaa24fb9895a3b4b101aaef3d65646647c0b18ca64d"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/history02_purge01/proposed.json",
+      "bytes": 595858,
+      "sha256": "6377f16835472951ccbe1bee5e15a25fb2d675d2a7edf24d656d34f008770b22"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/history02_purge01/PREPARATION.md",
+      "bytes": 4286,
+      "sha256": "70350139cd559d30d5ec7e501a3847ce73c1e167b0a216fb9c6f9c2b0d7e0b3d"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/history02_purge01/PREPARATION_CHECKS.json",
+      "bytes": 3051,
+      "sha256": "440de91532561e0535e1735fce8d9db1d22d30c2c2a16f775b48c4b2120662d0"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/RECOVERY_ASSET_UPLOAD_PLAN.json",
+      "bytes": 3105,
+      "sha256": "3aa7d5206b706b66814d31a9d14f650bd35ee57ba92c7f1d5d18f489fc9665d6"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/RECOVERY_ASSET_UPLOAD_RECEIPT.json",
+      "bytes": 3637,
+      "sha256": "3209261df8c9091f6e49c6eb897928f4bb3da4df3a4444b15392e3b584010ee1"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/RECOVERY_CONTROLS_GIT_OBJECTS.json",
+      "bytes": 7060,
+      "sha256": "a427a0e9471e13c5fd695b8cccadf5f9e6f16e584b7ed8da1af833455c20ef2b"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/RECOVERY_CONTROLS_REMOTE_READBACK.json",
+      "bytes": 13013,
+      "sha256": "b706b64fdffa8a126bbca672a916a34965c50928e0e89ee3c0e8690aa8fb770a"
+    },
+    {
+      "target": "reports/master_run/20261009/preparation/stage5_deployment_readiness.md",
+      "bytes": 12477,
+      "sha256": "1cad9dd8c2f669a5e7acc8fb06172918b504a1a2b1c08da5b10a9e14550da114"
+    },
+    {
+      "target": "reports/master_run/20261009/preparation/stage5_deployment_readiness.json",
+      "bytes": 3931,
+      "sha256": "b3f2329fb315fd594a6aa379623a1f9dd5e99c8104840bb57c00e59da37e446e"
+    },
+    {
+      "target": "reports/master_run/20261009/preparation/stage5_preparation_checks.json",
+      "bytes": 2979,
+      "sha256": "bf8e7f5dc68626fa667ce395df9a85f83130fcfa75e58db6aee7a303ba9952fd"
+    },
+    {
+      "target": "reports/master_run/20261009/preparation/stage5_support_code_readback_01.json",
+      "bytes": 4821,
+      "sha256": "b69abf3b05547af575b0b6badd97d870cc077b73a3a3697444ce14efe49db28c"
+    },
+    {
+      "target": "reports/master_run/20261009/snapshots/cleanup_completed_progress01/native_progress.json",
+      "bytes": 739,
+      "sha256": "9ca7629ac59d0d6f936cf03f99fc2afa74a76c66e3a7e41d505e5e3137fbbd1c"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 4523,
+      "sha256": "357cb7f697dc8dad6c8ddb07e653e7c43e4fabbb0267729d9dca1341135a441a"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 4088,
+      "sha256": "1246e7a172f4ea55f482937268fb9d3a2cecd8099f5b2966ed4e0c082a74e9f4"
+    },
+    {
+      "target": "docs/master_run/STORAGE_LEDGER.md",
+      "bytes": 3488,
+      "sha256": "3f7d343ee84350d31bdbd32b654560833bd02255c1fc2b2eab58f17700585d01"
+    }
+  ]
+}
