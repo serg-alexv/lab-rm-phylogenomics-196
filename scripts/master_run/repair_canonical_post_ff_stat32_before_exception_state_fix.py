@@ -137,7 +137,7 @@ def main():
             record.update(state='PASS_EXACT32_REINDEX_HEAD_AND_SIX_DIRTY_UNCHANGED',
                           index_sha256_after=R.sha(index),all32_actual_raw_bytes_unchanged=True,whole_index_modes_oids_unchanged=True)
     except BaseException as e:
-        record.update(state='FAILED_PRESERVED',error_kind=type(e).__name__,error_message=str(e));raise
+        record.update(error_kind=type(e).__name__,error_message=str(e));raise
     finally:
         record['original_lock_explicitly_released']=lock.released;record['commands']=g.rows if g else []
         record['all_created_git_scopes_closed']=all(x.get('owned_closure_proven') is True for x in record['commands'])

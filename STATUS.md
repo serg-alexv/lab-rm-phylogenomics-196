@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T23:19:29.850218+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T23:22:39.001541+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -63,3 +63,7 @@ Actual operational update: Publish independently reviewed paired memory observat
 - `stage5_interop_actual_postiq_02`: FAILED_NONSCIENTIFIC_INTEROP; exact command, closure, resources and lock-release receipts are retained.
 
 Actual interop02 failed the retained Conda interpreter pidfd capability guard while constructing Supervisor, before any native fixture launch. System Python setup had this capability. The failed terminal and local INTEROP_UNPROVEN_STOP remain preserved; no actual integration pass is claimed. Minimal libc-backed kernel pidfd compatibility is in preparation, preserving handle-based signalling. The paired memory owner and exact32 metadata correction are independently source-reviewed; their actual executions are NOT_RUN.
+
+Actual operational update: Publish actual retained paired memory observation; hold unsupported3GiB remedy and prepare exact large-file cache hints with pidfd ABI compatibility
+
+Actual paired memory observation PASS: retained WSL client exit0, nonce/source-bound full Linux output, Windows before/after, original unlock. Guest cgroup current260,825,088B/peak1,743,339,520B; Cached117,792,768B; no OOM/swap. Host commit after3,459,862,528B. This idle snapshot does not attribute the historical growth. A3GiB WSL ceiling is held because it exceeds the already observed peak; targeted bounded cache hints for exact large runtime hash reads are in preparation. No cache/config action has run and reserves remain unchanged. Exact32 helper final exception-state-only change db73 is reviewed against prior f8b; actualG32 execution is next.

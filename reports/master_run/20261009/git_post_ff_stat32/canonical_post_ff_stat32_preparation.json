@@ -1,0 +1,79 @@
+{
+  "schema": "MASTER_CANONICAL_POST_FF_EXACT32_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_PENDING_PEER",
+  "utc": "2026-10-09T23:21:23.417540+00:00",
+  "expected_head": "c76a46163af8b26057a113599f0524dfa0b0e94e",
+  "exact_path_count": 32,
+  "exact_raw_bytes": 1820806,
+  "source_receipt_sha256": "a147c8121b36897676f59c18cb7ad085dc75841c8e47c376dfa85902e5834ff8",
+  "source_helper_sha256": "17010d4b173c5f543bf42652409e09a6e94a7306afd28be7585840d13a066eb5",
+  "controls": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\repair_canonical_post_ff_stat32.py",
+      "sha256": "db73f926c09ab2d9d5d8e6b81309a8776049e46401426c0e67eeaf09e38cb245",
+      "bytes": 9810
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\canonical_post_ff_stat32_plan.json",
+      "sha256": "00718bae82458ae0c238ac276e4fae134799c2f77d9caffd0da1f0ad7af7fb83",
+      "bytes": 18425
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_canonical_post_ff_stat32.py",
+      "sha256": "c00a5b455d0f797cc5e98545519c2724b182868e1f71a6797ab25271b6334644",
+      "bytes": 1808
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\CANONICAL_POST_FF_STAT32_METHODS.md",
+      "sha256": "cbbf6b0b79b4491eac21558ee8f58a612da0edace3bcd637a3b3f9ff2454376b",
+      "bytes": 3159
+    }
+  ],
+  "focused_preparation_checks": {
+    "pure_control_tests": {
+      "command": [
+        "python",
+        "-B",
+        "work/test_canonical_post_ff_stat32.py",
+        "-v"
+      ],
+      "tests": 5,
+      "state": "PASS",
+      "elapsed_seconds": 0.013,
+      "scope": "C-only pinned controls; no Git, G, native API, lock or WSL execution",
+      "actual_current_source_sha256": "db73f926c09ab2d9d5d8e6b81309a8776049e46401426c0e67eeaf09e38cb245"
+    },
+    "default_cli": {
+      "state": "PREPARED_NOT_RUN",
+      "exit_code": 0
+    }
+  },
+  "independent_peer_review": "PENDING",
+  "actual_production_execution": "NOT_RUN",
+  "operations_not_performed": [
+    "G reads",
+    "G writes",
+    "Git subprocesses",
+    "original workflow-lock acquisition",
+    "WSL",
+    "native biology",
+    "Git ref updates"
+  ],
+  "allowed_production_mutation": "git add -- exact32 already byte/object/mode-identical paths only",
+  "required_terminal": [
+    "PASS_EXACT32_REINDEX_HEAD_AND_SIX_DIRTY_UNCHANGED",
+    "all_created_git_scopes_closed:true",
+    "original_lock_explicitly_released:true"
+  ],
+  "limitations": [
+    "Initial-only RAM admission; bounded 180-second owned Git commands",
+    "Failure preserves backups and working bytes without automatic rollback or scope expansion",
+    "DriveFS cache mechanism remains NOT_ESTABLISHED",
+    "Prior FF failure receipt remains FAILED_PRESERVED even though FF itself exited zero"
+  ],
+  "preserved_source_draft": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\repair_canonical_post_ff_stat32_before_exception_state_fix.py",
+    "sha256": "f8b40188ab7ba25b6a44501008eae9472d2141c7ecc24f111618bb7d7941025d",
+    "reason": "Final except explicitly resets FAILED_PRESERVED after any error, including original-lock release failure after body completion."
+  }
+}

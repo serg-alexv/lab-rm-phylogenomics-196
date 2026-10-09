@@ -1,0 +1,18 @@
+{
+  "schema": "STAGE05_MEMORY_OBSERVATION_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_READ_ONLY_DIAGNOSTIC",
+  "reviewer": "input_validation independent of remote_audit author",
+  "source": "stage5_memory_observation.py",
+  "source_sha256": "55ab4f7c96589c599bfe2fed25165faea8817cefdbf8d4f8676655d5d12b1161",
+  "reviewed_contracts": [
+    "Default executes neither observation nor WSL. Windows path uses exact pinned API80, bounded process enumeration, retained QUERY_LIMITED_INFORMATION plus SYNCHRONIZE handles, birth/wait identity, and closes queried handles.",
+    "Unreadable Windows counters and unknown wait outcomes remain qualified. Global commit, per-process private commit and working sets are not equated.",
+    "Linux observation uses its own ten-second alarm, eight-second process-loop bound, maximum4096 process/error rows and bounded pseudo-file reads; it records memory/process/cgroup counters without cmdline/environment or runtime payload reads.",
+    "No subprocess, fork, signals to other processes, cache reclamation, installation, mount or configuration change is present. Linux CLI must run in a separate retained owner/client process under the original lock, avoiding another owner's alarm context.",
+    "Counters are observations. The source does not establish historical causality, scientific acceptance or earlier lost native closure."
+  ],
+  "concrete_source_blockers": [],
+  "reviewer_reran_tests": false,
+  "actual_windows_linux_resource_or_wsl_observation_by_reviewer": "NOT_RUN",
+  "operational_or_scientific_acceptance_authority": false
+}
