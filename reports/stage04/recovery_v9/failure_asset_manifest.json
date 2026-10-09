@@ -1,0 +1,80 @@
+{
+  "schema": "STAGE04C_FAILED_NATIVE_RELEASE_ASSET_V1",
+  "tag": "stage04c-native-failure196-v1",
+  "name": "stage04c_native_failure196_v1.zip",
+  "bytes": 467985,
+  "sha256": "bddcff6ad39c0a7cf78d4cb79be5be3b45e59906e02748d6f3c7c31734eec8f2",
+  "payload_files": {
+    "original_primary196/admission_0001.json": {
+      "sha256": "1841dd55b0f5401f19949aa77ad35cb98fdd02e1b7a5e8166d9971d442518fa1",
+      "bytes": 1197
+    },
+    "original_primary196/attempt_0001/launch.json": {
+      "sha256": "9b9e438001251ca42d63d11649b7e6726686974506da89508a04f403b8f8b583",
+      "bytes": 1348
+    },
+    "original_primary196/attempt_0001/progress.json": {
+      "sha256": "cb1428d75b3c7f9a5649a5c2941aaf4b61874f265331ebbc430054c500d288f9",
+      "bytes": 559
+    },
+    "original_primary196/attempt_0001/stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "original_primary196/attempt_0001/stdout.txt": {
+      "sha256": "563a6ca7d847a950a6482ad78601364587a3ae36c6b740282e409373b19d9234",
+      "bytes": 20466
+    },
+    "original_primary196/host.log": {
+      "sha256": "cb1469781a18152484270cb3bf494d8a68617559d4ecfd440b4a32f6ccca032d",
+      "bytes": 19274
+    },
+    "original_primary196/host.model.gz": {
+      "sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+      "bytes": 418807
+    },
+    "original_primary196/invocation.json": {
+      "sha256": "464abe2f51718593a68966d66003b2fae675eb82f2d43e4075022985f2b03872",
+      "bytes": 979
+    },
+    "actual_native_observer_exit.json": {
+      "sha256": "212fa361c8c5c07b5e72d84d9baf083ba24609da5711f8752a3d6e04cea0a32f",
+      "bytes": 1655
+    },
+    "failed_attempt_reconciliation_v1.json": {
+      "sha256": "174971a811977dd2d5ce0ed009d49539490131ad603d434266c64f7da00322d1",
+      "bytes": 17459
+    },
+    "original_inference_freeze.json": {
+      "sha256": "c3f903733c1bb1f37611ac43b221ff1c147dc063859759c814991fe750823369",
+      "bytes": 41039
+    },
+    "preserved_sources/scripts/stage04_native_windows_v6.py": {
+      "sha256": "154b5236781f0380f5443a1ec3cff7b89aaa56743074afb6cafae388a24a7da7",
+      "bytes": 16574
+    },
+    "preserved_sources/scripts/stage04_windows_job_v6.py": {
+      "sha256": "eabda371999b484532878b2e1652034a63e1de3a8860472540202b229797e03c",
+      "bytes": 10406
+    },
+    "preserved_sources/scripts/stage04_windows_validate_v6.py": {
+      "sha256": "d075c4d53e506f10e328d627e2b2e24db19edb5256daa902ea610d5a06989d5d",
+      "bytes": 9707
+    },
+    "preserved_sources/config/host_inference_stage04_windows_v6.json": {
+      "sha256": "2b380e6f899571410f3d32d1770dc1f08b6618e48e22bfe1b582620af48355d1",
+      "bytes": 1808
+    },
+    "preserved_sources/scripts/stage04_closed_boundary_v2.py": {
+      "sha256": "9671634bd68764ee5167bf63b09f515f6836610e67c340b3f5c57e2e1d2e7c99",
+      "bytes": 7868
+    },
+    "RECOVERY_V9.md": {
+      "sha256": "0858a0d5b36a476f077e971dc23afd2d47b37cd2c981bdb57dfb6f9d1be0d8c9",
+      "bytes": 4712
+    }
+  },
+  "scientific_validation": "FAILED_INCOMPLETE_NOT_UPGRADED",
+  "old_controller_outcome": "UNKNOWN",
+  "old_final_job_closure": "UNKNOWN"
+}
