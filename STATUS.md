@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T21:18:24.073118+00:00. Direct user continuation remains active. GitHub main
+Updated 2026-10-09T21:26:25.784354+00:00. Direct user continuation remains active. GitHub main
 and verified Release assets are the durable project authority. Automatic
 continuation remains disabled.
 
@@ -8,7 +8,7 @@ Stage4: the sole partitioned IQ-TREE 3.1.4 worker is advancing at iteration 90
 on all 196 approved genomes, 100 accepted partitions and 17,456 AA columns.
 The final tree and support are not yet accepted; historical V10 closure is
 UNKNOWN. The fresh native snapshot is
-`reports/master_run/20261009/snapshots/recovery_verified04/native_progress.json`.
+`reports/master_run/20261009/snapshots/recovery_receipts05/native_progress.json`.
 
 Stage5 dependency split V2 is implemented in addf594d. Detection and per-genome
 curation can queue fixed approved accessions independently of the host tree,
@@ -29,22 +29,21 @@ absence checks. Physical reclaimed bytes are NOT_MEASURED. The additional
 5,542-directory metadata proposal has fresh remote readback PASS. Its corrected
 handle-based pruner passes nine actual Windows fixtures, six preparation guards
 and independent review. The first ancestor-rename failure and exact sources
-are preserved. Production directory pruning has NOT_RUN.
+are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. Independent filesystem post-verification and full journal remote recovery remain pending.
 
 Recovery: the 194 public changed-history originals (18,622,099 bytes) now pass
 fresh GitHub download and all 216 ZIP-member checks. Five whole private files
 remain excluded and local; no changed-history originals have been purged.
 All 339 exact original Conda packages (660,114,049 bytes) pass local checks;
 both shards and sidecars are uploaded. The independent reader's owned-download
-resource monitor correction passes 13 pure tests and peer review. Its actual
-fresh remote payload check remains pending. The superseded reader was never
+resource monitor correction passes 13 pure tests and peer review. Its actual fresh remote payload check now PASS: all 339 originals / 397 role joins / 363 archive members / 361 SUMS; all 26 owned downloader commands exited 0 and closed. The superseded reader was never
 executed against remote payloads and is preserved as source history.
 
 Full IQ-TREE and both pinned submodule source snapshots have 1,938 exact
 original Gitblob bindings in a locally verified 31-member recovery ZIP. Three
 upstream archives remain unchanged; one separate 249-byte LF Gitblob restores
 a diagnosed 264-byte CRLF export. No binary-build equivalence is inferred.
-Release upload and independent fresh source recovery readback remain pending.
+An independent local inspector also streamed all 1,938 original Gitblob joins and gzip EOF checks successfully. Both Release assets are uploaded; independent fresh source recovery readback remains pending.
 
 Active tools, original lock, live inputs/checkpoints, six dirty G files and
 installed toolchain remain protected. G stays at launch 160498a6 until exact

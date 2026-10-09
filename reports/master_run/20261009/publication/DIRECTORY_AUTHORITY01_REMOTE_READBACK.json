@@ -1,0 +1,65 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T21:20:50.216832+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "8939f93dd8506bf7174aa5f487a3fbe2f6430565",
+  "initial_remote_main": "8939f93dd8506bf7174aa5f487a3fbe2f6430565",
+  "declaration_sha256": "fb9742a397d65c3022704ac52444c3d1c661e77a485f47496004c32dae8ef05e",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 5,
+  "verified_files": 5,
+  "files": [
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/ROOT_AUTHORITY.json",
+      "bytes": 497,
+      "sha256": "0afeb4c2a06b4920765466474f354ed0638a228c450eb17a1c1acc9ee7bfbe63",
+      "remote_blob": "25bc5e8fa58e07790d2fc9d180f60c154bc4c0f2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/ROOT_REVIEW.json",
+      "bytes": 1442,
+      "sha256": "9203c29e478620a430e75f121508eb87dc2eeb90f55f670bb9312b9ba070f50a",
+      "remote_blob": "5eecb03c95327c4ed3b2efdb134e25a8ccc8f2b4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_GIT_OBJECTS.json",
+      "bytes": 12632,
+      "sha256": "e1afc633100c7677bb35335eee914ec99fcc8f297bc7bb0fc1eca48045907997",
+      "remote_blob": "37fa70ab3ccbf90d3a7b47e2569797babc6be887",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/RECOVERY_VERIFIED04_REMOTE_READBACK.json",
+      "bytes": 22358,
+      "sha256": "393abb637ce96ced1155c66001184004dfcc09dd578ed083d19769366b6279f6",
+      "remote_blob": "815a7ed733655922ed382c9885b440540e778479",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_directory_root_authority.py",
+      "bytes": 4434,
+      "sha256": "1069c8b2b38e8c287a0235ede328108438a53d0f4f2304a968323a63cf2c7e09",
+      "remote_blob": "cfa1e6cd292ea719023c2f4195db6cb578fc62c8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "8939f93dd8506bf7174aa5f487a3fbe2f6430565",
+  "finished_utc": "2026-10-09T21:20:53.366312+00:00",
+  "elapsed_seconds": 3.1464072999988275,
+  "verified_bytes": 41363
+}

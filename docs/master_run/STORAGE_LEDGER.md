@@ -48,3 +48,5 @@ source snapshots have1,938 original Gitblob bindings with one explicit249B
 original-source supplement; local only, no compiled-binary equivalence claim.
 
 Verified recovery update: changed-history fresh remote PASS for all 216 members / 194 public originals; no purge. IQ-TREE recovery ZIP local PASS for all 31 members / 1,938 original Gitblob bindings; upload/readback pending. Corrected Conda remote reader has 13 pure tests and independent review PASS; actual remote check pending. Corrected directory pruner has nine actual Windows fixtures PASS; production NOT_RUN. Prior failures and sources are preserved.
+
+Actual fresh Conda remote recovery PASS: 339 original packages / 397 role joins / 363 members / 361 SUMS, all 26 owned downloader commands closed exit 0. IQ-TREE source independent local recovery PASS for all 1,938 original Gitblob joins; both assets uploaded, fresh remote pending. Directory execution exit 0 records 5,542 removals / 16,628 journal records with protected hashes/owners unchanged; independent filesystem post-check and full journal recovery pending. Accepted cleanup directory total remains 15 until that check passes.

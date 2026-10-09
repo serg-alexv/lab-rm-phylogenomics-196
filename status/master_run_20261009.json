@@ -45,7 +45,7 @@
       "currently_empty": 3736,
       "planned_child_parents": 1806,
       "held": 6,
-      "pruning": "NOT_RUN",
+      "pruning": "EXECUTION_EXIT0_5542_REMOVED_INDEPENDENT_POSTVERIFY_PENDING",
       "local_archive": "PASS19_MEMBERS",
       "remote_readback": "PASS_FRESH_REMOTE19_MEMBERS_5542_PROPOSED_NO_PRUNE",
       "completion": "reports/master_run/20261009/cleanup/emptydirs01/completion.json",
@@ -55,13 +55,15 @@
         "preparation_guards": 6,
         "independent_review": "PASS",
         "first_failed_ancestor_rename_fixture": "PRESERVED_THEN_CORRECTED",
-        "production_execution": "NOT_RUN",
-        "authority_created": false
-      }
+        "production_execution": "EXIT0_POSTVERIFY_PENDING",
+        "authority_created": true
+      },
+      "execution_checkpoint": "reports/master_run/20261009/cleanup/emptydirs_prune01/EXECUTION_CHECKPOINT.json",
+      "full_journal_remote_recovery": "PENDING"
     }
   },
   "historical_V10_closure": "UNKNOWN_PRESERVED",
-  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/recovery_verified04/native_progress.json",
+  "latest_progress_snapshot": "reports/master_run/20261009/snapshots/recovery_receipts05/native_progress.json",
   "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
   "local_checkout_note": "Live G checkout stays at launch commit while the production lock is held; reconcile remote main after exact native closure.",
   "master_run": "master_20261009",
@@ -69,22 +71,22 @@
     "pid": 4768,
     "creation_filetime": 134360369876207076,
     "exit_filetime": 0,
-    "cpu_seconds": 31884.765625,
+    "cpu_seconds": 32801.40625,
     "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
     "session_id": 1,
     "exited": false,
     "exit_code": null,
     "peak_process_committed_bytes": 3647877120,
     "peak_job_committed_bytes": 3649024000,
-    "job_cpu_seconds": 31884.78125,
+    "job_cpu_seconds": 32801.421875,
     "job_active_processes": 2,
     "job_pids": [
       4768,
       7492
     ],
-    "utc": "2026-10-09T21:18:08.518190+00:00",
-    "elapsed_seconds": 17300.8281093,
-    "working_set_bytes": 3326005248,
+    "utc": "2026-10-09T21:26:12.461797+00:00",
+    "elapsed_seconds": 17784.6559179,
+    "working_set_bytes": 3326009344,
     "peak_working_set_bytes": 3481726976,
     "private_committed_bytes": 3522920448
   },
@@ -92,7 +94,7 @@
   "scientific_status": "STAGE04_RUNNING_NO_ACCEPTED_TREE",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T21:18:24.073118+00:00",
+  "updated_utc": "2026-10-09T21:26:25.784354+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -130,20 +132,25 @@
       "expected_bytes": 660114049,
       "first_attempt": "RESOURCE_STOP95_VERIFIED_PARTIAL_PRESERVED",
       "continuation": "ACTUAL_EXIT0_AFTER_TWO_FRESH_ADMISSION_PROBES",
-      "remote_payload_recovery": "PENDING_INDEPENDENT_FRESH_DOWNLOAD",
+      "remote_payload_recovery": "PASS_FRESH_REMOTE339_ORIGINALS_397_ROLES_363_MEMBERS",
       "state": "PASS_LOCAL339_ORIGINALS_363_CRC_SHA_MEMBERS",
       "uploaded_assets": 4,
       "shard_bytes": 662834628,
-      "remote_reader": "CORRECTED_OWNED_DOWNLOAD_MONITOR_13_PURE_TESTS_AND_PEER_REVIEW_PASS_ACTUAL_PENDING"
+      "remote_reader": "CORRECTED_OWNED_DOWNLOAD_MONITOR_13_PURE_TESTS_AND_PEER_REVIEW_PASS_ACTUAL_PENDING",
+      "remote_receipt": "reports/master_run/20261009/cleanup/conda_packages01/REMOTE_READBACK.json",
+      "owned_download_commands": 26,
+      "owned_download_command_closure": "ALL_EXIT0"
     },
     "iqtree_full_source": {
       "state": "PASS_LOCAL_THREE_ORIGINAL_TARS_PLUS_ONE_GITBLOB_SUPPLEMENT",
       "original_git_blobs": 1938,
       "native_binary_build_equivalence": "NOT_PROVEN",
       "exact_export_difference": "One249B originalLF Gitblob retained beside264B CRLF export; source tar unmodified",
-      "remote_recovery": "PENDING_UPLOAD_AND_INDEPENDENT_FRESH_READBACK",
+      "remote_recovery": "PENDING_INDEPENDENT_FRESH_READBACK",
       "local_recovery_archive": "PASS_31_MEMBERS_30_SUMS_1938_ORIGINAL_GITBLOBS",
-      "archive_sha256": "4b4d123a2d901e03806136eb27a38bdc3a4d8da2dc5c0438afc4eb303d96a564"
+      "archive_sha256": "4b4d123a2d901e03806136eb27a38bdc3a4d8da2dc5c0438afc4eb303d96a564",
+      "independent_local_inspection": "PASS_ALL1938_ORIGINAL_GITBLOBS_AND31_MEMBERS",
+      "uploaded_assets": 2
     },
     "old_changed_history": {
       "public_originals": 194,
