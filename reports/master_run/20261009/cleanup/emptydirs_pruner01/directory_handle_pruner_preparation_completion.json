@@ -1,0 +1,214 @@
+{
+  "actual_fixture_cases": [
+    {
+      "file_id_128": "e2d10b00000008000000000000000000",
+      "name": "empty_handle_deletes",
+      "status": "PASS"
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Nonempty directory; every unknown child is preserved",
+      "name": "nonempty_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Plain non-reparse directory required",
+      "name": "regular_file_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Plain non-reparse directory required",
+      "name": "reparse_held",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Target NTFS identity/birth/type changed",
+      "name": "identity_swap_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "name": "planned_postorder_parent_allowed",
+      "parent_birth_and_full_id_unchanged": true,
+      "parent_timestamp_change_actually_observed": true,
+      "status": "PASS"
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Unexpected directory mutation without prior planned-child removals",
+      "name": "unknown_child_protected",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "OSError",
+      "message": "[WinError 145] The directory is not empty.",
+      "name": "kernel_nonempty_disposition_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": 145
+    },
+    {
+      "error_kind": "PermissionError",
+      "message": "[WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Users\\\\wheel\\\\Documents\\\\Codex\\\\2026-10-09\\\\new-chat\\\\work\\\\directory_handle_prune_fixtures\\\\20261009T211310Z_843dbf82\\\\09_retained_ancestor' -> 'C:\\\\Users\\\\wheel\\\\Documents\\\\Codex\\\\2026-10-09\\\\new-chat\\\\work\\\\directory_handle_prune_fixtures\\\\20261009T211310Z_843dbf82\\\\09_renamed_must_not_exist'",
+      "name": "retained_ancestor_rename_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": 32
+    }
+  ],
+  "actual_fixture_owner_or_protected_payload_checks": "NOT_RUN_NOT_NEEDED_FOR_NEW_C_FIXTURE",
+  "failed_attempt_cause": "READ_ATTRIBUTES-only ancestor handle allowed actual rename; corrected LIST_DIRECTORY access produced actual ERROR_SHARING_VIOLATION 32.",
+  "failed_attempt_preserved": true,
+  "files_deleted": 0,
+  "fresh_remote_proof_sha256": "e71b02889d5443017ef5ab8be206b1fc4e5f9f81c3de14c602eeaeef70c68063",
+  "frozen_plan_sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+  "g_writes": 0,
+  "guards": [
+    {
+      "name": "pinned_plan_fresh_remote_and_protection_controls",
+      "status": "PASS"
+    },
+    {
+      "name": "prune_old_scientific_directories.py_default_no_operation",
+      "status": "PASS"
+    },
+    {
+      "name": "test_directory_handle_prune_fixture.py_default_no_operation",
+      "status": "PASS"
+    },
+    {
+      "name": "false_root_authority_rejected_before_journal_timer_native_handles",
+      "status": "PASS"
+    },
+    {
+      "name": "each_full_identity_birth_type_field_is_required",
+      "status": "PASS"
+    },
+    {
+      "name": "actual_nine_case_receipt_source_and_journal_pins",
+      "status": "PASS"
+    }
+  ],
+  "held_directories": 6,
+  "later_execution_requires": [
+    "root-only separately pinned exact authority",
+    "final source/fixture review and remote publication/readback",
+    "unchanged exact native/controller birth+liveness and12protected source hashes",
+    "actual same-directory ID/birth/plain type and emptiness at each disposition",
+    "separate independent post-verification after any real run"
+  ],
+  "old_c_directories_removed": 0,
+  "original_empty_directories": 3736,
+  "planned_child_only_parents": 1806,
+  "production_execution": "NOT_RUN",
+  "production_execution_authorized": false,
+  "proposed_directories": 5542,
+  "public_control_mapping": [
+    {
+      "bytes": 16820,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prune_old_scientific_directories.py",
+      "sha256": "9b64d17bb2612ce35051b87d77863709d875c1f910865fd6a4db2f6ddd265381",
+      "suggested_public_name": "prune_old_scientific_directories.py"
+    },
+    {
+      "bytes": 11193,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_directory_handle_prune_fixture.py",
+      "sha256": "c0c62e1aa3bf7b6d7b011b6afbddf07c8827e6af54729961b955eda703a0031a",
+      "suggested_public_name": "test_directory_handle_prune_fixture.py"
+    },
+    {
+      "bytes": 16147,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prune_old_scientific_directories_attempt01.py",
+      "sha256": "2f608bd1f11b3aac9223c7c751b9a9d8f5cb5c02568861bd6cfeadfff9304604",
+      "suggested_public_name": "prune_old_scientific_directories_attempt01.py"
+    },
+    {
+      "bytes": 11189,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_directory_handle_prune_fixture_attempt01.py",
+      "sha256": "72e3a86e28f08e845cb37a9ef62f6ea056d220902e7074b4fdc63dbcb8e4d0c7",
+      "suggested_public_name": "test_directory_handle_prune_fixture_attempt01.py"
+    },
+    {
+      "bytes": 3007,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_fixture_20261009T211154Z_9cf77be3.json",
+      "sha256": "348ee7030d49d14524290f0ec27302e67d67d216f342c97a1fb44e83526cc0ac",
+      "suggested_public_name": "directory_handle_fixture_20261009T211154Z_9cf77be3.json"
+    },
+    {
+      "bytes": 12526,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_fixture_20261009T211154Z_9cf77be3.jsonl",
+      "sha256": "73a0978d42e5f106d60888187611eb0218314b9aeb016d5b47e4f3cfb48b0a23",
+      "suggested_public_name": "directory_handle_fixture_20261009T211154Z_9cf77be3.jsonl"
+    },
+    {
+      "bytes": 3809,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_fixture_20261009T211310Z_843dbf82.json",
+      "sha256": "eebac12d62403b273713ee0f4aaad17955a4c6b7d33631e63ee1f86dc4e47ba1",
+      "suggested_public_name": "directory_handle_fixture_20261009T211310Z_843dbf82.json"
+    },
+    {
+      "bytes": 13932,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_fixture_20261009T211310Z_843dbf82.jsonl",
+      "sha256": "0109e6d8ae71bef6e465931a52510e8cd627e3ebda92a148caca42f8ab4cac4c",
+      "suggested_public_name": "directory_handle_fixture_20261009T211310Z_843dbf82.jsonl"
+    },
+    {
+      "bytes": 1615,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_pruner_independent_source_review.json",
+      "sha256": "2c6d1d5126e8cd2ee89bc3f26ab652eeb7ce283e6940ae474e93d58418310d52",
+      "suggested_public_name": "directory_handle_pruner_independent_source_review.json"
+    },
+    {
+      "bytes": 1732,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_pruner_corrected_independent_review.json",
+      "sha256": "c0bc38628a140885211a397af9e23bbe10f9f432b2c682c13d44c03cd1d1b20b",
+      "suggested_public_name": "directory_handle_pruner_corrected_independent_review.json"
+    },
+    {
+      "bytes": 17692,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_old_scientific_emptydirs.py",
+      "sha256": "7287809f47f912eddb21ba9f05d927872ef710d45ac6857837ae6689c320b21f",
+      "suggested_public_name": "prepare_old_scientific_emptydirs.py"
+    },
+    {
+      "bytes": 10332,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\old_scientific_emptydirs01_readback_20261009T205057Z_9c38bcce\\receipt.json",
+      "sha256": "e71b02889d5443017ef5ab8be206b1fc4e5f9f81c3de14c602eeaeef70c68063",
+      "suggested_public_name": "receipt.json"
+    },
+    {
+      "bytes": 6171,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_history02_postverify_20261009T201921Z_f90337c5\\receipt.json",
+      "sha256": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082",
+      "suggested_public_name": "receipt.json"
+    },
+    {
+      "bytes": 8207,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_pruner_METHODS.md",
+      "sha256": "e4d9b5836742fda28fd10a5eac8a20c6098ec4120602ce0ae1f190d61c6497b4",
+      "suggested_public_name": "directory_handle_pruner_METHODS.md"
+    },
+    {
+      "bytes": 489,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_pruner_authority_TEMPLATE_FALSE.json",
+      "sha256": "7b89156403bd19567b5753e8974c2c08332576b60f78fad0d588210ee2e945da",
+      "suggested_public_name": "directory_handle_pruner_authority_TEMPLATE_FALSE.json"
+    },
+    {
+      "bytes": 7389,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\finalize_directory_handle_pruner_prep.py",
+      "sha256": "d339168a1fe082d8ac8ee270e96e61c7789a381de425036283edc9531692a2e0",
+      "suggested_public_name": "finalize_directory_handle_pruner_prep.py"
+    }
+  ],
+  "removed_synthetic_empty_directories": 3,
+  "schema": "MASTER_DIRECTORY_HANDLE_PRUNER_PREPARATION_V1",
+  "state": "PASS_PREPARATION_SIX_GUARDS_NINE_ACTUAL_FIXTURES_PRODUCTION_NOT_RUN",
+  "workflow_lock": "UNTOUCHED_NOT_OPENED",
+  "wsl_starts": 0
+}

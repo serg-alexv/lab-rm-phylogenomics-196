@@ -1,0 +1,100 @@
+{
+  "all_archive_files_equal_git_bytes": false,
+  "duplicate_first_main_archive_selected": false,
+  "exact_supplemental_git_blobs": 1,
+  "first_failure_preserved": true,
+  "installed_binary_equivalence": "NOT_PROVEN_BY_SOURCE_ARCHIVAL",
+  "original_archives": 3,
+  "original_archives_modified": false,
+  "original_git_blobs": 1938,
+  "repositories": [
+    {
+      "all_original_git_blob_hashes_verified": true,
+      "archive": "iqtree3-63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de.tar.gz",
+      "blob_count": 1077,
+      "bytes": 28927757,
+      "commit": "63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de",
+      "gzip_crc_verified": true,
+      "original_codeload_archive_edited": false,
+      "original_notice_paths": [
+        "LICENSE",
+        "terraphast/AUTHORS",
+        "terraphast/LICENSE",
+        "terraphast/catch/LICENSE.txt",
+        "vectorclass/license.txt",
+        "yaml-cpp/LICENSE",
+        "zlib-1.2.7/contrib/dotzlib/LICENSE_1_0.txt"
+      ],
+      "repository": "https://github.com/iqtree/iqtree3",
+      "sha256": "2bd03d26a581ee566f4c9977d6fadf08e00ea553030fc625e27f4d12051c5e20",
+      "source_export_supplements": [
+        {
+          "bytes": 249,
+          "difference": "15 LF exported as CRLF; exact original Gitblob retained",
+          "path": "terraphast/appveyor.yml",
+          "sha256": "6a22862d34ecc3e5a11e59c29726711016ad6a66f3b9283603e46cae77358797",
+          "supplement": "original_git_blobs/4b5d6aa580496004b342d8d49cbe8f6629e835f8.blob"
+        }
+      ],
+      "submodules": [
+        {
+          "mode": "160000",
+          "path": "cmaple",
+          "sha": "3d45b1ab68e2d68a2825bf17a531e22200578cd6",
+          "type": "commit"
+        },
+        {
+          "mode": "160000",
+          "path": "lsd2",
+          "sha": "c61110f3a4fa05325b45c97b2134792ff9d55d4c",
+          "type": "commit"
+        }
+      ],
+      "tree_sha": "4605e2cff872f408e5174efecb4715122f9582d9",
+      "uncompressed_blob_bytes": 81595459,
+      "url": "https://codeload.github.com/iqtree/iqtree3/tar.gz/63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de"
+    },
+    {
+      "all_original_git_blob_hashes_verified": true,
+      "archive": "cmaple-3d45b1ab68e2d68a2825bf17a531e22200578cd6.tar.gz",
+      "blob_count": 820,
+      "bytes": 5689506,
+      "commit": "3d45b1ab68e2d68a2825bf17a531e22200578cd6",
+      "gzip_crc_verified": true,
+      "original_codeload_archive_edited": false,
+      "original_notice_paths": [
+        "LICENSE",
+        "libraries/zlib-1.2.7/contrib/dotzlib/LICENSE_1_0.txt"
+      ],
+      "repository": "https://github.com/trongnhanuit/cmaple",
+      "sha256": "b8b4d6da2b8571f5a469d1d7154e15135893dc3b5b74876b1131bfdb031a29a9",
+      "source_export_supplements": [],
+      "submodules": [],
+      "tree_sha": "58f3347daf5803388375277896e3e08b2fa87b9c",
+      "uncompressed_blob_bytes": 25117159,
+      "url": "https://codeload.github.com/trongnhanuit/cmaple/tar.gz/3d45b1ab68e2d68a2825bf17a531e22200578cd6"
+    },
+    {
+      "all_original_git_blob_hashes_verified": true,
+      "archive": "lsd2-c61110f3a4fa05325b45c97b2134792ff9d55d4c.tar.gz",
+      "blob_count": 41,
+      "bytes": 1529381,
+      "commit": "c61110f3a4fa05325b45c97b2134792ff9d55d4c",
+      "gzip_crc_verified": true,
+      "original_codeload_archive_edited": false,
+      "original_notice_paths": [
+        "LICENSE"
+      ],
+      "repository": "https://github.com/tothuhien/lsd2",
+      "sha256": "9bbeaa0f8f35783c1d8dec74df6c93a804dbca808fa04484f9123de4e7258b53",
+      "source_export_supplements": [],
+      "submodules": [],
+      "tree_sha": "39662489fd879fca80e166f26c797a8a1024d7e6",
+      "uncompressed_blob_bytes": 5845352,
+      "url": "https://codeload.github.com/tothuhien/lsd2/tar.gz/c61110f3a4fa05325b45c97b2134792ff9d55d4c"
+    }
+  ],
+  "schema": "MASTER_IQTREE314_SOURCE_RECOVERY_BINDING_V1",
+  "scientific_acceptance": "NONE_SOURCE_RECOVERY_ONLY",
+  "standalone_intel_notice": "NOT_ASSERTED"
+}

@@ -14,7 +14,6 @@ import os
 import re
 import shutil
 import stat
-import subprocess
 import sys
 import time
 from urllib.parse import urlsplit
@@ -70,8 +69,6 @@ RESERVE = 3 * 1024**3 // 2
 DEADLINE = float('inf')
 RESOURCE = None
 RESOURCE_MIN = {}
-COMMAND_OUT = None
-COMMANDS = []
 
 
 def require(ok, message):
@@ -140,57 +137,6 @@ def streamed_sha(stream):
 def file_sha(path):
     with Path(path).open('rb') as stream:
         return streamed_sha(stream)[1]
-
-
-def monitored_run(argv, timeout=90):
-    """Monitor only this retained Popen child; preserve C logs and partial downloads."""
-    guard()
-    require(COMMAND_OUT is not None and COMMAND_OUT.parent.parent == WORK, 'Current fresh C command spool required')
-    index = len(COMMANDS)
-    paths = [COMMAND_OUT / f'{index:03d}.{kind}.txt' for kind in ('stdout', 'stderr')]
-    record = dict(argv=argv, started_utc=A.utc(), created=False, closure_proven=False,
-                  stdout_path=str(paths[0]), stderr_path=str(paths[1]))
-    COMMANDS.append(record)
-    process = None; deadline = min(DEADLINE, time.monotonic() + timeout)
-    try:
-        with paths[0].open('x+b', buffering=0) as stdout, paths[1].open('x+b', buffering=0) as stderr:
-            process = subprocess.Popen(argv, stdout=stdout, stderr=stderr,
-                creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0)
-            record.update(created=True, pid=process.pid, ownership='RETAINED_POPEN_PROCESS_HANDLE_NO_PID_ADOPTION')
-            try:
-                while process.poll() is None:
-                    guard()
-                    require(time.monotonic() < deadline, 'Finite owned Git/Release command deadline exceeded')
-                    require(paths[0].stat().st_size <= 10 * BLOCK and paths[1].stat().st_size <= BLOCK,
-                            'Owned Git/Release command log bound exceeded')
-                    try:
-                        process.wait(timeout=min(1, deadline - time.monotonic()))
-                    except subprocess.TimeoutExpired:
-                        pass
-                guard()
-                require(paths[0].stat().st_size <= 10 * BLOCK and paths[1].stat().st_size <= BLOCK,
-                        'Owned Git/Release final log bound exceeded')
-                stdout.seek(0); data = stdout.read(10 * BLOCK + 1)
-                stderr.seek(0); error_data = stderr.read(BLOCK + 1)
-                require(len(data) <= 10 * BLOCK and len(error_data) <= BLOCK, 'Owned command output bound exceeded')
-                if process.returncode:
-                    raise subprocess.CalledProcessError(process.returncode, argv, output=data, stderr=error_data)
-                return data
-            finally:
-                if process.poll() is None:
-                    record['termination_requested'] = True
-                    process.terminate()  # Windows Popen uses its retained process handle, never an adopted PID.
-                    try:
-                        process.wait(timeout=5)
-                    except subprocess.TimeoutExpired as error:
-                        raise RuntimeError('Owned readback gh child closure unproven; stop and reconcile') from error
-                record.update(closure_proven=process.returncode is not None, exit_code=process.returncode)
-                require(record['closure_proven'], 'Owned readback gh child closure unproven')
-    except BaseException as error:
-        record['error'] = dict(kind=type(error).__name__, message=str(error))
-        raise
-    finally:
-        record['finished_utc'] = A.utc()
 
 
 def expected_packages(manifests, package_index, counts=(255, 142), unique=339, total=660114049):
@@ -263,12 +209,6 @@ def verify_zip(path, asset, expected):
 
 
 def verify(args, out, result):
-    global COMMAND_OUT
-    COMMAND_OUT = out / 'command_io'; COMMAND_OUT.mkdir(exist_ok=False)
-    result.update(owned_commands=COMMANDS, resource_minimum_bytes=RESOURCE_MIN,
-                  maximum_aggregate_seconds=1800, maximum_owned_command_cleanup_seconds=5,
-                  reserve_probe_interval_seconds_at_most=1,
-                  hard_kernel_io_cancellation_claim=False)
     guard()
     extras = {PREFIX + 'final_index.json': (WORK / 'public_conda_packages01_final_index.json', INDEX_SHA),
               PREFIX + 'CONTINUATION_SOURCE_REVIEW.json': (WORK / 'public_conda_continuation01_source_review.json', REVIEW_SHA)}
@@ -392,7 +332,11 @@ def main():
     args = A.cli(__doc__)
     DEADLINE = time.monotonic() + 1800
     RESOURCE = ResourceReader(); guard()
-    A.run = monitored_run; A.digest = file_sha
+    original_run = A.run
+    def bounded_run(argv, timeout=90):
+        guard(); remaining = DEADLINE - time.monotonic()
+        return original_run(argv, timeout=min(timeout, remaining))
+    A.run = bounded_run; A.digest = file_sha
     A.execute_readback(args, 'public_conda_packages01', verify)
 
 

@@ -136,6 +136,50 @@ class Contracts(unittest.TestCase):
         with patch.object(v, 'DEADLINE', 0), self.assertRaisesRegex(ValueError, 'budget exceeded'):
             v.streamed_sha(io.BytesIO(b'synthetic'))
 
+    def test_reserve_failure_during_download_closes_only_retained_owned_child(self):
+        class Child:
+            pid = 999999; returncode = None; terminated = False
+            def poll(self): return self.returncode
+            def terminate(self): self.terminated = True; self.returncode = 2
+            def wait(self, timeout):
+                self.cleanup_timeout = timeout
+                if not self.terminated: raise AssertionError('Unexpected wait before reserve stop')
+                return self.returncode
+        child = Child(); records = []
+        with (patch.object(v, 'COMMAND_OUT', v.WORK / 'synthetic_no_write' / 'command_io'),
+                patch.object(v, 'COMMANDS', records), patch.object(Path, 'open', side_effect=[io.BytesIO(), io.BytesIO()]),
+                patch.object(v.subprocess, 'Popen', return_value=child) as launch,
+                patch.object(v, 'guard', side_effect=[None, ValueError('synthetic reserve stop')]),
+                self.assertRaisesRegex(ValueError, 'synthetic reserve stop')):
+            v.monitored_run(['gh', 'release', 'download', 'synthetic'], timeout=300)
+        self.assertTrue(child.terminated); self.assertEqual(child.cleanup_timeout, 5)
+        self.assertTrue(records[0]['closure_proven']); self.assertEqual(records[0]['exit_code'], 2)
+        self.assertEqual(launch.call_count, 1)
+
+    def test_download_timeout_retains_unproven_child_closure_failure(self):
+        class Child:
+            pid = 999998; returncode = None; terminated = False
+            def poll(self): return None
+            def terminate(self): self.terminated = True
+            def wait(self, timeout): raise v.subprocess.TimeoutExpired(['gh', 'synthetic'], timeout)
+        child = Child(); records = []
+        with (patch.object(v, 'COMMAND_OUT', v.WORK / 'synthetic_no_write' / 'command_io'),
+                patch.object(v, 'COMMANDS', records), patch.object(Path, 'open', side_effect=[io.BytesIO(), io.BytesIO()]),
+                patch.object(v.subprocess, 'Popen', return_value=child),
+                patch.object(v, 'guard'), self.assertRaisesRegex(RuntimeError, 'closure unproven')):
+            v.monitored_run(['gh', 'synthetic'], timeout=-1)
+        self.assertTrue(child.terminated); self.assertFalse(records[0]['closure_proven'])
+
+    def test_completed_owned_command_returns_exact_captured_bytes(self):
+        child = SimpleNamespace(pid=999997, returncode=0, poll=lambda: 0)
+        records = []
+        with (patch.object(v, 'COMMAND_OUT', v.WORK / 'synthetic_no_write' / 'command_io'),
+                patch.object(v, 'COMMANDS', records), patch.object(Path, 'open', side_effect=[io.BytesIO(b'public-json'), io.BytesIO()]),
+                patch.object(Path, 'stat', return_value=SimpleNamespace(st_size=0)),
+                patch.object(v.subprocess, 'Popen', return_value=child), patch.object(v, 'guard')):
+            self.assertEqual(v.monitored_run(['gh', 'api', 'synthetic']), b'public-json')
+        self.assertTrue(records[0]['closure_proven'])
+
 
 if __name__ == '__main__':
     unittest.main()

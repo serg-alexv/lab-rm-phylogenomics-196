@@ -1,0 +1,30 @@
+{
+  "schema": "IQTREE314_PUBLIC_SOURCE_ACQUISITION_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_EXACT_EXPORT_EXCEPTION_SOURCE_ONLY",
+  "reviewed_source_sha256": "de29dc79d9001cd00104a6287c4be556bcf1715967b2a5ae574c99d0c92ba662",
+  "first_executed_source_sha256": "86d824c0ad6b8a6972ec9b6557109c4af64205875d2909a703e11c6114878568",
+  "source_only_review": true,
+  "reviewer_acquisition_execution": "NOT_RUN",
+  "original_archive_edited": false,
+  "qualified_export_case": {
+    "repository": "iqtree/iqtree3",
+    "commit": "63c330d90dd02241dbbbaf1e9f9e9cc6dadbd1de",
+    "path": "terraphast/appveyor.yml",
+    "git_blob": "4b5d6aa580496004b342d8d49cbe8f6629e835f8",
+    "original_bytes": 249,
+    "original_sha256": "6a22862d34ecc3e5a11e59c29726711016ad6a66f3b9283603e46cae77358797",
+    "export_bytes": 264,
+    "export_sha256": "65991b0d98a7003ec9b0ae5ee821287b4c7e0c7294c0ed47b502e97f3b6085e4",
+    "diagnostic_difference": "Exactly fifteen LF exported as CRLF; exact original Git blob supplied separately"
+  },
+  "reviewed_guards": [
+    "Reused whole original main archive requires exact size and SHA before copying",
+    "Exactly one fixed export path, Git SHA, original SHA, export SHA, byte count and CRLF relation",
+    "Original 249-byte Git blob retained as a separate recovery supplement; original archive unchanged",
+    "All other blobs and both exact submodule commits remain strictly bound",
+    "Finite bounds, exact C-work scope, below-normal serial reader and live resource reserves retained"
+  ],
+  "all_original_archive_files_equal_git_bytes": false,
+  "installed_binary_equivalence": "NOT_PROVEN_BY_SOURCE_ARCHIVAL",
+  "standalone_Intel_license": "NOT_ASSERTED"
+}

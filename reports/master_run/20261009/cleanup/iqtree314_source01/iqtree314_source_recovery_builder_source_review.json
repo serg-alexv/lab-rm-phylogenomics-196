@@ -1,0 +1,28 @@
+{
+  "schema": "MASTER_IQTREE314_SOURCE_RECOVERY_BUILD_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_NO_CONCRETE_BLOCKER",
+  "source": {
+    "sha256": "236eb2cd7c949decff5336978ab5cc965f115262c59ec65fb4ff25f293332242",
+    "path": "work/build_iqtree314_source_recovery01.py"
+  },
+  "pinned_resource_helper_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "checks": [
+    "Selection is exactly27 fixed C inputs,below64MiB total; no directory-wide selection,source extraction,network or tool execution.",
+    "Retained read-only source handles deny write/delete, reject reparse ancestors and linked/nonregular inputs, and compare actual source/path birth/device/inode/size/mtime metadata before,during and after copying/full SHA reads.",
+    "Three previously captured official source archives remain byte-identical to fixed SHA pins; all1938 original Git blob maps join exact commit/tree metadata and source notice paths.",
+    "Exactly one qualified IQ-TREE source export exception preserves both unmodified264-byte CRLF export and actual249-byte LF original Git blob,with independent Git SHA1 and SHA256 binding; no broad newline repair.",
+    "First failed strict acquisition and diagnoses,executed source versions and original notices remain preserved; duplicate failed main archive is explicitly excluded.",
+    "Actual all31 stored ZIP members require deterministic metadata,EOF CRC/SHA and exact exhaustive30SUMS; final original-source SHA/identity is rechecked while retained handles remain open.",
+    "Source/helper and belowNormal resource-read implementation pins remain explicit;600second budget and every256KiB current physical/commit1.5GiB+Cdisk10GiB guards stop/preserve on failure.",
+    "Sidecar is explicit original LF bytes with size/SHA; remote readback/publication and installed-binary equivalence are not claimed."
+  ],
+  "limitations": [
+    "Source review only; no build,resource API invocation,retained source capture,archive/tar payload read or network by reviewer.",
+    "Builder binds the prior actual1938-blob acquisition receipt; it deliberately does not rerun raw tar-to-Git payload validation.",
+    "Complete compiled Windows binary/build equivalence,standalone Intel notice completeness,installed-runtime completeness and scientific acceptance remain unproven.",
+    "Periodic resources and source integrity checks do not claim hard kernel I/O cancellation or power-loss durability; fresh remote all-member recovery remains separate."
+  ],
+  "build_by_reviewer": "NOT_RUN",
+  "remote_readback_by_reviewer": "NOT_RUN",
+  "source_modifications_by_reviewer": 0
+}

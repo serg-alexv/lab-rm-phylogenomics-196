@@ -46,3 +46,5 @@ Old changed history194 originals/18,622,099 bytes has local216-member PASS; five
 whole private records remain local/excluded. Full IQ-TREE and both submodule
 source snapshots have1,938 original Gitblob bindings with one explicit249B
 original-source supplement; local only, no compiled-binary equivalence claim.
+
+Verified recovery update: changed-history fresh remote PASS for all 216 members / 194 public originals; no purge. IQ-TREE recovery ZIP local PASS for all 31 members / 1,938 original Gitblob bindings; upload/readback pending. Corrected Conda remote reader has 13 pure tests and independent review PASS; actual remote check pending. Corrected directory pruner has nine actual Windows fixtures PASS; production NOT_RUN. Prior failures and sources are preserved.

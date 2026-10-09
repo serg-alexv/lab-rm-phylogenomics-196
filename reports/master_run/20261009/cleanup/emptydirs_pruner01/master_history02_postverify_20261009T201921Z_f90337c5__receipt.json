@@ -1,0 +1,151 @@
+{
+  "control_pins": {
+    "master_batch03_postverify_20261009T200023Z_f95312bd/receipt.json": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868",
+    "master_batch03_protected_before.json": "22d307f5bba8a98dbd060e3d1d091e22c7f70dc85b40e77ada04c0eef36ce1a7",
+    "master_history02_leaf_purge_proposed.json": "6377f16835472951ccbe1bee5e15a25fb2d675d2a7edf24d656d34f008770b22",
+    "public_history02_readback_20261009T195508Z_1f99201e/receipt.json": "d83aaff2695920d475742ace6c710255a326642222a5db771b95ec2d809b0ecb"
+  },
+  "deadline_seconds": 900,
+  "excluded_original": {
+    "bytes": 1025,
+    "identity_equal": true,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\review2\\stage05_raw_review\\installed_rejected_serializer.txt",
+    "sha256": "574547f9584dafce870492810ab02be990fe022939edd5a797292c473625027b"
+  },
+  "finished_utc": "2026-10-09T20:19:21.776349+00:00",
+  "g_writes": 0,
+  "independent_helper_sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f",
+  "journal_records": 1676,
+  "journal_sha256": "da3ad3d819c11462eac8e9e5f9c18096706148ef9f10441274fff804d6e32a81",
+  "journal_terminal": {
+    "deleted": 837,
+    "deleted_bytes": 983926424,
+    "event": "COMPLETE",
+    "excluded_bytes": 1025,
+    "excluded_preserved": 1,
+    "protected_hashes_unchanged": 12,
+    "recursive_deletes": 0,
+    "state": "PASS_EXACT837_RECOVERED_HISTORY_LEAVES_REMOVED",
+    "utc": "2026-10-09T20:15:34.6972261Z"
+  },
+  "maximum_retained_hash_bytes": 2147483648,
+  "network_calls": 0,
+  "owners_after": [
+    {
+      "alive": true,
+      "creation_filetime": "134360369876207076",
+      "pid": 4768,
+      "retained_handle": true
+    },
+    {
+      "alive": true,
+      "creation_filetime": "134360369803845506",
+      "pid": 27048,
+      "retained_handle": true
+    }
+  ],
+  "owners_before": [
+    {
+      "alive": true,
+      "creation_filetime": "134360369876207076",
+      "pid": 4768,
+      "retained_handle": true
+    },
+    {
+      "alive": true,
+      "creation_filetime": "134360369803845506",
+      "pid": 27048,
+      "retained_handle": true
+    }
+  ],
+  "physical_disk_reclaimed_bytes": "NOT_MEASURED",
+  "proposal_commit": "9559e1cf32daf6a38bbbf74e87f8330bf800a925",
+  "protected_files": [
+    {
+      "bytes": 40596,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+      "unchanged": true
+    },
+    {
+      "bytes": 3393,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_partitioned_config.json",
+      "sha256": "c70b267b04f9fa9c19a2bf0671deabcfd0959545d90a48a912ea463e220be314",
+      "unchanged": true
+    },
+    {
+      "bytes": 94845,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage00\\commands.jsonl",
+      "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb",
+      "unchanged": true
+    },
+    {
+      "bytes": 80379,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress.json",
+      "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457",
+      "unchanged": true
+    },
+    {
+      "bytes": 94067,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress_resume.json",
+      "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f",
+      "unchanged": true
+    },
+    {
+      "bytes": 6477,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5\\observations.jsonl",
+      "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e",
+      "unchanged": true
+    },
+    {
+      "bytes": 13626,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5_v2\\observations.jsonl",
+      "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15",
+      "unchanged": true
+    },
+    {
+      "bytes": 877,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\continuation_execution_receipt.json",
+      "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f",
+      "unchanged": true
+    },
+    {
+      "bytes": 12332544,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+      "sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+      "unchanged": true
+    },
+    {
+      "bytes": 3424904,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+      "sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+      "unchanged": true
+    },
+    {
+      "bytes": 2924,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+      "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+      "unchanged": true
+    },
+    {
+      "bytes": 670,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\run_control.json",
+      "sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "unchanged": true
+    }
+  ],
+  "remaining_after_stop": 0,
+  "remaining_metadata": [],
+  "removed_bytes": 983926424,
+  "removed_files": 837,
+  "residual_leaf_race": "Exclusive hash handle closes immediately before literal Remove-Item. Retained ancestors prevent parent rename/delete; short leaf replacement interval remains and is not an atomic-delete claim.",
+  "retained_original_bytes_hashed": 1025,
+  "schema": "MASTER_HISTORY02_INDEPENDENT_POST_PURGE_VERIFY_V1",
+  "scientific_jobs": 0,
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T20:19:21.010216+00:00",
+  "state": "PASS_EXACT837_REMOVED_EXCLUDED1025B_AND12_PROTECTED_UNCHANGED",
+  "unreceipted_absences": [],
+  "verifier_sha256": "6f9602112962b97655f89668c385eb35bc49e478c44c41fdf155e81dd7a7670a",
+  "wsl_starts": 0
+}

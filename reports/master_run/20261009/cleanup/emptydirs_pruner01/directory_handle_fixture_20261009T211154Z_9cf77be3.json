@@ -1,0 +1,74 @@
+{
+  "error_kind": "AssertionError",
+  "files_deleted": 0,
+  "fixture_source_sha256": "72e3a86e28f08e845cb37a9ef62f6ea056d220902e7074b4fdc63dbcb8e4d0c7",
+  "journal": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_fixture_20261009T211154Z_9cf77be3.jsonl",
+  "journal_sha256": "73a0978d42e5f106d60888187611eb0218314b9aeb016d5b47e4f3cfb48b0a23",
+  "message": "retained_ancestor_rename_refused: unexpectedly accepted",
+  "namespace": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_prune_fixtures\\20261009T211154Z_9cf77be3",
+  "old_c_directories_removed": 0,
+  "production_execute_called": false,
+  "pruner_sha256": "2f608bd1f11b3aac9223c7c751b9a9d8f5cb5c02568861bd6cfeadfff9304604",
+  "removed_synthetic_empty_directories": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_prune_fixtures\\20261009T211154Z_9cf77be3\\01_empty",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_prune_fixtures\\20261009T211154Z_9cf77be3\\06_planned_parent",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\directory_handle_prune_fixtures\\20261009T211154Z_9cf77be3\\06_planned_parent\\planned_child"
+  ],
+  "results": [
+    {
+      "file_id_128": "c0d10b0000000a000000000000000000",
+      "name": "empty_handle_deletes",
+      "status": "PASS"
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Nonempty directory; every unknown child is preserved",
+      "name": "nonempty_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Plain non-reparse directory required",
+      "name": "regular_file_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Plain non-reparse directory required",
+      "name": "reparse_held",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Target NTFS identity/birth/type changed",
+      "name": "identity_swap_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "name": "planned_postorder_parent_allowed",
+      "parent_birth_and_full_id_unchanged": true,
+      "parent_timestamp_change_actually_observed": true,
+      "status": "PASS"
+    },
+    {
+      "error_kind": "ValueError",
+      "message": "Unexpected directory mutation without prior planned-child removals",
+      "name": "unknown_child_protected",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": null
+    },
+    {
+      "error_kind": "OSError",
+      "message": "[WinError 145] The directory is not empty.",
+      "name": "kernel_nonempty_disposition_refused",
+      "status": "PASS_REFUSED_AND_PRESERVED",
+      "winerror": 145
+    }
+  ],
+  "schema": "MASTER_DIRECTORY_HANDLE_FIXTURE_V1",
+  "state": "FAILED_FIXTURE_PRESERVED"
+}

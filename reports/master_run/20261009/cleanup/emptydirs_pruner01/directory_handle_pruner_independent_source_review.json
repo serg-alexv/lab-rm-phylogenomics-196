@@ -1,0 +1,24 @@
+{
+  "schema": "MASTER_DIRECTORY_HANDLE_PRUNER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_ACTUAL_FIXTURES_NOT_RUN_BY_REVIEWER",
+  "pruner_sha256": "2f608bd1f11b3aac9223c7c751b9a9d8f5cb5c02568861bd6cfeadfff9304604",
+  "fixture_sha256": "72e3a86e28f08e845cb37a9ef62f6ea056d220902e7074b4fdc63dbcb8e4d0c7",
+  "plan_sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+  "source_contracts": [
+    "Default no operation; separate exact source and plan pinned root authority required",
+    "Fixed5542 previously recovered causal directories, seven exact oldC roots, six holds and fragment ancestors excluded",
+    "Retained exact directory DELETE handle; full128-bit NTFS ID, volume, birth, plain non-reparse type and final path",
+    "FILE_DISPOSITION_INFO uses one-byte BOOLEAN and class4; no path or recursive deletion API",
+    "All ancestors retained without delete sharing, current emptiness gate, independent kernel nonempty veto",
+    "Only prior planned-child removals may explain parent timestamp change; unknown children remain vetoes",
+    "Intent, disposition and absence journal; finite900-second production stop; protected12 and retained native/controller identity checks",
+    "Nine fixtures confined to fresh C-work namespace including nonempty kernel refusal and retained-parent sharing refusal"
+  ],
+  "actual_fixtures": "NOT_RUN_BY_REVIEWER",
+  "actual_production_pruning": "NOT_RUN_BY_REVIEWER",
+  "oldC_rescan_or_payload_reads": 0,
+  "workflow_lock_access": false,
+  "g_writes": 0,
+  "wsl_starts": 0,
+  "review_conveys_production_execution_authority": false
+}
