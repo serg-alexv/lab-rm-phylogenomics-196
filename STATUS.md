@@ -35,3 +35,6 @@ Final admission1 proposal 2026-10-09T01:56:54.674883+00:00: SHA256d1bf90ca8aed09
 
 
 2026-10-09T02:16:19.741964+00:00: Versioned production admission2 proposal 92546808df5c523e8fcdb764a3b3d68f198f4eccbdda45b8922d088eac7defea prepared after preserved pre-native admission1 failure.18focused observer-role rejection fixtures passed. New unique zero-trigger production/observer tasks registered NEVER_STARTED; exact new parent acceptance REQUIRED/ABSENT. All earlier frozen source/proposal/acceptance/cache/scientific bytes retained, no old fixture/suite repeated. Stage04science FAILED/INCOMPLETE;05–07NOT_RUN.
+
+
+2026-10-09T02:24:42.568582+00:00: Versioned production admission3 proposal 959758feb17347cf654f6b9acd793b6cdfab87a4ae325fcea45a96fdb2fd2614 prepared after preserved pre-native admission1 failure.Seven new direct-target/hash/failure-persistence fixtures passed; old18 unchanged fixtures not rerun. New unique zero-trigger production/observer tasks registered NEVER_STARTED; exact new parent acceptance REQUIRED/ABSENT. All earlier frozen source/proposal/acceptance/cache/scientific bytes retained, no old fixture/suite repeated. Stage04science FAILED/INCOMPLETE;05–07NOT_RUN.

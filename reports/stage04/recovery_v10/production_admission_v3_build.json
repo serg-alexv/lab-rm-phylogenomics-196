@@ -1,0 +1,334 @@
+{
+  "utc": "2026-10-09T02:23:56.149879+00:00",
+  "status": "UNADOPTED_NARROW_DIRECT_ROLE_JOINS_OUTCOME_DELTA",
+  "preserved_candidate2_proposal_sha256": "92546808df5c523e8fcdb764a3b3d68f198f4eccbdda45b8922d088eac7defea",
+  "preserved_candidate2_source_sha256": {
+    "stage04_readonly_observer_role_v1.py": "014eac53fbc24d8cb0eddc36ad8afc2479e7bbf85140e680da84dd955b7b24a4",
+    "build_stage04_production_admission_v2.py": "0ef7b911d3aab84b8a3934dfec03fe0b4901a54b2bb712923215af25695b61c2",
+    "test_stage04_readonly_observer_role_v1.py": "514736e44b3c82b956a4ba8ec93ee4fd9bb8799e8293fd0ae90afa84cffd83f6",
+    "prepare_stage04_production_tasks_admission_v2.py": "a5a391ea8484e51e56a4adefab1207c75b5f8695ccd920049cebb781adbf042b",
+    "prepare_stage04_production_freeze_admission_v2.py": "a7debbf46133ce434591285e55bceadcef904828fe15e6541f4f21a9631ba313",
+    "stage04_recovery_controller_v10_admission_v2.py": "4d9484caa1ff7af600d30647a0887bc9ad6abe8e83f35da69f840d50666f221d",
+    "stage04_recovery_validate_v10_admission_v2.py": "7eadb101a8958a8205267bc609b9bffe3ec684fcf8ddaf207d7617f4a9f48a44",
+    "final_check_stage04_recovery_v10_admission_v2.py": "18d82e1425369ecf12a4468d5e6ab7198d24543c3852b9c0da5418915b1fb7ae",
+    "check_stage04_recovery_acceptance_v10_admission_v2.py": "e55b4b0b38ae573261e5bb72507104e30c341a616cdd38b144c1a4e2e3fc90a8",
+    "activate_stage04_recovery_production_v10_admission_v2.ps1": "83cc085795b8ddfb0c5dae3616aa3d3eb7092ac4f84723042d28e5df0b174267"
+  },
+  "generated_source_sha256": {
+    "stage04_recovery_controller_v10_admission_v3.py": "fbd1a510db70b8d7cb3ac7e44deae7a8c1b1d0fc5e849225470ed94ef9cd3c4d",
+    "stage04_recovery_validate_v10_admission_v3.py": "76c7bfe5de0a9681c33f5f0f6b6cacc7ad908b77db9a09770d9cb397fae4f037",
+    "final_check_stage04_recovery_v10_admission_v3.py": "c5fdb84e14143b05f2daf9375e8910552c01673d60433c8aeef702b680417bdd",
+    "check_stage04_recovery_acceptance_v10_admission_v3.py": "227fda3cbca954633146a0a7e8cdeb131ff3ca3a930a1d3716238afacd363ad3",
+    "activate_stage04_recovery_production_v10_admission_v3.ps1": "3fc8304e7f29bd5a897fee7e56d994baf2b830809400ddf3736d9f5eed8c9da3",
+    "prepare_stage04_production_tasks_admission_v3.py": "979db0c190320993fe52591b2b3c1c6b9eb70261a5475f7f62411b2fb3fe46ee",
+    "prepare_stage04_production_freeze_admission_v3.py": "3a60de442c8acccfe01cc1159bf430c5ec22ff83c827e20921181dd176071d1b"
+  },
+  "exact_text_changes": [
+    {
+      "source": "stage04_recovery_controller_v10_admission_v2.py",
+      "destination": "stage04_recovery_controller_v10_admission_v3.py",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 4
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v2.py",
+      "destination": "stage04_recovery_controller_v10_admission_v3.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V3",
+      "occurrences": 2
+    },
+    {
+      "source": "stage04_recovery_controller_v10_admission_v2.py",
+      "destination": "stage04_recovery_controller_v10_admission_v3.py",
+      "old_fragment": "PARENT_RECOVERY_V10_ADMISSION_V2_REVIEW.json",
+      "new_fragment": "PARENT_RECOVERY_V10_ADMISSION_V3_REVIEW.json",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 5
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V3",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "PARENT_RECOVERY_V10_ADMISSION_V2_REVIEW.json",
+      "new_fragment": "PARENT_RECOVERY_V10_ADMISSION_V3_REVIEW.json",
+      "occurrences": 2
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "host_inference_stage04_recovery_v10_production_admission_v2.json",
+      "new_fragment": "host_inference_stage04_recovery_v10_production_admission_v3.json",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "import stage04_readonly_observer_role_v1 as R",
+      "new_fragment": "import stage04_readonly_observer_role_v2 as R",
+      "occurrences": 1
+    },
+    {
+      "source": "stage04_recovery_validate_v10_admission_v2.py",
+      "destination": "stage04_recovery_validate_v10_admission_v3.py",
+      "old_fragment": "'runner_inventory_sha256':inventory['runner_inventory_sha256'],",
+      "new_fragment": "'runner_inventory_sha256':inventory['runner_inventory_sha256'],\n      'role_outcomes_sha256':inventory['role_outcomes_sha256'],",
+      "occurrences": 1
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v2.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v3.py",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 2
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v2.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v3.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V3",
+      "occurrences": 2
+    },
+    {
+      "source": "final_check_stage04_recovery_v10_admission_v2.py",
+      "destination": "final_check_stage04_recovery_v10_admission_v3.py",
+      "old_fragment": "import stage04_readonly_observer_role_v1 as R",
+      "new_fragment": "import stage04_readonly_observer_role_v2 as R",
+      "occurrences": 1
+    },
+    {
+      "source": "check_stage04_recovery_acceptance_v10_admission_v2.py",
+      "destination": "check_stage04_recovery_acceptance_v10_admission_v3.py",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 1
+    },
+    {
+      "source": "activate_stage04_recovery_production_v10_admission_v2.ps1",
+      "destination": "activate_stage04_recovery_production_v10_admission_v3.ps1",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_tasks_admission_v2.py",
+      "destination": "prepare_stage04_production_tasks_admission_v3.py",
+      "old_fragment": "admission_v2",
+      "new_fragment": "admission_v3",
+      "occurrences": 4
+    },
+    {
+      "source": "prepare_stage04_production_tasks_admission_v2.py",
+      "destination": "prepare_stage04_production_tasks_admission_v3.py",
+      "old_fragment": "ADMISSION_V2",
+      "new_fragment": "ADMISSION_V3",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_tasks_admission_v2.py",
+      "destination": "prepare_stage04_production_tasks_admission_v3.py",
+      "old_fragment": "ADMISSION2",
+      "new_fragment": "ADMISSION3",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_tasks_admission_v2.py",
+      "destination": "prepare_stage04_production_tasks_admission_v3.py",
+      "old_fragment": "revision2",
+      "new_fragment": "revision3",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "_v10_admission_v2",
+      "new_fragment": "_v10_admission_v3",
+      "occurrences": 10
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "V10_PRODUCTION_ADMISSION_V2",
+      "new_fragment": "V10_PRODUCTION_ADMISSION_V3",
+      "occurrences": 3
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "stage04_readonly_observer_role_v1.py",
+      "new_fragment": "stage04_readonly_observer_role_v2.py",
+      "occurrences": 4
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "build_stage04_production_admission_v2.py",
+      "new_fragment": "build_stage04_production_admission_v3.py",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "prepare_stage04_production_tasks_admission_v2.py",
+      "new_fragment": "prepare_stage04_production_tasks_admission_v3.py",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "prepare_stage04_production_freeze_admission_v2.py",
+      "new_fragment": "prepare_stage04_production_freeze_admission_v3.py",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "production_admission_v2_registered_tasks",
+      "new_fragment": "production_admission_v3_registered_tasks",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "production_admission_v2_build",
+      "new_fragment": "production_admission_v3_build",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "production_admission_v2_parent_expected",
+      "new_fragment": "production_admission_v3_parent_expected",
+      "occurrences": 3
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "production_admission_v2_preparation",
+      "new_fragment": "production_admission_v3_preparation",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "production_admission_v2_publication",
+      "new_fragment": "production_admission_v3_publication",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "OWNER_PRODUCTION_ADMISSION_V2",
+      "new_fragment": "OWNER_PRODUCTION_ADMISSION_V3",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "OWNER_RECOVERY_V10_ADMISSION_V2",
+      "new_fragment": "OWNER_RECOVERY_V10_ADMISSION_V3",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "Revision2",
+      "new_fragment": "Revision3",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "revision2",
+      "new_fragment": "revision3",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "admission2",
+      "new_fragment": "admission3",
+      "occurrences": 2
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "required=dict(previous['required_review_artifacts'])",
+      "new_fragment": "required=dict(previous['required_review_artifacts'])\n        candidate2_path=S.ROOT/'config/host_inference_stage04_recovery_v10_admission_v2_freeze.json'\n        candidate2=C.load(candidate2_path);OLD.verify_artifacts(candidate2['required_review_artifacts'])\n        required.update(candidate2['required_review_artifacts'])\n        required['data:'+candidate2_path.relative_to(S.ROOT).as_posix()]=C.digest(candidate2_path)",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "guard=C.load(S.REPORT/'production_admission_v2_role_tests.json')",
+      "new_fragment": "guard=C.load(S.REPORT/'production_admission_v3_direct_join_tests.json')",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "guard['status']=='PASS_NEW_EXACT_OBSERVER_ROLE_GUARDS' and guard['tests']==18",
+      "new_fragment": "guard['status']=='PASS_NEW_DIRECT_JOINS_AND_FAILED_ROLE_PERSISTENCE' and guard['tests']==7",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "guard['guard_source_sha256']",
+      "new_fragment": "guard['role_guard_v2_source_sha256']",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "'production_admission_v2_role_tests.json'",
+      "new_fragment": "'production_admission_v3_direct_join_tests.json'",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "'failure_inventory':'NOT_PERSISTED_UNKNOWN_ALL_CANDIDATES'",
+      "new_fragment": "'superseded_unexecuted_candidate2_sha256':C.digest(candidate2_path),\n          'direct_role_policy':'ACTUAL_EXE_SOURCE_SHA_TARGET_CONFIG_DEFINITION_PLUS_EVERY_ROLE_OUTCOME_PERSISTED',\n          'failure_inventory':'NOT_PERSISTED_UNKNOWN_ALL_CANDIDATES'",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "18focused synthetic rejection/argv fixtures passed",
+      "new_fragment": "Seven new direct-target/hash/failure-persistence fixtures passed over the exact unchanged18 previously executed role-v1 fixtures",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "18focused observer-role rejection fixtures passed",
+      "new_fragment": "Seven new direct-target/hash/failure-persistence fixtures passed; old18 unchanged fixtures not rerun",
+      "occurrences": 1
+    },
+    {
+      "source": "prepare_stage04_production_freeze_admission_v2.py",
+      "destination": "prepare_stage04_production_freeze_admission_v3.py",
+      "old_fragment": "No substring/basename exemption.",
+      "new_fragment": "Direct target config/definition, actual executable and accepted source SHA joins are also required; expected role requests and every PASS/FAIL evaluation are persisted onC before a rejection, with complete outcome digest required by boundary/final validation. Candidate2 remains preserved, unexecuted and superseded; its source bytes/18fixture report are inherited without rerunning. No substring/basename exemption.",
+      "occurrences": 1
+    }
+  ],
+  "new_role_guard_source_sha256": "64598e61c9a9e47edd601745a49485f2ab4be1e33242fd24f9bce36b292b0988",
+  "old18_role_guard_report_sha256": "606d7b98ae4cada9a30627792730db2a02944bd15636224a5bda1ce98ee614a0",
+  "scientific_changes": 0,
+  "biological_jobs": 0,
+  "old_suite_or_lifetime_fixture_repeated": false
+}
