@@ -1,0 +1,32 @@
+# Independent directory-prune post-verifier preparation
+
+Production verification is **NOT_RUN** by this preparation. Root reports that its exact `9b64d17b...` pruner exited 0 and closed the 18,445,993-byte `master_directory_prune01_execution.jsonl`. Reading that C-work file's terminal for source/interface inspection did not verify old-C absence, protected bytes, lock identity or current owner liveness. Those remain gated on root-authorized later `--verify` after source review/publication.
+
+`verify_directory_handle_prune.py` is standalone; it imports no pruner, scanner or other producer. Its default is `PREPARED_NO_PRODUCTION_POST_VERIFY` and makes no native queries. Production requires an explicitly pinned verifier source, direct current C-work journal and actual root-authorization paths with their exact SHA256 values, and the exact WD/current C deployment. It fixes the original published proposal (5,542 paths/seven roots/six holds), the actual fresh remote restoration proof, the protected12 receipt, the first failed fixture/source/journal and the corrected independent review to immutable source constants. It does not infer historical closure or create a new cleanup authority.
+
+The journal opens through native GENERIC_READ/share-READ-only handles. This sharing mode requires the producer's writer handle to have closed and then prevents journal write/delete while verification runs. Two serial 256-KiB streaming passes check its full SHA, bound 64MiB/16,628 records/1MiB per line, require a recognized terminal, and independently join exact ordered BEFORE, disposition-mark and AFTER records against each complete original plan row. It validates full volume/128-bit file ID/birth/type joins, all prior planned children, parent timestamp exceptions, source/root-authority/fresh-remote/protected12 bindings, owner births, cumulative terminal counts and zero file/recursive/G/WSL/native operations. Trailing records, no terminal, wrong IDs/births, overclaimed counts and out-of-order events fail. The two actual owner query/synchronize handles are retained and rechecked through the read-only phase.
+
+For current state, it temporarily opens each existing C directory component with `FILE_LIST_DIRECTORY | FILE_READ_ATTRIBUTES` and excludes delete sharing, as proven by the corrected actual fixture. Every component must be a plain directory with the literal expected final handle path. Only Win32 missing-file/missing-path errors 2/3 establish absence; access or provider errors fail. A missing parent can establish a descendant's qualified absence, and the report preserves that first-missing-component witness. The exact protected old-C ancestors and six held-directory handles remain retained for the whole check; their full identities are checked again. A reported current absence is a bounded per-path observation, not a globally atomic filesystem snapshot.
+
+`COMPLETE` is accepted only with all 5,542 matching AFTER records and currently absent paths, unchanged protected/held/fragment identities, protected12 actual full hashes, six explicit dirty-G hashes, original lock identity and both exact native/controller births still alive. A FAILED_PARTIAL terminal produces a partial report (exit2), retaining the incomplete BEFORE/MARK stage, preserved original directory identities, and every unreceipted absence requiring reconciliation. It never upgrades such absence to successful removal or authorizes adoption/resumption. A hard timeout without a terminal is rejected before protected/source payload reads, rather than inventing a failure terminal.
+
+The original `workflow.lock` is opened only for READ_ATTRIBUTES metadata with compatible read/write sharing. The verifier neither reads its contents nor invokes LockFileEx/UnlockFileEx, write, recreate or byte-lock testing. It compares the original independently retained legacy volume/file-ID/full-birth tuple `(2430728143, 844424932784519, 134359335921635133)`, records its current full128 identity, and checks both the retained handle and a fresh current-path metadata open before completion.
+
+Protected12 payload hashing is serial and bounded below16MiB per file; the 8GiB toolchain image is excluded. All C identities require FileIdInfo128. For G regular files only, if that provider does not implement FileIdInfo, the report explicitly records `file_id_128_supported:false`/`file_id_128:null`, retaining native legacy identity/birth/size/times and full accepted SHA256. No unavailable128 ID is fabricated; this fallback does not apply to any C target/lock/control. Actual G provider behavior is not yet measured by this preparation.
+
+The dedicated Python helper has a finite900s timer and monotonic guards. Timer exit124 closes only its own read/query handles. `started.json` then remains incomplete; a regular exception writes a failed receipt. No post-verifier code path deletes files/directories, recursively scans retained source trees, sends process/job signals, starts WSL/inference, writes G, or changes a lock. A successful postcheck grants no further cleanup or host-wipe authority. Root must reconcile any failure, source/control drift or changed native/controller closure separately.
+
+Actual preparation ran18 pure synthetic tests, including correct COMPLETE accounting, failed terminals before/after intent/mark/AFTER, required terminal, trailing duplicates, birth/mark replacements, postorder/time exceptions, overclaimed completion, owner/protected/authority replacement, default-noop and forbidden producer/delete/lock/launch API absence. The tests execute no Windows source/owner/lock APIs and query no old-C/G payloads. The first actual fixture failure (READ_ATTRIBUTES-only ancestor rename was allowed) and the corrected nine-fixture results remain immutable historical evidence.
+
+Root's later invocation has this shape (all hashes must be actual published/final bytes):
+
+```powershell
+& 'C:\Users\wheel\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -B `
+  work/verify_directory_handle_prune.py --verify --source-sha256 ROOT_FINAL_VERIFIER_SHA256 `
+  --journal 'C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\master_directory_prune01_execution.jsonl' `
+  --journal-sha256 ROOT_CLOSED_JOURNAL_SHA256 `
+  --authorization 'C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\master_directory_prune_root_authority01.json' `
+  --authorization-sha256 ROOT_PUBLISHED_AUTHORITY_SHA256
+```
+
+This command has not been run by preparation; its root-owned placeholders prevent accidental inference of authorization.

@@ -1,0 +1,168 @@
+{
+  "complete_prune_verified": false,
+  "control_pins": {
+    "directory_handle_fixture_20261009T211154Z_9cf77be3.json": "348ee7030d49d14524290f0ec27302e67d67d216f342c97a1fb44e83526cc0ac",
+    "directory_handle_fixture_20261009T211154Z_9cf77be3.jsonl": "73a0978d42e5f106d60888187611eb0218314b9aeb016d5b47e4f3cfb48b0a23",
+    "directory_handle_pruner_corrected_independent_review.json": "c0bc38628a140885211a397af9e23bbe10f9f432b2c682c13d44c03cd1d1b20b",
+    "master_history02_postverify_20261009T201921Z_f90337c5/receipt.json": "a20c9c87d42816355434eb3abbd9ffd082c8c1b73557d773901bb3eb1329a082",
+    "master_old_scientific_emptydirs_proposed_02.json": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+    "old_scientific_emptydirs01_readback_20261009T205057Z_9c38bcce/receipt.json": "e71b02889d5443017ef5ab8be206b1fc4e5f9f81c3de14c602eeaeef70c68063",
+    "prune_old_scientific_directories_attempt01.py": "2f608bd1f11b3aac9223c7c751b9a9d8f5cb5c02568861bd6cfeadfff9304604",
+    "test_directory_handle_prune_fixture_attempt01.py": "72e3a86e28f08e845cb37a9ef62f6ea056d220902e7074b4fdc63dbcb8e4d0c7"
+  },
+  "deadline_seconds": 900,
+  "error": {
+    "kind": "ValueError",
+    "message": "Wrong type/reparse/hardlinked regular file"
+  },
+  "finished_utc": "2026-10-09T21:29:39.543229+00:00",
+  "g_writes": 0,
+  "journal_identity": {
+    "attributes": 32,
+    "bytes": 18445993,
+    "change_filetime": "134360545505124305",
+    "creation_filetime": "134360544597562769",
+    "file_id_128": "b7d10b00000011000000000000000000",
+    "file_id_128_supported": true,
+    "last_write_filetime": "134360545505124305",
+    "legacy_file_id": 4785074604855735,
+    "legacy_volume_serial": 2430728143,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune01_execution.jsonl",
+    "volume_serial": "17766949232488609743"
+  },
+  "journal_records": 16628,
+  "journal_sha256": "5ff92323b29af9a6620a251825ea6531e95bbf14ef2ff6c3d36279beb891f4a5",
+  "journal_terminal": {
+    "event": "COMPLETE",
+    "files_deleted": 0,
+    "fragment_unchanged": true,
+    "g_writes": 0,
+    "native_jobs_started": 0,
+    "owners_after": [
+      {
+        "cpu_seconds": 32375.328125,
+        "creation_filetime": 134360369876207076,
+        "executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 4768,
+        "session_id": 1
+      },
+      {
+        "cpu_seconds": 5.0,
+        "creation_filetime": 134360369803845506,
+        "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 27048,
+        "session_id": 1
+      }
+    ],
+    "protected_after": [
+      {
+        "bytes": 40596,
+        "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+        "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+        "unchanged": true
+      },
+      {
+        "bytes": 3393,
+        "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage04_partitioned_config.json",
+        "sha256": "c70b267b04f9fa9c19a2bf0671deabcfd0959545d90a48a912ea463e220be314",
+        "unchanged": true
+      },
+      {
+        "bytes": 94845,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage00\\commands.jsonl",
+        "sha256": "66f6bc98a672c0e8db851a253e814b13392893afd0dd579e90cbefb204df9ecb",
+        "unchanged": true
+      },
+      {
+        "bytes": 80379,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress.json",
+        "sha256": "e56d2d865b415406a9bb7439f90c037d37f734938eaeae37caf22341ea967457",
+        "unchanged": true
+      },
+      {
+        "bytes": 94067,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage02\\retrieval_progress_resume.json",
+        "sha256": "d452c248d829e7d3ac13eb2ebe45886e125371fcee653aa7333d54013b06cb5f",
+        "unchanged": true
+      },
+      {
+        "bytes": 6477,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5\\observations.jsonl",
+        "sha256": "83b28064d856de50ba127dd405f97c45ee50e8a025330a4bfdf15f5de6d6889e",
+        "unchanged": true
+      },
+      {
+        "bytes": 13626,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage04\\resource_wait_v5_v2\\observations.jsonl",
+        "sha256": "43fb9818d37cce3bb5fdecbd780e575b0850a8f0dd6baa37594c347729e42c15",
+        "unchanged": true
+      },
+      {
+        "bytes": 877,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\continuation_execution_receipt.json",
+        "sha256": "beb5d8b795d3f168aa21debd24567016215c55f753e4d86d80e3dc421309461f",
+        "unchanged": true
+      },
+      {
+        "bytes": 12332544,
+        "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+        "sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+        "unchanged": true
+      },
+      {
+        "bytes": 3424904,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+        "sha256": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+        "unchanged": true
+      },
+      {
+        "bytes": 2924,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+        "sha256": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+        "unchanged": true
+      },
+      {
+        "bytes": 670,
+        "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\status\\run_control.json",
+        "sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+        "unchanged": true
+      }
+    ],
+    "recursive_deletes": 0,
+    "removed_directories": 5542,
+    "state": "PASS_EXACT5542_EMPTY_DIRECTORY_HANDLES_REMOVED",
+    "utc": "2026-10-09T21:22:30.512602+00:00",
+    "workflow_lock": "UNTOUCHED_NOT_OPENED",
+    "wsl_starts": 0
+  },
+  "native_scientific_launches": 0,
+  "network_calls": 0,
+  "owners_before": [
+    {
+      "alive": true,
+      "creation_filetime": "134360369876207076",
+      "pid": 4768,
+      "retained_query_handle": true
+    },
+    {
+      "alive": true,
+      "creation_filetime": "134360369803845506",
+      "pid": 27048,
+      "retained_query_handle": true
+    }
+  ],
+  "pending_disposition": null,
+  "producer_imports": 0,
+  "schema": "MASTER_DIRECTORY_HANDLE_PRUNE_INDEPENDENT_POST_VERIFY_V1",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T21:29:34.580865+00:00",
+  "state": "FAILED_INDEPENDENT_DIRECTORY_POST_VERIFY_NO_NEW_CLEANUP_AUTHORITY",
+  "verifier_sha256": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+  "wsl_starts": 0
+}

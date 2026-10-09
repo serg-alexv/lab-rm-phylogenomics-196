@@ -1,14 +1,14 @@
 # Current execution status
 
-Updated 2026-10-09T21:26:25.784354+00:00. Direct user continuation remains active. GitHub main
+Updated 2026-10-09T21:31:37.304984+00:00. Direct user continuation remains active. GitHub main
 and verified Release assets are the durable project authority. Automatic
 continuation remains disabled.
 
-Stage4: the sole partitioned IQ-TREE 3.1.4 worker is advancing at iteration 90
+Stage4: the sole partitioned IQ-TREE 3.1.4 worker is advancing at iteration 100
 on all 196 approved genomes, 100 accepted partitions and 17,456 AA columns.
 The final tree and support are not yet accepted; historical V10 closure is
 UNKNOWN. The fresh native snapshot is
-`reports/master_run/20261009/snapshots/recovery_receipts05/native_progress.json`.
+`reports/master_run/20261009/snapshots/source_recovery_result07/native_progress.json`.
 
 Stage5 dependency split V2 is implemented in addf594d. Detection and per-genome
 curation can queue fixed approved accessions independently of the host tree,
@@ -29,7 +29,7 @@ absence checks. Physical reclaimed bytes are NOT_MEASURED. The additional
 5,542-directory metadata proposal has fresh remote readback PASS. Its corrected
 handle-based pruner passes nine actual Windows fixtures, six preparation guards
 and independent review. The first ancestor-rename failure and exact sources
-are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. Independent filesystem post-verification and full journal remote recovery remain pending.
+are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. The independent filesystem checker stopped at a protected regular-file metadata guard; its exact failed receipt is preserved and diagnosis is pending. No deletion is being repeated. Full journal remote recovery and independent acceptance remain pending.
 
 Recovery: the 194 public changed-history originals (18,622,099 bytes) now pass
 fresh GitHub download and all 216 ZIP-member checks. Five whole private files
@@ -43,7 +43,7 @@ Full IQ-TREE and both pinned submodule source snapshots have 1,938 exact
 original Gitblob bindings in a locally verified 31-member recovery ZIP. Three
 upstream archives remain unchanged; one separate 249-byte LF Gitblob restores
 a diagnosed 264-byte CRLF export. No binary-build equivalence is inferred.
-An independent local inspector also streamed all 1,938 original Gitblob joins and gzip EOF checks successfully. Both Release assets are uploaded; independent fresh source recovery readback remains pending.
+An independent local inspector also streamed all 1,938 original Gitblob joins and gzip EOF checks successfully. Fresh GitHub readback now PASS for all 31 archive members / 30 SUMS and all 1,938 original Gitblob bindings; all 27 owned downloader commands closed exit 0. Installed-binary equivalence remains unproved.
 
 Active tools, original lock, live inputs/checkpoints, six dirty G files and
 installed toolchain remain protected. G stays at launch 160498a6 until exact

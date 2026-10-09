@@ -1,0 +1,43 @@
+{
+  "schema": "MASTER_DIRECTORY_HANDLE_POST_VERIFY_PREPARATION_V1",
+  "state": "PASS_SOURCE_PREPARATION_18_PURE_TESTS_PRODUCTION_POST_VERIFY_NOT_RUN",
+  "production_post_verification": "NOT_RUN",
+  "source_only_independent_review": "PASS",
+  "new_cleanup_or_wipe_authority": false,
+  "producer_imports": 0,
+  "old_c_or_g_payload_queries_by_preparation": 0,
+  "owner_or_lock_native_queries_by_preparation": 0,
+  "true_authority_created_by_preparation": false,
+  "focused_tests": {
+    "command": "python -B -m unittest work/test_verify_directory_handle_prune.py -v",
+    "exit_code": 0,
+    "tests": 18,
+    "reported_runtime_seconds": 0.022,
+    "scope": "PURE_SYNTHETIC_ACCOUNTING_AND_DEFAULT_NO_OPERATION_ONLY"
+  },
+  "closed_root_journal_inspection": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_directory_prune01_execution.jsonl",
+    "bytes": 18445993,
+    "scope": "C_ONLY_SIZE_AND_TERMINAL_FOR_SOURCE_INTERFACE_INSPECTION",
+    "not_an_absence_or_protected_bytes_acceptance": true
+  },
+  "source_pins": {
+    "verify_directory_handle_prune.py": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+    "test_verify_directory_handle_prune.py": "46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42",
+    "directory_handle_postverify_METHODS.md": "3a03f5449f38c28b964987f5321b9785656a3da8dbc37be8aad093971440c648",
+    "directory_handle_postverifier_independent_source_review.json": "5a537805072cd07d1f23e7d681309ba4b70a2607dbe65cc4747e0d51929437c6"
+  },
+  "original_published_plan_sha256": "be2ae1939e1c81d54c63b1fd949928506e2f2251a3e5e9d341b122ac4f72bdf5",
+  "accepted_pruner_source_sha256": "9b64d17bb2612ce35051b87d77863709d875c1f910865fd6a4db2f6ddd265381",
+  "proposed_directories": 5542,
+  "held_directories": 6,
+  "protected_files": 12,
+  "dirty_g_files": 6,
+  "first_failed_fixture_preserved": true,
+  "production_requires": [
+    "root publication and byte verification of final reviewed verifier source",
+    "root explicit --verify with exact final source/journal/authorization SHA256",
+    "closed-writer terminal journal and unchanged pinned plan/recovery/fixture controls",
+    "actual source/protected/held/fragment/owner/lock checks before production acceptance"
+  ]
+}
