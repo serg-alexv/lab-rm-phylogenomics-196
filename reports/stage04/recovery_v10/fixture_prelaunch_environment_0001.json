@@ -1,0 +1,80 @@
+{
+  "utc": "2026-10-09T01:33:38.446129+00:00",
+  "status": "PRODUCTION_SOURCE_GATE_PERMISSION_BLOCK_SYNTHETIC_ONLY_LIFETIME_FIXTURE_SCOPE",
+  "unresolved_service_process": {
+    "ProcessId": 5684,
+    "Name": "wslservice.exe",
+    "CommandLine": null,
+    "ParentProcessId": 1704,
+    "creation_filetime_microsecond_precision": 134359516024735110
+  },
+  "actual_native_service_query": {
+    "winerror": 5,
+    "state": "ACCESS_ERROR_NOT_ABSENCE"
+  },
+  "positive_scm_service_association": {
+    "Name": "WSLService",
+    "State": "Running",
+    "StartName": "LocalSystem",
+    "PathName": "\"C:\\Program Files\\WSL\\wslservice.exe\"",
+    "ProcessId": 5684
+  },
+  "actual_wsl_list_verbose": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "readable_matching_project_runners": [],
+  "recorded_descendant_reconciliation": [
+    {
+      "pid": 8264,
+      "recorded_creation_filetime": 134359651662914448,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_controller"
+    },
+    {
+      "pid": 29132,
+      "recorded_creation_filetime": 134359651870883542,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_native"
+    },
+    {
+      "pid": 27464,
+      "recorded_creation_filetime": 134359641403414121,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_cli"
+    },
+    {
+      "pid": 22176,
+      "recorded_creation_filetime": 134359754592961172,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_publication_worker"
+    },
+    {
+      "pid": 29352,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "native_observer"
+    },
+    {
+      "pid": 25952,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "controller_observer"
+    },
+    {
+      "pid": 30700,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_job_conhost"
+    }
+  ],
+  "actual_stable_lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0,
+    "lock_kind": "msvcrt.LK_NBLCK"
+  },
+  "scientific_jobs": 0,
+  "production_source_gate": "UNCHANGED_FAIL_CLOSED_ON_NULL_COMMANDLINE_WINERROR5_NOT_OVERRIDDEN",
+  "synthetic_scope_basis": "Direct Python fixture only; all recorded old instances reconciled; no readable project/nativeIQTREE runner. Positive WSLService metadata and stopped guest are recorded, not inferred native creation/image access.",
+  "remaining_parent_review": "Explicit reviewed service-role evidence/selector revision needed before production adoption; no access error treated as absence."
+}

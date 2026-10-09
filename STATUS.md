@@ -20,3 +20,6 @@ Native failed-attempt evidence is now separately published/read back in Windows-
 | 7_final_review | NOT_RUN | NOT_RUN | NOT_RUN |
 
 Production retry is blocked by the user-required independent hash-bound parent recovery review, currently REPAIR_REQUIRED. Final V10 proposal/acceptance are not yet written; Stages05–07 remain NOT_RUN. See reports/stage04/recovery_v10/OWNER_REVIEW_REQUEST_0002.md.
+
+
+Additional actual boundary condition 2026-10-09T01:33:38.489470+00:00: strict production source-gate wildcard also selects SYSTEM WSLService PID5684. Its command line/image are unavailable via permitted CIM, and Win32 query returns actualWinError5. SCM positively associates PID5684 with WSLService/LocalSystem/canonical binary; actual wsl --list --verbose shows only Ubuntu Stopped. All recorded old descendants reconcile and no readable matching native/science runner exists. This permits only the already-authorized direct Python synthetic lifetime fixture; production source gate remains UNCHANGED FAIL_CLOSED until independently reviewed service-role evidence/selector repair. No service/guest was stopped, no privilege/security bypass, no access error called absence. Evidence reports/stage04/recovery_v10/fixture_prelaunch_environment_0001.json.
