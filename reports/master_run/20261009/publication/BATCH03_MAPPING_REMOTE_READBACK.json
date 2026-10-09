@@ -1,0 +1,101 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T19:18:57.007587+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "1f5c4e3432d1861b81cb0bd908f0c36e0d77545e",
+  "initial_remote_main": "1f5c4e3432d1861b81cb0bd908f0c36e0d77545e",
+  "declaration_sha256": "19fe284e2c5cb01c928e4d4e2cd3dc47a94d08d7b41713ac4c4e40f1e9652ece",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 9,
+  "verified_files": 9,
+  "files": [
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/README.txt",
+      "bytes": 780,
+      "sha256": "9c686503d6fdc9a60e65a505510089afcdfd0e2646d59f170c045a762f96fce3",
+      "remote_blob": "d7873f4d10dddf10d00ab50ef6bc60ee1fc537bd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/SHA256SUMS.txt",
+      "bytes": 1827,
+      "sha256": "36b7cba28805322c5e8223bceae76220482c5b2cd3083f3bba3d4aa2c3eb02cf",
+      "remote_blob": "754d05ed4a3d5df6cfd3331c4259dcaffff193de",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/build_receipt.json",
+      "bytes": 5312,
+      "sha256": "592be11a4fcff86616b5aa00f3c0201a08a064c14a162d97964bf36066babc0d",
+      "remote_blob": "c7f087e26783336256c6ac47b1808ea8a4436197",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+      "bytes": 106714,
+      "sha256": "13d89bbfdd2b768501426493c8de0eac8a4076ed1aca789ab87ea1df759b7f1e",
+      "remote_blob": "36e430fe8ae8aa0a82ceab24c478f2b51a900260",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/batch03_mapping01/source_binding.json",
+      "bytes": 3255,
+      "sha256": "6e47a982ffb8eee6135f80d6e64089cf60399232918474909c032938d8976ae2",
+      "remote_blob": "0920bbd30eeae1bfc1a52d39044b7adc7794b819",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/SOURCE_SPLIT_GIT_OBJECTS.json",
+      "bytes": 6958,
+      "sha256": "95c25971c4ef06904e0d3c1609a55876e970b78eb85796666935b36af415eb83",
+      "remote_blob": "d1e9477a7b50ae1ccfbff1629194e52dcd5b3359",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/SOURCE_SPLIT_REMOTE_READBACK.json",
+      "bytes": 12911,
+      "sha256": "68f1c3ac7cca8208339e83fc6f34d60bb21faea661d47254a5bc39ae4259eb7f",
+      "remote_blob": "e50fd2620e893bc2dde8a1d691484793afca49c2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/build_batch03_mapping_archive.py",
+      "bytes": 12449,
+      "sha256": "68437b5b2cb60746dd804e46bcc7c39c59ad0c4afc005497f1f7c3922aef1708",
+      "remote_blob": "7ad02bb9895d3f79a717199809eaec2e6db3f42a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_batch03_mapping_plan.py",
+      "bytes": 1431,
+      "sha256": "3db8b3af020927a5a3e5a42646238000b3cc0441fea7cd31e797c9c0971abd23",
+      "remote_blob": "0fd066ccba02f83cc3fd9532f60409951e31bfc0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "1f5c4e3432d1861b81cb0bd908f0c36e0d77545e",
+  "finished_utc": "2026-10-09T19:19:01.057330+00:00",
+  "elapsed_seconds": 4.048628599999574,
+  "verified_bytes": 151637
+}

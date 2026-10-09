@@ -1,0 +1,55 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T19:18:47.613360+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "addf594d69990b4d4bc95d1e0fa38c76f59efdd6",
+  "tree": "245609407013717feb9630090dc3ca9f5e5b182f",
+  "commit": "1f5c4e3432d1861b81cb0bd908f0c36e0d77545e",
+  "files": [
+    {
+      "target": "scripts/master_run/build_batch03_mapping_archive.py",
+      "bytes": 12449,
+      "sha256": "68437b5b2cb60746dd804e46bcc7c39c59ad0c4afc005497f1f7c3922aef1708"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_batch03_mapping_plan.py",
+      "bytes": 1431,
+      "sha256": "3db8b3af020927a5a3e5a42646238000b3cc0441fea7cd31e797c9c0971abd23"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/SOURCE_SPLIT_GIT_OBJECTS.json",
+      "bytes": 6958,
+      "sha256": "95c25971c4ef06904e0d3c1609a55876e970b78eb85796666935b36af415eb83"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/SOURCE_SPLIT_REMOTE_READBACK.json",
+      "bytes": 12911,
+      "sha256": "68f1c3ac7cca8208339e83fc6f34d60bb21faea661d47254a5bc39ae4259eb7f"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_mapping01/build_receipt.json",
+      "bytes": 5312,
+      "sha256": "592be11a4fcff86616b5aa00f3c0201a08a064c14a162d97964bf36066babc0d"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_mapping01/source_binding.json",
+      "bytes": 3255,
+      "sha256": "6e47a982ffb8eee6135f80d6e64089cf60399232918474909c032938d8976ae2"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_mapping01/conservative_leaf_assessment.json",
+      "bytes": 106714,
+      "sha256": "13d89bbfdd2b768501426493c8de0eac8a4076ed1aca789ab87ea1df759b7f1e"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_mapping01/README.txt",
+      "bytes": 780,
+      "sha256": "9c686503d6fdc9a60e65a505510089afcdfd0e2646d59f170c045a762f96fce3"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/batch03_mapping01/SHA256SUMS.txt",
+      "bytes": 1827,
+      "sha256": "36b7cba28805322c5e8223bceae76220482c5b2cd3083f3bba3d4aa2c3eb02cf"
+    }
+  ]
+}
