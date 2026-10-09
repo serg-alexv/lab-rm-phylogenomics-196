@@ -1,0 +1,83 @@
+{
+  "schema": "MASTER_PUBLIC_ARCHIVE_READBACK_PREPARATION_V1",
+  "state": "LOCAL_ALL_COMPONENTS29_AND_HISTORY882_BYTES_VERIFIED_REMOTE_NOT_RUN",
+  "utc": "2026-10-09T19:50:24.495509+00:00",
+  "source_files": [
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_master_public_components01_remote.py",
+      "remote_path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "bytes": 20111,
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_master_public_history02_remote.py",
+      "remote_path": "scripts/master_run/verify_master_public_history02_remote.py",
+      "bytes": 17217,
+      "sha256": "205cccefc5511fbbcfcd3eae9e1a26f4e4039939db2fcf6de64516fa4f68f4f4"
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_public_archive_readback.py",
+      "remote_path": "scripts/master_run/test_public_archive_readback.py",
+      "bytes": 2514,
+      "sha256": "33479ba70e9aca75f099de3fb93f3a87bb2ebb70443d8a60b41f89bc1ca7cc43"
+    }
+  ],
+  "local_inspection_receipts": [
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_components01_readback_20261009T194447Z_c4237c0f\\receipt.json",
+      "state": "PASS_LOCAL_COMPONENTS29_MEMBERS_REMOTE_NOT_RUN",
+      "sha256": "d5d53d3b359a8285b430b0a7d27e82c3e8ea59b122c4a1dde76f8da947b7e730",
+      "bytes": 12802
+    },
+    {
+      "local_absolute_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\public_history02_readback_20261009T194806Z_3d1f2545\\receipt.json",
+      "state": "PASS_LOCAL_HISTORY02_882_MEMBERS_837_ORIGINALS_REMOTE_NOT_RUN",
+      "sha256": "11c657eb9b2becb3f591de15f61aaea6abbffa3488f17ae22a86635f918ce1a0",
+      "bytes": 312462
+    }
+  ],
+  "synthetic_contract_tests": {
+    "tests": 5,
+    "passed": 5,
+    "seconds": 0.059,
+    "biological": false
+  },
+  "publication_controls": {
+    "components01": [
+      "build_receipt.json",
+      "source_binding.json",
+      "original_source_manifest.json",
+      "component_source_map.json",
+      "README.txt",
+      "SHA256SUMS.txt"
+    ],
+    "history02": [
+      "asset_index.json",
+      "build_receipt.json",
+      "source_binding.json",
+      "original_member_mapping.json",
+      "PUBLICATION_CONTROL_SHA256.json",
+      "REVIEW.md",
+      "ATTRIBUTION_AND_SCOPE.txt"
+    ],
+    "history02/inspection": [
+      "inspection.json",
+      "manual_scope_review.json",
+      "excluded_files.json",
+      "public_scope.json"
+    ]
+  },
+  "immutable_source_commit": "ROOT_TO_SUPPLY_AFTER_PUBLICATION",
+  "release_tag": "master-run-storage-20261009-v1",
+  "expected_tag_commit": "46c7089f906cce59afabaa4449b05df36ee124de",
+  "remote_downloads": 0,
+  "source_deletions": 0,
+  "wsl_starts": 0,
+  "g_writes": 0,
+  "scientific_jobs": 0,
+  "limitations": [
+    "Components lacks full IQTREE corresponding source and standalone Intel runtime license; no complete installed environment restore claim",
+    "History excludes one source fragment lacking package notices; historical native closure and science are not inferred",
+    "Original privacy screening provenance is pinned; byte readback does not rerun scientific or privacy classification"
+  ]
+}

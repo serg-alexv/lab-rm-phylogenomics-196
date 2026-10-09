@@ -1,0 +1,256 @@
+{
+  "authoritative_control_readback": [
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 5820,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/manifest.json",
+      "remote_blob": null,
+      "sha256": "50819c81868069f0176dbc6134ff029620beb32de1b03ef9b667929ea1bb45a4"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 10010,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/source_bindings.json",
+      "remote_blob": null,
+      "sha256": "d76781caae16bcca791484768eb14c816301e5edda3c109fcedc5466eb34f477"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 1320,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/build_receipt.json",
+      "remote_blob": null,
+      "sha256": "27045ae12fd0761f9c0f44d463390931dc15d163cd5638bb194331263f48d3eb"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 16076,
+      "commit": null,
+      "path": "scripts/master_run/build_master_batch03_execution_archive.py",
+      "remote_blob": null,
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 20111,
+      "commit": null,
+      "path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "remote_blob": null,
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    }
+  ],
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "current_original_filesystem_checks_rerun": false,
+  "finished_utc": "2026-10-09T20:04:02.851890+00:00",
+  "g_writes": 0,
+  "internal_sum_entries": 22,
+  "journal": {
+    "logical_removed_bytes": 6565902818,
+    "physical_disk_reclaimed_bytes": "NOT_MEASURED",
+    "records_including_begin": 94860,
+    "removed_files": 47429,
+    "terminal_utc": "2026-10-09T19:59:51.6935616Z"
+  },
+  "members": [
+    {
+      "bytes": 2315,
+      "crc32": "31b0b057",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": false,
+      "member": "SHA256SUMS.txt",
+      "sha256": "f8a68c6813eefacd2345b699fd3632f5a605ac0da7c400202c0d0c6b86fd31e7"
+    },
+    {
+      "bytes": 17891,
+      "crc32": "853efd4f",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/Invoke-MasterBatch03LeafPurge.ps1",
+      "sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c"
+    },
+    {
+      "bytes": 2356,
+      "crc32": "983914ac",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/Test-MasterBatch03LeafPurge.ps1",
+      "sha256": "69c3971a3220e3d72297756fc149a6cb2d831d813a225e895ba60758ca864915"
+    },
+    {
+      "bytes": 16076,
+      "crc32": "309a98f7",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/build_master_batch03_execution_archive.py",
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    {
+      "bytes": 7748,
+      "crc32": "9b0141b3",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/prepare_master_batch03_leaf_purge.py",
+      "sha256": "b26e130c3f5e857ccd1491a5489577ef78f10abbf589ec000b2652a86555e1f2"
+    },
+    {
+      "bytes": 2737,
+      "crc32": "d93e8792",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/test_master_batch03_execution_archive.py",
+      "sha256": "33e3b9cdea2dd5bff20ee0d9fe1709a5e3c12a2b4e3a95d4247f939d3168cbeb"
+    },
+    {
+      "bytes": 3693,
+      "crc32": "ef12a91f",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/test_master_batch03_leaf_purge.py",
+      "sha256": "5ca75eb48204d89576fb42125140cbc4fd3e561e32b3b7ab93091641917ca57f"
+    },
+    {
+      "bytes": 3056,
+      "crc32": "50078f24",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/test_master_batch03_postverify.py",
+      "sha256": "167a768a5ce607880e540e96d107b5f90c1bf430f3d42f50727cfa4616f6b557"
+    },
+    {
+      "bytes": 17279,
+      "crc32": "37aede64",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/verify_master_batch03_leaf_purge.py",
+      "sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f"
+    },
+    {
+      "bytes": 14983,
+      "crc32": "fb1ddcba",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/proposed.json",
+      "sha256": "3f291dc20bb7051a9586aaefc75b7c57c463fba03e87d5ea8c9cdd2dc2ffd952"
+    },
+    {
+      "bytes": 3005,
+      "crc32": "68794526",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/protected_before.json",
+      "sha256": "22d307f5bba8a98dbd060e3d1d091e22c7f70dc85b40e77ada04c0eef36ce1a7"
+    },
+    {
+      "bytes": 10010,
+      "crc32": "8b76cd51",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/source_bindings.json",
+      "sha256": "d76781caae16bcca791484768eb14c816301e5edda3c109fcedc5466eb34f477"
+    },
+    {
+      "bytes": 38773007,
+      "crc32": "1dbcb145",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "execution/full_public_cleanup_journal.jsonl",
+      "sha256": "3331af8009aa7a9dbbb9d49d8cb044cd59dc60a78452c233b109e531497a717e"
+    },
+    {
+      "bytes": 263064,
+      "crc32": "faf0b8df",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "execution/independent_postverify.json",
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    {
+      "bytes": 17392,
+      "crc32": "0ebfb86a",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "recovery/mapping_archive_remote_readback.json",
+      "sha256": "edb749c997c3d68b061af0441807cd7eb9a8b3df453474d69c740c6640e182d1"
+    },
+    {
+      "bytes": 6921443,
+      "crc32": "02307e41",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "recovery/master_batch03_scientific_cache_mapping01.zip",
+      "sha256": "f6d7e0558953d2542ca085552a6cd8219a4ec1acde4072ce6f03d12dd953178e"
+    },
+    {
+      "bytes": 3542,
+      "crc32": "116ad6fa",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "recovery/purge_git_objects.json",
+      "sha256": "0d8932ecc38b2049c6f3ab4031c7b586a0b0caf98d09a7ffb2ad5cb617f01398"
+    },
+    {
+      "bytes": 6541,
+      "crc32": "e1136fb5",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "recovery/purge_source_remote_readback.json",
+      "sha256": "b4cca6490a1261bf5d9badfbc4bec96ff46473fb436394e7f3be1e36e735b412"
+    },
+    {
+      "bytes": 125,
+      "crc32": "78957d3c",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "reviews/actual_stream_parser_check.json",
+      "sha256": "7dc02ca7f57069713ffb045f9f7da86d313c027461847b37250cf3823b8c297c"
+    },
+    {
+      "bytes": 6558,
+      "crc32": "1e0f8f76",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "reviews/leaf_purge_PREPARATION.md",
+      "sha256": "2d9bd848bdabdd7748faaad7cf5e8f3ca2cdd57d69dd7da3923250164bd13b55"
+    },
+    {
+      "bytes": 3159,
+      "crc32": "62ba24ff",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "reviews/leaf_purge_preparation_checks.json",
+      "sha256": "ca06101bee75f0f99a533b1116dd2091d517a405a5116e9602b9dfd2f3c88f6e"
+    },
+    {
+      "bytes": 3261,
+      "crc32": "c97fd99e",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "reviews/postverify_PREPARATION.md",
+      "sha256": "8ee96c5ad094f089b580377c75a7d6e0c8ce651cec825e2af9a281604dda48c8"
+    },
+    {
+      "bytes": 2067,
+      "crc32": "b392ba2c",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "reviews/postverify_preparation_checks.json",
+      "sha256": "03bdc0758900f49ca0509f5ea6c8685b74ef3e0d46c3c1ccaece6751abfa3eb6"
+    }
+  ],
+  "mode": "LOCAL_INSPECTION",
+  "payload_execution": 0,
+  "postverify_sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868",
+  "protected_files_verified_at_original_postcheck": 12,
+  "residual_leaf_race": "Exclusive hash handle closes before literal PowerShell Remove-Item. Short leaf replacement interval explicitly retained; no atomic-delete claim.",
+  "retained_originals_verified_at_original_postcheck": 838,
+  "schema": "MASTER_BATCH03_EXECUTION01_INDEPENDENT_READBACK_V1",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T20:03:59.155717+00:00",
+  "state": "PASS_LOCAL_EXECUTION23_MEMBERS_REMOTE_NOT_RUN",
+  "verifier_source_sha256": "b3c95e65e689cc90e54feca3c34f5aa50be1282dabe66fb984b5bc3d832a81c9",
+  "wsl_starts": 0,
+  "zip_members": 23
+}

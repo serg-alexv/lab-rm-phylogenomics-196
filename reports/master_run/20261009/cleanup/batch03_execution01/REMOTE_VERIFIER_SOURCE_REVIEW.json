@@ -1,0 +1,49 @@
+{
+  "schema": "MASTER_BATCH03_EXECUTION_REMOTE_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_AND_SYNTHETIC_CONTRACTS_NO_CONCRETE_BLOCKER",
+  "scope": "SOURCE_ONLY_PLUS_SYNTHETIC_JOURNAL_TESTS",
+  "reviewed_files": {
+    "verify_master_batch03_execution_remote.py": "b3c95e65e689cc90e54feca3c34f5aa50be1282dabe66fb984b5bc3d832a81c9",
+    "verify_master_public_components01_remote.py": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+  },
+  "checks": [
+    "Pinned shared readback helper is imported; the archive producer is not imported or executed.",
+    "Outer metadata, producer code, archive bytes, embedded source bindings, all 23 ZIP members and internal SHA256SUMS are joined against independent fixed pins.",
+    "Fresh remote mode reads actual Git blob bytes at the supplied immutable source commit and checks current Release tag and asset identities/digests before and after download.",
+    "Actual archived postverify and full journal must match the fixed successful execution hashes.",
+    "Journal requires exact proposal authority, ordered intent/removal bindings, unique literal paths, cumulative accounting, exact terminal counts, and no rows after completion.",
+    "Receipt distinguishes original historical filesystem verification from current readback and grants no new cleanup authority or biological acceptance."
+  ],
+  "tests": {
+    "source": "test_master_batch03_execution_remote.py",
+    "sha256": "9d4dcf7bbf9e470283de63690a027ad8c382df7ad79888ad31c3da4179452dab",
+    "command": "python -B -m unittest -v test_master_batch03_execution_remote.py",
+    "working_directory": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work",
+    "exit_code": 0,
+    "tests_run": 9,
+    "elapsed_seconds": 10.054,
+    "coverage": [
+      "A full synthetic journal of 47429 pairs produces 94860 records and exact logical accounting.",
+      "Wrong authority, detached or mismatched outcomes, overlapping or repeated intents and bad cumulative counters fail.",
+      "Missing completion, partial STOP, wrong terminal scope/accounting and post-terminal rows fail.",
+      "Changed postverify pin, physical-reclaim claim, logical byte count, private-event scope or scientific-acceptance scope fails before any archive read."
+    ]
+  },
+  "limitations": [
+    "This review did not execute the verifier in local or fresh remote mode; root's separately reported actual local readback is distinct evidence.",
+    "Fresh remote acceptance remains NOT_RUN by this reviewer and requires publication of the fixed controls and archive.",
+    "The journal parser is an additional semantic check of fixed byte-identical historical evidence, not a generic authorization or independent present-day leaf identity check.",
+    "Current original filesystem and native owner checks are not rerun by this archive readback. Historical postverify remains explicitly dated evidence.",
+    "Logical removed bytes are not measured physical disk reclamation. The original accepted close-to-literal-Remove leaf replacement interval remains disclosed."
+  ],
+  "operations_performed": {
+    "source_reads": true,
+    "synthetic_tests": true,
+    "network_calls": 0,
+    "g_writes": 0,
+    "deletions": 0,
+    "wsl_starts": 0,
+    "native_jobs": 0,
+    "producer_execution": 0
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "authoritative_control_readback": [
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 8229,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/build_receipt.json",
+      "remote_blob": "431544e6be7adb9613012958d40364771b47b6eb",
+      "sha256": "cbc1797cf692c88a8366244731575cd994352568d4a9e4bf610ac9c8d0734fe7"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 4983,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/source_binding.json",
+      "remote_blob": "801bb5abef6ad146c7c673adb1f4a2090cbca5ce",
+      "sha256": "89a1035594d340bbb52513ee852e5fe547d3803921ba8e00192b2ecf728f1038"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 12329,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/original_source_manifest.json",
+      "remote_blob": "e3a6300889547182604b5fbdef49f4cdfd6d9537",
+      "sha256": "ebb682c7e5e95ba8bb2b8b5ed1f090a0b4aa4e23297c083bfbbc1935b40f540a"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 4932,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/component_source_map.json",
+      "remote_blob": "3d649150b4071da6ef662a8bacf49c9e0dca328e",
+      "sha256": "776e5d432a6b76855036c23cfed52c5e8d1c2152930e3c5f49bccc28402937b6"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 690,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/README.txt",
+      "remote_blob": "1d30fc0af83d8f6bb7292ba25457486bbed09120",
+      "sha256": "04bfac5bcd27be70dc6ceb36ef06a39a6662386784694596e72f1dcd6431bfdd"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 2887,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "reports/master_run/20261009/cleanup/components01/SHA256SUMS.txt",
+      "remote_blob": "0fb7254b01d3c77cdec2fd84468359421dbf3957",
+      "sha256": "aa0f7ac6c8cef21895a504ca9f6e3e87d1f22f1f2a36120d18a08104f69b8bf1"
+    },
+    {
+      "actual_remote_bytes_read": true,
+      "bytes": 18398,
+      "commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+      "path": "scripts/master_run/build_master_public_components01.py",
+      "remote_blob": "a4e5f7b6bdfd367f72b4c6dda3b44ab5f938dda5",
+      "sha256": "352f8fd6e7b1419a923d89b162b7bdad11b8e161f45f0ec83c0a7b285a5fc4a6"
+    }
+  ],
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "distinct_package_sha256": 339,
+  "downloaded_assets": [
+    {
+      "bytes": 228162511,
+      "name": "master_public_components01.zip",
+      "remote_asset_id": 626003321,
+      "remote_digest": "sha256:4663ddfb3e204bff5d0ba6f218717eae28ddd56bf4c51d325bb2b0db240dca35",
+      "sha256": "4663ddfb3e204bff5d0ba6f218717eae28ddd56bf4c51d325bb2b0db240dca35"
+    },
+    {
+      "bytes": 97,
+      "name": "master_public_components01.zip.sha256",
+      "remote_asset_id": 626009462,
+      "remote_digest": "sha256:c1f9ed7512cbe2c32f9aa9e0e2ebe9ecbe9f533a9a224278d3bbe2af11430ef2",
+      "sha256": "c1f9ed7512cbe2c32f9aa9e0e2ebe9ecbe9f533a9a224278d3bbe2af11430ef2"
+    }
+  ],
+  "expected_tag_commit": "46c7089f906cce59afabaa4449b05df36ee124de",
+  "finished_utc": "2026-10-09T19:54:11.840484+00:00",
+  "full_iqtree_corresponding_source_not_in_selected_inputs": true,
+  "g_writes": 0,
+  "installed_toolchain_image_included": false,
+  "limitations": [
+    "Retained source archive bytes pinned; upstream byte equivalence not newly fetched",
+    "Full IQ-TREE corresponding source archive and standalone Intel runtime license not included",
+    "No installed toolchain image, package payloads, or complete host restore claim"
+  ],
+  "members": [
+    {
+      "bytes": 690,
+      "crc32": "7556f832",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "README.txt",
+      "sha256": "04bfac5bcd27be70dc6ceb36ef06a39a6662386784694596e72f1dcd6431bfdd"
+    },
+    {
+      "bytes": 2887,
+      "crc32": "336411d2",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": false,
+      "member": "SHA256SUMS.txt",
+      "sha256": "aa0f7ac6c8cef21895a504ca9f6e3e87d1f22f1f2a36120d18a08104f69b8bf1"
+    },
+    {
+      "bytes": 18398,
+      "crc32": "05848ff6",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "code/build_master_public_components01.py",
+      "sha256": "352f8fd6e7b1419a923d89b162b7bdad11b8e161f45f0ec83c0a7b285a5fc4a6"
+    },
+    {
+      "bytes": 4932,
+      "crc32": "9bc36821",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/component_source_map.json",
+      "sha256": "776e5d432a6b76855036c23cfed52c5e8d1c2152930e3c5f49bccc28402937b6"
+    },
+    {
+      "bytes": 12329,
+      "crc32": "60e09c86",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/original_source_manifest.json",
+      "sha256": "ebb682c7e5e95ba8bb2b8b5ed1f090a0b4aa4e23297c083bfbbc1935b40f540a"
+    },
+    {
+      "bytes": 4983,
+      "crc32": "182343f9",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "control/source_binding.json",
+      "sha256": "89a1035594d340bbb52513ee852e5fe547d3803921ba8e00192b2ecf728f1038"
+    },
+    {
+      "bytes": 124407,
+      "crc32": "a5f6389c",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "manifests/accepted_source_pins.json",
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    {
+      "bytes": 206293,
+      "crc32": "3158987a",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "manifests/detector_package_manifest.json",
+      "sha256": "45fc8f2d49ea313afd7a18d489b6dfe8cf940591334a713ef584fca1ccb2e382"
+    },
+    {
+      "bytes": 116540,
+      "crc32": "6808565b",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "manifests/host_package_manifest.json",
+      "sha256": "e8c84f6c390cc0f03349c54f3992d7cc790a5388c15eec5c4ad5bab7453bfe48"
+    },
+    {
+      "bytes": 2020,
+      "crc32": "3277ccdb",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "manifests/iqtree_source_pin.json",
+      "sha256": "4aa14af2a09fb0bf79629dd38dff1218c913f2d8ebd91120200d743cf03d73d4"
+    },
+    {
+      "bytes": 3647,
+      "crc32": "009a8150",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "manifests/recorded_wsl_toolchain_probe.txt",
+      "sha256": "3b774b536057121c1498233dee5b84cb029d5b1dcc678d8f107f0ddb8665a60d"
+    },
+    {
+      "bytes": 12332544,
+      "crc32": "d11ccfb6",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/bin/iqtree3-click.exe",
+      "sha256": "9a43fe5e2a07e4c9ff55b1baa527e1215d33080bef44193e85433ee6b7e96a11"
+    },
+    {
+      "bytes": 12332544,
+      "crc32": "000c705d",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/bin/iqtree3.exe",
+      "sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed"
+    },
+    {
+      "bytes": 1114552,
+      "crc32": "ac1dc35f",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/bin/libiomp5md.dll",
+      "sha256": "946269ecbcce6950571f1c2405044810dfb8983fff35c633705adf799dfb6cb8"
+    },
+    {
+      "bytes": 2256166,
+      "crc32": "913360f5",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/example.cf",
+      "sha256": "8e77e8c4905c15dc5f5019583df8444eecb0e9324bcf0314de7ae959348d85f3"
+    },
+    {
+      "bytes": 183,
+      "crc32": "6c879254",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/example.nex",
+      "sha256": "34c34229ca3abb6993d486bbf00c2488391d65415863aab4302cb981113c2b10"
+    },
+    {
+      "bytes": 34196,
+      "crc32": "efa45f6e",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/example.phy",
+      "sha256": "235d54823a51869429052fbf6e8362b1b89a3bb490c99b849eb3c52a5deeb7c9"
+    },
+    {
+      "bytes": 122624,
+      "crc32": "acb704df",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "native/iqtree-3.1.4-Windows/models.nex",
+      "sha256": "4f3c6ae2de3ffcb4095fa42729f2e0fa40f8dfdb36e5b86c79979f38bf3c846f"
+    },
+    {
+      "bytes": 1920,
+      "crc32": "d13131ef",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/ATTRIBUTION_AND_SOURCE_MAP.md",
+      "sha256": "5d3426418c96f57fecf003bc1b73d8072d43e3578a9b34ed900b989a8a8f4155"
+    },
+    {
+      "bytes": 281,
+      "crc32": "d1905c40",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/CasFinder-3.1.0/LICENSE",
+      "sha256": "75255b8ca7915613f67b70ff86a6d602ba8cc052f8537da78e74be81350da49c"
+    },
+    {
+      "bytes": 8851,
+      "crc32": "28e75ffb",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/CasFinder-3.1.0/README.md",
+      "sha256": "f09d4fddc320b461731aabafb3a96dae5d31d9cc99634f44bda495e8b67801fe"
+    },
+    {
+      "bytes": 18047,
+      "crc32": "a36db529",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/IQTREE-3.1.4-LICENSE.txt",
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+    },
+    {
+      "bytes": 34444,
+      "crc32": "bfed7565",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/defense-finder-models-3.0.0/LICENSE",
+      "sha256": "c020be01b4705926def41008fb1c64972cd0983b70e8b2a4190e1a6931429462"
+    },
+    {
+      "bytes": 3367,
+      "crc32": "3a60b783",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/defense-finder-models-3.0.0/README.md",
+      "sha256": "371dfa3a866e0413965eb513bf8aa9b642f938d9ceb87b69920a03d33bcae39e"
+    },
+    {
+      "bytes": 1071,
+      "crc32": "6cb1890c",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/padloc-db-2.0.0/LICENSE",
+      "sha256": "423fe867ccdb9084f10f05d732217efde28987d4815815bba438feb9b1e0d756"
+    },
+    {
+      "bytes": 7797,
+      "crc32": "7b7c7e87",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "notices/padloc-db-2.0.0/README.md",
+      "sha256": "bc2942e5021d09fb2350d4d81e79aa89b1a28c97cc97a2f6d0c37f45f38d4fcf"
+    },
+    {
+      "bytes": 14908642,
+      "crc32": "aeccbdf6",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "sources/CasFinder-3.1.0.tar.gz",
+      "sha256": "c2f7cb124d0500ed97826a77fefd1c6a2ebce7c791e5e990c445f9cbf8da0bc8"
+    },
+    {
+      "bytes": 55000078,
+      "crc32": "71458f96",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "sources/defense-finder-models-3.0.0.tar.gz",
+      "sha256": "77e3486c30a889ee2b38121ea481769e12bd1871b0e6b6a0fdd845bdb42e97eb"
+    },
+    {
+      "bytes": 146280058,
+      "crc32": "267e5426",
+      "crc_verified": true,
+      "internal_sha256_manifest_covered": true,
+      "member": "sources/padloc-db-2.0.0.tar.gz",
+      "sha256": "de1c9697ee735c7c8a856295ace5614c9c1959b6010cbc074a29125aa9c04fc9"
+    }
+  ],
+  "mode": "FRESH_REMOTE",
+  "original_notice_readback": [
+    {
+      "entries": 586,
+      "original_notices": {
+        "CasFinder-ad7096548a814788ca04538602d71f85115b4c71/LICENSE": "75255b8ca7915613f67b70ff86a6d602ba8cc052f8537da78e74be81350da49c",
+        "CasFinder-ad7096548a814788ca04538602d71f85115b4c71/README.md": "f09d4fddc320b461731aabafb3a96dae5d31d9cc99634f44bda495e8b67801fe"
+      },
+      "source_archive": "sources/CasFinder-3.1.0.tar.gz"
+    },
+    {
+      "entries": 2524,
+      "original_notices": {
+        "defense-finder-models-9b0d07b759f5f73d8c2b9aa3e696f4cdd04c11d2/LICENSE": "c020be01b4705926def41008fb1c64972cd0983b70e8b2a4190e1a6931429462",
+        "defense-finder-models-9b0d07b759f5f73d8c2b9aa3e696f4cdd04c11d2/README.md": "371dfa3a866e0413965eb513bf8aa9b642f938d9ceb87b69920a03d33bcae39e"
+      },
+      "source_archive": "sources/defense-finder-models-3.0.0.tar.gz"
+    },
+    {
+      "entries": 5485,
+      "original_notices": {
+        "padloc-db-7f99b47b75e232b111c18626badb9ac32e8e0b5a/LICENSE": "423fe867ccdb9084f10f05d732217efde28987d4815815bba438feb9b1e0d756",
+        "padloc-db-7f99b47b75e232b111c18626badb9ac32e8e0b5a/README.md": "bc2942e5021d09fb2350d4d81e79aa89b1a28c97cc97a2f6d0c37f45f38d4fcf"
+      },
+      "source_archive": "sources/padloc-db-2.0.0.tar.gz"
+    }
+  ],
+  "original_payload_bytes_reread": false,
+  "original_source_bytes": 244870939,
+  "original_sources": 17,
+  "package_artifacts_included": false,
+  "package_records": 397,
+  "payload_execution": 0,
+  "payload_members": 28,
+  "release_id": 408227056,
+  "release_tag_and_assets_unchanged_before_after": true,
+  "release_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/master-run-storage-20261009-v1",
+  "schema": "MASTER_PUBLIC_COMPONENTS01_INDEPENDENT_READBACK_V1",
+  "source_commit": "2ad42f8c3d78a974f22533a4f21ef1b5e8562a8b",
+  "source_deletions": 0,
+  "source_manifest_sha256": "ebb682c7e5e95ba8bb2b8b5ed1f090a0b4aa4e23297c083bfbbc1935b40f540a",
+  "standalone_intel_runtime_notice_gap": true,
+  "started_utc": "2026-10-09T19:53:12.876537+00:00",
+  "state": "PASS_FRESH_REMOTE_COMPONENTS29_MEMBERS_17_ORIGINALS_EXPLICIT_NOTICE_GAPS",
+  "tag": "master-run-storage-20261009-v1",
+  "verifier_source_sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691",
+  "wsl_starts": 0,
+  "zip_members": 29
+}

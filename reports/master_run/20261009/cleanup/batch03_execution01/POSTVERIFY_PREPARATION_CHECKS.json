@@ -1,0 +1,56 @@
+{
+  "actual_post_purge_verification": "NOT_RUN_WAITING_ROOT_TERMINAL_SIGNAL",
+  "component_tests": {
+    "actual_windows_birth_fixture": "Own Python process/.NET\u2192retained Win32 fullFILETIME equal; birth+1 rejected; no actualnative/controller query",
+    "command": "python -B -m unittest test_master_batch03_postverify",
+    "failed": 0,
+    "passed": 6,
+    "tests": 6
+  },
+  "files": {
+    "master_batch03_postverify_PREPARATION.md": {
+      "bytes": 3261,
+      "sha256": "8ee96c5ad094f089b580377c75a7d6e0c8ce651cec825e2af9a281604dda48c8"
+    },
+    "master_batch03_protected_before.json": {
+      "bytes": 3005,
+      "sha256": "22d307f5bba8a98dbd060e3d1d091e22c7f70dc85b40e77ada04c0eef36ce1a7"
+    },
+    "master_batch03_purge_remote_readback.json": {
+      "bytes": 6541,
+      "sha256": "b4cca6490a1261bf5d9badfbc4bec96ff46473fb436394e7f3be1e36e735b412"
+    },
+    "test_master_batch03_postverify.py": {
+      "bytes": 3056,
+      "sha256": "167a768a5ce607880e540e96d107b5f90c1bf430f3d42f50727cfa4616f6b557"
+    },
+    "verify_master_batch03_leaf_purge.py": {
+      "bytes": 17279,
+      "sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f"
+    }
+  },
+  "independent_source_review": {
+    "reviewer": "remote_audit",
+    "state": "PASS_SOURCE_ONLY_NO_CONCRETE_BLOCKER",
+    "verifier_sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f"
+  },
+  "prepared_utc": "2026-10-09T19:49:24.835723+00:00",
+  "schema": "MASTER_BATCH03_POST_PURGE_VERIFIER_PREPARATION_V1",
+  "scope": {
+    "expected_removed_bytes": 6565902818,
+    "expected_removed_files": 47429,
+    "held_originals_full_sha_and_identity": 219,
+    "native_controller_retained_exact_birth_handles": true,
+    "partial_stop_never_promoted_to_complete": true,
+    "protected_original_sha": 12,
+    "unmatched_originals_full_sha_and_identity": 619
+  },
+  "side_effects": {
+    "g_writes": 0,
+    "network_calls": 0,
+    "scientific_jobs": 0,
+    "source_deletions": 0,
+    "wsl_starts": 0
+  },
+  "state": "PASS_SOURCE_AND_SIX_TESTS_PRODUCTION_NOT_RUN"
+}

@@ -1,22 +1,32 @@
 # Master storage ledger
 
-GitHub main and standalone Release assets are the durable project record. Local
-copies are execution caches; the host is not ready to wipe until the complete
-scientific goal and a final remote recovery audit pass.
+GitHub main and scientific/master Release assets are the durable project record.
+Local working files are execution caches. The host is not ready to wipe until
+the scientific goal and a final complete remote recovery audit pass.
 
-| Material | Durable recovery | Local cleanup state |
+| Material | Durable recovery and verification | Local state |
 |---|---|---|
-| Master source, tests, reviews, synthetic proofs | Commit3ac8527fb70df6c4010a277d8f23609fcddb69f2; all147 actual remote blobs verified | Current execution dependencies retained |
-| Cold batch01:142 inactive files/16,194,617bytes | Proposed master-run-storage-20261009-v1 Release; exact archive and removal manifests committed before upload | Release uploaded/fresh download/all memberSHA PASS;142 exact files removed |
-| Yesterday release-staging copies, about2.19GB | Existing nine scientific Releases;27 matched asset candidates | Current remote digest/localSHA/all45,955 ZIP members PASS;82 exact copies removed |
-| Remaining yesterday files | Bounded inventory89,241files/20,044,247,396bytes; includes8GiB retained toolchain and scientific inputs | Metadata-only items are not deletion-authorized |
-| Active partitioned native inference | Timestamped command/admission/progress/log prefix in master report; final tree not yet accepted | Entire owned scope and exact pinned dependencies protected |
+|Master source, tests, public reviews and synthetic proofs|3ac8527 source package; addf594 genome-source V2 split; subsequent incremental exact-blob readbacks|Current dependencies retained|
+|Cold batch01,142 files|master_cleanup_batch01.zip; fresh download/all153 members verified|142 exact files removed|
+|Previous Release staging,82 files|27 distinct assets across nine scientific Releases; remote digest/local SHA/all45,955 ZIP members verified|82 exact staging copies removed|
+|Public history/inventory01|master_public_history_inventory01.zip; fresh all320 members,291 scientific copies,88,441 public metadata rows and historical validation records verified|Recovery available; metadata alone grants no deletion authority|
+|Cold scientific batch03,47,429 files|Fresh mapping ZIP/all witness joins verified before purge; actual postverify84cb29eb confirmed every absence and838 retained originals/12 protected hashes|47,429 exact files removed;6,565,902,818 logical bytes; full execution ZIP remote verification pending|
+|Historical remainder02,837 files|Three fresh downloaded shards/all882 members/837 originals and controls verified at2ad42f8|Still local; separate proposal only; one1,025-byte vendor fragment excluded and retained|
+|Public component recovery01|Fresh downloaded ZIP/all29 members/17 originals, source notices and397 package records/339 distinct package pins verified|Live tools and source archives retained; installed image/package payload/base-runtime recovery not covered|
+|Original component notice/source limits|Retained original archives/notices unchanged; standalone Intel runtime notice and full IQ-TREE corresponding-source gaps explicit|No complete runtime/source recovery claim|
+|Exact empty directories|Published identity/emptiness plan and execution receipt|15 removed; no recursive directory purge claimed|
+|Active inference and source inputs|Timestamped public source/config/command/admission/progress; accepted scientific Releases|Native scope, checkpoints, exact lock, six dirty G files and pinned toolchain protected|
+|Retained toolchain/base Python|Public preservation plan; original8GiB image remains unmounted/protected|Actual file-level runtime/cache/model inventory, portable restoration and remote verification pending|
 
-Every removal batch needs exact checked absolute targets, unchanged SHA-256,
-verified remote recovery, active dependency exclusion, a reachable pre-removal
-proposal and a post-removal receipt. Unexpected new/changed files are preserved.
-Historical unknown process outcomes and raw failures keep their original state.
-No private sessions, raw Codex event streams, credentials or unrelated files are
-included in public archives. Local private control records remain excluded.
+Completed file cleanup totals47,653 files/8,772,927,083 logical bytes. Physical
+reclaimed space is NOT_MEASURED; downloads, new archives, filesystem allocation
+and caches prevent attributing free-space deltas to these logical byte counts.
 
-Batch01+02 execution:224 files/2,207,024,265bytes removed under proposal03f3d70eb9909041c625f18ddaa22c50096f3e99. All targets absent;8 protected hashes unchanged. Empty directories and other files are not claimed removed.
+Every new purge needs exact checked absolute paths, original identity/link/size/
+mtime and full SHA, independently verified remote recovery, active-dependency
+exclusion, published proposal, and independently checked execution receipts.
+Unexpected new/changed files remain local. The batch03 executor's brief gap
+between closing its exclusive hash handle and literal PowerShell removal is
+explicit; no atomic-delete claim is made. Historical failures and UNKNOWN
+closures preserve their original states. Raw private sessions, Codex events,
+prompts/usage, credentials and unrelated data are excluded from public assets.

@@ -1,0 +1,60 @@
+{
+  "authoritative_control_readback": [
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 5820,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/manifest.json",
+      "remote_blob": null,
+      "sha256": "50819c81868069f0176dbc6134ff029620beb32de1b03ef9b667929ea1bb45a4"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 10010,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/source_bindings.json",
+      "remote_blob": null,
+      "sha256": "d76781caae16bcca791484768eb14c816301e5edda3c109fcedc5466eb34f477"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 1320,
+      "commit": null,
+      "path": "reports/master_run/20261009/cleanup/batch03_execution01/build_receipt.json",
+      "remote_blob": null,
+      "sha256": "27045ae12fd0761f9c0f44d463390931dc15d163cd5638bb194331263f48d3eb"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 16076,
+      "commit": null,
+      "path": "scripts/master_run/build_master_batch03_execution_archive.py",
+      "remote_blob": null,
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    {
+      "actual_remote_bytes_read": false,
+      "bytes": 20111,
+      "commit": null,
+      "path": "scripts/master_run/verify_master_public_components01_remote.py",
+      "remote_blob": null,
+      "sha256": "6825690d52292b8bbb2f9d5aa0cfcb1fbd8d8863601d890559a05adf3c3d7691"
+    }
+  ],
+  "biological_acceptance": "NONE_RECOVERY_PRESERVATION_ONLY",
+  "cleanup_authority": "NONE_REQUIRES_SEPARATE_LIVE_EXACT_LEAF_GATE",
+  "error": {
+    "kind": "AttributeError",
+    "message": "module 'cleanup_readback_primitives' has no attribute 'verify_members'"
+  },
+  "finished_utc": "2026-10-09T20:03:46.636795+00:00",
+  "g_writes": 0,
+  "mode": "LOCAL_INSPECTION",
+  "payload_execution": 0,
+  "schema": "MASTER_BATCH03_EXECUTION01_INDEPENDENT_READBACK_V1",
+  "source_deletions": 0,
+  "started_utc": "2026-10-09T20:03:46.606967+00:00",
+  "state": "FAILED_READBACK_NO_CLEANUP_AUTHORITY",
+  "verifier_source_sha256": "ca290fc408f3e6179b007de187883629f56cb6b29021272f6fbb2d49aedee2b2",
+  "wsl_starts": 0
+}

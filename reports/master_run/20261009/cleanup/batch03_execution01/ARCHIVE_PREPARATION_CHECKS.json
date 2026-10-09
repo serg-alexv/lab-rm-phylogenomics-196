@@ -1,0 +1,41 @@
+{
+  "actual_archive_build": "NOT_RUN_REQUIRES_ACTUAL_INDEPENDENT_POSTVERIFY_PASS",
+  "expected_removed_files": 47429,
+  "files": {
+    "build_master_batch03_execution_archive.py": {
+      "bytes": 16076,
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    "master_batch03_execution_archive_PREPARATION.md": {
+      "bytes": 3150,
+      "sha256": "b9fe986d47a441cd4218a123f0c66756a9255a1a9e31b040312c979e703d54fe"
+    },
+    "test_master_batch03_execution_archive.py": {
+      "bytes": 2737,
+      "sha256": "33e3b9cdea2dd5bff20ee0d9fe1709a5e3c12a2b4e3a95d4247f939d3168cbeb"
+    }
+  },
+  "focused_tests": {
+    "failed": 0,
+    "passed": 5,
+    "tests": 5
+  },
+  "independent_source_review": {
+    "builder_sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864",
+    "reviewer": "remote_audit",
+    "state": "PASS_SOURCE_ONLY_NO_CONCRETE_BLOCKER"
+  },
+  "logical_removed_bytes": 6565902818,
+  "physical_disk_reclaimed_bytes": "NOT_MEASURED",
+  "prepared_utc": "2026-10-09T19:55:37.569119+00:00",
+  "residual_leaf_race": "Explicitly retained short exclusive-handle-close\u2192literalRemove-Item interval; no atomic-delete claim.",
+  "schema": "MASTER_BATCH03_EXECUTION_ARCHIVE_PREPARATION_V1",
+  "side_effects": {
+    "g_writes": 0,
+    "native_launches": 0,
+    "network_calls": 0,
+    "source_deletions": 0,
+    "wsl_starts": 0
+  },
+  "state": "PASS_SOURCE_AND_FIVE_TESTS_BUILD_NOT_RUN"
+}

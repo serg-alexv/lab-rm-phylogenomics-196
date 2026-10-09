@@ -1,0 +1,67 @@
+{
+  "actual_successful_batch03_postverify_sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868",
+  "candidate_bytes": 983926424,
+  "candidate_current_original_metadata_match": 837,
+  "candidate_files": 837,
+  "candidate_source_payload_hash_pass_by_preparation": "NOT_RUN_PER_LEAF_EXECUTION_GATE_REQUIRED",
+  "disjoint_previous47429_candidates": true,
+  "excluded_preserved_bytes": 1025,
+  "excluded_preserved_files": 1,
+  "files": {
+    "Invoke-MasterHistory02LeafPurge.ps1": {
+      "bytes": 23655,
+      "sha256": "7d0c7aeefb86187b8d753b4a83deb62b82272591ae7ebb442dc96c428ea86efb"
+    },
+    "master_history02_leaf_purge_PREPARATION.md": {
+      "bytes": 4286,
+      "sha256": "70350139cd559d30d5ec7e501a3847ce73c1e167b0a216fb9c6f9c2b0d7e0b3d"
+    },
+    "master_history02_leaf_purge_proposed.json": {
+      "bytes": 595858,
+      "sha256": "6377f16835472951ccbe1bee5e15a25fb2d675d2a7edf24d656d34f008770b22"
+    },
+    "prepare_master_history02_leaf_purge.py": {
+      "bytes": 10672,
+      "sha256": "052181c8a8ce25b3192411d4ddbde0e84b1b67d75b4524b4c8bb7ddb6ac54308"
+    },
+    "test_master_history02_leaf_purge.py": {
+      "bytes": 2708,
+      "sha256": "91c449b8e871deafd7aea98376da0770ee93ef7ae2bb0ad5d476c7f42eb2909f"
+    }
+  },
+  "g_writes": 0,
+  "independent_source_review": {
+    "builder_sha256": "052181c8a8ce25b3192411d4ddbde0e84b1b67d75b4524b4c8bb7ddb6ac54308",
+    "executor_sha256": "7d0c7aeefb86187b8d753b4a83deb62b82272591ae7ebb442dc96c428ea86efb",
+    "proposal_sha256": "6377f16835472951ccbe1bee5e15a25fb2d675d2a7edf24d656d34f008770b22",
+    "reviewer": "stage5_audit",
+    "scope": "Exact current executor/builder/proposal; source inspection only, no target preflight or native API execution",
+    "state": "PASS_NO_CONCRETE_BLOCKER"
+  },
+  "native_api_fixture": "NOT_RUN",
+  "native_primitives_origin": {
+    "change": "Renamed classes; exact mtime string comparison; no native API fixture rerun",
+    "sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c",
+    "source": "Invoke-MasterBatch03LeafPurge.ps1"
+  },
+  "network_calls": 0,
+  "operational_limit_seconds": 900,
+  "original_workflow_lock": "UNTOUCHED",
+  "powershell_ast_parse": "PASS_AFTER_CANONICAL_RECEIPT_BINDINGS",
+  "pure_contract_tests": {
+    "native_api_executed": false,
+    "passed": 5,
+    "seconds": 0.025,
+    "tests": 5
+  },
+  "recovery_receipt_sha256": "d83aaff2695920d475742ace6c710255a326642222a5db771b95ec2d809b0ecb",
+  "requires_before_Run": "Root publishes exact plan/source/actual recovery and postverify receipts; executor performs fresh authority and per-leaf safety gates",
+  "residual_leaf_interval": "Exclusive handle closes immediately before literal Remove-Item; parent rename guarded, leaf interval non-atomic and explicit",
+  "schema": "MASTER_HISTORY02_EXACT837_LEAF_PURGE_PREPARATION_CHECKS_V1",
+  "scientific_jobs": 0,
+  "source_deletions": 0,
+  "state": "BUILD_SOURCE_REVIEW_PASS_NO_DELETE",
+  "target_preflight": "NOT_RUN",
+  "utc": "2026-10-09T20:10:41.314600+00:00",
+  "wsl_starts": 0
+}

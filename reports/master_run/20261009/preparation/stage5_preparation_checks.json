@@ -1,0 +1,83 @@
+{
+  "files": {
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_accepted_source_pins.json": {
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    "stage5_atomic.py": {
+      "bytes": 44516,
+      "sha256": "2d7414fd33fe6216b95cfd549cee743d8b7057db698aced509f9a7ffefa77fc0"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 22244,
+      "sha256": "fdcc8d3b4337209b64ffa3732a8182bf832f2fa05d1e95fcdfb32964d4ad4a34"
+    },
+    "stage5_deployment_readiness.md": {
+      "bytes": 12477,
+      "sha256": "1cad9dd8c2f669a5e7acc8fb06172918b504a1a2b1c08da5b10a9e14550da114"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "32e85b6f0d58d7e2ce4d92b8aab74d103ff64fa7a08928299363f30fd04be6ad"
+    },
+    "stage5_source_readiness.py": {
+      "bytes": 10079,
+      "sha256": "60fb6863ec593f422a42a8a23e0e6303a5f7891700adc5237aa116c8c8763071"
+    },
+    "stage5_source_readiness_attempt01.py": {
+      "bytes": 9642,
+      "sha256": "126c2012271a86217179384d42d1980afc531b094f9a0fdbf553bf400826a16e"
+    },
+    "stage5_support_code_readback_01.json": {
+      "bytes": 4821,
+      "sha256": "b69abf3b05547af575b0b6badd97d870cc077b73a3a3697444ce14efe49db28c"
+    },
+    "stage5_windows_owner.py": {
+      "bytes": 17966,
+      "sha256": "6b2e9ee977cb075070aa5bed85d183c3f9e24436fbaf9fdc94e7dc102a7b10b3"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "test_stage5_runtime_discovery.py": {
+      "bytes": 2194,
+      "sha256": "ae3696db2d75096c21ff171563dcfeac07aba62094b7a5ddfc50f4773a07480c"
+    },
+    "test_stage5_source_readiness.py": {
+      "bytes": 2345,
+      "sha256": "9a98bbb6b0cf804eb88b987d8b50c0852aea55c5d99343da988e7a2337fea0a8"
+    }
+  },
+  "independent_source_review": "stage5_audit: no concrete blocker in current narrow helper controls/roles/read-only dispatch",
+  "native_execution": "NOT_RUN",
+  "results": [
+    {
+      "actual_runtime_inspection": "NOT_RUN",
+      "elapsed_seconds": 0.038,
+      "passed": 4,
+      "suite": "test_stage5_runtime_discovery.py",
+      "tests": 4
+    },
+    {
+      "elapsed_seconds": 0.062,
+      "passed": 4,
+      "suite": "test_stage5_source_readiness.py",
+      "test_scope": "SYNTHETIC_SCOPE_IDENTITY_AND_ACTIVE_C_PIN_CONTROL_ONLY",
+      "tests": 4
+    }
+  ],
+  "schema": "STAGE05_READINESS_PREPARATION_CHECKS_V1",
+  "scientific_mutations": 0,
+  "scope": "SOURCE_REVIEW_AND_FOCUSED_SYNTHETIC_PREPARATION_ONLY",
+  "utc": "2026-10-09T20:06:11.508167+00:00",
+  "wsl_starts": 0
+}

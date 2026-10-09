@@ -1,0 +1,270 @@
+{
+  "builder_sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864",
+  "g_writes": 0,
+  "inputs": {
+    "code/Invoke-MasterBatch03LeafPurge.ps1": {
+      "bytes": 17891,
+      "original_file_identity": [
+        17766949232488609743,
+        2814749767832240,
+        17891,
+        1791574006446413400,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\Invoke-MasterBatch03LeafPurge.ps1",
+      "sha256": "94b5d9fb98c211b1c4915ff84de8d006ded9d01ec3d3bb11650657781f9d285c"
+    },
+    "code/Test-MasterBatch03LeafPurge.ps1": {
+      "bytes": 2356,
+      "original_file_identity": [
+        17766949232488609743,
+        2251799814412607,
+        2356,
+        1791574030514767300,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\Test-MasterBatch03LeafPurge.ps1",
+      "sha256": "69c3971a3220e3d72297756fc149a6cb2d831d813a225e895ba60758ca864915"
+    },
+    "code/build_master_batch03_execution_archive.py": {
+      "bytes": 16076,
+      "original_file_identity": [
+        17766949232488609743,
+        6755399441787679,
+        16076,
+        1791575630989852900,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\build_master_batch03_execution_archive.py",
+      "sha256": "7c066912b10611eb78fa15ec0cd3c3944f85f98f98c553b62b31685a3d3af864"
+    },
+    "code/prepare_master_batch03_leaf_purge.py": {
+      "bytes": 7748,
+      "original_file_identity": [
+        17766949232488609743,
+        4785074604806826,
+        7748,
+        1791573894931962500,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\prepare_master_batch03_leaf_purge.py",
+      "sha256": "b26e130c3f5e857ccd1491a5489577ef78f10abbf589ec000b2652a86555e1f2"
+    },
+    "code/test_master_batch03_execution_archive.py": {
+      "bytes": 2737,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581523744,
+        2737,
+        1791575590279001600,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_master_batch03_execution_archive.py",
+      "sha256": "33e3b9cdea2dd5bff20ee0d9fe1709a5e3c12a2b4e3a95d4247f939d3168cbeb"
+    },
+    "code/test_master_batch03_leaf_purge.py": {
+      "bytes": 3693,
+      "original_file_identity": [
+        17766949232488609743,
+        2533274791123262,
+        3693,
+        1791573991028485100,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_master_batch03_leaf_purge.py",
+      "sha256": "5ca75eb48204d89576fb42125140cbc4fd3e561e32b3b7ab93091641917ca57f"
+    },
+    "code/test_master_batch03_postverify.py": {
+      "bytes": 3056,
+      "original_file_identity": [
+        17766949232488609743,
+        10977524092190945,
+        3056,
+        1791575117226973600,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_master_batch03_postverify.py",
+      "sha256": "167a768a5ce607880e540e96d107b5f90c1bf430f3d42f50727cfa4616f6b557"
+    },
+    "code/verify_master_batch03_leaf_purge.py": {
+      "bytes": 17279,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581254134,
+        17279,
+        1791575271096781700,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_master_batch03_leaf_purge.py",
+      "sha256": "dbb0140fe2fac41940fa8d4838ffcbf1f6b72933d6d14a2011137ef4c401c56f"
+    },
+    "control/proposed.json": {
+      "bytes": 14983,
+      "original_file_identity": [
+        17766949232488609743,
+        12947848929381695,
+        14983,
+        1791574040800214500,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_leaf_purge_proposed.json",
+      "sha256": "3f291dc20bb7051a9586aaefc75b7c57c463fba03e87d5ea8c9cdd2dc2ffd952"
+    },
+    "control/protected_before.json": {
+      "bytes": 3005,
+      "original_file_identity": [
+        17766949232488609743,
+        5348024558234270,
+        3005,
+        1791574257822419200,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_protected_before.json",
+      "sha256": "22d307f5bba8a98dbd060e3d1d091e22c7f70dc85b40e77ada04c0eef36ce1a7"
+    },
+    "execution/full_public_cleanup_journal.jsonl": {
+      "bytes": 38773007,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581523673,
+        38773007,
+        1791575991693651400,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_leaf_purge_20261009_receipt.jsonl",
+      "sha256": "3331af8009aa7a9dbbb9d49d8cb044cd59dc60a78452c233b109e531497a717e"
+    },
+    "execution/independent_postverify.json": {
+      "bytes": 263064,
+      "original_file_identity": [
+        17766949232488609743,
+        6192449488366422,
+        263064,
+        1791576049947380300,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_postverify_20261009T200023Z_f95312bd\\receipt.json",
+      "sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868"
+    },
+    "recovery/mapping_archive_remote_readback.json": {
+      "bytes": 17392,
+      "original_file_identity": [
+        17766949232488609743,
+        3377699721253108,
+        17392,
+        1791573770361958500,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\batch03_mapping01_remote_readback_20261009T192220Z_3e6cf7d8\\receipt.json",
+      "sha256": "edb749c997c3d68b061af0441807cd7eb9a8b3df453474d69c740c6640e182d1"
+    },
+    "recovery/master_batch03_scientific_cache_mapping01.zip": {
+      "bytes": 6921443,
+      "original_file_identity": [
+        17766949232488609743,
+        2251799814406197,
+        6921443,
+        1791573426649871000,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_mapping01\\master_batch03_scientific_cache_mapping01.zip",
+      "sha256": "f6d7e0558953d2542ca085552a6cd8219a4ec1acde4072ce6f03d12dd953178e"
+    },
+    "recovery/purge_git_objects.json": {
+      "bytes": 3542,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581523610,
+        3542,
+        1791574304736686300,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_purge_git_objects.json",
+      "sha256": "0d8932ecc38b2049c6f3ab4031c7b586a0b0caf98d09a7ffb2ad5cb617f01398"
+    },
+    "recovery/purge_source_remote_readback.json": {
+      "bytes": 6541,
+      "original_file_identity": [
+        17766949232488609743,
+        5910974511655608,
+        6541,
+        1791574328012774700,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_purge_remote_readback.json",
+      "sha256": "b4cca6490a1261bf5d9badfbc4bec96ff46473fb436394e7f3be1e36e735b412"
+    },
+    "reviews/actual_stream_parser_check.json": {
+      "bytes": 125,
+      "original_file_identity": [
+        17766949232488609743,
+        12666373951999810,
+        125,
+        1791574212035981900,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_stream_parser_check.json",
+      "sha256": "7dc02ca7f57069713ffb045f9f7da86d313c027461847b37250cf3823b8c297c"
+    },
+    "reviews/leaf_purge_PREPARATION.md": {
+      "bytes": 6558,
+      "original_file_identity": [
+        17766949232488609743,
+        4222124651391644,
+        6558,
+        1791574247279679800,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_leaf_purge_PREPARATION.md",
+      "sha256": "2d9bd848bdabdd7748faaad7cf5e8f3ca2cdd57d69dd7da3923250164bd13b55"
+    },
+    "reviews/leaf_purge_preparation_checks.json": {
+      "bytes": 3159,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581523630,
+        3159,
+        1791574272995796100,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_leaf_purge_preparation_checks.json",
+      "sha256": "ca06101bee75f0f99a533b1116dd2091d517a405a5116e9602b9dfd2f3c88f6e"
+    },
+    "reviews/postverify_PREPARATION.md": {
+      "bytes": 3261,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581320632,
+        3261,
+        1791575227128923600,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_postverify_PREPARATION.md",
+      "sha256": "8ee96c5ad094f089b580377c75a7d6e0c8ce651cec825e2af9a281604dda48c8"
+    },
+    "reviews/postverify_preparation_checks.json": {
+      "bytes": 2067,
+      "original_file_identity": [
+        17766949232488609743,
+        5066549581523700,
+        2067,
+        1791575364836593800,
+        1
+      ],
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\master_batch03_postverify_preparation_checks.json",
+      "sha256": "03bdc0758900f49ca0509f5ea6c8685b74ef3e0d46c3c1ccaece6751abfa3eb6"
+    }
+  },
+  "logical_removed_bytes": 6565902818,
+  "native_launches": 0,
+  "network_calls": 0,
+  "physical_disk_reclaimed_bytes": "NOT_MEASURED",
+  "postverify_sha256": "84cb29ebcc04b444ea90ca0e10d5f7e6832d09f14f8f8285f1241b4cf3e71868",
+  "raw_codex_events_prompts_usage_archived": false,
+  "residual_leaf_race": "Exclusive hash handle closes before literal PowerShell Remove-Item. Short leaf replacement interval explicitly retained; no atomic-delete claim.",
+  "schema": "MASTER_BATCH03_EXECUTION_ARCHIVE_SOURCE_BINDING_V1",
+  "scientific_acceptance": "NONE_EXECUTION_HISTORY_ONLY",
+  "source_deletions": 0,
+  "state": "BUILD_ONLY_FROM_ACTUAL_SUCCESSFUL_POSTVERIFY",
+  "wsl_starts": 0
+}
