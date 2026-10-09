@@ -9,32 +9,15 @@ import csv
 import hashlib
 import io
 import json
-import os
 import re
 import subprocess
 import sys
-import tempfile
 import zipfile
 import atomic_iqtree_windows as A
 
 ROOT = Path(r'G:\My Drive\LAB_RM\lab-rm-phylogenomics-196')
 REPO = 'serg-alexv/lab-rm-phylogenomics-196'
 CHAT = Path(__file__).resolve().parents[1]
-
-
-def atomic_bytes(path, payload):
-    """Preserve exact UTF-8 text bytes; A.atomic remains the JSON-only writer."""
-    path = Path(path)
-    A.require(isinstance(payload, bytes) and ROOT.resolve() in path.resolve().parents,
-              'Byte publication must stay inside the canonical repository')
-    fd, temporary = tempfile.mkstemp(prefix='.'+path.name, dir=path.parent)
-    try:
-        with os.fdopen(fd, 'wb') as stream:
-            stream.write(payload); stream.flush(); os.fsync(stream.fileno())
-        os.replace(temporary, path)
-    finally:
-        if os.path.exists(temporary):
-            os.unlink(temporary)
 
 
 def command(argv):
@@ -129,7 +112,7 @@ def update_status(validation, receipt, report):
     content = io.StringIO()
     writer = csv.DictWriter(content, fieldnames=list(rows[0]), delimiter='\t', lineterminator='\n')
     writer.writeheader(); writer.writerows(rows)
-    atomic_bytes(path, content.getvalue().encode('utf-8'))
+    A.atomic(path, content.getvalue().encode('utf-8'))
     A.atomic(ROOT/'status/stage04_execution.json', {
         'utc':A.utc(), 'state':'COMPLETE_VALIDATED', 'scientific_status':'ACCEPTED_PRIMARY196_HOST_TREE',
         'active_inference_found':False, 'actual_native_exit':0,
@@ -153,7 +136,7 @@ def update_status(validation, receipt, report):
         'resolve member ordering within each group. Native composition/model warnings are retained.\n\n'
         '| Stage | Execution | Validation | Publication |\n|---|---|---|---|\n')
     text += ''.join('| '+' | '.join(row[key] for key in ['stage','execution','validation','publication'])+' |\n' for row in rows)
-    atomic_bytes(ROOT/'STATUS.md',text.encode('utf-8'))
+    A.atomic(ROOT/'STATUS.md',text.encode('utf-8'))
 
 
 def main():
@@ -202,7 +185,7 @@ def main():
             'atomic_iqtree_windows.py','test_atomic_iqtree_windows.py','smoke_atomic_iqtree_windows.py',
             'independent_tree_check.py','test_independent_tree_check.py',
             'test_stage4_freeze_copy_integration.py','prepare_stage4_publication.py',
-            'publish_stage4_primary.py','test_stage4_publish_science.py','test_stage4_publication_text.py']]
+            'publish_stage4_primary.py','test_stage4_publish_science.py']]
         payload_paths = [report.relative_to(ROOT).as_posix(), *code]
         receipt = portable_release.publish_frozen('stage04/'+args.report_name,args.tag,staging,
             manifest_path,payload_paths,'Stage4: accepted primary196 host phylogeny',notes)
@@ -215,7 +198,7 @@ def main():
             'Scientific validation: COMPLETE_VALIDATED. Publication: UPLOAD_VERIFIED; '
             'see publication_receipt.json for downloaded ZIP/member hash verification.')
         report_text += '\nVerified release: '+receipt['url']+'\n'
-        atomic_bytes(report_path,report_text.encode('utf-8'))
+        A.atomic(report_path,report_text.encode('utf-8'))
         update_status(validation,receipt,report)
         final_head = workflow_publication.commit([
             report.relative_to(ROOT).as_posix(),'STATUS.md','status/stages.tsv',

@@ -1,0 +1,22 @@
+{
+  "schema": "STAGE04_PUBLICATION_TEXT_REGRESSION_V1",
+  "scope": "SYNTHETIC_LOCAL_C_ONLY_NO_G_GITHUB_BIOLOGY",
+  "source_sha256": {
+    "publish_stage4_primary.py": "6663aac3a01a01b1d35d93c5b1b3cae96f55d279a98b2d755cdfce1790c47624",
+    "prepare_stage4_publication.py": "3b7ec73623565e97598edbeaa269ad8961f2ed745570f9576fcb63fbe2348da3",
+    "test_stage4_publication_text.py": "afdc06379d5525fba7b8abff4da017c0354afbad1cd69b9f83f6e8a36a1dabc9"
+  },
+  "command": [
+    "python",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_stage4_publication_text",
+    "test_stage4_publish_science"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_failed_replace_preserves_original_and_removes_only_own_temporary (test_stage4_publication_text.PublicationText.test_failed_replace_preserves_original_and_removes_only_own_temporary) ... ok\r\ntest_outside_repository_and_nonbytes_rejected (test_stage4_publication_text.PublicationText.test_outside_repository_and_nonbytes_rejected) ... ok\r\ntest_text_bytes_and_json_are_written_in_correct_formats (test_stage4_publication_text.PublicationText.test_text_bytes_and_json_are_written_in_correct_formats) ... ok\r\ntest_authoritative_source_drift_rejected (test_stage4_publish_science.PublicationScienceBindings.test_authoritative_source_drift_rejected) ... ok\r\ntest_clean_bound_zip (test_stage4_publish_science.PublicationScienceBindings.test_clean_bound_zip) ... ok\r\ntest_missing_scientific_member_rejected (test_stage4_publish_science.PublicationScienceBindings.test_missing_scientific_member_rejected) ... ok\r\ntest_regenerated_distribution_differs_from_compact_copy_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_distribution_differs_from_compact_copy_rejected) ... ok\r\ntest_regenerated_distribution_omits_certificate_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_distribution_omits_certificate_rejected) ... ok\r\ntest_regenerated_distribution_wrong_member_hash_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_distribution_wrong_member_hash_rejected) ... ok\r\ntest_regenerated_distribution_wrong_member_size_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_distribution_wrong_member_size_rejected) ... ok\r\ntest_regenerated_self_consistent_wrong_certificate_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_self_consistent_wrong_certificate_rejected) ... ok\r\ntest_regenerated_self_consistent_wrong_tree_rejected (test_stage4_publish_science.PublicationScienceBindings.test_regenerated_self_consistent_wrong_tree_rejected) ... ok\r\ntest_unknown_mode_rejected (test_stage4_publish_science.PublicationScienceBindings.test_unknown_mode_rejected) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 13 tests in 1.223s\r\n\r\nOK\r\n",
+  "state": "PASS13_SYNTHETIC_REGRESSION_TESTS"
+}

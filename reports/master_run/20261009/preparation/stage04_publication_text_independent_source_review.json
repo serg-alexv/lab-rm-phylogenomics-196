@@ -1,0 +1,30 @@
+{
+  "concrete_blockers": [],
+  "findings": [
+    "No concrete blocker found in byte writer/integration delta.",
+    "Byte-only writer confines resolved targets to canonical ROOT descendants and creates an exclusive own temporary in the same parent; writes binary exact bytes, flushes/fsyncs and os.replace then removes only that own temporary if remaining.",
+    "The three prior byte payload calls for status/stages.tsv, STATUS.md and REPORT.md now use atomic_bytes; publication JSON calls still use unchanged JSON-only A.atomic.",
+    "New focused test is included by both preparation and publication runnable-code allowlists.",
+    "Existing accepted certificate/freeze manifest/ZIP scientific bindings and writer-lock/publication flow are unchanged by this narrow delta.",
+    "Preserved pre-fix sources remain separate; actual synthetic tests cover text/JSON formats, containment/nonbytes rejection and failed replace preserving original with own-temp cleanup."
+  ],
+  "new_execution_authorized": false,
+  "peer_actual_test_receipt_sha256": "4ee75e7cf292efa252078637f9f395dea4018db5b40d0ef42b9cd5c8ac5717bb",
+  "preparer_sha256": "3b7ec73623565e97598edbeaa269ad8961f2ed745570f9576fcb63fbe2348da3",
+  "publisher_sha256": "6663aac3a01a01b1d35d93c5b1b3cae96f55d279a98b2d755cdfce1790c47624",
+  "reviewed_utc": "2026-10-09T21:41:18.627131+00:00",
+  "schema": "STAGE04_PUBLICATION_TEXT_INDEPENDENT_SOURCE_REVIEW_V1",
+  "scope": "Full publisher source and diff from preserved before_text_fix; preparer allowlist diff; new focused test source and actual synthetic test receipt read.",
+  "state": "PASS_SOURCE_REVIEW_BYTE_WRITER_AND_INTEGRATION_DELTA",
+  "test_sha256": "afdc06379d5525fba7b8abff4da017c0354afbad1cd69b9f83f6e8a36a1dabc9",
+  "verification": {
+    "G_writes_by_reviewer": 0,
+    "actual_publication_by_reviewer": false,
+    "native_or_WSL_runs_by_reviewer": 0,
+    "peer_actual_exit_code": 0,
+    "peer_actual_tests_passed": 13,
+    "peer_scope": "SYNTHETIC_LOCAL_C_ONLY_NO_G_GITHUB_BIOLOGY",
+    "remote_writes_by_reviewer": 0,
+    "tests_rerun_by_reviewer": false
+  }
+}

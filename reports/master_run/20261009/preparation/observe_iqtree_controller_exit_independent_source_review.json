@@ -1,0 +1,20 @@
+{
+  "concrete_blockers": [],
+  "default_no_run_peer_report": "PASS",
+  "findings": [
+    "Retained QUERY_LIMITED_INFORMATION|SYNCHRONIZE process handle only; exactPID27048/fullbirth134360369803845506/live executable capture before waiting.",
+    "Terminal identity uses retained image and SessionID, signaled retained process handle, exact birth, actual exit FILETIME and exit code; no numeric-PID adoption after exit.",
+    "Each poll capped by remaining1800s; timeout explicitly makes no closure claim.",
+    "Process open and identity/wait path enclosed by initialized-handle finally; query failures record failure and close only this retained query handle.",
+    "No signal/job/lock/WSL/native launch calls; pinned unchanged A80 API imported only for query helpers."
+  ],
+  "new_execution_authorized": false,
+  "observer_run_by_reviewer": false,
+  "pinned_atomic_query_api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "preserved_first_source_sha256": "b45f9abe6be1cb19f46609532b53b41b3e9aa51062c982a35ad3fc009c448d2b",
+  "production_owner_or_lock_queries_by_reviewer": false,
+  "reviewed_utc": "2026-10-09T21:40:47.614975+00:00",
+  "schema": "MASTER_IQTREE_CONTROLLER_OBSERVER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "source_sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a",
+  "state": "PASS_SOURCE_REVIEW_QUERY_ONLY_RETAINED_HANDLE_EXIT"
+}

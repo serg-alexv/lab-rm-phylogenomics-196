@@ -1,0 +1,155 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-09T21:38:38.637746+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "006b3c2fdf3556b238950d1b0a737f288f26c67d",
+  "initial_remote_main": "006b3c2fdf3556b238950d1b0a737f288f26c67d",
+  "declaration_sha256": "55cfb1f76a96b0af22ef5d0aa8ab21d9c456a51dd3f6b55d2f6ba114844ed4cc",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 15,
+  "verified_files": 15,
+  "files": [
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_FAILED.json",
+      "bytes": 7192,
+      "sha256": "9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea",
+      "remote_blob": "b621e802bebf750b7a25ce8c7f943d6e450d0ebf",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_STARTED.json",
+      "bytes": 1504,
+      "sha256": "1179c3a3eb84767b3a087c4e5f2fa94b301a74055fed6f394229e84966259ec5",
+      "remote_blob": "7467a9332fcbc313ca2b4eca372663d02048e01f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_PREPARATION_02.json",
+      "bytes": 2491,
+      "sha256": "747a792f0a37b425fb9af017dd8dfbec5e9fdee2dfeade432f0dd27dc29afe23",
+      "remote_blob": "ef2c71f8bc0100db43d3eda4f8cc967821639317",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_handle_postverifier_provider_corrected_independent_review.json",
+      "bytes": 3119,
+      "sha256": "66b047a1ad3b86cc609e4bdb094e4cfb32e8c0164c130808012099950e068840",
+      "remote_blob": "4d280834c92b282bd8474b4d80505a4ae4cafc17",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_handle_postverify_METHODS_02.md",
+      "bytes": 3563,
+      "sha256": "81592902eb00cca198e7db48b428cfd6fd4a68ea1352eb7e61c9fb269b760abf",
+      "remote_blob": "58ff553ed87629261bd5fb117da471eabef4e290",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+      "bytes": 16861,
+      "sha256": "202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a",
+      "remote_blob": "bc2f6e6578b0e868146eaedc8e62dc5ef8108082",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/SOURCE_RECOVERY_RESULT07_GIT_OBJECTS.json",
+      "bytes": 2609,
+      "sha256": "97bf76dd97b093887842c7a6eff8be1199cbb4aa2328680bcf1ea1c50507132f",
+      "remote_blob": "99896c35d612d8773d9a8fdedb07675c594d6e9c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/SOURCE_RECOVERY_RESULT07_REMOTE_READBACK.json",
+      "bytes": 4952,
+      "sha256": "efc92d7c5c5369bfb7d98422221531986bc7cd652f18314e7148a453f044932e",
+      "remote_blob": "2d41d5c017e0ec44f16d001985a57d2aae5c1f2d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/diagnose_directory_postverify_provider.py",
+      "bytes": 6193,
+      "sha256": "a6267a18461fbe06e9d7732cdc3e4d8166a860e10b16645b6333cb62a6940f3d",
+      "remote_blob": "c76c63504fe2312d7e2207bb310a3b379f910b42",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/observe_iqtree_controller_exit.py",
+      "bytes": 2736,
+      "sha256": "b45f9abe6be1cb19f46609532b53b41b3e9aa51062c982a35ad3fc009c448d2b",
+      "remote_blob": "ee0af099b16831c5981f68832727b9882eeff78c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_directory_provider_correction08.py",
+      "bytes": 2083,
+      "sha256": "a6832ed8364a979dbb49cb18f1dccbacd757430e0cda80dda5b75dcc65d5848f",
+      "remote_blob": "486f7db956438d3923732e591a7c378ccb0923b9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_verify_directory_handle_prune.py",
+      "bytes": 11302,
+      "sha256": "1b78956bc935cce8de952f6f855f1f31af9471bcaf41e5d58ea6898898b41f4a",
+      "remote_blob": "18ec6285d1a69fce438712ef4ba8ae62521f3c46",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_verify_directory_handle_prune_attempt01.py",
+      "bytes": 8337,
+      "sha256": "46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42",
+      "remote_blob": "4405f2c6bcc2cf92a6d8e203e16d2ddcf22cb56f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/verify_directory_handle_prune.py",
+      "bytes": 33328,
+      "sha256": "00db7e85b734743f6bf0cf7c107d271878425ec9b7494df5688a93319cc559f2",
+      "remote_blob": "164ca2d92a74c22dee18b05e0e2388061cdcd8ff",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+      "bytes": 29034,
+      "sha256": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c",
+      "remote_blob": "83f9e19dc5154a5a74dc91b0ac3c781de3288c3f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "006b3c2fdf3556b238950d1b0a737f288f26c67d",
+  "finished_utc": "2026-10-09T21:38:43.790919+00:00",
+  "elapsed_seconds": 5.150723700000526,
+  "verified_bytes": 135304
+}

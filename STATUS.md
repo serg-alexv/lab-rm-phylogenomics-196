@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T21:31:37.304984+00:00. Direct user continuation remains active. GitHub main
+Updated 2026-10-09T21:42:27.726396+00:00. Direct user continuation remains active. GitHub main
 and verified Release assets are the durable project authority. Automatic
 continuation remains disabled.
 
@@ -8,7 +8,7 @@ Stage4: the sole partitioned IQ-TREE 3.1.4 worker is advancing at iteration 100
 on all 196 approved genomes, 100 accepted partitions and 17,456 AA columns.
 The final tree and support are not yet accepted; historical V10 closure is
 UNKNOWN. The fresh native snapshot is
-`reports/master_run/20261009/snapshots/source_recovery_result07/native_progress.json`.
+`reports/master_run/20261009/snapshots/verified_directory_publication09/native_progress.json`.
 
 Stage5 dependency split V2 is implemented in addf594d. Detection and per-genome
 curation can queue fixed approved accessions independently of the host tree,
@@ -24,12 +24,12 @@ independent 196-by-4 curation. Failed/unresolved/not-run cells never mean absenc
 See `docs/master_run/STAGE5_STAGE6_DEPENDENCY_DECISION.md`.
 
 Completed cleanup remains 48,490 exact files / 9,756,853,507 logical bytes plus
-15 exact empty directories, with recovery and independent protected-hash and
+5,557 exact empty directories, with recovery and independent protected-hash and
 absence checks. Physical reclaimed bytes are NOT_MEASURED. The additional
 5,542-directory metadata proposal has fresh remote readback PASS. Its corrected
 handle-based pruner passes nine actual Windows fixtures, six preparation guards
 and independent review. The first ancestor-rename failure and exact sources
-are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. The independent filesystem checker stopped at a protected regular-file metadata guard; its exact failed receipt is preserved and diagnosis is pending. No deletion is being repeated. Full journal remote recovery and independent acceptance remain pending.
+are preserved. Actual pruning exited 0 and records all 5,542 exact directories removed; both owners stayed alive and all 12 protected hashes matched. The corrected independent filesystem checker PASS: all 5,542 planned directories absent, six holds and the vendor fragment preserved, protected12/six dirty G hashes and exact owner/original-lock identities unchanged. Nine exact G files qualify for observed provider zero-link metadata with full identity and SHA checks; single-link exclusion is explicitly NOT_ESTABLISHED. The first failed checker/source/receipt and actual diagnosis are preserved. No deletion was repeated. Full journal remote recovery remains pending.
 
 Recovery: the 194 public changed-history originals (18,622,099 bytes) now pass
 fresh GitHub download and all 216 ZIP-member checks. Five whole private files
@@ -60,3 +60,5 @@ native closure permits reconciliation. The host is not ready to wipe.
 Evidence: `status/master_run_20261009.json` and
 `docs/master_run/STORAGE_LEDGER.md`. Private sessions/prompts/usage, credentials
 and unrelated data are excluded from public recovery assets.
+
+Publication preflight corrected three text outputs passed to the JSON writer. The new exact-byte writer and actual local status-format regression pass 13 tests and independent source review. Native producer/checker scientific gates remain unchanged. Actual Stage4 closure, independent tree acceptance and publication remain pending.

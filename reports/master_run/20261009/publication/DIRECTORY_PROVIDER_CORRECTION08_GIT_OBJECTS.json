@@ -1,0 +1,85 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T21:37:59.414603+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "f5027656958d495bf810192b541e9554d1a98b66",
+  "tree": "392b1d9798f7faedc3221adbc72efc894823c11d",
+  "commit": "006b3c2fdf3556b238950d1b0a737f288f26c67d",
+  "files": [
+    {
+      "target": "scripts/master_run/verify_directory_handle_prune.py",
+      "bytes": 33328,
+      "sha256": "00db7e85b734743f6bf0cf7c107d271878425ec9b7494df5688a93319cc559f2"
+    },
+    {
+      "target": "scripts/master_run/test_verify_directory_handle_prune.py",
+      "bytes": 11302,
+      "sha256": "1b78956bc935cce8de952f6f855f1f31af9471bcaf41e5d58ea6898898b41f4a"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_handle_postverify_METHODS_02.md",
+      "bytes": 3563,
+      "sha256": "81592902eb00cca198e7db48b428cfd6fd4a68ea1352eb7e61c9fb269b760abf"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_handle_postverifier_provider_corrected_independent_review.json",
+      "bytes": 3119,
+      "sha256": "66b047a1ad3b86cc609e4bdb094e4cfb32e8c0164c130808012099950e068840"
+    },
+    {
+      "target": "scripts/master_run/diagnose_directory_postverify_provider.py",
+      "bytes": 6193,
+      "sha256": "a6267a18461fbe06e9d7732cdc3e4d8166a860e10b16645b6333cb62a6940f3d"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/directory_postverify_provider_diagnostic01.json",
+      "bytes": 16861,
+      "sha256": "202bb1e18ea0ee91a55fb382b342233c1f2b87cad24c62d6d1750ee135da0b6a"
+    },
+    {
+      "target": "scripts/master_run/verify_directory_handle_prune_attempt01.py",
+      "bytes": 29034,
+      "sha256": "130e7eca3a784d069b4033858c04faebbe2b4765c7942cdd0b9bb35a624cda0c"
+    },
+    {
+      "target": "scripts/master_run/test_verify_directory_handle_prune_attempt01.py",
+      "bytes": 8337,
+      "sha256": "46c059fb90a76c17d11d810b128cd8e06c56b006741dd4a94f29fdae54376d42"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_FAILED.json",
+      "bytes": 7192,
+      "sha256": "9253109026a3faaf66758ae71c6f570644b1e63d3743dd81a8a170d3593edbea"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_ATTEMPT01_STARTED.json",
+      "bytes": 1504,
+      "sha256": "1179c3a3eb84767b3a087c4e5f2fa94b301a74055fed6f394229e84966259ec5"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/emptydirs_prune01/POSTVERIFY_PREPARATION_02.json",
+      "bytes": 2491,
+      "sha256": "747a792f0a37b425fb9af017dd8dfbec5e9fdee2dfeade432f0dd27dc29afe23"
+    },
+    {
+      "target": "scripts/master_run/observe_iqtree_controller_exit.py",
+      "bytes": 2736,
+      "sha256": "b45f9abe6be1cb19f46609532b53b41b3e9aa51062c982a35ad3fc009c448d2b"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_directory_provider_correction08.py",
+      "bytes": 2083,
+      "sha256": "a6832ed8364a979dbb49cb18f1dccbacd757430e0cda80dda5b75dcc65d5848f"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/SOURCE_RECOVERY_RESULT07_GIT_OBJECTS.json",
+      "bytes": 2609,
+      "sha256": "97bf76dd97b093887842c7a6eff8be1199cbb4aa2328680bcf1ea1c50507132f"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/SOURCE_RECOVERY_RESULT07_REMOTE_READBACK.json",
+      "bytes": 4952,
+      "sha256": "efc92d7c5c5369bfb7d98422221531986bc7cd652f18314e7148a453f044932e"
+    }
+  ]
+}

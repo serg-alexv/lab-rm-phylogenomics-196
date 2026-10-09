@@ -1,0 +1,17 @@
+{
+  "actual_observer_run": "NOT_RUN_BY_REVIEWER",
+  "atomic_query_api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "findings": [
+    "Retained QUERY_LIMITED_INFORMATION|SYNCHRONIZE handle fixes PID27048 identity, exact creation134360369803845506 and expected executable before waiting.",
+    "Terminal identity uses retained image and SessionID, process signaled state, actual exit FILETIME and exit code; no numeric PID re-adoption after exit.",
+    "No signals, jobs, locks, native or WSL launches.",
+    "Fixed ten-second polling can exceed nominal1800s by up to ten seconds; cap each wait to remaining deadline.",
+    "Handle is acquired before output.mkdir outside try/finally: existing output namespace failure leaves query handle to automatic process teardown; put acquisition-dependent initialization under finally for explicit closure."
+  ],
+  "new_execution_authorized": false,
+  "production_queries_or_writes_by_reviewer": false,
+  "reviewed_utc": "2026-10-09T21:37:57.946354+00:00",
+  "schema": "MASTER_IQTREE_CONTROLLER_OBSERVER_SOURCE_REVIEW_V1",
+  "source_sha256": "b45f9abe6be1cb19f46609532b53b41b3e9aa51062c982a35ad3fc009c448d2b",
+  "state": "SOURCE_REVIEW_SMALL_DEADLINE_CORRECTION_RECOMMENDED"
+}
