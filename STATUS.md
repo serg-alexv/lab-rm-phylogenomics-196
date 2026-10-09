@@ -1,6 +1,6 @@
 # Current execution status
 
-Updated 2026-10-09T22:38:35.971466+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-09T22:41:07.989584+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
@@ -34,3 +34,7 @@ Actual operational update: Independent full Stage4 GitHub readback PASS; add omi
 Actual operational update: Publish fresh full cleanup-journal recovery PASS and reviewed Stage5 finalizer plus scoped WSL4GiB restart proposal
 
 Scoped WSL repair15 is reviewed and PREPARED_NOT_APPLIED: exact6-to4GiB RAM ceiling, CPU4/swap8GiB/houridle unchanged, one authorized Ubuntu/VM stop under the original lock, and two actual stopped readbacks before exact own-stop removal. The prior lost Windows terminal will remain NOT_RECONSTRUCTED.
+
+Actual operational update: Actual scoped WSL4GiB repair and aggregate VM closure PASS; preserve failed canonical fast-forward for read-only diagnosis
+
+Actual repair15 PASS: configuration SHA31b59c84, one actual owned WSL shutdown and two actual Ubuntu-Stopped readbacks, exact backed-up STOP removed, original byte lock released. Prior lost Windows terminal remains NOT_RECONSTRUCTED. New runtime/setup/science remains NOT_RUN. Canonical G fast-forward failed; its receipt is preserved and read-only diagnosis is pending. No reset/clean/force was used.

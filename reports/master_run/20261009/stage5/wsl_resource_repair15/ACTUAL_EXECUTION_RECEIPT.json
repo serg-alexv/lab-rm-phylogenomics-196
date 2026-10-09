@@ -1,0 +1,190 @@
+{
+  "schema": "MASTER_SCOPED_WSL_RESOURCE_REPAIR_V1",
+  "utc": "2026-10-09T22:39:09.679616+00:00",
+  "state": "PASS_AUTHORIZED_VM_STOP_4GIB_CONFIG_AGGREGATE_SCOPE_CLOSED",
+  "source_sha256": "cbd64266963b0ae9d8f0c734912f1c72548372976625fbf08748d599b64dc38f",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 468,
+        "creation_filetime": 134360591496822180,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 468,
+        "creation_filetime": 134360591496822180,
+        "exit_filetime": 134360591497302220,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "-d",
+        "Ubuntu",
+        "-u",
+        "root",
+        "--exec",
+        "/usr/bin/python3",
+        "-B",
+        "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/diagnose_failed_stage5_scope.py",
+        "--linux-observe",
+        "--nonce",
+        "400350d8a93a45d1bd2721e7c2e648f2"
+      ],
+      "retained_birth": {
+        "pid": 10200,
+        "creation_filetime": 134360591497576954,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 10200,
+        "creation_filetime": 134360591497576954,
+        "exit_filetime": 134360591500030294,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--shutdown"
+      ],
+      "retained_birth": {
+        "pid": 11696,
+        "creation_filetime": 134360591500369290,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 11696,
+        "creation_filetime": 134360591500369290,
+        "exit_filetime": 134360591608714473,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 8844,
+        "creation_filetime": 134360591608747064,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 8844,
+        "creation_filetime": 134360591608747064,
+        "exit_filetime": 134360591609171391,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "retained_birth": {
+        "pid": 17420,
+        "creation_filetime": 134360591609344801,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "retained_terminal": {
+        "pid": 17420,
+        "creation_filetime": 134360591609344801,
+        "exit_filetime": 134360591609754924,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    }
+  ],
+  "host_reboots": 0,
+  "scientific_launches": 0,
+  "authority": "Direct user authorized entire WSL reconfiguration if needed; current setup resource failure is preserved",
+  "prior_lost_windows_terminal": "NOT_RECONSTRUCTED; actual authorized VM stop supplies separate aggregate Linux closure",
+  "population_observation": "Racing observation; no atomic exclusivity claim. Unknown/racing processes veto this scoped repair.",
+  "original_lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "registered_before": "  NAME      STATE           VERSION\r\n* Ubuntu    Running         2\r\n",
+  "actual_admission": {
+    "utc": "2026-10-09T22:39:09.755565+00:00",
+    "physical_available_bytes": 5182496768,
+    "commit_headroom_bytes": 3194490880,
+    "commit_total_bytes": 19578097664,
+    "commit_limit_bytes": 22772588544,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\wsl_resource_repair15": 219344285696
+    }
+  },
+  "population_guard": {
+    "known_baseline_processes": "Includes root login/bash and supervisord; not a proof of no user processes",
+    "authorized_restart_scope": "Direct user authorized Ubuntu/WSL reconfiguration, including closing these unchanged baseline sessions",
+    "observation_transport_pids": [
+      887,
+      888,
+      891
+    ],
+    "atomic_no_jobs_claim": false
+  },
+  "actual_config_sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+  "registered_stopped01": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "registered_stopped02": "  NAME      STATE           VERSION\r\n* Ubuntu    Stopped         2\r\n",
+  "owned_stop_removed": true,
+  "wsl_vm_shutdowns": 1,
+  "original_lock_explicitly_released": true
+}

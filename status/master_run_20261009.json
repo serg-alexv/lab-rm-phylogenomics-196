@@ -71,7 +71,7 @@
   "historical_V10_closure": "UNKNOWN_PRESERVED",
   "latest_progress_snapshot": "reports/master_run/20261009/snapshots/verified_directory_publication09/native_progress.json",
   "launch_commit": "160498a6af156b563c7680910945da13b4d245c0",
-  "local_checkout_note": "Exact current native/controller/job/unlock/power closure established; reconcile G under original lock while preserving six dirty tracked hashes.",
+  "local_checkout_note": "Canonical G fast-forward failed before HEAD update; preserve failure, independent read-only byte/index diagnosis pending; no reset/clean/force operation.",
   "master_run": "master_20261009",
   "native_process": {
     "state": "CLOSED",
@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T22:38:35.971466+00:00",
+  "updated_utc": "2026-10-09T22:41:07.989584+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "FINALIZER_AND_CURRENT_CONFIG_PINS_PEER_PASS_19_PURE_TESTS_NEW_ACTUAL_SETUP_NOT_RUN",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Publish fresh full cleanup-journal recovery PASS and reviewed Stage5 finalizer plus scoped WSL4GiB restart proposal",
+  "stage5_operational_phase": "Actual scoped WSL4GiB repair and aggregate VM closure PASS; preserve failed canonical fast-forward for read-only diagnosis",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -185,7 +185,8 @@
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
-  "stage5_wsl_resource_repair15": "REVIEWED_PREPARED_NOT_APPLIED_EXACT6TO4GIB_AND_ONE_AUTHORIZED_VM_STOP",
-  "stage5_current_stop_sha256": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462",
-  "host_wipe_ready": false
+  "stage5_wsl_resource_repair15": "PASS_AUTHORIZED_VM_STOP_4GIB_CONFIG_AGGREGATE_SCOPE_CLOSED",
+  "stage5_current_stop_sha256": "EXACT_PRIOR_STOP_REMOVED_AFTER_SEPARATE_ACTUAL_VM_CLOSURE",
+  "host_wipe_ready": false,
+  "stage5_wsl_resource_repair15_receipt_sha256": "3700f32bbd7a72e666b95abdae3355523e14df2c1b3a1c20f4527d2105092ad5"
 }

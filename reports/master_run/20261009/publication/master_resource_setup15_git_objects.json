@@ -1,0 +1,225 @@
+{
+  "schema": "MASTER_UPDATE_GIT_OBJECTS_V1",
+  "utc": "2026-10-09T22:38:41.031392+00:00",
+  "state": "OBJECTS_ONLY_REF_NOT_UPDATED",
+  "expected_head": "530446825d8cd9269a1e9cd72cf34bda2757173a",
+  "tree": "f5f9ba25103c5dbaea140a69a0778acf73800bb7",
+  "commit": "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb",
+  "files": [
+    {
+      "target": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4830,
+      "sha256": "0d5cb6d96609aa0c919ceef03d35b41103e2d98dc0f55a33568544c1f22f9f80"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows.py",
+      "bytes": 33902,
+      "sha256": "b582ffbdd03967f9c071e2b0d63eda04ee40e0935cd29cf5f2a5e1f18ca56ebd"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "7c50648cb3d32f4c372a933815f10c385774038aab8f8ea324d49de6c264d2e6"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_setup.py",
+      "bytes": 15599,
+      "sha256": "2a905fe38affd786c5a4309ec0ddd456736dc9a5809782055e7d1d92d9079e3b"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_windows_before_failure_finalizer.py",
+      "bytes": 30179,
+      "sha256": "7ce1ad78cd4956334a18d48ab345872922a0844a4e327c3a9b2a38b2f2d6847e"
+    },
+    {
+      "target": "scripts/master_run/stage5_setup_linux_before_failure_finalizer.py",
+      "bytes": 14519,
+      "sha256": "3160568a31ee391b1e06f2b2b9535d02a906d050da26d7c857095d8542988d50"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_setup_before_failure_finalizer.py",
+      "bytes": 11180,
+      "sha256": "5600d2f88874b79ba0502e4ebc209425ac91439e1d7ee65c91efc275f1adaee4"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config.py",
+      "bytes": 12813,
+      "sha256": "eac90967546fb771bf1d719ca2d25a5034ffe9b35b9c91a51cb93881b272fab0"
+    },
+    {
+      "target": "scripts/master_run/stage5_build_actual_config_before_finalizer.py",
+      "bytes": 12813,
+      "sha256": "ff877de48f1bcad00a42459eacabef6047f80bf1348f187fc9e679440f509a0f"
+    },
+    {
+      "target": "scripts/master_run/test_stage5_build_actual_config.py",
+      "bytes": 4968,
+      "sha256": "26ef4693d32e30aaddc0f7fe19d20a6af7a2cc8640917756690702e7066eebe2"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_actual_config_request.template.json",
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_ACTUAL_CONFIG_AND_CHECKPOINT_METHODS.md",
+      "bytes": 8220,
+      "sha256": "343722964444c88665925224946e941d0a0b151031a5c7ce0fddcaaf9fc0639f"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_SETUP_RESOURCE_FAILURE_FINALIZER_METHODS.md",
+      "bytes": 3833,
+      "sha256": "3f9c45e0edfba4205746ffcbac4095ab82594fe81efa7943fd7f7199b5282cbd"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_preparation.json",
+      "bytes": 4770,
+      "sha256": "4f11c9a55da6e00b7ef6d7e2f4ffb14dd965482a6fd09d192c0f917de1d00087"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_setup_resource_failure_finalizer_independent_review.json",
+      "bytes": 2888,
+      "sha256": "384d32bd5037c5f51fdbf35fa797c0bcf2f7db2e1032041e42f44cc8f05bae1b"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/stage5_config_finalizer_pin_refresh_independent_review.json",
+      "bytes": 848,
+      "sha256": "2377915c82e9ecfae40697019ae9aee8fa9fe1e3b48363e80474b6ae509e8421"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/launch.json",
+      "bytes": 1258,
+      "sha256": "e8a40afcf54d528a048ed0b40f60a0053f56403795214b1d395f661eeac7a4d4"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/result.json",
+      "bytes": 3405,
+      "sha256": "2aaa9d9b629efbe52a3e274a53694e2ab895a05e1916b1a8a962e81c5db615b9"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/linux_terminal.json",
+      "bytes": 461,
+      "sha256": "ad88c019a20cfc5197f28676e12153e53d438f5fad80475396cc86dcd7b3406f"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/owner_lease.json",
+      "bytes": 898,
+      "sha256": "62f20556460c0a8e4fb440c989dbf0f8f1c14130d04e9295034dfc4ce0d31532"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/lock_released.json",
+      "bytes": 116,
+      "sha256": "35e94b8e3168bc2812e3bceee66f0a8cd4a43ae610d0f0574b83c6a9e1551459"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/preserved_diagnose01/actual_owner_lock.json",
+      "bytes": 663,
+      "sha256": "1959739e69068c6bbbd78280a6c6e96f3cddb0fe60212b51625e6dcf629c3652"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/PUBLICATION_FILES.json",
+      "bytes": 9626,
+      "sha256": "5f35d106d676be8942f9435ae37f1ac2766d2218be48ab1c9006e9e3df307009"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/setup_resource_failure_finalizer/STAGE5_CONFIG_FINALIZER_PIN_REFRESH.md",
+      "bytes": 1722,
+      "sha256": "f5a4b14ee2fae4687c05a361c4913b010696bb8d6d8c4506c6943b51e663d9fd"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_RECEIPT.json",
+      "bytes": 2751,
+      "sha256": "defd0c218f6834ed268a8ade0b52fa652b5172de0ca05e69fc63f818a534405f"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_LINUX_OBSERVATION.json",
+      "bytes": 11502,
+      "sha256": "a39811f90050007245a057f40ae207db2d769e18cda2ed41da95c2fee431cded"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/failed_scope_diagnostic01/ACTUAL_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": "reports/master_run/20261009/cleanup/directory_prune_execution01/REMOTE_READBACK.json",
+      "bytes": 43872,
+      "sha256": "83fa1e6181274976cab5e245885af3c1ec3a2e8f25f5e48b159682b4af790389"
+    },
+    {
+      "target": "scripts/master_run/apply_scoped_wsl_resource_repair.py",
+      "bytes": 8232,
+      "sha256": "cbd64266963b0ae9d8f0c734912f1c72548372976625fbf08748d599b64dc38f"
+    },
+    {
+      "target": "scripts/master_run/apply_scoped_wsl_resource_repair_review_draft83045.py",
+      "bytes": 6725,
+      "sha256": "83045f1779c480607e991cdd3abdd64d7304a9bbc588a0e6e5907e035da43bf6"
+    },
+    {
+      "target": "scripts/master_run/test_scoped_wsl_resource_repair.py",
+      "bytes": 5237,
+      "sha256": "8150dab4799055bf70809966ceae538fb1ca39c50798baa232b9a1d434e13791"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/wsl_resource_repair15/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 5093,
+      "sha256": "add158bd2455893ccf9cd6758fc7b6f9aec32c649e965f2feb4875b03ef4655a"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_failure_closure14_git_objects.json",
+      "bytes": 8593,
+      "sha256": "88c97a23689af698b7e979eb10ee1fddd7c7c468b43cf333ff4a35899923cd69"
+    },
+    {
+      "target": "reports/master_run/20261009/publication/master_failure_closure14_remote_readback.json",
+      "bytes": 15202,
+      "sha256": "0e12aa8d511405497f095fba77fc9f9a9b43786e0dba10591624b4e66c59403c"
+    },
+    {
+      "target": "scripts/master_run/prepare_master_resource_setup15.py",
+      "bytes": 5734,
+      "sha256": "1cfc6b8b1623a5c17babfaba7665c657ac9f08a86badca00f90ff03d79f3c591"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.before.txt",
+      "bytes": 679,
+      "sha256": "6c1f518719def3826ff78d03329e54cb7e3f23745f6bd25b0b0b3ffd1d600022"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/wsl_resource_repair15/wslconfig.after.txt",
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/wsl_resource_repair15/original_failed_stop.json",
+      "bytes": 385,
+      "sha256": "ef5e47644dc961ed1945d707c3dd993fe9f0370980f094ff741a3d1253d13462"
+    },
+    {
+      "target": "reports/master_run/20261009/stage5/wsl_resource_repair15/proposal.json",
+      "bytes": 939,
+      "sha256": "5af09cf56a3d64dfd9b6f25b17f315518bc3af3a3b04e87c8fba626606886fe2"
+    },
+    {
+      "target": "status/master_run_20261009.json",
+      "bytes": 10699,
+      "sha256": "80c7f32c277349848d3e5f0c8eee7f1102102eeb199652ae9674f3b848598e53"
+    },
+    {
+      "target": "STATUS.md",
+      "bytes": 4869,
+      "sha256": "aeeb8f32804fc5e202291319e035e42c46385ac70b9767634f272325d17a1d0f"
+    }
+  ]
+}

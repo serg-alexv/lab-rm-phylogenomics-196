@@ -1,0 +1,21 @@
+{
+  "schema": "MASTER_CANONICAL_POST_NATIVE_FAST_FORWARD_V1",
+  "utc": "2026-10-09T22:39:42.800415+00:00",
+  "source_sha256": "deae4e11780fcdb6413f92606bed09403d162691e19e146a9b949984181804d9",
+  "expected_main": "24e2299ae5a118e99aeb9b52d8cf6f973127d9bb",
+  "state": "FAILED_PRESERVED",
+  "git_resets": 0,
+  "git_clean_calls": 0,
+  "lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "before_head": "80331d535d622517adf7921be42fc9931cdc23ee",
+  "fetch_stdout": "",
+  "error_kind": "CalledProcessError",
+  "error_message": "Command '['git', 'merge', '--ff-only', 'origin/main']' returned non-zero exit status 1.",
+  "original_lock_explicitly_released": true
+}
