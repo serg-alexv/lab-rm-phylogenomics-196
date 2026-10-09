@@ -82,5 +82,5 @@ try{
  $r.state='PASS_EXACT_224_VERIFIED_INACTIVE_FILES_REMOVED'
  $r.completed_utc=[DateTime]::UtcNow.ToString('o')
 }catch{$r.state='FAILED_PARTIAL_PRESERVE_REMAINDER';$r.error=$_.Exception.Message;throw}finally{Save-Receipt}
-$r|Select-Object state,deleted_bytes,completed_utc|ConvertTo-Json -Compress
+[pscustomobject]@{state=$r.state;deleted_bytes=$r.deleted_bytes;completed_utc=$r.completed_utc}|ConvertTo-Json -Compress
 $nativeProcess.Dispose();$controllerProcess.Dispose()

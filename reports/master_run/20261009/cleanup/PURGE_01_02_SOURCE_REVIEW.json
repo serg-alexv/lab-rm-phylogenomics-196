@@ -1,0 +1,22 @@
+{
+  "schema": "MASTER_PURGE_01_02_INDEPENDENT_SOURCE_AND_PLAN_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_EXACT_PLAN_REVIEW_NO_DELETE",
+  "plan_sha256": "d1011520a531fc8f334c920ad6f206a0b3a0672b167c4e224059e0d9eda127f2",
+  "script_sha256": "a547c930dfbdf1b4eac4146c1c1f339a138e0ab04b0fa5933be2262a0648df16",
+  "files": 224,
+  "bytes": 2207024265,
+  "batch1_files": 142,
+  "batch2_files": 82,
+  "exact_recovery_file_join": true,
+  "allowed_roots_exact": true,
+  "all_targets_C_only_and_outside_protected_paths": true,
+  "recovery_receipt_pins": 6,
+  "asset_ids": 56,
+  "retained_owner_handle_refresh_before_every_deletion": true,
+  "CIM_birth_equality_removed": true,
+  "exclusive_hash_and_nonrecursive_literal_delete": true,
+  "script_executed": false,
+  "deletions": 0,
+  "current_target_content_rehash": "OWNED_PREFLIGHT_MUST_EXECUTE_LATER",
+  "remote_proposal_publication": "MUST_COMPLETE_BEFORE_SCRIPT_RUN"
+}
