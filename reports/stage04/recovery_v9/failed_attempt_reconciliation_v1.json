@@ -1,0 +1,271 @@
+{
+  "schema": "failed_attempt_reconciliation_v1",
+  "utc": "2026-10-09T00:12:50.015040+00:00",
+  "status": "NEGATIVE_HISTORY_ACTUAL_NATIVE_EXIT1_OLD_CLOSURE_UNKNOWN",
+  "ordinary_success_receipt": false,
+  "scientific_validation": "FAILED_INCOMPLETE",
+  "termination_cause": "NOT_ESTABLISHED",
+  "original_controller_outcome": "UNKNOWN",
+  "original_final_job_accounting": "UNKNOWN",
+  "original_job_closure": "UNKNOWN",
+  "old_guard": "UNCHANGED_B2_STILL_REJECTS_MISSING_ORDINARY_RECEIPTS",
+  "original_freeze_sha256": "c3f903733c1bb1f37611ac43b221ff1c147dc063859759c814991fe750823369",
+  "original_adoption_sha256": "379bf4e1f521463c70bc28d25e664a93ecc2623cba906261fa3a94320e3d0078",
+  "frozen_source_sha256": {
+    "scripts/stage04_native_windows_v6.py": "154b5236781f0380f5443a1ec3cff7b89aaa56743074afb6cafae388a24a7da7",
+    "scripts/stage04_windows_job_v6.py": "eabda371999b484532878b2e1652034a63e1de3a8860472540202b229797e03c",
+    "scripts/stage04_windows_validate_v6.py": "d075c4d53e506f10e328d627e2b2e24db19edb5256daa902ea610d5a06989d5d",
+    "config/host_inference_stage04_windows_v6.json": "2b380e6f899571410f3d32d1770dc1f08b6618e48e22bfe1b582620af48355d1",
+    "scripts/stage04_closed_boundary_v2.py": "9671634bd68764ee5167bf63b09f515f6836610e67c340b3f5c57e2e1d2e7c99"
+  },
+  "original_launch_sha256": "9b9e438001251ca42d63d11649b7e6726686974506da89508a04f403b8f8b583",
+  "actual_native_observer_exit_sha256": "212fa361c8c5c07b5e72d84d9baf083ba24609da5711f8752a3d6e04cea0a32f",
+  "actual_native_exit": {
+    "status": "ACTUAL_BOUND_WINDOWS_PROCESS_EXIT_OBSERVED",
+    "target_pid": 29132,
+    "target_creation_filetime": 134359651870883542,
+    "actual_executable": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "on_disk_executable_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+    "observer_pid": 29352,
+    "observer_source_sha256": "84df288bcb7fab7df3c7ce978ea9ae572fd9d6db2e5b2173c07f8f552b06bf84",
+    "handle_access_mask": 1052672,
+    "handle_access_names": [
+      "SYNCHRONIZE",
+      "PROCESS_QUERY_LIMITED_INFORMATION"
+    ],
+    "job_handle_owned": false,
+    "termination_right_requested": false,
+    "scientific_validation": "NOT_PERFORMED",
+    "utc_bound": "2026-10-08T20:38:35.186085+00:00",
+    "observed_utc": "2026-10-08T23:30:02.687691+00:00",
+    "wait_result": 0,
+    "exit_code_dword": 1,
+    "process_times": {
+      "creation_filetime": 134359651870883542,
+      "exit_filetime": 134359758026498313,
+      "kernel_100ns": 1478437500,
+      "user_100ns": 159836406250,
+      "kernel_seconds": 147.84375,
+      "user_seconds": 15983.640625
+    },
+    "elapsed_observation_seconds": 10287.473639400001,
+    "evidence_scope": "Win32 process identity, actual signaled exit, exit code and process CPU timestamps only",
+    "limitations": [
+      "Does not establish scientific correctness or native output completeness",
+      "Does not establish why the process exited or who caused termination",
+      "Executable SHA is the identified file on disk, not a hash of mapped process memory",
+      "Does not own, control or keep the production job alive"
+    ]
+  },
+  "recorded_old_process_reconciliation": [
+    {
+      "pid": 8264,
+      "recorded_creation_filetime": 134359651662914448,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_controller",
+      "recorded_creation_token_available": true
+    },
+    {
+      "pid": 29132,
+      "recorded_creation_filetime": 134359651870883542,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_native",
+      "recorded_creation_token_available": true
+    },
+    {
+      "pid": 27464,
+      "recorded_creation_filetime": 134359641403414121,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_cli",
+      "recorded_creation_token_available": true
+    },
+    {
+      "pid": 22176,
+      "recorded_creation_filetime": 134359754592961172,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_publication_worker",
+      "recorded_creation_token_available": true
+    },
+    {
+      "pid": 29352,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "native_observer",
+      "recorded_creation_token_available": false
+    },
+    {
+      "pid": 25952,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "controller_observer",
+      "recorded_creation_token_available": false
+    },
+    {
+      "pid": 30700,
+      "recorded_creation_filetime": null,
+      "state": "ABSENT_WIN32_ERROR_INVALID_PARAMETER",
+      "role": "original_job_conhost",
+      "recorded_creation_token_available": false
+    }
+  ],
+  "recorded_token_missing_roles": [
+    "native_observer",
+    "controller_observer",
+    "original_job_conhost"
+  ],
+  "missing_original_files": [
+    "attempt_0001/exit.json",
+    "tree_complete.json",
+    "host.ckp.gz"
+  ],
+  "exclusive_writer_boundary": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0,
+    "lock_kind": "msvcrt.LK_NBLCK"
+  },
+  "matching_live_project_runners": [],
+  "original_artifacts": {
+    "admission_0001.json": {
+      "sha256": "1841dd55b0f5401f19949aa77ad35cb98fdd02e1b7a5e8166d9971d442518fa1",
+      "bytes": 1197
+    },
+    "attempt_0001/launch.json": {
+      "sha256": "9b9e438001251ca42d63d11649b7e6726686974506da89508a04f403b8f8b583",
+      "bytes": 1348
+    },
+    "attempt_0001/progress.json": {
+      "sha256": "cb1428d75b3c7f9a5649a5c2941aaf4b61874f265331ebbc430054c500d288f9",
+      "bytes": 559
+    },
+    "attempt_0001/stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "attempt_0001/stdout.txt": {
+      "sha256": "563a6ca7d847a950a6482ad78601364587a3ae36c6b740282e409373b19d9234",
+      "bytes": 20466
+    },
+    "host.log": {
+      "sha256": "cb1469781a18152484270cb3bf494d8a68617559d4ecfd440b4a32f6ccca032d",
+      "bytes": 19274
+    },
+    "host.model.gz": {
+      "sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+      "bytes": 418807
+    },
+    "invocation.json": {
+      "sha256": "464abe2f51718593a68966d66003b2fae675eb82f2d43e4075022985f2b03872",
+      "bytes": 979
+    }
+  },
+  "preserved_artifacts_root": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage04_recovery_v9\\negative_history_v1",
+  "cache": {
+    "sha256": "0aeefd2a1f1098e924ca06bdb785b7bff2ab0fff5939b3cd3df4ca90b3896b03",
+    "bytes": 418807,
+    "best_model_BIC_records": 14,
+    "finishedFastMLTree_true": true,
+    "general_checkpoint": "ABSENT",
+    "compatible_cache_reuse": "REQUIRES_NEW_OBSERVED_TOOL_EVIDENCE"
+  },
+  "retry_protocol": "V9 may admit a separately reviewed retry from actual native failure and exclusive reconciled boundary; UNKNOWN old closure remains UNKNOWN",
+  "limitations": [
+    "Creation tokens for the observer/helper/conhost are missing in retained records; their PID absence is explicitly recorded, never ordinary job closure.",
+    "No cause of native exit1 is established by temporal correlation.",
+    "No tree or scientific PASS is established by this certificate."
+  ],
+  "input_file_sha256": {
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/concatenated.faa": "442742d083628ab5382a10cafc422c57084cd9bde45a4f2950f15e2c199e3307",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/concatenated.clw": "da4885a5d007cfe61e8beeb2391383ffbfabe6a93a614a67cdf85be99fd2f920",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/concatenated.phy": "f4f2e93b2e2e5add3a5289935e405fb46f6a37a2751773f8fd97c9d636449751",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/concatenated.nex": "13b3e92a5ee2d481ccd5be17ab6fad5459281cbc249516fe2d369f9b3a945678",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/source_block_mapping.tsv": "7785b64c3dc237ca77ee7e6411579fa8497a6e2c0b6d5c07a8de054891e99f5f",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/accessions.txt": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/identical_alignment_groups.json": "8ace20ef0c75c14ae8f7ab70af243b435e5652561974d3f174d592a8442908ef",
+    "data:.work/stage04_phylogeny_v2/analyses/primary196/tip_label_map.tsv": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/concatenated.faa": "43f712b9916beee3d2e18388d24f3fd9b49727d1dc05bf265cc4e525fe118e82",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/concatenated.clw": "f383c1ce0a1d30cbcea0c5dc2f0cc0dfe3ff08254502c22ab50e27824f001e24",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/concatenated.phy": "79269884d8bcb7a0b4fddb7a830fac8e1748e20924516cb663a682fab05090a7",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/concatenated.nex": "d38cff1192c0b6b111b6637e631d860b93f82f474a63be79c9a00f249cff3b60",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/source_block_mapping.tsv": "2a5e00fd0cec6f149c26780162d0af7af08d990156562deaa4a6e41ab3918fa0",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/accessions.txt": "e8781ba9f2a42515f84bb13b37cb496d2f3df9e5d1bbed0bb15adff03456bd8e",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/identical_alignment_groups.json": "1d6de99729e5ff443aef276f4597b896147ace65e55aeb41c74e3f343bb2ce49",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity162/tip_label_map.tsv": "1c121ab7d9ecc8840babd11f7b3cdbeaec889b05e99478d4c6e137a0d5f20a8f",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/concatenated.faa": "284fe5a7150bc20566985205756b566a1b207d92f26961841e70aa8fb65ed050",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/concatenated.clw": "db5f1783187f470e6f68f1590eb93110d207b9f4104f6f9de4dfe8f4c4f78e9d",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/concatenated.phy": "e9ba7d937e6d9d399b7deb3d99876c387d3812dc2ec35fb8b6d63d783db8dc22",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/concatenated.nex": "1c7cd187606fc44cf10670954587c390d949c655c5a6ae6e8de2b5f2b7a4f0bd",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/partitions.tsv": "73e652287552c5f91bd03ad84bf607dcdff360bda08c2eace765fe3bfefc04ba",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/partitions.nex": "4d17ecc88bfdbf39b9625cb3cfa10ce6a31077c5edda4fa52d495bdd659ac760",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/partitions.raxml.txt": "67a20ece82f1a3cce3d72c18644d06ba4b018ec58e63919eacde4cfb9568d6ea",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/source_block_mapping.tsv": "344fe894f10779654bcccead43b727d986021ebbc3d18125b2d78722233b617c",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/accessions.txt": "5a6f4ec29568c81025b82b43f5da44267ce0df7b2da4f91a211eec9c04b87ad0",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/marker_order.txt": "a0b5c046b006c08cb7753d10fbd3d36e5e2d4f42e46ba8102156f279449a7d27",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/identical_alignment_groups.json": "ef2e469824d253adf3ef356ce594c7b000579fa687d04b73edec1ef5250c36b8",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity187_markers/tip_label_map.tsv": "2837a7079abdae498c4f91aee648294421789790090a61f6f794897648df2341",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/concatenated.faa": "fffafda6f2f6d40629bc69452c68b35b732d8e562e39c9db18f5431bbe931267",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/concatenated.clw": "0670d03204190b633df099e22f42b90c2404a351852c46dd300ea19f10cdefe4",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/concatenated.phy": "6a310305ef2f42c71246e5ce4e3910a06622d8561df2932fc006e6aa0b5d97cb",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/concatenated.nex": "18fc836932ee230e379282ac4e383787397e00038be6b24d3483157eacc417cf",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/partitions.tsv": "988060f9f447cbc1fdd7a4e0b361393c507f9534b2dbeb9e50666edf783332d0",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/partitions.nex": "fa640e5e984b33e73a86b1ec7a7c18f7161a12252e68e9e3c6ceb2644eb7edc5",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/partitions.raxml.txt": "cb12875eb7be8620ab0fca32d221b5ffd65f63a53b024cb8f53fd7f3a7f4d029",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/source_block_mapping.tsv": "52348ad7f181cc2083b89789ba99b051484a5c4c89a18493f1fd2b3defeae309",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/accessions.txt": "90b7a7ffb25b148eb2f04856c39a7f31c9486c211140f353bc536cc2de64aa46",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/marker_order.txt": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/identical_alignment_groups.json": "b4ce8f331a51baf1c7c05edb7f57b01db70a7d75d9b4283c024bc7549754f36d",
+    "data:.work/stage04_phylogeny_v2/analyses/sensitivity_complete155/tip_label_map.tsv": "95837e1a9c13b6a42e4692a282398c28209ebbc084e924e255748ae0596bc586",
+    "data:.work/stage04_phylogeny_v2/analysis_freeze.json": "0fd9308d8f813e47a66530bef4b20d33e30515b6e043c981c3224973d96f95a3",
+    "data:.work/stage04_phylogeny_v2/alignment_summary.json": "f027a745f5499da4723068111444b5b64c76119c8bfed35e67cb8c00e281d79e",
+    "data:.work/stage04_phylogeny_v2/analysis_alignment_manifest.json": "817c5ed6b7ec3f6863a062a4758c86a31a33f60c5e37a336f375e5a73fcaaa64",
+    "data:.work/stage04_alignment_validation/validation_summary.json": "2dcec67c0de7c8930046d82ac3c87d011e295844873805f17aae3a2453855b04",
+    "data:reports/stage04a/publication_receipt.json": "37a7e8d4e89ce16b42021353c393d6386361c8053131c2ec0c406dfeeaa45f8e",
+    "historical:.work/stage04_inference_v3/analyses/primary196/iqtree/attempt_0001/iqtree3.command.json": "3a525d8b1eaa9920fddef8b553a3925e1c5b3e3eeca9afd069ef5b68899b77ee",
+    "data:config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+    "data:config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "data:reports/stage04/migration_v5_native_source_check.json": "a77a27a096ec24132e7d7672d5a916dfa9ff719ff90160b5859a5dd7e26ebca0",
+    "data:reports/stage04/inference_v4_adoption.json": "3a311e8492f2832538160bd3c6a0607091dae3c73f324cc3e3f9f519e6f4c76c"
+  },
+  "tool_identity": {
+    "official_release_url": "https://github.com/iqtree/iqtree3/releases/tag/v3.1.4",
+    "official_archive_sha256": "bbb59db7157ddb1c0c52af8eef111af2b0396d4bed0268a1735fabfbf902e722",
+    "official_archive_bytes": 10723251,
+    "executable_sha256": "43c9bf3b0dc5e7d88c183a2582369d22c9d692b7585350038769334bb6fd9aed",
+    "openmp_dll_sha256": "946269ecbcce6950571f1c2405044810dfb8983fff35c633705adf799dfb6cb8",
+    "version": "3.1.4",
+    "platform": "Windows64"
+  },
+  "original_argv": [
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\iqtree_windows_3_1_4\\extracted\\iqtree-3.1.4-Windows\\bin\\iqtree3.exe",
+    "-s",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\concatenated.faa",
+    "--seqtype",
+    "AA",
+    "-p",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_phylogeny_v2\\analyses\\primary196\\partitions.nex",
+    "-m",
+    "MFP",
+    "-B",
+    "1000",
+    "--alrt",
+    "1000",
+    "--seed",
+    "1961008",
+    "-T",
+    "2",
+    "-keep-ident",
+    "--boot-trees",
+    "--prefix",
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage04_inference_windows_v6\\analyses\\primary196\\iqtree\\host"
+  ]
+}
