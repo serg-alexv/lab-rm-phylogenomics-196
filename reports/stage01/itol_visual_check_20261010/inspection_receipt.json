@@ -1,0 +1,48 @@
+{
+  "schema": "itol-export-visual-inspection-v1",
+  "inputs": {
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\itol_visual_check_20261010\\pilot_196_taxa.svg": {
+      "bytes": 508961,
+      "sha256": "4c7336b5f9a85ae51470fe224935b8e254ad29e47331ccfd8fbfd70ab02c7c4a"
+    },
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\itol_visual_check_20261010\\pilot_196_taxa.pdf": {
+      "bytes": 69924,
+      "sha256": "2097d9c2550a1118147e8303853de071a7d51f6ad5e585cc61fa4917d79d3dca"
+    },
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\pilot_itol_labels01\\itol_labels.txt": {
+      "bytes": 13398,
+      "sha256": "37b6d5bfde7ce78fc235e43cd1254df9ec75e4f71ff1559649244cfc529b8edb"
+    },
+    "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\species_tree.newick": {
+      "bytes": 40465,
+      "sha256": "cb7ef5f188f3dbd0e4937295bb5d6d3d08876b3197851b997a3cd21b0d342bb8"
+    }
+  },
+  "svg": {
+    "xml_parse": "PASS",
+    "root_tag": "{http://www.w3.org/2000/svg}svg",
+    "text_element_count": 207,
+    "mapped_label_count": 196,
+    "mapped_labels_found": 196,
+    "missing_label_count": 0,
+    "unique_label_ids": 196
+  },
+  "pdf": {
+    "strict_parse": "PASS",
+    "page_count": 1,
+    "mapped_label_count": 196,
+    "mapped_labels_found_in_extracted_text": 196,
+    "missing_label_count": 0,
+    "unique_label_ids": 196,
+    "header_magic": "%PDF-1.4"
+  },
+  "tree": {
+    "accession_tip_count": 196,
+    "label_accession_count": 196,
+    "accession_sets_equal": true
+  },
+  "limitations": [
+    "PDF raster preview not generated: PyMuPDF/fitz unavailable in the active Python runtimes.",
+    "Label checks use exact display-label substring presence in SVG text and pypdf-extracted PDF text; they do not independently reconstruct geometry or infer scientific validity."
+  ]
+}

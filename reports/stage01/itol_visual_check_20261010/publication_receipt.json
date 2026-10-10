@@ -1,0 +1,77 @@
+{
+  "schema": "itol-visual-check-publication-v1",
+  "observed_utc": "2026-10-10T09:49:28.3685538Z",
+  "tree": {
+    "itol_url": "https://itol.embl.de/tree/15124432167298281791625397",
+    "filename": "pilot_196_taxa.newick",
+    "account_tree_reopened": true,
+    "reopened_leaf_count": 196,
+    "server_annotations_present": false,
+    "server_annotation_save_message": "Saving annotations is not possible without a valid subscription",
+    "reported_api_upload_response": "ERR 0 no valid subscription",
+    "note": "Server account contains a bare tree; do not claim server-persisted styling or annotations."
+  },
+  "exports": {
+    "svg": {
+      "bytes": 508961,
+      "sha256": "4c7336b5f9a85ae51470fe224935b8e254ad29e47331ccfd8fbfd70ab02c7c4a",
+      "xml_parse": "PASS",
+      "text_element_count": 207,
+      "expected_mapped_labels": 196,
+      "labels_found": 196,
+      "missing_labels": 0
+    },
+    "pdf": {
+      "bytes": 69924,
+      "sha256": "2097d9c2550a1118147e8303853de071a7d51f6ad5e585cc61fa4917d79d3dca",
+      "strict_parse": "PASS",
+      "magic": "%PDF-1.4",
+      "pages": 1,
+      "expected_mapped_labels": 196,
+      "labels_found": 196,
+      "missing_labels": 0
+    },
+    "local_copied_bytes_identical": true
+  },
+  "comparison": {
+    "labels_source": "work/pilot_itol_labels01/itol_labels.txt",
+    "labels_sha256": "37b6d5bfde7ce78fc235e43cd1254df9ec75e4f71ff1559649244cfc529b8edb",
+    "reference_tree": "pilot_output/species_tree.newick",
+    "tree_sha256": "cb7ef5f188f3dbd0e4937295bb5d6d3d08876b3197851b997a3cd21b0d342bb8",
+    "reference_tree_tip_accession_count": 196,
+    "accession_sets_equal": true,
+    "rendered_labels_found_in_svg": 196,
+    "rendered_labels_found_in_pdf_text": 196
+  },
+  "preview": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_visual_publication88\\pilot_196_taxa_preview.png",
+    "sha256": "b24382236d8be5dde672cd445389b5c379570535bd301a47e4a72599f6eefa52",
+    "bytes": 576349,
+    "dimensions": "1140x1063",
+    "rendered_page": 0,
+    "renderer": "pypdfium2 from exported PDF, scale 1.5",
+    "fitz_available": false,
+    "svg_renderer_available": false,
+    "visual_review": "Circular tree and 196 labels/ring/legend render; legend overlaps some left-side labels, so this is draft review artwork, not publication-ready."
+  },
+  "previous_remote_readback": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_running_publication87\\remote_readback.json",
+    "sha256": "64293c0ea6e555e955f559dd3cb92996cff4f5b919508b3898d71a506d2ade40",
+    "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+    "expected_commit": "f91f2a4a654ec64a18416be5819b0c5c82d10052",
+    "final_remote_main": "f91f2a4a654ec64a18416be5819b0c5c82d10052"
+  },
+  "canonical_copy": {
+    "directory": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\itol_visual_check_20261010",
+    "files": [
+      "pilot_196_taxa.svg",
+      "pilot_196_taxa.pdf"
+    ],
+    "no_overwrite": true
+  },
+  "limits": [
+    "PDF/SVG structural parsing and label presence do not independently validate phylogenetic inference.",
+    "Account tree was reopened as bare tree without persisted annotations.",
+    "Full 100-marker run remains pending; these pilot exports do not imply completion."
+  ]
+}

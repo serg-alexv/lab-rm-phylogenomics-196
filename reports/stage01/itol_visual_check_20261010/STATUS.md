@@ -1,0 +1,7 @@
+# iTOL visual check exports
+
+A persistent iTOL account tree is available at https://itol.embl.de/tree/15124432167298281791625397 as `pilot_196_taxa.newick`. The account tree was reopened and has 196 leaves, but the server copy is bare: annotations were absent after reopening, and saving annotations returned “Saving annotations is not possible without a valid subscription.” The earlier API upload response was `ERR 0 no valid subscription`. Do not describe server-side annotation persistence as successful.
+
+Local SVG and PDF exports are copied unchanged to `pilot_output/itol_visual_check_20261010/`. The SVG parses as XML and contains all 196 mapped labels. The PDF parses strictly as a one-page PDF and text extraction found all 196 mapped labels. Their accession set matches the 196-tip pilot tree and the approved label map. A preview PNG was rendered from the PDF export with pypdfium2 because fitz and bundled sharp/resvg SVG renderers were unavailable. Visual review found a circular 196-tip tree with a taxonomic-group ring and legend; the legend overlaps some left-side labels. Treat this as draft review artwork, not publication-ready artwork. No host or defense calls are represented.
+
+The full 100-marker run remains `RUNNING_FULL100_LOCAL_MAFFT` at the latest supplied observation. These pilot exports do not signify full-run completion or a validated scientific conclusion. See `publication_receipt.json` and `git_plan_publish.json` for hashes and provenance.
