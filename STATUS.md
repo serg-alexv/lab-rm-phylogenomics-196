@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-RUNNING. Corrected pilot launched locally; first alignment complete and IQ-TREE ModelFinder is running with two threads and -mem 3000M. No gene tree or ASTRAL result is yet accepted. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot76/progress.json).
+RUNNING. Marker1 5-FTHF_cyc-lig ModelFinder completed in1124.463 wall seconds and selected Q.PFAM+F+I+R5 by BIC. The original local IQ-TREE process remains active in tree search and bootstrap estimation. Its preliminary treefile is not a completed gene result; no ASTRAL result or native terminal receipt exists yet. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot78/progress.json).
 
 # Current execution status
 
