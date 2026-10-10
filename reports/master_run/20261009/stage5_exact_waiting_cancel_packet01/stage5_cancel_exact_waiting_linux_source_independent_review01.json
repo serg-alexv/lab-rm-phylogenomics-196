@@ -1,0 +1,85 @@
+{
+  "schema": "STAGE05_EXACT_WAITING_CANCEL_LINUX_SOURCE_PEER_V1",
+  "state": "PASS_EXACT_WAITING_LINUX_PIDFD_SIGTERM_SOURCE_ONLY",
+  "utc": "2026-10-10T03:47:37.622253+00:00",
+  "reviewer_source_sha256": "2ef12d2c73f729543cd32ac1cbdb8ffed8018f38d8ef47df8ab5574246d94ff0",
+  "actual_signal_WSL_API_lock_process_effects": "NOT_RUN",
+  "target_termination_or_original_owner_unlock_proven": false,
+  "method": "C-only frozen source/dependency/current fixed C owner/launch bytes and AST review,10 synthetic fake-proc/fake-pidfd tests plus default NOOP. No actual Linux /proc, UNC/G, WSL, lock or signal.",
+  "frozen_sources": {
+    "stage5_cancel_exact_waiting_bootstrap.py": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b",
+    "test_stage5_cancel_exact_waiting_bootstrap.py": "818903fc39bd00507807760800a50124040b4d3ae9f354cafc57e8f4b0c6bf1e"
+  },
+  "checks": [
+    {
+      "name": "test_stage5_cancel_exact_waiting_bootstrap.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.298s\n\nOK\n"
+    },
+    {
+      "name": "stage5_cancel_exact_waiting_bootstrap.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_NOT_RUN\", \"signal_count\": 0, \"fallback\": \"NATURAL_1800_SECOND_ADMISSION_EXPIRY\", \"owner_lock_or_Windows_kill\": false}\n",
+      "stderr": ""
+    }
+  ],
+  "source_dependencies_and_exact_active_owner_launch_pins": {
+    "stage5_atomic.py": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_actual_backing_01.json": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa",
+    "stage5_owner_GCF_000009425_1_backing_01/owner.json": "37eeca75a126a5daae7b64b152542c49c8accf79afd3d9595aa458a0c728a58a",
+    "stage5_owner_GCF_000009425_1_backing_01/GCF_000009425.1.launch.json": "e846cf1448074dacc7cd420eb2fdb850303c743a529c5235a6f3f97040f93995"
+  },
+  "reviewed_contracts": [
+    "One fixed current Linux boot, config30a86, original Windows owner PID24488/birth134360766940521715, nonce1439 and exact original lock/lease identity",
+    "Fresh <=6s denied admission, exact typed policy and owner lease, initial transaction0001 only; execution/bundle/identity/complete/status/admission/owner-final paths must be absent",
+    "Unique full-argv target, pinned actual interpreter bytes/real executable, no child, live bounded /init ancestry and process births repeatedly compared",
+    "Unchanged P.verified_pidfd retains matching bootstrap birth; same full target identity and current waiting conditions rechecked around durable signal intent; one pidfd SIGTERM only, no numeric PID fallback/retry",
+    "Finite20s Linux alarm; explicit pidfd close result; C output never claims target termination, successful native scope closure or original owner unlock",
+    "Any absent/ambiguous/drifted target/precondition yields no signal and natural1800s admission expiry fallback; signal attempt uncertainty requires original owner terminal reconciliation"
+  ],
+  "native_zero_launch_interpretation": "Fresh observed precondition; check/signal is not an atomic freeze of the target. Actual original runner status/no_native_launch/closure and retained client exit/unlock remain mandatory.",
+  "unchanged_runner_signal_semantics": "Pinned R500dc handles SIGTERM as Retryable; pinned P.e5be closes any exact native scope before normal failed terminal. Actual evidence is required before a new config/run.",
+  "pending_Windows_wrapper": "Separate retained original U0664 Windows Job launcher source/peer and actual gate must be accepted before root operation; this report does not adopt an unreviewed wrapper.",
+  "old_waiting_scope_unchanged_by_review": true,
+  "checked_files": {
+    "review_stage5_cancel_exact_waiting_linux_source01.py": {
+      "bytes": 5975,
+      "sha256": "2ef12d2c73f729543cd32ac1cbdb8ffed8018f38d8ef47df8ab5574246d94ff0"
+    },
+    "stage5_cancel_exact_waiting_bootstrap.py": {
+      "bytes": 10626,
+      "sha256": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b"
+    },
+    "test_stage5_cancel_exact_waiting_bootstrap.py": {
+      "bytes": 10499,
+      "sha256": "818903fc39bd00507807760800a50124040b4d3ae9f354cafc57e8f4b0c6bf1e"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_actual_backing_01.json": {
+      "bytes": 2955,
+      "sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\owner.json": {
+      "bytes": 1955,
+      "sha256": "37eeca75a126a5daae7b64b152542c49c8accf79afd3d9595aa458a0c728a58a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.launch.json": {
+      "bytes": 1066,
+      "sha256": "e846cf1448074dacc7cd420eb2fdb850303c743a529c5235a6f3f97040f93995"
+    }
+  }
+}

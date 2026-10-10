@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T03:37:04.202340+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T03:51:40.257961+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: the first GCF_000009425.1 owner is active under the original lock but its initial resource guard has not admitted a detector. The exact observed Linux MemAvailable is below the2.5GiB threshold; Windows RAM/commit/disk pass. No native execution directory existed at the read-only observation, no biological result or closure is claimed, and current resource remediation is under review. Corrected exact failed03 sentinel cleanup and raw archive owner sources passed focused independent review only; their actual effects are pending until the scientific scope is closed. Accepted Stage4 is unchanged. VM capture/splitting/restore remain pending; the public repository must contain reviewed project/runtime material only. The host is not wipe-ready.
+Stage5 current execution: waiting01 remains an active initial-resource wait with no adopted native result. A separate reviewed request02 changes only the unmeasured Linux job capacity booking from1.5GiB to1.375GiB and its rationale; sampledRSSstop1.25GiB, Linuxreserve1GiB, Windows thresholds, all six current-boot gates and full scientific methods stay fixed. The exact pidfd cancellation sources are reviewed only and will request graceful termination of this one verified waiting Linux bootstrap, leaving its original Windows owner to establish terminal closure and unlock. No second scientific launch occurs before those receipts. If preparation or execution still does not fit, no further booking reduction is planned; a guest-capacity change with fresh boot gates is the bounded fallback. Accepted Stage4 is unchanged; VM recovery and actual cleanup remain pending.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -194,3 +194,5 @@ Actual operational update: current boot actual backing UNC two-way qualification
 Actual operational update: first full-method genome actual config and fresh Windows admission independently accepted
 
 Actual operational update: first owner observed waiting initial Linux resource admission; reviewed cleanup and archive sources only
+
+Actual operational update: reviewed separate Linux capacity booking revision and exact waiting-bootstrap cancellation sources only

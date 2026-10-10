@@ -1,0 +1,58 @@
+{
+  "schema": "STAGE05_EXACT_WAITING_CANCEL_SOURCE_PREPARATION_V1",
+  "state": "PASS_SOURCE_ONLY_ACTUAL_SIGNAL_NOT_RUN",
+  "utc": "2026-10-10T03:50:17.059386+00:00",
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_cancel_exact_waiting_bootstrap.py",
+      "bytes": 10626,
+      "sha256": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_cancel_exact_waiting_bootstrap.py",
+      "bytes": 10499,
+      "sha256": "818903fc39bd00507807760800a50124040b4d3ae9f354cafc57e8f4b0c6bf1e"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_cancel_exact_waiting_windows.py",
+      "bytes": 13549,
+      "sha256": "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_cancel_exact_waiting_windows.py",
+      "bytes": 4954,
+      "sha256": "6ecca26d2eeb2d375c14dc18f6f7c23f5f9cf957c98cdef82a450fb0c3e33f74"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_cancel_exact_waiting_windows_before_posix_argv_fix.py",
+      "bytes": 13542,
+      "sha256": "9c6d786f49a4908f6abc333e2fd3bc72154e1ab855a2425c0b7dbbe0ecc7eb97"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_cancel_exact_waiting_METHODS.md",
+      "bytes": 4807,
+      "sha256": "40dbb69283c626ba39a965692dbf0175e644acab18f54e1dea533549f592a331"
+    }
+  ],
+  "tests": {
+    "Linux_pure_mocked": 10,
+    "Windows_pure": 5,
+    "default_NOOPs": 2,
+    "state": "PASS"
+  },
+  "actual_WSL_client_or_pidfd_or_signal": "NOT_RUN",
+  "original_owner_closure_or_unlock": "NOT_CLAIMED",
+  "fresh_no_native_observation": "PRECONDITION_ONLY_NOT_ATOMIC_GUARANTEE",
+  "original_R_P_W_U_A_sources": "UNCHANGED",
+  "second_workflow_lock": false,
+  "fallback": "ORIGINAL_NATURAL_1800_SECOND_ADMISSION_EXPIRY",
+  "rejected_wrapper_sha256": "9c6d786f49a4908f6abc333e2fd3bc72154e1ab855a2425c0b7dbbe0ecc7eb97",
+  "reviewed_Windows_invocation": [
+    "python",
+    "-B",
+    "stage5_cancel_exact_waiting_windows.py",
+    "--run",
+    "--source-sha256",
+    "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c"
+  ]
+}

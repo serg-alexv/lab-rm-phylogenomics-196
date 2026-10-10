@@ -1,0 +1,111 @@
+{
+  "schema": "STAGE05_EXACT_WAITING_CANCEL_WINDOWS_SOURCE_PEER_V1",
+  "state": "PASS_RETAINED_EXACT_CANCEL_WINDOWS_CONTROL_CLIENT_SOURCE_ONLY",
+  "utc": "2026-10-10T03:50:42.524842+00:00",
+  "reviewer_source_sha256": "8fdef33b3e14a65e6e5cc956d30de9f62f53caac7e68b3efc66870d76335dd29",
+  "method": "C-only complete frozen Windows source/pin/AST/reverse-delta review,5 pure fake-owner/default-NOOP/Windows-POSIX-argv tests and separate NOOP. No actual Win API/process handles, G/UNC/WSL/lock/signals/network/Git.",
+  "actual_cancellation_or_WSL_client": "NOT_RUN",
+  "original_science_owner_closure_or_unlock_proven": false,
+  "second_workflow_lock": false,
+  "frozen_sources": {
+    "stage5_cancel_exact_waiting_windows.py": "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c",
+    "test_stage5_cancel_exact_waiting_windows.py": "6ecca26d2eeb2d375c14dc18f6f7c23f5f9cf957c98cdef82a450fb0c3e33f74",
+    "stage5_cancel_exact_waiting_windows_before_posix_argv_fix.py": "9c6d786f49a4908f6abc333e2fd3bc72154e1ab855a2425c0b7dbbe0ecc7eb97",
+    "stage5_cancel_exact_waiting_linux_source_independent_review01.json": "17b6a8f39cf8c628e007b094186115b0b4bd943779208bf8196eb1ccfe995431"
+  },
+  "checks": [
+    {
+      "name": "test_stage5_cancel_exact_waiting_windows.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.034s\n\nOK\n"
+    },
+    {
+      "name": "stage5_cancel_exact_waiting_windows.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_NOT_RUN\", \"WSL_clients_created\": 0, \"second_workflow_lock\": false, \"fallback\": \"NATURAL_1800_SECOND_ADMISSION_EXPIRY\"}\n",
+      "stderr": ""
+    }
+  ],
+  "Windows_constructed_Linux_script_argument": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_cancel_exact_waiting_bootstrap.py",
+  "exact_original_U0664_job_reverse_AST": true,
+  "global_sys_executable_mutation": false,
+  "rejected_wrapper9c6d": {
+    "source_sha256": "9c6d786f49a4908f6abc333e2fd3bc72154e1ab855a2425c0b7dbbe0ecc7eb97",
+    "state": "PRESERVED_BLOCKED_SOURCE_NOT_ACTUAL_FAILURE",
+    "blocker": "Imported Linux module Path is WindowsPath under this wrapper. str(C.WORK/script) emits backslashes, so the Linux interpreter receives an invalid script path. Only as_posix expression changed; exact Windows-built argv regression added."
+  },
+  "reviewed_contracts": [
+    "Same original U0664 suspended named Job, active-process1/kill-on-close, exact retained WSL root birth/exit,20s wait and unchanged5s full-Job drain/checked handle closes; only fixed application/image expressions differ from proven Windows worker",
+    "Original science owner retains its original workflow lock. Wrapper uses query-only OpenProcess0x101000 handle to exact PID24488/birth134360766940521715/exe/session and rechecks literal direct authority, STOP absent, source/config/launch pins and fresh exact owner lease",
+    "Only new WSL control client can be terminated by local copied Job finalizer; original Windows science owner/client are never signaled",
+    "Current resource512MiB physical/commit plus bounded16MiB disk required; exact current source/WSL binary SHA and owner proof rechecked before durable intent",
+    "Linux7b02 fixed helper handles the sole verified-pidfd SIGTERM request; Windows final PASS requires successful exact helper receipt and closed retained control Job, and still claims no original owner closure or unlock",
+    "No second lock, no global interpreter patch, no UNC repair, no new detector/source/config/native science launch",
+    "Unknown control-client closure, signal uncertainty, failed result or handle close requires master reconciliation; do not start a new science owner merely because a control request was sent"
+  ],
+  "required_actual_joins": [
+    "Root publishes exact paired source/peer packet and verifies remote bytes",
+    "If original waiting owner naturally expires first, skip cancellation and preserve source-only history",
+    "Independently inspect actual fixed helper target/intent/pidfd signal result and retained control client/root Job closure",
+    "Separately require original runner FAILED_RETRYABLE or DEFERRED_RESOURCE with actual no-native/owned closure, original retained science WSL terminal and original explicit byte unlock before config02 build/run"
+  ],
+  "checked_files": {
+    "review_stage5_cancel_exact_waiting_windows_source01.py": {
+      "bytes": 7519,
+      "sha256": "8fdef33b3e14a65e6e5cc956d30de9f62f53caac7e68b3efc66870d76335dd29"
+    },
+    "stage5_cancel_exact_waiting_windows.py": {
+      "bytes": 13549,
+      "sha256": "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c"
+    },
+    "test_stage5_cancel_exact_waiting_windows.py": {
+      "bytes": 4954,
+      "sha256": "6ecca26d2eeb2d375c14dc18f6f7c23f5f9cf957c98cdef82a450fb0c3e33f74"
+    },
+    "stage5_cancel_exact_waiting_windows_before_posix_argv_fix.py": {
+      "bytes": 13542,
+      "sha256": "9c6d786f49a4908f6abc333e2fd3bc72154e1ab855a2425c0b7dbbe0ecc7eb97"
+    },
+    "stage5_cancel_exact_waiting_linux_source_independent_review01.json": {
+      "bytes": 5408,
+      "sha256": "17b6a8f39cf8c628e007b094186115b0b4bd943779208bf8196eb1ccfe995431"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_cancel_exact_waiting_bootstrap.py": {
+      "bytes": 10626,
+      "sha256": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_actual_backing_01.json": {
+      "bytes": 2955,
+      "sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\owner.json": {
+      "bytes": 1955,
+      "sha256": "37eeca75a126a5daae7b64b152542c49c8accf79afd3d9595aa458a0c728a58a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.launch.json": {
+      "bytes": 1066,
+      "sha256": "e846cf1448074dacc7cd420eb2fdb850303c743a529c5235a6f3f97040f93995"
+    }
+  }
+}

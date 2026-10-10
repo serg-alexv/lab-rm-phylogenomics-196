@@ -1,0 +1,52 @@
+{
+  "schema": "STAGE05_ACTUAL_CONFIG_REQUEST_V1",
+  "purpose": "FIRST_APPROVED_GENOME_RESOURCE_MEASUREMENT",
+  "runtime_manifest": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_actual_postiq_08.json",
+    "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  },
+  "storage_proof": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_storage_actual_postiq_06.json",
+    "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+  },
+  "gates": {
+    "toolchain": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_07\\result.json",
+      "sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+      "unlock_sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516"
+    },
+    "runtime": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_08\\result.json",
+      "sha256": "2a1a7f0c386d3f97baea9cb1e9b034d9fd00bd71c4ab57a2ce3d3b42fbfa09d1",
+      "unlock_sha256": "92ee0235711a5ced3271947f0ce7d4e0e30b406f27dc72e664d07bbb82e151c7"
+    },
+    "interop": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_05\\result.json",
+      "sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8",
+      "unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e"
+    },
+    "storage": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_storage_actual_postiq_06\\result.json",
+      "sha256": "2ac0e98c76f46d84b678ea69e819d714c15cc4e006c685c40f40bf193ff75611",
+      "unlock_sha256": "9d6b0fd2634adf9c38a3cd4998f44266ebc8727c9aa40722a5246f15912d9426"
+    },
+    "drivefs": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_04\\result.json",
+      "sha256": "7c5587e5758ec604b3c1f5e826078aa2f7ca2592312e4d65700565747a7bd438",
+      "unlock_sha256": "a8d65978a83682bb1bb7171a1b8684adb2b68a2d2223c3b10ee91be77b6bfc6d"
+    },
+    "unc": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_backing_actual_postiq_04\\result.json",
+      "sha256": "abd234b9b8fd1bb88253b6acf4e0b8480da7f78a3407aabce75b8bbd153b6642",
+      "unlock_sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    }
+  },
+  "native_resource_bytes": {
+    "incremental_windows_requirement_bytes": 1610612736,
+    "commit_requirement_bytes": 3221225472,
+    "linux_job_requirement_bytes": 1476395008,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "resource_basis": "Explicit conservative capacity allocation for the first complete approved genome GCF_000009425.1, using the unchanged full PADLOC5027 and complete DefenseFinder native method, two threads and one serial owner. These values are not measured detector requirements: allocate 1.5GiB incremental Windows and 1.375GiB Linux job memory, retain the existing 1.5GiB Windows and 1GiB Linux reserves, require 3GiB Windows commit headroom, stop at sampled aggregate descendant RSS 1.25GiB and cap each process address space at 4GiB. Keep the WSL global 3GB memory setting. Fresh admission is required before native commands; insufficient capacity defers execution, and an exceeded limit is a preserved execution failure, never biological absence. Measure elapsed time, CPU and descendant RSS on this full genome before increasing concurrency or changing capacity. Accepted Stage4 and the approved196 panel are unchanged. Separate capacity revision02 follows observed guest MemAvailable about2.42GiB below the original2.5GiB admission requirement. This is an explicit unmeasured capacity booking above the unchanged1.25GiB sampled aggregate RSS stop, with the unchanged1GiB Linux reserve. Fresh repeated admission remains mandatory; no further booking reduction is planned if preparation or execution does not fit. A guest-capacity change with fresh boot gates is the bounded fallback."
+}

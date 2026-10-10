@@ -1,0 +1,103 @@
+{
+  "schema": "STAGE05_CAPACITY02_REQUEST_INDEPENDENT_V1",
+  "state": "PASS_EXPLICIT_LINUX_BOOKING02_REQUEST_SOURCE_AND_EXACT_DELTA_ONLY",
+  "utc": "2026-10-10T03:40:41.943478+00:00",
+  "reviewer_source_sha256": "60aceb0afd69de4374ca2965dd79f7bec4329171e2bd0b3f2a6b1a659557d756",
+  "method": "C-only decoded source/request deltas, default NOOP, deterministic temporary-C constructor and unchanged scientific config parser. No WSL/G/UNC/API/lock/native process effects, actual native config build or resource measurement.",
+  "actual_config_build": "NOT_RUN",
+  "actual_native_execution": "NOT_RUN",
+  "scientific_adoption": false,
+  "frozen_sources": {
+    "prepare_stage5_first_capacity02_request.py": "4d5271f18de482104760e491281973b083232665b5caea8536c0822eebbdae76",
+    "stage5_actual_request_backing_capacity_02.json": "13cdeba557bf0042a4fe2e95bf0905734cdd4735b0c333f255838b3fdb7e9ccb",
+    "stage5_actual_request_backing_01.json": "96fc9e6a9893fb56122f701378aa49eb3f50773b797d6cdf4c9130548be3cb44",
+    "stage5_build_backing_actual_config.py": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c"
+  },
+  "unchanged_request_fields": [
+    "schema",
+    "purpose",
+    "runtime_manifest",
+    "storage_proof",
+    "all six exact gate/result/unlock pins",
+    "four other native byte budgets"
+  ],
+  "old_linux_job_requirement_bytes": 1610612736,
+  "new_linux_job_requirement_bytes": 1476395008,
+  "unchanged_sampled_aggregate_RSS_stop_bytes": 1342177280,
+  "unchanged_Linux_reserve_bytes": 1073741824,
+  "new_repeated_Linux_admission_requirement_bytes": 2550136832,
+  "unchanged_windows_reserve_incremental_commit_and_full_native_method": true,
+  "resource_basis": "Explicit conservative capacity allocation for the first complete approved genome GCF_000009425.1, using the unchanged full PADLOC5027 and complete DefenseFinder native method, two threads and one serial owner. These values are not measured detector requirements: allocate 1.5GiB incremental Windows and 1.375GiB Linux job memory, retain the existing 1.5GiB Windows and 1GiB Linux reserves, require 3GiB Windows commit headroom, stop at sampled aggregate descendant RSS 1.25GiB and cap each process address space at 4GiB. Keep the WSL global 3GB memory setting. Fresh admission is required before native commands; insufficient capacity defers execution, and an exceeded limit is a preserved execution failure, never biological absence. Measure elapsed time, CPU and descendant RSS on this full genome before increasing concurrency or changing capacity. Accepted Stage4 and the approved196 panel are unchanged. Separate capacity revision02 follows observed guest MemAvailable about2.42GiB below the original2.5GiB admission requirement. This is an explicit unmeasured capacity booking above the unchanged1.25GiB sampled aggregate RSS stop, with the unchanged1GiB Linux reserve. Fresh repeated admission remains mandatory; no further booking reduction is planned if preparation or execution does not fit. A guest-capacity change with fresh boot gates is the bounded fallback.",
+  "checks": {
+    "default_NOOP": "PASS",
+    "temporary_C_deterministic_constructor_bytes": "PASS",
+    "changed_base_SHA_veto_no_output": "PASS",
+    "unchanged_builder_explicit_policy_and_S_load_config": "PASS"
+  },
+  "capacity_interpretation": "Explicit unmeasured capacity booking above unchanged execution RSS stop. It is not a measured detector requirement or guarantee of admission; runtime preparation can consume available margin. All native repeated admission, finite defer, closure and result semantics remain mandatory.",
+  "required_next": [
+    "Retain and genuinely close waiting01 exact owned runner/client/lock without any detector launch claim",
+    "Publish exact request/source/peer and verify remote bytes",
+    "Use unchanged actual builder only after prior original lock release; independently verify new actual config/build/admission/unlock",
+    "Native owner repeats current authority/storage/runtime/ownership/resources before first full-method genome; no further booking reduction if preparation/execution does not fit"
+  ],
+  "WSL_capacity_fallback": "A higher configured maximum requires clean closure/restart and all fresh gates; an added512MiB maximum is not evidence of512MiB additional resident host use.",
+  "checked_files": {
+    "review_stage5_first_capacity02_request01.py": {
+      "bytes": 6525,
+      "sha256": "60aceb0afd69de4374ca2965dd79f7bec4329171e2bd0b3f2a6b1a659557d756"
+    },
+    "prepare_stage5_first_capacity02_request.py": {
+      "bytes": 2518,
+      "sha256": "4d5271f18de482104760e491281973b083232665b5caea8536c0822eebbdae76"
+    },
+    "stage5_actual_request_backing_capacity_02.json": {
+      "bytes": 4220,
+      "sha256": "13cdeba557bf0042a4fe2e95bf0905734cdd4735b0c333f255838b3fdb7e9ccb"
+    },
+    "stage5_actual_request_backing_01.json": {
+      "bytes": 3747,
+      "sha256": "96fc9e6a9893fb56122f701378aa49eb3f50773b797d6cdf4c9130548be3cb44"
+    },
+    "stage5_build_backing_actual_config.py": {
+      "bytes": 13028,
+      "sha256": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_interop_smoke_windows.py": {
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    "stage5_unc_backing_probe.py": {
+      "bytes": 29061,
+      "sha256": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5"
+    }
+  }
+}
