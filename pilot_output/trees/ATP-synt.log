@@ -1,0 +1,438 @@
+IQ-TREE version 3.1.4 for Linux x86 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    wd (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s pilot_output/alignments/ATP-synt_aligned.fasta -m MFP -bb 1000 -nt 2 -mem 3000M -pre pilot_output/trees/ATP-synt
+Seed:    884626 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Oct 10 10:53:44 2026
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file pilot_output/alignments/ATP-synt_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.007653 secs using 3.267% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000804901 secs using 98.77% CPU
+Alignment has 196 sequences with 342 columns, 314 distinct patterns
+281 parsimony-informative, 7 singleton sites, 54 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000237942 secs using 94.98% CPU
+   1  GCF_000009425.1   15.50%    passed     99.78%
+   2  GCF_000010145.1    9.06%    passed     93.86%
+   3  GCF_000011045.1   10.23%    passed     99.20%
+   4  GCF_000014385.1   11.40%    passed     25.40%
+   5  GCF_000014425.1    7.02%    passed     89.30%
+   6  GCF_000014445.1   11.70%    passed     96.76%
+   7  GCF_000014505.1   10.53%    passed     99.98%
+   8  GCF_000014545.1   15.50%    passed     99.82%
+   9  GCF_000015385.1    6.43%    passed     97.33%
+  10  GCF_000016825.1    8.19%    passed     77.86%
+  11  GCF_000023085.1    8.19%    passed     98.44%
+  12  GCF_000025045.1   15.50%    passed     99.81%
+  13  GCF_000026405.1   11.70%    passed     85.35%
+  14  GCF_000092505.1   11.70%    passed     94.17%
+  15  GCF_000148815.2    8.19%    passed     98.44%
+  16  GCF_000155515.2    9.94%    passed     99.98%
+  17  GCF_000160835.1    7.89%    passed     97.24%
+  18  GCF_000203855.3    8.19%    passed     98.44%
+  19  GCF_000237995.1    9.36%    passed     99.70%
+  20  GCF_000241055.1   11.40%    passed     24.43%
+  21  GCF_000269925.1   14.33%    passed     95.04%
+  22  GCF_000269945.1   14.33%    passed     95.04%
+  23  GCF_000298875.1   11.70%    passed     99.25%
+  24  GCF_000468955.1   15.50%    passed     99.82%
+  25  GCF_000691805.2   15.20%    passed     99.23%
+  26  GCF_001434365.1   10.23%    passed     99.82%
+  27  GCF_001434705.1   10.82%    passed     71.97%
+  28  GCF_001435245.1   11.11%    passed     99.88%
+  29  GCF_001436135.1   10.82%    passed     99.19%
+  30  GCF_001436905.1    9.36%    passed     99.70%
+  31  GCF_001437055.1    9.65%    passed     96.51%
+  32  GCF_001437425.1   14.91%    passed     99.96%
+  33  GCF_001438705.1   14.33%    passed     99.97%
+  34  GCF_001536305.1   11.70%    passed     98.13%
+  35  GCF_001618285.1   11.40%    passed     25.40%
+  36  GCF_001702215.1    9.36%    passed     99.70%
+  37  GCF_001702235.1    9.36%    passed     99.70%
+  38  GCF_001752505.1   11.40%    passed     24.43%
+  39  GCF_001752515.1   11.40%    passed     24.43%
+  40  GCF_001752545.1   11.40%    passed     24.43%
+  41  GCF_001761545.1   14.62%    passed     99.92%
+  42  GCF_001767275.1   10.23%    passed     99.90%
+  43  GCF_001888925.1    6.43%    passed     91.56%
+  44  GCF_001891125.1   11.70%    passed     99.04%
+  45  GCF_001932615.1   14.33%    passed     99.97%
+  46  GCF_001998805.1   11.70%    passed     90.52%
+  47  GCF_002174215.1   10.23%    passed     99.90%
+  48  GCF_002950695.1   14.33%    passed    100.00%
+  49  GCF_002970915.1    8.19%    passed     99.82%
+  50  GCF_002970935.1    8.19%    passed     99.66%
+  51  GCF_003150935.1    6.43%    passed     96.07%
+  52  GCF_003151025.1    6.43%    passed     83.04%
+  53  GCF_003173695.1    6.43%    passed     81.56%
+  54  GCF_003176835.1   15.50%    passed     99.83%
+  55  GCF_003264795.1   11.40%    passed     25.40%
+  56  GCF_003584685.1    7.02%    passed     90.70%
+  57  GCF_003641185.1    8.19%    passed     98.54%
+  58  GCF_003722275.1   15.50%    passed     99.81%
+  59  GCF_003999355.1    6.43%    passed     78.34%
+  60  GCF_004354645.1   11.70%    passed     94.79%
+  61  GCF_004377635.1   11.40%    passed     26.46%
+  62  GCF_005405405.1    8.19%    passed     99.44%
+  63  GCF_005405465.1   14.33%    passed     99.95%
+  64  GCF_007954605.1   11.70%    passed     90.52%
+  65  GCF_007954785.1   11.70%    passed     85.35%
+  66  GCF_008107645.1   11.70%    passed     99.03%
+  67  GCF_008831485.1    6.43%    passed     91.49%
+  68  GCF_009184845.1   10.53%    passed     98.15%
+  69  GCF_009856565.1   14.62%    passed     98.49%
+  70  GCF_009913655.1    8.19%    passed     98.44%
+  71  GCF_009913995.1   10.53%    passed     99.98%
+  72  GCF_009914015.1   10.53%    passed     99.98%
+  73  GCF_009914035.1   10.53%    passed     99.98%
+  74  GCF_010092385.1   10.23%    passed     99.90%
+  75  GCF_011058775.1    7.31%    passed     60.24%
+  76  GCF_011304355.1   14.33%    passed    100.00%
+  77  GCF_013113695.1   11.40%    passed     25.40%
+  78  GCF_013407595.1    9.65%    passed     98.39%
+  79  GCF_014131735.1    8.19%    passed     98.44%
+  80  GCF_014145545.1    8.19%    passed     78.81%
+  81  GCF_014145555.1    7.89%    passed     80.21%
+  82  GCF_014145615.1    8.19%    passed     75.09%
+  83  GCF_014397255.1   14.33%    passed     99.81%
+  84  GCF_014656585.1    6.43%    passed     98.70%
+  85  GCF_014789145.1   14.91%    passed     99.24%
+  86  GCF_016127255.1   11.70%    passed     93.50%
+  87  GCF_016127815.1   10.23%    passed     99.90%
+  88  GCF_016647595.1    6.43%    passed     99.49%
+  89  GCF_016919665.1   15.50%    passed     99.95%
+  90  GCF_017068355.1   15.50%    passed     99.95%
+  91  GCF_017894345.1    7.02%    passed     94.25%
+  92  GCF_018394055.1   14.04%    passed     89.42%
+  93  GCF_018502505.1   14.04%    passed     87.04%
+  94  GCF_019448175.1   10.23%    passed     99.90%
+  95  GCF_019469265.1    6.43%    passed     89.65%
+  96  GCF_019576155.1   14.62%    passed     99.99%
+  97  GCF_019797825.1    7.02%    passed     97.50%
+  98  GCF_020510245.1   11.40%    passed     25.40%
+  99  GCF_020784695.1    8.19%    passed     78.22%
+ 100  GCF_020844005.1   14.62%    passed     98.33%
+ 101  GCF_021378055.1   10.53%    passed     99.98%
+ 102  GCF_023169905.1   15.50%    passed     99.82%
+ 103  GCF_023499275.1   14.33%    passed     88.32%
+ 104  GCF_023920145.1   11.40%    passed     26.46%
+ 105  GCF_024334065.1   14.62%    passed     98.49%
+ 106  GCF_024397795.1    6.43%    passed     93.24%
+ 107  GCF_024718545.1   14.33%    passed     99.92%
+ 108  GCF_025311495.1    7.89%    passed     99.04%
+ 109  GCF_025490915.1    9.36%    passed     99.62%
+ 110  GCF_025739325.1   14.62%    passed     98.49%
+ 111  GCF_025948295.1   14.62%    passed     98.49%
+ 112  GCF_026222675.1    8.19%    passed     98.54%
+ 113  GCF_028607025.1   10.82%    passed     99.41%
+ 114  GCF_028621815.1   10.23%    passed     99.90%
+ 115  GCF_028736235.1   10.53%    passed     90.12%
+ 116  GCF_029025825.1    8.19%    passed     98.67%
+ 117  GCF_029726355.1   10.23%    passed     98.66%
+ 118  GCF_029854335.1    8.19%    passed     98.44%
+ 119  GCF_029866985.1   14.62%    passed     98.49%
+ 120  GCF_030480545.1   10.82%    passed     99.92%
+ 121  GCF_030770265.1   10.23%    passed     98.66%
+ 122  GCF_030770295.1   10.23%    passed     98.66%
+ 123  GCF_030770335.1   10.23%    passed     92.35%
+ 124  GCF_032762665.1   11.40%    passed     26.46%
+ 125  GCF_033142085.1   11.40%    passed     26.53%
+ 126  GCF_033570435.1    8.19%    passed     78.30%
+ 127  GCF_034703025.1   10.23%    passed     99.90%
+ 128  GCF_035985965.1   15.50%    passed     99.78%
+ 129  GCF_036246165.1    8.19%    passed     99.02%
+ 130  GCF_036246185.1    8.19%    passed     99.02%
+ 131  GCF_036246225.1    9.65%    passed     99.88%
+ 132  GCF_036327715.1   14.33%    passed     99.81%
+ 133  GCF_037290055.1    8.19%    passed     99.25%
+ 134  GCF_037891785.1   14.33%    passed     88.32%
+ 135  GCF_037892375.1   14.33%    passed     90.49%
+ 136  GCF_038049945.1   14.62%    passed     98.49%
+ 137  GCF_039645515.1   14.33%    passed     89.27%
+ 138  GCF_039645575.1   14.33%    passed     90.49%
+ 139  GCF_039783225.1   14.62%    passed     98.49%
+ 140  GCF_039783785.1   14.62%    passed     98.49%
+ 141  GCF_039955095.1   10.23%    passed     60.75%
+ 142  GCF_041225485.1   14.91%    passed     96.06%
+ 143  GCF_041225605.1   14.91%    passed     94.16%
+ 144  GCF_041281755.1   14.33%    passed     99.70%
+ 145  GCF_041509385.1   14.62%    passed     98.49%
+ 146  GCF_041514285.1   14.62%    passed     98.49%
+ 147  GCF_041514295.1   14.62%    passed     98.49%
+ 148  GCF_041893975.1   14.62%    passed     98.49%
+ 149  GCF_042847315.1   10.53%    passed     99.42%
+ 150  GCF_042997415.1    6.43%    passed     94.14%
+ 151  GCF_045760565.1   14.91%    passed     94.16%
+ 152  GCF_045801155.1   11.70%    passed     93.10%
+ 153  GCF_045862825.1    8.19%    passed     99.30%
+ 154  GCF_046109915.1    6.43%    passed     98.06%
+ 155  GCF_047344935.1   11.70%    passed     97.11%
+ 156  GCF_050407965.1    8.19%    passed     98.54%
+ 157  GCF_050847345.1    8.19%    passed     99.25%
+ 158  GCF_051098045.1    8.19%    passed     99.09%
+ 159  GCF_052569745.1   14.62%    passed     98.33%
+ 160  GCF_052570115.1   14.62%    passed     98.33%
+ 161  GCF_052571685.1   14.62%    passed     98.33%
+ 162  GCF_054073565.1   14.62%    passed     99.72%
+ 163  GCF_054331775.1   10.53%    passed     99.59%
+ 164  GCF_054452875.2    9.36%    passed     99.34%
+ 165  GCF_054784775.1   11.40%    passed     88.02%
+ 166  GCF_054785075.1    9.36%    passed     99.62%
+ 167  GCF_055180435.1   15.50%    passed     99.82%
+ 168  GCF_055502585.1    6.43%    passed     97.02%
+ 169  GCF_055755075.1   10.53%    passed     99.98%
+ 170  GCF_056269605.1   14.62%    passed     98.49%
+ 171  GCF_056676095.1   10.23%    passed     69.71%
+ 172  GCF_057786735.1   14.62%    passed     98.49%
+ 173  GCF_058111805.1   11.70%    passed     99.04%
+ 174  GCF_059089415.1   10.23%    passed     99.90%
+ 175  GCF_060305805.1   15.50%    passed     99.81%
+ 176  GCF_060307215.1   15.50%    passed     99.81%
+ 177  GCF_900016205.1   11.70%    passed     98.13%
+ 178  GCF_900094835.1   14.33%    passed     99.91%
+ 179  GCF_900240275.1    7.02%    passed     66.09%
+ 180  GCF_900519455.1   11.40%    passed     26.53%
+ 181  GCF_900519475.1   11.40%    passed     26.53%
+ 182  GCF_900636965.1   10.23%    passed     99.46%
+ 183  GCF_903885985.1   14.62%    passed     98.49%
+ 184  GCF_903886345.1   14.62%    passed     98.49%
+ 185  GCF_903886475.1   14.62%    passed     98.49%
+ 186  GCF_903891025.1   14.62%    passed     98.33%
+ 187  GCF_903891205.1   14.62%    passed     98.49%
+ 188  GCF_947539375.1    7.02%    passed     90.41%
+ 189  GCF_963243495.1    8.19%    passed     99.02%
+ 190  GCF_963281025.1    9.94%    passed     99.34%
+ 191  GCF_964063315.1   11.70%    passed     96.13%
+ 192  GCF_965136965.1    8.19%    passed     99.44%
+ 193  GCF_965286035.1   11.70%    passed     93.50%
+ 194  GCF_965286295.1    8.19%    passed     99.25%
+ 195  GCF_965286585.1    9.06%    passed     93.86%
+ 196  GCF_982267005.1   11.70%    passed     94.27%
+****  TOTAL             11.21%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: GCF_965286585.1 is identical to GCF_000010145.1 but kept for subsequent analysis
+NOTE: GCF_001618285.1 is identical to GCF_000014385.1 but kept for subsequent analysis
+NOTE: GCF_009913995.1 is identical to GCF_000014505.1 but kept for subsequent analysis
+NOTE: GCF_000468955.1 is identical to GCF_000014545.1 but kept for subsequent analysis
+NOTE: GCF_000148815.2 is identical to GCF_000023085.1 but kept for subsequent analysis
+NOTE: GCF_003722275.1 is identical to GCF_000025045.1 but kept for subsequent analysis
+NOTE: GCF_007954785.1 is identical to GCF_000026405.1 but kept for subsequent analysis
+NOTE: GCF_001436905.1 is identical to GCF_000237995.1 but kept for subsequent analysis
+NOTE: GCF_001752505.1 is identical to GCF_000241055.1 but kept for subsequent analysis
+NOTE: GCF_000269945.1 is identical to GCF_000269925.1 but kept for subsequent analysis
+NOTE: GCF_900016205.1 is identical to GCF_001536305.1 but kept for subsequent analysis
+NOTE: GCF_002174215.1 is identical to GCF_001767275.1 but kept for subsequent analysis
+NOTE: GCF_058111805.1 is identical to GCF_001891125.1 but kept for subsequent analysis
+NOTE: GCF_007954605.1 is identical to GCF_001998805.1 but kept for subsequent analysis
+NOTE: GCF_026222675.1 is identical to GCF_003641185.1 but kept for subsequent analysis
+NOTE: GCF_023920145.1 is identical to GCF_004377635.1 but kept for subsequent analysis
+NOTE: GCF_965136965.1 is identical to GCF_005405405.1 but kept for subsequent analysis
+NOTE: GCF_024334065.1 is identical to GCF_009856565.1 but kept for subsequent analysis
+NOTE: GCF_965286035.1 is identical to GCF_016127255.1 but kept for subsequent analysis
+NOTE: GCF_017068355.1 is identical to GCF_016919665.1 but kept for subsequent analysis
+NOTE: GCF_052569745.1 is identical to GCF_020844005.1 but kept for subsequent analysis
+NOTE: GCF_037891785.1 is identical to GCF_023499275.1 but kept for subsequent analysis
+NOTE: GCF_054785075.1 is identical to GCF_025490915.1 but kept for subsequent analysis
+NOTE: GCF_030770265.1 is identical to GCF_029726355.1 but kept for subsequent analysis
+NOTE: GCF_900519455.1 is identical to GCF_033142085.1 but kept for subsequent analysis
+NOTE: GCF_036246185.1 is identical to GCF_036246165.1 but kept for subsequent analysis
+NOTE: GCF_050847345.1 is identical to GCF_037290055.1 but kept for subsequent analysis
+NOTE: GCF_039645575.1 is identical to GCF_037892375.1 but kept for subsequent analysis
+NOTE: GCF_045760565.1 is identical to GCF_041225605.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0472739 secs using 102.7% CPU
+Identifying sites to remove: done in 0.000510931 secs using 200.4% CPU
+NOTE: 49 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GCF_003264795.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_013113695.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_020510245.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_009914015.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_009914035.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_055755075.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_023169905.1 (identical to GCF_000014545.1) is ignored but added at the end
+NOTE: GCF_055180435.1 (identical to GCF_000014545.1) is ignored but added at the end
+NOTE: GCF_000203855.3 (identical to GCF_000023085.1) is ignored but added at the end
+NOTE: GCF_009913655.1 (identical to GCF_000023085.1) is ignored but added at the end
+NOTE: GCF_014131735.1 (identical to GCF_000023085.1) is ignored but added at the end
+NOTE: GCF_029854335.1 (identical to GCF_000023085.1) is ignored but added at the end
+NOTE: GCF_060305805.1 (identical to GCF_000025045.1) is ignored but added at the end
+NOTE: GCF_060307215.1 (identical to GCF_000025045.1) is ignored but added at the end
+NOTE: GCF_001702215.1 (identical to GCF_000237995.1) is ignored but added at the end
+NOTE: GCF_001702235.1 (identical to GCF_000237995.1) is ignored but added at the end
+NOTE: GCF_001752515.1 (identical to GCF_000241055.1) is ignored but added at the end
+NOTE: GCF_001752545.1 (identical to GCF_000241055.1) is ignored but added at the end
+NOTE: GCF_010092385.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_016127815.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_019448175.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_028621815.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_034703025.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_059089415.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_050407965.1 (identical to GCF_003641185.1) is ignored but added at the end
+NOTE: GCF_032762665.1 (identical to GCF_004377635.1) is ignored but added at the end
+NOTE: GCF_025739325.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_025948295.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_029866985.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_038049945.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_039783225.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_039783785.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041509385.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041514285.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041514295.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041893975.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_056269605.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_057786735.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_903885985.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_903886345.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_903886475.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_903891205.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_052570115.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_052571685.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_903891025.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_030770295.1 (identical to GCF_029726355.1) is ignored but added at the end
+NOTE: GCF_900519475.1 (identical to GCF_033142085.1) is ignored but added at the end
+NOTE: GCF_963243495.1 (identical to GCF_036246165.1) is ignored but added at the end
+NOTE: GCF_965286295.1 (identical to GCF_037290055.1) is ignored but added at the end
+Alignment was printed to pilot_output/trees/ATP-synt.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to pilot_output/trees/ATP-synt.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.030 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -16795.494
+Optimal log-likelihood: -16795.489
+Proportion of invariable sites: 0.109
+Gamma shape alpha: 0.864
+Parameters optimization took 1 rounds (0.275 sec)
+Time for fast ML tree search: 2.879 seconds
+
+NOTE: ModelFinder requires 77 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 342 epsilon: 0.100) ...
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: Q.YEAST+I+G4
+Bayesian Information Criterion:         Q.YEAST+I+G4
+Best-fit model: Q.YEAST+I+G4 chosen according to BIC
+
+All model information printed to pilot_output/trees/ATP-synt.model.gz
+CPU time for ModelFinder: 860.800 seconds (0h:14m:20s)
+Wall-clock time for ModelFinder: 432.720 seconds (0h:7m:12s)
+Generating 1000 samples for ultrafast bootstrap (seed: 884626)...
+
+NOTE: 31 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.976 / Estimate: 0.000, 0.622 / LogL: -16772.892
+Init pinv, alpha: 0.018, 0.976 / Estimate: 0.109, 0.843 / LogL: -16754.463
+Init pinv, alpha: 0.035, 0.976 / Estimate: 0.109, 0.844 / LogL: -16754.462
+Init pinv, alpha: 0.053, 0.976 / Estimate: 0.109, 0.843 / LogL: -16754.464
+Init pinv, alpha: 0.070, 0.976 / Estimate: 0.108, 0.841 / LogL: -16754.469
+Init pinv, alpha: 0.088, 0.976 / Estimate: 0.109, 0.844 / LogL: -16754.464
+Init pinv, alpha: 0.105, 0.976 / Estimate: 0.110, 0.846 / LogL: -16754.464
+Init pinv, alpha: 0.123, 0.976 / Estimate: 0.110, 0.847 / LogL: -16754.464
+Init pinv, alpha: 0.140, 0.976 / Estimate: 0.111, 0.848 / LogL: -16754.466
+Init pinv, alpha: 0.158, 0.976 / Estimate: 0.111, 0.849 / LogL: -16754.468
+Optimal pinv,alpha: 0.109, 0.844 / LogL: -16754.462
+
+Parameters optimization took 21.603 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.15841 secs using 199.9% CPU
+Computing ML distances took 1.163539 sec (of wall-clock time) 2.316062 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000295877 secs using 201.1% CPU
+Constructing RapidNJ tree: done in 0.00229096 secs using 102.7% CPU
+Computing RapidNJ tree took 0.009701 sec (of wall-clock time) 0.013364 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16803.027
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.816 second
+Computing log-likelihood of 98 initial trees ... 9.936 seconds
+Current best score: -16754.462
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16754.461
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -16750.847
+Iteration 10 / LogL: -16757.788 / Time: 0h:8m:11s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -16750.523
+Iteration 20 / LogL: -16757.828 / Time: 0h:8m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -16750.523 / CPU time: 60.603
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -16749.315
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -16748.844
+Iteration 30 / LogL: -16748.844 / Time: 0h:9m:14s (0h:7m:1s left)
+Iteration 40 / LogL: -16749.009 / Time: 0h:9m:51s (0h:6m:7s left)
+Iteration 50 / LogL: -16750.043 / Time: 0h:10m:33s (0h:5m:28s left)
+Log-likelihood cutoff on original alignment: -16784.662
+Iteration 60 / LogL: -16803.775 / Time: 0h:11m:10s (0h:4m:42s left)
+Iteration 70 / LogL: -16752.386 / Time: 0h:11m:41s (0h:3m:53s left)
+BETTER TREE FOUND at iteration 78: -16748.844
+Iteration 80 / LogL: -16762.561 / Time: 0h:12m:21s (0h:6m:22s left)
+Iteration 90 / LogL: -16750.625 / Time: 0h:13m:29s (0h:6m:12s left)
+Iteration 100 / LogL: -16914.684 / Time: 0h:14m:35s (0h:5m:48s left)
+Log-likelihood cutoff on original alignment: -16784.968
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -16995.986 / Time: 0h:15m:6s (0h:6m:31s left)
+Iteration 120 / LogL: -16749.072 / Time: 0h:15m:34s (0h:5m:37s left)
+Iteration 130 / LogL: -16750.144 / Time: 0h:16m:1s (0h:4m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -16748.844
+Iteration 140 / LogL: -16761.900 / Time: 0h:16m:29s (0h:4m:0s left)
+Iteration 150 / LogL: -16751.792 / Time: 0h:16m:57s (0h:3m:16s left)
+Log-likelihood cutoff on original alignment: -16785.348
+Iteration 160 / LogL: -16748.849 / Time: 0h:17m:28s (0h:2m:34s left)
+Iteration 170 / LogL: -16763.257 / Time: 0h:17m:55s (0h:1m:54s left)
+TREE SEARCH COMPLETED AFTER 179 ITERATIONS / Time: 0h:18m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16748.844
+Optimal log-likelihood: -16748.844
+Proportion of invariable sites: 0.111
+Gamma shape alpha: 0.850
+Parameters optimization took 1 rounds (0.296 sec)
+BEST SCORE FOUND : -16748.844
+Creating bootstrap support values...
+Split supports printed to NEXUS file pilot_output/trees/ATP-synt.splits.nex
+Total tree length: 18.081
+
+Total number of iterations: 179
+CPU time used for tree search: 1278.011 sec (0h:21m:18s)
+Wall-clock time used for tree search: 643.489 sec (0h:10m:43s)
+Total CPU time used: 2186.982 sec (0h:36m:26s)
+Total wall-clock time used: 1101.013 sec (0h:18m:21s)
+
+Computing bootstrap consensus tree...
+Reading input file pilot_output/trees/ATP-synt.splits.nex...
+147 taxa and 615 splits.
+Consensus tree written to pilot_output/trees/ATP-synt.contree
+Reading input trees file pilot_output/trees/ATP-synt.contree
+Log-likelihood of consensus tree: -16748.866
+
+Analysis results written to: 
+  IQ-TREE report:                pilot_output/trees/ATP-synt.iqtree
+  Maximum-likelihood tree:       pilot_output/trees/ATP-synt.treefile
+  Likelihood distances:          pilot_output/trees/ATP-synt.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          pilot_output/trees/ATP-synt.splits.nex
+  Consensus tree:                pilot_output/trees/ATP-synt.contree
+  Screen log file:               pilot_output/trees/ATP-synt.log
+
+Date and Time: Sat Oct 10 11:12:07 2026

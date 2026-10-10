@@ -1,0 +1,40 @@
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.14427 secs using 199.3% CPU
+Computing ML distances took 1.149961 sec (of wall-clock time) 2.286891 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00030899 secs using 264.4% CPU
+Constructing RapidNJ tree: done in 0.00179195 secs using 164.5% CPU
+Computing RapidNJ tree took 0.005145 sec (of wall-clock time) 0.005440 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -14204.728
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.457 second
+Computing log-likelihood of 98 initial trees ... 7.628 seconds
+Current best score: -14139.910
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -14139.908
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -14132.350
+BETTER TREE FOUND at iteration 4: -14132.350
+Iteration 10 / LogL: -14134.020 / Time: 0h:2m:33s
+Iteration 20 / LogL: -14133.845 / Time: 0h:2m:54s
+Finish initializing candidate tree set (18)
+Current best tree score: -14132.350 / CPU time: 50.425
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -14128.299
+Iteration 30 / LogL: -14187.263 / Time: 0h:3m:25s (0h:4m:59s left)
+Iteration 40 / LogL: -14128.734 / Time: 0h:3m:54s (0h:4m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -14127.733
+Iteration 50 / LogL: -14191.179 / Time: 0h:4m:50s (0h:5m:56s left)
+Log-likelihood cutoff on original alignment: -14197.373
+Iteration 60 / LogL: -14128.472 / Time: 0h:5m:21s (0h:5m:11s left)
+Iteration 70 / LogL: -14128.467 / Time: 0h:5m:48s (0h:4m:25s left)
+Iteration 80 / LogL: -14128.961 / Time: 0h:6m:12s (0h:3m:42s left)

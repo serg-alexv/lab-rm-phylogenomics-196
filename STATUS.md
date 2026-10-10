@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-RUNNING. Two of five pilot markers validated; ATP-synt is running. Explicit pilot/full validation passed8 isolated WSL fixture cases including truncation detection and missing-locus taxon unions. Direct iTOL integration passed12 offline mocked API cases and is staged for installation after pilot closure. No real upload, production tree, or defense dataset yet. Active Bash source is unchanged. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_integration81/progress.json).
+RUNNING. Three of five pilot markers completed and independently validated. ATP-synt has 196 exact unique tips, 342 alignment columns, Q.YEAST+I+G4, 1000 UFBoot replicates, 144 numeric supports from 19 to 100, and 49 explicitly unlabeled internal branches. Native completion was 08:12:07 UTC. ATP-synt_A is running under the original launcher; ASTRAL and the full pipeline have not run. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot82/progress.json).
 
 # Current execution status
 

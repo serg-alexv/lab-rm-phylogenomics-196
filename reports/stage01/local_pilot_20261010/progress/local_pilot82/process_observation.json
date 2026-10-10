@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-10T08:19:00.1551409Z",
+  "windows_launcher": {
+    "creation_utc": "2026-10-10T07:09:13.0664650Z",
+    "command": "\"C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n& 'C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\launch_corrected_pilot.ps1'\"",
+    "pid": 3376
+  },
+  "linux": {
+    "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+    "processes": [
+      {
+        "pid": 2826,
+        "ppid": 2825,
+        "start_ticks": 859055,
+        "command": "/bin/bash run_pipeline.sh",
+        "cwd": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196"
+      },
+      {
+        "pid": 3616,
+        "ppid": 2826,
+        "start_ticks": 1239079,
+        "command": "iqtree -s pilot_output/alignments/ATP-synt_A_aligned.fasta -m MFP -bb 1000 -nt 2 -mem 3000M -pre pilot_output/trees/ATP-synt_A",
+        "cwd": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196"
+      }
+    ]
+  },
+  "active_script_sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+  "terminal_receipt_present": false,
+  "observation_only": true
+}
