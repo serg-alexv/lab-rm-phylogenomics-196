@@ -1,0 +1,92 @@
+{
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_postprofile.py",
+      "--linux",
+      "--request",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60/request.json",
+      "--request-sha256",
+      "0737902e88e1f3c1f78bcf4ebf34afeff0456418ca56a689082f04c782b0d0c9"
+    ],
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 27,
+      "pid": 27,
+      "ppid": 26,
+      "sid": 27,
+      "start_ticks": "89661",
+      "state": "R"
+    }
+  },
+  "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+  "mount_namespace": {
+    "current_record": {
+      "pgid": 27,
+      "pid": 27,
+      "ppid": 26,
+      "sid": 27,
+      "start_ticks": "89661",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532214]",
+    "parent_executable": "/init",
+    "parent_pid": 26,
+    "parent_record": {
+      "pgid": 25,
+      "pid": 26,
+      "ppid": 25,
+      "sid": 25,
+      "start_ticks": "89660",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532214]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532214]"
+  },
+  "mount_performed": false,
+  "mountpoint_created": false,
+  "observation_before": {
+    "g_mount": null,
+    "g_mountpoint_present": true,
+    "g_root_present": false
+  },
+  "owned_closure_proven": true,
+  "owned_command_count": 0,
+  "owner_nonce": "a6cd758d449f4348919420f8f3672702",
+  "remaining_direct_children": [],
+  "request_sha256": "0737902e88e1f3c1f78bcf4ebf34afeff0456418ca56a689082f04c782b0d0c9",
+  "schema": "STAGE05_GDRIVE_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "session_parent_final": {
+    "current_record": {
+      "pgid": 27,
+      "pid": 27,
+      "ppid": 26,
+      "sid": 27,
+      "start_ticks": "89661",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532214]",
+    "parent_executable": "/init",
+    "parent_pid": 26,
+    "parent_record": {
+      "pgid": 25,
+      "pid": 26,
+      "ppid": 25,
+      "sid": 25,
+      "start_ticks": "89660",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532214]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532214]"
+  },
+  "session_parent_final_verified": true,
+  "session_parent_initial_verified": true,
+  "source_sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9",
+  "state": "PASS_DIAGNOSIS_G_DRIVE_NOT_MOUNTED_NO_REPAIR"
+}

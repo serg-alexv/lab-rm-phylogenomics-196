@@ -1,0 +1,39 @@
+{
+  "schema": "STAGE05_GDRIVE_VIEW_REQUEST_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "owner_nonce": "790a0be2e97144c5994705cf3f2ac977",
+  "source_sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9",
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "linux_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "allow_mount": true,
+  "mount_argv": [
+    "/usr/bin/mount",
+    "-t",
+    "drvfs",
+    "G:",
+    "/mnt/g"
+  ],
+  "fresh_toolchain_proof": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json",
+  "fresh_toolchain_proof_sha256": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7",
+  "fresh_toolchain_pins": {
+    "stage5_setup_toolchain_actual_postiq_07/result.json": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+    "stage5_setup_toolchain_actual_postiq_07/lock_released.json": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516",
+    "stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7",
+    "stage5_setup_toolchain_actual_postiq_07/linux_terminal.json": "795ad1d9bd694be53f574f0044222723ec0769acc32c02476cc88e86c0b45ceb",
+    "stage5_setup_toolchain_actual_postiq_07/wsl_exit.json": "c9dffa018920feee0c90b59cd1d6e4dfe7dcfc2fbb3daa979a66293473220dfb",
+    "stage5_toolchain07_postprofile_independent_review.json": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+  },
+  "control_sha256": {
+    "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "owner_lock_sha256": "4af9ed3e470ea72cbac3064396a71d9154d0141e4760d84a7df86b0a9a48aee5"
+}

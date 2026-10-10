@@ -1,0 +1,123 @@
+{
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_postprofile.py",
+      "--linux",
+      "--request",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0/request.json",
+      "--request-sha256",
+      "09df1b068bec40f0287838de9dfe4c99b3101b0b5da63f308de2b2fecf83ea16"
+    ],
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 30,
+      "pid": 30,
+      "ppid": 29,
+      "sid": 30,
+      "start_ticks": "147524",
+      "state": "R"
+    }
+  },
+  "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+  "g_mount": {
+    "filesystem": "9p",
+    "major_minor": "0:69",
+    "mount_id": 138,
+    "mountpoint": "/mnt/g",
+    "optional_fields": [],
+    "options": "rw,relatime",
+    "parent_id": 87,
+    "root": "/",
+    "source": "G:",
+    "super_options": "rw,aname=drvfs;path=G:;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=3,wfd=3"
+  },
+  "linux_control_sha256": {
+    "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd"
+  },
+  "linux_empty_mount_underlay": {
+    "device": "2096",
+    "entries": [],
+    "inode": "36502",
+    "mtime_ns": "1791484909845416748",
+    "path": "/mnt/g"
+  },
+  "linux_g_underlay": {
+    "device": "69",
+    "entries": [],
+    "inode": "221",
+    "mtime_ns": "1791589115817000000",
+    "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1"
+  },
+  "mount_namespace": {
+    "current_record": {
+      "pgid": 30,
+      "pid": 30,
+      "ppid": 29,
+      "sid": 30,
+      "start_ticks": "147524",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532214]",
+    "parent_executable": "/init",
+    "parent_pid": 29,
+    "parent_record": {
+      "pgid": 28,
+      "pid": 29,
+      "ppid": 28,
+      "sid": 28,
+      "start_ticks": "147523",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532214]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532214]"
+  },
+  "mount_performed": true,
+  "mountpoint_created": false,
+  "observation_before": {
+    "g_mount": null,
+    "g_mountpoint_present": true,
+    "g_root_present": false
+  },
+  "owned_closure_proven": true,
+  "owned_command_count": 1,
+  "owner_nonce": "790a0be2e97144c5994705cf3f2ac977",
+  "remaining_direct_children": [],
+  "request_sha256": "09df1b068bec40f0287838de9dfe4c99b3101b0b5da63f308de2b2fecf83ea16",
+  "schema": "STAGE05_GDRIVE_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "session_parent_final": {
+    "current_record": {
+      "pgid": 30,
+      "pid": 30,
+      "ppid": 29,
+      "sid": 30,
+      "start_ticks": "147524",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532214]",
+    "parent_executable": "/init",
+    "parent_pid": 29,
+    "parent_record": {
+      "pgid": 28,
+      "pid": 29,
+      "ppid": 28,
+      "sid": 28,
+      "start_ticks": "147523",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532214]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532214]"
+  },
+  "session_parent_final_verified": true,
+  "session_parent_initial_verified": true,
+  "source_sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9",
+  "state": "PASS_EXACT_WINDOWS_LINUX_G_CONTROL_BYTES_AND_EMPTY_UNDERLAY"
+}

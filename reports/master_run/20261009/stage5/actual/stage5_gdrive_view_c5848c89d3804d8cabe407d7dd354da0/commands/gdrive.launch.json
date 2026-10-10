@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "/usr/bin/mount",
+    "-t",
+    "drvfs",
+    "G:",
+    "/mnt/g"
+  ],
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "child_pid": 31,
+  "child_start_ticks": "147567",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0/commands/gdrive.closure.json",
+  "command_nonce": "2a4ddf302cfe4810850fff0b155c1d94",
+  "configuration_binding": {
+    "state": "EXACT_EMPTY_G_UNDERLAY_RECHECKED_AFTER_ADMISSION",
+    "underlay": {
+      "device": "2096",
+      "entries": [],
+      "inode": "36502",
+      "mtime_ns": "1791484909845416748",
+      "path": "/mnt/g"
+    }
+  },
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work",
+  "execution": "ACTUAL_PROCESS_STARTED",
+  "identity": {
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "step": "gdrive"
+  },
+  "new_process_session": true,
+  "pgid": 31,
+  "runner_pid": 30,
+  "sid": 31,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "utc": "2026-10-10T02:55:18.345465+00:00"
+}

@@ -1,0 +1,286 @@
+{
+  "schema": "STAGE05_GDRIVE_ACTUAL_PAIR_INDEPENDENT_V1",
+  "state": "PASS_CURRENT_BOOT_G_DIAGNOSIS_AND_EXACT_MOUNT_CLOSED",
+  "utc": "2026-10-10T02:59:56.258414+00:00",
+  "reviewer_source_sha256": "1c5eaba267f48c3c7434f00c40cdab3602c179f6878d51b5040749b396fa3038",
+  "method": "C-only decoded actual receipts and exact SHA256; no WSL, UNC, process, registry, lock, network, Git or producer imports",
+  "scientific_adoption": false,
+  "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+  "source_sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9",
+  "linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "source_publication_commit": "66950449be8696239070b37b95984ebcc4b468c7",
+  "detail": [
+    {
+      "spool": "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60",
+      "result_sha256": "d941adcf40f203e8294f467a26b2d3d3f285159dbd048c1e8d49ddeae8b29f02",
+      "linux_terminal_sha256": "6fab375ecf58642924141cd0ae271e7eb533ca45e62520e9fa7fd67aaf3497c8",
+      "unlock_sha256": "036881cb2945c498fde5228d43f7cb9be839d92e827b6bbfbc0071b359abfb5a",
+      "unlock_utc": "2026-10-10T02:45:40.405630+00:00",
+      "owner_creation_filetime": 134360739388314767,
+      "owner_nonce": "a6cd758d449f4348919420f8f3672702",
+      "linux_state": "PASS_DIAGNOSIS_G_DRIVE_NOT_MOUNTED_NO_REPAIR",
+      "mount_performed": false,
+      "session_parent_initial_and_final_verified": true,
+      "native_commands": [],
+      "retained_wsl_exit_code": 0
+    },
+    {
+      "spool": "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0",
+      "result_sha256": "7c53abe8753f7211e2266f89ddd1a4347c3ee8560e698cfecfcb191a36b46e51",
+      "linux_terminal_sha256": "85796f0f135271c2c725748839f0fc5af7f4dd961c182525d1062dcec88de42f",
+      "unlock_sha256": "0a7a4f649b8706a0170a39634f215524d089c24c1781a93f22560633909df768",
+      "unlock_utc": "2026-10-10T02:55:19.606301+00:00",
+      "owner_creation_filetime": 134360745174995816,
+      "owner_nonce": "790a0be2e97144c5994705cf3f2ac977",
+      "linux_state": "PASS_EXACT_WINDOWS_LINUX_G_CONTROL_BYTES_AND_EMPTY_UNDERLAY",
+      "mount_performed": true,
+      "session_parent_initial_and_final_verified": true,
+      "native_commands": [
+        {
+          "label": "gdrive",
+          "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+          "argv": [
+            "/usr/bin/mount",
+            "-t",
+            "drvfs",
+            "G:",
+            "/mnt/g"
+          ],
+          "exit_code": 0,
+          "closure_sha256": "e321b4fd9155f409297f55196edd29a20fcd1f42f33561eefca39732b798dd3a"
+        }
+      ],
+      "retained_wsl_exit_code": 0
+    }
+  ],
+  "old_failed_scopes_preserved": true,
+  "original_lock_explicitly_released": true,
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "checked_files": {
+    "review_stage5_gdrive_postprofile_actual_pair01.py": {
+      "bytes": 11162,
+      "sha256": "1c5eaba267f48c3c7434f00c40cdab3602c179f6878d51b5040749b396fa3038"
+    },
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "stage5_gdrive_view_postprofile.py": {
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    },
+    "stage5_gdrive_postprofile_source_independent_review01.json": {
+      "bytes": 5846,
+      "sha256": "8ad1436371e1329011aa9ae405409a4767b6109bda5b1eb16fe9606c10be2283"
+    },
+    "master_interop52_remote_readback.json": {
+      "bytes": 35214,
+      "sha256": "e12c055e69d45c08baa32d304506ece75354428fb07226868b57d1cbb04e7801"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\result.json": {
+      "bytes": 7553,
+      "sha256": "d941adcf40f203e8294f467a26b2d3d3f285159dbd048c1e8d49ddeae8b29f02"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\request.json": {
+      "bytes": 2240,
+      "sha256": "0737902e88e1f3c1f78bcf4ebf34afeff0456418ca56a689082f04c782b0d0c9"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_storage_actual_postiq_02\\result.json": {
+      "bytes": 4490,
+      "sha256": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3"
+    },
+    "stage5_setup_storage_actual_postiq_02\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1"
+    },
+    "stage5_setup_storage_actual_postiq_02\\linux_terminal.json": {
+      "bytes": 2067,
+      "sha256": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\result.json": {
+      "bytes": 4636,
+      "sha256": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\result.json": {
+      "bytes": 4618,
+      "sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\linux_terminal.json": {
+      "bytes": 1672,
+      "sha256": "795ad1d9bd694be53f574f0044222723ec0769acc32c02476cc88e86c0b45ceb"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\wsl_exit.json": {
+      "bytes": 1943,
+      "sha256": "c9dffa018920feee0c90b59cd1d6e4dfe7dcfc2fbb3daa979a66293473220dfb"
+    },
+    "stage5_toolchain07_postprofile_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\actual_owner_lock.json": {
+      "bytes": 640,
+      "sha256": "731ae2d4278f6c4f099abba95c703a3b3b7deb15169018cb6c0d5abe698e7fa7"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\launch.json": {
+      "bytes": 826,
+      "sha256": "13e9eb8cda45b9e638666767326c846cffdc251cad600ef7d5759e851ef0afd5"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\wsl_exit.json": {
+      "bytes": 1076,
+      "sha256": "46711b3974bc3d43c4be211d454d649286a0594890101ffccd48ad77502c0fe7"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\linux_terminal.json": {
+      "bytes": 2733,
+      "sha256": "6fab375ecf58642924141cd0ae271e7eb533ca45e62520e9fa7fd67aaf3497c8"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\admission.json": {
+      "bytes": 1749,
+      "sha256": "0e11e780f0b49c441ebfa75a3390bc799640a87f2f6ee4d8231cd3acaff330af"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\latest_admission.json": {
+      "bytes": 1749,
+      "sha256": "0e11e780f0b49c441ebfa75a3390bc799640a87f2f6ee4d8231cd3acaff330af"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "036881cb2945c498fde5228d43f7cb9be839d92e827b6bbfbc0071b359abfb5a"
+    },
+    "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60\\owner_lease.json": {
+      "bytes": 869,
+      "sha256": "659373d4051fff382449141998f1700bdc9014c387732f76fe63bb1f2728234c"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\result.json": {
+      "bytes": 7902,
+      "sha256": "7c53abe8753f7211e2266f89ddd1a4347c3ee8560e698cfecfcb191a36b46e51"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\request.json": {
+      "bytes": 2239,
+      "sha256": "09df1b068bec40f0287838de9dfe4c99b3101b0b5da63f308de2b2fecf83ea16"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\actual_owner_lock.json": {
+      "bytes": 643,
+      "sha256": "4af9ed3e470ea72cbac3064396a71d9154d0141e4760d84a7df86b0a9a48aee5"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\launch.json": {
+      "bytes": 826,
+      "sha256": "693e99d01b41e62a87a04f5634131334161ebbf6aed5b89f0c2323b9cb082f68"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\wsl_exit.json": {
+      "bytes": 1075,
+      "sha256": "e8b57bbb6c59176751da06bff403ecc0a95aa84392355d21da3cb7e421be1b78"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\linux_terminal.json": {
+      "bytes": 3816,
+      "sha256": "85796f0f135271c2c725748839f0fc5af7f4dd961c182525d1062dcec88de42f"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.launch.json": {
+      "bytes": 1039,
+      "sha256": "692aa7f532b56b8bc730a7d3f545c523bfe695acf65c1844a1e9348ce2d30fca"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.launch_intent.json": {
+      "bytes": 297,
+      "sha256": "941e1795fa34fd8b899352c646f9ce2b0f01ef025b54b42ba5de2e5f91e156ed"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.closure.json": {
+      "bytes": 638,
+      "sha256": "e321b4fd9155f409297f55196edd29a20fcd1f42f33561eefca39732b798dd3a"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.command.json": {
+      "bytes": 1565,
+      "sha256": "434cc8da4f9b80f104f6ab26e529494acb8955553dbe6556b5d78e2a20f4e76b"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\gdrive.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\admission.json": {
+      "bytes": 1748,
+      "sha256": "bb1c2ba482c2c2dae1155e9d0ad717249d6542263c510c6374fc31728bfb150f"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\latest_admission.json": {
+      "bytes": 1748,
+      "sha256": "bb1c2ba482c2c2dae1155e9d0ad717249d6542263c510c6374fc31728bfb150f"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "0a7a4f649b8706a0170a39634f215524d089c24c1781a93f22560633909df768"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\admission.json": {
+      "bytes": 1749,
+      "sha256": "2d6252e10af08a279d6af619dd7be86de706cfedb113595d4ec59ad68eb43c6e"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands\\latest_admission.json": {
+      "bytes": 1749,
+      "sha256": "2d6252e10af08a279d6af619dd7be86de706cfedb113595d4ec59ad68eb43c6e"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\commands.jsonl": {
+      "bytes": 1429,
+      "sha256": "632f517eccefc5fe14904cf4f02c30147da525917fa06bb1e7e0ce0a173fb511"
+    },
+    "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0\\owner_lease.json": {
+      "bytes": 871,
+      "sha256": "5914ff4ebcbb2a5f6475e49238d346d7db1b78328208f604d4900d64d2d53d56"
+    }
+  }
+}

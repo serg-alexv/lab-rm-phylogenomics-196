@@ -1,0 +1,45 @@
+{
+  "admitted": true,
+  "disk_free_bytes": 245802946560,
+  "linux_available_bytes": 2595512320,
+  "owner_lease_file_sha256": "ab9a9ca952a8406ba6477a73f7099e63949ea6fb23c426fafc18962ab4bc00fa",
+  "policy": {
+    "command_timeout_seconds": 30,
+    "commit_requirement_bytes": 1879048192,
+    "drain_timeout_seconds": 4,
+    "incremental_windows_requirement_bytes": 268435456,
+    "lease_max_age_seconds": 3,
+    "linux_job_requirement_bytes": 134217728,
+    "linux_reserve_bytes": 134217728,
+    "minimum_disk_free_bytes": 10737418240,
+    "resource_wait_seconds": 0,
+    "sampled_rss_stop_bytes": 268435456,
+    "termination_grace_seconds": 2,
+    "windows_reserve_bytes": 1610612736
+  },
+  "utc": "2026-10-10T02:45:39.795294+00:00",
+  "wait_seconds": 0.009893572000009954,
+  "windows_disks_sufficient": true,
+  "windows_owner_lease": {
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60": 245802962944,
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233512812544
+    },
+    "expires_unix": 1791600342.2696204,
+    "measured_unix": 1791600339.2696204,
+    "nonce": "a6cd758d449f4348919420f8f3672702",
+    "owner_creation_filetime": "134360739388314767",
+    "owner_pid": 24672,
+    "schema": "STAGE05_WINDOWS_OWNER_LEASE_V1",
+    "windows_available_bytes": 4292161536,
+    "windows_commit_headroom_bytes": 4695851008,
+    "workflow_lock": {
+      "creation_filetime": 134359335921635133,
+      "file_index": 844424932784519,
+      "locked_byte": 0,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+      "volume_serial": 2430728143
+    },
+    "workflow_lock_held": true
+  }
+}
