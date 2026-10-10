@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-CORRECTION_APPLIED_PILOT_RERUN_AUTHORIZED. User approved replacing unitless -mem 3000 with -mem 3000M and regenerating the first alignment. Original script, first alignment and failure logs are preserved. Corrected pilot launch is next; full execution remains unapproved. See [approval](reports/stage01/local_pilot_20261010/correction_approval.json).
+RUNNING. Corrected pilot launched locally; first alignment complete and IQ-TREE ModelFinder is running with two threads and -mem 3000M. No gene tree or ASTRAL result is yet accepted. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot76/progress.json).
 
 # Current execution status
 
