@@ -1,0 +1,30 @@
+{
+  "phase": "linux_config",
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_wsl_config_owner.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_wsl_config_e169045dc0634577be5e041d922d44a7/request.json",
+    "--request-sha256",
+    "8aedb621a9a43aa6910ded80e66cb1761d2e540d81e1a895cc70333a65c35478"
+  ],
+  "birth": {
+    "pid": 24672,
+    "creation_filetime": 134360717618745431,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owner_nonce": "b03995163f77464eb0adcd8da1dfd892"
+}

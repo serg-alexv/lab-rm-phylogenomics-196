@@ -1,0 +1,112 @@
+{
+  "after_bytes": 322,
+  "after_sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f",
+  "before_bytes": 321,
+  "before_sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89",
+  "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_wsl_config_owner.py",
+      "--linux",
+      "--request",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_wsl_config_e169045dc0634577be5e041d922d44a7/request.json",
+      "--request-sha256",
+      "8aedb621a9a43aa6910ded80e66cb1761d2e540d81e1a895cc70333a65c35478"
+    ],
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 2425,
+      "pid": 2425,
+      "ppid": 2421,
+      "sid": 2425,
+      "start_ticks": "553842",
+      "state": "R"
+    }
+  },
+  "config_after_actual_sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f",
+  "config_replaced": true,
+  "configuration_path": "/etc/wsl.conf",
+  "failed_unc02_cleanup": {
+    "actual_directory_metadata": {
+      "bytes": 4096,
+      "ctime_ns": 1791596003809157092,
+      "device": 2096,
+      "gid": 0,
+      "inode": 33554545,
+      "mode": 16832,
+      "mtime_ns": 1791596003809157092,
+      "nlink": 2,
+      "uid": 0
+    },
+    "backing_empty_verified": true,
+    "backup_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_wsl_config_e169045dc0634577be5e041d922d44a7/failed_unc02_public_backup.json",
+    "backup_sha256": "447a692e2a830309865388a88857105e1749a890b67718973f263b88b0d1da7d",
+    "directory_removed": true,
+    "original_failed_receipts_unchanged": true,
+    "removed_leaves": [
+      "linux.bin"
+    ]
+  },
+  "mount_namespace": {
+    "current_record": {
+      "pgid": 2425,
+      "pid": 2425,
+      "ppid": 2421,
+      "sid": 2425,
+      "start_ticks": "553842",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532212]",
+    "parent_executable": "/init",
+    "parent_pid": 2421,
+    "parent_record": {
+      "pgid": 2419,
+      "pid": 2421,
+      "ppid": 2419,
+      "sid": 2419,
+      "start_ticks": "553841",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532209]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532212]"
+  },
+  "original_mode": 420,
+  "owned_closure_proven": true,
+  "owned_command_count": 0,
+  "owner_nonce": "b03995163f77464eb0adcd8da1dfd892",
+  "preserved_partial_temp_path": "/etc/.wsl.conf.lab_rm_b03995163f77464eb0adcd8da1dfd892.tmp",
+  "remaining_direct_children": [],
+  "request_sha256": "8aedb621a9a43aa6910ded80e66cb1761d2e540d81e1a895cc70333a65c35478",
+  "schema": "STAGE05_WSL_CONFIG_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_WSL_CONFIG_AND_CONTROLLED_SHUTDOWN_ONLY",
+  "session_parent_final": {
+    "current_record": {
+      "pgid": 2425,
+      "pid": 2425,
+      "ppid": 2421,
+      "sid": 2425,
+      "start_ticks": "553842",
+      "state": "R"
+    },
+    "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+    "parent": "mnt:[4026532212]",
+    "parent_executable": "/init",
+    "parent_pid": 2421,
+    "parent_record": {
+      "pgid": 2419,
+      "pid": 2421,
+      "ppid": 2419,
+      "sid": 2419,
+      "start_ticks": "553841",
+      "state": "S"
+    },
+    "pid1": "mnt:[4026532209]",
+    "pid1_role": "DIAGNOSTIC_ONLY_NOT_SESSION_IDENTITY",
+    "self": "mnt:[4026532212]"
+  },
+  "source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "state": "PASS_EXACT_TWO_LINE_CONFIG_REPLACED_READBACK"
+}

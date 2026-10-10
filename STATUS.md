@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T02:08:13.422360+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T02:12:29.353346+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: a bounded WSL configuration repair is prepared under the existing original workflow-lock and lease framework. It preserves and verifies the exact configuration preimage and failed UNC sentinel before switching Ubuntu to WSL init/default root, then retains the manage/shutdown/list command handles under the same lock. Actual reconfiguration and restart remain NOT_RUN at this preparation step; all boot-sensitive gates must be refreshed afterwards. Corrected VM inventory/capture/offline-split components have scoped independent source review and remain inactive until the cold owner and writer-exclusion cycle is implemented and verified. Accepted Stage4 is unchanged; first-genome native execution and production curation remain NOT_RUN.
+Stage5 current execution: exact WSL repair and controlled shutdown PASS. The unchanged original workflow-lock retained Linux configuration and Windows maintenance client exits; public backups preserve both configuration versions and the exact failed UNC02 sentinel before its verified removal. Ubuntu now uses init/default root (registered UID0), all18legacy tasks remain Disabled, all distros were verified stopped, no automatic relaunch occurred and no current STOP remains. Independent actual receipt review PASS. All boot-sensitive gates require fresh actual evidence on a new Linux boot before the first approved full-method genome; Stage5 native execution and curation remain NOT_RUN. Accepted Stage4 is unchanged; VM payload splitting, cold restore and final host eviction remain pending.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -143,3 +143,6 @@ Actual operational update: Verify distinct UNC canonical visibility and backing 
 - `stage5_unc02_diagnostic_actual01`: PASS_READONLY_DIAGNOSTIC_AND_EXACT_OWNED_WINDOWS_CLOSURE; exact command, closure, resources and lock-release receipts are retained.
 
 Actual operational update: Prepare reviewed WSL repair and inactive VM recovery sources
+
+Actual operational update: Apply exact WSL init/root repair, recover failed sentinel, and verify stopped distros
+- `stage5_wsl_config_e169045dc0634577be5e041d922d44a7`: PASS_NONSCIENTIFIC_WSL_CONFIG_CHANGED_AND_ALL_DISTROS_STOPPED; exact command, closure, resources and lock-release receipts are retained.

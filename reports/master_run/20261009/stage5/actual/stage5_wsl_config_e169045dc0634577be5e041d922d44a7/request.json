@@ -1,0 +1,36 @@
+{
+  "schema": "STAGE05_WSL_CONFIG_REQUEST_V1",
+  "scope": "NONSCIENTIFIC_WSL_CONFIG_AND_CONTROLLED_SHUTDOWN_ONLY",
+  "owner_nonce": "b03995163f77464eb0adcd8da1dfd892",
+  "source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "base_source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+  "preimage_sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89",
+  "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "cleanup_pins": {
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "stage5_unc_bind_actual_postiq_02/request.json": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+    "stage5_unc_bind_actual_postiq_02/prepared.json": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968",
+    "stage5_unc_bind_actual_postiq_02/result.json": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc",
+    "stage5_unc_bind_actual_postiq_02/lock_released.json": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373",
+    "stage5_storage_actual_postiq_05.json": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54",
+    "stage5_unc_config_actual_postboot_02.json": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+  },
+  "owner_lock_sha256": "48ead4245fdcde256eca10ac20dc4c8054630101cf14ea64c59bc8e110dd0411",
+  "fresh_toolchain_pins": {
+    "stage5_setup_toolchain_actual_postiq_05/result.json": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43",
+    "stage5_setup_toolchain_actual_postiq_05/lock_released.json": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289",
+    "stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+    "stage5_setup_toolchain_actual_postiq_05/linux_terminal.json": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04",
+    "stage5_setup_toolchain_actual_postiq_05/wsl_exit.json": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f",
+    "stage5_toolchain05_postboot_independent_review.json": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+  },
+  "fresh_toolchain_proof": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json",
+  "fresh_toolchain_proof_sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c"
+}

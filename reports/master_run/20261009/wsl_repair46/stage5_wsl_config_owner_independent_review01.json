@@ -1,0 +1,206 @@
+{
+  "actual_operations": {
+    "config_change": "NOT_RUN",
+    "new_boot": "NOT_OBSERVED",
+    "registry_mutation": "NOT_RUN",
+    "sentinel_cleanup": "NOT_RUN",
+    "shutdown": "NOT_RUN",
+    "stage5_scientific": "NOT_RUN"
+  },
+  "configuration": {
+    "after_bytes": 322,
+    "after_sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f",
+    "before_bytes": 321,
+    "before_sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89"
+  },
+  "files": {
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": {
+      "bytes": 2067,
+      "sha256": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74"
+    },
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": {
+      "bytes": 116,
+      "sha256": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1"
+    },
+    "stage5_setup_storage_actual_postiq_02/result.json": {
+      "bytes": 4490,
+      "sha256": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": {
+      "bytes": 116,
+      "sha256": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/result.json": {
+      "bytes": 4636,
+      "sha256": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    },
+    "stage5_setup_toolchain_actual_postiq_05/linux_terminal.json": {
+      "bytes": 1684,
+      "sha256": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04"
+    },
+    "stage5_setup_toolchain_actual_postiq_05/lock_released.json": {
+      "bytes": 116,
+      "sha256": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289"
+    },
+    "stage5_setup_toolchain_actual_postiq_05/result.json": {
+      "bytes": 4616,
+      "sha256": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43"
+    },
+    "stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c"
+    },
+    "stage5_setup_toolchain_actual_postiq_05/wsl_exit.json": {
+      "bytes": 1943,
+      "sha256": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_storage_actual_postiq_05.json": {
+      "bytes": 1252,
+      "sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54"
+    },
+    "stage5_toolchain05_postboot_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+    },
+    "stage5_unc_bind_actual_postiq_02/lock_released.json": {
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    "stage5_unc_bind_actual_postiq_02/prepared.json": {
+      "bytes": 3929,
+      "sha256": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968"
+    },
+    "stage5_unc_bind_actual_postiq_02/request.json": {
+      "bytes": 2385,
+      "sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c"
+    },
+    "stage5_unc_bind_actual_postiq_02/result.json": {
+      "bytes": 3339,
+      "sha256": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_unc_config_actual_postboot_02.json": {
+      "bytes": 2925,
+      "sha256": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_wsl_config_before_repair01.txt": {
+      "bytes": 321,
+      "sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_wsl_config_owner_METHODS.md": {
+      "bytes": 4289,
+      "sha256": "6c20be46a2b0f9e0fe38057114509dc078951b8f8f48894679ca78c8ac7651ea"
+    },
+    "stage5_wsl_config_owner_preparation01.json": {
+      "bytes": 2775,
+      "sha256": "b867eddde233d020c4beccb584393b94678737748429cabe6b8eda3cc1dabf29"
+    },
+    "test_stage5_wsl_config_owner.py": {
+      "bytes": 7843,
+      "sha256": "aadb2741773f3542a31063b15d324a38dc6ddb63ccaa226a75c8440baf3fa9d3"
+    }
+  },
+  "fixed_blockers": [
+    {
+      "issue": "Original three config backup names were rejected by current publisher suffix allowlist.",
+      "members": [
+        "wsl.conf.before.txt",
+        "wsl.conf.after.expected.txt",
+        "wsl.conf.after.actual.txt",
+        "failed_unc02_public_backup.json"
+      ],
+      "resolution": "Exact six write/read string occurrences changed to .txt names; reversing those three name substitutions reconstructs original fb03cc50 source hash exactly."
+    }
+  ],
+  "limits": [
+    "Actual invocation requires source publication and full remote byte readback by root first.",
+    "C census and retained clients are checked only by pure/source review here; no host process census or WSL integration was executed.",
+    "Shutdown success does not establish new Linux boot/configuration/UNC readiness. Repeat toolchain, interop, G, storage, DriveFS, UNC and runtime actual gates on the new boot.",
+    "Systemd namespace mechanism and future repaired propagation remain hypotheses until fresh actual view/storage/UNC evidence.",
+    "The module header still says no deletion although the detailed methods/source explicitly permit only exact backed-up failed nonce cleanup; this wording does not broaden executable scope."
+  ],
+  "remaining_source_blockers": [],
+  "retained_maintenance_client_closure_boundary": {
+    "Linux": "Exact Linux terminal proves zero owned native launches and no remaining direct children before any manage/shutdown command.",
+    "Windows": "Each exact PowerShell/wsl.exe client has retained process handle birth and terminal exit0; this helper does not claim a new named Job or generic Windows descendant census.",
+    "census": "Fixed PowerShell script uses in-process CIM/scheduled-task queries and contains no external native command invocation.",
+    "shutdown": "Retained shutdown exit0 plus a separate retained empty running-distro query qualifies stopped distros only; no relaunch or future mount visibility claim."
+  },
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "WSL_launches": 0,
+    "actual_UNC_reads": 0,
+    "lock_acquisitions": 0,
+    "private_namespace_reads": 0,
+    "source_edits": 0
+  },
+  "reviewed_guards": {
+    "Linux90s_client110s_owner300s_resources_every_lease_plus_finalizer15s": true,
+    "all18_LAB_tasks_disabled_and_no_selected_owners_or_helpers_before_changes": true,
+    "all_leaf_payloads_and_original_Linux_prepared_receipt_checked_before_any_unlink": true,
+    "closed_operational_failure_stays_FAILED_with_backups_effects_preserved": true,
+    "config_ancestor_single_link_root_owner_and_exclusive_NOFOLLOW_staging": true,
+    "current_old_boot_toolchain05_plus_exact_failed_UNC02_storage05_bind": true,
+    "exact_root0700_nonce_device2096_inode33554545_and_known_optional_windows_leaf": true,
+    "exact_two_line_config_321_to322_bytes_atomic_replace_fsync_owner_mode_readback": true,
+    "failed_UNC02_receipts_stay_byte_identical_FAILED": true,
+    "fixed_bounded_manage_shutdown_running_list_no_automatic_relaunch": true,
+    "fsynced_C_backup_readback_before_cleanup_config_backup_before_cleanup": true,
+    "immediate_exact_leaf_directory_identity_and_byte_rechecks_no_recursive_delete": true,
+    "retained_Windows_birth_terminal_exit0_each_phase_and_zero_Linux_native_children": true,
+    "same_G42db_framework_L_fresh_lease_P_Supervisor_source_pins": true,
+    "same_live_session_parent_identity_namespace_initial_and_final": true,
+    "same_unchanged_A_original_WorkflowLock_byte0_and_explicit_unlock": true,
+    "strict_registry_Ubuntu_GUID_BasePath_Version2_Flags15_UID1000_to0": true,
+    "three_public_config_backups_now_accepted_by_existing_publisher": true,
+    "unproven_client_or_Linux_closure_retains_own_durable_STOP": true
+  },
+  "schema": "STAGE05_WSL_CONFIG_OWNER_SOURCE_INDEPENDENT_REVIEW_V1",
+  "source_preparation_sha256": "b867eddde233d020c4beccb584393b94678737748429cabe6b8eda3cc1dabf29",
+  "source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "state": "PASS_FROZEN_SOURCE_NINE_PURE_TESTS_DEFAULT_NOOP_ACTUAL_NOT_RUN",
+  "tests": {
+    "command": "python -B work/test_stage5_wsl_config_owner.py",
+    "count": 9,
+    "default_noop_command": "python -B work/stage5_wsl_config_owner.py",
+    "default_noop_exit_code": 0,
+    "exit_code": 0
+  },
+  "utc": "2026-10-10T02:08:07.218665+00:00",
+  "verified_files": 30
+}

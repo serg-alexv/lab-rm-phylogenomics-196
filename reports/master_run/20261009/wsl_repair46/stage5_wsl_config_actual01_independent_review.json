@@ -1,0 +1,541 @@
+{
+  "actual_scientific_stage5": "NOT_RUN",
+  "all18_tasks_disabled_three_censuses": true,
+  "closure_boundary": "Exact retained Windows clients exited0 sequentially; fixed PowerShell census has no external commands; Linux native launch count0/direct children[] terminal qualified before maintenance. No generic Windows named-Job descendant claim.",
+  "config_after_sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f",
+  "config_before_sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89",
+  "config_two_lines_changed": true,
+  "failed_nonce_directory_removed_and_backing_empty_recorded": true,
+  "failed_sentinel_backup_sha256": "447a692e2a830309865388a88857105e1749a890b67718973f263b88b0d1da7d",
+  "failed_sentinel_removed_leaves": [
+    "linux.bin"
+  ],
+  "files": {
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "master_wslprep45_remote_readback.json": {
+      "bytes": 13722,
+      "sha256": "488b3ce2220fd8804c519b330bc17cc5f2fdaef3b2fb6814834fd1e6f20d2766"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_setup_storage_actual_postiq_02\\linux_terminal.json": {
+      "bytes": 2067,
+      "sha256": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74"
+    },
+    "stage5_setup_storage_actual_postiq_02\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1"
+    },
+    "stage5_setup_storage_actual_postiq_02\\result.json": {
+      "bytes": 4490,
+      "sha256": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\result.json": {
+      "bytes": 4636,
+      "sha256": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\linux_terminal.json": {
+      "bytes": 1684,
+      "sha256": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\result.json": {
+      "bytes": 4616,
+      "sha256": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\wsl_exit.json": {
+      "bytes": 1943,
+      "sha256": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_storage_actual_postiq_05.json": {
+      "bytes": 1252,
+      "sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54"
+    },
+    "stage5_toolchain05_postboot_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+    },
+    "stage5_unc_bind_actual_postiq_02\\lock_released.json": {
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    "stage5_unc_bind_actual_postiq_02\\prepared.json": {
+      "bytes": 3929,
+      "sha256": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968"
+    },
+    "stage5_unc_bind_actual_postiq_02\\request.json": {
+      "bytes": 2385,
+      "sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c"
+    },
+    "stage5_unc_bind_actual_postiq_02\\result.json": {
+      "bytes": 3339,
+      "sha256": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_unc_config_actual_postboot_02.json": {
+      "bytes": 2925,
+      "sha256": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_wsl_config_before_repair01.txt": {
+      "bytes": 321,
+      "sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\actual_owner_lock.json": {
+      "bytes": 640,
+      "sha256": "48ead4245fdcde256eca10ac20dc4c8054630101cf14ea64c59bc8e110dd0411"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\admission.json": {
+      "bytes": 1748,
+      "sha256": "813d95acf6572712a7123c208ca99f6d22d2acfe1f65dd6b0800da391d79eb81"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_after_shutdown.exit.json": {
+      "bytes": 2163,
+      "sha256": "e2d18c1ffd1310b0579e19efd8cef9968d5a2ca5e162eb4ca959a0bd5b51a36c"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_after_shutdown.intent.json": {
+      "bytes": 1617,
+      "sha256": "caf15a479bbbc4e262f5a60bd2b49a43fa1b04ad563589421bba6917cff1ddbc"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_after_shutdown.launch.json": {
+      "bytes": 1868,
+      "sha256": "16e1c1b33ae261db39cf4addeab9466908d64d0aee4929624f26dcfa9559e0bb"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_after_shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_after_shutdown.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "58f694c8a82bca88e070271daa607c818c3ec755895747f51f6a91913e8a1c17"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before.exit.json": {
+      "bytes": 2155,
+      "sha256": "214472bb2d072917c7ac05199a3f48a4982e69f2b41ef256151a380e53bc11b2"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before.intent.json": {
+      "bytes": 1609,
+      "sha256": "5e5b4a61f3a258848e095cccc10242dbde2c8ee6ce3f865cd2ff5b73daa24201"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before.launch.json": {
+      "bytes": 1860,
+      "sha256": "71ad43703e1f43060426fa43b596134e303e05e1d30075b74e164a923fac136d"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "6ecb50b61817c9b37e262ec292504ef39bd6e4ca715034432a92ad28103c15c3"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before_manage.exit.json": {
+      "bytes": 2166,
+      "sha256": "c547813f6ed7488ca7df52ee2a5f1b66c9ee78b9969da9736bb8dbb8c7cea77d"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before_manage.intent.json": {
+      "bytes": 1616,
+      "sha256": "3192fb7a276f9f832d53a4096d1db21f1e770284ec64704dfec5e29160e6ec16"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before_manage.launch.json": {
+      "bytes": 1868,
+      "sha256": "fbb2c73955826764c6d6bdecd0c98a9877527f57a9b333e144ee1a16286c7548"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before_manage.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\census_before_manage.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "b7efb16d3fc3220d5b2551aabd35e4bf246a06b7772802349fb08b1dbe2189bc"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\failed_unc02_public_backup.json": {
+      "bytes": 3931,
+      "sha256": "447a692e2a830309865388a88857105e1749a890b67718973f263b88b0d1da7d"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\latest_admission.json": {
+      "bytes": 1748,
+      "sha256": "813d95acf6572712a7123c208ca99f6d22d2acfe1f65dd6b0800da391d79eb81"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config.exit.json": {
+      "bytes": 1095,
+      "sha256": "694a0f2a15ea5781b33cc583314938b160c19d95e1d340875f1a7de0c83a9cf7"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config.intent.json": {
+      "bytes": 610,
+      "sha256": "133f57533ed57707bc8f94d0280f5ba5eca8b56a3c6287a335a949dd44dccb89"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config.launch.json": {
+      "bytes": 829,
+      "sha256": "b4c22be99c9031ca781ab1d76eb13ce75e475b079baa47833b9681ef732201c0"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_config_intent.json": {
+      "bytes": 2915,
+      "sha256": "67bff3c1c887af8a33bebbc0f38e989b986bec7b28eda50053257a084e152e6a"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\linux_terminal.json": {
+      "bytes": 3678,
+      "sha256": "9a275f7d40cdee37f4f5ee85a833d3e11c707edbcf65267cb9889420228c3d96"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "389aa6e7c13a52a5d7f5cc93483d5de82f4b5b84ad33f22e7ac168f878506545"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\owner_lease.json": {
+      "bytes": 870,
+      "sha256": "a28ba1b44068f90e31ea8ed59ce86fddc1289b9a7e2fee728ae59d781c76f1d1"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\request.json": {
+      "bytes": 2767,
+      "sha256": "8aedb621a9a43aa6910ded80e66cb1761d2e540d81e1a895cc70333a65c35478"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\result.json": {
+      "bytes": 27887,
+      "sha256": "e3dcf8db382e46b4ced8b3776cfcf3d2ea073147ca962bccfbb214e2ed2ca70e"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\running_after.exit.json": {
+      "bytes": 692,
+      "sha256": "ad8e13acfddfc9de78ec6361678fae860cb23b8c2d1565c3bf48ae4eeb3b3ba7"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\running_after.intent.json": {
+      "bytes": 209,
+      "sha256": "d0771fd9beb5cfbd6afc4dd8bb9ae04ca479c179c1aa7035b15802977983fc02"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\running_after.launch.json": {
+      "bytes": 428,
+      "sha256": "fb3672f1eb3cbe827f277f28e319c67ff492f888a19f02081b18cc28de7ea321"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\running_after.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\running_after.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\set_default_user.exit.json": {
+      "bytes": 720,
+      "sha256": "46209ed543bd4ac91382a5b2cfaf4d9f355091d03389abe0a6b12ee88c68e797"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\set_default_user.intent.json": {
+      "bytes": 234,
+      "sha256": "e9021d36915da69c4c96a336d79e6f5d2b7a9638125f1735114b5a2000cbbb18"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\set_default_user.launch.json": {
+      "bytes": 454,
+      "sha256": "e416ce7e1b2181804ba88c2e29b3e46ed0c3057625365e6522b10b1e0761a2b7"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\set_default_user.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\set_default_user.stdout.txt": {
+      "bytes": 80,
+      "sha256": "8142c88d677422c8bd8eace714d36efe1f981de931960c2e99ee38717f810ede"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\shutdown.exit.json": {
+      "bytes": 657,
+      "sha256": "08b3685f5d96665fbec579556dcf3fabd60fa7cd5aea31e2c77e4ee4752e9eb3"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\shutdown.intent.json": {
+      "bytes": 176,
+      "sha256": "73371b138aa8a12032cd455da2dbc563c14b3f700bbf6b79edbb825bfc3f3a42"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\shutdown.launch.json": {
+      "bytes": 396,
+      "sha256": "fdcbcc5d0f9c200058f6eee63620bed66f9841bc6bbb8247ca5b0243555a5d3e"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\shutdown.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\wsl.conf.after.actual.txt": {
+      "bytes": 322,
+      "sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\wsl.conf.after.expected.txt": {
+      "bytes": 322,
+      "sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f"
+    },
+    "stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\wsl.conf.before.txt": {
+      "bytes": 321,
+      "sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_wsl_config_owner_METHODS.md": {
+      "bytes": 4289,
+      "sha256": "6c20be46a2b0f9e0fe38057114509dc078951b8f8f48894679ca78c8ac7651ea"
+    },
+    "stage5_wsl_config_owner_independent_review01.json": {
+      "bytes": 9773,
+      "sha256": "27610778a4d98963458cbc8424f94d583ec4d0d9f42c47af5778ad7f4d6427ff"
+    },
+    "stage5_wsl_config_owner_preparation01.json": {
+      "bytes": 2775,
+      "sha256": "b867eddde233d020c4beccb584393b94678737748429cabe6b8eda3cc1dabf29"
+    },
+    "test_stage5_wsl_config_owner.py": {
+      "bytes": 7843,
+      "sha256": "aadb2741773f3542a31063b15d324a38dc6ddb63ccaa226a75c8440baf3fa9d3"
+    }
+  },
+  "new_linux_boot": "NOT_OBSERVED_NO_RELAUNCH",
+  "old_boot_runtime_proofs_reusable": false,
+  "original_UNC02_state": "FAILED_BYTE_IDENTICAL_PRESERVED",
+  "original_byte_unlock_recorded": true,
+  "original_lock_identity": {
+    "creation_filetime": 134359335921635133,
+    "file_index": 844424932784519,
+    "locked_byte": 0,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143
+  },
+  "owned_closure_proven": true,
+  "owner_elapsed_seconds": 22.765000000000327,
+  "registry_default_uid_after": 0,
+  "registry_default_uid_before": 1000,
+  "required_next_steps": "Publish this closed repair and remote-readback it; then freshly qualify new Linux boot/toolchain, interop, G, storage, DriveFS, UNC and runtime. No scientific admission from old boot proofs.",
+  "retained_clients": [
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717577768384,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 9360,
+        "session_id": 1
+      },
+      "elapsed_seconds": 3.4301588,
+      "exit": {
+        "cpu_seconds": 1.1875,
+        "creation_filetime": 134360717577768384,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717612069972,
+        "exited": true,
+        "pid": 9360,
+        "session_id": 1
+      },
+      "phase": "census_before"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717618745431,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 24672,
+        "session_id": 1
+      },
+      "elapsed_seconds": 1.1240256,
+      "exit": {
+        "cpu_seconds": 0.046875,
+        "creation_filetime": 134360717618745431,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717629985687,
+        "exited": true,
+        "pid": 24672,
+        "session_id": 1
+      },
+      "phase": "linux_config"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717630870515,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 26836,
+        "session_id": 1
+      },
+      "elapsed_seconds": 2.0808412,
+      "exit": {
+        "cpu_seconds": 0.828125,
+        "creation_filetime": 134360717630870515,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717651678927,
+        "exited": true,
+        "pid": 26836,
+        "session_id": 1
+      },
+      "phase": "census_before_manage"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717654180156,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 16048,
+        "session_id": 1
+      },
+      "elapsed_seconds": 10.2239871,
+      "exit": {
+        "cpu_seconds": 0.015625,
+        "creation_filetime": 134360717654180156,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717756420027,
+        "exited": true,
+        "pid": 16048,
+        "session_id": 1
+      },
+      "phase": "set_default_user"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717761539850,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 13628,
+        "session_id": 1
+      },
+      "elapsed_seconds": 1.0415347,
+      "exit": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717761539850,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717771955197,
+        "exited": true,
+        "pid": 13628,
+        "session_id": 1
+      },
+      "phase": "shutdown"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717773521379,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 2000,
+        "session_id": 1
+      },
+      "elapsed_seconds": 0.0664309,
+      "exit": {
+        "cpu_seconds": 0.03125,
+        "creation_filetime": 134360717773521379,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717774185688,
+        "exited": true,
+        "pid": 2000,
+        "session_id": 1
+      },
+      "phase": "running_after"
+    },
+    {
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360717779956344,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 5028,
+        "session_id": 1
+      },
+      "elapsed_seconds": 2.2322287,
+      "exit": {
+        "cpu_seconds": 0.9375,
+        "creation_filetime": 134360717779956344,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360717802278631,
+        "exited": true,
+        "pid": 5028,
+        "session_id": 1
+      },
+      "phase": "census_after_shutdown"
+    }
+  ],
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "WSL_launches": 0,
+    "actual_UNC_reads": 0,
+    "lock_acquisitions": 0,
+    "runtime_mutations": 0
+  },
+  "running_distro_names": [],
+  "schema": "STAGE05_WSL_CONFIG_ACTUAL_INDEPENDENT_REVIEW_V1",
+  "source_publication_commit": "c4a12a2b5bc54aca023d98e1f814b76eb5f5c468",
+  "source_publication_method": "C-only independently hashed source and full remote readback receipt; no network reread by this reviewer",
+  "source_publication_readback_files": 34,
+  "source_publication_readback_state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_config_e169045dc0634577be5e041d922d44a7",
+  "state": "PASS_EXACT_CONFIG_SENTINEL_BACKUP_RETAINED_CLIENTS_AND_STOPPED_DISTROS_NEW_BOOT_GATES_PENDING",
+  "unknown_closure_STOP_absent_recorded": true,
+  "utc": "2026-10-10T02:12:02.126084+00:00",
+  "verified_files": 80,
+  "windows_leaf_status": "Absent in exact Linux directory membership at backed-up cleanup time"
+}

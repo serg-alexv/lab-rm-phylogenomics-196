@@ -1,0 +1,88 @@
+{
+  "current_storage_proof": {
+    "backing": "/var/tmp/lab_rm_stage05_atomic_v1",
+    "backing_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 273,
+      "mountpoint": "/",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 194,
+      "root": "/",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    },
+    "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+    "canonical_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+    "canonical_target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+    "directory_device": 2096,
+    "directory_inode": 33554542,
+    "filesystem_uuid": "3370e495-79b5-4136-9c6b-d31c7cb6a6be",
+    "helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "proof_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_05.json",
+    "proof_sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54",
+    "schema": "STAGE05_EXT4_BIND_STORAGE_PROOF_V1",
+    "target_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 403,
+      "mountpoint": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 402,
+      "root": "/var/tmp/lab_rm_stage05_atomic_v1",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    }
+  },
+  "directory": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1/.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210",
+  "directory_metadata": {
+    "bytes": 4096,
+    "ctime_ns": 1791596003809157092,
+    "device": 2096,
+    "gid": 0,
+    "inode": 33554545,
+    "mode": 16832,
+    "mtime_ns": 1791596003809157092,
+    "nlink": 2,
+    "uid": 0
+  },
+  "files": {
+    "linux.bin": {
+      "metadata": {
+        "bytes": 116,
+        "ctime_ns": 1791596003813157090,
+        "device": 2096,
+        "gid": 0,
+        "inode": 33554590,
+        "mode": 33188,
+        "mtime_ns": 1791596003813157090,
+        "nlink": 1,
+        "uid": 0
+      },
+      "payload_hex": "4e4f4e534349454e5449464943204c494e55580a80343ba47d9480915e678e7416c65f1fc682505b1f89ab9e7088aada37d5728187e2db1fc90a95ae5bf58b941f7248c0a8e9a7de686ceb008fbec6e07bd170d3ccc2478d61dfd3d7205f162f30aa6596500d4dea11c86a5f25c74a2d364d7c3a",
+      "tiny_read_receipt": {
+        "bytes": 116,
+        "device": 2096,
+        "inode": 33554590,
+        "mtime_ns": 1791596003813157090,
+        "sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8"
+      }
+    }
+  },
+  "fixed_nonce": "29dd9c67cd0e4dc9b82fe5529d3a6210",
+  "original_failed_scope_state": "FAILED_PRESERVED",
+  "recovery": "Recreate exact directory and listed original public leaves with saved UID/GID/mode and payload hex; original failed receipts remain unchanged.",
+  "schema": "STAGE05_EXACT_FAILED_UNC02_PUBLIC_BACKUP_V1",
+  "source_pins": {
+    "stage5_storage_actual_postiq_05.json": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54",
+    "stage5_unc_bind_actual_postiq_02/lock_released.json": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373",
+    "stage5_unc_bind_actual_postiq_02/prepared.json": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968",
+    "stage5_unc_bind_actual_postiq_02/request.json": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+    "stage5_unc_bind_actual_postiq_02/result.json": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "stage5_unc_config_actual_postboot_02.json": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+  },
+  "state": "COMPLETE_BEFORE_ANY_UNLINK"
+}

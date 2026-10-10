@@ -1,0 +1,20 @@
+# Scientific-computing profile, 2026-10-09.
+# CPU, memory and swap limits belong in Windows %UserProfile%\.wslconfig.
+[boot]
+systemd=true
+protectBinfmt=true
+
+[user]
+default=gns3
+
+[automount]
+enabled=true
+mountFsTab=true
+
+[network]
+generateHosts=true
+generateResolvConf=true
+
+[interop]
+enabled=true
+appendWindowsPath=true
