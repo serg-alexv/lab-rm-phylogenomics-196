@@ -1,0 +1,84 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_FALLBACK_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_BOUNDED_3584MB_GUI_OFF_FALLBACK_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T04:25:52.883661+00:00",
+  "checked_files": {
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "test_stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 14936,
+      "sha256": "9336b40b83ac6adf7ea9cd57436d8a8fda4a07ed6ec76901ee29c99026ab0135"
+    },
+    "stage5_wsl_host_profile_before_fallback01.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "STAGE05_WSL_HOST_PROFILE_FALLBACK_PREPARATION01.md": {
+      "bytes": 4015,
+      "sha256": "b5af97a4251294b4379e83c4ba45a41a3288c1b7ed4d105623da6ade81f49de1"
+    },
+    "stage5_wsl_host_profile_fallback_source_preparation01.json": {
+      "bytes": 3043,
+      "sha256": "6210d8932e232a85edab4b8c24ef801f09f3d5dbd193413f8c0670dbf6b06f6c"
+    },
+    "stage5_wsl_host_profile_owner.py": {
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_closed_genome_archive_windows_checked_unlock_v2.py": {
+      "bytes": 21956,
+      "sha256": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+    }
+  },
+  "reviewer_source_sha256": "bc914263447be8d3bc18524c688de4a0f8c8d5ce496a7571d1ec56dd04d184a6",
+  "pure_tests_passed": 11,
+  "actual_main_default_noop": "PASS",
+  "original_functions_ast_identical": [
+    "need",
+    "digest",
+    "load_base",
+    "profile_identity",
+    "profile_read",
+    "failed_gate"
+  ],
+  "original_retained_owner_helpers_ast_identical": [
+    "snapshot",
+    "lease",
+    "save",
+    "finish_client",
+    "run"
+  ],
+  "original_five_retained_phase_invocations_ast_identical": true,
+  "profile": {
+    "before_bytes": 681,
+    "before_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+    "after_bytes": 685,
+    "after_sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+    "memory_maximum_bytes": 3758096384,
+    "gui_applications": false,
+    "other_bytes_exactly_preserved": true,
+    "incremental_resident_host_memory": "NOT_ASSUMED_REQUIRES_ACTUAL_MEASUREMENT"
+  },
+  "prerequisite": {
+    "fixed_peer": "stage5_first_capacity02_closed_independent_review.json",
+    "explicit_exact_peer_sha256_required": true,
+    "expected_state": "PASS_CAPACITY02_NATURAL_ADMISSION_DEFER_NO_NATIVE_SCOPE_CLOSED_AND_ORIGINAL_UNLOCK",
+    "actual_capacity02_closure": "PENDING_NOT_GENERATED_OR_ASSUMED",
+    "prepared_scientific_identity_and_execution_data": "PRESERVED",
+    "checked_file_map_reopened": true,
+    "strict_original_lock_and_retained_owner_client_birth_argv_exit75": "REQUIRED"
+  },
+  "closure_boundary": "Retained Windows clients only; fixed census has no external child commands. No Linux worker or relaunch.",
+  "finalization": "Checked original unlock and durable/readback receipt precede exact owned STOP removal; final publication uncertainty stays FAILED with a bounded separate receipt.",
+  "scientific_adoption": false,
+  "actual_operations": "NOT_RUN_NO_WSL_UNC_PROFILE_OS_LOCK_REGISTRY_NATIVE_PROCESS_OR_GIT_EFFECTS",
+  "required_after_actual_restart": "ALL_FRESH_TOOLCHAIN_RUNTIME_INTEROP_G_STORAGE_DRIVEFS_UNC_GATES_AND_CURRENT_BOOT_JOINS",
+  "blockers": [],
+  "actual_integration": "NOT_RUN_REQUIRES_PUBLISHED_SOURCE_EXACT_ACTUAL_CLOSURE_PEER_AND_ROOT_CONTROLLED_USE"
+}

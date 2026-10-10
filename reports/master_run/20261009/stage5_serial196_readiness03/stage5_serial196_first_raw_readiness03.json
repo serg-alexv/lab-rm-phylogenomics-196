@@ -1,0 +1,135 @@
+{
+  "schema": "STAGE05_SERIAL196_FIRST_RAW_READINESS_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_INSPECTION_ONLY_NO_RUNTIME_OR_BIOLOGICAL_RESULT",
+  "utc": "2026-10-10T04:11:54.162741+00:00",
+  "method": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_serial196_first_raw_readiness03.md",
+    "sha256": "fb84fb59e44273184d58f6bbdc0f6eabf4d4493283ef09831f10f8148c86841e",
+    "bytes": 9584
+  },
+  "source_files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic.py",
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_atomic_process.py",
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_windows_backing_owner.py",
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_actual_backing_capacity_02.json",
+      "bytes": 2955,
+      "sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows_checked_unlock_v2.py",
+      "bytes": 21956,
+      "sha256": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_linux.py",
+      "bytes": 20281,
+      "sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_review\\stage05_detectors.py",
+      "bytes": 32546,
+      "sha256": "20eeb3ef8be0a6c4ee493c557d863dfad66aed34618a9ce92ddc73e8571b7723"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_review\\build_detector_bundles.py",
+      "bytes": 26374,
+      "sha256": "75596259fbadcfb3be76d60f2ff02baac8aa69b133f5116ef38fcb889ce45f53"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_review\\native_df_scope.py",
+      "bytes": 4290,
+      "sha256": "dd903c7bd4a186d05d1d3a65bbb5213e560c94a52fd06689a6abd9d9da1f712c"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage03_source_validation\\validation_summary.json",
+      "bytes": 1462,
+      "sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage03_source_validation\\assembly_audit.json",
+      "bytes": 118143,
+      "sha256": "3265307528a0b8ef0b2e8ec80f44f834549ce63095a7ceb201b31e8efe13589b"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\detector_review\\native_df_family_scope.json",
+      "bytes": 1934549,
+      "sha256": "12d293dd86aec81858a0c72a8a3242d49d6232ad56890b9590c6d52a54ce6cf9"
+    }
+  ],
+  "primary_route": "EXISTING_SINGLE_ACCESSION_OWNER_CLOSE_ARCHIVE_PUBLISH_READBACK_CURATE_AND_NEXT",
+  "new_scientific_framework_required": false,
+  "scientific_method_changed": false,
+  "runtime_estimate": "UNKNOWN_FIRST_COMPLETE_FULL_METHOD_GENOME_REQUIRED",
+  "fresh_command_formula": "2 + 4*actual_DF_task_count",
+  "historical_first_source": {
+    "assembly_accession": "GCF_000009425.1",
+    "status": "PASS_SOURCE_LOCUS_INPUT_TRACEABILITY",
+    "gbff_replicons": 1,
+    "source_gff_rows": 5306,
+    "source_gbff_cds_loci": 2504,
+    "source_context_loci": 2504,
+    "primary_faa_records": 2359,
+    "primary_faa_unique_accessions": 2359,
+    "protein_bearing_loci": 2386,
+    "gbff_pseudogene_cds_loci": 118,
+    "gene_only_pseudogenes": 0,
+    "repeated_primary_faa_accessions": 0,
+    "output_files_verified": 12,
+    "output_bytes_verified": 11001775,
+    "origin_spanning_loci": 0,
+    "coordinate_review_loci": 67
+  },
+  "historical_scope_warning": "Local historical assembly/family-scope records are source planning context. Actual production source/bundle/family scope must revalidate; no current detector result inferred.",
+  "accepted_stage3_panel": {
+    "genomes": 196,
+    "protein_bearing_loci": 398537,
+    "replicons": 2120,
+    "source_bytes": 1893101586
+  },
+  "logical_PADLOC_query_completions": 985292,
+  "minimum_initial_top_level_commands": 1176,
+  "arithmetic_scenarios_NOT_runtime_estimates": [
+    {
+      "mean_minutes_per_genome": 10,
+      "serial196_hours": 32.666666666666664,
+      "excluded": "retries/hash/archive/publication/curation"
+    },
+    {
+      "mean_minutes_per_genome": 30,
+      "serial196_hours": 98.0,
+      "excluded": "retries/hash/archive/publication/curation"
+    },
+    {
+      "mean_minutes_per_genome": 60,
+      "serial196_hours": 196.0,
+      "excluded": "retries/hash/archive/publication/curation"
+    },
+    {
+      "mean_minutes_per_genome": 240,
+      "serial196_hours": 784.0,
+      "excluded": "retries/hash/archive/publication/curation"
+    }
+  ],
+  "archive_limits": {
+    "compressed_bytes": 469762048,
+    "logical_bytes": 17179869184,
+    "files": 100000,
+    "eviction_authorized": false
+  },
+  "capacity02_guest_admission_bytes": 2550136832,
+  "independent_scientific_review_pending": true,
+  "actual_native_detector_benchmark_archive_curation_or_remote_effects": "NOT_RUN_BY_THIS_SOURCE_INSPECTION"
+}

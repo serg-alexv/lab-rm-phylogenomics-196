@@ -1,0 +1,74 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_FALLBACK_SOURCE_PREPARATION_V1",
+  "state": "PASS_SOURCE_PREPARATION_ONLY_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T04:23:07.921185+00:00",
+  "files": {
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "test_stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 14936,
+      "sha256": "9336b40b83ac6adf7ea9cd57436d8a8fda4a07ed6ec76901ee29c99026ab0135"
+    },
+    "stage5_wsl_host_profile_before_fallback01.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "STAGE05_WSL_HOST_PROFILE_FALLBACK_PREPARATION01.md": {
+      "bytes": 4015,
+      "sha256": "b5af97a4251294b4379e83c4ba45a41a3288c1b7ed4d105623da6ade81f49de1"
+    }
+  },
+  "preserved_pins": {
+    "stage5_wsl_host_profile_owner.py": {
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_closed_genome_archive_windows_checked_unlock_v2.py": {
+      "bytes": 21956,
+      "sha256": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+    }
+  },
+  "pure_tests": {
+    "count": 11,
+    "passed": 11,
+    "actual_main_default_noop": "PASS",
+    "test_process_argv": "Python stdin -B -",
+    "fixture_authority": "SYNTHETIC_ONLY_NO_ACTUAL_CLOSURE"
+  },
+  "profile_transform": {
+    "before_bytes": 681,
+    "before_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+    "after_bytes": 685,
+    "exact_changed_lines": [
+      "[wsl2] memory=3GB -> memory=3584MB",
+      "[wsl2] guiApplications=true -> guiApplications=false"
+    ],
+    "all_other_bytes": "EXACTLY_PRESERVED"
+  },
+  "prerequisite": {
+    "fixed_peer": "stage5_first_capacity02_closed_independent_review.json",
+    "explicit_published_peer_sha256_required": true,
+    "actual_peer_state_required": "PASS_CAPACITY02_NATURAL_ADMISSION_DEFER_NO_NATIVE_SCOPE_CLOSED_AND_ORIGINAL_UNLOCK",
+    "current_peer_actual": "PENDING_NATURAL_SCOPE_CLOSURE_NOT_ASSUMED",
+    "capacity02_config_sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63",
+    "current_boot": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+    "prepared_scientific_data": "PRESERVED_NOT_BIOLOGICAL_RESULT"
+  },
+  "closure_order": "RETAINED_CLOSURE -> CHECKED_ORIGINAL_UNLOCK -> DURABLE_UNLOCK_RECEIPT_READBACK -> EXACT_OWNED_STOP_CLEAR -> FINAL_RESULT",
+  "actual_operations": {
+    "profile_replace": "NOT_RUN",
+    "WSL": "NOT_RUN",
+    "shutdown": "NOT_RUN",
+    "OS_lock": "NOT_RUN",
+    "native_science": "NOT_RUN",
+    "delete": "NOT_RUN",
+    "Git": "NOT_RUN"
+  },
+  "next": "Independent source peer, root publication, actual capacity02 closure peer and original owner process exit; root-only explicit fallback, then all fresh boot-sensitive gates."
+}
