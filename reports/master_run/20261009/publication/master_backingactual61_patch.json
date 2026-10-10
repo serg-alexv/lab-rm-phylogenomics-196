@@ -1,0 +1,12 @@
+{
+  "stage5_latest_postboot_gate": {
+    "spool": "stage5_unc_backing_actual_postiq_04",
+    "state": "PASS_NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY",
+    "independent_review_sha256": "edb4d0d50edcb38a5a3915725b10346c33cf985b54c1aa0ac984f3f93062fc3d"
+  },
+  "stage5_current_stop_sha256": null,
+  "stage5_unc_current": "PASS_CURRENT_BOOT_EXACT_BIND_NATIVE_WINDOWS_UNC_AND_CLEANUP; stage5_unc_backing_actual_postiq_04",
+  "stage5_windows_backing_alias_current": "PASS_CURRENT_BOOT_BIDIRECTIONAL_ACTUAL_BACKING04_WITH_EXACT_CLEANUP_AND_INDEPENDENT_REVIEW",
+  "stage5_unc_failed03_history": "FAILED_CANONICAL_UNC03_PRESERVED; ORIGINAL_SENTINEL_EXACT_CLEANUP_PENDING",
+  "stage5_first_full_method_genome": "ALL_SIX_CURRENT_BOOT_GATES_PASS; FRESH_REQUEST_CONFIG_AND_NATIVE_ADMISSION_PENDING"
+}

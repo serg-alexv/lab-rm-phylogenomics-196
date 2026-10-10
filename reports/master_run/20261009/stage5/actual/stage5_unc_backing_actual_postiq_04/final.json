@@ -1,0 +1,109 @@
+{
+  "child_processes_spawned": 0,
+  "exact_owned_sentinel_cleanup": true,
+  "files": {
+    "linux.bin": {
+      "bytes": 116,
+      "device": 2096,
+      "inode": 33554612,
+      "mtime_ns": 1791602557686980469,
+      "sha256": "530eb3410f638ec5469f3ec6f1befcd95f73e8ea0e49e7d4c242fdabbd4b4e71"
+    },
+    "windows.bin": {
+      "bytes": 122,
+      "device": 2096,
+      "inode": 33554631,
+      "mtime_ns": 1791602557949601822,
+      "sha256": "0d14b29b2578e0e6c3d9ba922f22962985498502389902dc43eb8f1b96e9a13f"
+    }
+  },
+  "linux_process": {
+    "pgid": 80,
+    "pid": 80,
+    "ppid": 79,
+    "sid": 80,
+    "start_ticks": "311542",
+    "state": "R"
+  },
+  "nonce": "767043b705604838813e9d360fb36c18",
+  "phase": "final",
+  "request_sha256": "1f10548da6b8dbf73554d4a49080dfc8fcb0e65b500d9d468ed303b23df9da62",
+  "schema": "STAGE05_UNC_BIND_LINUX_STEP_V1",
+  "scope": "NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY_ONLY",
+  "script_sha256": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5",
+  "state": "PASS_LINUX_UNC_READBACK_AND_EXACT_CLEANUP",
+  "storage_after": {
+    "backing": "/var/tmp/lab_rm_stage05_atomic_v1",
+    "backing_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 87,
+      "mountpoint": "/",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 70,
+      "root": "/",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    },
+    "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+    "canonical_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+    "canonical_target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+    "directory_device": 2096,
+    "directory_inode": 33554542,
+    "filesystem_uuid": "3370e495-79b5-4136-9c6b-d31c7cb6a6be",
+    "helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "proof_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_06.json",
+    "proof_sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0",
+    "schema": "STAGE05_EXT4_BIND_STORAGE_PROOF_V1",
+    "target_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 139,
+      "mountpoint": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 138,
+      "root": "/var/tmp/lab_rm_stage05_atomic_v1",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    }
+  },
+  "storage_before": {
+    "backing": "/var/tmp/lab_rm_stage05_atomic_v1",
+    "backing_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 87,
+      "mountpoint": "/",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 70,
+      "root": "/",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    },
+    "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+    "canonical_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+    "canonical_target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+    "directory_device": 2096,
+    "directory_inode": 33554542,
+    "filesystem_uuid": "3370e495-79b5-4136-9c6b-d31c7cb6a6be",
+    "helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "proof_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_06.json",
+    "proof_sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0",
+    "schema": "STAGE05_EXT4_BIND_STORAGE_PROOF_V1",
+    "target_mount": {
+      "filesystem": "ext4",
+      "major_minor": "8:48",
+      "mount_id": 139,
+      "mountpoint": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+      "optional_fields": [],
+      "options": "rw,relatime",
+      "parent_id": 138,
+      "root": "/var/tmp/lab_rm_stage05_atomic_v1",
+      "source": "/dev/sdd",
+      "super_options": "rw,discard,errors=remount-ro,data=ordered"
+    }
+  }
+}
