@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-STOPPED_ON_FIRST_IQTREE_ERROR. MAFFT completed the first 189-taxon alignment; IQ-TREE rejects unitless -mem 3000. Zero gene trees; ASTRAL and full pipeline not run. A separate correction candidate uses -mem 3000M and awaits the user's required overwrite approval. See [actual pilot result](reports/stage01/local_pilot_20261010/RESULT.md).
+CORRECTION_APPLIED_PILOT_RERUN_AUTHORIZED. User approved replacing unitless -mem 3000 with -mem 3000M and regenerating the first alignment. Original script, first alignment and failure logs are preserved. Corrected pilot launch is next; full execution remains unapproved. See [approval](reports/stage01/local_pilot_20261010/correction_approval.json).
 
 # Current execution status
 

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-10T07:08:36.730484+00:00",
+  "state": "CORRECTION_APPLIED_PILOT_RERUN_AUTHORIZED_NOT_YET_LAUNCHED",
+  "authorization": "Direct user reply: Apply correction and rerun pilot",
+  "only_script_change": "Both IQ-TREE -mem 3000 flags changed to -mem 3000M",
+  "active_script_sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+  "original_script_preserved": "reports/stage01/local_pilot_20261010/run_pipeline.original.sh",
+  "failed_attempt_files_preserved": [
+    "5-FTHF_cyc-lig_aligned.fasta",
+    "pilot_console.log",
+    "pilot_iqtree.log",
+    "pilot_mafft.log"
+  ],
+  "first_alignment_regeneration_authorized": true,
+  "full_pipeline_authorized": false
+}

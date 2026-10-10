@@ -22,7 +22,7 @@ if [ "$PILOT_ONLY" = "1" ]; then
     base=$(basename "$f" .fasta)
     echo "PILOT aligning $base"
     mafft --auto "$f" > "pilot_output/alignments/${base}_aligned.fasta" 2>> reports/stage01/pilot_mafft.log
-    iqtree -s "pilot_output/alignments/${base}_aligned.fasta" -m MFP -bb 1000 -nt 2 -mem 3000 -pre "pilot_output/trees/${base}" >> reports/stage01/pilot_iqtree.log 2>&1
+    iqtree -s "pilot_output/alignments/${base}_aligned.fasta" -m MFP -bb 1000 -nt 2 -mem 3000M -pre "pilot_output/trees/${base}" >> reports/stage01/pilot_iqtree.log 2>&1
   done
   cat pilot_output/trees/*.treefile > pilot_output/all_gene_trees.tre
   astral -i pilot_output/all_gene_trees.tre -o pilot_output/species_tree.newick -t 2 >> reports/stage01/pilot_astral.log 2>&1
@@ -43,7 +43,7 @@ for f in pipeline_output/alignments/*_aligned.fasta; do
   [ -e "$f" ] || continue
   base=$(basename "$f" _aligned.fasta)
   echo "Building tree for $base"
-  iqtree -s "$f" -m MFP -bb 1000 -nt 2 -mem 3000 -pre "pipeline_output/trees/${base}" >> reports/stage01/iqtree_progress.log 2>&1
+  iqtree -s "$f" -m MFP -bb 1000 -nt 2 -mem 3000M -pre "pipeline_output/trees/${base}" >> reports/stage01/iqtree_progress.log 2>&1
 done
 
 cat pipeline_output/trees/*.treefile > pipeline_output/all_gene_trees.tre
