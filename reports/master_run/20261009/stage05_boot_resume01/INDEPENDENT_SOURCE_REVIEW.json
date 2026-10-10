@@ -1,0 +1,50 @@
+{
+  "schema": "MASTER_POSTBOOT_ONE_SHOT_RESUME_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_AND_7_PURE_CONTRACTS_LAUNCH_HANDOFF_ONLY",
+  "reviewed_utc": "2026-10-10T00:21:47.788829+00:00",
+  "files": [
+    {
+      "name": "resume_master_after_boot_once.py",
+      "bytes": 13199,
+      "sha256": "896f33d10d419d531327df02d72a48507895cbc7ffa7bf44129ae85c1c1b2a2f"
+    },
+    {
+      "name": "Resume-MasterAfterBootOnce.ps1",
+      "bytes": 796,
+      "sha256": "a356bc02b46fa3c56a93e3ead38b3db669219ba9a3adcbabace8343b47356493"
+    },
+    {
+      "name": "test_resume_master_after_boot_once.py",
+      "bytes": 3892,
+      "sha256": "8cd26953362e00cd78254161864897562b0d99d55a9f9e67db444711cc2e94b0"
+    }
+  ],
+  "independent_tests": {
+    "invocation": "python -B work/test_resume_master_after_boot_once.py -v",
+    "actual_exit_code": 0,
+    "actual_pass_count": 7,
+    "actual_test_seconds": 0.018,
+    "scope": "Pure local C-work byte, parser and mock contracts; no boot, network, CLI resume, registration or private preparation."
+  },
+  "reviewed_guards": [
+    "Default Python and PowerShell invocations are no-op. No reboot, registration, WSL, scientific execution or STOP-clear command exists in this helper.",
+    "Exact C deployment and non-reparse ancestry, dependency hashes, private manifest schema, explicit canonical thread UUID and original STOP SHA are checked before resume.",
+    "Launch requires both advanced LastBootUpTime and decreased GetTickCount64, plus a bounded first-two-hours new-boot handoff. These are launcher gates, not retrospective worker-terminal reconstruction.",
+    "CreateNew/fsync single-use consumption precedes network and Codex launch. Failure consumes the invocation, retains original artifacts and never automatically rearms.",
+    "Fresh public remote main must descend from the published anchor. Authority controls are read from that immutable commit; exact helper and launcher hashes must match current published bytes; main is rechecked after the snapshot.",
+    "Explicit thread resume uses stdin for the small source-controlled prompt, never --last. Thread identity, private manifest and CLI outputs remain in the explicitly private C namespace.",
+    "The newly launched Codex process birth and image are queried through its retained Popen handle and recorded. The launcher makes no CLI-terminal, descendant-closure or scientific-acceptance claim.",
+    "The prompt preserves old STOP authority and requires independent new-boot reconciliation and fresh scientific/runtime/resource/lock gates before subsequent work."
+  ],
+  "qualifications": [
+    "No actual private handoff, boot query, remote authority fetch, Codex launch, registration or restart was performed by this reviewer.",
+    "Seven tests are source contracts, not proof of installed CLI resume behavior or successful post-boot execution. Python AST checks passed; PowerShell syntax parse is the producer's reported peer evidence.",
+    "Application network and boot-query bounds do not guarantee every kernel/filesystem/provider call returns within a hard wall-clock duration. Launched Codex intentionally has no finite computation timeout in this launch-only handoff.",
+    "If an exception occurs after Popen, failure evidence explicitly records an unproven created CLI and does not relaunch or claim it closed. This helper does not own or adopt scientific scopes.",
+    "Old worker terminal, historical clock continuity and job emptiness remain UNRECORDED. A new Windows boot is a separate aggregate reconciliation path requiring its own reviewed actual receipt; this source review cannot clear STOP."
+  ],
+  "concrete_source_blockers": [],
+  "actual_resume_or_restart": "NOT_RUN_BY_REVIEWER",
+  "old_STOP_clearance_authorized": false,
+  "scientific_adoption_authorized": false
+}

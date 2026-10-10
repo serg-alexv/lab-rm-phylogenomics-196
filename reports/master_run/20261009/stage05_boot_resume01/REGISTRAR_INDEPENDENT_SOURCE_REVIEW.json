@@ -1,0 +1,53 @@
+{
+  "schema": "MASTER_RUNONCE_REGISTRAR_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_LITERAL_SINGLE_USE_REGISTRATION",
+  "reviewed_utc": "2026-10-10T00:29:05.226627+00:00",
+  "source": {
+    "name": "register_master_boot_resume_once.py",
+    "sha256": "92996842ac877a9056c8f6ea0946e623d9da2a9ac826a77a0abe16b829740a2c",
+    "bytes": 4468
+  },
+  "reviewed_source_dependencies": {
+    "resume_master_after_boot_once.py": "896f33d10d419d531327df02d72a48507895cbc7ffa7bf44129ae85c1c1b2a2f",
+    "Resume-MasterAfterBootOnce.ps1": "a356bc02b46fa3c56a93e3ead38b3db669219ba9a3adcbabace8343b47356493",
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+  },
+  "actual_static_checks": {
+    "python_ast": "PASS",
+    "literal_command_characters": 238,
+    "no_actual_registrar_import_or_execution": true
+  },
+  "reviewed_behavior": [
+    "Default no-op; exact WD/C deployment, helper/launcher/baseline/A80 SHA checks and original STOP pin before opt-in.",
+    "Private root environment thread equality and baseline are checked without printing identity. Reviewer did not open private handoff.",
+    "Original WorkflowLock serializes the exact HKCU RunOnce registration; value-name absence is case-insensitive, preventing replacement of an existing differently cased value.",
+    "Only the fixed NAME receives one REG_SZ with a 238-character absolute PowerShell/launcher command; FlushKey and exact value/type readback are required. No other startup value is written or deleted.",
+    "Postwrite STOP SHA is required before registered success. A write/readback failure after attempted registration retains an attempted/readback-pending state and error kind in the final receipt, instead of claiming no registration.",
+    "Original lock release is reported in the final receipt. The code contains no reboot, WSL launch, scientific command, STOP-clear or old-worker closure adoption."
+  ],
+  "fixed_draft_findings": [
+    "Case-sensitive Python membership replaced by casefold matching for registry value names.",
+    "Postwrite STOP equality promoted from a recorded boolean to a success gate.",
+    "Partial write/readback failure records registration attempt and does not assert NOT_REGISTERED."
+  ],
+  "qualifications": [
+    "Source-only review; no registry read/write, private-ID read, lock acquisition, boot query, CLI resume, registration or reboot by reviewer.",
+    "RunOnce is next-sign-in behavior and the no-exclamation name is removed before execution; failure is not automatically retried. The separate helper still requires a new boot and preserves old STOP.",
+    "Registry operations are not a cross-process transaction; any unexpected failure remains preserved for root reconciliation, with no automatic rollback or repeat.",
+    "The final registration receipt and original lock-released flag must be checked by root before a later restart. Actual resume and separate new-boot scope reconciliation remain NOT_RUN."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.win32.registrykey.getvalue?view=net-10.0",
+      "claim": "Registry value-name lookup is not case-sensitive."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys",
+      "claim": "RunOnce acts on logon; command limit260; default value deletion before execution; no automatic retry without exclamation."
+    }
+  ],
+  "concrete_source_blockers": [],
+  "actual_registry_or_restart_actions": "NOT_RUN_BY_REVIEWER",
+  "old_STOP_clearance_authorized": false,
+  "scientific_adoption_authorized": false
+}

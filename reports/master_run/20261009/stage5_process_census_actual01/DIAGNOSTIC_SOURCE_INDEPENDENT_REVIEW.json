@@ -1,0 +1,95 @@
+{
+  "schema": "STAGE05_PROCESS_CENSUS_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_AND_18_PURE_BYTE_MOCK_CONTRACTS_DIAGNOSTIC_ONLY",
+  "utc": "2026-10-10T00:16:55.659640+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census.py",
+      "bytes": 29484,
+      "sha256": "16524b8ec20a46ab8ef787d679827d5a0c603be3c54855f8a2074b6c88fec710"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_process_census.py",
+      "bytes": 10376,
+      "sha256": "15cd751f9bb377b62e325c7b28d44493f0ffa7f3486ffbd0ad146ad18a66792d"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_cim_query.ps1",
+      "bytes": 7569,
+      "sha256": "7bdc78b789d330e52c56d27f685b84940cc1e3824a5fa1c4aa98d93e32f96853"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_before_interface_fix.py",
+      "bytes": 27099,
+      "sha256": "072200f862f92a21e1aed720795c14c8250a99c9f11320a16b3b0c43ef1c1a71"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_before_windows_job_drain.py",
+      "bytes": 34098,
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\result.json",
+      "bytes": 4671,
+      "sha256": "6c7595ddbcd5847e1ad311ae922bb9f95d483764f9faec5625659723e1f42b68"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\drivefs_actual02_original_STOP.json",
+      "bytes": 384,
+      "sha256": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a"
+    }
+  ],
+  "independence": "Python census reviewed independently of its author. PowerShell supplement7bd was authored by this reviewer; its syntax/static contracts were checked here, while its independent peer belongs to input_validation/root.",
+  "reviewed_scopes": [
+    "Default invocation does not collect, touch lock/STOP or launch query workers.",
+    "Opt-in native observation is serialized by original WorkflowLock; exact originalSTOP bytes are required and preserved.",
+    "Public documented x64 SPI256/STI80 fields only; opaque reserved bytes never interpreted as creation time.",
+    "Native return lengths, linked records, threads, pointers, UTF16, duplicatePIDs and allocation/count caps fail closed; raw returned evidence is preserved before parse rejection.",
+    "Observed process handles use QUERY_LIMITED_INFORMATION0x1000 and GetProcessTimes only, never wait/signal; inaccessible/missing/racing identities stay unknown.",
+    "OptionalPowerShell worker is newly created suspended/assigned/resumed exactlyonce; only this owned worker/job can be terminated on failure. Retained terminal and full jobactive0+PIDempty required within finite drain.",
+    "Allsource/STOP rechecks, isolated handle closure and final diagnostic receipt preserve failed/partial state.",
+    "Historical birth-window margins, current QPC/UTC and CIM/clock events are qualified supplemental observations; no historical owner terminal or job empty state is reconstructed."
+  ],
+  "bounded_policy": {
+    "native_buffer_bytes_max": 8388608,
+    "native_process_records_max": 4096,
+    "native_growth_attempts_max": 10,
+    "application_observation_deadline_seconds": 75,
+    "optional_query_deadline_seconds": 20,
+    "owned_query_cleanup_deadline_seconds": 10,
+    "cim_projected_rows_max": 4096,
+    "clock_event_rows_max": 128,
+    "supplement_json_bytes_max": 4194304,
+    "qualification": "User-space deadlines and bounds do not guarantee every Windows kernel/provider/file call returns within a hard wall-clock duration."
+  },
+  "tests": {
+    "invocation": "python -B work/test_stage5_process_census.py -v",
+    "source_sha256": "15cd751f9bb377b62e325c7b28d44493f0ffa7f3486ffbd0ad146ad18a66792d",
+    "actual_exit_code": 0,
+    "actual_pass_count": 18,
+    "actual_test_seconds": 0.097,
+    "type": "Pure C-work byte/parser/mock fixtures only; no live Windows/WSL/process census."
+  },
+  "fixed_unexecuted_draft_blockers": [
+    "A80 exposes Win, not API. GetProcessTimes requires ctypes.wintypes.FILETIME, not an absent api.FILETIME.",
+    "Optionalworker exactresume/positiveexit/full-job drain and finalizer evidence paths corrected before actual execution.",
+    "First returned malformed native snapshot now remains available with source/base/size/SHA/parse-error evidence."
+  ],
+  "primary_api_evidence_sha256": "e49a122c2b748422ee5684223affcb25d67d376c3911dce52dbf7fa2350e9afc",
+  "original_failure_audit_sha256": "6980e79e34449d6846a773a47ebb9c4285f2218e9d4b1e715a655c350b8b0d68",
+  "actual_census": "NOT_RUN_BY_REVIEWER",
+  "actual_optional_PS_script": "NOT_RUN_BY_REVIEWER",
+  "diagnostic_can_clear_STOP": false,
+  "scientific_adoption_authorized": false,
+  "remaining_limits": [
+    "Native running-process record coverage does not establish inclusion of every possible terminating/pending-I/O object.",
+    "Unknownbirths, provider disagreement, PIDreuse, unprovenhistoricalclock/ownerexit stay vetoes, not absence.",
+    "Raw current system metadata is local diagnostic evidence; remote publication remains root-owned.",
+    "This permits a bounded read-only diagnostic only; any subsequent oldscope reconciliation needs separate actual evidence and explicit root authority."
+  ]
+}
