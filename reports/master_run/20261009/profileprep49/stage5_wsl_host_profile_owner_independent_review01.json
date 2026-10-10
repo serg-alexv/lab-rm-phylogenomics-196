@@ -1,0 +1,156 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_OWNER_INDEPENDENT_SOURCE_V1",
+  "state": "PASS_INDEPENDENT_SOURCE_REVIEW_PREPARED_NOT_RUN",
+  "utc": "2026-10-10T02:25:30.036656+00:00",
+  "reviewer_source_sha256": "aadb108cdf876792e7a19d9e6a048226cad71fda311a5a91554641e2ae914866",
+  "method": "Bounded direct C-source reads, SHA256 and AST joins; pure source functions only; no actual profile/UNC/WSL/registry/process/lock/ref actions",
+  "actual_execution": "NOT_RUN_SOURCE_PREPARATION_ONLY",
+  "scientific_execution_or_adoption": "NONE",
+  "source_sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232",
+  "pure_checks": {
+    "seven_author_tests_independently_run": "PASS_7_TESTS_EXIT0",
+    "separate_default_noop_independently_run": "PASS_EXIT0_PREPARED_NOT_RUN_ZERO_LAUNCH_CHANGE_SHUTDOWN",
+    "two_retained_client_function_ASTs": "IDENTICAL_TO_REVIEWED_4A6B_EXCEPT_INTENT_REASON",
+    "profile_inverse_and_after_hash": "PASS_EXACT_TWO_LINES",
+    "ten_failed_runtime_receipt_pins": "PASS_OLD_SCOPE_REMAINS_FAILED"
+  },
+  "action_scope": {
+    "profile_path": "C:\\Users\\wheel\\.wslconfig",
+    "before_bytes": 679,
+    "after_bytes": 681,
+    "before_sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+    "after_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+    "changes": [
+      "[wsl2]memory=4GB -> memory=3GB",
+      "[experimental]autoMemoryReclaim=gradual -> autoMemoryReclaim=dropCache"
+    ],
+    "other_bytes": "PRESERVED_INCLUDING_HISTORICAL_COMMENT",
+    "same_original_workflow_lock_and_lease": true,
+    "staging_and_backups": "Exclusive nonce staging; fsync; before/expected/actual .txt backups; pre-replace identity/bytes recheck; atomic replace and final exact readback",
+    "five_fixed_retained_clients": [
+      "census_before",
+      "census_before_shutdown",
+      "shutdown",
+      "running_after",
+      "census_after_shutdown"
+    ],
+    "phase_timeouts_seconds": [
+      25,
+      25,
+      60,
+      20,
+      25
+    ],
+    "whole_owner_deadline_seconds": 180,
+    "one_failed_client_finalizer_wait_seconds": 15,
+    "maintenance_physical_and_commit_reserve_bytes": 1610612736,
+    "per_used_volume_free_bytes": 10737418240,
+    "native_setup_and_scientific_admission": "UNCHANGED_REQUIRES_ALL_FRESH_GATES"
+  },
+  "closure_boundary": "Exact retained Windows clients and prior closed runtime native evidence. Census invokes PowerShell cmdlets with no external command route. No generic named-Job descendant containment claimed. Unknown retained closure preserves owned STOP; already-applied profile effects are retained on failure.",
+  "required_actual_followup": "Root publish/readback frozen source before explicit run; independently review actual backup/replacement/client/registry/stopped-query/unlock evidence. Do not claim benefit until fresh boot gates pass.",
+  "after_any_restart": "Earlier boot-sensitive gates cannot be reused; new toolchain/runtime/interop/G/storage/DriveFS/UNC actual proofs and updated3GB request resource basis are required.",
+  "limitations": [
+    "No actual host profile edit or shutdown performed by this review.",
+    "Resource-pressure mechanism and the benefit of this proposed setting remain unproven until actual verification.",
+    "No scientific stage executed; accepted Stage4 and all failed histories are preserved."
+  ],
+  "checked_files": {
+    "review_stage5_wsl_host_profile_owner_source01.py": {
+      "bytes": 10638,
+      "sha256": "aadb108cdf876792e7a19d9e6a048226cad71fda311a5a91554641e2ae914866"
+    },
+    "stage5_wsl_host_profile_owner.py": {
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    "test_stage5_wsl_host_profile_owner.py": {
+      "bytes": 5478,
+      "sha256": "a86bd29e3269383b3b280065051648b038d20ceae6ac7e04408fd30b3f791c93"
+    },
+    "stage5_wsl_host_profile_owner_METHODS.md": {
+      "bytes": 4273,
+      "sha256": "68561eb868c01d9c2322dd90672bffc0cdfde29c41acd3214b6eece2145158a8"
+    },
+    "stage5_wsl_host_profile_owner_preparation01.json": {
+      "bytes": 3402,
+      "sha256": "26b5f2f315fe606ac58dd49d74f42c922cd363298598cc576f74c75f76cbb145"
+    },
+    "stage5_wsl_host_profile_before_repair01.txt": {
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "stage5_runtime07_failed_scope_independent_review01.json": {
+      "bytes": 9353,
+      "sha256": "01b0b4c3d47eb929f3dfb45ef72274757e32f65af15b4f713de9c2b16470186d"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\result.json": {
+      "bytes": 4791,
+      "sha256": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "3b85a42d46b677e1501af5e754bbd241f96bf5daea29488bb7c4eb3cf7a818a1"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\linux_terminal.json": {
+      "bytes": 2052,
+      "sha256": "22d3c947b7b60aaad56efe547d84826f4a437530543a02bb43d06d43dca4903b"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\wsl_exit.json": {
+      "bytes": 2315,
+      "sha256": "0c65f06c15b780f8e97a5ef7ff37f718ec0047fe8c0377ba49065be4c9dab026"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch.json": {
+      "bytes": 1069,
+      "sha256": "62397247ccb12173a097c630d0f5f47f4341bbc2b6b7032927009f9152d151d7"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch_intent.json": {
+      "bytes": 586,
+      "sha256": "3c1139fb36c9464724e091e346867a7d173acf36317542e4de576eada37b89af"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.closure.json": {
+      "bytes": 694,
+      "sha256": "f118732ae8b23f8d47b9ce8b20e98cbf87049592ccddc3c32994e5e8384ca00a"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.command.json": {
+      "bytes": 1653,
+      "sha256": "ccd4633eb9b0f6ea5d16df68cfce45ce909694ca34c1e80114b16a9d26d1d693"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

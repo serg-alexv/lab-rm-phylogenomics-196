@@ -1,0 +1,64 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_SOURCE_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_SEVEN_PURE_SOURCE_CONTRACTS_PASS",
+  "utc": "2026-10-10T02:23:29.757173+00:00",
+  "adapted_reviewed_source": "stage5_wsl_config_owner.py",
+  "adapted_reviewed_source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "profile_path": "C:\\Users\\wheel\\.wslconfig",
+  "preimage_sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+  "preimage_bytes": 679,
+  "expected_after_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+  "expected_after_bytes": 681,
+  "change_scope": "Only [wsl2]memory=4GB to3GB and [experimental]autoMemoryReclaim=gradual todropCache; every other byte preserved",
+  "resource_reserve_bytes": 1610612736,
+  "whole_owner_deadline_seconds": 180,
+  "Linux_worker_launches": 0,
+  "old_Linux_config_and_sentinel_cleanup": "NOT_REPEATED_NO_IMPLEMENTATION_ROUTE",
+  "failed_runtime07_directory": "stage5_setup_runtime_actual_postiq_07",
+  "failed_runtime07_pins": {
+    "result.json": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c",
+    "lock_released.json": "3b85a42d46b677e1501af5e754bbd241f96bf5daea29488bb7c4eb3cf7a818a1",
+    "linux_terminal.json": "22d3c947b7b60aaad56efe547d84826f4a437530543a02bb43d06d43dca4903b",
+    "wsl_exit.json": "0c65f06c15b780f8e97a5ef7ff37f718ec0047fe8c0377ba49065be4c9dab026",
+    "commands/runtime_discovery.launch.json": "62397247ccb12173a097c630d0f5f47f4341bbc2b6b7032927009f9152d151d7",
+    "commands/runtime_discovery.launch_intent.json": "3c1139fb36c9464724e091e346867a7d173acf36317542e4de576eada37b89af",
+    "commands/runtime_discovery.closure.json": "f118732ae8b23f8d47b9ce8b20e98cbf87049592ccddc3c32994e5e8384ca00a",
+    "commands/runtime_discovery.command.json": "ccd4633eb9b0f6ea5d16df68cfce45ce909694ca34c1e80114b16a9d26d1d693",
+    "commands/runtime_discovery.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "commands/runtime_discovery.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "failed_runtime07_state_preserved": "FAILED",
+  "tests": {
+    "pure_source_contracts_pass": 7,
+    "default_noop_exit_code": 0,
+    "retained_client_run_and_finish_AST_identical_except_intent_reason": true
+  },
+  "files": [
+    {
+      "path": "stage5_wsl_host_profile_owner.py",
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    {
+      "path": "test_stage5_wsl_host_profile_owner.py",
+      "bytes": 5478,
+      "sha256": "a86bd29e3269383b3b280065051648b038d20ceae6ac7e04408fd30b3f791c93"
+    },
+    {
+      "path": "stage5_wsl_host_profile_owner_METHODS.md",
+      "bytes": 4273,
+      "sha256": "68561eb868c01d9c2322dd90672bffc0cdfde29c41acd3214b6eece2145158a8"
+    },
+    {
+      "path": "stage5_wsl_host_profile_before_repair01.txt",
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+    }
+  ],
+  "actual_host_profile_mutation_shutdown_WSL_or_lock_execution": "NOT_RUN",
+  "scientific_execution_or_acceptance": "NONE",
+  "automatic_relaunch": false,
+  "fresh_gates_after_actual_shutdown_required": true,
+  "independent_source_review": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "STAGE05_GDRIVE_POSTREPAIR_SOURCE_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_SIX_C_ONLY_CONTRACTS_PASS",
+  "utc": "2026-10-10T02:18:34.173397+00:00",
+  "original_source": "stage5_gdrive_view_session.py",
+  "original_source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+  "change_scope": "Only fresh toolchain directory, five completed receipt hashes, independent review path/hash and its lookup literal; eight reversible substitutions",
+  "source_bytes_reverse_to_original": true,
+  "all_function_asts_identical_after_review_filename_normalization": true,
+  "unchanged_behavioral_guards": true,
+  "fresh_toolchain_directory": "stage5_setup_toolchain_actual_postiq_06",
+  "fresh_linux_boot": "f9be2168-b511-4a09-8f4d-bdb88934c414",
+  "fresh_pins": {
+    "stage5_setup_toolchain_actual_postiq_06/result.json": "e5b9f9517a333bf72b0d21f16eefa18496d5cfc8a670cbf10b9b6155971600d4",
+    "stage5_setup_toolchain_actual_postiq_06/lock_released.json": "44c0129ab2fb3c669b1741d1fba147b15139c3c6d9f0a314552f41fb6ca0e46f",
+    "stage5_setup_toolchain_actual_postiq_06/toolchain_proof.json": "09b09eab302c843cc1e15a8e4f51fd028159287f135bc2b9bb7ee6085fe4ea19",
+    "stage5_setup_toolchain_actual_postiq_06/linux_terminal.json": "bea462ec47f79d402b246a6f18a84ce3175b8854efcc204581c031df3e2a018b",
+    "stage5_setup_toolchain_actual_postiq_06/wsl_exit.json": "a16285fdf373561aeefa52b3443f71fa892d40dd5685a1103c5e17a9ab14b5cd",
+    "stage5_toolchain06_postrepair_independent_review.json": "09762391f9552f38ce44e59dc31763717d44e6bd9bf7b64f967a728e6e4407bb"
+  },
+  "tests": {
+    "authored_C_only_contracts_pass": 6,
+    "default_noop_exit_code": 0,
+    "default_noop_WSL_launches": 0,
+    "default_noop_mounts": 0
+  },
+  "files": [
+    {
+      "path": "stage5_gdrive_view_postrepair.py",
+      "bytes": 32581,
+      "sha256": "a69a755dd044d72cfdfc49d85c150a43057ad69e9b4d70253792222410e41125"
+    },
+    {
+      "path": "test_stage5_gdrive_view_postrepair.py",
+      "bytes": 5872,
+      "sha256": "f63a058a26259c0c351688e9d01f2d2ae1f932263ad2b0ce414e5aa300dfd092"
+    },
+    {
+      "path": "stage5_gdrive_view_postrepair_METHODS.md",
+      "bytes": 2569,
+      "sha256": "282f1393ff635534a5a1cf82856cf2f410070fa5068b1b39c8dcbb8017b80d6a"
+    }
+  ],
+  "actual_wsl_mount_unc_native_lock_execution": "NOT_RUN",
+  "scientific_execution_or_acceptance": "NONE",
+  "independent_source_review": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT",
+  "old_results_retroactively_passed": false
+}
