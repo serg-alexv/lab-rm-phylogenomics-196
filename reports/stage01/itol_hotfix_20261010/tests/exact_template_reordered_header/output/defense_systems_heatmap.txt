@@ -1,0 +1,20 @@
+DATASET_BINARY
+SEPARATOR	TAB
+DATASET_LABEL	Defense Systems
+COLOR	#000000
+
+# Enforce tabs uniformly across all array parameters to prevent upload crashes
+FIELD_SHAPES	1	1	1	1	1	1
+FIELD_COLORS	#008080	#2e8b57	#ffa500	#8b0000	#ff1493	#0000ff
+FIELD_LABELS	RM	Cas	Abi2	CBASS	BREX	Septu
+
+LEGEND_TITLE	Defense Systems
+LEGEND_SHAPES	1	1	1	1	1	1
+LEGEND_COLORS	#008080	#2e8b57	#ffa500	#8b0000	#ff1493	#0000ff
+LEGEND_LABELS	RM	Cas	Abi2	CBASS	BREX	Septu
+
+DATA
+# Each column must be strictly tab-delimited (\t)
+GCF_000006945.1	1	1	0	0	1	0
+GCF_000009505.1	0	1	1	0	0	1
+GCF_001299935.1	1	0	1	1	0	0

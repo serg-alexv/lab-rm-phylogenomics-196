@@ -1,0 +1,99 @@
+{
+  "receipt_type": "synthetic_itol_exact_template_tests",
+  "schema_version": 1,
+  "script_path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\make_itol_decorations.py",
+  "script_sha256": "99de01f31ec3c67b862ec757822a3b8acc01b7da3814001f93cab37852b1da13",
+  "python_executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "synthetic_only": true,
+  "real_data_used": false,
+  "fixed_system_order": [
+    "RM",
+    "Cas",
+    "Abi2",
+    "CBASS",
+    "BREX",
+    "Septu"
+  ],
+  "fixed_field_colors": [
+    "#008080",
+    "#2e8b57",
+    "#ffa500",
+    "#8b0000",
+    "#ff1493",
+    "#0000ff"
+  ],
+  "exact_binary_expected_sha256": "2b6bafcbe9d7982e3dc2f66ca6dfec1cc34626a2a2467955b31fa36d652678e1",
+  "cases": [
+    {
+      "case": "exact_template_reordered_header",
+      "pass": true,
+      "exit_code": 0,
+      "output_files": [
+        "defense_systems_heatmap.txt",
+        "host_colorstrip.txt"
+      ],
+      "exact_binary_byte_match": true,
+      "binary_data_rows": 3,
+      "binary_fields_including_id": 7,
+      "canonical_field_order": [
+        "RM",
+        "Cas",
+        "Abi2",
+        "CBASS",
+        "BREX",
+        "Septu"
+      ],
+      "host_color_count": 3,
+      "host_legend_matches_data": true
+    },
+    {
+      "case": "invalid_missing_column",
+      "pass": true,
+      "exit_code": 1,
+      "output_files": [],
+      "stderr": "Error: Missing columns: Septu"
+    },
+    {
+      "case": "invalid_duplicate_id",
+      "pass": true,
+      "exit_code": 1,
+      "output_files": [],
+      "stderr": "Error: Line 3: duplicate GenomeID 'GCF_000006945.1'."
+    },
+    {
+      "case": "invalid_blank_defense",
+      "pass": true,
+      "exit_code": 1,
+      "output_files": [],
+      "stderr": "Error: Line 2: Cas is missing."
+    },
+    {
+      "case": "invalid_NA",
+      "pass": true,
+      "exit_code": 1,
+      "output_files": [],
+      "stderr": "Error: Line 3: RM must be exactly 0 or 1; received 'NA'."
+    },
+    {
+      "case": "invalid_extra_row_field",
+      "pass": true,
+      "exit_code": 1,
+      "output_files": [],
+      "stderr": "Error: Line 4: wrong number of TSV fields."
+    },
+    {
+      "case": "refuse_existing_output",
+      "pass": true,
+      "exit_code": 1,
+      "preserved_existing_target": true,
+      "sibling_created": false,
+      "stderr": "Error: Refusing to overwrite C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\itol_hotfix_exact_tests02\\refuse_existing_output\\output\\defense_systems_heatmap.txt"
+    }
+  ],
+  "all_passed": true,
+  "review_notes": [
+    "The binary dataset filename still contains 'heatmap' although the file declares DATASET_BINARY.",
+    "Preflight protects existing output files, but multi-file writes are not transactional if a later create/write fails.",
+    "The default output directory remains project-root pipeline_output; use explicit --output-dir for bounded runs."
+  ]
+}
