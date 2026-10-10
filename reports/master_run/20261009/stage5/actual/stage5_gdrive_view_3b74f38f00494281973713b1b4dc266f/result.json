@@ -1,0 +1,146 @@
+{
+  "schema": "STAGE05_GDRIVE_WINDOWS_OWNER_RESULT_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "state": "FAILED",
+  "source_sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+  },
+  "prior_pins": {
+    "stage5_setup_storage_actual_postiq_02/result.json": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3",
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1",
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74",
+    "stage5_setup_toolchain_actual_postiq_04/result.json": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4",
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2",
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+  },
+  "owner_nonce": "7f2035445bf648108bf34cc1ad6cc0b9",
+  "actual_owner": {
+    "pid": 15788,
+    "creation_filetime": 134360686187015588,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "allow_mount": false,
+  "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "historical_boot_id_preserved": "64d6e318-170c-4bef-9538-90fd218881af",
+  "fresh_toolchain_pins": {
+    "stage5_setup_toolchain_actual_postiq_05/result.json": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43",
+    "stage5_setup_toolchain_actual_postiq_05/lock_released.json": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289",
+    "stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+    "stage5_setup_toolchain_actual_postiq_05/linux_terminal.json": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04",
+    "stage5_setup_toolchain_actual_postiq_05/wsl_exit.json": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f",
+    "stage5_toolchain05_postboot_independent_review.json": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+  },
+  "fresh_toolchain_proof": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_05\\toolchain_proof.json",
+  "fresh_toolchain_proof_sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+  "scientific_adoption_authorized": false,
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 2,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 2
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "windows_before": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T01:16:59.117629+00:00",
+    "physical_available_bytes": 3681017856,
+    "commit_headroom_bytes": 5822967808,
+    "commit_total_bytes": 16183808000,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233315418112,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f": 245595181056
+    }
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_postboot.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f/request.json",
+    "--request-sha256",
+    "5b92d3fe0760488f9fd277e2ebc7337001203394e732c921fa345cb11ddd07db"
+  ],
+  "command_receipts": [],
+  "linux_terminal_sha256": "0df8492b2456c03a9de3c44bd814d32a517b87cd61a47e239c3f63e7ca915d29",
+  "linux_state": "FAILED",
+  "error": {
+    "kind": "ValueError",
+    "message": "Actual G view failed after closed scope"
+  },
+  "owned_closure_proven": true,
+  "retained_client_terminal": {
+    "pid": 20908,
+    "creation_filetime": 134360686190510423,
+    "exit_filetime": 134360686195756646,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 2
+  },
+  "original_lock_explicitly_released": true,
+  "unknown_closure_stop_preserved": false,
+  "log_hash_scope": "CLOSED_FULL_LOGS",
+  "elapsed_seconds": 0.7809999999999491,
+  "utc": "2026-10-10T01:16:59.634386+00:00",
+  "wsl.stdout.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "wsl.stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
