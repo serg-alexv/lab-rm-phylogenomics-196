@@ -1,0 +1,102 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+  "step": "toolchain",
+  "source_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+  "linux_source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "1486a2d45c3f486f8405e66d769f7cdb",
+  "actual_windows_owner": {
+    "pid": 22888,
+    "creation_filetime": 134360680848152104,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.078125,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 4,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 4
+  },
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T01:08:06.123682+00:00",
+    "physical_available_bytes": 4709289984,
+    "commit_headroom_bytes": 7152570368,
+    "commit_total_bytes": 14854205440,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233415323648,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_05": 245700341760
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "actual_wsl_exit": {
+    "pid": 26004,
+    "creation_filetime": 134360680850533085,
+    "exit_filetime": 134360680860729702,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "wsl_exit_receipt_sha256": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f",
+  "native_commands": [
+    {
+      "label": "mount_toolchain",
+      "launch_sha256": "739495af8ffaeddcf72d416e77bb7469dadd297f4c08f2b132b4bbdf2d67b1c0",
+      "closure_sha256": "3196aa99dad41fb54c60c3d7a1e44021f67eed325ec30b9d7b54db01aff7777e",
+      "command_sha256": "cfacaa8b37817215abb9b6cb7ecac761cca6eef7a2cc3b97eef225a3e5eddaa9"
+    }
+  ],
+  "linux_terminal_sha256": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04",
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "utc": "2026-10-10T01:08:06.123682+00:00"
+}

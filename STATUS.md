@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T01:07:23.787075+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T01:09:01.986179+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: the actual new WD Windows boot at2026-10-10T00:36:47.5UTC is independently verified by advanced LastBootUpTime and reset monotonic uptime. The root reconciled current exclusivity under the unchanged original byte lock, preserved the exact old STOP and DriveFS02 failure, then removed only that old STOP. Its original Windows worker terminal remains UNRECORDED; the reboot supplies a new current-scope basis, not a retroactive PASS. The pending exact RunOnce was cancelled and its private one-use latch consumed without launching another CLI; the human continued this master directly. All18legacy tasks remain disabled. GitHub authority and17published continuation source files match. Fresh boot-sensitive Stage5 setup is next; detector execution and production curation remain NOT_RUN. Installed-runtime/VM recovery and cold restoration are pending; the host is not wipe-ready.
+Stage5 current execution: Fresh postboot Stage5 toolchain05 PASS with independent exact source and retained closure readback. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -108,3 +108,6 @@ Actual operational update: Record exact one-time master continuation registratio
 Actual operational update: Record accepted controlled Windows restart request and durable postboot master continuation checkpoint; science remains gated
 
 Actual operational update: Verify new WD boot and reconcile old STOP under original lock; cancel pending one-shot and preserve failed worker history
+
+Actual operational update: Fresh postboot Stage5 toolchain05 PASS with independent exact source and retained closure readback
+- `stage5_setup_toolchain_actual_postiq_05`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
