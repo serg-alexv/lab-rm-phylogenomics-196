@@ -1,0 +1,42 @@
+{
+  "actual_candidates": {
+    "runtime_manifest": "stage5_runtime_actual_postiq_07.json",
+    "storage_proof": "stage5_storage_actual_postiq_06.json"
+  },
+  "actual_operations": {
+    "config_build": "NOT_RUN",
+    "future_gate_reads": "NOT_RUN",
+    "git_ref_change": "NOT_RUN",
+    "lock": "NOT_RUN",
+    "native_admission": "NOT_RUN",
+    "request_write": "NOT_RUN",
+    "scientific_execution": "NOT_RUN",
+    "unc": "NOT_RUN",
+    "wsl": "NOT_RUN"
+  },
+  "authored_pure_tests": {
+    "count": 6,
+    "state": "PASS"
+  },
+  "deterministic_scientific_request_semantics_preserved": true,
+  "exact_routes": {
+    "drivefs": "stage5_setup_drivefs_actual_postiq_04",
+    "interop": "stage5_interop_actual_postiq_05",
+    "runtime": "stage5_setup_runtime_actual_postiq_07",
+    "storage": "stage5_setup_storage_actual_postiq_06",
+    "toolchain": "stage5_setup_toolchain_actual_postiq_06",
+    "unc": "stage5_unc_bind_actual_postiq_03"
+  },
+  "original_budget_and_basis_verbatim": "PASS_AST_EQUIVALENCE",
+  "original_helper_and_template_preserved": true,
+  "schema": "STAGE05_POSTRESTART_FIRST_REQUEST_V2_SOURCE_PREPARATION_V1",
+  "source_sha256": {
+    "prepare_stage5_first_actual_request.py": "d9addf686ceb29d35180ae65e55aa0d202be1c4228305d7d8fa2d885b3235a2c",
+    "prepare_stage5_first_actual_request_v2.py": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9",
+    "prepare_stage5_first_actual_request_v2_METHODS.md": "73e431a113b0d67917904a9ceafd48bd653b10de8190d8dbc49ef4e6c58f9e81",
+    "stage5_actual_config_request.template.json": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136",
+    "test_prepare_stage5_first_actual_request_v2.py": "646d414ff2ebd27f75c4ffab698f78a49442ce275486de2ee210092998b4ab86"
+  },
+  "state": "FROZEN_SOURCE_PREPARATION_ONLY",
+  "windows_default_noop": "PASS"
+}

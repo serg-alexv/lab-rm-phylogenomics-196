@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "/usr/bin/mount",
+    "-o",
+    "loop",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/toolchain.ext4",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux"
+  ],
+  "boot_id": "f9be2168-b511-4a09-8f4d-bdb88934c414",
+  "child_cpu_seconds": 0.02427,
+  "child_pid": 11,
+  "child_start_ticks": "297",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_06/commands/mount_toolchain.closure.json",
+  "command_nonce": "3156fb8737fd494cb0ab7c1228dff92f",
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work",
+  "elapsed_seconds": 0.2800924120000001,
+  "execution": "PROCESS_EXITED",
+  "exit_code": 0,
+  "group_closure_sha256": "6a11a5c01c0a6d370cc7948928362c3e55cc5b1bd474c8856cb28102e746c817",
+  "identity": {
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "step": "toolchain"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 11,
+  "runner_pid": 10,
+  "sampled_tree_peak_rss_bytes": 3112960,
+  "sid": 11,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "termination_reason": null,
+  "utc": "2026-10-10T02:13:23.134912+00:00"
+}

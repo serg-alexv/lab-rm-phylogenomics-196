@@ -1,0 +1,88 @@
+{
+  "actual_operations": {
+    "config_build": "NOT_RUN",
+    "future_gate_reads": "NOT_RUN",
+    "native_admission": "NOT_RUN",
+    "request_write": "NOT_RUN",
+    "scientific_execution": "NOT_RUN"
+  },
+  "exact_candidates": {
+    "runtime_manifest": "stage5_runtime_actual_postiq_07.json",
+    "storage_proof": "stage5_storage_actual_postiq_06.json"
+  },
+  "exact_routes": {
+    "drivefs": "stage5_setup_drivefs_actual_postiq_04",
+    "interop": "stage5_interop_actual_postiq_05",
+    "runtime": "stage5_setup_runtime_actual_postiq_07",
+    "storage": "stage5_setup_storage_actual_postiq_06",
+    "toolchain": "stage5_setup_toolchain_actual_postiq_06",
+    "unc": "stage5_unc_bind_actual_postiq_03"
+  },
+  "files": {
+    "prepare_stage5_first_actual_request.py": {
+      "bytes": 3013,
+      "sha256": "d9addf686ceb29d35180ae65e55aa0d202be1c4228305d7d8fa2d885b3235a2c"
+    },
+    "prepare_stage5_first_actual_request_v2.py": {
+      "bytes": 6828,
+      "sha256": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9"
+    },
+    "prepare_stage5_first_actual_request_v2_METHODS.md": {
+      "bytes": 2526,
+      "sha256": "73e431a113b0d67917904a9ceafd48bd653b10de8190d8dbc49ef4e6c58f9e81"
+    },
+    "prepare_stage5_first_actual_request_v2_preparation01.json": {
+      "bytes": 1828,
+      "sha256": "566af12b3d60d7596f8c8e8b209a3cbce9c7d8e79d7fa19cf65aa82caaba7c92"
+    },
+    "stage5_actual_config_request.template.json": {
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+    },
+    "test_prepare_stage5_first_actual_request_v2.py": {
+      "bytes": 5589,
+      "sha256": "646d414ff2ebd27f75c4ffab698f78a49442ce275486de2ee210092998b4ab86"
+    }
+  },
+  "limitations": [
+    "PASS prefix and unlock predicates here are preliminary request construction only; this helper does not establish full scientific/boot/source/closure provenance.",
+    "Unchanged existing config builder and native owner must reopen all exact bytes, validate full joins/current boot, retain original lock and perform fresh resource admission.",
+    "No actual future gate was read and no actual request, config or scientific search was created/executed by this review."
+  ],
+  "native_resource_bytes": {
+    "commit_requirement_bytes": 3221225472,
+    "incremental_windows_requirement_bytes": 1610612736,
+    "linux_job_requirement_bytes": 1610612736,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "remaining_source_blockers": [],
+  "resource_basis_exact_original_AST_equivalence": true,
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "UNC_reads": 0,
+    "WSL_launches": 0,
+    "locks": 0,
+    "source_edits": 0
+  },
+  "reviewed_contracts": [
+    "Original helper/template byte pins preserved; original request schema/purpose/first accession/scientific method unchanged.",
+    "Only exact six post-restart gate paths and candidate07/06 are selected; no caller-specified old UNC route.",
+    "Pure deterministic constructor hashes complete candidate/result/unlock bytes and rejects non-PASS or incorrect explicit unlock states.",
+    "Optional preparation requires direct exact C workspace, plain non-reparse single-link bounded files, final original-byte reread and exclusive fsynced new C output.",
+    "Default invocation reads no actual gate, writes no request and invokes no native operation.",
+    "Five finite budgets and complete resource-basis text are verbatim equivalent to the original; these are conservative allocations, not measured detector requirements."
+  ],
+  "schema": "STAGE05_FIRST_ACTUAL_REQUEST_V2_SOURCE_INDEPENDENT_REVIEW_V1",
+  "source_sha256": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9",
+  "state": "PASS_FROZEN_SOURCE_SIX_PURE_TESTS_DEFAULT_NOOP_ACTUAL_REQUEST_NOT_RUN",
+  "tests": {
+    "command": "python -B work/test_prepare_stage5_first_actual_request_v2.py",
+    "count": 6,
+    "default_noop_command": "python -B work/prepare_stage5_first_actual_request_v2.py",
+    "default_noop_exit_code": 0,
+    "exit_code": 0
+  },
+  "utc": "2026-10-10T02:13:19.096557+00:00",
+  "verified_files": 6
+}
