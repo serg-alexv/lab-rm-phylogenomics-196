@@ -1,0 +1,43 @@
+{
+  "schema": "MASTER_NEW_BOOT_RECONCILIATION_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_EXACT_BYTES_NO_ACTUAL_EXECUTION",
+  "reviewed_utc": "2026-10-10T01:05:39.952189+00:00",
+  "source_path": "work\\reconcile_master_new_boot.py",
+  "source_sha256": "a9ac6c62791adc1169936fb40c7581df4ac8968513140e240d08dcade51ddc5b",
+  "reviewer": "independent_boot_review_agent",
+  "python_ast_parse": "PASS",
+  "checks": {
+    "default_noop_without_run": true,
+    "exact_WD_wheel_workspace_and_dependency_pins": true,
+    "peer_boot_and_authority_byte_pins": true,
+    "preboot_baseline_bound_to_peer_sha256": true,
+    "advanced_boot_and_reset_uptime_and_exact_peer_boot": true,
+    "stable_original_WorkflowLock_required": true,
+    "exact_old_STOP_and_preserved_copy_before_and_after_cancellation": true,
+    "fresh_Windows_project_owner_predicates_include_archive_and_gdrive": true,
+    "powershell_snapshot_explicitly_excludes_own_pid": true,
+    "helper_classification_scoped_to_actual_executable_and_File_shape": true,
+    "all18_legacy_tasks_must_remain_disabled": true,
+    "exclusive_consumption_latch_precedes_pending_RunOnce_delete": true,
+    "only_exact_case_sensitive_own_REG_SZ_value_may_be_deleted": true,
+    "startup_absence_readback_and_second_process_snapshot": true,
+    "STOP_removal_intent_persisted_before_exact_unlink": true,
+    "finally_records_original_lock_release": true,
+    "historical_unrecorded_worker_terminal_not_relabelled_pass": true,
+    "no_WSL_invocation_or_process_signaling": true,
+    "no_private_thread_ID_read_or_output": true
+  },
+  "race_analysis": {
+    "helper_wins_exclusive_latch": "Root aborts with original STOP retained; helper scope must be reconciled separately",
+    "root_wins_exclusive_latch": "Deferred helper exclusive consumption fails before CLI launch",
+    "RunOnce_missing_or_changed_after_latch": "Root aborts with STOP retained and latch blocks later replay",
+    "failure_after_registry_cancel_before_STOP_remove": "STOP retained and consumed latch preserved; no automatic retry/rearm"
+  },
+  "limitations": [
+    "Source review does not establish actual successful cancellation or STOP removal",
+    "Fresh Windows snapshots are point-in-time and do not enumerate current Linux processes",
+    "Original historical worker closure remains UNRECORDED_PRESERVED_FAILURE",
+    "Actual final receipt and original STOP absence require independent readback"
+  ],
+  "reviewed_source_executed": false
+}

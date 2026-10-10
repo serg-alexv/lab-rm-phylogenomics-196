@@ -1,0 +1,543 @@
+{
+  "schema": "MASTER_POSTBOOT_AUTHORITY_INDEPENDENT_READONLY_V1",
+  "utc": "2026-10-10T01:02:06.802382+00:00",
+  "state": "PASS_CURRENT_AUTHORITY_AND_LOCAL_PUBLISHED_SOURCES",
+  "repository": "serg-alexv/lab-rm-phylogenomics-196",
+  "initial_remote_main": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "final_remote_main": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "authority": [
+    {
+      "repository_path": "AGENTS.md",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\AGENTS.md",
+      "bytes": 2031,
+      "sha256": "2cde0013b33b0a870e9f2a0236f5ac0df042d7b5af92aab9273c231740c894cb",
+      "git_blob": "9319a0e09c0da8582c29e9f45739d32408817fa1"
+    },
+    {
+      "repository_path": "WORK_ORDER.md",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\WORK_ORDER.md",
+      "bytes": 24450,
+      "sha256": "f983102edd21785b2ac5820be252266417db7b852c213f31a17903837c4704eb",
+      "git_blob": "57ffe8b4c56567da216b9ee77e1bfdeae132393c"
+    },
+    {
+      "repository_path": "STATUS.md",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\STATUS.md",
+      "bytes": 16270,
+      "sha256": "13f6855a940fc8ae8965deeddd57a61d15c7710b0eca338d5105b4cf80c943fe",
+      "git_blob": "a67a577d7ad053fe6645becc57b7be527c15182c"
+    },
+    {
+      "repository_path": "status/stages.tsv",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\status\\stages.tsv",
+      "bytes": 615,
+      "sha256": "62cb99b37b1d00bd3218222e5e1567656dc778d48a5c6eea36e584014f29b6fb",
+      "git_blob": "9a927c51588de456d3c6973aa76540fb4a572b1d"
+    },
+    {
+      "repository_path": "status/master_run_20261009.json",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\status\\master_run_20261009.json",
+      "bytes": 16387,
+      "sha256": "90e731009819efded02bdec9ac9b416b9d6c57dde18cd6de79a00cf7b3e3b1bc",
+      "git_blob": "16368220c3b666ecb3d27666f69cbd0f79ba240d"
+    },
+    {
+      "repository_path": "status/run_control.json",
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_authority_review01\\status\\run_control.json",
+      "bytes": 670,
+      "sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "git_blob": "ffe712a94ac3175b612496a7b85cf28b7645ceab"
+    }
+  ],
+  "sources": [
+    {
+      "name": "atomic_iqtree_windows.py",
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+      "git_blob": "ed49e514afc050ee926ccfc04feec4fdacb997d6",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/atomic_iqtree_windows.py",
+          "git_blob": "ed49e514afc050ee926ccfc04feec4fdacb997d6"
+        },
+        {
+          "repository_path": "scripts/master_run/atomic_iqtree_windows.py",
+          "git_blob": "ed49e514afc050ee926ccfc04feec4fdacb997d6"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_setup_windows.py",
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+      "git_blob": "54e7a42259d2818707cbe2daa6af8aa0bf0f47f5",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_setup_windows.py",
+          "git_blob": "54e7a42259d2818707cbe2daa6af8aa0bf0f47f5"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "atomic_iqtree_windows.py",
+          "expected_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "actual_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "match": true
+        },
+        {
+          "source": "stage5_owner_lease.py",
+          "expected_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "actual_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_process.py",
+          "expected_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "actual_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "match": true
+        },
+        {
+          "source": "stage5_work_storage.py",
+          "expected_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "actual_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "match": true
+        },
+        {
+          "source": "stage5_runtime_discovery.py",
+          "expected_sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+          "actual_sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+          "match": true
+        },
+        {
+          "source": "stage5_drivefs_filesystem_smoke.py",
+          "expected_sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+          "actual_sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+          "match": true
+        },
+        {
+          "source": "stage5_unc_bind_probe.py",
+          "expected_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+          "actual_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+          "match": true
+        },
+        {
+          "source": "observe_iqtree_controller_exit.py",
+          "expected_sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a",
+          "actual_sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "git_blob": "2759241e3b134e95737420c451d0be55186b1e44",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_setup_linux.py",
+          "git_blob": "2759241e3b134e95737420c451d0be55186b1e44"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "stage5_atomic_process.py",
+          "expected_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "actual_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "match": true
+        },
+        {
+          "source": "stage5_work_storage.py",
+          "expected_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "actual_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "match": true
+        },
+        {
+          "source": "stage5_runtime_discovery.py",
+          "expected_sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+          "actual_sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+          "match": true
+        },
+        {
+          "source": "stage5_drivefs_filesystem_smoke.py",
+          "expected_sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+          "actual_sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_atomic.py",
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+      "git_blob": "a8704c0cbc0eb0e107dcc4804b3ac9d2ea0b6350",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_atomic.py",
+          "git_blob": "a8704c0cbc0eb0e107dcc4804b3ac9d2ea0b6350"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_atomic_process.py",
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+      "git_blob": "2776fa2aedc1e0e6def00b570dd38c5cfd21a748",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_atomic_process.py",
+          "git_blob": "2776fa2aedc1e0e6def00b570dd38c5cfd21a748"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_build_actual_config.py",
+      "bytes": 13011,
+      "sha256": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa",
+      "git_blob": "aa9dfa305eb8155bb8051a2dac46c319cf132899",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_build_actual_config.py",
+          "git_blob": "aa9dfa305eb8155bb8051a2dac46c319cf132899"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "atomic_iqtree_windows.py",
+          "expected_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "actual_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic.py",
+          "expected_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+          "actual_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+          "match": true
+        },
+        {
+          "source": "stage5_windows_owner.py",
+          "expected_sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d",
+          "actual_sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d",
+          "match": true
+        },
+        {
+          "source": "stage5_owner_lease.py",
+          "expected_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "actual_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_config.template.json",
+          "expected_sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+          "actual_sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+          "match": true
+        },
+        {
+          "source": "stage5_setup_windows.py",
+          "expected_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+          "actual_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+          "match": true
+        },
+        {
+          "source": "stage5_setup_linux.py",
+          "expected_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+          "actual_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+          "match": true
+        },
+        {
+          "source": "stage5_interop_smoke_windows.py",
+          "expected_sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+          "actual_sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+          "match": true
+        },
+        {
+          "source": "stage5_unc_bind_probe.py",
+          "expected_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+          "actual_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_unc_bind_probe.py",
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+      "git_blob": "cba6983032a33250117e123e16d75098a6ebe264",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_unc_bind_probe.py",
+          "git_blob": "cba6983032a33250117e123e16d75098a6ebe264"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "atomic_iqtree_windows.py",
+          "expected_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "actual_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_process.py",
+          "expected_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "actual_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "match": true
+        },
+        {
+          "source": "stage5_work_storage.py",
+          "expected_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "actual_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_interop_smoke_windows.py",
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+      "git_blob": "cfa28a882dc536217064c1da8cd11cf6de2d8cd1",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_interop_smoke_windows.py",
+          "git_blob": "cfa28a882dc536217064c1da8cd11cf6de2d8cd1"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_interop_linux_fixture.py",
+      "bytes": 9426,
+      "sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+      "git_blob": "5b5697c3f0980a25b73ec9ccbaee372b437ce482",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_interop_linux_fixture.py",
+          "git_blob": "5b5697c3f0980a25b73ec9ccbaee372b437ce482"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_windows_owner.py",
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d",
+      "git_blob": "ae9eef35d4b98ed070eb2cc1dc829ca88da786bd",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_windows_owner.py",
+          "git_blob": "ae9eef35d4b98ed070eb2cc1dc829ca88da786bd"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_gdrive_view.py",
+      "bytes": 25233,
+      "sha256": "edc02834f889cdd9bed8bce350d2b9fe2bbd79347f65a0ae124afdaec9f4dfa8",
+      "git_blob": "e803a8ae4d0a9ff410961a980770c5ca158b8558",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_gdrive_view.py",
+          "git_blob": "e803a8ae4d0a9ff410961a980770c5ca158b8558"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "atomic_iqtree_windows.py",
+          "expected_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "actual_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+          "match": true
+        },
+        {
+          "source": "stage5_owner_lease.py",
+          "expected_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "actual_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_process.py",
+          "expected_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "actual_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "match": true
+        },
+        {
+          "source": "stage5_work_storage.py",
+          "expected_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "actual_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "match": true
+        },
+        {
+          "source": "stage5_setup_windows.py",
+          "expected_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+          "actual_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_owner_lease.py",
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "git_blob": "a050bcb357b1e09992f0394f20591da1555bafe6",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_owner_lease.py",
+          "git_blob": "a050bcb357b1e09992f0394f20591da1555bafe6"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_runtime_discovery.py",
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+      "git_blob": "2862acf68e1b0deeb83cc488ca3b255945779007",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_runtime_discovery.py",
+          "git_blob": "2862acf68e1b0deeb83cc488ca3b255945779007"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": [
+        {
+          "source": "stage5_atomic.py",
+          "expected_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+          "actual_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_process.py",
+          "expected_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "actual_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+          "match": true
+        },
+        {
+          "source": "stage5_work_storage.py",
+          "expected_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "actual_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+          "match": true
+        },
+        {
+          "source": "stage5_accepted_source_pins.json",
+          "expected_sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+          "actual_sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+          "match": true
+        },
+        {
+          "source": "stage5_atomic_config.template.json",
+          "expected_sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+          "actual_sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "stage5_work_storage.py",
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+      "git_blob": "ea4f75bf7f8d187f14b687b140b7e97b827fbd3f",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_work_storage.py",
+          "git_blob": "ea4f75bf7f8d187f14b687b140b7e97b827fbd3f"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_drivefs_filesystem_smoke.py",
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+      "git_blob": "bda3e9bcddd2660f8230c6873f36664ffca0599f",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_drivefs_filesystem_smoke.py",
+          "git_blob": "bda3e9bcddd2660f8230c6873f36664ffca0599f"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "stage5_atomic_config.template.json",
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+      "git_blob": "be1553a039072a88afddc555f1e1585c781ee56a",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/stage5_atomic_config.template.json",
+          "git_blob": "be1553a039072a88afddc555f1e1585c781ee56a"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    },
+    {
+      "name": "observe_iqtree_controller_exit.py",
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a",
+      "git_blob": "cfef9b343e6a47b0070a5213cfa54789a5da5e7f",
+      "exact_published_locations": [
+        {
+          "repository_path": "scripts/master_run/observe_iqtree_controller_exit.py",
+          "git_blob": "cfef9b343e6a47b0070a5213cfa54789a5da5e7f"
+        }
+      ],
+      "all_declared_pins_match": true,
+      "declared_pins": []
+    }
+  ],
+  "read_only_scope": {
+    "wsl_launched": false,
+    "stop_changed": false,
+    "process_or_service_mutation": false,
+    "image_mutation": false,
+    "git_ref_write": false,
+    "private_boot_namespace_read": false
+  },
+  "accepted_stage4": {
+    "must_rerun": false,
+    "tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19"
+  },
+  "gate_order": [
+    "fresh new Windows boot and independent current quiescence; reconcile exact preserved old STOP under original lock",
+    "toolchain fresh current source setup gate",
+    "runtime fresh candidate discovery, after toolchain",
+    "interop three fixtures fresh current native runtime",
+    "inspect actual G topology before restoring storage; never blind repeat existing-mount helper",
+    "storage fresh actual ext4 bind proof",
+    "drivefs fresh Linux atomic I/O and corrected retained Windows worker closure",
+    "UNC exact bidirectional sentinel with runtime/storage manifest pins",
+    "build exact actual config from six fresh gates and five finite documented resource budgets",
+    "first approved full-method genome GCF_000009425.1",
+    "independent four-cell curation and closed raw archive with fresh GitHub recovery before eviction",
+    "resumable full196 queue; accepted tree plus full784 explicit join before production figures"
+  ],
+  "approvals": {
+    "direct_user_continuation_already_authorized": true,
+    "remote_main_is_authority": true,
+    "automatic_resume_remains_false": true,
+    "no_new_user_approval_needed_for_authorized_gates": true,
+    "capacity_admission_is_runtime_condition_not_permission": true
+  },
+  "limitations": [
+    "This audit does not prove a new Windows boot, clear STOP, prove current native closure or run any gate.",
+    "Historical DriveFS02 terminal/job closure remains unrecorded; new boot can qualify current scope without rewriting the old failure."
+  ]
+}

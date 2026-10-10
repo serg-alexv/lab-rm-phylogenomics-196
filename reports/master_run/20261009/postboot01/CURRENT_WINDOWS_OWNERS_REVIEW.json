@@ -1,0 +1,157 @@
+{
+  "schema": "MASTER_NEW_BOOT_CURRENT_WINDOWS_OWNER_SUPPLEMENT_V1",
+  "observed_utc": "2026-10-10T01:02:55.1554383+00:00",
+  "excluded_this_audit_powershell_pid": 13352,
+  "project_owner_script_name_predicate": [
+    "stage5_windows_owner.py",
+    "stage5_setup_windows.py",
+    "stage5_interop_smoke_windows.py",
+    "stage5_unc_bind_probe.py",
+    "stage5_gdrive_view.py",
+    "stage5_closed_genome_archive_windows.py",
+    "atomic_iqtree_windows.py",
+    "resume_master_after_boot_once.py",
+    "Resume-MasterAfterBootOnce.ps1"
+  ],
+  "controller_images_predicate": [
+    "python.exe",
+    "pythonw.exe",
+    "powershell.exe",
+    "pwsh.exe",
+    "codex.exe",
+    "wsl.exe"
+  ],
+  "evaluated_rows": [
+    {
+      "pid": 10824,
+      "image_name": "codex.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 23248,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 23460,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 13444,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 23292,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 20216,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 5992,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 13004,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 25376,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 25332,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 4156,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 20092,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    },
+    {
+      "pid": 10740,
+      "image_name": "python.exe",
+      "commandline_available": true,
+      "known_project_owner_script_matches": [],
+      "potential_codex_exec_resume": false
+    }
+  ],
+  "all_evaluated_commandlines_available": true,
+  "known_project_windows_owner_candidates": 0,
+  "codex_exec_resume_candidates": 0,
+  "wsl_or_detector_image_rows": [
+    {
+      "pid": 5884,
+      "image_name": "wslservice.exe",
+      "creation_utc": "2026-10-10T00:36:58.2155390Z",
+      "commandline_available": false
+    },
+    {
+      "pid": 5728,
+      "image_name": "vmmemWSL",
+      "creation_utc": "2026-10-10T00:37:03.0750090Z",
+      "commandline_available": false
+    },
+    {
+      "pid": 11696,
+      "image_name": "wslhost.exe",
+      "creation_utc": "2026-10-10T00:37:11.5389430Z",
+      "commandline_available": false
+    },
+    {
+      "pid": 11840,
+      "image_name": "wslhost.exe",
+      "creation_utc": "2026-10-10T00:37:11.7220380Z",
+      "commandline_available": false
+    },
+    {
+      "pid": 24844,
+      "image_name": "WSLTux.exe",
+      "creation_utc": "2026-10-10T00:41:36.0662990Z",
+      "commandline_available": true
+    }
+  ],
+  "linux_process_quiescence": "NOT_QUERIED_NO_WSL_INVOCATION",
+  "historical_old_worker_terminal": "UNRECORDED_PRESERVED_FAILURE",
+  "current_windows_scope_only": true,
+  "raw_commandlines_published": false,
+  "no_registry_or_stop_mutation": true
+}
