@@ -1,0 +1,51 @@
+{
+  "schema": "RM_PROVISIONAL_STAGE06_EXPORT_V1",
+  "state": "PREVIEW_PENDING_SCIENTIFIC_COMPLETION",
+  "dataset_kind": "PROVISIONAL",
+  "utc": "2026-10-10T04:34:36.096272+00:00",
+  "adapter_sha256": "49171dd82ed050d3f35daf82217c6ac747ef137c125691787c4f3bb0526034b8",
+  "helper_pins": {
+    "stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "stage05_curation/rm_matrix.py": "7716f722f25b582af990469d4e5120d4de22828b87c89cf334d2d9f9723c7db9"
+  },
+  "curation_status": "PREVIEW_PENDING_SCIENTIFIC_COMPLETION",
+  "documented_exception_count": 0,
+  "snapshot_sha256": "78efd7dd06475404acc24a38b54ec8894eb88a3ac2337efc80d2a1037d5aab91",
+  "tree_sha256": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
+  "approved_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "accepted_genome_count": 0,
+  "full_panel_complete": false,
+  "final_matrix_acceptance": false,
+  "final_figure_acceptance": false,
+  "functional_activity_claim": "NONE",
+  "tip_count": 196,
+  "cell_count": 784,
+  "scene_sha256": "fd9f48fce1b4f1465b6f3abb5d465e96cb42e1dcdb70143c4c2ef23562f74315",
+  "inputs": {
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_actual_snapshot01\\host.treefile": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_actual_snapshot01\\accepted_approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_actual_snapshot01\\accepted_stage04_readback.json": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage06_actual_snapshot01\\snapshot.json": "78efd7dd06475404acc24a38b54ec8894eb88a3ac2337efc80d2a1037d5aab91"
+  },
+  "artifact_check_scope": "PRODUCER_SERIALIZATION_SELF_CHECK_ONLY; independent preview review required; no final scientific acceptance.",
+  "outputs": {
+    "accepted_stage04_readback.json": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
+    "approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "branch_mapping.json": "9ccd183956848fd2eead88127c8a8d3ca8c8785161f9f0162e02eb1812651908",
+    "cell_mapping.tsv": "5ce0bac68ae7246c7c90d282dc817f1fdcec946572e0ad2f94e6529b0a701ae1",
+    "host_tree.nwk": "f886c0134ab662a05aae2b1c1a26ed364749af250400f769ce6e63f1f7a8ba19",
+    "itol_01_Type_I_full_state.txt": "f4314dab59f39d6f59b8f28319b634e3e6c1f338648add139699c5ff8cb36567",
+    "itol_02_Type_II_full_state.txt": "cb09d2186568d1720da0824e73e846961f96651147173a646b6b56d74a146131",
+    "itol_03_Type_III_full_state.txt": "2f7d17d7192f899188c7c9ce927f749375f4034bf7f7ddb6aab4b5fdfa3ef38a",
+    "itol_04_Type_IV_full_state.txt": "e720cdb7d5d0adb778e3bfdf1f37d2c7bf130358b34e2a081f034434f228959f",
+    "itol_binary_convenience.txt": "510faef016aa5f7e5954e3ee72900c3e3f187bddb866a9733df1db813e275b7e",
+    "preview_circular_rm.pdf": "e50ba2032c54d18e73087768be25ab0cb01601e6bb7d46ee5dfca3b712e224dc",
+    "preview_circular_rm.svg": "d9d6798e4dc5d81aea09b415e503c9b9ad0efd9abed0f78b316ea5b0ca5d34d6",
+    "preview_review_state.tsv": "3388185228f3c8476dc981087b53c76d8ce52bf241989ce65c84877569d77159",
+    "preview_snapshot.json": "78efd7dd06475404acc24a38b54ec8894eb88a3ac2337efc80d2a1037d5aab91",
+    "README.txt": "beb63611aa9ff0c968301b036d3dc115e09d134ab5976ebbbb01b341e97fc792",
+    "rm_type_presence_absence.tsv": "e5385affd0e247a16a34e345388dac90cac5c2af816986eaa7598511ad16d8e5",
+    "rm_type_state.tsv": "ba19f62885b56b841489d68f85fa7222efadce8eb3949370726120da19188cdd",
+    "scene.json": "152e226d14e98adc7f4f7dd6259fabc543daa50ed90f6b5443b4a255d919c4b9"
+  }
+}

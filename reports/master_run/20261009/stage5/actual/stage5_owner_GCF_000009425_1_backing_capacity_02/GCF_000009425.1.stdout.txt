@@ -1,0 +1,59 @@
+{
+  "state": "DEFERRED_RESOURCE",
+  "accession": "GCF_000009425.1",
+  "utc": "2026-10-10T04:38:42.749588+00:00",
+  "error": "Deferred: Bounded resource admission expired; no native child launched",
+  "elapsed_seconds": 1887.2334138309998,
+  "curation": "NOT_RUN",
+  "biological_absence_claim": "NONE",
+  "outputs_preserved": true,
+  "scientific_identity": {
+    "schema": "STAGE05_SINGLE_GENOME_SCIENTIFIC_IDENTITY_V2",
+    "accession": "GCF_000009425.1",
+    "panel_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "source_receipt_sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413",
+    "source_validation_sha256": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+    "source_acceptance": {
+      "source_pins_sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84",
+      "accepted_files": {
+        ".work/stage03_source_validation/validation_summary.json": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+        "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+        "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+        "reports/stage02/publication_receipt.json": "23e8a6f2bb6ebea58b74b07f74f4011658e4387253544b1937d1e8803b227438",
+        "reports/stage02/validation_summary.json": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+        "reports/stage03/publication_receipt.json": "1f7c7b7739a61508ace397c28f9d2022b0dd5b67543dd1cb12ceda64506514d1"
+      },
+      "released_source_member": {
+        "asset_name": "stage03-source-and-search-001-020.zip",
+        "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+        "bytes": 3209,
+        "member": "source_locus_inputs/assemblies/GCF_000009425.1/build_receipt.json",
+        "release_tag": "stage03-hostmarkers196-v1",
+        "remote_asset_id": 622115850,
+        "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+        "sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413"
+      }
+    },
+    "runtime_manifest_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+    "support_source_sha256": {
+      ".work/detector_review/build_detector_bundles.py": "75596259fbadcfb3be76d60f2ff02baac8aa69b133f5116ef38fcb889ce45f53",
+      ".work/detector_review/validate_detector_bundles.py": "0551333595baf30676de6f3a53508da4b1422166dbc282d16bd46722344439fe",
+      ".work/detector_review/stage05_detectors.py": "20eeb3ef8be0a6c4ee493c557d863dfad66aed34618a9ce92ddc73e8571b7723",
+      ".work/detector_review/stage05_evidence.py": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e",
+      ".work/detector_review/native_df_scope.py": "dd903c7bd4a186d05d1d3a65bbb5213e560c94a52fd06689a6abd9d9da1f712c",
+      ".work/detector_review/native_df_posttreat.py": "27d7193036795c96370d0e2323b86c9a58aa70efdeae5dff29e4a40d2e6124aa",
+      ".work/detector_review/stage05_inventory.py": "cd55d50befb8b6529a3419e42b98c1dd7b3831203630a0010d95bb39e33896c0",
+      "scripts/validate_stage05_raw_v6.py": "95efdff562db5fb0678e0c3e8ab8648c2268ddd1091dee5935957576844eabc7",
+      "scripts/stage05_posttreatment_audit_v6.py": "9d2be1174e68fb1854c83b9773fb56e18005c040053a9522bd3e24cdb2735c03"
+    },
+    "runner_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+    "supervisor_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "storage_helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "threads": 2,
+    "methods": "FULL_PADLOC5027_DF3_THREE_NATIVE_FAMILIES_RAW_INTEGRITY_ONLY"
+  },
+  "owner_nonce": "b54ed1b7012047edb0dcd4b68dc2d10c",
+  "transaction": "transactions/attempt_0002",
+  "owned_closure_proven": true,
+  "no_native_launch_in_this_invocation": true
+}

@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-10T04:38:43.211188+00:00",
+  "finished": 1,
+  "total": 1,
+  "approved_genomes": 196,
+  "latest": {
+    "accession": "GCF_000009425.1",
+    "state": "DEFERRED_RESOURCE",
+    "actual_wsl_client_exit": {
+      "pid": 10272,
+      "creation_filetime": 134360788351071808,
+      "exit_filetime": 134360807229331961,
+      "cpu_seconds": 0.046875,
+      "executable": "C:\\Windows\\System32\\wsl.exe",
+      "session_id": 1,
+      "exited": true,
+      "exit_code": 75
+    },
+    "elapsed_seconds": 1888.0779999999995,
+    "status_sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944",
+    "stdout_sha256": "b81aecd544d1c0174074be844363543a805032cd817f0d319ef9b0f2df91111a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "genome_results": [
+    {
+      "accession": "GCF_000009425.1",
+      "state": "DEFERRED_RESOURCE",
+      "actual_wsl_client_exit": {
+        "pid": 10272,
+        "creation_filetime": 134360788351071808,
+        "exit_filetime": 134360807229331961,
+        "cpu_seconds": 0.046875,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 75
+      },
+      "elapsed_seconds": 1888.0779999999995,
+      "status_sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944",
+      "stdout_sha256": "b81aecd544d1c0174074be844363543a805032cd817f0d319ef9b0f2df91111a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

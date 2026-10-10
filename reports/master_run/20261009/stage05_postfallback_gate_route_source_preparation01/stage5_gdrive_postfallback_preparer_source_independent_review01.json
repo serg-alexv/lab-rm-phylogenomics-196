@@ -1,0 +1,40 @@
+{
+  "schema": "STAGE05_G_POSTFALLBACK_PREPARER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_PIN_RECIPE_OPERATIVE_G_NOT_ADOPTED",
+  "utc": "2026-10-10T04:38:06.483261+00:00",
+  "checked_files": {
+    "prepare_stage5_gdrive_postfallback_source.py": {
+      "bytes": 5015,
+      "sha256": "d8fb432cceb2d09e636d154de48b9f18b54a956ab8f2c722b5963f4c21724042"
+    },
+    "test_prepare_stage5_gdrive_postfallback_source.py": {
+      "bytes": 2818,
+      "sha256": "fe4adf99955873834825ebc45aca41e9634d3cb48883ca701350891f62220ac9"
+    },
+    "STAGE05_POSTFALLBACK_GATE_ROUTE01.md": {
+      "bytes": 7722,
+      "sha256": "e20da7e952102587e34616c1568542ed638368e4b6d72737c697b780d60e56dd"
+    },
+    "stage5_postfallback_gate_route_source_preparation01.json": {
+      "bytes": 1292,
+      "sha256": "c3a591f49956f2244ebcee107e857c8740918126f3758156ba8da4f108501a8f"
+    },
+    "stage5_gdrive_view_postprofile.py": {
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    }
+  },
+  "reviewer_source_sha256": "f68b49dd6c5dc5abcf5fd5b02deaa7d7a411cc75df81bc72b401348aee45c821",
+  "pure_tests_passed": 4,
+  "actual_main_default_noop": "PASS",
+  "independent_exact_byte_reversal": "PASS_IN_MEMORY_SYNTHETIC_FUTURE_PINS_ONLY",
+  "actual_future_pins": "NOT_READ_NOT_GUESSED",
+  "actual_derived_G_source": "NOT_GENERATED",
+  "actual_G_operation": "NOT_RUN",
+  "fresh_guard": "Exactly actual08 five receipts plus independent peer, explicit proof/review SHA, unchanged fresh_toolchain_gate, genuinely new boot and final input recheck required before exclusive fsynced source output.",
+  "operative_lifecycle_boundary": "Recipe intentionally preserves original G1ec STOP-before-unlock behavior. Separate reviewed checked-unlock and durable receipt-before-owned-STOP-clear correction remains required before operative derived G adoption.",
+  "other_route_changes": "Populated-backing storage recovery, null-budget UNC preparation and dedicated source-specific gate acceptance remain separate source preparations/actual gates.",
+  "source_recipe_blockers": [],
+  "scientific_adoption": false,
+  "effects": "NO_WSL_UNC_G_OS_LOCK_PROCESS_API_GIT_OR_ACTUAL_SOURCE_PREPARATION"
+}

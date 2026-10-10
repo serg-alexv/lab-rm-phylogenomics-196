@@ -1,0 +1,59 @@
+{
+  "state": "DEFERRED_RESOURCE",
+  "utc": "2026-10-10T04:38:43.218551+00:00",
+  "owner": {
+    "pid": 25208,
+    "creation_filetime": 134360788348328513,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.15625,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "scope": "ONE_APPROVED_GENOME",
+  "approved_genomes": 196,
+  "selected_accessions": [
+    "GCF_000009425.1"
+  ],
+  "full_panel_complete": false,
+  "config_sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63",
+  "linux_script_sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+  "linux_supervisor_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+  "storage_helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+  "native_evidence_view": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1",
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "genome_results": [
+    {
+      "accession": "GCF_000009425.1",
+      "state": "DEFERRED_RESOURCE",
+      "actual_wsl_client_exit": {
+        "pid": 10272,
+        "creation_filetime": 134360788351071808,
+        "exit_filetime": 134360807229331961,
+        "cpu_seconds": 0.046875,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 75
+      },
+      "elapsed_seconds": 1888.0779999999995,
+      "status_sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944",
+      "stdout_sha256": "b81aecd544d1c0174074be844363543a805032cd817f0d319ef9b0f2df91111a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 628,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.01600000000144064,
+    "successful_calls": 628
+  }
+}
