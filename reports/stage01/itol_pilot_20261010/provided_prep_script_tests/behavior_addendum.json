@@ -1,0 +1,35 @@
+{
+  "additional_cases": {
+    "empty_file": {
+      "behavior": "caught StopIteration; error path returns success exit status",
+      "exit": 0,
+      "stdout": "ERROR:"
+    },
+    "preexisting_outputs": {
+      "behavior": "both sentinel files replaced via open(...,w); no refusal/back-up",
+      "exit": 0
+    }
+  },
+  "real_cell_mapping": {
+    "bytes": 100095,
+    "classification": "render geometry/state metadata, not a genome-host-six-defense matrix",
+    "data_rows": 784,
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\master_run\\20261009\\preparation\\stage06_density_synthetic_v4\\render\\cell_mapping.tsv",
+    "rm_type_counts": {
+      "Type_I": 196,
+      "Type_II": 196,
+      "Type_III": 196,
+      "Type_IV": 196
+    },
+    "row_width": 17,
+    "sha256": "0aaa9ba93d48d95bc369e54dc8272a671ca1e73052838a45459626b78daf6369",
+    "unique_accessions": 196,
+    "value_counts": {
+      "0": 261,
+      "1": 262,
+      "NA": 261
+    }
+  },
+  "receipt_sha256": "03da0e5d38f3a6548ddf6c4ca5f3e1608072a54ec694cbdc4f01169b28a8949d",
+  "source_sha256": "a54b7fac63541366156b86a9564f14b2478ad33a20487f662b94dea53fbcff10"
+}

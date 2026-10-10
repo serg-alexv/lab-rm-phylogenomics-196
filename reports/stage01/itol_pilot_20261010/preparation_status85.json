@@ -1,0 +1,35 @@
+{
+  "observed_utc": "2026-10-10T09:12:09.883677+00:00",
+  "pilot_state": "COMPLETE_VALIDATED_AND_REMOTE_BYTES_VERIFIED",
+  "pilot_commit": "ea1f094cb4a976ce3d95a855b3dea26c3c577394",
+  "marker_count": 5,
+  "astral_tip_count": 196,
+  "upload_attempt01": {
+    "exit_code": 1,
+    "http_started": false,
+    "error": "Pilot iTOL preflight: Expected one nonempty iTOL token"
+  },
+  "credential_format_resolution": "User confirmed username on line 1 and API key on line 2; structure verified without exposing values. New separate client accepts this format; original client and credential file unchanged.",
+  "upload_attempt02": {
+    "exit_code": 1,
+    "http_started": true,
+    "state": "REJECTED_NO_VALID_SUBSCRIPTION",
+    "tree_url": null,
+    "exports": {},
+    "error": "ERR 0: No valid subscription detected for API key [REDACTED]. Please check https://itol.embl.de/infoReg.cgi"
+  },
+  "toolkit": "itolapi==4.1.6 installed locally in phylogeny",
+  "decoration_state": "BLOCKED_DEFENSE_DETECTORS_NOT_RUN",
+  "host_metadata_state": "NCBI_REPORTS_AVAILABLE_RAW_HOST_AND_ISOLATION_SOURCE_EXTRACTED_SEPARATELY",
+  "host_metadata_independent_readback": "PASS_196_EXACT_APPROVED_IDS_ALL_SOURCE_HASHES_AND_RAW_FIELDS",
+  "provided_prep_script": "Saved byte-for-byte; syntax compile exit 0; isolated valid and malformed fixtures tested. Not executed on project data.",
+  "provided_prep_script_limits": [
+    "does not validate exact header or binary values",
+    "can return success after malformed/empty data",
+    "overwrites existing fixed-name outputs",
+    "host palette repeats after eight categories"
+  ],
+  "scientific_outputs_changed": false,
+  "full_pipeline_started": false,
+  "forbidden_validator_accessed": false
+}

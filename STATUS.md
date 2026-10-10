@@ -1,3 +1,16 @@
+# Current request: validated pilot and iTOL preparation
+
+PILOT_COMPLETE_VALIDATED: five gene trees, 196 ASTRAL tips, 193 informative splits;
+published bytes independently verified. First iTOL upload stopped before HTTP due
+to a credential-format mismatch. The corrected two-line account reader made one real
+request, rejected by iTOL for no valid subscription. No tree URL or exports exist.
+Real NCBI host metadata was recovered, but Stage 5 defense detection is NOT_RUN.
+No complete host/defense matrix can be generated from the available evidence.
+The user-supplied prep_itol_files.py is preserved and syntax-tested; no project data
+was processed. Full 100-marker execution remains unapproved. See
+[iTOL preparation](reports/stage01/itol_pilot_20261010/PREPARATION85.md) and
+[completed pilot](reports/stage01/local_pilot_20261010/completed/RESULT.md).
+
 # Current request: completed local five-marker pilot
 
 PILOT_COMPLETE_VALIDATED. Five gene trees and ASTRAL completed locally;196 approved tips and193 informative splits validated. Raw and flat-q1 trees are preserved. Native exit0, process closure and original lock release are verified. Pilot iTOL upload pending; host/defense mapping absent. Full100-marker execution remains unapproved. See [completion report](reports/stage01/local_pilot_20261010/completed/RESULT.md).

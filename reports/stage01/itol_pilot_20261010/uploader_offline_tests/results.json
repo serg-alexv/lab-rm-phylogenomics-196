@@ -1,0 +1,56 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "calls": 3,
+      "case": "success_real_toolkit_writer_fake_transport",
+      "dummy_absent_from_all_output_files": true,
+      "key_read": true,
+      "passed": true,
+      "terminal_complete": true,
+      "toolkit_writer_created_svg_pdf": true,
+      "zip_contains_flat_tree": true
+    },
+    {
+      "calls": 1,
+      "case": "ERR_response_redacted_stops_exports",
+      "exports_started": false,
+      "key_redacted": true,
+      "passed": true
+    },
+    {
+      "case": "bad_flat_hash_refused_pre_key_http",
+      "key_reads": 0,
+      "network_calls": 0,
+      "output_created": false,
+      "passed": true
+    },
+    {
+      "case": "existing_output_refused_unmodified",
+      "key_reads": 0,
+      "network_calls": 0,
+      "passed": true,
+      "sentinel_preserved": true
+    },
+    {
+      "case": "malformed_export_not_saved",
+      "malformed_svg_not_written": true,
+      "passed": true,
+      "upload_and_one_export_call": true
+    }
+  ],
+  "credential": "builtins.open intercepted only for exact /mnt/c/itol.api-key.txt; dummy value only.",
+  "http": "All requests.post calls replaced by local fake; no network used.",
+  "itolapi_version": "4.1.6",
+  "python": "3.15.0 | packaged by conda-forge | (main, Oct  9 2026, 18:56:31) [GCC 15.3.0]",
+  "real_itol_export_class": "<class 'itolapi.itolexport.ItolExport'>",
+  "schema": "itol_pilot_upload_offline_tests_v1",
+  "source_sha256": "bb6db72696e727ffb232bf593d423ae43e7772e088fe2df892e1ec21becaa927",
+  "status": "PASS",
+  "structured_raw_and_flat_tree": {
+    "flat_q1_sha256": "699fab2fdad0009ba6f162f7d789d9f2f8bf74f9f1b9a0ec694c63dab5082848",
+    "raw_sha256": "2df4a8944999e101529e0ba228c9f2897841a656caf2d88217f30e78862c77ed",
+    "same_topology_lengths_only_internal_label_changed": true
+  },
+  "tested_source": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/scripts/upload_itol_pilot.py"
+}

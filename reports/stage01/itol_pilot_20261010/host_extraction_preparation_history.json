@@ -1,0 +1,11 @@
+{
+  "initial_attempt": {
+    "state": "FAILED_BEFORE_RESULT_WRITES",
+    "exit_code": null,
+    "exit_code_evidence": "not retained",
+    "exception": "ValueError: GCF_000148815.2: expected one JSONL report record, found 2"
+  },
+  "resolution": "Select the exact-accession record among records with matching currentAccession; retain all older alias record provenance.",
+  "final_attempt": "COMPLETED_196_ROWS_WITH_INDEPENDENT_SOURCE_READBACK",
+  "scientific_input_or_output_changed": false
+}

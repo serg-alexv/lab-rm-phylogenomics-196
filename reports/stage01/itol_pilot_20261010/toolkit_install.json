@@ -1,0 +1,82 @@
+{
+  "version": "1",
+  "pip_version": "26.2.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/f3/ce/33069504004a3023c964c96d064984863abb3e6bcef85685ba75f6e0a7ea/itolapi-4.1.6-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "c3925d8193bd1816037b921b061e2b10cbb3fb3d3f120e301eaba0ce0d2e0ade"
+          },
+          "hash": "sha256=c3925d8193bd1816037b921b061e2b10cbb3fb3d3f120e301eaba0ce0d2e0ade"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "itolapi",
+        "version": "4.1.6",
+        "summary": "API for interacting with itol.embl.de",
+        "description": "iTOL Python API\n===============\n\n![PyPI](https://img.shields.io/pypi/v/itolapi)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/itolapi)\n![PyPI - License](https://img.shields.io/pypi/l/itolapi)\n\n[![Build Status](https://drone.albertyw.com/api/badges/albertyw/itolapi/status.svg)](https://drone.albertyw.com/albertyw/itolapi)\n[![Maintainability](https://qlty.sh/gh/albertyw/projects/itolapi/maintainability.svg)](https://qlty.sh/gh/albertyw/projects/itolapi)\n[![Code Coverage](https://qlty.sh/gh/albertyw/projects/itolapi/coverage.svg)](https://qlty.sh/gh/albertyw/projects/itolapi)\n\n> Notice: Due to [iTOL requiring paid subscriptions for batch uploads](https://itol.embl.de/infoReg.cgi),\n> this library will be deprecated after October 1, 2020.\n\nPython API for the Interactive Tree of Life (iTOL)\n\nCreated by Albert Wang (git at albertyw.com)\n\nWith Complements to [iTOL (Interactive Tree of Life)](http://itol.embl.de/).\n\nThis iTOL API allows local software to upload trees to iTOL using\n`itol.py` and export uploaded trees using `itolexport.py` using direct\nPython calls or through shell. An active internet connection to the\n[iTOL website](http://itol.embl.de/) is required.\n\nInstallation\n------------\n\n`pip install itolapi`\n\nUploading Trees To iTOL (itol.py)\n---------------------------------\n\n### From Command Line\n\n(If you need to do anything more than displaying basic tree structures,\nyou must call the Python iTOL API from within a Python program)\n\n```\n$ itol.py /path/to/example.tree\nhttp://itol.embl.de/external.cgi?tree=1234567890&restore_saved=1\n```\n\n### From Python\n\nRunning from a python program is much more flexible than running from\ncommand line and allows access to all [iTOL options](http://itol.embl.de/help.cgi#batch).\n\n```python\nfrom itolapi import Itol\nfrom pathlib import Path\n\n\nitol_uploader = Itol()\nitol_uploader.add_file(Path('/path/to/example.tree'))\nitol_uploader.params['treeName'] = 'apple'\nstatus = itol_uploader.upload()\nassert status != False\nitol_uploader.comm.upload_output\n# SUCCESS: 1234567890\nitol_uploader.comm.tree_id\n# 1234567890\nitol_uploader.get_webpage()\n# http://itol.embl.de/external.cgi?tree=1234567890&restore_saved=1\nitol_uploader.get_itol_export()\n# <ItolExport.ItolExport instance at 0x207c5f0>\n```\n\nAn example for using the Python iTOL API can found in\n`examples/example.py`.\n\nDownloading Trees From iTOL (itolexport.py)\n-------------------------------------------\n\n### From Command Line\n\n(If you would like to set any parameters other than the tree id,\nlocation to save the file, file format, and whether to display datasets,\nyou must use ItolExport from a Python program)\n\n```\n$ itolexport.py TREEID FILELOCATION FORMAT [OPTIONS]\n```\n\nOptions include:\n - `-d`: show datasets\n - `-v`: verbose output\n - `-h`: help\n\n### From Python\n\nRunning itolexport.py from a Python program allows you to use all the\noptions that iTOL has available.\n\n```python\nfrom itolapi import ItolExport\nfrom pathlib import Path\n\n\nitol_exporter = ItolExport()\nitol_exporter.add_export_param_value('tree', tree_id)\nassert format in ['png', 'svg', 'eps', 'ps', 'pdf', 'nexus', 'newick']\nitol_exporter.add_export_param_value('format', format)\nitol_exporter.add_export_param_value(param_key, param_value)\nitol_exporter.export(Path('/path/to/example_tree'))\n```\n\nValid `param_key` and `param_value` values can be found on [the iTOL API\npage](http://itol.embl.de/help.cgi#batch).\n\nBugs/Comments\n-------------\n\nSend bugs and comments as issues on the\n[itolapi Github](https://github.com/albertyw/itolapi/) repository.\n\nDevelopment\n-----------\n\nTo run tests:\n\n```bash\npip install -e .[test]\nruff check .\nmypy .\ncoverage run -m unittest\n```\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "tree",
+          "life",
+          "compbio",
+          "biology",
+          "bioinformatics"
+        ],
+        "author_email": "Albert Wang <git@albertyw.com>",
+        "license_expression": "MIT",
+        "classifier": [
+          "Development Status :: 7 - Inactive",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Natural Language :: English",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Scientific/Engineering :: Bio-Informatics",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "requests<3.0,>=2.0",
+          "coverage==7.12.0; extra == \"test\"",
+          "ruff==0.14.6; extra == \"test\"",
+          "mypy==1.18.2; extra == \"test\"",
+          "types-requests==2.32.4.20250913; extra == \"test\""
+        ],
+        "requires_python": ">=3.7",
+        "project_url": [
+          "Homepage, https://github.com/albertyw/itolapi"
+        ],
+        "provides_extra": [
+          "test"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.15.0",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "6.18.40.1-microsoft-standard-WSL2",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026",
+    "python_full_version": "3.15.0",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.15",
+    "sys_platform": "linux"
+  }
+}

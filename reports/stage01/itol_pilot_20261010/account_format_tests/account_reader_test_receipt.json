@@ -1,0 +1,110 @@
+{
+  "all_passed": true,
+  "compile_exit": 0,
+  "credential": "Only mocked exact key path /mnt/c/itol.api-key.txt; fixture username and dummy token only.",
+  "network": "All requests.post calls intercepted in-process; no real network call possible.",
+  "python": "3.15.0 | packaged by conda-forge | (main, Oct  9 2026, 18:56:31) [GCC 15.3.0]",
+  "results": {
+    "blank_token_rejected": {
+      "artifacts": {},
+      "calls": [],
+      "exception": "ValueError: Expected one token line, or username then token on two lines",
+      "output_exists": false,
+      "returncode": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    "three_lines_rejected": {
+      "artifacts": {},
+      "calls": [],
+      "exception": "ValueError: Expected one token line, or username then token on two lines",
+      "output_exists": false,
+      "returncode": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    "two_line_success": {
+      "artifacts": {
+        "pilot_species_tree.circular.pdf": {
+          "sha256": "22fd222cac55f89525f55509ac82dcbdadce42db704de74e09155d275243bb26",
+          "size": 23,
+          "token_absent": true,
+          "username_absent": true
+        },
+        "pilot_species_tree.circular.svg": {
+          "sha256": "17b04cfaab4021a17e9fabe9218aa94f0f1dff38220cea5ecafff8236f673afa",
+          "size": 66,
+          "token_absent": true,
+          "username_absent": true
+        },
+        "terminal.json": {
+          "sha256": "18df527a31a35ec0e5d95f8a844a6ef9b9e13a08538f6958fba7d7deb89f8799",
+          "size": 792,
+          "token_absent": true,
+          "username_absent": true
+        },
+        "tree_url.txt": {
+          "sha256": "35daa84adbaacd145cc14cca2c41d3cf212515519c05ed67f538db57f17f796c",
+          "size": 32,
+          "token_absent": true,
+          "username_absent": true
+        },
+        "upload.zip": {
+          "sha256": "d9e48d289d677d282e03808b55376aca48630c8c860ac6cf1d8e392c6bdc0cfb",
+          "size": 171,
+          "token_absent": true,
+          "username_absent": true
+        },
+        "upload_response.txt": {
+          "sha256": "3e9ec2ff357ec13fd47f5a82893c6cffa702a2d041de9ead098a28629b8dcdf5",
+          "size": 40,
+          "token_absent": true,
+          "username_absent": true
+        }
+      },
+      "calls": [
+        {
+          "allow_redirects": false,
+          "format": null,
+          "key_is_line2": true,
+          "timeout": [
+            30,
+            300
+          ],
+          "url": "https://itol.embl.de/batch_uploader.cgi",
+          "username_not_sent": true
+        },
+        {
+          "allow_redirects": false,
+          "format": "svg",
+          "key_is_line2": false,
+          "timeout": [
+            30,
+            300
+          ],
+          "url": "https://itol.embl.de/batch_downloader.cgi",
+          "username_not_sent": true
+        },
+        {
+          "allow_redirects": false,
+          "format": "pdf",
+          "key_is_line2": false,
+          "timeout": [
+            30,
+            300
+          ],
+          "url": "https://itol.embl.de/batch_downloader.cgi",
+          "username_not_sent": true
+        }
+      ],
+      "exception": null,
+      "output_exists": true,
+      "returncode": 0,
+      "stderr": "server echoed [REDACTED]\n",
+      "stdout": "https://itol.embl.de/tree/85731\n"
+    }
+  },
+  "source_sha256": "bab451f2bd4b36c2bb6531b2fcd4a8cc440d8cda90ed3fc08de7c9498d909bcb",
+  "tested_source": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/scripts/upload_itol_pilot_account.py",
+  "toolkit": "itolapi.itolexport"
+}

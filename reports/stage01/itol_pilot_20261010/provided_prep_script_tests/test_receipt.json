@@ -1,0 +1,69 @@
+{
+  "cases": {
+    "header_only": {
+      "exit": 0,
+      "output_files": [
+        "defense_systems.txt",
+        "host_strip.txt"
+      ],
+      "output_sha256": {
+        "defense_systems.txt": "ec2d6d23707e66df7939c46b9d5eec86d4a366e4f31ed53d67abb5a470bef64f",
+        "host_strip.txt": "508cce84aa690f0dab43cfff7e947ccea492a327a227f0843cb7679235644ce0"
+      },
+      "output_sizes": {
+        "defense_systems.txt": 366,
+        "host_strip.txt": 165
+      },
+      "stderr": "",
+      "stdout": "Created pipeline_output\\defense_systems.txt\nCreated pipeline_output\\host_strip.txt\nSUCCESS: Annotation files generated."
+    },
+    "malformed": {
+      "exit": 0,
+      "malformed_defense_rows": [
+        "G1\t2\t\t0\t1\t0\t1"
+      ],
+      "output_files": [
+        "defense_systems.txt",
+        "host_strip.txt"
+      ],
+      "output_sha256": {
+        "defense_systems.txt": "0674c781beae3f04b24f995d03b5c3f02795759fcc9c3d56f3e1d0fd67e8cc3c",
+        "host_strip.txt": "1253611bd0278fbc34b2b85774f08315e5d78dae84ae400609b00c6736d60b87"
+      },
+      "output_sizes": {
+        "defense_systems.txt": 380,
+        "host_strip.txt": 216
+      },
+      "stderr": "",
+      "stdout": "WARNING: Skipping row with insufficient columns: ['G2', 'HostB', '1', '0', '0', '1', '0']\nCreated pipeline_output\\defense_systems.txt\nCreated pipeline_output\\host_strip.txt\nSUCCESS: Annotation files generated."
+    },
+    "missing": {
+      "exit": 1,
+      "output_files": [],
+      "output_sha256": {},
+      "output_sizes": {},
+      "stderr": "",
+      "stdout": "ERROR: Could not find cell_mapping.tsv. Please ensure it is in the current directory."
+    },
+    "valid": {
+      "exit": 0,
+      "output_files": [
+        "defense_systems.txt",
+        "host_strip.txt"
+      ],
+      "output_sha256": {
+        "defense_systems.txt": "9a088f2d8248c8201fd2122c9db03b88b589365dc14c195de0a096d9fc82e29d",
+        "host_strip.txt": "1253611bd0278fbc34b2b85774f08315e5d78dae84ae400609b00c6736d60b87"
+      },
+      "output_sizes": {
+        "defense_systems.txt": 396,
+        "host_strip.txt": 216
+      },
+      "stderr": "",
+      "stdout": "Created pipeline_output\\defense_systems.txt\nCreated pipeline_output\\host_strip.txt\nSUCCESS: Annotation files generated."
+    }
+  },
+  "compile_exit": 0,
+  "receipt_sha256": "b6202646b0380b5a14d907fabbcba84ec79917cf93cdba6e86516cce0e1573ae",
+  "source_sha256": "a54b7fac63541366156b86a9564f14b2478ad33a20487f662b94dea53fbcff10"
+}
