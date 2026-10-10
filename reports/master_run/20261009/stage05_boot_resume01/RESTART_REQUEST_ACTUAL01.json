@@ -1,0 +1,61 @@
+{
+  "schema": "MASTER_CONTROLLED_WINDOWS_RESTART_REQUEST_V1",
+  "state": "WINDOWS_RESTART_REQUEST_ACCEPTED_EXIT0_ACTUAL_BOOT_NOT_YET_PROVEN",
+  "source_sha256": "82c914be58d5b2cdf6aa76bcb38dfceaa47de50c7e90d7117534812acefcde33",
+  "argv": [
+    "C:\\Windows\\System32\\shutdown.exe",
+    "/r",
+    "/t",
+    "180",
+    "/d",
+    "p:4:1",
+    "/c",
+    "LAB_RM authorized master-run scope reconciliation; same-user sign-in resumes the one-time master continuation."
+  ],
+  "requested_delay_seconds": 180,
+  "owner": {
+    "pid": 8828,
+    "creation_filetime": 134360659806308834,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "utc": "2026-10-10T00:33:00.781114+00:00",
+  "baseline": {
+    "last_boot_utc": "2026-10-09T15:27:45.500000+00:00",
+    "tick_before_ms": 32073453,
+    "tick_after_ms": 32073984,
+    "observed_utc": "2026-10-10T00:22:20.070269+00:00"
+  },
+  "published_handoff_commit": "3378b87998d826fff86db3407591ab7d4d774f74",
+  "STOP_sha256_preserved": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a",
+  "one_time_registry_value_readback_exact": true,
+  "actual_new_boot_or_resumed_session_proven": false,
+  "scientific_authority": false,
+  "request_process_birth": {
+    "pid": 20724,
+    "creation_filetime": 134360659807934087,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\shutdown.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "request_process_exit": {
+    "pid": 20724,
+    "creation_filetime": 134360659807934087,
+    "exit_filetime": 134360659808538944,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\shutdown.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "stdout": "",
+  "stderr": "",
+  "request_accepted_utc": "2026-10-10T00:33:00.852634+00:00"
+}
