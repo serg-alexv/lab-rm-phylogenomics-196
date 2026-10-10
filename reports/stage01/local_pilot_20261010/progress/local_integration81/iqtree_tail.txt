@@ -1,0 +1,40 @@
+Init pinv, alpha: 0.140, 0.976 / Estimate: 0.111, 0.848 / LogL: -16754.466
+Init pinv, alpha: 0.158, 0.976 / Estimate: 0.111, 0.849 / LogL: -16754.468
+Optimal pinv,alpha: 0.109, 0.844 / LogL: -16754.462
+
+Parameters optimization took 21.603 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.15841 secs using 199.9% CPU
+Computing ML distances took 1.163539 sec (of wall-clock time) 2.316062 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000295877 secs using 201.1% CPU
+Constructing RapidNJ tree: done in 0.00229096 secs using 102.7% CPU
+Computing RapidNJ tree took 0.009701 sec (of wall-clock time) 0.013364 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16803.027
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.816 second
+Computing log-likelihood of 98 initial trees ... 9.936 seconds
+Current best score: -16754.462
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16754.461
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -16750.847
+Iteration 10 / LogL: -16757.788 / Time: 0h:8m:11s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -16750.523
+Iteration 20 / LogL: -16757.828 / Time: 0h:8m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -16750.523 / CPU time: 60.603
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -16749.315
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -16748.844
+Iteration 30 / LogL: -16748.844 / Time: 0h:9m:14s (0h:7m:1s left)

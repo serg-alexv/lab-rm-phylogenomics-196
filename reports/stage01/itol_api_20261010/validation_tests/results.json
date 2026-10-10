@@ -1,0 +1,138 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "approved_taxa": 196,
+      "astral_summary": {
+        "annotated_informative_split_count": 2,
+        "annotated_node_count_including_root": 2,
+        "branch_length_count": 7,
+        "branch_length_max": 0.2,
+        "branch_length_min": 0.1,
+        "branch_length_missing_count": 1,
+        "informative_unrooted_split_count": 2,
+        "internal_node_count_including_root": 3,
+        "root_annotated": false,
+        "tip_count": 5
+      },
+      "case": "pilot_pass",
+      "derived_tree_written": true,
+      "evidence_unchanged": true,
+      "exit_code": 0,
+      "markers": 5,
+      "pass": true,
+      "status": "PASS",
+      "union_taxa": 5
+    },
+    {
+      "case": "output_reuse_refused",
+      "existing_evidence_hashes_unchanged": true,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "astral_truncated",
+      "derived_tree_withheld": true,
+      "exit_code": 1,
+      "fail_tsv": true,
+      "failure_row": "pipeline\tFAIL\tInvalid Newick in /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/pipeline_validation_tests01/run03/fixtures/astral_truncated/project/pilot_output/species_tree.newick: Newick must end with a semicolon",
+      "pass": true,
+      "status": "FAIL"
+    },
+    {
+      "case": "astral_duplicate",
+      "derived_tree_withheld": true,
+      "exit_code": 1,
+      "fail_tsv": true,
+      "failure_row": "pipeline\tFAIL\tASTRAL species tree accession set differs from approved panel; tips=4, expected=5, missing=['GCF_000000005.1'], extra=[]",
+      "pass": true,
+      "status": "FAIL"
+    },
+    {
+      "case": "astral_missing",
+      "derived_tree_withheld": true,
+      "exit_code": 1,
+      "fail_tsv": true,
+      "failure_row": "pipeline\tFAIL\tASTRAL species tree accession set differs from approved panel; tips=4, expected=5, missing=['GCF_000000005.1'], extra=[]",
+      "pass": true,
+      "status": "FAIL"
+    },
+    {
+      "case": "astral_extra",
+      "derived_tree_withheld": true,
+      "exit_code": 1,
+      "fail_tsv": true,
+      "failure_row": "pipeline\tFAIL\tASTRAL species tree accession set differs from approved panel; tips=6, expected=5, missing=[], extra=['GCF_999999999.1']",
+      "pass": true,
+      "status": "FAIL"
+    },
+    {
+      "case": "full_rejects_pilot",
+      "exit_code": 1,
+      "failure": "full needs 100 marker FASTAs; found 5",
+      "pass": true,
+      "pilot_output_present": true,
+      "status": "FAIL"
+    },
+    {
+      "approved_taxa": 196,
+      "astral_summary": {
+        "annotated_informative_split_count": 0,
+        "annotated_node_count_including_root": 0,
+        "branch_length_count": 196,
+        "branch_length_max": 0.1,
+        "branch_length_min": 0.1,
+        "branch_length_missing_count": 1,
+        "informative_unrooted_split_count": 0,
+        "internal_node_count_including_root": 1,
+        "root_annotated": false,
+        "tip_count": 196
+      },
+      "case": "full_pass_100x196",
+      "evidence_unchanged": true,
+      "exit_code": 0,
+      "markers": 100,
+      "pass": true,
+      "status": "PASS",
+      "union_taxa": 196
+    }
+  ],
+  "inference_or_network": false,
+  "project_root_argument": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "python": "/root/miniconda3/envs/phylogeny/bin/python",
+  "real_data_used_as_fixture": false,
+  "real_project_readonly_snapshot_after": {
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "input_genes/5-FTHF_cyc-lig.fasta": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+    "pilot_output/alignments/5-FTHF_cyc-lig_aligned.fasta": "60dfc8a4ec7949b331e569ebf3e327ef688590da42d0f7ef7dcf4e975a5a991d",
+    "pilot_output/trees/5-FTHF_cyc-lig.iqtree": "2fe7de678fd8b021f35af1ed6c2fde19060064bd7cd2094d57e6361f82db6dfe",
+    "pilot_output/trees/5-FTHF_cyc-lig.log": "9e9e8916f41e550b70044c84a0b12113df938a507e5049fe109113212b55bd17",
+    "pilot_output/trees/5-FTHF_cyc-lig.treefile": "6d7445fc85dcf4f07a339f40bc58abb8f84de1d98a0a7d589e342f098910f462",
+    "run_pipeline.sh": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b"
+  },
+  "real_project_readonly_snapshot_before": {
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "input_genes/5-FTHF_cyc-lig.fasta": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+    "pilot_output/alignments/5-FTHF_cyc-lig_aligned.fasta": "60dfc8a4ec7949b331e569ebf3e327ef688590da42d0f7ef7dcf4e975a5a991d",
+    "pilot_output/trees/5-FTHF_cyc-lig.iqtree": "2fe7de678fd8b021f35af1ed6c2fde19060064bd7cd2094d57e6361f82db6dfe",
+    "pilot_output/trees/5-FTHF_cyc-lig.log": "9e9e8916f41e550b70044c84a0b12113df938a507e5049fe109113212b55bd17",
+    "pilot_output/trees/5-FTHF_cyc-lig.treefile": "6d7445fc85dcf4f07a339f40bc58abb8f84de1d98a0a7d589e342f098910f462",
+    "run_pipeline.sh": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b"
+  },
+  "real_snapshot_unchanged": true,
+  "receipt_type": "synthetic_pipeline_validation_tests",
+  "schema_version": 1,
+  "snapshot_scope_note": "Only approved accession list, completed 5-FTHF_cyc-lig input/alignment/tree/log/report if present, and run_pipeline.sh were hashed. Active ADK and all other potentially active marker outputs were excluded.",
+  "source_unchanged": true,
+  "synthetic_only": true,
+  "validator_source_sha256_after": {
+    "stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "validate_five_marker_pilot_v2.py": "96f47c44edf84ef801e52185437e1fff42c62a9ff32e6471916087f25541ea8a",
+    "validate_pipeline.py": "1af46ac3c3c6507b3932b4c2cb9f090b5281258a5c916d2929164e10e9f79ae2"
+  },
+  "validator_source_sha256_before": {
+    "stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "validate_five_marker_pilot_v2.py": "96f47c44edf84ef801e52185437e1fff42c62a9ff32e6471916087f25541ea8a",
+    "validate_pipeline.py": "1af46ac3c3c6507b3932b4c2cb9f090b5281258a5c916d2929164e10e9f79ae2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "mode": "full",
+  "checks": [
+    [
+      "pipeline",
+      "FAIL",
+      "full needs 100 marker FASTAs; found 5"
+    ]
+  ],
+  "results": {},
+  "input_sha256": {
+    "config/approved_accessions.txt": "3bb90345569ea701de53354163a2f4a1ba1298c6615d904e0f9a31b42fdf0677"
+  },
+  "artifact_sha256": {},
+  "scope": "Data integrity and workflow validation; biological reliability requires scientific review."
+}

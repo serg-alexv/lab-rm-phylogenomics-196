@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "mode": "pilot",
+  "checks": [
+    [
+      "marker:marker_01",
+      "PASS",
+      "verified"
+    ],
+    [
+      "marker:marker_02",
+      "PASS",
+      "verified"
+    ],
+    [
+      "marker:marker_03",
+      "PASS",
+      "verified"
+    ],
+    [
+      "marker:marker_04",
+      "PASS",
+      "verified"
+    ],
+    [
+      "marker:marker_05",
+      "PASS",
+      "verified"
+    ],
+    [
+      "ASTRAL",
+      "PASS",
+      "exactly 5 unique taxa from selected marker union"
+    ]
+  ],
+  "results": {
+    "markers": [
+      {
+        "marker": "marker_01",
+        "tips": 4,
+        "alignment_columns": 6,
+        "support": {
+          "support_component_count": 1,
+          "support_min": 95.0,
+          "support_max": 95.0,
+          "unlabeled_internal_branch_count": 0,
+          "unlabeled_internal_branches": []
+        }
+      },
+      {
+        "marker": "marker_02",
+        "tips": 4,
+        "alignment_columns": 6,
+        "support": {
+          "support_component_count": 1,
+          "support_min": 95.0,
+          "support_max": 95.0,
+          "unlabeled_internal_branch_count": 0,
+          "unlabeled_internal_branches": []
+        }
+      },
+      {
+        "marker": "marker_03",
+        "tips": 4,
+        "alignment_columns": 6,
+        "support": {
+          "support_component_count": 1,
+          "support_min": 95.0,
+          "support_max": 95.0,
+          "unlabeled_internal_branch_count": 0,
+          "unlabeled_internal_branches": []
+        }
+      },
+      {
+        "marker": "marker_04",
+        "tips": 4,
+        "alignment_columns": 6,
+        "support": {
+          "support_component_count": 1,
+          "support_min": 95.0,
+          "support_max": 95.0,
+          "unlabeled_internal_branch_count": 0,
+          "unlabeled_internal_branches": []
+        }
+      },
+      {
+        "marker": "marker_05",
+        "tips": 4,
+        "alignment_columns": 6,
+        "support": {
+          "support_component_count": 1,
+          "support_min": 95.0,
+          "support_max": 95.0,
+          "unlabeled_internal_branch_count": 0,
+          "unlabeled_internal_branches": []
+        }
+      }
+    ],
+    "approved_taxa": 196,
+    "expected_astral_taxa_from_validated_marker_union": 5,
+    "evidence_unchanged_during_validation": true,
+    "astral": {
+      "tip_count": 5,
+      "internal_node_count_including_root": 3,
+      "annotated_node_count_including_root": 2,
+      "informative_unrooted_split_count": 2,
+      "annotated_informative_split_count": 2,
+      "root_annotated": false,
+      "branch_length_count": 7,
+      "branch_length_missing_count": 1,
+      "branch_length_min": 0.1,
+      "branch_length_max": 0.2
+    }
+  },
+  "input_sha256": {
+    "config/approved_accessions.txt": "3bb90345569ea701de53354163a2f4a1ba1298c6615d904e0f9a31b42fdf0677",
+    "input_genes/marker_01.fasta": "dbb5eec46900289ba30b22c0393dcde9f3de8e302f9843ec1dedb3b322515426",
+    "pilot_output/alignments/marker_01_aligned.fasta": "dbb5eec46900289ba30b22c0393dcde9f3de8e302f9843ec1dedb3b322515426",
+    "pilot_output/trees/marker_01.treefile": "ba28f9b9875f8e502a112aa44dbcbdd822578621f63d6a7ef6db2cf51619e63a",
+    "pilot_output/trees/marker_01.log": "ab22886f26f79972cb8bbbbaaf39290851bb4aae88e825b8b5745b40da593359",
+    "pilot_output/trees/marker_01.iqtree": "a41113fc8d93815a0a54a6661b54482804102d7409d700663ff1d69b5756709c",
+    "input_genes/marker_02.fasta": "d698c7000d504b8c94dd2584fb833ce5f8c6669d04b440f6d7762aaf3bc5be73",
+    "pilot_output/alignments/marker_02_aligned.fasta": "d698c7000d504b8c94dd2584fb833ce5f8c6669d04b440f6d7762aaf3bc5be73",
+    "pilot_output/trees/marker_02.treefile": "96ddb46a7d2a4be1ee5e0094b6a1ad364be6713bf62d07d065489c3cf8ada3f0",
+    "pilot_output/trees/marker_02.log": "13f99fff07613d3e884d2ebf4600cea24b1847276b9f4a09c792aff32d692f33",
+    "pilot_output/trees/marker_02.iqtree": "a41113fc8d93815a0a54a6661b54482804102d7409d700663ff1d69b5756709c",
+    "input_genes/marker_03.fasta": "4fae7dd4aac1ed8021bc043c374160571a0aa39ac1c1a944f8c3fd212237bae7",
+    "pilot_output/alignments/marker_03_aligned.fasta": "4fae7dd4aac1ed8021bc043c374160571a0aa39ac1c1a944f8c3fd212237bae7",
+    "pilot_output/trees/marker_03.treefile": "d880b721cc7fb130001206b34c72287400d61dd9ff7f724c25f492e19bb87f02",
+    "pilot_output/trees/marker_03.log": "e4b00fa0b87724800195b97487892c0ca824075e1755c63278613b4adc175aee",
+    "pilot_output/trees/marker_03.iqtree": "a41113fc8d93815a0a54a6661b54482804102d7409d700663ff1d69b5756709c",
+    "input_genes/marker_04.fasta": "aa3d50b61cccc236d5b44d3ce090b8f15e98cfc7376be3e29042c8f4bb0c383e",
+    "pilot_output/alignments/marker_04_aligned.fasta": "aa3d50b61cccc236d5b44d3ce090b8f15e98cfc7376be3e29042c8f4bb0c383e",
+    "pilot_output/trees/marker_04.treefile": "b8a035ce48b802902e201208820d71df72a2f760952142e7de6a1f85c88c2803",
+    "pilot_output/trees/marker_04.log": "f1aab25496fc0c65b871b14c29797a47e3321cf6e8918da6d69fa70cbd9b6d73",
+    "pilot_output/trees/marker_04.iqtree": "a41113fc8d93815a0a54a6661b54482804102d7409d700663ff1d69b5756709c",
+    "input_genes/marker_05.fasta": "dbb439bb4f1de5f44da9a6a51d672ea2c155f47a1cd28b8c6021d8e1af2c9a7c",
+    "pilot_output/alignments/marker_05_aligned.fasta": "dbb439bb4f1de5f44da9a6a51d672ea2c155f47a1cd28b8c6021d8e1af2c9a7c",
+    "pilot_output/trees/marker_05.treefile": "86f58d6f9fb00934889fe268063b2c984cc6d63750e44c8cde75232f73aa2c76",
+    "pilot_output/trees/marker_05.log": "2d7a63ed918851dc4f540938506928cb572949065eda49982a713950922e1891",
+    "pilot_output/trees/marker_05.iqtree": "a41113fc8d93815a0a54a6661b54482804102d7409d700663ff1d69b5756709c",
+    "pilot_output/all_gene_trees.tre": "f9de83db6fa37738574ebfd0af380e2a1ddb0d9975f542d7ebeb3bbd7a2acfa7",
+    "pilot_output/species_tree.newick": "2ec65e0099995701510bceb949c68f59eb9429a2969cc3ec3588bd82d5a7eb34",
+    "reports/stage01/pilot_astral.log": "1f28a60bebf9bdec570f4c340fce80721f0500e73dfa97cc1d88f08b3aee601a"
+  },
+  "artifact_sha256": {
+    "species_tree.itol_quartet_frequency.newick": "e73967d24616b12a31327bd4a7f59ac24671144a79caeddca34dfb13d4c71fa3"
+  },
+  "scope": "Data integrity and workflow validation; biological reliability requires scientific review."
+}

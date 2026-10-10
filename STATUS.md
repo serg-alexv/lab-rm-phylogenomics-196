@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-RUNNING. Pilot markers1 and2 completed and independently validated. ADK has196 exact unique tips,224 alignment columns,WAG+I+G4,1000 UFBoot replicates,150 numeric supports6-100 and43 explicitly unlabeled internal branches. Its native completion was07:53:10 UTC. ATP-synt is now running; ASTRAL and full pipeline have not run. The v2 validator records native unlabeled supports without imputation. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot80/progress.json).
+RUNNING. Two of five pilot markers validated; ATP-synt is running. Explicit pilot/full validation passed8 isolated WSL fixture cases including truncation detection and missing-locus taxon unions. Direct iTOL integration passed12 offline mocked API cases and is staged for installation after pilot closure. No real upload, production tree, or defense dataset yet. Active Bash source is unchanged. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_integration81/progress.json).
 
 # Current execution status
 
