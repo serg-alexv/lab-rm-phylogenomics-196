@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T03:02:10.060612+00:00",
+  "updated_utc": "2026-10-10T03:02:56.265063+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "fresh DriveFS04 write and Windows readback PASS; reviewed UNC03 preparation source only",
+  "stage5_operational_phase": "fresh runtime08 discovery PASS; full installed manifest exactly reproduces f64edf; UNC03 config prepared but probe not run",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -216,7 +216,8 @@
     "stage5_setup_storage_actual_postiq_06": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
     "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
-    "stage5_setup_drivefs_actual_postiq_04": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
+    "stage5_setup_drivefs_actual_postiq_04": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+    "stage5_setup_runtime_actual_postiq_08": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
@@ -255,9 +256,9 @@
   "host_restart_requested_due_utc": "2026-10-10T00:36:00.852634+00:00",
   "host_newboot_reconciliation_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
   "stage5_latest_postboot_gate": {
-    "spool": "stage5_setup_drivefs_actual_postiq_04",
+    "spool": "stage5_setup_runtime_actual_postiq_08",
     "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
-    "independent_review_sha256": "9422740541af40f25eaf6de2bd990b9e2a9dd3b5726f8331621f1e69a0c352e9"
+    "independent_review_sha256": "d5247b7f8083f25044b1346203a96264cfdf5b4c99aea6af9d5f9727143158b1"
   },
   "stage5_current_linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
   "stage5_gdrive_postboot_scope": "stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92",

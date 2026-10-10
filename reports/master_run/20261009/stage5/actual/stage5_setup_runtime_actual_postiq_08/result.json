@@ -1,0 +1,102 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+  "step": "runtime",
+  "source_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+  "linux_source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "5b33e980f20a4ef48b622c463e69946a",
+  "actual_windows_owner": {
+    "pid": 5924,
+    "creation_filetime": 134360745745709085,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 152,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.01600000000144064,
+    "successful_calls": 152
+  },
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T02:57:31.759709+00:00",
+    "physical_available_bytes": 2440245248,
+    "commit_headroom_bytes": 3172098048,
+    "commit_total_bytes": 18834677760,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233517105152,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_08": 245807480832
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "actual_wsl_exit": {
+    "pid": 20856,
+    "creation_filetime": 134360745747560187,
+    "exit_filetime": 134360746514190102,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "wsl_exit_receipt_sha256": "fb5a4666157ec8db740b91b49bfebb77097a15fb121ac49184b2d77e91866554",
+  "native_commands": [
+    {
+      "label": "runtime_discovery",
+      "launch_sha256": "8a6ab38b4c3d94d363b5ced9a657069f3dd7d9394e49d904ad3d1a90b8a22cdb",
+      "closure_sha256": "7dcf0d348588a1a9430be5414e7cdbc634042ec80cd86cecdc84e9ef5b9fa751",
+      "command_sha256": "3b273e7741639466e114475fb6249950d9911b4aff177d7d8844a086185db724"
+    }
+  ],
+  "linux_terminal_sha256": "ff57e1ed291e5a4d14888ea47c22b74850605bab3e3331fabbf34618ec207dcf",
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "utc": "2026-10-10T02:57:31.764902+00:00"
+}
