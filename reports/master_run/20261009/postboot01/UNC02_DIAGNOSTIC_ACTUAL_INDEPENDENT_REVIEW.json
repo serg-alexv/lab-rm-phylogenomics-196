@@ -1,0 +1,145 @@
+{
+  "Ubuntu_registration": {
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "DefaultUid": 1000,
+    "DistributionName": "Ubuntu",
+    "Flags": 15,
+    "Version": 2
+  },
+  "actual_job_name": "Local\\LAB_RM_STAGE5_IO_f7bbc0250ab146619678a67320558ba3",
+  "actual_stage5_detectors": "NOT_RUN",
+  "biological_or_UNC_adoption": "NONE",
+  "diagnostic_request_sha256": "e7f67e69f1afda4b25bdba576939a78d600b340d98ec286594fd6ef47f60cde1",
+  "files": [
+    {
+      "bytes": 2385,
+      "path": "stage5_unc_bind_actual_postiq_02\\request.json",
+      "sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c"
+    },
+    {
+      "bytes": 40596,
+      "path": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "bytes": 29071,
+      "path": "stage5_unc_bind_probe.py",
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    {
+      "bytes": 17607,
+      "path": "stage5_unc02_readonly_diagnostic.py",
+      "sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f"
+    },
+    {
+      "bytes": 3136,
+      "path": "stage5_unc02_diagnostic_actual01\\diagnostic_request.json",
+      "sha256": "e7f67e69f1afda4b25bdba576939a78d600b340d98ec286594fd6ef47f60cde1"
+    },
+    {
+      "bytes": 5382,
+      "path": "stage5_unc02_diagnostic_actual01\\result.json",
+      "sha256": "445f632f263ed9ed0dd1c09314023f1266cd5d6088cee72d5d2a1ad0f5cfd2cd"
+    },
+    {
+      "bytes": 8809,
+      "path": "stage5_unc02_diagnostic_actual01\\worker_result.json",
+      "sha256": "b64bd53edd72485eb8c6aa1c4198cf7c709e8d61f837810eb17fce825724d1e9"
+    },
+    {
+      "bytes": 7280,
+      "path": "stage5_unc02_diagnostic_actual01\\worker_progress.json",
+      "sha256": "b94dfcafbb8f517678d6c3987e2e4143c2c722595874becfe558b13feac06e01"
+    },
+    {
+      "bytes": 2500,
+      "path": "stage5_unc02_diagnostic_actual01\\windows_readonly_worker\\result.json",
+      "sha256": "c11cc6aa7624a5490ef26368904017eeada76c5309f78ab2ff8e5560ddd1b243"
+    },
+    {
+      "bytes": 1653,
+      "path": "stage5_unc02_diagnostic_actual01\\windows_readonly_worker\\launch.json",
+      "sha256": "9a625d208ca96542083b0310da30d1d6ba340e76de0a68988bfda2dd4dcb49ad"
+    },
+    {
+      "bytes": 1981,
+      "path": "stage5_unc02_diagnostic_actual01\\windows_readonly_worker\\root_exit.json",
+      "sha256": "38ab4cc5150414cdbd51effa08ebd93a9d7b8b3067c834ae139176535e6504a9"
+    },
+    {
+      "bytes": 2268,
+      "path": "stage5_unc02_diagnostic_actual01\\windows_readonly_worker\\progress.json",
+      "sha256": "283752ec85f3133ea42c0157035667a251f19a2963fe1d5900f547fe508513ec"
+    },
+    {
+      "bytes": 5964,
+      "path": "master_uncdiagnostic43_remote_readback.json",
+      "sha256": "fb9dc737bd7545295c190af72e24024451c78bf9758d92b64f278c2783aa4dd0"
+    }
+  ],
+  "findings": [
+    "Canonical directory and both leaves consistently returned WinError3 PATH_NOT_FOUND at every read phase.",
+    "Backing directory and both leaves consistently returned WinError5 ACCESS_DENIED at every read phase.",
+    "Original tiny_read failed during lstat; no nlink metadata or sentinel payload was returned. The diagnostic does not establish an nlink predicate defect.",
+    "DefaultUid1000 plus root prepare mode0700 is consistent with the backing permission error; diagnostic Windows metadata cannot independently confirm Linux ownership because access was denied.",
+    "PATH_NOT_FOUND at the canonical view with a distinct backing ACCESS_DENIED supports a namespace/visibility blocker in addition to permission denial. This receipt alone does not prove the exact WSL propagation mechanism.",
+    "No conclusion about windows.bin presence or partial bytes is possible from denied/path-not-found observations."
+  ],
+  "next_gate_requirement": "Any WSL reconfiguration/restart invalidates prior Linux-boot setup qualification; repeat fresh exact setup/runtime/G/storage/DriveFS/UNC gates before scientific admission.",
+  "original_lock_identity": {
+    "creation_filetime": 134359335921635133,
+    "file_index": 844424932784519,
+    "locked_byte": 0,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143
+  },
+  "original_lock_release_recorded": true,
+  "original_request_sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+  "owned_closure_proven": true,
+  "owned_job_final": {
+    "job_active_processes": 0,
+    "job_cpu_seconds": 0.25,
+    "job_pids": [],
+    "peak_job_committed_bytes": 16134144,
+    "peak_process_committed_bytes": 14979072
+  },
+  "retained_worker_birth": {
+    "cpu_seconds": 0.0,
+    "creation_filetime": 134360704089934717,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "exit_code": null,
+    "exit_filetime": 0,
+    "exited": false,
+    "pid": 11932,
+    "session_id": 1
+  },
+  "retained_worker_exit": {
+    "cpu_seconds": 0.234375,
+    "creation_filetime": 134360704089934717,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "exit_code": 0,
+    "exit_filetime": 134360704094572844,
+    "exited": true,
+    "pid": 11932,
+    "session_id": 1
+  },
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "UNC_writes": 0,
+    "WSL_launches": 0,
+    "actual_UNC_reads": 0,
+    "lock_acquisitions": 0
+  },
+  "schema": "STAGE05_UNC02_DIAGNOSTIC_ACTUAL_INDEPENDENT_REVIEW_V1",
+  "sentinel_payload_bytes_status": "NOT_READ; expected hashes bound to original request only",
+  "source_commit": "7640f3a75eb60d626ba9e7d89627a650306e4836",
+  "source_remote_blob": "e11e0ee675bba3acf7c188bd924d8800d90ce110",
+  "source_remote_bytes_independently_read": true,
+  "source_sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc02_diagnostic_actual01",
+  "state": "PASS_EXACT_DIAGNOSTIC_BYTES_AND_RETAINED_WINDOWS_CLOSURE_UNC_GATE_STILL_FAILED",
+  "unknown_closure_STOP_absent_recorded": true,
+  "utc": "2026-10-10T01:51:51.066907+00:00",
+  "verified_files": 13,
+  "worker_elapsed_seconds": 0.4638127
+}

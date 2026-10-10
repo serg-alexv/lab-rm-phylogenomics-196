@@ -1,0 +1,70 @@
+{
+  "schema": "STAGE05_UNC02_READONLY_DIAGNOSTIC_REQUEST_V1",
+  "source_sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+  },
+  "original_request_sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+  "targets": [
+    {
+      "role": "canonical_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8"
+    },
+    {
+      "role": "canonical_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "ee8f35d7376d391d5bc60ec1127c440819427d423ef2fada239c592c0760ae4a"
+    },
+    {
+      "role": "backing_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8"
+    },
+    {
+      "role": "backing_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "ee8f35d7376d391d5bc60ec1127c440819427d423ef2fada239c592c0760ae4a"
+    }
+  ],
+  "directories": [
+    {
+      "role": "canonical_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210"
+    },
+    {
+      "role": "backing_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210"
+    }
+  ],
+  "authority_sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+  "Ubuntu_registration": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 1000,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "actual_windows_owner": {
+    "pid": 24352,
+    "creation_filetime": 134360704088221744,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  }
+}

@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T01:46:17.539300+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T01:52:26.728258+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: five fresh setup gates pass; UNC02 remains a preserved closed failure. A bounded read-only diagnostic is prepared under the existing Windows Job and original workflow lock to distinguish exact canonical/backing path visibility, metadata and permissions. It reads only the failed scope's two public sentinel leaves and records no payload bytes. No diagnostic execution or remediation is claimed by this source-preparation step. Accepted Stage4 is unchanged; first-genome execution, production curation and actual VM splitting remain pending.
+Stage5 current execution: the bounded read-only Windows diagnostic passed with retained worker exit0, empty named Job and original lock release. Its exact canonical directory/leaves returned WinError3 (path not found); its ext4 backing directory/leaves returned WinError5 (access denied). Ubuntu currently uses DefaultUid1000, while the probe runs as root and creates a mode0700 directory. Configuration currently enables systemd and selects gns3 as default user. A controlled switch to WSL init and default root is planned, followed by a WSL restart and entirely fresh boot-sensitive gates; this step changes no configuration. Accepted Stage4 is unchanged. Detector execution, production curation and actual VM splitting remain NOT_RUN.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -138,3 +138,6 @@ Actual operational update: Preserve closed UNC02 Windows I/O failure for exact d
 - `stage5_unc_bind_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.
 
 Actual operational update: Prepare independently checked bounded read-only UNC02 diagnosis
+
+Actual operational update: Verify distinct UNC canonical visibility and backing access failures
+- `stage5_unc02_diagnostic_actual01`: PASS_READONLY_DIAGNOSTIC_AND_EXACT_OWNED_WINDOWS_CLOSURE; exact command, closure, resources and lock-release receipts are retained.

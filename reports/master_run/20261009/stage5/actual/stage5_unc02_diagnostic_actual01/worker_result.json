@@ -1,0 +1,163 @@
+{
+  "schema": "STAGE05_UNC02_READONLY_WORKER_V1",
+  "state": "PASS_READONLY_DIAGNOSTIC_COMPLETE_NO_PROBE_ADOPTION",
+  "source_sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f",
+  "original_request_sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+  "diagnostic_request_sha256": "e7f67e69f1afda4b25bdba576939a78d600b340d98ec286594fd6ef47f60cde1",
+  "observations": [
+    {
+      "role": "canonical_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8",
+      "metadata_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "tiny_read_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "readonly_payload_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "metadata_after_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 2,
+        "winerror": 3
+      }
+    },
+    {
+      "role": "canonical_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "ee8f35d7376d391d5bc60ec1127c440819427d423ef2fada239c592c0760ae4a",
+      "metadata_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "tiny_read_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "readonly_payload_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 3
+      },
+      "metadata_after_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 3
+      }
+    },
+    {
+      "role": "backing_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "tiny_read_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "readonly_payload_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "metadata_after_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      }
+    },
+    {
+      "role": "backing_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "ee8f35d7376d391d5bc60ec1127c440819427d423ef2fada239c592c0760ae4a",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "tiny_read_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "readonly_payload_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "metadata_after_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      }
+    }
+  ],
+  "directory_observations": [
+    {
+      "role": "canonical_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210",
+      "metadata_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 3] The system cannot find the path specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210'",
+        "errno": 2,
+        "winerror": 3
+      }
+    },
+    {
+      "role": "backing_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210'",
+        "errno": 13,
+        "winerror": 5
+      }
+    }
+  ],
+  "Ubuntu_registration": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 1000,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "UNC_writes": 0,
+  "WSL_launches": 0,
+  "cleanup_performed": false,
+  "scientific_adoption_authorized": false,
+  "utc": "2026-10-10T01:46:49.440942+00:00"
+}
