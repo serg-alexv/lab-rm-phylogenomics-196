@@ -1,0 +1,22 @@
+{
+  "accepted_input_audit_sha256": "c4aeb2afea658d5b0c7a1e4fb4e4e8b9a88c41070f9525657b992c8749e09c9c",
+  "alignment_column_max": 557,
+  "alignment_column_min": 39,
+  "alignment_columns_sum_across_markers": 20957,
+  "approved_accessions_expected": 196,
+  "audit": "full100_mafft_alignment_integrity",
+  "errors": [],
+  "expected_markers": 100,
+  "expected_records": 19359,
+  "finished_utc": "2026-10-10T10:16:26.894988+00:00",
+  "input_manifest_sha256": "c4f5d8c7c9a1622c4cad2ef943e3c03db0ee592aa9389d43bf28b206ff745a62",
+  "observed_accession_union": 196,
+  "observed_alignment_markers": 100,
+  "observed_input_markers": 100,
+  "observed_records": 19359,
+  "per_marker_file_hashes_stable_during_audit": true,
+  "sequence_normalization": "FASTA sequence lines concatenated after whitespace removal and uppercased; aligned gaps removed with replace(\"-\", \"\") before exact comparison",
+  "started_utc": "2026-10-10T10:16:06.518560+00:00",
+  "state": "PASS",
+  "union_exactly_approved": true
+}

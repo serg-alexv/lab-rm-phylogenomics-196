@@ -1,0 +1,291 @@
+IQ-TREE version 3.1.4 for Linux x86 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    wd (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s pipeline_output/alignments/5-FTHF_cyc-lig_aligned.fasta -m MFP -bb 1000 -nt 2 -mem 3000M -pre pipeline_output/trees/5-FTHF_cyc-lig
+Seed:    85932 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Oct 10 13:06:26 2026
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file pipeline_output/alignments/5-FTHF_cyc-lig_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00767303 secs using 2.998% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000396967 secs using 53.66% CPU
+Alignment has 189 sequences with 210 columns, 204 distinct patterns
+181 parsimony-informative, 11 singleton sites, 18 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00012207 secs using 67.17% CPU
+   1  GCF_000009425.1   15.71%    passed      8.71%
+   2  GCF_000010145.1   12.38%    passed     57.07%
+   3  GCF_000011045.1    9.52%    passed     22.66%
+   4  GCF_000014385.1   13.33%    passed     26.76%
+   5  GCF_000014425.1   11.90%    passed     13.14%
+   6  GCF_000014505.1   10.95%    passed     82.08%
+   7  GCF_000015385.1   11.43%    passed     30.30%
+   8  GCF_000016825.1   12.38%    passed     99.68%
+   9  GCF_000023085.1   10.48%    passed     77.91%
+  10  GCF_000025045.1   15.71%    passed     11.77%
+  11  GCF_000026405.1   15.71%    passed     58.04%
+  12  GCF_000148815.2   10.48%    passed     74.05%
+  13  GCF_000155515.2   11.43%    passed      5.99%
+  14  GCF_000160835.1   12.38%    passed     55.59%
+  15  GCF_000203855.3   10.48%    passed     78.14%
+  16  GCF_000237995.1    9.05%    passed     89.25%
+  17  GCF_000241055.1   13.33%    passed     97.58%
+  18  GCF_000269925.1   18.10%    passed     21.88%
+  19  GCF_000269945.1   18.10%    passed     21.88%
+  20  GCF_000298875.1   14.76%    passed     64.49%
+  21  GCF_000468955.1   15.71%    passed     19.44%
+  22  GCF_000691805.2   11.90%    passed     50.87%
+  23  GCF_001434365.1   12.86%    passed     35.91%
+  24  GCF_001434705.1   15.24%    failed      0.00%
+  25  GCF_001435245.1   13.81%    failed      0.21%
+  26  GCF_001436135.1   12.38%    passed      6.78%
+  27  GCF_001436905.1    9.05%    passed     89.25%
+  28  GCF_001437055.1   10.00%    passed     96.45%
+  29  GCF_001437425.1   12.38%    passed     83.11%
+  30  GCF_001438705.1   10.48%    passed     32.85%
+  31  GCF_001536305.1   14.76%    passed     85.18%
+  32  GCF_001618285.1   13.33%    passed     26.76%
+  33  GCF_001702215.1    9.05%    passed     89.25%
+  34  GCF_001702235.1    9.05%    passed     89.25%
+  35  GCF_001752505.1   13.33%    passed     97.58%
+  36  GCF_001752515.1   13.33%    passed     97.58%
+  37  GCF_001752545.1   13.33%    passed     97.58%
+  38  GCF_001761545.1   10.00%    passed     38.41%
+  39  GCF_001767275.1    8.57%    passed     75.40%
+  40  GCF_001888925.1    9.52%    passed     52.80%
+  41  GCF_001891125.1   14.76%    passed     87.81%
+  42  GCF_001932615.1   11.90%    passed     29.88%
+  43  GCF_001998805.1   15.71%    passed     18.62%
+  44  GCF_002174215.1    8.57%    passed     75.40%
+  45  GCF_002950695.1   12.38%    passed      5.54%
+  46  GCF_002970915.1   18.10%    passed     41.73%
+  47  GCF_002970935.1   10.48%    passed     27.85%
+  48  GCF_003150935.1    9.52%    passed     69.90%
+  49  GCF_003151025.1    8.57%    passed     23.88%
+  50  GCF_003173695.1    9.05%    passed     90.32%
+  51  GCF_003176835.1   15.71%    passed     16.33%
+  52  GCF_003264795.1   13.33%    passed     26.76%
+  53  GCF_003584685.1   11.90%    failed      3.07%
+  54  GCF_003641185.1   10.48%    passed     68.26%
+  55  GCF_003722275.1   15.71%    passed      9.70%
+  56  GCF_003999355.1   11.90%    passed     82.57%
+  57  GCF_004354645.1   11.90%    passed     20.89%
+  58  GCF_004377635.1   13.33%    passed     26.76%
+  59  GCF_005405405.1   11.43%    passed     66.34%
+  60  GCF_005405465.1   11.90%    passed     27.37%
+  61  GCF_007954605.1   15.71%    passed     18.62%
+  62  GCF_007954785.1   15.71%    passed     57.51%
+  63  GCF_008107645.1   16.19%    passed     99.49%
+  64  GCF_008831485.1    9.52%    passed     52.27%
+  65  GCF_009184845.1   13.33%    passed     24.19%
+  66  GCF_009856565.1   16.67%    passed     78.84%
+  67  GCF_009913655.1   10.48%    passed     82.85%
+  68  GCF_009913995.1   10.95%    passed     82.08%
+  69  GCF_009914015.1   10.95%    passed     82.08%
+  70  GCF_009914035.1   10.95%    passed     82.08%
+  71  GCF_010092385.1    8.57%    passed     81.38%
+  72  GCF_011058775.1   12.86%    failed      0.76%
+  73  GCF_011304355.1   12.86%    passed     97.93%
+  74  GCF_013113695.1   13.33%    passed     26.76%
+  75  GCF_013407595.1   11.43%    failed      0.00%
+  76  GCF_014131735.1   10.48%    passed     78.14%
+  77  GCF_014145545.1   12.38%    passed     98.70%
+  78  GCF_014145555.1   12.38%    passed     92.07%
+  79  GCF_014145615.1   12.38%    passed     99.66%
+  80  GCF_014397255.1   14.29%    passed     98.65%
+  81  GCF_014656585.1   10.48%    passed     75.11%
+  82  GCF_014789145.1   11.90%    passed     83.07%
+  83  GCF_016127255.1   13.33%    passed     94.86%
+  84  GCF_016127815.1    8.57%    passed     83.49%
+  85  GCF_016647595.1   10.95%    passed     76.15%
+  86  GCF_016919665.1   16.19%    passed     86.39%
+  87  GCF_017068355.1   16.19%    passed     84.75%
+  88  GCF_017894345.1   11.90%    failed      0.02%
+  89  GCF_018394055.1   11.43%    passed     99.42%
+  90  GCF_018502505.1   11.43%    passed     81.28%
+  91  GCF_019448175.1    8.57%    passed     83.49%
+  92  GCF_019469265.1    9.52%    passed     54.29%
+  93  GCF_019576155.1   13.33%    passed     98.64%
+  94  GCF_019797825.1   12.38%    passed     92.91%
+  95  GCF_020510245.1   13.33%    passed     26.76%
+  96  GCF_020784695.1   12.38%    passed     99.58%
+  97  GCF_020844005.1   16.67%    passed     79.07%
+  98  GCF_021378055.1   10.95%    passed     82.08%
+  99  GCF_023169905.1   15.71%    passed     21.35%
+ 100  GCF_023499275.1   18.10%    passed     78.88%
+ 101  GCF_023920145.1   13.33%    passed     26.76%
+ 102  GCF_024334065.1   16.67%    passed     79.73%
+ 103  GCF_024397795.1   10.48%    passed     35.48%
+ 104  GCF_024718545.1   11.90%    passed      6.34%
+ 105  GCF_025311495.1   12.38%    passed     84.22%
+ 106  GCF_025490915.1   14.29%    failed      3.38%
+ 107  GCF_025739325.1   16.67%    passed     79.73%
+ 108  GCF_025948295.1   16.67%    passed     79.73%
+ 109  GCF_026222675.1    3.81%    passed     84.94%
+ 110  GCF_028607025.1   11.90%    passed     77.44%
+ 111  GCF_028621815.1    8.57%    passed     75.40%
+ 112  GCF_028736235.1    8.10%    passed     38.56%
+ 113  GCF_029025825.1   10.48%    passed     70.99%
+ 114  GCF_029726355.1   11.43%    passed     14.25%
+ 115  GCF_029854335.1   10.48%    passed     74.05%
+ 116  GCF_029866985.1   16.67%    passed     78.84%
+ 117  GCF_030480545.1   12.86%    passed     18.15%
+ 118  GCF_030770265.1   11.43%    failed      4.96%
+ 119  GCF_030770295.1   11.43%    failed      2.81%
+ 120  GCF_030770335.1   11.43%    passed      7.28%
+ 121  GCF_032762665.1   13.33%    passed     26.76%
+ 122  GCF_033142085.1   13.33%    passed     26.76%
+ 123  GCF_033570435.1   12.38%    passed     99.73%
+ 124  GCF_034703025.1    8.57%    passed     75.40%
+ 125  GCF_035985965.1   15.71%    passed      8.78%
+ 126  GCF_036246165.1   10.48%    passed     99.16%
+ 127  GCF_036246185.1   10.48%    passed     99.16%
+ 128  GCF_036246225.1   14.29%    failed      0.52%
+ 129  GCF_036327715.1   12.38%    passed     46.67%
+ 130  GCF_037290055.1   10.48%    passed     75.33%
+ 131  GCF_037891785.1   18.10%    passed     78.88%
+ 132  GCF_037892375.1   18.10%    passed     44.75%
+ 133  GCF_038049945.1   16.67%    passed     36.08%
+ 134  GCF_039645515.1   18.10%    passed     82.92%
+ 135  GCF_039645575.1   18.10%    passed     44.75%
+ 136  GCF_039783225.1   16.67%    passed     79.73%
+ 137  GCF_039783785.1   16.67%    passed     79.73%
+ 138  GCF_039955095.1   13.33%    passed     89.66%
+ 139  GCF_041225485.1   18.10%    passed     69.43%
+ 140  GCF_041225605.1   18.10%    passed     79.52%
+ 141  GCF_041281755.1   10.95%    passed     13.83%
+ 142  GCF_041509385.1   16.67%    passed     78.84%
+ 143  GCF_041514285.1   16.67%    passed     78.84%
+ 144  GCF_041514295.1   16.67%    passed     78.84%
+ 145  GCF_041893975.1   16.67%    passed     78.84%
+ 146  GCF_042847315.1   14.76%    failed      1.77%
+ 147  GCF_042997415.1   11.90%    passed     15.72%
+ 148  GCF_045760565.1   18.10%    passed     79.52%
+ 149  GCF_045862825.1   10.48%    passed     74.56%
+ 150  GCF_046109915.1   11.43%    passed     30.30%
+ 151  GCF_050407965.1   10.48%    passed     68.26%
+ 152  GCF_050847345.1   10.48%    passed     80.81%
+ 153  GCF_051098045.1   10.48%    passed     70.99%
+ 154  GCF_052569745.1   16.67%    passed     79.07%
+ 155  GCF_052570115.1   16.67%    passed     79.07%
+ 156  GCF_052571685.1   16.67%    passed     79.07%
+ 157  GCF_054073565.1   12.86%    failed      4.44%
+ 158  GCF_054331775.1   12.86%    passed     61.05%
+ 159  GCF_054452875.2   14.29%    passed     33.70%
+ 160  GCF_054784775.1   13.81%    passed      7.76%
+ 161  GCF_054785075.1   14.29%    failed      1.65%
+ 162  GCF_055180435.1   15.71%    passed     21.35%
+ 163  GCF_055502585.1   10.95%    passed     70.21%
+ 164  GCF_055755075.1   10.95%    passed     82.08%
+ 165  GCF_056269605.1   16.67%    passed     76.26%
+ 166  GCF_056676095.1   12.38%    passed     77.86%
+ 167  GCF_057786735.1   16.67%    passed     79.73%
+ 168  GCF_058111805.1   14.76%    passed     89.10%
+ 169  GCF_059089415.1    8.57%    passed     75.40%
+ 170  GCF_060305805.1   15.71%    passed     16.33%
+ 171  GCF_060307215.1   15.71%    passed     16.33%
+ 172  GCF_900016205.1   14.76%    passed     85.18%
+ 173  GCF_900094835.1   10.95%    passed     63.20%
+ 174  GCF_900240275.1   11.90%    passed     26.44%
+ 175  GCF_900519455.1   13.33%    passed     26.76%
+ 176  GCF_900519475.1   13.33%    passed     26.76%
+ 177  GCF_900636965.1    9.52%    passed     22.66%
+ 178  GCF_903885985.1   16.67%    passed     26.59%
+ 179  GCF_903886345.1   16.67%    passed     26.59%
+ 180  GCF_903886475.1   16.67%    passed     79.73%
+ 181  GCF_903891025.1   16.67%    passed     79.07%
+ 182  GCF_903891205.1   16.67%    passed     76.02%
+ 183  GCF_947539375.1   11.90%    passed     34.04%
+ 184  GCF_963243495.1   10.48%    passed     99.57%
+ 185  GCF_963281025.1   11.90%    passed     77.44%
+ 186  GCF_965136965.1   11.43%    passed     66.34%
+ 187  GCF_965286295.1   10.48%    passed     80.43%
+ 188  GCF_965286585.1   12.38%    passed     57.07%
+ 189  GCF_982267005.1   15.71%    passed     13.34%
+****  TOTAL             12.99%  13 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: GCF_965286585.1 is identical to GCF_000010145.1 but kept for subsequent analysis
+NOTE: GCF_900636965.1 is identical to GCF_000011045.1 but kept for subsequent analysis
+NOTE: GCF_001618285.1 is identical to GCF_000014385.1 but kept for subsequent analysis
+NOTE: GCF_009913995.1 is identical to GCF_000014505.1 but kept for subsequent analysis
+NOTE: GCF_046109915.1 is identical to GCF_000015385.1 but kept for subsequent analysis
+NOTE: GCF_029854335.1 is identical to GCF_000148815.2 but kept for subsequent analysis
+NOTE: GCF_014131735.1 is identical to GCF_000203855.3 but kept for subsequent analysis
+NOTE: GCF_001436905.1 is identical to GCF_000237995.1 but kept for subsequent analysis
+NOTE: GCF_001752505.1 is identical to GCF_000241055.1 but kept for subsequent analysis
+NOTE: GCF_000269945.1 is identical to GCF_000269925.1 but kept for subsequent analysis
+NOTE: GCF_900016205.1 is identical to GCF_001536305.1 but kept for subsequent analysis
+NOTE: GCF_002174215.1 is identical to GCF_001767275.1 but kept for subsequent analysis
+NOTE: GCF_007954605.1 is identical to GCF_001998805.1 but kept for subsequent analysis
+NOTE: GCF_060305805.1 is identical to GCF_003176835.1 but kept for subsequent analysis
+NOTE: GCF_050407965.1 is identical to GCF_003641185.1 but kept for subsequent analysis
+NOTE: GCF_965136965.1 is identical to GCF_005405405.1 but kept for subsequent analysis
+NOTE: GCF_029866985.1 is identical to GCF_009856565.1 but kept for subsequent analysis
+NOTE: GCF_019448175.1 is identical to GCF_016127815.1 but kept for subsequent analysis
+NOTE: GCF_052569745.1 is identical to GCF_020844005.1 but kept for subsequent analysis
+NOTE: GCF_055180435.1 is identical to GCF_023169905.1 but kept for subsequent analysis
+NOTE: GCF_037891785.1 is identical to GCF_023499275.1 but kept for subsequent analysis
+NOTE: GCF_025739325.1 is identical to GCF_024334065.1 but kept for subsequent analysis
+NOTE: GCF_963281025.1 is identical to GCF_028607025.1 but kept for subsequent analysis
+NOTE: GCF_051098045.1 is identical to GCF_029025825.1 but kept for subsequent analysis
+NOTE: GCF_036246185.1 is identical to GCF_036246165.1 but kept for subsequent analysis
+NOTE: GCF_045760565.1 is identical to GCF_041225605.1 but kept for subsequent analysis
+NOTE: GCF_903886345.1 is identical to GCF_903885985.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0474548 secs using 108.3% CPU
+Identifying sites to remove: done in 0.000614882 secs using 185.4% CPU
+NOTE: 33 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GCF_003264795.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_004377635.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_013113695.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_020510245.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_023920145.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_032762665.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_033142085.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_900519455.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_900519475.1 (identical to GCF_000014385.1) is ignored but added at the end
+NOTE: GCF_009914015.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_009914035.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_021378055.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_055755075.1 (identical to GCF_000014505.1) is ignored but added at the end
+NOTE: GCF_001702215.1 (identical to GCF_000237995.1) is ignored but added at the end
+NOTE: GCF_001702235.1 (identical to GCF_000237995.1) is ignored but added at the end
+NOTE: GCF_001752515.1 (identical to GCF_000241055.1) is ignored but added at the end
+NOTE: GCF_001752545.1 (identical to GCF_000241055.1) is ignored but added at the end
+NOTE: GCF_028621815.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_034703025.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_059089415.1 (identical to GCF_001767275.1) is ignored but added at the end
+NOTE: GCF_060307215.1 (identical to GCF_003176835.1) is ignored but added at the end
+NOTE: GCF_041509385.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041514285.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041514295.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_041893975.1 (identical to GCF_009856565.1) is ignored but added at the end
+NOTE: GCF_052570115.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_052571685.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_903891025.1 (identical to GCF_020844005.1) is ignored but added at the end
+NOTE: GCF_025948295.1 (identical to GCF_024334065.1) is ignored but added at the end
+NOTE: GCF_039783225.1 (identical to GCF_024334065.1) is ignored but added at the end
+NOTE: GCF_039783785.1 (identical to GCF_024334065.1) is ignored but added at the end
+NOTE: GCF_057786735.1 (identical to GCF_024334065.1) is ignored but added at the end
+NOTE: GCF_903886475.1 (identical to GCF_024334065.1) is ignored but added at the end
+Alignment was printed to pipeline_output/trees/5-FTHF_cyc-lig.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to pipeline_output/trees/5-FTHF_cyc-lig.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.042 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -22276.293
+Optimal log-likelihood: -22275.856
+Proportion of invariable sites: 0.066
+Gamma shape alpha: 1.364
+Parameters optimization took 1 rounds (0.454 sec)
+Time for fast ML tree search: 2.572 seconds
+
+NOTE: ModelFinder requires 54 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 210 epsilon: 0.100) ...

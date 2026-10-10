@@ -1,0 +1,71 @@
+{
+  "schema": "progress-snapshot-capture89",
+  "observed_utc": "2026-10-10T10:15:26.4033122Z",
+  "captures": [
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\full_run.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_alignment_publication89\\reports\\stage01\\progress89\\full_run.log.capture2",
+      "bytes": 2007,
+      "sha256": "1c0ced88a764a4149aaf75f10bec63893766f9a8228828bf0ad184e981c54c14",
+      "source_bytes_before": 2007,
+      "source_bytes_after": 2007,
+      "source_mtime_before_utc": "2026-10-10T10:06:26.0290000Z",
+      "source_mtime_after_utc": "2026-10-10T10:06:26.0290000Z",
+      "changed_during_capture": false,
+      "phase": "PIPELINE_PROGRESS_ONLY"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\mafft_align.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_alignment_publication89\\reports\\stage01\\progress89\\mafft_align.log.capture2",
+      "bytes": 2819144,
+      "sha256": "816f35700ce6adfb57bc5f45e356aaa780062fc6ef54679ec7df937279de0aad",
+      "source_bytes_before": 2819144,
+      "source_bytes_after": 2819144,
+      "source_mtime_before_utc": "2026-10-10T10:06:25.4230000Z",
+      "source_mtime_after_utc": "2026-10-10T10:06:25.4230000Z",
+      "changed_during_capture": false,
+      "phase": "COMPLETED_MAFFT_LOOP_LOG"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\iqtree_progress.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_alignment_publication89\\reports\\stage01\\progress89\\iqtree_progress.log.capture2",
+      "bytes": 17258,
+      "sha256": "dfe97c172fac1668dd2b42826d2c14dc615083e2e0cbf3b4ffa9ac74024de623",
+      "source_bytes_before": 17258,
+      "source_bytes_after": 17258,
+      "source_mtime_before_utc": "2026-10-10T10:06:29.4110000Z",
+      "source_mtime_after_utc": "2026-10-10T10:06:29.4110000Z",
+      "changed_during_capture": false,
+      "phase": "IN_PROGRESS_IQTREE_LOG"
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pipeline_output\\trees\\5-FTHF_cyc-lig.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_alignment_publication89\\reports\\stage01\\progress89\\5-FTHF_cyc-lig.log.capture2",
+      "bytes": 17258,
+      "sha256": "dfe97c172fac1668dd2b42826d2c14dc615083e2e0cbf3b4ffa9ac74024de623",
+      "source_bytes_before": 17258,
+      "source_bytes_after": 17258,
+      "source_mtime_before_utc": "2026-10-10T10:06:26.1020000Z",
+      "source_mtime_after_utc": "2026-10-10T10:06:29.4120000Z",
+      "changed_during_capture": true,
+      "phase": "IN_PROGRESS_IQTREE_LOG"
+    }
+  ],
+  "alignments_observed": 100,
+  "tree_files": [
+    "5-FTHF_cyc-lig.log",
+    "5-FTHF_cyc-lig.model.gz",
+    "5-FTHF_cyc-lig.uniqueseq.phy"
+  ],
+  "terminal_receipts": [
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\local_full100_20261010\\attempt01\\terminal.json",
+      "exists": false
+    },
+    {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\local_full100_20261010\\attempt01\\linux_terminal.json",
+      "exists": false
+    }
+  ],
+  "active_iqtree_caches_snapshotted": false
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T09:51:20.765012+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "06918f30a83fb620908b0d29c34e688d8f69a890",
+  "initial_remote_main": "06918f30a83fb620908b0d29c34e688d8f69a890",
+  "declaration_sha256": "5d554e2fffd244597f7ea3d1974405ff36035cf7044fbaaaf84ec1bb830f2699",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 9,
+  "verified_files": 9,
+  "files": [
+    {
+      "path": "pilot_output/itol_visual_check_20261010/pilot_196_taxa.pdf",
+      "bytes": 69924,
+      "sha256": "2097d9c2550a1118147e8303853de071a7d51f6ad5e585cc61fa4917d79d3dca",
+      "remote_blob": "105a5b9d9fc51aa746fef44ef5834b755b279a89",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pilot_output/itol_visual_check_20261010/pilot_196_taxa.svg",
+      "bytes": 508961,
+      "sha256": "4c7336b5f9a85ae51470fe224935b8e254ad29e47331ccfd8fbfd70ab02c7c4a",
+      "remote_blob": "76936bdf84d99dd0de4ab11700556424b479fb19",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/STATUS.md",
+      "bytes": 1482,
+      "sha256": "9208dc081c17128b84fea6b64b9e9d30793506621c7ac03f8a4e5f576eebea8f",
+      "remote_blob": "bff9f0dc4092567a836463192d9096bd2057c22e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/inspect_itol_exports.py",
+      "bytes": 2828,
+      "sha256": "5e855aa68b5b2769b32fb38c4629a333f3fd57ce8b55becee95425173c8ead57",
+      "remote_blob": "0701b2ce2baefe473a610447b390e2bfa412d846",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/inspection_receipt.json",
+      "bytes": 1901,
+      "sha256": "b8d1543bd5e99a626f646e195ac04e909cabd67b1820ee37ea6617b1eb366f14",
+      "remote_blob": "ef64d537c58f7c51c0d001c337dc4b348e1025e8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/pilot_196_taxa_preview.png",
+      "bytes": 576349,
+      "sha256": "b24382236d8be5dde672cd445389b5c379570535bd301a47e4a72599f6eefa52",
+      "remote_blob": "759474a5ccad55af94f4ae00db9defa281dd49f7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/previous_remote_readback.json",
+      "bytes": 8442,
+      "sha256": "64293c0ea6e555e955f559dd3cb92996cff4f5b919508b3898d71a506d2ade40",
+      "remote_blob": "ee2bee2c9a5f78a5aba5e5f298a7d809b0835257",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/publication_receipt.json",
+      "bytes": 3384,
+      "sha256": "f16d2d067ba43e9ea689aed75e2cfc3c4ef62875f99d36ef2b92816f1ed3de46",
+      "remote_blob": "a819cb064207abc1339a13b71073836acd2a46fa",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_visual_check_20261010/render_pdf_preview.py",
+      "bytes": 663,
+      "sha256": "b2cfa22051d5d93be6d77e86ed377759380c9c1c77a140c5fb4c5e726ccc4c0d",
+      "remote_blob": "5ec3245f90ee2197de1ea817eb8c1a8b7e3f4705",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "06918f30a83fb620908b0d29c34e688d8f69a890",
+  "finished_utc": "2026-10-10T09:51:26.170785+00:00",
+  "elapsed_seconds": 5.405999999995402,
+  "verified_bytes": 1173934
+}
