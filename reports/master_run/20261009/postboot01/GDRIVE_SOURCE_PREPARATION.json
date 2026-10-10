@@ -1,0 +1,41 @@
+{
+  "schema": "STAGE05_GDRIVE_POSTBOOT_SOURCE_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_THREE_FOCUSED_C_ONLY_CONTRACTS_PASS",
+  "utc": "2026-10-10T01:14:08.902408+00:00",
+  "original_source_sha256": "edc02834f889cdd9bed8bce350d2b9fe2bbd79347f65a0ae124afdaec9f4dfa8",
+  "unchanged_guard_functions": {
+    "drive_mount": true,
+    "mount_prelaunch_gate": true,
+    "prior_gate": true,
+    "terminal_gate": true,
+    "control_gate": true,
+    "plain_chain": true,
+    "empty_directory": true
+  },
+  "files": [
+    {
+      "path": "prepare_stage5_gdrive_postboot_source01.py",
+      "bytes": 7512,
+      "sha256": "0e145fd5bb062d00a2cb58bccfbdc792ec793ede13eeedb0378b98450f3ce7a6"
+    },
+    {
+      "path": "stage5_gdrive_view_postboot.py",
+      "bytes": 30515,
+      "sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06"
+    },
+    {
+      "path": "test_stage5_gdrive_view_postboot.py",
+      "bytes": 2687,
+      "sha256": "465ae9c4e9b688ea44b7eafa10dd2aea3ca5c336550744f4b0b301b61ebbe16e"
+    },
+    {
+      "path": "stage5_gdrive_view_postboot_METHODS.md",
+      "bytes": 2411,
+      "sha256": "4d9149a94554041e40f5fa300e459a604327713855ac466bf0d4537c5bce0643"
+    }
+  ],
+  "fresh_linux_boot": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "actual_wsl_or_mount_execution": "NOT_RUN",
+  "independent_source_review": "PENDING_ROOT",
+  "publication": "PENDING_ROOT"
+}

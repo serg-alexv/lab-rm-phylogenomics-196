@@ -1,0 +1,31 @@
+{
+  "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "command_nonce": "2fad4bd6b6cd43f9a7d54b4d44f2ec72",
+  "group_empty": true,
+  "root_exit_code": 0,
+  "scope_limit": "dedicated subreaper, setsid group, exact descendants and pidfds; no cgroup isolation",
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "survivors": [],
+  "termination_reason": "Root exited with surviving owned descendants",
+  "tracked_descendants": [
+    {
+      "pgid": 1269,
+      "pid": 1269,
+      "ppid": 1268,
+      "sid": 1269,
+      "start_ticks": "221089",
+      "state": "S"
+    },
+    {
+      "pgid": 1270,
+      "pid": 1270,
+      "ppid": 1268,
+      "sid": 1270,
+      "start_ticks": "221098",
+      "state": "D"
+    }
+  ],
+  "tracked_descendants_empty": true,
+  "unexplained_pgid_members": [],
+  "utc": "2026-10-10T01:13:55.607140+00:00"
+}

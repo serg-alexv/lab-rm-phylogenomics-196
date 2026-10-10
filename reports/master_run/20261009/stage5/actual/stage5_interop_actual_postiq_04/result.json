@@ -1,0 +1,136 @@
+{
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "state": "PASS_NONSCIENTIFIC_INTEROP_ONLY",
+  "fixtures": [
+    "exit0",
+    "lease_expiry",
+    "escaped_descendant"
+  ],
+  "worker_sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c",
+  "supervisor_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+  "windows_api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+  "lease_ttl_seconds": 3,
+  "maximum_per_fixture_seconds": 60,
+  "scientific_adoption_authorized": false,
+  "actual_windows_owner": {
+    "pid": 25824,
+    "creation_filetime": 134360684282151580,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "results": [
+    {
+      "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+      "fixture": "exit0",
+      "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+      "owner_nonce": "cdbbc04ec75446d4885162452792f959",
+      "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "lease_replace_stats": {
+        "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+        "calls": 5,
+        "retries": 0,
+        "transient_failures": 0,
+        "transient_winerrors": {},
+        "last_replace_attempts": 1,
+        "last_replace_retries": 0,
+        "last_replace_seconds": 0.0,
+        "maximum_replace_seconds": 0,
+        "successful_calls": 5
+      },
+      "scientific_adoption_authorized": false,
+      "owned_closure_proven": true,
+      "actual_wsl_client_exit": {
+        "pid": 9292,
+        "creation_filetime": 134360684283448489,
+        "exit_filetime": 134360684303120699,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "terminal_sha256": "1a1a5854d5faf67661507754bd4bd26f3acc5ae88b098b810270a06c95877adf",
+      "actual_native_exit_code": 0,
+      "elapsed_seconds": 2.0779999999999745,
+      "wsl_stdout_sha256": "f0fec30f3190ff480c99cb7be0c26f5d0189399fefb488f64fffcf120462fe75",
+      "wsl_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+      "fixture": "lease_expiry",
+      "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+      "owner_nonce": "ec4dd78e55d84c8aa0dc6b24ddc10198",
+      "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "lease_replace_stats": {
+        "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+        "calls": 2,
+        "retries": 0,
+        "transient_failures": 0,
+        "transient_winerrors": {},
+        "last_replace_attempts": 1,
+        "last_replace_retries": 0,
+        "last_replace_seconds": 0.0,
+        "maximum_replace_seconds": 0,
+        "successful_calls": 2
+      },
+      "scientific_adoption_authorized": false,
+      "owned_closure_proven": true,
+      "actual_wsl_client_exit": {
+        "pid": 19168,
+        "creation_filetime": 134360684304384235,
+        "exit_filetime": 134360684339311109,
+        "cpu_seconds": 0.078125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "terminal_sha256": "9222b54495f6c5cb80a747a4f444d3c587fb4b9ba3904ce212d9e7d32b397b5e",
+      "actual_native_exit_code": -15,
+      "elapsed_seconds": 3.561999999999898,
+      "wsl_stdout_sha256": "6c5ed4a99424e455c1df1756c9914848f28c15d08e90ba495f3eb2ca8a8f31ff",
+      "wsl_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+      "fixture": "escaped_descendant",
+      "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+      "owner_nonce": "5bae9d00d9b942caa9cbf460a459b9fa",
+      "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+      "lease_replace_stats": {
+        "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+        "calls": 5,
+        "retries": 0,
+        "transient_failures": 0,
+        "transient_winerrors": {},
+        "last_replace_attempts": 1,
+        "last_replace_retries": 0,
+        "last_replace_seconds": 0.0,
+        "maximum_replace_seconds": 0.01499999999987267,
+        "successful_calls": 5
+      },
+      "scientific_adoption_authorized": false,
+      "owned_closure_proven": true,
+      "actual_wsl_client_exit": {
+        "pid": 3632,
+        "creation_filetime": 134360684340443858,
+        "exit_filetime": 134360684358362358,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "terminal_sha256": "162dd88ad0b8d1b74f565335b405befc89409c5adf3ce8c9ceb72ea5fbb5f636",
+      "actual_native_exit_code": 0,
+      "elapsed_seconds": 1.8600000000001273,
+      "wsl_stdout_sha256": "f290fc07ec43dc26ab851316bebe9da53f407a516a6fdb002526daf4d2fafbc2",
+      "wsl_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

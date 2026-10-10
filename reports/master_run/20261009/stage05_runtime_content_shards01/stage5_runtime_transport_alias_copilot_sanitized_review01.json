@@ -1,0 +1,56 @@
+{
+  "schema": "COPILOT_ALIAS_PUBLIC_SOURCE_REVIEW_SANITIZED_V1",
+  "state": "COMPLETED_READONLY_REVIEW_MAIN_FINDING_REJECTED_BY_ACTUAL_HASH_EVIDENCE",
+  "utc": "2026-10-10T01:14:21.918501+00:00",
+  "reviewed_source_sha256": "57a952adb2114f51231f75f95f6d343aa2bf3dfe5aadfe2810c2acb71b84ee6c",
+  "review_harness_sha256": "5b980df0a929ee20481f7a8a350b8947dd7fdebf21e8ba25c0fac7819b6b4039",
+  "model_override": null,
+  "configured_available_tools": [],
+  "configured_denied_tool_kinds": [
+    "shell",
+    "write",
+    "url"
+  ],
+  "builtin_mcps_disabled": true,
+  "custom_instructions_disabled": true,
+  "automatic_update_disabled": true,
+  "remote_session_export_disabled": true,
+  "root_terminal": {
+    "pid": 25588,
+    "creation_filetime": 134360683327422550,
+    "exit_filetime": 134360683550931249,
+    "cpu_seconds": 2.0,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\GitHubCopilotCLI\\copilot.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "root_birth": {
+    "pid": 25588,
+    "creation_filetime": 134360683327422550,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\GitHubCopilotCLI\\copilot.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owned_job": {
+    "peak_process_committed_bytes": 280403968,
+    "peak_job_committed_bytes": 281554944,
+    "job_cpu_seconds": 3.640625,
+    "job_active_processes": 0,
+    "job_pids": []
+  },
+  "owned_closure_proven": true,
+  "raw_output_or_session_logs_published": false,
+  "main_claim": "Copilot claimed capture SHA constant had65characters and could not match an actual index.",
+  "disposition": "REJECTED_FALSE_POSITIVE",
+  "actual_constant_characters": 64,
+  "actual_capture_sha256": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220",
+  "constant_matches_actual_capture_bytes": true,
+  "remaining_review_comments": "Caller must establish actual independent API metadata observations and fresh owned downloads; alias functions alone do not establish freshness. This boundary is explicit in source and still required.",
+  "accepted_blocking_defects": 0,
+  "scientific_or_remote_recovery_acceptance": false,
+  "cleanup_authority": false
+}

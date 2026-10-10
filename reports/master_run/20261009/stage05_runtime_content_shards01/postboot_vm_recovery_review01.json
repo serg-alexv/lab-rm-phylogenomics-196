@@ -1,0 +1,418 @@
+{
+  "schema": "POSTBOOT_VM_METADATA_RECOVERY_REVIEW_V1",
+  "started_utc": "2026-10-10T01:04:00.545246+00:00",
+  "state": "PASS_BOUNDED_METADATA_INVENTORY_RECOVERY_DESIGN_ONLY",
+  "images": [
+    {
+      "role": "stage05_installed_scientific_toolchain_ext4",
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.tools\\toolchain.ext4",
+      "logical_bytes": 8589934592,
+      "filesystem_allocated_bytes_metadata": 8589934592,
+      "windows_file_attributes": 32,
+      "source_device": 17766949232488609743,
+      "source_inode": 1125899909547556,
+      "creation_utc": "2026-10-08T12:44:40.684167+00:00",
+      "last_write_before_utc": "2026-10-09T23:38:41.695708+00:00",
+      "last_write_after_utc": "2026-10-09T23:38:41.695708+00:00",
+      "metadata_stable_during_observation": true,
+      "payload_sha256": null,
+      "payload_bytes_read": 0,
+      "reparse_ancestry_checked_count": 9,
+      "hypothetical_uncompressed_byte_shards_at_448MiB": 19,
+      "last_uncompressed_byte_shard_bytes": 134217728,
+      "archive_created": false,
+      "public_payload_scope_accepted": false,
+      "exact_remote_image_recovery": "NOT_ESTABLISHED"
+    },
+    {
+      "role": "ubuntu_wsl2_root_vhdx",
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "logical_bytes": 16980639744,
+      "filesystem_allocated_bytes_metadata": 16053567488,
+      "windows_file_attributes": 544,
+      "source_device": 17766949232488609743,
+      "source_inode": 6755399441542343,
+      "creation_utc": "2026-09-10T20:44:07.110728+00:00",
+      "last_write_before_utc": "2026-10-10T01:04:00.546244+00:00",
+      "last_write_after_utc": "2026-10-10T01:04:00.546244+00:00",
+      "metadata_stable_during_observation": true,
+      "payload_sha256": null,
+      "payload_bytes_read": 0,
+      "reparse_ancestry_checked_count": 8,
+      "hypothetical_uncompressed_byte_shards_at_448MiB": 37,
+      "last_uncompressed_byte_shard_bytes": 69206016,
+      "archive_created": false,
+      "public_payload_scope_accepted": false,
+      "exact_remote_image_recovery": "NOT_ESTABLISHED"
+    }
+  ],
+  "distro_registry": [
+    {
+      "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+      "DistributionName": "Ubuntu",
+      "Version": 2,
+      "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+      "VhdFileName": "ext4.vhdx",
+      "DefaultUid": 1000,
+      "Flags": 15,
+      "State": 1
+    }
+  ],
+  "wslconfig": {
+    "path": "C:\\Users\\wheel\\.wslconfig",
+    "bytes": 679,
+    "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+  },
+  "existing_public_sources": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\POST_RESTART_CONTINUATION.md",
+      "bytes": 4084,
+      "sha256": "7119a28911cf10de5887445d850c4efa9faf4524bcc22670bb046506ec393a71"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_contract.py",
+      "bytes": 10893,
+      "sha256": "daf48ea1c8cc96312519b1ab22f2d41216494773e5e345e3e5e0417139588bb6"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_logical_capture.py",
+      "bytes": 24116,
+      "sha256": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_stage5_runtime_logical_payload.py",
+      "bytes": 17521,
+      "sha256": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\verify_stage5_runtime_cold_tree.py",
+      "bytes": 10006,
+      "sha256": "cd64e0d4da3ab2509f93d4295af891e0173ed9bef9d81007620bf1f4d872fcfe"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_safe_extract.py",
+      "bytes": 32131,
+      "sha256": "beec0d3007da552d956f0d42434bd0ef1fa4ddac080834b0ed66f8aa581fac96"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_IMPLEMENTATION_LIMITS.md",
+      "bytes": 5425,
+      "sha256": "fdf409f85b8d6b98cd3fe1710df74641d76818e0dd2ecb5816f199bd3ff13cc5"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_preparation01\\PLAN.json",
+      "bytes": 12109,
+      "sha256": "a34b38989f43688a75b3b9d9a5f10bd9711e6d5071101e81af4b818dfe2a0278"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_preparation01\\CAPTURE_INPUTS_PENDING.json",
+      "bytes": 952,
+      "sha256": "daf3f70bb567faafce0775d0e4df17c07dea8b251b9667aec484d7d74cc61cde"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_recovery_preparation01\\PUBLIC_COMPLETION.json",
+      "bytes": 6461,
+      "sha256": "b6d506fa697469bfb3e45711a3404ba6443ce881af133ef239ae313df33788af"
+    }
+  ],
+  "fresh_github_recovery_metadata": {
+    "api_url": "https://api.github.com/repos/serg-alexv/lab-rm-phylogenomics-196/releases/tags/master-run-storage-20261009-v1",
+    "observed_utc": "2026-10-10T01:04:02.052206+00:00",
+    "api_json_sha256": "a3f2d7b87fd9660f7fba762741e2b179646da8c7242d27c83e8e37bf3fdede2e",
+    "release_id": 408227056,
+    "tag": "master-run-storage-20261009-v1",
+    "url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/master-run-storage-20261009-v1",
+    "target_commitish": "46c7089f906cce59afabaa4449b05df36ee124de",
+    "draft": false,
+    "asset_count": 30,
+    "assets": [
+      {
+        "id": 626059583,
+        "name": "master_batch03_cleanup_execution01.zip",
+        "bytes": 11319474,
+        "digest": "sha256:80b1bea0ee2dd1f7944ffa2f09abc488a5266247a61fc96dc5e092f1e82e95bb",
+        "state": "uploaded"
+      },
+      {
+        "id": 626059764,
+        "name": "master_batch03_cleanup_execution01.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:29706c69e0994477eb73e3e3f505f1d5e0c6b1d0b17c3585deff95c686c2b78a",
+        "state": "uploaded"
+      },
+      {
+        "id": 625930589,
+        "name": "master_batch03_scientific_cache_mapping01.zip",
+        "bytes": 6921443,
+        "digest": "sha256:f6d7e0558953d2542ca085552a6cd8219a4ec1acde4072ce6f03d12dd953178e",
+        "state": "uploaded"
+      },
+      {
+        "id": 625930588,
+        "name": "master_batch03_scientific_cache_mapping01.zip.sha256",
+        "bytes": 112,
+        "digest": "sha256:99301532f87b4d993afca84573819e97f03f5fe341d219d224d56396c222f498",
+        "state": "uploaded"
+      },
+      {
+        "id": 625836545,
+        "name": "master_cleanup_batch01.zip",
+        "bytes": 6373127,
+        "digest": "sha256:0e7d888f9464acac4500a1f54516c9e9ee7094279a48fbaaec00be24fa85cf19",
+        "state": "uploaded"
+      },
+      {
+        "id": 625836543,
+        "name": "master_cleanup_batch01.zip.sha256",
+        "bytes": 93,
+        "digest": "sha256:28c8d8b9489eddaec0dd65fbc42001829dd614061967fe8061dcda7187e6c77f",
+        "state": "uploaded"
+      },
+      {
+        "id": 626293250,
+        "name": "master_directory_prune_execution01.zip",
+        "bytes": 1296741,
+        "digest": "sha256:2154a6bfdc2ea74dc6a18312032e4ff45812c5cabdb7ffb29b1cb5c323da7815",
+        "state": "uploaded"
+      },
+      {
+        "id": 626293429,
+        "name": "master_directory_prune_execution01.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:959995eeae411432db1269e35a2e98ed48d3289b92853da441a2f9374e630b88",
+        "state": "uploaded"
+      },
+      {
+        "id": 626206023,
+        "name": "master_iqtree314_source_recovery01.zip",
+        "bytes": 41054085,
+        "digest": "sha256:4b4d123a2d901e03806136eb27a38bdc3a4d8da2dc5c0438afc4eb303d96a564",
+        "state": "uploaded"
+      },
+      {
+        "id": 626206341,
+        "name": "master_iqtree314_source_recovery01.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:ea3baff1e98b6ef358a611ba47dca303422d5f37478b484b2980ec50fd585635",
+        "state": "uploaded"
+      },
+      {
+        "id": 626178353,
+        "name": "master_old_checkout_changed_history01.zip",
+        "bytes": 1687039,
+        "digest": "sha256:0fc8e7f1e6ee8d3ba4327df49b6e2b055ef6118ca7fc4a623d23ad9a3edc8226",
+        "state": "uploaded"
+      },
+      {
+        "id": 626178538,
+        "name": "master_old_checkout_changed_history01.zip.sha256",
+        "bytes": 109,
+        "digest": "sha256:1a93b8d40e7fd204985d3060420aa0e2014889f90e5c2081c8e79517cf024856",
+        "state": "uploaded"
+      },
+      {
+        "id": 626144834,
+        "name": "master_old_scientific_emptydirs01.zip",
+        "bytes": 438572,
+        "digest": "sha256:656f515d069338e132a9c2ec46497e7388a55faaeb4c1e4aecca06ab37dfbd8d",
+        "state": "uploaded"
+      },
+      {
+        "id": 626144967,
+        "name": "master_old_scientific_emptydirs01.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:f2ab2b9ec783f4658797d15873dd97f52a4bec27820a8daeb4eea899b26fe467",
+        "state": "uploaded"
+      },
+      {
+        "id": 626003321,
+        "name": "master_public_components01.zip",
+        "bytes": 228162511,
+        "digest": "sha256:4663ddfb3e204bff5d0ba6f218717eae28ddd56bf4c51d325bb2b0db240dca35",
+        "state": "uploaded"
+      },
+      {
+        "id": 626009462,
+        "name": "master_public_components01.zip.sha256",
+        "bytes": 97,
+        "digest": "sha256:c1f9ed7512cbe2c32f9aa9e0e2ebe9ecbe9f533a9a224278d3bbe2af11430ef2",
+        "state": "uploaded"
+      },
+      {
+        "id": 626154126,
+        "name": "master_public_conda_packages01-001.zip",
+        "bytes": 448642191,
+        "digest": "sha256:18e60eea6e797fa92047beebc78ff19171eb4298ab0d21f3c997e33147e4d3a6",
+        "state": "uploaded"
+      },
+      {
+        "id": 626160604,
+        "name": "master_public_conda_packages01-001.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:edcb298e5dc1e4e191bbba6924c68211044d699a1f7ee7567276a30e11aef1fe",
+        "state": "uploaded"
+      },
+      {
+        "id": 626160726,
+        "name": "master_public_conda_packages01-002.zip",
+        "bytes": 214192437,
+        "digest": "sha256:0f65cc94c8ed0cf89a208d22465889eaf65e63153d231a3a776be3dfe20a4cbb",
+        "state": "uploaded"
+      },
+      {
+        "id": 626162132,
+        "name": "master_public_conda_packages01-002.zip.sha256",
+        "bytes": 105,
+        "digest": "sha256:cc596d092b1105c33d055146bc2312ccb8bf57094657bc5debd2d87314a69c89",
+        "state": "uploaded"
+      },
+      {
+        "id": 626009774,
+        "name": "master_public_history02-001.zip",
+        "bytes": 37717209,
+        "digest": "sha256:ecb1856f1d95a80c20c57877588d77079a4ac0dce317c57162f9e2460ad3eb96",
+        "state": "uploaded"
+      },
+      {
+        "id": 626010851,
+        "name": "master_public_history02-001.zip.sha256",
+        "bytes": 98,
+        "digest": "sha256:1fbee4db02a10a6c66ea5e9955fc46025a848ea2b9079e4d57e7f91ff20cc466",
+        "state": "uploaded"
+      },
+      {
+        "id": 626011035,
+        "name": "master_public_history02-002.zip",
+        "bytes": 48197997,
+        "digest": "sha256:f593ce812029aa9feb01150cdd70d5c9d3686339ac2e8ed1d8ae5dbb92e533a9",
+        "state": "uploaded"
+      },
+      {
+        "id": 626012204,
+        "name": "master_public_history02-002.zip.sha256",
+        "bytes": 98,
+        "digest": "sha256:59ffe36964812e63e17207bd3736b49d9808e12efb4828ca28dc367a371b06f7",
+        "state": "uploaded"
+      },
+      {
+        "id": 626012427,
+        "name": "master_public_history02-003.zip",
+        "bytes": 34759291,
+        "digest": "sha256:8016055d11942baa9e8b236acc32a6f58d3f8bb37f03d929402f0e027671fafd",
+        "state": "uploaded"
+      },
+      {
+        "id": 626013421,
+        "name": "master_public_history02-003.zip.sha256",
+        "bytes": 98,
+        "digest": "sha256:d3f2f41cea535836840c51e5a9e3a216354ca72bee0ba21607b2ac16985d8428",
+        "state": "uploaded"
+      },
+      {
+        "id": 625896399,
+        "name": "master_public_history_inventory01.zip",
+        "bytes": 5529652,
+        "digest": "sha256:0016ea66132ccd257462899bf2ee74a05b1f7d73e0fb0e6e330f1ed3515d6842",
+        "state": "uploaded"
+      },
+      {
+        "id": 625896402,
+        "name": "master_public_history_inventory01.zip.sha256",
+        "bytes": 104,
+        "digest": "sha256:b789b48fd1a44f5d7dd94c0c31bb3717953a33d540431b3872ceb7eeeddfad2c",
+        "state": "uploaded"
+      },
+      {
+        "id": 626100075,
+        "name": "master_stage5_source_readiness01.zip",
+        "bytes": 853741,
+        "digest": "sha256:b06723bf684d76084072d710a0573b34137bc097b5a21f1069077ec69dc6a447",
+        "state": "uploaded"
+      },
+      {
+        "id": 626100249,
+        "name": "master_stage5_source_readiness01.zip.sha256",
+        "bytes": 104,
+        "digest": "sha256:19803b9c45497f4d0cb1e6970608ed78d57e520f8ce88cbed9b63599ed07455f",
+        "state": "uploaded"
+      }
+    ],
+    "verification_scope": "FRESH_PUBLIC_METADATA_ONLY_NO_ASSET_PAYLOAD_READBACK",
+    "installed_runtime_or_vm_shards_present_by_name": false
+  },
+  "primary_strategy": "REVIEWED_CONTENT_LOGICAL_ARCHIVES_PLUS_PINNED_OS_BOOTSTRAP_AND_ORIGINAL_SOURCES",
+  "primary_scope": {
+    "toolchain": "Complete exact installed detector_env, defense_models and padloc_db logical bytes and POSIX metadata at original prefixes; one common manifest covers cross-role links.",
+    "ubuntu": "Separately inventory and preserve project-required Ubuntu loader/glibc/OS packages, configuration and bootstrap with full original source/notices; full distro and free-block contents are not presumed public.",
+    "public_review": "Screening emits reason codes only. Whole-file review must qualify required bytes and metadata before public archive capture. Private whole files remain excluded and required excluded dependency blocks complete public recovery.",
+    "format": "Existing gzip/PAX logical stream split at compressed byte boundaries, at most448MiB each; all shards plus the exact ordered index are required for restoration.",
+    "content_label_proposal": "stage05-runtime-detector-env-defense-models-padloc-db-20261010-v1.partNNNN",
+    "label_limit": "A compressed byte shard can span roles and is not independently extractable. The label describes the complete archive. Individual role capsules require a separate reviewed schema with cross-role dependency handling.",
+    "coordinated_source_change_required": "Producer21b33abc, independent reader9770354d and extractorbeec0d30 currently all require stage5-installed-runtime-01.partNNNN. Do not rename only producer output. Update and review all contracts together, or use an exact manifest-pinned remote transport alias adapter."
+  },
+  "bounded_fallback": {
+    "strategy": "OFFLINE_BYTE_EXACT_SNAPSHOT_SHARDS_ONLY_IF_LOGICAL_RESTORATION_IS_INSUFFICIENT_AND_FULL_PUBLIC_SCOPE_IS_ACCEPTED",
+    "conditions": [
+      "All native work closed and original WorkflowLock held",
+      "Unmount loop aliases and stop Ubuntu through the root-owned lifecycle protocol",
+      "Retained offline source identity and stable full image SHA",
+      "Whole VM/free-block payload public audit or keep snapshot private outside public GitHub",
+      "Create new448MiB content-labelled shard files; never truncate or replace registered backing files",
+      "Independent zero-offset fresh GitHub full shard downloads, ordered whole-image SHA, disposable reassembly and actual cold mount/import test before deleting originals"
+    ],
+    "toolchain_exact_snapshot_label": "stage05-toolchain-detectors-models-db.ext4.partNNNN",
+    "ubuntu_exact_snapshot_label": "ubuntu-wsl2-os-bootstrap.ext4.vhdx.partNNNN",
+    "run_now": false
+  },
+  "proposed_remote_structure": {
+    "git": [
+      "scripts/master_run/recovery sources and tests",
+      "recovery/runtime/<snapshot>/INDEX.json, MANIFEST.jsonl, PUBLIC_SCOPE.json, NOTICES.json, RESTORE.md",
+      "reports/master_run/20261009/<snapshot>/capture, remote readback and cold restore receipts",
+      "status/master_run_20261009.json current evidence pointers"
+    ],
+    "release": "Immutable stage05-installed-runtime-<date>-v1 Release for448MiB payload assets and exact SHA256 sidecars; Git index pins source commit, tag commit, assetIDs, bytes, digests and ordered compressed stream SHA.",
+    "local": "Keep one working checkout and required original runtime prefixes until restore qualifies; use unique temporary capture/verification namespaces and delete only closed, remotely recovered nonrequired bytes after receipt."
+  },
+  "next_bounded_steps": [
+    "Root finishes new-boot/STOP reconciliation and fresh Stage5 runtime gates; source-byte/runtime manifests are prerequisites.",
+    "Integrate inactive inventory with the existing Windows owner, finite Linux lease, resource callback and read-only frozen mount proof; no concurrent Stage5 detector or writer.",
+    "Run full no-follow installed inventory and explicit OS/dependency fingerprint; keep raw candidates private until whole-file public and notices/source reviews.",
+    "Publish reviewed operational sources and synthetic real Linux archive/extract fixtures, preserving all original source/notices.",
+    "Capture448MiB logical shards to a new namespace with measured physical and commit reserves and one compression reader.",
+    "Publish immutable index and assets; download every payload fresh and verify complete stream, every member and POSIX/link metadata independently.",
+    "Cold restore from fresh remote bytes on new ext4, compare full logical tree, restore original prefixes and qualify actual pinned runtime plus benign fixtures.",
+    "Only after all required recovery gates pass may root evict obsolete originals and compact/recreate the working VM using supported WSL lifecycle operations."
+  ],
+  "external_primary_sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/wsl/basic-commands",
+      "used_for": "Supported distro export/import, in-place import, shutdown and unregister semantics."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/wsl/disk-space",
+      "used_for": "Registered ext4.vhdx is a live distro backing file; Microsoft warns against modifying/moving AppData WSL files with Windows tools."
+    },
+    {
+      "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+      "used_for": "Release assets as repository-associated recovery storage."
+    }
+  ],
+  "actual_limits": {
+    "wsl_executions": 0,
+    "image_payload_bytes_read": 0,
+    "disk_mount_changes": 0,
+    "image_changes_or_renames": 0,
+    "actual_split_shards_created": 0,
+    "full_installed_inventory": "NOT_RUN",
+    "public_payload_scope_review": "NOT_RUN",
+    "logical_runtime_capture": "NOT_RUN",
+    "fresh_remote_runtime_payload_readback": "NOT_RUN",
+    "cold_restore": "NOT_RUN",
+    "runtime_equivalence": "NOT_ESTABLISHED",
+    "exact_vm_recovery": "NOT_ESTABLISHED",
+    "eviction_or_host_wipe_authority": false,
+    "allocation_metric": "Windows filesystem allocation metadata, not reclaimed bytes or guest-used filesystem bytes."
+  },
+  "completed_utc": "2026-10-10T01:04:02.052206+00:00"
+}

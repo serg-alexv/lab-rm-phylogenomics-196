@@ -1,0 +1,57 @@
+{
+  "schema": "STAGE05_RUNTIME_TRANSPORT_ALIAS_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_SYNTHETIC_CONTRACT_TESTS_ACTUAL_ARCHIVE_NOT_RUN",
+  "reviewed_utc": "2026-10-10T01:11:40.991993+00:00",
+  "source_sha256": "57a952adb2114f51231f75f95f6d343aa2bf3dfe5aadfe2810c2acb71b84ee6c",
+  "tests_sha256": "1c355c53f15f11e5281fd040329a5eea5009a0ca1c26bba12ddfae94b2d2d463",
+  "existing_capture_source_sha256": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220",
+  "existing_reader_sha256": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac",
+  "supplied_unittest_result": {
+    "exit_code": 0,
+    "tests_passed": 7,
+    "python_bytecode_disabled": true
+  },
+  "independent_synthetic_checks": [
+    "two_shard_complete_payload_plus_original_sidecar_coverage_and_canonical_order",
+    "wrong_remote_name",
+    "wrong_remote_digest",
+    "wrong_remote_size",
+    "extra_asset",
+    "duplicate_asset_name",
+    "omitted_middle_payload_or_sidecar",
+    "wrong_external_alias_map_pin",
+    "nonbinary_stream",
+    "missing_callable_owner_guard",
+    "synthetic_full_bytes_never_mint_fresh_remote_recovery_claim"
+  ],
+  "independent_synthetic_checks_passed": 11,
+  "contract_findings": {
+    "canonical_reader_part_names_unchanged": true,
+    "original_LF_sidecar_content_unchanged": true,
+    "maximum_part_bytes": 469762048,
+    "compressed_stream_parts_independently_extractable": false,
+    "remote_and_local_names_retained_separately": true,
+    "exact_selected_asset_set_names_ids_sizes_and_hashes_bound": true,
+    "metadata_drift_is_veto": true,
+    "stream_reads_bounded_and_owner_guard_called": true,
+    "guard_failure_propagates": true,
+    "actual_network_or_process_or_VM_mutation_in_module": false
+  },
+  "caller_obligations": [
+    "Bind rows through validate_plan/bind_assets before choosing local download destinations",
+    "Use existing owned uploader/downloader with finite resource/deadline/lease admission; this module performs no network or copying",
+    "Retain independently pinned index and exact control records; run existing full gzip/tar/member/complete-inventory reader after all aliased bytes are downloaded",
+    "Cold restore and original-prefix ABI/runtime verification must pass before any eviction"
+  ],
+  "scope_limits": [
+    "Labels describe the combined detector_env/defense_models/padloc_db stream; they do not make each gzip part independently extractable",
+    "This is a transport alias layer for logical installed-runtime capture, not a complete Ubuntu ext4.vhdx or raw toolchain.ext4 snapshot",
+    "Synthetic metadata/stream tests establish no fresh remote payload or installed-build equivalence"
+  ],
+  "actual_capture": "NOT_RUN",
+  "actual_upload": "NOT_RUN",
+  "actual_download": "NOT_RUN",
+  "actual_cold_restore": "NOT_RUN",
+  "cleanup_authority": false,
+  "host_wipe_ready": false
+}

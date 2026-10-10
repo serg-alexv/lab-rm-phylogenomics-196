@@ -1,0 +1,63 @@
+{
+  "schema": "STAGE05_GDRIVE_POSTBOOT_SOURCE_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_THREE_C_ONLY_CONTRACTS_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T01:15:41.242591+00:00",
+  "source_sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06",
+  "original_source_sha256": "edc02834f889cdd9bed8bce350d2b9fe2bbd79347f65a0ae124afdaec9f4dfa8",
+  "test_source_sha256": "465ae9c4e9b688ea44b7eafa10dd2aea3ca5c336550744f4b0b301b61ebbe16e",
+  "methods_sha256": "4d9149a94554041e40f5fa300e459a604327713855ac466bf0d4537c5bce0643",
+  "preparation_sha256": "231bb587e5620462b0f87c678bc75b952c26a6bbfe16d95ceeb9935d4aa0d37c",
+  "supplied_focused_tests": {
+    "tests_passed": 3,
+    "exit_code": 0,
+    "WSL_invocations": 0,
+    "bytecode_disabled": true
+  },
+  "AST_identical_existing_functions": [
+    "need",
+    "sha",
+    "exists",
+    "tiny",
+    "control_gate",
+    "plain_chain",
+    "empty_directory",
+    "drive_mount",
+    "mount_prelaunch_gate",
+    "prior_gate",
+    "imports",
+    "terminal_gate"
+  ],
+  "AST_changed_existing_functions": [
+    "linux_main",
+    "windows_main",
+    "main"
+  ],
+  "AST_added_function": "fresh_toolchain_gate",
+  "all_mapped_preparation_files_match": true,
+  "all_five_operative_dependency_pins_match": true,
+  "all_six_fresh_toolchain_evidence_pins_match": true,
+  "fresh_toolchain_gate_actual_C_readback_boot": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "source_contract": {
+    "default_noop_even_with_mount_without_run": true,
+    "old_toolchain04_and_closed_storage02_retained_as_history": true,
+    "fresh_toolchain05_explicit_path_and_hash_required": true,
+    "Windows_and_Linux_recheck_fresh_source_receipts_and_current_boot": true,
+    "Linux_boot_exactly_matches_fresh_proof": true,
+    "diagnose_has_no_mount_authority": true,
+    "explicit_mount_requires_qualified_missing_G_and_empty_underlay": true,
+    "nested_or_stacked_G_mount_preserve_veto_unchanged": true,
+    "source_and_request_final_readback": true,
+    "native_command_closure_retained_WSL_exit_and_original_unlock_required": true,
+    "historic_failed_scope_never_relabelled_pass": true
+  },
+  "limitations": [
+    "Source and C-only contract review does not establish postboot G visibility or a successful mount",
+    "An existing canonical Stage5 ext4 bind causes the unchanged nested-mount veto; execute G diagnosis before restoring that bind",
+    "Root must publish and independently verify current source bytes before actual diagnosis; use explicit mount only after a qualified missing-G observation"
+  ],
+  "actual_postboot_G_diagnosis": "NOT_RUN",
+  "actual_postboot_G_mount": "NOT_RUN",
+  "WSL_invoked_by_reviewer": false,
+  "files_or_sources_mutated_by_reviewer": "ONE_NEW_REVIEW_JSON_ONLY",
+  "scientific_adoption_authorized": false
+}

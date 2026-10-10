@@ -1,0 +1,82 @@
+{
+  "schema": "STAGE05_RUNTIME_CONTENT_SHARDS_PREPARATION_COMPLETION_V1",
+  "utc": "2026-10-10T01:15:04.895154+00:00",
+  "state": "PASS_METADATA_INVENTORY_AND_REVIEWED_ALIAS_LAYER_INVENTORY_ENTRY_PENDING_ADOPTION",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_vm_inventory_readonly.py",
+      "bytes": 14199,
+      "sha256": "3816403c02dd183eead0afd95e256d457dc0f71a812d1a01f62a2dcdff7a832c",
+      "suggested_repository_path": "scripts/master_run/postboot_vm_inventory_readonly.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_vm_recovery_review01.json",
+      "bytes": 19386,
+      "sha256": "491ab0ef814d38c19f57be3827596720610ad6e6f661f305e110113ac5277194",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/postboot_vm_recovery_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias.py",
+      "bytes": 8875,
+      "sha256": "57a952adb2114f51231f75f95f6d343aa2bf3dfe5aadfe2810c2acb71b84ee6c",
+      "suggested_repository_path": "scripts/master_run/stage5_runtime_transport_alias.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_transport_alias.py",
+      "bytes": 4894,
+      "sha256": "1c355c53f15f11e5281fd040329a5eea5009a0ca1c26bba12ddfae94b2d2d463",
+      "suggested_repository_path": "scripts/master_run/test_stage5_runtime_transport_alias.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias_independent_review01.json",
+      "bytes": 2866,
+      "sha256": "aa47bcac93a489c53ddc8d41e480d017008e8a16dc650c98c2a75eb284ee160b",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/stage5_runtime_transport_alias_independent_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_runtime_alias_copilot.py",
+      "bytes": 6324,
+      "sha256": "5b980df0a929ee20481f7a8a350b8947dd7fdebf21e8ba25c0fac7819b6b4039",
+      "suggested_repository_path": "scripts/master_run/review_stage5_runtime_alias_copilot.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias_copilot_sanitized_review01.json",
+      "bytes": 2221,
+      "sha256": "0662acccd8501cb5634bda9910981839d4c39e3416861fd491c5194f65a0de0b",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/stage5_runtime_transport_alias_copilot_sanitized_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry.py",
+      "bytes": 8992,
+      "sha256": "e2dd9237c8f37740d5f5f7b0bc1952c3659e0979d7d5d278b0113124c7748e56",
+      "suggested_repository_path": "scripts/master_run/stage5_runtime_inventory_entry.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_RUNTIME_CONTENT_SHARDS_IMPLEMENTATION.md",
+      "bytes": 7987,
+      "sha256": "93a0f83a350f735dd0b5b01a6ef4106f64c34ea9c31cbce5b2bf348bd1672920",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/STAGE05_RUNTIME_CONTENT_SHARDS_IMPLEMENTATION.md"
+    }
+  ],
+  "actual_metadata_images": 2,
+  "actual_windows_registry_distro_rows": 1,
+  "actual_github_release_assets_metadata": 30,
+  "authored_alias_tests_passed": 7,
+  "independent_alias_extra_checks_passed": 11,
+  "copilot_actual_review": "CLOSED_EXIT0_EMPTY_OWNED_JOB_FALSE_POSITIVE_REJECTED_BY_ACTUAL_HASH",
+  "inventory_entry_default_noop": "PASS_WINDOWS_NOOP_AND_AST_PARSE",
+  "inventory_entry_independent_review": "PENDING",
+  "existing_owner_inventory_integration": "PENDING_REVIEWED_COORDINATED_SETUP_SOURCE_CHANGE",
+  "actual_wsl_executions": 0,
+  "actual_image_payload_reads": 0,
+  "actual_capture_shards": 0,
+  "actual_remote_runtime_payload_downloads": 0,
+  "actual_cold_restore": "NOT_RUN",
+  "canonical_runtime_prefixes_and_original_images_changed": false,
+  "eviction_or_host_wipe_authority": false,
+  "private_namespaces_excluded": [
+    "private_copilot_vm_alias_review01",
+    "stage5_runtime_inventory_private_*"
+  ],
+  "root_is_only_runtime_operator_and_publisher": true
+}

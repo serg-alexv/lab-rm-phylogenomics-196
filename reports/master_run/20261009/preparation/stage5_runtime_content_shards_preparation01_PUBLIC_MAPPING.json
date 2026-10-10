@@ -1,0 +1,71 @@
+{
+  "schema": "STAGE05_RUNTIME_CONTENT_SHARDS_PUBLIC_MAPPING_V1",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_vm_inventory_readonly.py",
+      "bytes": 14199,
+      "sha256": "3816403c02dd183eead0afd95e256d457dc0f71a812d1a01f62a2dcdff7a832c",
+      "suggested_repository_path": "scripts/master_run/postboot_vm_inventory_readonly.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\postboot_vm_recovery_review01.json",
+      "bytes": 19386,
+      "sha256": "491ab0ef814d38c19f57be3827596720610ad6e6f661f305e110113ac5277194",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/postboot_vm_recovery_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias.py",
+      "bytes": 8875,
+      "sha256": "57a952adb2114f51231f75f95f6d343aa2bf3dfe5aadfe2810c2acb71b84ee6c",
+      "suggested_repository_path": "scripts/master_run/stage5_runtime_transport_alias.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_transport_alias.py",
+      "bytes": 4894,
+      "sha256": "1c355c53f15f11e5281fd040329a5eea5009a0ca1c26bba12ddfae94b2d2d463",
+      "suggested_repository_path": "scripts/master_run/test_stage5_runtime_transport_alias.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias_independent_review01.json",
+      "bytes": 2866,
+      "sha256": "aa47bcac93a489c53ddc8d41e480d017008e8a16dc650c98c2a75eb284ee160b",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/stage5_runtime_transport_alias_independent_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_runtime_alias_copilot.py",
+      "bytes": 6324,
+      "sha256": "5b980df0a929ee20481f7a8a350b8947dd7fdebf21e8ba25c0fac7819b6b4039",
+      "suggested_repository_path": "scripts/master_run/review_stage5_runtime_alias_copilot.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_transport_alias_copilot_sanitized_review01.json",
+      "bytes": 2221,
+      "sha256": "0662acccd8501cb5634bda9910981839d4c39e3416861fd491c5194f65a0de0b",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/stage5_runtime_transport_alias_copilot_sanitized_review01.json"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry.py",
+      "bytes": 8992,
+      "sha256": "e2dd9237c8f37740d5f5f7b0bc1952c3659e0979d7d5d278b0113124c7748e56",
+      "suggested_repository_path": "scripts/master_run/stage5_runtime_inventory_entry.py"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_RUNTIME_CONTENT_SHARDS_IMPLEMENTATION.md",
+      "bytes": 7987,
+      "sha256": "93a0f83a350f735dd0b5b01a6ef4106f64c34ea9c31cbce5b2bf348bd1672920",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/STAGE05_RUNTIME_CONTENT_SHARDS_IMPLEMENTATION.md"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_content_shards_preparation01\\PUBLIC_COMPLETION.json",
+      "bytes": 4450,
+      "sha256": "772018ca46546210ae41504b8f7a1079cc2abf69e6ea7f8c5d428bc217dc04f3",
+      "suggested_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/PUBLIC_COMPLETION.json"
+    }
+  ],
+  "suggested_mapping_repository_path": "reports/master_run/20261009/stage05_runtime_content_shards01/PUBLIC_MAPPING.json",
+  "exclusions": [
+    "Entire private Copilot review namespace, raw session logs and raw CLI output",
+    "Future private full inventory/hold files until whole-file review",
+    "Raw toolchain.ext4 and registered ext4.vhdx payloads; no public scope or cold recovery has been accepted"
+  ]
+}
