@@ -6,7 +6,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     for k in ('name','head','previous','phase','spool','review','previous-readback'):p.add_argument('--'+k,required=True)
     p.add_argument('--extra',action='append',default=[])
-    p.add_argument('--packet');p.add_argument('--packet-sha256');a=p.parse_args()
+    p.add_argument('--packet');p.add_argument('--packet-sha256');p.add_argument('--additional-status-file');a=p.parse_args()
     review=json.loads((W/a.review).read_bytes());assert review['state'].startswith('PASS_')
     result=json.loads((W/a.spool/'result.json').read_bytes());assert result['state'].startswith('PASS_')
     root=json.loads((W/'master_newboot_reconciliation_actual01.json').read_bytes())
@@ -20,10 +20,16 @@ def main():
         patch['stage5_drivefs_current']='PASS_CURRENT_BOOT_OWNED_FILESYSTEM_WORKER_AND_WINDOWS_READBACK; '+a.spool
     if result.get('state')=='PASS_NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY':
         patch['stage5_unc_current']='PASS_CURRENT_BOOT_EXACT_BIND_NATIVE_WINDOWS_UNC_AND_CLEANUP; '+a.spool
+    if a.additional_status_file:
+        additional=(W/a.additional_status_file).resolve();assert additional.is_relative_to(W) and not additional.is_symlink()
+        edits=json.loads(additional.read_bytes());assert isinstance(edits,dict) and all(k.startswith('stage5_') for k in edits)
+        patch.update(edits)
     (W/(a.name+'_patch.json')).write_text(json.dumps(patch,indent=2)+'\n')
     extras=[a.review+'=reports/master_run/20261009/postboot01/'+Path(a.review).name,
       a.previous_readback+'=reports/master_run/20261009/publication/'+Path(a.previous_readback).name,
       Path(__file__).name+'=scripts/master_run/'+Path(__file__).name]+a.extra
+    if a.additional_status_file:
+        extras.append(a.additional_status_file+'=reports/master_run/20261009/publication/'+additional.name)
     if a.packet:
         mapping=W/a.packet;assert hashlib.sha256(mapping.read_bytes()).hexdigest()==a.packet_sha256
         for row in json.loads(mapping.read_bytes())['files']:

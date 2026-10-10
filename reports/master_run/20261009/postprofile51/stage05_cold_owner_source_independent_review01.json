@@ -1,0 +1,137 @@
+{
+  "schema": "STAGE05_COLD_OWNER_SOURCE_INDEPENDENT_V1",
+  "state": "BLOCKED_FROZEN_SOURCE_PREPARATION_CORRECTIONS_REQUIRED_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T02:30:47.722316+00:00",
+  "reviewer_source_sha256": "f44af91bc0d1fd1cd61705d959bdf337267c7b9f8025f2362507b377c9cf147d",
+  "frozen_linux_source_sha256": "d10faf17d42db44243f10fa1908fede549f3dd20ff58013fcaa37f36f3eeb9d5",
+  "frozen_windows_source_sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1",
+  "frozen_test_sha256": "1a53d1182995d25e77740893de7fa98a7a5cadfe46475430d1e6cc10378d0fcd",
+  "public_mapping_sha256": "9d378b458da0ef015990e17792c85bb5d7ee677dfd652d2aa4f2e396f6bcfbb8",
+  "preparation_report_sha256": "d8b30fa87228522f3d3b9f9d34e28d4fd3fae7f98ad42f5409154d73eb3f87c7",
+  "verified_files": 10,
+  "checked_files": {
+    "stage05_cold_owner_source_preparation01\\PUBLIC_MAPPING.json": {
+      "bytes": 2568,
+      "sha256": "9d378b458da0ef015990e17792c85bb5d7ee677dfd652d2aa4f2e396f6bcfbb8"
+    },
+    "stage05_cold_owner_source_preparation01\\PREPARATION_REPORT.json": {
+      "bytes": 4145,
+      "sha256": "d8b30fa87228522f3d3b9f9d34e28d4fd3fae7f98ad42f5409154d73eb3f87c7"
+    },
+    "stage5_setup_cold_windows.py": {
+      "bytes": 58145,
+      "sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1"
+    },
+    "stage5_setup_cold_linux.py": {
+      "bytes": 44768,
+      "sha256": "d10faf17d42db44243f10fa1908fede549f3dd20ff58013fcaa37f36f3eeb9d5"
+    },
+    "test_stage5_setup_cold_owner.py": {
+      "bytes": 11375,
+      "sha256": "1a53d1182995d25e77740893de7fa98a7a5cadfe46475430d1e6cc10378d0fcd"
+    },
+    "STAGE05_COLD_EXISTING_OWNER_PREPARATION01.md": {
+      "bytes": 9979,
+      "sha256": "35cea6dcb3b3afc9f5a273ac5226575aec087e42ad5cf7f508db6bcae7f0e7d9"
+    },
+    "stage5_corrected_capture_helpers_independent_review01.json": {
+      "bytes": 4758,
+      "sha256": "50585e236a8b3c49ecda1fd5273a7ead72bdae76252ec0565bd79610c1e98bac"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "review_stage05_cold_owner_source01.py": {
+      "bytes": 8014,
+      "sha256": "f44af91bc0d1fd1cd61705d959bdf337267c7b9f8025f2362507b377c9cf147d"
+    }
+  },
+  "scope": "Source-only C reads, pure synthetic1024B superblock and AST checks. No actual WSL/image/UNC/lock/process/ref mutation.",
+  "tests": {
+    "author20pure_synthetic_tests_independently_run": "PASS_EXIT0",
+    "both_separate_default_NOOPs_independently_run": "PASS_EXIT0",
+    "ordinary_source_function_ASTs_unchanged": {
+      "linux": [
+        "sha",
+        "fresh_output",
+        "write_new",
+        "image_uuid",
+        "image_identity",
+        "toolchain_observe",
+        "verified_toolchain",
+        "diagnostic_observation",
+        "mount_lock",
+        "main"
+      ],
+      "windows": [
+        "linux_path",
+        "prior_closure",
+        "registration_contract",
+        "registered_backing",
+        "reject_live_exact",
+        "underlay",
+        "drivefs_readback",
+        "command_readback",
+        "exact_preexec_failure",
+        "persist_wsl_exit",
+        "linux_closure_readback",
+        "failed_client_readback",
+        "readback_worker",
+        "main"
+      ]
+    },
+    "independent_state5_case": "REPRODUCED_ACCEPTANCE_OF_STATE5_BY_FROZEN_LINUX_PREDICATE"
+  },
+  "findings": [
+    {
+      "priority": "P1",
+      "file": "stage5_setup_cold_linux.py",
+      "line": 320,
+      "paired_file": "stage5_setup_cold_windows.py",
+      "paired_line": 543,
+      "problem": "The clean-superblock predicates accept s_state=5 (clean bit plus orphan-recovery bit), while this phase claims a fully clean detached image.",
+      "evidence": "Pure1024B synthetic superblock with state5, no INCOMPAT_RECOVER, no RO_ORPHAN_PRESENT and last_orphan0 is accepted and returned as state5. Windows repeats the same partial bit predicate.",
+      "primary_source": "https://www.kernel.org/doc/html/latest/filesystems/ext4/super.html",
+      "source_detail": "Kernel ext4 superblock state table defines0x0001 cleanly unmounted,0x0002 errors and0x0004 orphan recovery; checked live for this review.",
+      "required_correction": "Require exact integer state==1 in Linux parsing and Windows ledger join; add state5 and unknownstate-bit rejection cases before refreezing."
+    },
+    {
+      "priority": "P2",
+      "file": "stage5_setup_cold_linux.py",
+      "line": 451,
+      "paired_file": "stage5_setup_cold_windows.py",
+      "paired_line": 653,
+      "problem": "Windows admission books640MiB combined parent/worker allocation, but the parent is allowed512MiB RLIMIT_AS with no mechanical128MiB self boundary. The documented parent128+worker512 capacity partition is not enforced.",
+      "evidence": "Source sets bootstrap inherited RLIMIT_AS512MiB and requires2176MiB Windows reserve+allocation; check() validates lease/source/time but not parentRSS128. This review does not claim actual parent memory exceeded128.",
+      "required_correction": "Either book both512MiB allocations conservatively (1536+1024=2560MiB physical/commit) or explicitly enforce and document sampled parentRSS128 plus worker512 with per-process512AS; keep clear that sampling is not an aggregate kernel cap."
+    },
+    {
+      "priority": "P3",
+      "file": "stage5_setup_cold_windows.py",
+      "line": 717,
+      "problem": "Terminal owned_command_count uses equality without exact integer type, so e.g8.0 can match total8 despite strict integer phase counts.",
+      "evidence": "The phase ledger already checks each command_count as int0/1; this is an additional terminal provenance hardening requirement, not evidence of unclosed native execution.",
+      "required_correction": "Require type(linux[owned_command_count]) is int before exact equality to the ledger sum."
+    }
+  ],
+  "reviewed_positive_contracts": [
+    "Separate paired branch reuses original byte WorkflowLock, owner lease, one retained systemPython bootstrap and unchanged one-command subspool readback.",
+    "Seventeen ordered nonce/source/boot/previous-SHA phases preserve clean unmount/detach, Windows sharing guard, actual DrvFS O_RDWR refusal, oneRO loop/ext4ro,noload, bounded worker and exact restoration.",
+    "Corrected raw helper private identity snapshot and failed-CloseHandle retention remain pinned; unknown closure/handle release/restoration retainsSTOP.",
+    "Linux3600s and Windows3660s total limits plus finite phase/native timeouts; per-process512MiB address limit and sampled childRSS limits are described honestly.",
+    "Closed worker failure may restore using proved closure but remains FAILED; unexplained dirty/alias/unknownclosure does not auto repair.",
+    "Source is logical installed-runtime inventory/capture preparation; no actual raw both-image split, VHDX work, upload, restore or eviction authority."
+  ],
+  "remaining_actual_evidence": "NOT_RUN: disposable Linux/DrvFS integration, sharing refusal/alias exclusion, every ownership/closure/restoration failure boundary, actual image capture and independent recovery. Refreeze and peer-review corrections before any such fixture.",
+  "current_gate_limitation": "The cold pair pins runtime06 SHA f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1. After current controlled WSL restarts, new runtime08/proof joins still require qualification. No source review admits stale boot evidence.",
+  "producer_source_edits_by_reviewer": 0,
+  "actual_operations": "NOT_RUN",
+  "scientific_execution_or_acceptance": "NONE",
+  "accepted_stage4": "PRESERVED",
+  "cleanup_authority": false
+}

@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T02:29:22.407113+00:00",
+  "updated_utc": "2026-10-10T02:33:38.997635+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Verify exact 3GiB host profile, controlled shutdown, and first genome request source",
+  "stage5_operational_phase": "Verify toolchain on the 3GiB profile boot and record blocked cold owner review",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -209,7 +209,8 @@
     "stage5_wsl_config_e169045dc0634577be5e041d922d44a7": "PASS_NONSCIENTIFIC_WSL_CONFIG_CHANGED_AND_ALL_DISTROS_STOPPED",
     "stage5_setup_toolchain_actual_postiq_06": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_07": "FAILED",
-    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7": "PASS_NONSCIENTIFIC_WINDOWS_HOST_PROFILE_CHANGED_AND_ALL_DISTROS_STOPPED"
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7": "PASS_NONSCIENTIFIC_WINDOWS_HOST_PROFILE_CHANGED_AND_ALL_DISTROS_STOPPED",
+    "stage5_setup_toolchain_actual_postiq_07": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
@@ -248,11 +249,11 @@
   "host_restart_requested_due_utc": "2026-10-10T00:36:00.852634+00:00",
   "host_newboot_reconciliation_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
   "stage5_latest_postboot_gate": {
-    "spool": "stage5_setup_toolchain_actual_postiq_06",
+    "spool": "stage5_setup_toolchain_actual_postiq_07",
     "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
-    "independent_review_sha256": "09762391f9552f38ce44e59dc31763717d44e6bd9bf7b64f967a728e6e4407bb"
+    "independent_review_sha256": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
   },
-  "stage5_current_linux_boot_id": "f9be2168-b511-4a09-8f4d-bdb88934c414",
+  "stage5_current_linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
   "stage5_gdrive_postboot_scope": "stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92",
   "stage5_gdrive_mount_changes": 1,
   "stage5_storage_current": "PASS_CURRENT_BOOT_EXACT_EXT4_BIND; stage5_setup_storage_actual_postiq_05",
@@ -271,5 +272,7 @@
   "stage5_wsl_host_profile_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
   "stage5_wsl_memory_ceiling_bytes": 3221225472,
   "stage5_wsl_auto_memory_reclaim": "dropCache",
-  "stage5_wsl_host_profile_independent_actual_review_sha256": "2b546535400599efd783e6fffbbbface83a06022316b2528e081da8f830e7f0b"
+  "stage5_wsl_host_profile_independent_actual_review_sha256": "2b546535400599efd783e6fffbbbface83a06022316b2528e081da8f830e7f0b",
+  "stage5_cold_owner_current": "BLOCKED_SOURCE_ONLY; EXT4_STATE_AND_PARENT_BUDGET_AND_EXACT_INTEGER_CORRECTIONS_REQUIRED; NO_ACTUAL_VM_OPERATIONS",
+  "stage5_cold_owner_independent_blocked_review_sha256": "53390992b3787fe39cae4415e00804ad40532adaf910c5a57fb369dfc735aef0"
 }
