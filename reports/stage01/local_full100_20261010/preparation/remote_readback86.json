@@ -1,0 +1,1136 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T09:26:57.757206+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "bd68b370ad788946eddaa331d82d177b61522f8a",
+  "initial_remote_main": "bd68b370ad788946eddaa331d82d177b61522f8a",
+  "declaration_sha256": "aa557fee8ed84408f46689d8f933825f0f49fad2f9787a6f1cef1b6d52b0f640",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 124,
+  "verified_files": 124,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 26973,
+      "sha256": "a724f30c53d9b33f8795e2c096446fd83f7fdcd464d47e656eef9329b7035b33",
+      "remote_blob": "9e5bce2194fec68dcc4a78d3dd8bb6776a39ed47",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/5-FTHF_cyc-lig.fasta",
+      "bytes": 37937,
+      "sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+      "remote_blob": "548041bb56933f63125bb7e5f9d3fbf12821264d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ADK.fasta",
+      "bytes": 44544,
+      "sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+      "remote_blob": "69bcd5debd4edab46497907c8ed2bc7fa47468db",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ATP-synt.fasta",
+      "bytes": 63043,
+      "sha256": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+      "remote_blob": "09593bdad6f3d57900b329c241c96ae332518bd2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ATP-synt_A.fasta",
+      "bytes": 50087,
+      "sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+      "remote_blob": "e5e117a4ca28389ec6ead5353d663b1f6db484b8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ATP-synt_B.fasta",
+      "bytes": 36700,
+      "sha256": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+      "remote_blob": "993656a80d3761be3c78d1cad57ae39cd13f05a3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ATP-synt_DE_N.fasta",
+      "bytes": 31565,
+      "sha256": "93423e0e038c118ba216fbc428cf04be8249f231d5015fd57f1b1b44ae207fa7",
+      "remote_blob": "979a8b5e11e0a1e4c6449a479f2ae8eca2244715",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Adenylsucc_synt.fasta",
+      "bytes": 87370,
+      "sha256": "0863301a681b20f993019ec91c4ba3c43b06d9bece0a543dd0740bf891fda201",
+      "remote_blob": "826666b73fec174e66c8990a73b8b105f0ff49a7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/CTP_transf_1.fasta",
+      "bytes": 54872,
+      "sha256": "137704975ecc0f4c8569f5c234a000b1b993676ec06716e592ee35a2fc69847b",
+      "remote_blob": "1c7ddf92c27f257c9798da512351091697a99ef7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Cpn10.fasta",
+      "bytes": 21854,
+      "sha256": "bc7d87d24ccc44ea0e6894286422b6147352a6114672d6f7f86c98a16dcd33c1",
+      "remote_blob": "641dd988c35dd8f754d79c6669c76111392aadf0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Cpn60_TCP1.fasta",
+      "bytes": 109559,
+      "sha256": "4f6efd85d05d2d87ce92ae509b0183c60a1f0282bb9f91fba9e5c8aed1887dcc",
+      "remote_blob": "a3379da067e40083de45df82cd5b9e012196786f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Cytidylate_kin2.fasta",
+      "bytes": 46005,
+      "sha256": "7f442ce37e0058a281786216e912f4342b6de1dad30e62c161f177284a5046db",
+      "remote_blob": "73774d9f6b2db5ba6292c4b1847e5fd746c4d9b8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DHOase.fasta",
+      "bytes": 83852,
+      "sha256": "b468268ace94da6562f5641e6012ab6d9ecac60c972dbc9e896eb3cb23cb48c4",
+      "remote_blob": "1860c8e50e9370185028ec282b06331f3ad02fb7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DNA_pol3_delta.fasta",
+      "bytes": 69984,
+      "sha256": "f41ee020d652d2fa7245c02bb521ba21ae8ea76d609b346c7a4571b9518f85df",
+      "remote_blob": "f93c07ef4320ec38600e14edcbd137f654c80eeb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DNA_processg_A.fasta",
+      "bytes": 56348,
+      "sha256": "9ce69f55743b2ad5bc789192994283ddb2ff412fdaf84c369d54b93f79825564",
+      "remote_blob": "935abbe330f8d3b22a9f5143d9a0943c4656caf5",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DUF1934.fasta",
+      "bytes": 30985,
+      "sha256": "661236324b266d3dd644d2171720bfc11900e285654b23ac08dfc20cd5f5fb5b",
+      "remote_blob": "170112371a22874701fdc9f8d17d0895ed401aa3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DUF448.fasta",
+      "bytes": 23266,
+      "sha256": "2dac22662d0be3cee67027f1caefe81351fb3acf0105ed60da6c89a65a42b9c5",
+      "remote_blob": "9bebb6b755aff7cf24a0a8d3e32f445abf1429f9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DUF951.fasta",
+      "bytes": 14497,
+      "sha256": "576fb1944497bd1f57d7ef07bca9d84ec275a773959957e8c565b243ab787f5a",
+      "remote_blob": "c346b33149616887533bf0c689439a97ab6eceb9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/DnaJ_C.fasta",
+      "bytes": 68376,
+      "sha256": "8cf0f7e1aee0a7ad89148c9df9c0206649659decc7665342a8c4b3a7ab69920f",
+      "remote_blob": "26c7433f0e3e4bc6e0c790fcbf8ab44d8ce4cb54",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/EF_TS.fasta",
+      "bytes": 63688,
+      "sha256": "e21d74c2bd4129bd4d361a81518833d8dcf4d8e808c709c51c07f60ddf9e5238",
+      "remote_blob": "5b5210c843815fee6e133064dc0ada1c118d5896",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Exonuc_VII_L.fasta",
+      "bytes": 88843,
+      "sha256": "8b59f4284fffb552ff558d69aea54f94d71b4f1ac23e635c69338ab975ffed20",
+      "remote_blob": "8d562be72e5674ed8ecf6d78e8374486647da28b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Exonuc_VII_S.fasta",
+      "bytes": 16585,
+      "sha256": "b7d58c9cac4a8245efe7ce20b19d81f070fdb10cfe9bdc2b45a6a903243fb7f6",
+      "remote_blob": "8e847cc44c876eb07bbf583c4cb7adbe4e0f5e43",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/FA_synthesis.fasta",
+      "bytes": 70362,
+      "sha256": "2450ae020b2d546f3e7886c09ccbeb9a492f2801c5657220d1cba08cab7779ff",
+      "remote_blob": "88abf07b68be4feb9e410be92cf20ad22e49d716",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/GatB_N.fasta",
+      "bytes": 96988,
+      "sha256": "e1be3ba428b00fdd45d814bb4ad7a586c01cf310d9445b7a5c0e18355c7f8379",
+      "remote_blob": "a2c100407d57c71fba5a5f0a95ba51e7eea5b2b0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Glu-tRNAGln.fasta",
+      "bytes": 23513,
+      "sha256": "08dd43766115b5e6353540d96f6c321de154cef9008c8597bbf72f1082dd640b",
+      "remote_blob": "f352a570f1103f12cbc107de4ef740c3e3481ebc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/GrpE.fasta",
+      "bytes": 41367,
+      "sha256": "955f8ce23419ed130cd3b95696dda93093a4ffb82bdc8c9aca6541aecabe68f5",
+      "remote_blob": "7b6aa242022e4099fe144e40f568a3c34a6961de",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/HSP33.fasta",
+      "bytes": 60603,
+      "sha256": "43db55511d3780d307896f6b3d970ba94c92835ec1a2d5ffcd017e5d25b29cfc",
+      "remote_blob": "42a7f4b80e508e74f88164ad5ba9494aa8c93b6e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Hpr_kinase_C.fasta",
+      "bytes": 64863,
+      "sha256": "7481eb9e08938ef7befef08f33253fcb35513d509f61ba6e829a2d1888bd120f",
+      "remote_blob": "8bf878f0608273784ccc2a318fdafb61eae391f8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/HrcA.fasta",
+      "bytes": 65839,
+      "sha256": "3d983808cccf5e77ceb707669e1b662bc30b9a3670410b17396ed7d61300268b",
+      "remote_blob": "feb4e6e6eb49aca43e7b36e043251e3b1a3b39bf",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/IPPT.fasta",
+      "bytes": 62415,
+      "sha256": "24448af305c8b7edf39e275b35a917e7d43ff01a058051898c678b1dbeccceb2",
+      "remote_blob": "3fe7319e49fbb8ecd7ca546ada4203c182722a19",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/IreB.fasta",
+      "bytes": 20528,
+      "sha256": "1912c7571999606cafab1025da575106d35ab3980514f554c37780f645d5ffe8",
+      "remote_blob": "92ce3722a50526b6bfe72968add0252fcc0350cb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/MreC.fasta",
+      "bytes": 58387,
+      "sha256": "599dd36992eb9e4d1f41fecc44775230672b35b0f58e7e5dc3554b3795572176",
+      "remote_blob": "b42af14aa1fba2607dec215662edd6c35eae1c00",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/NusG.fasta",
+      "bytes": 39719,
+      "sha256": "8f5f6d34c993f5221a16ca153fec1a505f807f189f62faed696c50d1db16b274",
+      "remote_blob": "6b04f0538d0cf2eb25d2ce1b29cbfeb244e3f4b7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/OSCP.fasta",
+      "bytes": 38798,
+      "sha256": "5edd02f6b6125dee5fb0ac85cd8c6bbb0bf4b2e3ae6cd55db0e09c3a49b854b0",
+      "remote_blob": "667ee0bdf61c4677a03f1733f37bc464f61a433c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/PGI.fasta",
+      "bytes": 86626,
+      "sha256": "1f4d998a0fbf626735a9157092067daf2b7977b2066754452173cc981fc835e2",
+      "remote_blob": "69de23d3efac9c1320d3f5d2ff688b5403e3b673",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/PGK.fasta",
+      "bytes": 81735,
+      "sha256": "1024755ff183e3fdb946c89365b40fc54ccf608a74903dcf6332166ce4683844",
+      "remote_blob": "5f97b12554220622fef7a7063478b15cfc8dedef",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Pept_tRNA_hydro.fasta",
+      "bytes": 40192,
+      "sha256": "f58eb400dc7265685dd90b3fa139683cc2f70b9e97960fa0c8f6cd466e9c0a8c",
+      "remote_blob": "4513218ec5b7c797cc75462475b0ae20b6b220dc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Prenyltransf.fasta",
+      "bytes": 52871,
+      "sha256": "967f98aa4c5626f298d467bb313318d50338689d540d059d210a5f406b5ecf37",
+      "remote_blob": "6fe1801d21c90eff0921535c399619fb05dfe310",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RBFA.fasta",
+      "bytes": 26705,
+      "sha256": "5a9f7e456a184873fcd8d1a41452207757fb96fdfd21cbd10e72dfce1cb8de3e",
+      "remote_blob": "010460a68bde06e4e3ef429c2046a9ef2ae4bb7c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RNA_pol_L.fasta",
+      "bytes": 64909,
+      "sha256": "a9e8993b0d19d52b4e0e44270a4b5fc18562b2ecbe333fe640de6ac41677b306",
+      "remote_blob": "35941505363e67965f8b92fd33f398d97080a46f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RRF.fasta",
+      "bytes": 39708,
+      "sha256": "6dcc65666b73106d6929e1489de561a34d91984635be1fa623fc6090a6f85210",
+      "remote_blob": "af1b70edec847621771f52a7b89d6f07d1f04551",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RecO_C.fasta",
+      "bytes": 54066,
+      "sha256": "67918ac1dd6436ae1448ce734fad2c22c7b29b384b58d5885ae0cbfdba327fa1",
+      "remote_blob": "e740298a81d8ceb1065b8bbea5e6340e7594fa09",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RecX.fasta",
+      "bytes": 55824,
+      "sha256": "e4128d4b5cddc7bfea7d9fecebd1a831057a692f41d6afd58c9fad42baee9221",
+      "remote_blob": "a1f4432e4328326b48dcc9ecb716997774df568d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribonuclease_P.fasta",
+      "bytes": 26599,
+      "sha256": "e7a2ba33e9bc9bb9014537ad264dc691b05e3a6fe4ed6345b41f8c22b05fe3a5",
+      "remote_blob": "07252385102be24ed6df56b2675b1f4167b49b8a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosom_S12_S23.fasta",
+      "bytes": 30414,
+      "sha256": "33d2012fb66611475d95776ea37a435bef91f8276ee60018b047d34c64b69bd6",
+      "remote_blob": "51eb66a667b2ce88a0fef15fe6340d02fa7cd6f1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L1.fasta",
+      "bytes": 48506,
+      "sha256": "617678449fb9ba39116226ffa75b73b8ca10f07a4fa9fee0b6b896e42a8a164e",
+      "remote_blob": "8bb1423881fd4b1aa1cbaac73bae1cd0a67d9fe9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L13.fasta",
+      "bytes": 32419,
+      "sha256": "3e6cabb2780cefd78492aa1417eb3ea7eb532cd290d839fb0c92900ad287d700",
+      "remote_blob": "2270f5f7189052a67ec483ff736ca1314ef947a3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L14.fasta",
+      "bytes": 27440,
+      "sha256": "483f7cd54abfcfbc4fe1036031ece5bc6418eea9f9770d728540fce88393bb8b",
+      "remote_blob": "f4d824ea39884b28e8b531ba807bf0f0df854572",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L16.fasta",
+      "bytes": 31230,
+      "sha256": "5bf4f9a3c5a87564c7aafd2a5d13a9b1fe403ef174b2c6e9cafa624962144e2b",
+      "remote_blob": "cf2a914dc0777f284c2b49c4f007ec0f6516fe26",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L17.fasta",
+      "bytes": 28474,
+      "sha256": "0a23be7ed93e36bd9aefe92ec124114d2c1028e0dd3521288b07786cd28c2b87",
+      "remote_blob": "6ced338432f8e2d38110103e093fffc9c0f4000b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L18p.fasta",
+      "bytes": 26756,
+      "sha256": "1f2cdc797b3b892cf37ed4d7d5862b2df47d3bf4275fcd8eda4bc04610444d1a",
+      "remote_blob": "abcacbafed073fd5eb88e28c05bc4e8ed3dcccd8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L19.fasta",
+      "bytes": 26640,
+      "sha256": "b0f25e58b283817f5c72e2e84627cb9aeee92800168efce56dcddb21b258b469",
+      "remote_blob": "4a7488ad2a4d84228663820386bbc2207e9eede9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L21p.fasta",
+      "bytes": 23408,
+      "sha256": "6fa50ef0ee102b7141cc3980f8b8d58e64f543dbf2815a612e595c637b65bc1d",
+      "remote_blob": "02fbcc4cf88cb1a0a0498d8469538c63d2be1794",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L22.fasta",
+      "bytes": 26274,
+      "sha256": "616a7c51833e6521f37182c0ecd6054e319c2ef8cfdc5430d75877f5c2a7374b",
+      "remote_blob": "a1c983e070d92444a46df4a9b281d2219e1fd8a9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L23.fasta",
+      "bytes": 22563,
+      "sha256": "687cff25edaba3f866f4093185a9db67287b8ff7c5ffd81d1de20dae1b60891b",
+      "remote_blob": "b1d2c716229b96291d3daa648665f98d8fa1089f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L27.fasta",
+      "bytes": 22608,
+      "sha256": "bfea80dca5a24698bf916b94a887e06018313c193d766728a61510fb12849177",
+      "remote_blob": "6f4ee6c8e757cb570e03d1938fb17ac637c5ba5a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L27A.fasta",
+      "bytes": 32097,
+      "sha256": "f9d197a3fddb49c9659a8520a0a20a20dacd7a1a17e586aa26d139bf12fe4c07",
+      "remote_blob": "8647a8641c16a1c9fc40e17144f446fc35984434",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L28.fasta",
+      "bytes": 15842,
+      "sha256": "f9cc1f7f8e017f3493e1bad15f898de19c20c5c257faa7a71a3ed821c1e35333",
+      "remote_blob": "0028976adb199e3ee60f093b69f728e0d0e9abda",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L29.fasta",
+      "bytes": 16597,
+      "sha256": "818ae7242472998ce190a97c0f549ad40e9c5f3bd46809ff3d9b0e143ae30d95",
+      "remote_blob": "e30da68cfd6a3703173faa607fabe43c4787b51f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L3.fasta",
+      "bytes": 45382,
+      "sha256": "51562d3c9c0ecc05f0cad1cf9f2647298bee4e2f00599cd63a7d89f6f0979617",
+      "remote_blob": "b68d6827e209f9f9bfc74d16aea34a10e4750059",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L34.fasta",
+      "bytes": 12232,
+      "sha256": "4be0abbe9157f0691f025a9283c612e809e1c0737eb40b50dedaa0e6ce086345",
+      "remote_blob": "c6179104af3c2aa6bd911023d4519b598a9d5601",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L35p.fasta",
+      "bytes": 16333,
+      "sha256": "9b7cd7a2a647f2ff0c3ce614c9a897ed4e2bb7f7a482e52a58bf62359b8a4a9b",
+      "remote_blob": "3f8176d5e99dfc0b5488fdcee95d0152bc515edb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L36.fasta",
+      "bytes": 11021,
+      "sha256": "5aa56440f9bd5cd176be8c866832e52332fe549bc834c607b623be259005fee8",
+      "remote_blob": "9e773ae597b4ca69453458dfc02aebeac96a93af",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L4.fasta",
+      "bytes": 44103,
+      "sha256": "f8c025ab6c66aba7821a4111e982b718eb894042fa31ae6f4c2fca15186dc4e4",
+      "remote_blob": "bd0ddabe6aee09f1a789b1f373a8af5839ec703b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L6.fasta",
+      "bytes": 38341,
+      "sha256": "690112d414125bb3b2715f1476bd9ac0fb25776b43ef3d0672ae8febb2c3ab5b",
+      "remote_blob": "06c4904857d28bd5045ce5cfc8f589272fba0c6b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_L9_C.fasta",
+      "bytes": 33022,
+      "sha256": "0825be77ee07073f990bd09eab34ad4871263ea1cf3215fd8503f9b22831853d",
+      "remote_blob": "108d99d92bfeaca682e269194138c4e370076f5a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S10.fasta",
+      "bytes": 23520,
+      "sha256": "8db83d9a686ebd3a8a756b5d43fc1bf8fd68e75a2d3202c4840a22e7cbb683b4",
+      "remote_blob": "b5515a905e840dc62b4f0cb91ea8f5689fd131f7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S11.fasta",
+      "bytes": 28714,
+      "sha256": "2c6bb5006cab6038672c1b8c698f628528ef0b9f209297dab6dcdeedb7c5fb75",
+      "remote_blob": "be46c1266f0b8fd3924ca642fe6f5c1bc548d5c9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S13.fasta",
+      "bytes": 27221,
+      "sha256": "856a724ee9f170788cc9a2ba5997073e692eb6b1f7022c8841fce0617ed66aff",
+      "remote_blob": "7dd0622368e18fb0102ffe4eada5f9e1b6a7037f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S15.fasta",
+      "bytes": 20972,
+      "sha256": "704793304e44f268f6e240d56923b39a2569f149478bcb8d69de40e07f94f361",
+      "remote_blob": "f07686978bba34bf1b74985e6ab69f70074976e0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S16.fasta",
+      "bytes": 19240,
+      "sha256": "6ab9a9c4464c1fd839e5cdae18db651424156dcd54ce6f49368101fdb0ed4819",
+      "remote_blob": "67c904c0960c490dd1441660519d97b19c0afa3b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S17.fasta",
+      "bytes": 20683,
+      "sha256": "02c4568e4c3374635b24ee60b4b4a174fd5402eea92264c2dd7a32103a09b87d",
+      "remote_blob": "d0c64f8f1f765ed542d822f0b513238ba1476af5",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S19.fasta",
+      "bytes": 21538,
+      "sha256": "9379c1c24870873d35b8d0049aa50ae5096ddbcdcd1c36c98b1723689786ab56",
+      "remote_blob": "51aace8523bf9bec19da91601b759b8295721733",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S2.fasta",
+      "bytes": 54419,
+      "sha256": "dcddc3cb8ed11f34354fe29957c14574e5b99656a075aa9bef38b7ca4f563b73",
+      "remote_blob": "938a52471a2140da04b208242dd2ae0577b79293",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S20p.fasta",
+      "bytes": 19628,
+      "sha256": "d71f1ca3ee00d126542317ee6ff33713b2f6f4d44f6cd8c7e67032fa2daafcf5",
+      "remote_blob": "11d5b07238ef0f4d4fc8b7712562050923899c41",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S21.fasta",
+      "bytes": 15337,
+      "sha256": "3879b7805d320510d58103d64cf4617f203ee83cbfa88ee0594975ca7b3a7815",
+      "remote_blob": "caa82467643cf4ef7628e3fc6a9702216ceb0deb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S30AE.fasta",
+      "bytes": 38232,
+      "sha256": "66f269d49ae6dd71b53409901e4c9dabe690593e0e99de6e865baeedb0358a82",
+      "remote_blob": "205f095e7c742d8a879b3e87f271cf43f9745885",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S6.fasta",
+      "bytes": 20894,
+      "sha256": "3f5a96d2016024e8db7474ab99f10ce8fd8364aeffb752e0e3105ace3925334e",
+      "remote_blob": "ed3744fb8977e511725ef34788ffbf7853a1a660",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S7.fasta",
+      "bytes": 34081,
+      "sha256": "bee43cae17ed4a001a17bbd04d37a00d259a233466ee832f36f17e755395be67",
+      "remote_blob": "4b4358b49f5a5a1abc7ccac850e30676f4b02632",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S8.fasta",
+      "bytes": 29393,
+      "sha256": "cf3f4b8fc6c0937e5d056840c527d7cf44f3f5ca79b48cb8fbb0a58f86598e08",
+      "remote_blob": "8a8cd559d020a18594b39b2d7e9337c5493dccf5",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Ribosomal_S9.fasta",
+      "bytes": 29087,
+      "sha256": "d4ee5c71dc5c9a6c46ea927fbf82b38ab9f33175e0fdc5903720ac25f0d88036",
+      "remote_blob": "0686793e8934d686fc5c5921945bb34dda7b194c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RsfS.fasta",
+      "bytes": 26828,
+      "sha256": "547fb1dffe777b028d69a0f9fc4d551cf8217ba8601a562727157b9cee0d12f6",
+      "remote_blob": "5c3e676b4055caf46fd793ea7b0264c4c7460c52",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/RuvX.fasta",
+      "bytes": 31678,
+      "sha256": "aa64e672ac22cf3cec91965e8ebb1a5b718d307a3540ba686b35e280622a21bf",
+      "remote_blob": "319f252790763ba571f990a33b46ded7d002aa57",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SHMT.fasta",
+      "bytes": 76636,
+      "sha256": "02f66f9974ba3e76fbe30f09f0787c5d1b7a3c9367c4550085fae7ad27fe2142",
+      "remote_blob": "069a824c343026ed8a7534ff71825ece1b0eafe8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SMC_ScpA.fasta",
+      "bytes": 51612,
+      "sha256": "9e710672bb83846c51cec48766a5f950a79d1f375e76e8867ecedf0aa86e8159",
+      "remote_blob": "7289a7b1a29be9b959610617396c37b2f6f3a6d1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SMC_ScpB.fasta",
+      "bytes": 41594,
+      "sha256": "a7cd917b467b797385fe9271c2d3f8e94c0b33b0a8f1732482199435c67193e0",
+      "remote_blob": "fe43b6067e67a1aa3da5b76366b6923eb519ffab",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SecE.fasta",
+      "bytes": 14868,
+      "sha256": "ebc5da48aafac6abf80d4bd8175426ba19509e22030b1536bc9791a9070858e0",
+      "remote_blob": "309473674b13b9c75efced5aff0bdc612b52ac74",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SecG.fasta",
+      "bytes": 18722,
+      "sha256": "25329e7a2e907d6b968f2e054643b2bd98390aa9133f2d304bd9ffc4d9598cdf",
+      "remote_blob": "3b0af6ce25f50d1eeadd14f906d96f3bebef3e93",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/SmpB.fasta",
+      "bytes": 33736,
+      "sha256": "b1cafdfe46bb68c1a6978f53baf88fbf632310c886aa069d9d3a130c0e8bc7bb",
+      "remote_blob": "fa1acda9b8efe012a0e1d18493935d96824e3838",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/TrmK.fasta",
+      "bytes": 48603,
+      "sha256": "3c584fee931fa623f56b637c04e0b2a988929701d4bce6f1557a0c432d2afcdf",
+      "remote_blob": "81734d199b783e9f1accd5536cf91f1f3fecea1e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/TsaE.fasta",
+      "bytes": 31724,
+      "sha256": "dc7cf08ff9f670556bb0499a30837f0ef34332f413f37681a032b5a6be77db44",
+      "remote_blob": "3ac91650584d4af5afcf6dded3a5c4b5e8c0f672",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/Tyr_Deacylase.fasta",
+      "bytes": 31820,
+      "sha256": "fc5651dd4cb9713e43957429c414df51850ca0b72fb3cc288c402b30e26ae3ba",
+      "remote_blob": "e934038fbadfa541b2d6bda028b32705fb791aed",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/UPF0052.fasta",
+      "bytes": 68492,
+      "sha256": "e35d3eb6e8ab3a796b0aa6dbfdb71198b1c44d3a0cc326fc43cafbf39159e273",
+      "remote_blob": "e4e2192dc64ca10fd47dd90873eba9f244c47cbe",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/UPF0054.fasta",
+      "bytes": 34933,
+      "sha256": "2256ca4cfb6752be86241843f98e91dc871a291d3df19ecb7453440f6299f4c3",
+      "remote_blob": "8b355281340c17f8e87f43f71af3982702d64ec7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/VEG.fasta",
+      "bytes": 18688,
+      "sha256": "170193aee2bb0a5376db6496ab9c5fe98324075611922ec47d799e3e4dd798c7",
+      "remote_blob": "f25111689e6a1c6f836318506e5aed7b7eb49e2a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/YGGT.fasta",
+      "bytes": 21025,
+      "sha256": "112f91a40555d3364b3b84ccaf20cbad082ec3099367ce6aab83395b95a52206",
+      "remote_blob": "36178ab61ee53860e1ec714f0706c9fa97d1fd84",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/YbbR.fasta",
+      "bytes": 66111,
+      "sha256": "8f66fa2fb17d81d694c5625eb05adf6ecdd4a9caf8f71fdeb0bcb011b4d16ce1",
+      "remote_blob": "d5341d71dfd5ca167b756ab5448db3be28031855",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/YceD.fasta",
+      "bytes": 39111,
+      "sha256": "e6649dd83e6322838a2855d5c40a9f7cd570b9a61bc48c4654d3ff836f794048",
+      "remote_blob": "03c9220f127be806870eb296e8e3d641949d4097",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/eIF-1a.fasta",
+      "bytes": 17685,
+      "sha256": "e6db129f0a056727fde41a766055522b61728a328b67d4892ee4af698765eec9",
+      "remote_blob": "4da57a516dcc9a4aa6d5567691930fd84a2f9187",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/ribosomal_L24.fasta",
+      "bytes": 21707,
+      "sha256": "c1013d944c98fc8bfa811f258a6847bafc048f868b8059a8ee818fe95c3dd267",
+      "remote_blob": "29a99cd4ffb22a0fac35fc41c20a65515bfb6f63",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "input_genes/tRNA_m1G_MT.fasta",
+      "bytes": 51727,
+      "sha256": "30b07063fa714c46ff00d10f06b80521dbc67c7e194b9693ecaea17e30188403",
+      "remote_blob": "90d1eb276cfa6a4ef7bfa16df1fdefd519fa8d9e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/itol_annotations/cell_mapping.tsv",
+      "bytes": 18416,
+      "sha256": "86d978c660018f447769fe2e8367375f46870e71fe0488d0008575abd3760fcb",
+      "remote_blob": "e7c3264976cab28ebfcf42a78f3b73fe8f5af388",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/itol_annotations/itol_group_colors.txt",
+      "bytes": 5911,
+      "sha256": "4808db6966b26d979a7828ea3b68a14b78f15d00edb81ec8b002637a88a9a37c",
+      "remote_blob": "04ac080a106996537230f1258b978a819e560836",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/itol_annotations/itol_labels.txt",
+      "bytes": 13398,
+      "sha256": "37b6d5bfde7ce78fc235e43cd1254df9ec75e4f71ff1559649244cfc529b8edb",
+      "remote_blob": "b5132c082198b68e1440539729abcc3e1f3e9bac",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/remote_readback.json",
+      "bytes": 11436,
+      "sha256": "73050a4e508b7bad3a18a5e239fa906242d7376a7272aa1155da0d925d4a0e22",
+      "remote_blob": "4cad3826e4066c1578518fc0c69b02126dd063c9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_audit/audit_labels.py",
+      "bytes": 6487,
+      "sha256": "591c023d807ddc68468550b55f4640a7848b099794be5474cf252e1872aa0117",
+      "remote_blob": "deeb12fa68221d68c6624acdc6c3da5fa8b76690",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_audit/audit_receipt.json",
+      "bytes": 2405,
+      "sha256": "6e6a1f78f756ce3af2f6154baf85076dd13a93c926d8acbc7d1af8c105de55d1",
+      "remote_blob": "fdf7d0b18cac1f88e5e2441affd2e89e2fbc31a9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_audit/copy_receipt.json",
+      "bytes": 822,
+      "sha256": "243cae0bf521a7f109bbd87c047af091da5f31ee875680070eeb14aa6b6ab3ac",
+      "remote_blob": "4c47286d6db1d2c196689a72bcb8d96337da3250",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_bundle/color_legend.tsv",
+      "bytes": 321,
+      "sha256": "7b6a83c17abad1c2852cdbedfb360745d0413df38fce0649facaa8ff73ddf81a",
+      "remote_blob": "01df64392b68fd701500b6f0e37ada4c8fd65826",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_bundle/generate_itol_bundle.py",
+      "bytes": 4516,
+      "sha256": "3fe540c39a2a7f8bf49c568cc90d269022def2dce6ad75172642b47883406729",
+      "remote_blob": "18cb02c88517782c99d04eb10d87c34abfb27c43",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/label_bundle/manifest.json",
+      "bytes": 2122,
+      "sha256": "e24fffcbd80d6650b8ae565723882ae0d7b57f1c7a7ace52b1c15bf90fcf68bf",
+      "remote_blob": "a435880ee15bfb994b1f66210212922453bad0cc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/launcher_review/receipt.json",
+      "bytes": 1249,
+      "sha256": "0946f01134f7b184ff5bc95116d079630276b23e132611e81da545699d4a9c41",
+      "remote_blob": "d7342c2eea6e8b57664d50915777e59071f863cd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/AUTHORIZATION_AND_METHOD.md",
+      "bytes": 2003,
+      "sha256": "bb567bc57795b3f348cc4a361b370bf62b81c09526a2025bd7be0bf737fd96b0",
+      "remote_blob": "27eab5debfc7c408abe3a2b0b3887bb7cfb5a83a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/README.md",
+      "bytes": 1697,
+      "sha256": "c41e0d1c56a9467cd426ce14295ad3a0f81c5331157f617d808f70b808df97e6",
+      "remote_blob": "4709844e44420f2b94ba572c33ea79254387e5c2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/audit_full100_inputs.py",
+      "bytes": 15895,
+      "sha256": "5f16e2aeb7e038dc4277e4c0615b78fa79b19369fbf6a7fd5ac7e6042087763d",
+      "remote_blob": "3215df61e3d8899fb5f2c7ea0fd56c3dbb8fc3df",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/five_existing_inputs.tsv",
+      "bytes": 1201,
+      "sha256": "a7cf81d3de7be7b5240d702679f05f758685bce1d384b0ac9510982f929d0133",
+      "remote_blob": "43052f298f09eacc10d52b054cd194b802b4b5c7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/full100_input_audit.json",
+      "bytes": 5231,
+      "sha256": "c4aeb2afea658d5b0c7a1e4fb4e4e8b9a88c41070f9525657b992c8749e09c9c",
+      "remote_blob": "70209f5376e091d67688cee80171c37998c51084",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/marker_sources.tsv",
+      "bytes": 16403,
+      "sha256": "c4f5d8c7c9a1622c4cad2ef943e3c03db0ee592aa9389d43bf28b206ff745a62",
+      "remote_blob": "9222d4a53dbeddc63c4626e779235bfb6ad2590d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/resources_before_launch.json",
+      "bytes": 2133,
+      "sha256": "9a31da60369ddf94aa5268ec1f72587a04908dcb93da1f4abb4bd89b985ef90f",
+      "remote_blob": "e91941bd67a4ab10f678c0205c70de98168596fd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/preparation/staging_receipt.json",
+      "bytes": 314,
+      "sha256": "d0ca59676bf634ff1c195be81ad85e6fe524a2d5ffa5bf994e97489be31db2c7",
+      "remote_blob": "5a2b9a6a336b96bf951f55421a4226d1997753bb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/full100_runner86.sh",
+      "bytes": 1261,
+      "sha256": "88830a0d74f4b9dbbf28bf3ba9105eab0d3adbc81d758de50e120a39fdc55450",
+      "remote_blob": "9607d3f1ad5b9bf1c6d48c9f6ae5ce15f0a2b157",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/launch_full10086.ps1",
+      "bytes": 4169,
+      "sha256": "eafbcd5ba42262b2743ff9f27149813dbb3fa3ed40fc639fbd8f48c355610c01",
+      "remote_blob": "04da82887e1cd1cdef330e7ac90e1a1ac22f510a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_full100_publication86.py",
+      "bytes": 5555,
+      "sha256": "acb55a458a0115f0cb972baef9663460b45eae99a087f936dd3fc3b26e425eba",
+      "remote_blob": "18cc2631974e475981bfe35f990205e4104909f6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/stage_full100_inputs86.ps1",
+      "bytes": 2613,
+      "sha256": "c14a74d2423d2a00478e9d483391e997b3573628cab3d5da3507bcf76a985e29",
+      "remote_blob": "5d2d49463e652a5b8af826f0a4af161475821e75",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "bd68b370ad788946eddaa331d82d177b61522f8a",
+  "finished_utc": "2026-10-10T09:27:45.215109+00:00",
+  "elapsed_seconds": 47.45300000000134,
+  "verified_bytes": 4187069
+}

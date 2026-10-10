@@ -1,0 +1,75 @@
+{
+  "schema": "full100-running-publication-progress-v1",
+  "observed_utc": "2026-10-10T09:41:06.0185627Z",
+  "expected_base_sha": "bd68b370ad788946eddaa331d82d177b61522f8a",
+  "state": "RUNNING_FULL100_LOCAL_MAFFT",
+  "user_approval": "Explicit user approval for full 100-marker local run",
+  "windows_process": {
+    "ProcessId": 31816,
+    "ParentProcessId": 10824,
+    "CreationDate": "2026-10-10T12:31:02.82048+03:00",
+    "Name": "pwsh.exe",
+    "ExecutablePath": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe"
+  },
+  "wsl_identity": {
+    "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+    "wrapper_pid": 4019,
+    "wrapper_start_ticks": 1710295,
+    "pipeline_pid": 4023,
+    "pipeline_start_ticks": 1710309,
+    "retained_tool_session": 82272
+  },
+  "provisional_alignment_count": 20,
+  "alignment_count_note": "Provisional while active; alignment files intentionally not snapshotted",
+  "log_snapshots": [
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\full_run.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_running_publication87\\reports\\stage01\\progress87\\full_run.log",
+      "snapshot_bytes": 413,
+      "source_bytes_before": 413,
+      "source_bytes_after": 413,
+      "source_lastwrite_utc_before": "2026-10-10T09:40:29.5759838Z",
+      "source_lastwrite_utc_after": "2026-10-10T09:40:29.575Z",
+      "snapshot_sha256": "cb2e087fbd0c05317961d27c27939d41003d7dcff9d0c44f0e5d06254d71bfe3",
+      "source_changed_during_copy": true
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\mafft_align.log",
+      "snapshot": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_running_publication87\\reports\\stage01\\progress87\\mafft_align.log",
+      "snapshot_bytes": 571631,
+      "source_bytes_before": 571631,
+      "source_bytes_after": 571631,
+      "source_lastwrite_utc_before": "2026-10-10T09:40:28.926Z",
+      "source_lastwrite_utc_after": "2026-10-10T09:40:51.569Z",
+      "snapshot_sha256": "3610f2d2ef8c44b78f59570bfeafaeee796c7c518f1f39c161456c2c08344480",
+      "source_changed_during_copy": true
+    },
+    {
+      "note": "Second non-overwriting capture; concurrent source remained active, refer to source_changed_during_copy fields in accompanying capture summary",
+      "snapshot": "reports/stage01/progress87/*.capture2"
+    }
+  ],
+  "runner": {
+    "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\run_pipeline.sh",
+    "bytes": 2091,
+    "sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b"
+  },
+  "launch_failure_history": {
+    "detached_dispatch": "Native exit unknown/null; no science receipt directory or full_run.log; retained evidence at work/full100_dispatch_diagnostic86",
+    "signature_policy_refusal": "Reported before guarded retained-session launch; exact error text not recovered in bounded search; no execution-policy bypass"
+  },
+  "preparation": {
+    "remote_readback": "work/full100_publication86/remote_readback.json",
+    "remote_readback_sha256": "2adc4cad5fe4981e47ad37f3c01d86074897aeeef798d9518ad0ee44fc2e5d36",
+    "launch_review": "work/full100_launch_review86/receipt.json",
+    "taxonomic_strip": "pipeline_output/itol_annotations/itol_taxonomic_group_strip.txt",
+    "strip_sha256": "ca7d4ccafe32d07489c6a5637fb4947095df1c3468baddbbd276422ad4315728",
+    "strip_generator": "work/full100_labels_audit86/make_taxonomic_group_strip.py",
+    "strip_generator_sha256": "59e961ddf1ab13d99bd0ed55259a404e349beab12917dd2b337dcf1a46c1f477",
+    "strip_receipt": "work/full100_labels_audit86/taxonomic_group_strip_receipt.json",
+    "strip_receipt_sha256": "9e773bcff6ea542c8bbbd5616bab25b1dc332a476da8b522ca9136ca3c9b032e"
+  },
+  "includes_mutable_alignments": false,
+  "includes_browser_exports": false,
+  "git_refs_updated": false
+}

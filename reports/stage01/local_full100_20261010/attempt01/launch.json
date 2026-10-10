@@ -1,0 +1,15 @@
+{
+  "state": "RUNNING",
+  "started_utc": "2026-10-10T09:31:05.9280558Z",
+  "powershell_pid": 31816,
+  "powershell_creation_utc": "2026-10-10T09:31:02.8204800Z",
+  "command": "nohup bash scripts/master_run/full100_runner86.sh",
+  "pipeline_command": "PILOT_ONLY=0 bash run_pipeline.sh",
+  "script_sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+  "runner_sha256": "88830a0d74f4b9dbbf28bf3ba9105eab0d3adbc81d758de50e120a39fdc55450",
+  "original_lock_opened_exclusively": true,
+  "full_pipeline_authorized": true,
+  "markers": 100,
+  "taxa": 196,
+  "itol_dependency": false
+}

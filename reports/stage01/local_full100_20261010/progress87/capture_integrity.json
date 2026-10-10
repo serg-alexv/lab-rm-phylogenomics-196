@@ -1,0 +1,23 @@
+{
+  "schema": "concurrent-progress-log-capture-integrity-v1",
+  "note": "Read-only captures made with read/write sharing while producer remained active. Keep unstable captures as evidence; do not present as atomic snapshots.",
+  "captures": [
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\full_run.log",
+      "capture": "reports/stage01/progress87/full_run.log",
+      "capture2": "reports/stage01/progress87/full_run.log.capture2",
+      "sha256_both": "cb2e087fbd0c05317961d27c27939d41003d7dcff9d0c44f0e5d06254d71bfe3",
+      "bytes_both": 413,
+      "capture2_size_before_after_stable": true
+    },
+    {
+      "source": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\reports\\stage01\\mafft_align.log",
+      "capture": "reports/stage01/progress87/mafft_align.log",
+      "capture2": "reports/stage01/progress87/mafft_align.log.capture2",
+      "capture_sha256": "3610f2d2ef8c44b78f59570bfeafaeee796c7c518f1f39c161456c2c08344480",
+      "capture2_sha256": "463069a6e9581d5a7c2971e449e7c61113fddb20e908dbed79a1a06cd6259727",
+      "capture2_bytes": 572351,
+      "capture2_source_changed_during_read": true
+    }
+  ]
+}

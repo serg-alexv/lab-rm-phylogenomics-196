@@ -1,0 +1,35 @@
+{
+  "bytes": 8595,
+  "group_counts": {
+    "Lacticaseibacillus": 19,
+    "Lactiplantibacillus": 22,
+    "Lactobacillus_sensu_stricto": 19,
+    "Lactococcus": 23,
+    "Leuconostoc": 19,
+    "Limosilactobacillus": 20,
+    "Oenococcus": 15,
+    "Pediococcus": 18,
+    "Streptococcus_thermophilus": 23,
+    "Weissella": 18
+  },
+  "groups": 10,
+  "inputs": {
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/pilot_itol_labels01/color_legend.tsv": {
+      "bytes": 321,
+      "sha256": "7b6a83c17abad1c2852cdbedfb360745d0413df38fce0649facaa8ff73ddf81a"
+    },
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/config/approved_accessions.txt": {
+      "bytes": 3332,
+      "sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6"
+    },
+    "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pipeline_output/itol_annotations/cell_mapping.tsv": {
+      "bytes": 18416,
+      "sha256": "86d978c660018f447769fe2e8367375f46870e71fe0488d0008575abd3760fcb"
+    }
+  },
+  "label_semantics": "operational taxonomic group; not host",
+  "output": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pipeline_output/itol_annotations/itol_taxonomic_group_strip.txt",
+  "output_sha256": "ca7d4ccafe32d07489c6a5637fb4947095df1c3468baddbbd276422ad4315728",
+  "status": "PASS",
+  "tips": 196
+}
