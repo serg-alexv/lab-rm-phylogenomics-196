@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_drivefs_filesystem_smoke.py",
+    "--owner-lock-receipt",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04/actual_owner_lock.json",
+    "--owner-lock-sha256",
+    "5755078db6ffd45366404caa165b7f5cb10bf607b9ca270dd7ee2c2637047f81",
+    "--supervisor-sha256",
+    "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "--run"
+  ],
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "child_cpu_seconds": 0.117256,
+  "child_pid": 41,
+  "child_start_ticks": "151798",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04/commands/drivefs.closure.json",
+  "command_nonce": "4f61ef1bf0924f71a98d90286eeab4d4",
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work",
+  "elapsed_seconds": 0.8273966030001247,
+  "execution": "PROCESS_EXITED",
+  "exit_code": 0,
+  "group_closure_sha256": "7284ac625f5d2619e7ed6e2d67d97e545c6c5875d5295ff0384ee5cc5779570b",
+  "identity": {
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "step": "drivefs"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 41,
+  "runner_pid": 40,
+  "sampled_tree_peak_rss_bytes": 21233664,
+  "sid": 41,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "550391791bbcba41a0da60f74032ab0cce8c2acf0c731df2467cf688b9720b01",
+  "termination_reason": null,
+  "utc": "2026-10-10T02:56:00.659839+00:00"
+}

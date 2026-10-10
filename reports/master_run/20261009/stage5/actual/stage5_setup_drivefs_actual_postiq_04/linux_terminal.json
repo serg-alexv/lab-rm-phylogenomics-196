@@ -1,0 +1,47 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "drivefs",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04/owner_lease.json",
+      "--owner-nonce",
+      "e019a827aa594dfab683c241689745d6",
+      "--source-sha256",
+      "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "5755078db6ffd45366404caa165b7f5cb10bf607b9ca270dd7ee2c2637047f81",
+      "--toolchain-proof",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json",
+      "--toolchain-proof-sha256",
+      "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7"
+    ],
+    "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 40,
+      "pid": 40,
+      "ppid": 39,
+      "sid": 40,
+      "start_ticks": "151755",
+      "state": "R"
+    }
+  },
+  "drivefs_stdout_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_04/commands/drivefs.stdout.txt",
+  "no_native_launch": false,
+  "owned_closure_proven": true,
+  "owned_command_count": 1,
+  "owner_nonce": "e019a827aa594dfab683c241689745d6",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "state": "PASS_NONSCIENTIFIC_SETUP_STEP",
+  "step": "drivefs"
+}

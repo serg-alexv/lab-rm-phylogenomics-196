@@ -1,0 +1,51 @@
+{
+  "schema": "STAGE05_OWNED_WINDOWS_IO_JOB_V2",
+  "state": "FAILED",
+  "argv": [
+    "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows.py",
+    "--drivefs-readback-worker",
+    "--request",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_04\\drivefs_readback_request.json",
+    "--request-sha256",
+    "3bb121f6aa68a250987ff225ae62dd56bfca75798ac790cdb0f63b756da3a152"
+  ],
+  "owner": {
+    "pid": 27368,
+    "creation_filetime": 134360745599639067,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+  "api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "job_name": "Local\\LAB_RM_STAGE5_IO_054929b941d44defb049fd197cc53c73",
+  "drain_samples": [],
+  "owned_closure_proven": false,
+  "created": true,
+  "assigned": true,
+  "birth": {
+    "pid": 10996,
+    "creation_filetime": 134360745617789797,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "exit": {
+    "pid": 10996,
+    "creation_filetime": 134360745617789797,
+    "exit_filetime": 134360745619917674,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  }
+}

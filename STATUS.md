@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T03:01:09.761701+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T03:02:10.060612+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: current-boot G visibility PASS after a separate missing-drive diagnosis and one exact mount. Both actual scopes retain native/WSL closure, original explicit unlock and unchanged controls; independent C byte/lifecycle review PASS. Storage06 is separately accepted. Runtime08 and DriveFS04 actual checks passed and await their publication checkpoints; UNC03 precedes the first full-method genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture, splitting and cold restoration remain pending; the host is not wipe-ready.
+Stage5 current execution: fresh DriveFS04 write and Windows readback PASS; reviewed UNC03 preparation source only. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -173,3 +173,6 @@ Actual operational update: fresh storage06 PASS; exact current-boot ext4 bind an
 Actual operational update: current boot G diagnosis and exact mount independently closed PASS
 - `stage5_gdrive_view_ca28ad9a9d8d4e668881dd168fcc0f60`: PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER; exact command, closure, resources and lock-release receipts are retained.
 - `stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0`: PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: fresh DriveFS04 write and Windows readback PASS; reviewed UNC03 preparation source only
+- `stage5_setup_drivefs_actual_postiq_04`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.

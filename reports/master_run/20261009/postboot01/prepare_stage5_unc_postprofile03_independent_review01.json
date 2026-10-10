@@ -1,0 +1,94 @@
+{
+  "schema": "STAGE05_UNC03_CONFIG_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_FROZEN_UNC03_PREPARER_SIX_PURE_TESTS_DEFAULT_NOOP",
+  "utc": "2026-10-10T03:01:03.365579+00:00",
+  "reviewer_source_sha256": "ff2e635a1f7c2d8dab2b961edc49fecb4128589644db793774557a7270a6ca16",
+  "method": "C-only source/byte readback and bounded pure synthetic tests/default NOOP; no actual runtime08/storage06 candidate reads, config creation, UNC, WSL, registry, lock, Git or native action",
+  "scientific_adoption": false,
+  "source_sha256": "651c2bf5f54ea221f2493f1b31f9e840d057961c025f76aed9fd0820786e297a",
+  "checks": [
+    {
+      "name": "test_prepare_stage5_unc_postprofile03.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.009s\n\nOK\n"
+    },
+    {
+      "name": "prepare_stage5_unc_postprofile03.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_NOT_RUN\", \"configs_written\": 0, \"WSL_launches\": 0, \"UNC_actions\": 0, \"scientific_admission\": \"NOT_AUTHORIZED\"}\n",
+      "stderr": ""
+    }
+  ],
+  "independent_tamper_checks": [
+    {
+      "case": "target_mount_bool",
+      "rejected": true
+    },
+    {
+      "case": "backing_mount_float",
+      "rejected": true
+    },
+    {
+      "case": "noncanonical_uuid",
+      "rejected": true
+    },
+    {
+      "case": "runtime_backslash",
+      "rejected": true
+    },
+    {
+      "case": "storage_wrong_source",
+      "rejected": true
+    }
+  ],
+  "only_changes": [
+    "runtime.manifest_path",
+    "runtime.manifest_sha256",
+    "work_storage.proof_path",
+    "work_storage.proof_sha256"
+  ],
+  "entire_resource_policy_unchanged": true,
+  "five_biological_budgets_remain_null": true,
+  "preserved_old_source_unchanged": true,
+  "actual_candidate_closure_adoption": "REQUIRES_ROOT_COMPLETED_CURRENT_GATE_REVIEWS_AND_PUBLISHED_ACTUAL_BYTES",
+  "actual_probe": "NOT_RUN_REQUIRES_UNCHANGED_U0664_OWNER_CURRENT_STORAGE_ORIGINAL_LOCK_AND_CLOSURE",
+  "checked_files": {
+    "review_prepare_stage5_unc_postprofile03_source01.py": {
+      "bytes": 5509,
+      "sha256": "ff2e635a1f7c2d8dab2b961edc49fecb4128589644db793774557a7270a6ca16"
+    },
+    "prepare_stage5_unc_postprofile03.py": {
+      "bytes": 8120,
+      "sha256": "651c2bf5f54ea221f2493f1b31f9e840d057961c025f76aed9fd0820786e297a"
+    },
+    "test_prepare_stage5_unc_postprofile03.py": {
+      "bytes": 5786,
+      "sha256": "929285e6c80545cad9bd3fa27d8556020954dfe74d4ad7c1f1f17990277f8363"
+    },
+    "prepare_stage5_unc_postprofile03_METHODS.md": {
+      "bytes": 2940,
+      "sha256": "2673a5799616807f25b4dd83c5bb6b06c6a2051c7c4947358f0dc60300be12fe"
+    },
+    "prepare_stage5_unc_postprofile03_preparation01.json": {
+      "bytes": 2876,
+      "sha256": "beb4fb605573bee25d8a699a104fe57cb1551e1d452983f5910865802f06ccef"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "prepare_stage5_unc_postboot02.py": {
+      "bytes": 1248,
+      "sha256": "bce2bdfb2d871299d56428da7839e7096f35dbca4b71337da0726b8e36d3f359"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    }
+  }
+}

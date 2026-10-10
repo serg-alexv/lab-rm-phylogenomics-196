@@ -1,0 +1,71 @@
+{
+  "schema": "STAGE05_UNC03_CONFIG_SOURCE_PREPARATION_V1",
+  "state": "FROZEN_DEFAULT_NOOP_SIX_PURE_TESTS_PASS_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T02:46:39.714860+00:00",
+  "preserved_source": "prepare_stage5_unc_postboot02.py",
+  "preserved_source_sha256": "bce2bdfb2d871299d56428da7839e7096f35dbca4b71337da0726b8e36d3f359",
+  "old_source_cannot_be_reused_unchanged": "No argument/defaultNOOP interface; fixed obsolete runtime06/storage05 hashes and config02 output",
+  "fixed_future_candidate_names": [
+    "stage5_runtime_actual_postiq_08.json",
+    "stage5_storage_actual_postiq_06.json"
+  ],
+  "explicit_actual_candidate_SHA_arguments_required": true,
+  "storage_expected_linux_boot": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "output_name": "stage5_unc_config_actual_postprofile_03.json",
+  "only_template_changes": [
+    "runtime.manifest_path",
+    "runtime.manifest_sha256",
+    "work_storage.proof_path",
+    "work_storage.proof_sha256"
+  ],
+  "five_biological_resource_fields_remain_null": [
+    "incremental_windows_requirement_bytes",
+    "commit_requirement_bytes",
+    "linux_job_requirement_bytes",
+    "process_address_space_limit_bytes",
+    "sampled_rss_stop_bytes"
+  ],
+  "entire_resource_policy_unchanged": true,
+  "source_pins": {
+    "stage5_atomic_config.template.json": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+    "prepare_stage5_unc_postboot02.py": "bce2bdfb2d871299d56428da7839e7096f35dbca4b71337da0726b8e36d3f359",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+  },
+  "authored_pure_tests": {
+    "count": 6,
+    "state": "PASS"
+  },
+  "separate_default_noop": "PASS_EXIT0",
+  "files": [
+    {
+      "path": "prepare_stage5_unc_postprofile03.py",
+      "bytes": 8120,
+      "sha256": "651c2bf5f54ea221f2493f1b31f9e840d057961c025f76aed9fd0820786e297a"
+    },
+    {
+      "path": "test_prepare_stage5_unc_postprofile03.py",
+      "bytes": 5786,
+      "sha256": "929285e6c80545cad9bd3fa27d8556020954dfe74d4ad7c1f1f17990277f8363"
+    },
+    {
+      "path": "prepare_stage5_unc_postprofile03_METHODS.md",
+      "bytes": 2940,
+      "sha256": "2673a5799616807f25b4dd83c5bb6b06c6a2051c7c4947358f0dc60300be12fe"
+    }
+  ],
+  "actual_operations": {
+    "future_candidate_reads": "NOT_RUN",
+    "config_creation": "NOT_RUN",
+    "UNC_probe": "NOT_RUN",
+    "WSL": "NOT_RUN",
+    "process_effects": "NOT_RUN",
+    "mount": "NOT_RUN",
+    "lock": "NOT_RUN",
+    "Git_ref": "NOT_RUN",
+    "scientific_admission": "NOT_RUN"
+  },
+  "actual_current_storage_checks": "UNCHANGED_U0664_W7e06_REQUIRED_ON_EXPLICIT_PROBE",
+  "independent_source_review": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT"
+}

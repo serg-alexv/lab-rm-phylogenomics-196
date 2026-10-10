@@ -1,0 +1,12 @@
+{
+  "stage5_latest_postboot_gate": {
+    "spool": "stage5_setup_drivefs_actual_postiq_04",
+    "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+    "independent_review_sha256": "9422740541af40f25eaf6de2bd990b9e2a9dd3b5726f8331621f1e69a0c352e9"
+  },
+  "stage5_current_stop_sha256": null,
+  "stage5_current_linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "stage5_drivefs_current": "PASS_CURRENT_BOOT_OWNED_FILESYSTEM_WORKER_AND_WINDOWS_READBACK; stage5_setup_drivefs_actual_postiq_04",
+  "stage5_unc_config_source_current": "PASS_INDEPENDENT_SOURCE_REVIEW; prepare_stage5_unc_postprofile03.py 651c2bf5; ACTUAL_PREPARATION_AND_PROBE_NOT_RUN",
+  "stage5_unc_config_source_independent_review_sha256": "d2f12e25e9f7b098d73e1882a6c9a1bfeaf452288f9976dec479a97859cb8b4c"
+}
