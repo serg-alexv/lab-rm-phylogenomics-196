@@ -1,0 +1,149 @@
+{
+  "schema": "STAGE05_POSTBOOT_COMPLETED_GATE_INDEPENDENT_V1",
+  "state": "PASS_COMPLETED_POSTBOOT_GATE_EXACT_SOURCE_CLOSURE_AND_BYTES",
+  "source_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "kind": "storage",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_storage_actual_postiq_05",
+  "utc": "2026-10-10T01:30:20.397434+00:00",
+  "readonly_method": "Standard-library decoded receipts and SHA256; no producer imports, WSL, network, registry, signaling or lock mutation",
+  "scientific_execution_or_acceptance": "NONE_NONSCIENTIFIC_GATE_ONLY",
+  "old_scope_retroactively_passed": false,
+  "authority_commit": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "new_windows_boot": "2026-10-10T00:36:47.500000+00:00",
+  "boot_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
+  "actual_result_sha256": "e0966db5f35a163c5c5ebf54fdb018f3065a60530c73e19b3b95d1e39bc1ff13",
+  "unlock_sha256": "362b6fa44200d6bc3caa676ba07085067871936f256c5858b9c922d5818cc01e",
+  "detail": {
+    "linux_boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+    "native_commands": [
+      {
+        "label": "bind_storage",
+        "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+        "argv": [
+          "/usr/bin/mount",
+          "--bind",
+          "/var/tmp/lab_rm_stage05_atomic_v1",
+          "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1"
+        ],
+        "exit_code": 0,
+        "closure_sha256": "ac41f753e704f656774fd4624e171f085d68db3ef51a42999defe025f1b1e8d2"
+      }
+    ],
+    "candidate_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_storage_actual_postiq_05.json",
+    "candidate_sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54"
+  },
+  "checked_files": {
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_setup_storage_actual_postiq_05\\result.json": {
+      "bytes": 4891,
+      "sha256": "e0966db5f35a163c5c5ebf54fdb018f3065a60530c73e19b3b95d1e39bc1ff13"
+    },
+    "stage5_setup_storage_actual_postiq_05\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "362b6fa44200d6bc3caa676ba07085067871936f256c5858b9c922d5818cc01e"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    "stage5_drivefs_filesystem_smoke.py": {
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "observe_iqtree_controller_exit.py": {
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_storage_actual_postiq_05\\actual_owner_lock.json": {
+      "bytes": 685,
+      "sha256": "39dc78f0341c45088bea5bb64c240e121294e403054d58b4cb7dfccf1b1aab23"
+    },
+    "stage5_setup_storage_actual_postiq_05\\launch.json": {
+      "bytes": 1641,
+      "sha256": "e19293b858e72fb7b70dcea473c6c983c7f5aa9afcd124dc6b314bfe79785e58"
+    },
+    "stage5_setup_storage_actual_postiq_05\\wsl_exit.json": {
+      "bytes": 2320,
+      "sha256": "47d9e71cd850aa339268be6c9392485401f80c000c93aee62a1032120855085f"
+    },
+    "stage5_setup_storage_actual_postiq_05\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_storage_actual_postiq_05\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_storage_actual_postiq_05\\linux_terminal.json": {
+      "bytes": 3521,
+      "sha256": "6b7f71cdfbc1abafaf54c196513aa9c844ce993a24b13ace775baf6cd5d335d3"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.launch.json": {
+      "bytes": 871,
+      "sha256": "5b2df3c1d448e45cf19af7c4de6d7fb7a5a443a04dcf199c9540f7eedabd67db"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.launch_intent.json": {
+      "bytes": 384,
+      "sha256": "90e1fb6679588447e9db821602b27f60426acc19a073325cdc00d038b789f360"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.closure.json": {
+      "bytes": 646,
+      "sha256": "ac41f753e704f656774fd4624e171f085d68db3ef51a42999defe025f1b1e8d2"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.command.json": {
+      "bytes": 1398,
+      "sha256": "97a97fdd58af9817be57a17a1089482c50ed8bb86358d8eea242cea7c82050fa"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_storage_actual_postiq_05\\commands\\bind_storage.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_storage_actual_postiq_05.json": {
+      "bytes": 1252,
+      "sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54"
+    }
+  }
+}

@@ -14,6 +14,12 @@ def main():
       'independent_review_sha256':hashlib.sha256((W/a.review).read_bytes()).hexdigest()},
       'stage5_current_stop_sha256':None}
     if review.get('detail',{}).get('linux_boot_id'):patch['stage5_current_linux_boot_id']=review['detail']['linux_boot_id']
+    if result.get('step')=='storage':
+        patch['stage5_storage_current']='PASS_CURRENT_BOOT_EXACT_EXT4_BIND; '+a.spool
+    if result.get('step')=='drivefs':
+        patch['stage5_drivefs_current']='PASS_CURRENT_BOOT_OWNED_FILESYSTEM_WORKER_AND_WINDOWS_READBACK; '+a.spool
+    if result.get('state')=='PASS_NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY':
+        patch['stage5_unc_current']='PASS_CURRENT_BOOT_EXACT_BIND_NATIVE_WINDOWS_UNC_AND_CLEANUP; '+a.spool
     (W/(a.name+'_patch.json')).write_text(json.dumps(patch,indent=2)+'\n')
     extras=[a.review+'=reports/master_run/20261009/postboot01/'+Path(a.review).name,
       a.previous_readback+'=reports/master_run/20261009/publication/'+Path(a.previous_readback).name,
