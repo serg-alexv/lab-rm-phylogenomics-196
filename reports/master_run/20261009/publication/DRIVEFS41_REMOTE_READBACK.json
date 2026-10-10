@@ -1,0 +1,335 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T01:34:10.277235+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "77368fe677d1e41eb4f8f3b7fa555af9a06b382b",
+  "initial_remote_main": "77368fe677d1e41eb4f8f3b7fa555af9a06b382b",
+  "declaration_sha256": "13d4372ca82a914ae4f28c5613f6c3c0f7246d3e84c5efc23ec429301dd0be1d",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 35,
+  "verified_files": 35,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 17523,
+      "sha256": "72e12b887f321d77f13571690c4640fe94b8da7039a4536e66d0c189bc4581fd",
+      "remote_blob": "86c5efa08d96f58696597ce26ae9e64607abaf27",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/stage5_drivefs03_postboot_independent_review.json",
+      "bytes": 7407,
+      "sha256": "a91749db0f4bff4892f165b22321786770d2fdbd1cc993a7898f707ddd313d20",
+      "remote_blob": "a19982f855e627eb86bcd981aadbd4b42187e997",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_drivefs41_patch.json",
+      "bytes": 514,
+      "sha256": "c804347575d736e1e6ae432cc0c005978fbfa47cf2ccc4263477fa7d356126ee",
+      "remote_blob": "6dabef94eab75622b2efaefe937e9785291dcbf3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_storage40b_remote_readback.json",
+      "bytes": 13417,
+      "sha256": "bc7a87b7ef9ffcdf316db12e0c42d8509da4eaa41dcb3e986b1d66660a93b7b2",
+      "remote_blob": "c9b29b5e7caf43d22209146dcc1d68bd10f8054b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/actual_owner_lock.json",
+      "bytes": 687,
+      "sha256": "ff9d6804461e32eb8bad7992c81a8b00d7f51ed5459dfe620c5778d9ecc2bf0a",
+      "remote_blob": "5a8ed43bbc816760c35dcf5a13db8f952f8e262d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/admission.json",
+      "bytes": 1780,
+      "sha256": "a3face9f143475df9fc9e49f8cf92d8558c0a7b56e6b21e9ec69711a864c1a97",
+      "remote_blob": "40da63d241364e68dcff73805d4b0a26855698bb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands.jsonl",
+      "bytes": 1725,
+      "sha256": "03d245580419e9419ce28207b3a8f766f2affab968a43c16db1cb0054af79d08",
+      "remote_blob": "1a9e03539c7fb164800e97a0625539d77c94003e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/admission.json",
+      "bytes": 1780,
+      "sha256": "cd56f9e7a41074d40b8b791b0b08a0496f84766eafe60a6e1c64c07e915cbfb8",
+      "remote_blob": "e6d031b566900b8e447393edc917ff6fe2cd5762",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.closure.json",
+      "bytes": 646,
+      "sha256": "5d3421114c66e8c60a2f3b2b754bf932fc7a873fc02bc1d201cc98a24722632e",
+      "remote_blob": "f53e7d7e00b668187ef539188fd5f7d4a9c9dd0e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.command.json",
+      "bytes": 1831,
+      "sha256": "a804bb16df1e116da7022f15ca3e9d5882eb4841749b794a2e5a434cd8e00f9b",
+      "remote_blob": "3a8b80053772528ff0e10c607030ec069570bf2a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.launch.json",
+      "bytes": 1304,
+      "sha256": "376f568430e20bd2ed2ae1012e932f2799ea7c8a42aaae7fd9aa221f817d9acc",
+      "remote_blob": "9ce4bc05b9ee05bfdf0e58b6b5d80b236d3df690",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.launch_intent.json",
+      "bytes": 822,
+      "sha256": "2fec04961108253a21d79756a0c67a59885066e444a7eb81f904ec0e908dbf56",
+      "remote_blob": "0416d73ae92e4d7860006b93195de8fc8fefff9a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/drivefs.stdout.txt",
+      "bytes": 1636,
+      "sha256": "b941d23b7eec30f99df7411641172bd6b9c08cd8c26656fae597aa1f01539eb8",
+      "remote_blob": "b39521459d0de68e93e158ef5a3097216d2af9ae",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/commands/latest_admission.json",
+      "bytes": 1780,
+      "sha256": "cd56f9e7a41074d40b8b791b0b08a0496f84766eafe60a6e1c64c07e915cbfb8",
+      "remote_blob": "e6d031b566900b8e447393edc917ff6fe2cd5762",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/drivefs_readback_request.json",
+      "bytes": 396,
+      "sha256": "ce9531bbfe807db30afb9998e182fcd6b0f52ff597edfc35fee0d864b50ad0f7",
+      "remote_blob": "2c8e1a65196383764ee4ca86e3521efdb661a6ba",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/drivefs_windows_readback.json",
+      "bytes": 1137,
+      "sha256": "9e72b7935f19a50d5fb2898e2bc76b2c36e889ebe6673386e5b4f5f8ad38b333",
+      "remote_blob": "f5b685c258552bab5c6097636d1cb3eafafef93b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/latest_admission.json",
+      "bytes": 1780,
+      "sha256": "a3face9f143475df9fc9e49f8cf92d8558c0a7b56e6b21e9ec69711a864c1a97",
+      "remote_blob": "40da63d241364e68dcff73805d4b0a26855698bb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/launch.json",
+      "bytes": 1511,
+      "sha256": "6d91c9b39e259fa26b5fc343c67b15ed5b7e14cc66f0bfb4e7719f67627637a0",
+      "remote_blob": "5d55324185bea215ed6d2e393984fe8d9794ff5f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/linux_terminal.json",
+      "bytes": 1997,
+      "sha256": "71f374616df77c7a6eb1a2b6f5582962a45f90d4af698ae3071fd41b7ac81dd1",
+      "remote_blob": "382bed899674015d64972d3bb157d052665c529d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/lock_released.json",
+      "bytes": 116,
+      "sha256": "f5e7a5d523c6771a6e5be8ab0c47f0ab6b9fe985df3abdbe189d22b6db43d65b",
+      "remote_blob": "5644c89eab3b0048896913865da285d142911cb4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/owner_lease.json",
+      "bytes": 901,
+      "sha256": "cb65401e713d31390266167c393002928f325c9715e179871fbbb2b0b01f0ebf",
+      "remote_blob": "61e77e9afee5474f81729de3882e52b3e17eb5af",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/result.json",
+      "bytes": 8385,
+      "sha256": "9c01eef42ef1a78af43dc80685f2b3e64262a14965f07d17673c99321da4a787",
+      "remote_blob": "290c15ba6258e2f6597e048f429e18e2f5779eb4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/windows_readback_worker/launch.json",
+      "bytes": 1550,
+      "sha256": "2c2f390afeb143df3395a730a6e366cb99ad345022107e275e9facf905591919",
+      "remote_blob": "3baa9bd10d0bdc12825c161b68d79dd5e0c6caac",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/windows_readback_worker/progress.json",
+      "bytes": 2168,
+      "sha256": "60a29ed24726ee7eafad715606e7ed5b66403df57ee4633a536a4cf0c2fa1bb9",
+      "remote_blob": "47473a9571907c8a9bccaad6cf438a7a76e2c103",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/windows_readback_worker/result.json",
+      "bytes": 2404,
+      "sha256": "da9c4cc63e8e2bed548439a736fc38695dcf0605ab6466f9cb7f818c0ac5c69d",
+      "remote_blob": "b689c15ed1082b21355576d0fbfbb2c705ea7ec3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/windows_readback_worker/root_exit.json",
+      "bytes": 1877,
+      "sha256": "ec5572f5ffaaaf48d2b19d35f505f5269d3ac5ae62cbe1b1ab847b64a16bdcd5",
+      "remote_blob": "1ed91218fbf6fb5ad7f45718ec00a16743f24070",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_drivefs_actual_postiq_03/wsl_exit.json",
+      "bytes": 2185,
+      "sha256": "1bd606bd9f068a77a52609927cf34dbd45c6b93927ad09539d6835f21c6d754d",
+      "remote_blob": "0985d72630cc75bcc10b321ed2b74ffc55dd3149",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_completed_master_step.py",
+      "bytes": 1942,
+      "sha256": "2f50c376df5919fc2e1f6686e66a35e9211c49d9094e602557d7cc318413402f",
+      "remote_blob": "a9fd6cf2dae9f393bfe4bf5a21d4b3e2035d68d2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4837,
+      "sha256": "10a4e259c27757833ef32b0c49c9945c9760a218e33f6eb89257e68538437bae",
+      "remote_blob": "8e2b291571b9c8358fbcc63484abd7deaf2a498c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_packet_publication.py",
+      "bytes": 3090,
+      "sha256": "52114e2f843c06ecd625e8ede970ef7ffdf0ae778c9c52bdd63ec5a7c9aeac56",
+      "remote_blob": "9730cecfb27ec20a76d68fa7bb30f7c12791c1eb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_postboot_gate_step.py",
+      "bytes": 3580,
+      "sha256": "ddcdbd6c3310e4db2dadf451e8e06868ec63db212fd79f004f8052ef59424b8c",
+      "remote_blob": "0ef9f8c824e445add10ade85ac358018ec248d03",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 17774,
+      "sha256": "d0813446e5d862c517d86e476095a3c83f1f3bc78106460cbef679374dec6f26",
+      "remote_blob": "a1fb2894cae90622b41a343f56ba77db2452193c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "77368fe677d1e41eb4f8f3b7fa555af9a06b382b",
+  "finished_utc": "2026-10-10T01:34:24.167080+00:00",
+  "elapsed_seconds": 13.891000000000076,
+  "verified_bytes": 110482
+}

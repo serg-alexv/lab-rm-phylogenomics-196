@@ -1,0 +1,37 @@
+{
+  "actual_windows_owner": {
+    "cpu_seconds": 0.09375,
+    "creation_filetime": 134360696032790782,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "exit_code": null,
+    "exit_filetime": 0,
+    "exited": false,
+    "pid": 3736,
+    "session_id": 1
+  },
+  "config_linux_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_unc_config_actual_postboot_02.json",
+  "config_sha256": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5",
+  "expected_python": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+  "linux_payload_hex": "4e4f4e534349454e5449464943204c494e55580a80343ba47d9480915e678e7416c65f1fc682505b1f89ab9e7088aada37d5728187e2db1fc90a95ae5bf58b941f7248c0a8e9a7de686ceb008fbec6e07bd170d3ccc2478d61dfd3d7205f162f30aa6596500d4dea11c86a5f25c74a2d364d7c3a",
+  "nonce": "29dd9c67cd0e4dc9b82fe5529d3a6210",
+  "root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "schema": "STAGE05_UNC_BIND_PROBE_REQUEST_V1",
+  "scope": "NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY_ONLY",
+  "script_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+  "sentinel_name": ".unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+  },
+  "target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+  "unc": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+  "windows_payload_hex": "4e4f4e534349454e54494649432057494e444f575320554e430a6ae30a458bc5287e00cdae81bbf9dc3b7d687e6a4cc634bd34062383b28852300b55d8d1e4e1d253cee90bfc29fbee5cefec82d467425166eef27a8d64b87500f60649aad48f113bbba232c2597b15f0b098d69acae05c363caa568dbec6f11c",
+  "workflow_lock": {
+    "creation_filetime": 134359335921635133,
+    "file_index": 844424932784519,
+    "locked_byte": 0,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143
+  }
+}

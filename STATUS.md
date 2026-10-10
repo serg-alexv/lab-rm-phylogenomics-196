@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T01:33:39.608197+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T01:35:10.015281+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: Verify fresh owned DriveFS worker under durable named Job and retained handles. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
+Stage5 current execution: fresh toolchain05, runtime06, interop04, storage05 and DriveFS03 gates passed. UNC02 Linux preparation passed, but its retained Windows I/O worker exited1; its named Job was proven empty, original workflow lock released and no closure STOP created. The failed attempt and its sentinel remain preserved for targeted diagnosis. First-genome detector execution and production curation remain NOT_RUN until UNC passes. New boot and old STOP reconciliation are complete; the original historical worker failure remains a failure. Accepted Stage4 is unchanged. Actual VM capture/splitting and cold restore remain pending; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -133,3 +133,6 @@ Actual operational update: Verify fresh ext4 Stage5 storage bind after current-b
 
 Actual operational update: Verify fresh owned DriveFS worker under durable named Job and retained handles
 - `stage5_setup_drivefs_actual_postiq_03`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Preserve closed UNC02 Windows I/O failure for exact diagnosis
+- `stage5_unc_bind_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.
