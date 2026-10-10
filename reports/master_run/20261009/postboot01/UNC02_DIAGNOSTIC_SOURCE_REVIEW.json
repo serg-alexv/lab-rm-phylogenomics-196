@@ -1,0 +1,112 @@
+{
+  "actual_diagnostic": "NOT_RUN_BY_REVIEWER",
+  "actual_stage5_detectors": "NOT_RUN",
+  "author_actions": {
+    "Git_ref_writes": 0,
+    "UNC_writes": 0,
+    "WSL_launches": 0,
+    "actual_UNC_reads": 0,
+    "private_boot_namespace_reads": 0,
+    "workflow_lock_acquisitions": 0
+  },
+  "cause_status": "Root-owned0700 versus DefaultUid1000 remains a hypothesis pending actual diagnostic; missing windows_io.json does not exclude partial windows.bin",
+  "corrections_from_peer_draft": [
+    "Add fixed canonical/backing sentinel directory lstat receipts",
+    "Record exact Ubuntu registration including DefaultUid/Flags and recheck drift",
+    "Require ACTIVE direct authority with automatic_resume false and recheck raw hash/STOP",
+    "Add separate bounded payload hash observation while retaining unchanged original tiny_read failure",
+    "Reject reusing prior worker progress/results"
+  ],
+  "default_noop": {
+    "UNC_writes": 0,
+    "WSL_launches": 0,
+    "command": "python -B work/stage5_unc02_readonly_diagnostic.py",
+    "exit_code": 0,
+    "state": "PREPARED_READONLY_DIAGNOSTIC_NOT_RUN"
+  },
+  "files": [
+    {
+      "bytes": 17607,
+      "path": "stage5_unc02_readonly_diagnostic.py",
+      "sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f"
+    },
+    {
+      "bytes": 12543,
+      "path": "stage5_unc02_readonly_diagnostic_before_directory_uid_authority.py",
+      "sha256": "bd098ee17cd69afc4ec7b03d4d8f478bbb677f68410dfb81e39001ff1a523704"
+    },
+    {
+      "bytes": 6659,
+      "path": "test_stage5_unc02_readonly_diagnostic.py",
+      "sha256": "3f42a230936b78f38c76652336b9a53ea140447b9a71f52e6ebcbfb27a036e3e"
+    },
+    {
+      "bytes": 6606,
+      "path": "stage5_unc02_failed_scope_independent_review01.json",
+      "sha256": "dac7e8954193b84fb70b44ed9e88be64ec56ff1793be317e903335acafe7328b"
+    },
+    {
+      "bytes": 29071,
+      "path": "stage5_unc_bind_probe.py",
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    {
+      "bytes": 40596,
+      "path": "atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "bytes": 2385,
+      "path": "stage5_unc_bind_actual_postiq_02/request.json",
+      "sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c"
+    },
+    {
+      "bytes": 5796,
+      "path": "prepare_stage5_unc02_readonly_diagnostic_review01.py",
+      "sha256": "028ff2c398f7d05b3a69464e4635cefbee866be0db92fad4cb5e729a3159ea82"
+    }
+  ],
+  "registry_read_only_observation": {
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "DefaultUid": 1000,
+    "DistributionName": "Ubuntu",
+    "Flags": 15,
+    "Version": 2
+  },
+  "review_boundary": "Root final source review/publication/readback precedes actual invocation; this report author is also correction author",
+  "reviewer": "authority_review; took over original peer draft and made documented minimal corrections",
+  "schema": "STAGE05_UNC02_READONLY_DIAGNOSTIC_SOURCE_REVIEW_V1",
+  "source_review": {
+    "STOP_only_for_OwnedClosureFailure": true,
+    "current_ACTIVE_control_no_automatic_resume_checked_before_reads_and_final": true,
+    "exact_C_output_ancestry_and_fresh_spool": true,
+    "exact_Ubuntu_registration_DefaultUid_Flags_recorded_and_rechecked": true,
+    "exact_dependency_imports": true,
+    "failed_request_bytes_pinned": true,
+    "four_fixed_public_sentinel_leaves_only": true,
+    "fresh_worker_progress_and_result_enforced": true,
+    "no_WSL_invocation_Linux_child_mount_cleanup_permissions_or_source_changes": true,
+    "no_raw_sentinel_payload_in_outputs": true,
+    "original_U_tiny_read_unchanged_and_errors_retained": true,
+    "original_closed_UNC02_scope_preserved": true,
+    "same_U_windows_job_named_job_20_seconds_closure": true,
+    "same_original_WorkflowLock_byte0": true,
+    "separate_payload_observation_read_only_maximum_513_bytes_adoption_false": true,
+    "two_exact_directory_lstats": true
+  },
+  "source_sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f",
+  "state": "PASS_PREPARED_SOURCE_AND_FIVE_C_ONLY_TESTS_ACTUAL_NOT_RUN",
+  "tests": {
+    "command": "python -B work/test_stage5_unc02_readonly_diagnostic.py",
+    "coverage": [
+      "default noop avoids dependency imports and launch",
+      "exact failed request SHA, four fixed leaves, two directories and unchanged A/U source pins",
+      "original U.tiny_read nlink0 rejection retained while separate bounded hash observation succeeds without writes",
+      "winerror5 and directory denial preserved; partial windows.bin observed without mutation",
+      "halt/automatic_resume authority rejected using C-only fixture"
+    ],
+    "exit_code": 0,
+    "tests": 5
+  },
+  "utc": "2026-10-10T01:45:42.598113+00:00"
+}

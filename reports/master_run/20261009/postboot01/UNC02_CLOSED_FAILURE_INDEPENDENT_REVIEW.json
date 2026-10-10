@@ -1,0 +1,129 @@
+{
+  "schema": "STAGE05_UNC02_CLOSED_FAILED_SCOPE_INDEPENDENT_V1",
+  "state": "PASS_RETAINED_FAILED_WORKER_CLOSURE_CAUSE_UNRECORDED",
+  "utc": "2026-10-10T01:36:41.420573+00:00",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_02",
+  "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+  "request_sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+  "original_result_sha256": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc",
+  "prepared_sha256": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968",
+  "windows_worker_result_sha256": "4547764de4efc390124fd0d469528686b12585f1b7f36fcf3add38e780229c46",
+  "windows_worker_terminal": {
+    "pid": 18488,
+    "creation_filetime": 134360696039182860,
+    "exit_filetime": 134360696040556639,
+    "cpu_seconds": 0.0625,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 1
+  },
+  "windows_full_named_job_empty": true,
+  "linux_prepare_retained_exit0": {
+    "cpu_seconds": 0.0,
+    "creation_filetime": 134360696034633205,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "exit_code": 0,
+    "exit_filetime": 134360696038845780,
+    "exited": true,
+    "pid": 11044,
+    "session_id": 1
+  },
+  "linux_prepare_spawned_children": 0,
+  "original_workflow_lock_unlocked": true,
+  "current_STOP_exists_point_in_time": false,
+  "worker_failure_cause": "UNRECORDED; worker stdout/stderr or phase-error receipt not retained by current source",
+  "windows_io_publication": "NOT_EMITTED",
+  "linux_finalization_and_sentinel_cleanup": "NOT_RUN",
+  "sentinel_namespace_preserved": {
+    "target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+    "unc": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+    "name": ".unc_visibility_29dd9c67cd0e4dc9b82fe5529d3a6210",
+    "linux_file_bytes": 116,
+    "linux_file_sha256": "0c4fd0378b353c43ef2cd177452a1bfe98444316d763619d36806a2b4e2852c8",
+    "windows_expected_bytes": 122,
+    "windows_expected_sha256": "ee8f35d7376d391d5bc60ec1127c440819427d423ef2fada239c592c0760ae4a"
+  },
+  "critical_limitations": [
+    "No worker exception evidence identifies its failed expression.",
+    "Absence of windows_io.json cannot prove that windows.bin was never written; that receipt is emitted last.",
+    "Successful Linux prepare proves its current storage view; Windows UNC visibility remains unproven.",
+    "Existing Linux prepared sentinel requires exact identity/byte-bound later cleanup; no recursive purge is justified."
+  ],
+  "diagnostic_route": [
+    "Under original lock and resource admission, inspect exact UNC sentinel directory and linux.bin metadata, preserving native exception kind/winerror for any unavailable path.",
+    "If bounded regular file metadata permits read-only diagnostic inspection, capture before/open/after device,inode,nlink,mode,attributes,size,mtime and actual <=512-byte payload hash.",
+    "Compare each tiny_read predicate separately, especially provider nlink==1 and opened inode equality; do not relax adoption checks from an untested cause.",
+    "Inspect optional windows.bin presence and <=512-byte hash without creating or changing it, to locate a possible partial write.",
+    "If canonical UNC target is absent while Linux prepare passed, compare only explicitly authorized native-backing UNC metadata as a separate namespace diagnosis; no alternative mapping is adopted by this review.",
+    "Keep failed scope and prepared sentinel preserved; require new reviewed source plus actual full three-phase UNC success before science."
+  ],
+  "reviewer_WSL_or_UNC_access": "NONE_FILES_ONLY",
+  "scientific_acceptance": "NONE",
+  "checked_files": {
+    "stage5_unc_bind_actual_postiq_02\\result.json": {
+      "bytes": 3339,
+      "sha256": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc"
+    },
+    "stage5_unc_bind_actual_postiq_02\\request.json": {
+      "bytes": 2385,
+      "sha256": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c"
+    },
+    "stage5_unc_bind_actual_postiq_02\\prepared.json": {
+      "bytes": 3929,
+      "sha256": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968"
+    },
+    "stage5_unc_bind_actual_postiq_02\\lock_released.json": {
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    "stage5_unc_bind_actual_postiq_02\\windows_io_worker\\result.json": {
+      "bytes": 2494,
+      "sha256": "4547764de4efc390124fd0d469528686b12585f1b7f36fcf3add38e780229c46"
+    },
+    "stage5_unc_bind_actual_postiq_02\\windows_io_worker\\launch.json": {
+      "bytes": 1542,
+      "sha256": "b56c9bd3c71e84fe996124c4dd07f663b58ba0befa85ecf776de17ac9bae756b"
+    },
+    "stage5_unc_bind_actual_postiq_02\\windows_io_worker\\root_exit.json": {
+      "bytes": 1868,
+      "sha256": "956a937eb2748c6dc3d513c6b4538e2593e60d7ba859e74d7bbeae5abbe10dd2"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_storage_actual_postiq_05.json": {
+      "bytes": 1252,
+      "sha256": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54"
+    },
+    "stage5_unc_config_actual_postboot_02.json": {
+      "bytes": 2925,
+      "sha256": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+    },
+    "stage5_unc_bind_actual_postiq_02\\linux-prepare.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_unc_bind_actual_postiq_02\\linux-prepare.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_unc_bind_actual_postiq_02\\windows_io_worker\\progress.json": {
+      "bytes": 2157,
+      "sha256": "6415ef41c1abe22eb30b4261ca1dbb4645c0b0279c3298c44e5bc1d9b6de2285"
+    }
+  }
+}
