@@ -1,0 +1,46 @@
+{
+  "schema": "STAGE05_EXACT_WAITING_CANCEL_WINDOWS_CONTROL_V1",
+  "state": "FAILED",
+  "source_sha256": "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_cancel_exact_waiting_bootstrap.py": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b"
+  },
+  "original_owner_termination_or_unlock_proven": false,
+  "second_workflow_lock": false,
+  "original_science_owner_or_science_client_signaled": false,
+  "WSL_clients_created": 1,
+  "original_owner": {
+    "pid": 24488,
+    "creation_filetime": 134360766940521715,
+    "exit_filetime": 0,
+    "cpu_seconds": 2.015625,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "original_lock_binding": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "owner_nonce": "1439a454dde8448f8f9606b6de6ac702",
+  "resources": {
+    "utc": "2026-10-10T03:52:26.773601+00:00",
+    "physical_available_bytes": 3833413632,
+    "commit_headroom_bytes": 4369965056,
+    "commit_total_bytes": 17636810752,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245760479232
+    }
+  },
+  "error_kind": "ValueError",
+  "original_owner_query_handle_closed": true,
+  "utc": "2026-10-10T03:52:26.868959+00:00"
+}

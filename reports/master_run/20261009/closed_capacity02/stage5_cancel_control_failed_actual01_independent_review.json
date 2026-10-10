@@ -1,0 +1,100 @@
+{
+  "schema": "STAGE05_CANCEL_FAILED_CONTROL_INDEPENDENT_V1",
+  "state": "PASS_FAILED_CANCEL_CONTROL_RETAINED_WINDOWS_SCOPE_CLOSED_SIGNAL_NOT_ESTABLISHED",
+  "utc": "2026-10-10T03:55:27.140288+00:00",
+  "reviewer_source_sha256": "2c7f4bbbb2a85953d4fe4b5d8bc1df2c7e340d5d61f205bcf6992b015c217ebe",
+  "method": "C-only exact source/published readback/intent/retained Windows launch+exit+named Job receipts and point-in-time C namespace observations. No producer imports, G/UNC/WSL/API/lock/process effects/network/Git.",
+  "actual_cancellation_state": "FAILED_PRESERVED",
+  "scientific_adoption": false,
+  "original_owner_closure_or_unlock_accepted": false,
+  "actual_outer_result_sha256": "49def616534146b621b91537e9ffb56bae62f49ae739797a68b0f3b27be16584",
+  "actual_job_result_sha256": "839e56e8ac1ef0e4e79bbc9a87895e0ec852dda75b767fecde54787cd7825bbe",
+  "actual_source_publication": {
+    "commit": "bd7cc38fdc494a5e00f8381b669e59df6ea5edec",
+    "readback_sha256": "7e1c102ab66a319677bee41d6c5598a46269be34df61b07fd9b7b978fe0315d9",
+    "verified_files": 24
+  },
+  "retained_control_client": {
+    "pid": 10492,
+    "creation_filetime": 134360779468058303,
+    "exit_filetime": 134360779468524432,
+    "exit_code": 1
+  },
+  "windows_control_job_empty": true,
+  "windows_control_handles_closed_without_recorded_error": true,
+  "original_owner_query_handle_closed": true,
+  "observations": {
+    "utc": "2026-10-10T03:55:27.214626+00:00",
+    "Linux_cancel_spool_exists": false,
+    "original_science_owner_result_exists": false,
+    "original_science_owner_unlock_exists": false,
+    "scope": "POINT_IN_TIME_C_ONLY"
+  },
+  "Linux_signal_request": "NOT_ESTABLISHED_NO_LINUX_RECEIPT_OR_DURABLE_INTENT_OBSERVED",
+  "claim_limit": "Published helper cannot enter its signal path before fixed OUT creation and durable signal intent. Their C namespace is absent now, which is consistent with failure before helper entry/preconditions; retained Windows exit1 without stdout/stderr does not establish the exact Linux/WSL startup exception or an unconditional historical no-signal claim.",
+  "failure_cause": "UNRECORDED; unchanged copied U job does not capture control-client stdout/stderr",
+  "next_action": "No control expansion, remediation or retry. Retain existing original science owner and await its bounded1800s admission expiry. Independently prove actual runner no-native terminal/owned closure, original retained WSL exit and explicit original lock release before config02 build/run.",
+  "old_science_waiting_scope_not_reclassified": true,
+  "checked_files": {
+    "review_stage5_cancel_control_failed_actual01.py": {
+      "bytes": 8626,
+      "sha256": "2c7f4bbbb2a85953d4fe4b5d8bc1df2c7e340d5d61f205bcf6992b015c217ebe"
+    },
+    "stage5_cancel_exact_waiting_windows.py": {
+      "bytes": 13549,
+      "sha256": "42eb45458bbb6eee23262b548d2c6c04e695597e949790bf61f79dacfbfc328c"
+    },
+    "stage5_cancel_exact_waiting_bootstrap.py": {
+      "bytes": 10626,
+      "sha256": "7b02c2f05750371dbb9dca9026a86318054f41cdb0214aa22182bbf34da6c63b"
+    },
+    "stage5_cancel_exact_waiting_windows_source_independent_review01.json": {
+      "bytes": 6668,
+      "sha256": "7c24ea87872a1c21f8be9e09754b52e571205731175c2ecb5f3f7599133b9ca8"
+    },
+    "stage5_cancel_exact_waiting_linux_source_independent_review01.json": {
+      "bytes": 5408,
+      "sha256": "17b6a8f39cf8c628e007b094186115b0b4bd943779208bf8196eb1ccfe995431"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\result.json": {
+      "bytes": 1923,
+      "sha256": "49def616534146b621b91537e9ffb56bae62f49ae739797a68b0f3b27be16584"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\intent.json": {
+      "bytes": 2257,
+      "sha256": "7570a976f1d4e8578f3041e0c6a343cb162e4731003cbf4e3675a2aa8f6a04a1"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\wsl_control_client\\launch.json": {
+      "bytes": 1429,
+      "sha256": "1935b0f23ed55567ae41c4f4bdfa1eba2d0defdb928ea0d4bea746c629f98435"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\wsl_control_client\\root_exit.json": {
+      "bytes": 1689,
+      "sha256": "e76c93ca69b4f9d770c455b19ba0cca58d4cfe7d96427e4cc74ea87eca0a1a88"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\wsl_control_client\\result.json": {
+      "bytes": 2313,
+      "sha256": "839e56e8ac1ef0e4e79bbc9a87895e0ec852dda75b767fecde54787cd7825bbe"
+    },
+    "stage5_cancel_exact_waiting_windows_01\\wsl_control_client\\progress.json": {
+      "bytes": 1977,
+      "sha256": "4f616042d372a80defa7368cbc10f1c2fabd1e1a966da292d48aef548a8017d6"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "master_capacityprep64_remote_readback.json": {
+      "bytes": 10033,
+      "sha256": "7e1c102ab66a319677bee41d6c5598a46269be34df61b07fd9b7b978fe0315d9"
+    }
+  }
+}

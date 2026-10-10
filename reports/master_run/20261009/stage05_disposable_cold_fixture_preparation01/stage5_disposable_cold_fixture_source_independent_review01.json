@@ -1,0 +1,65 @@
+{
+  "schema": "STAGE05_DISPOSABLE_COLD_FIXTURE_SOURCE_PEER_V1",
+  "state": "PASS_SOURCE_ONLY_ACTUAL_DISPOSABLE_KERNEL_DRVFS_FIXTURE_NOT_RUN",
+  "utc": "2026-10-10T04:01:20.210248+00:00",
+  "reviewer_source_sha256": "4573166853455bc9ce9ccb92a09576f0a752efc38023689157dc9f121b64d6b6",
+  "frozen_sources": {
+    "stage5_setup_cold_fixture_linux.py": "853fc5e0f354a61dc7332c5c8141423d845616f3cb3a71d60a2efaaa8e80f3ca",
+    "stage5_setup_cold_fixture_windows.py": "f03c72327fd6ea0daf6b61cad49d4f59caa3342550fede9e25e2213df9c8002a",
+    "test_stage5_setup_cold_fixture.py": "7bf3b3bbe1c8217b0d8ca1f769dc7a3b183961c064ef284238bb263448ae00c4",
+    "STAGE05_DISPOSABLE_COLD_FIXTURE_PREPARATION01.md": "3e8d60c1fa168eb66f9dca6bbc9c3737753b045b48bb7ce5aef0ebdd67ddce1c",
+    "stage5_setup_cold_linux_v2.py": "d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c",
+    "stage5_setup_cold_windows_v2.py": "a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c",
+    "stage5_offline_image_read_parts_v2.py": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+  },
+  "original_function_AST_counts": {
+    "linux": 19,
+    "windows": 21
+  },
+  "pure_tests": 16,
+  "test_failures": 0,
+  "test_errors": 0,
+  "test_output": "................\n----------------------------------------------------------------------\nRan 16 tests in 2.453s\n\nOK\n",
+  "actual_main_default_NOOPs": [
+    {
+      "source": "stage5_setup_cold_fixture_linux.py",
+      "result": {
+        "state": "NO_OP_DISPOSABLE_COLD_FIXTURE",
+        "original_image_effects": false
+      }
+    },
+    {
+      "source": "stage5_setup_cold_fixture_windows.py",
+      "result": {
+        "state": "NO_OP_DISPOSABLE_COLD_FIXTURE",
+        "original_image_effects": false
+      }
+    }
+  ],
+  "operational_adoption_blockers": [],
+  "scope_review": [
+    "Only a fresh directly contained C disposable.ext4 of64MiB and fixed nonce mount are writable; original image and mount argv absent from fixture commands.",
+    "Existing original byte WorkflowLock/lease/mount/native guards and one-command reader preserved; no second controller hierarchy.",
+    "Original coldv2 functions, including checked unlock/receipt/STOP and bounded final publication fault handling, are AST-identical.",
+    "Windows retained GENERIC_READ/FILE_SHARE_READ guard inherits reviewed owner-binding/check/checked-close/failed-close retention; exact fresh path/file identity/type/size guarded.",
+    "Real future O_RDWR before/during/after sharing controls, kernel RO loop+noload+EROFS, complete public payload/metadata/hardlink/symlink/xattrs and detach/process exclusion are required by source.",
+    "Finite25-phase/source/nonce/boot/hash/argv/count ledger with unchanged native closure readback, current original proof equality and exactf64 runtime rediscovery required."
+  ],
+  "nonblocking_findings": [
+    {
+      "kind": "FAIL_CLOSED_PARTIAL_PHASE_PUBLICATION_WINDOW",
+      "detail": "Linux uses the unchanged direct final-path write_new; Windows can observe08/16 existence before JSON write/fsync completes and reject. This cannot grant PASS and preserves STOP, but could require root reconciliation after an otherwise healthy fixture."
+    }
+  ],
+  "required_before_actual": [
+    "Publish exact reviewed bytes and verify remote readback.",
+    "Obtain actual first scientific owner/client/native closure and original checked unlock; no active science.",
+    "Fresh original authority/STOP/boot/toolchain/runtime/resources must pass; this source review supplies none of those actual facts."
+  ],
+  "actual_disposable_fixture_WSL_UNC_lock_handles_mounts_signals_images": "NOT_RUN",
+  "actual_production_inventory_capture_rawsplit_upload_restore_cleanup": "NOT_RUN",
+  "biological_result_or_absence": "NOT_CREATED",
+  "safe_original_image_cold_adoption": "REQUIRES_ACTUAL_DISPOSABLE_FIXTURE_PEER_AND_SEPARATE_PRODUCTION_GATES"
+}

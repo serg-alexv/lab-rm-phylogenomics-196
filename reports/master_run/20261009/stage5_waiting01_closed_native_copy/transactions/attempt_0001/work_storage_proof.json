@@ -1,0 +1,37 @@
+{
+  "backing": "/var/tmp/lab_rm_stage05_atomic_v1",
+  "backing_mount": {
+    "filesystem": "ext4",
+    "major_minor": "8:48",
+    "mount_id": 87,
+    "mountpoint": "/",
+    "optional_fields": [],
+    "options": "rw,relatime",
+    "parent_id": 70,
+    "root": "/",
+    "source": "/dev/sdd",
+    "super_options": "rw,discard,errors=remount-ro,data=ordered"
+  },
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "canonical_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "canonical_target": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+  "directory_device": 2096,
+  "directory_inode": 33554542,
+  "filesystem_uuid": "3370e495-79b5-4136-9c6b-d31c7cb6a6be",
+  "helper_sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+  "proof_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_06.json",
+  "proof_sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0",
+  "schema": "STAGE05_EXT4_BIND_STORAGE_PROOF_V1",
+  "target_mount": {
+    "filesystem": "ext4",
+    "major_minor": "8:48",
+    "mount_id": 139,
+    "mountpoint": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+    "optional_fields": [],
+    "options": "rw,relatime",
+    "parent_id": 138,
+    "root": "/var/tmp/lab_rm_stage05_atomic_v1",
+    "source": "/dev/sdd",
+    "super_options": "rw,discard,errors=remount-ro,data=ordered"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "STAGE05_DISPOSABLE_COLD_FIXTURE_SOURCE_PREPARATION_V1",
+  "state": "PASS_SOURCE_ONLY_INDEPENDENT_PEER_ACTUAL_FIXTURE_NOT_RUN",
+  "utc": "2026-10-10T04:02:13.750455+00:00",
+  "scope": "DISPOSABLE_64_MIB_IMAGE_BRANCH_IN_EXISTING_PAIRED_OWNER",
+  "frozen_source_sha256": {
+    "stage5_setup_cold_fixture_linux.py": "853fc5e0f354a61dc7332c5c8141423d845616f3cb3a71d60a2efaaa8e80f3ca",
+    "stage5_setup_cold_fixture_windows.py": "f03c72327fd6ea0daf6b61cad49d4f59caa3342550fede9e25e2213df9c8002a",
+    "test_stage5_setup_cold_fixture.py": "7bf3b3bbe1c8217b0d8ca1f769dc7a3b183961c064ef284238bb263448ae00c4",
+    "STAGE05_DISPOSABLE_COLD_FIXTURE_PREPARATION01.md": "3e8d60c1fa168eb66f9dca6bbc9c3737753b045b48bb7ce5aef0ebdd67ddce1c",
+    "stage5_disposable_cold_fixture_source_independent_review01.json": "8192eed126891527847b033b0f17d96daa45ce4c6200d2a0206d92718a205998",
+    "review_stage5_disposable_cold_fixture_source01.py": "4573166853455bc9ce9ccb92a09576f0a752efc38023689157dc9f121b64d6b6"
+  },
+  "original_cold_v2_preserved": {
+    "linux": "d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c",
+    "windows": "a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c",
+    "all_original_function_ASTs_unchanged": true,
+    "ordinary_RW_checks_unchanged": true,
+    "single_command_gate_unchanged": true,
+    "original_checked_unlock_STOP_publication_finalizer_unchanged": true
+  },
+  "fixture_contract": {
+    "image": "fresh direct C-work stage5_setup_cold_fixture_.../disposable.ext4",
+    "bytes": 67108864,
+    "mount": "/var/tmp/lab_rm_cold_fixture_<owned32hexnonce>",
+    "phases": 25,
+    "single_existing_workflow_owner": true,
+    "parent_allocation_mib": 512,
+    "worker_allocation_mib": 512,
+    "linux_total_seconds": 900,
+    "windows_total_seconds": 960,
+    "source_only_runtime_equality_criterion": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+    "Windows_guard": "retained GENERIC_READ/FILE_SHARE_READ, exact identity, checked CloseHandle",
+    "actual_control_sequence_required": "O_RDWR success before guard, real cross-DrvFS refusal during guard, success after checked release; no write calls",
+    "RO_sequence_required": "kernel read-only loop + ext4 ro,noload + payload EROFS + full fixture bytes/POSIX metadata/hardlink/symlink/xattrs + clean detach",
+    "original_images_mutated_by_fixture": false,
+    "fixture_image_retained_locally": true,
+    "fixture_image_publication_authorized": false
+  },
+  "verification": {
+    "authored_pure_fake_tests": 16,
+    "independent_pure_fake_tests": 16,
+    "producer_real_main_default_NOOPs": "PASS_BOTH",
+    "independent_real_main_default_NOOPs": "PASS_BOTH",
+    "independent_source_review_sha256": "8192eed126891527847b033b0f17d96daa45ce4c6200d2a0206d92718a205998",
+    "independent_checker_sha256": "4573166853455bc9ce9ccb92a09576f0a752efc38023689157dc9f121b64d6b6",
+    "source_adoption_blockers": []
+  },
+  "nonblocking_limitations": [
+    {
+      "kind": "FAIL_CLOSED_PARTIAL_PHASE_PUBLICATION_WINDOW",
+      "detail": "Linux uses the unchanged direct final-path write_new; Windows can observe08/16 existence before JSON write/fsync completes and reject. This cannot grant PASS and preserves STOP, but could require root reconciliation after an otherwise healthy fixture."
+    }
+  ],
+  "actual": {
+    "WSL_UNC_native_handles_workflow_lock": "NOT_RUN",
+    "disposable_image_creation_mount_DrvFS_controls": "NOT_RUN",
+    "original_image_inventory_capture": "NOT_RUN",
+    "raw_image_split": "NOT_RUN",
+    "GitHub_asset_upload_download_verification": "NOT_RUN",
+    "cold_restore": "NOT_RUN",
+    "cleanup_eviction_host_wipe": "NOT_RUN",
+    "biological_result_or_absence": "NOT_CREATED"
+  },
+  "public_scope": "Only project source, methods, pure test and sanitized source review/preparation evidence. No runtime image, private inventory or private session logs.",
+  "root_only_next": [
+    "Publish exact packet and verify full remote readback.",
+    "Close and independently reconcile the current scientific owner, native descendants, retained client, original checked unlock and STOP.",
+    "Recheck current original authority/boot/toolchain/runtime and unchanged resource guards; run only reviewed disposable fixture with explicit --fixture --run.",
+    "Independently verify complete actual25-phase/native/handle/guard-release/detach/runtime/unlock/publication receipts before production coldv2 adoption.",
+    "Production inventory remains private-first; public byte review, three-role capture, release download verification and original-prefix cold restore remain separate required gates."
+  ],
+  "cleanup_authority": false,
+  "scientific_adoption_authorized": false,
+  "actual_runtime_actions": false
+}

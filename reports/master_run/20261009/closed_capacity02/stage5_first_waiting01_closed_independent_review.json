@@ -1,0 +1,247 @@
+{
+  "schema": "STAGE05_FIRST_WAITING01_CLOSED_INDEPENDENT_V1",
+  "state": "PASS_FIRST01_NATURAL_ADMISSION_DEFER_NO_NATIVE_SCOPE_CLOSED_AND_ORIGINAL_UNLOCK",
+  "utc": "2026-10-10T04:04:51.155073+00:00",
+  "reviewer_source_sha256": "83dcea56ed379c4b03346f1ab7268138f47479cb7657dec9a72e63c7dd7f7513",
+  "method": "C-only frozen source, copied native terminal, retained WSL birth/exit, closed stdout/stderr, inactive lease, original explicit unlock and publication bytes. No producer imports, UNC/G/WSL/API/process/lock/network/Git effects.",
+  "scientific_native_execution": "NOT_RUN",
+  "scientific_adoption": false,
+  "cancellation_success_claim": false,
+  "actual_result_sha256": "5246971c6c6585c39cfe3f7de4e7ea46e4eaed1fee403b63d77459d4e39977e6",
+  "actual_native_terminal_sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2",
+  "actual_unlock_sha256": "2e5b850c8dbe972a49017755bfcf0ce3655fe5768421ad9b23db4aa6b6522a89",
+  "actual_state": "DEFERRED_RESOURCE",
+  "no_native_launch_in_this_invocation": true,
+  "owned_closure_proven": true,
+  "original_lock_explicitly_released": true,
+  "initial_admission_precedes_runtime_validation_bundle_and_every_native_launch": true,
+  "retained_WSL_client": {
+    "pid": 7468,
+    "creation_filetime": 134360766943374620,
+    "exit_filetime": 134360784948613669,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 75
+  },
+  "original_owner_birth": {
+    "pid": 24488,
+    "creation_filetime": 134360766940521715
+  },
+  "original_owner_process_exit": "Separate controller observation required; this owner result retains its initial birth record and does not assert its own exit.",
+  "source_PINS": {
+    "stage5_windows_backing_owner.py": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834",
+    "stage5_actual_backing_01.json": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa",
+    "stage5_atomic.py": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_first_backing_actual_config02_independent_review.json": "dfdcf5efc4444123f5e3829e3bbe7841c4d74e2c4f23af39c7679ac9190f7abc"
+  },
+  "point_in_time_C_STOP_absent": true,
+  "supplemental_C_evidence": {
+    "admission": {
+      "sha256": "5100b0363950515f36931e0cba5e01667b3a18b4ec21bdaba71d3a18e2869d5c",
+      "receipt": {
+        "admitted": false,
+        "disk_free_bytes": 1032084852736,
+        "linux_available_bytes": 2596618240,
+        "owner_lease_file_sha256": "2159d96e568efa3d606db0914f4fe8a6d099384a72d77ce1cc5c3837ff165b0b",
+        "policy": {
+          "command_timeout_seconds": 14400,
+          "commit_requirement_bytes": 3221225472,
+          "drain_timeout_seconds": 10,
+          "incremental_windows_requirement_bytes": 1610612736,
+          "job_timeout_seconds": 86400,
+          "lease_max_age_seconds": 30,
+          "linux_job_requirement_bytes": 1610612736,
+          "linux_reserve_bytes": 1073741824,
+          "minimum_disk_free_bytes": 5368709120,
+          "process_address_space_limit_bytes": 4294967296,
+          "resource_wait_seconds": 1800,
+          "sampled_rss_stop_bytes": 1342177280,
+          "termination_grace_seconds": 10,
+          "threads": 2,
+          "windows_reserve_bytes": 1610612736
+        },
+        "utc": "2026-10-10T04:01:34.839387+00:00",
+        "wait_seconds": 1800.0221000919996,
+        "windows_disks_sufficient": true,
+        "windows_owner_lease": {
+          "disk_available_bytes": {
+            "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_owner_GCF_000009425_1_backing_01": 245758799872,
+            "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233470857216
+          },
+          "expires_unix": 1791604924.3905401,
+          "measured_unix": 1791604894.3905401,
+          "nonce": "1439a454dde8448f8f9606b6de6ac702",
+          "owner_creation_filetime": "134360766940521715",
+          "owner_pid": 24488,
+          "schema": "STAGE05_WINDOWS_OWNER_LEASE_V1",
+          "utc": "2026-10-10T04:01:34.390540+00:00",
+          "windows_available_bytes": 3958501376,
+          "windows_commit_headroom_bytes": 4527964160,
+          "workflow_lock": {
+            "creation_filetime": 134359335921635133,
+            "file_index": 844424932784519,
+            "locked_byte": 0,
+            "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+            "volume_serial": 2430728143
+          },
+          "workflow_lock_held": true
+        }
+      }
+    },
+    "storage_sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa",
+    "producer_copy_receipt": {
+      "sha256": "174c24b98738650f242b135f2f3389260f556cd9cc99f81658e16595838f3948",
+      "receipt": {
+        "state": "PASS_EXACT_C_COPY_OF_CLOSED_INITIAL_RESOURCE_WAIT",
+        "utc": "2026-10-10T04:03:47.688506+00:00",
+        "source_sha256": "3818be9de892bb8415007d5ac94903fbabf89074d44e5810c16ee38eccf75e41",
+        "members": [
+          ".guard",
+          "status.json",
+          "transactions",
+          "transactions/attempt_0001",
+          "transactions/attempt_0001/initial_owner_lease.json",
+          "transactions/attempt_0001/latest_admission.json",
+          "transactions/attempt_0001/status.json",
+          "transactions/attempt_0001/work_storage_proof.json"
+        ],
+        "files": {
+          "status.json": {
+            "bytes": 541,
+            "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+          },
+          "transactions/attempt_0001/status.json": {
+            "bytes": 541,
+            "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+          },
+          "transactions/attempt_0001/latest_admission.json": {
+            "bytes": 1901,
+            "sha256": "5100b0363950515f36931e0cba5e01667b3a18b4ec21bdaba71d3a18e2869d5c"
+          },
+          "transactions/attempt_0001/initial_owner_lease.json": {
+            "bytes": 904,
+            "sha256": "fa30701cdefad62fabfbd1bfc99e542b9c1b47023aebb3cbc8633693900e1679"
+          },
+          "transactions/attempt_0001/work_storage_proof.json": {
+            "bytes": 1452,
+            "sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa"
+          }
+        },
+        "owner_result_sha256": "5246971c6c6585c39cfe3f7de4e7ea46e4eaed1fee403b63d77459d4e39977e6",
+        "no_execution_or_inventory_paths_observed": true
+      }
+    }
+  },
+  "next_action": "Preserve deferred01 and failed cancellation control. Separate capacity02 build/run must acquire the unchanged original lock and repeat fresh authority/storage/runtime/resources. No further booking reduction; no biological absence claim.",
+  "checked_files": {
+    "review_stage5_first_waiting01_closed.py": {
+      "bytes": 12155,
+      "sha256": "83dcea56ed379c4b03346f1ab7268138f47479cb7657dec9a72e63c7dd7f7513"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_actual_backing_01.json": {
+      "bytes": 2955,
+      "sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_first_backing_actual_config02_independent_review.json": {
+      "bytes": 36207,
+      "sha256": "dfdcf5efc4444123f5e3829e3bbe7841c4d74e2c4f23af39c7679ac9190f7abc"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\owner.json": {
+      "bytes": 1955,
+      "sha256": "37eeca75a126a5daae7b64b152542c49c8accf79afd3d9595aa458a0c728a58a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.launch.json": {
+      "bytes": 1066,
+      "sha256": "e846cf1448074dacc7cd420eb2fdb850303c743a529c5235a6f3f97040f93995"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\result.json": {
+      "bytes": 2324,
+      "sha256": "5246971c6c6585c39cfe3f7de4e7ea46e4eaed1fee403b63d77459d4e39977e6"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.exit.json": {
+      "bytes": 646,
+      "sha256": "0829145ad5dea8830e70714c7045fb279d23f24045c9c841b0b1aaa11a220b66"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\progress.json": {
+      "bytes": 1544,
+      "sha256": "a444dd0a1a32deb1f1dbd65ccf5a86fe89baaf7489cecc26f8ce20ff029ab0df"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\owner_lease.json": {
+      "bytes": 905,
+      "sha256": "767377cf1af1505c27e9899da46cf1c4884555a579e3fc98d7e3044c9eaa959b"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\lock_released.json": {
+      "bytes": 96,
+      "sha256": "2e5b850c8dbe972a49017755bfcf0ce3655fe5768421ad9b23db4aa6b6522a89"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.stdout.txt": {
+      "bytes": 541,
+      "sha256": "5ea2afa9a2612c4f727282dd818d8c1b7e549689a6d2ba4979413981c355c455"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_waiting01_closed_native_copy\\status.json": {
+      "bytes": 541,
+      "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+    },
+    "stage5_waiting01_closed_native_copy\\transactions\\attempt_0001\\latest_admission.json": {
+      "bytes": 1901,
+      "sha256": "5100b0363950515f36931e0cba5e01667b3a18b4ec21bdaba71d3a18e2869d5c"
+    },
+    "stage5_waiting01_closed_native_copy\\transactions\\attempt_0001\\work_storage_proof.json": {
+      "bytes": 1452,
+      "sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa"
+    },
+    "stage5_storage_actual_postiq_06.json": {
+      "bytes": 1250,
+      "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+    },
+    "stage5_waiting01_closed_native_copy\\snapshot.json": {
+      "bytes": 1516,
+      "sha256": "174c24b98738650f242b135f2f3389260f556cd9cc99f81658e16595838f3948"
+    },
+    "copy_stage5_waiting01_closed_evidence.py": {
+      "bytes": 2213,
+      "sha256": "3818be9de892bb8415007d5ac94903fbabf89074d44e5810c16ee38eccf75e41"
+    },
+    "stage5_waiting01_closed_native_copy\\transactions\\attempt_0001\\status.json": {
+      "bytes": 541,
+      "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+    },
+    "stage5_waiting01_closed_native_copy\\transactions\\attempt_0001\\initial_owner_lease.json": {
+      "bytes": 904,
+      "sha256": "fa30701cdefad62fabfbd1bfc99e542b9c1b47023aebb3cbc8633693900e1679"
+    },
+    "master_firstconfig62_remote_readback.json": {
+      "bytes": 5673,
+      "sha256": "cd0de0712525573d300c0d1ceac8ce245eec2e8c1532827c1b114fca6d23eec1"
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schema": "STAGE05_CAPACITY02_ACTUAL_CONFIG_INDEPENDENT_V1",
+  "state": "PASS_ACTUAL_CAPACITY02_CONFIG_EXACT_SINGLE_BOOKING_DELTA_SIX_GATES_AND_PRIOR_CLOSED_SCOPE",
+  "utc": "2026-10-10T04:06:02.945600+00:00",
+  "reviewer_source_sha256": "0ab11ba10215c6f4bc149b4e1cfe15789d1dc09e696045d4b1c39ab459a7e89d",
+  "method": "Bounded C-only actual request/config/build exact deltas, six existing gate/result/unlock/peer joins and closed waiting01 prerequisite; unchanged builder explicit_policy and scientific load_config only. No G/UNC/WSL/API/lock/process/network/Git effects.",
+  "scientific_native_execution": "NOT_RUN",
+  "scientific_adoption": false,
+  "actual_config_sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63",
+  "actual_request_sha256": "13cdeba557bf0042a4fe2e95bf0905734cdd4735b0c333f255838b3fdb7e9ccb",
+  "actual_build_receipt_sha256": "5124fb2c2c486411422ff1a4fd59b4a3c1c4bb2dd967eb9e9544b712874f1312",
+  "original_lock_explicitly_released": true,
+  "original_waiting01_closure_peer_sha256": "84fdfd6b64d9e2468466884d1535723ac84835ca5332322717a3d707b4cf31a5",
+  "six_gate_joins": {
+    "toolchain": {
+      "result_sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+      "unlock_sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516",
+      "independent_peer": "stage5_toolchain07_postprofile_independent_review.json",
+      "independent_peer_sha256": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+    },
+    "runtime": {
+      "result_sha256": "2a1a7f0c386d3f97baea9cb1e9b034d9fd00bd71c4ab57a2ce3d3b42fbfa09d1",
+      "unlock_sha256": "92ee0235711a5ced3271947f0ce7d4e0e30b406f27dc72e664d07bbb82e151c7",
+      "independent_peer": "stage5_runtime08_postprofile_independent_review.json",
+      "independent_peer_sha256": "d5247b7f8083f25044b1346203a96264cfdf5b4c99aea6af9d5f9727143158b1"
+    },
+    "interop": {
+      "result_sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8",
+      "unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e",
+      "independent_peer": "stage5_interop05_postprofile_independent_review.json",
+      "independent_peer_sha256": "d1edbd9970f7f2427ce3abae563231e1b0c7e5a8421420ddba35cec8fe18a07a"
+    },
+    "storage": {
+      "result_sha256": "2ac0e98c76f46d84b678ea69e819d714c15cc4e006c685c40f40bf193ff75611",
+      "unlock_sha256": "9d6b0fd2634adf9c38a3cd4998f44266ebc8727c9aa40722a5246f15912d9426",
+      "independent_peer": "stage5_storage06_postprofile_independent_review.json",
+      "independent_peer_sha256": "a8f837f8e0ba1debce88a4ddc7088499ce4b61308e3e159e304ec907874cc58c"
+    },
+    "drivefs": {
+      "result_sha256": "7c5587e5758ec604b3c1f5e826078aa2f7ca2592312e4d65700565747a7bd438",
+      "unlock_sha256": "a8d65978a83682bb1bb7171a1b8684adb2b68a2d2223c3b10ee91be77b6bfc6d",
+      "independent_peer": "stage5_drivefs04_postprofile_independent_review.json",
+      "independent_peer_sha256": "9422740541af40f25eaf6de2bd990b9e2a9dd3b5726f8331621f1e69a0c352e9"
+    },
+    "unc": {
+      "result_sha256": "abd234b9b8fd1bb88253b6acf4e0b8480da7f78a3407aabce75b8bbd153b6642",
+      "unlock_sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373",
+      "independent_peer": "stage5_unc_backing_actual04_independent_review01.json",
+      "independent_peer_sha256": "edb4d0d50edcb38a5a3915725b10346c33cf985b54c1aa0ac984f3f93062fc3d"
+    }
+  },
+  "linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "linux_job_requirement_bytes": 1476395008,
+  "linux_reserve_bytes": 1073741824,
+  "repeated_linux_admission_requirement_bytes": 2550136832,
+  "sampled_aggregate_RSS_stop_bytes": 1342177280,
+  "resource_wait_seconds": 1800,
+  "recorded_Windows_build_admission": {
+    "utc": "2026-10-10T04:04:16.155477+00:00",
+    "physical_available_bytes": 3849572352,
+    "commit_headroom_bytes": 4426903552,
+    "commit_total_bytes": 17579872256,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233467502592,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245755269120
+    }
+  },
+  "full_native_method_models_sources_paths_panel_accepted_stage4_and_all_other_policy_exact": true,
+  "actual_detector_peak": "UNMEASURED_FIRST_APPROVED_GENOME_REQUIRED",
+  "capacity_basis": "Explicit unmeasured allocation1.375GiB above unchanged1.25GiB sampled RSS stop and unchanged1GiB reserve. This does not prove native admission or runtime fit.",
+  "required_native_boundary": "Publish/read back actual request/config/build/peer, then unchanged owner repeats live authority/STOP/storage/runtime/current resources and original lock. Existing repeated admission and execution limits remain mandatory; no further booking reduction if it does not fit.",
+  "checked_files": {
+    "review_stage5_first_backing_capacity02_actual_config01.py": {
+      "bytes": 10305,
+      "sha256": "0ab11ba10215c6f4bc149b4e1cfe15789d1dc09e696045d4b1c39ab459a7e89d"
+    },
+    "stage5_actual_request_backing_capacity_02.json": {
+      "bytes": 4220,
+      "sha256": "13cdeba557bf0042a4fe2e95bf0905734cdd4735b0c333f255838b3fdb7e9ccb"
+    },
+    "stage5_actual_backing_capacity_02.json": {
+      "bytes": 2955,
+      "sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63"
+    },
+    "stage5_actual_request_backing_01.json": {
+      "bytes": 3747,
+      "sha256": "96fc9e6a9893fb56122f701378aa49eb3f50773b797d6cdf4c9130548be3cb44"
+    },
+    "stage5_actual_backing_01.json": {
+      "bytes": 2955,
+      "sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa"
+    },
+    "stage5_build_backing_actual_config.py": {
+      "bytes": 13028,
+      "sha256": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c"
+    },
+    "stage5_first_capacity02_request_independent_review01.json": {
+      "bytes": 6463,
+      "sha256": "48d18021fc0fed39f6a4d8f4e4bcb403000f1a6ef990f0ad95bc7450c4cdeef6"
+    },
+    "stage5_first_waiting01_closed_independent_review.json": {
+      "bytes": 11568,
+      "sha256": "84fdfd6b64d9e2468466884d1535723ac84835ca5332322717a3d707b4cf31a5"
+    },
+    "stage5_first_backing_actual_config02_independent_review.json": {
+      "bytes": 36207,
+      "sha256": "dfdcf5efc4444123f5e3829e3bbe7841c4d74e2c4f23af39c7679ac9190f7abc"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_interop_smoke_windows.py": {
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    "stage5_unc_backing_probe.py": {
+      "bytes": 29061,
+      "sha256": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5"
+    },
+    "stage5_actual_backing_capacity_02_build_receipt.json": {
+      "bytes": 6176,
+      "sha256": "5124fb2c2c486411422ff1a4fd59b4a3c1c4bb2dd967eb9e9544b712874f1312"
+    },
+    "stage5_runtime_actual_postiq_08.json": {
+      "bytes": 996074,
+      "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+    },
+    "stage5_storage_actual_postiq_06.json": {
+      "bytes": 1250,
+      "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\result.json": {
+      "bytes": 4618,
+      "sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239"
+    },
+    "stage5_setup_toolchain_actual_postiq_07\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516"
+    },
+    "stage5_toolchain07_postprofile_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+    },
+    "stage5_setup_runtime_actual_postiq_08\\result.json": {
+      "bytes": 4634,
+      "sha256": "2a1a7f0c386d3f97baea9cb1e9b034d9fd00bd71c4ab57a2ce3d3b42fbfa09d1"
+    },
+    "stage5_setup_runtime_actual_postiq_08\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "92ee0235711a5ced3271947f0ce7d4e0e30b406f27dc72e664d07bbb82e151c7"
+    },
+    "stage5_runtime08_postprofile_independent_review.json": {
+      "bytes": 6755,
+      "sha256": "d5247b7f8083f25044b1346203a96264cfdf5b4c99aea6af9d5f9727143158b1"
+    },
+    "stage5_interop_actual_postiq_05\\result.json": {
+      "bytes": 5443,
+      "sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8"
+    },
+    "stage5_interop_actual_postiq_05\\lock_released.json": {
+      "bytes": 179,
+      "sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e"
+    },
+    "stage5_interop05_postprofile_independent_review.json": {
+      "bytes": 14391,
+      "sha256": "d1edbd9970f7f2427ce3abae563231e1b0c7e5a8421420ddba35cec8fe18a07a"
+    },
+    "stage5_setup_storage_actual_postiq_06\\result.json": {
+      "bytes": 4893,
+      "sha256": "2ac0e98c76f46d84b678ea69e819d714c15cc4e006c685c40f40bf193ff75611"
+    },
+    "stage5_setup_storage_actual_postiq_06\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "9d6b0fd2634adf9c38a3cd4998f44266ebc8727c9aa40722a5246f15912d9426"
+    },
+    "stage5_storage06_postprofile_independent_review.json": {
+      "bytes": 6501,
+      "sha256": "a8f837f8e0ba1debce88a4ddc7088499ce4b61308e3e159e304ec907874cc58c"
+    },
+    "stage5_setup_drivefs_actual_postiq_04\\result.json": {
+      "bytes": 8383,
+      "sha256": "7c5587e5758ec604b3c1f5e826078aa2f7ca2592312e4d65700565747a7bd438"
+    },
+    "stage5_setup_drivefs_actual_postiq_04\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "a8d65978a83682bb1bb7171a1b8684adb2b68a2d2223c3b10ee91be77b6bfc6d"
+    },
+    "stage5_drivefs04_postprofile_independent_review.json": {
+      "bytes": 7407,
+      "sha256": "9422740541af40f25eaf6de2bd990b9e2a9dd3b5726f8331621f1e69a0c352e9"
+    },
+    "stage5_unc_backing_actual_postiq_04\\result.json": {
+      "bytes": 8481,
+      "sha256": "abd234b9b8fd1bb88253b6acf4e0b8480da7f78a3407aabce75b8bbd153b6642"
+    },
+    "stage5_unc_backing_actual_postiq_04\\lock_released.json": {
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    "stage5_unc_backing_actual04_independent_review01.json": {
+      "bytes": 6662,
+      "sha256": "edb4d0d50edcb38a5a3915725b10346c33cf985b54c1aa0ac984f3f93062fc3d"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\result.json": {
+      "bytes": 2324,
+      "sha256": "5246971c6c6585c39cfe3f7de4e7ea46e4eaed1fee403b63d77459d4e39977e6"
+    },
+    "stage5_owner_GCF_000009425_1_backing_01\\lock_released.json": {
+      "bytes": 96,
+      "sha256": "2e5b850c8dbe972a49017755bfcf0ce3655fe5768421ad9b23db4aa6b6522a89"
+    },
+    "master_capacityprep64_remote_readback.json": {
+      "bytes": 10033,
+      "sha256": "7e1c102ab66a319677bee41d6c5598a46269be34df61b07fd9b7b978fe0315d9"
+    }
+  }
+}

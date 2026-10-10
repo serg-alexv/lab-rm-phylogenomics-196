@@ -1,0 +1,39 @@
+{
+  "state": "PASS_EXACT_C_COPY_OF_CLOSED_INITIAL_RESOURCE_WAIT",
+  "utc": "2026-10-10T04:03:47.688506+00:00",
+  "source_sha256": "3818be9de892bb8415007d5ac94903fbabf89074d44e5810c16ee38eccf75e41",
+  "members": [
+    ".guard",
+    "status.json",
+    "transactions",
+    "transactions/attempt_0001",
+    "transactions/attempt_0001/initial_owner_lease.json",
+    "transactions/attempt_0001/latest_admission.json",
+    "transactions/attempt_0001/status.json",
+    "transactions/attempt_0001/work_storage_proof.json"
+  ],
+  "files": {
+    "status.json": {
+      "bytes": 541,
+      "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+    },
+    "transactions/attempt_0001/status.json": {
+      "bytes": 541,
+      "sha256": "80451b1e176c07f76b8af045a1337a48d67e38efd748f299ecc4e026dccdd9e2"
+    },
+    "transactions/attempt_0001/latest_admission.json": {
+      "bytes": 1901,
+      "sha256": "5100b0363950515f36931e0cba5e01667b3a18b4ec21bdaba71d3a18e2869d5c"
+    },
+    "transactions/attempt_0001/initial_owner_lease.json": {
+      "bytes": 904,
+      "sha256": "fa30701cdefad62fabfbd1bfc99e542b9c1b47023aebb3cbc8633693900e1679"
+    },
+    "transactions/attempt_0001/work_storage_proof.json": {
+      "bytes": 1452,
+      "sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa"
+    }
+  },
+  "owner_result_sha256": "5246971c6c6585c39cfe3f7de4e7ea46e4eaed1fee403b63d77459d4e39977e6",
+  "no_execution_or_inventory_paths_observed": true
+}

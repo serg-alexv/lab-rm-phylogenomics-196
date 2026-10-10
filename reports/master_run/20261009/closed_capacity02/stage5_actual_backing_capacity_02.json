@@ -1,0 +1,46 @@
+{
+  "schema": "STAGE05_ATOMIC_CONFIG_V2",
+  "root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "source": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/source_locus_inputs_v1",
+  "source_validation": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage03_source_validation/validation_summary.json",
+  "output_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/.work/stage05_atomic_v1",
+  "work_storage": {
+    "proof_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_storage_actual_postiq_06.json",
+    "proof_sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+  },
+  "runtime": {
+    "environment_dir": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env",
+    "models_dir": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/defense_models",
+    "padloc_db": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/padloc_db",
+    "manifest_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_08.json",
+    "manifest_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  },
+  "resource_policy": {
+    "threads": 2,
+    "windows_reserve_bytes": 1610612736,
+    "incremental_windows_requirement_bytes": 1610612736,
+    "commit_requirement_bytes": 3221225472,
+    "linux_job_requirement_bytes": 1476395008,
+    "linux_reserve_bytes": 1073741824,
+    "minimum_disk_free_bytes": 5368709120,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280,
+    "resource_wait_seconds": 1800,
+    "lease_max_age_seconds": 30,
+    "command_timeout_seconds": 14400,
+    "job_timeout_seconds": 86400,
+    "termination_grace_seconds": 10,
+    "drain_timeout_seconds": 10
+  },
+  "support_source_sha256": {
+    ".work/detector_review/build_detector_bundles.py": "75596259fbadcfb3be76d60f2ff02baac8aa69b133f5116ef38fcb889ce45f53",
+    ".work/detector_review/validate_detector_bundles.py": "0551333595baf30676de6f3a53508da4b1422166dbc282d16bd46722344439fe",
+    ".work/detector_review/stage05_detectors.py": "20eeb3ef8be0a6c4ee493c557d863dfad66aed34618a9ce92ddc73e8571b7723",
+    ".work/detector_review/stage05_evidence.py": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e",
+    ".work/detector_review/native_df_scope.py": "dd903c7bd4a186d05d1d3a65bbb5213e560c94a52fd06689a6abd9d9da1f712c",
+    ".work/detector_review/native_df_posttreat.py": "27d7193036795c96370d0e2323b86c9a58aa70efdeae5dff29e4a40d2e6124aa",
+    ".work/detector_review/stage05_inventory.py": "cd55d50befb8b6529a3419e42b98c1dd7b3831203630a0010d95bb39e33896c0",
+    "scripts/validate_stage05_raw_v6.py": "95efdff562db5fb0678e0c3e8ab8648c2268ddd1091dee5935957576844eabc7",
+    "scripts/stage05_posttreatment_audit_v6.py": "9d2be1174e68fb1854c83b9773fb56e18005c040053a9522bd3e24cdb2735c03"
+  }
+}
