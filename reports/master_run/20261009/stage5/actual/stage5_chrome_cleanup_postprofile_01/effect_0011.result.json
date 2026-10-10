@@ -1,0 +1,30 @@
+{
+  "ordinal": 11,
+  "birth": {
+    "pid": 21820,
+    "creation_filetime": 134360667910794936,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.296875,
+    "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "state": "NO_EFFECT_ALREADY_CLOSED",
+  "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+  "requested_exit_code": 1223,
+  "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+  "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+  "actual_terminate_process_called": false,
+  "terminal": {
+    "pid": 21820,
+    "creation_filetime": 134360667910794936,
+    "exit_filetime": 134360738784335044,
+    "cpu_seconds": 0.3125,
+    "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "actual_checked_close_handle_succeeded": true
+}

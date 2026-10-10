@@ -1,0 +1,9 @@
+{
+  "stage5_chrome_cleanup_current": "PASS_EXACT_CHROME_SNAPSHOT_EFFECTS_AND_HANDLES_CLOSED; 13 SNAPSHOT_TARGETS; NOT_A_GLOBAL_EMPTY_CLAIM; stage5_chrome_cleanup_postprofile_01",
+  "stage5_chrome_cleanup_effects": "13 exact executable/current-session retained process identities; terminal verification and checked handle closure; original explicit unlock; no STOP",
+  "stage5_chrome_cleanup_windows_after": {
+    "physical_available_bytes": 4341018624,
+    "commit_headroom_bytes": 4732424192,
+    "scope": "ACTUAL_CLEANUP_AFTER_OBSERVATION_NOT_FUTURE_ADMISSION"
+  }
+}

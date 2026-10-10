@@ -1,0 +1,520 @@
+{
+  "schema": "STAGE05_EXACT_CHROME_RESOURCE_CLEANUP_WINDOWS_V1",
+  "scope": "NONSCIENTIFIC_CURRENT_SESSION_EXACT_CHROME_RETAINED_HANDLE_CLEANUP_ONLY",
+  "state": "PASS_EXACT_CHROME_SNAPSHOT_EFFECTS_AND_HANDLES_CLOSED",
+  "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+  "api_source_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "actual_owner": {
+    "pid": 15712,
+    "creation_filetime": 134360738717060403,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.078125,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+  "allowlist": [
+    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  ],
+  "target_session_id": 1,
+  "prior_closed_owner_evidence": [
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\result.json",
+      "result_sha256": "e3dcf8db382e46b4ced8b3776cfcf3d2ea073147ca962bccfbb214e2ed2ca70e",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_config_e169045dc0634577be5e041d922d44a7\\lock_released.json",
+      "unlock_sha256": "389aa6e7c13a52a5d7f5cc93483d5de82f4b5b84ad33f22e7ac168f878506545",
+      "prior_state_preserved": "PASS_NONSCIENTIFIC_WSL_CONFIG_CHANGED_AND_ALL_DISTROS_STOPPED"
+    },
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_06\\result.json",
+      "result_sha256": "e5b9f9517a333bf72b0d21f16eefa18496d5cfc8a670cbf10b9b6155971600d4",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_06\\lock_released.json",
+      "unlock_sha256": "44c0129ab2fb3c669b1741d1fba147b15139c3c6d9f0a314552f41fb6ca0e46f",
+      "prior_state_preserved": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
+    },
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_07\\result.json",
+      "result_sha256": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_07\\lock_released.json",
+      "unlock_sha256": "3b85a42d46b677e1501af5e754bbd241f96bf5daea29488bb7c4eb3cf7a818a1",
+      "prior_state_preserved": "FAILED"
+    },
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\result.json",
+      "result_sha256": "183340a29094b361ecc65587bb92d6283f39a979a0a2a223b3ec846b9e48f5ef",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\lock_released.json",
+      "unlock_sha256": "0507833d75c0eb7761b4f9ef109691427c3b395db2a537cd0835cb4b53dff864",
+      "prior_state_preserved": "PASS_NONSCIENTIFIC_WINDOWS_HOST_PROFILE_CHANGED_AND_ALL_DISTROS_STOPPED"
+    },
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_07\\result.json",
+      "result_sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_07\\lock_released.json",
+      "unlock_sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516",
+      "prior_state_preserved": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
+    },
+    {
+      "result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop05_actual_closed_derived_receipt01.json",
+      "result_sha256": "7537cafac088e68194f5cb220f2999019f6740959accbc3bb979c693440adf7a",
+      "unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_05\\lock_released.json",
+      "unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e",
+      "prior_state_preserved": "PASS_NONSCIENTIFIC_INTEROP_CLOSED_DERIVED_RECEIPT"
+    }
+  ],
+  "process_payload_or_argv_read": false,
+  "graceful_window_close_attempted": false,
+  "graceful_skip_reason": "HWND ownership cannot be atomically retained through window reuse; use exact retained process handles",
+  "maximum_enumeration": 4096,
+  "maximum_targets": 128,
+  "deadline_seconds": 180,
+  "snapshot_targets_only": true,
+  "process_tree_or_name_kill": false,
+  "effects": [
+    {
+      "ordinal": 1,
+      "birth": {
+        "pid": 2464,
+        "creation_filetime": 134360668074367484,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.265625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 2464,
+        "creation_filetime": 134360668074367484,
+        "exit_filetime": 134360738778719503,
+        "cpu_seconds": 0.265625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 2,
+      "birth": {
+        "pid": 3424,
+        "creation_filetime": 134360667928704349,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.921875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 3424,
+        "creation_filetime": 134360667928704349,
+        "exit_filetime": 134360738779389779,
+        "cpu_seconds": 0.9375,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 3,
+      "birth": {
+        "pid": 4124,
+        "creation_filetime": 134360667929090049,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.46875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 4124,
+        "creation_filetime": 134360667929090049,
+        "exit_filetime": 134360738780083399,
+        "cpu_seconds": 0.484375,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 4,
+      "birth": {
+        "pid": 5280,
+        "creation_filetime": 134360667910488940,
+        "exit_filetime": 0,
+        "cpu_seconds": 3.0625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 5280,
+        "creation_filetime": 134360667910488940,
+        "exit_filetime": 134360738781210666,
+        "cpu_seconds": 3.09375,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 5,
+      "birth": {
+        "pid": 9112,
+        "creation_filetime": 134360667933119367,
+        "exit_filetime": 0,
+        "cpu_seconds": 3.953125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 9112,
+        "creation_filetime": 134360667933119367,
+        "exit_filetime": 134360738782007106,
+        "cpu_seconds": 4.0,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 6,
+      "birth": {
+        "pid": 10120,
+        "creation_filetime": 134360668019584923,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.1875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 10120,
+        "creation_filetime": 134360668019584923,
+        "exit_filetime": 134360738782816726,
+        "cpu_seconds": 0.1875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 7,
+      "birth": {
+        "pid": 10380,
+        "creation_filetime": 134360667907890841,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 10380,
+        "creation_filetime": 134360667907890841,
+        "exit_filetime": 134360738783487393,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 8,
+      "birth": {
+        "pid": 15416,
+        "creation_filetime": 134360667906359445,
+        "exit_filetime": 0,
+        "cpu_seconds": 12.15625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "TERMINATED_EXACT_HANDLE_AND_TERMINAL_VERIFIED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": true,
+      "terminal": {
+        "pid": 15416,
+        "creation_filetime": 134360667906359445,
+        "exit_filetime": 134360738784185976,
+        "cpu_seconds": 12.46875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 1223
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 9,
+      "birth": {
+        "pid": 16980,
+        "creation_filetime": 134360667910542480,
+        "exit_filetime": 0,
+        "cpu_seconds": 4.46875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "NO_EFFECT_ALREADY_CLOSED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": false,
+      "terminal": {
+        "pid": 16980,
+        "creation_filetime": 134360667910542480,
+        "exit_filetime": 134360738784333165,
+        "cpu_seconds": 4.515625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 10,
+      "birth": {
+        "pid": 19840,
+        "creation_filetime": 134360667955756057,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.203125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "NO_EFFECT_ALREADY_CLOSED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": false,
+      "terminal": {
+        "pid": 19840,
+        "creation_filetime": 134360667955756057,
+        "exit_filetime": 134360738784644966,
+        "cpu_seconds": 0.234375,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 11,
+      "birth": {
+        "pid": 21820,
+        "creation_filetime": 134360667910794936,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.296875,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "NO_EFFECT_ALREADY_CLOSED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": false,
+      "terminal": {
+        "pid": 21820,
+        "creation_filetime": 134360667910794936,
+        "exit_filetime": 134360738784335044,
+        "cpu_seconds": 0.3125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 12,
+      "birth": {
+        "pid": 24740,
+        "creation_filetime": 134360667929117013,
+        "exit_filetime": 0,
+        "cpu_seconds": 1.3125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "NO_EFFECT_ALREADY_CLOSED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": false,
+      "terminal": {
+        "pid": 24740,
+        "creation_filetime": 134360667929117013,
+        "exit_filetime": 134360738784528286,
+        "cpu_seconds": 1.328125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "actual_checked_close_handle_succeeded": true
+    },
+    {
+      "ordinal": 13,
+      "birth": {
+        "pid": 25320,
+        "creation_filetime": 134360668074367435,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.40625,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "state": "NO_EFFECT_ALREADY_CLOSED",
+      "effect": "TERMINATE_RETAINED_CHROME_HANDLE_ONLY",
+      "requested_exit_code": 1223,
+      "owner_nonce": "f0fefc3153b346b0830253026e81a45c",
+      "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+      "actual_terminate_process_called": false,
+      "terminal": {
+        "pid": 25320,
+        "creation_filetime": 134360668074367435,
+        "exit_filetime": 134360738785026971,
+        "cpu_seconds": 0.453125,
+        "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "actual_checked_close_handle_succeeded": true
+    }
+  ],
+  "scientific_adoption_authorized": false,
+  "wsl": "NOT_RUN",
+  "services": "NOT_RUN",
+  "git_mutation": "NOT_RUN",
+  "latest_actual_resources": {
+    "utc": "2026-10-10T02:44:38.839926+00:00",
+    "physical_available_bytes": 4330885120,
+    "commit_headroom_bytes": 4732182528,
+    "commit_total_bytes": 17274593280,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245796130816
+    }
+  },
+  "windows_before": {
+    "utc": "2026-10-10T02:44:31.846935+00:00",
+    "physical_available_bytes": 3819036672,
+    "commit_headroom_bytes": 4140990464,
+    "commit_total_bytes": 17865785344,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245789556736
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "enumerated_pid_count": 432,
+  "target_count": 13,
+  "skipped_metadata_counts": {
+    "5": 166
+  },
+  "current_effect_intent_sha256": "61d55ce06fe5521f894affc0583073ebae40999d5a6ba450814a03ff9b769ab5",
+  "windows_after": {
+    "utc": "2026-10-10T02:44:38.850818+00:00",
+    "physical_available_bytes": 4341018624,
+    "commit_headroom_bytes": 4732424192,
+    "commit_total_bytes": 17274351616,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245796130816
+    }
+  },
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "retained_handles_unresolved": 0,
+  "finalizer_evidence": [],
+  "elapsed_seconds": 7.032000000000153,
+  "utc": "2026-10-10T02:44:38.858710+00:00",
+  "original_lock_explicitly_released": true
+}
