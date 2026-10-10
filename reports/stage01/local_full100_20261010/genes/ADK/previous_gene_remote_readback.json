@@ -1,0 +1,317 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T10:50:41.155311+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "1b4240e7b29a472fdc42be2666d97b1c5e8eea82",
+  "initial_remote_main": "1b4240e7b29a472fdc42be2666d97b1c5e8eea82",
+  "declaration_sha256": "9ecb826222bdc27516ba18e674a482167458237b5d9d2fbc68511892f27fb54b",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 33,
+  "verified_files": 33,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 3712,
+      "sha256": "e8ba41c89c8909434cfd21068e55c69e699c93a5cc728d5f4a8fc259270d5602",
+      "remote_blob": "64cd6cf78c07daac838c9bdcc9c7953c493cc7a6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.bionj",
+      "bytes": 6221,
+      "sha256": "c52114b1b85bf958409098664c903ae72194d0361631be2a6942c6ebea0eae6b",
+      "remote_blob": "ea500cfb15838b7b7cbe24c544da0dfa83ad7181",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.ckp.gz",
+      "bytes": 177773,
+      "sha256": "21bb3503b7c51b7981c3fab7712fddb6f2c2c5aec8029c01de349cf0a14868f4",
+      "remote_blob": "b0fca05a5c5bf3d5fe80ac203f10545761329b74",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.contree",
+      "bytes": 8646,
+      "sha256": "96c8808c0a3d38e4105fb384867f706c9655c8d382f7f0e805fa51b37f929abb",
+      "remote_blob": "20a292a713f7ceaf9b45529574cc20724252152e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.iqtree",
+      "bytes": 92620,
+      "sha256": "29469fb350faf0ee7c991df9b1c370f7eec0d8f5c044f29694a9811330955e20",
+      "remote_blob": "1fee6188fd9d7eb704cc7b22a4e4862faefdfae1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.log",
+      "bytes": 23255,
+      "sha256": "5fbb6095edd6b0498a6718705246961ebce6726dcd527186b5ab4104d6727136",
+      "remote_blob": "d6a894b8e0b29da509d6bb55e3a805ec0c007608",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.mldist",
+      "bytes": 246016,
+      "sha256": "4e0ef24d89f559353c66ff3d4dbd91d4b0f5fe800748d70564911429ddf69f81",
+      "remote_blob": "a27584bfd3524c6513d3ff4a9e8f3e0d3d852411",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.model.gz",
+      "bytes": 15830,
+      "sha256": "0315048bf8145a871e703621ab3684fc63f2f1cf856bad6f38588c8edc7a0237",
+      "remote_blob": "46ce000029e58bc216e34e07faaaf32b20f5cdc7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.splits.nex",
+      "bytes": 34693,
+      "sha256": "3715b112a07a9be175c510bca9368418ddb1d8a92c7c59eaefbbcc999d6fd7de",
+      "remote_blob": "4f37c1f1547714c827ff26cc86c4fed66070a4bd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.treefile",
+      "bytes": 8645,
+      "sha256": "c3e96558c93d8c979374efe6d958af61d99eeff3a433b576e4d3a07dc13a4b9e",
+      "remote_blob": "ce4d651b811b23fd025c8a02156592c4b5bf66db",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pipeline_output/trees/5-FTHF_cyc-lig.uniqueseq.phy",
+      "bytes": 35420,
+      "sha256": "51077ce193a3f4e616c4cc219aca0233b489f9b620c8bd879744b979c640dbd5",
+      "remote_blob": "d648b39bb26a62d01da8bec7e010abe56f02c15e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/RESULT.md",
+      "bytes": 2801,
+      "sha256": "2ff2e633a1b4f67ae312c9ae337e7fa98f87f98c13fb86aff2adfd82b13f6fb8",
+      "remote_blob": "ac6a8d26c5e1a44f73aa93d45a94cdc4f9e26e12",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/observe_phase90.ps1",
+      "bytes": 2587,
+      "sha256": "30421f766066696fa7b92361fa3e67d2653cbdab10d7e703da223524f8e60d6e",
+      "remote_blob": "4de6471571ac12c488139866aeac4d412cd3543f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/fixture_receipt.json",
+      "bytes": 558,
+      "sha256": "2e67a1e9b1624165d1fc7dd93aeea7b8b9e6b464f700b08dccacca7d5a1f52de",
+      "remote_blob": "09399049a85c05e15a796ccd7da2d11a43e76f89",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/missing_semicolon.nwk",
+      "bytes": 15,
+      "sha256": "fd7a2420600dd9c420923960cc85928026fa93e3a21a4369cc8a0d381ffcf4fa",
+      "remote_blob": "bd9240c4a7266d7fc475095409f1ec0e22036756",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/negative_branch.nwk",
+      "bytes": 17,
+      "sha256": "33bf2bb75d85e85890dd0f05b647c97deb7ba6be423df7fc26d1928632aa2b06",
+      "remote_blob": "d28b089b61a706252ef03aedd09ca078ef18b9c0",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/nonfinite_branch.nwk",
+      "bytes": 16,
+      "sha256": "040657c3d3b323999a0994fbbe9958823bad436270a1fc844fb0a9b9c0406924",
+      "remote_blob": "61bb2ca1cd955eaac9ec75ee981da023a8aecbaf",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/run_parser_fixtures.py",
+      "bytes": 1185,
+      "sha256": "4d251cb64e95839b0feedbf7e51b3e7b6b40fb87a96014f6e82c7e12063be81f",
+      "remote_blob": "820b559ccef1c3a33039c8fa2d1024312bcf3107",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/unterminated_quote.nwk",
+      "bytes": 17,
+      "sha256": "425a1e0fb205512ae0340a58747a126b3ad74f1bed64c8c893078a043fe923eb",
+      "remote_blob": "30a9fbed02f82fc100db036e4beb707a173e9112",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/parser_fixtures/valid.nwk",
+      "bytes": 15,
+      "sha256": "f8f0f08ecbf0338cbc64869e081e27276c091a8f92d19d4c1216cb0166323b94",
+      "remote_blob": "679b33db6747e4e68b753c8a59119c1782ce1bec",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/phase_observation.json",
+      "bytes": 2373,
+      "sha256": "69fc05d2c252437db4aba2cdba0c976bd112097aff71ce8c72221a097f486cb9",
+      "remote_blob": "197fecb30e63aaf7a331a8dd94b92386b61d6032",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/preliminary/audit.json",
+      "bytes": 13024,
+      "sha256": "7bd1f1e3671e18c5ae29b2372399e560c4260b4b3988f73a00f7607112dc99d7",
+      "remote_blob": "f0603a905a7f2ff7f4166371367c47eedd10bc45",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/preliminary/audit_completed_locus.py",
+      "bytes": 16949,
+      "sha256": "bb665e820f1d91ce6feec916351d89638f9f14cfb4c0e4b04f7a8b0fa0ac3828",
+      "remote_blob": "0f1fcda64f170e3109412fd846145de7ac51736d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/preliminary/execution_receipt.json",
+      "bytes": 1486,
+      "sha256": "a9a7b614dabe36b18d1586703638d3d675466d7bf3933b63933f19bc364ad525",
+      "remote_blob": "23ffb290133fca09668f9fa5920b50436aec5d27",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/preliminary/file_manifest.tsv",
+      "bytes": 2112,
+      "sha256": "2b8beda2fc5cebd1777cafe708726cc47187a65c059f5865fe73c90b2d71c7d5",
+      "remote_blob": "3fe687388a087444358cd2368af6be60e0106689",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/preliminary/native_warnings.txt",
+      "bytes": 1424,
+      "sha256": "1438f55779a6a6d62af2b79a4d99352dfb97f5b0a4ca28014dcd9eee2d4e8651",
+      "remote_blob": "156671e55390d4541b7654a12ba221fe61a13e75",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/prepare_gene_publication90.py",
+      "bytes": 10061,
+      "sha256": "cf653b01b0c5c7e3a648d11fafd21d8a434bd1b0de2d5ada94f3aad95bea6b40",
+      "remote_blob": "9fa8844db4b12a5790b02c101cb4024a15e78c79",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/previous_alignment_remote_readback.json",
+      "bytes": 42398,
+      "sha256": "9de78250ef11c9711adf33567a7986c1965b02aea074c54b5082f2b4ea02c6cc",
+      "remote_blob": "acf2f95d16e7b5159697f0133fe3d01b0a8f705a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/validation/audit.json",
+      "bytes": 13132,
+      "sha256": "f26ac32875726c27f8e5095baef7d539af2a995dce6261a733b8a9be3b76673d",
+      "remote_blob": "139816125f9ea09b3ae3f015830816177184fa05",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/validation/execution_receipt.json",
+      "bytes": 1936,
+      "sha256": "265c4925c0bbfe448cd2359e3d81209fabe12ce22a5d5b7cc41f01375f11bc66",
+      "remote_blob": "dd404df04a98a409eb12b082bf8a1a61121eab5e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/validation/file_manifest.tsv",
+      "bytes": 2112,
+      "sha256": "2b8beda2fc5cebd1777cafe708726cc47187a65c059f5865fe73c90b2d71c7d5",
+      "remote_blob": "3fe687388a087444358cd2368af6be60e0106689",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_full100_20261010/genes/5-FTHF_cyc-lig/validation/native_warnings.txt",
+      "bytes": 1424,
+      "sha256": "1438f55779a6a6d62af2b79a4d99352dfb97f5b0a4ca28014dcd9eee2d4e8651",
+      "remote_blob": "156671e55390d4541b7654a12ba221fe61a13e75",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/audit_completed_locus.py",
+      "bytes": 18084,
+      "sha256": "3a0473c06478dbfa43589c7f8c7772d3488c90a277f074685dfa3bc12add98c3",
+      "remote_blob": "3f8cc4b612654a566662106ddcffc4c77d2dc4c2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "1b4240e7b29a472fdc42be2666d97b1c5e8eea82",
+  "finished_utc": "2026-10-10T10:50:57.667813+00:00",
+  "elapsed_seconds": 16.514999999999418,
+  "verified_bytes": 786557
+}

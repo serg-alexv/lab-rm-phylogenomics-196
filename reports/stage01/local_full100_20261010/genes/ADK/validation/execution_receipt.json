@@ -1,0 +1,29 @@
+{
+  "schema": "completed-iqtree-locus-audit-execution-receipt-v1",
+  "state": "PASS",
+  "started_utc": "2026-10-10T10:50:30.2894738Z",
+  "finished_utc": "2026-10-10T10:50:31.9618273Z",
+  "native_exit_code": 0,
+  "exact_invocation": "wsl.exe -d Ubuntu -- bash -lc 'python3 -B /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_gene_validation90/audit_completed_locus.py --root \"/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196\" --marker ADK --out /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_gene_validation90/ADK_strict --alignment-manifest /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_alignment_validation89/bound_validation/per_marker.tsv'",
+  "source_script": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_gene_validation90\\audit_completed_locus.py",
+  "source_sha256": "3a0473c06478dbfa43589c7f8c7772d3488c90a277f074685dfa3bc12add98c3",
+  "source_bytes": 18084,
+  "output_artifacts": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_gene_validation90\\ADK_strict\\audit.json",
+      "bytes": 13489,
+      "sha256": "4ac69a0d7b0eab3a9416d31a638bf4a456cf18fdf51ff987cd7f4372f98575cb"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_gene_validation90\\ADK_strict\\file_manifest.tsv",
+      "bytes": 1980,
+      "sha256": "82c8a9921b65b51426dd59a64d77f78c3d1cbe8c8876a1355b280face4f10313"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\full100_gene_validation90\\ADK_strict\\native_warnings.txt",
+      "bytes": 1424,
+      "sha256": "1015c2b75e84a2b3688184f5aa44454e2f6ff7d7bef6908e74f145c85dc25b56"
+    }
+  ],
+  "pipeline_state": "Original full100 pipeline remained active; this was a read-only ADK validation audit in a fresh receipt directory, not a restart"
+}
