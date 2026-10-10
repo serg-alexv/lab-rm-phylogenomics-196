@@ -1,0 +1,11 @@
+{
+  "state": "PASS",
+  "checked_utc": "2026-10-10T10:47:01.169233+00:00",
+  "cases": {
+    "missing_semicolon.nwk": "PASS_REJECTED: missing_semicolon.nwk: missing terminating semicolon",
+    "nonfinite_branch.nwk": "PASS_REJECTED: nonfinite_branch.nwk: branch length must be finite and nonnegative, got NaN",
+    "negative_branch.nwk": "PASS_REJECTED: negative_branch.nwk: branch length must be finite and nonnegative, got -0.1",
+    "unterminated_quote.nwk": "PASS_REJECTED: unterminated_quote.nwk: unterminated quoted label",
+    "valid.nwk": "PASS"
+  }
+}

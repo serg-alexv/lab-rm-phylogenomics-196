@@ -1,0 +1,46 @@
+{
+  "schema": "full100_completed_marker_phase_observation_v1",
+  "observed_utc": "2026-10-10T10:45:05.1543746Z",
+  "windows_owner": {
+    "ProcessId": 31816,
+    "CreationDate": "2026-10-10T12:31:02.82048+03:00",
+    "CommandLine": "\"C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n$ErrorActionPreference = 'Stop'\n$localFullLauncher = 'C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\launch_full10086.ps1'\n$publishedFullLauncher = 'G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\scripts\\master_run\\launch_full10086.ps1'\nif ((Get-FileHash -LiteralPath $localFullLauncher -Algorithm SHA256).Hash -ne (Get-FileHash -LiteralPath $publishedFullLauncher -Algorithm SHA256).Hash) { throw 'Local authored launcher differs from published source' }\n& $localFullLauncher\""
+  },
+  "linux": {
+    "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+    "processes": [
+      {
+        "pid": 4019,
+        "parent_pid": 4018,
+        "state": "S",
+        "start_ticks": 1710295,
+        "cpu_ticks": 1,
+        "command": "/bin/bash scripts/master_run/full100_runner86.sh"
+      },
+      {
+        "pid": 4023,
+        "parent_pid": 4019,
+        "state": "S",
+        "start_ticks": 1710309,
+        "cpu_ticks": 14,
+        "command": "/bin/bash run_pipeline.sh"
+      },
+      {
+        "pid": 15548,
+        "parent_pid": 4023,
+        "state": "R",
+        "start_ticks": 2119388,
+        "cpu_ticks": 69249,
+        "command": "iqtree -s pipeline_output/alignments/ADK_aligned.fasta -m MFP -bb 1000 -nt 2 -mem 3000M -pre pipeline_output/trees/ADK"
+      }
+    ]
+  },
+  "original_workflow_lock": "Retained by the existing owner; not reopened or replaced by this observation",
+  "terminal_receipt_present": false,
+  "linux_terminal_receipt_present": false,
+  "pipeline_sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+  "completed_marker": "5-FTHF_cyc-lig",
+  "native_finished_local": "Sat Oct 10 13:39:17 2026",
+  "native_finished_utc": "2026-10-10T10:39:17Z",
+  "completion_basis": "Native IQ-TREE report and log finished, and original set-e pipeline advanced to a different marker. This is per-locus completion, not full-run closure."
+}

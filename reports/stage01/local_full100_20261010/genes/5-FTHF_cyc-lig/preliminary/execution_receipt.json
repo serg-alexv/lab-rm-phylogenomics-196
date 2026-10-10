@@ -1,0 +1,20 @@
+{
+  "audit_source": "work/full100_gene_validation90/audit_completed_locus.py",
+  "source_sha256": "bb665e820f1d91ce6feec916351d89638f9f14cfb4c0e4b04f7a8b0fa0ac3828",
+  "strict_compile_exit_code": 0,
+  "execution_platform": "Windows PowerShell to Ubuntu WSL2; Linux wd 6.18.40.1-microsoft-standard-WSL2; Python 3.14.4",
+  "exact_command": "wsl.exe -d Ubuntu -- bash -lc python3 -B /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_gene_validation90/audit_completed_locus.py --root \"/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196\" --marker 5-FTHF_cyc-lig --out /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_gene_validation90/5-FTHF_cyc-lig --alignment-manifest /mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/full100_alignment_validation89/bound_validation/per_marker.tsv",
+  "native_exit_code": 0,
+  "started_utc": "2026-10-10T13:45:05.089965+03:00",
+  "finished_utc": "2026-10-10T13:45:06.343989+03:00",
+  "native_iqtree_datetime": "Sat Oct 10 13:39:17 2026",
+  "native_iqtree_datetime_utc": "2026-10-10T10:39:17Z",
+  "marker": "5-FTHF_cyc-lig",
+  "state": "PASS",
+  "file_count": 12,
+  "all_files_stable": true,
+  "audit_json_sha256": "7bd1f1e3671e18c5ae29b2372399e560c4260b4b3988f73a00f7607112dc99d7",
+  "file_manifest_sha256": "2b8beda2fc5cebd1777cafe708726cc47187a65c059f5865fe73c90b2d71c7d5",
+  "native_warnings_sha256": "1438f55779a6a6d62af2b79a4d99352dfb97f5b0a4ca28014dcd9eee2d4e8651",
+  "errors": []
+}
