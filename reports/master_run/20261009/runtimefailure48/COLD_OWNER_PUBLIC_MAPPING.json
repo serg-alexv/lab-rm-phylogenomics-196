@@ -1,0 +1,51 @@
+{
+  "schema": "STAGE05_COLD_OWNER_PUBLIC_SOURCE_MAPPING_V1",
+  "state": "PUBLIC_SOURCE_PREPARATION_ONLY_PEER_PENDING",
+  "actual_runtime_actions": false,
+  "cleanup_authority": false,
+  "file_count": 6,
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_windows.py",
+      "repository_path": "scripts/master_run/stage5_setup_cold_windows.py",
+      "bytes": 58145,
+      "sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_linux.py",
+      "repository_path": "scripts/master_run/stage5_setup_cold_linux.py",
+      "bytes": 44768,
+      "sha256": "d10faf17d42db44243f10fa1908fede549f3dd20ff58013fcaa37f36f3eeb9d5"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_setup_cold_owner.py",
+      "repository_path": "scripts/master_run/test_stage5_setup_cold_owner.py",
+      "bytes": 11375,
+      "sha256": "1a53d1182995d25e77740893de7fa98a7a5cadfe46475430d1e6cc10378d0fcd"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_COLD_EXISTING_OWNER_PREPARATION01.md",
+      "repository_path": "reports/master_run/20261009/stage05_cold_owner_preparation01/STAGE05_COLD_EXISTING_OWNER_PREPARATION01.md",
+      "bytes": 9979,
+      "sha256": "35cea6dcb3b3afc9f5a273ac5226575aec087e42ad5cf7f508db6bcae7f0e7d9"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_corrected_capture_helpers_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_cold_owner_preparation01/stage5_corrected_capture_helpers_independent_review01.json",
+      "bytes": 4758,
+      "sha256": "50585e236a8b3c49ecda1fd5273a7ead72bdae76252ec0565bd79610c1e98bac"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_cold_owner_source_preparation01\\PREPARATION_REPORT.json",
+      "repository_path": "reports/master_run/20261009/stage05_cold_owner_preparation01/PREPARATION_REPORT.json",
+      "bytes": 4145,
+      "sha256": "d8b30fa87228522f3d3b9f9d34e28d4fd3fae7f98ad42f5409154d73eb3f87c7"
+    }
+  ],
+  "excluded_namespaces": [
+    "all_image_payloads",
+    "stage5_runtime_inventory_private_*",
+    "private_copilot_vm_alias_review01",
+    "all_credentials_private_homes_and_matches"
+  ]
+}

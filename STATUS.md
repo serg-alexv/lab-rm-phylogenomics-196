@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T02:14:21.610070+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T02:23:41.362157+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: Verify fresh postrepair toolchain and prepare first genome request route. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
+Stage5 current execution: fresh runtime07 discovery FAILED on the Windows physical-memory reserve while hashing unchanged installed runtime content; no runtime candidate or detector result was produced. Actual retained WSL exit2, Linux supervised root -15, empty tracked descendants/direct children, original unlock and absence of current STOP are independently verified. The original failure remains FAILED. A separate exact Windows WSL host-profile repair is being prepared: memory ceiling4GB to3GB and gradual cache reclamation to dropCache, with other profile bytes retained; actual profile change remains NOT_RUN. Existing scientific guards and accepted Stage4 are unchanged. Previously prepared first-request v2 and G06 sources are inactive because new gates must follow the resource repair. Cold-owner paired source is preserved as preparation pending independent review and actual writer-exclusion/inventory/capture/restoration; VM splitting and local eviction remain NOT_RUN.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -149,3 +149,6 @@ Actual operational update: Apply exact WSL init/root repair, recover failed sent
 
 Actual operational update: Verify fresh postrepair toolchain and prepare first genome request route
 - `stage5_setup_toolchain_actual_postiq_06`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Preserve closed runtime memory refusal and inactive cold owner preparation
+- `stage5_setup_runtime_actual_postiq_07`: FAILED; exact command, closure, resources and lock-release receipts are retained.

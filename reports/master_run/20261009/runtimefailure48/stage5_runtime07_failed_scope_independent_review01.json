@@ -1,0 +1,212 @@
+{
+  "schema": "STAGE05_RUNTIME07_FAILED_SCOPE_INDEPENDENT_V1",
+  "state": "PASS_INDEPENDENT_VERIFICATION_OF_CLOSED_FAILED_RUNTIME07",
+  "utc": "2026-10-10T02:23:19.250553+00:00",
+  "reviewer_source_sha256": "891253276fcd6c29f805a44b8989a80ab084311b41fe582f374f93e08565927f",
+  "generic_reader_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "readonly_method": "Bounded explicit C file SHA256 and decoded receipt joins only; no producer import, WSL, UNC, network, registry, signals or lock acquisition",
+  "original_scope_retroactively_passed": false,
+  "scientific_execution_or_adoption": "NONE",
+  "actual_result_sha256": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c",
+  "original_scope_state": "FAILED",
+  "linux_boot_id": "f9be2168-b511-4a09-8f4d-bdb88934c414",
+  "actual_windows_owner": {
+    "pid": 14488,
+    "creation_filetime": 134360721024508460,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "retained_wsl_terminal": {
+    "pid": 11252,
+    "creation_filetime": 134360721026466560,
+    "exit_filetime": 134360721343382815,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 2
+  },
+  "native_command": {
+    "label": "runtime_discovery",
+    "boot_id": "f9be2168-b511-4a09-8f4d-bdb88934c414",
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+      "-B",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_discovery.py",
+      "--discover",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_07.json"
+    ],
+    "exit_code": -15,
+    "closure_sha256": "f118732ae8b23f8d47b9ce8b20e98cbf87049592ccddc3c32994e5e8384ca00a"
+  },
+  "failure": {
+    "primary_observed_trigger": "Windows physical reserve fell below unchanged setup threshold",
+    "physical_available_bytes": 1871368192,
+    "required_bytes": 1879048192,
+    "shortfall_bytes": 7680000,
+    "commit_and_disk_passed_at_final_sample": true,
+    "secondary_linux_message": "After owner failure the negative lease withdraws declared shared-lock ownership; Linux reports that withdrawal and terminates its retained native child. The message is not evidence of an independent nonce conflict.",
+    "native_elapsed_seconds": 31.166111225999998,
+    "sampled_native_peak_rss_bytes": 60436480,
+    "resource_pressure_root_cause": "NOT_ESTABLISHED_BY_THIS_RECEIPT_REVIEW"
+  },
+  "closure": {
+    "native_exit_code": -15,
+    "group_and_tracked_descendants_empty": true,
+    "linux_direct_children": [],
+    "retained_wsl_exit_code": 2,
+    "original_unlock": true,
+    "owned_STOP_absent_in_closed_owner_receipt": true,
+    "scope_limit": "Exact owned native group/descendants and retained WSL client; no claim of host-wide process emptiness"
+  },
+  "runtime_candidate": "ABSENT_NOT_ADOPTED",
+  "science_and_accepted_stage4": "UNCHANGED",
+  "next_gate": "Any controlled WSL restart invalidates boot-sensitive setup evidence; repeat all fresh gates under new boot without reducing resource admission requirements",
+  "checked_files": {
+    "review_stage5_runtime07_failed_scope01.py": {
+      "bytes": 11216,
+      "sha256": "891253276fcd6c29f805a44b8989a80ab084311b41fe582f374f93e08565927f"
+    },
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\result.json": {
+      "bytes": 4791,
+      "sha256": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    "stage5_drivefs_filesystem_smoke.py": {
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "observe_iqtree_controller_exit.py": {
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\actual_owner_lock.json": {
+      "bytes": 688,
+      "sha256": "408be6ab2475daace407ca9c2b6e335b0c788769dd939fd96969f270dcfee36a"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\launch.json": {
+      "bytes": 1641,
+      "sha256": "fd4071820d5942380f32336efb39a54633a956ebe7dc311ef4265134545c46b4"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\wsl_exit.json": {
+      "bytes": 2315,
+      "sha256": "0c65f06c15b780f8e97a5ef7ff37f718ec0047fe8c0377ba49065be4c9dab026"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\linux_terminal.json": {
+      "bytes": 2052,
+      "sha256": "22d3c947b7b60aaad56efe547d84826f4a437530543a02bb43d06d43dca4903b"
+    },
+    "stage5_setup_toolchain_actual_postiq_06\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "09b09eab302c843cc1e15a8e4f51fd028159287f135bc2b9bb7ee6085fe4ea19"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch.json": {
+      "bytes": 1069,
+      "sha256": "62397247ccb12173a097c630d0f5f47f4341bbc2b6b7032927009f9152d151d7"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch_intent.json": {
+      "bytes": 586,
+      "sha256": "3c1139fb36c9464724e091e346867a7d173acf36317542e4de576eada37b89af"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.closure.json": {
+      "bytes": 694,
+      "sha256": "f118732ae8b23f8d47b9ce8b20e98cbf87049592ccddc3c32994e5e8384ca00a"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.command.json": {
+      "bytes": 1653,
+      "sha256": "ccd4633eb9b0f6ea5d16df68cfce45ce909694ca34c1e80114b16a9d26d1d693"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands.jsonl": {
+      "bytes": 1563,
+      "sha256": "c35cdcc6ac69dc5549df8b83a7717ea562f59531b68af61ee763706bb260d190"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\owner_lease.json": {
+      "bytes": 903,
+      "sha256": "e916aef4d739c01ecac6b8a03d35b02bd755fd4992817c36bc925eecd1bb252c"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\admission.json": {
+      "bytes": 1783,
+      "sha256": "5e2615f65de60d1aa3ee5ad603d5c050295bb77056f860f092b4a917a9c9a94f"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\latest_admission.json": {
+      "bytes": 1783,
+      "sha256": "5e2615f65de60d1aa3ee5ad603d5c050295bb77056f860f092b4a917a9c9a94f"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\admission.json": {
+      "bytes": 1783,
+      "sha256": "2ebe59d28e2b6aa7b3bc2b85287e7a9e73425c30d6d747b06f4d4fde27fe095b"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\latest_admission.json": {
+      "bytes": 1783,
+      "sha256": "2ebe59d28e2b6aa7b3bc2b85287e7a9e73425c30d6d747b06f4d4fde27fe095b"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "3b85a42d46b677e1501af5e754bbd241f96bf5daea29488bb7c4eb3cf7a818a1"
+    }
+  }
+}

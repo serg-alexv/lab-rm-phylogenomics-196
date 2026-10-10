@@ -1,0 +1,90 @@
+{
+  "schema": "STAGE05_COLD_EXISTING_OWNER_PREPARATION_V1",
+  "state": "SOURCE_PREPARED_INDEPENDENT_OWNER_REVIEW_PENDING",
+  "utc": "2026-10-10T02:16:33.4704771Z",
+  "ordinary_setup_sources_preserved": true,
+  "ordinary_function_asts_unchanged": true,
+  "existing_workflow_lock_unchanged": true,
+  "controller_hierarchy_added": false,
+  "authored_tests": {
+    "scope": "Pure functions and synthetic ledger only; no full actual Linux integration",
+    "state": "PASS",
+    "count": 20
+  },
+  "default_noops": {
+    "windows": "PASS",
+    "linux": "PASS_ON_WINDOWS"
+  },
+  "corrected_helpers_independent_review": {
+    "state": "PASS_SOURCE_ONLY",
+    "sha256": "50585e236a8b3c49ecda1fd5273a7ead72bdae76252ec0565bd79610c1e98bac"
+  },
+  "new_cold_owner_independent_review": "PENDING",
+  "scientific_runtime_target_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+  "phases": 17,
+  "linux_owner_deadline_seconds": 3600,
+  "windows_owner_deadline_seconds": 3660,
+  "memory_scope": "512MiB inherited per-process AS; no aggregate kernel cap; current1536MiB Windows reserve plus640MiB parent/worker allocation",
+  "source_files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_windows.py",
+      "repository_path": "scripts/master_run/stage5_setup_cold_windows.py",
+      "bytes": 58145,
+      "sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_linux.py",
+      "repository_path": "scripts/master_run/stage5_setup_cold_linux.py",
+      "bytes": 44768,
+      "sha256": "d10faf17d42db44243f10fa1908fede549f3dd20ff58013fcaa37f36f3eeb9d5"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_setup_cold_owner.py",
+      "repository_path": "scripts/master_run/test_stage5_setup_cold_owner.py",
+      "bytes": 11375,
+      "sha256": "1a53d1182995d25e77740893de7fa98a7a5cadfe46475430d1e6cc10378d0fcd"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_COLD_EXISTING_OWNER_PREPARATION01.md",
+      "repository_path": "reports/master_run/20261009/stage05_cold_owner_preparation01/STAGE05_COLD_EXISTING_OWNER_PREPARATION01.md",
+      "bytes": 9979,
+      "sha256": "35cea6dcb3b3afc9f5a273ac5226575aec087e42ad5cf7f508db6bcae7f0e7d9"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_corrected_capture_helpers_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_cold_owner_preparation01/stage5_corrected_capture_helpers_independent_review01.json",
+      "bytes": 4758,
+      "sha256": "50585e236a8b3c49ecda1fd5273a7ead72bdae76252ec0565bd79610c1e98bac"
+    }
+  ],
+  "actual_operations": {
+    "cold_restore": "NOT_RUN",
+    "windows_image_handle": "NOT_RUN",
+    "git_mutation": "NOT_RUN",
+    "upload": "NOT_RUN",
+    "image_read": "NOT_RUN",
+    "workflow_lock": "NOT_RUN",
+    "detach": "NOT_RUN",
+    "inventory": "NOT_RUN",
+    "raw_vhdx_split": "NOT_RUN",
+    "mount": "NOT_RUN",
+    "wsl": "NOT_RUN",
+    "local_eviction": "NOT_RUN",
+    "raw_toolchain_split": "NOT_RUN",
+    "download": "NOT_RUN",
+    "kernel_limit": "NOT_RUN",
+    "capture": "NOT_RUN",
+    "native": "NOT_RUN"
+  },
+  "cleanup_authority": false,
+  "remaining_adoption_gates": [
+    "Independent cold-owner source peer",
+    "Disposable Linux full success/failure/STOP/closure fixture",
+    "Actual original-image DrvFS O_RDWR refusal and alias/writer exclusion",
+    "Actual inventory then whole-file public/special-metadata/notice review",
+    "Actual capture with unchanged originals",
+    "Actual full payload + remote immutable metadata + owned fresh download + cold-tree validators",
+    "Actual RW restore and exact runtime06 rediscovery before scientific reuse",
+    "UbuntuVHDX separate offline whole-byte-public or sanitized-derivative boundary"
+  ]
+}
