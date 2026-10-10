@@ -1,0 +1,481 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_FALLBACK_ACTUAL_INDEPENDENT_V1",
+  "state": "PASS_EXACT_HOST_PROFILE_BACKUPS_RETAINED_CLIENTS_REGISTRY_AND_STOPPED_QUERY_NEW_BOOT_GATES_PENDING",
+  "utc": "2026-10-10T04:44:08.967357+00:00",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a",
+  "reviewer_source_sha256": "347d7920629ea4e357387c74210d2aa28a068416ff95938bc1ae0f1a626b8f4a",
+  "method": "Only explicit bounded plain C source/receipt bytes and SHA256; no producer imports, host profile/registry/UNC/WSL access, signals, locks or ref mutation",
+  "source_sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299",
+  "source_publication_commit": "fd0a30e46bd9e64f17a4b00c7dcdd76852bf04b6",
+  "source_publication_readback_files": 28,
+  "source_publication_method": "Independently hashed C source plus root full remote byte readback receipt; this reviewer performed no new network read",
+  "actual_result_sha256": "a9453451a58c9a914053ade6f8d7da9e45b7ef284db1c16942030b85fd98d6f0",
+  "owner_elapsed_seconds": 12.57799999999952,
+  "retained_clients": [
+    {
+      "phase": "census_before",
+      "birth": {
+        "pid": 20812,
+        "creation_filetime": 134360809180448205,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 20812,
+        "creation_filetime": 134360809180448205,
+        "exit_filetime": 134360809216521012,
+        "cpu_seconds": 1.25,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 3.6072807
+    },
+    {
+      "phase": "census_before_shutdown",
+      "birth": {
+        "pid": 2184,
+        "creation_filetime": 134360809224088780,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 2184,
+        "creation_filetime": 134360809224088780,
+        "exit_filetime": 134360809246161212,
+        "cpu_seconds": 0.9375,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 2.2072432
+    },
+    {
+      "phase": "shutdown",
+      "birth": {
+        "pid": 25612,
+        "creation_filetime": 134360809252046384,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 25612,
+        "creation_filetime": 134360809252046384,
+        "exit_filetime": 134360809259903042,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 0.7856658
+    },
+    {
+      "phase": "running_after",
+      "birth": {
+        "pid": 12624,
+        "creation_filetime": 134360809266995087,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 12624,
+        "creation_filetime": 134360809266995087,
+        "exit_filetime": 134360809267725043,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 0.0729956
+    },
+    {
+      "phase": "census_after_shutdown",
+      "birth": {
+        "pid": 21292,
+        "creation_filetime": 134360809275043210,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 21292,
+        "creation_filetime": 134360809275043210,
+        "exit_filetime": 134360809296368364,
+        "cpu_seconds": 0.953125,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 2.1325154
+    }
+  ],
+  "profile_before_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+  "profile_after_sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+  "memory_maximum_bytes": 3758096384,
+  "gui_applications": false,
+  "two_lines_changed_only": true,
+  "profile_bytes_before": 681,
+  "profile_bytes_after": 685,
+  "capacity02_state": "DEFERRED_RESOURCE_NO_NATIVE_PREPARED_DATA_BYTE_IDENTICAL_PRESERVED",
+  "original_lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "original_explicit_unlock": true,
+  "original_unlock_receipt_readback_proven": true,
+  "owned_STOP_cleared_after_checked_unlock": true,
+  "owned_closure_proven": true,
+  "unknown_closure_STOP_absent_recorded": true,
+  "exact_Ubuntu_UID0_preserved": true,
+  "all18tasks_disabled_three_censuses": true,
+  "running_distro_names": [],
+  "Linux_worker_route": "NONE_IN_FROZEN_OWNER_NO_LINUX_TERMINAL_OR_NATIVE_SPOOL",
+  "new_linux_boot": "NOT_OBSERVED_NO_RELAUNCH",
+  "old_boot_sensitive_proofs_reusable": false,
+  "closure_boundary": "All five exact retained Windows clients exited0 sequentially; fixed PowerShell census uses cmdlets with no external commands. No generic named-Job descendant claim. Final positive3s lease is a historical snapshot; explicit unlock and closed result govern closure.",
+  "resource_benefit": "NOT_YET_QUALIFIED_AFTER_RESTART; 3584MB is maximum, not an assumed512MB additional resident host cost; actual capacity must be measured",
+  "required_next": "Publish/readback this completed repair; freshly qualify toolchain08/runtime09/interop06/G08/storage07/DriveFS05/UNC05 under new boot. Keep all original native resource thresholds and reviewed3584MB maximum, GUI false and measured actual capacity.",
+  "scientific_stage5": "PREPARED_DEFERRED_NO_NATIVE_SEARCH",
+  "accepted_stage4": "PRESERVED",
+  "review_actions": {
+    "WSL_launches": 0,
+    "UNC_reads": 0,
+    "profile_reads_or_writes": 0,
+    "registry_accesses": 0,
+    "locks": 0,
+    "Git_ref_writes": 0
+  },
+  "checked_files": {
+    "review_stage5_wsl_host_profile_fallback_actual01.py": {
+      "bytes": 17582,
+      "sha256": "347d7920629ea4e357387c74210d2aa28a068416ff95938bc1ae0f1a626b8f4a"
+    },
+    "stage5_wsl_host_profile_fallback_source_independent_review01.json": {
+      "bytes": 3722,
+      "sha256": "ec87ef3d1ae54d86a5281996f4cbd5c7d911f3d50f73b0158069c10fc565b11a"
+    },
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "test_stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 14936,
+      "sha256": "9336b40b83ac6adf7ea9cd57436d8a8fda4a07ed6ec76901ee29c99026ab0135"
+    },
+    "stage5_wsl_host_profile_before_fallback01.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "STAGE05_WSL_HOST_PROFILE_FALLBACK_PREPARATION01.md": {
+      "bytes": 4015,
+      "sha256": "b5af97a4251294b4379e83c4ba45a41a3288c1b7ed4d105623da6ade81f49de1"
+    },
+    "stage5_wsl_host_profile_fallback_source_preparation01.json": {
+      "bytes": 3043,
+      "sha256": "6210d8932e232a85edab4b8c24ef801f09f3d5dbd193413f8c0670dbf6b06f6c"
+    },
+    "stage5_wsl_host_profile_owner.py": {
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_closed_genome_archive_windows_checked_unlock_v2.py": {
+      "bytes": 21956,
+      "sha256": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+    },
+    "master_readiness67_remote_readback.json": {
+      "bytes": 11855,
+      "sha256": "88fa03e9a5f68f8951e4b30f55256ec527eac44713fdb095ab5901286cff28fa"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\result.json": {
+      "bytes": 28315,
+      "sha256": "a9453451a58c9a914053ade6f8d7da9e45b7ef284db1c16942030b85fd98d6f0"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "43d757e411e5a00f4cf4fc74bb7b5664e43a813fcfc60c4e524d2a44f6e6c3a6"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\profile_replace_intent.json": {
+      "bytes": 601,
+      "sha256": "4349bca06d924b6ad534c389011fc857f9a87289a32c631219f1bc92dc2c913e"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_first_capacity02_closed_independent_review.json": {
+      "bytes": 43829,
+      "sha256": "e7cb6737c50e35c3119fe443d820b77174b2e0b8f3560c5303837b95e42ac2e9"
+    },
+    "review_stage5_first_capacity02_closed.py": {
+      "bytes": 14888,
+      "sha256": "adf4d293248928b6fc5be2ba673c14ea6de6353cdfa9cef871ec0abcf228a9fe"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_actual_backing_capacity_02.json": {
+      "bytes": 2955,
+      "sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "copy_stage5_capacity02_closed_evidence.py": {
+      "bytes": 4072,
+      "sha256": "326156db364d49d8216678144d1cc1f2e939a0e9e89801fadfe5aa2a699ee2a5"
+    },
+    "stage5_first_backing_capacity02_actual_config_independent_review01.json": {
+      "bytes": 11821,
+      "sha256": "64313758aa815bd383271ea34840894a0caf0cec7154a4eed1b9de395380b3cd"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\owner.json": {
+      "bytes": 1954,
+      "sha256": "4981587fc654f73e43203f51cdca7d87a8eb0219e66ea9d29b27460673c49e68"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.launch.json": {
+      "bytes": 1085,
+      "sha256": "9c4a0f65ae9bc852aca5a7c61f21c19dfacc421359ebee06403c1db909947ec2"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\result.json": {
+      "bytes": 2310,
+      "sha256": "9a3073a23d60ad8acc3a0c7fcd49cc8719d3f92d41661475099ed26e353b8bd7"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.exit.json": {
+      "bytes": 652,
+      "sha256": "efc48ca0f6ae40c9e5486225e8aabb2ba6508382257c1ee3aec6fde81cfaf1b8"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\progress.json": {
+      "bytes": 1556,
+      "sha256": "e6a5cac9661a65601e50290a25211c3a96982fffe11aa4f30181fdf585fa084f"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\owner_lease.json": {
+      "bytes": 914,
+      "sha256": "11921675e680c937c3805fc2e0fcb81de6019d8287079e2c0df63c763f02456e"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\lock_released.json": {
+      "bytes": 96,
+      "sha256": "a73fc34a48cbe97ea6546078cf967de862146be90ee5d66a45c600dd8c89257a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.stdout.txt": {
+      "bytes": 4037,
+      "sha256": "b81aecd544d1c0174074be844363543a805032cd817f0d319ef9b0f2df91111a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_capacity02_closed_native_copy\\status.json": {
+      "bytes": 4037,
+      "sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944"
+    },
+    "stage5_capacity02_closed_native_copy\\snapshot.json": {
+      "bytes": 29856,
+      "sha256": "451c91caaf07d441452c4fccfaf3dfab5c488ee2b8b9988ee35cb0ceb9ac0f51"
+    },
+    "stage5_capacity02_closed_native_copy\\execution\\assemblies\\GCF_000009425.1\\padloc\\hmm_attempt_0001\\latest_admission.json": {
+      "bytes": 1906,
+      "sha256": "ca997dcb90b6fd66700b23573254e73de67d347ec5bb0862ada6fa140ec3b23c"
+    },
+    "stage5_capacity02_closed_native_copy\\execution\\execution_freeze.json": {
+      "bytes": 1915008,
+      "sha256": "8b0304a3489f47e181ca382d4b91f1efad65a5989953ce74b356dfb2e995f264"
+    },
+    "stage5_capacity02_closed_native_copy\\scientific_identity.json": {
+      "bytes": 3413,
+      "sha256": "bb9b7b355a55758a9085ca014eff4fbdb14a93ff5e795773b89a0e5d9ee8ee74"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\initial_owner_lease.json": {
+      "bytes": 913,
+      "sha256": "0831dc20ebf204d02f5c2dc716d3b2593fd6bbb158cfddedcd5d5d0f61aae3cf"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\latest_admission.json": {
+      "bytes": 1911,
+      "sha256": "a0d6be3ac852fdf5743eaf0161baf5e7abf7c2a780a5d3e3c6f9c55d56a74db6"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\status.json": {
+      "bytes": 4037,
+      "sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\work_storage_proof.json": {
+      "bytes": 1452,
+      "sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa"
+    },
+    "stage5_storage_actual_postiq_06.json": {
+      "bytes": 1250,
+      "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+    },
+    "master_previewclosed69_v2_remote_readback.json": {
+      "bytes": 26171,
+      "sha256": "7d138cb6428ba4aa1e1464e065d5f48edc542350799f288335c92b50f277d37e"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\wslconfig.before.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\wslconfig.after.expected.txt": {
+      "bytes": 685,
+      "sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\wslconfig.after.actual.txt": {
+      "bytes": 685,
+      "sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before.launch.json": {
+      "bytes": 1861,
+      "sha256": "0584304142be57aedb9baa8b90234fb9e4a69fd14424a2870dd6c62bbb980e53"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before.exit.json": {
+      "bytes": 2155,
+      "sha256": "1b86ee2ccbf74e492f95d225ed6b65020e0eefde5cb296c9dce6c0f3e13f1999"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before.intent.json": {
+      "bytes": 1609,
+      "sha256": "7413ad10e2a10b6984791a1c35194688f49a277b736e411ebdc873ec9693c3a3"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "531ea134017087ddf195168bbcbf131bde085ff5466c6a0cad3f363c6876cb9d"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before_shutdown.launch.json": {
+      "bytes": 1869,
+      "sha256": "4519134fb232ac34e1fde23e08037d4aea4e60834d558b76c9534c52eeaa1c8e"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before_shutdown.exit.json": {
+      "bytes": 2164,
+      "sha256": "628000e559b6fbea51ab2547f6ee6e06ce254a019c850da1b8b633c65183975a"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before_shutdown.intent.json": {
+      "bytes": 1618,
+      "sha256": "c3ab717b18134fb286876af3892a3dba49681e7dcebcd0728ae53c4a1545157c"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before_shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_before_shutdown.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "47ead11ddf21097610d5dc7607279839c115f56e354c2b2f1d92f952468597c8"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\shutdown.launch.json": {
+      "bytes": 396,
+      "sha256": "c77d127fc1ffc9be2b91750285da4eaa5a1dcf8a73ab89ff5f546c4ba3efce7e"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\shutdown.exit.json": {
+      "bytes": 661,
+      "sha256": "2f1c25ec7c552c58f0295b948893e04a918cf4e57937ccd7f620df482e29c729"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\shutdown.intent.json": {
+      "bytes": 176,
+      "sha256": "36e8487933355414a82f870b58b405ae51356aa5b585d0a74904607c83aad3f8"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\running_after.launch.json": {
+      "bytes": 429,
+      "sha256": "7dc4ab4f73dbd6edadb6c669abe9981dd535ebe177ad097a9be63e8e6ab87d7c"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\running_after.exit.json": {
+      "bytes": 695,
+      "sha256": "c8817178d929d765157713e1a0ad2cbe3fa197af35dbfa7fe536fd7fcc055e26"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\running_after.intent.json": {
+      "bytes": 209,
+      "sha256": "ce4c79b28e14daeb8b4d027faf43fe9e57d45d16694604edd291fd0d36ca666c"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\running_after.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_after_shutdown.launch.json": {
+      "bytes": 1869,
+      "sha256": "fd8d28e3867bcf68374d6347b990c958f1e8ca0260f5f0529aa2d6962b3588e5"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_after_shutdown.exit.json": {
+      "bytes": 2167,
+      "sha256": "26b24207da4f980682c8f3a4761a57ababc897c18ca0bf3976c9fd17c4000f2b"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_after_shutdown.intent.json": {
+      "bytes": 1617,
+      "sha256": "c682a361379e0f403c235883b5a31f6166627d067f6409ccd2a1ca9b8ba1a625"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_after_shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\census_after_shutdown.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "5dc595288a287e8001c9a8b754b1b58ef1f526de7d84f2e6ab6a6d7ab2dbd679"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\running_after.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\owner_lease.json": {
+      "bytes": 885,
+      "sha256": "6ece473578d45bd9a38581968432386a3b93a35ae6869ffc3d9dcbf474326780"
+    },
+    "stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a\\shutdown.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

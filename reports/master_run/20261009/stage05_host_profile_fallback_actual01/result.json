@@ -1,0 +1,688 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_FALLBACK_WINDOWS_OWNER_RESULT_V1",
+  "scope": "NONSCIENTIFIC_WINDOWS_WSL_HOST_PROFILE_AND_CONTROLLED_SHUTDOWN_ONLY",
+  "state": "PASS_NONSCIENTIFIC_WINDOWS_HOST_PROFILE_CHANGED_AND_ALL_DISTROS_STOPPED",
+  "source_sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299",
+  "base_source_sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+  "framework_source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+  },
+  "capacity02_closure_peer_sha256": "e7cb6737c50e35c3119fe443d820b77174b2e0b8f3560c5303837b95e42ac2e9",
+  "capacity02_closure_files": {
+    "review_stage5_first_capacity02_closed.py": {
+      "bytes": 14888,
+      "sha256": "adf4d293248928b6fc5be2ba673c14ea6de6353cdfa9cef871ec0abcf228a9fe"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_actual_backing_capacity_02.json": {
+      "bytes": 2955,
+      "sha256": "4c2d9812afd2dbabaa6ba3177395dee17511946966fb3b7491f579cfd3602d63"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "copy_stage5_capacity02_closed_evidence.py": {
+      "bytes": 4072,
+      "sha256": "326156db364d49d8216678144d1cc1f2e939a0e9e89801fadfe5aa2a699ee2a5"
+    },
+    "stage5_first_backing_capacity02_actual_config_independent_review01.json": {
+      "bytes": 11821,
+      "sha256": "64313758aa815bd383271ea34840894a0caf0cec7154a4eed1b9de395380b3cd"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\owner.json": {
+      "bytes": 1954,
+      "sha256": "4981587fc654f73e43203f51cdca7d87a8eb0219e66ea9d29b27460673c49e68"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.launch.json": {
+      "bytes": 1085,
+      "sha256": "9c4a0f65ae9bc852aca5a7c61f21c19dfacc421359ebee06403c1db909947ec2"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\result.json": {
+      "bytes": 2310,
+      "sha256": "9a3073a23d60ad8acc3a0c7fcd49cc8719d3f92d41661475099ed26e353b8bd7"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.exit.json": {
+      "bytes": 652,
+      "sha256": "efc48ca0f6ae40c9e5486225e8aabb2ba6508382257c1ee3aec6fde81cfaf1b8"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\progress.json": {
+      "bytes": 1556,
+      "sha256": "e6a5cac9661a65601e50290a25211c3a96982fffe11aa4f30181fdf585fa084f"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\owner_lease.json": {
+      "bytes": 914,
+      "sha256": "11921675e680c937c3805fc2e0fcb81de6019d8287079e2c0df63c763f02456e"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\lock_released.json": {
+      "bytes": 96,
+      "sha256": "a73fc34a48cbe97ea6546078cf967de862146be90ee5d66a45c600dd8c89257a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.stdout.txt": {
+      "bytes": 4037,
+      "sha256": "b81aecd544d1c0174074be844363543a805032cd817f0d319ef9b0f2df91111a"
+    },
+    "stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_capacity02_closed_native_copy\\status.json": {
+      "bytes": 4037,
+      "sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944"
+    },
+    "stage5_capacity02_closed_native_copy\\snapshot.json": {
+      "bytes": 29856,
+      "sha256": "451c91caaf07d441452c4fccfaf3dfab5c488ee2b8b9988ee35cb0ceb9ac0f51"
+    },
+    "stage5_capacity02_closed_native_copy\\execution\\assemblies\\GCF_000009425.1\\padloc\\hmm_attempt_0001\\latest_admission.json": {
+      "bytes": 1906,
+      "sha256": "ca997dcb90b6fd66700b23573254e73de67d347ec5bb0862ada6fa140ec3b23c"
+    },
+    "stage5_capacity02_closed_native_copy\\execution\\execution_freeze.json": {
+      "bytes": 1915008,
+      "sha256": "8b0304a3489f47e181ca382d4b91f1efad65a5989953ce74b356dfb2e995f264"
+    },
+    "stage5_capacity02_closed_native_copy\\scientific_identity.json": {
+      "bytes": 3413,
+      "sha256": "bb9b7b355a55758a9085ca014eff4fbdb14a93ff5e795773b89a0e5d9ee8ee74"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\initial_owner_lease.json": {
+      "bytes": 913,
+      "sha256": "0831dc20ebf204d02f5c2dc716d3b2593fd6bbb158cfddedcd5d5d0f61aae3cf"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\latest_admission.json": {
+      "bytes": 1911,
+      "sha256": "a0d6be3ac852fdf5743eaf0161baf5e7abf7c2a780a5d3e3c6f9c55d56a74db6"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\status.json": {
+      "bytes": 4037,
+      "sha256": "ee866342edce9549e49402a072c8362d82b67780c4ac7c4430b9346d2ec1d944"
+    },
+    "stage5_capacity02_closed_native_copy\\transactions\\attempt_0002\\work_storage_proof.json": {
+      "bytes": 1452,
+      "sha256": "830a99f7347f5d42b5005b9e8f259379470ba1229f937e6e046aae6535c4e2fa"
+    },
+    "stage5_storage_actual_postiq_06.json": {
+      "bytes": 1250,
+      "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+    }
+  },
+  "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+  "actual_owner": {
+    "pid": 11984,
+    "creation_filetime": 134360809174071233,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.21875,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "profile_path": "C:\\Users\\wheel\\.wslconfig",
+  "preimage_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+  "expected_after_sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+  "capacity02_state_preserved": "DEFERRED_RESOURCE",
+  "old_linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "scientific_adoption_authorized": false,
+  "preserved_original_owner_sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232",
+  "memory_maximum_bytes": 3758096384,
+  "gui_applications": false,
+  "commands": [
+    {
+      "phase": "census_before",
+      "argv": [
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "$ErrorActionPreference='Stop';[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false);$rows=@(Get-CimInstance Win32_Process);$selected=@();$helpers=@();\nforeach($r in $rows){if($r.ProcessId -eq $PID -or $r.ProcessId -eq 11984){continue};$n=$r.Name.ToLowerInvariant();$a=$r.CommandLine;\nif(($n -in @('iqtree.exe','iqtree2.exe','iqtree3.exe','hmmsearch.exe','hmmscan.exe','padloc.exe','defense-finder.exe','diamond.exe')) -or $n -eq 'wsl.exe' -or (($n -in @('python.exe','pythonw.exe','bash.exe','sh.exe')) -and ($null -eq $a -or $a -match '(?i)(stage0[45]_|stage5_|atomic_iqtree_windows\\.py|resume_master_after_boot_once\\.py)'))){$selected += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name;born=$r.CreationDate.ToUniversalTime().ToString('o');unreadable_argv=($null -eq $a)}}\nif((($n -in @('powershell.exe','pwsh.exe')) -and ($a -match '(?i)-File\\s+\"?C:[^\\r\\n\"]+Resume-MasterAfterBootOnce\\.ps1')) -or ($n -eq 'codex.exe' -and $a -match '(?i)\\bexec\\b.*\\bresume\\b')){$helpers += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name}}}\n$tasks=@(Get-ScheduledTask | Where-Object TaskName -like 'LAB_RM_*' | ForEach-Object {[pscustomobject]@{name=$_.TaskName;state=[string]$_.State}});[pscustomobject]@{selected=$selected;helpers=$helpers;tasks=$tasks;utc=[DateTime]::UtcNow.ToString('o')} | ConvertTo-Json -Depth 6 -Compress"
+      ],
+      "birth": {
+        "pid": 20812,
+        "creation_filetime": 134360809180448205,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+      "terminal": {
+        "pid": 20812,
+        "creation_filetime": 134360809180448205,
+        "exit_filetime": 134360809216521012,
+        "cpu_seconds": 1.25,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "phase": "census_before_shutdown",
+      "argv": [
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "$ErrorActionPreference='Stop';[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false);$rows=@(Get-CimInstance Win32_Process);$selected=@();$helpers=@();\nforeach($r in $rows){if($r.ProcessId -eq $PID -or $r.ProcessId -eq 11984){continue};$n=$r.Name.ToLowerInvariant();$a=$r.CommandLine;\nif(($n -in @('iqtree.exe','iqtree2.exe','iqtree3.exe','hmmsearch.exe','hmmscan.exe','padloc.exe','defense-finder.exe','diamond.exe')) -or $n -eq 'wsl.exe' -or (($n -in @('python.exe','pythonw.exe','bash.exe','sh.exe')) -and ($null -eq $a -or $a -match '(?i)(stage0[45]_|stage5_|atomic_iqtree_windows\\.py|resume_master_after_boot_once\\.py)'))){$selected += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name;born=$r.CreationDate.ToUniversalTime().ToString('o');unreadable_argv=($null -eq $a)}}\nif((($n -in @('powershell.exe','pwsh.exe')) -and ($a -match '(?i)-File\\s+\"?C:[^\\r\\n\"]+Resume-MasterAfterBootOnce\\.ps1')) -or ($n -eq 'codex.exe' -and $a -match '(?i)\\bexec\\b.*\\bresume\\b')){$helpers += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name}}}\n$tasks=@(Get-ScheduledTask | Where-Object TaskName -like 'LAB_RM_*' | ForEach-Object {[pscustomobject]@{name=$_.TaskName;state=[string]$_.State}});[pscustomobject]@{selected=$selected;helpers=$helpers;tasks=$tasks;utc=[DateTime]::UtcNow.ToString('o')} | ConvertTo-Json -Depth 6 -Compress"
+      ],
+      "birth": {
+        "pid": 2184,
+        "creation_filetime": 134360809224088780,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+      "terminal": {
+        "pid": 2184,
+        "creation_filetime": 134360809224088780,
+        "exit_filetime": 134360809246161212,
+        "cpu_seconds": 0.9375,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "phase": "shutdown",
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--shutdown"
+      ],
+      "birth": {
+        "pid": 25612,
+        "creation_filetime": 134360809252046384,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+      "terminal": {
+        "pid": 25612,
+        "creation_filetime": 134360809252046384,
+        "exit_filetime": 134360809259903042,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "phase": "running_after",
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "birth": {
+        "pid": 12624,
+        "creation_filetime": 134360809266995087,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+      "terminal": {
+        "pid": 12624,
+        "creation_filetime": 134360809266995087,
+        "exit_filetime": 134360809267725043,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    },
+    {
+      "phase": "census_after_shutdown",
+      "argv": [
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "$ErrorActionPreference='Stop';[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false);$rows=@(Get-CimInstance Win32_Process);$selected=@();$helpers=@();\nforeach($r in $rows){if($r.ProcessId -eq $PID -or $r.ProcessId -eq 11984){continue};$n=$r.Name.ToLowerInvariant();$a=$r.CommandLine;\nif(($n -in @('iqtree.exe','iqtree2.exe','iqtree3.exe','hmmsearch.exe','hmmscan.exe','padloc.exe','defense-finder.exe','diamond.exe')) -or $n -eq 'wsl.exe' -or (($n -in @('python.exe','pythonw.exe','bash.exe','sh.exe')) -and ($null -eq $a -or $a -match '(?i)(stage0[45]_|stage5_|atomic_iqtree_windows\\.py|resume_master_after_boot_once\\.py)'))){$selected += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name;born=$r.CreationDate.ToUniversalTime().ToString('o');unreadable_argv=($null -eq $a)}}\nif((($n -in @('powershell.exe','pwsh.exe')) -and ($a -match '(?i)-File\\s+\"?C:[^\\r\\n\"]+Resume-MasterAfterBootOnce\\.ps1')) -or ($n -eq 'codex.exe' -and $a -match '(?i)\\bexec\\b.*\\bresume\\b')){$helpers += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name}}}\n$tasks=@(Get-ScheduledTask | Where-Object TaskName -like 'LAB_RM_*' | ForEach-Object {[pscustomobject]@{name=$_.TaskName;state=[string]$_.State}});[pscustomobject]@{selected=$selected;helpers=$helpers;tasks=$tasks;utc=[DateTime]::UtcNow.ToString('o')} | ConvertTo-Json -Depth 6 -Compress"
+      ],
+      "birth": {
+        "pid": 21292,
+        "creation_filetime": 134360809275043210,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "owner_nonce": "e941b5188a3a4b53aa7cd6c153f1b3ed",
+      "terminal": {
+        "pid": 21292,
+        "creation_filetime": 134360809275043210,
+        "exit_filetime": 134360809296368364,
+        "cpu_seconds": 0.953125,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      }
+    }
+  ],
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 25,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.015000000001236913,
+    "successful_calls": 25
+  },
+  "automatic_relaunch": false,
+  "effects_preserved_on_failure": true,
+  "boot_sensitive_gates_after_restart": "TOOLCHAIN_RUNTIME_INTEROP_G_STORAGE_UNC_ALL_REQUIRE_NEW_ACTUAL_EVIDENCE",
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "windows_before": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "root_device": "428019990"
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T04:42:10.207009+00:00",
+    "physical_available_bytes": 4641734656,
+    "commit_headroom_bytes": 4978515968,
+    "commit_total_bytes": 17028259840,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233457811456,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_host_profile_fallback_ca17dc8e11c64357be0186b01a93439a": 245745065984
+    }
+  },
+  "registry_before": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 0,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "registered_backing_before": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "census_before": {
+    "selected": [],
+    "helpers": [],
+    "tasks": [
+      {
+        "name": "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_089a39adeade",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_520674ad9893",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_e49c96152940",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+        "state": "Disabled"
+      }
+    ],
+    "utc": "2026-10-10T04:42:01.4222800Z"
+  },
+  "profile_before_identity": {
+    "device": 17766949232488609743,
+    "inode": 3096224743961395,
+    "bytes": 681,
+    "mode": 33206,
+    "nlink": 1,
+    "mtime_ns": 1791599184360897600,
+    "ctime_ns": 1791599184360897600,
+    "attributes": 32
+  },
+  "staging_path": "C:\\Users\\wheel\\.wslconfig.lab_rm_e941b5188a3a4b53aa7cd6c153f1b3ed.tmp",
+  "profile_replaced": true,
+  "profile_after_identity": {
+    "device": 17766949232488609743,
+    "inode": 3377699720682144,
+    "bytes": 685,
+    "mode": 33206,
+    "nlink": 1,
+    "mtime_ns": 1791607322096417400,
+    "ctime_ns": 1791607322095885300,
+    "attributes": 32
+  },
+  "actual_after_sha256": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+  "census_before_shutdown": {
+    "selected": [],
+    "helpers": [],
+    "tasks": [
+      {
+        "name": "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_089a39adeade",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_520674ad9893",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_e49c96152940",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+        "state": "Disabled"
+      }
+    ],
+    "utc": "2026-10-10T04:42:04.5389287Z"
+  },
+  "running_after": {
+    "state": "NO_RUNNING_DISTROS_RETAINED_QUERY_EXIT0",
+    "decoded_names": [],
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 0
+  },
+  "registry_after_shutdown": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 0,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "census_after_shutdown": {
+    "selected": [],
+    "helpers": [],
+    "tasks": [
+      {
+        "name": "LAB_RM_Stage04_V10_fixture_3f24a4052611",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v1_20412eb25fa6",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v2_d62e611346b7",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_production_admission_v3_89dd19f4b57a",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_07e4a11835e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_14b2867d6e0b",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_a785f5509111",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V10_readonly_observer_f46860c0002f",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_089a39adeade",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_1af962bf65e3",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_4ef5f11b05e8",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_520674ad9893",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_94e538adc6eb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_9923ee1e9619",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_fixture_e49c96152940",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_production_5ae384f4a81e",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_9abf92ec6bdb",
+        "state": "Disabled"
+      },
+      {
+        "name": "LAB_RM_Stage04_V9_readonly_observer_e3faf45a14fe",
+        "state": "Disabled"
+      }
+    ],
+    "utc": "2026-10-10T04:42:09.5563058Z"
+  },
+  "windows_after": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "root_device": "428019990"
+  },
+  "new_linux_boot": "NOT_OBSERVED_NO_RELAUNCH",
+  "old_boot_runtime_proofs_reusable": false,
+  "elapsed_seconds": 12.57799999999952,
+  "utc": "2026-10-10T04:42:10.280361+00:00",
+  "log_hash_scope": "CLOSED_FULL_LOGS",
+  "closed_log_sha256": {
+    "census_after_shutdown.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "census_after_shutdown.stdout.txt": "5dc595288a287e8001c9a8b754b1b58ef1f526de7d84f2e6ab6a6d7ab2dbd679",
+    "census_before.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "census_before.stdout.txt": "531ea134017087ddf195168bbcbf131bde085ff5466c6a0cad3f363c6876cb9d",
+    "census_before_shutdown.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "census_before_shutdown.stdout.txt": "47ead11ddf21097610d5dc7607279839c115f56e354c2b2f1d92f952468597c8",
+    "running_after.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "running_after.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shutdown.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shutdown.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "wslconfig.after.actual.txt": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+    "wslconfig.after.expected.txt": "e48eaf30b4da7cf75ec717f7a643235efbb9561f5e1680480ae14314f046d6e4",
+    "wslconfig.before.txt": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+  },
+  "lock_release_receipt_sha256": "43d757e411e5a00f4cf4fc74bb7b5664e43a813fcfc60c4e524d2a44f6e6c3a6",
+  "owned_closure_proven": true,
+  "original_lock_explicitly_released": true,
+  "original_unlock_receipt_proven": true,
+  "owned_stop_cleared_after_unlock": true,
+  "unknown_closure_stop_preserved": false
+}
