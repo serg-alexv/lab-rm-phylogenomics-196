@@ -1,0 +1,164 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T07:23:04.215641+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "c8d6477d22f9aeccb6f5ca95c64758d1252fd6a1",
+  "initial_remote_main": "c8d6477d22f9aeccb6f5ca95c64758d1252fd6a1",
+  "declaration_sha256": "102e6ebaaa14a64ad603679177c60b0e9c05787b9953aa930b78cdf98b6f1f2a",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 16,
+  "verified_files": 16,
+  "files": [
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/README.md",
+      "bytes": 2322,
+      "sha256": "307f2872207e0c3f8b4dfc53a24d36fb42c61b9de32337786270df5b2229b733",
+      "remote_blob": "e191b10dd1a9010382669f2244d2ec194397fa63",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/exact_template_reordered_header/input.tsv",
+      "bytes": 178,
+      "sha256": "a000c2ccab92b8c85b7162528d48d300a852b72f270f7f14583945e4162bcdf1",
+      "remote_blob": "862084d6cbc28ed14f197750abac4f4ebbb87b86",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/exact_template_reordered_header/output/defense_systems_heatmap.txt",
+      "bytes": 582,
+      "sha256": "2b6bafcbe9d7982e3dc2f66ca6dfec1cc34626a2a2467955b31fa36d652678e1",
+      "remote_blob": "2ee054b7a7cdce16ef5b3e3a2c5229326039008e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/exact_template_reordered_header/output/host_colorstrip.txt",
+      "bytes": 359,
+      "sha256": "ccacef0adede04e0216ad07a5c7a7e5ec76681f4109a78dce2ef9dd47ba55b6f",
+      "remote_blob": "07d67e39ef7fac6c48e9109f4f8f832131e190cf",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/invalid_NA/input.tsv",
+      "bytes": 179,
+      "sha256": "b65cf9df2b6c3c9c10c569c33ea292560615822247e7863ef597a17171fad3ff",
+      "remote_blob": "9722470cec92378e91bd9b597323ce9a8a34b04e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/invalid_blank_defense/input.tsv",
+      "bytes": 177,
+      "sha256": "cdf987b79efe47f8b28521a8e813bd36c1470cded33207dbd73b186e7ba60983",
+      "remote_blob": "79fb0a2bc52f2f8259d7d082fe9aef49a73c7e6a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/invalid_duplicate_id/input.tsv",
+      "bytes": 178,
+      "sha256": "871e7c401536b49ebc5604c9867f86c896701e9aee7a522be7e71f69e7859eb6",
+      "remote_blob": "c6b4eff8fd9e1f6075a003c8b6eaead7815c8983",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/invalid_extra_row_field/input.tsv",
+      "bytes": 184,
+      "sha256": "ef1b4d984b10937eaffbdb982222f833dfd7005aceb4455efc6e69aa1bcbebef",
+      "remote_blob": "a1199fbce960bf8c90c570ad3be8e17def17200d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/invalid_missing_column/input.tsv",
+      "bytes": 166,
+      "sha256": "aae95d5f8e90f6407e3d9ca9f181a06e8df856384182c2c030538561a5bb7494",
+      "remote_blob": "bdadd55fdfb089060b91d7cbebe8c00bdccfdefd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/refuse_existing_output/input.tsv",
+      "bytes": 178,
+      "sha256": "a000c2ccab92b8c85b7162528d48d300a852b72f270f7f14583945e4162bcdf1",
+      "remote_blob": "862084d6cbc28ed14f197750abac4f4ebbb87b86",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/refuse_existing_output/output/defense_systems_heatmap.txt",
+      "bytes": 30,
+      "sha256": "28d7c18c68f917f6cc11a9f495243d5580429ce48bb282a40867207cb452758f",
+      "remote_blob": "d0853e04ecc8945f4b250a6f9b586e36ef7339a9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/results.json",
+      "bytes": 3057,
+      "sha256": "e2ba48759f9927f6911c615d3061f5a408415add872ba546956d859e1d2c1204",
+      "remote_blob": "0b5b38aa3d8699a30a5903e1cc4a1c2b5d637d0b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_hotfix_20261010/tests/run_exact_tests.py",
+      "bytes": 6615,
+      "sha256": "e2d62a5695894dac0e4cc9c46666d8f239f75dc1b5c13b73a4640b9d424f31c2",
+      "remote_blob": "c5ea70af89e5b64e5218e438cd2c377657bd3b9b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_pilot_20261010/progress/local_pilot76/remote_readback.json",
+      "bytes": 3034,
+      "sha256": "90d57ce060b32c207afbef0ad57e2831e62b53d1cfd26c101019b0885b5f42e4",
+      "remote_blob": "ede85b99ae614a29c4cd77c84f19f17e2337e68c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/make_itol_decorations.py",
+      "bytes": 6220,
+      "sha256": "99de01f31ec3c67b862ec757822a3b8acc01b7da3814001f93cab37852b1da13",
+      "remote_blob": "ea04f601761eb39c54b9acb62ef16370334ca963",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_itol_hotfix77.py",
+      "bytes": 3914,
+      "sha256": "6350df4bbb1c4599369e5bd5a4e281532f31addc0861e81f1ab19fa83e09c347",
+      "remote_blob": "e0042e22ed5f76f64999293cdf9779b4b71b304d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "c8d6477d22f9aeccb6f5ca95c64758d1252fd6a1",
+  "finished_utc": "2026-10-10T07:23:12.301282+00:00",
+  "elapsed_seconds": 8.0779999999977,
+  "verified_bytes": 27373
+}

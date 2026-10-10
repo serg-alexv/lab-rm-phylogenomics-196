@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-RUNNING. Marker1 5-FTHF_cyc-lig ModelFinder completed in1124.463 wall seconds and selected Q.PFAM+F+I+R5 by BIC. The original local IQ-TREE process remains active in tree search and bootstrap estimation. Its preliminary treefile is not a completed gene result; no ASTRAL result or native terminal receipt exists yet. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot78/progress.json).
+RUNNING. Pilot marker1 of5 completed and independently validated: 5-FTHF_cyc-lig,189 taxa,210 alignment columns,Q.PFAM+F+I+R5,1000 UFBoot replicates. All input sequences are preserved. 153 internal branches have numeric supports5-100;33 short internal branches have no support labels and remain explicitly unlabeled. Native completion was07:39:43 UTC. ADK is now running; ASTRAL and full pipeline have not run. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot79/progress.json).
 
 # Current execution status
 

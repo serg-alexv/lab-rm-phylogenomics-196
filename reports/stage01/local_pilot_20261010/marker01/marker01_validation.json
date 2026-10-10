@@ -1,0 +1,114 @@
+{
+  "checks": {
+    "bootstrap_evidence": {
+      "native_log": "1000",
+      "report": "1000"
+    },
+    "bootstrap_replicates": 1000,
+    "input_alignment_tip_ids_equal": true,
+    "input_alignment_ungapped_sequences_equal": true,
+    "model": "Q.PFAM+F+I+R5",
+    "native_alignment_summary": "189 sequences; 210 columns; 204 distinct patterns",
+    "native_iqtree_log_completed": true,
+    "native_log_ends_with_completion_timestamp": "Date and Time: Sat Oct 10 10:39:43 2026",
+    "successful_output_paths_present": [
+      "Analysis results written to:",
+      "IQ-TREE report:                pilot_output/trees/5-FTHF_cyc-lig.iqtree",
+      "Maximum-likelihood tree:       pilot_output/trees/5-FTHF_cyc-lig.treefile",
+      "Ultrafast bootstrap approximation results written to:"
+    ],
+    "tree_branch_lengths_finite_nonnegative": true,
+    "tree_internal_supports": {
+      "numeric_support_label_count": 153,
+      "support_max": 100.0,
+      "support_min": 5.0,
+      "unlabeled_branch_max_length": 2.9849e-06,
+      "unlabeled_internal_branch_count": 33
+    },
+    "tree_tip_count": 189,
+    "tree_tips_equal_fasta_ids": true,
+    "tree_tips_unique": true,
+    "unlabeled_internal_branch_paths": [
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0",
+      "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/1/0/0",
+      "root/1/0/0/0/0/0/0/0/0/1/0/1/0",
+      "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0",
+      "root/1/0/0/0/0/0/0/0/1/1/0/1/0",
+      "root/1/0/1/0"
+    ]
+  },
+  "evidence": {
+    "alignment": {
+      "bytes": 43659,
+      "mtime_ns": 1791616181178000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\alignments\\5-FTHF_cyc-lig_aligned.fasta",
+      "sha256": "60dfc8a4ec7949b331e569ebf3e327ef688590da42d0f7ef7dcf4e975a5a991d"
+    },
+    "input_fasta": {
+      "bytes": 37937,
+      "mtime_ns": 1791615734918000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\input_genes\\5-FTHF_cyc-lig.fasta",
+      "sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be"
+    },
+    "iqtree_report": {
+      "bytes": 92014,
+      "mtime_ns": 1791617983788000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\5-FTHF_cyc-lig.iqtree",
+      "sha256": "2fe7de678fd8b021f35af1ed6c2fde19060064bd7cd2094d57e6361f82db6dfe"
+    },
+    "native_log": {
+      "bytes": 23786,
+      "mtime_ns": 1791617983946000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\5-FTHF_cyc-lig.log",
+      "sha256": "9e9e8916f41e550b70044c84a0b12113df938a507e5049fe109113212b55bd17"
+    },
+    "treefile": {
+      "bytes": 8642,
+      "mtime_ns": 1791617983839000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\5-FTHF_cyc-lig.treefile",
+      "sha256": "6d7445fc85dcf4f07a339f40bc58abb8f84de1d98a0a7d589e342f098910f462"
+    }
+  },
+  "evidence_unchanged_during_validation": true,
+  "limitations": [
+    "This receipt validates only 5-FTHF_cyc-lig, not the other four markers or ASTRAL.",
+    "This is file-level operational validation, not an independent biological or model-fit assessment.",
+    "No external upload, publication, scientific rerun, or source/output modification was performed."
+  ],
+  "schema": "lab-rm-pilot-marker-validation/1",
+  "scope": {
+    "marker": "5-FTHF_cyc-lig",
+    "only_marker_outputs_read": true,
+    "scientific_rerun": false,
+    "tips": 189
+  },
+  "status": "PASS",
+  "validated_at_utc": "2026-10-10T07:43:19.320483+00:00"
+}
