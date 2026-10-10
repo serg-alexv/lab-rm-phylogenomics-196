@@ -1,0 +1,137 @@
+{
+  "schema": "STAGE05_UNC03_READONLY_OWNER_V1",
+  "state": "PASS_READONLY_DIAGNOSTIC_AND_EXACT_OWNED_WINDOWS_CLOSURE",
+  "source_sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+  },
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "actual_windows_owner": {
+    "pid": 11340,
+    "creation_filetime": 134360754099879067,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "UNC_writes": 0,
+  "WSL_launches": 0,
+  "cleanup_performed": false,
+  "scientific_adoption_authorized": false,
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "resources": {
+    "utc": "2026-10-10T03:10:10.104222+00:00",
+    "physical_available_bytes": 3972333568,
+    "commit_headroom_bytes": 4653842432,
+    "commit_total_bytes": 17352933376,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245794873344,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01": 245794873344
+    }
+  },
+  "authority_sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+  "Ubuntu_registration": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 0,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "windows_worker": {
+    "schema": "STAGE05_OWNED_WINDOWS_IO_JOB_V2",
+    "state": "PASS_EXACT_RETAINED_ROOT_EXIT0_AND_EMPTY_NAMED_JOB",
+    "argv": [
+      "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_readonly_diagnostic.py",
+      "--worker",
+      "--diagnostic-request",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01\\diagnostic_request.json",
+      "--diagnostic-request-sha256",
+      "b485fbbc126e3ee3ff1b2930d3aa94fba81697e710a14c9fc12a46373ab89d0e",
+      "--source-sha256",
+      "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697"
+    ],
+    "owner": {
+      "pid": 11340,
+      "creation_filetime": 134360754099879067,
+      "exit_filetime": 0,
+      "cpu_seconds": 0.09375,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": false,
+      "exit_code": null
+    },
+    "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "job_name": "Local\\LAB_RM_STAGE5_IO_857257a92faa46d7b21cdc7088539661",
+    "drain_samples": [
+      {
+        "elapsed_remaining_seconds": 5.0,
+        "root_wait": 0,
+        "job": {
+          "peak_process_committed_bytes": 15609856,
+          "peak_job_committed_bytes": 16756736,
+          "job_cpu_seconds": 0.234375,
+          "job_active_processes": 0,
+          "job_pids": []
+        }
+      }
+    ],
+    "owned_closure_proven": true,
+    "created": true,
+    "assigned": true,
+    "birth": {
+      "pid": 11744,
+      "creation_filetime": 134360754101438362,
+      "exit_filetime": 0,
+      "cpu_seconds": 0.0,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": false,
+      "exit_code": null
+    },
+    "exit": {
+      "pid": 11744,
+      "creation_filetime": 134360754101438362,
+      "exit_filetime": 134360754106983493,
+      "cpu_seconds": 0.21875,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": true,
+      "exit_code": 0
+    },
+    "owned_job": {
+      "peak_process_committed_bytes": 15609856,
+      "peak_job_committed_bytes": 16756736,
+      "job_cpu_seconds": 0.234375,
+      "job_active_processes": 0,
+      "job_pids": []
+    }
+  },
+  "resources_after": {
+    "utc": "2026-10-10T03:10:10.738355+00:00",
+    "physical_available_bytes": 3918757888,
+    "commit_headroom_bytes": 4591001600,
+    "commit_total_bytes": 17415774208,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245794820096,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01": 245794820096
+    }
+  },
+  "worker_result_sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8",
+  "original_lock_released": true,
+  "unknown_closure_STOP_present": false,
+  "utc": "2026-10-10T03:10:10.738355+00:00"
+}

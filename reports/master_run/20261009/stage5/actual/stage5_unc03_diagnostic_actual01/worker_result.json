@@ -1,0 +1,239 @@
+{
+  "schema": "STAGE05_UNC03_READONLY_WORKER_V1",
+  "state": "PASS_READONLY_DIAGNOSTIC_COMPLETE_NO_PROBE_ADOPTION",
+  "source_sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697",
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "diagnostic_request_sha256": "b485fbbc126e3ee3ff1b2930d3aa94fba81697e710a14c9fc12a46373ab89d0e",
+  "observations": [
+    {
+      "role": "canonical_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "tiny_read_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "readonly_payload_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "metadata_after_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\linux.bin'",
+        "errno": 13,
+        "winerror": 5
+      }
+    },
+    {
+      "role": "canonical_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "984f4e3815068a01e4bda9ff00051aaa97fcf73b01f381c7a1b6b2a4b84ac1b1",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "tiny_read_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "readonly_payload_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      },
+      "metadata_after_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 13,
+        "winerror": 5
+      }
+    },
+    {
+      "role": "backing_linux",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\linux.bin",
+      "expected_bytes": 116,
+      "expected_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+      "metadata_before": {
+        "mode": 33206,
+        "regular": true,
+        "directory": false,
+        "uid": 0,
+        "gid": 0,
+        "nlink": 1,
+        "device": 0,
+        "inode": 33554461,
+        "bytes": 116,
+        "mtime_ns": 1791601426761082800,
+        "file_attributes": 128,
+        "reparse_point": false,
+        "reparse_tag": 0
+      },
+      "tiny_read_receipt": {
+        "device": 0,
+        "inode": 33554461,
+        "bytes": 116,
+        "sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+        "mtime_ns": 1791601426761082800
+      },
+      "payload_bytes": 116,
+      "payload_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+      "matches_original_request_payload": true,
+      "readonly_payload_observation": {
+        "metadata_before": {
+          "mode": 33206,
+          "regular": true,
+          "directory": false,
+          "uid": 0,
+          "gid": 0,
+          "nlink": 1,
+          "device": 0,
+          "inode": 33554461,
+          "bytes": 116,
+          "mtime_ns": 1791601426761082800,
+          "file_attributes": 128,
+          "reparse_point": false,
+          "reparse_tag": 0
+        },
+        "metadata_opened": {
+          "mode": 33206,
+          "regular": true,
+          "directory": false,
+          "uid": 0,
+          "gid": 0,
+          "nlink": 1,
+          "device": 0,
+          "inode": 33554461,
+          "bytes": 116,
+          "mtime_ns": 1791601426761082800,
+          "file_attributes": 128,
+          "reparse_point": false,
+          "reparse_tag": 0
+        },
+        "metadata_after_open": {
+          "mode": 33206,
+          "regular": true,
+          "directory": false,
+          "uid": 0,
+          "gid": 0,
+          "nlink": 1,
+          "device": 0,
+          "inode": 33554461,
+          "bytes": 116,
+          "mtime_ns": 1791601426761082800,
+          "file_attributes": 128,
+          "reparse_point": false,
+          "reparse_tag": 0
+        },
+        "payload_bytes": 116,
+        "payload_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+        "matches_original_request_payload": true,
+        "scientific_or_UNC_adoption": false
+      },
+      "metadata_after": {
+        "mode": 33206,
+        "regular": true,
+        "directory": false,
+        "uid": 0,
+        "gid": 0,
+        "nlink": 1,
+        "device": 0,
+        "inode": 33554461,
+        "bytes": 116,
+        "mtime_ns": 1791601426761082800,
+        "file_attributes": 128,
+        "reparse_point": false,
+        "reparse_tag": 0
+      }
+    },
+    {
+      "role": "backing_windows",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\windows.bin",
+      "expected_bytes": 122,
+      "expected_sha256": "984f4e3815068a01e4bda9ff00051aaa97fcf73b01f381c7a1b6b2a4b84ac1b1",
+      "metadata_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 2] The system cannot find the file specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 2
+      },
+      "tiny_read_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 2] The system cannot find the file specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 2
+      },
+      "readonly_payload_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 2] The system cannot find the file specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 2
+      },
+      "metadata_after_error": {
+        "kind": "FileNotFoundError",
+        "message": "[WinError 2] The system cannot find the file specified: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\var\\\\tmp\\\\lab_rm_stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\\\windows.bin'",
+        "errno": 2,
+        "winerror": 2
+      }
+    }
+  ],
+  "directory_observations": [
+    {
+      "role": "canonical_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\mnt\\g\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36",
+      "metadata_error": {
+        "kind": "PermissionError",
+        "message": "[WinError 5] Access is denied: '\\\\\\\\wsl.localhost\\\\Ubuntu\\\\mnt\\\\g\\\\My Drive\\\\LAB_RM\\\\lab-rm-phylogenomics-196\\\\.work\\\\stage05_atomic_v1\\\\.unc_visibility_8ae35884653047348cfa688d4bf00b36'",
+        "errno": 13,
+        "winerror": 5
+      }
+    },
+    {
+      "role": "backing_directory",
+      "path": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36",
+      "metadata": {
+        "mode": 16895,
+        "regular": false,
+        "directory": true,
+        "uid": 0,
+        "gid": 0,
+        "nlink": 2,
+        "device": 0,
+        "inode": 33554454,
+        "bytes": 0,
+        "mtime_ns": 1791601426758035500,
+        "file_attributes": 16,
+        "reparse_point": false,
+        "reparse_tag": 0
+      }
+    }
+  ],
+  "Ubuntu_registration": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 0,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "UNC_writes": 0,
+  "WSL_launches": 0,
+  "cleanup_performed": false,
+  "scientific_adoption_authorized": false,
+  "utc": "2026-10-10T03:10:10.682926+00:00"
+}

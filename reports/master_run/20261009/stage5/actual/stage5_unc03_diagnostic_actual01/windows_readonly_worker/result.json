@@ -1,0 +1,72 @@
+{
+  "schema": "STAGE05_OWNED_WINDOWS_IO_JOB_V2",
+  "state": "PASS_EXACT_RETAINED_ROOT_EXIT0_AND_EMPTY_NAMED_JOB",
+  "argv": [
+    "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_readonly_diagnostic.py",
+    "--worker",
+    "--diagnostic-request",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01\\diagnostic_request.json",
+    "--diagnostic-request-sha256",
+    "b485fbbc126e3ee3ff1b2930d3aa94fba81697e710a14c9fc12a46373ab89d0e",
+    "--source-sha256",
+    "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697"
+  ],
+  "owner": {
+    "pid": 11340,
+    "creation_filetime": 134360754099879067,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.09375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+  "api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "job_name": "Local\\LAB_RM_STAGE5_IO_857257a92faa46d7b21cdc7088539661",
+  "drain_samples": [
+    {
+      "elapsed_remaining_seconds": 5.0,
+      "root_wait": 0,
+      "job": {
+        "peak_process_committed_bytes": 15609856,
+        "peak_job_committed_bytes": 16756736,
+        "job_cpu_seconds": 0.234375,
+        "job_active_processes": 0,
+        "job_pids": []
+      }
+    }
+  ],
+  "owned_closure_proven": true,
+  "created": true,
+  "assigned": true,
+  "birth": {
+    "pid": 11744,
+    "creation_filetime": 134360754101438362,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "exit": {
+    "pid": 11744,
+    "creation_filetime": 134360754101438362,
+    "exit_filetime": 134360754106983493,
+    "cpu_seconds": 0.21875,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "owned_job": {
+    "peak_process_committed_bytes": 15609856,
+    "peak_job_committed_bytes": 16756736,
+    "job_cpu_seconds": 0.234375,
+    "job_active_processes": 0,
+    "job_pids": []
+  }
+}

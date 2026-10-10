@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T03:08:48.390560+00:00",
+  "updated_utc": "2026-10-10T03:13:06.646677+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "UNC03 failed scope independently closed; corrected cold v2 source only",
+  "stage5_operational_phase": "readonly UNC03 diagnosis PASS only; canonical access denied, backing exact116B read PASS; original UNC gate remains FAILED",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -218,7 +218,8 @@
     "stage5_gdrive_view_c5848c89d3804d8cabe407d7dd354da0": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
     "stage5_setup_drivefs_actual_postiq_04": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_08": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
-    "stage5_unc_bind_actual_postiq_03": "FAILED"
+    "stage5_unc_bind_actual_postiq_03": "FAILED",
+    "stage5_unc03_diagnostic_actual01": "PASS_READONLY_DIAGNOSTIC_AND_EXACT_OWNED_WINDOWS_CLOSURE"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
@@ -257,9 +258,9 @@
   "host_restart_requested_due_utc": "2026-10-10T00:36:00.852634+00:00",
   "host_newboot_reconciliation_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
   "stage5_latest_postboot_gate": {
-    "spool": "stage5_setup_runtime_actual_postiq_08",
-    "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
-    "independent_review_sha256": "d5247b7f8083f25044b1346203a96264cfdf5b4c99aea6af9d5f9727143158b1"
+    "spool": "stage5_unc03_diagnostic_actual01",
+    "state": "PASS_READONLY_DIAGNOSTIC_AND_EXACT_OWNED_WINDOWS_CLOSURE",
+    "independent_review_sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f"
   },
   "stage5_current_linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
   "stage5_gdrive_postboot_scope": "stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92",
@@ -267,7 +268,7 @@
   "stage5_storage_current": "PASS_CURRENT_BOOT_EXACT_EXT4_BIND; stage5_setup_storage_actual_postiq_06",
   "stage5_gdrive_session_parent_source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
   "stage5_drivefs_current": "PASS_CURRENT_BOOT_OWNED_FILESYSTEM_WORKER_AND_WINDOWS_READBACK; stage5_setup_drivefs_actual_postiq_04",
-  "stage5_unc_current": "FAILED03_CLOSED_SCOPE; LINUX_PREPARED_PASS; WINDOWS_WORKER_EXIT1_EMPTY_JOB; EXACT_CAUSE_UNRECORDED; DIAGNOSTIC_REQUIRED",
+  "stage5_unc_current": "FAILED03_PRESERVED; DIAGNOSIS_PASS_ONLY; NEW_BIDIRECTIONAL_BACKING_ALIAS_GATE_REQUIRED_BEFORE_SCIENCE",
   "stage5_native_execution_current": "NOT_RUN; NEW_TOOLCHAIN07_RUNTIME08_INTEROP05_STORAGE06_DRIVEFS04_UNC03_REQUIRED",
   "stage5_wsl_reconfiguration": "PASS_NONSCIENTIFIC_WSL_CONFIG_CHANGED_AND_ALL_DISTROS_STOPPED",
   "stage5_wsl_config_actual_spool": "stage5_wsl_config_e169045dc0634577be5e041d922d44a7",
@@ -299,5 +300,8 @@
   "stage5_unc_config_source_independent_review_sha256": "d2f12e25e9f7b098d73e1882a6c9a1bfeaf452288f9976dec479a97859cb8b4c",
   "stage5_unc03_failed_scope_independent_review_sha256": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd",
   "stage5_unc03_diagnostic_source_current": "PASS_REVIEWED_SOURCE_ONLY_c0458522; ACTUAL_READONLY_DIAGNOSIS_NOT_RUN",
-  "stage5_cold_owner_v2_source_independent_review_sha256": "0546f2cbdd8f1fc4b25be8bb9faf1725b15ac038bf00eaed7b2796475203b0b9"
+  "stage5_cold_owner_v2_source_independent_review_sha256": "0546f2cbdd8f1fc4b25be8bb9faf1725b15ac038bf00eaed7b2796475203b0b9",
+  "stage5_unc03_diagnostic_actual_current": "PASS_CURRENT_CANONICAL_UNC_ACCESS_DENIED_5; BACKING_UNCHANGED_ORIGINAL_TINY_READ_PASS_116B; WINDOWS_SENTINEL_ABSENT_2_AT_DIAGNOSIS; RETAINED_JOB_CLOSED_AND_UNLOCKED",
+  "stage5_unc03_diagnostic_actual_independent_review_sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f",
+  "stage5_windows_backing_alias_current": "SOURCE_PREPARATION_ONLY; NO_NEW_PROBE_OR_DETECTOR_EXECUTION"
 }

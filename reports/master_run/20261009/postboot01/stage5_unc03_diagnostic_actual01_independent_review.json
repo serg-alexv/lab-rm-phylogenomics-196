@@ -1,0 +1,133 @@
+{
+  "schema": "STAGE05_UNC03_DIAGNOSTIC_ACTUAL_INDEPENDENT_V1",
+  "state": "PASS_EXACT_UNC03_DIAGNOSTIC_BYTES_AND_RETAINED_CLOSURE_UNC_GATE_STILL_FAILED",
+  "utc": "2026-10-10T03:12:25.820288+00:00",
+  "reviewer_source_sha256": "c4c7610e2f6cef8b16974a94ccdf6ac9f49a86f3182c79c3665d4a12c8d0be62",
+  "method": "C-only decoded actual bytes/lifecycle and exact SHA256; no UNC, WSL, producer imports, registry, lock, process effect, network or Git ref action",
+  "original_UNC03_gate": "FAILED_PRESERVED",
+  "scientific_adoption": false,
+  "source_sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697",
+  "source_publication_commit": "b98e1d905d4f23654cbef2264881b5ca6fa0147b",
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "diagnostic_request_sha256": "b485fbbc126e3ee3ff1b2930d3aa94fba81697e710a14c9fc12a46373ab89d0e",
+  "worker_result_sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8",
+  "retained_worker_birth": {
+    "pid": 11744,
+    "creation_filetime": 134360754101438362,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "retained_worker_exit": {
+    "pid": 11744,
+    "creation_filetime": 134360754101438362,
+    "exit_filetime": 134360754106983493,
+    "cpu_seconds": 0.21875,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "worker_elapsed_seconds": 0.5545131,
+  "owned_job_empty": true,
+  "owned_closure_proven": true,
+  "original_lock_release_recorded": true,
+  "unknown_closure_STOP_absent_recorded": true,
+  "Ubuntu_registration": {
+    "DistributionName": "Ubuntu",
+    "Version": 2,
+    "DefaultUid": 0,
+    "Flags": 15,
+    "BasePath": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}"
+  },
+  "findings": [
+    "Canonical directory and both leaves return WinError5 ACCESS_DENIED at every read phase.",
+    "Native-backing UNC directory is readable and has prepared Linux sentinel-directory inode33554454.",
+    "Native-backing linux.bin passes unchanged U.tiny_read:116B SHA4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5, inode33554461 matches Linux prepared. All before/open/after Windows metadata is stable and nlink1.",
+    "Native-backing windows.bin returns WinError2 FILE_NOT_FOUND at all four phases; its current absence is proved, historical never-write is not.",
+    "UID0 is recorded consistently. The current canonical transport denial cannot be explained solely by the former DefaultUid1000 versus0700 mismatch.",
+    "The diagnostic locates a usable read-only native-backing view while canonical traversal is denied; it does not establish bidirectional write/cleanup, an adopted transport alias, or the exact original worker exception."
+  ],
+  "projection_limit": "Windows UNC device0/mode/100ns timestamp projection differs from Linux device2096/POSIX metadata; exact bytes and inode joins are recorded without pretending all cross-platform stat fields are equal.",
+  "next_gate_requirement": "Any fixed backing UNC transport alias needs separate source review, pinned current ext4 canonical-to-backing identity, complete actual bidirectional sentinel I/O and exact cleanup before science; preserve original failed UNC03 and do not weaken tiny_read guards.",
+  "reviewer_actual_UNC_reads": 0,
+  "reviewer_WSL_launches": 0,
+  "reviewer_lock_acquisitions": 0,
+  "checked_files": {
+    "review_stage5_unc03_diagnostic_actual01.py": {
+      "bytes": 11580,
+      "sha256": "c4c7610e2f6cef8b16974a94ccdf6ac9f49a86f3182c79c3665d4a12c8d0be62"
+    },
+    "stage5_unc03_readonly_diagnostic.py": {
+      "bytes": 17705,
+      "sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_unc03_readonly_diagnostic_source_independent_review01.json": {
+      "bytes": 6394,
+      "sha256": "8e8d15081ee34c67a1b538d402e4ab6ba82d74b32d449f25679f2a8cf9901e54"
+    },
+    "master_uncfailure58_remote_readback.json": {
+      "bytes": 16805,
+      "sha256": "6f9c414cbb6b295d673954e0d27d45deba360562d89f0ac7ecb92b31f841c4c1"
+    },
+    "stage5_unc_bind_actual_postiq_03\\request.json": {
+      "bytes": 2387,
+      "sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d"
+    },
+    "stage5_unc_bind_actual_postiq_03\\prepared.json": {
+      "bytes": 3917,
+      "sha256": "75f1a373418b0be1610f8998643f421c939b5b49875ca0cfec5283c3bb99a020"
+    },
+    "stage5_unc_bind_actual_postiq_03\\result.json": {
+      "bytes": 3343,
+      "sha256": "d65dd56afc65665b3737218920762ca4247e9b5811e726f76df7a89d496945a2"
+    },
+    "stage5_unc03_diagnostic_actual01\\diagnostic_request.json": {
+      "bytes": 3133,
+      "sha256": "b485fbbc126e3ee3ff1b2930d3aa94fba81697e710a14c9fc12a46373ab89d0e"
+    },
+    "stage5_unc03_diagnostic_actual01\\result.json": {
+      "bytes": 5386,
+      "sha256": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0"
+    },
+    "stage5_unc03_diagnostic_actual01\\worker_result.json": {
+      "bytes": 10099,
+      "sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_unc03_diagnostic_actual01\\windows_readonly_worker\\result.json": {
+      "bytes": 2507,
+      "sha256": "2afa7077602cf2d239458ef90388df2024d435250715bfc08d84905f12808ee2"
+    },
+    "stage5_unc03_diagnostic_actual01\\windows_readonly_worker\\launch.json": {
+      "bytes": 1653,
+      "sha256": "65e838b9e674f2640e14cbd0017343efcbd9648b258bba99afad5cc4cb76adc3"
+    },
+    "stage5_unc03_diagnostic_actual01\\windows_readonly_worker\\root_exit.json": {
+      "bytes": 1980,
+      "sha256": "3b3e4f62e1aa0575fe1423353f81d22b407e2e0406c19139c1132a87ddc664e6"
+    },
+    "stage5_unc03_diagnostic_actual01\\windows_readonly_worker\\progress.json": {
+      "bytes": 2271,
+      "sha256": "dabfa606aa8486624c06e0d2eb9bfd46f6039e67864abfa829b05a4e669b7250"
+    },
+    "stage5_unc03_diagnostic_actual01\\worker_progress.json": {
+      "bytes": 8466,
+      "sha256": "ded13aabe740e10ffd03643018b0f33a24e455b799747efd5e45d8a4483cf548"
+    }
+  }
+}
