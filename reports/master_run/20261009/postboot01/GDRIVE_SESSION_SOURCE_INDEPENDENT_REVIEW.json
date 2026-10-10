@@ -1,0 +1,62 @@
+{
+  "schema": "STAGE05_GDRIVE_SESSION_PARENT_SOURCE_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_SOURCE_AND_FOCUSED_SYNTHETIC_CONTRACTS_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T01:24:02.528662+00:00",
+  "source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+  "prior_source_sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06",
+  "tests_sha256": "e2b8e800400dae5edfaefb98193a67614499aa4a5cceb794ec080ebcc1fbf4dd",
+  "authored_focused_tests_passed": 3,
+  "extra_independent_synthetic_checks": [
+    "actual_ppid_mismatch",
+    "dead_parent_X",
+    "parent_record_PID_mismatch",
+    "PID1_change_remains_diagnostic_only"
+  ],
+  "unchanged_functions_by_AST": [
+    "need",
+    "sha",
+    "exists",
+    "tiny",
+    "control_gate",
+    "plain_chain",
+    "empty_directory",
+    "drive_mount",
+    "mount_prelaunch_gate",
+    "prior_gate",
+    "fresh_toolchain_gate",
+    "imports",
+    "terminal_gate",
+    "windows_main",
+    "main"
+  ],
+  "changed_existing_functions_by_AST": [
+    "linux_main"
+  ],
+  "added_functions": [
+    "session_namespace_gate",
+    "session_namespace_observation"
+  ],
+  "all_operative_and_fresh_proof_pins_match": true,
+  "contract_findings": {
+    "actual_live_parent_required": true,
+    "actual_current_ppid_must_equal_parent_PID": true,
+    "parent_executable_exact_init_required": true,
+    "parent_and_current_positive_start_ticks_retained": true,
+    "self_mount_namespace_must_equal_live_session_parent": true,
+    "PID1_mount_namespace_only_diagnostic": true,
+    "exact_parent_birth_exe_and_self_parent_namespaces_rechecked_before_mount_and_final": true,
+    "strict_G_topology_control_empty_underlay_lease_nativeclosure_and_unlock_preserved": true,
+    "default_noop_preserved": true,
+    "future_storage_and_UNC_visibility_explicitly_unproven": true
+  },
+  "limitations": [
+    "Synthetic namespace/parent tests do not prove the actual postboot WSL parent or current G visibility",
+    "Current-session namespace qualification does not prove future WSL-session/storage/UNC visibility; separate fresh gates remain mandatory",
+    "Publish exact reviewed source before actual diagnosis; explicit mount requires actual qualified missing-G and empty underlay observation"
+  ],
+  "actual_G_session_diagnosis": "NOT_RUN",
+  "actual_G_session_mount": "NOT_RUN",
+  "WSL_invoked_by_reviewer": false,
+  "native_owner_invoked_by_reviewer": false,
+  "scientific_adoption_authorized": false
+}

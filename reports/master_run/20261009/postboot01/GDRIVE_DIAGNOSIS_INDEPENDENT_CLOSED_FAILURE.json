@@ -1,0 +1,160 @@
+{
+  "schema": "STAGE05_GDRIVE_POSTBOOT_FAILED_SCOPE_INDEPENDENT_V1",
+  "state": "PASS_CLOSED_FAILED_DIAGNOSIS_PRESERVED_NO_G_READINESS_CLAIM",
+  "utc": "2026-10-10T01:19:15.039286+00:00",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f",
+  "original_result_sha256": "6a14898bc8391037c3b6a5e115e812f5b40e7860c96e2621db99faf45513663d",
+  "linux_terminal_sha256": "0df8492b2456c03a9de3c44bd814d32a517b87cd61a47e239c3f63e7ca915d29",
+  "source_sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06",
+  "failure": {
+    "kind": "ValueError",
+    "message": "Isolated mount namespace cannot establish future WSL view"
+  },
+  "mount_namespace": {
+    "pid1": "mnt:[4026532209]",
+    "self": "mnt:[4026532212]"
+  },
+  "retained_wsl_terminal": {
+    "pid": 20908,
+    "creation_filetime": 134360686190510423,
+    "exit_filetime": 134360686195756646,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 2
+  },
+  "native_command_count": 0,
+  "mount_performed": false,
+  "mountpoint_created": false,
+  "owned_descendants_closed": true,
+  "original_workflow_lock_unlocked": true,
+  "this_scope_unresolved_stop": false,
+  "current_G_visibility": "NOT_OBSERVED_NAMESPACE_GUARD_FIRED_BEFORE_MOUNT_TOPOLOGY_READ",
+  "historical_old_worker_closure": "UNRECORDED_PRESERVED_FAILURE",
+  "old_scope_retroactively_passed": false,
+  "scientific_execution_or_acceptance": "NONE",
+  "reviewer_wsl_or_mutation": "NONE_READONLY_EXCEPT_THIS_NEW_RECEIPT",
+  "checked_files": {
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\result.json": {
+      "bytes": 6929,
+      "sha256": "6a14898bc8391037c3b6a5e115e812f5b40e7860c96e2621db99faf45513663d"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\linux_terminal.json": {
+      "bytes": 1414,
+      "sha256": "0df8492b2456c03a9de3c44bd814d32a517b87cd61a47e239c3f63e7ca915d29"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\launch.json": {
+      "bytes": 823,
+      "sha256": "5fe56dd117f03c97a8026d76052c6a79a4997df3163a7e2d584eb9eb7086dd78"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\wsl_exit.json": {
+      "bytes": 1072,
+      "sha256": "90a77f12405fee60698875fa7413c7217334fb145d5d82e4b1f5188c45572573"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "d6d7a7b0c24906f8ac6ab167cd83e2507aa532f6248dddc68ee65fee1529585d"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\request.json": {
+      "bytes": 2237,
+      "sha256": "5b92d3fe0760488f9fd277e2ebc7337001203394e732c921fa345cb11ddd07db"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\actual_owner_lock.json": {
+      "bytes": 642,
+      "sha256": "16116ee8a34748e082d7c9ab51bd85f185756b482a8fe8025728377f72e3494f"
+    },
+    "stage5_gdrive_view_postboot.py": {
+      "bytes": 30515,
+      "sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_storage_actual_postiq_02\\result.json": {
+      "bytes": 4490,
+      "sha256": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3"
+    },
+    "stage5_setup_storage_actual_postiq_02\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1"
+    },
+    "stage5_setup_storage_actual_postiq_02\\linux_terminal.json": {
+      "bytes": 2067,
+      "sha256": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\result.json": {
+      "bytes": 4636,
+      "sha256": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2"
+    },
+    "stage5_setup_toolchain_actual_postiq_04\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\result.json": {
+      "bytes": 4616,
+      "sha256": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\linux_terminal.json": {
+      "bytes": 1684,
+      "sha256": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04"
+    },
+    "stage5_setup_toolchain_actual_postiq_05\\wsl_exit.json": {
+      "bytes": 1943,
+      "sha256": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f"
+    },
+    "stage5_toolchain05_postboot_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\admission.json": {
+      "bytes": 1749,
+      "sha256": "32751a8353636ae1102a77e35a702c41e4a64aea8d2f1d9d4e73f1876390a85d"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\latest_admission.json": {
+      "bytes": 1749,
+      "sha256": "32751a8353636ae1102a77e35a702c41e4a64aea8d2f1d9d4e73f1876390a85d"
+    },
+    "stage5_gdrive_view_3b74f38f00494281973713b1b4dc266f\\owner_lease.json": {
+      "bytes": 871,
+      "sha256": "3bb920099a12ece9424138eb64790f32616a3dc7f2391bcd4b567fd109b508e5"
+    }
+  }
+}

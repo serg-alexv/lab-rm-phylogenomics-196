@@ -1,0 +1,57 @@
+{
+  "schema": "STAGE05_GDRIVE_SESSION_PARENT_SOURCE_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_THREE_FOCUSED_PURE_CONTRACTS_PASS",
+  "utc": "2026-10-10T01:23:48.064624+00:00",
+  "original_postboot_source_sha256": "a0b903970844e33d1e938a9d388b62981333e54991d4b5e86f8129651e3b4f06",
+  "unchanged_existing_functions": {
+    "need": true,
+    "sha": true,
+    "exists": true,
+    "tiny": true,
+    "control_gate": true,
+    "plain_chain": true,
+    "empty_directory": true,
+    "drive_mount": true,
+    "mount_prelaunch_gate": true,
+    "prior_gate": true,
+    "fresh_toolchain_gate": true,
+    "imports": true,
+    "terminal_gate": true,
+    "windows_main": true,
+    "main": true
+  },
+  "new_helpers": [
+    "session_namespace_gate",
+    "session_namespace_observation"
+  ],
+  "changed_existing_functions": [
+    "linux_main"
+  ],
+  "files": [
+    {
+      "path": "prepare_stage5_gdrive_session_source01.py",
+      "bytes": 4166,
+      "sha256": "ff77d7873b76005d6f7576c22e18f9234fb857d58c59c4e7efeed5c0c867ece2"
+    },
+    {
+      "path": "stage5_gdrive_view_session.py",
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    {
+      "path": "test_stage5_gdrive_view_session.py",
+      "bytes": 2561,
+      "sha256": "e2b8e800400dae5edfaefb98193a67614499aa4a5cceb794ec080ebcc1fbf4dd"
+    },
+    {
+      "path": "stage5_gdrive_view_session_METHODS.md",
+      "bytes": 3090,
+      "sha256": "b82433ad78b6516fbea0c0dcb71bc0c0ab5e605728721801a3eeab62b02a09df"
+    }
+  ],
+  "actual_WSL_or_mount_execution": "NOT_RUN",
+  "current_session_visibility": "NOT_ACTUALLY_TESTED",
+  "future_storage_and_UNC_visibility": "REQUIRES_SEPARATE_FRESH_GATES",
+  "independent_source_review": "PENDING",
+  "publication": "PENDING_ROOT"
+}
