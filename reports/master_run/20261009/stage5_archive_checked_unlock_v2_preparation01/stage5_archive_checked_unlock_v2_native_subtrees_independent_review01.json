@@ -1,0 +1,36 @@
+{
+  "schema": "STAGE05_ARCHIVE_MAIN_NATIVE_SUBTREE_INDEPENDENT_V1",
+  "state": "PASS_RETAINED_MAIN_NATIVE_ARGV_CALLS_RESOURCE_AND_CLOSURE_SUBTREES_IDENTICAL",
+  "source_pins": {
+    "stage5_closed_genome_archive_windows.py": "249b9de14219d8c0a5f1e7e88e48f6c80694bd04699c7c3e506b50a0980fab45",
+    "stage5_closed_genome_archive_windows_checked_unlock_v2.py": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+  },
+  "reviewer_source_sha256": "8f4ca45fd3be015a5173f92b742dafa8c7b228b4ab4140d11a91a8847a7b1dbb",
+  "checks": {
+    "fixed_native_argv": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 1
+    },
+    "Popen_and_retained_exit_and_terminal_calls": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 5
+    },
+    "Windows_resource_predicate": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 1
+    },
+    "native_client_closure_finalizer": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 1
+    },
+    "power_restoration_finalizer": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 1
+    },
+    "inactive_lease_finalizer": {
+      "original_and_v2_AST_identical": true,
+      "subtrees": 1
+    }
+  },
+  "actual_operations": "NOT_RUN_SOURCE_ONLY"
+}

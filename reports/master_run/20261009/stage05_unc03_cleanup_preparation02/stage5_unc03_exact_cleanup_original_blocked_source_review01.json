@@ -1,0 +1,11 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_REJECTED_SOURCE_V1",
+  "state": "BLOCKED_SOURCE_ACTUAL_CLI_RESOURCES_UNDEFINED",
+  "utc": "2026-10-10T03:31:44.470578+00:00",
+  "source_sha256": "7a485a908c6d200588d781bf7b26e65d9a51c5f3c5b41b4dea0e9761d1ea8f92",
+  "test_sha256": "117f453e6a7f226021ba0bc4d5ef5a8da8fe26d563b5740da6f8341b82932af4",
+  "reviewer_source_sha256": "31f1e81a799a3d5a7d3c7b347a85c0f2557b594e1261a501a2d26ad2bd532a4a",
+  "evidence": "The top-level __main__ guard raises SystemExit(main()) before resources is defined. Actual --run owner reaches resources before definition; import-based tests and default NOOP do not detect this. No actual cleanup ran.",
+  "required_correction": "Separate revision moving only the main guard to the final top-level statement and adding CLI definition-order regression. Original source remains rejected and unchanged.",
+  "actual_operations": "NOT_RUN"
+}

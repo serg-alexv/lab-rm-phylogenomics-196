@@ -1,0 +1,111 @@
+{
+  "schema": "STAGE05_COLD_V2_EXECUTION_READINESS_REVIEW_V1",
+  "state": "SOURCE_PEER_PASS_ACTUAL_FIXTURE_AND_OWNER_INTEGRATION_PENDING",
+  "method": "C-only existing source/CLI/preparation and SHA inspection; no WSL, UNC, native process, lock, image, mount, network or Git effect",
+  "pins": {
+    "stage5_setup_cold_windows_v2.py": "a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c",
+    "stage5_setup_cold_linux_v2.py": "d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c",
+    "stage05_cold_owner_v2_source_independent_review01.json": "0546f2cbdd8f1fc4b25be8bb9faf1725b15ac038bf00eaed7b2796475203b0b9",
+    "stage5_runtime_inventory_entry_v3.py": "dbfd181eaccd2db37857409c48a6ba6964c1db5154fd4d7e055058d18802e60e",
+    "stage5_runtime_capture_entry_v2.py": "e5f50eb7beb9297dce8e6a9e160ea1aef564bf0f08379dc73b839210f182bdf5",
+    "stage5_runtime_logical_capture.py": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220",
+    "stage5_runtime_transport_alias.py": "57a952adb2114f51231f75f95f6d343aa2bf3dfe5aadfe2810c2acb71b84ee6c",
+    "verify_stage5_runtime_logical_payload.py": "9770354da6e9f8cbbab3735f78daadf458b18a86bfae7c90ce2492430c1a74ac",
+    "stage5_runtime_safe_extract.py": "beec0d3007da552d956f0d42434bd0ef1fa4ddac080834b0ed66f8aa581fac96",
+    "verify_stage5_runtime_cold_tree.py": "cd64e0d4da3ab2509f93d4295af891e0173ed9bef9d81007620bf1f4d872fcfe",
+    "stage5_offline_image_read_parts_v2.py": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151",
+    "stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7",
+    "stage5_runtime_actual_postiq_08.json": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+    "iqtree_controller_closure_actual01/receipt.json": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603"
+  },
+  "exact_preparatory_argv": [
+    "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_windows_v2.py",
+    "--cold",
+    "--mode",
+    "inventory",
+    "--output",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_cold_inventory_actual01",
+    "--linux-source-sha256",
+    "d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c",
+    "--controller-receipt",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\iqtree_controller_closure_actual01\\receipt.json",
+    "--controller-receipt-sha256",
+    "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+    "--controller-observer-sha256",
+    "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a",
+    "--toolchain-proof",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_07\\toolchain_proof.json",
+    "--toolchain-proof-sha256",
+    "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7",
+    "--runtime",
+    "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_actual_postiq_08.json",
+    "--runtime-sha256",
+    "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  ],
+  "preparatory_argv_run_flag": false,
+  "preparatory_argv_executed_by_this_review": false,
+  "actual_prerequisites": [
+    "First scientific genome scope positively closed and independently reviewed; no unresolved native launch/intent or original STOP",
+    "Current GitHub source readback for Windows a799/Linux d734 and every cold helper, current direct authority, closed controller/previous scientific scopes and original lock identity",
+    "Current RW observation must exactly equal pinned original24aa proof be4c, including same current Linux boot/mount/image; later remount requires a new independently qualified original24aa proof",
+    "Disposable Linux integration fixture for real DrvFS writer veto, unmount/detach/RO aliases, retained Windows handle failures/closure, stop/finalization and RW deterministic runtime restoration before original-image adoption",
+    "Fresh resources: Windows physical/commit >=2560MiB and disk >=10GiB per measured volume; Linux job1024MiB plus256MiB reserve; capture additionally requires full output capacity"
+  ],
+  "fixture_finding": {
+    "existing_source_pure_tests": 30,
+    "actual_fixture_not_found_in_inspected_sources": true,
+    "cold_pair_arbitrary_fixture_target_option": false,
+    "hardcoded_original_image_and_prefix": true,
+    "inline_step06_real_O_RDWR_refusal": "IMPLEMENTED_BUT_ACTUAL_NOT_RUN; no write call, successful write-open vetoes",
+    "adoption_consequence": "Do not present --run against the retained original image as already fixture-qualified. Root must review/run a bounded disposable integration fixture within existing ownership before adoption; no fixture controller authored by this review."
+  },
+  "inventory_route": {
+    "owner_CLI": "stage5_setup_cold_windows_v2.py --cold --mode inventory [explicit pinned controls] --run only after prerequisites",
+    "private_outputs": [
+      "PRIVATE_MANIFEST_DO_NOT_PUBLISH.jsonl",
+      "PRIVATE_HOLDS_DO_NOT_PUBLISH.json"
+    ],
+    "public_output": "PUBLIC_SUMMARY.json",
+    "accepted_state": "PASS_PRIVATE_FULL_INVENTORY_CANDIDATE_PUBLIC_REVIEW_PENDING",
+    "owner_restoration_state": "PASS_COLD_STEP_CLOSED_AND_RUNTIME06_RESTORED",
+    "runtime_rediscovery_required_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+    "actual_inventory": "NOT_RUN"
+  },
+  "capture_route": {
+    "session": "Separate second cold session after real full public-original-byte/path/xattr/special-metadata and notice review",
+    "additional_args": [
+      "--mode capture",
+      "--manifest <exact private manifest>",
+      "--manifest-sha256 <exact pin>",
+      "--public-review <complete per-node decisions>",
+      "--public-review-sha256 <exact pin>",
+      "--notices <complete notices and source attribution review>",
+      "--notices-sha256 <exact pin>",
+      "--all-required-runtime-files-public-and-covered",
+      "--all-special-metadata-resolved"
+    ],
+    "scope": "Three original logical installed roles; canonical 448MiB parts plus exact original-name LF sidecars and index. No whole VM/raw disk capture.",
+    "privacy": "Regex reason codes alone never establish public original bytes. Full reviewed decisions must cover every node with PUBLIC_ORIGINAL_BYTES and resolved metadata flags/notices. Do not blindly publish private inventory or holds.",
+    "source_identity": "Capture rejects altered inode/ctime/device/content/link/metadata/coverage between sessions; no relabeling inventory to force acceptance.",
+    "actual_capture": "NOT_RUN"
+  },
+  "remote_restore_route": {
+    "alias_map": "stage5_runtime_transport_alias.py --plan --index <immutable index> --index-sha256 <pin> --snapshot <label> --output <fresh direct C map>; content names map back to exact canonical original names; mapping does not prove download",
+    "local_payload_API": "verify_stage5_runtime_logical_payload.verify_payload(index_raw, expected_index_sha, shards_directory, output, admission)",
+    "remote_boundary": "Fresh owned downloader and immutable GitHub release/index/assets binding remain pending; API requires independently SHA-pinned real receipt, never fabricated synthetic evidence",
+    "extract_API": "stage5_runtime_safe_extract.extract(index_raw, remote_raw, expected_remote_sha, payload_raw, expected_payload_sha, source_commit, release_tag, tag_commit, remote_verifier_sha, shards_directory, verified_controls, staging, evidence, admission)",
+    "extract_limit": "No standalone extraction/download CLI or integrated actual finite owner adapter; real Linux openat2/linkat/xattr/fsync fixture pending. NEW distinct ext4 staging only, original absolute link text preserved never followed.",
+    "cold_compare_API": "verify_stage5_runtime_cold_tree.validate_restored_tree(manifest_path, manifest_sha256, staging, admission)",
+    "equivalence_limit": "Role-layout metadata/byte/link validation is distinct from original-prefix scientific runtime equivalence. Original-prefix restore and fresh deterministic f64 discovery required before local original eviction/host wipe.",
+    "actual_remote_download_restore": "NOT_RUN"
+  },
+  "literal_two_image_split": {
+    "toolchain_ext4": "Pending whole-byte public audit and separately exclusive offline guarded read; logical three-role archive does not count as literal raw split",
+    "Ubuntu_ext4_vhdx": "Separate all-owned-WSL-stopped offline boundary, full allocated/free/deleted-byte privacy audit or documented sanitized cold COPY; no unsanitized credential publication",
+    "actual_both_split": "NOT_RUN"
+  },
+  "no_new_sources_or_controller_authored": true,
+  "cleanup_or_wipe_authority": false
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "STAGE05_FIRST_GENOME_ACTUAL_REVIEW_INPUTS_SOURCE_INSPECTION_V1",
+  "utc": "2026-10-10T03:29:05.963399+00:00",
+  "state": "PASS_EXISTING_SOURCE_CONTRACT_INSPECTION_ACTUAL_CURATION_NOT_RUN",
+  "accession": "GCF_000009425.1",
+  "files": [
+    {
+      "path": "stage5_first_genome_review_execution_inputs02.md",
+      "bytes": 6040,
+      "sha256": "5c3fe400bf8ca6bb81f34c0f7face6957d3006c282c9bdad80b2a21762c404e4"
+    },
+    {
+      "path": "stage5_first_genome_curation_path01.md",
+      "bytes": 11136,
+      "sha256": "5a365055ee588e10b335c31c4f895c04e1fa88ba5cbda78909181b269732e72e"
+    },
+    {
+      "path": "stage05_curation\\stage05_curation_atomic.py",
+      "bytes": 27453,
+      "sha256": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0"
+    },
+    {
+      "path": "stage05_curation\\validate_one_atomic_curation.py",
+      "bytes": 9481,
+      "sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66"
+    },
+    {
+      "path": "stage05_curation\\validate_atomic_curation.py",
+      "bytes": 51003,
+      "sha256": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c"
+    },
+    {
+      "path": "stage05_curation\\retained\\stage05_curation_adapter.py",
+      "bytes": 75098,
+      "sha256": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177"
+    },
+    {
+      "path": "stage05_curation\\retained\\independent_curated_v2.py",
+      "bytes": 81418,
+      "sha256": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612"
+    },
+    {
+      "path": "stage05_curation\\stage05_architecture_policy.py",
+      "bytes": 21136,
+      "sha256": "942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4"
+    },
+    {
+      "path": "stage05_curation\\accepted_source_pins.json",
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    {
+      "path": "stage05_curation\\pinned_model_candidate_scope.json",
+      "bytes": 382623,
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be"
+    },
+    {
+      "path": "stage05_curation\\CLASSIFICATION_CONTRACT.md",
+      "bytes": 26909,
+      "sha256": "28a5b85588a63ea6de0e16715a29366ad039995637c0602a38919cf520ce36ae"
+    },
+    {
+      "path": "stage05_curation\\FOLLOW_ON_METHODS.md",
+      "bytes": 8944,
+      "sha256": "383e85be903de4486d63ec8a57786c7ce5463f831474a03b6855385b09a36caf"
+    },
+    {
+      "path": "stage05_curation\\SINGLE_GENOME_AUDIT_METHODS.md",
+      "bytes": 5572,
+      "sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51"
+    },
+    {
+      "path": "stage05_curation\\audit_settings.template.json",
+      "bytes": 1896,
+      "sha256": "5264396176bd6fa8969add5c89bffb6d38a1155939a33df1a567088bcd98852c"
+    },
+    {
+      "path": "stage5_runtime_actual_postiq_08.json",
+      "bytes": 996074,
+      "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+    }
+  ],
+  "existing_CLI": [
+    "stage05_curation_atomic.py prepare [exact original arguments]",
+    "stage05_curation_atomic.py apply [same arguments] --prepared EXACT_PREPARED --review ACTUAL_EXECUTED_REVIEW",
+    "validate_one_atomic_curation.py --settings ACTUAL_SETTINGS --accession GCF_000009425.1 --output FRESH_AUDIT"
+  ],
+  "accepted_source_controls": {
+    ".work/stage03_source_validation/validation_summary.json": "260420038849dc8509a2e5e99c48a6c9eba7c2e06953f4a4fc865a408d5481eb",
+    "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc",
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "reports/stage02/publication_receipt.json": "23e8a6f2bb6ebea58b74b07f74f4011658e4387253544b1937d1e8803b227438",
+    "reports/stage02/validation_summary.json": "5ea6555ae18780c407d2cfe69489dac1027571035abcc279f0f26d958ec891a0",
+    "reports/stage03/publication_receipt.json": "1f7c7b7739a61508ace397c28f9d2022b0dd5b67543dd1cb12ceda64506514d1"
+  },
+  "released_original_accession_source_witness": {
+    "asset_name": "stage03-source-and-search-001-020.zip",
+    "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+    "bytes": 3209,
+    "member": "source_locus_inputs/assemblies/GCF_000009425.1/build_receipt.json",
+    "release_tag": "stage03-hostmarkers196-v1",
+    "remote_asset_id": 622115850,
+    "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+    "sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413"
+  },
+  "pinned_model_candidate_scope_sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be",
+  "scope_source_archive_sha256": {
+    "padloc-db-2.0.0.tar.gz": "de1c9697ee735c7c8a856295ace5614c9c1959b6010cbc074a29125aa9c04fc9",
+    "defense-finder-models-3.0.0.tar.gz": "77e3486c30a889ee2b38121ea481769e12bd1871b0e6b6a0fdd845bdb42e97eb"
+  },
+  "scope_native_family_sha256": "12d293dd86aec81858a0c72a8a3242d49d6232ad56890b9590c6d52a54ce6cf9",
+  "compiled_model_metadata_sha256": {
+    "padloc_model_role_manifest.tsv": "d38d5193e84973be19b22e03cef304a10bd8a8b25825d5eae38964f68557a62e",
+    "padloc_profile_manifest.tsv": "b8f462e5e8adf583747c9446bdb52e54a5e21333e6b7465a955f69e0bcf1c744",
+    "padloc_rm_model_support.tsv": "ce760d182385ade3f30ff333b70ef1a53f8bd6e66cb19645b74a79d700fee7ec",
+    "padloc_compile_manifest.json": "1a301c6978898443c1c8a862fb902967dc8d0da1aa11e9bc9a0d6cdad7154a6e"
+  },
+  "candidate_definition_count": 39,
+  "runtime08_manifest_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+  "PADLOC_native_R_sha256": "d21ba942e80720d80027aa1740d756322560feaeb168bfa2890640d88950d4c0",
+  "compiled_full_PADLOC5027_HMM_sha256": "a03df990d47ef40d2573a04d9a0f513e70999c3b9104216e3f6656a9bef8d5da",
+  "reference_contract": {
+    "allowed_aliases": [
+      "source",
+      "bundle",
+      "execution",
+      "inventory",
+      "policy",
+      "models",
+      "padloc_db",
+      "environment",
+      "reviews"
+    ],
+    "required_fields": [
+      "path",
+      "sha256",
+      "record_locator",
+      "record_sha256"
+    ],
+    "naked_URL_is_typed_reference": false,
+    "witness_or_review_created": false,
+    "functional_role_review": "Separate actually executed and independently attributed exact source/domain/functional basis witness, not checker execution alone",
+    "family_review": "Separate actual exact family/subtype/source/domain witness only when candidate requires it",
+    "methodological_literature_pointers_are_actual_locus_witnesses": false
+  },
+  "queue_semantics": "Prepare pending; every queue item and all four applicable coverage sets need actually executed rationale/refs or explicit unresolved state. No synthetic fixture reviews adopted.",
+  "actual_operations": "NOT_RUN; no canonical/source/runtime biological read, no detector/prepare/apply/audit execution, no WSL/API/OS lock/Git",
+  "new_scientific_helper_required": false,
+  "final_acceptance": "Four cells only after genuine independent PASS; 196/784 and accepted-tree/Stage6 gates remain separate."
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "STAGE05_ACTIVE_FIRST_OWNER_RESOURCE_OBSERVATION_V1",
+  "state": "OBSERVED_INITIAL_RESOURCE_ADMISSION_WAIT_ONLY",
+  "observation_utc": "2026-10-10T03:37:03.728117+00:00",
+  "linux_available_bytes": 2596249600,
+  "linux_required_bytes": 2684354560,
+  "native_execution_directory_observed": false,
+  "scope_terminal_claim": false,
+  "owned_closure_claim": false,
+  "biological_result_claim": "NONE",
+  "files": [
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\GCF_000009425.1\\transactions\\attempt_0001\\latest_admission.json",
+      "file": "native_latest_admission.json",
+      "bytes": 1900,
+      "sha256": "cf323740e5cd8ef7f5a479aa0416eb874bdc2794438601f3a4774eb4939567b5"
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\proc\\meminfo",
+      "file": "linux_meminfo.txt",
+      "bytes": 1475,
+      "sha256": "54f09e93e2dcd9c7f02167ac8e7a607c9ff0185e8f2bf80aa5f2163523f243eb"
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\proc\\sys\\kernel\\random\\boot_id",
+      "file": "linux_boot_id.txt",
+      "bytes": 37,
+      "sha256": "aa9cdad8d911672e678a810f012ea95da7b9a03ae40ad7a58f1f443f7f5253b5"
+    },
+    {
+      "source": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_owner_GCF_000009425_1_backing_01\\owner.json",
+      "file": "windows_owner.json",
+      "bytes": 1955,
+      "sha256": "37eeca75a126a5daae7b64b152542c49c8accf79afd3d9595aa458a0c728a58a"
+    },
+    {
+      "source": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_owner_GCF_000009425_1_backing_01\\GCF_000009425.1.launch.json",
+      "file": "windows_launch.json",
+      "bytes": 1066,
+      "sha256": "e846cf1448074dacc7cd420eb2fdb850303c743a529c5235a6f3f97040f93995"
+    }
+  ],
+  "capture_method": "Read existing exact Windows/UNC files only; no WSL process or workflow lock/effect"
+}

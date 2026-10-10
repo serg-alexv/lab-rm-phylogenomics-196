@@ -1,0 +1,116 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_SOURCE_INDEPENDENT_V2",
+  "state": "PASS_MINIMAL_EXACT_FAILED03_CLEANUP_V2_SOURCE_ONLY",
+  "utc": "2026-10-10T03:31:44.470578+00:00",
+  "reviewer_source_sha256": "31f1e81a799a3d5a7d3c7b347a85c0f2557b594e1261a501a2d26ad2bd532a4a",
+  "method": "C-only frozen source bytes/AST/dependency and prior control joins, 19 focused fake/pure tests including tiny C fsync/readback fixture, separate default NOOP. No UNC/G/WSL/registry/lock/native process effects/network/Git.",
+  "actual_cleanup": "NOT_RUN",
+  "scientific_adoption": false,
+  "original_failed_UNC03": "PRESERVED_FAILED",
+  "frozen_sources": {
+    "stage5_unc03_exact_sentinel_cleanup.py": "7a485a908c6d200588d781bf7b26e65d9a51c5f3c5b41b4dea0e9761d1ea8f92",
+    "test_stage5_unc03_exact_sentinel_cleanup.py": "117f453e6a7f226021ba0bc4d5ef5a8da8fe26d563b5740da6f8341b82932af4",
+    "stage5_unc03_exact_sentinel_cleanup_v2.py": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4",
+    "test_stage5_unc03_exact_sentinel_cleanup_v2.py": "c96601fc1334706ed73124bc00de9e62281306f057d71383c279e42912396b33",
+    "STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION02.md": "3e133559e3d93e0c804459716710c34248bea8360df770d0e356879c92af5573"
+  },
+  "checks": [
+    {
+      "name": "test_stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.064s\n\nOK\n"
+    },
+    {
+      "name": "stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_EXACT_FAILED03_CLEANUP_NOT_RUN\", \"WSL_launches\": 0, \"UNC_effects\": 0, \"probe_success_claimed\": false}\n",
+      "stderr": ""
+    }
+  ],
+  "original_rejected_source_report": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_cleanup_original_blocked_source_review01.json",
+  "original_rejected_source_report_sha256": "065ce2b0953bb384738e18c290a0f3849ec9fc6291d680b1ffe3c19abd31989d",
+  "move_only_delta": true,
+  "all_original_function_ASTs_identical": true,
+  "prior_failed_and_diagnostic_scopes_closed": true,
+  "contracts": [
+    "Only exact nonce directory projected inode33554454/nlink2 and known116B inode33554461/nlink1 Linux leaf; absent windows.bin error2 and bounded exact entry listing mandatory",
+    "Unchanged U0664.tiny_read and typed full metadata/payload/hash rechecks before fixed leaf unlink and exact empty directory rmdir",
+    "Exclusive C binary backup with flush/fsync and metadata readback plus durable effect intents before either deletion; truthful partial-progress failure evidence",
+    "Same original WorkflowLock, direct authority/STOP/resource gates and unchanged retained U.windows_job root20s plus bounded full-Job drain; no WSL or science",
+    "Original unlock and closed lock stream plus durable unlock receipt precede successful owner result; unknown scope/unlock leaves STOP, no STOP removal",
+    "Single-master exclusive workflow required; fixed path rechecks do not claim kernel atomic compare-and-delete against arbitrary concurrent writers"
+  ],
+  "actual_requirements": [
+    "Root publishes source/peer and verifies remote exact bytes before actual cleanup",
+    "Fresh original workflow ownership and direct authority; previous scope closure/STOP absent; no concurrent science owner",
+    "Root explicitly maps actual linux.bin.backup116B despite suffix filtering and verifies remote SHA plus backup_metadata.json after actual operation",
+    "Independent actual source/target/backup/effect/retained closure/original unlock review; old UNC03 stays failed and separate accepted backing04 remains separate qualification"
+  ],
+  "checked_files": {
+    "review_stage5_unc03_exact_cleanup_v2_source01.py": {
+      "bytes": 7745,
+      "sha256": "31f1e81a799a3d5a7d3c7b347a85c0f2557b594e1261a501a2d26ad2bd532a4a"
+    },
+    "stage5_unc03_exact_sentinel_cleanup.py": {
+      "bytes": 20719,
+      "sha256": "7a485a908c6d200588d781bf7b26e65d9a51c5f3c5b41b4dea0e9761d1ea8f92"
+    },
+    "test_stage5_unc03_exact_sentinel_cleanup.py": {
+      "bytes": 10878,
+      "sha256": "117f453e6a7f226021ba0bc4d5ef5a8da8fe26d563b5740da6f8341b82932af4"
+    },
+    "stage5_unc03_exact_sentinel_cleanup_v2.py": {
+      "bytes": 20721,
+      "sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4"
+    },
+    "test_stage5_unc03_exact_sentinel_cleanup_v2.py": {
+      "bytes": 12061,
+      "sha256": "c96601fc1334706ed73124bc00de9e62281306f057d71383c279e42912396b33"
+    },
+    "STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION02.md": {
+      "bytes": 5454,
+      "sha256": "3e133559e3d93e0c804459716710c34248bea8360df770d0e356879c92af5573"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_unc03_failed_scope_independent_review01.json": {
+      "bytes": 6989,
+      "sha256": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd"
+    },
+    "stage5_unc03_diagnostic_actual01_independent_review.json": {
+      "bytes": 6776,
+      "sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f"
+    },
+    "stage5_unc03_diagnostic_actual01\\worker_result.json": {
+      "bytes": 10099,
+      "sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8"
+    },
+    "stage5_unc03_diagnostic_actual01\\result.json": {
+      "bytes": 5386,
+      "sha256": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0"
+    },
+    "stage5_unc_bind_actual_postiq_03\\lock_released.json": {
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    "stage5_unc_bind_actual_postiq_03\\request.json": {
+      "bytes": 2387,
+      "sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d"
+    },
+    "stage5_unc03_readonly_diagnostic.py": {
+      "bytes": 17705,
+      "sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697"
+    },
+    "stage5_unc03_exact_cleanup_original_blocked_source_review01.json": {
+      "bytes": 906,
+      "sha256": "065ce2b0953bb384738e18c290a0f3849ec9fc6291d680b1ffe3c19abd31989d"
+    }
+  }
+}

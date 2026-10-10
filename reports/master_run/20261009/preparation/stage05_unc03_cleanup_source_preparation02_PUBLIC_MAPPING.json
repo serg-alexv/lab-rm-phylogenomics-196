@@ -1,0 +1,78 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_PUBLIC_SOURCE_MAPPING_V2",
+  "state": "PASS_SOURCE_ONLY_V2_ORIGINAL_BLOCKED_PRESERVED_ACTUAL_NOT_RUN",
+  "file_count": 11,
+  "total_bytes": 100653,
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_sentinel_cleanup.py",
+      "repository_path": "scripts/master_run/stage5_unc03_exact_sentinel_cleanup.py",
+      "bytes": 20719,
+      "sha256": "7a485a908c6d200588d781bf7b26e65d9a51c5f3c5b41b4dea0e9761d1ea8f92"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_unc03_exact_sentinel_cleanup.py",
+      "repository_path": "scripts/master_run/test_stage5_unc03_exact_sentinel_cleanup.py",
+      "bytes": 10878,
+      "sha256": "117f453e6a7f226021ba0bc4d5ef5a8da8fe26d563b5740da6f8341b82932af4"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "repository_path": "scripts/master_run/stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "bytes": 20721,
+      "sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "repository_path": "scripts/master_run/test_stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "bytes": 12061,
+      "sha256": "c96601fc1334706ed73124bc00de9e62281306f057d71383c279e42912396b33"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_unc03_exact_cleanup_v2_source01.py",
+      "repository_path": "scripts/master_run/review_stage5_unc03_exact_cleanup_v2_source01.py",
+      "bytes": 7745,
+      "sha256": "31f1e81a799a3d5a7d3c7b347a85c0f2557b594e1261a501a2d26ad2bd532a4a"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION01.md",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION01.md",
+      "bytes": 4572,
+      "sha256": "4142aa2365c0ad15cf73e79471b1889d1156356931bd6fa18c6e8af684b3db70"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION02.md",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/STAGE05_UNC03_EXACT_SENTINEL_CLEANUP_PREPARATION02.md",
+      "bytes": 5454,
+      "sha256": "3e133559e3d93e0c804459716710c34248bea8360df770d0e356879c92af5573"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_cleanup_original_blocked_source_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/stage5_unc03_exact_cleanup_original_blocked_source_review01.json",
+      "bytes": 906,
+      "sha256": "065ce2b0953bb384738e18c290a0f3849ec9fc6291d680b1ffe3c19abd31989d"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_cleanup_v2_source_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/stage5_unc03_exact_cleanup_v2_source_independent_review01.json",
+      "bytes": 6445,
+      "sha256": "4fa88de92f22fb44f75342b06ae0df9e01238015fec246aa65629c8addfe3a8d"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_cold_v2_execution_readiness01.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/stage05_cold_v2_execution_readiness01.json",
+      "bytes": 8870,
+      "sha256": "0fc2f942cd2c9fcccd6b025167857c3163c833e5b27d5e6d69634523d4b18bc9"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_unc03_cleanup_source_preparation02\\PREPARATION_REPORT.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_cleanup_preparation02/PREPARATION_REPORT.json",
+      "bytes": 2282,
+      "sha256": "b6eaea209f5720f29dd5d7396fe03cad05fa9631a4b8dcb9e4f9c6f6da583f14"
+    }
+  ],
+  "actual_effects": false,
+  "required_actual_tiny_backup_explicit_mapping": "Map actual linux.bin.backup explicitly to reports/.../linux_sentinel_backup.bin irrespective suffix filter, verify bytes116/SHA4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5; also publish backup_metadata.json and honest effect/closure/unlock receipts",
+  "original_failed_probe_preserved": true,
+  "raw_VM_or_unallocated_bytes_publication": false
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "STAGE05_UNC03_CLEANUP_SOURCE_PREPARATION_V2",
+  "state": "PASS_SOURCE_ONLY_V2_ORIGINAL_REJECTED_PRESERVED_ACTUAL_NOT_RUN",
+  "adoptable_source": "stage5_unc03_exact_sentinel_cleanup_v2.py",
+  "adoptable_source_sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4",
+  "test_source_sha256": "c96601fc1334706ed73124bc00de9e62281306f057d71383c279e42912396b33",
+  "pure_fake_C_only_tests": 19,
+  "separate_default_NOOP": "PASS",
+  "original_blocker": "resources was defined after main guard; import/default NOOP did not exercise actual CLI reachability",
+  "v2_delta": "Move main guard to end only; all functions/semantics unchanged; new actual-CLI definition order and move-only byte/AST regressions PASS",
+  "original_blocked_report_sha256": "065ce2b0953bb384738e18c290a0f3849ec9fc6291d680b1ffe3c19abd31989d",
+  "independent_peer_sha256": "4fa88de92f22fb44f75342b06ae0df9e01238015fec246aa65629c8addfe3a8d",
+  "only_targets": [
+    "fixed backing nonce8ae35884653047348cfa688d4bf00b36/linux.bin116B inode33554461 nlink1",
+    "its fixed empty directoryinode33554454 nlink2"
+  ],
+  "original_lock_and_Job": "Unchanged A80 WorkflowLock and U0664.windows_job; original tiny_read unchanged; no WSL launch",
+  "backup": {
+    "fsync_and_exact_C_readback_before_both_effects": true,
+    "actual_backup_NOT_YET_CREATED": true,
+    "required_actual_public_mapping": "Map actual linux.bin.backup explicitly to reports/.../linux_sentinel_backup.bin irrespective suffix filter, verify bytes116/SHA4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5; also publish backup_metadata.json and honest effect/closure/unlock receipts",
+    "payload_public_basis": "Same exact public sentinel already preserved as payloadhex in original request7f28; no private VM or unallocated bytes"
+  },
+  "actual_actions": "NOT_RUN",
+  "original_failed_probe_state": "FAILED_PRESERVED",
+  "probe_success_claimed": false,
+  "scientific_adoption_authorized": false,
+  "root_only_next": "Publish/readback v2 packet, retain master exclusive authority and closed prior scopes, root runs one exact cleanup only after current science closes and independently reviews actual backup/effects/Job/unlock before result publication. No original image adoption or host eviction."
+}

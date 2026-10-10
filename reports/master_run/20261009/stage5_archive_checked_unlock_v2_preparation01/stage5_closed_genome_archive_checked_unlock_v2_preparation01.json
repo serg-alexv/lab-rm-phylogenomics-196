@@ -1,0 +1,81 @@
+{
+  "schema": "STAGE05_CLOSED_GENOME_ARCHIVE_CHECKED_UNLOCK_SOURCE_PREPARATION_V2",
+  "utc": "2026-10-10T03:31:44.295538+00:00",
+  "state": "FROZEN_V2_SOURCE_ONLY_PENDING_INDEPENDENT_PEER_AND_PUBLICATION",
+  "files": {
+    "stage5_closed_genome_archive_windows_checked_unlock_v2.py": {
+      "bytes": 21956,
+      "sha256": "f0d3456dbfd02fa46e127f9dc93f8da7083cd777380561031de8c565cde738e4"
+    },
+    "test_stage5_closed_genome_archive_checked_unlock_v2.py": {
+      "bytes": 14271,
+      "sha256": "1168dec604043aac0465c80c6420f9a81b2a388d6fb02f7528404ee2864d65d3"
+    },
+    "stage5_closed_genome_archive_checked_unlock_v2_METHODS.md": {
+      "bytes": 5503,
+      "sha256": "ffbdd37877d1397a8aa6eb669e73161063733bb0ba97aeda75e67a8c8f6144e5"
+    },
+    "stage5_closed_genome_archive_windows_checked_unlock.py": {
+      "bytes": 21353,
+      "sha256": "52f19e3367625f75ccdbf3232e1e1dcd204e1f329be8d61bd161dc629cfbe68f"
+    },
+    "stage5_closed_genome_archive_windows.py": {
+      "bytes": 17861,
+      "sha256": "249b9de14219d8c0a5f1e7e88e48f6c80694bd04699c7c3e506b50a0980fab45"
+    },
+    "stage5_closed_genome_archive_linux.py": {
+      "bytes": 20281,
+      "sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef"
+    },
+    "stage5_windows_owner.py": {
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    }
+  },
+  "original249b_and_checked_unlock52f_sources_preserved": true,
+  "checked_unlock52f_candidate_adoptable": false,
+  "checked_unlock52f_blocker": "Inherited lease calls original absent-STOP authority after writing its own STOP; actual archive NOT_RUN.",
+  "v2_literal_delta_from52f": "Add exact owned active STOP/current direct authority function and replace one lease authority call; original authority admission and original global owner untouched.",
+  "original_non_main_function_ASTs_unchanged": true,
+  "top_level_imports_constants_PINS_unchanged": true,
+  "Linux_archive_source_unchanged": true,
+  "biological_and_native_archive_semantics_unchanged": true,
+  "Windows_backing_alias_variant_needed": false,
+  "owned_STOP_lifetime": "Through retained native/WSL closure, lease/power finalizers, checked original unlock and durable/readback unlock receipt. Clear exact owned SHA+nonce only.",
+  "fresh_authority": "Before active STOP: original absent-STOP helper. During owned active STOP: exact SHA+nonce then same freshly read ACTIVE_DIRECT_USER_CONTINUATION/automatic_resume false control; foreign/changed/missing STOP rejects.",
+  "authored_tests": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "actual_Windows_default_NOOP": "PASS",
+    "fake_locks_and_own_C_temporary_files_only": true
+  },
+  "actual_archive": "NOT_RUN",
+  "actual_WSL_native_OS_lock_API": "NOT_RUN",
+  "actual_upload_restore_delete": "NOT_RUN",
+  "scientific_adoption_authorized": false
+}

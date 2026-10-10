@@ -1,0 +1,82 @@
+{
+  "schema": "STAGE05_CLOSED_GENOME_ARCHIVE_CHECKED_UNLOCK_SOURCE_PREPARATION_V1",
+  "utc": "2026-10-10T03:29:05.960377+00:00",
+  "state": "FROZEN_SOURCE_ONLY_PENDING_INDEPENDENT_PEER_AND_PUBLICATION",
+  "files": {
+    "stage5_closed_genome_archive_windows_checked_unlock.py": {
+      "bytes": 21353,
+      "sha256": "52f19e3367625f75ccdbf3232e1e1dcd204e1f329be8d61bd161dc629cfbe68f"
+    },
+    "test_stage5_closed_genome_archive_checked_unlock.py": {
+      "bytes": 10262,
+      "sha256": "94939969b37949e3efeb94892ec6f7996edf727529923ed1c7423c482c37839d"
+    },
+    "stage5_closed_genome_archive_checked_unlock_METHODS.md": {
+      "bytes": 4373,
+      "sha256": "74c573038ace377f563c29ed4955e205572ba3db0c0fdc97b6ef372b4daf1815"
+    },
+    "stage5_closed_genome_archive_windows.py": {
+      "bytes": 17861,
+      "sha256": "249b9de14219d8c0a5f1e7e88e48f6c80694bd04699c7c3e506b50a0980fab45"
+    },
+    "stage5_setup_cold_windows_v2.py": {
+      "bytes": 63296,
+      "sha256": "a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_windows_owner.py": {
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_closed_genome_archive_linux.py": {
+      "bytes": 20281,
+      "sha256": "f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef"
+    }
+  },
+  "original_non_main_function_ASTs_unchanged": true,
+  "top_level_imports_constants_PINS_unchanged": true,
+  "Linux_archive_source_unchanged": true,
+  "native_semantics_unchanged": true,
+  "Windows_backing_alias_variant_needed": false,
+  "imported_owner_attributes_used": [
+    "LOCAL_CLOSURE_STOP",
+    "fresh_authority"
+  ],
+  "source_delta": "Manual entry to same original lock plus outer-finally checked unlock/receipt before exact owned STOP clear; pending success state and one bounded distinct final-publication failure receipt.",
+  "authored_tests": {
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "actual_Windows_default_NOOP": "PASS",
+    "actual_runtime_API_import": "NOT_RUN",
+    "fake_locks_only": true
+  },
+  "actual_archive": "NOT_RUN",
+  "actual_WSL_native_OS_lock_API": "NOT_RUN",
+  "actual_upload_restore_delete": "NOT_RUN",
+  "scientific_adoption_authorized": false,
+  "root_next": "Peer review and publication/readback before actual admission of one genuinely complete raw checkpoint. Keep original source and every failed scope unchanged."
+}
