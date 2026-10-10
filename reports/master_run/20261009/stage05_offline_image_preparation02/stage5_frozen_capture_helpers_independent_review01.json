@@ -1,0 +1,141 @@
+{
+  "accepted_contracts": [
+    "Offline helper introduces no CLI, owner, lock acquisition, process, mount, network or eviction. Win32 signatures and GENERIC_READ/FILE_SHARE_READ/OPEN_EXISTING share mode are correctly declared in source.",
+    "Original WorkflowLock identity/types and continuous owner PID/birth/nonce are checked; current retained handle final path, disk type, single-link nonreparse identity and bytes are checked around reads.",
+    "Raw stream parts are <=448MiB, use bounded256KiB reads, exclusive creation, per-part offsets/size/SHA, exact EOF and full audited SHA; partial output is preserved on failure.",
+    "Raw-public predicate requires whole-image allocated and unallocated review, zero private or unknown bytes, full source byte count and SHA; this is a syntactic gate and cannot replace independently executed byte review.",
+    "Capture reuses published v2 owner/capture/contract helpers, checks fresh lease/current boot/original lock/proof/source pins, finite serial capture, actual RO mount, full inventory/public/notices gates and final controls/source drift.",
+    "Capacity counts regular data once, excludes duplicate hardlink content, adds controls and tar/compression reserve, and retains10GiB current disk reserve; self RSS is sampled rather than a kernel-enforced limit.",
+    "Public terminal contains state, counts, hashes and exception type; raw private inventory and matched bytes are not printed."
+  ],
+  "actual_operations": {
+    "capture": "NOT_RUN",
+    "cleanup": "NOT_RUN",
+    "cold_restore": "NOT_RUN",
+    "download": "NOT_RUN",
+    "eviction": "NOT_RUN",
+    "git_ref_change": "NOT_RUN",
+    "image_read": "NOT_RUN",
+    "inventory": "NOT_RUN",
+    "loop_detach": "NOT_RUN",
+    "mount": "NOT_RUN",
+    "native_fixture": "NOT_RUN",
+    "raw_split": "NOT_RUN",
+    "upload": "NOT_RUN",
+    "windows_image_handle": "NOT_RUN",
+    "wsl": "NOT_RUN"
+  },
+  "cleanup_authority": false,
+  "old_failures_preserved": true,
+  "remaining_actual_gates": [
+    "Existing-owner cold branch, exact phase/argv/deadline ledger and original native/WSL closure/finalizer integration.",
+    "Actual retained Windows deny-write/delete handle and cross-DrvFS write-veto fixture before crediting image writer exclusion.",
+    "Actual clean toolchain unmount/loop detach before handle; actual RO mount/all alias exclusion before logical inventory/capture.",
+    "Ubuntu VHDX raw read only after complete owned WSL/Linux closure and offline boundary.",
+    "Independent whole-file raw public review, or scoped logical full inventory/public/notices review as appropriate.",
+    "Actual remote upload, independent fresh full readback, exact reassembly, cold restore/build equivalence and recovery-backed eviction review."
+  ],
+  "reviewed_at_utc": "2026-10-10T01:46:37.209230+00:00",
+  "schema": "STAGE05_FROZEN_CAPTURE_HELPERS_INDEPENDENT_SOURCE_REVIEW_V1",
+  "scope": "Source reading, authored pure tests, Windows default NOOP, independent in-memory fake API and stream checks only.",
+  "shared_source_mutation": false,
+  "source_locations": {
+    "stage5_offline_image_read_parts.py": {
+      "__enter__": 113,
+      "__exit__": 137,
+      "__init__": 80,
+      "bind": 85,
+      "check": 91,
+      "identity": 100,
+      "image_identity": 61,
+      "need": 35,
+      "open_part": 210,
+      "owner_context": 44,
+      "partition_stream": 163,
+      "public_review": 147,
+      "read": 130,
+      "sha": 40,
+      "split_public_image": 189
+    },
+    "stage5_runtime_capture_entry.py": {
+      "admission": 119,
+      "capture_owner_binding": 48,
+      "digest": 35,
+      "load_inventory": 39,
+      "main": 77,
+      "need": 30,
+      "output_capacity": 55,
+      "remaining_disk_requirement": 71
+    },
+    "stage5_runtime_inventory_entry_v2.py": {
+      "admission": 133,
+      "control": 87,
+      "digest": 44,
+      "main": 105,
+      "need": 39,
+      "owner_binding": 48,
+      "source_module": 78,
+      "write_new": 99
+    }
+  },
+  "source_sha256": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_offline_image_read_parts.py": "4f5caa4c3067fbcce2bb517465522560322f6730615dd6bd078c91c58cff93ef",
+    "stage5_runtime_capture_entry.py": "8b7ad2beef7b8d7c9690203b27072cb305d46384be082c75d79b74f11c0f5c87",
+    "stage5_runtime_inventory_entry_v2.py": "dd3a68f0e1dc86399ca07f95a329f93b955e4e1b4082405a2cd72e8ee10f5363",
+    "stage5_runtime_logical_capture.py": "21b33abc389efe9bbfdcf8048737f2d7f10ce60b52d6e1c6f3678b24568b8220",
+    "stage5_runtime_recovery_contract.py": "daf48ea1c8cc96312519b1ab22f2d41216494773e5e345e3e5e0417139588bb6",
+    "test_stage5_offline_image_read_parts.py": "eb2ff5fdf811e9914567871857bda151eff4612fe5200564a7d121eb98f10c42",
+    "test_stage5_runtime_capture_entry.py": "9af09b537251abe8d6d60c234ed24f31dd5bf4779b1562c4028ff5000e178010"
+  },
+  "state": "BLOCKED_FOR_ACTUAL_ADOPTION_FROZEN_REVISIONS_PRESERVED",
+  "verification": {
+    "authored_pure_tests": {
+      "command": "python -B -m unittest test_stage5_offline_image_read_parts test_stage5_runtime_capture_entry",
+      "count": 13,
+      "state": "PASS"
+    },
+    "capture_windows_default_noop": "PASS_NO_OP_EXISTING_OWNER_COLD_FREEZE_AND_FULL_PUBLIC_REVIEW_REQUIRED",
+    "independent_positive_groups": [
+      "Fragmented one-byte reads preserve exact 4/4 boundary and ordered original stream/SHA.",
+      "Short local write rejected.",
+      "Four invalid size cases rejected, including bool.",
+      "Four invalid part caps rejected, including bool.",
+      "Remaining disk reserve stays at10GiB after capacity reached."
+    ],
+    "reproduced_source_findings": [
+      {
+        "blocker": true,
+        "evidence": "All seven numeric source_identity audit fields accept equal floats; links and attributes accept equal bools. The separate expected identity is strict, but audit copy is only compared using Python dict equality.",
+        "file": "stage5_offline_image_read_parts.py",
+        "function": "public_review",
+        "id": "RAW_REVIEW_IDENTITY_TYPES",
+        "minimal_change": "Strictly validate review.source_identity with image_identity and compare an immutable snapshot of expected identity."
+      },
+      {
+        "blocker": true,
+        "evidence": "Fake post-acquisition guard failure plus fake CloseHandle=False reaches original exception with self.handle=None; the unsuccessful close is neither checked nor retained. No actual native API was called.",
+        "file": "stage5_offline_image_read_parts.py",
+        "function": "ImageReadLease.__enter__",
+        "id": "RAW_FAILED_CLOSE_LOSES_HANDLE",
+        "minimal_change": "Check CloseHandle success before clearing handle; retain unresolved handle and explicit closure failure for the existing owner finalizer."
+      },
+      {
+        "blocker": true,
+        "evidence": "Pinned v2 binding accepts cold-proof windows_owner.pid77.0 against strict integer lease PID77 via ordinary dict equality. Capture inherits this path.",
+        "file": "stage5_runtime_inventory_entry_v2.py",
+        "function": "owner_binding",
+        "id": "CAPTURE_PROOF_OWNER_PID_TYPE",
+        "minimal_change": "Require exact windows_owner keys, strict positive int PID, exact string birth, then equality; publish separate corrected dependency and update capture pin rather than overwrite frozen source."
+      },
+      {
+        "blocker": "REQUIRES_SOURCE_FIX_OR_EXPLICIT_EXISTING_OWNER_COVERAGE",
+        "evidence": "Five controls may each be read up to64MiB; runtime/proof parsing and output_capacity manifest parsing occur before started, first admission, SIGALRM, try/finally and terminal result construction. Sampled512MiB/1800s claims currently apply only after preflight.",
+        "file": "stage5_runtime_capture_entry.py",
+        "function": "main",
+        "id": "CAPTURE_PREFLIGHT_OUTSIDE_LOCAL_LIMITS",
+        "minimal_change": "Cover complete preflight with initial fresh owner/resource admission, launch deadline and sanitized finalization, or explicitly bind and verify the existing owner whole-launch memory/time/terminal enforcement before adoption."
+      }
+    ]
+  }
+}

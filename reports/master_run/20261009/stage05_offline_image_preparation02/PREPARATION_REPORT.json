@@ -1,0 +1,65 @@
+{
+  "actual_operations": {
+    "cold_restore": false,
+    "delete_or_eviction": false,
+    "fresh_remote_download": false,
+    "full_runtime_inventory": false,
+    "image_mount_or_detach": false,
+    "image_payload_read": false,
+    "native_detector": false,
+    "original_toolchain_image_split": false,
+    "original_ubuntu_vhdx_split": false,
+    "production_curation": false,
+    "runtime_capture": false,
+    "sanitized_image_copy": false,
+    "upload_or_git_mutation": false,
+    "windows_image_handle_acquisition": false,
+    "workflow_lock_acquisition": false,
+    "wsl": false
+  },
+  "author_agent": "vm_recovery",
+  "authored_tests": {
+    "actual_limit_signal_or_handle_actions_in_tests": false,
+    "capture_v2_synthetic_mocked_tests": 8,
+    "inventory_v3_synthetic_tests": 7,
+    "raw_helper_v2_pure_tests": 9,
+    "state": "PASS",
+    "total": 24,
+    "windows_default_noop_capture_v2": "PASS",
+    "windows_default_noop_inventory_v3": "PASS"
+  },
+  "cleanup_authority": false,
+  "created_utc": "2026-10-10T01:53:21.092393+00:00",
+  "current_candidates": {
+    "stage5_offline_image_read_parts_v2.py": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151",
+    "stage5_runtime_capture_entry_v2.py": "e5f50eb7beb9297dce8e6a9e160ea1aef564bf0f08379dc73b839210f182bdf5",
+    "stage5_runtime_inventory_entry_v3.py": "dbfd181eaccd2db37857409c48a6ba6964c1db5154fd4d7e055058d18802e60e"
+  },
+  "existing_owner_integration": {
+    "normal_rw_and_one_command_predicates": "PRESERVE",
+    "original_linux_owner_unchanged": true,
+    "original_windows_owner_unchanged": true,
+    "priority": "First approved scientific genome closure and requested review before actual cold work",
+    "required_actual_fixture": "Current WSL-DrvFS write rejection through real retained Windows guard plus native/WSL/phase closure",
+    "required_branch": "Cold-only detach / retained Windows deny-write-delete guard / qualified RO loop and mount / one worker / RO detach / guard release / RW restore",
+    "state": "NOT_IMPLEMENTED_NOT_RUN"
+  },
+  "host_wipe_ready": false,
+  "independent_review": {
+    "corrected_revisions": "PENDING",
+    "earlier_inventory_v2_source_review": "SUPERSEDED_FOR_ACTUAL_ADOPTION_BY_STRICT_PROOF_OWNER_TYPE_FINDING",
+    "frozen_original_actual_adoption": "BLOCKED",
+    "frozen_original_review_sha256": "e3e2f5dfe5e612315e9ccc3f194375768334103f83a6e1c1a5b77d335c922b31"
+  },
+  "privacy": {
+    "derivative_copy_gate": "Record original and derivative identities, SHA and reviewed transformations; do not claim exact original recovery",
+    "literal_both_original_images_split": "PENDING_NOT_SATISFIED_BY_LOGICAL_ARCHIVES",
+    "primary": "Original public installed three-role logical archive plus independently reviewed OS/bootstrap and project recovery",
+    "private_copilot_raw_logs_or_inventory_matches_in_packet": false,
+    "raw_public_gate": "Actual complete whole-file review including allocated, unallocated and deleted state; regex or logical-root review alone never qualifies"
+  },
+  "publication_scope": "Public project source, tests, sanitized source reviews and methods only; no image/private payload",
+  "remote_recovery": "NOT_ESTABLISHED_BY_THIS_PACKET",
+  "schema": "STAGE05_OFFLINE_IMAGE_SOURCE_PREPARATION_REPORT_V2",
+  "state": "FROZEN_CORRECTED_SOURCE_PENDING_INDEPENDENT_REVIEW_AND_EXISTING_OWNER_INTEGRATION"
+}

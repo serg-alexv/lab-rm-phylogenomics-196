@@ -1,0 +1,53 @@
+{
+  "actual_operations": {
+    "config_change": "NOT_RUN",
+    "default_user_change": "NOT_RUN",
+    "git_ref_change": "NOT_RUN",
+    "mount": "NOT_RUN",
+    "native_process": "NOT_RUN",
+    "registry_mutation": "NOT_RUN",
+    "scientific_stage5": "NOT_RUN",
+    "sentinel_cleanup": "NOT_RUN",
+    "shutdown": "NOT_RUN",
+    "vm_payload": "NOT_RUN",
+    "wsl_invocation": "NOT_RUN"
+  },
+  "authored_pure_tests": {
+    "count": 9,
+    "state": "PASS"
+  },
+  "automatic_relaunch": false,
+  "cleanup_pins": {
+    "stage5_storage_actual_postiq_05.json": "47d23f11135f506d26892b40f1e0f684001970445cec1d166e69c6822578fc54",
+    "stage5_unc_bind_actual_postiq_02/lock_released.json": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373",
+    "stage5_unc_bind_actual_postiq_02/prepared.json": "e7cfad9a439e5aaf941ede965b0b599398e0c583ccb2a61d2293ad1005f85968",
+    "stage5_unc_bind_actual_postiq_02/request.json": "b32fceaaf4757d2bd59c44004f4cd3c8ac502441692e621c9c05c80f61908e1c",
+    "stage5_unc_bind_actual_postiq_02/result.json": "303b681dadbe15c0ad86aeb59dced95ff08028dd0b68c53f63dcae61fa3beacc",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "stage5_unc_config_actual_postboot_02.json": "862d6a0917cd2ba2917814dd2b0bba7e3359bf48852215b644050a6e5a47b1f5"
+  },
+  "config_after_bytes": 322,
+  "config_after_expected_sha256": "b1febda533fe47ff0245fd678328a8873591601e5761c05d25a0d401b22a548f",
+  "config_before_bytes": 321,
+  "config_before_sha256": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89",
+  "prepublication_correction": "Three config backup names use .txt suffix for the existing public publisher allowlist; no semantic action changes.",
+  "public_backup_members": [
+    "wsl.conf.before.txt",
+    "wsl.conf.after.expected.txt",
+    "wsl.conf.after.actual.txt",
+    "failed_unc02_public_backup.json"
+  ],
+  "schema": "STAGE05_WSL_CONFIG_OWNER_SOURCE_PREPARATION_V1",
+  "scientific_adoption_authorized": false,
+  "source_originals_unchanged": true,
+  "source_scope": "NONSCIENTIFIC_WSL_CONFIG_AND_CONTROLLED_SHUTDOWN_ONLY",
+  "source_sha256": {
+    "stage5_gdrive_view_session.py": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+    "stage5_wsl_config_before_repair01.txt": "4b3281aa269bf8e8ecc8224431f389aa7c1c967cea10b95f608a6e4a237dce89",
+    "stage5_wsl_config_owner.py": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd",
+    "stage5_wsl_config_owner_METHODS.md": "6c20be46a2b0f9e0fe38057114509dc078951b8f8f48894679ca78c8ac7651ea",
+    "test_stage5_wsl_config_owner.py": "aadb2741773f3542a31063b15d324a38dc6ddb63ccaa226a75c8440baf3fa9d3"
+  },
+  "state": "FROZEN_SOURCE_PENDING_INDEPENDENT_PEER_REVIEW",
+  "windows_default_noop": "PASS"
+}

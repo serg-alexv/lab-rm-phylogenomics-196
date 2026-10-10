@@ -1,0 +1,58 @@
+{
+  "schema": "STAGE05_RUNTIME_INVENTORY_ENTRY_V2_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_REVISED_SOURCE_AND_SYNTHETIC_BINDINGS_ACTUAL_INTEGRATION_NOT_RUN",
+  "utc": "2026-10-10T01:25:11.160018+00:00",
+  "source_sha256": "dd3a68f0e1dc86399ca07f95a329f93b955e4e1b4082405a2cd72e8ee10f5363",
+  "tests_sha256": "7537c4d775ecc72e9b61455bfee29d1aa2d58182de5956b07afd60a318a89a2a",
+  "original_blocked_source_sha256": "e2dd9237c8f37740d5f5f7b0bc1952c3659e0979d7d5d278b0113124c7748e56",
+  "original_source_preserved": true,
+  "supplied_tests_passed": 7,
+  "independent_synthetic_checks": [
+    "extra_original_lock_field",
+    "different_canonical_original_lock_path",
+    "integer_held_flag",
+    "wrong_cold_schema",
+    "missing_API_source",
+    "changed_both_owner_births_during_renewal",
+    "invalid_nonce_shape"
+  ],
+  "default_Windows_invocation": {
+    "exit_code": 0,
+    "state": "NO_OP_EXISTING_OWNER_AND_COLD_FREEZE_REQUIRED",
+    "WSL_invocations": 0
+  },
+  "all_four_dependency_pins_match": true,
+  "resolved_prior_findings": {
+    "both_None_or_arbitrary_lock_bypass_rejected": true,
+    "all_immutable_original_lock_keys_types_and_values_required": true,
+    "proof_windows_owner_PID_and_stringbirth_equal_current_lease_each_admission": true,
+    "continuous_owner_identity_cannot_drift": true,
+    "proof_boot_matches_current_Linux_boot": true,
+    "proof_worker_and_Windows_API_source_pins_required": true,
+    "final_self_source_runtime_coldproof_and_current_boot_rechecks": true
+  },
+  "retained_contracts": {
+    "exact_readonly_ext4_current_alias_check_before_and_after_inventory": true,
+    "pinned_capture_inventory_requires_writer_exclusion_attestations": true,
+    "finite_1800_second_deadline": true,
+    "sampled_self_RSS_limit_bytes": 536870912,
+    "current_Windows_reserve_plus_allocation_bytes": 2147483648,
+    "manifest_metadata_limit_bytes": 67108864,
+    "private_manifest_and_hold_namespace_publication_prohibited": true,
+    "public_summary_totals_codes_error_kind_only": true
+  },
+  "remaining_integration_requirements": [
+    "Root must separately prove actual retained original-lock ownership, relevant writer/job closure, backing writer exclusion and completed read-only freeze; Boolean proof fields alone are not those terminal receipts",
+    "Existing native/WSL/Windows owner must supervise and independently read actual worker/descendant closure and original unlock",
+    "512MiB remains a sampled selfRSS stop allocation, not an aggregate kernel cap or measured inventory requirement",
+    "No actual Linux RO fixture or production inventory ran in this review; root must publish accepted revisedsource and obtain these actual gates before adoption",
+    "Whole-file privacy/notices review, full archive capture, fresh remote payload readback, cold restoration and recovery acceptance remain required before eviction"
+  ],
+  "actual_Linux_RO_fixture": "NOT_RUN",
+  "actual_inventory": "NOT_RUN",
+  "actual_archive": "NOT_RUN",
+  "actual_cold_restore": "NOT_RUN",
+  "WSL_invoked_by_reviewer": false,
+  "cleanup_authority": false,
+  "host_wipe_ready": false
+}

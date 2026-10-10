@@ -1,0 +1,50 @@
+{
+  "schema": "STAGE05_RUNTIME_INVENTORY_ENTRY_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "BLOCKED_FOR_ACTUAL_ADOPTION_SOURCE_PREPARATION_ONLY",
+  "utc": "2026-10-10T01:19:49.743761+00:00",
+  "source_sha256": "e2dd9237c8f37740d5f5f7b0bc1952c3659e0979d7d5d278b0113124c7748e56",
+  "AST_parse": "PASS",
+  "source_or_runtime_worker_executed": false,
+  "synthetic_check": {
+    "real_pinned_check_lease_with_in_memory_read_mock_accepts_lease_without_workflow_lock_identity": true,
+    "inventory_v1_mutual_get_equality_accepts_both_missing_workflow_lock_values": true,
+    "native_or_WSL_calls": 0
+  },
+  "blockers": [
+    {
+      "priority": "P1",
+      "location": "admission workflow_lock equality",
+      "finding": "Mutual proof.get(workflow_lock)==lease.get(workflow_lock) accepts both missing/None or an identical arbitrary dict. P.check_lease does not validate original lock identity.",
+      "required_fix": "Require both witnesses match the exact canonical original lock path, volume2430728143, fileindex844424932784519, creation134359335921635133 and locked_byte0."
+    },
+    {
+      "priority": "P1",
+      "location": "cold proof current owner and boot binding",
+      "finding": "Proof nonce is compared, but proof owner PID/creation birth and current Linux boot are not required by this entry. The RO mount check validates current mount ID/device, not historical proof boot.",
+      "required_fix": "Bind proof owner PID and creation_filetime to the continuously checked lease and require proof boot_id equal current Linux kernel boot."
+    },
+    {
+      "priority": "P2",
+      "location": "final source and control readback",
+      "finding": "Final dependency hashes are checked, while the entry source/runtime/cold-proof control files are not reread against their externally supplied pins.",
+      "required_fix": "Add final entry SHA and exact runtime/cold-proof controls readback before PASS."
+    }
+  ],
+  "positive_findings": [
+    "Default no-op returns before Linux imports and writes",
+    "Actual worker requires Linux root and exact mounted-C source ancestry",
+    "Pinned capture source already requires exclusive-writer proof and an actually read-only ext4 mount plus aliases",
+    "Current lease/resource/deadline and sampledselfRSS checks exist",
+    "Raw manifest and hold paths remain within an explicitly private namespace; public output contains totals/reason codes/error kind only",
+    "No process spawning, mount/remount, signal-to-other-process, archive, or remote transfer implemented"
+  ],
+  "integration_obligations": [
+    "Existing original Windows owner must establish and independently record all writer closure/backing exclusion/freeze before invoking revisedworker",
+    "512MiB is a sampled selfRSS allocation, not an aggregate kernel memory cap",
+    "Existing owner remains responsible for retained worker/native/WSL closure and original unlock",
+    "Entire private inventory namespace remains excluded from publication until whole-file content/notices review"
+  ],
+  "actual_inventory": "NOT_RUN",
+  "actual_archive": "NOT_RUN",
+  "cleanup_authority": false
+}

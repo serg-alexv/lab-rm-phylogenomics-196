@@ -1,0 +1,21 @@
+# Controlled WSL configuration preparation
+
+This separately named default-NOOP variant reuses the frozen G-session framework at SHA25642db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8. It uses the same native Windows API, original WorkflowLock, owner lease, Linux Supervisor, exact WSL session-parent gate and retained Windows process birth/exit checks. The original framework, scientific sources, old closed failures and toolchain05 evidence are unchanged.
+
+The actual Linux root worker must prove its current old boot and toolchain05 pins. It validates the321B public preimage and copies original/expected configuration bytes to its C spool with fsync. Before configuration mutation, it checks the exact storage05 bind and recovers only the failed UNC02 nonce29dd9c67cd0e4dc9b82fe5529d3a6210. The sentinel directory must retain device2096/inode33554545/root0700; membership must be linux.bin plus optional windows.bin. Unchanged U0664 tiny_read, exact original prepared Linux metadata and exact request payloads are mandatory for every leaf. Unknown membership, changed identity or bytes stops before any deletion. A full fsynced C JSON backup retains known public payload hex and actual UID/GID/mode/device/inode. Only rechecked known leaves are unlinked; the exact empty nonce directory is removed and the backing directory fsynced and proved empty. Original UNC02 result remains FAILED and all pinned prior receipts are preserved.
+
+The worker replaces only [boot]systemd=true with systemd=false and [user]default=gns3 with default=root. All other bytes remain identical. It stages an exclusive root-owned file in /etc, preserves original UID/GID/mode, fsyncs, rechecks the original metadata/bytes and owner/namespace, uses atomic replace, fsyncs /etc, and saves exact actual readback to C. It creates no Linux child command. A partial staging file or partial authorized cleanup is preserved with backup/effect records on failure.
+
+Under the same retained original lock, the Windows owner requires Linux terminal PASS, no Linux children and positive retained client exit0 before proceeding. It then runs only these fixed maintenance commands, each with retained birth/positive exit0 and finite timeout:
+
+1. wsl.exe --manage Ubuntu --set-default-user root (30s).
+2. wsl.exe --shutdown (60s).
+3. wsl.exe --list --running --quiet (20s), requiring bounded decoded empty output.
+
+Exact Ubuntu UUID, version2, BasePath and Flags15 must remain stable; DefaultUid must change1000 to0. Read-only retained PowerShell census runs before Linux, before manage and after shutdown, excludes only the current native owner and its own census process, emits no raw command lines, rejects project/native scientific jobs or resume helpers and requires all18unique LAB_RM tasks Disabled. Actual Codex ChatGPT.exe is not classified as a scientific owner.
+
+The whole owner admits current Windows physical/commit reserve>=1879048192 bytes and all selected volume free space>=10GiB on every lease update, with a300s owner deadline. Linux has90s and a110s retained client limit. Native command output is bounded. A timed-out retained child receives a final bounded15s wait; no unverified process kill or WSL relaunch occurs. Any unproved current owned closure preserves the exact own STOP. Closed operational failures remain FAILED with effects and backups preserved. The original byte lock is explicitly released and recorded.
+
+After shutdown, only registry, Windows G authority/source checks, census and the non-launching running-list query occur. There is no automatic Linux relaunch. Every boot-sensitive toolchain, interop, G, storage, UNC and runtime gate requires new actual evidence before Stage5 scientific work. A successful source review is not actual reconfiguration or cleanup.
+
+Nine pure tests cover exact transformation/unchanged bytes, wrong section and preimage refusal, default NOOP, Linux argv path shape on Windows, strict registry UID/types/identity, bounded running-list decoding and fixed commands, current-owner/task census predicates, exact optional known sentinel recovery versus unknown/changed membership/identity/bytes, and zero-child terminal/exit contracts. No actual WSL, native API, configuration, mount, file deletion or VM action ran during source preparation.

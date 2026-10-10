@@ -1,0 +1,197 @@
+{
+  "actual_states": {
+    "actual_RLIMIT_AS_application": "NOT_RUN",
+    "cold_owner_integration": "NOT_IMPLEMENTED_NOT_RUN",
+    "cross_DrvFS_writer_exclusion": "NOT_RUN",
+    "image_handle_acquisition": "NOT_RUN",
+    "installed_runtime_inventory": "NOT_RUN",
+    "literal_both_images_split": "NOT_RUN",
+    "public_image_review": "NOT_RUN",
+    "upload_readback_restore_eviction": "NOT_RUN"
+  },
+  "additional_focused_checks": [
+    "Synthetic ImageReadLease.__enter__: post-open identity failure plus failed CloseHandle raises ImageHandleClosureFailure retaining exact original lease/handle; successful later close clears it.",
+    "Mocked RLIMIT_AS: unbounded/sufficient limit becomes512MiB with exact readback; smaller inherited soft limit rejects without setting/raising limits.",
+    "All19 mapping file SHA/length checks and Python compilation passed."
+  ],
+  "authored_tests_independently_run": {
+    "capture_v2": {
+      "exit_code": 0,
+      "tests": 8
+    },
+    "inventory_v3": {
+      "exit_code": 0,
+      "tests": 7
+    },
+    "raw_parts_v2": {
+      "exit_code": 0,
+      "tests": 9
+    }
+  },
+  "findings": [
+    "Both source image identity and audit-copy identity pass exact int-type validation before equality; float/bool aliases reject.",
+    "Proof windows_owner requires exact pid/creation_filetime keys/types and current lease owner continuity; reproduced float-owner gap is closed.",
+    "CloseHandle evidence remains strongly retained on both __enter__ and __exit__ failure paths; actual owner must retain that exception/lease and durable STOP until closure.",
+    "Capture control/source preflight is inside the result/try/alarm coverage, with RLIMIT_AS set/read back before large reads, inter-read fresh lease/resource admission, bounded sizes and a finally terminal receipt.",
+    "The alarm is cancelled during final terminal writing; full startup/finalizer deadline/terminal failure and descendant/handle/restore lifecycle must remain covered by the existing outer owner.",
+    "Inventory initial control preflight still relies on its existing outer owner for full-launch finite allocation/deadline; this remaining boundary is documented rather than presented as actual integration."
+  ],
+  "frozen_files": [
+    {
+      "bytes": 12046,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry_v2.py",
+      "repository_path": "scripts/master_run/stage5_runtime_inventory_entry_v2.py",
+      "sha256": "dd3a68f0e1dc86399ca07f95a329f93b955e4e1b4082405a2cd72e8ee10f5363"
+    },
+    {
+      "bytes": 4731,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_inventory_entry_v2.py",
+      "repository_path": "scripts/master_run/test_stage5_runtime_inventory_entry_v2.py",
+      "sha256": "7537c4d775ecc72e9b61455bfee29d1aa2d58182de5956b07afd60a318a89a2a"
+    },
+    {
+      "bytes": 3106,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry_v2_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/stage5_runtime_inventory_entry_v2_independent_review01.json",
+      "sha256": "8d57fd612967de062acd0ba57c5cff38f45de2cf7078d765a5156e4c07cc1bd1"
+    },
+    {
+      "bytes": 3110,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/stage5_runtime_inventory_entry_independent_review01.json",
+      "sha256": "39a3b8bcd6366444a8cb875ceb0b3dc3892db4a6fe2ecea2e22cfe5832488d74"
+    },
+    {
+      "bytes": 5971,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_RUNTIME_INVENTORY_OWNER_INTEGRATION_V2.md",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/STAGE05_RUNTIME_INVENTORY_OWNER_INTEGRATION_V2.md",
+      "sha256": "d9a14379e64aa79e1d9d33d3404d603ed58f94d9b9d389177527507b7ba50a4c"
+    },
+    {
+      "bytes": 13599,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_offline_image_read_parts.py",
+      "repository_path": "scripts/master_run/stage5_offline_image_read_parts.py",
+      "sha256": "4f5caa4c3067fbcce2bb517465522560322f6730615dd6bd078c91c58cff93ef"
+    },
+    {
+      "bytes": 5250,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_offline_image_read_parts.py",
+      "repository_path": "scripts/master_run/test_stage5_offline_image_read_parts.py",
+      "sha256": "eb2ff5fdf811e9914567871857bda151eff4612fe5200564a7d121eb98f10c42"
+    },
+    {
+      "bytes": 10904,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_capture_entry.py",
+      "repository_path": "scripts/master_run/stage5_runtime_capture_entry.py",
+      "sha256": "8b7ad2beef7b8d7c9690203b27072cb305d46384be082c75d79b74f11c0f5c87"
+    },
+    {
+      "bytes": 3740,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_capture_entry.py",
+      "repository_path": "scripts/master_run/test_stage5_runtime_capture_entry.py",
+      "sha256": "9af09b537251abe8d6d60c234ed24f31dd5bf4779b1562c4028ff5000e178010"
+    },
+    {
+      "bytes": 8154,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_frozen_capture_helpers_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/stage5_frozen_capture_helpers_independent_review01.json",
+      "sha256": "e3e2f5dfe5e612315e9ccc3f194375768334103f83a6e1c1a5b77d335c922b31"
+    },
+    {
+      "bytes": 14374,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_offline_image_read_parts_v2.py",
+      "repository_path": "scripts/master_run/stage5_offline_image_read_parts_v2.py",
+      "sha256": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151"
+    },
+    {
+      "bytes": 6441,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_offline_image_read_parts_v2.py",
+      "repository_path": "scripts/master_run/test_stage5_offline_image_read_parts_v2.py",
+      "sha256": "29d2b820a2abab8caa6f6d223a34ef99bfb5b4827d2c9e99c6255679eed53bfd"
+    },
+    {
+      "bytes": 12230,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_inventory_entry_v3.py",
+      "repository_path": "scripts/master_run/stage5_runtime_inventory_entry_v3.py",
+      "sha256": "dbfd181eaccd2db37857409c48a6ba6964c1db5154fd4d7e055058d18802e60e"
+    },
+    {
+      "bytes": 4906,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_inventory_entry_v3.py",
+      "repository_path": "scripts/master_run/test_stage5_runtime_inventory_entry_v3.py",
+      "sha256": "3fb848814c625140278922df22a8c4b1034a428c78bd4ae2281224510ca32471"
+    },
+    {
+      "bytes": 12384,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_capture_entry_v2.py",
+      "repository_path": "scripts/master_run/stage5_runtime_capture_entry_v2.py",
+      "sha256": "e5f50eb7beb9297dce8e6a9e160ea1aef564bf0f08379dc73b839210f182bdf5"
+    },
+    {
+      "bytes": 7048,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_capture_entry_v2.py",
+      "repository_path": "scripts/master_run/test_stage5_runtime_capture_entry_v2.py",
+      "sha256": "d97729d4f73bb126d836a4db34f781782204f93fbb1b8ed4cd46cdf48afb017c"
+    },
+    {
+      "bytes": 17585,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_OFFLINE_IMAGE_SPLIT_EXISTING_OWNER_ROUTE01.md",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/STAGE05_OFFLINE_IMAGE_SPLIT_EXISTING_OWNER_ROUTE01.md",
+      "sha256": "d19c702a6a9437997004a965dc6681881d59b39c1a69e5a55968abb4809bdf55"
+    },
+    {
+      "bytes": 6767,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_OFFLINE_IMAGE_PREPARATION_CORRECTIONS02.md",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/STAGE05_OFFLINE_IMAGE_PREPARATION_CORRECTIONS02.md",
+      "sha256": "296614477ae60448c86688c57fab0f27ca04f12566d11b397e7dee51db9af7a7"
+    },
+    {
+      "bytes": 3364,
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_offline_image_source_preparation02\\PREPARATION_REPORT.json",
+      "repository_path": "reports/master_run/20261009/stage05_offline_image_preparation02/PREPARATION_REPORT.json",
+      "sha256": "70938909da2947da2d0bdb78498edb57697e62661b63489c07d542bcbb92e964"
+    }
+  ],
+  "mapping": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_offline_image_source_preparation02\\PUBLIC_MAPPING.json",
+    "sha256": "51c15a85cda8607caaea0b8b1a7842832f3a94b91f1eadbdf2f6340e1163d7c2",
+    "verified_files": 19
+  },
+  "noops": [
+    {
+      "exit_code": 0,
+      "source": "stage5_runtime_inventory_entry_v3.py",
+      "stderr_bytes": 0,
+      "stdout": "{\"state\": \"NO_OP_EXISTING_OWNER_AND_COLD_FREEZE_REQUIRED\"}"
+    },
+    {
+      "exit_code": 0,
+      "source": "stage5_runtime_capture_entry_v2.py",
+      "stderr_bytes": 0,
+      "stdout": "{\"state\": \"NO_OP_EXISTING_OWNER_COLD_FREEZE_AND_FULL_PUBLIC_REVIEW_REQUIRED\"}"
+    },
+    {
+      "exit_code": 0,
+      "source": "stage5_offline_image_read_parts_v2.py",
+      "stderr_bytes": 0,
+      "stdout": ""
+    }
+  ],
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "actual_WSL_UNC_image_calls": 0,
+    "private_namespace_reads": 0,
+    "real_native_image_handles": 0,
+    "source_edits": 0,
+    "workflow_lock_acquisitions": 0
+  },
+  "review_boundary": "Only the four reproduced correction areas reviewed; source readiness is not operational or public-image authorization.",
+  "schema": "STAGE05_OFFLINE_IMAGE_CORRECTED_FROZEN_SOURCE_INDEPENDENT_REVIEW_V1",
+  "source_pins": {
+    "stage5_offline_image_read_parts_v2.py": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151",
+    "stage5_runtime_capture_entry_v2.py": "e5f50eb7beb9297dce8e6a9e160ea1aef564bf0f08379dc73b839210f182bdf5",
+    "stage5_runtime_inventory_entry_v3.py": "dbfd181eaccd2db37857409c48a6ba6964c1db5154fd4d7e055058d18802e60e"
+  },
+  "state": "PASS_SCOPED_CORRECTIONS_SOURCE_AND_SYNTHETIC_CHECKS_ACTUAL_INTEGRATION_NOT_RUN",
+  "utc": "2026-10-10T01:58:16.543702+00:00"
+}
