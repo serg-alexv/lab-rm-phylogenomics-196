@@ -1,0 +1,120 @@
+{
+  "schema": "STAGE05_STORAGE_PREPARED_RECOVERY_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_SOURCE_ONLY_PRESERVED_PREPARED_BACKING_RECOVERY_PAIR_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T04:55:07.484051+00:00",
+  "reviewer_source_sha256": "d209fd72f0b902bd5c262485375b93dceec899bfef0e0dd1e13e92ad5f2e3eaa",
+  "source_sha256": "bdc7b95781950be54bd339c483f31bb8462b5b41ad76bbe21bb5fe37ccdcb7fa",
+  "linux_source_sha256": "edac2a12a8b1a72d2224264ad4913a79677168dc233ca796c733112b8e32fd8a",
+  "focused_pure_and_fault_tests": 11,
+  "both_actual_main_default_NOOP": "PASS",
+  "independent_actual_C_closed_baseline_read": "PASS_28_FILES_NO_WSL_OR_UNC_READ",
+  "original_standalone_AST_deltas": {
+    "linux": [
+      "main",
+      "toolchain_observe",
+      "verified_toolchain"
+    ],
+    "windows": [
+      "main",
+      "exact_preexec_failure"
+    ]
+  },
+  "preserved_scientific_identity_and_execution_freeze": true,
+  "full_backing_members": 52,
+  "accession_members": 50,
+  "guards": "Exact actual closed peer/snapshot/source pins; fresh Linux UUID/inode/full membership and regular-byte hashes before admission, immediately before one unchanged bind, and after; projected old Windows UID/GID/mode never treated as POSIX truth; fresh Linux metadata recorded. Original supervisor/native single-command/retained-client closure/resource/lock/authority guards retained. Checked unlock and read-back receipt precede exact owned STOP clear and PASS.",
+  "limitations": [
+    "Actual fresh prepared-storage recovery and future UNC visibility have not run. Dedicated actual C reader and builder adapter required.",
+    "Metadata/hash comparison relies on the single authorized original workflow lock and exact topology; no atomic snapshot guarantee against arbitrary external concurrent writers.",
+    "Complete closed-scope Linux/retained Windows evidence and candidate proof required after actual bind; no detector or scientific adoption authorized."
+  ],
+  "blockers": [],
+  "actual_operations": "NOT_RUN",
+  "scientific_adoption": false,
+  "checked_files": {
+    "stage5_setup_storage_recovery_linux.py": {
+      "bytes": 27124,
+      "sha256": "edac2a12a8b1a72d2224264ad4913a79677168dc233ca796c733112b8e32fd8a"
+    },
+    "stage5_setup_storage_recovery_windows.py": {
+      "bytes": 40729,
+      "sha256": "bdc7b95781950be54bd339c483f31bb8462b5b41ad76bbe21bb5fe37ccdcb7fa"
+    },
+    "test_stage5_setup_storage_recovery.py": {
+      "bytes": 8200,
+      "sha256": "00c8f5c19b37f14238fe106a8b04c9eecd12ae30a6de5f5b99748ae87cc92a79"
+    },
+    "STAGE05_STORAGE_PREPARED_RECOVERY_SOURCE01.md": {
+      "bytes": 6837,
+      "sha256": "ae6fd9fd30831b85211145d73ea1383f4df3f1199e09b5adc01671f474c402f1"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_first_capacity02_closed_independent_review.json": {
+      "bytes": 43829,
+      "sha256": "e7cb6737c50e35c3119fe443d820b77174b2e0b8f3560c5303837b95e42ac2e9"
+    },
+    "stage5_capacity02_closed_native_copy\\snapshot.json": {
+      "bytes": 29856,
+      "sha256": "451c91caaf07d441452c4fccfaf3dfab5c488ee2b8b9988ee35cb0ceb9ac0f51"
+    },
+    "stage5_storage_prepared_recovery_source_preparation01.json": {
+      "bytes": 1315,
+      "sha256": "5142f6494137f6ef4eba5497efa473027c172df54b95a97fb57b0d0f83d8c116"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    "stage5_drivefs_filesystem_smoke.py": {
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "observe_iqtree_controller_exit.py": {
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "stage5_gdrive_view_postprofile.py": {
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    },
+    "copy_stage5_capacity02_closed_evidence.py": {
+      "bytes": 4072,
+      "sha256": "326156db364d49d8216678144d1cc1f2e939a0e9e89801fadfe5aa2a699ee2a5"
+    },
+    "review_stage5_storage_prepared_recovery_source01.py": {
+      "bytes": 5928,
+      "sha256": "d209fd72f0b902bd5c262485375b93dceec899bfef0e0dd1e13e92ad5f2e3eaa"
+    }
+  }
+}

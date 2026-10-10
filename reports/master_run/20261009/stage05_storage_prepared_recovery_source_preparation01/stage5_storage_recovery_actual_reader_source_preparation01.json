@@ -1,0 +1,26 @@
+{
+  "actual_main_default_noop": "PASS",
+  "actual_review": "NOT_RUN",
+  "actual_storage_recovery": "NOT_RUN",
+  "files": {
+    "STAGE05_STORAGE_RECOVERY_ACTUAL_READER_SOURCE01.md": {
+      "bytes": 3278,
+      "sha256": "714af17e4ae126dfeb9937f6fe89fd0e77ab547e9ea10b0ab00fbd0fc0309081"
+    },
+    "review_stage5_storage_recovery_actual.py": {
+      "bytes": 15106,
+      "sha256": "e7788e03c3e4b269c1aa0582973d003f728988bed1297ba18963d542885e824c"
+    },
+    "test_review_stage5_storage_recovery_actual.py": {
+      "bytes": 5060,
+      "sha256": "cbf657fafa31f7f72ce94b035d44dae22b13aee1a69eedb24d3932865d053d78"
+    }
+  },
+  "finalizer_evidence_guards": "No finalizer/publication error or publication_failure; leaseUTC<=unlockUTC<=finalResultUTC",
+  "original_generic_reader_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "producer_source_review_sha256": "d395278a500c49ba4e0c545a017229b419e2b8e3d49eb07edecbf5275245d76f",
+  "pure_synthetic_tests": 8,
+  "scientific_adoption": false,
+  "state": "PASS_SOURCE_PREPARATION_ONLY_ACTUAL_STORAGE07_READBACK_NOT_RUN",
+  "tests_state": "PASS"
+}

@@ -1,3 +1,7 @@
+# Current request: local five-marker pilot
+
+PREPARED_NOT_RUN. Latest direct user instruction selects five existing validated core-marker FASTAs, runs the exact attached Bash script with PILOT_ONLY=1, and requires confirmation before full execution. See [pilot report](reports/stage01/local_pilot_20261010/README.md). Prior accepted Stage4 results are preserved. Stage5 native detectors remain not run.
+
 # Current execution status
 
 Updated 2026-10-10T04:51:42.220278+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.

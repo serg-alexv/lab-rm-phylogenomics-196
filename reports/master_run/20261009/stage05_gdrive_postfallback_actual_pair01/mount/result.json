@@ -1,0 +1,169 @@
+{
+  "schema": "STAGE05_GDRIVE_WINDOWS_OWNER_RESULT_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "state": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
+  "source_sha256": "a5efd24a17655324b8a03d13bf74e06f77195cb401ca9db8a3f73f94e1ab8ada",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+  },
+  "prior_pins": {
+    "stage5_setup_storage_actual_postiq_02/result.json": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3",
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1",
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74",
+    "stage5_setup_toolchain_actual_postiq_04/result.json": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4",
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2",
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+  },
+  "owner_nonce": "ad99a345eaef43bcb2f3a001407f67fb",
+  "actual_owner": {
+    "pid": 3196,
+    "creation_filetime": 134360816043350331,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "allow_mount": true,
+  "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+  "historical_boot_id_preserved": "64d6e318-170c-4bef-9538-90fd218881af",
+  "fresh_toolchain_pins": {
+    "stage5_setup_toolchain_actual_postiq_08/result.json": "529aa5d7da139d05401a346cd0c9590b15663cff734c7b5e53d6ffc1a27ef18e",
+    "stage5_setup_toolchain_actual_postiq_08/lock_released.json": "5b1609c2358d545ccb722cb628e84d1d8a5d14689509cc96f1e86978180eb722",
+    "stage5_setup_toolchain_actual_postiq_08/toolchain_proof.json": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf",
+    "stage5_setup_toolchain_actual_postiq_08/linux_terminal.json": "e464c34841cc40d1c7c83bd3155fd5b6b141d39ad47e2139418ed2f1ac2fa89c",
+    "stage5_setup_toolchain_actual_postiq_08/wsl_exit.json": "eef446dfe5a0b40f32e6102ba6b879307017bd75d69791d5c9323300296b4241",
+    "stage5_toolchain08_postfallback_independent_review.json": "af62d67c86aa3cfa42a1b24dd82ee2fc4aaa3ce7ae876aadd8a1fe60d078a742"
+  },
+  "fresh_toolchain_proof": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_08\\toolchain_proof.json",
+  "fresh_toolchain_proof_sha256": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf",
+  "scientific_adoption_authorized": false,
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 4,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 4
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "windows_before": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T04:53:25.848929+00:00",
+    "physical_available_bytes": 3958235136,
+    "commit_headroom_bytes": 4337963008,
+    "commit_total_bytes": 17668812800,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233412034560,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_ca29c7355cb04f82985b015e303bb249": 245696880640
+    }
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_postfallback_checked_unlock.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_ca29c7355cb04f82985b015e303bb249/request.json",
+    "--request-sha256",
+    "c62f9ea98316b77433bd7f9122384cdb3e90552deb3fc3ee0b3ee5e24a869029"
+  ],
+  "command_receipts": [
+    {
+      "label": "gdrive",
+      "launch_sha256": "850e4532089f736b859f4cbcdb4d49fde1dce7c5310d52b02e4e22a341961105",
+      "closure_sha256": "68dbe2433a7f3cc7c260a9b0849fdf134302732a5aa18cecbd33fbb57da61f81",
+      "command_sha256": "f952d470c490a9a4bcd501eea98d122579df27c959ce37cdd60d91ea5cb5dbae"
+    }
+  ],
+  "linux_terminal_sha256": "97fb718ee2f092cb57c30b6ceb7f675bee1515e6bb9517009129beccb0206910",
+  "linux_state": "PASS_EXACT_WINDOWS_LINUX_G_CONTROL_BYTES_AND_EMPTY_UNDERLAY",
+  "windows_after": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "owned_closure_proven": true,
+  "retained_client_terminal": {
+    "pid": 24788,
+    "creation_filetime": 134360816046654093,
+    "exit_filetime": 134360816058624765,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "log_hash_scope": "CLOSED_FULL_LOGS",
+  "elapsed_seconds": 1.9210000000002765,
+  "utc": "2026-10-10T04:53:26.435632+00:00",
+  "wsl.stdout.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "wsl.stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "retained_client_handle_closed": true,
+  "lock_release_receipt_sha256": "0e1f4403f0c10b3847bf7479a1d2e781c0b50d04ba4a08269c467f0724e18168",
+  "original_lock_explicitly_released": true,
+  "original_unlock_receipt_proven": true,
+  "owned_stop_cleared_after_unlock": true,
+  "unknown_closure_stop_preserved": false
+}

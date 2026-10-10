@@ -1,0 +1,53 @@
+{
+  "schema": "MASTER_TRANSPORT30_EXACT_CLEANUP_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_SOURCE_ONLY_EXACT30_RETAINED_HANDLE_CLEANUP_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T05:01:53.171166+00:00",
+  "reviewer_source_sha256": "a1efcb07d25688dc132ad85728b2cbfafd6209ceec59a7d8c9b502e062f9dea1",
+  "source_sha256": "9c3752316a2c9a7e585d7328c1bb7618e3b12dedbeb212f30bc378375d84aaa7",
+  "focused_pure_fake_tests": 14,
+  "actual_main_default_NOOP": "PASS",
+  "candidate_files": 30,
+  "candidate_logical_bytes": 2048507163,
+  "blockers": [],
+  "guards": "Exactly fixed ZIP/sidecar leaves and dated full-recovery/current saved asset metadata; original single WorkflowLock; deny-delete ancestor handles plus all30 exclusive retained leaf identities and SHA256 before first effect; durable per-leaf intent/disposition/checked close/exact error2 absence evidence; failed handles/effects retained; original checked unlock/readback precedes exact owned STOP clear and final PASS.",
+  "adoption_requirements": [
+    "Root must publish/read back exact source and peer, reconcile current remote asset/tag metadata with immutable dated evidence, and hold the original exclusive workflow lock with no active scientific owner.",
+    "Actual native identity/sharing compatibility is untested; any mismatch must refuse without effects. Review actual per-leaf effects/close/absence, final original unlock and complete closed scope before reporting reclamation."
+  ],
+  "limitations": [
+    "180s sampled monotonic checks and4MiB buffers bound observer work between synchronous Win32 calls; no kernel hard timeout is claimed.",
+    "No installed package/runtime, image, scientific artifact, directory, process, WSL or Git mutation is authorized by this fixed cleanup source. No actual delete or physical reclamation occurred in this review."
+  ],
+  "actual_native_handles_or_cleanup": "NOT_RUN",
+  "scientific_adoption": false,
+  "checked_files": {
+    "cleanup_transport30_windows.py": {
+      "bytes": 19154,
+      "sha256": "9c3752316a2c9a7e585d7328c1bb7618e3b12dedbeb212f30bc378375d84aaa7"
+    },
+    "test_cleanup_transport30_windows.py": {
+      "bytes": 10017,
+      "sha256": "899b03c212e302565a8a8243b13ce7450ec844c811f49952b809a70539a5daa8"
+    },
+    "TRANSPORT30_EXACT_RETAINED_CLEANUP_SOURCE01.md": {
+      "bytes": 6505,
+      "sha256": "e76bcd77722318eee54956b53517959e2897af42e76977ef4cfd4f3f05e6d909"
+    },
+    "transport30_current_requalification01.json": {
+      "bytes": 107817,
+      "sha256": "f3d4b7eaafbf59ace779ab0ab187551e2013774793b441251dcc1894baa8d952"
+    },
+    "transport30_current_remote_metadata01.json": {
+      "bytes": 10927,
+      "sha256": "7ac947dc70dc64bcd301a72e702ff2e9ce1cef08d6e596e2fd5f7e042c2668e2"
+    },
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "review_transport30_exact_cleanup_source01.py": {
+      "bytes": 5235,
+      "sha256": "a1efcb07d25688dc132ad85728b2cbfafd6209ceec59a7d8c9b502e062f9dea1"
+    }
+  }
+}

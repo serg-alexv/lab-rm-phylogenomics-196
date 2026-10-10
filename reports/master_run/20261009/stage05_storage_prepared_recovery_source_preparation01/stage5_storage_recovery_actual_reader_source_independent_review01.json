@@ -1,0 +1,73 @@
+{
+  "schema": "STAGE05_STORAGE_RECOVERY_ACTUAL_READER_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_SOURCE_ONLY_STORAGE_ACTUAL_READER_ORIGINAL_CLOSURE_AND_FULL_PRESERVATION_JOINS",
+  "utc": "2026-10-10T05:00:19.221246+00:00",
+  "reviewer_source_sha256": "d14e3bf8d2f78569537c3a117b0ed99e46d0be3cfbce00c83bcf3a6868a9ffee",
+  "source_sha256": "e7788e03c3e4b269c1aa0582973d003f728988bed1297ba18963d542885e824c",
+  "focused_pure_tests": 8,
+  "independent_finalization_cases": [
+    {
+      "case": "positive",
+      "expected": "PASS",
+      "observed": "PASS"
+    },
+    {
+      "case": "publication",
+      "expected": "REJECT",
+      "observed": "REJECT"
+    },
+    {
+      "case": "error",
+      "expected": "REJECT",
+      "observed": "REJECT"
+    },
+    {
+      "case": "final_before_unlock",
+      "expected": "REJECT",
+      "observed": "REJECT"
+    },
+    {
+      "case": "lease_after_unlock",
+      "expected": "REJECT",
+      "observed": "REJECT"
+    },
+    {
+      "case": "unlock_hash",
+      "expected": "REJECT",
+      "observed": "REJECT"
+    }
+  ],
+  "actual_main_default_NOOP": "PASS",
+  "original_d6f06_lock_terminal_native_helpers_identical": true,
+  "exact_current_producer_source_peer": "d395278a500c49ba4e0c545a017229b419e2b8e3d49eb07edecbf5275245d76f",
+  "guards": "Exact pair/source peer and closed e7cb/451c baseline; unchanged generic native/retained-client/source/boot/lock joins; complete52-object hashes/types/inodes/freshPOSIX metadata and current ext4 proof; zero content/science actions; inactive lease then checked unlock/readback then final PASS; finalizer/publication failures veto.",
+  "blockers": [],
+  "actual_storage_recovery_or_review": "NOT_RUN",
+  "scientific_adoption": false,
+  "checked_files": {
+    "review_stage5_storage_recovery_actual.py": {
+      "bytes": 15106,
+      "sha256": "e7788e03c3e4b269c1aa0582973d003f728988bed1297ba18963d542885e824c"
+    },
+    "test_review_stage5_storage_recovery_actual.py": {
+      "bytes": 5060,
+      "sha256": "cbf657fafa31f7f72ce94b035d44dae22b13aee1a69eedb24d3932865d053d78"
+    },
+    "STAGE05_STORAGE_RECOVERY_ACTUAL_READER_SOURCE01.md": {
+      "bytes": 3278,
+      "sha256": "714af17e4ae126dfeb9937f6fe89fd0e77ab547e9ea10b0ab00fbd0fc0309081"
+    },
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "stage5_storage_recovery_actual_reader_source_preparation01.json": {
+      "bytes": 1122,
+      "sha256": "c976af0ff390e88c8ac89fb8182386fcefd7d8bf82ee089a457b6e27836def1c"
+    },
+    "review_stage5_storage_recovery_actual_reader_source01.py": {
+      "bytes": 7040,
+      "sha256": "d14e3bf8d2f78569537c3a117b0ed99e46d0be3cfbce00c83bcf3a6868a9ffee"
+    }
+  }
+}

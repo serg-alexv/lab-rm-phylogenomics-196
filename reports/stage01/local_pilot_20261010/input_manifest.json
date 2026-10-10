@@ -1,0 +1,69 @@
+{
+  "schema": "LOCAL_FIVE_MARKER_PILOT_INPUTS_V1",
+  "utc": "2026-10-10T07:02:15.013140+00:00",
+  "state": "PREPARED_NOT_RUN",
+  "authorization": "Latest direct user request: exact Bash pilot first; use five existing validated core-marker FASTAs. Full pipeline requires separate confirmation after pilot.",
+  "approved_panel_taxa": 196,
+  "existing_core_loci": 100,
+  "selected_loci": 5,
+  "input_kind": "Unaligned amino-acid marker sequences; not whole genomes",
+  "script_sha256": "12f01df5050679c27d8acde1607d53753042e5946a3a958613d89e7479ad33c0",
+  "source_manifest": "accepted_sequence_manifest.tsv",
+  "source_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "marker_order_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+  "files": [
+    {
+      "marker": "5-FTHF_cyc-lig",
+      "source": ".work/stage03_orthology_v2/marker_sequences/5-FTHF_cyc-lig.faa",
+      "target": "input_genes/5-FTHF_cyc-lig.fasta",
+      "bytes": 37937,
+      "sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+      "taxa": 189,
+      "unique_approved_taxa": true,
+      "sequence_bytes_unchanged": true
+    },
+    {
+      "marker": "ADK",
+      "source": ".work/stage03_orthology_v2/marker_sequences/ADK.faa",
+      "target": "input_genes/ADK.fasta",
+      "bytes": 44544,
+      "sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+      "taxa": 196,
+      "unique_approved_taxa": true,
+      "sequence_bytes_unchanged": true
+    },
+    {
+      "marker": "ATP-synt",
+      "source": ".work/stage03_orthology_v2/marker_sequences/ATP-synt.faa",
+      "target": "input_genes/ATP-synt.fasta",
+      "bytes": 63043,
+      "sha256": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+      "taxa": 196,
+      "unique_approved_taxa": true,
+      "sequence_bytes_unchanged": true
+    },
+    {
+      "marker": "ATP-synt_A",
+      "source": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_A.faa",
+      "target": "input_genes/ATP-synt_A.fasta",
+      "bytes": 50087,
+      "sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+      "taxa": 196,
+      "unique_approved_taxa": true,
+      "sequence_bytes_unchanged": true
+    },
+    {
+      "marker": "ATP-synt_B",
+      "source": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_B.faa",
+      "target": "input_genes/ATP-synt_B.fasta",
+      "bytes": 36700,
+      "sha256": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+      "taxa": 196,
+      "unique_approved_taxa": true,
+      "sequence_bytes_unchanged": true
+    }
+  ],
+  "full_pipeline_authorized": false,
+  "deletions_moves_overwrites_performed": false
+}

@@ -1,0 +1,45 @@
+{
+  "argv": [
+    "/usr/bin/mount",
+    "-t",
+    "drvfs",
+    "G:",
+    "/mnt/g"
+  ],
+  "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+  "child_cpu_seconds": 0.007052,
+  "child_pid": 40,
+  "child_start_ticks": "44175",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_ca29c7355cb04f82985b015e303bb249/commands/gdrive.closure.json",
+  "command_nonce": "f2fe111ded2d42f781321429ae9e4101",
+  "configuration_binding": {
+    "state": "EXACT_EMPTY_G_UNDERLAY_RECHECKED_AFTER_ADMISSION",
+    "underlay": {
+      "device": "2096",
+      "entries": [],
+      "inode": "36502",
+      "mtime_ns": "1791484909845416748",
+      "path": "/mnt/g"
+    }
+  },
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work",
+  "elapsed_seconds": 0.2956046859999901,
+  "execution": "PROCESS_EXITED",
+  "exit_code": 0,
+  "group_closure_sha256": "68dbe2433a7f3cc7c260a9b0849fdf134302732a5aa18cecbd33fbb57da61f81",
+  "identity": {
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "step": "gdrive"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 40,
+  "runner_pid": 39,
+  "sampled_tree_peak_rss_bytes": 2514944,
+  "sid": 40,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "termination_reason": null,
+  "utc": "2026-10-10T04:53:25.167633+00:00"
+}

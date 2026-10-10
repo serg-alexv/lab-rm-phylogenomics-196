@@ -1,0 +1,39 @@
+{
+  "birth": {
+    "pid": 24788,
+    "creation_filetime": 134360816046654093,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "terminal": {
+    "pid": 24788,
+    "creation_filetime": 134360816046654093,
+    "exit_filetime": 134360816058624765,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_postfallback_checked_unlock.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_ca29c7355cb04f82985b015e303bb249/request.json",
+    "--request-sha256",
+    "c62f9ea98316b77433bd7f9122384cdb3e90552deb3fc3ee0b3ee5e24a869029"
+  ],
+  "owner_nonce": "ad99a345eaef43bcb2f3a001407f67fb"
+}
