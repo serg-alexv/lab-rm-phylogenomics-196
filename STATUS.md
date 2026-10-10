@@ -1,6 +1,6 @@
-# Current request: local five-marker pilot
+# Current request: completed local five-marker pilot
 
-RUNNING. Three of five pilot markers completed and independently validated. ATP-synt has 196 exact unique tips, 342 alignment columns, Q.YEAST+I+G4, 1000 UFBoot replicates, 144 numeric supports from 19 to 100, and 49 explicitly unlabeled internal branches. Native completion was 08:12:07 UTC. ATP-synt_A is running under the original launcher; ASTRAL and the full pipeline have not run. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot82/progress.json).
+PILOT_COMPLETE_VALIDATED. Five gene trees and ASTRAL completed locally;196 approved tips and193 informative splits validated. Raw and flat-q1 trees are preserved. Native exit0, process closure and original lock release are verified. Pilot iTOL upload pending; host/defense mapping absent. Full100-marker execution remains unapproved. See [completion report](reports/stage01/local_pilot_20261010/completed/RESULT.md).
 
 # Current execution status
 

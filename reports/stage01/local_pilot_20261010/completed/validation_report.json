@@ -1,0 +1,1104 @@
+{
+  "artifact_sha256": {
+    "README.txt": "c31b3cc7942716b3320ab6c04f55c291eeff0d265307b040eafd45aea2867409",
+    "astral_quartet_support_by_split.tsv": "7c6cdbf01f047331bdcfff868d1b3e314d93c987044212f3236c92ce25318ec5",
+    "species_tree.itol_quartet_frequency.newick": "51898f59c4dd6296056469cd0f5e7cee309c70d20d26d5bcc39450f924b42bf4",
+    "species_tree.newick": "cb7ef5f188f3dbd0e4937295bb5d6d3d08876b3197851b997a3cd21b0d342bb8"
+  },
+  "astral_result": {
+    "annotated_informative_split_count": 193,
+    "annotated_node_count_including_root": 193,
+    "branch_length_count": 194,
+    "branch_length_max": 1.3862943611198908,
+    "branch_length_min": 0.0,
+    "branch_length_missing_count": 197,
+    "informative_unrooted_split_count": 193,
+    "internal_node_count_including_root": 195,
+    "root_annotated": false,
+    "tip_count": 196
+  },
+  "checks": [
+    "exact five source FASTAs and one-to-one source/alignment tip and ungapped sequence equality",
+    "all pilot FASTA IDs are approved and their union is exactly the approved196 panel",
+    "five IQ-TREE logs/reports complete and each gene tree exactly matches its alignment tips with support in range",
+    "all_gene_trees.tre is byte-identical to the concatenation of the five validated gene-tree files",
+    "ASTRAL tree is parseable, contains exactly the approved196 tips, and each informative unrooted split has valid structured numeric -t 2 annotations",
+    "ASTRAL q_i=f_i/EN, f totals agree with EN within source tolerance, posterior/frequency ranges are valid, and present branch lengths are finite and nonnegative",
+    "derived q1-labeled tree preserves topology and branch lengths; raw ASTRAL tree is copied byte-for-byte"
+  ],
+  "input_sha256": {
+    "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "input_genes/5-FTHF_cyc-lig.fasta": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+    "input_genes/ADK.fasta": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+    "input_genes/ATP-synt.fasta": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+    "input_genes/ATP-synt_A.fasta": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+    "input_genes/ATP-synt_B.fasta": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+    "pilot_output/alignments/5-FTHF_cyc-lig_aligned.fasta": "60dfc8a4ec7949b331e569ebf3e327ef688590da42d0f7ef7dcf4e975a5a991d",
+    "pilot_output/alignments/ADK_aligned.fasta": "4dc864f6a3c1480cb98b6a7d1dc5e0a2b9fb47e1a46d4bbb1b51c855d0aedc9f",
+    "pilot_output/alignments/ATP-synt_A_aligned.fasta": "c46b2d4323bf43afd8689a34edfa62bd44e2d40ef19b0a6e2753aa27f3467d17",
+    "pilot_output/alignments/ATP-synt_B_aligned.fasta": "d5271c23a5cda637d2e31b30e3ab5618ec9839614950b4ad894fd837bb031ff8",
+    "pilot_output/alignments/ATP-synt_aligned.fasta": "4bd50062ae1a1b7420961752b6dc0ffd1508ce8b44d075176a89020f1d56520a",
+    "pilot_output/all_gene_trees.tre": "697ea9e836b1381b41a0a2ef2b58ef55440974108665bff3ac1f0a45fc33d3c3",
+    "pilot_output/species_tree.newick": "cb7ef5f188f3dbd0e4937295bb5d6d3d08876b3197851b997a3cd21b0d342bb8",
+    "pilot_output/trees/5-FTHF_cyc-lig.iqtree": "2fe7de678fd8b021f35af1ed6c2fde19060064bd7cd2094d57e6361f82db6dfe",
+    "pilot_output/trees/5-FTHF_cyc-lig.log": "9e9e8916f41e550b70044c84a0b12113df938a507e5049fe109113212b55bd17",
+    "pilot_output/trees/5-FTHF_cyc-lig.treefile": "6d7445fc85dcf4f07a339f40bc58abb8f84de1d98a0a7d589e342f098910f462",
+    "pilot_output/trees/ADK.iqtree": "8d8c69b30f096ddc4225f93f36e98f09a64d82f6d99509595e3ec3bd1445ce90",
+    "pilot_output/trees/ADK.log": "4c6d5dfb5ea9350d1d57a9fccffb413f5cc299a6da15091bf351a3eb482db314",
+    "pilot_output/trees/ADK.treefile": "ab9af4a04121b77b189e44d425035a27a6159a0282cd5986476067f0fb64255b",
+    "pilot_output/trees/ATP-synt.iqtree": "760d67e5c52b338020cb5d40075b2555e08216691ed0d5a4094395cfee807b3d",
+    "pilot_output/trees/ATP-synt.log": "63cfb2b84f169313672cf3c9d52d9bcbdd368981625823662fa9333f7c61704b",
+    "pilot_output/trees/ATP-synt.treefile": "f05f7e1d365597eb1f197c415ed4cd2698607c4aa1082fb56198a2360eb8ba79",
+    "pilot_output/trees/ATP-synt_A.iqtree": "13a498b124bbc0de2ce8ae18b16b73d8fe7c6f94af88e00eab044bc5961ecd9a",
+    "pilot_output/trees/ATP-synt_A.log": "823dbd5630097a9b2d796f2ccc72d790519fc3f38d5e649bda577d2ba38d036c",
+    "pilot_output/trees/ATP-synt_A.treefile": "62aff19c9da1d7c0c00c5394393af0c7d8ae07d11652541dc75d4646d99f7866",
+    "pilot_output/trees/ATP-synt_B.iqtree": "a6399de88561d34292fcd48e130e99f6bc967c4e9de77e74e422893036fee474",
+    "pilot_output/trees/ATP-synt_B.log": "f28fb5037078bad4f218b5888d8530a2f3e412fca54c9677bd044b986347a37d",
+    "pilot_output/trees/ATP-synt_B.treefile": "b74c3007f32a104605c497cd1bd4998da521867989ad9ef8cc85f4dbe2dccf8c",
+    "reports/stage01/pilot_astral.log": "556f94e493153e631116cebd6dac2560ffbfeedd9638881e3db7ec9219a5e9b7",
+    "reports/stage01/pilot_iqtree.log": "0b7126d9114e520c613337b2ff9bb2cd61eebe186f251a0a74007c9369f86a48",
+    "reports/stage01/pilot_mafft.log": "461d39df82d69148dcadabc581b8c73917be67b6afcb34b9b7863798acbf4c00",
+    "run_pipeline.sh": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+    "scripts/master_run/stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc"
+  },
+  "marker_results": [
+    {
+      "aligned_columns": 210,
+      "input_fasta": "input_genes/5-FTHF_cyc-lig.fasta",
+      "iqtree_internal_support": {
+        "support_component_count": 153,
+        "support_max": 100.0,
+        "support_min": 5.0,
+        "unlabeled_internal_branch_count": 33,
+        "unlabeled_internal_branches": [
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 2.4603e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 2.9849e-06,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/0/0/0/0/0/0/1/1/0/1/0"
+          },
+          {
+            "branch_length": 1.0067e-06,
+            "path": "root/1/0/1/0"
+          }
+        ]
+      },
+      "iqtree_log": "pilot_output/trees/5-FTHF_cyc-lig.log",
+      "iqtree_tree_tip_count": 189,
+      "marker": "5-FTHF_cyc-lig",
+      "tip_count": 189
+    },
+    {
+      "aligned_columns": 224,
+      "input_fasta": "input_genes/ADK.fasta",
+      "iqtree_internal_support": {
+        "support_component_count": 150,
+        "support_max": 100.0,
+        "support_min": 6.0,
+        "unlabeled_internal_branch_count": 43,
+        "unlabeled_internal_branches": [
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 2.0086e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/1/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/0/1/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 9.995e-07,
+            "path": "root/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1"
+          }
+        ]
+      },
+      "iqtree_log": "pilot_output/trees/ADK.log",
+      "iqtree_tree_tip_count": 196,
+      "marker": "ADK",
+      "tip_count": 196
+    },
+    {
+      "aligned_columns": 342,
+      "input_fasta": "input_genes/ATP-synt.fasta",
+      "iqtree_internal_support": {
+        "support_component_count": 144,
+        "support_max": 100.0,
+        "support_min": 19.0,
+        "unlabeled_internal_branch_count": 49,
+        "unlabeled_internal_branches": [
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/1"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 2.0136e-06,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/0/0/1/1/1/0/1/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/0/1/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/1/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/0/0/1/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/1/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0"
+          },
+          {
+            "branch_length": 1.0001e-06,
+            "path": "root/2/0"
+          }
+        ]
+      },
+      "iqtree_log": "pilot_output/trees/ATP-synt.log",
+      "iqtree_tree_tip_count": 196,
+      "marker": "ATP-synt",
+      "tip_count": 196
+    },
+    {
+      "aligned_columns": 254,
+      "input_fasta": "input_genes/ATP-synt_A.fasta",
+      "iqtree_internal_support": {
+        "support_component_count": 145,
+        "support_max": 100.0,
+        "support_min": 36.0,
+        "unlabeled_internal_branch_count": 48,
+        "unlabeled_internal_branches": [
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 2.2787e-06,
+            "path": "root/1/0/0/0/0/0/1/1/0/0/1/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/0/1/1/0/1/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/1/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/0/1/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/1/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/0/1/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/1/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/0/1/0/0/0/1/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/1/0/1/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/2/0/0"
+          },
+          {
+            "branch_length": 1.0007e-06,
+            "path": "root/2/0"
+          }
+        ]
+      },
+      "iqtree_log": "pilot_output/trees/ATP-synt_A.log",
+      "iqtree_tree_tip_count": 196,
+      "marker": "ATP-synt_A",
+      "tip_count": 196
+    },
+    {
+      "aligned_columns": 184,
+      "input_fasta": "input_genes/ATP-synt_B.fasta",
+      "iqtree_internal_support": {
+        "support_component_count": 129,
+        "support_max": 100.0,
+        "support_min": 37.0,
+        "unlabeled_internal_branch_count": 64,
+        "unlabeled_internal_branches": [
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 2.2091e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/1/0/0/1/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/1/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/0/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0"
+          },
+          {
+            "branch_length": 1.0025e-06,
+            "path": "root/1/0/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1/0"
+          },
+          {
+            "branch_length": 0.0,
+            "path": "root/1"
+          }
+        ]
+      },
+      "iqtree_log": "pilot_output/trees/ATP-synt_B.log",
+      "iqtree_tree_tip_count": 196,
+      "marker": "ATP-synt_B",
+      "tip_count": 196
+    }
+  ],
+  "project_root": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196",
+  "schema": "LAB_RM_FIVE_MARKER_PILOT_VALIDATION_V1",
+  "scope": {
+    "approved_taxon_count": 196,
+    "astral_version_from_log": "5.7.8",
+    "interpretation": "workflow and file-format validation only; five loci do not establish production topology/support reliability",
+    "marker_count": 5
+  },
+  "status": "PASS",
+  "validated_utc": "2026-10-10T08:52:20.861989Z"
+}

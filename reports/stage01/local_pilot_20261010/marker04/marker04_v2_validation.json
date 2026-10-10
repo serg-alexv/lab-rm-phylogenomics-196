@@ -1,0 +1,266 @@
+{
+  "evidence": {
+    "alignment": {
+      "bytes": 54096,
+      "mtime_ns": 1791619954024000000,
+      "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pilot_output/alignments/ATP-synt_A_aligned.fasta",
+      "sha256": "c46b2d4323bf43afd8689a34edfa62bd44e2d40ef19b0a6e2753aa27f3467d17"
+    },
+    "input_fasta": {
+      "bytes": 50087,
+      "mtime_ns": 1791615734986000000,
+      "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/input_genes/ATP-synt_A.fasta",
+      "sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da"
+    },
+    "iqtree_report": {
+      "bytes": 74146,
+      "mtime_ns": 1791620673356000000,
+      "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pilot_output/trees/ATP-synt_A.iqtree",
+      "sha256": "13a498b124bbc0de2ce8ae18b16b73d8fe7c6f94af88e00eab044bc5961ecd9a"
+    },
+    "native_log": {
+      "bytes": 25876,
+      "mtime_ns": 1791620673500000000,
+      "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pilot_output/trees/ATP-synt_A.log",
+      "sha256": "823dbd5630097a9b2d796f2ccc72d790519fc3f38d5e649bda577d2ba38d036c"
+    },
+    "treefile": {
+      "bytes": 8938,
+      "mtime_ns": 1791620673408000000,
+      "path": "/mnt/g/My Drive/LAB_RM/lab-rm-phylogenomics-196/pilot_output/trees/ATP-synt_A.treefile",
+      "sha256": "62aff19c9da1d7c0c00c5394393af0c7d8ae07d11652541dc75d4646d99f7866"
+    }
+  },
+  "evidence_unchanged_during_validation": true,
+  "limitations": [
+    "Focused marker04 file-level validation only; no claim about other markers, ASTRAL, or biological validity.",
+    "All unlabeled internal branches are recorded individually with path and branch length; no support value is imputed.",
+    "No project files were modified and no network/API operation was performed."
+  ],
+  "native_evidence": {
+    "bootstrap_replicates_native_log": 1000,
+    "bootstrap_replicates_report": 1000,
+    "branch_lengths_finite_nonnegative": true,
+    "input_alignment_tip_ids_equal": true,
+    "model": "Q.YEAST+F+I+G4",
+    "native_log_end": "Date and Time: Sat Oct 10 11:24:33 2026",
+    "support_validation": {
+      "support_component_count": 145,
+      "support_max": 100.0,
+      "support_min": 36.0,
+      "unlabeled_internal_branch_count": 48,
+      "unlabeled_internal_branches": [
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/1/0/0/1/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/1/1/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 2.2787e-06,
+          "path": "root/1/0/0/0/0/0/1/1/0/0/1/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/0/1/1/0/1/1/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/1/0/0/0/1/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/0/1/0/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/1/0/0/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/1/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/0/1/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/1/0/0/0/1/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/0/1/0/0/0/1/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/1/0/1/0/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/2/0/0"
+        },
+        {
+          "branch_length": 1.0007e-06,
+          "path": "root/2/0"
+        }
+      ]
+    },
+    "tree_tip_count": 196,
+    "tree_tips_unique_and_exact": true,
+    "ungapped_sequences_preserved": true
+  },
+  "schema": "LAB_RM_MARKER04_V2_VALIDATOR_TEST_V1",
+  "scope": {
+    "marker": "ATP-synt_A",
+    "other_marker_or_astral_outputs_read": false,
+    "scientific_rerun": false,
+    "tips": 196
+  },
+  "status": "PASS",
+  "synthetic_negative_tests": {
+    "all_support_absent": "rejected: No internal IQ-TREE support values found in <no-support>",
+    "negative_branch_length": "rejected: Nonfinite or negative branch length",
+    "nonnumeric_support": "rejected: Unsupported IQ-TREE support label in <bad-support> at root/0: 'bad'",
+    "out_of_range_support": "rejected: IQ-TREE support outside [0,100] in <bad-range> at root/0: '101'"
+  },
+  "validated_utc": "2026-10-10T08:27:00.844889Z"
+}
