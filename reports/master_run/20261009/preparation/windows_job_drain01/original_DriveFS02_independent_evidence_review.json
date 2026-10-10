@@ -1,0 +1,149 @@
+{
+  "schema": "STAGE05_DRIVEFS02_PRESERVED_EVIDENCE_INDEPENDENT_REVIEW_V1",
+  "state": "PASS_C_EVIDENCE_READBACK_OLD_WINDOWS_WORKER_CLOSURE_UNPROVEN",
+  "utc": "2026-10-10T00:03:49.318392+00:00",
+  "audit_source_sha256": "5d65105902cdf56e1b1a107719515a91590e676ae2c09bf8966df450ebce3561",
+  "source_pins": {
+    "stage5_unc_bind_probe_before_windows_job_drain.py": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7",
+    "stage5_setup_windows_before_windows_job_drain.py": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33",
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "diagnose_windows_owned_job_fixture.py": "ef9410807f484c82fa542a1f8313ed64e333655df8a01548c3a33c3295ceccc2"
+  },
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02",
+  "spool_file_count": 22,
+  "files": [
+    {
+      "path": "actual_owner_lock.json",
+      "bytes": 688,
+      "sha256": "96854f6133abeb1279306e3e13b96d3fb834399241f07de434551961e9dea31f"
+    },
+    {
+      "path": "admission.json",
+      "bytes": 1782,
+      "sha256": "d3e6a0fd1029597fe0fe89f817c9fec8f3791aad831786f0229fdb6144f8a8d4"
+    },
+    {
+      "path": "commands/admission.json",
+      "bytes": 1782,
+      "sha256": "7be8575988b88deec7e48b312b33a13942d531802dff25ba17fa072bbba81595"
+    },
+    {
+      "path": "commands/drivefs.closure.json",
+      "bytes": 646,
+      "sha256": "c4fc967a25518b5dd90a8df2ca3baf4c81ce8a3211849f05167faf3473124f3b"
+    },
+    {
+      "path": "commands/drivefs.command.json",
+      "bytes": 1842,
+      "sha256": "9d37545cb2f20bb7d20932d5627707c7009626c28010a7a7841e74b2d716af83"
+    },
+    {
+      "path": "commands/drivefs.launch.json",
+      "bytes": 1304,
+      "sha256": "a09a4f22b0544d6c15c4b463465d55ceab484bc508b1a93b2f4f5e565924e3f5"
+    },
+    {
+      "path": "commands/drivefs.launch_intent.json",
+      "bytes": 822,
+      "sha256": "35385a0aa0fc1181c0db86bfccc7da968526fd71ea430138aba5ae1f3b495ed7"
+    },
+    {
+      "path": "commands/drivefs.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commands/drivefs.stdout.txt",
+      "bytes": 1635,
+      "sha256": "7966e9f717eb204b5544326f6be2020aa210b10fd80aad78398641ee9ef58d24"
+    },
+    {
+      "path": "commands/latest_admission.json",
+      "bytes": 1782,
+      "sha256": "7be8575988b88deec7e48b312b33a13942d531802dff25ba17fa072bbba81595"
+    },
+    {
+      "path": "commands.jsonl",
+      "bytes": 1736,
+      "sha256": "35f0f0a94d8e2769ce08cefdfb7f5763c8774d0dc026fecc4cf779cc3649b9ca"
+    },
+    {
+      "path": "drivefs_readback_request.json",
+      "bytes": 396,
+      "sha256": "91cf73195c964c69a0bfdefbd6d4e7f1cc5264307f678e154be67c2204874896"
+    },
+    {
+      "path": "drivefs_windows_readback.json",
+      "bytes": 1137,
+      "sha256": "f42bf1667e0888f537b46fa91271070b1d62d6a3083c6bc148a0e93fb87cb0af"
+    },
+    {
+      "path": "latest_admission.json",
+      "bytes": 1782,
+      "sha256": "d3e6a0fd1029597fe0fe89f817c9fec8f3791aad831786f0229fdb6144f8a8d4"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 1511,
+      "sha256": "998a03b84f037a10c4f6350775d13e593458bdc6901999676802f6ca6c52c961"
+    },
+    {
+      "path": "linux_terminal.json",
+      "bytes": 1997,
+      "sha256": "03b1fdfa3d1fee456dbab0448019d7d9c868e8c43cbb0d52950b64191bc0c7e3"
+    },
+    {
+      "path": "lock_released.json",
+      "bytes": 116,
+      "sha256": "30bbac1f0e51c0977b4d0f871c72c18c2520b25a6f641ecaa508f3e4a20a19b4"
+    },
+    {
+      "path": "owner_lease.json",
+      "bytes": 901,
+      "sha256": "8c3ea5ecffbf672490ee6fe3b8370f8158dd4913818e0d527648ce41640d5a58"
+    },
+    {
+      "path": "result.json",
+      "bytes": 4671,
+      "sha256": "6c7595ddbcd5847e1ad311ae922bb9f95d483764f9faec5625659723e1f42b68"
+    },
+    {
+      "path": "wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wsl_exit.json",
+      "bytes": 2185,
+      "sha256": "58a2aee57d4d8441c6eb26cfc41be374207b8a9faf0c2d0d544f61e3da728c8f"
+    }
+  ],
+  "result_sha256": "6c7595ddbcd5847e1ad311ae922bb9f95d483764f9faec5625659723e1f42b68",
+  "owner_nonce": "1950f8bce9414103b0688078b7ce9e99",
+  "established": [
+    "Recorded retained WSL client exit0 and exact Linux native closed scope bind across actual C receipts.",
+    "Windows exact-file readback finished and binds the same request/owner/source.",
+    "Original stable OS byte-lock release is recorded; no live lock query was performed.",
+    "Separate benign fixture records root exit0, then a job member, then full job emptiness after a25ms sample interval."
+  ],
+  "not_established": [
+    "Original Windows worker PID/birth/terminal/job-empty state: no durable evidence in all22 spool files.",
+    "Exact original exception beneath windows_job finally: erased by17eb; root wait, job accounting, or query error remain possible.",
+    "The benign fixture does not identify the original failure or close its scope.",
+    "Current live Windows population, EventLog coverage, enclosing job emptiness and old-owner kernel terminal were not queried."
+  ],
+  "source_finding": "17eb windows_job finalizer overwrites underlying failure and can cancel its normal return; setup assignment therefore discards local birth/exit/job variables. Linux evidence cannot prove Windows worker closure.",
+  "future_fix_rationale": "Persist owned worker birth before resume, retained terminal before finite actual job-empty drain, and preserve primary plus closure errors before closing handles.",
+  "separate_fixture_receipt": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\windows_owned_job_diagnosis_a0bdc60fe3de47348119e6161403b2cd\\receipt.json",
+    "sha256": "99be443a5dcda0b4f1791ba8e7a457b16f9a390cc0ba4637b626ad31bbc7f245"
+  },
+  "stop_reconciliation_authorized": false,
+  "scientific_adoption_authorized": false,
+  "actual_actions": "C evidence/source reads and one new C review receipt only; no native/WSL/G/STOP/lock/process query or signal."
+}

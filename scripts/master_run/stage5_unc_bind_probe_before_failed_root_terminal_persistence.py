@@ -198,20 +198,15 @@ def windows_io(args):
 
 
 def drain_windows_job(api, job, process_handle, record, persist,
-                      timeout=5, clock=time.monotonic, pause=time.sleep, root_terminal=None):
+                      timeout=5, clock=time.monotonic, pause=time.sleep):
     """A signalled root can leave terminating descendants; prove actual empty job."""
     deadline = clock() + timeout
     while True:
         sample = {'elapsed_remaining_seconds': max(0, deadline-clock())}
-        try:sample['root_wait'] = api.wait(process_handle, 0)
-        except BaseException as error:
-            sample['error'] = {'kind':type(error).__name__, 'message':str(error),
-                               'winerror':getattr(error,'winerror',None)}
-        if sample.get('root_wait') == 0 and root_terminal is not None:
-            root_terminal(); root_terminal=None
         try:
+            sample['root_wait'] = api.wait(process_handle, 0)
             sample['job'] = api.job_state(job)
-            empty = (sample.get('root_wait') == 0 and sample['job']['job_active_processes'] == 0
+            empty = (sample['root_wait'] == 0 and sample['job']['job_active_processes'] == 0
                      and not sample['job']['job_pids'])
         except BaseException as error:
             sample['error'] = {'kind':type(error).__name__, 'message':str(error),
@@ -285,16 +280,15 @@ def windows_job(api, argv, owner, evidence):
                     api.ok(api.terminate_job(job,2),'Terminate only exact owned failed Windows job')
                 else:
                     api.ok(api.terminate(process.hProcess,2),'Terminate exact unassigned suspended child')
-                def failed_root_terminal():
-                    final=api.identity(process.hProcess,process.dwProcessId,
-                        birth['executable'] if birth else str(sys.executable),
-                        birth['session_id'] if birth else owner['session_id'])
-                    if birth:require(final['creation_filetime']==birth['creation_filetime'],'Failed retained root birth differs')
-                    require(final['exited'] and final['exit_filetime']>final['creation_filetime'],
-                            'Failed retained root terminal birth/exit time unproven')
-                    record['exit']=final;A.atomic(evidence/'root_exit.json',record)
-                closure=drain_windows_job(api,job,process.hProcess,record,persist,root_terminal=failed_root_terminal)
-                record.update(owned_job=closure,owned_closure_proven=True)
+                closure=drain_windows_job(api,job,process.hProcess,record,persist)
+                final=api.identity(process.hProcess,process.dwProcessId,
+                    birth['executable'] if birth else str(sys.executable),
+                    birth['session_id'] if birth else owner['session_id'])
+                if birth:require(final['creation_filetime']==birth['creation_filetime'],'Failed retained root birth differs')
+                require(final['exited'] and final['exit_filetime']>final['creation_filetime'],
+                        'Failed retained root terminal birth/exit time unproven')
+                record.update(exit=final,owned_job=closure,owned_closure_proven=True)
+                A.atomic(evidence/'root_exit.json',record)
             except BaseException as error:
                 record['closure_error']={'kind':type(error).__name__,'message':str(error),
                                          'winerror':getattr(error,'winerror',None)}

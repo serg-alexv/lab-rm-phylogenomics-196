@@ -19,7 +19,7 @@ PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc
       'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_atomic_process.py':'e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e',
       'stage5_work_storage.py':'7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
-      'stage5_setup_windows.py':'6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832'}
+      'stage5_setup_windows.py':'4e94a8cfcbf9264db677b8477720fbce5c52ed839af56bae21aa36cc5ff271aa'}
 PRIOR_PINS={
  'stage5_setup_storage_actual_postiq_02/result.json':'6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3',
  'stage5_setup_storage_actual_postiq_02/lock_released.json':'1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1',

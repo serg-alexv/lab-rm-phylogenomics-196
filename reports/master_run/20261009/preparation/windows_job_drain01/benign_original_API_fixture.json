@@ -1,0 +1,180 @@
+{
+  "scope": "C_ONLY_BENIGN_OWNED_WINDOWS_PYTHON_EXIT0",
+  "named_job": "Local\\LAB_RM_DIAGNOSTIC_20a7b590e88d4d489fcd950f7e3e46fa",
+  "source_sha256": "ef9410807f484c82fa542a1f8313ed64e333655df8a01548c3a33c3295ceccc2",
+  "api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+  "queries": [
+    {
+      "sample": 0,
+      "raw_queries": [
+        {
+          "class": 9,
+          "okay": true,
+          "winerror": 0,
+          "size": 144
+        },
+        {
+          "class": 1,
+          "okay": true,
+          "winerror": 0,
+          "size": 48,
+          "active": 1,
+          "total": 2
+        },
+        {
+          "class": 3,
+          "okay": true,
+          "winerror": 0,
+          "size": 520,
+          "assigned": 1,
+          "listed": 1,
+          "pids": [
+            21836
+          ]
+        }
+      ],
+      "A_job_state": {
+        "peak_process_committed_bytes": 6090752,
+        "peak_job_committed_bytes": 7241728,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 1,
+        "job_pids": [
+          21836
+        ]
+      }
+    },
+    {
+      "sample": 1,
+      "raw_queries": [
+        {
+          "class": 9,
+          "okay": true,
+          "winerror": 0,
+          "size": 144
+        },
+        {
+          "class": 1,
+          "okay": true,
+          "winerror": 0,
+          "size": 48,
+          "active": 0,
+          "total": 2
+        },
+        {
+          "class": 3,
+          "okay": true,
+          "winerror": 0,
+          "size": 520,
+          "assigned": 0,
+          "listed": 0,
+          "pids": []
+        }
+      ],
+      "A_job_state": {
+        "peak_process_committed_bytes": 6090752,
+        "peak_job_committed_bytes": 7241728,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      }
+    },
+    {
+      "sample": 2,
+      "raw_queries": [
+        {
+          "class": 9,
+          "okay": true,
+          "winerror": 0,
+          "size": 144
+        },
+        {
+          "class": 1,
+          "okay": true,
+          "winerror": 0,
+          "size": 48,
+          "active": 0,
+          "total": 2
+        },
+        {
+          "class": 3,
+          "okay": true,
+          "winerror": 0,
+          "size": 520,
+          "assigned": 0,
+          "listed": 0,
+          "pids": []
+        }
+      ],
+      "A_job_state": {
+        "peak_process_committed_bytes": 6090752,
+        "peak_job_committed_bytes": 7241728,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      }
+    },
+    {
+      "sample": 3,
+      "raw_queries": [
+        {
+          "class": 9,
+          "okay": true,
+          "winerror": 0,
+          "size": 144
+        },
+        {
+          "class": 1,
+          "okay": true,
+          "winerror": 0,
+          "size": 48,
+          "active": 0,
+          "total": 2
+        },
+        {
+          "class": 3,
+          "okay": true,
+          "winerror": 0,
+          "size": 520,
+          "assigned": 0,
+          "listed": 0,
+          "pids": []
+        }
+      ],
+      "A_job_state": {
+        "peak_process_committed_bytes": 6090752,
+        "peak_job_committed_bytes": 7241728,
+        "job_cpu_seconds": 0.03125,
+        "job_active_processes": 0,
+        "job_pids": []
+      }
+    }
+  ],
+  "birth": {
+    "pid": 22928,
+    "creation_filetime": 134360637917326132,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "argv": [
+    "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "-B",
+    "-c",
+    "pass"
+  ],
+  "terminal": {
+    "pid": 22928,
+    "creation_filetime": 134360637917326132,
+    "exit_filetime": 134360637917723563,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Users\\wheel\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "state": "RECORDED_ACTUAL_BENIGN_WINDOWS_JOB_QUERIES",
+  "final_root_wait": 0
+}

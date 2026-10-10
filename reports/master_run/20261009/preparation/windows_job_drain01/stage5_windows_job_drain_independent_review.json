@@ -1,0 +1,100 @@
+{
+  "schema": "STAGE05_WINDOWS_JOB_DRAIN_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_REVIEW_AND_10_PURE_MOCKED_CONTRACTS_ONLY",
+  "utc": "2026-10-10T00:05:36.158436+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe.py",
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows.py",
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_windows_job_drain.py",
+      "bytes": 7388,
+      "sha256": "fff588a326cb9a9d3848a38b1dd6d1f3ce097f545be9943e7aee565b3c6e510f"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_linux.py",
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe_before_windows_job_drain.py",
+      "bytes": 24115,
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_before_windows_job_drain.py",
+      "bytes": 34098,
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    }
+  ],
+  "narrow_consumer_source_bindings": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_build_actual_config.py",
+      "sha256": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa",
+      "binding": {
+        "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+        "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_closed_genome_archive_windows.py",
+      "sha256": "249b9de14219d8c0a5f1e7e88e48f6c80694bd04699c7c3e506b50a0980fab45",
+      "binding": {
+        "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+      }
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view.py",
+      "sha256": "edc02834f889cdd9bed8bce350d2b9fe2bbd79347f65a0ae124afdaec9f4dfa8",
+      "binding": {
+        "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+      }
+    }
+  ],
+  "scope": "C-only source/receipt reads, AST and pure mocked Windows API tests; no native API/job, WSL, G, STOP or lock action.",
+  "setup_delta_exactly_two_edits": true,
+  "reviewed_lifecycle": [
+    "Named unique job rejects already-existing name; assigned-before-resume and active1/no-breakaway/KILL_ON_CLOSE retained.",
+    "Exact new worker birth persisted beforeResume; actual root terminal persisted before any normal/failure job query.",
+    "ResumeThread exactly1 and retained birth+positive exit FILETIME required.",
+    "Five-second finite drain requires signaled root AND active0 AND exact empty PID list; samples and query errors preserved.",
+    "Only newly owned job or unassigned suspended root receives termination; primary/closure/close/write failures remain visible.",
+    "No PASS on nonzero/unknown closure/failed final write; original setup STOP remains conservative if the helper raises."
+  ],
+  "tests": {
+    "source_sha256": "fff588a326cb9a9d3848a38b1dd6d1f3ce097f545be9943e7aee565b3c6e510f",
+    "invocation": "python -B work/test_stage5_windows_job_drain.py -v",
+    "actual_exit_code": 0,
+    "actual_pass_count": 10,
+    "actual_test_seconds": 0.265,
+    "type": "PURE_C_FIXTURES_AND_MOCKED_API_ONLY"
+  },
+  "actual_benign_prior_fixture": {
+    "receipt_sha256": "99be443a5dcda0b4f1791ba8e7a457b16f9a390cc0ba4637b626ad31bbc7f245",
+    "performed_by": "stage5_audit/root-authorized separate prior fixture",
+    "reviewed_from_preserved_C_bytes": true,
+    "supports": "Root terminal and complete job emptiness are distinct; one observed sample settled after25ms.",
+    "not_proof_of_original_cause_or_scope_closure": true
+  },
+  "preserved_actual_failure_review_sha256": "6980e79e34449d6846a773a47ebb9c4285f2218e9d4b1e715a655c350b8b0d68",
+  "actual_corrected_worker_native_fixture": "NOT_RUN_BY_REVIEWER_OR_RECORDED_AS_COMPLETE_AT_REVIEW",
+  "original_drivefs02_closure": "UNPROVEN; this source review cannot clear old STOP or upgrade failed step.",
+  "scientific_adoption_authorized": false,
+  "limitations": [
+    "Named job survives only while a handle remains; recorded name is evidence, not proof of later live existence.",
+    "Finite user-space wait/drain cannot bound all kernel/filesystem API latency; failures preserve blocked state.",
+    "Future actual corrected worker fixture/DriveFS step and current scope reconciliation remain separate root-owned gates."
+  ]
+}

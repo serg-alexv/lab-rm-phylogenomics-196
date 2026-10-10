@@ -17,10 +17,10 @@ PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc
       'stage5_windows_owner.py':'8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d',
       'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_atomic_config.template.json':'94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf',
-      'stage5_setup_windows.py':'6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832',
+      'stage5_setup_windows.py':'160562725101eb23a516fafe8a0709b734c31162d00b6462c54a76e3b1942a4a',
       'stage5_setup_linux.py':'24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27',
       'stage5_interop_smoke_windows.py':'35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898',
-      'stage5_unc_bind_probe.py':'0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d'}
+      'stage5_unc_bind_probe.py':'115499bb5e0ed12eba299916f7c7f6474e130a850b3c7fa72d0b2a9503e78633'}
 
 
 def require(ok,message):

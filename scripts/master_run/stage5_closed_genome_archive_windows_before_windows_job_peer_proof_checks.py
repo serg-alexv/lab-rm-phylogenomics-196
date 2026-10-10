@@ -12,7 +12,7 @@ PINS={'atomic_iqtree_windows.py':'80a202540920547087ad851483e238e31d1ea9b88b2fdc
       'stage5_atomic.py':'500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04',
       'stage5_atomic_process.py':'e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e',
       'stage5_work_storage.py':'7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f',
-      'stage5_setup_windows.py':'6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832',
+      'stage5_setup_windows.py':'4e94a8cfcbf9264db677b8477720fbce5c52ed839af56bae21aa36cc5ff271aa',
       'stage5_windows_owner.py':'8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d',
       'stage5_owner_lease.py':'add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8',
       'stage5_closed_genome_archive_linux.py':'f6053d8e8ab1d21492a07b90f8c1a99ec3ab3332cde93115812ca55e375a05ef'}

@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-09T23:56:29.945211+00:00",
+  "updated_utc": "2026-10-10T00:10:41.380621+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PEER_REVIEWED_PINS_ACTUAL_TOOLCHAIN04_AND_INTEROP03_PASS",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Record actual G mount and canonical ext4 storage PASS; preserve Windows DriveFS worker closure stop; publish inactive qualified recovery sources",
+  "stage5_operational_phase": "Publish independently reviewed Windows worker durable lifecycle and bounded job drain; old DriveFS02 STOP remains unresolved",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -209,7 +209,7 @@
   "stage5_paired_memory": "PASS_READ_ONLY_RETAINED_CLIENT_EXIT0_ORIGINAL_UNLOCK; guest_current260825088_peak1743339520_Cached117792768_noOOM_noSwap; Windows_commit_after3459862528",
   "stage5_interop_scope_reconciliation": "ACTUAL_PASS_c474c48_AUTHORIZED_VM_SHUTDOWN_TWO_STOPPED_CONFIG31b_UNCHANGED_ALL_CLIENTS_CLOSED_ORIGINAL_UNLOCK_EXACT_LOCALSTOP_BACKED_AND_REMOVED",
   "stage5_storage": "ACTUAL03_PASS_c0300217_EXT4_CANONICAL_BIND_CURRENT_BOOT_STORAGE_PROOF6d6d23f3; original Windows empty underlay preserved",
-  "host_resource_authority": "Direct user authorizes nonessential host app/service cleanup and WSL reconfiguration. Current control session and remote-unverified scientific artifacts remain protected. Original nine Chrome/Media targets have exited externally; no termination action adopted.",
+  "host_resource_authority": "Direct user explicitly authorizes host reconfiguration, cleanup and service control. Accepted science and remotely unverified unique project artifacts remain retained. No new app/service termination in this phase.",
   "stage5_inactive_recovery_preparations": {
     "closed_genome_archive": "SOURCE_AND_SYNTHETIC_PEER_PASS_ONLY; actual capture/readback/canonical rehydration NOT_RUN; eviction not enabled",
     "installed_runtime": "SOURCE_AND_SYNTHETIC_PEER_PASS_ONLY; actual inventory/public audit/capture/remote/cold restore NOT_RUN; base OS/bootstrap equivalence pending"
@@ -217,5 +217,6 @@
   "stage5_gdrive_visibility": "ACTUAL_PASS_43136f99_EXACT_G_DRVFS_MOUNT_WINDOWS_LINUX_THREE_CONTROL_HASHES_SAME_EMPTY_UNDERLAY_NATIVE_AND_WSL_CLOSURE_ORIGINAL_UNLOCK",
   "stage5_drivefs": "ACTUAL02_FAILED_WINDOWS_WORKER_CLOSURE_UNPROVEN; Linux filesystem native PASS and WSL exit0, actual independent Windows exact byte readback PASSfile, but worker birth/terminal/jobclosure were not persisted; no operational PASS or launch until exact reconciliation",
   "stage5_app_cleanup": "OBSOLETE_ORIGINAL_NINE_TARGETS_READ_ONLY_CAPTURE_FAILED_NO_PLAN_NO_TERMINATION; historical helper has known finalizer weakness and cannot be reactivated without fresh reviewed correction/selection",
-  "stage5_runtime_safe_extract": "INACTIVE_SOURCE_INDEPENDENT14_PURE_CHECKS_PASS_ONLY; actual Linux ABI fixtures, owned remote adapter, installed payload capture and original-prefix cold recovery remain NOT_RUN"
+  "stage5_runtime_safe_extract": "INACTIVE_SOURCE_INDEPENDENT14_PURE_CHECKS_PASS_ONLY; actual Linux ABI fixtures, owned remote adapter, installed payload capture and original-prefix cold recovery remain NOT_RUN",
+  "stage5_windows_worker_fix": "SOURCE_PEER_AND55_FOCUSED_PURE_TESTS_PASS; corrected C-only actual fixture NOT_RUN; cannot retroactively close old DriveFS02 scope"
 }

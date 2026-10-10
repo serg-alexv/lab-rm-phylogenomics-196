@@ -197,122 +197,46 @@ def windows_io(args):
     return 0
 
 
-def drain_windows_job(api, job, process_handle, record, persist,
-                      timeout=5, clock=time.monotonic, pause=time.sleep, root_terminal=None):
-    """A signalled root can leave terminating descendants; prove actual empty job."""
-    deadline = clock() + timeout
-    while True:
-        sample = {'elapsed_remaining_seconds': max(0, deadline-clock())}
-        try:sample['root_wait'] = api.wait(process_handle, 0)
-        except BaseException as error:
-            sample['error'] = {'kind':type(error).__name__, 'message':str(error),
-                               'winerror':getattr(error,'winerror',None)}
-        if sample.get('root_wait') == 0 and root_terminal is not None:
-            root_terminal(); root_terminal=None
-        try:
-            sample['job'] = api.job_state(job)
-            empty = (sample.get('root_wait') == 0 and sample['job']['job_active_processes'] == 0
-                     and not sample['job']['job_pids'])
-        except BaseException as error:
-            sample['error'] = {'kind':type(error).__name__, 'message':str(error),
-                               'winerror':getattr(error,'winerror',None)}
-            empty = False
-        record['drain_samples'].append(sample); persist(record)
-        if empty:return sample['job']
-        require(clock() < deadline, 'Owned Windows worker/job empty drain exceeded5s')
-        pause(min(.05, max(0, deadline-clock())))
-
-
-def windows_job(api, argv, owner, evidence):
-    """One named job; persist exact birth/exit before finite full-job drain.
-
-    A80 remains unchanged. Root exit is distinct from job emptiness. Only this
-    newly created job/root can be terminated; unknown closure stays fatal.
-    """
-    evidence = Path(evidence)
-    require(WINDOWS_WORK in evidence.parents and evidence == evidence.resolve()
-            and not evidence.exists(), 'Fresh C Windows worker evidence required')
-    for parent in evidence.parents:
-        info=parent.lstat()
-        require(not info.st_file_attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT
-                and not parent.is_symlink(), 'Windows worker evidence ancestry alias')
-    evidence.mkdir()
-    A=load_pinned('atomic_iqtree_windows.py')
-    record={'schema':'STAGE05_OWNED_WINDOWS_IO_JOB_V2','state':'FAILED', 'argv':argv,
-            'owner':owner,'source_sha256':sha(__file__),'api_sha256':PINS['atomic_iqtree_windows.py'],
-            'job_name':'Local\\LAB_RM_STAGE5_IO_'+uuid.uuid4().hex,'drain_samples':[],
-            'owned_closure_proven':True,'created':False,'assigned':False}
-    def persist(value):A.atomic(evidence/'progress.json',value)
-    job=None;process=api.PROCESS();birth=None;original=None;closure=None
+def windows_job(api, argv, owner):
+    """One suspended, assigned, then resumed I/O child; active-process limit1."""
+    job = api.create_job(None, None); require(job, 'Cannot create owned UNC I/O job')
+    process = api.PROCESS(); created = False
     try:
-        ctypes.set_last_error(0);job=api.create_job(None,record['job_name'])
-        api.ok(job,'Create exact named Windows I/O job')
-        require(ctypes.get_last_error()!=183,'Named owned job already exists; never adopt')
-        persist(record)
-        limits=api.EXTENDED();limits.BasicLimitInformation.LimitFlags=0x2000|0x8
-        limits.BasicLimitInformation.ActiveProcessLimit=1
-        api.ok(api.set_job(job,9,ctypes.byref(limits),ctypes.sizeof(limits)),'Set owned Windows I/O job')
-        startup=api.STARTUP();startup.cb=ctypes.sizeof(startup)
-        command=ctypes.create_unicode_buffer(subprocess.list2cmdline(argv))
-        api.ok(api.create(str(sys.executable),command,None,None,False,0x4|0x08000000,
-                          None,str(WORK),ctypes.byref(startup),ctypes.byref(process)), 'Create suspended Windows I/O child')
-        record.update(created=True,owned_closure_proven=False)
-        birth=api.identity(process.hProcess,process.dwProcessId);record['birth']=birth
-        # Persist even if subsequent image validation/assignment/resume fails.
-        A.atomic(evidence/'launch.json',record)
-        require(Path(birth['executable']).resolve()==Path(sys.executable).resolve(),'Actual Windows worker image differs')
-        api.ok(api.assign(job,process.hProcess),'Assign exact Windows I/O child');record['assigned']=True
-        persist(record)
-        require(api.resume(process.hThread)==1,'Resume exact Windows I/O child suspend count differs')
-        require(api.wait(process.hProcess,20000)==0,'Owned Windows I/O root exceeded20s')
-        final=api.identity(process.hProcess,process.dwProcessId,birth['executable'],birth['session_id'])
-        record['exit']=final;A.atomic(evidence/'root_exit.json',record)
-        require(final['creation_filetime']==birth['creation_filetime'] and final['exited']
-                and final['exit_filetime']>final['creation_filetime'],
-                'Exact retained Windows worker root exit differs')
-        closure=drain_windows_job(api,job,process.hProcess,record,persist)
-        record.update(owned_closure_proven=True,owned_job=closure)
-        require(final['exit_code']==0,'Owned Windows worker exited nonzero after closed scope')
-        record['state']='PASS_EXACT_RETAINED_ROOT_EXIT0_AND_EMPTY_NAMED_JOB'
-    except BaseException as error:
-        original=error
-        record['original_error']={'kind':type(error).__name__,'message':str(error),
-                                  'winerror':getattr(error,'winerror',None)}
+        limits = api.EXTENDED(); limits.BasicLimitInformation.LimitFlags = 0x2000 | 0x8
+        limits.BasicLimitInformation.ActiveProcessLimit = 1
+        api.ok(api.set_job(job, 9, ctypes.byref(limits), ctypes.sizeof(limits)), 'Set owned UNC I/O job')
+        startup = api.STARTUP(); startup.cb = ctypes.sizeof(startup)
+        command = ctypes.create_unicode_buffer(subprocess.list2cmdline(argv))
+        api.ok(api.create(str(sys.executable), command, None, None, False, 0x4 | 0x08000000,
+                          None, str(WORK), ctypes.byref(startup), ctypes.byref(process)), 'Create suspended UNC I/O child')
+        created = True
+        birth = api.identity(process.hProcess, process.dwProcessId)
+        require(Path(birth['executable']).resolve() == Path(sys.executable).resolve(), 'Actual UNC worker image differs')
+        api.ok(api.assign(job, process.hProcess), 'Assign exact UNC I/O child')
+        require(api.resume(process.hThread) != 0xffffffff, 'Resume exact UNC I/O child failed')
+        if api.wait(process.hProcess, 20000) != 0:
+            api.ok(api.terminate_job(job, 2), 'Terminate only owned timed-out UNC I/O job')
+            require(api.wait(process.hProcess, 5000) == 0, 'Owned UNC I/O child closure unproven')
+            raise TimeoutError('Owned Windows UNC I/O exceeded20s; stopped owned job')
+        final = api.identity(process.hProcess, process.dwProcessId, birth['executable'], birth['session_id'])
+        closure = api.job_state(job)
+        require(final['creation_filetime'] == birth['creation_filetime'] and final['exited']
+                and final['exit_code'] == 0 and closure['job_active_processes'] == 0 and not closure['job_pids'],
+                'Exact Windows UNC child exit/job closure differs')
+        return dict(argv=argv, birth=birth, exit=final, owned_job=closure)
     finally:
-        if record['created'] and not record['owned_closure_proven']:
+        closure_proven = True
+        if created:
             try:
-                if record['assigned']:
-                    api.ok(api.terminate_job(job,2),'Terminate only exact owned failed Windows job')
-                else:
-                    api.ok(api.terminate(process.hProcess,2),'Terminate exact unassigned suspended child')
-                def failed_root_terminal():
-                    final=api.identity(process.hProcess,process.dwProcessId,
-                        birth['executable'] if birth else str(sys.executable),
-                        birth['session_id'] if birth else owner['session_id'])
-                    if birth:require(final['creation_filetime']==birth['creation_filetime'],'Failed retained root birth differs')
-                    require(final['exited'] and final['exit_filetime']>final['creation_filetime'],
-                            'Failed retained root terminal birth/exit time unproven')
-                    record['exit']=final;A.atomic(evidence/'root_exit.json',record)
-                closure=drain_windows_job(api,job,process.hProcess,record,persist,root_terminal=failed_root_terminal)
-                record.update(owned_job=closure,owned_closure_proven=True)
-            except BaseException as error:
-                record['closure_error']={'kind':type(error).__name__,'message':str(error),
-                                         'winerror':getattr(error,'winerror',None)}
-        close_errors=[]
-        for name,handle in [('thread',process.hThread),('process',process.hProcess),('job',job)]:
-            if handle:
-                try:api.ok(api.close(handle),'Close exact owned '+name+' handle')
-                except BaseException as error:close_errors.append({'handle':name,'kind':type(error).__name__,'message':str(error)})
-        if close_errors:record.update(state='FAILED',handle_close_errors=close_errors)
-        try:A.atomic(evidence/'result.json',record)
-        except BaseException as error:
-            record['result_write_error']={'kind':type(error).__name__,'message':str(error)}
-            if original is None:original=error
-    if not record['owned_closure_proven']:
-        raise A.OwnedClosureFailure('Owned Windows I/O closure unproven; see '+str(evidence/'result.json')) from original
-    if original is not None:raise original
-    require(not close_errors and 'result_write_error' not in record,'Owned Windows worker finalizer failed; see receipt')
-    return record
+                if api.wait(process.hProcess, 0) != 0:
+                    api.terminate(process.hProcess, 2); api.wait(process.hProcess, 5000)
+                closure_proven = api.wait(process.hProcess, 0) == 0 and api.job_state(job)['job_active_processes'] == 0
+            except BaseException:
+                closure_proven = False
+            api.close(process.hThread); api.close(process.hProcess)
+        api.close(job)
+        if not closure_proven:
+            raise load_pinned('atomic_iqtree_windows.py').OwnedClosureFailure('Owned Windows UNC worker closure unproven')
 
 
 def underlay_snapshot():
@@ -384,7 +308,7 @@ def windows_owner(args):
                 if phase == 'windows-io':
                     result['steps'].append(dict(phase=phase, **windows_job(api,
                         [sys.executable, '-B', str(Path(__file__)), '--mode', phase, '--request', str(request),
-                         '--request-sha256', request_sha, '--run'], owner, output/'windows_io_worker')))
+                         '--request-sha256', request_sha, '--run'], owner)))
                     continue
                 argv = [WSL, '-d', 'Ubuntu', '-u', 'root', '--exec', ENV + '/bin/python', '-B', linux_path(Path(__file__)),
                         '--mode', phase, '--request', linux_path(request), '--request-sha256', request_sha, '--run']
