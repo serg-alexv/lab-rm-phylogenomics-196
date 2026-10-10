@@ -1,0 +1,123 @@
+{
+  "schema": "STAGE05_FIRST_BACKING_ACTUAL_CONFIG_SOURCE_PREPARATION_V1",
+  "utc": "2026-10-10T03:16:40.888720+00:00",
+  "state": "FROZEN_SOURCE_PREPARATION_ONLY_PENDING_INDEPENDENT_PEER_AND_PUBLICATION",
+  "source_pins": {
+    "stage5_build_backing_actual_config.py": {
+      "bytes": 13028,
+      "sha256": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c"
+    },
+    "prepare_stage5_first_backing_actual_request.py": {
+      "bytes": 6831,
+      "sha256": "aed494a55de00bf719ce0827f4e45c66b2079203dd046bb49243e805b066c44a"
+    },
+    "test_stage5_build_backing_actual_config.py": {
+      "bytes": 8442,
+      "sha256": "b6d2ad80523a32cb259870c6615b2660c3bb30257a4c4d26e4e9148d269f3878"
+    },
+    "test_prepare_stage5_first_backing_actual_request.py": {
+      "bytes": 6187,
+      "sha256": "30d065ad2cc864c09ff50c127d49567e823eae7a70cebbd1285c6fa75e543816"
+    },
+    "stage5_first_backing_actual_config_METHODS.md": {
+      "bytes": 4387,
+      "sha256": "28a00eb22178d171278c5b56e92b09c9a898e8f7e917a2fb628fca172d94bd4d"
+    },
+    "stage5_unc_backing_architecture01.md": {
+      "bytes": 5979,
+      "sha256": "73e695b70d64607358609ad13f200232cffb248b036426ace2e90c6a2bf4d0d1"
+    },
+    "stage5_unc_backing_architecture01.json": {
+      "bytes": 6004,
+      "sha256": "bbd4090559c7845afbfccbb47e5b55f2260e6a79f00c574c3bccdf913b03f650"
+    },
+    "stage5_unc_backing_probe.py": {
+      "bytes": 29061,
+      "sha256": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_build_actual_config.py": {
+      "bytes": 13011,
+      "sha256": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa"
+    },
+    "prepare_stage5_first_actual_request_v3.py": {
+      "bytes": 6828,
+      "sha256": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "stage5_actual_config_request.template.json": {
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+    }
+  },
+  "builder_preserved_preimage": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa",
+  "builder_five_literal_rules_reverse_to_exact_original": true,
+  "request_preserved_v3_preimage": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09",
+  "request_only_one_unc_route_literal_changed": true,
+  "exact_routes": {
+    "toolchain": "stage5_setup_toolchain_actual_postiq_07",
+    "runtime": "stage5_setup_runtime_actual_postiq_08",
+    "interop": "stage5_interop_actual_postiq_05",
+    "storage": "stage5_setup_storage_actual_postiq_06",
+    "drivefs": "stage5_setup_drivefs_actual_postiq_04",
+    "unc": "stage5_unc_backing_actual_postiq_04"
+  },
+  "actual_candidate_routes": {
+    "runtime_manifest": "stage5_runtime_actual_postiq_08.json",
+    "storage_proof": "stage5_storage_actual_postiq_06.json"
+  },
+  "native_resource_bytes_unchanged": {
+    "incremental_windows_requirement_bytes": 1610612736,
+    "commit_requirement_bytes": 3221225472,
+    "linux_job_requirement_bytes": 1610612736,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "old_builder_forced_native_wait_seconds": 0,
+  "new_builder_explicit_finite_native_wait_seconds": 1800,
+  "builder_immediate_Windows_capacity_gate_unchanged": true,
+  "authored_test_result": {
+    "state": "PASS",
+    "pure_synthetic_count": 15,
+    "builder_count": 8,
+    "request_count": 7,
+    "actual_Windows_default_NOOP_count": 2
+  },
+  "preserved_science": [
+    "R/P/W sources and original template unchanged",
+    "full PADLOC5027 and complete three-family DefenseFinder method",
+    "canonical Linux root/output and ext4 same-object identity guard",
+    "five byte budgets/reserves/two threads/serial owner",
+    "all actual gate, current resource, immutable source/control, ownership/closure checks"
+  ],
+  "actual_operations": {
+    "UNC04": "NOT_RUN",
+    "actual_request_creation": "NOT_RUN",
+    "actual_config_build": "NOT_RUN",
+    "native_admission": "NOT_RUN",
+    "science": "NOT_RUN",
+    "WSL": "NOT_RUN",
+    "lock": "NOT_ACQUIRED",
+    "Git": "NOT_RUN"
+  },
+  "independent_peer": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT"
+}

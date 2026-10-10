@@ -1,0 +1,169 @@
+{
+  "schema": "STAGE05_FIRST_BACKING_CONFIG_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_MINIMAL_BACKING_FIRST_REQUEST_CONFIG_BUILDER_SOURCE_ONLY",
+  "utc": "2026-10-10T03:19:16.605704+00:00",
+  "reviewer_source_sha256": "7764c553913d2494b851df3df0ea1b001b678004b28eccfd45930b872950dc40",
+  "method": "C-only source byte/diff checks, bounded pure synthetic tests/default NOOPs and synthetic temporary-C config parse. No actual gate/candidate/request/config creation, G/UNC, WSL, WorkflowLock, registry, process effects or Git action.",
+  "scientific_adoption": false,
+  "actual_backing_UNC04": "NOT_RUN",
+  "frozen_sources": {
+    "stage5_build_backing_actual_config.py": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c",
+    "prepare_stage5_first_backing_actual_request.py": "aed494a55de00bf719ce0827f4e45c66b2079203dd046bb49243e805b066c44a",
+    "test_stage5_build_backing_actual_config.py": "b6d2ad80523a32cb259870c6615b2660c3bb30257a4c4d26e4e9148d269f3878",
+    "test_prepare_stage5_first_backing_actual_request.py": "30d065ad2cc864c09ff50c127d49567e823eae7a70cebbd1285c6fa75e543816",
+    "stage5_first_backing_actual_config_METHODS.md": "28a00eb22178d171278c5b56e92b09c9a898e8f7e917a2fb628fca172d94bd4d",
+    "stage5_first_backing_actual_config_preparation01.json": "3f8474067a919e1b19a75712764c29dda5953fd0cfafc324d7d12489c25cd192",
+    "stage5_build_actual_config.py": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa",
+    "prepare_stage5_first_actual_request_v3.py": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09"
+  },
+  "checks": [
+    {
+      "name": "test_stage5_build_backing_actual_config.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.131s\n\nOK\n"
+    },
+    {
+      "name": "test_prepare_stage5_first_backing_actual_request.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.009s\n\nOK\n"
+    },
+    {
+      "name": "stage5_build_backing_actual_config.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_NOT_RUN\", \"native_execution\": \"NOT_RUN\", \"required_gates\": [\"toolchain\", \"runtime\", \"interop\", \"storage\", \"drivefs\", \"unc\"], \"explicit_resource_fields\": [\"incremental_windows_requirement_bytes\", \"commit_requirement_bytes\", \"linux_job_requirement_bytes\", \"process_address_space_limit_bytes\", \"sampled_rss_stop_bytes\"]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "prepare_stage5_first_backing_actual_request.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"PREPARED_NOT_RUN\", \"gates_executed\": 0, \"requests_written\": 0, \"scientific_execution\": \"NOT_RUN\"}\n",
+      "stderr": ""
+    }
+  ],
+  "builder_exact_preimage_restored_by_five_rules": true,
+  "request_exact_v3_restored_by_one_route": true,
+  "native_resource_bytes_unchanged": {
+    "incremental_windows_requirement_bytes": 1610612736,
+    "commit_requirement_bytes": 3221225472,
+    "linux_job_requirement_bytes": 1610612736,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "finite_native_resource_wait_seconds": 1800,
+  "unchanged_native_parser_accepts_synthetic_policy": true,
+  "builder_immediate_Windows_capacity_gate_unchanged": true,
+  "full_method_support_template_runner_supervisor_unchanged": true,
+  "reviewed_contracts": [
+    "Six actual gates plus exact explicit unlock hashes remain required",
+    "Backing probe exact new source, expected success schema, all three phases and exact owned cleanup required; failed canonical UNC03 cannot qualify",
+    "Runtime08/storage06 candidate paths/pins and actual producer terminal joins preserved",
+    "UNC final receipt hash and selected storage proof path/SHA joins preserved",
+    "Original WorkflowLock/current direct authority/STOP/fresh Windows physical+commit+disk checks preserved",
+    "Unchanged Linux native reserves, two threads, serial owner, sampled RSS and per-process address limits remain mandatory",
+    "New1800second retry window retains fresh admission before native commands and finite defer on expiration; original builder forced0"
+  ],
+  "actual_requirements": [
+    "Root publishes exact source/peer packet and verifies remote bytes",
+    "Close and independently accept actual backing UNC04 three-phase bidirectional sentinel plus exact cleanup through current ext4 proof",
+    "Create fresh actual request via --prepare, then fresh actual config via --build under original lock/current resources; independently review actual build and explicit unlock",
+    "Bind exact new Windows backing owner to original scientific Linux runner and only then admit one approved full-method genome"
+  ],
+  "actual_operations": "NOT_RUN; synthetic temporary config is test-only and removed",
+  "old_sources_and_failed_scopes_preserved": true,
+  "checked_files": {
+    "review_stage5_first_backing_actual_config_source01.py": {
+      "bytes": 8107,
+      "sha256": "7764c553913d2494b851df3df0ea1b001b678004b28eccfd45930b872950dc40"
+    },
+    "stage5_build_backing_actual_config.py": {
+      "bytes": 13028,
+      "sha256": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c"
+    },
+    "prepare_stage5_first_backing_actual_request.py": {
+      "bytes": 6831,
+      "sha256": "aed494a55de00bf719ce0827f4e45c66b2079203dd046bb49243e805b066c44a"
+    },
+    "test_stage5_build_backing_actual_config.py": {
+      "bytes": 8442,
+      "sha256": "b6d2ad80523a32cb259870c6615b2660c3bb30257a4c4d26e4e9148d269f3878"
+    },
+    "test_prepare_stage5_first_backing_actual_request.py": {
+      "bytes": 6187,
+      "sha256": "30d065ad2cc864c09ff50c127d49567e823eae7a70cebbd1285c6fa75e543816"
+    },
+    "stage5_first_backing_actual_config_METHODS.md": {
+      "bytes": 4387,
+      "sha256": "28a00eb22178d171278c5b56e92b09c9a898e8f7e917a2fb628fca172d94bd4d"
+    },
+    "stage5_first_backing_actual_config_preparation01.json": {
+      "bytes": 5043,
+      "sha256": "3f8474067a919e1b19a75712764c29dda5953fd0cfafc324d7d12489c25cd192"
+    },
+    "stage5_build_actual_config.py": {
+      "bytes": 13011,
+      "sha256": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa"
+    },
+    "prepare_stage5_first_actual_request_v3.py": {
+      "bytes": 6828,
+      "sha256": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_atomic.py": {
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    "stage5_windows_backing_owner.py": {
+      "bytes": 18562,
+      "sha256": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_config.template.json": {
+      "bytes": 2613,
+      "sha256": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_interop_smoke_windows.py": {
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    "stage5_unc_backing_probe.py": {
+      "bytes": 29061,
+      "sha256": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5"
+    },
+    "stage5_unc_backing_architecture01.md": {
+      "bytes": 5979,
+      "sha256": "73e695b70d64607358609ad13f200232cffb248b036426ace2e90c6a2bf4d0d1"
+    },
+    "stage5_unc_backing_architecture01.json": {
+      "bytes": 6004,
+      "sha256": "bbd4090559c7845afbfccbb47e5b55f2260e6a79f00c574c3bccdf913b03f650"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_actual_config_request.template.json": {
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+    }
+  }
+}

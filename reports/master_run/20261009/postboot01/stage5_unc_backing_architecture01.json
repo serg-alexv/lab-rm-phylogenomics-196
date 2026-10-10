@@ -1,0 +1,136 @@
+{
+  "schema": "STAGE05_BACKING_UNC_ARCHITECTURE_REVIEW_V1",
+  "utc": "2026-10-10T03:14:14.442965+00:00",
+  "state": "SOURCE_AND_ACTUAL_READONLY_DIAGNOSIS_SUPPORT_DIRECT_BACKING_TRANSPORT_PENDING_NEW_BIDIRECTIONAL_PROBE",
+  "method": {
+    "path": "work/stage5_unc_backing_architecture01.md",
+    "bytes": 5979,
+    "sha256": "73e695b70d64607358609ad13f200232cffb248b036426ace2e90c6a2bf4d0d1"
+  },
+  "source_reference": {
+    "repository": "https://github.com/microsoft/WSL",
+    "official_tag": "3.0.2",
+    "revision": "0dc1bc1f545daa54976df7437d4432e9818cf86d",
+    "raw_sources_read_and_hashed": [
+      {
+        "path": "src/linux/plan9/p9file.cpp",
+        "bytes": 33123,
+        "sha256": "a8f67398df1b30f2a72c1caacc8a1e7f5cd498bc472c010ab861c9e7dae0fcb5",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/src/linux/plan9/p9file.cpp"
+      },
+      {
+        "path": "test/windows/Plan9Tests.cpp",
+        "bytes": 24385,
+        "sha256": "398f03371ec9908d103e1b89095aaab3642cee750d9a60d94a6f6a50d6c4693f",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/test/windows/Plan9Tests.cpp"
+      },
+      {
+        "path": "src/linux/init/plan9.cpp",
+        "bytes": 12991,
+        "sha256": "34b869ef9bd25e50245b3a780723b732692ff44f3c0a6d9422f5f2947c45417e",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/src/linux/init/plan9.cpp"
+      },
+      {
+        "path": "doc/docs/technical-documentation/drvfs.md",
+        "bytes": 2702,
+        "sha256": "47c1ccc9ba96c7c709fb64f1d788f6c2a49539e2a411d37c4e5aa0052118d64d",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/doc/docs/technical-documentation/drvfs.md"
+      },
+      {
+        "path": "src/linux/plan9/p9fs.cpp",
+        "bytes": 5467,
+        "sha256": "d166c86e00abf10ec79a0abc9a4669c5c51519379a1a45e5d38f3e5711ff8f22",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/src/linux/plan9/p9fs.cpp"
+      },
+      {
+        "path": "src/linux/plan9/p9util.cpp",
+        "bytes": 6163,
+        "sha256": "9133a3727d2e3f9709b2807b5549d580d642b2091cafc3e9be70ace81b51f6cd",
+        "url": "https://raw.githubusercontent.com/microsoft/WSL/0dc1bc1f545daa54976df7437d4432e9818cf86d/src/linux/plan9/p9util.cpp"
+      }
+    ]
+  },
+  "C_receipts_reopened": {
+    "stage5_unc03_diagnostic_actual01/result.json": {
+      "bytes": 5386,
+      "sha256": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0"
+    },
+    "stage5_unc03_diagnostic_actual01/worker_result.json": {
+      "bytes": 10099,
+      "sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8"
+    },
+    "stage5_unc_bind_actual_postiq_03/request.json": {
+      "bytes": 2387,
+      "sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d"
+    },
+    "stage5_unc_bind_actual_postiq_03/prepared.json": {
+      "bytes": 3917,
+      "sha256": "75f1a373418b0be1610f8998643f421c939b5b49875ca0cfec5283c3bb99a020"
+    },
+    "stage5_storage_actual_postiq_06.json": {
+      "bytes": 1250,
+      "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "stage5_windows_owner.py": {
+      "bytes": 18551,
+      "sha256": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    }
+  },
+  "source_facts": [
+    "File::Walk denies crossings into drvfs/9p/virtiofs",
+    "upstream TestMounts asserts access denied for UNC inside DrvFS",
+    "elevated and nonelevated commands use separate Windows-drive mount namespaces",
+    "Plan9 serves Linux root and uses attached user identity"
+  ],
+  "current_diagnostic_join": {
+    "backing_linux_original_tiny_read": "PASS",
+    "sentinel_bytes": 116,
+    "sentinel_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+    "Linux_and_Windows_sentinel_inode": 33554461,
+    "Linux_and_Windows_directory_inode": 33554454,
+    "canonical_directory_and_leaf_Winerror": 5,
+    "backing_windows_leaf_Winerror": 2,
+    "DefaultUid": 0,
+    "positive_retained_worker_exit_empty_job_unlock_receipt": true,
+    "UNC_writes": 0,
+    "WSL_launches": 0
+  },
+  "inference": "Exact observations agree with the upstream DrvFS traversal restriction and justify qualifying fixed direct ext4 backing UNC while retaining canonical Linux bind.",
+  "not_established": [
+    "Windows G-underlay reparse/bypass mechanism",
+    "identity of Plan9 server mount namespace",
+    "bidirectional backing write/fsync/cleanup",
+    "new UNC04 or native scientific admission",
+    "old UNC03 success"
+  ],
+  "proposed_fixed_transport": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1",
+  "unchanged_science": [
+    "canonical Linux output path",
+    "ext4 canonical/backing identity validator",
+    "runner/supervisor full PADLOC5027 and three native DefenseFinder families",
+    "approved196/source/method",
+    "native resource byte budgets/reserves/threads and closure guards"
+  ],
+  "resource_wait_correction": {
+    "old_builder_forces_seconds": 0,
+    "new_separate_builder_requested_seconds": 1800,
+    "new_builder_source_pending_vm_helper_pins": true,
+    "builder_immediate_Windows_admission_unchanged": true
+  },
+  "actual_operations_by_this_review": {
+    "WSL": "NOT_RUN",
+    "UNC_IO": "NOT_RUN",
+    "locks": "NOT_ACQUIRED",
+    "mount_or_permissions_change": "NOT_RUN",
+    "Git": "NOT_RUN",
+    "scientific_adoption": false
+  }
+}

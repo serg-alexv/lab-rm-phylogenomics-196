@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T03:13:06.646677+00:00",
+  "updated_utc": "2026-10-10T03:21:54.561296+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "readonly UNC03 diagnosis PASS only; canonical access denied, backing exact116B read PASS; original UNC gate remains FAILED",
+  "stage5_operational_phase": "reviewed fixed backing UNC transport and explicit bounded wait; source only before actual qualification",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -268,7 +268,7 @@
   "stage5_storage_current": "PASS_CURRENT_BOOT_EXACT_EXT4_BIND; stage5_setup_storage_actual_postiq_06",
   "stage5_gdrive_session_parent_source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
   "stage5_drivefs_current": "PASS_CURRENT_BOOT_OWNED_FILESYSTEM_WORKER_AND_WINDOWS_READBACK; stage5_setup_drivefs_actual_postiq_04",
-  "stage5_unc_current": "FAILED03_PRESERVED; DIAGNOSIS_PASS_ONLY; NEW_BIDIRECTIONAL_BACKING_ALIAS_GATE_REQUIRED_BEFORE_SCIENCE",
+  "stage5_unc_current": "FAILED03_PRESERVED; BACKING04_BIDIRECTIONAL_QUALIFICATION_PENDING",
   "stage5_native_execution_current": "NOT_RUN; NEW_TOOLCHAIN07_RUNTIME08_INTEROP05_STORAGE06_DRIVEFS04_UNC03_REQUIRED",
   "stage5_wsl_reconfiguration": "PASS_NONSCIENTIFIC_WSL_CONFIG_CHANGED_AND_ALL_DISTROS_STOPPED",
   "stage5_wsl_config_actual_spool": "stage5_wsl_config_e169045dc0634577be5e041d922d44a7",
@@ -303,5 +303,6 @@
   "stage5_cold_owner_v2_source_independent_review_sha256": "0546f2cbdd8f1fc4b25be8bb9faf1725b15ac038bf00eaed7b2796475203b0b9",
   "stage5_unc03_diagnostic_actual_current": "PASS_CURRENT_CANONICAL_UNC_ACCESS_DENIED_5; BACKING_UNCHANGED_ORIGINAL_TINY_READ_PASS_116B; WINDOWS_SENTINEL_ABSENT_2_AT_DIAGNOSIS; RETAINED_JOB_CLOSED_AND_UNLOCKED",
   "stage5_unc03_diagnostic_actual_independent_review_sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f",
-  "stage5_windows_backing_alias_current": "SOURCE_PREPARATION_ONLY; NO_NEW_PROBE_OR_DETECTOR_EXECUTION"
+  "stage5_windows_backing_alias_current": "PASS_REVIEWED_SOURCE_ONLY; ACTUAL_BIDIRECTIONAL_GATE_AND_SCIENCE_NOT_RUN",
+  "stage5_resource_wait_policy": "ORIGINAL_BUILDER_WAIT0_PRESERVED; REVIEWED_BACKING_BUILDER_EXPLICIT_WAIT1800_WITH_UNCHANGED_ADMISSION_THRESHOLDS"
 }

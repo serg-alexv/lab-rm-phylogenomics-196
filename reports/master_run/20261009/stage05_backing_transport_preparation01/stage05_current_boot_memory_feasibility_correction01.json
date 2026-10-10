@@ -1,0 +1,15 @@
+{
+  "schema": "STAGE05_CURRENT_BOOT_MEMORY_ASSESSMENT_CORRECTION_V1",
+  "state": "CORRECTED_ACTUAL_BUILDER_WAIT_IS_ZERO_SOURCE_ONLY",
+  "preserved_original_report_sha256": "ce684c30693a0ab151b4a0fd3dcc2ecb30a6d74b747668a032dbc04a7069fac9",
+  "verified_actual_builder": "stage5_build_actual_config.py",
+  "verified_actual_builder_sha256": "15dd2d4de4646d154ebfe503ae91f765d15f9f3cbd9e75099fbbfe703ffa2daa",
+  "source_location": "explicit_policy at line55 overrides resource_wait_seconds to0 at line65",
+  "correction": "The1800second wait exists in the template and generic Supervisor implementation, but the actual generated first-genome config has resource_wait_seconds0. The original report did not trace this builder override. Its proposed1800second primary wait route does not apply to that actual config.",
+  "current_actual_policy": "Admission must already pass at each check or defer immediately. Full runtime rehash can still repopulate cache before native admission.",
+  "preserved_guards": "Windows physical/commit and Linux job/reserve thresholds, full scientific method, source/R500dc/P e5be pins and runtime manifestf64 are unchanged.",
+  "later_recorded_snapshot": "The UNC03 C result records physical3981516800 and commit4622622720 bytes, above3GiB at that instant. It is not a current remeasurement or proof that post-rehash native admission will pass.",
+  "root_only_next": "Only if needed, a separately reviewed minimal bridge builder may explicitly choose a finite positive wait while retaining all reserve and capacity thresholds. No wait override or cache effect was implemented by this correction.",
+  "original_report_modified": false,
+  "actual_WSL_or_cache_or_science_effects": "NOT_RUN"
+}
