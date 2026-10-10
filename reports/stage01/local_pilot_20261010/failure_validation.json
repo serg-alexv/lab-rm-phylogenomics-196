@@ -1,0 +1,24 @@
+{
+  "schema": "LOCAL_PILOT_FIRST_ERROR_V1",
+  "utc": "2026-10-10T07:06:29.332796+00:00",
+  "state": "STOPPED_ON_FIRST_IQTREE_ERROR",
+  "native_wsl_exit_code": 2,
+  "outer_exec_session_exit_code": 1,
+  "first_alignment": {
+    "taxa": 189,
+    "columns": 210,
+    "source_sequences_preserved": true,
+    "sha256": "60dfc8a4ec7949b331e569ebf3e327ef688590da42d0f7ef7dcf4e975a5a991d"
+  },
+  "completed_gene_trees": 0,
+  "astral_run": false,
+  "pilot_species_tree_exists": false,
+  "full_pipeline_started": false,
+  "exact_error": "Invalid -mem option. Example: -mem 200M, -mem 10G",
+  "original_script_sha256": "12f01df5050679c27d8acde1607d53753042e5946a3a958613d89e7479ad33c0",
+  "proposed_script_sha256": "5bc5e1b2b3d0101177f052558428e9e30b1bb53dbf674309ed612f5c22bec09b",
+  "proposal": "Replace -mem 3000 with -mem 3000M in the two IQ-TREE commands; no other changes. Candidate bash -n passed.",
+  "correction_applied_to_active_script": false,
+  "rerun_requires_confirmation": true,
+  "reason": "Latest user instruction explicitly requires asking before overwrite and requests an exact script. Rerun would replace run_pipeline.sh and regenerate the first alignment; original bytes and all failed-run logs are retained."
+}

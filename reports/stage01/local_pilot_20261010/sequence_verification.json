@@ -1,0 +1,73 @@
+{
+  "receipt_type": "pilot_sequence_verification",
+  "schema_version": 1,
+  "created_utc": "2026-10-10T07:05:13.947919Z",
+  "project_root": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "approved_accession_file": "config/approved_accessions.txt",
+  "approved_accession_count": 196,
+  "manifest_path": ".work/stage03_orthology_v2/accepted_sequence_manifest.tsv",
+  "manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+  "comparison_convention": "For each FASTA record, concatenate stored amino-acid lines, encode as ASCII without transformations, SHA-256 the bytes, and compare against accepted_sequence_manifest.tsv source_sequence_sha256 keyed by profile and assembly_accession; compare sequence length against protein_aa_length.",
+  "comparison_result": "PASS",
+  "markers": [
+    {
+      "profile": "5-FTHF_cyc-lig",
+      "relative_path": ".work/stage03_orthology_v2/marker_sequences/5-FTHF_cyc-lig.faa",
+      "file_sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+      "file_bytes": 37937,
+      "fasta_records": 189,
+      "manifest_expected_records": 189,
+      "sequence_sha256_mismatches": 0,
+      "sequence_length_mismatches": 0,
+      "approved_accession_membership_mismatches": 0
+    },
+    {
+      "profile": "ADK",
+      "relative_path": ".work/stage03_orthology_v2/marker_sequences/ADK.faa",
+      "file_sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+      "file_bytes": 44544,
+      "fasta_records": 196,
+      "manifest_expected_records": 196,
+      "sequence_sha256_mismatches": 0,
+      "sequence_length_mismatches": 0,
+      "approved_accession_membership_mismatches": 0
+    },
+    {
+      "profile": "ATP-synt",
+      "relative_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt.faa",
+      "file_sha256": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+      "file_bytes": 63043,
+      "fasta_records": 196,
+      "manifest_expected_records": 196,
+      "sequence_sha256_mismatches": 0,
+      "sequence_length_mismatches": 0,
+      "approved_accession_membership_mismatches": 0
+    },
+    {
+      "profile": "ATP-synt_A",
+      "relative_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_A.faa",
+      "file_sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+      "file_bytes": 50087,
+      "fasta_records": 196,
+      "manifest_expected_records": 196,
+      "sequence_sha256_mismatches": 0,
+      "sequence_length_mismatches": 0,
+      "approved_accession_membership_mismatches": 0
+    },
+    {
+      "profile": "ATP-synt_B",
+      "relative_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_B.faa",
+      "file_sha256": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+      "file_bytes": 36700,
+      "fasta_records": 196,
+      "manifest_expected_records": 196,
+      "sequence_sha256_mismatches": 0,
+      "sequence_length_mismatches": 0,
+      "approved_accession_membership_mismatches": 0
+    }
+  ],
+  "total_fasta_records": 973.0,
+  "total_sequence_sha256_mismatches": 0.0,
+  "total_sequence_length_mismatches": 0.0,
+  "total_approved_membership_mismatches": 0.0
+}

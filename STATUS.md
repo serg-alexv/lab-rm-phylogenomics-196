@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-PREPARED_NOT_RUN. Latest direct user instruction selects five existing validated core-marker FASTAs, runs the exact attached Bash script with PILOT_ONLY=1, and requires confirmation before full execution. See [pilot report](reports/stage01/local_pilot_20261010/README.md). Prior accepted Stage4 results are preserved. Stage5 native detectors remain not run.
+STOPPED_ON_FIRST_IQTREE_ERROR. MAFFT completed the first 189-taxon alignment; IQ-TREE rejects unitless -mem 3000. Zero gene trees; ASTRAL and full pipeline not run. A separate correction candidate uses -mem 3000M and awaits the user's required overwrite approval. See [actual pilot result](reports/stage01/local_pilot_20261010/RESULT.md).
 
 # Current execution status
 
