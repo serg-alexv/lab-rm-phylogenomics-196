@@ -1,0 +1,50 @@
+{
+  "schema": "STAGE05_UNC03_READONLY_DIAGNOSTIC_PUBLIC_SOURCE_MAPPING_V1",
+  "state": "PASS_SOURCE_ONLY_INDEPENDENT_PEER_ACTUAL_NOT_RUN",
+  "file_count": 6,
+  "total_bytes": 43195,
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_readonly_diagnostic.py",
+      "repository_path": "scripts/master_run/stage5_unc03_readonly_diagnostic.py",
+      "bytes": 17705,
+      "sha256": "c0458522ca5483670f008049d1a4457ad27531b003b8397893ee5b0d05b31697"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_unc03_readonly_diagnostic.py",
+      "repository_path": "scripts/master_run/test_stage5_unc03_readonly_diagnostic.py",
+      "bytes": 7060,
+      "sha256": "8ac84b4e7cbf93c54ef40249ae1d965eff5988efe0a0c29e3b0e672b81b43c23"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_unc03_readonly_diagnostic_source01.py",
+      "repository_path": "scripts/master_run/review_stage5_unc03_readonly_diagnostic_source01.py",
+      "bytes": 6035,
+      "sha256": "5f1254b30583ea2612eabaf2686d358698d61abc00025d3bbc210a67269ec873"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_UNC03_READONLY_DIAGNOSTIC_PREPARATION01.md",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_diagnostic_preparation01/STAGE05_UNC03_READONLY_DIAGNOSTIC_PREPARATION01.md",
+      "bytes": 3486,
+      "sha256": "fd13911f059cc1e8fcdf257ed4402427b0e7c7ac4607d14a8989c832165c777c"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_readonly_diagnostic_source_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_diagnostic_preparation01/stage5_unc03_readonly_diagnostic_source_independent_review01.json",
+      "bytes": 6394,
+      "sha256": "8e8d15081ee34c67a1b538d402e4ab6ba82d74b32d449f25679f2a8cf9901e54"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_unc03_diagnostic_source_preparation01\\PREPARATION_REPORT.json",
+      "repository_path": "reports/master_run/20261009/stage05_unc03_diagnostic_preparation01/PREPARATION_REPORT.json",
+      "bytes": 2515,
+      "sha256": "cb0f1e1589a7426f5f5bb2f932b1c5f61735460798f7c6c748e3d6dafb6bfb5e"
+    }
+  ],
+  "actual_runtime_actions": false,
+  "scientific_adoption_authorized": false,
+  "UNC_probe_success_claimed": false,
+  "failed_scope_peer_sha256": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd",
+  "preserved_unc02_source_sha256": "c0e5a8fdbb97b3b3d3251d417e530a858a65fdeff94ec24eaa2cd3dfe4acc45f",
+  "root_only_next": "Publish/readback exact sources; join independently closed failed03 scope and original unlock; run one exact U.windows_job-owned readonly diagnostic with original WorkflowLock and independently review actual evidence. No probe relaxation or scientific adoption."
+}

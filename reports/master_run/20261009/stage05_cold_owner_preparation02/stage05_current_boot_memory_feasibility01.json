@@ -1,0 +1,67 @@
+{
+  "schema": "STAGE05_CURRENT_BOOT_MEMORY_FEASIBILITY_C_SOURCE_REVIEW_V1",
+  "state": "EXISTING_BOUNDED_ADMISSION_WAIT_IS_PRIMARY_NO_RUNTIME_CHANGE",
+  "scope": "C source/JSON reads and primary documentation only. No WSL, native process handles, memory/cache effect, workflow lock, mount, image, Git or science execution.",
+  "verified_source_pins": {
+    "stage5_atomic.py": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_windows_owner.py": "8851bc4fc48ad3069d4ffabe410e159004ef4fc8d6d0755213fc14c22fe0603d",
+    "prepare_stage5_first_actual_request_v3.py": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09",
+    "stage5_atomic_config.template.json": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+    "stage5_runtime_actual_postiq_08.json": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  },
+  "root_provided_actual_resource_snapshot_not_remeasured_here": {
+    "windows_physical_available_bytes": 2513952768,
+    "windows_commit_headroom_bytes": 3247542272,
+    "native_windows_requirement_bytes": 3221225472,
+    "physical_shortfall_bytes": 707272704,
+    "commit_margin_bytes": 26316800,
+    "native_linux_job_plus_reserve_bytes": 2684354560,
+    "configured_WSL_memory_ceiling_bytes": 3221225472,
+    "configured_automatic_memory_reclaim": "dropCache"
+  },
+  "source_findings": [
+    "R.run_genome line550 performs Supervisor.admission before validate_runtime at552, so low baseline memory waits before the full runtime reread.",
+    "R.validate_runtime rehashes all three retained runtime/model manifests. R.sha scopes DONTNEED advice only to large regular retained files and expressly does not guarantee outer loop-image or Windows host-cache reclamation.",
+    "P.execute line255 performs fresh Supervisor.admission before every native launch, including the first command after full runtime validation. Its subsequent prelaunch configuration/storage guard does not rehash the whole runtime.",
+    "P.admission checks measured Windows physical+commit, Linux MemAvailable and both disk scopes. Existing resource_wait_seconds1800 allows a finite wait, sampling every at most2seconds; it does not launch the native child below the guard.",
+    "The original Windows owner renews the same original-lock owner lease at most every3seconds while its retained Linux runner waits. The Linux runner remains alive, preserving the current WSL boot during this wait.",
+    "Full approved PADLOC5027 and DefenseFinder method, two threads, 1.5GiB Windows increment, 1.5GiB Windows reserve, 1.5GiB Linux job and 1GiB Linux reserve are retained. No resource guard or scientific runtime pin changes are proposed."
+  ],
+  "primary_route": {
+    "action": "Use the already approved unchanged first-genome config and existing sole scientific owner; allow its finite guarded admission wait to run while the configured WSL dropCache idle policy can reclaim clean cache.",
+    "why": "This keeps boot, mounts, full scientific method, runtime manifestf64 and source/config identity intact. A second admission after full validation handles any renewed hash cache pressure.",
+    "bound_seconds_each_admission": 1800,
+    "guaranteed": "No native launch below the unchanged admission thresholds.",
+    "not_guaranteed": "Automatic reclamation timing or sufficient actual RAM recovery. Cache pressure is a hypothesis until fresh measured before/after evidence.",
+    "if_insufficient": "Existing Deferred terminal after the finite wait remains a resource deferral, never biological absence. Prove exact closed runner/client/unlock receipts before considering fallback."
+  },
+  "one_bounded_manual_fallback_design_not_implemented_or_run": {
+    "owner": "A separate explicit cachetrim step inside the existing original paired setup owner, retaining its single WorkflowLock, lease, ordinary RW toolchain proof and unchanged at-most-one native command reader; no second controller.",
+    "effect": "Exactly one root systemPython child calls os.sync(), then opens only /proc/sys/vm/drop_caches write-only and writes exactly ASCII1 newline once. No shell or arbitrary argv, swap change, configuration change, mount/detach/restart, source/model rewrite or inference.",
+    "scope": "Clean page-cache reclamation only; do not drop dentries/slab with3 when1 is sufficient. sync may flush already-dirty buffers; drop_caches itself does not delete files or free dirty objects.",
+    "required_binding": "Current exact boot ID before/after, exact owner/source/lease, fresh C intent/result/native+WSL terminal/unlock receipts, unchanged current manifest file SHAf64, unchanged RW toolchain identity, actual Linux and Windows resource measurements.",
+    "finite_limits": "Use a fixed native utility timeout and finite total setup-owner deadline; one effect and bounded before/after observations only. Actual source review/publication/readback are required first.",
+    "timing": "Only after the previous deferred scientific scope closes and original lock unlocks. Never launch a competing self-locking owner while a scientific admission waiter owns the original lock. A pre-run trim may help baseline but cannot guarantee that later full hashing stays below admission.",
+    "postcondition": "Re-read actual resources and preserve all scientific guards. Do not rerun full runtime discovery merely to prove cache trimming, because it repopulates cache; inspect already-qualified manifest bytes and boot/mount identities instead.",
+    "actual_status": "SOURCE_DESIGN_ONLY_NOT_IMPLEMENTED_NOT_RUN"
+  },
+  "primary_documentation": [
+    {
+      "url": "https://learn.microsoft.com/windows/wsl/wsl-config",
+      "supports": "dropCache is an automatic cached-memory reclamation setting; it is not a guarantee of this host's resource gain."
+    },
+    {
+      "url": "https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/",
+      "supports": "WSL automatic reclaim detects low CPU idle conditions; dropCache drops cache after idle. This is why retaining a low-CPU admission waiter can preserve the boot while waiting."
+    },
+    {
+      "url": "https://kernel.org/doc/html/latest/admin-guide/sysctl/vm.html",
+      "supports": "drop_caches1 frees clean page cache,2 frees reclaimable slab,3 both. sync can increase clean candidates. The operation can increase later I/O and is not a permanent cache-growth control."
+    }
+  ],
+  "actual_cache_calls": 0,
+  "actual_scientific_runs": 0,
+  "source_or_resource_policy_changes": 0,
+  "scientific_adoption_authorized": false
+}

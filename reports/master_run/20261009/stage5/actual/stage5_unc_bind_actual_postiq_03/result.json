@@ -1,0 +1,94 @@
+{
+  "actual_windows_owner": {
+    "cpu_seconds": 0.1875,
+    "creation_filetime": 134360750257197295,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "exit_code": null,
+    "exit_filetime": 0,
+    "exited": false,
+    "pid": 4172,
+    "session_id": 1
+  },
+  "config_sha256": "9962f09dbd1ec6a3452860673c6dccb4d17f5a519d553cf91246bad5fb6746b7",
+  "error": {
+    "kind": "ValueError",
+    "message": "Owned Windows worker exited nonzero after closed scope"
+  },
+  "resources": {
+    "commit_headroom_bytes": 4622622720,
+    "commit_limit_bytes": 22006775808,
+    "commit_total_bytes": 17384153088,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_03": 245799120896,
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1": 233509163008
+    },
+    "physical_available_bytes": 3981516800,
+    "utc": "2026-10-10T03:03:45.890767+00:00"
+  },
+  "schema": "STAGE05_EXACT_BIND_UNC_VISIBILITY_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_EXACT_EXT4_BIND_UNC_VISIBILITY_ONLY",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+  },
+  "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+  "state": "FAILED",
+  "steps": [
+    {
+      "argv": [
+        "C:\\Windows\\System32\\wsl.exe",
+        "-d",
+        "Ubuntu",
+        "-u",
+        "root",
+        "--exec",
+        "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+        "-B",
+        "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_unc_bind_probe.py",
+        "--mode",
+        "linux-prepare",
+        "--request",
+        "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_unc_bind_actual_postiq_03/request.json",
+        "--request-sha256",
+        "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+        "--run"
+      ],
+      "birth": {
+        "cpu_seconds": 0.0,
+        "creation_filetime": 134360750259434768,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": null,
+        "exit_filetime": 0,
+        "exited": false,
+        "pid": 24204,
+        "session_id": 1
+      },
+      "exit": {
+        "cpu_seconds": 0.015625,
+        "creation_filetime": 134360750259434768,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "exit_code": 0,
+        "exit_filetime": 134360750268361051,
+        "exited": true,
+        "pid": 24204,
+        "session_id": 1
+      },
+      "phase": "linux-prepare"
+    }
+  ],
+  "windows_g_underlay_before": {
+    "device": "428019990",
+    "entries": [],
+    "inode": "219",
+    "mtime_ns": "1791589115817000000"
+  },
+  "workflow_lock": {
+    "creation_filetime": 134359335921635133,
+    "file_index": 844424932784519,
+    "locked_byte": 0,
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143
+  }
+}

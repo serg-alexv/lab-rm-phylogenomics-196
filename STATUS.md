@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T03:02:56.265063+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T03:08:48.390560+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: fresh runtime08 discovery PASS; full installed manifest exactly reproduces f64edf; UNC03 config prepared but probe not run. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
+Stage5 current execution: UNC03 FAILED after a successful current-boot Linux sentinel preparation. The Windows worker exited1; retained terminal, empty named Job and original explicit unlock prove the failed scope closed. Independent review PASS confirms closure only; the unrecorded worker cause and possible partial Windows sentinel remain unresolved. Toolchain07, runtime08, interop05, storage06 and DriveFS04 passed; no detector or production curation ran. Exact read-only diagnosis is next. Corrected cold source v2 passed pure/source review only; no installed-runtime/VM capture, splitting or restore ran. Accepted Stage4 is unchanged; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -179,3 +179,6 @@ Actual operational update: fresh DriveFS04 write and Windows readback PASS; revi
 
 Actual operational update: fresh runtime08 discovery PASS; full installed manifest exactly reproduces f64edf; UNC03 config prepared but probe not run
 - `stage5_setup_runtime_actual_postiq_08`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: UNC03 failed scope independently closed; corrected cold v2 source only
+- `stage5_unc_bind_actual_postiq_03`: FAILED; exact command, closure, resources and lock-release receipts are retained.

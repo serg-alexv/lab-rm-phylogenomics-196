@@ -1,0 +1,74 @@
+{
+  "actual_kernel_limit_test_scope": "Fake resource module only; no real OS limit set.",
+  "actual_operations": {
+    "cleanup": "NOT_RUN",
+    "cold_restore": "NOT_RUN",
+    "download": "NOT_RUN",
+    "eviction": "NOT_RUN",
+    "freeze": "NOT_RUN",
+    "git_ref_change": "NOT_RUN",
+    "image_read": "NOT_RUN",
+    "inventory": "NOT_RUN",
+    "kernel_resource_limit": "NOT_RUN",
+    "logical_capture": "NOT_RUN",
+    "mount": "NOT_RUN",
+    "owner_integration": "NOT_RUN",
+    "raw_split": "NOT_RUN",
+    "upload": "NOT_RUN",
+    "windows_handle": "NOT_RUN",
+    "wsl": "NOT_RUN"
+  },
+  "authored_pure_tests": {
+    "count": 24,
+    "state": "PASS"
+  },
+  "cleanup_authority": false,
+  "corrections_verified": [
+    "Raw audit source_identity is now validated by strict image_identity before equality.",
+    "Raw cleanup clears handle only after api.ok CloseHandle success; unresolved closure carries retained lease and requires owner durable STOP.",
+    "Inventory v3 proof windows_owner has exact keys, strict int PID and strict str creation_filetime before matching actual lease identity.",
+    "Capture v2 pins v3 and starts sanitized result/try/alarm before source/dependency/control preflight; kernel AS limit512MiB is set and read back before large controls, with fresh admissions between reads and duplicate raw byte buffers cleared.",
+    "Capture final missing-child observation is UNPROVEN and cannot return successful exit."
+  ],
+  "independent_fake_or_pure_checks": {
+    "count": 16,
+    "scope": [
+      "Seven raw audit numeric float substitutions reject.",
+      "Two raw audit bool substitutions reject.",
+      "Fake failed CloseHandle on failed enter preserves numeric fake handle and strong lease in ImageHandleClosureFailure.",
+      "Four capture cold-proof windows_owner type/key substitutions reject via exact pinned v3 binding.",
+      "Fake resource module exact RLIMIT_AS512MiB set/readback and stricter inherited-limit refusal."
+    ],
+    "state": "PASS"
+  },
+  "nonblocking_adoption_notes": [
+    "ImageReadLease.expected retains the supplied dict reference. Existing owner must pass a private immutable identity snapshot and never mutate it; VM integration author explicitly committed to this caller contract.",
+    "Inventory v3 retains sampled self RSS accounting rather than capture v2 kernel AS cap. Existing owner must cover its full launch, allocation, timeout, descendants and closure.",
+    "Raw whole-file public-review predicate is syntactic; actual allocated/unallocated byte review is still required before any raw split or publication.",
+    "The source review does not credit real Windows share-mode exclusion through DrvFS; an actual writer-veto fixture and complete alias/writer exclusion remain required."
+  ],
+  "original_blocked_revisions_and_report_preserved": true,
+  "reviewed_at_utc": "2026-10-10T02:13:07.153880+00:00",
+  "schema": "STAGE05_CORRECTED_CAPTURE_HELPERS_INDEPENDENT_SOURCE_REVIEW_V1",
+  "source_mutation": false,
+  "source_sha256": {
+    "stage5_frozen_capture_helpers_independent_review01.json": "e3e2f5dfe5e612315e9ccc3f194375768334103f83a6e1c1a5b77d335c922b31",
+    "stage5_offline_image_read_parts.py": "4f5caa4c3067fbcce2bb517465522560322f6730615dd6bd078c91c58cff93ef",
+    "stage5_offline_image_read_parts_v2.py": "f0bf9fe02597cdce26e337d1c40fda45763b5225ea9f240e1962be18acacc151",
+    "stage5_runtime_capture_entry.py": "8b7ad2beef7b8d7c9690203b27072cb305d46384be082c75d79b74f11c0f5c87",
+    "stage5_runtime_capture_entry_v2.py": "e5f50eb7beb9297dce8e6a9e160ea1aef564bf0f08379dc73b839210f182bdf5",
+    "stage5_runtime_inventory_entry_v2.py": "dd3a68f0e1dc86399ca07f95a329f93b955e4e1b4082405a2cd72e8ee10f5363",
+    "stage5_runtime_inventory_entry_v3.py": "dbfd181eaccd2db37857409c48a6ba6964c1db5154fd4d7e055058d18802e60e",
+    "test_stage5_offline_image_read_parts_v2.py": "29d2b820a2abab8caa6f6d223a34ef99bfb5b4827d2c9e99c6255679eed53bfd",
+    "test_stage5_runtime_capture_entry_v2.py": "d97729d4f73bb126d836a4db34f781782204f93fbb1b8ed4cd46cdf48afb017c",
+    "test_stage5_runtime_inventory_entry_v3.py": "3fb848814c625140278922df22a8c4b1034a428c78bd4ae2281224510ca32471"
+  },
+  "state": "PASS_SOURCE_ONLY_EXISTING_OWNER_INTEGRATION_AND_ACTUAL_FIXTURES_PENDING",
+  "unchanged_contracts": [
+    "Original WorkflowLock identity/types/owner nonce/birth/current boot and required source/proof pins.",
+    "Read-only exact runtime mount/all aliases, full manifest/public/notices controls and exact EOF/SHA/offset/reassembly contracts.",
+    "No helper implements an independent lock owner, mount, network, eviction or scientific inference.",
+    "Full input/control/source rechecks and private error-kind-only public terminal remain."
+  ],
+  "windows_capture_v2_default_noop": "PASS"
+}

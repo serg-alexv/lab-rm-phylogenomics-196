@@ -1,0 +1,87 @@
+# Corrected existing paired owner cold branch v2: source preparation only
+
+The new `stage5_setup_cold_windows_v2.py` and `stage5_setup_cold_linux_v2.py` are explicit variants of the existing 6aa21e4c/24aab72b setup pair. They retain all original function ASTs, including ordinary writable toolchain observation and the Windows reader that accepts at most one native command. They add one cold branch inside that pair, without invoking another workflow owner. Both files default to NO_OP. No actual cold launch, handle acquisition, mount, inventory, capture, split, remote transfer or cleanup has occurred.
+
+The first closed Stage5 genome and its actual independent curation/archive remain the root owner's priority. This source packet does not adopt a scientific result or authorize local eviction. GitHub `main` and its verified recovery assets remain the primary project authority.
+
+## Preserved rejection history and four corrections
+
+The original frozen cold sources and their preparation packet remain unchanged. Independent blocked peer SHA256 `53390992b3787fe39cae4415e00804ad40532adaf910c5a57fb369dfc735aef0` and unlock-order addendum SHA256 `6f3d7989f08f957a8465d9b995777d853618a6ad078f46c2cc2af1ec8c0c741f` remain preserved as rejected source history. This separate revision addresses their four findings:
+
+| Finding | v2 implementation and pure verification |
+| --- | --- |
+| Partial clean-bit predicate accepted ext4 state5 | Linux parser and both Windows detached ledger joins require exact integer state1; state5, unknown bit9 and bool are rejected. Journal-recovery, orphan-present and last-orphan checks remain. |
+| Parent128 was booked without enforcement | Shared constants conservatively book parent512 plus worker512. Per-process RLIMIT_AS512 and sampled child-tree RSS512 remain distinct controls; no aggregate kernel-cap claim is made. |
+| Terminal count accepted float equality | The actual terminal join calls the strict integer count guard before matching complete phases and hash-chain receipts; floats, bools, strings and mismatches are rejected. |
+| STOP cleared before original unlock | The same owner's internal finalizer checks original unlock, writes and reads its explicit unlock receipt, and only then may remove exact owned STOP and assign PASS. Unlock failure, a released flag followed by close failure, receipt failure, changed STOP, retained handles or incomplete finalization keep FAILED and STOP. |
+
+All original ordinary setup function ASTs, writable toolchain observations and at-most-one-command reader gates are unchanged. The additional functions are internal contracts of the same existing owner branch; they do not launch or lock another controller. The final explicit unlock receipt and its SHA are retained in the result. A known failed worker can restore the toolchain and release the original lock, but keeps FAILED and STOP for master reconciliation.
+
+## Exact source pins
+
+| File | SHA256 |
+| --- | --- |
+| stage5_setup_cold_windows_v2.py | a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c |
+| stage5_setup_cold_linux_v2.py | d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c |
+| test_stage5_setup_cold_owner_v2.py | 5dc2005094f50d0dd04feb712504a5c4e58139875381604f0c07c8fa76ed54c7 |
+
+Thirty pure/synthetic tests pass, including unchanged ordinary function ASTs, strict immutable lock identity, dirty/journal/orphan rejection, write-open refusal semantics with no writes, exact POSIX worker argv, full ordered synthetic ledger, and count/argv/hash-chain/skipped-phase tamper rejection. Both default NOOP executions pass on Windows. These tests do not validate actual kernel behavior, Windows sharing across DrvFS, real mounts, the full Linux owner, resource sufficiency, or cold recovery. Independent integration source review is pending. The corrected underlying inventory/capture/image helper review is a separate PASS_SOURCE_ONLY report: `stage5_corrected_capture_helpers_independent_review01.json`, SHA256 `50585e236a8b3c49ecda1fd5273a7ead72bdae76252ec0565bd79610c1e98bac`.
+
+## One lock, finite phases
+
+The Windows variant acquires the original unchanged WorkflowLock once and renews the existing three-second owner lease. One retained `/usr/bin/python3` Linux bootstrap remains alive while the toolchain prefix is detached. It holds the existing tool-mount and global native-runner guards. Every native phase has its own fresh subspool, containing zero or one command as permitted by the unchanged ordinary reader. The extra ordered ledger validates the fixed phase membership, exact argv, source pins, owner nonce, boot, hash chain and complete native command accounting.
+
+1. Validate current original 24aa RW toolchain proof, prior scientific native launch/intent closure receipts, global native guard, current process references and mount namespaces, and the sole exact image loop.
+2. Clean unmount the original prefix; detach its exact loop if clean unmount did not already auto-detach it. No force or lazy unmount.
+3. Prove no image-backed loop or old mount alias remains, inspect bounded clean ext4 superblock flags/UUID, and repeat process-reference exclusion.
+4. Signal the Windows owner. It obtains an exact metadata snapshot, checks closure of its metadata handle, then retains the corrected helper's GENERIC_READ/FILE_SHARE_READ image handle, denying writes/deletes. Its expected identity is a private immutable snapshot. The same original owner checks identity on every renewal.
+5. Linux attempts actual `O_RDWR|O_NOFOLLOW` against the exact DrvFS image path. Only an actual permission/sharing/busy refusal is accepted. No write is called. A successful write-open is immediately checked closed and vetoes the step.
+6. Attach one kernel read-only loop, mount the original prefix as ext4 `ro,noload`, and validate loop identity, kernel read-only flag, UUID, mount device/root and every read-only alias.
+7. Generate an actual source/boot/owner/immutable-lock-bound cold proof, then run exactly one inventory_v3 or capture_v2 child under the existing Supervisor.
+8. Cleanly unmount RO, explicitly detach that loop, and prove detached state again.
+9. Signal the same Windows owner. It checks and closes its retained image handle; only actual successful CloseHandle allows a release acknowledgement.
+10. Restore the original RW toolchain mount and run the existing pinned runtime discovery again. Actual rediscovery bytes must hash to `f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1` before restoration is credited.
+
+The source enforces a 3600-second Linux owner bound and a 3660-second Windows owner bound. Worker and rediscovery phases have separate finite bounds. Utilities have finite native timeouts. The Linux bootstrap sets a per-process inherited 512MiB RLIMIT_AS before control parsing; the existing Supervisor separately samples child-tree RSS and closes exact pidfd-tracked descendants. This is not an aggregate kernel memory cap. Windows physical/commit admission keeps a 1536MiB reserve plus two conservatively booked 512MiB allocations for parent and worker (1024MiB combined, 2560MiB Windows physical/commit total) and at least 10GiB free on each measured volume; capture_v2 additionally admits the full output capacity. Linux job admission conservatively books the same 1024MiB plus a 256MiB Linux reserve. No parent128 enforcement is claimed. Actual sufficiency is unmeasured.
+
+The durable STOP is written before launch intent and is removed only after a successful worker, complete actual native/WSL closure, checked image-handle release, RW restoration and exact runtime06 rediscovery, followed by checked original WorkflowLock unlock and a durable read-back explicit unlock receipt. Only then may the exact owned STOP clear and final PASS be assigned. A known closed worker failure can complete normal restoration, but still returns failure and retains STOP for reconciliation. Uncertain scope, writer exclusion, handle closure or restoration stops the branch. It does not create a second controller or automatically force repairs after uncertainty.
+
+## Final result publication boundary
+
+After all native/WSL/image-handle closure, RW/runtime restoration and original unlock are proved, a final result persistence failure is publication uncertainty. It does not invalidate those actual closure facts or justify inventing unclosed processes. The finalizer changes the in-memory state to FAILED, makes one attempt to write a distinct `publication_failure.json` receipt, makes one FAILED-result retry, and propagates the original nonzero error. The failure receipt explicitly preserves the actual closure/restoration/unlock facts and marks master publication reconciliation required. This path cannot return PASS. A pure one-shot final-write fixture proves the failure receipt and FAILED retry; a total-outage fixture proves the fixed one-fallback/one-retry bound and propagated failure.
+
+If storage also refuses the separate failure receipt and retry, the master must retain the actual nonzero process/PTY terminal outside this spool, preserve existing pending and closure receipts, and reconcile storage/publication before another run. A lone pending or stale result, absent STOP, or an intermediate PASS file is insufficient. Actual adoption requires the successful caller terminal, final expected PASS receipt, no `publication_failure.json`, explicit original unlock receipt, complete source/phase/native/WSL/guard/RW evidence and current authority. This is a finite publication-failure boundary, not a new controller or an infinite recovery loop.
+
+## Two actual sessions and required review
+
+Inventory is the first later actual cold session. It creates a clearly private direct-C inventory/hold namespace and a sanitized public summary. After it restores RW, root must execute full original-byte/public-path/special-metadata/notice review. Pattern screening alone does not establish public scope. The inventory and all private matches must not be blindly published.
+
+Capture is a second later actual session. It requires the exact inventory, public review and notice review byte pins and explicit scope/metadata approval flags. The owner binds those fixed controls to the fresh actual cold proof; capture_v2 independently checks the controls and every original node. Capture must fail if loop-device identity, source inode/ctime, contents, metadata, original link graph or coverage changed between inventory and capture. The owner does not relabel changed evidence to make an old inventory pass.
+
+The three portable logical roles remain primary: the original `detector_env`, `defense_models` and `padloc_db` under their original prefixes, preserved with notices and complete metadata/link semantics in canonical parts no larger than 448MiB. Whole toolchain/VHDX raw parts are not produced by this branch. Ubuntu `ext4.vhdx` still needs its separate truly offline WSL boundary, whole allocated/unallocated/deleted-byte audit, and either independently public original bytes or a documented sanitized cold copy. Logical role archives and OS bootstrap do not count as literal splitting of both image files.
+
+## Later exact entrypoint form
+
+Root must first reconcile current GitHub authority, close the first genome, obtain fresh original 24aa toolchain and controller closure receipts, validate this new source review, and independently verify the published Windows/Linux source SHA256s. The reviewed Windows Python entrypoint is:
+
+```powershell
+& 'C:\Users\wheel\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -B `
+  'C:\Users\wheel\Documents\Codex\2026-10-09\new-chat\work\stage5_setup_cold_windows_v2.py' `
+  --cold --mode inventory --output '<NEW_DIRECT_C_WORK_STAGE5_SETUP_COLD_SPOOL>' `
+  --linux-source-sha256 d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c `
+  --controller-receipt '<ACTUAL_RETAINED_CONTROLLER_CLOSURE_JSON>' `
+  --controller-receipt-sha256 '<ACTUAL_CONTROLLER_RECEIPT_SHA256>' `
+  --controller-observer-sha256 483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a `
+  --toolchain-proof '<FRESH_ACTUAL_ORIGINAL24AA_RW_PROOF_JSON>' `
+  --toolchain-proof-sha256 '<ACTUAL_FRESH_RW_PROOF_SHA256>' `
+  --runtime '<ACTUAL_RUNTIME06_OR_BYTE_IDENTICAL_SUCCESSOR_JSON>' `
+  --runtime-sha256 f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1
+```
+
+This command deliberately omits `--run` and therefore remains NO_OP. Only root may add `--run` after actual admission. Capture uses `--mode capture` plus `--manifest/--manifest-sha256`, `--public-review/--public-review-sha256`, `--notices/--notices-sha256`, `--all-required-runtime-files-public-and-covered`, and `--all-special-metadata-resolved`. The source creates fresh nonce-labelled direct-C worker outputs, proof, and capture request; no arbitrary native argv is accepted.
+
+## Remaining actual integration criteria
+
+Independent source peer review and a disposable Linux fixture must precede original-image adoption. Real DrvFS sharing refusal, alias/writer exclusion, clean detach, actual no-journal RO access, all failure/retained-handle/STOP paths, exact native+WSL closure and RW restoration require actual owner evidence. Successful unchanged-byte restore to the original prefixes must reproduce the same scientific runtime manifest SHA; a new mount or boot alone must not change a deterministic content/ambient manifest. If a freshly qualified later runtime manifest equals the same SHA it joins directly; if it differs the branch vetoes rather than silently migrating the scientific runtime pin.
+
+After local logical capture, existing independent full payload, remote asset, fresh owned download and cold-tree validators still must run against actual bytes. Actual remote storage verification, canonical reader acceptance and a successful fresh cold restore are required before any local eviction or host wipe. No cleanup authority is granted by this source packet.

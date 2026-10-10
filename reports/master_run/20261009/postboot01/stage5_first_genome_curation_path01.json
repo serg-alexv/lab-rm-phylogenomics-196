@@ -1,0 +1,224 @@
+{
+  "schema": "STAGE05_FIRST_GENOME_CURATION_PATH_SOURCE_REVIEW_V1",
+  "created_utc": "2026-10-10T03:06:54.677035+00:00",
+  "accession": "GCF_000009425.1",
+  "state": "SOURCE_CONTRACT_READY_PENDING_CLOSED_RAW_CHECKPOINT_AND_EXECUTED_REVIEW",
+  "new_scientific_helper_required": false,
+  "procedure": {
+    "path": "work/stage5_first_genome_curation_path01.md",
+    "bytes": 11136,
+    "sha256": "5a365055ee588e10b335c31c4f895c04e1fa88ba5cbda78909181b269732e72e"
+  },
+  "inspected_frozen_inputs": [
+    {
+      "path": "work/stage05_curation/stage05_curation_atomic.py",
+      "bytes": 27453,
+      "sha256": "20e860b58737e74061a0e7a8b4c8ac21a8e6d95aa1a0685cfbc5bc54ced0deb0"
+    },
+    {
+      "path": "work/stage05_curation/validate_atomic_curation.py",
+      "bytes": 51003,
+      "sha256": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c"
+    },
+    {
+      "path": "work/stage05_curation/validate_one_atomic_curation.py",
+      "bytes": 9481,
+      "sha256": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66"
+    },
+    {
+      "path": "work/stage05_curation/stage05_architecture_policy.py",
+      "bytes": 21136,
+      "sha256": "942edc6312d1490afc681c42ab1e32d67c92373024acca7360918ed3eeaef3e4"
+    },
+    {
+      "path": "work/stage05_curation/accepted_source_pins.json",
+      "bytes": 124407,
+      "sha256": "a63e9c2b987ecabaa7457d4ab26ad0d6e086cc2488066a92647e72207542de84"
+    },
+    {
+      "path": "work/stage05_curation/pinned_model_candidate_scope.json",
+      "bytes": 382623,
+      "sha256": "6284203055ada645b3f6a8023e71e57a5fe8156bc9d4dffcc72da7614f3b30be"
+    },
+    {
+      "path": "work/stage05_curation/retained/stage05_curation_adapter.py",
+      "bytes": 75098,
+      "sha256": "cbaf00aee2d9961eaaa0be76b589315014a88183e3f7f8ed1f2ff234e6418177"
+    },
+    {
+      "path": "work/stage05_curation/retained/stage05_evidence.py",
+      "bytes": 17617,
+      "sha256": "7582d1a37980d89669159e3926f5b459e8d68abfde530ea0b8fc13b991d4363e"
+    },
+    {
+      "path": "work/stage05_curation/retained/independent_curated_v2.py",
+      "bytes": 81418,
+      "sha256": "2183d3459254c3acf9bc1f8fab14a240e9fc47c05b68592773438eb2ed086612"
+    },
+    {
+      "path": "work/stage05_curation/SINGLE_GENOME_AUDIT_METHODS.md",
+      "bytes": 5572,
+      "sha256": "96dda6998eae7a6fa6addb4f43ab34882a75bbdb5b80c9029075384cd8580b51"
+    },
+    {
+      "path": "work/stage05_curation/audit_settings.template.json",
+      "bytes": 1896,
+      "sha256": "5264396176bd6fa8969add5c89bffb6d38a1155939a33df1a567088bcd98852c"
+    },
+    {
+      "path": "work/stage5_atomic.py",
+      "bytes": 47884,
+      "sha256": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04"
+    },
+    {
+      "path": "work/stage5_atomic_process.py",
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    {
+      "path": "work/stage5_runtime_actual_postiq_08.json",
+      "bytes": 996074,
+      "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+    },
+    {
+      "path": "work/stage5_source_readiness01/master_stage5_source_readiness01.zip",
+      "bytes": 853741,
+      "sha256": "b06723bf684d76084072d710a0573b34137bc097b5a21f1069077ec69dc6a447"
+    }
+  ],
+  "accepted_source_receipt_pin": {
+    "asset_name": "stage03-source-and-search-001-020.zip",
+    "asset_sha256": "a94a6fd4b888b2c4117a668b3bac2ddc5979dc27626e6744d4c30fd02a8513ca",
+    "bytes": 3209,
+    "member": "source_locus_inputs/assemblies/GCF_000009425.1/build_receipt.json",
+    "release_tag": "stage03-hostmarkers196-v1",
+    "remote_asset_id": 622115850,
+    "remote_asset_url": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/download/stage03-hostmarkers196-v1/stage03-source-and-search-001-020.zip",
+    "sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413"
+  },
+  "historical_source_readiness": {
+    "scope": "ARCHIVED_HISTORICAL_SOURCE_BYTE_CHECK_NOT_FRESH_CANONICAL_SOURCE_READ",
+    "archive_member_pins": {
+      "stage5_source_readiness_actual_02/receipt.json": "400b37a260676f373a627bec66d2004c19fd7ec191961b7228f69b3d63984fb1",
+      "stage5_source_readiness_actual_02/per_accession.jsonl": "faa3060d08d7646ab4913108a28ac868699a0bc62fd9f337fc131c98dc9997c8",
+      "stage5_source_readiness_actual_02/actual_file_hashes.jsonl": "6fe8267c7ee7305e2768530f84703401d2bcaa5433e2c6f542bc367a048cc7f1"
+    },
+    "per_accession": {
+      "accession": "GCF_000009425.1",
+      "source_bytes": 11001775,
+      "source_files": 12,
+      "source_receipt_sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413",
+      "status": "PASS_CURRENT_ACCEPTED_SOURCE_BYTES_ONLY"
+    },
+    "source_files_including_receipt": [
+      {
+        "relative_path": "build_receipt.json",
+        "bytes": 3209,
+        "sha256": "f2f21c9b73d9152be655d610254833f9a09aa19a6aa2288070eddd6831854413"
+      },
+      {
+        "relative_path": "GCF_000009425.1.faa",
+        "bytes": 790824,
+        "sha256": "71e01c9ecf729b6039fec15a797dd5a6b020338def57fb7931828b0a9b183cc0"
+      },
+      {
+        "relative_path": "locus_crosswalk.tsv",
+        "bytes": 3010016,
+        "sha256": "cd128ae6eaa66b0bbecebfa20a55617420bbfb4876e3681369f7b188dd308b06"
+      },
+      {
+        "relative_path": "primary_ncbi_protein.faa",
+        "bytes": 861020,
+        "sha256": "acac74be510833ef881c7065c3b4873883e98f6ffbab889077a7e427acc81196"
+      },
+      {
+        "relative_path": "replicon_manifest.json",
+        "bytes": 1085,
+        "sha256": "0dd38713282f99ce727fd6213c48f49ed294c5fd4cadc17ca0884faa94701546"
+      },
+      {
+        "relative_path": "replicons/rep000001/defensefinder.faa",
+        "bytes": 719244,
+        "sha256": "16395cc2e00b8614587964988cb2a77afeaf5944c157b44b2cf8dc7df915990d"
+      },
+      {
+        "relative_path": "replicons/rep000001/defensefinder.gff",
+        "bytes": 625951,
+        "sha256": "600877cdff5b0d9b2209e957d8f42f9446108af86a96adb98d5980e18330b76a"
+      },
+      {
+        "relative_path": "replicons/rep000001/locus_crosswalk.tsv",
+        "bytes": 3010016,
+        "sha256": "cd128ae6eaa66b0bbecebfa20a55617420bbfb4876e3681369f7b188dd308b06"
+      },
+      {
+        "relative_path": "replicons/rep000001/padloc.faa",
+        "bytes": 790824,
+        "sha256": "71e01c9ecf729b6039fec15a797dd5a6b020338def57fb7931828b0a9b183cc0"
+      },
+      {
+        "relative_path": "replicons/rep000001/padloc.gff",
+        "bytes": 707075,
+        "sha256": "5c6774ad8813c030e9c76a28009fb7e2ce78914e141202957cb1b8719a54f058"
+      },
+      {
+        "relative_path": "replicons/rep000001/source_topology.json",
+        "bytes": 1029,
+        "sha256": "456725de720ac2d6afa7e262885f9ca5d217c57e62ca4361214c4ba7f65050ee"
+      },
+      {
+        "relative_path": "source_gene_features.tsv",
+        "bytes": 484125,
+        "sha256": "835b620baf5e6bf3ec6c762c487910778ddcea4991afa127a5418c66a3783f81"
+      },
+      {
+        "relative_path": "source_member_manifest.json",
+        "bytes": 566,
+        "sha256": "2629949da2ee44bd89ae04e9c48b0cf194ae442a9275056bca17fb087289cd49"
+      }
+    ]
+  },
+  "required_raw_inventory": [
+    "all_native_profile_domains.tsv",
+    "all_native_filtered_profile_hits.tsv",
+    "all_native_system_candidate_rows.tsv",
+    "all_native_query_completion.tsv",
+    "source_locus_crosswalk.tsv",
+    "source_replicon_topology.tsv",
+    "source_annotation_review.tsv",
+    "replicon_search_states.tsv"
+  ],
+  "adoption_order": [
+    "COMPLETE_VALIDATED raw manifest and native closure",
+    "unchanged producer prepare",
+    "executed hash-bound queue/domain/role/family/context/coverage review",
+    "unchanged producer apply emits candidate only",
+    "unchanged incremental independent audit reconstructs four cells",
+    "root publication and exact remote recovery verification"
+  ],
+  "independent_scientific_witness_schemas": [
+    "RM_FUNCTIONAL_DOMAIN_ROLE_REVIEW_V1",
+    "RM_MULTIPART_TYPE_II_FAMILY_REVIEW_V1 when actually supported"
+  ],
+  "independent_acceptance_status": "PASS_INDEPENDENT_SINGLE_GENOME_RM_CURATION",
+  "four_cell_values_may_include_NA": true,
+  "zero_requires_executed_complete_non_detection": true,
+  "additional_limits": [
+    "single-genome acceptance does not establish final196/784 matrix or final figure acceptance",
+    "predicted architecture does not establish biochemical activity",
+    "profile/model membership alone does not establish functional role",
+    "raw counts, candidate counts and role/family decisions remain unasserted until actual checkpoint and executed evidence review"
+  ],
+  "operations": {
+    "detectors": "NOT_RUN",
+    "biological_curation": "NOT_RUN",
+    "production_independent_audit": "NOT_RUN",
+    "biological_result_created": false,
+    "WSL": "NOT_RUN",
+    "locks": "NOT_ACQUIRED",
+    "Git": "NOT_RUN",
+    "canonical_source_current_read": "NOT_RUN",
+    "runtime_rehash_in_Linux": "NOT_RUN",
+    "source_mutation": false
+  }
+}

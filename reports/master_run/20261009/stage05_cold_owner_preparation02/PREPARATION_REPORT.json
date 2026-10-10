@@ -1,0 +1,90 @@
+{
+  "schema": "STAGE05_CORRECTED_COLD_EXISTING_OWNER_SOURCE_PREPARATION_V2",
+  "state": "PASS_CORRECTED_SOURCE_PREPARATION_AND_INDEPENDENT_PEER_ACTUAL_NOT_RUN",
+  "source_sha256": {
+    "stage5_setup_cold_linux_v2.py": "d734bac3b5604c645c9b099f9a220aae118e547dbcdf7178bb62b43b0c6dc77c",
+    "stage5_setup_cold_windows_v2.py": "a7991c3bb0408f2b7bf7a60e2e1aee13d69e49d1324b670e9321aa20bb3e554c",
+    "test_stage5_setup_cold_owner_v2.py": "5dc2005094f50d0dd04feb712504a5c4e58139875381604f0c07c8fa76ed54c7"
+  },
+  "preserved_source_and_rejection_history": {
+    "original_cold_linux_sha256": "d10faf17d42db44243f10fa1908fede549f3dd20ff58013fcaa37f36f3eeb9d5",
+    "original_cold_windows_sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1",
+    "blocked_peer_sha256": "53390992b3787fe39cae4415e00804ad40532adaf910c5a57fb369dfc735aef0",
+    "unlock_addendum_sha256": "6f3d7989f08f957a8465d9b995777d853618a6ad078f46c2cc2af1ec8c0c741f",
+    "original_files_modified": false
+  },
+  "corrections": [
+    "Linux ext4 parser and both Windows clean-detached joins require exact integer state1; state5 and unknown bits veto.",
+    "Shared policy conservatively books parent512MiB plus worker512MiB; no parent128 enforcement claim.",
+    "Terminal owned_command_count requires exact integer type and exact ledger sum.",
+    "Same-owner finalizer checks original byte unlock and its durable read-back receipt before exact owned STOP removal or finalPASS."
+  ],
+  "resource_policy": {
+    "per_process_inherited_RLIMIT_AS_bytes": 536870912,
+    "sampled_child_tree_rss_stop_bytes": 536870912,
+    "conservative_parent_plus_worker_booking_bytes": 1073741824,
+    "windows_reserve_bytes": 1610612736,
+    "windows_physical_and_commit_required_bytes_each": 2684354560,
+    "linux_job_booking_bytes": 1073741824,
+    "linux_reserve_bytes": 268435456,
+    "aggregate_kernel_cap_claimed": false,
+    "parent128_enforcement_claimed": false
+  },
+  "verification": {
+    "authored_pure_fake_tests": 30,
+    "authored_pure_fake_tests_result": "PASS",
+    "ordinary_original_setup_function_ASTs": "UNCHANGED",
+    "original_RW_toolchain_observer_and_at_most_one_command_reader": "UNCHANGED",
+    "both_separate_CLI_default_NOOPs": "PASS",
+    "failure_cases": [
+      "Linux clean-bit-plus-orphan state5 and unknown state9 rejected",
+      "Windows first and second detached joins reject state5, unknown state9 and bool",
+      "Terminal count rejects float, bool, string, negative and mismatch",
+      "STOP present while checked unlock receipt is persisted",
+      "Unlock failure before and after released flag retains FAILED and STOP",
+      "Unlock receipt failure or changed owned STOP retains FAILED and STOP",
+      "Synthetic retained image handle, incomplete closure or finalizer error cannot clear STOP",
+      "Post-clear final result write failure records distinct publication failure and one FAILED retry, retaining proved closure facts and propagating nonzero failure",
+      "Total publication outage has exactly one failure-receipt attempt and one FAILED retry; pending state is not PASS and master must reconcile retained external terminal"
+    ],
+    "independent_corrected_owner_peer": "PASS_SOURCE_ONLY",
+    "independent_authored_pure_tests_rerun": 30
+  },
+  "scientific_runtime_content_pin_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+  "current_boot_integration_requirement": "A freshly qualified actual toolchain proof and byte-identical scientific runtime successor must join. A failed partial runtime candidate cannot be adopted. Cold unchanged-byte RW rediscovery must reproduce the same deterministic content/ambient manifest SHA.",
+  "actual_operations": {
+    "workflow_lock_or_native_process_handles": "NOT_RUN_BY_THIS_PREPARATION",
+    "WSL_or_mount_or_image_freeze": "NOT_RUN",
+    "actual_DrvFS_writer_refusal_and_alias_exclusion": "NOT_RUN",
+    "inventory_v3_or_capture_v2": "NOT_RUN",
+    "raw_toolchain_ext4_and_Ubuntu_vhdx_split": "NOT_RUN",
+    "remote_upload_fresh_download_full_reader_cold_restore": "NOT_RUN",
+    "local_eviction_or_host_wipe": "NOT_RUN"
+  },
+  "remaining_actual_adoption_gates": [
+    "Independent corrected-owner source review and root publication/remote byte readback",
+    "Disposable actual Linux/DrvFS fixture and lifecycle/failure/STOP/unlock/restoration validation",
+    "Current master scientific scopes closed and fresh source/toolchain/runtime/authority/resource gates",
+    "Root-owned first cold inventory session with actual writer exclusion and no-journal RO proof",
+    "Independent whole-original-file public scope, special metadata, notice and license review",
+    "Separate later actual cold capture session with pinned approved controls and unchanged originals",
+    "Independent full payload reader, owned remote upload/fresh download and successful cold restore before eviction"
+  ],
+  "storage_strategy": "Three original installed logical roles are primary portable recovery. Literal raw both-image split remains separately pending and cannot be claimed from logical archives; UbuntuVHDX needs a separate fully offline boundary and actual allocated/unallocated/deleted-byte privacy audit or documented sanitized cold copy.",
+  "scientific_adoption_authorized": false,
+  "cleanup_authority": false,
+  "host_wipe_ready": false,
+  "final_publication_failure_contract": {
+    "classification": "PUBLICATION_UNCERTAINTY_AFTER_PROVEN_CLOSURE_AND_UNLOCK",
+    "distinct_receipt": "publication_failure.json",
+    "failure_receipt_attempts_maximum": 1,
+    "failed_result_retries_maximum": 1,
+    "original_error_propagated": true,
+    "fabricated_unclosed_process_claim": false,
+    "actual_adoption_requires": "Successful retained caller terminal, expected finalPASS, no publication_failure receipt, explicit unlock and all actual closure/restoration evidence; any publication failure requires master reconciliation."
+  },
+  "independent_corrected_owner_peer_sha256": "0546f2cbdd8f1fc4b25be8bb9faf1725b15ac038bf00eaed7b2796475203b0b9",
+  "independent_reviewer_source_sha256": "258b39fa1177af18b930999f4aab474c243d326edbbc0caaa4eae2f555ded4e1",
+  "frozen_methods_document_peer_join": "The method document71e8 was frozen before peer and retains its then-pending source-review phrase. This final preparation report and joined independent peer establish the current PASS_SOURCE_ONLY state; no actual integration is credited.",
+  "current_boot_memory_source_assessment_sha256": "ce684c30693a0ab151b4a0fd3dcc2ecb30a6d74b747668a032dbc04a7069fac9"
+}
