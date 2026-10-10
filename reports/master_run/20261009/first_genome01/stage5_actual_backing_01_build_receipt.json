@@ -1,0 +1,82 @@
+{
+  "schema": "STAGE05_FIRST_GENOME_CONFIG_BUILD_V1",
+  "state": "PASS_CONFIG_AND_WINDOWS_ADMISSION_ONLY",
+  "config_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_actual_backing_01.json",
+  "config_sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa",
+  "request_sha256": "96fc9e6a9893fb56122f701378aa49eb3f50773b797d6cdf4c9130548be3cb44",
+  "resource_basis": "Explicit conservative capacity allocation for the first complete approved genome GCF_000009425.1, using the unchanged full PADLOC5027 and complete DefenseFinder native method, two threads and one serial owner. These values are not measured detector requirements: allocate 1.5GiB incremental Windows and Linux job memory, retain the existing 1.5GiB Windows and 1GiB Linux reserves, require 3GiB Windows commit headroom, stop at sampled aggregate descendant RSS 1.25GiB and cap each process address space at 4GiB. Keep the WSL global 3GB memory setting. Fresh admission is required before native commands; insufficient capacity defers execution, and an exceeded limit is a preserved execution failure, never biological absence. Measure elapsed time, CPU and descendant RSS on this full genome before increasing concurrency or changing capacity. Accepted Stage4 and the approved196 panel are unchanged.",
+  "actual_windows_resources": {
+    "utc": "2026-10-10T03:24:15.573789+00:00",
+    "physical_available_bytes": 3925774336,
+    "commit_headroom_bytes": 4547317760,
+    "commit_total_bytes": 17459458048,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233495674880,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 245784924160
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "gate_pins": {
+    "toolchain": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_07\\result.json",
+      "sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+      "unlock_sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516"
+    },
+    "runtime": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_08\\result.json",
+      "sha256": "2a1a7f0c386d3f97baea9cb1e9b034d9fd00bd71c4ab57a2ce3d3b42fbfa09d1",
+      "unlock_sha256": "92ee0235711a5ced3271947f0ce7d4e0e30b406f27dc72e664d07bbb82e151c7"
+    },
+    "interop": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_05\\result.json",
+      "sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8",
+      "unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e"
+    },
+    "storage": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_storage_actual_postiq_06\\result.json",
+      "sha256": "2ac0e98c76f46d84b678ea69e819d714c15cc4e006c685c40f40bf193ff75611",
+      "unlock_sha256": "9d6b0fd2634adf9c38a3cd4998f44266ebc8727c9aa40722a5246f15912d9426"
+    },
+    "drivefs": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_04\\result.json",
+      "sha256": "7c5587e5758ec604b3c1f5e826078aa2f7ca2592312e4d65700565747a7bd438",
+      "unlock_sha256": "a8d65978a83682bb1bb7171a1b8684adb2b68a2d2223c3b10ee91be77b6bfc6d"
+    },
+    "unc": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_backing_actual_postiq_04\\result.json",
+      "sha256": "abd234b9b8fd1bb88253b6acf4e0b8480da7f78a3407aabce75b8bbd153b6642",
+      "unlock_sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    }
+  },
+  "runtime_manifest": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_actual_postiq_08.json",
+    "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  },
+  "storage_proof": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_storage_actual_postiq_06.json",
+    "sha256": "b69bd39fe4489cce639cc062633aafe749c4a26b8072d9fc28f7e0860cafb1f0"
+  },
+  "source_sha256": "e1b7b4782be7cb4faa84cf546884075e860d2d010a1774ba7d61846bfff7905c",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_atomic.py": "500dc3f1afbf1dd05cec5c8078f76bb1ec554daa2e56de53d4aa966b54ed8c04",
+    "stage5_windows_backing_owner.py": "296492aa4205f64058846b9901a7bb3a3458f99eda1c7ff388a6e33cdc38b834",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_config.template.json": "94137787139276a70cd10e0c85e13597c860950c2fba04c5c05580601ddc11cf",
+    "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+    "stage5_setup_linux.py": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+    "stage5_interop_smoke_windows.py": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898",
+    "stage5_unc_backing_probe.py": "779502c38c5db06b68e796abc6e1bd99db72d8f97b1129f9057a3f6b0c4221d5"
+  },
+  "linux_fresh_admission": "REQUIRED_AT_NATIVE_RUN",
+  "actual_detector_peak": "UNMEASURED_FIRST_APPROVED_GENOME_REQUIRED",
+  "scientific_execution": "NOT_RUN",
+  "explicit_original_byte_unlock": true
+}
