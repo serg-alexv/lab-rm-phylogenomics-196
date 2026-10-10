@@ -1,0 +1,103 @@
+{
+  "audit_kind": "stage03_full100_input_integrity",
+  "generated_at_utc": "2026-10-10T09:21:09.170170+00:00",
+  "scope": "read-only input audit; no alignment, tree inference, staging, or source modification",
+  "independent_validation": {
+    "path": "reports/stage03/curated_marker_validation_summary.json",
+    "sha256": "6cbefd1c485823a858121417f1419aa8fe86ba1684b34eaf504eef7a63db8bd5",
+    "status": "PASS_MARKER_SOURCE_AND_FIXED_FILTERS",
+    "scientific_stage_status": "PASS_HOST_MARKER_INVENTORY",
+    "primary_markers": 100,
+    "accepted_marker_sequences": 19359,
+    "accepted_sequence_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+    "primary_marker_order_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "curation_status": "PASS_TOPOLOGY_BLIND_ORTHOLOGY_DEDUPLICATION"
+  },
+  "identity_sources": {
+    "approved_accessions_path": "config/approved_accessions.txt",
+    "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+    "approved_accessions_count": 196,
+    "primary_marker_order_path": "reports/stage03/primary_marker_order.txt",
+    "primary_marker_order_sha256": "3a3f8f292faaf1bf64d5cd38ce750547b1e77a656807e73df4d2f2e23e1ae748",
+    "primary_marker_order_count": 100,
+    "accepted_sequence_manifest_path": ".work/stage03_orthology_v2/accepted_sequence_manifest.tsv",
+    "accepted_sequence_manifest_sha256": "d307b8a3f5c9057616c66868ba8e8082fdc269f25fa72e476396dfbcbd34ac2a",
+    "accepted_manifest_rows": 19359
+  },
+  "source_fastas": {
+    "directory": ".work/stage03_orthology_v2/marker_sequences",
+    "file_count": 100,
+    "total_bytes": 4034538,
+    "total_records": 19359,
+    "union_accession_count": 196,
+    "union_exactly_approved_accessions": true,
+    "records_per_marker_min": 177,
+    "records_per_marker_max": 196,
+    "possible_marker_accession_cells": 19600,
+    "missing_marker_accession_cells": 241,
+    "duplicate_header_records": 0,
+    "records_with_gap_characters": 0,
+    "empty_sequences": 0,
+    "unapproved_accession_records": 0,
+    "sequence_sha_or_length_manifest_mismatches": 0,
+    "identical_sequence_content_excess_records_within_marker": 9065,
+    "sequence_hash_convention": "uppercase amino-acid characters concatenated from FASTA lines, UTF-8 encoded, SHA-256; length is the character count",
+    "per_marker_manifest": "marker_sources.tsv",
+    "per_marker_manifest_sha256": "c4f5d8c7c9a1622c4cad2ef943e3c03db0ee592aa9389d43bf28b206ff745a62"
+  },
+  "existing_five_inputs": {
+    "directory": "input_genes",
+    "file_count": 5,
+    "total_bytes": 232311,
+    "all_byte_identical_to_stage03_v2_sources": true,
+    "manifest": "five_existing_inputs.tsv",
+    "manifest_sha256": "a7cf81d3de7be7b5240d702679f05f758685bce1d384b0ac9510982f929d0133",
+    "files": [
+      {
+        "staged_path": "input_genes/5-FTHF_cyc-lig.fasta",
+        "source_path": ".work/stage03_orthology_v2/marker_sequences/5-FTHF_cyc-lig.faa",
+        "bytes": 37937,
+        "sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+        "source_sha256": "b6a7dca05abecb2640065e29c592dde672cb71952431e577e128c11168d690be",
+        "byte_identical": true
+      },
+      {
+        "staged_path": "input_genes/ADK.fasta",
+        "source_path": ".work/stage03_orthology_v2/marker_sequences/ADK.faa",
+        "bytes": 44544,
+        "sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+        "source_sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df",
+        "byte_identical": true
+      },
+      {
+        "staged_path": "input_genes/ATP-synt.fasta",
+        "source_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt.faa",
+        "bytes": 63043,
+        "sha256": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+        "source_sha256": "7fd9d32ca5c4d0723af15ab71445ce60779b105097a3f4628e834435ebff098c",
+        "byte_identical": true
+      },
+      {
+        "staged_path": "input_genes/ATP-synt_A.fasta",
+        "source_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_A.faa",
+        "bytes": 50087,
+        "sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+        "source_sha256": "5908056ab17f4c4e80f899efd54c030a4861c5bcc8d1ef08d66d0f95126598da",
+        "byte_identical": true
+      },
+      {
+        "staged_path": "input_genes/ATP-synt_B.fasta",
+        "source_path": ".work/stage03_orthology_v2/marker_sequences/ATP-synt_B.faa",
+        "bytes": 36700,
+        "sha256": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+        "source_sha256": "861cdf3764f4669bacb308e01eb62697cfe3fb34d90b7b4bcac943ae40bc2f2a",
+        "byte_identical": true
+      }
+    ]
+  },
+  "interpretation": "FASTA header/accession records are duplicate-free and all sequences are nonempty ungapped accepted Stage 3 sequences. Identical protein sequence contents recur among different taxa within markers; they are preserved and are not duplicate accession records.",
+  "reproduction_source": {
+    "path": "audit_full100_inputs.py",
+    "sha256": "5f16e2aeb7e038dc4277e4c0615b78fa79b19369fbf6a7fd5ac7e6042087763d"
+  }
+}

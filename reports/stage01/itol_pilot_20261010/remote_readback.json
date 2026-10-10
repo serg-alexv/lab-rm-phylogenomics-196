@@ -1,0 +1,281 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T09:12:45.666974+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "2723aeef69b713dfcde10ec87cb2492c509deac7",
+  "initial_remote_main": "2723aeef69b713dfcde10ec87cb2492c509deac7",
+  "declaration_sha256": "ecd601149c7a7d837359a270068677bead0a438948307e8848a82ec41faf6f71",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 29,
+  "verified_files": 29,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 26427,
+      "sha256": "e593d2347cd2a6637e67a57e398860383dc253bfd3003cdbd2adaf55be935031",
+      "remote_blob": "59d1e58c89d5a3aebe4e7f4b0f41c4a95aa38dfc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pilot_output/itol/terminal.json",
+      "bytes": 578,
+      "sha256": "7e301439a9d3135c767dadf78faaff7074bc5c23d620f64551cb492574918e3a",
+      "remote_blob": "2d9072e484796080eda7ca12bffa6065c5d591f3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pilot_output/itol/upload.zip",
+      "bytes": 3143,
+      "sha256": "88b9530fab8d54c2917a51986adffc7cc88709327560fa7c0bb5833c5129d34a",
+      "remote_blob": "589ff195e65131b4c0ea94dd6339d7761648ed4f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "pilot_output/itol/upload_response.txt",
+      "bytes": 107,
+      "sha256": "ad896b7629d069f5a1b715184fd193126baa986f4e7b5696a886549aa4d04ca9",
+      "remote_blob": "f6a3bb385af63d328df411af0fcfa0fc3cfb0224",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/PREPARATION85.md",
+      "bytes": 2579,
+      "sha256": "bdd5433ea47de795a93b47962b5f29a1022b208acd46b743d9ad80be0db4f689",
+      "remote_blob": "8eb12988ea25954f581d66bf7c02fdc779478118",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/account_format_tests/account_reader_test_receipt.json",
+      "bytes": 3561,
+      "sha256": "4f4eb251e1dc2b28c5977482d4b92af4890d021d2c0e50cbe0ec4cee750c2965",
+      "remote_blob": "075ecd9f6cdda63c21accfcde2ac90cf599b020a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/account_format_tests/test_account_reader.py",
+      "bytes": 5778,
+      "sha256": "366a9c8fe03ebfb8ec4e0979daa514e7579ea77dc09e9315aad3ae9ac06bb01d",
+      "remote_blob": "a724fb84e84014d7bf327c449b70958cf3092a81",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/account_upload_attempt02/console.log",
+      "bytes": 115,
+      "sha256": "ef92cf2c1cd2767a8893ecfcccbe782c51db49bf1dd833a7cf3d49f4d6424772",
+      "remote_blob": "be7954ac7df6a286d0ede7a94e5a5ddba280e2ec",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/account_upload_attempt02/launch.json",
+      "bytes": 274,
+      "sha256": "706b7e19d83f6d279dc95f2a318e42b39863d2acc5af1d0cf32ab0e851a9a0be",
+      "remote_blob": "55a59d7d0280c8f868248db83bdbe5681e0af796",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/account_upload_attempt02/terminal.json",
+      "bytes": 194,
+      "sha256": "bcc3175c46807444365db93573f2f3318e9883b2a82056522d6db50aa04fc7b2",
+      "remote_blob": "296d0c41a52141608d7e406fa105fa906acf90dc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/host_extraction_preparation_history.json",
+      "bytes": 492,
+      "sha256": "b4cd4855109c1b99e1ea85e5532ced1d04eec8d2e54336b818c6a855a6ee9d20",
+      "remote_blob": "97494c4bc42c5f88e3f58b7c54ce6ec4f6b4df5c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/itolapi_METADATA.txt",
+      "bytes": 5036,
+      "sha256": "893a4198a3b573f4ce0feb648df806c7128d534ba133293fa2006e7085406160",
+      "remote_blob": "c7b39febf051ca004ce2dac502b16405ced579a6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/preparation_status85.json",
+      "bytes": 1724,
+      "sha256": "b06b475c69469f9deed12f1b60c304c91bc399ef37b9535a09b3aa7575a02e02",
+      "remote_blob": "fe87549469a0e8b721bfb79db7fd1e38e5d27665",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/provided_prep_script_tests/behavior_addendum.json",
+      "bytes": 1186,
+      "sha256": "1da9bc70ecf9e96f0bffb4228cde14b6a1e014055e370088fdc1c9725764c5b4",
+      "remote_blob": "4f5c93b2f2a046abbbce54d3c498ce10eec5fc8c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/provided_prep_script_tests/test_receipt.json",
+      "bytes": 2548,
+      "sha256": "f558983449f5f8c4a7b853bbb16bd39d61286d6f9b497af09af401bd5aa18338",
+      "remote_blob": "039e50467db93fbdbafa66a236adbf49ebf1809e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/raw_data_audit/README.md",
+      "bytes": 1571,
+      "sha256": "d09b70ddb33ca5bf3220efc4a5e5eb467b08e73b5a566dd49d162f3e5f483455",
+      "remote_blob": "ac32f7783fad8e3a66e1b1fa4907dde2308ba952",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/raw_data_audit/audit.json",
+      "bytes": 51799,
+      "sha256": "08476a6a7962a4a97b6650bb06ef302128b24b189f0608848a4cba0ec24baf74",
+      "remote_blob": "aa8f17dc7660c241ea10107ff1ccfdec9cc130ec",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/raw_data_audit/extract_host_metadata.py",
+      "bytes": 11275,
+      "sha256": "4977509ca99d5e4a4ea1fb837612e8b04edadfd4dafd44a0264974282d461d47",
+      "remote_blob": "7e468fb7e74fe2834c753b46719a242770769642",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/raw_data_audit/host_metadata_raw.tsv",
+      "bytes": 52581,
+      "sha256": "d396deed70cf14eb5b707e2df947c7d5c93a02456c66def44c70e5b8f91cac40",
+      "remote_blob": "af0a90af2b480c2d00a328de17f955becba52b39",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/toolkit_install.json",
+      "bytes": 6636,
+      "sha256": "bbe8bbde55a45803f10462e8e3c69bd9f224b3f6bd7396735e5dd485077de73c",
+      "remote_blob": "498c9503383b47cd9dda56a4f2ee1a314c9db3e8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/toolkit_install.log",
+      "bytes": 587,
+      "sha256": "74175f4532e8ef75b0acedc42d6775f561b6e1509bf4d733ed4e066901bc637e",
+      "remote_blob": "555baee67ff9339a55c997f04c50a3822072d802",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/upload_console.log",
+      "bytes": 56,
+      "sha256": "ea6d8a014902a132391373bbe17f8210c898f227af2c0be84adabf3228c0ea9e",
+      "remote_blob": "847eb906d2c8096a6bc7cb3f2fba69f8f692df18",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/uploader_offline_tests/results.json",
+      "bytes": 1914,
+      "sha256": "2e2c73e6d59232c7b41262b091ce3c83473c576667257ef7da5e8172594f5616",
+      "remote_blob": "6f791901ec03d679e493e33e04456be13202cebe",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/itol_pilot_20261010/uploader_offline_tests/test_upload_pilot.py",
+      "bytes": 11671,
+      "sha256": "c690b0a067de037cab947318d2b3775879faf4ec70db430ea4f52ae1c3fc90d7",
+      "remote_blob": "feb2dd45ed4ea2c84fbd1109e1e037c834e0f45a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/stage01/local_pilot_20261010/completed/remote_readback.json",
+      "bytes": 29268,
+      "sha256": "352cbccd43a8cd84805aebea26d9c5668e35e73b4e502ba3d69d8bae5efc2d6b",
+      "remote_blob": "ebe9ba9e8e2dc6febfa6e929b879eb427c46dc90",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/publish_itol_preparation85.py",
+      "bytes": 10990,
+      "sha256": "1c1bfb3c1fdee0f67eef75e191954143e454ef6b2bb9d712253809d935314de5",
+      "remote_blob": "6c69e87fd39e5df0f54395a1e0fd7a1be8357cc2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/prep_itol_files.py",
+      "bytes": 2762,
+      "sha256": "a54b7fac63541366156b86a9564f14b2478ad33a20487f662b94dea53fbcff10",
+      "remote_blob": "72a37da02fdf851a2a77aef9519d6a2320ceabfc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/upload_itol_pilot.py",
+      "bytes": 6677,
+      "sha256": "bb6db72696e727ffb232bf593d423ae43e7772e088fe2df892e1ec21becaa927",
+      "remote_blob": "b5e0c6b7ef77fb3e7a64966d392e867aa857c264",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/upload_itol_pilot_account.py",
+      "bytes": 7081,
+      "sha256": "bab451f2bd4b36c2bb6531b2fcd4a8cc440d8cda90ed3fc08de7c9498d909bcb",
+      "remote_blob": "254a4c50beafe2ef00125fd4de62ccf2d76452d3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "2723aeef69b713dfcde10ec87cb2492c509deac7",
+  "finished_utc": "2026-10-10T09:12:57.900293+00:00",
+  "elapsed_seconds": 12.23399999999674,
+  "verified_bytes": 248610
+}

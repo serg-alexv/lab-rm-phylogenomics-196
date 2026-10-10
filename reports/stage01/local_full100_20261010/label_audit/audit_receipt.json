@@ -1,0 +1,69 @@
+{
+  "approved_accessions_sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+  "approved_count": 196,
+  "approved_panel_sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf",
+  "audit_scope": "label/color bundle vs canonical approved panel/accessions and pilot raw/flat tree tips",
+  "bundle_files": {
+    "cell_mapping.tsv": {
+      "bytes": 18416,
+      "sha256": "86d978c660018f447769fe2e8367375f46870e71fe0488d0008575abd3760fcb"
+    },
+    "color_legend.tsv": {
+      "bytes": 321,
+      "sha256": "7b6a83c17abad1c2852cdbedfb360745d0413df38fce0649facaa8ff73ddf81a"
+    },
+    "itol_group_colors.txt": {
+      "bytes": 5911,
+      "sha256": "4808db6966b26d979a7828ea3b68a14b78f15d00edb81ec8b002637a88a9a37c"
+    },
+    "itol_labels.txt": {
+      "bytes": 13398,
+      "sha256": "37b6d5bfde7ce78fc235e43cd1254df9ec75e4f71ff1559649244cfc529b8edb"
+    }
+  },
+  "bundle_row_counts": {
+    "cell_mapping": 196,
+    "color_legend_groups": 10,
+    "labels": 196,
+    "tree_colors": 196
+  },
+  "copy_candidates": [
+    "itol_labels.txt",
+    "itol_group_colors.txt",
+    "cell_mapping.tsv"
+  ],
+  "group_counts": {
+    "Lacticaseibacillus": 19,
+    "Lactiplantibacillus": 22,
+    "Lactobacillus_sensu_stricto": 19,
+    "Lactococcus": 23,
+    "Leuconostoc": 19,
+    "Limosilactobacillus": 20,
+    "Oenococcus": 15,
+    "Pediococcus": 18,
+    "Streptococcus_thermophilus": 23,
+    "Weissella": 18
+  },
+  "limitations": [
+    "Tree tip membership checked by accession-token extraction; no phylogenetic recomputation or iTOL upload performed.",
+    "Bundle can support labels and operational-group coloring only; it does not establish host metadata or defense-system presence/absence."
+  ],
+  "manifest_provenance_matches_canonical": true,
+  "pilot_trees": {
+    "flat": {
+      "count": 196,
+      "sha256": "51898f59c4dd6296056469cd0f5e7cee309c70d20d26d5bcc39450f924b42bf4",
+      "unique": 196
+    },
+    "raw": {
+      "count": 196,
+      "sha256": "cb7ef5f188f3dbd0e4937295bb5d6d3d08876b3197851b997a3cd21b0d342bb8",
+      "unique": 196
+    }
+  },
+  "semantics": "display labels + operational taxonomic group colors from approved_panel.tsv; no host or defense-system annotations.",
+  "source_bundle_manifest_sha256": "e24fffcbd80d6650b8ae565723882ae0d7b57f1c7a7ace52b1c15bf90fcf68bf",
+  "status": "PASS",
+  "unique_group_count": 10,
+  "unique_label_count": 196
+}

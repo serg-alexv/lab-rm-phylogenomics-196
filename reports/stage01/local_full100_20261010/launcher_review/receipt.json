@@ -1,0 +1,33 @@
+{
+  "reviewed_utc": "2026-10-10T09:25:13.1362500Z",
+  "review": "SOURCE_ONLY_DELTA_REVIEW",
+  "result": "GO_TO_PARENT_SYNTAX_AND_RESOURCE_GATES",
+  "files": [
+    {
+      "sha256": "EAFBCD5BA42262B2743FF9F27149813DBB3FA3ED40FC639FBD8F48C355610C01",
+      "path": "work/launch_full10086.ps1"
+    },
+    {
+      "sha256": "88830A0D74F4B9DBBF28BF3BA9105EAB0D3ADBC81D758DE50E120A39FDC55450",
+      "path": "work/full100_runner86.sh"
+    }
+  ],
+  "verified_delta": [
+    "manifest SHA-256 pin added",
+    "100 unique markers required",
+    "input FASTA basename set compared exactly to manifest",
+    "marker and SHA-256 syntax checked before hashing",
+    "Linux terminal receipt includes boot ID and wrapper/pipeline start ticks",
+    "pipeline identity receipt added"
+  ],
+  "input_staging_receipt_sha256": "D0CA59676BF634FF1C195BE81AD85E6FE524A2D5FFA5BF994E97489BE31DB2C7",
+  "input_staging_receipt_state": "PASS_100_INPUTS_STAGED",
+  "source_review_only": true,
+  "scripts_executed": false,
+  "science_run": false,
+  "validate_pipeline_accessed": false,
+  "limitations": [
+    "PowerShell parse check and bash -n remain for parent to run",
+    "No operational launch authorization/resource state re-evaluated"
+  ]
+}

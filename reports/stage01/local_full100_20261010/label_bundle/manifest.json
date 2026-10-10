@@ -1,0 +1,63 @@
+{
+  "receipt_type": "itol_label_color_preparation",
+  "schema_version": 1,
+  "source_project": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196",
+  "source_files": {
+    "config/approved_panel.tsv": {
+      "bytes": 1089055,
+      "sha256": "aecc32f985dc841f5e221c91e8b8f1d32a1b96d76e9223835be624241fd12bbf"
+    },
+    "config/approved_accessions.txt": {
+      "bytes": 3332,
+      "sha256": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6"
+    }
+  },
+  "source_columns": [
+    "assembly_accession",
+    "display_label",
+    "operational_group"
+  ],
+  "approved_accession_count": 196,
+  "panel_row_count": 196,
+  "exact_accession_membership": true,
+  "unique_disambiguated_labels": 196,
+  "group_counts": {
+    "Lactococcus": 23,
+    "Limosilactobacillus": 20,
+    "Lacticaseibacillus": 19,
+    "Oenococcus": 15,
+    "Lactobacillus_sensu_stricto": 19,
+    "Leuconostoc": 19,
+    "Pediococcus": 18,
+    "Lactiplantibacillus": 22,
+    "Weissella": 18,
+    "Streptococcus_thermophilus": 23
+  },
+  "label_rule": "Approved display_label preserved verbatim, followed by space and [assembly_accession].",
+  "taxonomy_policy": "Operational group and historical panel metadata copied as supplied; no taxonomy reclassification or source-claim changes.",
+  "itol_templates": {
+    "labels": "https://itol.embl.de/help/labels_template.txt",
+    "tree_colors": "https://itol.embl.de/help/colors_styles_template.txt"
+  },
+  "files": {
+    "cell_mapping.tsv": {
+      "bytes": 18416,
+      "sha256": "86d978c660018f447769fe2e8367375f46870e71fe0488d0008575abd3760fcb"
+    },
+    "itol_labels.txt": {
+      "bytes": 13398,
+      "sha256": "37b6d5bfde7ce78fc235e43cd1254df9ec75e4f71ff1559649244cfc529b8edb"
+    },
+    "itol_group_colors.txt": {
+      "bytes": 5911,
+      "sha256": "4808db6966b26d979a7828ea3b68a14b78f15d00edb81ec8b002637a88a9a37c"
+    },
+    "color_legend.tsv": {
+      "bytes": 321,
+      "sha256": "7b6a83c17abad1c2852cdbedfb360745d0413df38fce0649facaa8ff73ddf81a"
+    }
+  },
+  "limitations": [
+    "Prepared annotations only; exact compatibility with actual tree tip IDs has not been validated."
+  ]
+}

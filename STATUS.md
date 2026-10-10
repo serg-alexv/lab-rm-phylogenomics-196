@@ -1,3 +1,7 @@
+# Current request: full 100-marker run approved and prepared
+
+All 100 audited FASTAs are staged: 19,359 records across196 approved taxa. Launch is authorized and pending. The unchanged local plain-Bash pipeline will run in the background independently of iTOL. Pilot science remains validated; copied annotation files provide labels and operational taxonomic colors, not defense or host traits. validate_pipeline.py remains untouched. See [preparation and method](reports/stage01/local_full100_20261010/preparation/AUTHORIZATION_AND_METHOD.md).
+
 # Current request: validated pilot and iTOL preparation
 
 PILOT_COMPLETE_VALIDATED: five gene trees, 196 ASTRAL tips, 193 informative splits;
