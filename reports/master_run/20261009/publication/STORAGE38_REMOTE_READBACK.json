@@ -1,0 +1,245 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T01:24:41.978772+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "8816e7cd9297c3bf23d2e5a920c546dbf7c5cae4",
+  "initial_remote_main": "8816e7cd9297c3bf23d2e5a920c546dbf7c5cae4",
+  "declaration_sha256": "3666466f5e9738555be2b6122963ab538fe4da0c726a17364064a6d467dcc5be",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 25,
+  "verified_files": 25,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 16851,
+      "sha256": "f2f6b153b0036239db6ba68bb70a18dd0a8a3903eec69fcf462152657398911a",
+      "remote_blob": "d835cc13b3b9e40c2229e2603d7a7f64d0f5df96",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "docs/master_run/STAGE5_GDRIVE_SESSION_METHODS.md",
+      "bytes": 3090,
+      "sha256": "b82433ad78b6516fbea0c0dcb71bc0c0ab5e605728721801a3eeab62b02a09df",
+      "remote_blob": "be02162dd3b1940c47f982cb2e335be6edb94b5a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/GDRIVE_DIAGNOSIS_INDEPENDENT_CLOSED_FAILURE.json",
+      "bytes": 6898,
+      "sha256": "cf503f5bc65d235a89fe811cb8c87880dc4f0210285a66407bc366290974ef3d",
+      "remote_blob": "a9cce2acbc7fed2aaa73616fef1728d0244cb122",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/GDRIVE_SESSION_SOURCE_INDEPENDENT_REVIEW.json",
+      "bytes": 2461,
+      "sha256": "077d06b09b7b18f716e5e2c895a80ea00e9df14cc063babb19be15acbfa13352",
+      "remote_blob": "7d16a75868638b28d301ab999cd023305cc6e686",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/GDRIVE_SESSION_SOURCE_PREPARATION.json",
+      "bytes": 1780,
+      "sha256": "585a0b5f59f8eac0b958ebe008d5f2d1eaf3c7d30e9b490c8a5cd9f14940a6f2",
+      "remote_blob": "156dd2cff0b56dd218080f2b1726c6120be96d67",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/GDIAGNOSE37_REMOTE_READBACK.json",
+      "bytes": 8333,
+      "sha256": "aa887e2827489f3afaa3b27abe5afd30deb9acb2c68113fb233515fb47b8794d",
+      "remote_blob": "f2973f50f161b0fc452dda2296a96e7925e7fe8c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_storage38_patch.json",
+      "bytes": 448,
+      "sha256": "907400a4a960748b67c9abdd1113382dac14d2077303aab436dbe1bd02e4fc5a",
+      "remote_blob": "a3ab0b0864410cac857a93d675935cb901141ef1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/actual_owner_lock.json",
+      "bytes": 688,
+      "sha256": "d7bc02cdf375d52a01eb782f27ec543588f338455ae77e1bf8e9541686ee3feb",
+      "remote_blob": "dae8aced39e7d15cf8b86ae3af8e400de36e2f82",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/admission.json",
+      "bytes": 1781,
+      "sha256": "151379f504e9ac13f978854de8bff136d7ea8a956c25252c759c7e12d906e6c3",
+      "remote_blob": "d9c7ed9c2f17c4e8540fdc359a28ac2fae1d2fef",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/latest_admission.json",
+      "bytes": 1781,
+      "sha256": "151379f504e9ac13f978854de8bff136d7ea8a956c25252c759c7e12d906e6c3",
+      "remote_blob": "d9c7ed9c2f17c4e8540fdc359a28ac2fae1d2fef",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/launch.json",
+      "bytes": 1640,
+      "sha256": "3d231f077eba99a8ffa353e32b507c649d45742c89b1dbd2763b06a8fe672b14",
+      "remote_blob": "f019f819e22451eebb9943c94b82e799c6f307a1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/linux_terminal.json",
+      "bytes": 2072,
+      "sha256": "ea1d0d695e497bcbc0f78d0dbee299e7cc68b1eb9134ff2b418b8c0d77d0ed8a",
+      "remote_blob": "d2d8a3aca19568774caa1f2b791ccb0f5c055e78",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/lock_released.json",
+      "bytes": 116,
+      "sha256": "e48290d9a4ea4bb66185b41ab9834eca27ce45fdb5c30d9eff9b4ebb7150626e",
+      "remote_blob": "624e823c64b15642357644a1d0dd95de4754bd6e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/owner_lease.json",
+      "bytes": 902,
+      "sha256": "2a733d423921ed2bfd8586f03e7b47c61c454d279f5e42c87e815a32ceb6f8b1",
+      "remote_blob": "b74db25aacae5de38375a23e609635437a998308",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/result.json",
+      "bytes": 4487,
+      "sha256": "4acb3536d69a500d0abc72e5280c731ee5d869a64e85e96026a68dcd21ebc9eb",
+      "remote_blob": "5d6822b9ea358dc56fca2c0d2bc81d8d9643a254",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/wsl.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/wsl.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_setup_storage_actual_postiq_04/wsl_exit.json",
+      "bytes": 2318,
+      "sha256": "70b2ba09ada9b218bbbd150adb19cfb60323de44882522090ccb0af8b5f7e43e",
+      "remote_blob": "df01ff67f5562389dad826d45fbcd6812a44cb38",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_completed_master_step.py",
+      "bytes": 1942,
+      "sha256": "2f50c376df5919fc2e1f6686e66a35e9211c49d9094e602557d7cc318413402f",
+      "remote_blob": "a9fd6cf2dae9f393bfe4bf5a21d4b3e2035d68d2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4837,
+      "sha256": "10a4e259c27757833ef32b0c49c9945c9760a218e33f6eb89257e68538437bae",
+      "remote_blob": "8e2b291571b9c8358fbcc63484abd7deaf2a498c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_packet_publication.py",
+      "bytes": 3090,
+      "sha256": "52114e2f843c06ecd625e8ede970ef7ffdf0ae778c9c52bdd63ec5a7c9aeac56",
+      "remote_blob": "9730cecfb27ec20a76d68fa7bb30f7c12791c1eb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_stage5_gdrive_session_source01.py",
+      "bytes": 4166,
+      "sha256": "ff77d7873b76005d6f7576c22e18f9234fb857d58c59c4e7efeed5c0c867ece2",
+      "remote_blob": "108e2e89bee2368d2beab954d9546ee3fd627ef4",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/stage5_gdrive_view_session.py",
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+      "remote_blob": "b134146fc303e0553edb22dd14e6f6068f1d0e12",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_stage5_gdrive_view_session.py",
+      "bytes": 2561,
+      "sha256": "e2b8e800400dae5edfaefb98193a67614499aa4a5cceb794ec080ebcc1fbf4dd",
+      "remote_blob": "60a6da60685800260b646941853ebea65ad75057",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 17313,
+      "sha256": "3723637694ca4d8fc8c1e6f9411f84f8d645de0bc4a626485e5aa1c58e92ec83",
+      "remote_blob": "6d99b08347279e0fbcffc13f8f96d8f8259b5999",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "8816e7cd9297c3bf23d2e5a920c546dbf7c5cae4",
+  "finished_utc": "2026-10-10T01:24:52.836221+00:00",
+  "elapsed_seconds": 10.858999999999924,
+  "verified_bytes": 122132
+}

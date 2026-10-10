@@ -1,0 +1,165 @@
+{
+  "schema": "STAGE05_GDRIVE_WINDOWS_OWNER_RESULT_V1",
+  "scope": "NONSCIENTIFIC_G_DRIVE_VISIBILITY_ONLY",
+  "state": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
+  "source_sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_setup_windows.py": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+  },
+  "prior_pins": {
+    "stage5_setup_storage_actual_postiq_02/result.json": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3",
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1",
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74",
+    "stage5_setup_toolchain_actual_postiq_04/result.json": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4",
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2",
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+  },
+  "owner_nonce": "e8788ff1499f42c0ace2028eda7b3384",
+  "actual_owner": {
+    "pid": 21680,
+    "creation_filetime": 134360693391234904,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "allow_mount": true,
+  "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+  "historical_boot_id_preserved": "64d6e318-170c-4bef-9538-90fd218881af",
+  "fresh_toolchain_pins": {
+    "stage5_setup_toolchain_actual_postiq_05/result.json": "43ad814d2cb055fbcc0578862d3e75f3d236452025a0512250e5914a7f7aef43",
+    "stage5_setup_toolchain_actual_postiq_05/lock_released.json": "daa80ec0b44bcca53388cb77651eecdecf40da7c0877fdce5fc2f540cd62e289",
+    "stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+    "stage5_setup_toolchain_actual_postiq_05/linux_terminal.json": "f21021be37d99278eda829deb6830cc145425b8d3a031f34fcef7db23d676b04",
+    "stage5_setup_toolchain_actual_postiq_05/wsl_exit.json": "531943141ccfee0ea36ef72c4e94d3e19b13ed723ebf086f52883bb11089e46f",
+    "stage5_toolchain05_postboot_independent_review.json": "2c542838c2a929bd59b86d1674e90bae52406d6583a9121a554da9909cd25516"
+  },
+  "fresh_toolchain_proof": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_05\\toolchain_proof.json",
+  "fresh_toolchain_proof_sha256": "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+  "scientific_adoption_authorized": false,
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 4,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0.016000000000076398,
+    "successful_calls": 4
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "windows_before": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T01:29:00.625078+00:00",
+    "physical_available_bytes": 4417970176,
+    "commit_headroom_bytes": 6604394496,
+    "commit_total_bytes": 15402381312,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233194123264,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92": 245467500544
+    }
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_session.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92/request.json",
+    "--request-sha256",
+    "09ab3a24eb382a245d20edb98da4d33055f3e61591c41638f6d7f98352404c08"
+  ],
+  "command_receipts": [
+    {
+      "label": "gdrive",
+      "launch_sha256": "716b5c954a5a4f7b7702166bab21fc9f091d00d5fdddcb206e50d7dd256e527b",
+      "closure_sha256": "72a86cb33e765524cb2200ac5877685d993fdb36d7493cbfafa86e020aba8430",
+      "command_sha256": "6f750a38116ff2d962d21828f68412f997d93928d0b57a18176b99d9b93650fa"
+    }
+  ],
+  "linux_terminal_sha256": "2361ddbec306f004b2385c48ffb8d563f75edbe6cba1e822c2234f300f8deb0b",
+  "linux_state": "PASS_EXACT_WINDOWS_LINUX_G_CONTROL_BYTES_AND_EMPTY_UNDERLAY",
+  "windows_after": {
+    "control_sha256": {
+      "status/run_control.json": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+      "config/approved_accessions.txt": "85a0ada99ed980f0cf787410735389b6b0b553d456c47509a4a8d8b6e8efebd6",
+      "config/approval.json": "9e231457d39cd959942f38930a1f2b72cc391cabc86d0839a8adf8f5b6c94bdc"
+    },
+    "empty_g_underlay": {
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\.work\\stage05_atomic_v1",
+      "device": "428019990",
+      "inode": "219",
+      "mtime_ns": "1791589115817000000",
+      "entries": []
+    },
+    "drive_type": 3,
+    "root_device": "428019990"
+  },
+  "owned_closure_proven": true,
+  "retained_client_terminal": {
+    "pid": 3732,
+    "creation_filetime": 134360693394294130,
+    "exit_filetime": 134360693406025737,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "original_lock_explicitly_released": true,
+  "unknown_closure_stop_preserved": false,
+  "log_hash_scope": "CLOSED_FULL_LOGS",
+  "elapsed_seconds": 1.9529999999999745,
+  "utc": "2026-10-10T01:29:01.196122+00:00",
+  "wsl.stdout.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "wsl.stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,39 @@
+{
+  "birth": {
+    "pid": 3732,
+    "creation_filetime": 134360693394294130,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "terminal": {
+    "pid": 3732,
+    "creation_filetime": 134360693394294130,
+    "exit_filetime": 134360693406025737,
+    "cpu_seconds": 0.015625,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_session.py",
+    "--linux",
+    "--request",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92/request.json",
+    "--request-sha256",
+    "09ab3a24eb382a245d20edb98da4d33055f3e61591c41638f6d7f98352404c08"
+  ],
+  "owner_nonce": "e8788ff1499f42c0ace2028eda7b3384"
+}

@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T01:24:23.326318+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T01:31:17.290142+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: fresh toolchain05, runtime06 and all3interop04 checks passed and were independently verified/published. Storage04 confirmed the Linux canonical G target is absent, failed before any native command/bind, retained actual WSL exit2 and explicit original unlock, and left no STOP/candidate. The prior optional diagnostic failed at its PID1 namespace assumption. A separate reviewed helper now verifies the actual live WSL /init session parent, exact process birth and shared command namespace before and after any qualified G mount; PID1 is diagnostic. Every exact-G/unknown-underlay/nested-mount/control/source/lease/closure guard remains. Actual diagnosis and a qualified G repair precede new storage05 and independent UNC visibility checks. Detector execution/curation and installed-runtime capture/cold restoration remain NOT_RUN; accepted Stage4 is unchanged and the host is not wipe-ready.
+Stage5 current execution: reviewed current-session diagnosis and qualified G DriveFS mount passed with exact Windows/Linux control bytes, empty underlay, one closed native mount command, retained WSL exit0 and explicit original lock release. Fresh storage05, DriveFS03 and UNC02 checks still precede the first full-method genome. New boot and old STOP reconciliation are complete; the original failed worker history is preserved and all18legacy tasks remain disabled. Accepted Stage4 is unchanged. Detector execution, production curation and actual VM capture/splitting remain NOT_RUN; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -123,3 +123,7 @@ Actual operational update: Preserve closed postboot G namespace diagnostic failu
 
 Actual operational update: Preserve closed missing-G storage04 failure; publish reviewed exact WSL session-parent G repair adapter
 - `stage5_setup_storage_actual_postiq_04`: FAILED; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Verify current-session G DriveFS repair under exact session-parent identity
+- `stage5_gdrive_view_71cf67240443428da479e4b608f0e89f`: PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER; exact command, closure, resources and lock-release receipts are retained.
+- `stage5_gdrive_view_4b910f25a4ed48529ea7868ef26dbe92`: PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER; exact command, closure, resources and lock-release receipts are retained.
