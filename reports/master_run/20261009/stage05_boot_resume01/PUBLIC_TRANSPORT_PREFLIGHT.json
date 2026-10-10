@@ -1,0 +1,19 @@
+{
+  "schema": "MASTER_POSTBOOT_TRANSPORT_CURRENT_PREFLIGHT_V1",
+  "state": "PASS_CURRENT_EXACT_PUBLIC_FETCH_AND_ANCESTRY",
+  "utc": "2026-10-10T00:30:30.845609+00:00",
+  "commit": "41ff1b8728efd9f60262c7a56160ed7ef242a14d",
+  "source_files": {
+    "resume_master_after_boot_once.py": {
+      "bytes": 13199,
+      "sha256": "896f33d10d419d531327df02d72a48507895cbc7ffa7bf44129ae85c1c1b2a2f"
+    },
+    "Resume-MasterAfterBootOnce.ps1": {
+      "bytes": 796,
+      "sha256": "a356bc02b46fa3c56a93e3ead38b3db669219ba9a3adcbabace8343b47356493"
+    }
+  },
+  "postboot_network_or_resume_proven": false,
+  "private_controls_accessed": false,
+  "model_call": false
+}

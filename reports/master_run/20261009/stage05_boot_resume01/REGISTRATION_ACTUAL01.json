@@ -1,0 +1,34 @@
+{
+  "schema": "MASTER_RUNONCE_REGISTRATION_V1",
+  "state": "REGISTERED_EXACT_READBACK_SINGLE_USE_NEXT_SIGNIN_ONLY",
+  "name": "LAB_RM_MasterBootResume_20261010",
+  "key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+  "command": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\Resume-MasterAfterBootOnce.ps1\" -Run",
+  "command_characters": 238,
+  "root_human_thread_verified_privately": true,
+  "private_session_identity_disclosed": false,
+  "source_sha256": "92996842ac877a9056c8f6ea0946e623d9da2a9ac826a77a0abe16b829740a2c",
+  "source_pins": {
+    "resume_master_after_boot_once.py": "896f33d10d419d531327df02d72a48507895cbc7ffa7bf44129ae85c1c1b2a2f",
+    "Resume-MasterAfterBootOnce.ps1": "a356bc02b46fa3c56a93e3ead38b3db669219ba9a3adcbabace8343b47356493",
+    "master_boot_resume_preboot_baseline.json": "621fd2f2dc7b5afd695ae3e9c60a8fff4144b7f55a54f4907d040df53140b265",
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+  },
+  "STOP_sha256": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a",
+  "reboot_performed": false,
+  "actual_resume_proven": false,
+  "science_authority": false,
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "preexisting_value_names": [],
+  "registration_attempted": true,
+  "registry_readback_exact": true,
+  "registration_utc": "2026-10-10T00:30:36.008906+00:00",
+  "STOP_unchanged": true,
+  "original_lock_released": true
+}
