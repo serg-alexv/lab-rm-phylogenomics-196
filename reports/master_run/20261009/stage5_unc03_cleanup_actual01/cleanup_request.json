@@ -1,0 +1,35 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_REQUEST_V1",
+  "source_sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+  },
+  "prior_control_pins": {
+    "stage5_unc03_failed_scope_independent_review01.json": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd",
+    "stage5_unc03_diagnostic_actual01_independent_review.json": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f",
+    "stage5_unc03_diagnostic_actual01/worker_result.json": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8",
+    "stage5_unc03_diagnostic_actual01/result.json": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0",
+    "stage5_unc_bind_actual_postiq_03/lock_released.json": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+  },
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "actual_windows_owner": {
+    "pid": 27356,
+    "creation_filetime": 134360786448021902,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.078125,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "authority_sha256": "c4184e2af9ea0ef81f652d4d1baed00b9742fa2a3efdb9fe87491911ab2242cd",
+  "target_directory": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36"
+}

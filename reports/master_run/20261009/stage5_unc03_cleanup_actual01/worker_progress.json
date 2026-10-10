@@ -1,0 +1,40 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_WORKER_V1",
+  "state": "FAILED",
+  "source_sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4",
+  "cleanup_request_sha256": "0254943067f445de555734184f4d4c0f24d36a4c48485ba8684f8ab80abdcb73",
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "WSL_launches": 0,
+  "probe_success_claimed": false,
+  "scientific_adoption_authorized": false,
+  "backup": {
+    "payload_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\linux.bin.backup",
+    "payload_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+    "metadata_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\backup_metadata.json",
+    "metadata_sha256": "777dc84058ed83419cb3b511d79dc190b2915bb550a42a883829bb0657ee1485",
+    "fsync_and_readback_before_UNC_effects": true
+  },
+  "intent": {
+    "effect": "rmdir",
+    "target": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36",
+    "expected_identity": {
+      "mode": 16895,
+      "regular": false,
+      "directory": true,
+      "uid": 0,
+      "gid": 0,
+      "nlink": 2,
+      "device": 0,
+      "inode": 33554454,
+      "bytes": 0,
+      "mtime_ns": 1791605045192644600,
+      "file_attributes": 16,
+      "reparse_point": false,
+      "reparse_tag": 0
+    }
+  },
+  "leaf_unlink_returned": true,
+  "empty_directory_rmdir_returned": true,
+  "phase": "EXACT_EMPTY_DIRECTORY_RMDIR_RETURNED",
+  "utc": "2026-10-10T04:04:05.233534+00:00"
+}

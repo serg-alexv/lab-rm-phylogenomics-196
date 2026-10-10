@@ -1,0 +1,24 @@
+[
+  {
+    "tool": "PADLOC",
+    "task": "padloc",
+    "db_type": "multi_seqid_gff",
+    "target_count": 2386,
+    "replicons": [
+      "rep000001"
+    ],
+    "boundary_mode": "distinct seqid; native linear order; explicit circular-origin review",
+    "state": "INPUTS_CONSTRUCTED_NOT_RUN"
+  },
+  {
+    "tool": "DefenseFinder",
+    "task": "defensefinder/gembase",
+    "db_type": "gembase",
+    "target_count": 2386,
+    "replicons": [
+      "rep000001"
+    ],
+    "topology_file": "topology.native.txt",
+    "state": "INPUTS_CONSTRUCTED_NOT_RUN"
+  }
+]

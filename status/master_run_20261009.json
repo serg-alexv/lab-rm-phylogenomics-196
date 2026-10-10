@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T04:06:21.014837+00:00",
+  "updated_utc": "2026-10-10T04:10:58.891040+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Close initial resource wait and publish reviewed capacity02 actual configuration",
+  "stage5_operational_phase": "Verify exact failed-probe cleanup and record capacity02 prepared native admission wait",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -308,8 +308,8 @@
   "stage5_unc03_diagnostic_actual_independent_review_sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f",
   "stage5_windows_backing_alias_current": "PASS_CURRENT_BOOT_BIDIRECTIONAL_ACTUAL_BACKING04_WITH_EXACT_CLEANUP_AND_INDEPENDENT_REVIEW",
   "stage5_resource_wait_policy": "ORIGINAL_BUILDER_WAIT0_PRESERVED; REVIEWED_BACKING_BUILDER_EXPLICIT_WAIT1800_WITH_UNCHANGED_ADMISSION_THRESHOLDS",
-  "stage5_unc_failed03_history": "FAILED_CANONICAL_UNC03_PRESERVED; ORIGINAL_SENTINEL_EXACT_CLEANUP_PENDING",
-  "stage5_first_full_method_genome": "CAPACITY02_ACTUAL_CONFIG_REVIEWED_AND_WINDOWS_ADMISSION_PASSED; NATIVE_PENDING",
+  "stage5_unc_failed03_history": "FAILED_CANONICAL_UNC03_PRESERVED; EXACT_SENTINEL_BACKUP_AND_CLEANUP_COMPLETE",
+  "stage5_first_full_method_genome": "CAPACITY02_INITIAL_ADMISSION_PASS_BUNDLE_PREPARED_FIRST_NATIVE_RESOURCE_WAIT_NO_ACCEPTED_RAW",
   "stage5_actual_first_genome_config_sha256": "30a86eb18cddc69eb0cfbdd3ae93473ec54812cd5a859ededd25af01fb737dfa",
   "stage5_actual_first_genome_config_independent_review_sha256": "dfdcf5efc4444123f5e3829e3bbe7841c4d74e2c4f23af39c7679ac9190f7abc",
   "stage5_first_genome_resource_observation": {
@@ -356,12 +356,12 @@
     ],
     "capture_method": "Read existing exact Windows/UNC files only; no WSL process or workflow lock/effect"
   },
-  "stage5_unc03_cleanup_source": "PASS_CORRECTED_V2_SOURCE_ONLY; ACTUAL_EXACT_CLEANUP_NOT_RUN",
+  "stage5_unc03_cleanup_source": "PASS_V2_SOURCE_AND_ACTUAL_CLEANUP_PEER",
   "stage5_raw_archive_owner_source": "PASS_CHECKED_UNLOCK_AND_EXACT_OWNED_STOP_V2_SOURCE_ONLY; ACTUAL_ARCHIVE_NOT_RUN",
   "stage5_first_capacity_revision02": "PASS_REVIEWED_REQUEST_ONLY; LINUX_BOOKING1.375GiB_WITH_UNCHANGED_RSS_STOP_RESERVES_AND_WINDOWS_BUDGETS",
   "stage5_waiting01_exact_cancellation": "PASS_REVIEWED_SOURCE_ONLY; ACTUAL_SIGNAL_TERMINAL_AND_UNLOCK_PENDING",
   "stage5_waiting01": "DEFERRED_RESOURCE_CLOSED_NO_NATIVE_NO_SCIENTIFIC_IDENTITY_ORIGINAL_UNLOCKED",
   "stage5_waiting01_cancellation": "FAILED_CONTROL_EXIT1_WINDOWS_SCOPE_CLOSED_NO_ESTABLISHED_LINUX_SIGNAL_RECEIPT_NO_RETRY",
   "stage5_disposable_cold_fixture": "PASS_SOURCE_ONLY_ACTUAL_NOT_RUN",
-  "stage5_unc03_exact_cleanup": "ACTUAL_TWO_OBJECT_CLEANUP_PASS; PUBLIC_BACKUP_AND_PEER_PENDING_NEXT_STEP"
+  "stage5_unc03_exact_cleanup": "PASS_ACTUAL_EXACT_TWO_OBJECT_CLEANUP_RETAINED_WORKER_EMPTY_JOB_ORIGINAL_UNLOCK_PUBLIC_RAW116B_BACKUP"
 }

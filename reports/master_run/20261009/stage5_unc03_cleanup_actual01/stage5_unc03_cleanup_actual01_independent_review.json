@@ -1,0 +1,155 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_ACTUAL_PEER_V1",
+  "state": "PASS_ACTUAL_EXACT_UNC03_CLEANUP_BACKUP_RETAINED_WORKER_JOB_AND_UNLOCK",
+  "utc": "2026-10-10T04:07:55.188390+00:00",
+  "reviewer_source_sha256": "16680dd4c3c10d1668ba1bd8ef3c55eb12818ec79975d5f93788a9be9c79acc9",
+  "checks": [
+    "Frozen cleanup098478 source, original API/U and prior failed/diagnostic scope pins match.",
+    "Exact known failed03 nonce, two targets, source/request SHA chain and zero WSL launches agree.",
+    "Raw116B backup SHA/payload, fsync/readback receipt, Windows object identities and original Linux prepared metadata agree; Windows mtime is projected +16ns.",
+    "Exact leaf unlink and empty directory rmdir returned with final source-bound absence checks; no recursive cleanup or probe adoption.",
+    "Worker PID15504/birth134360786449537574 retained exit0 within20s, positive wait0 and exact named Job empty; no closure/handle/result finalizer errors.",
+    "Original immutable WorkflowLock identity, explicit OS-byte unlock and stream-closed receipt join owner PASS; saved final STOP flag false."
+  ],
+  "saved_input_files": [
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\backup_metadata.json",
+      "bytes": 2029,
+      "sha256": "777dc84058ed83419cb3b511d79dc190b2915bb550a42a883829bb0657ee1485"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\cleanup_request.json",
+      "bytes": 1956,
+      "sha256": "0254943067f445de555734184f4d4c0f24d36a4c48485ba8684f8ab80abdcb73"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\linux.bin.backup",
+      "bytes": 116,
+      "sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\lock_released.json",
+      "bytes": 365,
+      "sha256": "ff396d09bc88422511c0d98bda0a5d35cac9b688bb6073b32c82edfdd84bd020"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\result.json",
+      "bytes": 4789,
+      "sha256": "3a52d31b6d0864a0e243726f108254ec2c3383574ba174787811158aa0f486a1"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\launch.json",
+      "bytes": 1661,
+      "sha256": "a5c098c17c283b12ceec6dd0aefa2da25fb3b144569553e5d38e85630acd7233"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\progress.json",
+      "bytes": 2279,
+      "sha256": "6b4baeb4b9f8e300db6bd66ad524548238900520240aa506f489cb9a49744d14"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\result.json",
+      "bytes": 2514,
+      "sha256": "fde6f425ae065c2a74fd16d6c63b623319fff059631f471ae0169bc452c28038"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\root_exit.json",
+      "bytes": 1989,
+      "sha256": "8c08cc1067f1320238c7ff44cbcd54339bad430fde6f35f2e3e9326527cfda2f"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\worker_progress.json",
+      "bytes": 1657,
+      "sha256": "537651016b9046b4b7baab5d7778525b6919b0dd448c5f10ea4217ae40c1884b"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\worker_result.json",
+      "bytes": 1962,
+      "sha256": "632092a1f11faf5fb5d9dddab8fa46fb51725b8870c1078304227f8e7d1bedac"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01\\result.json",
+      "bytes": 5386,
+      "sha256": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01\\worker_result.json",
+      "bytes": 10099,
+      "sha256": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_diagnostic_actual01_independent_review.json",
+      "bytes": 6776,
+      "sha256": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_cleanup_v2_source_independent_review01.json",
+      "bytes": 6445,
+      "sha256": "4fa88de92f22fb44f75342b06ae0df9e01238015fec246aa65629c8addfe3a8d"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_exact_sentinel_cleanup_v2.py",
+      "bytes": 20721,
+      "sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_failed_scope_independent_review01.json",
+      "bytes": 6989,
+      "sha256": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_03\\lock_released.json",
+      "bytes": 177,
+      "sha256": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_03\\prepared.json",
+      "bytes": 3917,
+      "sha256": "75f1a373418b0be1610f8998643f421c939b5b49875ca0cfec5283c3bb99a020"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_actual_postiq_03\\request.json",
+      "bytes": 2387,
+      "sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d"
+    },
+    {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe.py",
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    }
+  ],
+  "exact_deleted_targets": [
+    "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36\\linux.bin",
+    "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\.unc_visibility_8ae35884653047348cfa688d4bf00b36"
+  ],
+  "backup": {
+    "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\linux.bin.backup",
+    "public_name": "linux_sentinel_backup.bin",
+    "bytes": 116,
+    "sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+    "metadata_sha256": "777dc84058ed83419cb3b511d79dc190b2915bb550a42a883829bb0657ee1485",
+    "raw_payload_equals_original_public_failed_request": true,
+    "generic_text_extras_must_not_encode_this_binary": true
+  },
+  "owned_windows_worker_closure_proven": true,
+  "owned_job_empty": true,
+  "original_lock_explicitly_released": true,
+  "exact_two_object_cleanup_source_bound_receipts": true,
+  "WSL_launches_by_cleanup": 0,
+  "probe_success_claimed": false,
+  "scientific_adoption_authorized": false,
+  "reviewer_effects": "NONE_C_ONLY_SAVED_RECEIPTS",
+  "limits": [
+    "No live UNC absence, native handle, lock or STOP query was performed by this reviewer.",
+    "Owner identity is its prelaunch snapshot; this peer proves its explicit unlock and the owned worker terminal/Job, not an independent outer-owner process exit.",
+    "Intermediate progress/root_exit state FAILED is the pinned helper checkpoint placeholder before final success and Job drain.",
+    "Windows metadata is projected; original Linux prepared timestamp and receipt remain preserved for restoration context.",
+    "Deletion is the reviewed immediate-check path operation under the original owner, not an atomic compare-and-delete against unrelated writers."
+  ],
+  "actual_science_inventory_capture_raw_VM_split_restore_eviction": "NOT_RUN"
+}

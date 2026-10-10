@@ -1,0 +1,54 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_SENTINEL_BACKUP_V1",
+  "original_request_sha256": "7f28e209707483d1a50e25c7d35e5804f2b9ebb8ecf9bcc110714849228ce27d",
+  "source_sha256": "0984781820c8dd2b85a909b182902990e5c335c6e19187733dadbe3039ef77d4",
+  "payload_bytes": 116,
+  "payload_sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+  "original_tiny_read_receipt": {
+    "device": 0,
+    "inode": 33554461,
+    "bytes": 116,
+    "sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+    "mtime_ns": 1791601426761082800
+  },
+  "Windows_projected_leaf_metadata": {
+    "mode": 33206,
+    "regular": true,
+    "directory": false,
+    "uid": 0,
+    "gid": 0,
+    "nlink": 1,
+    "device": 0,
+    "inode": 33554461,
+    "bytes": 116,
+    "mtime_ns": 1791601426761082800,
+    "file_attributes": 128,
+    "reparse_point": false,
+    "reparse_tag": 0
+  },
+  "Windows_projected_directory_metadata": {
+    "mode": 16895,
+    "regular": false,
+    "directory": true,
+    "uid": 0,
+    "gid": 0,
+    "nlink": 2,
+    "device": 0,
+    "inode": 33554454,
+    "bytes": 0,
+    "mtime_ns": 1791601426758035500,
+    "file_attributes": 16,
+    "reparse_point": false,
+    "reparse_tag": 0
+  },
+  "prior_control_pins": {
+    "stage5_unc03_failed_scope_independent_review01.json": "a3beba2bddf24c460c61dfe395caa680a600ffdc7314f06d3219bc8c457561cd",
+    "stage5_unc03_diagnostic_actual01_independent_review.json": "320711555b317475cbe3242c20b28075ab08de2d67b832a00b906ac0dc25802f",
+    "stage5_unc03_diagnostic_actual01/worker_result.json": "c6b6dc469aa6ab725e36ca09c7c87ddaa8cd84ba7069c9b7fa48fc5ea264cae8",
+    "stage5_unc03_diagnostic_actual01/result.json": "c4e7f98bf174a3ddefbfc6ed9d3c7c0c910e907f6f775f2db12e3d500a3ec2a0",
+    "stage5_unc_bind_actual_postiq_03/lock_released.json": "f5c3222f1c568cff2a9852fcb89f0dd34caf6c55d83b12ca7f628fb658615373"
+  },
+  "restoration_requires_original_prepared_Linux_metadata": true,
+  "failed_probe_state_unchanged": true,
+  "scientific_adoption_authorized": false
+}

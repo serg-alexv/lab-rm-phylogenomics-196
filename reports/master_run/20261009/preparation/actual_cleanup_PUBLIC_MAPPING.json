@@ -1,0 +1,103 @@
+{
+  "schema": "STAGE05_UNC03_EXACT_CLEANUP_ACTUAL_PUBLIC_MAPPING_V1",
+  "state": "PASS_ACTUAL_EXACT_UNC03_CLEANUP_BACKUP_RETAINED_WORKER_JOB_AND_UNLOCK",
+  "file_count": 13,
+  "total_bytes": 47708,
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\backup_metadata.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/backup_metadata.json",
+      "bytes": 2029,
+      "sha256": "777dc84058ed83419cb3b511d79dc190b2915bb550a42a883829bb0657ee1485"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\cleanup_request.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/cleanup_request.json",
+      "bytes": 1956,
+      "sha256": "0254943067f445de555734184f4d4c0f24d36a4c48485ba8684f8ab80abdcb73"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\linux.bin.backup",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/linux_sentinel_backup.bin",
+      "bytes": 116,
+      "sha256": "4a90f5d4c9fa4130234bfc121f1e1dd47cde726546840a3085d9e4b5875a0ff5",
+      "required_blob_encoding": "base64",
+      "requires_explicit_binary_plan_row": true,
+      "content_base64": "Tk9OU0NJRU5USUZJQyBMSU5VWAp3WmTkF1w/aVNbddgXAeGhBM3qlLY+KxdGFCboZ/EAs7RC+u4eFzPg1/MAoRH20syJgthlqMImJI1OoNEXay40qYegEBshIeiPvqOm83kYr3xdH7/cVBdI29lJuTHwWqk="
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\lock_released.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/lock_released.json",
+      "bytes": 365,
+      "sha256": "ff396d09bc88422511c0d98bda0a5d35cac9b688bb6073b32c82edfdd84bd020"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\result.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/result.json",
+      "bytes": 4789,
+      "sha256": "3a52d31b6d0864a0e243726f108254ec2c3383574ba174787811158aa0f486a1"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\launch.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/windows_cleanup_worker/launch.json",
+      "bytes": 1661,
+      "sha256": "a5c098c17c283b12ceec6dd0aefa2da25fb3b144569553e5d38e85630acd7233"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\progress.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/windows_cleanup_worker/progress.json",
+      "bytes": 2279,
+      "sha256": "6b4baeb4b9f8e300db6bd66ad524548238900520240aa506f489cb9a49744d14"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\result.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/windows_cleanup_worker/result.json",
+      "bytes": 2514,
+      "sha256": "fde6f425ae065c2a74fd16d6c63b623319fff059631f471ae0169bc452c28038"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\windows_cleanup_worker\\root_exit.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/windows_cleanup_worker/root_exit.json",
+      "bytes": 1989,
+      "sha256": "8c08cc1067f1320238c7ff44cbcd54339bad430fde6f35f2e3e9326527cfda2f"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\worker_progress.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/worker_progress.json",
+      "bytes": 1657,
+      "sha256": "537651016b9046b4b7baab5d7778525b6919b0dd448c5f10ea4217ae40c1884b"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01\\worker_result.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/worker_result.json",
+      "bytes": 1962,
+      "sha256": "632092a1f11faf5fb5d9dddab8fa46fb51725b8870c1078304227f8e7d1bedac"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_unc03_cleanup_actual01.py",
+      "repository_path": "scripts/master_run/review_stage5_unc03_cleanup_actual01.py",
+      "bytes": 17867,
+      "sha256": "16680dd4c3c10d1668ba1bd8ef3c55eb12818ec79975d5f93788a9be9c79acc9"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc03_cleanup_actual01_independent_review.json",
+      "repository_path": "reports/master_run/20261009/stage5_unc03_cleanup_actual01/stage5_unc03_cleanup_actual01_independent_review.json",
+      "bytes": 8524,
+      "sha256": "34c1d6b44c2c9e41af5c3c503d14bb99ca68a62c70ac65df6049f3c28ae2dad1"
+    }
+  ],
+  "peer_review_sha256": "34c1d6b44c2c9e41af5c3c503d14bb99ca68a62c70ac65df6049f3c28ae2dad1",
+  "reviewer_source_sha256": "16680dd4c3c10d1668ba1bd8ef3c55eb12818ec79975d5f93788a9be9c79acc9",
+  "actual_cleanup": "PASS_EXACT_KNOWN_LEAF_AND_EMPTY_DIRECTORY_ONLY",
+  "original_failed03_probe_preserved": true,
+  "WSL_launches_by_cleanup": 0,
+  "owned_windows_worker_closure_proven": true,
+  "owned_named_job_empty": true,
+  "original_lock_explicitly_released": true,
+  "raw_backup_public_bytes_previously_preserved_by_failed_request": true,
+  "binary_publication_instruction": "Do not process the linux_sentinel_backup.bin row through generic UTF-8 extras. Append one explicit base64 Git blob plan row using content_base64; remote download/readback must recover the exact116 original bytes and SHA. Other rows are text. Preserve backup_metadata.json beside the renamed public raw backup.",
+  "probe_success_claimed": false,
+  "scientific_adoption_authorized": false,
+  "reviewer_effects": "NONE_C_ONLY_SAVED_RECEIPTS",
+  "actual_inventory_capture_raw_VM_split_restore_eviction": "NOT_RUN"
+}

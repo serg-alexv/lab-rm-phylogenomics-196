@@ -1,0 +1,46 @@
+{
+  "state": "OBSERVED_INITIAL_ADMISSION_AND_PREPARATION_NO_ACCEPTED_NATIVE_RESULT",
+  "utc": "2026-10-10T04:10:58.588312+00:00",
+  "scope_terminal_claim": false,
+  "owned_closure_claim": false,
+  "biological_result_claim": "NONE",
+  "source_sha256": "2da2ccdc6f3fdff1e208c191a2da7c8e3f8b0db6a77a3dc84bdfd4a558194844",
+  "files": [
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\GCF_000009425.1\\transactions\\attempt_0002\\latest_admission.json",
+      "file": "initial_admission.json",
+      "sha256": "a0d6be3ac852fdf5743eaf0161baf5e7abf7c2a780a5d3e3c6f9c55d56a74db6",
+      "bytes": 1911
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\GCF_000009425.1\\execution\\assemblies\\GCF_000009425.1\\padloc\\hmm_attempt_0001\\latest_admission.json",
+      "file": "presearch_admission.json",
+      "sha256": "b4213149630ba1e4f7bf5a76800720fdf791ae061bfc8ee1edfb672167a2ccca",
+      "bytes": 1909
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\GCF_000009425.1\\scientific_identity.json",
+      "file": "scientific_identity.json",
+      "sha256": "bb9b7b355a55758a9085ca014eff4fbdb14a93ff5e795773b89a0e5d9ee8ee74",
+      "bytes": 3413
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\var\\tmp\\lab_rm_stage05_atomic_v1\\GCF_000009425.1\\bundle\\assemblies\\GCF_000009425.1\\detector_task_manifest.json",
+      "file": "detector_task_manifest.json",
+      "sha256": "19007ef85845d6b21d53b82ac43c0a1931a8c52c5a6366e2006c35a90d00f970",
+      "bytes": 552
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu\\proc\\meminfo",
+      "file": "linux_meminfo.txt",
+      "sha256": "793346fcd5214b416ab1d880be8e6799823c14c43df5d522dc4e183f3ba47cd4",
+      "bytes": 1475
+    },
+    {
+      "source": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_owner_GCF_000009425_1_backing_capacity_02\\GCF_000009425.1.launch.json",
+      "file": "windows_launch.json",
+      "sha256": "9c4a0f65ae9bc852aca5a7c61f21c19dfacc421359ebee06403c1db909947ec2",
+      "bytes": 1085
+    }
+  ]
+}
