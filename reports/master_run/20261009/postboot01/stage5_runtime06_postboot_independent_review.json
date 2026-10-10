@@ -1,0 +1,151 @@
+{
+  "schema": "STAGE05_POSTBOOT_COMPLETED_GATE_INDEPENDENT_V1",
+  "state": "PASS_COMPLETED_POSTBOOT_GATE_EXACT_SOURCE_CLOSURE_AND_BYTES",
+  "source_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "kind": "runtime",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_runtime_actual_postiq_06",
+  "utc": "2026-10-10T01:12:47.713926+00:00",
+  "readonly_method": "Standard-library decoded receipts and SHA256; no producer imports, WSL, network, registry, signaling or lock mutation",
+  "scientific_execution_or_acceptance": "NONE_NONSCIENTIFIC_GATE_ONLY",
+  "old_scope_retroactively_passed": false,
+  "authority_commit": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "new_windows_boot": "2026-10-10T00:36:47.500000+00:00",
+  "boot_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
+  "actual_result_sha256": "22f1a8122885f6279b230aca50f6b1029356ec8057d12b0710c69ab4a159dc51",
+  "unlock_sha256": "e439272b237fc5d6bb6ccc1d9d4cd69f6ae3e180dd689c806b897b8cabfc5490",
+  "detail": {
+    "linux_boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+    "native_commands": [
+      {
+        "label": "runtime_discovery",
+        "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+        "argv": [
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+          "-B",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_discovery.py",
+          "--discover",
+          "--output",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_06.json"
+        ],
+        "exit_code": 0,
+        "closure_sha256": "d9ed33b203bd0f960f955a6e1513996c29d75c20837900b67722fb02b35b0ddc"
+      }
+    ],
+    "candidate_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_actual_postiq_06.json",
+    "candidate_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+  },
+  "checked_files": {
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\result.json": {
+      "bytes": 4655,
+      "sha256": "22f1a8122885f6279b230aca50f6b1029356ec8057d12b0710c69ab4a159dc51"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "e439272b237fc5d6bb6ccc1d9d4cd69f6ae3e180dd689c806b897b8cabfc5490"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    "stage5_drivefs_filesystem_smoke.py": {
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "observe_iqtree_controller_exit.py": {
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\actual_owner_lock.json": {
+      "bytes": 689,
+      "sha256": "0465ae6aa79d54af695946705779c05d07b64a7d087c097a33ec6a3106e8b342"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\launch.json": {
+      "bytes": 1641,
+      "sha256": "8a013756bca902e8496fe62de67db0ac92aa64d8b407280eab477b3588fa2a33"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\wsl_exit.json": {
+      "bytes": 2320,
+      "sha256": "d21ab67f0291baf6d64f5cf94960a2d983bc375acbf9f78a705c81482ad576a6"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\linux_terminal.json": {
+      "bytes": 2187,
+      "sha256": "a7ec4216bc689233f5930769dcf2b3f8cf8e042abcc6a67b0878dbdba6c42c67"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.launch.json": {
+      "bytes": 1078,
+      "sha256": "9fc3761249424701435b62de0f3ddee4aa1d9dbe62b3a4c536a29fefcbe25c65"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.launch_intent.json": {
+      "bytes": 586,
+      "sha256": "e19c095e18dd0f26c28d29dfaa935b12918847f096397c7c4065a76ca169cfaa"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.closure.json": {
+      "bytes": 646,
+      "sha256": "d9ed33b203bd0f960f955a6e1513996c29d75c20837900b67722fb02b35b0ddc"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.command.json": {
+      "bytes": 1604,
+      "sha256": "67c34562c2a19fba7d4de2539b4d5c8b59ed3f6aa22602941096e18f50f5291d"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.stdout.txt": {
+      "bytes": 818,
+      "sha256": "fc0ec194dade61b5211d6683c12891899bf06af5d0958f8410da55536db2300d"
+    },
+    "stage5_setup_runtime_actual_postiq_06\\commands\\runtime_discovery.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_runtime_actual_postiq_06.json": {
+      "bytes": 996074,
+      "sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1"
+    }
+  }
+}

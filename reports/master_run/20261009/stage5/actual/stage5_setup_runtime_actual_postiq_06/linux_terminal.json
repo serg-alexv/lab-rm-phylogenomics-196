@@ -1,0 +1,50 @@
+{
+  "bootstrap": {
+    "argv": [
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+      "--step",
+      "runtime",
+      "--output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_06",
+      "--owner-lease",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_06/owner_lease.json",
+      "--owner-nonce",
+      "7113572492194075926d8903fd904406",
+      "--source-sha256",
+      "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+      "--owner-lock-receipt",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_runtime_actual_postiq_06/actual_owner_lock.json",
+      "--owner-lock-sha256",
+      "0465ae6aa79d54af695946705779c05d07b64a7d087c097a33ec6a3106e8b342",
+      "--toolchain-proof",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json",
+      "--toolchain-proof-sha256",
+      "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c",
+      "--candidate-output",
+      "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_06.json"
+    ],
+    "boot_id": "e93cddc2-2ddf-4152-be46-ceef5227c922",
+    "executable": "/usr/bin/python3",
+    "identity": {
+      "pgid": 1158,
+      "pid": 1158,
+      "ppid": 1154,
+      "sid": 1158,
+      "start_ticks": "196531",
+      "state": "R"
+    }
+  },
+  "candidate_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_runtime_actual_postiq_06.json",
+  "candidate_sha256": "f64edf88129b9fcf294cdb19db1d754d084b676ec99560f848ecb253b29a55d1",
+  "no_native_launch": false,
+  "owned_closure_proven": true,
+  "owned_command_count": 1,
+  "owner_nonce": "7113572492194075926d8903fd904406",
+  "remaining_direct_children": [],
+  "schema": "STAGE05_SETUP_LINUX_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "state": "PASS_NONSCIENTIFIC_SETUP_STEP",
+  "step": "runtime"
+}

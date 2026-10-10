@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T01:09:01.986179+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T01:13:15.405821+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: Fresh postboot Stage5 toolchain05 PASS with independent exact source and retained closure readback. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
+Stage5 current execution: Fresh postboot Stage5 runtime06 PASS; exact installed runtime models and ambient manifest independently verified. Actual setup result PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK and independent source/closure/byte joins PASS. The new Windows boot is verified, old STOP reconciled and original failed worker evidence preserved; all18legacy tasks remain disabled. Remaining setup gates precede the first full-method approved genome. Detector execution and production curation remain NOT_RUN. Accepted Stage4 is unchanged. Installed-runtime/VM capture and cold restoration are pending; the host is not wipe-ready.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -111,3 +111,6 @@ Actual operational update: Verify new WD boot and reconcile old STOP under origi
 
 Actual operational update: Fresh postboot Stage5 toolchain05 PASS with independent exact source and retained closure readback
 - `stage5_setup_toolchain_actual_postiq_05`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Fresh postboot Stage5 runtime06 PASS; exact installed runtime models and ambient manifest independently verified
+- `stage5_setup_runtime_actual_postiq_06`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
