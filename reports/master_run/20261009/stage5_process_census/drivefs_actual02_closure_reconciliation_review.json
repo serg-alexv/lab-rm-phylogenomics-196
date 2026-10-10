@@ -1,0 +1,149 @@
+{
+  "actions": {
+    "G_read_or_write": false,
+    "STOP_mutation": false,
+    "WSL": false,
+    "live_process_or_handle_query": false,
+    "native_launch": false,
+    "network_publish": false,
+    "process_mutation": false,
+    "retained_source_execution": false
+  },
+  "complete_process_universe_disjointness": {
+    "actual_birth_interval_and_clock_proof": "NOT_ESTABLISHED",
+    "actual_complete_coverage_proof": "NOT_ESTABLISHED",
+    "actual_kernel_snapshot_taken": false,
+    "historical_failed_step_upgrade_allowed": false,
+    "historical_terminal_reconstruction_allowed": false,
+    "logically_valid_conditional_current_quiescence_method": true,
+    "root_stop_removal_authority_conferred": false,
+    "status": "HYPOTHESIS_REQUIRING_NEW_INDEPENDENT_EVIDENCE",
+    "unknown_partial_or_interval_candidate": "VETO",
+    "wmi_success_alone_sufficient": false
+  },
+  "kill_on_close_with_authenticated_owner_exit_claim": "TERMINATION_TRIGGERED_NOT_OBSERVED_COMPLETED",
+  "linux_and_wsl_receipts_present": true,
+  "original_body_error": "MASKED_BY_FINALLY_OWNED_CLOSURE_FAILURE",
+  "original_nonce": "1950f8bce9414103b0688078b7ce9e99",
+  "original_owner": {
+    "cpu_seconds": 0.09375,
+    "creation_filetime": 134360636630302864,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "exit_code": null,
+    "exit_filetime": 0,
+    "exited": false,
+    "pid": 21672,
+    "session_id": 1
+  },
+  "primary_sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/procthread/job-objects",
+    "https://learn.microsoft.com/en-us/windows/win32/api/jobapi2/nf-jobapi2-createjobobjectw",
+    "https://learn.microsoft.com/en-us/windows/win32/api/jobapi2/nf-jobapi2-terminatejobobject",
+    "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess",
+    "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess",
+    "https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-process",
+    "https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation"
+  ],
+  "readback_is_kernel_exit_proof": false,
+  "recommendation": "PRESERVE_STOP_NOW; exact retained terminal or separately proven full-universe disjointness before bounded scope reconciliation; verified Windows boot transition is fallback if neither is possible",
+  "reviewed_source_pins": [
+    {
+      "bytes": 384,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\drivefs_actual02_original_STOP.json",
+      "sha256": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a"
+    },
+    {
+      "bytes": 34098,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows_before_windows_job_drain.py",
+      "sha256": "b5826e46af71ad2353fef4a2c1ab28fe009f02411f9ab0b22032d46026755b33"
+    },
+    {
+      "bytes": 24115,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_unc_bind_probe_before_windows_job_drain.py",
+      "sha256": "17eb6df098b01089e5919df1982fb047539385e07c69f9eba64060e61db24ed7"
+    },
+    {
+      "bytes": 40596,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\atomic_iqtree_windows.py",
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    {
+      "bytes": 4671,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\result.json",
+      "sha256": "6c7595ddbcd5847e1ad311ae922bb9f95d483764f9faec5625659723e1f42b68"
+    },
+    {
+      "bytes": 2185,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\wsl_exit.json",
+      "sha256": "58a2aee57d4d8441c6eb26cfc41be374207b8a9faf0c2d0d544f61e3da728c8f"
+    },
+    {
+      "bytes": 1997,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\linux_terminal.json",
+      "sha256": "03b1fdfa3d1fee456dbab0448019d7d9c868e8c43cbb0d52950b64191bc0c7e3"
+    },
+    {
+      "bytes": 1137,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\drivefs_windows_readback.json",
+      "sha256": "f42bf1667e0888f537b46fa91271070b1d62d6a3083c6bc148a0e93fb87cb0af"
+    },
+    {
+      "bytes": 116,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\lock_released.json",
+      "sha256": "30bbac1f0e51c0977b4d0f871c72c18c2520b25a6f641ecaa508f3e4a20a19b4"
+    },
+    {
+      "bytes": 901,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\owner_lease.json",
+      "sha256": "8c3ea5ecffbf672490ee6fe3b8370f8158dd4913818e0d527648ce41640d5a58"
+    },
+    {
+      "bytes": 396,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\drivefs_readback_request.json",
+      "sha256": "91cf73195c964c69a0bfdefbd6d4e7f1cc5264307f678e154be67c2204874896"
+    },
+    {
+      "bytes": 646,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_02\\commands\\drivefs.closure.json",
+      "sha256": "c4fc967a25518b5dd90a8df2ca3baf4c81ce8a3211849f05167faf3473124f3b"
+    },
+    {
+      "bytes": 6407,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\drivefs_actual02_closure_reconciliation_review.md",
+      "sha256": "64d1c8c470bcf1d3f060689e28f6cb359987b14cafd02605e25a1707ec6ad134"
+    }
+  ],
+  "schema": "DRIVEFS02_WINDOWS_CLOSURE_RECONCILIATION_SOURCE_REVIEW_V1",
+  "scope": "C_ONLY_SOURCE_AND_RETAINED_RECEIPT_REVIEW",
+  "spool_file_count": 22,
+  "spool_file_names": [
+    "actual_owner_lock.json",
+    "admission.json",
+    "commands.jsonl",
+    "commands/admission.json",
+    "commands/drivefs.closure.json",
+    "commands/drivefs.command.json",
+    "commands/drivefs.launch.json",
+    "commands/drivefs.launch_intent.json",
+    "commands/drivefs.stderr.txt",
+    "commands/drivefs.stdout.txt",
+    "commands/latest_admission.json",
+    "drivefs_readback_request.json",
+    "drivefs_windows_readback.json",
+    "latest_admission.json",
+    "launch.json",
+    "linux_terminal.json",
+    "lock_released.json",
+    "owner_lease.json",
+    "result.json",
+    "wsl.stderr.txt",
+    "wsl.stdout.txt",
+    "wsl_exit.json"
+  ],
+  "state": "HISTORICAL_WINDOWS_WORKER_CLOSURE_UNPROVEN_KEEP_STOP",
+  "tiny_windows_readback_present": true,
+  "utc": "2026-10-10T00:02:56.752432+00:00",
+  "windows_job_empty_query": "UNRECORDED",
+  "windows_worker_birth": "UNRECORDED",
+  "windows_worker_terminal": "UNRECORDED"
+}

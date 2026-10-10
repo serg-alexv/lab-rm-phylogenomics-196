@@ -1,0 +1,84 @@
+{
+  "schema": "STAGE05_RUNTIME_SAFE_EXTRACT_INDEPENDENT_SOURCE_REVIEW_V1",
+  "utc": "2026-10-09T23:55:16.353939+00:00",
+  "state": "PASS_INACTIVE_SOURCE_AND_PURE_CONTRACTS_ONLY",
+  "files": {
+    "stage5_runtime_safe_extract.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_safe_extract.py",
+      "bytes": 32131,
+      "sha256": "beec0d3007da552d956f0d42434bd0ef1fa4ddac080834b0ed66f8aa581fac96"
+    },
+    "test_stage5_runtime_safe_extract.py": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_runtime_safe_extract.py",
+      "bytes": 12246,
+      "sha256": "312bafbcb026071836fc16344a9616514f26873e7f3f96df16325c9e5b85eb28"
+    },
+    "STAGE5_RUNTIME_SAFE_EXTRACT_METHODS.md": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE5_RUNTIME_SAFE_EXTRACT_METHODS.md",
+      "bytes": 6446,
+      "sha256": "38a012173b1cef6f57bdc67a2a7737b7d5074733cf73b0b0ca6aad29401f1e35"
+    },
+    "stage5_runtime_safe_extract_preparation.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_safe_extract_preparation.json",
+      "bytes": 2364,
+      "sha256": "0c8b32cd34b0311f0a5a149ac6ce4b683b05cce9a3d39e8a5388e77d975817a8"
+    },
+    "stage5_runtime_safe_extract_public_mapping.json": {
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_runtime_safe_extract_public_mapping.json",
+      "bytes": 1989,
+      "sha256": "05c6e9cfb12e444795d875cf1bcee37c1ed3193a3858c7afb56f883fe1298a84"
+    }
+  },
+  "review_scope": "Complete frozen source and tests; no edits, actual Linux ABI or original payload/restore actions",
+  "independent_test_execution": {
+    "command": "python -B -m unittest test_stage5_runtime_safe_extract -v",
+    "exit_code": 0,
+    "tests": 14,
+    "reported_seconds": 0.292,
+    "scope": "OWN_C_METADATA_SQLITE_AND_MOCKED_SYSCALL_SERIALIZATION_NO_RESTORE"
+  },
+  "reviewed": [
+    "Exact separately SHA-pinned remote/full-payload/capture-control contract precedes new tree creation; remote producer itself remains external pending source",
+    "Only new direct disposable staging on ext4 device distinct from captured originals; bounded mount topology excludes nested mounts",
+    "No-follow/beneath/no-mount traversal descriptor opens, exclusive leaf creation, exact prior-inode hardlinks, exact symlink text never dereferenced",
+    "Original ledger bytes remain authoritative after verification; canonical ordered full payload, gzip/shard/control SHA and public/scientific coverage rechecked",
+    "Metadata applied after content/children: exact ownership/modes/xattrs/mtime; immutable original state/provenance kept; independent cold comparison remains separate",
+    "Failed partial tree is preserved, finalizer errors veto extraction success, no overwrite/deletion/native execution/download/extractall path"
+  ],
+  "concrete_source_blockers_found": [],
+  "primary_abi_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/torvalds/linux/v6.18/arch/x86/entry/syscalls/syscall_64.tbl",
+      "supports": "x86_64 openat2 syscall437"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/torvalds/linux/v6.18/include/uapi/linux/openat2.h",
+      "supports": "24-byte three-u64 open_how and resolve flag values0x01/0x02/0x04/0x08"
+    },
+    {
+      "url": "https://man7.org/linux/man-pages/man2/linkat.2.html",
+      "supports": "AT_EMPTY_PATH references the exact retained descriptor; required capability may fail closed"
+    }
+  ],
+  "not_accepted": [
+    "Actual independently reviewed remote receipt producer/downloader and immutable publication/readback",
+    "Existing finite owner/lease/resource/closure adapter with exact published extractor source binding",
+    "Actual Linux openat2/linkat/xattr/fsync synthetic filesystem fixture",
+    "Actual installed runtime manifest/public byte and notice review/capture/shards",
+    "Actual new-tree extraction and independent cold-tree validation",
+    "Original-prefix runtime/OS/dependency/ambient ABI equivalence",
+    "Scientific adoption, eviction or host-wipe authority"
+  ],
+  "actual_actions_by_reviewer": {
+    "original_runtime_payload_reads": 0,
+    "image_reads": 0,
+    "WSL_starts": 0,
+    "Linux_syscalls": 0,
+    "archive_or_shard_reads": 0,
+    "restores": 0,
+    "scientific_runs": 0,
+    "deletions": 0,
+    "primary_documentation_web_reads": true
+  },
+  "operational_authority_created": false
+}

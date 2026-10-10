@@ -1,0 +1,64 @@
+{
+  "STOP_removal_authorized": false,
+  "actual_command_after_peer_and_publication": "python -B work/stage5_process_census.py --run --with-cim",
+  "actual_diagnostic": "NOT_RUN",
+  "closure_acceptance": false,
+  "files": [
+    {
+      "bytes": 29484,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census.py",
+      "sha256": "16524b8ec20a46ab8ef787d679827d5a0c603be3c54855f8a2074b6c88fec710"
+    },
+    {
+      "bytes": 10376,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_process_census.py",
+      "sha256": "15cd751f9bb377b62e325c7b28d44493f0ffa7f3486ffbd0ad146ad18a66792d"
+    },
+    {
+      "bytes": 7569,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_cim_query.ps1",
+      "sha256": "7bdc78b789d330e52c56d27f685b84940cc1e3824a5fa1c4aa98d93e32f96853"
+    },
+    {
+      "bytes": 4276,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_primary_api_audit.json",
+      "sha256": "e49a122c2b748422ee5684223affcb25d67d376c3911dce52dbf7fa2350e9afc"
+    },
+    {
+      "bytes": 27099,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_before_interface_fix.py",
+      "sha256": "072200f862f92a21e1aed720795c14c8250a99c9f11320a16b3b0c43ef1c1a71"
+    },
+    {
+      "bytes": 6156,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_METHODS.md",
+      "sha256": "0bc00d7d2f297df0c32ccf2f28f3d1a70c1a7cc8d51e3d7559d0866c810c20d4"
+    },
+    {
+      "bytes": 6846,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\drivefs_actual02_closure_reconciliation_review.json",
+      "sha256": "ebad27ac6e743a06a3a2447a878d3c5f001fc49ec4e382f8510fce5767a759da"
+    },
+    {
+      "bytes": 6407,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\drivefs_actual02_closure_reconciliation_review.md",
+      "sha256": "64d1c8c470bcf1d3f060689e28f6cb359987b14cafd02605e25a1707ec6ad134"
+    }
+  ],
+  "follow_on_policy": "ONE bounded diagnostic; preserve factual unknowns; no design expansion or weakened closure rule",
+  "native_CreateTime_reserved_bytes_decoded": false,
+  "operator": "ROOT_ONLY",
+  "original_STOP_SHA256": "3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a",
+  "schema": "STAGE05_PROCESS_CENSUS_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_PENDING_FINAL_PEER_AND_PUBLICATION",
+  "tests": {
+    "CIM_executed": false,
+    "WSL_executed": false,
+    "Windows_process_APIs_executed": false,
+    "count": 18,
+    "kind": "PURE_C_BYTES_MOCKS_AND_SOURCE_INTERFACE_ONLY",
+    "passed": 18,
+    "seconds": 0.104
+  },
+  "utc": "2026-10-10T00:16:29.580595+00:00"
+}

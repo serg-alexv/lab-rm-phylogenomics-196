@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T00:10:41.380621+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T00:18:48.134741+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 detector execution and production curation remain NOT_RUN. The current blocker is the original DriveFS02 Windows worker scope: its exact filesystem bytes passed, but durable worker birth, terminal exit and full Job closure were not recorded. STOP SHA256 `3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a` remains preserved. New scientific and WSL launches are paused until independently qualified reconciliation. The future worker fix now records lifecycle evidence durably and waits a finite interval for the complete Job to drain; independent review and 55 focused pure tests pass. Its corrected actual C-only fixture is not yet run and cannot retroactively prove old scope closure.
+Stage5 detector execution and production curation remain NOT_RUN. The current blocker is the original DriveFS02 Windows worker scope: its exact filesystem bytes passed, but durable worker birth, terminal exit and full Job closure were not recorded. STOP SHA256 `3de7057780d280d5f204b535207a174e616ca425b5638fe9848a48cfca20838a` remains preserved. New scientific and WSL launches are paused until independently qualified reconciliation. The future worker fix now records lifecycle evidence durably and waits a finite interval for the complete Job to drain; independent review and 55 focused pure tests pass. Its corrected actual C-only fixture passed using the exact primary Python: retained root exit0 and full named Job empty. Independent byte and lifecycle joins passed. The old scope remains unresolved.
 
 The G DriveFS view repair and canonical ext4 storage03 both passed actual checks with retained native/WSL closure. Toolchain04 and all three Conda interop03 fixtures also passed. Runtime05 failed the unchanged commit reserve and produced no runtime candidate. After external Chrome/Media exits, a fresh snapshot showed about 4.5 GiB available RAM and 4.0 GiB commit headroom; no agent terminated those apps. The user explicitly authorizes host reconfiguration, cleanup and service control.
 
@@ -98,3 +98,5 @@ Actual operational update: Record actual G mount and canonical ext4 storage PASS
 - `stage5_setup_drivefs_actual_postiq_02`: FAILED; exact command, closure, resources and lock-release receipts are retained.
 
 Actual operational update: Publish reviewed durable Windows worker lifecycle and bounded full-job drain; preserve unresolved original STOP
+
+Actual operational update: Record actual corrected Windows worker retained exit and empty Job PASS; publish finite read-only old-scope census without closure authority

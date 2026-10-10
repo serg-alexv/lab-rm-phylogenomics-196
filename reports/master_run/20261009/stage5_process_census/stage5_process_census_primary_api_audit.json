@@ -1,0 +1,68 @@
+{
+  "schema": "STAGE05_WINDOWS_PROCESS_CENSUS_PRIMARY_API_REVIEW_V1",
+  "state": "SOURCE_AND_DOCUMENTATION_REVIEW_ONLY_DIAGNOSTIC_NOT_CLEARANCE",
+  "utc": "2026-10-10T00:10:38.284168+00:00",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation",
+      "finding": "Documented SPI identifies running-process records. Birth timestamp is not an exposed field; reserved bytes remain opaque. Atomic coverage of all terminating/pending-I/O objects is not expressly established by this documentation."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/microsoft/win32metadata/main/generation/WinSDK/RecompiledIdlHeaders/um/winternl.h",
+      "finding": "Official public SDK header confirms SPI Reserved1[48] and exposed ImageName/PID/SessionId; its parent slot is reserved. The full thread structure is published. Current URL was read; no immutable source commit is claimed."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes",
+      "finding": "Creation FILETIME is available through PROCESS_QUERY_LIMITED_INFORMATION retained handles. Unavailable handles remain explicit unknowns."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/psapi/nf-psapi-enumprocesses",
+      "finding": "A completely filled PID array can be truncated without a distinct error. Grow within a finite cap or reject; cross-provider agreement alone does not fix missing births."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-process",
+      "finding": "CreationDate is supplemental provider datetime; conversion does not establish exact100ns source precision or atomic completeness."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/powershell/module/cimcmdlets/get-ciminstance?view=powershell-7.5",
+      "finding": "Use finite OperationTimeoutSec as one provider bound, plus a separately retained finite caller deadline."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent?view=powershell-7.5",
+      "finding": "FilterHashtable+MaxEvents bounds selected projected events; cap saturation/access/retention/clear gaps remain unknown."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4616",
+      "finding": "Documented clock-change event has PreviousTime/NewTime and is described as always logged. An empty query cannot establish historical coverage or continuity; account fields must not enter public projection."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps",
+      "finding": "QPC is independent of UTC/system-time adjustments. Current UTC/QPC bracketing cannot reconstruct a past unobserved clock interval."
+    }
+  ],
+  "x64_abi_calculation_not_native_fixture": {
+    "SPI_bytes": 256,
+    "SPI_ImageName_offset": 56,
+    "SPI_PID_offset": 80,
+    "SPI_SessionId_offset": 100,
+    "STI_bytes": 80,
+    "STI_CLIENT_ID_offset": 40,
+    "UNICODE_STRING_bytes": 16
+  },
+  "recommended_parser_gates": [
+    "Exact64bit layout and ctypes field widths; status/ReturnLength/allocation cap checked.",
+    "Finite aligned linked-record offsets, thread-area length, duplicatePID and Unicode pointer/length/UTF16 guards.",
+    "All unknown/inaccessible/PID-reused/provider-disjoint records remain diagnostic vetoes.",
+    "Do not reinterpret reserved fields or use current clock observations to claim old terminal/job closure."
+  ],
+  "supplement_source": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_process_census_cim_query.ps1",
+    "sha256": "7bdc78b789d330e52c56d27f685b84940cc1e3824a5fa1c4aa98d93e32f96853",
+    "bytes": 7569,
+    "AST_parse_errors": 0,
+    "actual_script_execution": "NOT_RUN"
+  },
+  "actual_actions": "Official primary-source web reads plus C source/metadata reads and new C report. No live Windows census, process handle API, WSL, G, lock, STOP or signals.",
+  "stop_clear_authorized": false,
+  "scientific_adoption_authorized": false
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "MASTER_BENIGN_WINDOWS_OWNED_JOB_FIXTURE_V1",
+  "state": "PASS_NEW_BENIGN_RETAINED_ROOT_EXIT0_AND_EMPTY_JOB_ONLY",
+  "source_sha256": "45c0da6f4eaf016bc215722dd3804eba7f63c9a2608d60d9bc8574742b24f81c",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+  },
+  "scope": "C_ONLY_NEW_PYTHON_PASS_JOB",
+  "old_scope_closure_authority": false,
+  "original_STOP_or_lock_mutation": false,
+  "WSL_or_G_access": false,
+  "before": {
+    "utc": "2026-10-10T00:11:31.657178+00:00",
+    "physical_available_bytes": 4787154944,
+    "commit_headroom_bytes": 4148506624,
+    "commit_total_bytes": 18767855616,
+    "commit_limit_bytes": 22916362240,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 244132552704
+    }
+  },
+  "worker_result_sha256": "a6a56452eb165a2efb61336799955e58f93cc856b75a5852a6bfc713c26fe1b6",
+  "after": {
+    "utc": "2026-10-10T00:11:31.771858+00:00",
+    "physical_available_bytes": 4777914368,
+    "commit_headroom_bytes": 4144918528,
+    "commit_total_bytes": 18771443712,
+    "commit_limit_bytes": 22916362240,
+    "disk_available_bytes": {
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work": 244132532224
+    }
+  }
+}

@@ -12,7 +12,7 @@ def main():
  O=W/a.name;O.mkdir(exist_ok=False);files=[]
  def add(local,target):
   q=Path(local).resolve();assert q.is_relative_to(W) and not q.is_symlink() and q.is_file()
-  raw=q.read_bytes();assert len(raw)<5*1024**2 and q.suffix in ('.py','.ps1','.md','.json','.jsonl','.txt','.tsv')
+  raw=q.read_bytes();assert len(raw)<5*1024**2 and q.suffix in ('.py','.md','.json','.jsonl','.txt','.tsv')
   files.append(dict(local_absolute_path=str(q),target=target,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()))
  add(__file__,'scripts/master_run/'+Path(__file__).name)
  states={}
