@@ -1,0 +1,50 @@
+{
+  "schema": "RM_LIVE_PREVIEW_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY",
+  "source_pins": {
+    "stage06_live_preview.py": "49171dd82ed050d3f35daf82217c6ac747ef137c125691787c4f3bb0526034b8",
+    "test_stage06_live_preview.py": "dc3239dea5b82d47a3dcb15eb4533d70662402af80847f9e1fe861c8d0ce63f4",
+    "STAGE06_LIVE_PREVIEW_PREPARATION01.md": "ad999331a47d43a80c32c72095a5e18e87cf2ffd63b1a8da98bbe72e57370a80",
+    "stage06_render.py": "55cdbed8829296379d4c8a114885643fc7debc3c98382be177e9adeb7edfb1cc",
+    "stage05_curation/rm_matrix.py": "7716f722f25b582af990469d4e5120d4de22828b87c89cf334d2d9f9723c7db9",
+    "check_stage06_outputs.py": "3a23f3de7d971bea6210cd2405c57af48fa5ba3ae2ba4bb66ee4357aa3644818",
+    "stage05_curation/validate_one_atomic_curation.py": "cdd81d2870dbc7c03845721199a98d4f6b51a23fb94ebb19fa71311bb9e2ed66",
+    "stage05_curation/validate_atomic_curation.py": "89a42d63401ef1ef3479690546a3c8cad4da679517aa2ed7da6b4e6716b6af0c"
+  },
+  "reviewer_source_sha256": "02285d3bd902a0dda64f4939fea67cf0e6dd9b70cbd54741217b23cd867926f8",
+  "authored_tests": {
+    "count": 6,
+    "status": "PASS",
+    "runtime": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+  },
+  "independent_checks": [
+    "zero accepted genomes: exact196/784, all pending cells grey NA, shared vector/iTOL export watermark and false final flags",
+    "accepted accession cannot also be pending",
+    "duplicate pending accession rejected",
+    "out of panel queue metadata rejected",
+    "raw completion cannot become accepted queue state",
+    "blank or over-bound queue reason rejected: length 1",
+    "blank or over-bound queue reason rejected: length 1001",
+    "receipt rejects dataset_kind=SYNTHETIC",
+    "receipt rejects full_panel_complete=True",
+    "receipt rejects cell_count=4.0",
+    "matching file pins do not bypass complete receipt identity join",
+    "matching file pins do not bypass unchanged strict cell serializer",
+    "actual __main__ default NOOP",
+    "no synthetic CLI; existing scene/vector/iTOL/serializer calls retained"
+  ],
+  "independent_check_count": 14,
+  "standard_python_attempt": "Installed standard Python3.14: five passed, vector test could not import reportlab. No source change or dependency installation. Existing bundled C Python has reportlab/pypdf and passes all six.",
+  "conclusion": "Separate explicit provisional adapter retains exact accepted196 production tree/panel/readback pins. Pending queue metadata remains separate from all784 scientific cells; absent accepted snapshots are NOT_RUN/NA. Optional accepted cells require strict independently accepted production closed-genome three-file joins. Original final renderer/checker/serializer/curation source pins unchanged. Distinct manifest and visible vector/iTOL watermark keep all final acceptance flags false.",
+  "scope": "Frozen source plus disposable C synthetic unit-test exports and default NOOP only. No actual accepted-tree preview rendering, biological search, native owner, WSL, UNC, workflow lock, image, Git or cleanup action.",
+  "actual_master_render": "NOT_RUN",
+  "actual_preview_independent_artifact_review": "NOT_RUN",
+  "final_scientific_acceptance": false,
+  "final_figure_acceptance": false,
+  "blockers": [],
+  "limitations": [
+    "Source peer does not independently accept future biological receipts or claim final matrix/figure validation.",
+    "Root must use a C Python containing existing reportlab/pypdf; installed standard Python lacks reportlab.",
+    "Actual provisional artifact geometry/serialization review and GitHub byte readback remain pending."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "RM_LIVE_PREVIEW_SOURCE_PREPARATION_V1",
+  "state": "PASS_FROZEN_SOURCE_AND_INDEPENDENT_PEER_ACTUAL_RENDER_NOT_RUN",
+  "utc": "2026-10-10T04:30:28.702979+00:00",
+  "files": {
+    "stage06_live_preview.py": {
+      "bytes": 15502,
+      "sha256": "49171dd82ed050d3f35daf82217c6ac747ef137c125691787c4f3bb0526034b8"
+    },
+    "test_stage06_live_preview.py": {
+      "bytes": 8039,
+      "sha256": "dc3239dea5b82d47a3dcb15eb4533d70662402af80847f9e1fe861c8d0ce63f4"
+    },
+    "STAGE06_LIVE_PREVIEW_PREPARATION01.md": {
+      "bytes": 5365,
+      "sha256": "ad999331a47d43a80c32c72095a5e18e87cf2ffd63b1a8da98bbe72e57370a80"
+    },
+    "stage06_live_preview_source_independent_review01.json": {
+      "bytes": 3654,
+      "sha256": "484d7fc7f180fb3a00c36ff124a47fce2ce199c757769eae02acd3bb5fc070e8"
+    },
+    "review_stage06_live_preview_source01.py": {
+      "bytes": 10046,
+      "sha256": "02285d3bd902a0dda64f4939fea67cf0e6dd9b70cbd54741217b23cd867926f8"
+    }
+  },
+  "producer_pure_tests": 6,
+  "independent_source_peer": "PASS_SOURCE_ONLY",
+  "independent_pure_tests": 6,
+  "additional_independent_checks": 14,
+  "actual_master_render": "NOT_RUN",
+  "final_scientific_acceptance": false,
+  "scope": "Separate immutable C-only provisional snapshots, exact accepted196 tree/panel/readback and optional actual accepted closed-genome4cell receipts; unsupplied leaves NOT_RUN/NA; unchanged final renderer/curation/audit gates.",
+  "next": "Root publishes frozen source packet; explicitly renders genuine accepted-tree C snapshot; independent provisional export byte/geometry/status review and separate publication. No synthetic production mode or fabricated final acceptance."
+}
