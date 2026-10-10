@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T02:25:33.984024+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T02:29:22.407113+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: a separately named Windows-only host-profile repair has independent source review PASS. It preserves the exact679B preimage, changes only memory4GB to3GB and autoMemoryReclaimgradual to dropCache, retains current UID0/init configuration, original workflow-lock/lease, exact closed runtime07 failure and bounded retained census/shutdown/stopped-query clients. Actual profile mutation remains NOT_RUN at this source preparation step. Runtime07 remains FAILED with no candidate; native Stage5 and production curation remain NOT_RUN. The toolchain06-pinned G source is preserved as inactive preparation and will require a new-boot pin variant before use. Accepted Stage4 is unchanged; the cold-owner prototype is still inactive pending review corrections, actual writer-exclusion/inventory/capture/restoration and VM splitting.
+Stage5 current execution: exact Windows host-profile repair and controlled WSL shutdown PASS with independent actual C-receipt review. The679B original and681B expected/actual public backups are retained; only memory4GB to3GB and autoMemoryReclaimgradual to dropCache changed. Five retained clients exited0, all18legacy tasks remainDisabled, Ubuntu UID0 is unchanged, all distros were verified stopped, no automatic relaunch occurred and the original lock is released with no current STOP. Runtime07 remains a preserved closed resource failure, with no candidate. Reviewed first-requestv3 requires fresh toolchain07/runtime08/interop05/storage06/DriveFS04/UNC03 and preserves all five native budgets. No detector or production curation has run. Accepted Stage4 is unchanged; cold-owner/image capture, splitting, remote recovery and local eviction remain pending.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -154,3 +154,6 @@ Actual operational update: Preserve closed runtime memory refusal and inactive c
 - `stage5_setup_runtime_actual_postiq_07`: FAILED; exact command, closure, resources and lock-release receipts are retained.
 
 Actual operational update: Prepare reviewed 3GiB WSL host profile and preserve inactive G source
+
+Actual operational update: Verify exact 3GiB host profile, controlled shutdown, and first genome request source
+- `stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7`: PASS_NONSCIENTIFIC_WINDOWS_HOST_PROFILE_CHANGED_AND_ALL_DISTROS_STOPPED; exact command, closure, resources and lock-release receipts are retained.

@@ -1,0 +1,409 @@
+{
+  "schema": "STAGE05_WSL_HOST_PROFILE_ACTUAL_INDEPENDENT_V1",
+  "state": "PASS_EXACT_HOST_PROFILE_BACKUPS_RETAINED_CLIENTS_REGISTRY_AND_STOPPED_QUERY_NEW_BOOT_GATES_PENDING",
+  "utc": "2026-10-10T02:28:31.374241+00:00",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7",
+  "reviewer_source_sha256": "e70ff63710eb363057a73f40998623cd1b469fe4c3ad6bcf83d29e40204502ee",
+  "method": "Only explicit bounded plain C source/receipt bytes and SHA256; no producer imports, host profile/registry/UNC/WSL access, signals, locks or ref mutation",
+  "source_sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232",
+  "source_publication_commit": "ad990668ed9a564f1f05bd014ab9d5fd89ae7eff",
+  "source_publication_readback_files": 18,
+  "source_publication_method": "Independently hashed C source plus root full remote byte readback receipt; this reviewer performed no new network read",
+  "actual_result_sha256": "183340a29094b361ecc65587bb92d6283f39a979a0a2a223b3ec846b9e48f5ef",
+  "owner_elapsed_seconds": 10.438000000000102,
+  "retained_clients": [
+    {
+      "phase": "census_before",
+      "birth": {
+        "pid": 20888,
+        "creation_filetime": 134360727808817010,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 20888,
+        "creation_filetime": 134360727808817010,
+        "exit_filetime": 134360727838512466,
+        "cpu_seconds": 1.015625,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 2.9695456
+    },
+    {
+      "phase": "census_before_shutdown",
+      "birth": {
+        "pid": 25468,
+        "creation_filetime": 134360727844949099,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 25468,
+        "creation_filetime": 134360727844949099,
+        "exit_filetime": 134360727866285077,
+        "cpu_seconds": 0.859375,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 2.1335978
+    },
+    {
+      "phase": "shutdown",
+      "birth": {
+        "pid": 24168,
+        "creation_filetime": 134360727868475280,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 24168,
+        "creation_filetime": 134360727868475280,
+        "exit_filetime": 134360727875601620,
+        "cpu_seconds": 0.015625,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 0.712634
+    },
+    {
+      "phase": "running_after",
+      "birth": {
+        "pid": 27184,
+        "creation_filetime": 134360727880645404,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 27184,
+        "creation_filetime": 134360727880645404,
+        "exit_filetime": 134360727881459480,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 0.0814076
+    },
+    {
+      "phase": "census_after_shutdown",
+      "birth": {
+        "pid": 23400,
+        "creation_filetime": 134360727887223043,
+        "exit_filetime": 0,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": false,
+        "exit_code": null
+      },
+      "exit": {
+        "pid": 23400,
+        "creation_filetime": 134360727887223043,
+        "exit_filetime": 134360727908109181,
+        "cpu_seconds": 0.890625,
+        "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "elapsed_seconds": 2.0886138
+    }
+  ],
+  "profile_before_sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+  "profile_after_sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db",
+  "two_lines_changed_only": true,
+  "profile_bytes_before": 679,
+  "profile_bytes_after": 681,
+  "failed_runtime07_state": "FAILED_BYTE_IDENTICAL_PRESERVED_NO_CANDIDATE",
+  "original_lock_identity": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "original_explicit_unlock": true,
+  "owned_closure_proven": true,
+  "unknown_closure_STOP_absent_recorded": true,
+  "exact_Ubuntu_UID0_preserved": true,
+  "all18tasks_disabled_three_censuses": true,
+  "running_distro_names": [],
+  "Linux_worker_route": "NONE_IN_FROZEN_OWNER_NO_LINUX_TERMINAL_OR_NATIVE_SPOOL",
+  "new_linux_boot": "NOT_OBSERVED_NO_RELAUNCH",
+  "old_boot_sensitive_proofs_reusable": false,
+  "closure_boundary": "All five exact retained Windows clients exited0 sequentially; fixed PowerShell census uses cmdlets with no external commands. No generic named-Job descendant claim. Final positive3s lease is a historical snapshot; explicit unlock and closed result govern closure.",
+  "resource_benefit": "NOT_YET_QUALIFIED_AFTER_RESTART; final post-shutdown free-memory sample alone does not establish detector capacity",
+  "required_next": "Publish/readback this completed repair; freshly qualify toolchain07/runtime08/interop/G/storage/DriveFS/UNC under new boot. Keep all original native resource thresholds and updated3GB request basis.",
+  "scientific_stage5": "NOT_RUN",
+  "accepted_stage4": "PRESERVED",
+  "review_actions": {
+    "WSL_launches": 0,
+    "UNC_reads": 0,
+    "profile_reads_or_writes": 0,
+    "registry_accesses": 0,
+    "locks": 0,
+    "Git_ref_writes": 0
+  },
+  "checked_files": {
+    "review_stage5_wsl_host_profile_actual01.py": {
+      "bytes": 14909,
+      "sha256": "e70ff63710eb363057a73f40998623cd1b469fe4c3ad6bcf83d29e40204502ee"
+    },
+    "stage5_wsl_host_profile_owner_independent_review01.json": {
+      "bytes": 7463,
+      "sha256": "fda85c307eae1353ee62a5934ea7d9d87e658cb597a917bb6357d905067c15fe"
+    },
+    "review_stage5_wsl_host_profile_owner_source01.py": {
+      "bytes": 10638,
+      "sha256": "aadb108cdf876792e7a19d9e6a048226cad71fda311a5a91554641e2ae914866"
+    },
+    "stage5_wsl_host_profile_owner.py": {
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232"
+    },
+    "test_stage5_wsl_host_profile_owner.py": {
+      "bytes": 5478,
+      "sha256": "a86bd29e3269383b3b280065051648b038d20ceae6ac7e04408fd30b3f791c93"
+    },
+    "stage5_wsl_host_profile_owner_METHODS.md": {
+      "bytes": 4273,
+      "sha256": "68561eb868c01d9c2322dd90672bffc0cdfde29c41acd3214b6eece2145158a8"
+    },
+    "stage5_wsl_host_profile_owner_preparation01.json": {
+      "bytes": 3402,
+      "sha256": "26b5f2f315fe606ac58dd49d74f42c922cd363298598cc576f74c75f76cbb145"
+    },
+    "stage5_wsl_host_profile_before_repair01.txt": {
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+    },
+    "stage5_wsl_config_owner.py": {
+      "bytes": 35075,
+      "sha256": "4a6b42b11d63b7b41cba143cc0c5f5f3e0bf874ef09878ed0c0d6e805226f2bd"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "stage5_runtime07_failed_scope_independent_review01.json": {
+      "bytes": 9353,
+      "sha256": "01b0b4c3d47eb929f3dfb45ef72274757e32f65af15b4f713de9c2b16470186d"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\result.json": {
+      "bytes": 4791,
+      "sha256": "62e660a1bc9377e218a62a6edad3a112b1d6a9d9a839e8575bfd9056444c0f4c"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "3b85a42d46b677e1501af5e754bbd241f96bf5daea29488bb7c4eb3cf7a818a1"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\linux_terminal.json": {
+      "bytes": 2052,
+      "sha256": "22d3c947b7b60aaad56efe547d84826f4a437530543a02bb43d06d43dca4903b"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\wsl_exit.json": {
+      "bytes": 2315,
+      "sha256": "0c65f06c15b780f8e97a5ef7ff37f718ec0047fe8c0377ba49065be4c9dab026"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch.json": {
+      "bytes": 1069,
+      "sha256": "62397247ccb12173a097c630d0f5f47f4341bbc2b6b7032927009f9152d151d7"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.launch_intent.json": {
+      "bytes": 586,
+      "sha256": "3c1139fb36c9464724e091e346867a7d173acf36317542e4de576eada37b89af"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.closure.json": {
+      "bytes": 694,
+      "sha256": "f118732ae8b23f8d47b9ce8b20e98cbf87049592ccddc3c32994e5e8384ca00a"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.command.json": {
+      "bytes": 1653,
+      "sha256": "ccd4633eb9b0f6ea5d16df68cfce45ce909694ca34c1e80114b16a9d26d1d693"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_runtime_actual_postiq_07\\commands\\runtime_discovery.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "master_profileprep49_remote_readback.json": {
+      "bytes": 7530,
+      "sha256": "39673011045afb3f8d5dc913095ea3a04647d8b892cbc632c5b1b4de3b606fef"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\result.json": {
+      "bytes": 23816,
+      "sha256": "183340a29094b361ecc65587bb92d6283f39a979a0a2a223b3ec846b9e48f5ef"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "0507833d75c0eb7761b4f9ef109691427c3b395db2a537cd0835cb4b53dff864"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\profile_replace_intent.json": {
+      "bytes": 601,
+      "sha256": "ac4ca8c24ffe5ed671b4c7a35bce68df316cade8f78f072d3be5970c8132b470"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\wslconfig.before.txt": {
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\wslconfig.after.expected.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\wslconfig.after.actual.txt": {
+      "bytes": 681,
+      "sha256": "df394745d9cc85d8f4340e10b4620711b1ee497cadfb74199bb59288abc967db"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before.launch.json": {
+      "bytes": 1861,
+      "sha256": "6432f53fd2cf05f2c08bc0079ac8fa8ed7900d0244b796b66dcac8cd1fb54fc7"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before.exit.json": {
+      "bytes": 2159,
+      "sha256": "9543541afdb462f5525846a4969461cf5a2bcb9556c26521fd60a5a739c5d482"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before.intent.json": {
+      "bytes": 1609,
+      "sha256": "3e6ead20bdd0934a43177eedbecaf9fd8de6172e961633e5a9102fef3ede0541"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "797c99338ff8588e7bbff8d17b93cb2e00f4b1ce2d53d9443d8a18dd8c2dc04f"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before_shutdown.launch.json": {
+      "bytes": 1870,
+      "sha256": "8faa8f29b7acf2abda14a37a23deefd30273537a46b6cbca4d552469a329fe97"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before_shutdown.exit.json": {
+      "bytes": 2168,
+      "sha256": "f81597b5b7956a3619c15fef4058d196b1f833f346218ebcc67315735b6c1751"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before_shutdown.intent.json": {
+      "bytes": 1618,
+      "sha256": "a96ba049434c3c88123b8dc04517a073bc6b3713cf7a4b95a43e75139592f53a"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before_shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_before_shutdown.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "772c8c73abaeb8ea6dc663dd699c5b6d3425f15a51ef00e44f8d72bc5dbca7d5"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\shutdown.launch.json": {
+      "bytes": 396,
+      "sha256": "dae22dcd8bcf8e9304f4222534930819a65fa734df35cbe25543de460cac1a34"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\shutdown.exit.json": {
+      "bytes": 662,
+      "sha256": "aa5b089c3eea2b47db97f1a2ee27910a4d51a0ed7ccd13f6619c4a1171259b2b"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\shutdown.intent.json": {
+      "bytes": 176,
+      "sha256": "85aa6ef4f04d4f7c15b6e5e7ada8fc1cacb71f4b747285a8982b30a639547e70"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\running_after.launch.json": {
+      "bytes": 429,
+      "sha256": "4f287203cb996acd3d660ceb51a95c3e45a2a696860dbab33b239234b0bbc8f4"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\running_after.exit.json": {
+      "bytes": 690,
+      "sha256": "2c7307fe5ab833d0cd92e99c440919fc7f4c660a2243df06410fa601b638afca"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\running_after.intent.json": {
+      "bytes": 209,
+      "sha256": "0f4cfbb434d34ddad2bfda5c89c0167355334b460084a5dbec3444f08d16927e"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\running_after.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_after_shutdown.launch.json": {
+      "bytes": 1869,
+      "sha256": "d242c2cefa1ff169c4c4ce76536608a390da5336d53eb165aa599b47980306c9"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_after_shutdown.exit.json": {
+      "bytes": 2167,
+      "sha256": "0ff4f505ca16399e2eb6b366c0cc7ae2133e72da29f39205708bb11a47235059"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_after_shutdown.intent.json": {
+      "bytes": 1617,
+      "sha256": "b8034bed23686926fdb25a68a2b17e939e00a5c930cddc0350921552b6aae808"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_after_shutdown.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\census_after_shutdown.stdout.txt": {
+      "bytes": 1438,
+      "sha256": "09f9d8040c466400bba39270e28c481f439af1350bd8626aae4562fcbd88b669"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\running_after.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\owner_lease.json": {
+      "bytes": 876,
+      "sha256": "f78569c12a0b270a891eb6a4ac23e98b4b4d4efd78f5327bd61335c277f35102"
+    },
+    "stage5_wsl_host_profile_1291e744938e4a1c8916857f199670b7\\shutdown.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

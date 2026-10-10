@@ -1,0 +1,22 @@
+{
+  "phase": "census_before",
+  "argv": [
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "-NoLogo",
+    "-NoProfile",
+    "-NonInteractive",
+    "-Command",
+    "$ErrorActionPreference='Stop';[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false);$rows=@(Get-CimInstance Win32_Process);$selected=@();$helpers=@();\nforeach($r in $rows){if($r.ProcessId -eq $PID -or $r.ProcessId -eq 25516){continue};$n=$r.Name.ToLowerInvariant();$a=$r.CommandLine;\nif(($n -in @('iqtree.exe','iqtree2.exe','iqtree3.exe','hmmsearch.exe','hmmscan.exe','padloc.exe','defense-finder.exe','diamond.exe')) -or $n -eq 'wsl.exe' -or (($n -in @('python.exe','pythonw.exe','bash.exe','sh.exe')) -and ($null -eq $a -or $a -match '(?i)(stage0[45]_|stage5_|atomic_iqtree_windows\\.py|resume_master_after_boot_once\\.py)'))){$selected += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name;born=$r.CreationDate.ToUniversalTime().ToString('o');unreadable_argv=($null -eq $a)}}\nif((($n -in @('powershell.exe','pwsh.exe')) -and ($a -match '(?i)-File\\s+\"?C:[^\\r\\n\"]+Resume-MasterAfterBootOnce\\.ps1')) -or ($n -eq 'codex.exe' -and $a -match '(?i)\\bexec\\b.*\\bresume\\b')){$helpers += [pscustomobject]@{pid=$r.ProcessId;name=$r.Name}}}\n$tasks=@(Get-ScheduledTask | Where-Object TaskName -like 'LAB_RM_*' | ForEach-Object {[pscustomobject]@{name=$_.TaskName;state=[string]$_.State}});[pscustomobject]@{selected=$selected;helpers=$helpers;tasks=$tasks;utc=[DateTime]::UtcNow.ToString('o')} | ConvertTo-Json -Depth 6 -Compress"
+  ],
+  "birth": {
+    "pid": 20888,
+    "creation_filetime": 134360727808817010,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owner_nonce": "7730f8ff10b94fed964589d01c324326"
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "STAGE05_HOST3GB_FIRST_REQUEST_V3_SOURCE_PREPARATION_V1",
+  "state": "FROZEN_SOURCE_PREPARATION_ONLY",
+  "utc": "2026-10-10T02:24:37.839667+00:00",
+  "preserved_v2_sha256": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9",
+  "four_literal_substitutions_reverse_to_exact_v2": true,
+  "all_function_asts_identical_to_v2": true,
+  "native_five_budgets_unchanged": {
+    "incremental_windows_requirement_bytes": 1610612736,
+    "commit_requirement_bytes": 3221225472,
+    "linux_job_requirement_bytes": 1610612736,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "resource_basis_change_only": "Keep the WSL global4GB memory setting ->3GB",
+  "exact_routes": {
+    "toolchain": "stage5_setup_toolchain_actual_postiq_07",
+    "runtime": "stage5_setup_runtime_actual_postiq_08",
+    "interop": "stage5_interop_actual_postiq_05",
+    "storage": "stage5_setup_storage_actual_postiq_06",
+    "drivefs": "stage5_setup_drivefs_actual_postiq_04",
+    "unc": "stage5_unc_bind_actual_postiq_03"
+  },
+  "actual_candidates": {
+    "runtime_manifest": "stage5_runtime_actual_postiq_08.json",
+    "storage_proof": "stage5_storage_actual_postiq_06.json"
+  },
+  "authored_pure_tests": {
+    "state": "PASS",
+    "count": 6
+  },
+  "default_noop": "PASS",
+  "source_sha256": {
+    "prepare_stage5_first_actual_request_v3.py": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09",
+    "test_prepare_stage5_first_actual_request_v3.py": "3b4a89308b3996f2f30c520b6e111bc98c4e7e0e232c211d3b3ae146f323a1a7",
+    "prepare_stage5_first_actual_request_v3_METHODS.md": "a14511689fc85964b0bfc4e6ff249fe4bdab09c1f300e69e5aff22d7d26c793a",
+    "prepare_stage5_first_actual_request_v2.py": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9",
+    "prepare_stage5_first_actual_request.py": "d9addf686ceb29d35180ae65e55aa0d202be1c4228305d7d8fa2d885b3235a2c",
+    "stage5_actual_config_request.template.json": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+  },
+  "actual_operations": {
+    "future_gate_reads": "NOT_RUN",
+    "request_write": "NOT_RUN",
+    "config_build": "NOT_RUN",
+    "native_admission": "NOT_RUN",
+    "scientific_execution": "NOT_RUN",
+    "wsl": "NOT_RUN",
+    "unc": "NOT_RUN",
+    "lock": "NOT_RUN",
+    "git_ref_change": "NOT_RUN"
+  },
+  "independent_review": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT"
+}

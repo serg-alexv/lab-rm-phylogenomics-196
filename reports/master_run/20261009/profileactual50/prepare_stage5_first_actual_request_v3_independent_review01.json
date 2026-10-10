@@ -1,0 +1,95 @@
+{
+  "actual_operations": {
+    "config_build": "NOT_RUN",
+    "future_gate_reads": "NOT_RUN",
+    "native_admission": "NOT_RUN",
+    "request_write": "NOT_RUN",
+    "scientific_execution": "NOT_RUN"
+  },
+  "all_function_asts_identical_to_published_v2": true,
+  "exact_candidates": {
+    "runtime_manifest": "stage5_runtime_actual_postiq_08.json",
+    "storage_proof": "stage5_storage_actual_postiq_06.json"
+  },
+  "exact_routes": {
+    "drivefs": "stage5_setup_drivefs_actual_postiq_04",
+    "interop": "stage5_interop_actual_postiq_05",
+    "runtime": "stage5_setup_runtime_actual_postiq_08",
+    "storage": "stage5_setup_storage_actual_postiq_06",
+    "toolchain": "stage5_setup_toolchain_actual_postiq_07",
+    "unc": "stage5_unc_bind_actual_postiq_03"
+  },
+  "files": {
+    "prepare_stage5_first_actual_request.py": {
+      "bytes": 3013,
+      "sha256": "d9addf686ceb29d35180ae65e55aa0d202be1c4228305d7d8fa2d885b3235a2c"
+    },
+    "prepare_stage5_first_actual_request_v2.py": {
+      "bytes": 6828,
+      "sha256": "f3e1c49855ab08103a11613047746f28e02802bd01ec6f81941676c104b133d9"
+    },
+    "prepare_stage5_first_actual_request_v3.py": {
+      "bytes": 6828,
+      "sha256": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09"
+    },
+    "prepare_stage5_first_actual_request_v3_METHODS.md": {
+      "bytes": 2051,
+      "sha256": "a14511689fc85964b0bfc4e6ff249fe4bdab09c1f300e69e5aff22d7d26c793a"
+    },
+    "prepare_stage5_first_actual_request_v3_preparation01.json": {
+      "bytes": 2498,
+      "sha256": "b9d7126b6d532a0c9da9dc285ed1ab38240c6ee8aaab5de69d9c1139d5b02269"
+    },
+    "stage5_actual_config_request.template.json": {
+      "bytes": 1949,
+      "sha256": "2db68c531594ccf6785ad2f6e9948008cc77b8cad88c982d044af115eb3cc136"
+    },
+    "test_prepare_stage5_first_actual_request_v3.py": {
+      "bytes": 5693,
+      "sha256": "3b4a89308b3996f2f30c520b6e111bc98c4e7e0e232c211d3b3ae146f323a1a7"
+    }
+  },
+  "four_literal_substitutions_reconstruct_exact_v3": true,
+  "limitations": [
+    "PASS prefix/unlock checks here are preliminary request construction; they do not establish full provenance or admit science.",
+    "Unchanged actual config builder and native owner must reopen exact bytes, validate source/closure/current boot/storage/candidate joins and fresh resources.",
+    "No future gate/candidate/UNC path was read, no actual request or config built and no native/scientific execution performed."
+  ],
+  "native_resource_bytes": {
+    "commit_requirement_bytes": 3221225472,
+    "incremental_windows_requirement_bytes": 1610612736,
+    "linux_job_requirement_bytes": 1610612736,
+    "process_address_space_limit_bytes": 4294967296,
+    "sampled_rss_stop_bytes": 1342177280
+  },
+  "remaining_source_blockers": [],
+  "resource_basis_only_global_wsl_ceiling_changed_to3GB": true,
+  "review_actions": {
+    "Git_ref_writes": 0,
+    "UNC_reads": 0,
+    "WSL_launches": 0,
+    "locks": 0,
+    "producer_source_edits": 0
+  },
+  "reviewed_contracts": [
+    "Preserved original/v2/template exact byte pins; schema, purpose, first accession, panel and scientific method unchanged.",
+    "Exactly four constant substitutions: candidate runtime08, gate toolchain07, gate runtime08 and WSL global3GB basis sentence.",
+    "Every function AST remains identical to published v2; exact six fixed routes and no caller-selected old evidence.",
+    "Five conservative finite native budgets remain verbatim original; Windows/Linux reserves and fresh admission remain required.",
+    "Pure deterministic construction hashes complete candidate/result/unlock bytes and rejects non-PASS or incorrect explicit unlock states.",
+    "Explicit prepare keeps bounded plain single-link C reads, final byte reread and exclusive fsynced new output; default reads no actual gates or writes request."
+  ],
+  "reviewer_source_sha256": "4225d87a96c71539d5d3263e261c30d4bd46b3b697b05023ca7a46b9a29e8191",
+  "schema": "STAGE05_FIRST_ACTUAL_REQUEST_V3_SOURCE_INDEPENDENT_REVIEW_V1",
+  "source_sha256": "cf49f22430a0bfa435491c25ac73494b253acae53aac2ff3b8b910d4a65eaa09",
+  "state": "PASS_FROZEN_SOURCE_SIX_PURE_TESTS_DEFAULT_NOOP_ACTUAL_REQUEST_NOT_RUN",
+  "tests": {
+    "command": "python -B work/test_prepare_stage5_first_actual_request_v3.py",
+    "count": 6,
+    "default_noop_command": "python -B work/prepare_stage5_first_actual_request_v3.py",
+    "default_noop_exit_code": 0,
+    "exit_code": 0
+  },
+  "utc": "2026-10-10T02:28:40.410381+00:00",
+  "verified_files": 7
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T02:26:07.451767+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "ad990668ed9a564f1f05bd014ab9d5fd89ae7eff",
+  "initial_remote_main": "ad990668ed9a564f1f05bd014ab9d5fd89ae7eff",
+  "declaration_sha256": "79a14c3f47d2d0b202feebb0d0a02f9f8b8720b4d1bbc0a6d4c1ddaef6985b76",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 18,
+  "verified_files": 18,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 19347,
+      "sha256": "0c9cd45e2cc601052b12454c939631dd06ff8360492cd001e4451308eba8ef7c",
+      "remote_blob": "2532f6aead335e39f11a502e0f9024fcd398c115",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_gdrive_view_postrepair_METHODS.md",
+      "bytes": 2569,
+      "sha256": "282f1393ff635534a5a1cf82856cf2f410070fa5068b1b39c8dcbb8017b80d6a",
+      "remote_blob": "74fc621addba4ab5347a183910ab14c904daa385",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_gdrive_view_postrepair_preparation01.json",
+      "bytes": 2574,
+      "sha256": "3785f94ae42939651db90965c55d407e470347a08578d70885336760d3432bfa",
+      "remote_blob": "2102feed4216ba463d1f6455c9f8b6c12d24e672",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_wsl_host_profile_before_repair01.txt",
+      "bytes": 679,
+      "sha256": "31b59c84adf6bf7b0fdf0cd42ee6298cd9dc7c20032ab30d97c3f22dbb3b6982",
+      "remote_blob": "002bb5796f0682155d00e18fe301bc48dbad2174",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_wsl_host_profile_owner_METHODS.md",
+      "bytes": 4273,
+      "sha256": "68561eb868c01d9c2322dd90672bffc0cdfde29c41acd3214b6eece2145158a8",
+      "remote_blob": "5a5958fe550d265989c68f1130211c664d87efcd",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_wsl_host_profile_owner_independent_review01.json",
+      "bytes": 7463,
+      "sha256": "fda85c307eae1353ee62a5934ea7d9d87e658cb597a917bb6357d905067c15fe",
+      "remote_blob": "8e5a1a617329b2db78b9d8d95058112ed1026510",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/profileprep49/stage5_wsl_host_profile_owner_preparation01.json",
+      "bytes": 3402,
+      "sha256": "26b5f2f315fe606ac58dd49d74f42c922cd363298598cc576f74c75f76cbb145",
+      "remote_blob": "3971660e7e172e6deb597e4936322c930bec1bd9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_profileprep49_patch.json",
+      "bytes": 241,
+      "sha256": "1509819e7938277184bbdbbdca55df32c64f89338fd9c356d8f85f7415d24d88",
+      "remote_blob": "56c990c1a3cfdb883b1d1114d7e088ba9cc246a1",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_runtimefailure48_remote_readback.json",
+      "bytes": 14985,
+      "sha256": "1474c24fcc75804114c9ff3ada0b03fc14026a409a86d41ecf5486fab4f83d74",
+      "remote_blob": "87335fb301d57c29b80b5454f304b751231696ab",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_completed_master_step.py",
+      "bytes": 1942,
+      "sha256": "2f50c376df5919fc2e1f6686e66a35e9211c49d9094e602557d7cc318413402f",
+      "remote_blob": "a9fd6cf2dae9f393bfe4bf5a21d4b3e2035d68d2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4837,
+      "sha256": "10a4e259c27757833ef32b0c49c9945c9760a218e33f6eb89257e68538437bae",
+      "remote_blob": "8e2b291571b9c8358fbcc63484abd7deaf2a498c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_packet_publication.py",
+      "bytes": 3090,
+      "sha256": "52114e2f843c06ecd625e8ede970ef7ffdf0ae778c9c52bdd63ec5a7c9aeac56",
+      "remote_blob": "9730cecfb27ec20a76d68fa7bb30f7c12791c1eb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_profileprep49_step.py",
+      "bytes": 3018,
+      "sha256": "353b403093c1f9362e42f47bcd098af8bcbe03c98aabe3412a43ca6d3200320b",
+      "remote_blob": "5fb8589b2d8782d600de21bd6c53cf9689973995",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/stage5_gdrive_view_postrepair.py",
+      "bytes": 32581,
+      "sha256": "a69a755dd044d72cfdfc49d85c150a43057ad69e9b4d70253792222410e41125",
+      "remote_blob": "d75fb150cfafe665fc473151532ea4a00604fa0b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/stage5_wsl_host_profile_owner.py",
+      "bytes": 19025,
+      "sha256": "3e6c78c08265157b892a341087780f29dee58c5281d41f0fe49f6ff534248232",
+      "remote_blob": "a9ae1fdf8eb24ff4abab6eeaa986ed5ff1bce2b2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_stage5_gdrive_view_postrepair.py",
+      "bytes": 5872,
+      "sha256": "f63a058a26259c0c351688e9d01f2d2ae1f932263ad2b0ce414e5aa300dfd092",
+      "remote_blob": "e38c8c67d005682dc66a87ac38978ca5e4f4e1dc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/test_stage5_wsl_host_profile_owner.py",
+      "bytes": 5478,
+      "sha256": "a86bd29e3269383b3b280065051648b038d20ceae6ac7e04408fd30b3f791c93",
+      "remote_blob": "7700e49b2f4c092e04d71a6a4ddaa288bb3eb3b7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 19110,
+      "sha256": "4338129befd89b5b992fb974c3e9d49a65f30ad388e027f035ca18bee30c3441",
+      "remote_blob": "5d7977286275f61deb868499216e650aa6e07dd8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "ad990668ed9a564f1f05bd014ab9d5fd89ae7eff",
+  "finished_utc": "2026-10-10T02:26:16.265692+00:00",
+  "elapsed_seconds": 8.813000000000102,
+  "verified_bytes": 150486
+}
