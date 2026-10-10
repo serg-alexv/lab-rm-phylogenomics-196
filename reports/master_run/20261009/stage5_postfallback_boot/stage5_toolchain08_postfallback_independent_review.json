@@ -1,0 +1,150 @@
+{
+  "schema": "STAGE05_POSTBOOT_COMPLETED_GATE_INDEPENDENT_V1",
+  "state": "PASS_COMPLETED_POSTBOOT_GATE_EXACT_SOURCE_CLOSURE_AND_BYTES",
+  "source_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "kind": "toolchain",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_08",
+  "utc": "2026-10-10T04:46:36.197440+00:00",
+  "readonly_method": "Standard-library decoded receipts and SHA256; no producer imports, WSL, network, registry, signaling or lock mutation",
+  "scientific_execution_or_acceptance": "NONE_NONSCIENTIFIC_GATE_ONLY",
+  "old_scope_retroactively_passed": false,
+  "authority_commit": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "new_windows_boot": "2026-10-10T00:36:47.500000+00:00",
+  "boot_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
+  "actual_result_sha256": "529aa5d7da139d05401a346cd0c9590b15663cff734c7b5e53d6ffc1a27ef18e",
+  "unlock_sha256": "5b1609c2358d545ccb722cb628e84d1d8a5d14689509cc96f1e86978180eb722",
+  "detail": {
+    "linux_boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+    "native_commands": [
+      {
+        "label": "mount_toolchain",
+        "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+        "argv": [
+          "/usr/bin/mount",
+          "-o",
+          "loop",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/toolchain.ext4",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux"
+        ],
+        "exit_code": 0,
+        "closure_sha256": "87311c2c77d694e04220471e9cffeabe7c409b906e3fd1f7ea52c04fb469e2b3"
+      }
+    ],
+    "candidate_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_toolchain_actual_postiq_08\\toolchain_proof.json",
+    "candidate_sha256": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf"
+  },
+  "checked_files": {
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\result.json": {
+      "bytes": 4632,
+      "sha256": "529aa5d7da139d05401a346cd0c9590b15663cff734c7b5e53d6ffc1a27ef18e"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\lock_released.json": {
+      "bytes": 116,
+      "sha256": "5b1609c2358d545ccb722cb628e84d1d8a5d14689509cc96f1e86978180eb722"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_runtime_discovery.py": {
+      "bytes": 5694,
+      "sha256": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb"
+    },
+    "stage5_drivefs_filesystem_smoke.py": {
+      "bytes": 5779,
+      "sha256": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a"
+    },
+    "stage5_unc_bind_probe.py": {
+      "bytes": 29071,
+      "sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d"
+    },
+    "observe_iqtree_controller_exit.py": {
+      "bytes": 2851,
+      "sha256": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+    },
+    "stage5_setup_linux.py": {
+      "bytes": 15526,
+      "sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\actual_owner_lock.json": {
+      "bytes": 688,
+      "sha256": "6f06d927fa9141f75f52eeb30867cd2fc506b537d2992c979e1f0fbdbf7d5688"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\launch.json": {
+      "bytes": 1261,
+      "sha256": "6b15cd07741929aefd70d91329ba4be03634b2e4fbdc812ac800b33627b6bd2f"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\wsl_exit.json": {
+      "bytes": 1941,
+      "sha256": "eef446dfe5a0b40f32e6102ba6b879307017bd75d69791d5c9323300296b4241"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\wsl.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\linux_terminal.json": {
+      "bytes": 1672,
+      "sha256": "e464c34841cc40d1c7c83bd3155fd5b6b141d39ad47e2139418ed2f1ac2fa89c"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.launch.json": {
+      "bytes": 946,
+      "sha256": "325df977c476498354812e9b002f924647cfa208d174dcd49d5f71c8f388a166"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.launch_intent.json": {
+      "bytes": 463,
+      "sha256": "c6c924d522723a2f1ea861f085134d178f3d01641bea7b0f89f35b883b5a015e"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.closure.json": {
+      "bytes": 635,
+      "sha256": "87311c2c77d694e04220471e9cffeabe7c409b906e3fd1f7ea52c04fb469e2b3"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.command.json": {
+      "bytes": 1473,
+      "sha256": "03b4825e8217baf4f66d31e5899dd55f28df936097584c1aef6054759c2ed7c5"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\commands\\mount_toolchain.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_setup_toolchain_actual_postiq_08\\toolchain_proof.json": {
+      "bytes": 1055,
+      "sha256": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf"
+    }
+  }
+}
