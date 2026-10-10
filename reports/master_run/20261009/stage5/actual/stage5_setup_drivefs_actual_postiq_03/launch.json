@@ -1,0 +1,42 @@
+{
+  "argv": [
+    "C:\\Windows\\System32\\wsl.exe",
+    "-d",
+    "Ubuntu",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_linux.py",
+    "--step",
+    "drivefs",
+    "--output",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_03",
+    "--owner-lease",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_03/owner_lease.json",
+    "--owner-nonce",
+    "d68a59e0357e4c61b49a6c666ad4a1ec",
+    "--source-sha256",
+    "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+    "--owner-lock-receipt",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_drivefs_actual_postiq_03/actual_owner_lock.json",
+    "--owner-lock-sha256",
+    "ff9d6804461e32eb8bad7992c81a8b00d7f51ed5459dfe620c5778d9ecc2bf0a",
+    "--toolchain-proof",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_setup_toolchain_actual_postiq_05/toolchain_proof.json",
+    "--toolchain-proof-sha256",
+    "106e1bc310f11d34d78f0d7bdc2b311a2b457e5c68c0e32aad3f8fc0a718446c"
+  ],
+  "native_wsl_client": {
+    "pid": 11328,
+    "creation_filetime": 134360694413889232,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "owner_nonce": "d68a59e0357e4c61b49a6c666ad4a1ec"
+}

@@ -1,0 +1,201 @@
+{
+  "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+  "state": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+  "step": "drivefs",
+  "source_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832",
+  "linux_source_sha256": "24aab72b74dd0aab6c58cac4951c30e6b1bfc9462460486748b546e50ec92e27",
+  "source_pins": {
+    "atomic_iqtree_windows.py": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "stage5_owner_lease.py": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+    "stage5_atomic_process.py": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+    "stage5_work_storage.py": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f",
+    "stage5_runtime_discovery.py": "11b2a1b64512e1eab3895db017323cc25de65d31b4734d08788e99d968f44dfb",
+    "stage5_drivefs_filesystem_smoke.py": "d24d86c1910ac82514a2fb7c1819d5cd1ea175dea3c5df587e8c8be2282eab2a",
+    "stage5_unc_bind_probe.py": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "observe_iqtree_controller_exit.py": "483b5165d015dcea659d5e850187c79ff5e99c4c0efff1c9fb108cc9a59ab78a"
+  },
+  "scientific_adoption_authorized": false,
+  "owner_nonce": "d68a59e0357e4c61b49a6c666ad4a1ec",
+  "actual_windows_owner": {
+    "pid": 332,
+    "creation_filetime": 134360694412080020,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.109375,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "controller_receipt_sha256": "7b6a6f78f2abfa833bc17f2767df1ae4e44ccc35de9ae35323461c5337481603",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 6,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 6
+  },
+  "prior_native_files": {
+    "launch.json": "4621af4a10eeaff8444ec11545bee1550bb891af18547dcfc15ecf6ba3009bcc",
+    "exit.json": "7404524cc341af5ee19d04f9ca3f547765f2a1f274e4b891a5bcd409264b14c7",
+    "execution_state_restored.json": "49f5923f592bafe890c4a784563dbfa2a90f3100a0a89a9938331daa1c71a851",
+    "lock_released.json": "9c5df1cd99ace44e9f76a509aa8f21407dc76033c5ec8cdd444f30bc7a5a1ed3"
+  },
+  "actual_ubuntu_registration": {
+    "distribution_name": "Ubuntu",
+    "version": 2,
+    "base_path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "registry_key": "{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}",
+    "vhd_metadata": {
+      "path": "C:\\Users\\wheel\\AppData\\Local\\wsl\\{d58ba874-ce79-4d09-aa37-9d9d8539a6a7}\\ext4.vhdx",
+      "device": "17766949232488609743",
+      "inode": "6755399441542343",
+      "bytes": 16980639744,
+      "payload_read": false
+    }
+  },
+  "latest_actual_resources": {
+    "utc": "2026-10-10T01:30:43.790359+00:00",
+    "physical_available_bytes": 4559122432,
+    "commit_headroom_bytes": 6512173056,
+    "commit_total_bytes": 15494602752,
+    "commit_limit_bytes": 22006775808,
+    "disk_available_bytes": {
+      "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196": 233175719936,
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_03": 245448126464
+    }
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "actual_wsl_exit": {
+    "pid": 11328,
+    "creation_filetime": 134360694413889232,
+    "exit_filetime": 134360694433291078,
+    "cpu_seconds": 0.0,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "wsl_exit_receipt_sha256": "1bd606bd9f068a77a52609927cf34dbd45c6b93927ad09539d6835f21c6d754d",
+  "native_commands": [
+    {
+      "label": "drivefs",
+      "launch_sha256": "376f568430e20bd2ed2ae1012e932f2799ea7c8a42aaae7fd9aa221f817d9acc",
+      "closure_sha256": "5d3421114c66e8c60a2f3b2b754bf932fc7a873fc02bc1d201cc98a24722632e",
+      "command_sha256": "a804bb16df1e116da7022f15ca3e9d5882eb4841749b794a2e5a434cd8e00f9b"
+    }
+  ],
+  "linux_terminal_sha256": "71f374616df77c7a6eb1a2b6f5582962a45f90d4af698ae3071fd41b7ac81dd1",
+  "windows_readback_worker": {
+    "schema": "STAGE05_OWNED_WINDOWS_IO_JOB_V2",
+    "state": "PASS_EXACT_RETAINED_ROOT_EXIT0_AND_EMPTY_NAMED_JOB",
+    "argv": [
+      "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_windows.py",
+      "--drivefs-readback-worker",
+      "--request",
+      "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_setup_drivefs_actual_postiq_03\\drivefs_readback_request.json",
+      "--request-sha256",
+      "ce9531bbfe807db30afb9998e182fcd6b0f52ff597edfc35fee0d864b50ad0f7"
+    ],
+    "owner": {
+      "pid": 332,
+      "creation_filetime": 134360694412080020,
+      "exit_filetime": 0,
+      "cpu_seconds": 0.109375,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": false,
+      "exit_code": null
+    },
+    "source_sha256": "0664a9e93c095232c25d052331d2243b49d5fe5e064b7794df5c5f4b010cc35d",
+    "api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "job_name": "Local\\LAB_RM_STAGE5_IO_f7cb4ef187594deead40511a68f79107",
+    "drain_samples": [
+      {
+        "elapsed_remaining_seconds": 5.0,
+        "root_wait": 0,
+        "job": {
+          "peak_process_committed_bytes": 17088512,
+          "peak_job_committed_bytes": 18235392,
+          "job_cpu_seconds": 0.171875,
+          "job_active_processes": 0,
+          "job_pids": []
+        }
+      }
+    ],
+    "owned_closure_proven": true,
+    "created": true,
+    "assigned": true,
+    "birth": {
+      "pid": 9232,
+      "creation_filetime": 134360694435387564,
+      "exit_filetime": 0,
+      "cpu_seconds": 0.0,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": false,
+      "exit_code": null
+    },
+    "exit": {
+      "pid": 9232,
+      "creation_filetime": 134360694435387564,
+      "exit_filetime": 134360694437496696,
+      "cpu_seconds": 0.109375,
+      "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "session_id": 1,
+      "exited": true,
+      "exit_code": 0
+    },
+    "owned_job": {
+      "peak_process_committed_bytes": 17088512,
+      "peak_job_committed_bytes": 18235392,
+      "job_cpu_seconds": 0.171875,
+      "job_active_processes": 0,
+      "job_pids": []
+    }
+  },
+  "windows_readback": {
+    "owner_nonce": "d68a59e0357e4c61b49a6c666ad4a1ec",
+    "readback": {
+      "files": {
+        ".native_runner.guard": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "ordinary.bin": {
+          "bytes": 61,
+          "sha256": "08fd19ca2ee390e799c5bd4ef19c5bcc4677e2df4c3c2140de746fbb846f19b1"
+        },
+        "replaced.bin": {
+          "bytes": 61,
+          "sha256": "08fd19ca2ee390e799c5bd4ef19c5bcc4677e2df4c3c2140de746fbb846f19b1"
+        },
+        "runner_atomic.json": {
+          "bytes": 102,
+          "sha256": "e554dbe5d52dcb835579cee0e6be9cf66dba380f13bfab8c06cc8c430f830842"
+        }
+      },
+      "namespace_relative": ".work/stage05_atomic_filesystem_smoke_20261010T013042358409Z_cdc0caad",
+      "result_sha256": "23156f1f8705f67243b02c910873dac9456b1f6a71bc7bb8358b909a415f255c",
+      "state": "PASS_INDEPENDENT_WINDOWS_DRIVEFS_EXACT_BYTES"
+    },
+    "request_sha256": "ce9531bbfe807db30afb9998e182fcd6b0f52ff597edfc35fee0d864b50ad0f7",
+    "scope": "NONSCIENTIFIC_STAGE5_SETUP_ONLY",
+    "source_sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+  },
+  "owned_closure_proven": true,
+  "unknown_closure_stop_preserved": false,
+  "utc": "2026-10-10T01:30:43.796152+00:00"
+}
