@@ -1,6 +1,6 @@
 # Current request: local five-marker pilot
 
-RUNNING. Pilot marker1 of5 completed and independently validated: 5-FTHF_cyc-lig,189 taxa,210 alignment columns,Q.PFAM+F+I+R5,1000 UFBoot replicates. All input sequences are preserved. 153 internal branches have numeric supports5-100;33 short internal branches have no support labels and remain explicitly unlabeled. Native completion was07:39:43 UTC. ADK is now running; ASTRAL and full pipeline have not run. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot79/progress.json).
+RUNNING. Pilot markers1 and2 completed and independently validated. ADK has196 exact unique tips,224 alignment columns,WAG+I+G4,1000 UFBoot replicates,150 numeric supports6-100 and43 explicitly unlabeled internal branches. Its native completion was07:53:10 UTC. ATP-synt is now running; ASTRAL and full pipeline have not run. The v2 validator records native unlabeled supports without imputation. Full execution remains unapproved. See [progress receipt](reports/stage01/local_pilot_20261010/progress/local_pilot80/progress.json).
 
 # Current execution status
 

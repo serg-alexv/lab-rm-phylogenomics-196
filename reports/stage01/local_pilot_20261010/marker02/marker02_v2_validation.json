@@ -1,0 +1,246 @@
+{
+  "evidence": {
+    "alignment": {
+      "bytes": 48020,
+      "mtime_ns": 1791618001033000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\alignments\\ADK_aligned.fasta",
+      "sha256": "4dc864f6a3c1480cb98b6a7d1dc5e0a2b9fb47e1a46d4bbb1b51c855d0aedc9f"
+    },
+    "input_fasta": {
+      "bytes": 44544,
+      "mtime_ns": 1791615734940000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\input_genes\\ADK.fasta",
+      "sha256": "1bf708f18ecea80df0177f98d20c9aff90a10bd77f06c61c064c88601a48a0df"
+    },
+    "iqtree_report": {
+      "bytes": 71502,
+      "mtime_ns": 1791618790654000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\ADK.iqtree",
+      "sha256": "8d8c69b30f096ddc4225f93f36e98f09a64d82f6d99509595e3ec3bd1445ce90"
+    },
+    "native_log": {
+      "bytes": 26368,
+      "mtime_ns": 1791618790795000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\ADK.log",
+      "sha256": "4c6d5dfb5ea9350d1d57a9fccffb413f5cc299a6da15091bf351a3eb482db314"
+    },
+    "treefile": {
+      "bytes": 8934,
+      "mtime_ns": 1791618790708000000,
+      "path": "G:\\My Drive\\LAB_RM\\lab-rm-phylogenomics-196\\pilot_output\\trees\\ADK.treefile",
+      "sha256": "ab9af4a04121b77b189e44d425035a27a6159a0282cd5986476067f0fb64255b"
+    }
+  },
+  "evidence_unchanged_during_validation": true,
+  "limitations": [
+    "Focused marker02 file-level validation only; no claim about other markers, ASTRAL, or biological validity.",
+    "The 33 unlabeled internal branches are recorded individually with path and branch length; no support value is imputed.",
+    "No project files were modified and no network/API operation was performed."
+  ],
+  "native_evidence": {
+    "bootstrap_replicates_native_log": 1000,
+    "bootstrap_replicates_report": 1000,
+    "branch_lengths_finite_nonnegative": true,
+    "input_alignment_tip_ids_equal": true,
+    "model": "WAG+I+G4",
+    "native_log_end": "Date and Time: Sat Oct 10 10:53:10 2026",
+    "support_validation": {
+      "support_component_count": 150,
+      "support_max": 100.0,
+      "support_min": 6.0,
+      "unlabeled_internal_branch_count": 43,
+      "unlabeled_internal_branches": [
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/1/0/0"
+        },
+        {
+          "branch_length": 2.0086e-06,
+          "path": "root/1/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/0/1/0/1/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/0/1/0/0/1/1/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/0/1/0/1/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/0/1/0/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0/0/0/1/0/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0/0/1/0/0/0"
+        },
+        {
+          "branch_length": 9.995e-07,
+          "path": "root/1/0/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1/0"
+        },
+        {
+          "branch_length": 0.0,
+          "path": "root/1"
+        }
+      ]
+    },
+    "tree_tip_count": 196,
+    "tree_tips_unique_and_exact": true,
+    "ungapped_sequences_preserved": true
+  },
+  "schema": "LAB_RM_MARKER02_V2_VALIDATOR_TEST_V1",
+  "scope": {
+    "marker": "ADK",
+    "other_marker_or_astral_outputs_read": false,
+    "scientific_rerun": false,
+    "tips": 196
+  },
+  "status": "PASS",
+  "synthetic_negative_tests": {
+    "all_support_absent": "rejected: No internal IQ-TREE support values found in <no-support>",
+    "negative_branch_length": "rejected: Nonfinite or negative branch length",
+    "nonnumeric_support": "rejected: Unsupported IQ-TREE support label in <bad-support> at root/0: 'bad'",
+    "out_of_range_support": "rejected: IQ-TREE support outside [0,100] in <bad-range> at root/0: '101'"
+  },
+  "validated_utc": "2026-10-10T07:56:02.782079Z"
+}
