@@ -1,0 +1,398 @@
+{
+  "schema": "MASTER_SOURCE_INDEPENDENT_REMOTE_BYTE_READBACK_V1",
+  "started_utc": "2026-10-10T02:46:24.824829+00:00",
+  "state": "PASS_ALL_REMOTE_BYTES_SHA256_VERIFIED",
+  "expected_commit": "582662acae62c6265940c806e0d38f795d891ae2",
+  "initial_remote_main": "582662acae62c6265940c806e0d38f795d891ae2",
+  "declaration_sha256": "5e0db86385f07960875b94fdde19d55578935eb68aeca132ab488d6a8263bbd0",
+  "method": "GitHub REST Git blobs; actual base64-decoded bytes independently SHA256 hashed",
+  "maximum_parallel_gh_requests": 4,
+  "required_files": 42,
+  "verified_files": 42,
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 20375,
+      "sha256": "a413c5620110d3ee79485d38feddb9e58cee98f349540bd2bef130fa4c3dc837",
+      "remote_blob": "ccba14798b6a14953ffafc45d256852ceaa5d056",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/stage5_chrome_cleanup_actual01_wrong_publication_receipt_preserved.json",
+      "bytes": 8895,
+      "sha256": "ae2e5560bdfb7b3c657c9ea3088908f5b958ad83cf5c6f0d4a63870216e10986",
+      "remote_blob": "3b356b1429640c245ba0b6d24e0105f5dcd9e2d6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/postboot01/stage5_chrome_cleanup_actual02_independent_review.json",
+      "bytes": 15486,
+      "sha256": "3cde5351c8afead6395bbb5571926495832a01c698301ce300819da45d1bef90",
+      "remote_blob": "4791deb07911f59b8ecb99cf974c32db61876a9e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_chromeactual53_additional_status.json",
+      "bytes": 569,
+      "sha256": "26b64fc051f05e58f923ed23b4892d2d11ceff51fe540976ed246a3b3d308078",
+      "remote_blob": "d4be480db0ed79519b83064753c5729ea7eb52e7",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_chromeactual53_patch.json",
+      "bytes": 885,
+      "sha256": "0822c81c5b7c0b80e0e3a9ffecfe23100e58f41c8b5bf4200ab02f9812ba1b56",
+      "remote_blob": "a1bcebc1ce49dfe354315dbb50f4fce95a471bfe",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/publication/master_interop52_remote_readback.json",
+      "bytes": 35214,
+      "sha256": "e12c055e69d45c08baa32d304506ece75354428fb07226868b57d1cbb04e7801",
+      "remote_blob": "1ecdb543555cb11c711c80fe1646d9870b0b5129",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0001.intent.json",
+      "bytes": 555,
+      "sha256": "b6a2d47458200f16ed9863f168bb6b1dc26696c26f288320aa09f6e298a309ce",
+      "remote_blob": "3a9b0bb6c988bddc39ba761e4b245a07ea0f6edc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0001.result.json",
+      "bytes": 968,
+      "sha256": "8b88b49679d3916d7e749d711adde9bdc185e9e08b08e8e3211a1c9031faa64d",
+      "remote_blob": "3f153f003bd453c22403ca874d1985c9a2a7dc47",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0002.intent.json",
+      "bytes": 555,
+      "sha256": "a2838a963f5dd8f9fd1068823bfcbbbc45d7cd13826bc6f783c20449685585fd",
+      "remote_blob": "5b275a0f18272788d20473f4907ce27d118653ba",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0002.result.json",
+      "bytes": 966,
+      "sha256": "16532dbe722bf2fac528a48b748500dd960cce69a916d3a1f075b939d35b8203",
+      "remote_blob": "0d8ce4959f46f6acc80c23bcf2e576a99fe97b0b",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0003.intent.json",
+      "bytes": 554,
+      "sha256": "eed10914c77a2211c24eaa0d4d796942a9d555c9e6d3b758954b6ca914ff49aa",
+      "remote_blob": "cf4033c402d8d86fdbcbd9edc35b17986a2a11e9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0003.result.json",
+      "bytes": 967,
+      "sha256": "faa88046c072c963ef6c789d4f165ff105b8730badf47e8c86de076496bf63a6",
+      "remote_blob": "e0378aa85968bcdf123d5746a4700d0589f4ff93",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0004.intent.json",
+      "bytes": 553,
+      "sha256": "8ce0ba6fea3d60b827a99ac935bf101be488f655739024eaa18db8eb2b49ea40",
+      "remote_blob": "cfbb1f4f9c2ba4c96f7a7d52c7efc588a39917cc",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0004.result.json",
+      "bytes": 965,
+      "sha256": "35728b455c36ad5547166a0f13913e6bc437024d07fc5e0b1baff1887113b7c3",
+      "remote_blob": "42fa2a8529d9bdc30e9bb7c2b404625c517813e8",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0005.intent.json",
+      "bytes": 555,
+      "sha256": "b3471e5311d5f797e99eb684ad512c760ae1ea428073271c5c12070ed8875936",
+      "remote_blob": "7194e388139e449af71c1a42811dfabc6714688c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0005.result.json",
+      "bytes": 963,
+      "sha256": "7fcc0fa035e78c40f1dee2eba885e4b32613ff1826394dd146693868f1755b7b",
+      "remote_blob": "b84392da9bb037e664a278e10913ac07fbb1aad2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0006.intent.json",
+      "bytes": 554,
+      "sha256": "e5d3d7ec95f814569dbfcfaa7cb97c37ae8adf5731b50ebfaf6a55c3e61f8f82",
+      "remote_blob": "269affde66d4d364766387aebdd43dc2e0efd185",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0006.result.json",
+      "bytes": 966,
+      "sha256": "5517175679e38f1dd3908a5f424d54bf9a70f36242a374f988a0d2a122bfe8f2",
+      "remote_blob": "14c0453cacf064386d06b9c93dd17abae7ddda56",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0007.intent.json",
+      "bytes": 556,
+      "sha256": "f8b1781ec55eab91bee128b7908a624906a53e8fdff3dbaa011c64a18a8a0e12",
+      "remote_blob": "65c22fb0820bdb6fbc2119295f51d4e768df8e9c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0007.result.json",
+      "bytes": 970,
+      "sha256": "c677ad847ef1ce10dee0064c5e96f1762ae5ecbc9a5eaf6c0f3e84b730307b2a",
+      "remote_blob": "cf87184ace56186dd0661d3f18cdf83fcf34677e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0008.intent.json",
+      "bytes": 556,
+      "sha256": "19677ae922a5c7a1b3acfbda1e163234fdf7e58aad3ad8f7a76ed7c5e8398e9a",
+      "remote_blob": "ad27564a2d8bd12d39e1189952d4ab8d5b7bfd23",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0008.result.json",
+      "bytes": 970,
+      "sha256": "110ba4be2083369e7f7a5ac7db81f4261a86d6a22f82e09660cfb315e22823d6",
+      "remote_blob": "dba3b57235795fbe052cd5095a7b3935aca2b70e",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0009.intent.json",
+      "bytes": 555,
+      "sha256": "5dc5f739353edd815bbb43ef43a0678d17ad2d37d29be45d530d93bc36c3fdef",
+      "remote_blob": "62a9219aa5d62e565cb256fa2015fdc3133e55b3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0009.result.json",
+      "bytes": 946,
+      "sha256": "db36a692628217af1364320efbc7232c2221b2f1e2bbad69bf59319adb8ed04b",
+      "remote_blob": "648b73fecfdd7ebfab99bcdf8511e9761922465f",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0010.intent.json",
+      "bytes": 557,
+      "sha256": "2c52453e71e4c72d076a3726cbb23d785d2da662d6ea35fc499015e0096290b3",
+      "remote_blob": "28b48c49764a8f0d4e7a11be54dd8063dfe36d26",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0010.result.json",
+      "bytes": 948,
+      "sha256": "cea51ef4f9df834c48c5cf98c6c0986a91579e519f6aeaf4dfc2b6e60e413a44",
+      "remote_blob": "6235003128be3026cd3a32606eba7ab8d8ae00ad",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0011.intent.json",
+      "bytes": 557,
+      "sha256": "ae185aec8f68012bdda8a6c76ebc6d1ea67eee9dbd52dcb21a0d18c2641735c5",
+      "remote_blob": "24e4ac86a6edfb17226e35a6ca5af39a500d5f01",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0011.result.json",
+      "bytes": 946,
+      "sha256": "71c52d1a351aa4631936ddbeea5dbfa1d650d1e78171bce9545919450b8cd100",
+      "remote_blob": "4d02eb160200ae123775a384082ea00b1ecf3191",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0012.intent.json",
+      "bytes": 555,
+      "sha256": "6b9701b548c5ffb3ac2285e05f18ad3a662b26e4c0f088c27247093250aae2e3",
+      "remote_blob": "5c30b3b2773fccc8684157a5f66368e59157f421",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0012.result.json",
+      "bytes": 946,
+      "sha256": "7a33bc9fe523a9c805304b02fb4b66c1542578f746db65fbfa5f971925f32499",
+      "remote_blob": "dd3ea09872b9f25b66ff853c23ebb0e5f609339a",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0013.intent.json",
+      "bytes": 556,
+      "sha256": "61d55ce06fe5521f894affc0583073ebae40999d5a6ba450814a03ff9b769ab5",
+      "remote_blob": "ce3f3e9f91e41603920470dce5e88df74b87b735",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/effect_0013.result.json",
+      "bytes": 947,
+      "sha256": "af65c74299ea36e69f7ab5fe027a437e3fa7a7e24a0466248af0b5a96b5691b5",
+      "remote_blob": "92055dcee76d5d70460f77e2698bc827f47a7bc6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/intent.json",
+      "bytes": 5845,
+      "sha256": "5e9ff1ad96bbc2f299a1817a27f6c1d01caaef13253a9d7015739c07befc8a94",
+      "remote_blob": "0e33ca87a266ac825a7eff098ad02ebd08954f90",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/lock_released.json",
+      "bytes": 116,
+      "sha256": "0df0edbd9cfed4be6719f456ff39fb6dcfdecb6f4e827558ae388a05b13a6eda",
+      "remote_blob": "fcccb7e4255cbccd3b16bc759f42382d2667d0f6",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/result.json",
+      "bytes": 20731,
+      "sha256": "42d33fdd81c88304bdbee430f2fcd2e8f5b8b4f72a318e8c9eb11e6c58a35595",
+      "remote_blob": "01def739b46663b1f06413fda1cdfcd6c4210c7d",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "reports/master_run/20261009/stage5/actual/stage5_chrome_cleanup_postprofile_01/target_snapshot.json",
+      "bytes": 3942,
+      "sha256": "cd69969b9e8e2a036f97b92b94e33afc25527649a466b1a43dbf85fbfe4e8273",
+      "remote_blob": "40cb45f91a5a104fe651bd67865cc0aadf5ee4d9",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_completed_master_step.py",
+      "bytes": 1942,
+      "sha256": "2f50c376df5919fc2e1f6686e66a35e9211c49d9094e602557d7cc318413402f",
+      "remote_blob": "a9fd6cf2dae9f393bfe4bf5a21d4b3e2035d68d2",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_operational_update.py",
+      "bytes": 4837,
+      "sha256": "10a4e259c27757833ef32b0c49c9945c9760a218e33f6eb89257e68538437bae",
+      "remote_blob": "8e2b291571b9c8358fbcc63484abd7deaf2a498c",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_packet_publication.py",
+      "bytes": 3090,
+      "sha256": "52114e2f843c06ecd625e8ede970ef7ffdf0ae778c9c52bdd63ec5a7c9aeac56",
+      "remote_blob": "9730cecfb27ec20a76d68fa7bb30f7c12791c1eb",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/prepare_master_postboot_gate_step.py",
+      "bytes": 4079,
+      "sha256": "e41e66a34df98935a32b05f0aabe9f23e8ef21155600ab463c4eff2fe0bb1c74",
+      "remote_blob": "ef7e525826b99e6de4490a791a94c9425d1f0db3",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "scripts/master_run/review_stage5_chrome_cleanup_actual01.py",
+      "bytes": 10192,
+      "sha256": "ac7a2a884ccaeac4ed7a0b00f6210e6f7e05d26345edbd457fb924e971a0913a",
+      "remote_blob": "019332f1791fb8b1daf1fa96e483ce1ccaafbc82",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    },
+    {
+      "path": "status/master_run_20261009.json",
+      "bytes": 21391,
+      "sha256": "5a80616ca29ffbf2cffc17cc3e7ccfe700eb4668f82909cce657474421aff56a",
+      "remote_blob": "ca69d348b562efe44cc82c4812bd544e526fdc59",
+      "actual_remote_bytes_read": true,
+      "byte_count_verified": true,
+      "sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "biological_acceptance": "NONE_SOURCE_AND_SYNTHETIC_PREPARATION_ONLY",
+  "final_remote_main": "582662acae62c6265940c806e0d38f795d891ae2",
+  "finished_utc": "2026-10-10T02:46:42.359724+00:00",
+  "elapsed_seconds": 17.532000000000153,
+  "verified_bytes": 177275
+}
