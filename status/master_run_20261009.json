@@ -87,7 +87,7 @@
   "scientific_status": "STAGE04_COMPLETE_VALIDATED_FULL196_RELEASE_AND_INDEPENDENT_REMOTE_PASS_STAGE5_NOT_RUN",
   "stage5": "NOT_RUN_BUILD_AND_SYNTHETIC_CHECKS_ONLY",
   "stage6": "NOT_RUN_SYNTHETIC_VECTOR_PROOFS_ONLY",
-  "updated_utc": "2026-10-10T04:48:14.866375+00:00",
+  "updated_utc": "2026-10-10T04:51:42.220278+00:00",
   "source_publication": {
     "commit": "3ac8527fb70df6c4010a277d8f23609fcddb69f2",
     "files": 147,
@@ -177,7 +177,7 @@
   "stage5_setup_preparation": "CURRENT_PUBLISHED_SOURCE_PINS_VERIFIED; FRESH_POSTBOOT_GATES_NEXT",
   "stage04_publication": "UPLOAD_VERIFIED_AND_INDEPENDENT_FRESH_FULL_PAYLOAD_PASS",
   "stage04_release": "https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1",
-  "stage5_operational_phase": "Verify fresh postfallback toolchain boot and exact retained native closure",
+  "stage5_operational_phase": "Verify fresh interop closure and publish exact checked-unlock G08 source",
   "stage5_actual_setup": {
     "stage5_setup_toolchain_actual_postiq_01": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
     "stage5_setup_runtime_actual_postiq_01": "FAILED",
@@ -224,7 +224,8 @@
     "stage5_owner_GCF_000009425_1_backing_01": "DEFERRED_RESOURCE",
     "stage5_cancel_exact_waiting_windows_01": "FAILED",
     "stage5_owner_GCF_000009425_1_backing_capacity_02": "DEFERRED_RESOURCE",
-    "stage5_setup_toolchain_actual_postiq_08": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK"
+    "stage5_setup_toolchain_actual_postiq_08": "PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK",
+    "stage5_interop_actual_postiq_06": "PASS_NONSCIENTIFIC_INTEROP_ONLY"
   },
   "stage04_independent_remote_gate": "PASS_FRESH_REMOTE_ACCEPTED_PRIMARY196_FULL_PAYLOAD",
   "stage04_independent_remote_receipt_sha256": "f14b097aac1705c2632307eaadf423febdc3154cafe370aace78dd8196044d49",
@@ -371,6 +372,8 @@
   "stage5_serial196_readiness": "SOURCE_PROCEDURE_READY_ONE_APPROVED_GENOME_PER_OWNER_MEASURE_FIRST_RAW_SCOPE_NO_NATIVE_ETA",
   "stage6_live_preview": "PASS_ACTUAL_PROVISIONAL_VECTOR_PDF_SVG_ITOL_INDEPENDENT_ARTIFACT_REVIEW_196TIPS_784NA_ZERO_CURATED_NO_FINAL_ACCEPTANCE",
   "incremental_stage5_stage6_decision": "IMPLEMENT_EXISTING_PER_GENOME_CLOSED_RAW_AND_INDEPENDENT_CURATION_SNAPSHOTS; FINAL196_784_GATE_PRESERVED",
-  "stage5_postfallback_boot": "TOOLCHAIN08_PASS_INDEPENDENT_EXACT_SOURCE_CLOSURE; BOOT8cca020a-71b2-4163-92dc-6087df12dd45; FIVE_MORE_GATE_ACCEPTANCES_PENDING",
-  "stage5_toolchain08_proof_sha256": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf"
+  "stage5_postfallback_boot": "TOOLCHAIN08_INTEROP06_PASS; G_STORAGE_DRIVEFS_RUNTIME_BACKING_UNC_PENDING",
+  "stage5_toolchain08_proof_sha256": "2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf",
+  "stage5_interop06": "PASS_ACTUAL_THREE_FIXTURES_AND_INDEPENDENT_CURRENT_BOOT_CLOSURE",
+  "stage5_gdrive08_source": "PASS_ACTUAL08_SIX_PIN_REFRESH_AND_CHECKED_UNLOCK_VARIANT_INDEPENDENT_SOURCE_REVIEW; ACTUAL_G_NOT_RUN"
 }

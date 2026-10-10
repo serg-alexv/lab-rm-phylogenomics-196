@@ -1,0 +1,36 @@
+{
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "fixture": "lease_expiry",
+  "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+  "owner_nonce": "43f5339c24b44a4293b9b3b80d804bea",
+  "lease_helper_sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8",
+  "lease_replace_stats": {
+    "schema": "STAGE05_OWNED_C_LEASE_REPLACE_STATS_V1",
+    "calls": 2,
+    "retries": 0,
+    "transient_failures": 0,
+    "transient_winerrors": {},
+    "last_replace_attempts": 1,
+    "last_replace_retries": 0,
+    "last_replace_seconds": 0.0,
+    "maximum_replace_seconds": 0,
+    "successful_calls": 2
+  },
+  "scientific_adoption_authorized": false,
+  "owned_closure_proven": true,
+  "actual_wsl_client_exit": {
+    "pid": 9756,
+    "creation_filetime": 134360813563821338,
+    "exit_filetime": 134360813599135657,
+    "cpu_seconds": 0.03125,
+    "executable": "C:\\Windows\\System32\\wsl.exe",
+    "session_id": 1,
+    "exited": true,
+    "exit_code": 0
+  },
+  "terminal_sha256": "52f302bf22ec1ca16d8fb7433f1d08edd55b21f1b640840e003d76bfc72ed036",
+  "actual_native_exit_code": -15,
+  "elapsed_seconds": 3.67200000000048,
+  "wsl_stdout_sha256": "340885cdd29a63819c99041cc03850063a02193e115908d45d7be63da640a35d",
+  "wsl_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

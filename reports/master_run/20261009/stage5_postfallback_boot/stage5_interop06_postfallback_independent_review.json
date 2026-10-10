@@ -1,0 +1,300 @@
+{
+  "schema": "STAGE05_POSTBOOT_COMPLETED_GATE_INDEPENDENT_V1",
+  "state": "PASS_COMPLETED_POSTBOOT_GATE_EXACT_SOURCE_CLOSURE_AND_BYTES",
+  "source_sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161",
+  "kind": "interop",
+  "spool": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_06",
+  "utc": "2026-10-10T04:49:48.532393+00:00",
+  "readonly_method": "Standard-library decoded receipts and SHA256; no producer imports, WSL, network, registry, signaling or lock mutation",
+  "scientific_execution_or_acceptance": "NONE_NONSCIENTIFIC_GATE_ONLY",
+  "old_scope_retroactively_passed": false,
+  "authority_commit": "ac0e1f70010ed1af6b9f6d6dd5ef06bac108b610",
+  "new_windows_boot": "2026-10-10T00:36:47.500000+00:00",
+  "boot_receipt_sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3",
+  "actual_result_sha256": "d0686459db9ab35c335897b44a68ba8f060fb77aff70fefeb566b41237aec269",
+  "unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e",
+  "detail": {
+    "linux_boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+    "native_commands": [
+      {
+        "label": "synthetic",
+        "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+        "argv": [
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+          "-B",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_linux_fixture.py",
+          "--harmless-child",
+          "exit0",
+          "--identity-output",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_06/exit0/linux/harmless_root_identity.json"
+        ],
+        "exit_code": 0,
+        "closure_sha256": "fa33dadc0083ccdca3921c61f2c3cf2ff65a99033e2ebd558fe17698ef7cbf75"
+      },
+      {
+        "label": "synthetic",
+        "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+        "argv": [
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+          "-B",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_linux_fixture.py",
+          "--harmless-child",
+          "sleep",
+          "--identity-output",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_06/lease_expiry/linux/harmless_root_identity.json"
+        ],
+        "exit_code": -15,
+        "closure_sha256": "6eeb47aa35addef379c95ff9e550d48e66466dace8feccf36455a9ac24e2a116"
+      },
+      {
+        "label": "synthetic",
+        "boot_id": "8cca020a-71b2-4163-92dc-6087df12dd45",
+        "argv": [
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+          "-B",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_linux_fixture.py",
+          "--harmless-child",
+          "escaped_parent",
+          "--identity-output",
+          "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_06/escaped_descendant/linux/harmless_root_identity.json"
+        ],
+        "exit_code": 0,
+        "closure_sha256": "ee096893f040558f0b77b4d98627389895176c0cc1b56416e102fec2be8d8208"
+      }
+    ]
+  },
+  "checked_files": {
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_interop_actual_postiq_06\\result.json": {
+      "bytes": 5509,
+      "sha256": "d0686459db9ab35c335897b44a68ba8f060fb77aff70fefeb566b41237aec269"
+    },
+    "stage5_interop_actual_postiq_06\\lock_released.json": {
+      "bytes": 179,
+      "sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e"
+    },
+    "stage5_interop_smoke_windows.py": {
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    "stage5_interop_linux_fixture.py": {
+      "bytes": 9426,
+      "sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\result.json": {
+      "bytes": 1357,
+      "sha256": "5aaf58b15dcb85b9233573683bc9c1dd9724553c26ee298b943b50ffd0297d15"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\wsl.launch.json": {
+      "bytes": 1584,
+      "sha256": "26e7b7dffa2cc2f1da9ffcbc3d4de804f57020ac4796c7d2ac4b174dce9f6c16"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\terminal.json": {
+      "bytes": 2878,
+      "sha256": "1670f4db3bcf9e50a9d5bbbae0ee59060da058aa070f06b9107410c5139eca27"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\admission.json": {
+      "bytes": 1771,
+      "sha256": "e10dc3427e7539242105c639e85a2e7063ed0a269ed350fb1b19422060fada63"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\latest_admission.json": {
+      "bytes": 1771,
+      "sha256": "e10dc3427e7539242105c639e85a2e7063ed0a269ed350fb1b19422060fada63"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.closure.json": {
+      "bytes": 637,
+      "sha256": "fa33dadc0083ccdca3921c61f2c3cf2ff65a99033e2ebd558fe17698ef7cbf75"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.command.json": {
+      "bytes": 1779,
+      "sha256": "1ebed92d51b2e93d88005c181af0e058f70ee8edef2151331e2a40ed63058fbf"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.launch.json": {
+      "bytes": 1252,
+      "sha256": "cdfbbfcee3de9931c4e2c95ff08bd29c9941255b07b2b017530fe6ae5714eca6"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.launch_intent.json": {
+      "bytes": 653,
+      "sha256": "1ee3ea47d0ef6aa71ffb5d1819a670aff5c187429a885927e0f593e8109c8584"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\attempt\\synthetic.stdout.txt": {
+      "bytes": 24,
+      "sha256": "7ccb63e8559a9986292c0476314c0118f6e50c015c143bd56f0c6954a20abba0"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\commands.jsonl": {
+      "bytes": 1681,
+      "sha256": "0641c8156bb3768f1ba3ccb85492c85a16c85732c56f18657ed2a4a3266816d6"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\harmless_root_identity.json": {
+      "bytes": 236,
+      "sha256": "fb57ab4d88e940487e3fb3cfb561a805ab82a5a898a391b6a8409012bcb48507"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\linux\\initial_actual_windows_lease.json": {
+      "bytes": 900,
+      "sha256": "198e5536916cbbb40b921e5527e2725605823c3bd17d6205ca9ecff131bf48ce"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\wsl.stdout.txt": {
+      "bytes": 2690,
+      "sha256": "d8cbdd2978c749ed3d93cd4b1a6956c6c57a3922dcb17e0b150a191839b8bbf8"
+    },
+    "stage5_interop_actual_postiq_06\\exit0\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\result.json": {
+      "bytes": 1327,
+      "sha256": "705df6ab5d1d054edc265d1fec1f7b7cddb48c7bdfaca019f66dfad253cc6929"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\wsl.launch.json": {
+      "bytes": 1605,
+      "sha256": "48ff3b8d57d7015bb3f44fa000eb6a096b1f1ae2aa8bebe6ef340a8c3c70d8b8"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\terminal.json": {
+      "bytes": 2920,
+      "sha256": "52f302bf22ec1ca16d8fb7433f1d08edd55b21f1b640840e003d76bfc72ed036"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\admission.json": {
+      "bytes": 1779,
+      "sha256": "36a02fe2e6cfe369a8d08ab116f3c0fad14a8358e9182d1b589808e22411252b"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\latest_admission.json": {
+      "bytes": 1779,
+      "sha256": "36a02fe2e6cfe369a8d08ab116f3c0fad14a8358e9182d1b589808e22411252b"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.closure.json": {
+      "bytes": 672,
+      "sha256": "6eeb47aa35addef379c95ff9e550d48e66466dace8feccf36455a9ac24e2a116"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.command.json": {
+      "bytes": 1854,
+      "sha256": "92160a964f2b450fadb539e19ba2bbd0ab661dd0bc7f20a55f39d317d9b578ef"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.launch.json": {
+      "bytes": 1280,
+      "sha256": "e719b2e08513c3c4293523dd4d53e92c39f814b9415348c6ee13ac738820824b"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.launch_intent.json": {
+      "bytes": 660,
+      "sha256": "ba3d7e7dd94b369cf9ee0789d23c6ce496bd39797ac5213bbdf26214f9ccbf59"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\attempt\\synthetic.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\commands.jsonl": {
+      "bytes": 1756,
+      "sha256": "0755e5ef10e22642540e9a9733b4ff45c7588dc56ebe0462d40674bd5c45b1e7"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\harmless_root_identity.json": {
+      "bytes": 236,
+      "sha256": "a7a0c4870d67de3fe89569b3e5d6277b7df3712f3df85f718f9e210634354107"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\linux\\initial_actual_windows_lease.json": {
+      "bytes": 907,
+      "sha256": "a0c51a83c83bc93c44d63fdb2c6a6f9c23d9aec574328823f88b094ce4dc7a9f"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\wsl.stdout.txt": {
+      "bytes": 2732,
+      "sha256": "340885cdd29a63819c99041cc03850063a02193e115908d45d7be63da640a35d"
+    },
+    "stage5_interop_actual_postiq_06\\lease_expiry\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\result.json": {
+      "bytes": 1369,
+      "sha256": "5b1791972495bb04def4363bb460d9223b923005947e08db6bb29baf1c89784b"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\wsl.launch.json": {
+      "bytes": 1624,
+      "sha256": "2608ee1fe82dd6a77b8bcaab808d1c89102da0a56877df9a87de84fa9a9df444"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\terminal.json": {
+      "bytes": 3046,
+      "sha256": "9fdc1108577e3df4009cd0a0846ce80fd2618ead6726005c6ec980a887b9e512"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\admission.json": {
+      "bytes": 1785,
+      "sha256": "443e20973679371bdf607073e9eecd7836bbd2f847e31ad246abfb07ca503360"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\latest_admission.json": {
+      "bytes": 1785,
+      "sha256": "443e20973679371bdf607073e9eecd7836bbd2f847e31ad246abfb07ca503360"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.closure.json": {
+      "bytes": 811,
+      "sha256": "ee096893f040558f0b77b4d98627389895176c0cc1b56416e102fec2be8d8208"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.command.json": {
+      "bytes": 1893,
+      "sha256": "445bbb3ec48c64535d0ad720d779ea58fc665a9d22b44f575000e6849076b9f7"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.launch.json": {
+      "bytes": 1313,
+      "sha256": "c4c11c4d45b41227f6a28dd23d91def95b13716b0cb66e2d8a1ebdf32141c8c9"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.launch_intent.json": {
+      "bytes": 675,
+      "sha256": "965b113bfb801fc86ecf1eb5541259a4054b8555529480d36b145e0866cdfeff"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\attempt\\synthetic.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\commands.jsonl": {
+      "bytes": 1795,
+      "sha256": "f0419c8ecd79f77bb31710638fff0ce493088002250acfe8835213c404c48f92"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\escaped_leaf_identity.json": {
+      "bytes": 243,
+      "sha256": "27414915d96ef829a40ce681fb082849bc9638a9ee8899b77cf3a218b00099f5"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\harmless_root_identity.json": {
+      "bytes": 245,
+      "sha256": "9d9c1a667ddf9d65f30e4567e20c5240399b464b9e8e54e133428b5489b9ca88"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\linux\\initial_actual_windows_lease.json": {
+      "bytes": 913,
+      "sha256": "e4de94041067bac92b43a5702efbbca9e0c8005fee5510d22b8ec02bd7a9cf5d"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\wsl.stdout.txt": {
+      "bytes": 2854,
+      "sha256": "26751df74ac83e0427e7db13ba8abd840f0c7b050bd9ab8bdec696122f075bfe"
+    },
+    "stage5_interop_actual_postiq_06\\escaped_descendant\\wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "STAGE05_G08_CHECKED_UNLOCK_PREPARER_INDEPENDENT_SOURCE_REVIEW_V1",
+  "state": "PASS_SOURCE_ONLY_CHECKED_UNLOCK_RECIPE_ACTUAL_G08_SOURCE_NOT_GENERATED",
+  "utc": "2026-10-10T04:46:25.453621+00:00",
+  "checked_files": {
+    "prepare_stage5_gdrive_checked_unlock_source.py": {
+      "bytes": 7944,
+      "sha256": "9e4051754c6ba41cedf120771a6dad46d3776537d8a200ee67bf6e6613e87b02"
+    },
+    "test_stage5_gdrive_checked_unlock_source.py": {
+      "bytes": 6186,
+      "sha256": "b037354e1f442465e771687199bfcad781021090b1f005a9df00603232ffc821"
+    },
+    "STAGE05_G08_CHECKED_UNLOCK_SOURCE_PREPARATION01.md": {
+      "bytes": 3247,
+      "sha256": "7b22d366f129c152b8ce839debd400ceedb704887c65c6165922c082a5976fd6"
+    },
+    "prepare_stage5_gdrive_postfallback_source.py": {
+      "bytes": 5015,
+      "sha256": "d8fb432cceb2d09e636d154de48b9f18b54a956ab8f2c722b5963f4c21724042"
+    },
+    "stage5_wsl_host_profile_fallback_owner.py": {
+      "bytes": 31541,
+      "sha256": "49596d3e9c0ef684978d0cbb05bc57d97b100f08ab77a7a4ece598abc2221299"
+    },
+    "stage5_gdrive_view_postprofile.py": {
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    }
+  },
+  "reviewer_source_sha256": "f8ec12110f49bdde61f4331f4b4200688def30c2b38f2660bc5ac3bfc6993b81",
+  "authored_pure_tests_passed": 9,
+  "actual_main_default_noop": "PASS",
+  "independent_native_admission_terminal_AST_subtrees_unchanged": [
+    "subprocess.Popen",
+    "api.identity",
+    "S.command_readback",
+    "terminal_gate",
+    "fresh_toolchain_gate",
+    "api.resources"
+  ],
+  "independent_complete_fake_TAIL_cases": [
+    {
+      "mode": "success",
+      "state": "PASS_NONSCIENTIFIC_G_DRIVE_VIEW_HELPER",
+      "STOP_preserved": false,
+      "events": [
+        "handle_close",
+        "unlock",
+        "lock_released.json",
+        "result.json"
+      ]
+    },
+    {
+      "mode": "close_exception",
+      "state": "FAILED",
+      "STOP_preserved": true,
+      "events": [
+        "handle_close",
+        "unlock",
+        "lock_released.json",
+        "result.json"
+      ]
+    },
+    {
+      "mode": "close_unproven",
+      "state": "FAILED",
+      "STOP_preserved": true,
+      "events": [
+        "handle_close",
+        "unlock",
+        "lock_released.json",
+        "result.json"
+      ]
+    },
+    {
+      "mode": "log_hash_error",
+      "state": "FAILED",
+      "STOP_preserved": true,
+      "events": [
+        "handle_close",
+        "unlock",
+        "lock_released.json",
+        "result.json"
+      ]
+    }
+  ],
+  "non_Windows_G_function_ASTs_and_six_fresh_pins": "UNCHANGED",
+  "scope": "Only exact d8fb six-pin output, reviewed49596 finalizer and narrow Windows finalization/return delta. No actual08 receipt reads, derived file generation, WSL/G/UNC/OS-lock/process API/native/Git effects.",
+  "actual_generated_source": "NOT_RUN_REQUIRES_REAL08_PROOF_AND_PEER_EXACT_HASHES_INDEPENDENT_SOURCE_PEER_AND_PUBLICATION",
+  "finalization": "Retained handle/log errors veto STOP clear and PASS; checked original unlock and durable/readback receipt precede exact owned STOP clear; final publication failure remains failed while preserving proved closure facts.",
+  "scientific_adoption": false,
+  "source_recipe_blockers": []
+}

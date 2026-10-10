@@ -1,12 +1,12 @@
 # Current execution status
 
-Updated 2026-10-10T04:48:14.866375+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
+Updated 2026-10-10T04:51:42.220278+00:00. Direct continuation active; automatic resume disabled. GitHub main and independently verified Release assets are the durable project authority.
 
 Stage4 native IQ-TREE 3.1.4 completed all 196 approved taxa, 100 partitions and 17,456 AA columns, including 1,000 SH-like aLRT replicates and 1,000 ultrafast bootstrap trees. Actual native and retained controller exit 0, empty Job, original byte unlock and power-state restoration are retained. No inference rerun is required.
 
 Independent acceptance attempt02 PASS: exactly196approved tips,389finite nonnegative branches,193paired supported internal branches and1000actual approved-panel bootstrap trees. The full native outputs and accepted sources are frozen with exact SHA manifests. The initial checker format failure and corrected reviewed source/41tests remain preserved. Native composition/model and near-zero-branch warnings remain unchanged. Portable Release upload and full producer readback PASS. Separate independent fresh GitHub verification PASS: all56ZIP members/55SUMS,25controls,196tips/389branches/193support pairs/1000bootstrap trees and exact unrooted NEXUS, with native closure and duplicate-group limitations preserved. Release: https://github.com/serg-alexv/lab-rm-phylogenomics-196/releases/tag/stage04-primary196-atomic-v1.
 
-Stage5 current execution: first postfallback toolchain08 gate actually passed with the unchanged reviewed6aa/24aa sources. The fresh Linuxboot is8cca020a-71b2-4163-92dc-6087df12dd45; exact toolchainproof2c306c3d2dab65cc4da996118ff521506e028cf3fdc0a8ff5d0a891d24b74cdf joins the same8GiB ext4 toolchain UUID and actual loop mount. Retained native/client exit0, owned descendant closure and original unlock independently pass. The fresh proc/meminfo snapshot is published as an observation, not detector acceptance. Interop, qualified Gsession/preserved storage rebind, DriveFS, runtime and backingUNC remain to qualify on this boot. First full-method genome is prepared and closed DEFERRED_RESOURCE with no accepted detector result; preserve its scientificidentity and52object backing snapshot. Accepted Stage4 and actual provisional196tip/784NA SVG/PDF are durable. Finalbiology/figure andVM recovery remain incomplete.
+Stage5 current execution: fresh toolchain08 and interop06 gates actually pass on Linuxboot8cca020a-71b2-4163-92dc-6087df12dd45. All three interoperability fixtures(normalexit, leaseexpiry and escapeddescendant) independently prove native/kernel/retainedclient closure and originalunlock. The exact G08 source has now been generated from six actual accepted toolchain08 receipt hashes, with the reviewed checked-unlock/receipt-beforeSTOP-clear finalizer. Independent source review passes byte recipes, unchanged non-WindowsG ASTs, currentboot proof and defaultNOOP; operativeSHAa5efd24a17655324b8a03d13bf74e06f77195cb401ca9db8a3f73f94e1ab8ada. Actual Gdiagnosis/mount has not run. The prepared52object accession namespace is preserved for a narrowly reviewed storage rebind; remaining boot-sensitive gates must pass before the first search. Guest memory observation exceeds the former admission threshold, but native capacity is not yet measured. Accepted Stage4 and provisional196tip/784NA figure remain durable; finalbiology/figure andVM recovery incomplete.
 
 Historical preboot setup receipts remain preserved. Boot-sensitive runtime, topology, storage and interop checks are refreshed in new spools; their current states appear in the completed-step records below.
 
@@ -214,3 +214,6 @@ Actual operational update: Verify actual3584MiB WSL profile and all-distro shutd
 
 Actual operational update: Verify fresh postfallback toolchain boot and exact retained native closure
 - `stage5_setup_toolchain_actual_postiq_08`: PASS_NONSCIENTIFIC_SETUP_AND_WINDOWS_READBACK; exact command, closure, resources and lock-release receipts are retained.
+
+Actual operational update: Verify fresh interop closure and publish exact checked-unlock G08 source
+- `stage5_interop_actual_postiq_06`: PASS_NONSCIENTIFIC_INTEROP_ONLY; exact command, closure, resources and lock-release receipts are retained.
