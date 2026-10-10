@@ -1,0 +1,59 @@
+{
+  "schema": "STAGE05_EXACT_CHROME_CLEANUP_SOURCE_PREPARATION_V1",
+  "state": "PASS_SOURCE_PREPARATION_AND_INDEPENDENT_PURE_REVIEW_ACTUAL_NOT_RUN",
+  "implementation": {
+    "source": "stage5_chrome_resource_cleanup.py",
+    "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+    "test_source_sha256": "4bcb3cb825b54bd92bd43f7a5119a1727c9bc0c5697322201d53d52be4e54865",
+    "original_windows_api_sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827",
+    "independent_source_review_sha256": "a57dc36d091a63c913d5cee0e4298a4fca5264fb65de41e283385be6c31f1477"
+  },
+  "scope": "NONSCIENTIFIC_CURRENT_SESSION_EXACT_CHROME_RETAINED_HANDLE_CLEANUP_ONLY",
+  "allowlist": ["C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"],
+  "limits": {
+    "enumerated_pid_entries_maximum": 4096,
+    "snapshot_targets_maximum": 128,
+    "effect_deadline_seconds": 180,
+    "each_terminal_wait_milliseconds_maximum": 5000,
+    "physical_and_commit_metadata_reserve_bytes_each": 268435456,
+    "prior_actual_closed_evidence_pairs_minimum": 1,
+    "prior_actual_closed_evidence_pairs_maximum": 16
+  },
+  "verification": {
+    "eleven_authored_pure_fake_tests": "PASS",
+    "independent_eleven_pure_fake_tests": "PASS",
+    "default_noop": "PASS",
+    "independent_exact_decoded_bytes_pin_race_case": "PASS",
+    "source_review_blockers": []
+  },
+  "closure_contract": [
+    "Original immutable WorkflowLock is the only project lock; exact PID, creation FILETIME, executable and owner SessionID bind each retained effect handle.",
+    "C intent precedes enumeration and each effect; owned STOP remains through all checked handle closure and explicit original lock unlock.",
+    "Each actual forced effect must prove positive exact retained terminal identity and exit code1223; failed CloseHandle retains owned evidence.",
+    "Final PASS requires all snapshot effects and owned handles closed, explicit original unlock, and exact own STOP removal. Partial or uncertain failure preserves STOP.",
+    "Prior actual result/unlock bytes must be pinned and closed; failed prior scientific status remains failed. The master owner must supply the complete current closure chain."
+  ],
+  "actual": {
+    "native_enumeration": "NOT_RUN",
+    "native_handle_acquisition": "NOT_RUN",
+    "process_termination": "NOT_RUN",
+    "windows_resource_gain": "NOT_MEASURED",
+    "original_workflow_lock": "NOT_ACQUIRED_BY_THIS_PREPARATION",
+    "wsl": "NOT_RUN",
+    "service_control": "NOT_RUN",
+    "image_inventory_capture_split": "NOT_RUN",
+    "remote_publish_download_restore": "NOT_RUN_BY_THIS_PREPARATION",
+    "local_eviction": "NOT_RUN"
+  },
+  "effect_authority": "The human explicitly authorized full working-host cleanup. Sole master owner decides contingent actual use after publication/readback and current closure/resource evidence.",
+  "limitations": [
+    "Force termination can discard unsaved Chrome session state.",
+    "Only enumerated snapshot targets qualify; no claim that later Chrome respawns close or that a particular RAM gain follows.",
+    "No argv, URLs, browser profile contents, process-tree effects, services, other applications, WSL or Git effects are allowed.",
+    "Actual cleanup results, fresh resource readings, and independent actual review are a later completed step; this packet does not admit science."
+  ],
+  "scientific_adoption_authorized": false,
+  "cleanup_performed": false,
+  "raw_ext4_and_vhdx_split_completed": false,
+  "host_wipe_ready": false
+}

@@ -1,0 +1,54 @@
+{
+  "actual_native_exit_code": 0,
+  "actual_python": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+  "actual_python_sha256": "4642463c684dc60366e0b15e31c16a3c350ab42720a5e4737757b82424b80f99",
+  "actual_windows_owner": {
+    "owner_creation_filetime": "134360735968349069",
+    "owner_pid": 19560,
+    "workflow_lock": {
+      "creation_filetime": 134359335921635133,
+      "file_index": 844424932784519,
+      "locked_byte": 0,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+      "volume_serial": 2430728143
+    }
+  },
+  "command_nonce": "646b3b13a50b467b927a89674baf0f85",
+  "expected_exception": null,
+  "files": {
+    "attempt/admission.json": "77dc4f1d3def20d2027c8993b9773d15c3696c16af51d3039270fab02f59f330",
+    "attempt/latest_admission.json": "77dc4f1d3def20d2027c8993b9773d15c3696c16af51d3039270fab02f59f330",
+    "attempt/synthetic.closure.json": "3afc9e03e3131c42bb05f8441e205500177af910dcc8eb3f3daa14a48e4eda14",
+    "attempt/synthetic.command.json": "46c8d364fb885f7ab95f40070d659675155036a153607112817c383f63802191",
+    "attempt/synthetic.launch.json": "5dfd359d913f00f28324e5e5163f9e7c7aa01fb2ab8b32fe40bb00323109a3bb",
+    "attempt/synthetic.launch_intent.json": "51438f6e935b4d85b4e47978ef157aa8ffe00139b72fe672529996887456e0f7",
+    "attempt/synthetic.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "attempt/synthetic.stdout.txt": "7ccb63e8559a9986292c0476314c0118f6e50c015c143bd56f0c6954a20abba0",
+    "commands.jsonl": "9a10f4543a734225bac3c4378eb45844141c7a9348f2fdb54da19a16863e3ca6",
+    "harmless_root_identity.json": "e5f877b98c64c0c8c2deabdd020868f95e0ea3ea2f41cb56b236022987f9016f",
+    "initial_actual_windows_lease.json": "1431c5be3def3089081fc693248e8a14b20c896cf6885dabc843c7a40ab05982"
+  },
+  "fixture": "exit0",
+  "owned_closure_proven": true,
+  "owner_nonce": "6b026c28193f45dbac0160f7799fa168",
+  "policy": {
+    "command_timeout_seconds": 30,
+    "commit_requirement_bytes": 134217728,
+    "drain_timeout_seconds": 4,
+    "incremental_windows_requirement_bytes": 67108864,
+    "lease_max_age_seconds": 3,
+    "linux_job_requirement_bytes": 67108864,
+    "linux_reserve_bytes": 67108864,
+    "minimum_disk_free_bytes": 33554432,
+    "resource_wait_seconds": 0,
+    "sampled_rss_stop_bytes": 268435456,
+    "termination_grace_seconds": 2,
+    "windows_reserve_bytes": 268435456
+  },
+  "schema": "STAGE05_INTEROP_SYNTHETIC_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+  "supervisor_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+  "worker_sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c"
+}

@@ -1,0 +1,23 @@
+{
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "command_nonce": "646b3b13a50b467b927a89674baf0f85",
+  "group_empty": true,
+  "root_exit_code": 0,
+  "scope_limit": "dedicated subreaper, setsid group, exact descendants and pidfds; no cgroup isolation",
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "survivors": [],
+  "termination_reason": null,
+  "tracked_descendants": [
+    {
+      "pgid": 15,
+      "pid": 15,
+      "ppid": 14,
+      "sid": 15,
+      "start_ticks": "55540",
+      "state": "S"
+    }
+  ],
+  "tracked_descendants_empty": true,
+  "unexplained_pgid_members": [],
+  "utc": "2026-10-10T02:39:58.866748+00:00"
+}

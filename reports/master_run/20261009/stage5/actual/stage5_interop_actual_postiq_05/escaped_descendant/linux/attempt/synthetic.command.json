@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+    "-B",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_linux_fixture.py",
+    "--harmless-child",
+    "escaped_parent",
+    "--identity-output",
+    "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_05/escaped_descendant/linux/harmless_root_identity.json"
+  ],
+  "boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "child_cpu_seconds": 0.13787,
+  "child_pid": 23,
+  "child_start_ticks": "56057",
+  "closure_path": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.closure.json",
+  "command_nonce": "e62be67c078c4fb69c2bd24b4269207f",
+  "cwd": "/mnt/c/Users/wheel/Documents/Codex/2026-10-09/new-chat/work/stage5_interop_actual_postiq_05/escaped_descendant/linux",
+  "elapsed_seconds": 1.201189664000026,
+  "execution": "PROCESS_EXITED",
+  "exit_code": 0,
+  "group_closure_sha256": "86a5d305900dc841d5693c74682b9c53073d807562cefae751e467b19a6fe2b8",
+  "identity": {
+    "fixture": "escaped_descendant",
+    "owner_nonce": "65c9e84ec38d4d9e9863b51e88ce99ee",
+    "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION"
+  },
+  "memory_measurement": "sampled tree RSS; per-process RLIMIT_AS inherited; no aggregate kernel cap",
+  "new_process_session": true,
+  "pgid": 23,
+  "runner_pid": 22,
+  "sampled_tree_peak_rss_bytes": 42258432,
+  "sid": 23,
+  "signalling": "VERIFIED_KERNEL_PIDFDS_ONLY",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "termination_reason": "Root exited with surviving owned descendants",
+  "utc": "2026-10-10T02:40:03.245875+00:00"
+}

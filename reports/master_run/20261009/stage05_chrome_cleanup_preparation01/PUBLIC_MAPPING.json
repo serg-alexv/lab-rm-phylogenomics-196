@@ -1,0 +1,54 @@
+{
+  "schema": "STAGE05_EXACT_CHROME_CLEANUP_PUBLIC_SOURCE_MAPPING_V1",
+  "state": "PASS_SOURCE_ONLY_INDEPENDENT_REVIEW_ACTUAL_NOT_RUN",
+  "actual_runtime_actions": false,
+  "scientific_adoption_authorized": false,
+  "cleanup_performed": false,
+  "file_count": 6,
+  "total_bytes": 43891,
+  "files": [
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_chrome_resource_cleanup.py",
+      "repository_path": "scripts/master_run/stage5_chrome_resource_cleanup.py",
+      "bytes": 18559,
+      "sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\test_stage5_chrome_resource_cleanup.py",
+      "repository_path": "scripts/master_run/test_stage5_chrome_resource_cleanup.py",
+      "bytes": 3985,
+      "sha256": "4bcb3cb825b54bd92bd43f7a5119a1727c9bc0c5697322201d53d52be4e54865"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\review_stage5_chrome_resource_cleanup_source01.py",
+      "repository_path": "scripts/master_run/review_stage5_chrome_resource_cleanup_source01.py",
+      "bytes": 7306,
+      "sha256": "574a7e9184220fe68f054a56b6393f8bd036e3b76b09ef277b3883515c19265c"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\STAGE05_CHROME_RESOURCE_CLEANUP_PREPARATION01.md",
+      "repository_path": "reports/master_run/20261009/stage05_chrome_cleanup_preparation01/STAGE05_CHROME_RESOURCE_CLEANUP_PREPARATION01.md",
+      "bytes": 6081,
+      "sha256": "0cb98d009a1cfed48196a93b3d42c0ab5dd536443f29edd0c857eec56118c1dc"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_chrome_resource_cleanup_independent_review01.json",
+      "repository_path": "reports/master_run/20261009/stage05_chrome_cleanup_preparation01/stage5_chrome_resource_cleanup_independent_review01.json",
+      "bytes": 4436,
+      "sha256": "a57dc36d091a63c913d5cee0e4298a4fca5264fb65de41e283385be6c31f1477"
+    },
+    {
+      "local_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage05_chrome_cleanup_source_preparation01\\PREPARATION_REPORT.json",
+      "repository_path": "reports/master_run/20261009/stage05_chrome_cleanup_preparation01/PREPARATION_REPORT.json",
+      "bytes": 3524,
+      "sha256": "57843eaa958934060ffbbe79cb00aecaa58c03e2f8439d5e28b26a6e96f0548c"
+    }
+  ],
+  "excluded_namespaces": [
+    "all_process_payloads_argv_urls_browser_profiles",
+    "all_unrelated_executable_inventory",
+    "all_credentials_private_homes_image_payloads",
+    "all_private_Copilot_raw_logs"
+  ],
+  "root_only_next": "Publish/readback source packet, choose current actual closure pairs, decide contingent actual cleanup, retain actual terminal/unlock evidence, reread resources, and obtain actual independent review before next science gate."
+}

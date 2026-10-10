@@ -1,0 +1,49 @@
+{
+  "schema": "STAGE05_GDRIVE_POSTPROFILE_SOURCE_PREPARATION_V1",
+  "state": "PREPARED_NOT_RUN_SIX_C_ONLY_CONTRACTS_PASS",
+  "utc": "2026-10-10T02:32:16.051935+00:00",
+  "preserved_inactive_source": "stage5_gdrive_view_postrepair.py",
+  "preserved_source_sha256": "a69a755dd044d72cfdfc49d85c150a43057ad69e9b4d70253792222410e41125",
+  "change_scope": "Only fresh toolchain directory, five completed receipt hashes, independent review path/hash and its lookup literal; eight reversible substitutions",
+  "source_bytes_reverse_to_preserved_G06": true,
+  "all_function_asts_identical_after_review_filename_normalization": true,
+  "unchanged_behavioral_guards": true,
+  "fresh_toolchain_directory": "stage5_setup_toolchain_actual_postiq_07",
+  "fresh_linux_boot": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "fresh_pins": {
+    "stage5_setup_toolchain_actual_postiq_07/result.json": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239",
+    "stage5_setup_toolchain_actual_postiq_07/lock_released.json": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516",
+    "stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7",
+    "stage5_setup_toolchain_actual_postiq_07/linux_terminal.json": "795ad1d9bd694be53f574f0044222723ec0769acc32c02476cc88e86c0b45ceb",
+    "stage5_setup_toolchain_actual_postiq_07/wsl_exit.json": "c9dffa018920feee0c90b59cd1d6e4dfe7dcfc2fbb3daa979a66293473220dfb",
+    "stage5_toolchain07_postprofile_independent_review.json": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+  },
+  "tests": {
+    "authored_C_only_contracts_pass": 6,
+    "default_noop_exit_code": 0,
+    "default_noop_WSL_launches": 0,
+    "default_noop_mounts": 0
+  },
+  "files": [
+    {
+      "path": "stage5_gdrive_view_postprofile.py",
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    },
+    {
+      "path": "test_stage5_gdrive_view_postprofile.py",
+      "bytes": 5934,
+      "sha256": "a3c06bc75e69f802b3b11de9400d35c3fee3b0cfae5e82e4df6ce6fbdeb7e413"
+    },
+    {
+      "path": "stage5_gdrive_view_postprofile_METHODS.md",
+      "bytes": 2545,
+      "sha256": "93ce1db7145598f626846014619a8fee166442d9c9b29a035fc26645294cad01"
+    }
+  ],
+  "actual_wsl_mount_unc_native_lock_execution": "NOT_RUN",
+  "scientific_execution_or_acceptance": "NONE",
+  "independent_source_review": "PENDING_AUTHORITY_REVIEW",
+  "publication": "PENDING_ROOT",
+  "old_results_retroactively_passed": false
+}

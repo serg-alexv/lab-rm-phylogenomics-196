@@ -1,0 +1,55 @@
+{
+  "actual_native_exit_code": 0,
+  "actual_python": "/mnt/c/Users/wheel/Documents/Codex/2026-10-08/lab-rm-phylogenomics-196/.tools/linux/detector_env/bin/python",
+  "actual_python_sha256": "4642463c684dc60366e0b15e31c16a3c350ab42720a5e4737757b82424b80f99",
+  "actual_windows_owner": {
+    "owner_creation_filetime": "134360735968349069",
+    "owner_pid": 19560,
+    "workflow_lock": {
+      "creation_filetime": 134359335921635133,
+      "file_index": 844424932784519,
+      "locked_byte": 0,
+      "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+      "volume_serial": 2430728143
+    }
+  },
+  "command_nonce": "e62be67c078c4fb69c2bd24b4269207f",
+  "expected_exception": "Retryable: Root exited with surviving owned descendants",
+  "files": {
+    "attempt/admission.json": "25d92222ae98767f3f771c3f985d1a00e96bd77e12c04742f772b6e8327a0758",
+    "attempt/latest_admission.json": "25d92222ae98767f3f771c3f985d1a00e96bd77e12c04742f772b6e8327a0758",
+    "attempt/synthetic.closure.json": "86a5d305900dc841d5693c74682b9c53073d807562cefae751e467b19a6fe2b8",
+    "attempt/synthetic.command.json": "963511e67802b967e4ee27372b2ad778f2886ec1ade97d20c45b6e5f9b74eaba",
+    "attempt/synthetic.launch.json": "d59bbcd9855ddf9cfa429dfd5877bacfb288c2046424c75cad0286134bcace2c",
+    "attempt/synthetic.launch_intent.json": "08134cc2fa112e761650aa192f02034e281b2877994d827862aecc3adbc1861c",
+    "attempt/synthetic.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "attempt/synthetic.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "commands.jsonl": "bc8adcd37160bba87f30fa9293f6f4b7298646b1dd9a073bcb937a52912cd3a2",
+    "escaped_leaf_identity.json": "a2328871414f999a4bca6c1fd72da5069aef559ee186ffd7669efb272c57d972",
+    "harmless_root_identity.json": "e4ac116c3b654dd9185115435b48351bc3dbe9c137a0c971c1a36c4caa50aec4",
+    "initial_actual_windows_lease.json": "638b8f72d1a4cf31803dd56a1065d9207bb32b14dac3808f5cb36b6f0f906fb1"
+  },
+  "fixture": "escaped_descendant",
+  "owned_closure_proven": true,
+  "owner_nonce": "65c9e84ec38d4d9e9863b51e88ce99ee",
+  "policy": {
+    "command_timeout_seconds": 30,
+    "commit_requirement_bytes": 134217728,
+    "drain_timeout_seconds": 4,
+    "incremental_windows_requirement_bytes": 67108864,
+    "lease_max_age_seconds": 3,
+    "linux_job_requirement_bytes": 67108864,
+    "linux_reserve_bytes": 67108864,
+    "minimum_disk_free_bytes": 33554432,
+    "resource_wait_seconds": 0,
+    "sampled_rss_stop_bytes": 268435456,
+    "termination_grace_seconds": 2,
+    "windows_reserve_bytes": 268435456
+  },
+  "schema": "STAGE05_INTEROP_SYNTHETIC_TERMINAL_V1",
+  "scientific_adoption_authorized": false,
+  "scope": "NONSCIENTIFIC_INTEROP_ONLY_NOT_BIOLOGY_OR_ADOPTION",
+  "state": "PASS_NONSCIENTIFIC_INTEROP_FIXTURE",
+  "supervisor_sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e",
+  "worker_sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c"
+}

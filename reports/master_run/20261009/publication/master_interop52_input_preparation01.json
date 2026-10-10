@@ -1,0 +1,406 @@
+{
+  "schema": "MASTER_INTEROP52_FROZEN_INPUT_PREPARATION_V1",
+  "state": "PASS_C_INPUTS_ONLY_ROOT_PLANNER_NOT_RUN",
+  "utc": "2026-10-10T02:43:29.671585+00:00",
+  "name": "master_interop52",
+  "base_head": "903b86b344c421720d3b6ab3d6361a649b872ce6",
+  "previous": "master_toolchain51",
+  "spool": "stage5_interop_actual_postiq_05",
+  "review": "stage5_interop05_postprofile_independent_review.json",
+  "phase": "postprofile interop05 closed PASS; inactive reviewed G and contingent Chrome source; cold owner remains blocked including STOP/unlock order",
+  "checked_files": {
+    "prepare_master_postboot_gate_step.py": {
+      "bytes": 4079,
+      "sha256": "e41e66a34df98935a32b05f0aabe9f23e8ef21155600ab463c4eff2fe0bb1c74"
+    },
+    "stage5_interop05_postprofile_independent_review.json": {
+      "bytes": 14391,
+      "sha256": "d1edbd9970f7f2427ce3abae563231e1b0c7e5a8421420ddba35cec8fe18a07a"
+    },
+    "master_toolchain51_remote_readback.json": {
+      "bytes": 13530,
+      "sha256": "53df57b263ca144c29630d34c25d9b28a4a4ece383fe818381ec53525f5f0e15"
+    },
+    "stage5_gdrive_view_postprofile.py": {
+      "bytes": 32583,
+      "sha256": "1ec2380d218128e325954552057ed1215268297862e2910550b2eb7c46a112e9"
+    },
+    "test_stage5_gdrive_view_postprofile.py": {
+      "bytes": 5934,
+      "sha256": "a3c06bc75e69f802b3b11de9400d35c3fee3b0cfae5e82e4df6ce6fbdeb7e413"
+    },
+    "stage5_gdrive_view_postprofile_METHODS.md": {
+      "bytes": 2545,
+      "sha256": "93ce1db7145598f626846014619a8fee166442d9c9b29a035fc26645294cad01"
+    },
+    "stage5_gdrive_view_postprofile_preparation01.json": {
+      "bytes": 2598,
+      "sha256": "7d9259672beb9032ed84f9d5e172f5c8522cf84b50bf710f007843a54330b446"
+    },
+    "stage5_gdrive_postprofile_source_independent_review01.json": {
+      "bytes": 5846,
+      "sha256": "8ad1436371e1329011aa9ae405409a4767b6109bda5b1eb16fe9606c10be2283"
+    },
+    "review_stage5_gdrive_postprofile_source01.py": {
+      "bytes": 6106,
+      "sha256": "1722accaa3abc44c177395c1c6a0d52ea658a9b242f7353f0b4fe635bc4817e8"
+    },
+    "stage5_interop05_actual_closed_derived_receipt01.json": {
+      "bytes": 5486,
+      "sha256": "7537cafac088e68194f5cb220f2999019f6740959accbc3bb979c693440adf7a"
+    },
+    "derive_stage5_interop05_actual_closed_receipt01.py": {
+      "bytes": 5121,
+      "sha256": "90ae054b1528079218c43eaf70f9dab03ad7b04487b81d941033f72d8d4b283c"
+    },
+    "stage05_chrome_cleanup_source_preparation01/PUBLIC_MAPPING.json": {
+      "bytes": 3018,
+      "sha256": "aaafdefc05c28dc1f3e657172bfc1d0cb581020359f3bf8c917e09543c12c7b4"
+    },
+    "stage05_cold_owner_unlock_order_addendum01.json": {
+      "bytes": 2430,
+      "sha256": "6f3d7989f08f957a8465d9b995777d853618a6ad078f46c2cc2af1ec8c0c741f"
+    },
+    "review_stage05_cold_owner_unlock_addendum01.py": {
+      "bytes": 3676,
+      "sha256": "793a9f806e3b03c7dc047a2b0f4912f8cdb194c484218ab4d87588fad81279db"
+    },
+    "stage5_gdrive_view_postrepair.py": {
+      "bytes": 32581,
+      "sha256": "a69a755dd044d72cfdfc49d85c150a43057ad69e9b4d70253792222410e41125"
+    },
+    "stage5_gdrive_view_session.py": {
+      "bytes": 32577,
+      "sha256": "42db8fe44fb2e6c4b8300c2415dc45a6aec20b115449bf76ad002eda34354fb8"
+    },
+    "review_stage5_postboot_gate.py": {
+      "bytes": 18772,
+      "sha256": "d6f06b442c2a8be35bb4779355c99d61e9de72314215c02e3165c2dfd235a161"
+    },
+    "postboot_authority_review01.json": {
+      "bytes": 22835,
+      "sha256": "4a0a307f4276b4babdcf9dedb44f080393638e888e8720354a647d502d49a143"
+    },
+    "master_newboot_reconciliation_actual01.json": {
+      "bytes": 7204,
+      "sha256": "07a6546d3100bd979884b5a1e4d0c44952a4fc3cdd5a020087d4bbbc5e6d8cf3"
+    },
+    "stage5_interop_actual_postiq_05/result.json": {
+      "bytes": 5443,
+      "sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8"
+    },
+    "stage5_interop_actual_postiq_05/lock_released.json": {
+      "bytes": 179,
+      "sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e"
+    },
+    "stage5_interop_smoke_windows.py": {
+      "bytes": 15528,
+      "sha256": "35ad3326488679770a74fe5b0df37e9b0518e317230f611b53c1aca1a3b4d898"
+    },
+    "stage5_interop_linux_fixture.py": {
+      "bytes": 9426,
+      "sha256": "38da0eb4e0bd4f1fdf11f90c3573fb693e833465bd7fd974aa7d46fdf456d28c"
+    },
+    "stage5_atomic_process.py": {
+      "bytes": 23533,
+      "sha256": "e5be89978d84c451e52d9c50a0fa147c33e3ad91f4b5efa41377016810000b1e"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "stage5_interop_actual_postiq_05/exit0/result.json": {
+      "bytes": 1339,
+      "sha256": "384706bf4a56209280ba899fa991be99cba0ca142e0380d2dc6d93173493f410"
+    },
+    "stage5_interop_actual_postiq_05/exit0/wsl.launch.json": {
+      "bytes": 1585,
+      "sha256": "6540a5bdd36f4a462504d64ee9df9147ac2642baa68b3995a1cb6bb34e28a2ad"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/terminal.json": {
+      "bytes": 2878,
+      "sha256": "0f691ec922410338c3221e6588ce88ba012d2ab6c928dfc5b128ebe0f9d39c5e"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/admission.json": {
+      "bytes": 1772,
+      "sha256": "77dc4f1d3def20d2027c8993b9773d15c3696c16af51d3039270fab02f59f330"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/latest_admission.json": {
+      "bytes": 1772,
+      "sha256": "77dc4f1d3def20d2027c8993b9773d15c3696c16af51d3039270fab02f59f330"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.closure.json": {
+      "bytes": 637,
+      "sha256": "3afc9e03e3131c42bb05f8441e205500177af910dcc8eb3f3daa14a48e4eda14"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.command.json": {
+      "bytes": 1790,
+      "sha256": "46c8d364fb885f7ab95f40070d659675155036a153607112817c383f63802191"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.launch.json": {
+      "bytes": 1252,
+      "sha256": "5dfd359d913f00f28324e5e5163f9e7c7aa01fb2ab8b32fe40bb00323109a3bb"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.launch_intent.json": {
+      "bytes": 653,
+      "sha256": "51438f6e935b4d85b4e47978ef157aa8ffe00139b72fe672529996887456e0f7"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/attempt/synthetic.stdout.txt": {
+      "bytes": 24,
+      "sha256": "7ccb63e8559a9986292c0476314c0118f6e50c015c143bd56f0c6954a20abba0"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/commands.jsonl": {
+      "bytes": 1692,
+      "sha256": "9a10f4543a734225bac3c4378eb45844141c7a9348f2fdb54da19a16863e3ca6"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/harmless_root_identity.json": {
+      "bytes": 236,
+      "sha256": "e5f877b98c64c0c8c2deabdd020868f95e0ea3ea2f41cb56b236022987f9016f"
+    },
+    "stage5_interop_actual_postiq_05/exit0/linux/initial_actual_windows_lease.json": {
+      "bytes": 900,
+      "sha256": "1431c5be3def3089081fc693248e8a14b20c896cf6885dabc843c7a40ab05982"
+    },
+    "stage5_interop_actual_postiq_05/exit0/wsl.stdout.txt": {
+      "bytes": 2690,
+      "sha256": "fb612089300248853a8c7e6a28a63c7b69e797b6b1a5f65a13afefe2902d978f"
+    },
+    "stage5_interop_actual_postiq_05/exit0/wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/result.json": {
+      "bytes": 1324,
+      "sha256": "2f41556260a73baafac027bdfc55d92032bf000af14abc708b89ca065af19b47"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/wsl.launch.json": {
+      "bytes": 1606,
+      "sha256": "9bef20b1eaf0e8197f4fa40c4f5e73c9791b532ac80f3c3475dd745d396ce6b1"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/terminal.json": {
+      "bytes": 2920,
+      "sha256": "7132f091cce27caf508a55dd8f122c7747b2bdb76aa7369aa3d70c5fd41dda45"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/admission.json": {
+      "bytes": 1778,
+      "sha256": "0a20ae0774f1b6c8d87f41cdcb28a1a548a0b737fdba79982dbfddb1e1096add"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/latest_admission.json": {
+      "bytes": 1778,
+      "sha256": "0a20ae0774f1b6c8d87f41cdcb28a1a548a0b737fdba79982dbfddb1e1096add"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.closure.json": {
+      "bytes": 672,
+      "sha256": "9b6eb773e8e45b5cd8fcd11272cfb423f6675a3a03af8bcde637796a684c9b31"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.command.json": {
+      "bytes": 1853,
+      "sha256": "a13d428c80c6985efe1f1237fa325883be9c347ac88ce437b9c72000291273d3"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.launch.json": {
+      "bytes": 1280,
+      "sha256": "e4f9b7f56fafacb49445756ecdd1930aee76d47b7c40336f40bf1eb22735be2a"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.launch_intent.json": {
+      "bytes": 660,
+      "sha256": "bd87042cdeac08413400dc93d5acee02369ed90f5971a41e62ceee0c04b52682"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/attempt/synthetic.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/commands.jsonl": {
+      "bytes": 1755,
+      "sha256": "9754fedfb0a86577402d82583ce8ecf9e1c46ef6f64be7e114f4f42ff5cad0ec"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/harmless_root_identity.json": {
+      "bytes": 236,
+      "sha256": "f8903d23c4cc768f71369f2e417b35e7908e32a536fe28cc357fa7afddd1426d"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/linux/initial_actual_windows_lease.json": {
+      "bytes": 907,
+      "sha256": "32d4c6514238f853f430491c8a699a156d048dfa16f9aa1b3556f4d989664c3e"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/wsl.stdout.txt": {
+      "bytes": 2732,
+      "sha256": "a9ad7665a6d37fdc93e2f302e158ccd5d40c0eada0540fef89120ba701b36bcc"
+    },
+    "stage5_interop_actual_postiq_05/lease_expiry/wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/result.json": {
+      "bytes": 1332,
+      "sha256": "90315163cf855f2965cbb48f5200e34494ea3635adbc33b4a698ad46473826e3"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/wsl.launch.json": {
+      "bytes": 1623,
+      "sha256": "19216a4b84a76f667ac15eaa6bd0228ec70baf37b2ffe7a2afc6307bb53b1642"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/terminal.json": {
+      "bytes": 3046,
+      "sha256": "2ca93772b1de8c42984070b807a09db4e2161b0d26bb18e534ec64cbed3fa219"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/admission.json": {
+      "bytes": 1785,
+      "sha256": "25d92222ae98767f3f771c3f985d1a00e96bd77e12c04742f772b6e8327a0758"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/latest_admission.json": {
+      "bytes": 1785,
+      "sha256": "25d92222ae98767f3f771c3f985d1a00e96bd77e12c04742f772b6e8327a0758"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.closure.json": {
+      "bytes": 811,
+      "sha256": "86a5d305900dc841d5693c74682b9c53073d807562cefae751e467b19a6fe2b8"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.command.json": {
+      "bytes": 1880,
+      "sha256": "963511e67802b967e4ee27372b2ad778f2886ec1ade97d20c45b6e5f9b74eaba"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.launch.json": {
+      "bytes": 1313,
+      "sha256": "d59bbcd9855ddf9cfa429dfd5877bacfb288c2046424c75cad0286134bcace2c"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.launch_intent.json": {
+      "bytes": 675,
+      "sha256": "08134cc2fa112e761650aa192f02034e281b2877994d827862aecc3adbc1861c"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/attempt/synthetic.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/commands.jsonl": {
+      "bytes": 1782,
+      "sha256": "bc8adcd37160bba87f30fa9293f6f4b7298646b1dd9a073bcb937a52912cd3a2"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/escaped_leaf_identity.json": {
+      "bytes": 243,
+      "sha256": "a2328871414f999a4bca6c1fd72da5069aef559ee186ffd7669efb272c57d972"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/harmless_root_identity.json": {
+      "bytes": 245,
+      "sha256": "e4ac116c3b654dd9185115435b48351bc3dbe9c137a0c971c1a36c4caa50aec4"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/linux/initial_actual_windows_lease.json": {
+      "bytes": 913,
+      "sha256": "638b8f72d1a4cf31803dd56a1065d9207bb32b14dac3808f5cb36b6f0f906fb1"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/wsl.stdout.txt": {
+      "bytes": 2854,
+      "sha256": "021fd66d256acbbdbdbf09f2af7156f4b4945262cb8e2a5ca8d99f26a1a4031b"
+    },
+    "stage5_interop_actual_postiq_05/escaped_descendant/wsl.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stage5_owner_lease.py": {
+      "bytes": 3934,
+      "sha256": "add2cbf12ee6d51bb10168b629a8befd2136f58e5194a6e7195fea25002620b8"
+    },
+    "stage5_work_storage.py": {
+      "bytes": 6917,
+      "sha256": "7e06eb842db147e6e26bfcd99e6ccffd2ab9fbcac106b122461b8df7f37edb6f"
+    },
+    "stage5_setup_windows.py": {
+      "bytes": 34158,
+      "sha256": "6aa21e4c43c3708abaea3d9fd07913222dee59d52093ddf96a24cddc6a205832"
+    },
+    "stage5_setup_storage_actual_postiq_02/result.json": {
+      "bytes": 4490,
+      "sha256": "6e6c70739fb79f0d6291d50190c9bcf07823a68eb61d3272a3ebc9d2901ea6e3"
+    },
+    "stage5_setup_storage_actual_postiq_02/lock_released.json": {
+      "bytes": 116,
+      "sha256": "1b1084ace1bc6bbfd4ab0dbba9918cc53968de3b1a95f4e944cc6ae0621333b1"
+    },
+    "stage5_setup_storage_actual_postiq_02/linux_terminal.json": {
+      "bytes": 2067,
+      "sha256": "5a75f1087deb6ccb8bc69f544e9ccd951f057f7bc9d1ef5730a501b1cb7eae74"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/result.json": {
+      "bytes": 4636,
+      "sha256": "edb490807bcf68917aa99148a78147e09a1a39c4ad0c65aaf91ad35cac5397a4"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/lock_released.json": {
+      "bytes": 116,
+      "sha256": "c75a74e260a0e96ed53ca2ed125baa9ae5ea08a02fc2ff329a29487ee19bfde2"
+    },
+    "stage5_setup_toolchain_actual_postiq_04/toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "3ad8067a031c960c0b44a24a6d19c2eb29552d466b211c078df17beb1174cfcc"
+    },
+    "stage5_setup_toolchain_actual_postiq_07/result.json": {
+      "bytes": 4618,
+      "sha256": "24b12359a603b0cc942681427c241bca8dce402ababeacbe52672da129847239"
+    },
+    "stage5_setup_toolchain_actual_postiq_07/lock_released.json": {
+      "bytes": 116,
+      "sha256": "08770432cb1a314e7cf48affd6c4c4e3c0e995ba41d083a1c12fdfe489830516"
+    },
+    "stage5_setup_toolchain_actual_postiq_07/toolchain_proof.json": {
+      "bytes": 1057,
+      "sha256": "be4c1d96c5b4d73cfdfc334e3b72e6dbb7f641451ded01b7d2c28910eb6d7af7"
+    },
+    "stage5_setup_toolchain_actual_postiq_07/linux_terminal.json": {
+      "bytes": 1672,
+      "sha256": "795ad1d9bd694be53f574f0044222723ec0769acc32c02476cc88e86c0b45ceb"
+    },
+    "stage5_setup_toolchain_actual_postiq_07/wsl_exit.json": {
+      "bytes": 1943,
+      "sha256": "c9dffa018920feee0c90b59cd1d6e4dfe7dcfc2fbb3daa979a66293473220dfb"
+    },
+    "stage5_toolchain07_postprofile_independent_review.json": {
+      "bytes": 6689,
+      "sha256": "16c63985e3cf1e2d64a8e526da8699eda0e0c5ae9c1009aace0e39dddd8e965f"
+    },
+    "stage05_cold_owner_source_independent_review01.json": {
+      "bytes": 7789,
+      "sha256": "53390992b3787fe39cae4415e00804ad40532adaf910c5a57fb369dfc735aef0"
+    },
+    "stage5_setup_cold_windows.py": {
+      "bytes": 58145,
+      "sha256": "e81ca9b5f2b3402b1fa983270bf32fe60b16cdf2b1c4d1c9f043bf7164c4a2d1"
+    },
+    "stage5_chrome_resource_cleanup.py": {
+      "bytes": 18559,
+      "sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf"
+    },
+    "test_stage5_chrome_resource_cleanup.py": {
+      "bytes": 3985,
+      "sha256": "4bcb3cb825b54bd92bd43f7a5119a1727c9bc0c5697322201d53d52be4e54865"
+    },
+    "review_stage5_chrome_resource_cleanup_source01.py": {
+      "bytes": 7306,
+      "sha256": "574a7e9184220fe68f054a56b6393f8bd036e3b76b09ef277b3883515c19265c"
+    },
+    "STAGE05_CHROME_RESOURCE_CLEANUP_PREPARATION01.md": {
+      "bytes": 6081,
+      "sha256": "0cb98d009a1cfed48196a93b3d42c0ab5dd536443f29edd0c857eec56118c1dc"
+    },
+    "stage5_chrome_resource_cleanup_independent_review01.json": {
+      "bytes": 4436,
+      "sha256": "a57dc36d091a63c913d5cee0e4298a4fca5264fb65de41e283385be6c31f1477"
+    },
+    "stage05_chrome_cleanup_source_preparation01/PREPARATION_REPORT.json": {
+      "bytes": 3524,
+      "sha256": "57843eaa958934060ffbbe79cb00aecaa58c03e2f8439d5e28b26a6e96f0548c"
+    }
+  },
+  "explicit_extras_count": 18,
+  "previous_readback_added_only_by_generic_owner": true,
+  "G_Chrome_cold_actual_operations": "NOT_RUN",
+  "Git_ref_remote_lock_WSL_native_actions": "NOT_RUN",
+  "generic_planner_execution": "ROOT_EXPLICIT_ONLY"
+}

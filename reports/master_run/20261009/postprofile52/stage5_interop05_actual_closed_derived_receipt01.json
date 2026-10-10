@@ -1,0 +1,104 @@
+{
+  "schema": "STAGE05_ACTUAL_INTEROP_AGGREGATE_DERIVED_CLOSURE_V1",
+  "state": "PASS_NONSCIENTIFIC_INTEROP_CLOSED_DERIVED_RECEIPT",
+  "scope": "DERIVED_READONLY_AGGREGATE_OF_ORIGINAL_ACTUAL_INTEROP05_CLOSURE_NOT_NEW_NATIVE_EVIDENCE",
+  "utc": "2026-10-10T02:42:35.576748+00:00",
+  "source_sha256": "90ae054b1528079218c43eaf70f9dab03ad7b04487b81d941033f72d8d4b283c",
+  "owned_closure_proven": true,
+  "original_lock_explicitly_released": true,
+  "unknown_closure_stop_preserved": false,
+  "scientific_adoption_authorized": false,
+  "actual_windows_owner": {
+    "pid": 19560,
+    "creation_filetime": 134360735968349069,
+    "exit_filetime": 0,
+    "cpu_seconds": 0.078125,
+    "executable": "C:\\Users\\wheel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "session_id": 1,
+    "exited": false,
+    "exit_code": null
+  },
+  "workflow_lock": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\workflow.lock",
+    "volume_serial": 2430728143,
+    "file_index": 844424932784519,
+    "creation_filetime": 134359335921635133,
+    "locked_byte": 0
+  },
+  "outer_result_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_05\\result.json",
+  "outer_result_sha256": "bc54dafb2c618aaae2dd4bbb548185acf56a69d7c7039fa1c1225e39b3d8e8b8",
+  "original_unlock_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop_actual_postiq_05\\lock_released.json",
+  "original_unlock_sha256": "0becb7e52d3c18a82d442c9cc79a4467ca14a26bd28a6a752481c6f6144dc78e",
+  "original_actual_owner_lock_sha256": "a31458a59181bd8263322e86744761c499fdfd3116538ac9ae8963c3fad4615c",
+  "independent_peer_path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-09\\new-chat\\work\\stage5_interop05_postprofile_independent_review.json",
+  "independent_peer_sha256": "d1edbd9970f7f2427ce3abae563231e1b0c7e5a8421420ddba35cec8fe18a07a",
+  "peer_byte_pins_reverified": 58,
+  "linux_boot_id": "f0ffcebc-4901-479d-9559-89d45e9cfa38",
+  "fixtures": [
+    {
+      "fixture": "exit0",
+      "result_sha256": "384706bf4a56209280ba899fa991be99cba0ca142e0380d2dc6d93173493f410",
+      "linux_terminal_sha256": "0f691ec922410338c3221e6588ce88ba012d2ab6c928dfc5b128ebe0f9d39c5e",
+      "wsl_launch_sha256": "6540a5bdd36f4a462504d64ee9df9147ac2642baa68b3995a1cb6bb34e28a2ad",
+      "actual_retained_wsl_exit_in_original_fixture_result": {
+        "pid": 23164,
+        "creation_filetime": 134360735969809409,
+        "exit_filetime": 134360735991217605,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "native_closure_sha256": "3afc9e03e3131c42bb05f8441e205500177af910dcc8eb3f3daa14a48e4eda14",
+      "native_command_sha256": "46c8d364fb885f7ab95f40070d659675155036a153607112817c383f63802191"
+    },
+    {
+      "fixture": "lease_expiry",
+      "result_sha256": "2f41556260a73baafac027bdfc55d92032bf000af14abc708b89ca065af19b47",
+      "linux_terminal_sha256": "7132f091cce27caf508a55dd8f122c7747b2bdb76aa7369aa3d70c5fd41dda45",
+      "wsl_launch_sha256": "9bef20b1eaf0e8197f4fa40c4f5e73c9791b532ac80f3c3475dd745d396ce6b1",
+      "actual_retained_wsl_exit_in_original_fixture_result": {
+        "pid": 15836,
+        "creation_filetime": 134360735991893678,
+        "exit_filetime": 134360736027053834,
+        "cpu_seconds": 0.0,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "native_closure_sha256": "9b6eb773e8e45b5cd8fcd11272cfb423f6675a3a03af8bcde637796a684c9b31",
+      "native_command_sha256": "a13d428c80c6985efe1f1237fa325883be9c347ac88ce437b9c72000291273d3"
+    },
+    {
+      "fixture": "escaped_descendant",
+      "result_sha256": "90315163cf855f2965cbb48f5200e34494ea3635adbc33b4a698ad46473826e3",
+      "linux_terminal_sha256": "2ca93772b1de8c42984070b807a09db4e2161b0d26bb18e534ec64cbed3fa219",
+      "wsl_launch_sha256": "19216a4b84a76f667ac15eaa6bd0228ec70baf37b2ffe7a2afc6307bb53b1642",
+      "actual_retained_wsl_exit_in_original_fixture_result": {
+        "pid": 3328,
+        "creation_filetime": 134360736027821716,
+        "exit_filetime": 134360736046702128,
+        "cpu_seconds": 0.03125,
+        "executable": "C:\\Windows\\System32\\wsl.exe",
+        "session_id": 1,
+        "exited": true,
+        "exit_code": 0
+      },
+      "native_closure_sha256": "86a5d305900dc841d5693c74682b9c53073d807562cefae751e467b19a6fe2b8",
+      "native_command_sha256": "963511e67802b967e4ee27372b2ad778f2886ec1ade97d20c45b6e5f9b74eaba"
+    }
+  ],
+  "current_STOP_check": {
+    "path": "C:\\Users\\wheel\\Documents\\Codex\\2026-10-08\\lab-rm-phylogenomics-196\\.work\\stage05_owned_closure_unproven.json",
+    "observed_utc": "2026-10-10T02:42:35.576748+00:00",
+    "plain_ancestry_checked": true,
+    "lstat_result": "FILE_NOT_FOUND",
+    "read_only": true
+  },
+  "retained_wsl_evidence_location": "Actual exit is embedded in each original fixture result.json and joined to its wsl.launch.json. No standalone wsl_exit.json is fabricated.",
+  "closure_limit": "Exact owned fixture native groups/descendants and retained WSL clients plus explicit original unlock; current STOP absence is a timestamped observation, not future admission.",
+  "original_artifacts_modified": false,
+  "actual_execution_or_adoption": "NONE_READONLY_DERIVATION_ONLY"
+}

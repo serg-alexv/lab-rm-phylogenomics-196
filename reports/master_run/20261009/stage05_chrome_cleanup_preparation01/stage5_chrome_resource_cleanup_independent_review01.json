@@ -1,0 +1,56 @@
+{
+  "schema": "STAGE05_EXACT_CHROME_RESOURCE_CLEANUP_SOURCE_INDEPENDENT_V1",
+  "state": "PASS_FROZEN_SOURCE_PURE_GUARDS_DEFAULT_NOOP_ACTUAL_NOT_RUN",
+  "utc": "2026-10-10T02:35:36.623470+00:00",
+  "source_sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf",
+  "test_source_sha256": "4bcb3cb825b54bd92bd43f7a5119a1727c9bc0c5697322201d53d52be4e54865",
+  "reviewer_source_sha256": "574a7e9184220fe68f054a56b6393f8bd036e3b76b09ef277b3883515c19265c",
+  "method": "Only C source reads/AST and pure fake guards with one automatically removed C tempfile fixture. No native enumeration, process handles, profile/URL/argv read, WSL, services, locks or ref changes.",
+  "verified_files": 4,
+  "checked_files": {
+    "stage5_chrome_resource_cleanup.py": {
+      "bytes": 18559,
+      "sha256": "85c46761991c657ecc86f2dad8bcd5d75e40e29d37dc14d234cfed19806836bf"
+    },
+    "test_stage5_chrome_resource_cleanup.py": {
+      "bytes": 3985,
+      "sha256": "4bcb3cb825b54bd92bd43f7a5119a1727c9bc0c5697322201d53d52be4e54865"
+    },
+    "atomic_iqtree_windows.py": {
+      "bytes": 40596,
+      "sha256": "80a202540920547087ad851483e238e31d1ea9b88b2fdc24511eda908f37d827"
+    },
+    "review_stage5_chrome_resource_cleanup_source01.py": {
+      "bytes": 7306,
+      "sha256": "574a7e9184220fe68f054a56b6393f8bd036e3b76b09ef277b3883515c19265c"
+    }
+  },
+  "tests": {
+    "eleven_authored_pure_fake_tests_independently_run": "PASS_EXIT0",
+    "separate_default_noop": "PASS_EXIT0_NO_PROCESS_EFFECTS",
+    "independent_already_read_bytes_pin_case": "PASS_GOOD_BYTES_AND_REJECT_SECOND_READ_HASH_MASKING_DIFFERENT_DECODED_BYTES"
+  },
+  "reviewed_boundaries": [
+    "Only exact installed Chrome executable in the actual owner SessionID can enter a target; process name, PID, child ancestry or arbitrary CLI path alone cannot qualify.",
+    "K32EnumProcesses4096 maximum rejects a full/truncated buffer; maximum128 snapshot targets; no process argv, URLs or profile payloads read/published.",
+    "Query handle first, separate retained terminate-capable handle with exact PID/birth/session recheck; identity checked again immediately before effect. No process-tree or name kill route.",
+    "Intent recorded before each retained-handle TerminateProcess1223; exact kernel terminal birth/exit plus expected1223 for actual effect; already-closed target is recorded with no effect.",
+    "Every owned metadata/effect handle requires checked CloseHandle; failure stays in RETAINED. An attempted effect cannot be closed without positive retained terminal proof.",
+    "Original typed immutable byte WorkflowLock and direct user control/current owner identity/pinned prior closed result+unlock bytes rechecked; no WSL or competing controller launches.",
+    "Whole180s metadata/effect deadline, each wait at most5s and remaining total,256MiB Windows metadata reserve. Partial failure preserves STOP and any unresolved handles/effect evidence.",
+    "STOP exists before enumeration/handles; explicit WorkflowLock exit and durable unlock receipt precede own STOP removal/finalPASS. Unlock/handle uncertainty cannot clear ownSTOP.",
+    "Only snapshot Chrome targets affected; new Chrome processes launched after snapshot are outside this scope. No global Chrome-empty or resource-gain guarantee.",
+    "Same user-authorized working-host cleanup scope; root chooses whether to run only after source publication/readback and exact latest closed-scope pins."
+  ],
+  "limitations": [
+    "Actual K32 enumeration, retained handle/effect API and resource benefit remain NOT_RUN in this source peer.",
+    "This is force termination of exact Chrome processes, so unsaved Chrome state may be discarded within the user-authorized host cleanup.",
+    "Prior result/unlock guards are generic pinned root-supplied closure evidence; root must select current complete actual scopes. The helper does not synthesize closure or admit science.",
+    "No graceful HWND closure: HWND reuse lacks the same retained kernel identity boundary. No other executable/session/service/WSL/profile/Git effect route."
+  ],
+  "producer_edits_by_reviewer": 0,
+  "required_before_actual": "Root publish and remote byte-readback final source85c46761; use original lock with exact current closed owner/result/unlock pins and independent actual review afterward.",
+  "scientific_execution_or_acceptance": "NONE",
+  "accepted_stage4": "PRESERVED",
+  "remaining_source_blockers": []
+}
