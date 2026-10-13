@@ -10,7 +10,7 @@ Updated 2026-10-10T10:52:19.880611+00:00. The user-approved full 100-marker gene
 | Five-marker pilot | COMPLETE_VALIDATED: five trees, 196 ASTRAL tips; raw and flat-q1 outputs preserved |
 | Historical concatenated primary Stage 4 | Previously COMPLETE_VALIDATED and Release UPLOAD_VERIFIED; accepted outputs preserved |
 | Stage 5 defense detection and curation | COMPLETED_VALIDATED; Release stage05-rm-inventory196-v1 UPLOAD_VERIFIED |
-| Final defense figure and biological review | Figure pipeline COMPLETED_VALIDATED locally; biological review and release publication pending |
+| Final defense figure and biological review | Figure pipeline COMPLETED_VALIDATED; Release stage06-figure-pipeline196-v1 UPLOAD_VERIFIED; final biological review pending |
 
 All input hashes match the approved manifest. Each alignment preserves its input IDs and exact amino-acid sequence after documented case/whitespace normalization and removal of alignment gaps. All sequences within each locus have equal aligned length; input and output hashes remained stable during the independent WSL audit. See [alignment results](reports/stage01/local_full100_20261010/alignment_complete89/ALIGNMENT_RESULT.md) and [native audit receipt](reports/stage01/local_full100_20261010/alignment_complete89/validation/receipt.json).
 
@@ -55,3 +55,14 @@ PADLOC completed for all 196 assemblies. DefenseFinder completed for all 196 ass
 The Stage-5 release preserves compact native detector outputs and reversible generated-ID/source-locus mappings for every assembly. Upstream genome/proteome/GFF/GBFF files are not duplicated.
 
 Publication is UPLOAD_VERIFIED as release stage05-rm-inventory196-v1; the downloaded remote detector archive exactly matched local SHA256 3d04d64f9f54d955ebe2e224d35b800509442e2549b7f7d892899072ea10947.
+
+---
+
+## Stage 6 figure-pipeline publication verification — 2026-10-13
+
+Release `stage06-figure-pipeline196-v1` is UPLOAD_VERIFIED. The downloaded remote archive exactly matched the locally generated Stage-6 release ZIP.
+
+SHA256: `c628582ba57453f81719020de0668e0341755e0611d3d74263c5aa6565de6c10`
+
+Final manuscript SVG/PDF/PNG figure binaries remain intentionally withheld pending submission.
+
