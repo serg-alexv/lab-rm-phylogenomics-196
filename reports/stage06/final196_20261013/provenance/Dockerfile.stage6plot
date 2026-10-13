@@ -1,0 +1,2 @@
+FROM lab-rm-stage5:2026-10-12
+RUN micromamba create -y -n stage6plot -c conda-forge -c bioconda "r-base=4.3.3" "r-ape=5.8_1" "r-ggplot2=3.5.2" "bioconductor-ggtree=3.10.0" "bioconductor-ggtreeextra=1.12.0" "r-ggnewscale=0.5.2" "r-svglite=2.2.1" && micromamba clean -a -y

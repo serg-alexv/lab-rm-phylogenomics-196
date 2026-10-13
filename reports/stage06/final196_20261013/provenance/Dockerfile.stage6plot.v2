@@ -1,0 +1,2 @@
+FROM lab-rm-stage6-plot:2026-10-13
+RUN micromamba install -y -n stage6plot -c conda-forge "r-phangorn" && micromamba clean --all --yes
