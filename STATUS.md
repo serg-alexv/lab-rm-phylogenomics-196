@@ -9,8 +9,8 @@ Updated 2026-10-10T10:52:19.880611+00:00. The user-approved full 100-marker gene
 | Full-run ASTRAL | NOT_RUN; waits for all 100 gene trees |
 | Five-marker pilot | COMPLETE_VALIDATED: five trees, 196 ASTRAL tips; raw and flat-q1 outputs preserved |
 | Historical concatenated primary Stage 4 | Previously COMPLETE_VALIDATED and Release UPLOAD_VERIFIED; accepted outputs preserved |
-| Stage 5 defense detection and curation | NOT_RUN |
-| Final defense figure and biological review | NOT_RUN; host is not ready to wipe |
+| Stage 5 defense detection and curation | COMPLETED_VALIDATED; release publication pending |
+| Final defense figure and biological review | Figure pipeline COMPLETED_VALIDATED locally; biological review and release publication pending |
 
 All input hashes match the approved manifest. Each alignment preserves its input IDs and exact amino-acid sequence after documented case/whitespace normalization and removal of alignment gaps. All sequences within each locus have equal aligned length; input and output hashes remained stable during the independent WSL audit. See [alignment results](reports/stage01/local_full100_20261010/alignment_complete89/ALIGNMENT_RESULT.md) and [native audit receipt](reports/stage01/local_full100_20261010/alignment_complete89/validation/receipt.json).
 
@@ -25,3 +25,33 @@ The original full run was observed active at 10:51:26 UTC under Windows owner 31
 Pilot visualization: [PDF](pilot_output/itol_visual_check_20261010/pilot_196_taxa.pdf), [SVG](pilot_output/itol_visual_check_20261010/pilot_196_taxa.svg), and [account tree](https://itol.embl.de/tree/15124432167298281791625397). Both exports contain all 196 labels. The ring represents operational taxonomic groups, not Host or defense calls. iTOL subscription restrictions prevent server-side annotation saving and batch API upload; the account tree is bare after reopening, while local exports preserve the styled draft. The legend overlaps some labels, so the layout remains a draft.
 
 The two completed loci and their original model/checkpoint files are preserved. This update includes only completed ADK artifacts; active ATP-synt_A artifacts are excluded. The publisher checks this commit's remote bytes after advancing main. Earlier evidence remains in Git history. No new pipeline was started and no scientific output was overwritten.
+
+---
+
+## Stage 5 R-M inventory completion — 2026-10-13
+
+The independent Stage-5 R-M inventory for the approved 196-genome panel is now **COMPLETED + VALIDATED** on the user's personal Windows/Docker workstation.
+
+This Stage-5 execution consumes the already accepted Stage-4 primary196 tree only later at the Stage-6 join step; R-M detection and curation themselves were independent of host-tree topology.
+
+Final R-M inventory:
+
+- 436 candidate physical loci
+- 417 COMPLETE_PREDICTED
+- 17 PARTIAL_CANDIDATE
+- 2 UNCERTAIN
+- Type I: 101 accepted systems / 86 positive genomes
+- Type II incl. IIG: 162 / 112
+- Type III: 33 / 30
+- Type IV: 121 / 100
+- 196 x 4 matrix: 784 cells
+- positive: 328
+- successful non-detection: 454
+- NA: 2
+- matrix consistency errors: 0
+
+PADLOC completed for all 196 assemblies. DefenseFinder completed for all 196 assemblies.
+
+The Stage-5 release preserves compact native detector outputs and reversible generated-ID/source-locus mappings for every assembly. Upstream genome/proteome/GFF/GBFF files are not duplicated.
+
+Publication state remains PENDING_RELEASE until the immutable Git tag/release and remote asset verification are complete.
